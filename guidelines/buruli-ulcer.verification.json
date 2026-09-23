@@ -1,0 +1,341 @@
+{
+ "guideline": "guidelines/buruli-ulcer.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases) 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement' (published 23 February 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12167611). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 17,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 17
+ },
+ "claims": [
+  {
+   "claim": "**Suspect Buruli ulcer in a slowly progressive, classically painless nodule, plaque, swelling or ulcer on exposed skin (usually a limb)** in someone exposed to an endemic area; early lesions are often mistaken for insect bites. The incubation period averages about five months (1–9 months), so cases peak in winter.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d829a13d77be67a3",
+     "n": 318,
+     "p": "The incu"
+    },
+    {
+     "h": "7f8706983f1f8e99",
+     "n": 451,
+     "p": "Early le"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Endemic areas are expanding:** the Mornington and Bellarine Peninsulas, Melbourne's inner north-west and Geelong, far-north Queensland near Cairns, and more recently Bateman's Bay in NSW. Victoria recorded 362 new cases in 2023.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b4a19e81f1f129b",
+     "n": 424,
+     "p": "Outbreak"
+    },
+    {
+     "h": "459ced66044c6290",
+     "n": 84,
+     "p": "Local tr"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Diagnose with IS2404 PCR on a swab taken around the undermined ulcer edge.** A negative PCR does not exclude it, especially in early lesions and children: biopsy non-ulcerated or PCR-negative suspicious lesions (centre of a nodule, margin of an ulcer) for PCR and to rule out other diagnoses such as malignancy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dbb1b6facf8a12b7",
+     "n": 252,
+     "p": "Use of I"
+    },
+    {
+     "h": "521d29a8eadf96dd",
+     "n": 423,
+     "p": "False ne"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Culture is less sensitive than PCR and can take up to 12 weeks.** Without PCR, a probable diagnosis rests on a compatible lesion, acid-fast bacilli on microscopy and endemic exposure.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9491457b8552ae11",
+     "n": 384,
+     "p": "Diagnosi"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **First line for most patients: eight weeks of oral combination therapy containing rifampicin** (high-quality evidence). Injectable regimens are no longer recommended; always use two drugs, never monotherapy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c0f6810c8e86b41",
+     "n": 179,
+     "p": "We recom"
+    },
+    {
+     "h": "3cc1819ee72e82d8",
+     "n": 287,
+     "p": "A dual a"
+    },
+    {
+     "h": "2b14f785655d5ed3",
+     "n": 72,
+     "p": "Monother"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Doses:** rifampicin 10 mg/kg a day (maximum 600 mg), plus one of clarithromycin 7.5 mg/kg twice a day (maximum 500 mg 12-hourly), moxifloxacin 400 mg daily or ciprofloxacin 500 mg 12-hourly. Choose the partner drug on comorbidities, interactions and tolerability; clarithromycin is the preferred macrolide.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2966b7e18c9c3ce0",
+     "n": 220,
+     "p": "Recommen"
+    },
+    {
+     "h": "3b11f56b99cc448b",
+     "n": 226,
+     "p": "The choi"
+    },
+    {
+     "h": "b1795321b9143bba",
+     "n": 112,
+     "p": "Clarithr"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**If rifampicin cannot be used, give clarithromycin plus a fluoroquinolone for eight weeks. In pregnancy, use rifampicin with clarithromycin.** Rifampicin has been PBS-listed for Buruli ulcer since November 2020.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d26630f64d7e136c",
+     "n": 217,
+     "p": "If rifam"
+    },
+    {
+     "h": "e18b28dd6d8ee32e",
+     "n": 134,
+     "p": "Since No"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Six weeks may suffice** for immunocompetent adults with a small ulcer (under 3 cm) or severe adverse effects, particularly alongside surgery. Avoid shortening when several risk factors for failure are present (weight over 90 kg, immunocompromise, rifampicin–clarithromycin, male sex); rifampicin with a fluoroquinolone may then be preferred.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af47767309e83f8f",
+     "n": 254,
+     "p": "Observat"
+    },
+    {
+     "h": "b8529582a2096989",
+     "n": 331,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**About 20% have drug toxicity** (higher over 65 years, in women and with renal impairment). Check FBE, liver and renal function at baseline; do a baseline ECG because clarithromycin and fluoroquinolones prolong QTc, repeating it at two weeks if at risk; renally adjust clarithromycin and ciprofloxacin.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa06196270862356",
+     "n": 191,
+     "p": "Drug‐rel"
+    },
+    {
+     "h": "aa1fe843e144af0a",
+     "n": 85,
+     "p": "Full blo"
+    },
+    {
+     "h": "a3d1c9f169d889b5",
+     "n": 397,
+     "p": "Clarithr"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Rifampicin interacts widely:** check every medicine, and advise alternative contraception for users of the oral pill or progestogen implant (a levonorgestrel IUD stays effective).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bff5b090e6b7e343",
+     "n": 524,
+     "p": "Pharmaco"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Warn patients that ulcers usually get bigger on treatment and will not be healed when antibiotics stop.** Median healing in Australia is 4.5 months: about three months under 2 cm, four months at 2–4 cm, six months over 4 cm.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cca8562dfbe4265",
+     "n": 345,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Aggressive surgery is no longer recommended,** but conservative debridement, narrow excision (usually after four weeks of antibiotics, allowing a shorter course for small lesions) or curettage still have a role, planned jointly with infectious diseases. Delay grafts or flaps until antibiotics are finished and the wound is healed or nearly so.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e1aac0ccbdc690d0",
+     "n": 277,
+     "p": "Aggressi"
+    },
+    {
+     "h": "5618c04b0d0ef817",
+     "n": 105,
+     "p": "Generall"
+    },
+    {
+     "h": "2118c0631fbc62f3",
+     "n": 178,
+     "p": "If perfo"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**About one in five patients develop a paradoxical reaction** (worsening induration, ulceration, pain, discharge or a new lesion after initial improvement). First exclude poor adherence; true failure in adherent patients is rare. Usually continue the same antibiotics at the same dose and duration.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a620c775d2eaf9bc",
+     "n": 297,
+     "p": "About on"
+    },
+    {
+     "h": "62851c19f8ee4024",
+     "n": 194,
+     "p": "If clini"
+    },
+    {
+     "h": "0ca7358192ed4062",
+     "n": 121,
+     "p": "If a par"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **For severe, destructive reactions, give prednisolone 0.5–1.0 mg/kg daily, with a four-to-eight-week taper;** the antibiotic course can be lengthened to 12 weeks overall.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5973795d13e1c23b",
+     "n": 193,
+     "p": "For seve"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Children get oral rifampicin with clarithromycin at the adult dose and duration.** Alternatives used in paediatric centres: azithromycin 10 mg/kg (maximum 500 mg) daily, or ciprofloxacin 15 mg/kg (maximum 500 mg) twice daily. Liquid rifampicin is not PBS-subsidised for this indication.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0adfb7fd6ffdd2e",
+     "n": 132,
+     "p": "The reco"
+    },
+    {
+     "h": "ee3e43466ce2f76a",
+     "n": 366,
+     "p": "Oral azi"
+    },
+    {
+     "h": "e4713d85edf1f41c",
+     "n": 114,
+     "p": "rifampic"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Paradoxical reactions occur in 39% of children;** a severe reaction warrants daily prednisolone at 0.5 mg/kg, capped at 40 mg, weaned slowly over a month or more.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2a72596850deff01",
+     "n": 60,
+     "p": "Paradoxi"
+    },
+    {
+     "h": "a6e1b3a9f10e59cb",
+     "n": 205,
+     "p": "Children"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Advise mosquito-bite avoidance** (repellent, covering clothing, screens), gloves and long sleeves when gardening, prompt washing and covering of cuts, and minimal contact with native possums and their droppings.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "baf0f5e0267c5d50",
+     "n": 245,
+     "p": "Enact mo"
+    },
+    {
+     "h": "3f5f5d74f15be289",
+     "n": 315,
+     "p": "Wear glo"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  }
+ ]
+}
