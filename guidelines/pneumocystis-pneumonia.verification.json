@@ -1,0 +1,141 @@
+{
+ "guideline": "guidelines/pneumocystis-pneumonia.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "OPEN AND QUOTED from European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)' (published 29 September 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12477467). The source is a guideline-adherence score that summarises the ECIL (haematology), AST-IDCOP (solid organ transplant) and US IDSA/NIH (HIV) PJP guidelines; those guidelines themselves were paywalled (ECIL) or bot-blocked (NIH OI guidelines at clinicalinfo.hiv.gov, HTTP 403) and were not read. WikEM's PJP page (CC BY-SA) was read but held its drug regimens in an unexpanded template, so this open ECMM summary was used instead.",
+ "summary": {
+  "total": 17,
+  "pass": 17,
+  "fail": 0
+ },
+ "claims": [
+  {
+   "claim": "**HIV:** risk rises in people who are not on (or not adherent to) antiretroviral therapy and have a CD4 count under 200 cells/mm³.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Patients with HIV are at increased risk if ART-naive and ART non-adherent and showing a CD4 cell count <200 cells/mm3.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Without HIV, the highest risk is after haematopoietic stem cell transplant (especially beyond day 100) and lung or kidney transplant.** Moderate risk: cancer or autoimmune disease on combined immunosuppression including glucocorticoids (median 30 mg prednisone-equivalent daily for 2–3 months or more). B-cell-depleting drugs appear to carry moderate to high risk; a single immunomodulator carries low risk.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Current data show that patients at high risk of PCP are haematopoietic stem cell transplant recipients (particularly >100 days post-transplant) and lung or kidney transplant recipients., Patients at moderate risk are patients with malignancies or autoimmune diseases receiving a combination of immunosuppressive therapy including glucocorticoids with a median dose of 30 mg prednisone equivalent daily for at least 2-3 months. Patients treated with a single immunomodulating drug are at low risk., An exception are patients treated with B cell-depleting agents, who seem to be at moderate to high risk.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Classic triad: breathlessness, fever and dry cough, often with tachypnoea and hypoxia.** People with HIV usually have the triad; people without HIV present less specifically, more often with breathlessness and respiratory failure, and deteriorate faster.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Besides the symptom triad of dyspnoea, fever and dry cough, additional tachypnoea and hypoxia contribute to the suspicion of PCP. Patients infected with HIV present the symptom triad regularly, whereas non-HIV-infected patients show less specific symptoms, with dyspnoea and respiratory failure being more common. … In patients without HIV infection, there is rapid respiratory failure with many inflammatory cells detected in bronchoalveolar lavage fluid (BALF) and fewer asci present.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Imaging:** bilateral symmetric reticular shadowing on chest X-ray; on CT, ground-glass opacity with peripheral sparing, thickened interlobular septa and crazy paving.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Radiographic imaging shows characteristic features, with bilateral symmetric reticular opacities in chest X-rays, and ground glass opacities with peripheral sparing, thickened interlobular septae, and the crazy paving phenomenon with CT.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **PJP is more lethal without HIV:** attributable mortality is 21.9–22.8% in non-HIV patients versus 3.1–9.9% in people with HIV.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "The PCP-attributed mortality among non-HIV patients is estimated at 21.9%-22.8% compared with 3.1%-9.9% among patients living with HIV.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Bronchoalveolar lavage is the best sample for everyone.** Induced sputum performs comparably in HIV but less consistently without HIV; nasopharyngeal swabs and expectorated sputum have low sensitivity and are a last resort.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "BALF is the sample with the highest sensitivity and specificity [e.g. conventional PCR (cPCR) sensitivity 97.2%, specificity 95.4%] for both HIV and non-HIV populations. Induced sputum (IS) has comparable test performance for individuals infected with HIV (e.g. cPCR sensitivity 95.6%, specificity 91.7%). In contrast, for non-HIV patients the results are less consistent. Two meta-analyses (Brown et al. and Senécal et al.) evaluated PCR diagnostics in BALF and IS. Brown et al. did not report relevant differences for cPCR and quantitative PCR (qPCR) performed on these samples, whereas Senécal et al. found reduced specificity, particularly in IS. We therefore assigned three points for using BALF and two points for IS. Nasopharyngeal swabs or expectorated sputum have low sensitivity and therefore should only be used when no other options are feasible.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Immunofluorescence microscopy is the standard test;** conventional stains are less sensitive. A negative microscopy result does not exclude PJP, especially without HIV.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "The standard microbiological test to detect the pathogen can be achieved via visualization of asci and trophic forms of P. jirovecii by immunofluorescence (IF). We valued the procedures with three points. Direct staining of BALF with May-Grünwald, Wright-Giemsa or Grocott-Gömöri methenamine silver stain is less sensitive and these techniques are therefore awarded two points. It is important to note that negative microscopy does not rule out PCP, especially in patients without HIV, because they appear to have fewer asci and trophic forms present in the lung.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**PCR is highly sensitive (negative predictive value 100%) but cannot reliably separate infection from colonisation;** no validated cycle-threshold cut-off exists.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Recently, more data have become available on the use of PCR techniques demonstrating a high sensitivity and a negative predictive value (NPV) of 100%. As a result we allocated three points for this. Higher fungal loads are associated with low cycle threshold (ct) values, but until now no validated cut-off values have been determined to differentiate infection from colonization.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Raised LDH and serum beta-D-glucan support the diagnosis;** interpret beta-D-glucan against co-medications and co-infections, and it is unclear whether a negative result excludes PJP without HIV.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Another indicator suggestive of PCP is an elevated lactate dehydrogenase (LDH). We therefore allocated one point for the laboratory testing of LDH. Alongside LDH, elevated β-D-glucan (BDG) in serum also supports suspicion for PCP infections. Hence, BDG measurement was weighted with two points. However, it is important to emphasize that although both markers may aid in the diagnostic process, interpretation of BDG results has to occur in the context of the patient's comedications and potential coinfections. Furthermore, in non-HIV patients, data remain sparse and it is still unclear whether a negative BDG reliably rules out PCP.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **First line is co-trimoxazole: trimethoprim 15–20 mg/kg plus sulfamethoxazole 75–100 mg/kg.** Oral is fine for mild and moderate disease when absorption is not impaired; give it IV in moderate to severe disease and switch to oral once improving. Treat for at least 14 days if moderate and 21 days if severe.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "The first-line treatment for PCP is trimethoprim/sulfamethoxazole, also known as co-trim, septrin or bactrim, administered at a dosage of trimethoprim 15-20 mg/kg and sulfamethoxazole 75-100 mg/kg. An oral administration route is appropriate in mild and moderate cases without factors impairing gastrointestinal absorption. In moderate to severe cases, IV application is recommended and an oral administration can be considered once the patient's clinical condition is improving. Treatment duration should be at least 14 days in moderate cases and 21 days in severe cases.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Alternatives (weaker evidence):** pentamidine 4 mg/kg/day; primaquine 30 mg/day with clindamycin 600 mg 8-hourly; atovaquone 750 mg every 8–12 hours; or dapsone 100 mg with a second drug at 15 mg/kg/day. Before switching, judge whether co-trimoxazole side effects can be managed.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "For alternative treatments, such as pentamidine (4 mg/kg/day), primaquine/clindamycin (30 mg/day + 600 mg every 8 h), atovaquone (750 mg every 8-12 h daily) and dapsone (100 mg plus 15 mg/kg/day), we allocated two points. Prior to switching to second-line treatments, a thorough evaluation should determine whether the adverse events of trimethoprim/sulfamethoxazole are manageable, as evidence supporting alternative regimes is limited.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Co-trimoxazole side effects are common (20–80%):** rash (rarely Stevens–Johnson syndrome), fever, leucopenia, thrombocytopenia, azotaemia and hyperkalaemia. Treat mild reactions symptomatically; stop and switch for severe or life-threatening ones.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Adverse effects of trimethoprim/sulfamethoxazole are frequent (20%-80%) and include rashes (rarely Stevens-Johnson syndrome), fever, leukopenia, thrombocytopenia, azotaemia and hyperkalaemia. Mild reactions can be managed symptomatically with antihistamines, antiemetics and antipyretics. In case of severe reactions or life-threatening events, therapy should be discontinued and switched to alternative therapies.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Adjunctive corticosteroids for moderate to severe PJP in HIV,** started as early as possible and tapered per guideline; they reduce mortality. Without HIV they are not routine but may be considered case by case in respiratory failure.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "In this population, the use of adjunctive corticosteroids has been shown to improve the overall mortality in cases with moderate to severe PCP. Prednisone should be initiated as soon as possible and tapered according to current guideline recommendations. … In contrast, adjunctive corticosteroids are not routinely recommended in PCP patients without HIV infection. However, in case of respiratory failure they might be considered on an individual basis.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**In HIV, start antiretroviral therapy within 2 weeks of the PJP diagnosis;** early start was non-inferior or superior to delay.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "newer studies revealed that early initiation of ART was non-inferior or superior to delayed initiation with regards to outcome. Therefore, ART should ideally be started within 2 weeks of diagnosing PCP.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Repeat imaging to follow response** (radiographic improvement at a median of 13 days). Do not use beta-D-glucan or BAL PCR to monitor treatment: both can stay positive after cure.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Vogel et al. reported radiographic improvement becoming evident after a median of 13 days. … Monitoring therapy success using BDG or PCR-based DNA detection is not recommended as both can be elevated after successful treatment.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **HIV: start secondary prophylaxis straight after treatment and continue until CD4 is over 200 cells/mm³ for at least 3 months** (or CD4 100–200 with undetectable viral load for 3–6 months). Restart if CD4 falls below 100, or is 100–200 with detectable virus.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "In individuals with HIV, prophylaxis should be initiated immediately after completing PCP treatment and continued until the CD4 count exceeds 200 cells/mm³ for at least 3 months. In patients with a CD4 count between 100 and 200 cells/mm³ and undetectable viral RNA for 3-6 months, prophylaxis can also be discontinued. Regardless of viral load, secondary prophylaxis should be restarted if the CD4 count falls under 100 cells/mm³ or if it remains between 100 and 200 cells/mm³ with detectable viral RNA.",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Without HIV, secondary prophylaxis is also recommended after treatment,** stopping on an individual basis once immunity has recovered (ECIL). The transplant guideline (AST-IDCOP) does not recommend it for solid organ recipients.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "In non-HIV patients, secondary prophylaxis is also recommended after successful treatment of PCP. However, the recommendation on the duration remains vague. The ECIL guideline advises deciding on an individual basis once the immune system of the patients has fully recovered. … Although secondary prophylaxis is not recommended in SOT recipients",
+   "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  }
+ ]
+}

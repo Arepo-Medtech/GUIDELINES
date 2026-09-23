@@ -1,0 +1,235 @@
+{
+ "guideline": "guidelines/endemic-mycoses.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "PARAPHRASED AND HASH-ANCHORED from European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC) 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)' (published 6 August 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Elsevier Ltd (author manuscript; no open licence stated on the PMC page, which shows only the PMC copyright notice) (read at PMC article page 'Copyright and License information' (https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/)). The source's words are NOT reproduced here. AI-USE CLAUSE (recorded per owner decision, not used to exclude): the Lancet site-wide footer reads \"All content on this site: Copyright © 2026 Elsevier Ltd., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies.\" (read at https://www.thelancet.com, as recorded in research/infectious.json). Text taken from the PMC author manuscript; figures and supplementary appendix not used.",
+ "summary": {
+  "total": 13,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 13
+ },
+ "claims": [
+  {
+   "claim": "**Get tissue whenever possible:** histopathology with fungal stains (such as Grocott methenamine silver) plus fungal culture. Blood cultures pick up only about half of cases in advanced HIV.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "79e998df2c776905",
+     "n": 181,
+     "p": "Whenever"
+    },
+    {
+     "h": "17c96672a27f0a0d",
+     "n": 91,
+     "p": "Conventi"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Histoplasma antigen in urine or serum** gives a rapid probable diagnosis and can be followed over time. Serology helps most in chronic pulmonary histoplasmosis and may fail in severe immunosuppression.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e7d2128d9eed984",
+     "n": 333,
+     "p": "Serologi"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Exposure history matters:** the fungus lives in soil contaminated by bat and bird droppings; it is highly endemic in the Mississippi, Ohio and St Lawrence basins and common in Latin America, but occurs worldwide, including Africa and Europe.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "589719c364574f66",
+     "n": 523,
+     "p": "Histopla"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Moderate-to-severe disease in advanced HIV: induction with liposomal amphotericin B,** which improved survival over the deoxycholate form in a randomised trial (3 mg/kg daily). Other amphotericin formulations are acceptable if the liposomal form is unavailable.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e762408d2a5e2af9",
+     "n": 199,
+     "p": "L-AmB is"
+    },
+    {
+     "h": "44d76c28c9df51a8",
+     "n": 198,
+     "p": "In a ran"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **After induction for disseminated disease, give itraconazole 200 mg twice daily, usually for at least a year.** Itraconazole alone is an alternative induction option for less severe infection.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9f046a439a0ab50",
+     "n": 154,
+     "p": "After su"
+    },
+    {
+     "h": "996b7e89a47c85d8",
+     "n": 89,
+     "p": "Itracona"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Prefer itraconazole to fluconazole** for milder disease: fluconazole works less often and resistance can emerge on it. Voriconazole is not routinely recommended.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29f89929a5cf4e5c",
+     "n": 240,
+     "p": "In indiv"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**In people without immunosuppression, treat for at least 6 months,** adjusting for severity and site.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9642936cd58f02f",
+     "n": 197,
+     "p": "Antifung"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Histoplasmosis on a TNF-alpha inhibitor: stop the TNF blocker during antifungal treatment.** Immunosuppression may be restarted after a clinical response, about 12 months of antifungal therapy and a negative Histoplasma antigen.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e1c7eee0746760bd",
+     "n": 402,
+     "p": "Histopla"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Diagnose by culture and histopathology of skin or tissue aspirates or biopsies;** culture is the most sensitive test but can be negative, and histopathology is often negative. Imaging is rarely needed unless spread to bone or deeper tissue is suspected.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "34ce0c71a8cee6b8",
+     "n": 301,
+     "p": "We recom"
+    },
+    {
+     "h": "f507ba35b5356cb7",
+     "n": 128,
+     "p": "The stan"
+    },
+    {
+     "h": "6a1fcb7bfba9f010",
+     "n": 77,
+     "p": "Histopat"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Species matters:** *S. schenckii* usually causes chronic subcutaneous disease, whereas zoonotic *S. brasiliensis* (spreading from Brazil) often causes more severe infection.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35e793a852e6865a",
+     "n": 231,
+     "p": "The clin"
+    },
+    {
+     "h": "63038c1112828d90",
+     "n": 128,
+     "p": "the numb"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Cutaneous and lymphocutaneous disease: itraconazole 200 mg orally once daily, continued for 2–4 weeks after the lesions resolve** (typically 3–6 months in total). Response rates with itraconazole are 80–100%.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6332adcb5b86af2",
+     "n": 196,
+     "p": "For cuta"
+    },
+    {
+     "h": "43113ed3e462fdcb",
+     "n": 70,
+     "p": "therapy "
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Alternatives: terbinafine 500 mg orally twice daily, or itraconazole increased to 200 mg twice daily.** Do not use voriconazole or isavuconazole, which appear ineffective. Potassium iodide works but is poorly tolerated.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6444b7403596efec",
+     "n": 192,
+     "p": "Alternat"
+    },
+    {
+     "h": "60841995110d8141",
+     "n": 357,
+     "p": "Saturate"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Disseminated or severe pulmonary sporotrichosis: liposomal amphotericin B 3–5 mg/kg daily (or deoxycholate amphotericin 0·7–1·0 mg/kg daily), then step down to itraconazole 200 mg twice daily for at least 12 months** once the patient is improving.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "25bd61fa5dff0347",
+     "n": 294,
+     "p": "For diss"
+    }
+   ],
+   "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23",
+   "dose": true
+  }
+ ]
+}

@@ -86,3 +86,27 @@ The rows noted in earlier waves as having no free source at all are still open: 
 | `venous-leg-ulcer` | The source covers assessment only, with no compression section | Find a management source |
 | `neovascular-age-related-macular-degeneration` | Optometry Australia 2019 predates faricimab and brolucizumab, which are both PBS-listed | Find a newer source |
 | `androgen-deficiency-in-men` | ESA 2016 predates TRAVERSE. The dose table came out interleaved. | Find a newer source |
+
+---
+
+## 5. After Wave 4 (2026-09-24)
+
+The corpus has 525 guidelines, and all 525 pass. Of the 393 true-gap rows, 216 are now covered, which leaves **177**.
+
+Three planned guidelines weren't written, all for the same reason: every usable copy was behind a bot challenge, paywall or login.
+
+| Item | Blocked sources | Status |
+|---|---|---|
+| `chemotherapy-induced-neutropenia` (adult G-CSF) | AGIHO 2026 (CC BY), ASCO 2026. eviQ has no G-CSF page. | Gap. Nearest coverage is one line in `anticancer-drugs-general-principles`. |
+| `hypertrophic-cardiomyopathy` rebuild on ESC 2023 (mavacamten) | OUP plus four repository copies | Unchanged. It still has no mavacamten content. |
+| `central-precocious-puberty` | Endocrine Society 2026 is paywalled. The 2019 consortium paper's licence is unclear. | Gap |
+
+New link: *Chronic eosinophilic leukaemia*, *Hypereosinophilic syndrome* and the three imatinib *Myelodysplastic/Myeloproliferative disorder* rows now sit with `hypereosinophilic-syndrome`. That settles Unresolved #3 in `myeloproliferative-neoplasms`.
+
+These PBS rows were deliberately not attached, because their source doesn't support them:
+- *Megaloblastic anaemias* (folinic acid)
+- *Constitutional delay of growth or puberty*
+- *Central precocious puberty*
+- the two paediatric glioma rows
+
+Sources that were blocked and should be retried: the 2024 ANZ cardiac amyloidosis consensus, the NIH/CDC opportunistic-infection guidelines, the international TSC consensus 2021, ERS 2024 chronic breathlessness, and the NLA 2025 chylomicronaemia management review.

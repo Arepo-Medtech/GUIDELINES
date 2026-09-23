@@ -1,0 +1,309 @@
+{
+ "guideline": "guidelines/pancreatic-adenocarcinoma.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826) 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer' (published 9 October 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12546840 (Europe PMC returned HTTP 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 16,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 16
+ },
+ "claims": [
+  {
+   "claim": "**KRAS is mutated in more than 90% of these cancers.** Test somatic KRAS in unresectable disease and germline BRCA in all patients; somatic BRCA testing can be considered. BRCA carriers do better on platinum and may benefit from PARP inhibitors.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf1d4d9264710fe2",
+     "n": 215,
+     "p": "Somatic "
+    },
+    {
+     "h": "33103e82e4b12e00",
+     "n": 36,
+     "p": "which oc"
+    },
+    {
+     "h": "00a2591eecbfa9d9",
+     "n": 220,
+     "p": "because "
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**KRAS wild-type tumours can carry other actionable changes** (NTRK, ROS1, ALK, RET), so they warrant wider testing where NGS is limited.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0657e3cfc40c54a5",
+     "n": 102,
+     "p": "They may"
+    },
+    {
+     "h": "d4d318a947c87d9e",
+     "n": 128,
+     "p": "identify"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Surgery should remove and examine at least 16 lymph nodes** for adequate staging, with perioperative heparin thromboprophylaxis (unfractionated or LMWH) unless contraindicated.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c0b0df5a2577346",
+     "n": 199,
+     "p": "Standard"
+    },
+    {
+     "h": "77b52ee867872c6c",
+     "n": 192,
+     "p": "Patients"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Drain the biliary tree endoscopically before resection only if bilirubin exceeds 250 μmol/l with cholangitis, or surgery will be delayed beyond 2 weeks.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "124260b054003750",
+     "n": 216,
+     "p": "In resec"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For resectable tumours, avoid neoadjuvant treatment outside trials:** phase III evidence is too thin.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5917f7cac64b2871",
+     "n": 194,
+     "p": "Neoadjuv"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Adjuvant mFOLFIRINOX for resected patients with ECOG PS 0–1** (median survival 54.4 vs 35.0 months with gemcitabine); S-1 is an Asian alternative. If mFOLFIRINOX is unsuitable, gemcitabine–capecitabine; failing that, gemcitabine or 5-FU–leucovorin alone.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6fb13f7a1f12f189",
+     "n": 204,
+     "p": "Adjuvant"
+    },
+    {
+     "h": "2922b45e3cf713d6",
+     "n": 97,
+     "p": "The medi"
+    },
+    {
+     "h": "a4e238c0a4c43506",
+     "n": 107,
+     "p": "In patie"
+    },
+    {
+     "h": "e4ccc03856bdbf00",
+     "n": 171,
+     "p": "Adjuvant"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Borderline resectable: induction FOLFIRINOX (or modified) or gemcitabine–nab-paclitaxel, then surgery.** Gemcitabine doublets are options when those are not feasible.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b90605ddf24ad6af",
+     "n": 104,
+     "p": "A period"
+    },
+    {
+     "h": "e2bfc7bbe41c987d",
+     "n": 178,
+     "p": "Gemcitab"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Locally advanced: up to 6 months of combination chemotherapy aiming at conversion surgery** is a valid strategy; surgery is discussed if CA 19-9 falls markedly, the patient improves and the tumour downstages.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "75e41d869608f04d",
+     "n": 171,
+     "p": "A conver"
+    },
+    {
+     "h": "c0bc3e5369cb9a1d",
+     "n": 1659,
+     "p": "signific"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **First line with ECOG PS 0–1 and bilirubin under 1.5 times normal: FOLFIRINOX, NALIRIFOX, gemcitabine–nab-paclitaxel or mFOLFIRINOX.** With PS 2, KPS under 70 or higher bilirubin: gemcitabine (or S-1) alone.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "989b932b261f44df",
+     "n": 273,
+     "p": "In patie"
+    },
+    {
+     "h": "363a324211031b02",
+     "n": 155,
+     "p": "For pati"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Gemcitabine–nab-paclitaxel (MPACT, KPS 70 or more):** response 23% vs 7% and median survival 8.7 vs 6.6 months against gemcitabine. A meta-analysis found overall survival similar to FOLFIRINOX.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69c4fcd333851321",
+     "n": 654,
+     "p": "In the p"
+    },
+    {
+     "h": "1719e44688667e24",
+     "n": 57,
+     "p": "the whol"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**NALIRIFOX beat gemcitabine–nab-paclitaxel on survival (11.1 vs 9.2 months) in the NAPOLI trial;** a network meta-analysis favours NALIRIFOX or FOLFIRINOX when tolerable, with gemcitabine–nab-paclitaxel a sound alternative.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0201aa30b7e2f793",
+     "n": 109,
+     "p": "The medi"
+    },
+    {
+     "h": "cd538b6e490d6eef",
+     "n": 112,
+     "p": "found th"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Second line after FOLFIRINOX: gemcitabine alone or with paclitaxel or nab-paclitaxel** (PS 0–2). After gemcitabine-based treatment, with PS 0–1: liposomal irinotecan–5-FU–leucovorin or mFOLFIRINOX. Oxaliplatin-based second line is contentious.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3387a40ba72e6996",
+     "n": 203,
+     "p": "After FO"
+    },
+    {
+     "h": "963d616927c00c04",
+     "n": 239,
+     "p": "In patie"
+    },
+    {
+     "h": "97ddd15c0b554fc5",
+     "n": 199,
+     "p": "Oxalipla"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**NTRK fusion: larotrectinib, entrectinib or repotrectinib.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1918e2488d5d32ca",
+     "n": 93,
+     "p": "In patie"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Venous thromboembolism affects 20%–25% of patients;** consider primary thromboprophylaxis during chemotherapy for advanced disease if there is no contraindication.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "51aee356af996750",
+     "n": 43,
+     "p": "VTE occu"
+    },
+    {
+     "h": "cafd3097a1cd0468",
+     "n": 159,
+     "p": "Primary "
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Duodenal obstruction: an endoscopic metal stent, or EUS-guided gastroenterostomy where expertise exists,** rather than surgery.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9fe3268efdb13af",
+     "n": 184,
+     "p": "Duodenal"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Regular follow-up after resection is now suggested:** routine imaging was linked to longer survival than symptom-led follow-up (28 vs 23 months) in a prospective study.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d0457c29dc89682",
+     "n": 104,
+     "p": "For pati"
+    },
+    {
+     "h": "34a02a4afbc664c7",
+     "n": 54,
+     "p": "The resp"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  }
+ ]
+}
