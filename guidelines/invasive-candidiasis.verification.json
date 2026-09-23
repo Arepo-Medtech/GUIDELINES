@@ -1,0 +1,323 @@
+{
+ "guideline": "guidelines/invasive-candidiasis.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Pappas et al.), Oxford University Press 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)' (2016). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © The Author 2015. Published by Oxford University Press for the Infectious Diseases Society of America. All rights reserved. (read at permissions statement on the PMC article page PMC4725385 (read 2026-09-23)). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 19,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 19
+ },
+ "claims": [
+  {
+   "claim": "⚠️ **Start with an echinocandin** (strong; high): caspofungin 70 mg once, then 50 mg a day; micafungin 100 mg a day; or anidulafungin 200 mg once, then 100 mg a day.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e52153cee7390797",
+     "n": 230,
+     "p": "An echin"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Fluconazole (IV or by mouth), first dose 800 mg (12 mg/kg) and 400 mg (6 mg/kg) a day after that, is an acceptable first choice for selected patients** who are not critically ill and unlikely to carry a fluconazole-resistant species (strong; high).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd05f6f9079e3a3d",
+     "n": 353,
+     "p": "Fluconaz"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Test every bloodstream (and other clinically important) *Candida* isolate for azole susceptibility;** add echinocandin testing after prior echinocandin treatment or for *C. glabrata* or *C. parapsilosis*.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6911d0225293e926",
+     "n": 356,
+     "p": "Testing "
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Moving from the echinocandin to fluconazole, typically by day 5–7, is advised** once the patient is stable, the isolate is fluconazole-susceptible (for example *C. albicans*) and repeat blood cultures are negative (strong; moderate).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e1cae8a62cb9a317",
+     "n": 331,
+     "p": "Transiti"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ ***C. glabrata* step-down only if the isolate is susceptible:** fluconazole 800 mg (12 mg/kg) a day, or voriconazole 200–300 mg (3–4 mg/kg) twice a day.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fdb91baf358111a7",
+     "n": 297,
+     "p": "For infe"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Lipid amphotericin B 3–5 mg/kg a day** is a reasonable alternative for intolerance, poor availability or resistance, and is the choice when azole- and echinocandin-resistant *Candida* is suspected.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0224616aed4a110",
+     "n": 220,
+     "p": "Lipid fo"
+    },
+    {
+     "h": "a5d594f1dc3b0c68",
+     "n": 185,
+     "p": "Among pa"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Every non-neutropenic patient with candidaemia needs a dilated eye examination, ideally by an ophthalmologist, in the first week** (strong; low).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "becef58e21ed5429",
+     "n": 224,
+     "p": "All nonn"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Repeat blood cultures daily or on alternate days until clearance is shown,** then treat for 2 weeks after the first negative culture and resolution of symptoms, if there are no metastatic complications (strong; moderate).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ae94c31ce569d13",
+     "n": 185,
+     "p": "Follow-u"
+    },
+    {
+     "h": "cce79574c12779a9",
+     "n": 275,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Remove a central venous catheter as early as possible when it is the presumed source and removal is safe,** deciding case by case (strong; moderate).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a92285e7bd01469",
+     "n": 288,
+     "p": "Central "
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**An echinocandin is again the first choice** (strong; moderate). Lipid amphotericin B works but is less attractive because of toxicity; fluconazole is for those not critically ill and never previously given an azole; voriconazole is an option when mould cover is also wanted.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e0c9a0b50fb039a",
+     "n": 238,
+     "p": "14. An e"
+    },
+    {
+     "h": "48b22294901533e5",
+     "n": 177,
+     "p": "Lipid fo"
+    },
+    {
+     "h": "ad9aa42239a90175",
+     "n": 213,
+     "p": "Fluconaz"
+    },
+    {
+     "h": "244573a7f2f11853",
+     "n": 115,
+     "p": "can be u"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "***C. krusei*: use an echinocandin, lipid amphotericin B or voriconazole** (strong; low).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7626fa584bfd8e8f",
+     "n": 150,
+     "p": "For infe"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**In neutropenia the eye findings stay minimal until the count recovers,** so do the dilated fundus examination in the first week after neutrophil recovery. Sources other than the catheter (such as the gut) predominate, so catheter removal is an individual decision.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cbacd608614a71df",
+     "n": 270,
+     "p": "Ophthalm"
+    },
+    {
+     "h": "193abf1acb21a8d6",
+     "n": 170,
+     "p": "In the n"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Give lipid amphotericin B or an echinocandin for several weeks, then oral fluconazole 400 mg (6 mg/kg) a day** if the isolate is unlikely to be resistant. Continue until the lesions have resolved on repeat imaging, usually months; stopping early risks relapse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77bbb8e9805b8f11",
+     "n": 420,
+     "p": "Initial "
+    },
+    {
+     "h": "d3aa35139d997df9",
+     "n": 212,
+     "p": "Therapy "
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Do not delay chemotherapy or stem cell transplant because of chronic disseminated candidiasis;** keep antifungals going through the high-risk period.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3a615edca8bd6a0",
+     "n": 296,
+     "p": "If chemo"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Consider empiric antifungals in critically ill patients with risk factors and no other cause of fever,** and start them as soon as possible if there are signs of septic shock (strong; moderate). An echinocandin is preferred; fluconazole is an alternative when there has been no recent azole and no colonisation with azole-resistant *Candida*.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "936cd6b883185e02",
+     "n": 554,
+     "p": "Empiric "
+    },
+    {
+     "h": "6ebd2637da020ad7",
+     "n": 321,
+     "p": "Preferre"
+    },
+    {
+     "h": "0a2b0a515fc9176b",
+     "n": 190,
+     "p": "is an ac"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Empiric therapy lasts 2 weeks if the patient improves;** if there is no response by 4–5 days and no evidence of invasive candidiasis (or a negative high-NPV non-culture test), consider stopping.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d066ad353e25fbf7",
+     "n": 212,
+     "p": "Recommen"
+    },
+    {
+     "h": "e8c1f591e1c10e7d",
+     "n": 337,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fluconazole prophylaxis may be used for high-risk patients in adult ICUs where invasive candidiasis exceeds 5%** (weak; moderate).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "163f2e58a5cbc262",
+     "n": 146,
+     "p": "could be"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Intra-abdominal candidiasis needs source control (drainage, debridement)** plus the same antifungals as for candidaemia; duration depends on source control and response.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "226500f32c92e65f",
+     "n": 533,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "***Candida* grown from respiratory secretions is usually colonisation and seldom needs antifungals** (strong; moderate).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5e48066d5733e247",
+     "n": 182,
+     "p": "Growth o"
+    }
+   ],
+   "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  }
+ ]
+}
