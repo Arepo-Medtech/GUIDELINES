@@ -1,0 +1,328 @@
+{
+ "guideline": "guidelines/clostridioides-difficile-infection.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines' (published 28 November 2022 (J Antimicrob Chemother 78(1):21)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9780550). The source's words are NOT reproduced here. Chosen over ESCMID 2021 (CC BY-NC-ND, publisher page returned a bot challenge, HTTP 403, not bypassed) and the ASID 2025 update (closed access). WSES 2019 (CC BY) was readable but predates the 2021 IDSA/SHEA and ESCMID changes.",
+ "summary": {
+  "total": 20,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 20
+ },
+ "claims": [
+  {
+   "claim": "**Non-severe CDI (IDSA/SHEA):** white cell count at or below 15 000 cells/mL and creatinine under 1.5 mg/dL. ESCMID adds temperature at or below 38.5°C, a creatinine rise of no more than 50% above baseline and no imaging signs of severity.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23a9acbb1fe9d460",
+     "n": 373,
+     "p": "Non-seve"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Severe CDI:** white cell count over 15 000 cells/mL or creatinine of 1.5 mg/dL or more (IDSA/SHEA). ESCMID also counts fever over 38.5°C or imaging showing colonic distension, pericolonic fat stranding or wall thickening.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ce1fe3b47accf4c",
+     "n": 311,
+     "p": "IDSA/SHE"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Fulminant (severe-complicated) CDI** means hypotension or shock, ileus or toxic megacolon; ESCMID adds raised lactate, perforation or any fulminant course.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "acd97247a44c32a0",
+     "n": 294,
+     "p": "Both the"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refractory CDI** is disease not responding to recommended antibiotics, that is, no response after 3–5 days.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2a6e385131bfd221",
+     "n": 121,
+     "p": "Refracto"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**IDSA/SHEA and ESCMID now prefer fidaxomicin for a first episode**; vancomycin is acceptable, and metronidazole only when neither is available.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "63fc3345fe45892d",
+     "n": 264,
+     "p": "The rece"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Recurrence follows 20%–30% of courses of metronidazole or vancomycin**, and after one recurrence the chance of another is 50%–60%. Fidaxomicin is better at preventing recurrence.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6975b7500954918",
+     "n": 73,
+     "p": "fidaxomi"
+    },
+    {
+     "h": "36dd99b81a922ece",
+     "n": 173,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Vancomycin beat metronidazole** in two placebo-controlled trials; a Cochrane analysis of 22 trials, mostly non-severe disease, gave moderate-quality evidence that vancomycin is superior in all cases.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea61b8bcb29a62c0",
+     "n": 110,
+     "p": "two subs"
+    },
+    {
+     "h": "73524a0733d84e8e",
+     "n": 214,
+     "p": "A 2017 C"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Severity changes over time**, so reserving metronidazole for 'non-severe' cases risks under-treatment: one study found CDI-attributable 90-day mortality of 21.7% when under-treated against 8.9% when appropriately treated.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e649115e85831fd",
+     "n": 440,
+     "p": "A pragma"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fidaxomicin's main barrier to wider use is its high cost.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1afa8662cbd7968a",
+     "n": 60,
+     "p": "widespre"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Oral metronidazole is not appropriate for severe CDI**; all guidelines agree.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "88efeaa7887f32b6",
+     "n": 93,
+     "p": "There is"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The older ASID guideline advises oral vancomycin 125 mg every 6 hours for 10 days in severe disease** and does not recommend fidaxomicin; ESCMID and IDSA/SHEA accept fidaxomicin as non-inferior. There are no data for fidaxomicin in life-threatening disease.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba12d11721bb9f71",
+     "n": 435,
+     "p": "ASID gui"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **IDSA/SHEA 2021 for fulminant CDI:** no fidaxomicin; add IV metronidazole 500 mg every 8 hours to higher-dose vancomycin 500 mg every 6 hours by mouth or nasogastric tube, with rectal vancomycin retention enemas every 6 hours if there is ileus. ESCMID instead allows fidaxomicin, does not routinely add IV metronidazole and suggests adding IV tigecycline.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "51d4c212df19b791",
+     "n": 330,
+     "p": "Notably,"
+    },
+    {
+     "h": "a661b831594fc7f6",
+     "n": 143,
+     "p": "ESCMID n"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Get a surgical referral alongside medical treatment** in deteriorating patients, but avoid total colectomy where possible, particularly without toxic megacolon; ESCMID suggests partial colectomy or loop ileostomy may spare total colectomy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "259cc97dd1ce6304",
+     "n": 208,
+     "p": "It is im"
+    },
+    {
+     "h": "34a4bd5a75e91a9c",
+     "n": 110,
+     "p": "ESCMID n"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Tigecycline can cause liver derangement, coagulopathy or pancreatitis**; monitor closely, stop early if adverse effects appear, and note courses over 14 days raise the coagulopathy risk.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ba2b59dd9ff99b2",
+     "n": 127,
+     "p": "the majo"
+    },
+    {
+     "h": "7c29cb65b03af8e9",
+     "n": 193,
+     "p": "Close mo"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Rescue faecal microbiota transplant (FMT)** for refractory disease: ESCMID supports considering it when surgery is not feasible, and Australasian guidelines when medical therapy fails; IDSA/SHEA has not endorsed it here.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08f66d6f6e175c09",
+     "n": 231,
+     "p": "It has n"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Bezlotoxumab** (a single infusion of anti-toxin B antibody) lowers recurrence. Both IDSA/SHEA and ESCMID support it for a second episode within 6 months; in heart failure reserve it for when benefit outweighs risk, as more deaths occurred (19.5% vs 12.5%). It is not yet endorsed in Australian guidelines.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c941eae758dfaff7",
+     "n": 594,
+     "p": "A single"
+    },
+    {
+     "h": "d91ea5b66ff99f01",
+     "n": 298,
+     "p": "Both soc"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Tapered-and-pulsed oral vancomycin** is an acceptable alternative to fidaxomicin (standard or extended-pulsed) for a first or later recurrence.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4bccc615d0b5915c",
+     "n": 215,
+     "p": "ESCMID a"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**FMT:** ESCMID and Australasian guidelines agree on it for a second recurrence; IDSA/SHEA now limits it to the third and later recurrences after donor-transmitted infection alerts. A single FMT cures 65%–95% by any route.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d69da3d07f7a1dc7",
+     "n": 414,
+     "p": "IDSA/SHE"
+    },
+    {
+     "h": "5152fd7c99daf459",
+     "n": 203,
+     "p": "Overall,"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Probiotics are not endorsed** by current CDI guidelines; ESCMID warns of possibly significant adverse effects and delayed microbiome recovery, and there are reports of bacteraemia and fungaemia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "727d3eb5ebb1d0c2",
+     "n": 52,
+     "p": "but have"
+    },
+    {
+     "h": "c9c53266130db434",
+     "n": 177,
+     "p": "The conc"
+    },
+    {
+     "h": "64075b103b3855b9",
+     "n": 97,
+     "p": "Concerns"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Routine anti-CDI antibiotic prophylaxis during systemic antibiotics is not recommended (ESCMID)**; it may suit very selected patients with multiply recurrent CDI triggered by antibiotics, after specialist infectious diseases or microbiology advice.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e480af8946d420db",
+     "n": 412,
+     "p": "led to a"
+    }
+   ],
+   "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  }
+ ]
+}

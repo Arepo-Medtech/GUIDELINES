@@ -110,3 +110,27 @@ These PBS rows were deliberately not attached, because their source doesn't supp
 - the two paediatric glioma rows
 
 Sources that were blocked and should be retried: the 2024 ANZ cardiac amyloidosis consensus, the NIH/CDC opportunistic-infection guidelines, the international TSC consensus 2021, ERS 2024 chronic breathlessness, and the NLA 2025 chylomicronaemia management review.
+
+---
+
+## 6. After Wave 5 (2026-09-24)
+
+The corpus has 561 guidelines, and all 561 pass. Of the 393 true-gap rows, 265 are now covered, which leaves **128**.
+
+New proposed links. As with section 1, the owner needs to confirm each one:
+
+| PBS condition | Proposed guideline | Confidence |
+|---|---|---|
+| Detrusor overactivity | `urinary-incontinence` | high (it covers oxybutynin and propantheline) |
+| Pubertal induction | `disorders-of-puberty` | high |
+| Micropenis | none | the pairing with `disorders-of-puberty` does **not** hold |
+
+Rows that were deliberately not attached: *Isovaleric acidaemia* (the source doesn't cover it; a candidate is PMC12551068).
+
+Notes for the reviewer:
+- **Obesity:** PBS item 4570M (orlistat) is in program **R1, which is RPBS only**. So the "Obesity" row reflects repatriation benefits, not the general PBS. GLP-1 agonists are PBS-listed only for type 2 diabetes.
+- **Two probable typos in quoted sources:** the verbatim text is kept, and the claims leave these figures out. They are flagged in Unresolved.
+  - `hypoparathyroidism`: calcium "> 2 mg/day"
+  - `cushing-syndrome`: pasireotide "every 28 months"
+- **HCM rebuild on ESC 2023:** still blocked.
+- **Shared-folder rule:** it was broken again. One agent's cleanup glob deleted five 128-byte 404 files belonging to another agent. The agent recreated them, and no real source was lost.
