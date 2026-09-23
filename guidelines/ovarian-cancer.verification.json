@@ -1,0 +1,299 @@
+{
+ "guideline": "guidelines/ovarian-cancer.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.eviq.org.au/p/3737"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)' (ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 18,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 18
+ },
+ "claims": [
+  {
+   "claim": "**First-line maintenance:** olaparib is for BRCA-mutated (germline or somatic), FIGO stage III or IV, high-grade serous cancer of the ovary, fallopian tube or peritoneum that has responded, completely or partially, to first-line platinum chemotherapy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9193f5dc3e37eaf2",
+     "n": 350,
+     "p": "monother"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**First-line duration:** stop at 2 years if there is a complete response (no disease on imaging). If disease is still visible but stable at 2 years, the clinician may continue when further benefit is expected.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c19ad03b140ab850",
+     "n": 249,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Maintenance after relapse:** for BRCA-mutated high-grade serous disease that relapsed but stayed platinum-sensitive and is responding after at least two platinum-containing regimens. No data support giving olaparib maintenance again after a later relapse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80c9444c4884ecd5",
+     "n": 630,
+     "p": "monother"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Wait for blood counts to recover** from earlier chemotherapy before starting olaparib.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "64f62a66c5a4acbb",
+     "n": 100,
+     "p": "do not i"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Olaparib tablets 300 mg (2 × 150 mg) by mouth twice daily**, continuously until progression or unacceptable toxicity; taking it with food can reduce nausea. PBS authority; 100 mg and 150 mg tablets.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6a11d000968e98fe",
+     "n": 104,
+     "p": "300 mg T"
+    },
+    {
+     "h": "905428e44156dc8f",
+     "n": 99,
+     "p": "TWICE a "
+    },
+    {
+     "h": "05af135c057ac1f1",
+     "n": 76,
+     "p": "Olaparib"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Metoclopramide 10 mg as needed** (no more than 30 mg in 24 hours, for up to 5 days) is supplied at the start. Nausea can be moderate in the first month or months but usually settles with antiemetics and reassurance, without dose changes.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "96b20ab74b4a1f94",
+     "n": 206,
+     "p": "Metoclop"
+    },
+    {
+     "h": "f314c7ad7943443d",
+     "n": 245,
+     "p": "May be m"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Dose steps for blood toxicity go 300, then 250, then 200 mg twice daily, then stop.** For ANC under 1.0 or platelets under 75, delay until recovery; the first episode restarts at 300 mg and each later one a step lower. For grade 3 or 4 anaemia, delay until haemoglobin is above 9 g/dL.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a045d85889359719",
+     "n": 1308,
+     "p": "ANC x 10"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Kidney:** with eGFR 31 to 50, reduce to 200 mg twice daily and monitor; it has not been studied below 30. **Liver:** no change for mild or moderate impairment; not recommended in severe impairment.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4eb14f1df15efa65",
+     "n": 491,
+     "p": "eGFR (mL"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **MDS and AML:** PARP inhibitors may increase the risk of myelodysplastic syndrome and acute myeloid leukaemia, so check a full blood count with film regularly. Do not give olaparib to anyone with a history of bone marrow dysplasia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "10e3d912335348c5",
+     "n": 497,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Bloods:** LFTs, FBC and EUC/eGFR at baseline, monthly through the first year, then as indicated.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ac825c7fb873617",
+     "n": 115,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Pneumonitis, occasionally fatal:** with new or worsening breathlessness, cough, fever or a radiological abnormality, withhold olaparib and investigate promptly; stop it if pneumonitis is confirmed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c3efbc34f357c23",
+     "n": 405,
+     "p": "Pneumoni"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Wound healing:** pause olaparib around major surgery and restart once healing is judged adequate.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5328f9578babe7f5",
+     "n": 216,
+     "p": "This tre"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fatigue** is common early and usually eases. Exclude other causes and advise graded exercise; if it stays severe despite breaks, consider a short interruption or a lower dose.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce1841918040987d",
+     "n": 386,
+     "p": "Fatigue "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Hepatitis B screening is not routinely needed** but can be considered in high-risk people. The safety of live vaccines during and after olaparib is not established.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec54fcc9cca4486b",
+     "n": 203,
+     "p": "Routine "
+    },
+    {
+     "h": "77388acd1a5cd975",
+     "n": 107,
+     "p": "The safe"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**SOLO1 (first-line maintenance, 391 BRCA-mutated patients):** after 5 years' follow-up, median PFS was 56.0 months with olaparib against 13.8 months with placebo (HR 0.33), and 48.3% against 20.5% were free of progression at 5 years.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ae93ad3f8745c13",
+     "n": 465,
+     "p": "The evid"
+    },
+    {
+     "h": "553cdbd7bebb6358",
+     "n": 384,
+     "p": "In an up"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**SOLO1 at 7 years:** 67.0% were alive with olaparib against 46.5% with placebo (HR 0.55). The gain is clinically meaningful but missed the trial's prespecified significance threshold.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4570c80fb3e9b90f",
+     "n": 516,
+     "p": "After a "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**SOLO2 (platinum-sensitive relapse, 295 BRCA-mutated patients):** median PFS 19.1 against 5.5 months (HR 0.30). At final analysis, median overall survival was 51.7 against 38.8 months (HR 0.74, p=0.054).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6397165c925ec72",
+     "n": 319,
+     "p": "The evid"
+    },
+    {
+     "h": "61bbd51c555c9c14",
+     "n": 213,
+     "p": "After a "
+    },
+    {
+     "h": "a9da03430c2e8f0e",
+     "n": 138,
+     "p": "median O"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Harms in SOLO2:** grade 3 to 4 anaemia in 21% on olaparib. Treatment-emergent events led to interruption in 50%, dose reduction in 28% and stopping in 17%, and 5 patients (3%) died of treatment-related MDS or AML.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "99a4d844935d0873",
+     "n": 161,
+     "p": "The most"
+    },
+    {
+     "h": "1dd941e0c6b59112",
+     "n": 548,
+     "p": "At the f"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  }
+ ]
+}

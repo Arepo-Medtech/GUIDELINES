@@ -1,0 +1,343 @@
+{
+ "guideline": "guidelines/breast-cancer-hormone-receptor-positive.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.eviq.org.au/p/3379"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast metastatic ribociclib (eviQ ID 3379 v.6)' (ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 20,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 20
+ },
+ "claims": [
+  {
+   "claim": "**Ribociclib is for HR-positive, HER2-negative advanced or metastatic breast cancer and is always paired with endocrine therapy:** either fulvestrant or a non-steroidal aromatase inhibitor, as the first endocrine-based treatment or after earlier endocrine therapy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea8378236c98f6cf",
+     "n": 230,
+     "p": "Hormone "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Patients must be postmenopausal, or have ovarian suppression:** pre- and perimenopausal women add a GnRH agonist such as goserelin, started 4 weeks before ribociclib. ECOG 0 to 2.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b10ab51f503d24c",
+     "n": 233,
+     "p": "Patient "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Do not use** when QTcF is above 450 ms before treatment, with a history of ventricular arrhythmia or long QT syndrome, or with a significant risk of QTc prolongation (recent MI, heart failure, unstable angina, bradyarrhythmia, uncorrected electrolytes).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bfadde55ff101b74",
+     "n": 339,
+     "p": "QTcF > 4"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Ribociclib 600 mg by mouth once daily, preferably in the morning, on days 1 to 21 of each 28-day cycle** (3 weeks on, 1 week off), until progression or unacceptable toxicity. It is PBS authority-listed, except with an aromatase inhibitor after prior endocrine therapy; tablets are 200 mg.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2cc0eb3bf8a7c509",
+     "n": 182,
+     "p": "600 mg O"
+    },
+    {
+     "h": "0ab0bfd1f0dd632e",
+     "n": 38,
+     "p": "ONCE a d"
+    },
+    {
+     "h": "ab6cbac3024aff21",
+     "n": 194,
+     "p": "Ribocicl"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Dose levels step down from 600 to 400 to 200 mg daily;** if even less than 200 mg would be needed, stop ribociclib.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "45d822f3762f9683",
+     "n": 272,
+     "p": "Ribocicl"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**With a strong CYP3A4 inhibitor** (azoles, macrolides, ritonavir, verapamil, amiodarone, grapefruit juice and others), lower ribociclib to 400 mg daily; go back to the previous dose once at least 5 half-lives have passed after the inhibitor is stopped.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1e6ffe9bfe1e8746",
+     "n": 458,
+     "p": "Concomit"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Kidney:** no change if eGFR is 30 or above; below 30, start at 200 mg daily with caution. **Liver:** with moderate or severe impairment at baseline, start at 400 mg daily with caution.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "397465124911573d",
+     "n": 332,
+     "p": "eGFR (mL"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **QT monitoring:** correct electrolytes and avoid other QT-prolonging drugs before starting. Check magnesium, potassium, calcium and phosphate at baseline and before cycles 2 to 6, and do an ECG before starting, at day 14 of the first cycle, then as needed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6d3a47ecdb9cbf3",
+     "n": 442,
+     "p": "Risk fac"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Bloods:** LFTs, FBC, EUC/eGFR plus calcium, magnesium and phosphate at baseline and before cycles 2 to 6; consider repeating FBC and LFTs at day 15 in each of the first 2 cycles.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3bdbe566be25206",
+     "n": 184,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**A rising creatinine is often not true kidney damage,** because ribociclib blocks renal transporters, but assess further to exclude kidney impairment.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56d04c1a5dde6311",
+     "n": 212,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Radiotherapy and surgery:** consider pausing ribociclib from 1 day before palliative radiotherapy until 1 week after it finishes, and around surgery until the wound has healed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "92a5ad76c176afb2",
+     "n": 480,
+     "p": "The inte"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Neutropenia:** for ANC 0.5 to under 1.0, withhold until 1.0 or more and reduce only if it recurs; for ANC under 0.5 or febrile neutropenia, withhold and restart one dose level lower. **Platelets** 25 to under 75: withhold until 75 or more; under 25: stop.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca3aa744840dbb5d",
+     "n": 879,
+     "p": "Haematol"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **QTcF grade 2:** withhold until below 481 ms, then restart one dose level lower. **Grade 3** (501 ms or more): repeat the ECG within 1 hour, involve a cardiologist, withhold until below 481 ms, restart lower and stop if it happens again. **Grade 4:** stop permanently.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "19f300093fe9cdd5",
+     "n": 611,
+     "p": "Grade 2 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Hepatotoxicity:** for ALT/AST more than 5 to 20 times ULN with bilirubin up to 2 times ULN, withhold until back to baseline grade and restart one level lower, stopping if it recurs. Stop ribociclib for ALT/AST above 20 times ULN, or above 3 times ULN with bilirubin above 2 times ULN.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b20f5676b98a627",
+     "n": 415,
+     "p": "AST and/"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Pneumonitis and skin:** grade 2 ILD/pneumonitis means withholding until grade 1 or better, considering a lower dose, and stopping if it recurs; grade 3 or 4 means stopping. Toxic epidermal necrolysis has occurred: stop permanently for any severe cutaneous reaction.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f22238cd5b190180",
+     "n": 251,
+     "p": "Intersti"
+    },
+    {
+     "h": "ffcfa812c37bd857",
+     "n": 223,
+     "p": "Toxic ep"
+    },
+    {
+     "h": "b48470688db511f2",
+     "n": 55,
+     "p": "Severe c"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Interactions:** other QT-prolonging drugs (tamoxifen, azole antifungals, tricyclics, antiarrhythmics) should be avoided, or ribociclib reduced, with ECG monitoring. CYP3A4 inducers such as carbamazepine, phenytoin, rifampicin or St John's wort can blunt its effect.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c0c998a4d0936f8",
+     "n": 390,
+     "p": "Drugs th"
+    },
+    {
+     "h": "04266bb46b78ee49",
+     "n": 227,
+     "p": "CYP3A4 i"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**MONALEESA-2** (first line, postmenopausal, with letrozole; 668 women): median PFS 25.3 against 16.0 months, and median overall survival 63.9 against 51.4 months (HR 0.76).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ded80b8c85d91e63",
+     "n": 288,
+     "p": "The evid"
+    },
+    {
+     "h": "8624010c40ef5099",
+     "n": 484,
+     "p": "This dou"
+    },
+    {
+     "h": "73d3132704562661",
+     "n": 387,
+     "p": "After a "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**MONALEESA-3** (with fulvestrant, first or second line; 726 women): median overall survival 67.6 against 51.8 months (HR 0.67), and 5-year survival 56.5% against 42.1%.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ded80b8c85d91e63",
+     "n": 288,
+     "p": "The evid"
+    },
+    {
+     "h": "9dab32cee2d8c72f",
+     "n": 373,
+     "p": "This bli"
+    },
+    {
+     "h": "d2ae9840687da690",
+     "n": 332,
+     "p": "After a "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**MONALEESA-7** (pre- or perimenopausal, goserelin plus an aromatase inhibitor or tamoxifen): median overall survival 58.7 against 48.0 months (HR 0.76) and median PFS 23.8 against 13.0 months.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ded80b8c85d91e63",
+     "n": 288,
+     "p": "The evid"
+    },
+    {
+     "h": "dd3fe8e1b1aff4c1",
+     "n": 494,
+     "p": "This dou"
+    },
+    {
+     "h": "2b95a6d0216adf18",
+     "n": 339,
+     "p": "After a "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Toxicity in MONALEESA-2:** grade 3-4 events in 66.2% with ribociclib against 32.7% with placebo, mainly neutropenia (59.3%); febrile neutropenia 1.5%; QTcF above 480 ms in 3.6%; and 53.9% needed a dose reduction.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4dafdf54f95bc92",
+     "n": 1038,
+     "p": "In MONAL"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  }
+ ]
+}
