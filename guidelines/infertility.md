@@ -97,6 +97,17 @@ microgram/dose** · triptorelin **100 microgram/mL** · clomifene **50 mg scored
 
 ---
 
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Stimulation of follicular development | 2 | 0 / 2 / 0 | Lutropin alfa, Follitropin alfa with lutropin alfa | 2 |
+| Patients undergoing in-vitro fertilisation | 1 | 0 / 0 / 1 | Clomifene | 1 |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

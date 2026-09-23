@@ -57,6 +57,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
 |---|---:|---|---|---:|
 | Androgen deficiency | 8 | 8 / 0 / 0 | Testosterone | 9 |
+| Hypogonadism | 1 | 0 / 0 / 1 | Chorionic gonadotrophin | 1 |
 
 ---
 

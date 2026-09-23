@@ -62,6 +62,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
 |---|---:|---|---|---:|
 | Chronic spasticity | 18 | 1 / 16 / 1 | Baclofen, Dantrolene, Diazepam | 8 |
+| Dynamic equinus foot deformity | 2 | 0 / 2 / 0 | Clostridium botulinum type A toxin - haemagglutinin complex, Botulinum toxin type A purified neurotoxin complex, IncobotulinumtoxinA | 4 |
 
 ---
 

@@ -46,6 +46,16 @@ preferred** [M1].
 
 ---
 
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| The onset of lactation | 1 | 0 / 0 / 1 | Bromocriptine, Cabergoline | 2 |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

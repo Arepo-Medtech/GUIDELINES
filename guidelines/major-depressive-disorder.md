@@ -80,6 +80,17 @@ and the efficacy ranking do not point in opposite directions.
 | **Sodium valproate** | ⚠️ valproate is approved for **bipolar disorder** and carries the teratogenicity constraint — relevant wherever the diagnosis is revised |
 | **Dementia** | depression is both a differential and a risk factor |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Major depressive disorders | 6 | 0 / 0 / 6 | Desvenlafaxine, Mirtazapine, Escitalopram, Citalopram, Venlafaxine, Fluvoxamine, Fluoxetine, Sertraline +4 | 64 |
+| Depression | 3 | 0 / 0 / 3 | Mianserin, Phenelzine | 5 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

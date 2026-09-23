@@ -119,6 +119,16 @@ agents (PCSK9 inhibitors, inclisiran) sit beyond the first-line recommendations.
 | **Heart failure** | the outcome shared with the above |
 | **Smoking cessation** | the modifiable factor with the largest single effect |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Chronic stable atherosclerotic disease | 3 | 0 / 3 / 0 | Rivaroxaban | 3 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

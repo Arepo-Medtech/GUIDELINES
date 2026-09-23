@@ -44,6 +44,17 @@
 
 ---
 
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Functional carcinoid tumour | 9 | 0 / 9 / 0 | Octreotide, Lanreotide | 24 |
+| Non-functional gastroenteropancreatic neuroendocrine tumour | 5 | 0 / 5 / 0 | Lanreotide, Octreotide | 6 |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

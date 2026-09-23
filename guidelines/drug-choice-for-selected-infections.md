@@ -238,6 +238,16 @@ Pathogens: *N. meningitidis*, *S. pneumoniae*, *L. monocytogenes*, *H. influenza
 
 ---
 
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Staphylococcal infection | 5 | 0 / 0 / 5 | Flucloxacillin, Dicloxacillin | 12 |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

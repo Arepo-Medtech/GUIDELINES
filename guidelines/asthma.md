@@ -105,6 +105,16 @@ formoterol products are ≥12 years, while *DuoResp Spiromax* and *Fostair* are 
 | **COPD** | the other obstructive airways guideline; overlap matters where both are present |
 | **Smoking cessation** | the single largest modifiable factor across both airways guidelines |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Bronchospasm | 2 | 0 / 1 / 1 | Terbutaline, Salbutamol | 2 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

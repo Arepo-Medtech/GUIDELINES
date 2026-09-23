@@ -57,6 +57,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
 |---|---:|---|---|---:|
 | Hypogonadism or delayed puberty | 1 | 0 / 0 / 1 | Chorionic gonadotrophin | 1 |
+| Pubertal induction | 4 | 4 / 0 / 0 | Testosterone | 9 |
 
 ---
 

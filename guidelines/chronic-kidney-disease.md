@@ -112,6 +112,17 @@ management, heart failure and CKD, pain management, contraception and pregnancy,
 | **Gout** | allopurinol dosing turns on renal function |
 | **Iron deficiency** | anaemia of CKD and the IV iron threshold |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Chronic renal failure | 2 | 0 / 2 / 0 | Protein formula with vitamins and minerals, and low in potassium, phosphorus, calcium, chloride and vitamin A, Whey protein formula supplemented with amino acids, long chain polyunsaturated fatty acids, vitamins and minerals, and low in protein, phosphate, potassium and lactose, Whey protein formula supplemented with amino acids, vitamins and minerals, and low in protein, phosphate, potassium and lactose | 3 |
+| Chronic renal disease | 1 | 0 / 1 / 0 | Magnesium | 1 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

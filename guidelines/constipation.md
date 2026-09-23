@@ -192,6 +192,16 @@ pathology**; **non-resolution occurs despite optimising management over 6 months
 | **Type 2 diabetes** | hydration advice during picosulphate disimpaction names **fruit juice, soft drinks, sport drinks** |
 | **Iron deficiency** | oral iron is a common contributor to constipation; the sources here name neither |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Faecal impaction | 4 | 0 / 2 / 2 | Macrogol 3350 | 4 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

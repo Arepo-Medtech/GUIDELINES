@@ -196,6 +196,16 @@ authority where applicable) of each medication** — under-supply is treated as 
 | **Febrile child** · **Sepsis (children)** | **systemic features include fever and malaise**; severe infection may require **admission and intravenous antibiotics** |
 | **Osteoporosis** | **osteoporosis** is explicitly named among the harms topical steroids **do not** cause when used as directed |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Corticosteroid-responsive dermatoses | 11 | 0 / 5 / 6 | Methylprednisolone, Betamethasone, Mometasone, Hydrocortisone, Clobetasol, Triamcinolone | 67 |
+
 ## Unresolved
 
 | Point | Kind | Detail |
