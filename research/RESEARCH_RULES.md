@@ -70,3 +70,6 @@ its actual licence (CC BY, CC BY-NC, © RACP…). Consensus's copyright line is 
 ## REVERSED (owner decision, 2026-09-23): do NOT mark sources unusable for AI-use clauses
 Record any AI-use clause verbatim in `licence_quote` for information, but classify `use` by the normal rule (quote if the licence
 allows, otherwise paraphrase). Do not use `ai_prohibited` as a reason to exclude.
+
+## Privacy
+- **Never put the owner's email address, or any personal data, in a URL, API query or request header.** APIs that ask for a contact email (e.g. Unpaywall) get `research@example.org`, or are skipped.
