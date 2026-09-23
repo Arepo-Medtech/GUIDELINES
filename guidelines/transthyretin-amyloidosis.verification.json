@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/transthyretin-amyloidosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1186/s42466-026-00521-4"
+  "https://doi.org/10.1186/s42466-026-00521-4",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from DGAK and DGN, Neurological Research and Practice (BMC) 'Disease modifying treatment of hereditary transthyretin amyloidosis with polyneuropathy in Germany – expert consensus of the German society of amyloid diseases (DGAK) and the German neurological society (DGN)' (published 11 August 2026). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 ('This article is licensed under a Creative Commons Attribution 4.0 International License') (read at NCBI PMC efetch JATS <license> element for PMC13466188 (Europe PMC returned 503 on 2026-09-23)). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from DGAK and DGN, Neurological Research and Practice (BMC) 'Disease modifying treatment of hereditary transthyretin amyloidosis with polyneuropathy in Germany – expert consensus of the German society of amyloid diseases (DGAK) and the German neurological society (DGN)' (published 11 August 2026), 19 claims; LICENCE: CC BY 4.0 ('This article is licensed under a Creative Commons Attribution 4.0 International License') (read at NCBI PMC efetch JATS <license> element for PMC13466188 (Europe PMC returned 503 on 2026-09-23)). S2: QUOTED from Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262) 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)' (published 26 October 2023), 12 claims; LICENCE: CC BY 4.0 ('distributed under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0)') (read at Europe PMC fullTextXML <license> element for PMC10607607). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, DGAK/DGN 2026) unchanged and adds S2, the World Heart Federation 2023 ATTR-CM consensus (CC BY, quoted), for suspecting and diagnosing the cardiomyopathy, staging and heart-failure care. S2 predates the approval of acoramidis and vutrisiran for ATTR-CM; S1 is newer on drug approvals.",
  "summary": {
-  "total": 19,
-  "pass": 19,
+  "total": 31,
+  "pass": 31,
   "fail": 0
  },
  "claims": [
@@ -50,6 +51,69 @@
    "verdict": "pass",
    "source_text": "In FAP stage 1, patients are fully ambulatory, in stage 2, they use walking aids, and in stage 3, individuals are wheelchair-bound or bedridden",
    "locator": "DGAK and DGN, Neurological Research and Practice (BMC), 'Disease modifying treatment of hereditary transthyretin amyloidosis with polyneuropathy in Germany – expert consensus of the German society of amyloid diseases (DGAK) and the German neurological society (DGN)', published 11 August 2026, https://doi.org/10.1186/s42466-026-00521-4, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Think of ATTR-CM in these settings:** heart failure with preserved ejection fraction (amyloid causes 6% to 30%, more over 75) and, even without LV hypertrophy, heart failure of unknown cause at any LVEF; aortic stenosis (up to 15%, and up to 30% with low-flow, low-gradient AS; screening severe AS over 75 is reasonable); and late-onset 'HCM' (26% of those over 80).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Among these, cardiac amyloidosis (mostly ATTR) may account for 6% to 30% of cases [] with increased prevalence in those over 75 years of age. … These findings highlight the importance of considering ATTR amyloidosis screening [] in HF patients without an identified cause even in the absence of LVH, and in the presence of any value of LVEF. … Up to 15% of patients with AS may have ATTR-CM and in the subpopulation with low-flow, low-gradient pattern it can rise to 30% … Due to the poorer prognosis with combined cardiac amyloidosis and AS, it is reasonable to screen elderly patients (>75 years) presenting with severe AS … Cardiac amyloidosis is a condition that frequently mimics HCM, affecting 1% of HCM patients diagnosed between 40 and 48 years old, and 26% of those above 80 years of age",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Test red flags:** a thick LV wall with low QRS voltage is highly suggestive, but only 25% to 40% meet low-voltage criteria and it appears late; poor R-wave progression is seen in more than half, and conduction disease is common. NT-proBNP out of proportion to the heart failure, and raised hs-troponin T, are red flags too.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The existence of increased LV wall thickness in the presence of low-voltage QRS is highly suggestive of cardiac amyloidosis and can differentiate it from LVH due to hypertension or HCM []. However, only 25% to 40% of patients with ATTR-CM meet low voltage criteria []. In addition, the low voltage may reflect the increasing accumulation of amyloid protein over time [] and, as such, it is a relatively late finding of ATTR-CM and may not be useful for early identification. The lack of progression of the R wave (pseudo-infarction pattern) in the anterior precordial leads was reported in more than half of affected patients []. A proportion of patients (12% to 25%) with amyloid cardiomyopathy have a LVH pattern on ECG []. Conduction defects, such as various degrees of AV block, fascicular block, intraventricular conduction delay, and bundle branch blocks, are also frequently observed … Disproportionally increased NT-proBNP levels to the degree of HF are commonly observed in all forms of cardiac amyloidosis and are a 'red flag' for the condition, as well as increased levels of cTnT-HS.",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Echo clues:** LV wall thickness typically 1.2 cm or more with a non-dilated LV, 'granular sparkling' myocardium, thickened AV valves, RV free wall and interatrial septum, pericardial effusion, diastolic dysfunction, biatrial enlargement, and reduced global longitudinal strain with relative apical sparing.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Diagnostic clues include increased LV wall thickness (typically ≥ 1.2 cm) with an asymmetrical (most common) [] or symmetrical pattern, a non-dilated LV, the 'granular sparkling' appearance of the myocardium, AV valve/right ventricle free wall/interatrial septum thickening, pericardial effusion, diastolic dysfunction, decreased mitral annular systolic velocity (s'), biatrial enlargement, and decreased global longitudinal strain (GLS) with relative apical sparing",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **First step: exclude AL amyloidosis with three tests** (serum free light chains, serum immunofixation and urine immunofixation); all normal excludes AL with a negative predictive value above 99%. Do not use protein electrophoresis instead. If any test is abnormal, the non-invasive route is closed: biopsy the involved organ.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "AL amyloidosis can be essentially excluded by obtaining a monoclonal protein screen comprising 3 laboratory tests: serum free light chain (sFLC) assay, serum immunofixation electrophoresis (SIFE), and urine immunofixation electrophoresis (UIFE) []. If all tests are normal, AL amyloidosis has been excluded with a negative predictive value of >99% []. Serum/urine protein electrophoresis should not be used to exclude a monoclonal protein given its lower accuracy relative to immunofixation for AL amyloidosis. If any of the above three tests is abnormal, a non-invasive diagnostic pathway is no longer an option, and a biopsy of the involved organ is needed",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Second step: with AL excluded, bone scintigraphy grade 2 or 3 diagnoses ATTR-CM without biopsy;** then do TTR genetic testing. Use DPD, HMDP or PYP (not MDP). A positive planar scan is Perugini grade 2 or more and/or a heart-to-contralateral ratio of 1.5 or more at 1 h (above 1.3 at 3 h); SPECT is recommended.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "If AL-CM is ruled out, bone avid tracer scintigraphy can be performed to assess for ATTR-CM. If this shows a grade 2/3, a diagnosis of ATTR-CM can be made, and genetic testing (TTR gene) must follow. … Tc-99 m methylene diphosphonate (MDP) is not recommended as its sensitivity is significantly lower compared to the other agents … Diagnostic criteria for positive planar scintigraphy include a Perugini score ≥2 [], and/or a heart/contralateral (HCL) chest ratio ≥1.5 on a 1-h scan or >1.3 on a 3h scan []. Single-photon emission computed tomography enables a more accurate assessment of tracer uptake in the myocardium and blood pool, and it is recommended by all national and international societies",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **A scan alone cannot separate ATTR from AL:** grade 2–3 uptake occurs in more than 10% to 30% of AL cardiomyopathy. Sensitivity for ATTR-CM is above 99% but specificity only 82–86%, rising to 100% when blood and urine tests for AL are negative.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "cardiac uptake that is consistent with ATTR-CM (grade 2 or 3 uptake) may be present in over 10% to 30% of patients with AL-CM []. Thus, it is fundamental to choose the appropriate diagnostic pathway based on the presence or absence of a monoclonal protein []. A scintigraphy scan alone is neither appropriate nor valid to distinguish ATTR-CM from AL-CM … Bone scintigraphy with a Perugini grade of two or three of myocardial uptake showed a high sensitivity of >99% for ATTR-CM but a lower specificity of 82-86%, given that a grade of 1 or 2 can be observed in patients with AL-CM []. However, if urine and serum tests are negative for AL amyloidosis, the specificity of the test increases to 100%.",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**When to biopsy:** a negative or equivocal scan (grade 0/1) with continuing suspicion, a monoclonal protein or abnormal kappa/lambda ratio, or no scintigraphy available. Endomyocardial biopsy is close to 100% accurate; a negative fat-pad biopsy does not exclude cardiac amyloid. Type any amyloid found by mass spectrometry or immunohistochemistry.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "If scintigraphy is negative or equivocal (grade 0/1), echo, CMR, and patient history need to be reviewed and referral for tissue biopsy should be considered for patients with ongoing clinical suspicion of cardiac amyloidosis. … Endomyocardial (EMB) biopsy should be performed (if another tissue biopsy does not confirm amyloid presence) in the following scenarios []: 1) high clinical suspicion of cardiac amyloidosis in a patient with a monoclonal protein by immunofixation electrophoresis and/or an abnormal sFLC K/L ratio; 2) high clinical suspicion for cardiac amyloidosis despite negative or equivocal scintigraphy; or 3) cardiac scintigraphy is unavailable … the sensitivity and specificity of EMB approach 100% in both cases with adequate samples. However, in very early disease, amyloid deposition may be patchy, although this situation seems to be quite rare. If EMB is not possible, alternatives include fat pad biopsy (although, due to the low sensitivity, if it is negative it is not sufficient to exclude cardiac amyloidosis) … Once amyloidosis is identified on tissue biopsy, the tissue should then be typed with either mass spectrometry or immunohistochemistry to further determine the subtype",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Genetic testing for every confirmed ATTR-CM, at any age, with genetic counselling:** in one study 5% of patients aged 70 or more had the hereditary form (10% of women).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients with a definitive diagnosis of ATTR-CM should undergo genetic testing (search for TTR gene mutations) to distinguish ATTRv amyloidosis from ATTRwt []. Genetic testing should be performed regardless of age [], in concert with genetic counselling. It is worth mentioning that, in a recent study, 5% of individuals with ATTR-CM ≥70 years had ATTRv; among females, the prevalence was 10%",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Stage with the Gillmore (UK National Amyloidosis Centre) system:** stage I is NT-proBNP 3000 ng/L or less with eGFR 45 ml/min or more; stage III is NT-proBNP above 3000 with eGFR below 45; the rest are stage II. Median survival: 69.2, 46.7 and 24.1 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It defines stage I as NT-proBNP ≤3000 ng/L and eGFR ≥45 ml/min, Stage III as NT-proBNP >3000 ng/L and eGFR <45 ml/min, and the remaining cases are considered Stage II. The median survival from diagnosis for patients with stages I, II, and III, was 69.2, 46.7, and 24.1 months, respectively",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
   },
   {
    "claim": "**Treat symptomatic patients with a confirmed amyloidogenic variant as early as possible.** Asymptomatic carriers have no approved preventive therapy; carriers with biopsy-proven amyloid but no disease features need close monitoring and a multidisciplinary decision.",
@@ -128,6 +192,28 @@
    "verdict": "pass",
    "source_text": "Cardiac involvement (ATTR-CM) most significantly contributes to morbidity and mortality [-]. Interstitial amyloid deposition within the myocardium leads to restrictive cardiomyopathy characterized by ventricular wall thickening and diastolic dysfunction. Clinical manifestations usually include heart failure with preserved ejection fraction, arrhythmias (particularly atrial fibrillation), and conduction disturbances, eventually requiring pacemaker implantation. Because cardiac involvement commonly occurs also in patients presenting primarily with neuropathy, regular cardiological evaluation is recommended as part of routine follow-up",
    "locator": "DGAK and DGN, Neurological Research and Practice (BMC), 'Disease modifying treatment of hereditary transthyretin amyloidosis with polyneuropathy in Germany – expert consensus of the German society of amyloid diseases (DGAK) and the German neurological society (DGN)', published 11 August 2026, https://doi.org/10.1186/s42466-026-00521-4, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Heart-failure drugs behave differently in amyloid (S2):** diuretics (a loop diuretic with a mineralocorticoid receptor antagonist) are central but can drop preload and kidney function; beta-blockers and non-dihydropyridine calcium channel blockers are poorly tolerated, and profound hypotension on starting a beta-blocker is itself a clue; ACE inhibitors, ARBs and sacubitril/valsartan have no supporting evidence. If digoxin is needed for AF rate control, use 0.125 mg/day or less with level, renal and electrolyte monitoring.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Typically, a loop diuretic (e.g., furosemide or torsemide) is combined with a mineralocorticoid receptor antagonist (e.g., spironolactone, eplerenone). Caution must be taken when using diuretics in patients with autonomic dysfunction due to the risk of orthostatic hypotension. … In general, restrictive cardiomyopathies, including amyloid cardiomyopathy, have limited tolerance to beta-blockers. This class of drugs can often cause low cardiac output, fatigue, conduction disturbances, hypotension, and even syncope in conditions with a restrictive physiology like ATTR-CM where heart rate significantly affects cardiac output []. Conversely, a notable clinical suspicion for possible cardiac amyloidosis is the development of profound hypotension and fatigue following the initiation of beta-blockers []. Similarly, non-dihydropyridine calcium channel blockers are poorly tolerated due to their negative inotropic, chronotropic, and dromotropic effects. … There is currently no supporting evidence for the use of these drugs in patients with cardiac amyloidosis. … According to the study's findings the authors suggested using low doses (0.125 mg/day or lower) while closely monitoring digoxin concentrations, renal function, and electrolytes levels.",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Intracardiac thrombus is common, even in sinus rhythm:** consider anticoagulation with atrial mechanical dysfunction, do not rely on CHA2DS2-VASc, and do a TOE before cardioversion even when anticoagulated. Warfarin or a DOAC is generally safe.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Intracardiac thrombosis is frequent in cardiac amyloidosis, even in the presence of sinus rhythm and preserved systolic function, likely due to poor atrial function []. This has a significant impact on mortality []. In the presence of atrial mechanical dysfunction, anticoagulation may be considered, even for patients with sinus rhythm []. The decision for anticoagulation should not be solely based on the CHA2DS2-VASc score, since no association was found between this score and the presence of left atrial appendage thrombus on transoesophageal echocardiogram (TEE) and embolic events []. Moreover, when cardioversion for atrial arrhythmias is planned, TEE should be performed to rule out left atrial thrombi even among patients who receive an adequate anticoagulation regime … Anticoagulation with either warfarin or novel oral anticoagulants is generally safe for patients with cardiac amyloidosis",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tafamidis eligibility (S2):** NYHA class I–III, preferably I–II (class IV is not eligible); age is no bar, but decide individually at 90 or over. Probable exclusions: 6-minute walk under 100 m, expected survival under two years, severe uncorrected aortic stenosis, or eGFR below 25 ml/min/1.73 m2.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Age is not a contraindication, but decisions for patients aged 90 years and older should involve individualized discussions []. Patients in NYHA functional class IV are not eligible for this therapy, while those in functional class I to III, preferably class I-II, are candidates as the expected benefit is greater in less advanced cardiac disease []. Other considerations for treatment eligibility include the degree of functional disability, measured using the 6-minute walking distance (<100 m considered a severe disability that may exclude indication for treatment) [], expected survival (if less than two years, there is probably no indication for this therapy), and frailty. Associated severe uncorrected AS or significant kidney dysfunction (eGFR<25 ml/min/1.73 m2) may also be additional exclusion criteria for tafamidis treatment",
+   "locator": "Brito D, Albrecht FC, et al., World Heart Federation, Global Heart 18(1):59 (doi 10.5334/gh.1262), 'World Heart Federation Consensus on Transthyretin Amyloidosis Cardiomyopathy (ATTR-CM)', published 26 October 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10607607/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Three drugs are approved for ATTR-CM: tafamidis at 61 mg (not 20 mg), acoramidis and vutrisiran.** For predominantly cardiac disease (wild-type or variant), therapy includes any of these; in mixed neurological-cardiac disease, vutrisiran is an important option.",

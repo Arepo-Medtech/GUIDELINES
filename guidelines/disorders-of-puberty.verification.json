@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/disorders-of-puberty.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9066594/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9066594/",
+  "https://www.nature.com/articles/nrendo.2015.112"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from European Reference Network on Rare Endocrine Conditions (Endo-ERN) (Nordenström A et al.), European Journal of Endocrinology 'Pubertal induction and transition to adult sex hormone replacement in patients with congenital pituitary or gonadal reproductive hormone deficiency: an Endo-ERN clinical practice guideline' (2022). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC9066594 (NCBI efetch; Europe PMC returned 503)). Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Tables 3–5 (oestrogen, testosterone and gonadotropin regimens) were stripped.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from European Reference Network on Rare Endocrine Conditions (Endo-ERN) (Nordenström A et al.), European Journal of Endocrinology 'Pubertal induction and transition to adult sex hormone replacement in patients with congenital pituitary or gonadal reproductive hormone deficiency: an Endo-ERN clinical practice guideline' (2022), 22 claims; LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC9066594 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112) 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment' (published online 21 July 2015), 12 claims; LICENCE: CC BY-NC-SA 4.0 ('licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License') (read at the article page at nature.com (licence statement and JSON-LD license field)). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Tables 3–5 (oestrogen, testosterone and gonadotropin regimens) were stripped. Edition 2.0 adds S2, the 2015 European consensus statement on congenital hypogonadotropic hypogonadism (NC licence, so paraphrased and hash-anchored), whose running text gives the gonadotropin, GnRH and oestradiol doses that S1 keeps in its tables, plus fertility and bone-health advice.",
  "summary": {
-  "total": 22,
+  "total": 34,
   "pass": 22,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -117,6 +119,46 @@
    "locator": "European Reference Network on Rare Endocrine Conditions (Endo-ERN) (Nordenström A et al.), European Journal of Endocrinology, 'Pubertal induction and transition to adult sex hormone replacement in patients with congenital pituitary or gonadal reproductive hormone deficiency: an Endo-ERN clinical practice guideline', 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9066594/, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 in CHH: build up to the full adult testosterone dose over about 18–24 months,** depending on the age at the start. A slow rise imitates natural puberty, gets the most height and leaves time for psychosexual development.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ff31feaee33a4a1",
+     "n": 291,
+     "p": "graduall"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Set the injection interval by a trough testosterone level aimed at the low end of normal,** so the patient is not hypogonadal before the next dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d0a1cd6667cef64b",
+     "n": 182,
+     "p": "The freq"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Testes that grow on testosterone suggest reversal:** reassess the axis off testosterone. S2 puts spontaneous recovery at about 10–20%, including people with variants in known CHH genes; it may not last and nothing yet predicts it, so monitoring continues.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6c628b1bac4bb23",
+     "n": 531,
+     "p": "Importan"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **In boys with HH, discuss both options:** testosterone or gonadotropins. Neither is proven better for virilisation; the choice depends on preference, ease of use, availability and fertility plans.",
    "source": "S1",
    "verdict": "pass",
@@ -152,6 +194,64 @@
    "locator": "European Reference Network on Rare Endocrine Conditions (Endo-ERN) (Nordenström A et al.), European Journal of Endocrinology, 'Pubertal induction and transition to adult sex hormone replacement in patients with congenital pituitary or gonadal reproductive hormone deficiency: an Endo-ERN clinical practice guideline', 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9066594/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Doses when testes are under 4 mL (S2):** GnRH by pump at 25 ng/kg per pulse every 2 h (titrated to trough testosterone), or combined gonadotropins given 2–3 times weekly depending on the product: hCG 1,000–1,500 IU plus FSH 75–150 IU per injection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1fe161a2680ef1cf",
+     "n": 291,
+     "p": "In clini"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Testes over 4 mL and no history of cryptorchidism:** hCG on its own can start sperm production; add FSH if there are still no sperm after 3–6 months. In the most severe cases (testes under 4 mL), FSH is given alone first, before hCG, to expand the immature Sertoli and germ cells.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf151c2ea0478a5e",
+     "n": 596,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Poorer fertility outlook:** cryptorchidism (such men often need 18–24 months of treatment), prepubertal testes under 4 mL and low inhibin B. Around 75% develop sperm, though the count is seldom normal, and a low count does not rule out fathering a child.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "58f96ae7850c4e6b",
+     "n": 418,
+     "p": "First, c"
+    },
+    {
+     "h": "e9e6ed0051499e27",
+     "n": 110,
+     "p": "However,"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After conception, switch back to testosterone** but keep fertility treatment going through the first trimester in case of miscarriage; bank sperm once fertility is achieved, since it is not guaranteed next time.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "38b867c56496e14a",
+     "n": 558,
+     "p": "Once pre"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Start induction at about 11 when hypogonadism is confirmed and there are no signs of puberty, or at 13 if constitutional delay is suspected.** For CDGP, a short 3–6 month course of low-dose oestradiol may be used, with monitoring for spontaneous progress.",
    "source": "S1",
    "verdict": "pass",
@@ -172,6 +272,104 @@
    "verdict": "pass",
    "source_text": "R 2.7We recommend a follow-up frequency with a minimum of once every 3-6 months during pubertal induction or sex hormone replacement to sustain puberty in girls. … R 2.9We recommend that progesterone is added after puberty induction or during sex hormone replacement to sustain puberty in girls after breakthrough bleeding, after at least 2 years of treatment. (+OOO) … R 2.10We recommend to change pubertal induction treatment of oestrogen and progesterone to permanent adult sex hormone replacement therapy at the end of pubertal induction.",
    "locator": "European Reference Network on Rare Endocrine Conditions (Endo-ERN) (Nordenström A et al.), European Journal of Endocrinology, 'Pubertal induction and transition to adult sex hormone replacement in patients with congenital pituitary or gonadal reproductive hormone deficiency: an Endo-ERN clinical practice guideline', 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9066594/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Oestradiol induction doses (S2, CHH):** transdermal is preferred, starting no earlier than age 10 at 0.05–0.07 μg/kg at night (0.08–0.12 μg/kg for an older girl for whom breast growth is the priority). Raise the dose slowly over 12–24 months, then add a cyclic progestogen (or add it after the first period).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "60c2e176cc8a150f",
+     "n": 692,
+     "p": "Puberty "
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Adult maintenance (S2):** oestradiol 1–2 mg by mouth, or a patch delivering 50 μg a day, or 0.06% gel at 1–2 pumps a day, with progesterone 200 mg on 14 days of each cycle against endometrial hyperplasia. This gives monthly bleeds but no ovulation; fertility needs gonadotropins or GnRH.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c04f08b162e0465d",
+     "n": 773,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Women with CHH can be told their infertility is treatable and the outlook good:** a low AMH does not mean a poor ovarian reserve. Ovulation is induced with pulsatile GnRH (3–10 μg per pulse under the skin every 90 min) or FSH, usually 75–150 IU a day, then hCG or LH, aiming for one ovulation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0b5501353e665c3",
+     "n": 417,
+     "p": "This poi"
+    },
+    {
+     "h": "f52f79d40d501e73",
+     "n": 70,
+     "p": "Typicall"
+    },
+    {
+     "h": "d644531f2c346cc5",
+     "n": 81,
+     "p": "The usua"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Infant boys with cryptorchidism, with or without micropenis:** measure gonadotropins, sex steroids and inhibin B at 4–8 weeks (mini-puberty). Do the same for any baby of a parent with CHH, with genetic testing if the parent's variant is known. Hypospadias argues against CHH.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "64f03f00971a47e3",
+     "n": 291,
+     "p": "For male"
+    },
+    {
+     "h": "2174b591654af079",
+     "n": 277,
+     "p": "However,"
+    },
+    {
+     "h": "35ce7e7262f73df6",
+     "n": 208,
+     "p": "Regardle"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Measure bone density at final height and again after 2 years of treatment;** sex steroids improve it but do not fully correct it. Adherence matters for metabolic health too: stopping for just 2 weeks raised fasting insulin in young men with CHH.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "88d45b6df89e74d5",
+     "n": 188,
+     "p": "Lack of "
+    },
+    {
+     "h": "fbbe9a0928c4b264",
+     "n": 121,
+     "p": "We recom"
+    },
+    {
+     "h": "0fb72693807b6a6d",
+     "n": 173,
+     "p": "even sho"
+    }
+   ],
+   "locator": "Boehm U, Bouloux PM, Dattani MT, de Roux N, Dodé C, Dunkel L, Dwyer AA, et al.; European consortium studying GnRH biology (COST Action BM1105); Nature Reviews Endocrinology 11:547-564 (doi 10.1038/nrendo.2015.112), 'European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment', published online 21 July 2015, https://www.nature.com/articles/nrendo.2015.112, retrieved 2026-09-24"
   }
  ]
 }

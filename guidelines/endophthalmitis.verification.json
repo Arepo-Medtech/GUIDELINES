@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/endophthalmitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy' (published 25 October 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8589908). The source's words are NOT reproduced here. Tables 1–3 (Sydney Eye Hospital organism data, early-vitrectomy outcomes) were stripped. A Taiwan Ocular Inflammation Society consensus (Lee CY et al., Ophthalmol Ther 2024, PMC10776529, CC BY-NC 4.0) was read and not used as S1: it has 8 statements, no doses, and is framed for Taiwanese epidemiology.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy' (published 25 October 2021), 19 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8589908). S2: QUOTED from Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y) 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)' (published 13 October 2025), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12516872). Verify each source separately: verify.py --source <file> --only-source S<n>. Tables 1–3 (Sydney Eye Hospital organism data, early-vitrectomy outcomes) were stripped. A Taiwan Ocular Inflammation Society consensus (Lee CY et al., Ophthalmol Ther 2024, PMC10776529, CC BY-NC 4.0) was read and not used as S1: it has 8 statements, no doses, and is framed for Taiwanese epidemiology. Edition 2.0 keeps every S1 claim unchanged and adds S2, the APVRS/AAPPO/APSOII fungal endophthalmitis consensus (2025, CC BY 4.0, quoted; 24 panellists from 12 countries, consensus at 75% or more agreement), for recognising and treating fungal endophthalmitis; its antifungal dosing table (Table 5) and algorithm (Fig. 6) were not machine-read.",
  "summary": {
-  "total": 19,
-  "pass": 0,
+  "total": 31,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 19
  },
@@ -297,6 +298,90 @@
     }
    ],
    "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fungi cause about 15–19% of endophthalmitis worldwide and usually present late:** weeks to months after the event and indolent, whereas acute bacterial infection presents within days. Fungal infection after trauma with vegetable matter, stone or mud presents sooner.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Fungal endophthalmitis accounts for approximately 15%-19% of all endophthalmitis globally. … The time to the onset of symptoms is an important differentiating feature. Acute bacterial endophthalmitis presents within days, and fungal endophthalmitis presents in weeks to months. It is usually indolent and may persist for a variable time. … Traumatic fungal endophthalmitis often occurs after injury with vegetable matter, stone, or mud particles [, ]. The symptoms and signs develop earlier than post-procedure and endogenous endophthalmitis.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Suspect fungus in a fairly quiet eye with mild vitreous haze after intraocular surgery in someone on prolonged topical or systemic steroids,** especially if inflammation worsens as steroids are tapered. After cataract surgery, fungi can hide under the IOL or in the capsular bag.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A relatively quiet-looking eye with mild vitreous haze in a patient on prolonged topical and systemic steroids after intraocular surgery should raise suspicion of fungal endophthalmitis. In post-cataract surgery endophthalmitis, the fungi may also be sequestered under the IOL/capsular bag, making it difficult to detect the fungi. … The inflammation typically worsens when steroids are tapered or discontinued.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Signs that point to fungus:** nodular exudates on the iris or lens/IOL surface, vitreous exudates like a string of pearls, and creamy white circumscribed chorioretinal lesions. Vitritis is the most consistent sign of endogenous fungal infection.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Typical signs of fungal endophthalmitis include nodular exudates over the iris and crystalline/intraocular lens (IOL) surface, vitreous exudates arranged like a string of pearls, and creamy white circumscribed chorioretinal lesions … Vitritis is the most consistent clinical presentation in endogenous fungal endophthalmitis and may be accompanied by characteristic vitreous or retinal lesions.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Investigate systemically (75% consensus),** scaled to the event and suspicion: full blood count, urea and electrolytes, liver function, blood culture, sputum and urine culture, chest X-ray, liver ultrasound and transthoracic echocardiogram. B-scan ultrasound helps when the fundus view is poor.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Systemic investigations could be required; these include complete blood count, serum urea and electrolytes, liver function tests, peripheral blood culture, sputum and urine culture, chest radiogram, liver ultrasonogram, and transthoracic echocardiogram. The treating clinician decides the quantum of investigations based on the precipitating event and clinical suspicions. … Systemic investigations are essential in all fungal endophthalmitis. [Consensus score: 75% … Ultrasonography (B-scan) is an important ancillary test to aid the clinical diagnosis. It quantifies vitreous exudation and structural changes of the retina and choroid []. It is useful in eyes with severe vitreous opacities, which limit the view of the retina.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Confirm with direct microscopy and culture;** cultures can take up to two weeks. When culture is negative, use PCR or next-generation sequencing, and vitreous 1,3 β-D-glucan and galactomannan are useful rapid adjuncts.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Fungi are slow-growing organisms; cultures may take up to two weeks … In all culture-negative endophthalmitis, molecular microbiology work-up, such as NGS, helps identify the infecting fungi. … Fungal biomarkers like 1,3 β-D-glucan and galactomannan are valuable adjuncts for the early diagnosis of fungal endophthalmitis.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Early, complete vitrectomy gives better results (90% consensus),** usually with more extensive vitreous clearance than the EVS's conservative 50% removal for bacterial infection; in pseudophakic eyes, clear the anterior vitreous too.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Early and complete vitrectomy in fungal endophthalmitis results in a superior outcome. [Consensus score: 90% … Unlike the Endophthalmitis Vitrectomy Study recommendations for conservative vitrectomy in bacterial endophthalmitis (i.e., 50% vitreous removal) [], fungal infections often require more extensive vitreous clearance … In pseudophakic eyes, clearance of the anterior vitreous is required, as exudates often accumulate near the ciliary sulcus, and inadequate clearance can lead to persistent or recurrent inflammation.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Give antifungals by every route (85% consensus):** intravitreal is the mainstay and usually needs repeating, with topical and systemic treatment for other reservoirs. Consider intracameral plus intravitreal voriconazole, since fungi sequester around the IOL.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Intravitreal antifungal agents are the mainstay of treatment, though it is equally important to administer them through other routes, such as topical and systemic, to treat all potential reservoirs of infection, maximize antifungal efficacy, and reduce the risk of recurrence. … Treatment with antifungal agents is required via all routes-intravitreal, topical, and systemic. [Consensus score: 85% … Usually, more than one intravitreal injection is required. … A combination of intracameral and intravitreal voriconazole has been shown to be effective in managing fungal endophthalmitis; it should be considered, given the propensity of intra-capsular or peri-IOL sequestration",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Systemic drug for Candida:** fluconazole is a reasonable first line for susceptible strains; voriconazole also covers fluconazole-resistant species (C. glabrata, C. krusei) and Aspergillus; systemic amphotericin B reaches the eye poorly and is kept for azole resistance.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Candida species are generally susceptible to amphotericin B, fluconazole, and voriconazole. However, systemic amphotericin B achieves therapeutic intraocular concentrations in only a minority of cases, and it is typically reserved for azole-resistant infections. Fluconazole is a reasonable first-line option for susceptible Candida infections, given its lower cost, widespread availability, lower hepatic toxicity, and lack of need for therapeutic drug monitoring. Conversely, voriconazole has a broader spectrum, including activity against fluconazole-resistant species such as Candida glabrata and Candida krusei, and also covers filamentous fungi such as Aspergillus spp.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Endogenous fungal infection: systemic antifungal is the mainstay.** Flat choroiditis confined to the choroid usually needs no intravitreal drug; add intravitreal antifungal once lesions are raised or reach the vitreous.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Systemic therapy remains the mainstay of treatment in endogenous fungal endophthalmitis. If diagnosed early, when lesions are confined to the choroid (i.e., flat choroiditis) and have not breached the outer blood-retinal barrier, intravitreal therapy is typically unnecessary. However, adjunctive intravitreal antifungal therapy is warranted once lesions become raised (chorioretinitis) or involve the vitreous (endophthalmitis)",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Check renal and liver function before systemic antifungal, then continue it for 4–6 weeks** (85% consensus).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Systemic antifungal therapy should be initiated after baseline renal and liver function assessment and continued for 4-6 weeks. [Consensus score: 85%",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Intravitreal dexamethasone split the panel (25% agreement):** most avoid it in fungal infection, but some would consider cautious adjunctive steroid once antifungal therapy is established and the infection is controlled.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Intravitreal dexamethasone can be administered in fungal endophthalmitis. [Consensus score: 25% … in selected and carefully monitored situations, corticosteroids might be considered adjunctively after antifungal therapy is established and fungal infection is possibly controlled.",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Recalcitrant pseudophakic fungal endophthalmitis:** consider removing the IOL and posterior capsule (90% consensus).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The IOL and posterior capsule explantation may be considered in recalcitrant pseudophakic fungal endophthalmitis. [Consensus score: 90%",
+   "locator": "Das T, Lam DSC et al. (APVRS, AAPPO and APSOII expert panel), Eye and Vision (doi 10.1186/s40662-025-00456-y), 'International consensuses and guidelines on diagnosing and managing fungal endophthalmitis by the Asia-Pacific Vitreo-retina Society (APVRS), the Academy of the Asia-Pacific Professors of Ophthalmology (AAPPO), and the Asia-Pacific Society of Ocular Inflammation and Infection (APSOII)', published 13 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12516872/, retrieved 2026-09-24"
   },
   {
    "claim": "**Before intraocular surgery:** treat blepharitis and other ocular surface disease, leave 5–10% povidone-iodine on the cornea, conjunctival sac and surrounding skin for 3 min, wear face masks and sterilise instruments meticulously. Intracameral cefuroxime cut post-cataract infection in the ESCRS study.",

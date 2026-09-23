@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/neurogenic-bladder.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf"
+  "https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf",
+  "https://cuaj.ca/index.php/journal/article/view/5912"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Association of Urology (EAU) 'EAU Guidelines on Neuro-Urology (limited update March 2026)' (limited update March 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © European Association of Urology 2026; personal and educational use only, no reproduction without written permission (read at section 7 'Copyright and terms of use' of the PDF itself). The source's words are NOT reproduced here. The guideline's terms also state (verbatim): 'the EAU prohibits the usage or upload of its Guidelines, and any material derived from these texts (whether in full or in part) on external websites, bots, pages, portals, servers, software or external applications, including those employing artificial intelligence technologies and infrastructure, such as large language models and generative AI, deep learning and machine learning, unless written permission has been granted for such by the EAU.' Recorded per the standing owner decision (Wave 4); the content is paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Association of Urology (EAU) 'EAU Guidelines on Neuro-Urology (limited update March 2026)' (limited update March 2026), 23 claims; LICENCE: © European Association of Urology 2026; personal and educational use only, no reproduction without written permission (read at section 7 'Copyright and terms of use' of the PDF itself). S2: PARAPHRASED AND HASH-ANCHORED from Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76) 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction' (published online 7 February 2019), 12 claims; LICENCE: © 2019 Canadian Urological Association or its licensors; no reproduction without the prior written permission of the CUA (read at PMC6570608 JATS <permissions> element and the cuaj.ca article page copyright notice). Verify each source separately: verify.py --source <file> --only-source S<n>. The guideline's terms also state (verbatim): 'the EAU prohibits the usage or upload of its Guidelines, and any material derived from these texts (whether in full or in part) on external websites, bots, pages, portals, servers, software or external applications, including those employing artificial intelligence technologies and infrastructure, such as large language models and generative AI, deep learning and machine learning, unless written permission has been granted for such by the EAU.' Recorded per the standing owner decision (Wave 4); the content is paraphrased and hash-anchored. Edition 2.0 keeps every S1 claim unchanged and adds S2, the Canadian Urological Association guideline (2019, © CUA, paraphrased), read from its single-column online-first PDF (cua-a) because the two-column final PDF (cua-b) does not extract as running text; its risk-stratified surveillance figure (Figure 3) and tables were not machine-read.",
  "summary": {
-  "total": 23,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -129,6 +130,55 @@
     }
    ],
    "locator": "European Association of Urology (EAU), 'EAU Guidelines on Neuro-Urology (limited update March 2026)', limited update March 2026, https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Everyone referred needs a urinalysis and a post-void residual at the first assessment (Grade B).** After spinal cord injury, the first urological review should happen within 6 months, earlier if there are worries (Grade A).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6e8c6e62b07ea9d",
+     "n": 110,
+     "p": "All pati"
+    },
+    {
+     "h": "3ffeffe93f893b56",
+     "n": 143,
+     "p": "After a "
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Spinal cord injury, spina bifida and advanced MS need baseline urodynamics, a renal ultrasound and renal function tests (Grade A);** other causes have them when referred with a specific urological problem. Then class each patient as high, moderate or low risk to guide first treatment and surveillance (Grade B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "854817c4c65ea32d",
+     "n": 288,
+     "p": "Patients"
+    },
+    {
+     "h": "e99a3b84fa5f4c5f",
+     "n": 230,
+     "p": "The trea"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hydronephrosis or reflux caused by high bladder pressure is treated by lowering storage pressure first;** anti-reflux surgery or ureteric stenting should not be used for it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "79a4a5cbdb76e994",
+     "n": 220,
+     "p": "Since VU"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Priorities, in order: protect the upper tracts, achieve continence, restore lower tract function, and improve quality of life.** Holding bladder pressure within safe limits during filling and voiding is the top priority, because it cuts deaths from urological causes.",
@@ -265,6 +315,34 @@
    "locator": "European Association of Urology (EAU), 'EAU Guidelines on Neuro-Urology (limited update March 2026)', limited update March 2026, https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Oral antimuscarinics, with the dose pushed up as tolerated, are the first-line drug (Grade A);** evidence covers oxybutynin, tolterodine, propiverine, darifenacin and solifenacin. Combining two may help when dose escalation fails, and they are worth giving even with catheter drainage, because going without them is a risk factor for upper tract damage.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1bf59ead85a26785",
+     "n": 236,
+     "p": "Oral ant"
+    },
+    {
+     "h": "039d05adf4fc55ac",
+     "n": 184,
+     "p": "The pref"
+    },
+    {
+     "h": "ec82df0cc6bf71d5",
+     "n": 121,
+     "p": "Combinin"
+    },
+    {
+     "h": "1e8947d39df45540",
+     "n": 226,
+     "p": "The admi"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Intermittent catheterisation, by the patient or a carer, is the preferred method** when a neurological patient cannot empty the bladder. Sterile technique is not routine, and people need careful counselling before they start.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -333,6 +411,57 @@
    "locator": "European Association of Urology (EAU), 'EAU Guidelines on Neuro-Urology (limited update March 2026)', limited update March 2026, https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Match the drainage method to the person's motor function, anatomy, bladder behaviour, past complications and quality of life (Grade A),** and keep revisiting it. Self-catheterisation works best with a low-pressure bladder holding at least 350-400 mL, an unobstructed urethra and good hand function; strictures still occur in 4–13%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5844ee0bec3a3143",
+     "n": 261,
+     "p": "Selectio"
+    },
+    {
+     "h": "3689e46b64d550d0",
+     "n": 196,
+     "p": "the idea"
+    },
+    {
+     "h": "94e73a523f459738",
+     "n": 40,
+     "p": "strictur"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Catheter care:** keep a closed drainage system closed, the bag below the bladder, and use pre-connected systems where possible. Indwelling catheters are usually changed every 2 to 4 weeks (monthly is commonest), though this is not evidence-based. Do not routinely use antibiotic- or silver-coated catheters, antiseptics in the bag or routine saline irrigation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36305a470ebb2e36",
+     "n": 510,
+     "p": "In those"
+    },
+    {
+     "h": "d30e426190b2874f",
+     "n": 232,
+     "p": "It is ge"
+    },
+    {
+     "h": "37d9fa7c19820145",
+     "n": 266,
+     "p": "Antibiot"
+    },
+    {
+     "h": "de0f786b99b6dc03",
+     "n": 165,
+     "p": "Strong e"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
    "claim": "**If antimuscarinics fail, inject botulinum toxin A into the detrusor** to reduce neurogenic overactivity. (Strong) The effect wears off after about nine months and repeat injections keep working.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -362,6 +491,30 @@
     }
    ],
    "locator": "European Association of Urology (EAU), 'EAU Guidelines on Neuro-Urology (limited update March 2026)', limited update March 2026, https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **CUA dose: onabotulinumtoxinA 200 units into the detrusor** for spinal cord injury or MS when an anticholinergic has not worked or is not tolerated (Grade A). 300 units works no better and makes catheterisation more likely; for abobotulinumtoxinA the best dose is 750 units (Grade B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "969b9a1d696b5662",
+     "n": 336,
+     "p": "Onabotul"
+    },
+    {
+     "h": "3e9b3b975519f6cf",
+     "n": 222,
+     "p": "Achieved"
+    },
+    {
+     "h": "72c8754f907fe48a",
+     "n": 100,
+     "p": "Abobotul"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24",
    "dose": true
   },
   {
@@ -396,6 +549,83 @@
    "locator": "European Association of Urology (EAU), 'EAU Guidelines on Neuro-Urology (limited update March 2026)', limited update March 2026, https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Call it a UTI only when leukocyturia, bacteriuria and symptoms are all present (Grade A).** Symptoms can be unusual: fever, new leakage, more spasticity, malaise, cloudy or smelly urine, back or bladder pain, dysuria, or autonomic dysreflexia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d1f2b187be8c46d5",
+     "n": 154,
+     "p": "Presentl"
+    },
+    {
+     "h": "bdc2ba2da64713e6",
+     "n": 352,
+     "p": "The Inte"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Send a urine culture before any antibiotic (Grade A);** a catheter in place over 2 weeks should be replaced and the sample taken from the new one. Use narrow-spectrum drugs guided by local resistance, for 7 days when the response is prompt and 10–14 days for severe infection or a slow response (Grade A).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aef67cb9f66c5bbb",
+     "n": 366,
+     "p": "Urine cu"
+    },
+    {
+     "h": "a5bed3d748b6e4db",
+     "n": 168,
+     "p": "Antibiot"
+    },
+    {
+     "h": "bc7345beabfaaceb",
+     "n": 186,
+     "p": "A 7-day "
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**How the bladder is emptied is the main driver of UTI:** use clean intermittent catheterisation where possible (Grade A). A urethral indwelling catheter carries a more than 5-fold risk of recurrent UTI compared with suprapubic or intermittent catheterisation; suprapubic catheters bring more bladder stones.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "45a2bd4fc63f6f15",
+     "n": 524,
+     "p": "Bladder "
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most patients should not have routine oral antibiotic prophylaxis (Grade A):** a meta-analysis of 15 RCTs found no support and about twice the resistance. Evidence is too thin for cranberry, probiotics, methenamine, D-mannose and similar measures; daily gentamicin bladder irrigation cut symptomatic UTI by 75% in people catheterising intermittently with recurrent UTI.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41d0f469e6a48add",
+     "n": 364,
+     "p": "A meta-a"
+    },
+    {
+     "h": "de4075a40ae9e573",
+     "n": 259,
+     "p": "Currentl"
+    },
+    {
+     "h": "89b863c1bed7063a",
+     "n": 170,
+     "p": "Recent e"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Follow up for life, tailored to risk:** in high-risk patients check the upper tracts and repeat urodynamics at regular intervals, and investigate any significant clinical change with a specialist. (Strong)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -412,6 +642,34 @@
     }
    ],
    "locator": "European Association of Urology (EAU), 'EAU Guidelines on Neuro-Urology (limited update March 2026)', limited update March 2026, https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**CUA surveillance (Grade C, consensus):** see every patient yearly (rehabilitation physician, neurologist or GP), with a urologist involved at moderate or high risk, such as spinal cord injury, spina bifida or advanced MS. Renal and bladder ultrasound yearly at moderate or high risk; urodynamics yearly at high risk and every 2-5 years at moderate risk. No routine surveillance cystoscopy for bladder cancer, even after augmentation; use it for suspected urethral or bladder problems.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02d387166b41e71a",
+     "n": 392,
+     "p": "We recom"
+    },
+    {
+     "h": "769cf86095b9895a",
+     "n": 165,
+     "p": "We sugge"
+    },
+    {
+     "h": "b6f74bab217f2cbc",
+     "n": 249,
+     "p": "We suppo"
+    },
+    {
+     "h": "1bb862fefd99f321",
+     "n": 139,
+     "p": "We suppo"
+    }
+   ],
+   "locator": "Kavanagh A, Baverstock R, Campeau L, Carlson K, Cox A, Hickling D, Nadeau G, Stothers L, Welk B (Canadian Urological Association), Can Urol Assoc J (doi 10.5489/cuaj.5912; final version 2019;13(6):E157-76), 'Canadian Urological Association guideline for the diagnosis, management, and surveillance of neurogenic lower urinary tract dysfunction', published online 7 February 2019, https://cuaj.ca/index.php/journal/article/view/5912, retrieved 2026-09-24"
   }
  ]
 }

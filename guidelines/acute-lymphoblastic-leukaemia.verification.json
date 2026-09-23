@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/acute-lymphoblastic-leukaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13366240/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13366240/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from American Society of Hematology (ASH) guideline panel (DuVall AS, et al.), Blood Advances 'American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults' (published 4 July 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13366240). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Society of Hematology (ASH) guideline panel (DuVall AS, et al.), Blood Advances 'American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults' (published 4 July 2026), 19 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13366240). S2: PARAPHRASED AND HASH-ANCHORED from American Society of Hematology (ASH) guideline panel, Blood Advances 10(13) 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults' (published 4 July 2026), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13366310). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the frontline edition (S1) unchanged and adds the companion ASH 2026 relapsed/refractory AYA guideline (S2, PMC13366310) for salvage immunotherapy, transplant consolidation, CNS relapse and relapsed T-ALL.",
  "summary": {
-  "total": 19,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -345,6 +346,191 @@
     }
    ],
    "locator": "American Society of Hematology (ASH) guideline panel (DuVall AS, et al.), Blood Advances, 'American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366240/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Relapsed/refractory B-ALL: use blinatumomab rather than chemotherapy** (strong; low certainty).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c89ddd5fdfd02e14",
+     "n": 265,
+     "p": "For adol"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Relapsed/refractory B-ALL: use inotuzumab rather than chemotherapy** (strong; low certainty), weighing veno-occlusive disease (VOD) risk when a transplant is planned afterwards. In the trial, grade ≥3 VOD/SOS occurred in 14% with inotuzumab versus 2% with chemotherapy, and in 23% of inotuzumab patients who went on to transplant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c16130fcf03d278b",
+     "n": 161,
+     "p": "For AYAs"
+    },
+    {
+     "h": "e0d1188cf098818f",
+     "n": 220,
+     "p": "The pane"
+    },
+    {
+     "h": "27f98f3e1629e65f",
+     "n": 261,
+     "p": "The rate"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**VOD risk after inotuzumab rises with** a previous allogeneic transplant, conditioning with two alkylating agents, bilirubin at or above the upper limit of normal before transplant, prior liver disease or hepatitis, and more inotuzumab cycles. Age ≥55 was also a factor, so AYAs may be at lower risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a3d9b09ecaced121",
+     "n": 439,
+     "p": "Risk fac"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**CAR T-cell therapy has no formal recommendation** against chemotherapy or other immunotherapy because comparative data are lacking, though single-arm studies show real benefit. There is no preferred order among blinatumomab, inotuzumab and CAR T cells: decide on the patient, disease burden and fitness for later transplant, confirm that the blasts carry the target (CD19 or CD22), and consider debulking before a CD19-directed agent.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b59707a3faad422b",
+     "n": 291,
+     "p": "With min"
+    },
+    {
+     "h": "f21966a4ecc37ecf",
+     "n": 427,
+     "p": "There ar"
+    },
+    {
+     "h": "b18b4ab590cd0be4",
+     "n": 332,
+     "p": "Of note,"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consolidate a second (or later) remission with allogeneic transplant rather than chemotherapy alone** (conditional; very low certainty), after assessing performance status, organ function and comorbidity. This also applies when a transplant-naive patient reaches that remission with a licensed CD19 CAR T-cell product (tisagenlecleucel or brexucabtagene autoleucel).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d8328fcfe5d10f9",
+     "n": 193,
+     "p": "For AYAs"
+    },
+    {
+     "h": "4715909c60f73796",
+     "n": 199,
+     "p": "The reco"
+    },
+    {
+     "h": "5017a82e781ea214",
+     "n": 305,
+     "p": "For AYAs"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Where the relapse came in the AYA years but the first diagnosis was before age 15,** some low-risk relapses may be curable with chemoimmunotherapy without transplant: plan care jointly with paediatric leukaemia and transplant teams.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c90f44b4912b577a",
+     "n": 520,
+     "p": "The pane"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For transplant in relapsed/refractory ALL, prefer myeloablative conditioning that includes total body irradiation** over chemotherapy-only conditioning (conditional; very low certainty).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ed1b0e075b352a2",
+     "n": 207,
+     "p": "For AYAs"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Isolated CNS relapse: give intrathecal chemotherapy together with systemic therapy, never cranial radiation alone** (both strong; very low certainty). Whether adding radiation to that helps is unknown.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77f959eabbe22e0e",
+     "n": 207,
+     "p": "For AYAs"
+    },
+    {
+     "h": "7a0be0082df36844",
+     "n": 186,
+     "p": "For AYAs"
+    },
+    {
+     "h": "d2407f37f3b659dc",
+     "n": 148,
+     "p": "There ar"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Relapsed/refractory T-ALL: a nelarabine-based regimen is suggested** (conditional), and earlier frontline nelarabine does not rule it out. Offer a clinical trial of novel therapy, including CAR T cells, where one is available (research-only recommendation).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "148fcece8443aaa7",
+     "n": 177,
+     "p": "For AYAs"
+    },
+    {
+     "h": "902d3911419a81da",
+     "n": 156,
+     "p": "There ar"
+    },
+    {
+     "h": "4b7012959024e770",
+     "n": 228,
+     "p": "The pane"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Good practice: bring in palliative care early and talk about goals of care before a crisis,** revisiting them at transitions such as relapse, and centred on what the young person wants.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "24d68335361c84ee",
+     "n": 297,
+     "p": "It is go"
+    },
+    {
+     "h": "0f2ea24468a48cb4",
+     "n": 459,
+     "p": "It is go"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(13), 'American Society of Hematology 2026 guidelines for management of relapsed/refractory acute lymphoblastic leukemia in adolescents and young adults', published 4 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13366310/, retrieved 2026-09-24"
   }
  ]
 }

@@ -1,9 +1,11 @@
 # Constitutional (self-limited) delay of growth and puberty in boys: diagnosis and testosterone treatment
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** boys with delayed puberty: definition, how often it is self-limited (constitutional) delay versus functional, permanent central or primary hypogonadism, clinical and laboratory clues, when to treat, and low-dose testosterone (and letrozole) to promote puberty, with monitoring. **Girls are not covered by this source;** oestradiol induction is in `disorders-of-puberty`. Pubertal induction in permanent hypogonadism (testosterone, hCG ± FSH): `disorders-of-puberty`. Growth hormone eligibility with constitutional delay: `growth-hormone-therapy-children`. Adult male hypogonadism: `androgen-deficiency-in-men`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 18 claims quoted verbatim from **Rey RA, Grinspon RP, Castro S et al., Archives of Endocrinology and Metabolism 70(spe1), doi:10.20945/2359-4292-2025-0428 — *Clinical approach to the male with delayed puberty*** (published 24 November 2025; origin: international); **22 fragments re-checked by machine; 2 doses.** Licence: *CC BY ('distributed under the terms of the Creative Commons Attribution License')*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **38 fragments or anchors re-checkable by machine; 4 doses.** **S1** Rey RA (published 24 November 2025; international): 18 claims, quoted · **S2** Gaudino R (published 24 March 2022; international): 9 claims, quoted
+
+> 🌐 **Two sources.** S1 (Archives of Endocrinology and Metabolism, 2025) is the main source. **S2** (Italian Journal of Pediatrics, 2022) is a shorter narrative review; it adds natural history, the treatment threshold and a shorter testosterone course. Where they differ, both are shown.
 
 > ⚠️ International narrative review (Archives of Endocrinology and Metabolism, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -19,18 +21,22 @@
 - **Puberty that starts but fails to reach the adult stage within roughly 5 years, or stops, is also abnormal;** prolonged or arrested puberty usually reflects disease. [S1]
 - **Self-limited (constitutional) delay is the commonest cause, 60%–80% of boys referred;** puberty usually starts by age 18. [S1]
 - **Other causes:** functional central hypogonadism from chronic illness (10%–20%; e.g. malnutrition, coeliac disease, cystic fibrosis, kidney or liver disease, inflammatory disease, diabetes), which resolves when the illness is controlled; permanent central hypogonadism (8%–10%); and primary hypogonadism (4%–5%, mostly anorchia). [S1]
+- **Constitutional delay affects over 2% of adolescents, mainly boys.** It is a variant of normal growth rather than a disease, but catch-up, puberty and the growth spurt all come late, and these adolescents often fail to reach their genetic target height. A family history of delayed puberty is present in 50-75%. [S2]
 
 ## Clinical clues
 
 - **Favouring constitutional delay:** a parent with late puberty, gradual downward crossing of height centiles as peers enter puberty, delayed bone age and delayed adrenarche. These boys present slightly younger and are shorter and lighter than boys with hypogonadism. [S1]
 - ⚠️ **Red flags for congenital hypogonadotropic hypogonadism (CHH):** micropenis, cryptorchidism or small testes. Their absence does not exclude it: they were present in under 30% of boys with confirmed CHH gene variants. [S1]
 - **Look beyond the genitals:** about 40% of boys with CHH gene variants have other features, e.g. adrenal insufficiency, mirror movements (bimanual synkinesia), renal agenesis or dysplasia, cleft lip or palate, dental or hand/foot anomalies, and hearing loss. Reduced smell points to Kallmann syndrome. [S1]
+- **Typical growth pattern:** linear growth slows within the first 3 years of life, then runs parallel but lower than peers; at the usual age of puberty height drifts further from the curve. Height is short for chronological age but appropriate for the (delayed) bone age and pubertal stage. [S2]
+- **Growth and puberty should stay in step:** in boys the pubertal growth spurt comes when testicular volume reaches 10-12 ml. Loss of that harmony suggests an endocrinopathy; boys with CDGP keep it and do not need specific investigation. Exclude organic, genetic and nutritional causes such as intestinal malabsorption, subclinical hypothyroidism or cystic fibrosis. [S2]
 
 ## Investigations
 
 - **High gonadotropins with undetectable testosterone mean primary hypogonadism.** Broad screening tests for chronic illness are rarely abnormal without clinical clues. MRI finds CNS tumours or olfactory tract defects. [S1]
 - **Basal or stimulated LH and testosterone do not reliably separate constitutional delay from CHH.** In boys aged 13 to under 18 with testes under 4 mL, FSH (IU/l) × inhibin B (ng/mL) below 92, or FSH × AMH (pmol/l) below 537, identifies CHH with sensitivity above 93% and specificity of 92% or more. [S1]
 - **Genetic testing by next-generation sequencing finds the causative variant in over 50% of deeply phenotyped boys** with suspected CHH. [S1]
+- **Spontaneous onset of puberty by 18 years remains the gold standard for telling CDGP from hypogonadotropic hypogonadism;** neither baseline nor GnRH-stimulated gonadotropins separate them, and FSH-stimulated inhibin B is promising but needs confirmation. [S2]
 
 ## Treatment
 
@@ -42,6 +48,11 @@
 - **Monitor full blood count, haematocrit, haemoglobin and liver function** (for polycythaemia and raised transaminases), plus bone age and height velocity. [S1]
 - **Alternative in constitutional delay:** oral letrozole 2.5 mg/day for 6 months raised gonadotropins, grew the testes and sped up height growth. [S1]
 - **Permanent central hypogonadism is treated differently:** a physiological approach uses pulsatile GnRH, or FSH first then LH or hCG, to grow the testes and support spermatogenesis. Whether this should replace testosterone in teenagers is unresolved. [S1]
+- **S2's threshold: treat only prepubertal boys older than 14 years with serious psychological distress** (mainly from bullying). Otherwise patience and reassurance are best, and hormones must not speed skeletal maturation and so reduce final height. [S2]
+- ⚠️ **S2's shorter course: testosterone 50 mg/month, increased to 100 mg after 6 months,** offered when the delay worsens psychological problems. [S2]
+- **S2 also offers transdermal testosterone,** starting at one puff every second day for 3 months and increasing the dose progressively. [S2]
+- **Progressive testicular growth on treatment confirms CDGP.** S2 continues treatment until testicular volume reaches 12 ml, when the boy makes enough testosterone of his own for normal growth. [S2]
+- **Outcomes:** growth hormone is not supported for increasing adult height in delayed puberty. Leaving significant pubertal delay untreated can reduce bone mass and raise the risk of later fractures, mainly in men. Current studies do not show that initial testosterone impairs later fertility. [S2]
 
 ---
 
@@ -63,11 +74,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Letrozole** for constitutional delay is not TGA-approved for this use or PBS-listed for it; the PBS row lists testosterone only. | `observation` |
 | 3 | **Which PBS testosterone formulation** suits low-dose induction (the source uses 4-weekly enanthate or cypionate) is not stated by the source; check current PBS items and ANZSPED/APEG practice. | `input_unavailable` |
 | 4 | **Aetiology and gene tables** (Tables 1 and 2) were stripped. | `input_unavailable` |
+| 5 | **Testosterone course differs:** S1 escalates by 50 mg every 6–12 months over 2 to 3 years to 200–250 mg every 4 weeks and stops when the testes enlarge; S2 gives 50 mg/month rising to 100 mg after 6 months and continues until testes reach 12 ml. Both are shown. | `observation` |
+| 6 | **Transdermal testosterone:** S1 says oral and transdermal forms have rarely been used to induce puberty; S2 offers a transdermal regimen. S2 names no product, so check the PBS formulation. | `observation` |
+| 7 | **GnRH testing:** S2's conclusion advises routine GnRH or GnRH-agonist tests as early discriminators, yet its own text (and S1) says stimulated gonadotropins do not separate CDGP from hypogonadotropic hypogonadism. Only the latter is used here. | `observation` |
+| 8 | **S2's oestrogen doses for girls are inconsistent** ('5-10 mcg daily' for CDGP and '5-10 μg/Kg per day' for hypogonadism), so neither is used; girls stay out of scope. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Rey RA, Grinspon RP, Castro S et al., Archives of Endocrinology and Metabolism 70(spe1), doi:10.20945/2359-4292-2025-0428. *Clinical approach to the male with delayed puberty*. published 24 November 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12668195/ — retrieved 2026-09-23. | CC BY ('distributed under the terms of the Creative Commons Attribution License') | **quoted, re-checkable** |
+| **S2** | Gaudino R, De Filippo G, Bozzola E, et al., Italian Journal of Pediatrics 48:45 (doi 10.1186/s13052-022-01242-5). *Current clinical management of constitutional delay of growth and puberty*. published 24 March 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8944060/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

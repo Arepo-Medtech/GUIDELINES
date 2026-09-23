@@ -1,13 +1,15 @@
 # Non-infectious uveitis: corticosteroids by route, and when to add steroid-sparing therapy
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** specialist (ophthalmologist-led) use of topical, periocular, intravitreal and systemic corticosteroids for non-infectious uveitis in adults, the contraindications to check first, and the point at which immunosuppressants or biologics are added. Diagnosis of uveitis type and infectious uveitis are not covered. Counterparts: JIA-associated uveitis in `juvenile-idiopathic-arthritis`; uveitis as a guide to biologic choice in `axial-spondyloarthritis`; red-eye triage in `conjunctivitis-and-eye-infections` and `acute-red-eye-children`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 claims paraphrased from **Chang YC, Kao TE et al. (Taiwan Ocular Inflammation Society panel), Annals of Medicine — *Use of corticosteroids in non-infectious uveitis: expert consensus in Taiwan*** (published 15 May 2024 (doi 10.1080/07853890.2024.2352019); origin: international). **27 anchors re-checkable by machine; 5 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **50 fragments or anchors re-checkable by machine; 6 doses.** **S1** Chang YC (published 15 May 2024 (doi 10.1080/07853890.2024.2352019); international): 20 claims, paraphrased, hash-anchored · **S2** Pleyer U (published 30 May 2024; international): 11 claims, quoted
 
 > ⚠️ International guideline (Taiwan Ocular Inflammation Society expert panel, 2024). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **What the PBS funds here.** Topical **prednisolone with phenylephrine** and **betamethasone** for uveitis; the **dexamethasone intravitreal implant** for non-infectious posterior-segment uveitis; and **adalimumab** (authority) for non-infectious uveitis. The source names TNF inhibitors only as a class, and it does not state adalimumab's PBS criteria.
+
+> ⚠️ International consensus (S2: EU expert user panel on the fluocinolone acetonide implant, 2024). Australian practice follows the PBS listings below and may differ. **Industry-supported:** the panel was an Alimera Sciences advisory board (the implant's maker), which also provided medical writing. The fluocinolone implant does not appear in the PBS rows below.
 
 ---
 
@@ -34,6 +36,20 @@
 - **Match the route to the time needed:** for control under 3 months, periocular or intravitreal betamethasone, dexamethasone or triamcinolone; for control beyond 3 months, an intravitreal steroid implant. [S1]
 - **For uveitic macular oedema, intravitreal treatment may be the better first choice:** in the POINT trial, intravitreal triamcinolone and the dexamethasone implant both beat periocular triamcinolone, at the cost of slightly more mild IOP rises. [S1]
 - ⚠️ **Implants carry intraocular risks — cataract, glaucoma and infection — so monitor for them.** The longer-acting fluocinolone implant (Retisert) causes more steroid complications. [S1]
+
+## Posterior-segment uveitis: local implant or systemic treatment
+
+- **Non-infectious uveitis of the posterior segment is often bilateral and causes about 10%–15% of blindness in developed countries,** peaking in working age. [S2]
+- **Systemic corticosteroid is first line here because it controls inflammation quickly,** but long systemic treatment brings diabetes, Cushing syndrome, psychiatric illness and gastroduodenal ulcer, and short-acting local steroids do not control the relapsing disease beneath. [S2]
+- ⚠️ **Bilateral symmetric disease or systemic involvement: systemic treatment first, then reduce it, adding a steroid-sparing agent if steroid-dependent.** A long-acting implant suits one-sided or asymmetric inflammation without systemic disease, contraindications to systemic therapy, refractory damage or macular oedema. [S2]
+- **Sequence of implants:** the dexamethasone implant comes first for active inflammation, which also tests the steroid response and IOP rise. Move to the fluocinolone implant when inflammation recurs after 1–2 successive dexamethasone implants; dexamethasone is licensed for active inflammation, fluocinolone for preventing relapse. [S2]
+- **The injectable fluocinolone implants (190 µg ILUVIEN, 180 µg YUTIQ) go in through the pars plana with a 25-gauge preloaded applicator and release 0.2 μg/day for 3 years.** The older, surgically placed 0.59 mg implant (Retisert) is linked to hypotony, resistant IOP rise and endophthalmitis. [S2]
+- **Where triamcinolone fits:** intravitreal or periocular triamcinolone (off-label in many countries) when an implant is unsuitable, such as aphakia or a large iridectomy. [S2]
+- **Lens status:** use the fluocinolone implant in pseudophakic eyes, not in aphakic eyes (it can migrate into the anterior chamber unless sutured to the sclera). In phakic eyes weigh age, severity and the need for combination therapy; it is favoured with presbyopia, cataract or planned cataract surgery. [S2]
+- **By cause, the panel backed the implant alongside systemic therapy in birdshot, multifocal choroiditis and panuveitis, sarcoidosis, intermediate uveitis, post-surgical macular oedema, serpiginous choroiditis and Behçet disease (agreement ≥ 80%),** and alone for relapsing or chronic post-surgical macular oedema; not in self-limiting white-dot syndromes (MEWDS, acute retinal pigment epitheliitis). [S2]
+- **Trial results over 36 months:** recurrence 65.5% with the fluocinolone implant vs 97.6% with sham, vision +9.1 vs +2.5 letters, and fewer eyes needed IOP-lowering surgery (5.7% vs 11.9%). [S2]
+- **It spares systemic treatment:** in the first 12 months, 19% of implant eyes needed systemic steroid or an immunosuppressant vs 40% with sham; in one series 55% of patients on oral prednisone and 35% on systemic immunomodulators stopped them by month 12. [S2]
+- ⚠️ **Expect cataract:** 73.8% of implant eyes needed cataract surgery vs 23.8% with sham, though vision after it was similar. Mean IOP had risen by only 0.8 mmHg at month 36. [S2]
 
 ## Systemic steroids
 
@@ -69,11 +85,15 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 3 | **Preferred source skipped:** the CC BY consensus guideline on chronic non-infectious posterior-segment uveitis (Singh et al., OSLI Retina 2024) could not be read: every publisher and Unpaywall link returned a bot challenge (HTTP 403), which was not bypassed. | `observation` |
 | 4 | **Suprachoroidal steroid injection** is described by the source as promising but unproven; it is not included. | `out_of_scope` |
 | 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 6 | **Fluocinolone implant in Australia:** S2 is European and product-specific; the implant is not among the PBS rows for this page (the dexamethasone implant is). Check TGA registration and funding before relying on S2's sequence. | `observation` |
+| 7 | **No S2 consensus** (50% or less) on the fluocinolone implant for inflammatory choroidal neovascularisation or for TINU syndrome; neither is recommended here. | `observation` |
+| 8 | **S2 is CC BY 4.0 and quoted.** Its panel was an Alimera Sciences advisory board, and all authors were paid for it; see the banner. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Chang YC, Kao TE et al. (Taiwan Ocular Inflammation Society panel), Annals of Medicine. *Use of corticosteroids in non-infectious uveitis: expert consensus in Taiwan*. published 15 May 2024 (doi 10.1080/07853890.2024.2352019). https://pmc.ncbi.nlm.nih.gov/articles/PMC11097703/ — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Pleyer U, Pavesio C, Miserocchi E, Heinz C et al. (EU expert user panel), Journal of Ophthalmic Inflammation and Infection 14:26 (doi 10.1186/s12348-024-00402-4). *Fluocinolone acetonide 0.2 µg/day intravitreal implant in non-infectious uveitis affecting the posterior segment: EU expert user panel consensus-based clinical recommendations*. published 30 May 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11139823/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

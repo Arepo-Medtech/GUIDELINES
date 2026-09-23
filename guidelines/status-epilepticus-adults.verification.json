@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/status-epilepticus-adults.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.nice.org.uk/guidance/ng217/chapter/7-Treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures"
+  "https://www.nice.org.uk/guidance/ng217/chapter/7-Treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Epilepsies in children, young people and adults (NG217), section 7: Treating status epilepticus, repeated or cluster seizures, and prolonged seizures' (published 27 April 2022; last updated 5 August 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). The source's words are NOT reproduced here. NICE terms of use 18.3, recorded verbatim as the standing rule requires: 'Copyright content owned by the National Institute for Health and Care Excellence (NICE) may be made available to individuals and commercial/non-commercial organisations on a non-exclusive basis for artificial intelligence (AI) purposes. All requests, without exception, are subject to an approval process, licensing arrangement and a fee (for international use).' Paraphrased as normal under the owner's standing decision. NICE's section 7 gives no doses (it defers to the BNF, which is third-party content and was not used).",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Epilepsies in children, young people and adults (NG217), section 7: Treating status epilepticus, repeated or cluster seizures, and prolonged seizures' (published 27 April 2022; last updated 5 August 2026), 15 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). S2: PARAPHRASED AND HASH-ANCHORED from Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48) 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society' (January-February 2016), 12 claims; LICENCE: © American Epilepsy Society (PMC copyright notice; no open licence) (read at the PMC4749120 article page, 'Copyright and License information'). Verify each source separately: verify.py --source <file> --only-source S<n>. NICE terms of use 18.3, recorded verbatim as the standing rule requires: 'Copyright content owned by the National Institute for Health and Care Excellence (NICE) may be made available to individuals and commercial/non-commercial organisations on a non-exclusive basis for artificial intelligence (AI) purposes. All requests, without exception, are subject to an approval process, licensing arrangement and a fee (for international use).' Paraphrased as normal under the owner's standing decision. NICE's section 7 gives no doses (it defers to the BNF, which is third-party content and was not used). Edition 2.0 keeps every S1 claim unchanged and adds S2, the American Epilepsy Society guideline (2016, © AES, paraphrased; read from the PMC4749120 HTML, as Europe PMC has no full-text XML for it), for phase timing, evidence levels and the benzodiazepine doses used in its trials. Its algorithm (Figure 1, with the second-line doses) is an image and was not machine-read.",
  "summary": {
-  "total": 15,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 15
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -146,6 +147,218 @@
     }
    ],
    "locator": "National Institute for Health and Care Excellence (NICE), 'Epilepsies in children, young people and adults (NG217), section 7: Treating status epilepticus, repeated or cluster seizures, and prolonged seizures', published 27 April 2022; last updated 5 August 2026, https://www.nice.org.uk/guidance/ng217/chapter/7-Treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **AES phases, one scheme for all ages beyond the newborn:** stabilise from 0 to 5 minutes; start initial therapy at 5 minutes and judge it by 20; start second therapy at 20 minutes and judge it by 40; third therapy from 40 minutes. Very sick or ICU patients may move faster or skip straight to the third phase.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "67eb624eba9e63c5",
+     "n": 304,
+     "p": "The guid"
+    },
+    {
+     "h": "ae4d776a806b7c2d",
+     "n": 318,
+     "p": "The algo"
+    },
+    {
+     "h": "4d6ef6e65749b962",
+     "n": 202,
+     "p": "The seco"
+    },
+    {
+     "h": "dc8b0926f283c671",
+     "n": 82,
+     "p": "The thir"
+    },
+    {
+     "h": "dad1c6cdf1c6d7c8",
+     "n": 214,
+     "p": "Dependin"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Initial therapy is a benzodiazepine: IM midazolam, IV lorazepam or IV diazepam (Level A).** Give one full adequate dose rather than several small ones; only IV lorazepam and IV diazepam may be repeated, once, at full dose. Prehospital, or when those three are unavailable, rectal diazepam or intranasal or buccal midazolam are reasonable (Level B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "698e7bde49e90fe9",
+     "n": 1004,
+     "p": "A benzod"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Adult doses from the trials behind the AES algorithm:** IM midazolam 10 mg or IV lorazepam 4 mg (RAMPART; 5 mg and 2 mg in children of 13–40 kg); IV lorazepam 0.1 mg/kg (VA trial); paramedic IV lorazepam 2 mg or diazepam 5 mg, repeatable after 4 minutes to totals of 4 mg and 10 mg. AES notes consensus protocols often use phenobarbital 20 mg/kg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c9f7447d3f3dd91",
+     "n": 141,
+     "p": "Dosing w"
+    },
+    {
+     "h": "b7b0f5f4676e3e81",
+     "n": 135,
+     "p": "lorazepa"
+    },
+    {
+     "h": "200ee0708958adbb",
+     "n": 247,
+     "p": "patients"
+    },
+    {
+     "h": "5071974059effae4",
+     "n": 209,
+     "p": "Doses li"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Without IV access, IM midazolam outperformed IV lorazepam (Level A):** seizures had stopped by hospital arrival in 73% vs 63%. Lorazepam worked faster once in (1.6 vs 3.3 minutes), but midazolam went in much sooner.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ff6ca2238933964",
+     "n": 551,
+     "p": "The clas"
+    },
+    {
+     "h": "0f4e3aabb415b2bc",
+     "n": 148,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IV phenobarbital works as initial therapy (Level A) but is slower to give,** so it is an alternative rather than the first choice; it is also a second-phase fallback (Level B) when none of the three preferred second-phase drugs is available.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a13c5c0ce19dc8cb",
+     "n": 296,
+     "p": "Although"
+    },
+    {
+     "h": "06cfa74e7c20d97d",
+     "n": 174,
+     "p": "Because "
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Second phase: fosphenytoin (Level U), valproic acid (Level B) or levetiracetam (Level U).** AES found no clear evidence that any is better, and pointed to the then-running ESETT trial for the answer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa0d22c0aae5a1d5",
+     "n": 328,
+     "p": "Reasonab"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prefer fosphenytoin to phenytoin when both are available (Level B):** it caused less infusion-site pain and no significant arrhythmias in the tolerability studies; phenytoin remains acceptable, and their relative efficacy is unknown.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "732cf5491a14fb7c",
+     "n": 151,
+     "p": "In contr"
+    },
+    {
+     "h": "de750fec4dc64d56",
+     "n": 87,
+     "p": "found pa"
+    },
+    {
+     "h": "20c06ac8a67015f5",
+     "n": 291,
+     "p": "Insuffic"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Each further drug works less often (Level A):** in the VA trial the first drug stopped overt status in 55.5%, a second drug in a further 7.0%, and a third in only 2.3%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd64811e7a941e14",
+     "n": 320,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Third phase: no clear evidence (Level U).** Options are repeating a second-line drug, or anaesthetic doses of thiopental, midazolam, pentobarbital or propofol, each with continuous EEG monitoring.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8967c1f9a4624f08",
+     "n": 579,
+     "p": "There is"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Expect breathing, blood-pressure and rhythm problems with any IV antiseizure drug (Level A),** yet benzodiazepine-treated patients had less respiratory depression than those given placebo: untreated status itself compromises breathing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca3ef1d5503c5624",
+     "n": 473,
+     "p": "Respirat"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Death rates: below 3% for children, as high as 30% for adults;** outcome depends mainly on the cause, how long status lasts and the patient's age.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "01de338b2146d3bb",
+     "n": 420,
+     "p": "with mor"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Common reasons treatment falls short:** aiming to reduce rather than stop seizures, relying on sedatives or paralysing agents, and giving too little anticonvulsant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eef29e86c61fa0b9",
+     "n": 297,
+     "p": "Unfortun"
+    }
+   ],
+   "locator": "Glauser T, Shinnar S, Gloss D et al. (American Epilepsy Society Guideline Committee), Epilepsy Currents 16(1):48-61 (doi 10.5698/1535-7597-16.1.48), 'Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society', January-February 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4749120/, retrieved 2026-09-24"
   },
   {
    "claim": "**If the first second-line drug fails, consider another second-line drug, with expert guidance.**",

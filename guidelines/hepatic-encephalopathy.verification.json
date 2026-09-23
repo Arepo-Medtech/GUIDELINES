@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/hepatic-encephalopathy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://europepmc.org/article/PMC/PMC13038256"
+  "https://europepmc.org/article/PMC/PMC13038256",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Gastroenterological Society of Australia (GESA), Hepatology Communications 'The diagnosis and management of portal hypertension in cirrhosis: The Gastroenterological Society of Australia consensus' (April 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13038256 (Europe PMC returned 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Gastroenterological Society of Australia (GESA), Hepatology Communications 'The diagnosis and management of portal hypertension in cirrhosis: The Gastroenterological Society of Australia consensus' (April 2026), 15 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13038256 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523) 'Driving in hepatic encephalopathy (How I Treat)' (published 20 July 2026), 12 claims; LICENCE: © 2026 Royal Australasian College of Physicians (no open licence; PMC open-access flag 'no'; free to read on PMC) (read at NCBI PMC efetch JATS <copyright-statement> for PMC13547869 (abstract-only XML; Europe PMC returned 500) and the PMC article page, from which the full text was read). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, GESA 2026) unchanged and adds S2, an Australian 'How I Treat' review of driving in HE (Intern Med J 2026), for the West Haven covert/overt split, precipitants, recurrence risk and fitness to drive. S2 is expert opinion, not a guideline, and its driving framework is advisory.",
  "summary": {
-  "total": 15,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 15
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -57,6 +58,19 @@
    "locator": "Gastroenterological Society of Australia (GESA), Hepatology Communications, 'The diagnosis and management of portal hypertension in cirrhosis: The Gastroenterological Society of Australia consensus', April 2026, https://europepmc.org/article/PMC/PMC13038256, retrieved 2026-09-23"
   },
   {
+   "claim": "**West Haven split:** covert HE takes in minimal HE and grade 1, found only on psychometric testing or as a short attention span and slight unawareness; overt HE is grades 2–4, with lethargy, dyspraxia, asterixis, confusion and disorientation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "272d680a62d57492",
+     "n": 547,
+     "p": "There is"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Covert HE tests** include PHES, the Stroop test, EEG, critical flicker frequency, the inhibitory control test and continuous reaction time. PHES and Stroop need no major equipment, though PHES has no Australian norms.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -96,6 +110,19 @@
    "locator": "Gastroenterological Society of Australia (GESA), Hepatology Communications, 'The diagnosis and management of portal hypertension in cirrhosis: The Gastroenterological Society of Australia consensus', April 2026, https://europepmc.org/article/PMC/PMC13038256, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Find and treat the trigger:** constipation, infection, gastrointestinal bleeding, electrolyte disturbance, dehydration, and sedatives or opioids are the usual ones. Leaving a precipitant untreated makes recurrent or chronic HE more likely. Patients and carers adjust lactulose, keep up fluids and avoid constipating drugs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5f68ab564329458c",
+     "n": 479,
+     "p": "A corner"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Add rifaximin 550 mg twice daily** if lactulose is not tolerated or overt HE recurs on lactulose. It works on gut bacteria to cut ammonia production, is barely absorbed, and is well tolerated enough for long-term use.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -108,6 +135,24 @@
    ],
    "locator": "Gastroenterological Society of Australia (GESA), Hepatology Communications, 'The diagnosis and management of portal hypertension in cirrhosis: The Gastroenterological Society of Australia consensus', April 2026, https://europepmc.org/article/PMC/PMC13038256, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **After overt HE, recurrence runs up to 40% a year and is highest in the first months.** Risk is higher with prior minimal HE, Child–Pugh B or C cirrhosis, sarcopenia, older age and continued drinking; follow up regularly for cognition, triggers and adherence, and support protein intake and abstinence from alcohol.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "66ea8e6858cff7c0",
+     "n": 594,
+     "p": "Patients"
+    },
+    {
+     "h": "d58c0edc114597aa",
+     "n": 99,
+     "p": "Recurren"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
   },
   {
    "claim": "**Branched-chain amino acids can be an adjunct** within nutritional supplementation.",
@@ -228,6 +273,138 @@
     }
    ],
    "locator": "Gastroenterological Society of Australia (GESA), Hepatology Communications, 'The diagnosis and management of portal hypertension in cirrhosis: The Gastroenterological Society of Australia consensus', April 2026, https://europepmc.org/article/PMC/PMC13038256, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**HE impairs the skills driving needs** (attention, visuospatial perception, reaction time, executive function); on the road, patients struggle with car control and lane keeping, and they have more crashes and traffic violations than people with cirrhosis without HE.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e364af6a20005ad8",
+     "n": 602,
+     "p": "Safe dri"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Australian rules:** the Austroads fitness-to-drive standard says cognitive fluctuation in liver failure does not usually change licence status, but advises against driving while cognitive impairment is likely to affect vehicle control. In South Australia and the Northern Territory clinicians must notify the licensing authority of an unfit driver; elsewhere reporting is not mandatory, but there is an ethical duty to advise the patient.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d55506d903c2271",
+     "n": 866,
+     "p": "Australi"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No driving during an episode of overt HE.** When assessing return to driving, ask about the episode, how many there have been, triggers, adherence to HE treatment and past crashes, and get collateral history from family or carers.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5b79b9289d2b232",
+     "n": 35,
+     "p": "No drivi"
+    },
+    {
+     "h": "133bd3478da9739e",
+     "n": 241,
+     "p": "Key fact"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Low risk (a first episode with a clear, reversible trigger that has been treated): no driving for 3 months,** then a conditional licence if there has been no further HE, the cirrhosis is stable and medicines are taken.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c718c2baf88310a",
+     "n": 458,
+     "p": "Low‐risk"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moderate risk (a second episode, each with an obvious reversible trigger): no driving for at least 6 months,** then a conditional licence only with no recurrence, stable cirrhosis under regular review, adherence, a normal EEG and a passed occupational therapy driving assessment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "14a5495887859046",
+     "n": 366,
+     "p": "Moderate"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **High risk (three or more episodes, unprovoked HE, or chronic HE): the authors advise permanent loss of the licence.** Commercial licences are decided case by case, with a more cautious return.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42ef1b1e0ec6a713",
+     "n": 326,
+     "p": "High‐ris"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Covert HE:** patients often lack insight into their driving, and no simple, widely available test sorts safe from unsafe drivers. The inhibitory control test is hard to access in Australia and the standard paper tests do not predict crashes, but a Stroop score above 190 (smartphone app) has tracked crashes in simulator studies.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80846f6de0a56bd9",
+     "n": 98,
+     "p": "tend to "
+    },
+    {
+     "h": "3ecf3b9a2b200604",
+     "n": 639,
+     "p": "Unfortun"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Evidence does not support taking the licence away for covert HE alone;** tell patients and families about the risk and about progression to overt HE, and decide case by case.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc359393d7724404",
+     "n": 314,
+     "p": "At prese"
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Weigh safety against the cost of losing a licence** (independence, access to care, work, mental health), which falls hardest in regional and remote Australia. Reassess regularly, teach patients and families to recognise HE, and involve the GP.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b9099498e61a510",
+     "n": 261,
+     "p": "Licence "
+    },
+    {
+     "h": "142ea6226f75c4b4",
+     "n": 263,
+     "p": "Regular "
+    }
+   ],
+   "locator": "Brick K, Gupta R, Internal Medicine Journal 56(9):1664-1668 (doi 10.1111/imj.70523), 'Driving in hepatic encephalopathy (How I Treat)', published 20 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13547869/, retrieved 2026-09-24"
   }
  ]
 }

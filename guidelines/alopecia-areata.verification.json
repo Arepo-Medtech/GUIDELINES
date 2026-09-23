@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/alopecia-areata.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7) 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement' (published online 30 September 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633702). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7) 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement' (published online 30 September 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633702). S2: PARAPHRASED AND HASH-ANCHORED from Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise' (published 6 August 2025), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633699). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the companion Australian eDelphi consensus (2025) on criteria for commencing and continuing subsidised JAK-inhibitor therapy, which edition 1.0 named in its Unresolved table but did not use. S1 claims and anchors are unchanged. Both sources are CC BY-NC-ND 4.0, so both are paraphrased and hash-anchored.",
  "summary": {
-  "total": 25,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -377,6 +378,177 @@
    ],
    "locator": "Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7), 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement', published online 30 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Australian experts (S2) accepted the AA-IGA scale, where severe means 50% or more scalp loss.** They judged a JAK inhibitor nearly always the best choice at SALT 50 or above, usually best at 21–49, and sometimes best below 21.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "580f1458149cdbff",
+     "n": 132,
+     "p": "Accordin"
+    },
+    {
+     "h": "d45394b26b915c29",
+     "n": 228,
+     "p": "There wa"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Findings beyond scalp extent that raise eligibility:** an ophiasis pattern; ClinRo 2–3 loss of brows or lashes; marked beard loss in men; ClinRo 2–3 nail disease; and a strongly positive pull test. Adverse trichoscopy does not count.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e52e9e2cd7d9cf6",
+     "n": 380,
+     "p": "There wa"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A disease course that raises eligibility:** SALT climbing by more than 10 points within six weeks; earlier episodes or past totalis or universalis; a current episode lasting beyond one year; or more than 10 years since the first episode.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8d6804cb793c717",
+     "n": 445,
+     "p": "Rapid pr"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Refractory disease is the most heavily weighted factor.** It means no response to intralesional steroid (three or more rounds, 4–6 weeks apart), to a six-week oral steroid taper starting at 20 mg/day, or to azathioprine, methotrexate or ciclosporin at adequate dose for three months or more. A good response to earlier compassionate or private JAK-inhibitor supply also counts in favour.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2380c03bf0818928",
+     "n": 533,
+     "p": "Experts "
+    },
+    {
+     "h": "1d10cef43ed46f18",
+     "n": 268,
+     "p": "Experts "
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Psychosocial harm raises eligibility too:** a history of anxiety, depression, suicidal thoughts or social impairment made worse by AA; a DLQI of 11 or more; hair of cultural significance; and loss in places that are hard to hide. The experts note the DLQI is a poor fit for AA.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "570e2678e8652df2",
+     "n": 384,
+     "p": "Psychoso"
+    },
+    {
+     "h": "6dc3875677d72ed8",
+     "n": 95,
+     "p": "it was d"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Children and adolescents:** experts judged 5–17-year-olds more likely than adults to benefit, and would make children from age five eligible once data support safety and efficacy. No consensus was reached on sex, failure of topical steroids, or coexisting atopic or autoimmune disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc48cd72376be5e1",
+     "n": 170,
+     "p": "Experts "
+    },
+    {
+     "h": "8f2f44234bf2e51a",
+     "n": 144,
+     "p": "They als"
+    },
+    {
+     "h": "c6e41a67d6c82c6b",
+     "n": 157,
+     "p": "Despite "
+    },
+    {
+     "h": "94b295bdcb324d09",
+     "n": 164,
+     "p": "Consensu"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What counts as remission (S2):** SALT 0, regrown facial hair, a better DLQI, patient satisfaction, a negative pull test and less psychosocial impairment. SALT 10 or SALT 20 on its own was not accepted as remission. Review stopping or dose reduction 6 months after remission.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3efbf56286d25258",
+     "n": 571,
+     "p": "The expe"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treatment failure that should end subsidised therapy:** scalp hair loss less than 50% better than at baseline when judged 12 months after the JAK inhibitor was started.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98ed9af2b3f503fb",
+     "n": 328,
+     "p": "Experts "
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Access at publication:** despite TGA approval there was no JAK-inhibitor subsidy for AA in Australia, and a private month of baricitinib cost over $1000. The UK NHS has funded ritlecitinib for severe AA since March 2024, and Canada and the UK reimburse JAK inhibitors for adults with more than 50% scalp loss.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2172f91afba2c440",
+     "n": 221,
+     "p": "Currentl"
+    },
+    {
+     "h": "91421d5eb371cb97",
+     "n": 132,
+     "p": "In the U"
+    },
+    {
+     "h": "79b4bf097372a80e",
+     "n": 96,
+     "p": "In Canad"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For comparison, the British Association of Dermatologists also counts SALT 21–49 as severe** when there is psychosocial harm, noticeable brow or lash loss, too little response after 6 months or more of treatment, or a diffuse positive pull test.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ecbd61c2f83fd9f5",
+     "n": 354,
+     "p": "Severe A"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
   },
   {
    "claim": "**Topical corticosteroids suit limited disease, alone or as add-on; high-potency agents work better than weak ones.** Watch for folliculitis, atrophy, striae, telangiectasia and acneiform eruptions.",

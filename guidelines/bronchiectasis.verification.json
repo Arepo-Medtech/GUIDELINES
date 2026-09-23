@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/bronchiectasis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary' (published 10 November 2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10952737). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary' (published 10 November 2023), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10952737). S2: PARAPHRASED AND HASH-ANCHORED from Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand' (published online 2 March 2023), 11 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10947421). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the full 2023 TSANZ position statement (Respirology), which edition 1.0 named in its Unresolved table. S1 (the MJA summary) is CC BY 4.0 and quoted; S2 is CC BY-NC 4.0, so it is paraphrased and hash-anchored. S2 carries the 33 statements and Boxes 1–3 as text; its antibiotic table (Table 1) was stripped and its eradication pathway (Figure 1) was not machine-read. S1 claims are unchanged.",
  "summary": {
-  "total": 12,
+  "total": 23,
   "pass": 12,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -38,11 +40,78 @@
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516, 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary', published 10 November 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/, retrieved 2026-09-23"
   },
   {
+   "claim": "**In children, CSLD is the same clinical picture without CT signs of bronchiectasis.** Refer a child to a specialist for more than 3 episodes a year of wet or productive cough lasting over 4 weeks, wet cough that has not settled after 4 weeks of antibiotics, more than 2 pneumonias, severe asthma with chronic wet cough, or chest X-ray changes persisting beyond 6 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "339ac1c783ff4b80",
+     "n": 165,
+     "p": "1b. CSLD"
+    },
+    {
+     "h": "7a3af3c17fea0978",
+     "n": 374,
+     "p": "In child"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The diagnosis starts the work-up:** look for an underlying cause, comorbid conditions and treatable traits, and grade extent and severity. Baseline and extended investigations differ for children and adults.",
    "source": "S1",
    "verdict": "pass",
    "source_text": "However, making the diagnosis is the beginning, and not the end, of the diagnostic journey. As bronchiectasis is a heterogenous disorder, a search for an underlying cause and comorbid conditions should be initiated. … while determining the extent and severity of the bronchiectasis remains important. … the baseline and extended investigations are split between these two age groups.",
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516, 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary', published 10 November 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Confirm with chest CT** (multidetector, with high-resolution reconstruction), which also grades severity and extent; in children, seek specialist advice before ordering it. Consider CT in adults with asthma or COPD who also have chronic cough, sputum and recurrent exacerbations, especially if their airway disease is more severe.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a1b389772e228f5d",
+     "n": 779,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Minimum baseline tests (S2).** Children: full blood count; IgG, IgA, IgM and IgE; a sweat chloride test; airway cultures including mycobacteria; and spirometry, usually from age 6. Adults: full blood count; immunoglobulins; sputum culture including fungi and mycobacteria; spirometry; and Aspergillus serology. Further tests (for example ciliary studies, CFTR genetics, bronchoscopy, aspiration studies, extra immune tests, HIV, echocardiogram) depend on the picture.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b1212b9ec4d3762",
+     "n": 442,
+     "p": "The mini"
+    },
+    {
+     "h": "10f522837011a7a7",
+     "n": 444,
+     "p": "The mini"
+    },
+    {
+     "h": "d5e3e08cfc45785b",
+     "n": 810,
+     "p": "In addit"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In adults, grade severity with a score such as the Bronchiectasis Severity Index or FACED plus quality-of-life measures,** and look for treatable comorbidities (COPD, asthma, sinus disease, heart disease, low mood or anxiety, stress incontinence, low BMI). Refer severe disease, and people with rheumatoid arthritis, other autoimmune disease or IBD or on steroids, immunosuppressants or biologics, to a specialist bronchiectasis service.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "372b5830d7c0b78d",
+     "n": 747,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Offer eradication therapy for newly detected *P. aeruginosa*** (the 2023 statement changed \"consider\" to \"offer\"), since *P. aeruginosa* predicts worse outcomes.",
@@ -59,6 +128,29 @@
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516, 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary', published 10 November 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Exacerbation escalation (S2):** choose the antibiotic from lower-airway cultures, local susceptibility, severity and tolerance or allergy, and follow up closely. If response is poor, repeat cultures (including for NTM). If oral treatment fails, give intensive airway clearance and IV antibiotics: in children, supervised for at least 14 days; in adults, IV for at least 5 days, moving to oral only once clearly improving, and at least 14 days in total.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f95953343972e598",
+     "n": 328,
+     "p": "Base ant"
+    },
+    {
+     "h": "f451815ccc28891d",
+     "n": 300,
+     "p": "Inadequa"
+    },
+    {
+     "h": "4e9b11e8fdf1d9ac",
+     "n": 534,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Long-term antibiotics (> 2 months) aim to cut bacterial load and airway inflammation** when eradication is not possible.",
    "source": "S1",
    "verdict": "pass",
@@ -71,6 +163,37 @@
    "verdict": "pass",
    "source_text": "The recommendation for using long term oral macrolides has been simplified (considered in those with the frequent exacerbator phenotype [ie, ≥ 3 exacerbations per year], which predicts mortality, hospitalisation, and reduced quality of life), and should be prescribed for at least a six‐month trial with regular review for clinical benefit. … more advice is provided on risk factors and monitoring for rare but severe adverse effects from oral macrolides.",
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516, 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary', published 10 November 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Before a long-term macrolide:** get specialist advice; exclude NTM in anyone who can give sputum; do an ECG for the QTc in adults (and in children with cardiac events, a family history of long QT or arrhythmia, or other QT-prolonging drugs); and warn adults that hearing loss means stopping it. Review regularly for adherence, gut and hearing effects, and macrolide-resistant bacteria.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ece7add46047d1f3",
+     "n": 599,
+     "p": "Before c"
+    },
+    {
+     "h": "1add07f71d37edb1",
+     "n": 228,
+     "p": "Those re"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Not for routine use (S2):** inhaled or oral corticosteroids (unless asthma or eosinophilic airway inflammation coexists; in adults, inhaled steroids may help if blood eosinophils exceed 3%), inhaled bronchodilators (case by case, for example before mucoactives, inhaled antibiotics or airway clearance), and mucoactives such as isotonic or hypertonic saline and mannitol (a trial only if frequent exacerbations continue; give a bronchodilator first if the airways are hyper-responsive). ⚠️ **Recombinant human DNase is contraindicated.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0218472c893b603c",
+     "n": 1082,
+     "p": "Inhaled "
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
   },
   {
    "claim": "**Do not prescribe inhaled antibiotics routinely.** Consider them in adults chronically infected with *P. aeruginosa* with frequent exacerbations when macrolides are contraindicated, not tolerated or fail.",
@@ -92,6 +215,63 @@
    "verdict": "pass",
    "source_text": "electronic cigarettes are now included in products to be avoided, the indications for surgery, pre‐operative assessment and where this should be performed are presented in greater detail, as are statements concerning equity of access to specialist health services, which could mean telehealth for rural and remote regions.",
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Medical Journal of Australia 2023;219(11):516, 'Chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand: TSANZ position statement summary', published 10 November 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952737/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Airway clearance techniques are recommended,** individualised and reviewed, ideally twice a year, by a respiratory physiotherapist. Offer pulmonary rehabilitation to adults, especially with poor exercise tolerance or frequent exacerbations; encourage regular activity at every age; optimise nutrition; help stop smoking, vaping, cannabis and second-hand smoke; and avoid air pollution.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b41184df5d3fcbcc",
+     "n": 766,
+     "p": "ACTs are"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Review at least yearly in adults and 6-monthly in children,** ideally with a multidisciplinary team: severity (oximetry, spirometry), sputum culture (routine bacteria, and mycobacteria yearly), treatable traits and complications (such as reflux or aspiration, asthma, ABPA, P. aeruginosa or NTM, dental and ENT problems, incontinence, mental health), and education.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f778ecd8a9a9b30",
+     "n": 1042,
+     "p": "Regularl"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Vaccinate to the National Immunisation Program,** including pneumococcal and influenza vaccines for high-risk chronic lung disease; give influenza vaccine every year, follow national COVID-19 policy, and consider yearly influenza vaccine for household contacts.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b98ab98cd712f1e0",
+     "n": 396,
+     "p": "Vaccinat"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Everyone with CSLD or bronchiectasis should be under a specialist respiratory service.** Review more often with moderate disability, worsening disease, haemoptysis, pulmonary hypertension, 3 or more exacerbations a year, P. aeruginosa or NTM, severe asthma symptoms, an underlying cause, advanced disease or transplant assessment. For First Nations, Māori and Pacific Islander people, keep a high index of suspicion, investigate early, and provide interpreters and local health workers.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bfcbe38aadf7d275",
+     "n": 605,
+     "p": "All peop"
+    },
+    {
+     "h": "ab0813e87d767b77",
+     "n": 349,
+     "p": "Given th"
+    }
+   ],
+   "locator": "Thoracic Society of Australia and New Zealand (Chang AB et al.), Respirology 2023;28(4):339, 'Thoracic Society of Australia and New Zealand (TSANZ) position statement on chronic suppurative lung disease and bronchiectasis in children, adolescents and adults in Australia and New Zealand', published online 2 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10947421/, retrieved 2026-09-24"
   },
   {
    "claim": "**Plan transition from paediatric to adult care:** documented, developmentally appropriate and involving both teams.",

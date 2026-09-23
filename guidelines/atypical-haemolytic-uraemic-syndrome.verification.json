@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/atypical-haemolytic-uraemic-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)' (published 7 February 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11804885). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)' (published 7 February 2025), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11804885). S2: PARAPHRASED AND HASH-ANCHORED from Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116) 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective' (published 12 September 2025), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12429023). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Asia-Pacific expert algorithms for aHUS with triggers (Nephrology 2025; panel from Australia, Hong Kong, Japan, Korea and Taiwan, including clinicians at Liverpool Hospital NSW and Sir Charles Gairdner Hospital WA), which edition 1.0 named in its Unresolved table but did not use. S2 is CC BY-NC 4.0, so it is paraphrased and hash-anchored. Its advisory-board meetings were sponsored by Alexion, AstraZeneca Rare Disease (maker of eculizumab and ravulizumab), which also funded medical writing; the authors state the recommendations were made independently. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 24,
+  "total": 36,
   "pass": 24,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -43,6 +45,24 @@
    "verdict": "pass",
    "source_text": "It is important to emphasize that in some cases, a subacute presentation may occur with renal impairment and arterial hypertension with signs of TMA on renal biopsy, but no systemic signs of hemolysis and thrombocytopenia. Therefore, the differential diagnosis of TMA should be considered in any patient presenting kidney injury and low-grade hemolysis (grade 1B).",
    "locator": "Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia, 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)', published 7 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**TMA can be triggered** by pregnancy or the postpartum period, severe hypertension, autoimmune disease, drugs, infection and solid-organ transplant. A trigger may coexist with aHUS, unmask it, or follow from it, so keep aHUS in the differential even when a trigger is found.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "73a3efc52c9331b2",
+     "n": 487,
+     "p": "Conditio"
+    },
+    {
+     "h": "6190952df736f969",
+     "n": 89,
+     "p": "emphasis"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
   },
   {
    "claim": "**aHUS is a clinical diagnosis of exclusion:** first rule out TTP, STEC-HUS and secondary TMA.",
@@ -87,6 +107,42 @@
    "locator": "Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia, 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)', published 7 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/, retrieved 2026-09-23"
   },
   {
+   "claim": "**When a trigger is present, manage it first.** A personal or family history of TMA or aHUS, TMA on kidney biopsy, or low C3 with normal C4 (alternative-pathway activation) raises suspicion. If TMA settles, monitor and reassess on recurrence; if it persists despite proper treatment of the trigger, aHUS can be diagnosed once TTP (ADAMTS13 below 10%) and STEC-HUS are excluded. Modified French or PLASMIC scores that include proteinuria can predict severe ADAMTS13 deficiency while results are awaited.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a97830973c2380ef",
+     "n": 1435,
+     "p": "A genera"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Who to test genetically (S2):** everyone with severe or complicated TMA (for example, not responding to treatment of the trigger), everyone with confirmed aHUS, anyone being considered for a C5 inhibitor (results are not needed to start it), and anyone with suspected or past TMA/aHUS before a kidney transplant. Results take 1–3 months and up to half of cases have no causative variant, so the diagnosis stays clinical. Involve a renal geneticist and genetic counsellor where available.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ed2759afdc9b9dc",
+     "n": 218,
+     "p": "Because "
+    },
+    {
+     "h": "515145d467a6819a",
+     "n": 490,
+     "p": "Candidat"
+    },
+    {
+     "h": "19f230f914ca27b8",
+     "n": 134,
+     "p": "Where av"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Supportive care follows AKI principles:** fluids and electrolytes, blood pressure, nephrotoxic drugs, dialysis and nutrition. Transfuse red cells for Hb <7 g/dL, and platelets only for active bleeding or surgery. Take a direct Coombs sample before any transfusion.",
    "source": "S1",
    "verdict": "pass",
@@ -106,6 +162,32 @@
    "verdict": "pass",
    "source_text": "The side effects of this drug are associated with increased vulnerability to infections by encapsulated germs, especially Neisseria meningitidis. In addition to the use of prophylactic antibiotics, vaccination with tetravalent conjugate vaccine (MenACW135Y) and meningococcus B are recommended for all patients to protect against most meningococcal serotypes (at least 15 days before initiation of therapy). Other vaccines are also recommended, such as Pn13, Pn23, Hib, and influenza (grade 1A). We also recommend updating the vaccination schedule with booster doses. Although the manufacturer recommends antibiotics only for 15 days after vaccination, if vaccination was not possible before, we recommend using prophylactic antibiotics (against meningococcal disease) while the patient is under C5 inhibitor treatment (grade 1A).",
    "locator": "Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia, 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)', published 7 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Start the C5 inhibitor within 3–5 days, or sooner, once aHUS is suspected, and at once on a clinical diagnosis** (S2): kidney recovery is better the shorter the delay. Treat for 6 months initially, aiming for a stable blood and kidney response, then base continuation on the individual risk profile.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "baf7aad023028d12",
+     "n": 526,
+     "p": "As kidne"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **S2 vaccination schedule:** vaccinate at least 2 weeks before the first C5-inhibitor dose (MenACWY, plus MenB where available). If treatment starts less than 2 weeks after vaccination, cover with prophylactic antibiotics (usually penicillin) for at least 2 weeks after it; continuing prophylaxis may be advised. Consider boosters every 3–5 years during long-term treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3e299e97b4a6f108",
+     "n": 607,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
   },
   {
    "claim": "**Ravulizumab** has a longer half-life, so maintenance is every 4 weeks (under 20 kg) or every 8 weeks (over 20 kg). When switching from eculizumab, give the ravulizumab loading dose 2 weeks after the last eculizumab dose.",
@@ -166,11 +248,129 @@
    "locator": "Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia, 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)', published 7 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Minimum course (S2): 6 months after the acute phase whatever the trigger, including at least 3 months after kidney function stabilises or recovers.** Weigh stopping after that against the relapse risk: complement-gene variants (CFH, C3, CFB, CFI, MCP), earlier TMA or family history of aHUS, previous relapse, severe extra-renal disease, CFH autoantibodies, age at onset and kidney transplant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17c29956fbda71f2",
+     "n": 255,
+     "p": "A genera"
+    },
+    {
+     "h": "8cf0e2673f942a0a",
+     "n": 490,
+     "p": "Disconti"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **After stopping, watch for relapse for life:** blood pressure, symptoms, urine for blood and protein, and haemolysis tests (haemoglobin, platelets, LDH, haptoglobin, reticulocytes), weekly to fortnightly at first, then every 3 months (higher risk) to 6 months. Patients can dipstick their urine at home and should report symptoms, especially around infection, vaccination, surgery and pregnancy. Restart the C5 inhibitor quickly on relapse.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "096ab8038f178595",
+     "n": 1121,
+     "p": "Prior to"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hypertension-associated TMA: control the blood pressure first.** Suspect aHUS if hypertension is refractory, or if TMA persists once pressure is controlled. In a hypertensive emergency that is hard to control, especially with severe organ damage, a C5 inhibitor can be given alongside stepped-up antihypertensives.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70b53fd343c3b780",
+     "n": 643,
+     "p": "The prio"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Autoimmune-associated TMA:** consider aHUS when TMA persists despite standard treatment of the autoimmune disease; the C5 inhibitor usually starts within a week of presentation. Examples: catastrophic APS not responding to plasma exchange and immunosuppression; SLE or lupus nephritis not responding after 72–120 hours, especially with brain or heart involvement; scleroderma failing an ACE inhibitor with progressive kidney failure. Continue at least until TMA has resolved.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7e3d7900c232f9e",
+     "n": 985,
+     "p": "A diagno"
+    },
+    {
+     "h": "5fc512b59a14b82f",
+     "n": 150,
+     "p": "C5 inhib"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drug- and infection-triggered TMA:** stop the suspected drug (calcineurin or mTOR inhibitors, or cancer drugs such as carfilzomib, gemcitabine, mitomycin or bevacizumab) and consider aHUS and a C5 inhibitor only if TMA persists 1–2 weeks (or 3–5 half-lives) after withdrawal. With infection, treat it, rule out DIC in severe sepsis, and reserve a C5 inhibitor for TMA that persists or recurs after the infection has resolved.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f601d2d62b95090",
+     "n": 300,
+     "p": "Drugs re"
+    },
+    {
+     "h": "5c38b6bc77a3ed10",
+     "n": 480,
+     "p": "Initial "
+    },
+    {
+     "h": "6c3f19605a4e2a9d",
+     "n": 192,
+     "p": "In the s"
+    },
+    {
+     "h": "31bd68fd94bae883",
+     "n": 253,
+     "p": "C5 inhib"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**In pregnancy, aHUS usually appears late in the third trimester or postpartum.** A C5 inhibitor is the recommended treatment (Grade 1B): without it, 76% progressed to end-stage kidney disease despite plasma exchange.",
    "source": "S1",
    "verdict": "pass",
    "source_text": "aHUS, the rarest form of TMA in pregnancy, often arises in late third trimester or postpartum. … Currently, the recommended treatment is a C5 inhibitor (grade 1B). Without this treatment, renal outcomes are dismal, with 76% of patients progressing to end-stage kidney disease (ESKD) despite receiving plasmapheresis.",
    "locator": "Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia, 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)', published 7 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Pregnancy (S2):** TTP and severe pre-eclampsia/HELLP are commoner in the second and third trimesters; TMA around or after delivery points to complement-mediated aHUS, though it can occur in any trimester. Consider aHUS if work-up is negative or TMA continues after delivery in HELLP or pre-eclampsia; the sFlt-1/PlGF ratio may help separate pre-eclampsia. Start a C5 inhibitor promptly on suspicion, ideally within 24 hours. Eculizumab is generally regarded as safe in pregnancy and is not found in breast milk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c87b7fc31d824c62",
+     "n": 256,
+     "p": "TTP and "
+    },
+    {
+     "h": "f267204d10b6245c",
+     "n": 371,
+     "p": "If appro"
+    },
+    {
+     "h": "4fa8fd0085b84379",
+     "n": 153,
+     "p": "Prompt i"
+    },
+    {
+     "h": "f2e98c10fedfe59b",
+     "n": 208,
+     "p": "Although"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
   },
   {
    "claim": "**Before a kidney transplant, stratify recurrence risk genetically** (Grade 1A) and plan prophylaxis before surgery. Recurrence in the graft runs at 50–80%.",
@@ -185,6 +385,24 @@
    "verdict": "pass",
    "source_text": "Using living related donors is not recommended for aHUS patients due to potential donor variant risks after nephrectomy (grade 1B). … If considering a related donor, genetic analysis should ensure no complement gene variants.",
    "locator": "Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH, de Andrade LGM, Barbosa MINH, et al.), Jornal Brasileiro de Nefrologia, 'Recommendations for diagnosis and treatment of Atypical Hemolytic Uremic Syndrome (aHUS): an expert consensus statement from the Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN)', published 7 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11804885/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Kidney transplant with known aHUS (S2):** genetic profiling is mandatory. At moderate or high recurrence risk (for example CFH, CFI or CFB variants, or earlier graft loss from recurrence), give a C5 inhibitor right through to the operation day, or a first dose before reperfusion; lifelong treatment is generally advised for recurrence-causing variants, life-threatening disease or earlier graft loss. Monitor every recipient for TMA. S2 says live related donors are typically not considered, whatever the genetic result.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "299a38a7f72ff3dc",
+     "n": 770,
+     "p": "Patients"
+    },
+    {
+     "h": "0d6c189084ef7261",
+     "n": 86,
+     "p": "live‐rel"
+    }
+   ],
+   "locator": "Asia-Pacific expert panel (Kang HG et al.), Nephrology 2025;30(9):e70116 (doi 10.1111/nep.70116), 'Management of Atypical Haemolytic Uraemic Syndrome With Triggers: Diagnostic and Treatment Algorithms From an Asia-Pacific Perspective', published 12 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12429023/, retrieved 2026-09-24"
   }
  ]
 }

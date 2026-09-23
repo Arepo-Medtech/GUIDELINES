@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/venous-thromboembolism-treatment.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.mja.com.au/journal/2019/210/5/new-guidelines-thrombosis-and-haemostasis-society-australia-and-new-zealand"
+  "https://www.mja.com.au/journal/2019/210/5/new-guidelines-thrombosis-and-haemostasis-society-australia-and-new-zealand",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Thrombosis and Haemostasis Society of Australia and New Zealand (THANZ), Medical Journal of Australia 210(5) 'New guidelines from the Thrombosis and Haemostasis Society of Australia and New Zealand for the diagnosis and management of venous thromboembolism' (18 March 2019). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Medical Journal of Australia / AMPCo (free to read; the MJA copyright policy forbids reproduction without written consent) (read at https://www.mja.com.au/journal/copyright (the article page links 'Copyright and linking policy'; free-to-read full text retrieved 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Thrombosis and Haemostasis Society of Australia and New Zealand (THANZ), Medical Journal of Australia 210(5) 'New guidelines from the Thrombosis and Haemostasis Society of Australia and New Zealand for the diagnosis and management of venous thromboembolism' (18 March 2019), 22 claims; LICENCE: © Medical Journal of Australia / AMPCo (free to read; the MJA copyright policy forbids reproduction without written consent) (read at https://www.mja.com.au/journal/copyright (the article page links 'Copyright and linking policy'; free-to-read full text retrieved 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830) 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism' (published 2 October 2020), 12 claims; LICENCE: No licence or copyright statement in the PMC record (efetch JATS has no <license> and is abstract-only); free to read on PMC. Treated as all rights reserved (American Society of Hematology). (read at NCBI PMC efetch JATS for PMC7556153 (Europe PMC returned 500) and the PMC article page, from which the full text was read). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, THANZ 2019) unchanged and adds S2, the ASH 2020 GRADE guideline on treating DVT and PE, for home treatment, thrombolysis and catheter therapy, IVC filters, length of treatment, reduced-dose DOACs and recurrent VTE. Cancer-associated VTE is in a separate ASH guideline that was not used.",
  "summary": {
-  "total": 22,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -191,6 +192,96 @@
    "locator": "Thrombosis and Haemostasis Society of Australia and New Zealand (THANZ), Medical Journal of Australia 210(5), 'New guidelines from the Thrombosis and Haemostasis Society of Australia and New Zealand for the diagnosis and management of venous thromboembolism', 18 March 2019, https://www.mja.com.au/journal/2019/210/5/new-guidelines-thrombosis-and-haemostasis-society-australia-and-new-zealand, retrieved 2026-09-23"
   },
   {
+   "claim": "**Treat at home when you can (ASH, conditional):** for uncomplicated DVT, and for PE at low risk of complications (PESI or simplified PESI can help pick these patients but do not replace judgement). Admit instead for another reason needing hospital, no support at home, inability to pay for medicines or poor adherence; limb-threatening DVT, high bleeding risk, IV analgesia and submassive or massive PE may also need hospital.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94f1f7074ae2310d",
+     "n": 629,
+     "p": "For pati"
+    },
+    {
+     "h": "d8b35c4bde08a413",
+     "n": 961,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ASH favours a DOAC over a vitamin K antagonist (conditional, moderate certainty)** but may not apply with creatinine clearance below 30 mL/min, liver disease of moderate or greater severity, or antiphospholipid syndrome. **ASH names no preferred DOAC:** choose by need for parenteral lead-in, once- or twice-daily dosing, cost, kidney function, CYP3A4 or P-glycoprotein interactions and cancer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "20a1b2cae0d06942",
+     "n": 445,
+     "p": "For pati"
+    },
+    {
+     "h": "71f59dee33100a2a",
+     "n": 581,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Proximal DVT: anticoagulation alone for most rather than adding thrombolysis (ASH, conditional).** Consider thrombolysis for limb-threatening DVT (phlegmasia cerulea dolens) or for selected younger patients at low bleeding risk with iliac and common femoral vein clot; it should be rare below the common femoral vein. If thrombolysing extensive DVT, prefer catheter-directed to systemic.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b3802c655aed305",
+     "n": 827,
+     "p": "In most "
+    },
+    {
+     "h": "5c5559e1425b5b47",
+     "n": 176,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **PE with haemodynamic compromise: thrombolyse, then anticoagulate (ASH, strong despite low certainty).** Submassive PE (RV dysfunction on echo or biomarkers without compromise): anticoagulate alone, watch closely for deterioration, and reserve thrombolysis for younger low-bleeding-risk patients or those with cardiopulmonary disease likely to decompensate. For PE, systemic thrombolysis is preferred to catheter-directed, except in experienced centres for higher bleeding risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fec709aa9d0267df",
+     "n": 210,
+     "p": "For pati"
+    },
+    {
+     "h": "3b9b7df5d527e28a",
+     "n": 682,
+     "p": "For pati"
+    },
+    {
+     "h": "da7b48030d017f7f",
+     "n": 811,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No IVC filter on top of anticoagulation (ASH, conditional)** for proximal DVT with significant cardiopulmonary disease or PE with haemodynamic compromise. If anticoagulation is contraindicated, a retrievable filter may be placed and removed once anticoagulation can start (consistent with S1).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c67ec8d33b54e3fb",
+     "n": 646,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Proximal DVT or PE: at least 3 months for everyone.** If the cause was major surgery or trauma that has resolved, stop at 3 months. (GRADE strong)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -306,6 +397,128 @@
     }
    ],
    "locator": "Thrombosis and Haemostasis Society of Australia and New Zealand (THANZ), Medical Journal of Australia 210(5), 'New guidelines from the Thrombosis and Haemostasis Society of Australia and New Zealand for the diagnosis and management of venous thromboembolism', 18 March 2019, https://www.mja.com.au/journal/2019/210/5/new-guidelines-thrombosis-and-haemostasis-society-australia-and-new-zealand, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ASH primary treatment: 3–6 months rather than 6–12 months** whatever the trigger (transient, chronic or none; conditional, moderate certainty). A longer first phase can be justified where a chronic risk factor is expected to improve, such as mobility with rehabilitation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0d8aafa7c7f4546",
+     "n": 386,
+     "p": "For prim"
+    },
+    {
+     "h": "5f121a6a9ff9a732",
+     "n": 247,
+     "p": "For sele"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **ASH then advises indefinite antithrombotic therapy after unprovoked VTE, or VTE with a chronic risk factor,** rather than stopping (conditional, moderate), unless bleeding risk is high. VTE from a transient factor usually stops after primary treatment. (S1 instead treats unprovoked VTE for a fixed first period and then decides whether to extend.)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "78ae067cc37755bf",
+     "n": 660,
+     "p": "After co"
+    },
+    {
+     "h": "c69e621e9937c493",
+     "n": 373,
+     "p": "After co"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For unprovoked VTE, do not routinely use prognostic scores, D-dimer or ultrasound for residual clot to decide duration (ASH, conditional, very low certainty);** they may help when the patient is undecided or the balance is unclear.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "254c7fcd7dc058fc",
+     "n": 787,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Long-term prevention after primary treatment (ASH):** an anticoagulant rather than aspirin (conditional); on warfarin, target INR 2.0–3.0 rather than 1.5–1.9 (strong); on a DOAC, standard or reduced dose, such as apixaban 2.5 mg twice daily or rivaroxaban 10 mg once a day (conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ab8d2ec731f5e53",
+     "n": 67,
+     "p": "the ASH "
+    },
+    {
+     "h": "a2b6ce5665860826",
+     "n": 239,
+     "p": "will con"
+    },
+    {
+     "h": "1a7bf8a52d19571f",
+     "n": 426,
+     "p": "will con"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Recurrence on warfarin despite a therapeutic INR: switch to low molecular weight heparin rather than a DOAC and look for a cause (ASH, conditional);** a DOAC is reasonable if the INR was poorly controlled.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b30c1ceaeb3e1b02",
+     "n": 572,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A second VTE (ASH):** recurrent unprovoked VTE warrants indefinite therapy (strong). A new transient-factor event after an earlier unprovoked or chronic-factor VTE: continue indefinitely; after an earlier transient-factor VTE: stop after primary treatment (both conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "824ccd08efc116d2",
+     "n": 219,
+     "p": "and have"
+    },
+    {
+     "h": "197eb6aef59731e2",
+     "n": 213,
+     "p": "and have"
+    },
+    {
+     "h": "4de90957c656dcce",
+     "n": 243,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Aspirin taken for stable cardiovascular disease: usually pause it while anticoagulated (ASH, conditional),** after reviewing why it was started; except soon after an acute coronary event or a coronary intervention.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0878b379a675a823",
+     "n": 685,
+     "p": "with sta"
+    }
+   ],
+   "locator": "Ortel TL, Neumann I, Ageno W, et al., American Society of Hematology (ASH), Blood Advances 4(19):4693-4738 (doi 10.1182/bloodadvances.2020001830), 'American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism', published 2 October 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/, retrieved 2026-09-24"
   },
   {
    "claim": "**Do not test routinely for inherited thrombophilia:** factor V Leiden and prothrombin gene heterozygosity change neither duration nor family advice. Testing for antiphospholipid syndrome after unprovoked VTE is reasonable. (GRADE strong, moderate)",
