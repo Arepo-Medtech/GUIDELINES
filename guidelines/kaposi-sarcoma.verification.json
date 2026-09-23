@@ -1,0 +1,411 @@
+{
+ "guideline": "guidelines/kaposi-sarcoma.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://doi.org/10.1016/j.ejca.2018.12.036"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "PARAPHRASED AND HASH-ANCHORED from European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)' (published June 2019). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2019 Elsevier Ltd. All rights reserved (free to read; publisher PDF from the University of Szeged repository, publicatio.bibl.u-szeged.hu/21424) (read at copyright line in the retrieved PDF; Unpaywall lists it as free-to-read ('other-oa')). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 24,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
+ },
+ "claims": [
+  {
+   "claim": "**Kaposi sarcoma is a multicentric tumour of lymphatic-endothelial cells infected with HHV-8.** Its four subtypes are classic, endemic (sub-Saharan Africa), epidemic (HIV) and iatrogenic (immunosuppression, especially transplant); the degree of immunosuppression drives onset and progression.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9391d9758885b1a5",
+     "n": 174,
+     "p": "KS is a "
+    },
+    {
+     "h": "a414e605bf33910f",
+     "n": 562,
+     "p": "Four rec"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Lesions are purple, red-blue or brown macules, plaques or nodules** that can bleed, ulcerate or become warty; lymphoedema is common and may appear first.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c8a1935711a8369",
+     "n": 227,
+     "p": "KS typic"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Classic KS is usually indolent; HIV-related and post-transplant KS can be extensive and life-threatening.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ebf9afcfd489191e",
+     "n": 118,
+     "p": "CKS has "
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**In HIV, KS remains the second most common cancer in Western countries.** Low CD4 is the main risk factor, but risk stays above the general population even with normal CD4 and suppressed viral load.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41bb9023450c685b",
+     "n": 91,
+     "p": "However,"
+    },
+    {
+     "h": "422bfae09b300350",
+     "n": 304,
+     "p": "A low CD"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**After organ transplant, KS risk is 50- to 500-fold higher,** peaking in the first 2 years; median onset is 13 months after transplant.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d54c159fe7c024eb",
+     "n": 388,
+     "p": "The risk"
+    },
+    {
+     "h": "bba188184682e9f2",
+     "n": 71,
+     "p": "The medi"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Biopsy is mandatory.** Staining for the HHV-8 LANA protein is the best way to tell KS from its mimics.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab752a74fda0c9c1",
+     "n": 34,
+     "p": "Biopsy i"
+    },
+    {
+     "h": "3b01fb9b6c184d2e",
+     "n": 275,
+     "p": "identifi"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**HHV-8 viral load in blood is not usable** to monitor KS or predict it in transplant recipients.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cff62d2733c27765",
+     "n": 272,
+     "p": "Although"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Only AIDS-related KS has a validated staging system (ACTG: tumour, immune, systemic symptoms);** since antiretroviral therapy, the tumour and symptom components carry the prognosis. Otherwise, sort patients into localised non-aggressive, locally aggressive or disseminated disease.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce2c2947e11b80e2",
+     "n": 110,
+     "p": "In the e"
+    },
+    {
+     "h": "a00f38af5f331f2f",
+     "n": 217,
+     "p": "There is"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**No randomised trial compares the local options.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0aecd0ca0dec0204",
+     "n": 91,
+     "p": "There is"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Radiotherapy is among the most effective treatments for localised KS** (response 47% to 99%). Avoid more than 3 Gy per fraction and concurrent systemic therapy to limit late effects.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db32f2475921cab6",
+     "n": 128,
+     "p": "Radiothe"
+    },
+    {
+     "h": "c472fc4fa996cef0",
+     "n": 159,
+     "p": "Higher d"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Surgery recurs often;** keep it for a few small, well-defined superficial lesions.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5f1c2de69a1de3c3",
+     "n": 165,
+     "p": "Surgical"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**CO2 laser or superficial cryotherapy can work for a while on superficial lesions;** warn about lasting hypopigmentation.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f76238f14c70601d",
+     "n": 196,
+     "p": "CO2-lase"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Intralesional chemotherapy** (vinblastine, response about 70%) and **electrochemotherapy** (bleomycin with electroporation) are effective local options.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2080d7cdd9ad6f9",
+     "n": 214,
+     "p": "Intrales"
+    },
+    {
+     "h": "45b13e7071406645",
+     "n": 177,
+     "p": "Electroc"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Topical options:** imiquimod helped about half of 17 patients with classic or endemic KS (local itch and redness in 53%); alitretinoin 0.1% gel gave a 37% response in HIV-related KS on antiretrovirals.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94e7b657a0c98898",
+     "n": 251,
+     "p": "Imiquimo"
+    },
+    {
+     "h": "924f9399fb44d6f3",
+     "n": 167,
+     "p": "Topical "
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The aim is control, symptom relief and quality of life, not cure.** The preferred first-line drugs are paclitaxel and pegylated liposomal doxorubicin (PLD).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a011e73a91111e9",
+     "n": 128,
+     "p": "The goal"
+    },
+    {
+     "h": "884efec7e5c43b4c",
+     "n": 129,
+     "p": "In terms"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **PLD 20 mg/m² every 3 weeks:** response 76% in HIV-related KS on antiretrovirals and higher in classic KS; responses last a median of about 5 months (HIV) and 25 months (classic). Grade IV neutropenia and hand–foot syndrome each occur in about 5%.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a17d404a4ca7e62a",
+     "n": 339,
+     "p": "Administ"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Paclitaxel 100 mg/m² every 2 weeks** gives about 60% response in HIV-related KS. Against PLD in a randomised trial, progression-free survival was similar (17.5 vs 12.2 months) but toxicity was greater, so it is second line in HIV-related KS.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3245c8aad9804e10",
+     "n": 136,
+     "p": "PCT give"
+    },
+    {
+     "h": "a93ba6b8d8aed8f8",
+     "n": 304,
+     "p": "was comp"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**For non-AIDS KS, the preferred paclitaxel schedule is 80 mg/m² weekly,** continuously or 3 weeks on and 1 off.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3342587fd7da0a16",
+     "n": 101,
+     "p": "In gener"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Vinblastine, oral etoposide and bleomycin are alternatives,** not first-line choices.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "250cfed9e62e98fb",
+     "n": 117,
+     "p": "Other ch"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**HIV-related KS: start antiretroviral therapy first;** most lesions regress. Add chemotherapy for poor-prognosis (T1) or rapidly progressive disease, and to prevent or treat IRIS.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8821024bdfcd615f",
+     "n": 54,
+     "p": "cART is "
+    },
+    {
+     "h": "26b518a2e24bed11",
+     "n": 196,
+     "p": "In most "
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**With antiretrovirals, liposomal anthracyclines are first line and taxanes second.** The herpesvirus (KSHV) cannot be cleared and KS can recur; if long-term cytotoxics are not tolerated, pomalidomide or lenalidomide may be discussed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "227db3e172575f91",
+     "n": 395,
+     "p": "Liposoma"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Post-transplant KS: reduce immunosuppression to the lowest level and switch to an mTOR inhibitor such as sirolimus** while protecting the graft; add systemic therapy for extensive or life-threatening disease. Avoid interferon alfa (rejection risk).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3ed9abc278ff8d8",
+     "n": 257,
+     "p": "In the m"
+    },
+    {
+     "h": "688019dcb6f99eff",
+     "n": 103,
+     "p": "patients"
+    },
+    {
+     "h": "9e97a59f9c96b9aa",
+     "n": 130,
+     "p": "interfer"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Classic/endemic KS needs systemic treatment when aggressive** (nodal or visceral disease, severe oedema, complications or rapid spread): usually liposomal anthracycline, less often weekly taxane. Low-dose interferon alfa is an option under 70 with normal cardiac function.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c0efd5d77922420",
+     "n": 300,
+     "p": "Aggressi"
+    },
+    {
+     "h": "8e128505c863a2a8",
+     "n": 185,
+     "p": "Low dose"
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Life-threatening disease (extensive HIV-KS, IRIS, severe post-transplant KS): review at least monthly and image at least every 3 months until stable.** Indolent classic KS can be seen every six months to a year, mainly clinically. Repeat biopsy only for atypical course or to confirm nodal or visceral spread.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7da68f1431aa99ef",
+     "n": 427,
+     "p": "In life-"
+    },
+    {
+     "h": "1e41cf91545a9d25",
+     "n": 140,
+     "p": "Notably "
+    }
+   ],
+   "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  }
+ ]
+}
