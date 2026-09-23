@@ -1,0 +1,509 @@
+{
+ "guideline": "guidelines/mantle-cell-lymphoma.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association and European MCL Network, HemaSphere 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma' (published 22 October 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12541557). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 24,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
+ },
+ "claims": [
+  {
+   "claim": "**Base the diagnosis on an excised node where feasible** (V, A); use a core biopsy only when no node is easy to reach, never fine-needle aspiration, and have an expert haematopathologist review it. Leukaemic-only disease can be diagnosed from marrow or blood.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54851cfec7441f49",
+     "n": 456,
+     "p": "The diag"
+    },
+    {
+     "h": "63471651125a44d0",
+     "n": 69,
+     "p": "The diag"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**MCL needs a mature B-cell phenotype** (usually CD5-positive) plus proof of cyclin D1 (protein expression, CCND1 rearrangement, or both); conventional MCL expresses SOX11.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f9b93157192b6ef",
+     "n": 210,
+     "p": "The diag"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Check TP53 mutation status at diagnosis** (IV, A), preferably by sequencing, because immunostaining misses truncating mutations, which are up to 30% of the total. If only p53 staining is available, call it positive at 50% or more.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52210a5e10df8e3e",
+     "n": 68,
+     "p": "TP53 mut"
+    },
+    {
+     "h": "66a85f95f4b0c110",
+     "n": 203,
+     "p": "DNA sequ"
+    },
+    {
+     "h": "30aac615cf7dda20",
+     "n": 97,
+     "p": "If only "
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**High-risk histology is blastoid or pleomorphic morphology, or Ki-67 of 30% or more.** Re-biopsy whenever new treatment is needed, repeating Ki-67 and TP53 testing. (IV, B)",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae3bb0cb284a6180",
+     "n": 121,
+     "p": "High‐ris"
+    },
+    {
+     "h": "0792dd84c5a5fb81",
+     "n": 181,
+     "p": "When a n"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Stage with CT of neck, chest, abdomen and pelvis plus marrow aspirate and trephine** (V, A). If disease looks limited (stage I–II), add PET-CT and GI endoscopy with biopsies (V, B): PET-CT misses marrow and gut involvement too often.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2bf076295bb89a55",
+     "n": 145,
+     "p": "Routine "
+    },
+    {
+     "h": "5ff43048a7942800",
+     "n": 138,
+     "p": "In suspe"
+    },
+    {
+     "h": "84edc4fb8b7d0b85",
+     "n": 159,
+     "p": "current "
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Skip routine lumbar puncture without neurological symptoms** (CNS involvement under 1%). Screen for HIV and hepatitis B and C, and assess the heart before a BTK inhibitor or an anthracycline.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d7db14edca6dc40",
+     "n": 198,
+     "p": "Central "
+    },
+    {
+     "h": "496a2a5d465e05e2",
+     "n": 384,
+     "p": "It is im"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Asymptomatic, low-risk MCL can be watched:** review every 3 months at first, then every 3–6 months (V, B). In a UK cohort 38% were observed, with a median of about 21 months before treatment. Early targeted therapy belongs only in trials (II, C).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6df920e81689770",
+     "n": 255,
+     "p": "Asymptom"
+    },
+    {
+     "h": "6837f9b44038d6dc",
+     "n": 151,
+     "p": "over one"
+    },
+    {
+     "h": "997d2ea092a59b5c",
+     "n": 120,
+     "p": "Early in"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Stage I without risk factors: observe or give involved-site radiotherapy (24–36 Gy)** (II, B). For intermediate risk or tumour load, consider brief systemic therapy then radiotherapy (IV, B); stage II with high-risk features is treated as advanced disease (IV, B).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "79c6f5dad83425bb",
+     "n": 96,
+     "p": "In low‐r"
+    },
+    {
+     "h": "a72161e471704492",
+     "n": 76,
+     "p": "Involved"
+    },
+    {
+     "h": "3308fca74ab2e6cc",
+     "n": 2392,
+     "p": "In patie"
+    },
+    {
+     "h": "af0bb6ba57fc4693",
+     "n": 101,
+     "p": "In stage"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fit younger patients (including fit people over 65): R-CHOP with ibrutinib alternating with R-DHAP or R-DHAOx, then ibrutinib for 2 years and rituximab maintenance for 3 years.** (I, A)",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "018e163af5132bfe",
+     "n": 82,
+     "p": "but we a"
+    },
+    {
+     "h": "b65710d788dcdc6d",
+     "n": 167,
+     "p": "Fit youn"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Autograft is now optional:** in TRIANGLE, adding ibrutinib without transplant matched ibrutinib with transplant at far lower toxicity, and ibrutinib after autograft adds much infection. Discuss autograft only for selected high-risk patients (II, C).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c8afa9fdfa41a723",
+     "n": 112,
+     "p": "Interest"
+    },
+    {
+     "h": "1ca4ae6149705f72",
+     "n": 74,
+     "p": "The addi"
+    },
+    {
+     "h": "770191492c99c7d8",
+     "n": 88,
+     "p": "Consider"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**If no covalent BTK inhibitor is available first line:** rituximab with high-dose cytarabine induction, autograft, then 3 years of rituximab maintenance (I, B). Autograft can be left out after complete response with NGS-confirmed molecular remission (II, A). If ibrutinib specifically is unavailable, a second-generation BTK inhibitor is reasonable despite no phase III data.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98502d626be79c42",
+     "n": 203,
+     "p": "If cBTKi"
+    },
+    {
+     "h": "af89af65ece9c631",
+     "n": 109,
+     "p": "In patie"
+    },
+    {
+     "h": "ec15f9829a471ef3",
+     "n": 180,
+     "p": "If ibrut"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Age 65–70 or over, or unfit for intensive therapy:** rituximab-chemotherapy (R-BAC, III, B; or BR, VR-CAP or R-CHOP, I, B), BR plus acalabrutinib (I, B), or rituximab with a continuous covalent BTK inhibitor (I, B; not EMA/FDA approved).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "92e30f51acdff468",
+     "n": 178,
+     "p": "Patients"
+    },
+    {
+     "h": "e040682fa090610f",
+     "n": 24,
+     "p": "BR‐acala"
+    },
+    {
+     "h": "a6e52a6fb2cc7dc5",
+     "n": 111,
+     "p": "Continuo"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Give rituximab maintenance for 2 years or longer** after first-line BR, VR-CAP or R-CHOP.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df4753719a8af336",
+     "n": 148,
+     "p": "Offer ma"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**VR-CAP spares the T-cell suppression of bendamustine,** keeping future CAR T-cell or T-cell-engager options open, so it may suit high-risk patients.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8cc192ae4d1f6d48",
+     "n": 269,
+     "p": "it repre"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For very frail patients, low-dose palliative radiotherapy (2 Gy × 2)** can relieve symptoms at diagnosis or relapse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ceaa75ba26d2b1c",
+     "n": 159,
+     "p": "In very "
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **TP53-mutated MCL does badly with immunochemotherapy** (median PFS about 1 year). Consider a first-line anti-CD20 + BTK inhibitor + BCL2 inhibitor combination if available (III, B), and offer trials at every stage (IV, B). Fit patients up to 70 with p53 overexpression may get the ibrutinib-containing intensive schedule with or without autograft (II, C).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e99cdd57b06bf24",
+     "n": 76,
+     "p": "in whom "
+    },
+    {
+     "h": "c2c70f74dabb1cbe",
+     "n": 133,
+     "p": "Consider"
+    },
+    {
+     "h": "68976709242a351c",
+     "n": 186,
+     "p": "Patients"
+    },
+    {
+     "h": "67622d905097762b",
+     "n": 194,
+     "p": "Fit pati"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**BTK inhibitor-naive relapse after immunochemotherapy: a covalent BTK inhibitor (± venetoclax) at second line rather than later** (III, B), including CNS relapse (IV, B), where ibrutinib is preferred.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7761b1b24c44595",
+     "n": 241,
+     "p": "For BTKi"
+    },
+    {
+     "h": "f3bb8e8ac38f0f3b",
+     "n": 43,
+     "p": "CNS rela"
+    },
+    {
+     "h": "2c440b06a05de71e",
+     "n": 98,
+     "p": "ibrutini"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For BTK inhibitor toxicity, switch agents:** acalabrutinib and zanubrutinib cause less atrial fibrillation, hypertension and bleeding than ibrutinib, and switching usually fixes toxicity without losing control.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "234212ef387ea446",
+     "n": 180,
+     "p": "Both aca"
+    },
+    {
+     "h": "faa3e3deeb0d12da",
+     "n": 126,
+     "p": "Furtherm"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Relapse on continuous BTK inhibitor once meant median survival of about 8 months.** After BTK inhibitor-containing therapy, options are anti-CD19 CAR T-cells (III, A), pirtobrutinib (III, A) or immunochemotherapy (IV, B); rechallenge with a covalent BTK inhibitor only after prior intolerance or a fixed-duration course (V, C).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea9b2c1ee36a064d",
+     "n": 72,
+     "p": "Until re"
+    },
+    {
+     "h": "19fc4667bf96f824",
+     "n": 477,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Brexucabtagene autoleucel** (ZUMA-2, 68 BTK inhibitor-exposed patients): 91% response, 68% complete, median PFS 25.8 months, but grade 3+ neurotoxicity in 31%, a real problem in older comorbid patients. Liso-cel gave similar responses (83%, CR 72%) with far less severe CRS (1%) and neurotoxicity (9%).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b1417e10eb7c3eb",
+     "n": 148,
+     "p": "Among 68"
+    },
+    {
+     "h": "99c35da329ac8c9e",
+     "n": 202,
+     "p": "In ZUMA‐"
+    },
+    {
+     "h": "31284b627675c9a8",
+     "n": 149,
+     "p": "Liso‐cel"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Pirtobrutinib** (non-covalent BTK inhibitor) responds less often (49%, complete 16%) but is well tolerated apart from infection and neutropenia; it suits patients unfit for or relapsing after CAR T-cells, or as a bridge when disease moves fast.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1903488686281fcd",
+     "n": 203,
+     "p": "The ORR "
+    },
+    {
+     "h": "98e221b8780a34ae",
+     "n": 185,
+     "p": "Pirtobru"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Avoid bendamustine before CAR T-cell collection.** Consider allogeneic transplant for younger fit patients when CAR T-cells are unavailable or have failed (IV, B).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "276bc32b45f7571a",
+     "n": 51,
+     "p": "Bendamus"
+    },
+    {
+     "h": "f39efcabf53e34c7",
+     "n": 148,
+     "p": "AlloSCT "
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Follow up for life, as MCL keeps relapsing** (V, D): history, examination, blood counts and chemistry with LDH every 3–4 months for 2 years, 6-monthly for 3 more years, then yearly. Do not use PET-CT for surveillance; check TSH yearly after neck radiotherapy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba2a4d3222def036",
+     "n": 114,
+     "p": "Follow‐u"
+    },
+    {
+     "h": "cbfa3630714e53f8",
+     "n": 216,
+     "p": "History "
+    },
+    {
+     "h": "30c1543ef635b1df",
+     "n": 112,
+     "p": "Annual e"
+    },
+    {
+     "h": "f56e4753bec76507",
+     "n": 43,
+     "p": "PET‐CT s"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**After CD19 CAR T-cells:** antiviral prophylaxis (aciclovir 200–400 mg or valaciclovir 500 mg orally twice daily) and pneumocystis prophylaxis for at least 6 months and until CD4 exceeds 200 cells/ml. With IgG under 400 mg/dL and serious or recurrent infection, give immunoglobulin (IVIG 400–500 mg/kg every 3–4 weeks). Vaccinate against COVID-19 and influenza from 3 months; other inactivated vaccines wait until 6 months and live vaccines until beyond 1 year.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "514d5b6af6f710a5",
+     "n": 391,
+     "p": "After an"
+    },
+    {
+     "h": "4f36612079a06566",
+     "n": 248,
+     "p": "Consider"
+    },
+    {
+     "h": "fb719d0c9e835e62",
+     "n": 149,
+     "p": "It is re"
+    }
+   ],
+   "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23",
+   "dose": true
+  }
+ ]
+}
