@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/infective-endocarditis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://litfl.com/infective-endocarditis/"
+  "https://litfl.com/infective-endocarditis/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Life in the Fast Lane (LITFL); author Chris Nickson 'Infective Endocarditis (LITFL Critical Care Compendium)' (published 29 January 2019, last modified 3 November 2020). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-SA 4.0 (read at the site-wide licence statement in the footer of https://litfl.com/infective-endocarditis/). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Life in the Fast Lane (LITFL); author Chris Nickson 'Infective Endocarditis (LITFL Critical Care Compendium)' (published 29 January 2019, last modified 3 November 2020), 21 claims; LICENCE: CC BY-NC-SA 4.0 (read at the site-wide licence statement in the footer of https://litfl.com/infective-endocarditis/). S2: PARAPHRASED AND HASH-ANCHORED from Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651) 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice' (published 19 July 2024), 12 claims; LICENCE: CC BY-NC-ND 4.0 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)') (read at Europe PMC fullTextXML <license> element for PMC11365601). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, LITFL) unchanged and adds S2, a 2024 review of the ESC 2023 endocarditis guideline's main changes (the guideline itself remains unreadable: subscription-only). The WHO AWaRe antibiotic book was checked again and rejected as a second source: it mentions endocarditis only in passing and has no treatment section.",
  "summary": {
-  "total": 21,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -119,6 +120,32 @@
    "locator": "Life in the Fast Lane (LITFL); author Chris Nickson, 'Infective Endocarditis (LITFL Critical Care Compendium)', published 29 January 2019, last modified 3 November 2020, https://litfl.com/infective-endocarditis/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **The current ESC guideline (S2) sets a different blood-culture schedule:** at least three sets 30 minutes apart before antibiotics, each 10 ml into aerobic and anaerobic bottles, drawn from a peripheral vein.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ccfd430e22ad80b3",
+     "n": 247,
+     "p": "At least"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Culture-negative endocarditis is most often due to earlier antibiotics,** otherwise fungi or fastidious bacteria; ESC advises routine serology for Coxiella burnetii, Bartonella, Aspergillus, Mycoplasma pneumoniae, Brucella and Legionella pneumophila.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a49c9cf0b9d350a",
+     "n": 340,
+     "p": "Blood cu"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Echocardiography:** TTE picks up only about 60% of cases, TOE 90–99%, with specificity around 90%. Look for an oscillating mass on a valve or implanted material, an abscess, or new prosthetic dehiscence.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -135,6 +162,60 @@
     }
    ],
    "locator": "Life in the Fast Lane (LITFL); author Chris Nickson, 'Infective Endocarditis (LITFL Critical Care Compendium)', published 29 January 2019, last modified 3 November 2020, https://litfl.com/infective-endocarditis/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **TOE is now Class I even after a positive TTE** (to find perivalvular complications and small vegetations), except isolated right-sided native-valve disease with a clear, good-quality TTE; it is also required before switching from IV to oral antibiotics. With high suspicion and a normal or inconclusive study, repeat echo in 5–7 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bbb731f7334cf061",
+     "n": 422,
+     "p": "TOE has "
+    },
+    {
+     "h": "6cae66a581972f04",
+     "n": 157,
+     "p": "In the c"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Multimodality imaging is now a major diagnostic criterion,** because with prosthetic material echo misses or cannot settle up to 30% of cases. CT beats TOE for perivalvular and periprosthetic complications; echo beats CT for vegetations under 10 mm, leaflet perforation and fistulae. Enterococcus faecalis now counts as a typical endocarditis organism.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d7bd7b75c304d17a",
+     "n": 491,
+     "p": "The 2023"
+    },
+    {
+     "h": "d9c05c9268a001f1",
+     "n": 217,
+     "p": "CT is mo"
+    },
+    {
+     "h": "160a1a07ed21e9f1",
+     "n": 87,
+     "p": "Enteroco"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Nuclear imaging (FDG-PET/CT or labelled white-cell SPECT/CT) is recommended for suspected prosthetic-valve endocarditis when echo is inconclusive,** with sensitivity and specificity near 85%; on native valves sensitivity is only about 30% (specificity about 98%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ad6523e5607bc4f",
+     "n": 605,
+     "p": "Nuclear "
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
   },
   {
    "claim": "**If cultures stay negative,** send serology for the likely organisms and 16S ribosomal RNA PCR on any excised valve tissue.",
@@ -285,6 +366,70 @@
    "locator": "Life in the Fast Lane (LITFL); author Chris Nickson, 'Infective Endocarditis (LITFL Critical Care Compendium)', published 29 January 2019, last modified 3 November 2020, https://litfl.com/infective-endocarditis/, retrieved 2026-09-23"
   },
   {
+   "claim": "**ESC empirical targets (S2):** native-valve and late prosthetic-valve disease, cover staphylococci, streptococci and enterococci; early prosthetic-valve and healthcare-associated disease, also cover methicillin-resistant staphylococci and non-HACEK Gram-negative bacteria; always cover coagulase-negative staphylococci on prosthetic valves. Prefer bactericidal combinations; treat native valves for 4–6 weeks and prosthetic valves for more than 6 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c7b612a60582f04",
+     "n": 462,
+     "p": "Empiric "
+    },
+    {
+     "h": "e9d385e1f6089029",
+     "n": 245,
+     "p": "Bacteric"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Partial oral or outpatient therapy is new in the current ESC guideline.** In the POET trial, switching to oral antibiotics after at least 10 days IV was noninferior (primary outcome 9% oral vs 12.1% IV). ESC: do a TOE at day 10 in stable patients; stable, uncomplicated patients may then go home from day 10 of IV therapy or day 7 after surgery, on the same drugs or an oral step-down, with a nurse daily and a doctor one to three times a week.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35ee03ff7471f340",
+     "n": 62,
+     "p": "were tre"
+    },
+    {
+     "h": "0a5ada2ac4e390d5",
+     "n": 242,
+     "p": "changing"
+    },
+    {
+     "h": "4ee7fc8da77bc5bc",
+     "n": 300,
+     "p": "In the s"
+    },
+    {
+     "h": "3d3c8096cf8499b8",
+     "n": 395,
+     "p": "Outpatie"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Not for outpatient or oral step-down:** heart failure, severe valve regurgitation, vegetations over 10 mm, progression or local complications, neurological involvement, renal impairment, malabsorption, or injecting drug use. The patient also needs to be stable with a stable home, ideally a live-in carer. POET was Danish; where resistance is higher, the endocarditis team decides case by case.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "97579cce4a98f17b",
+     "n": 536,
+     "p": "Outpatie"
+    },
+    {
+     "h": "d07e73575558b8b7",
+     "n": 366,
+     "p": "It shoul"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Consider valve surgery** for haemodynamic instability, a root, paravalvular or intracardiac abscess (or one that is enlarging), recurrent emboli, or infection with S. aureus, Q fever or fungi.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -322,6 +467,78 @@
     }
    ],
    "locator": "Life in the Fast Lane (LITFL); author Chris Nickson, 'Infective Endocarditis (LITFL Critical Care Compendium)', published 29 January 2019, last modified 3 November 2020, https://litfl.com/infective-endocarditis/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ESC surgical timing (S2):** the three main indications are heart failure, uncontrolled infection and prevention of emboli; operate as an emergency inside 24 h, urgently at 3–5 days, or later in the same admission. Uncontrolled infection means blood cultures still positive after more than 1 week of appropriate therapy, resistant or virulent organisms, or growing vegetations, abscess, pseudoaneurysm, fistula or new AV block.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "27b169424f681baf",
+     "n": 274,
+     "p": "There ar"
+    },
+    {
+     "h": "1c2a1a6a28ecacc6",
+     "n": 331,
+     "p": "Uncontro"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Emboli and stroke:** ESC advises considering urgent surgery from a vegetation of 10 mm (preventive surgery with no other indication is Class IIb). Do not delay needed surgery after an ischaemic stroke: haemorrhagic conversion (2–7%) is less likely than another embolus. After a significant haemorrhagic stroke, surgery is generally deferred for more than 4 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b90835fd62f4f8fa",
+     "n": 449,
+     "p": "The 2023"
+    },
+    {
+     "h": "3cafafde3ad33caf",
+     "n": 299,
+     "p": "The 2023"
+    },
+    {
+     "h": "407cc1d8420339ea",
+     "n": 147,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cardiac devices:** remove the whole device when the leads are infected, and consider it in valve endocarditis even without visible lead involvement. If a new device is needed, place it at another site after symptoms settle and cultures stay clear for 72 h or more without vegetations, or 2 weeks or more with them.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "20fb87c8374fb3aa",
+     "n": 343,
+     "p": "Complete"
+    },
+    {
+     "h": "3b4917223fd494df",
+     "n": 163,
+     "p": "The new "
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Manage through an endocarditis team** (cardiology, cardiac imaging, cardiac surgery, infectious diseases, microbiology). Uncomplicated cases can stay in a referring centre in regular contact with a heart valve centre; refer complicated cases early.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "536447d2872a3473",
+     "n": 992,
+     "p": "The core"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
   }
  ]
 }

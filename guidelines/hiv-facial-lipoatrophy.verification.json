@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/hiv-facial-lipoatrophy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4436232/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4436232/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Szczerkowska-Dobosz A, et al. Postepy Dermatologii i Alergologii (Advances in Dermatology and Allergology) 32(2), Termedia; doi:10.5114/pdia.2014.40971 'Acquired facial lipoatrophy: pathogenesis and therapeutic options (narrative review)' (published 30 March 2015). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 3.0 (<license> xlink:href http://creativecommons.org/licenses/by-nc-nd/3.0/; licence text reads 'Creative Commons Attribution-Noncommercial 3.0 Unported License, permitting all non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited'); Copyright © 2015 Termedia (read at Europe PMC fullTextXML <license> element for PMC4436232). The source's words are NOT reproduced here. No current society guideline was found: EACS Guidelines v13.0 deleted the lipodystrophy section (only the archived v12.1 has it), ASHM's HIV Management in Australasia returns nothing for lipoatrophy, and the US DHHS adverse-effects page did not return readable content. A narrative review is used instead and labelled as such.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Szczerkowska-Dobosz A, et al. Postepy Dermatologii i Alergologii (Advances in Dermatology and Allergology) 32(2), Termedia; doi:10.5114/pdia.2014.40971 'Acquired facial lipoatrophy: pathogenesis and therapeutic options (narrative review)' (published 30 March 2015), 17 claims; LICENCE: CC BY-NC-ND 3.0 (<license> xlink:href http://creativecommons.org/licenses/by-nc-nd/3.0/; licence text reads 'Creative Commons Attribution-Noncommercial 3.0 Unported License, permitting all non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited'); Copyright © 2015 Termedia (read at Europe PMC fullTextXML <license> element for PMC4436232). S2: QUOTED from Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474) 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients' (published 1 September 2014), 9 claims; LICENCE: CC BY 4.0 ('This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0)') (read at Europe PMC fullTextXML <license> element for PMC4160543). Verify each source separately: verify.py --source <file> --only-source S<n>. No current society guideline was found: EACS Guidelines v13.0 deleted the lipodystrophy section (only the archived v12.1 has it), ASHM's HIV Management in Australasia returns nothing for lipoatrophy, and the US DHHS adverse-effects page did not return readable content. A narrative review is used instead and labelled as such. Edition 2.0 keeps every edition 1.0 claim (S1) unchanged and adds S2, a single large observational cohort study of poly-L-lactic acid in France (CC BY, quoted), for injection technique and adverse-event rates.",
  "summary": {
-  "total": 17,
-  "pass": 0,
+  "total": 26,
+  "pass": 9,
   "fail": 0,
   "pass_paraphrase_anchored": 17
  },
@@ -247,6 +248,70 @@
     }
    ],
    "locator": "Szczerkowska-Dobosz A, et al. Postepy Dermatologii i Alergologii (Advances in Dermatology and Allergology) 32(2), Termedia; doi:10.5114/pdia.2014.40971, 'Acquired facial lipoatrophy: pathogenesis and therapeutic options (narrative review)', published 30 March 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4436232/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The evidence here is one large real-life cohort:** an observational, open-label study across France from February 2005 to February 2008, covering 4,112 treatment courses and 15,665 injection sessions in HIV-positive patients.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "This was an observational, longitudinal, multicentre, open label study conducted in France from 25 February 2005 to 28 February 2008. … Data from 4,112 treatment courses (i.e., 4,112 HIV-positive patients) and 15,665 injection sessions were analysed.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Technique used:** a course of one to five sessions one month apart, each injecting one or two vials into the dermis according to severity. Each 150 mg vial was reconstituted with 3 to 5 ml of sterile water at least 2 hours beforehand (usable from 2 to 72 hours).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A complete treatment course included one to five sessions of injections, each one month apart. At each treatment session the physician injected one or two vials of PLLA, depending on the severity of lipoatrophy, into the dermis. Consistent with the product instructions current at the initiation of the study, the product was to be reconstituted at least 2 hours prior to administration with a recovery window of 2 to 72 hours, using 3 to 5 ml of sterile water for injection by 150 mg PLLA vial.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**In practice,** the median time from reconstitution to injection was 24 hours and the median volume 5 ml; two vials were used in 81.9% of sessions, sessions were a median 35 to 42 days apart, and 47.3% of patients had all five sessions (3.8 on average).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There was a median time between reconstitution and administration of 24 hours (2-72 hours 94.8% of cases) and a median volume recovery of 5 ml (3-5 ml in 80.2%). Two bottles of product were used in 81.9% of injections sessions. The median time between two successive sessions ranged from 35 days between sessions 1 and 2 to 42 days between sessions 4 and 5. … For 47.3% of patients, five sessions of injections were attended (3.8 sessions on average per treatment course",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Satisfaction was high:** at the visit about two months after the last session, physicians rated the result satisfied or very satisfied in 95.4% and patients in 95.6%. Physician and patient then decided whether to repeat treatment within 12 to 18 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The subjective evaluation of the effectiveness of the treatment on the four-point scale during this visit was very satisfactory, physicians judging the result \"satisfied\" or \"very satisfied\" in 95.4% of the cases, and patients in 95.6% … Two months after the last injection, both the physician and the patient gave a subjective assessment of the effectiveness of the treatment on a four-point scale (very satisfied to very dissatisfied) and made a decision whether they would repeat the treatment or not within 12 to 18 months.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adverse events were mostly mild:** one or more occurred in 18.8% of courses (immediate 15.4%, delayed 6.7%), and only 48 patients (2.8%) stopped because of them, mainly nodules or induration, pain and granuloma.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "One or more AEs were reported in 18.8% of the treatment courses; immediate AEs (15.4%) occurred more frequently than non-immediate AEs (6.7%). … In only 48 patients (2.8%), was treatment discontinued because of adverse events and these were noted to be: 25 cases of nodule/induration, eight cases of pain, and seven cases of granuloma.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Immediate reactions (7.0% of sessions)** were bleeding 3.4%, bruising 2.3%, pain 2.0%, redness 1.6% and facial oedema 0.7%; most settled on their own, and the rate fell from 9.9% at the first session to 4.6% at the fifth.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A total of 1,577 immediate AEs that may have been related to the injections were reported during 1,104 of the 15,665 documented injection sessions (overall incidence: 7.0%). Immediate AEs were: bleeding (reported in 3.4% of the sessions), bruising (2.3%), pain (2.0%), redness at the injection site (1.6%), and localized oedema of the face (0.7%). … the overall incidence of immediate AEs declined from 9.9% at the first injection session to 4.6% at the fifth injection session",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Delayed reactions:** nodules or induration in 5.7% of courses (median onset 56 days), inflammation 0.7% (21 days) and granuloma 0.3% (almost 100 days). All documented cases regressed except three granulomas, though follow-up data were often missing. The one serious event, skin necrosis, resolved.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Non-immediate AEs which may have been related to injections (294 in total) were reported during 274 of the 4,112 documented treatment courses (6.7%) and were reported as nodule/induration (in 5.7% of courses), inflammation (27 cases, 0.7%), granuloma (13 cases, 0.3%), discolouration (9 cases, 0.2%), skin hypertrophy (6 cases, 0.1%), allergic reaction (3 cases, 0.1%), and skin atrophy (2 cases, 0.0%). The median time to onset was 21 days for inflammation, 56 days for nodule/induration, almost 100 days for hypertrophy skin, discolouration, and granuloma (Table 2). … The regression of signs could be observed in all documented cases with the exception of three cases of granuloma. However, this result must be qualified by the large number of missing data … Only one case of cutaneous necrosis met the criterion of gravity (according to French Adverse Event reporting procedures) and was reported a serious AE, but the necrosis resolved.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In France only trained physicians may prescribe it;** in this study immediate reactions did not depend significantly on the length of that training or on the reconstitution volume.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The prerequisite that any physician wishing to prescribe PLLA in France should undergo training … The immediate impact of AEs decreased with the number of injections sessions and did not depend significantly, on the duration of physicians' training to use the product, or the volume of reconstitution.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Treat the rates as a lower bound:** 34% of patients were not reviewed 2 months after the last session, and smaller studies reported more local reactions, one finding palpable micronodules in 45% of 91 patients.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In addition, 34% of patients were not evaluated 2 months after the last injection. … reported that 45% of the 91 patients followed for 48 weeks had invisible but palpable, subcutaneous micronodules, nearly eight times higher than in our study.",
+   "locator": "Duracinsky M, Leclercq P, et al., BMC Infectious Diseases 14:474 (doi 10.1186/1471-2334-14-474), 'Safety of poly-L-lactic acid (New-Fill) in the treatment of facial lipoatrophy: a large observational study among HIV-positive patients', published 1 September 2014, https://pmc.ncbi.nlm.nih.gov/articles/PMC4160543/, retrieved 2026-09-24"
   }
  ]
 }
