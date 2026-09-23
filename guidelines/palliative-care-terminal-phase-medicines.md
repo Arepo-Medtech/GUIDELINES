@@ -47,6 +47,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
 |---|---:|---|---|---:|
 | Use in patients receiving palliative care | 3 | 0 / 1 / 2 | Clonazepam, Metoclopramide, Haloperidol, Hyoscine | 8 |
+| Terminal malignant neoplasia | 4 | 0 / 0 / 4 | Bisacodyl, Sorbitol with sodium citrate dihydrate and sodium lauryl sulfoacetate | 8 |
 
 ---
 

@@ -281,6 +281,16 @@ paracetamol, benzodiazepines, anticoagulants and non-steroidal anti-inflammatory
 | **Seizures — acute management in children** | **drug or alcohol withdrawal** is a listed cause of acute symptomatic seizures |
 | **Fitness to drive — seizures and epilepsy** | *Assessing Fitness to Drive* carries its own **substance misuse** chapter |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Alcohol dependence | 2 | 0 / 2 / 0 | Acamprosate, Naltrexone | 2 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

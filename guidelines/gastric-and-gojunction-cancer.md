@@ -58,6 +58,8 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---:|---|---|---:|
 | Adenocarcinoma of the stomach or gastro-oesophageal junction | 2 | 0 / 2 / 0 | Trifluridine with tipiracil | 2 |
 | HER2 positive adenocarcinoma of the stomach or gastro-oesophageal junction | 2 | 0 / 2 / 0 | Trastuzumab | 4 |
+| Gastro-oesophageal cancer | 1 | 0 / 1 / 0 | Tislelizumab | 2 |
+| Oesophageal cancer or gastro-oesophageal junction cancer | 1 | 1 / 0 / 0 | Nivolumab | 2 |
 
 ---
 

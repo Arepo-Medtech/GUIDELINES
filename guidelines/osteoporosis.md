@@ -72,6 +72,16 @@ Colecalciferol's absence is a listing fact, not a clinical one: it is widely ava
 | **COPD** | long-term oral corticosteroid exposure |
 | **Dementia** · **Delirium** | falls risk, and the hip fracture pathway both feed |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Preservation of bone mineral density | 2 | 2 / 0 / 0 | Risedronic acid, Alendronic acid with colecalciferol | 8 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

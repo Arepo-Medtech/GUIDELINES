@@ -53,6 +53,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
 |---|---:|---|---|---:|
 | Urothelial cancer | 5 | 0 / 5 / 0 | Avelumab, Enfortumab vedotin | 8 |
+| Urothelial carcinoma | 3 | 0 / 3 / 0 | Nivolumab, Durvalumab | 4 |
 
 ---
 

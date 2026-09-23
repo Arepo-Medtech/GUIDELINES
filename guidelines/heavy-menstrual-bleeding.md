@@ -236,6 +236,17 @@ three-to-six-month LNG-IUD expectation honest rather than optimistic.
 | **Antimicrobial stewardship, opioid stewardship** | the same structural idea — **a national measure of how often the most aggressive option is chosen** |
 | **Iron deficiency** | **not yet written in this compendium**; indicator 1a makes testing for it auditable, and statement 3 names it as the harm of waiting |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Idiopathic menorrhagia | 2 | 0 / 0 / 2 | Levonorgestrel | 1 |
+| Menorrhagia | 1 | 0 / 0 / 1 | Mefenamic acid | 1 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

@@ -207,6 +207,16 @@ every measure above into an equity measure.
 | **Smoking cessation** | **NRT is safe in stable cardiovascular disease but used with caution after recent MI or unstable angina** — the caution applies to exactly this population |
 | **Alcohol problems** | abstinence-focused plans recommended for patients with cardiac disease |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Acute coronary syndrome | 3 | 0 / 3 / 0 | Ticagrelor, Prasugrel | 4 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

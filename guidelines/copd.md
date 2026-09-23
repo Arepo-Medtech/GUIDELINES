@@ -135,6 +135,16 @@ bronchodilators are restricted or authority-required, so the constraint sits on 
 | **Smoking cessation** | the only intervention that changes the disease trajectory |
 | **Acute asthma in children** | the paediatric counterpart of exacerbation management, including the MDI-over-nebuliser preference |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Chronic bronchitis | 3 | 0 / 0 / 3 | Doxycycline, Amoxicillin | 7 |
+
 ## Unresolved
 
 | Point | Kind | Detail |

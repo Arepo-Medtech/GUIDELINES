@@ -218,6 +218,16 @@ the other direction.**
 | **Nocturnal enuresis** | the childhood counterpart, in the same AMH chapter |
 | **UTI (acute cystitis)** | ⚠️ **UTI is both a contributing factor to treat first and a consequence of untreated incontinence** |
 
+---
+
+## PBS listings — linked conditions (schedule 4333)
+
+These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+
+| PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
+|---|---:|---|---|---:|
+| Detrusor overactivity | 4 | 0 / 0 / 4 | Oxybutynin, Propantheline | 6 |
+
 ## Unresolved
 
 | Point | Kind | Detail |
