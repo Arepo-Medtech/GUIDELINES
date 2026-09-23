@@ -1,11 +1,13 @@
 # Pancreatic ductal adenocarcinoma
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** molecular testing, surgery and perioperative care, adjuvant chemotherapy, borderline resectable and locally advanced disease, first- and second-line chemotherapy for advanced disease (including gemcitabine plus nab-paclitaxel), NTRK-fusion disease, thromboprophylaxis and follow-up for adults with pancreatic ductal adenocarcinoma. Pancreatic neuroendocrine tumours: see `neuroendocrine-neoplasms`. NTRK-fusion tumours: see `ntrk-fusion-solid-tumours`. Cancer pain: see `cancer-pain-adults`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 16 claims paraphrased from **European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826) — *Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer*** (published 9 October 2025; origin: international). **32 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 21 claims; **43 fragments or anchors re-checkable by machine; 0 doses.** **S1** European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies (published 9 October 2025; international): 16 claims, paraphrased, hash-anchored · **S2** European Society for Medical Oncology (ESMO) Guidelines Committee (published 9 April 2025; international): 5 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Pan-Asian adaptation of ESMO, 2025). Australian practice follows the PBS listings below and may differ.
+
+> ⚠️ International guideline (ESMO Express Update on metastatic disease, 2025), S2. Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Only the Pan-Asian changes to ESMO's recommendations are in the text;** the recommendations accepted unchanged sit in a table that was stripped. S-1, which the panel offers in several settings, is not in the PBS data; the PBS-listed drug for this condition is nab-paclitaxel.
 
@@ -35,6 +37,11 @@
 - **NALIRIFOX beat gemcitabine–nab-paclitaxel on survival (11.1 vs 9.2 months) in the NAPOLI trial;** a network meta-analysis favours NALIRIFOX or FOLFIRINOX when tolerable, with gemcitabine–nab-paclitaxel a sound alternative. [S1]
 - **Second line after FOLFIRINOX: gemcitabine alone or with paclitaxel or nab-paclitaxel** (PS 0–2). After gemcitabine-based treatment, with PS 0–1: liposomal irinotecan–5-FU–leucovorin or mFOLFIRINOX. Oxaliplatin-based second line is contentious. [S1]
 - **NTRK fusion: larotrectinib, entrectinib or repotrectinib.** [S1]
+- **ESMO's metastatic grading:** with ECOG PS 0–1, bilirubin under 1.5 times normal and no major comorbidity, FOLFIRINOX or NALIRIFOX is the recommended first line (both I, A); gemcitabine–nab-paclitaxel can also be used (I, B). [S2]
+- **NAPOLI 3 detail (770 patients):** NALIRIFOX improved median PFS (7.4 vs 5.6 months) but not response (42% vs 36%, not significant). Grade ≥3 adverse events were similar (87% vs 86%), but the profile differed: grade 3–4 diarrhoea 20% vs 5%, neutropenia 14% vs 25%. Quality of life did not differ. [S2]
+- **FOLFIRINOX and NALIRIFOX have never been compared head to head, and their cost-effectiveness is unknown.** Choose on expected survival gain, the patient's toxicity risks and cost; gemcitabine–nab-paclitaxel suits patients unfit for a triplet or when gastrointestinal toxicity is the worry. [S2]
+- ⚠️ **After FOLFIRINOX: gemcitabine–paclitaxel for ECOG PS 0–2 with a favourable comorbidity profile (I, B);** gemcitabine–nab-paclitaxel (not approved for second line) or gemcitabine alone are alternatives (III, C). In GEMPAX (211 patients), adding paclitaxel lengthened PFS (3.1 vs 2.0 months) and raised response (17.1% vs 4.2%) but not overall survival (6.4 vs 5.9 months, not significant), with more grade ≥3 toxicity (58.0% vs 27.1%). [S2]
+- **After NALIRIFOX there are no trial data;** offering gemcitabine-based treatment to fit patients (ECOG PS 0–2, few comorbidities) is reasonable (V, C). [S2]
 
 ## Supportive care and follow-up
 
@@ -61,13 +68,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **ESMO recommendations accepted without change** (epidemiology, diagnosis and staging, most of local and advanced management, supportive care) are listed only in Table 2 and Supplementary Table S2, which were not available as text. | `input_unavailable` |
 | 2 | **Regimen doses** (FOLFIRINOX, gemcitabine–nab-paclitaxel, NALIRIFOX) are not stated in the text; see the PBS restriction and eviQ. | `input_unavailable` |
 | 3 | **Australian divergence:** S-1 is used in Asia (adjuvant, borderline and advanced settings) but is not in the PBS data; the Pan-Asian panel's regional drug-access discussion does not cover Australia. | `observation` |
-| 4 | **ESMO Express Update on metastatic pancreatic cancer (ESMO Open 2025, PMC12125698, CC BY-NC-ND)** was also read; it agrees on FOLFIRINOX, NALIRIFOX or gemcitabine–nab-paclitaxel first line and gemcitabine-based second line, and was not used as a separate source. | `observation` |
-| 5 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 4 | **ESMO Express Update on metastatic pancreatic cancer (ESMO Open 2025, PMC12125698, CC BY-NC-ND)** is now S2. It agrees with S1 on FOLFIRINOX, NALIRIFOX or gemcitabine–nab-paclitaxel first line and gemcitabine-based second line; it covers metastatic disease only. | `observation` |
+| 5 | **Ranking differs slightly:** S1 lists FOLFIRINOX, NALIRIFOX, gemcitabine–nab-paclitaxel and mFOLFIRINOX together as first-line options; S2 grades FOLFIRINOX and NALIRIFOX above gemcitabine–nab-paclitaxel (I, A vs I, B). S2 does not mention mFOLFIRINOX or S-1. Both are shown. NALIRIFOX (liposomal irinotecan) is not in the PBS data for this condition. | `observation` |
+| 6 | **S2's ESMO-MCBS table and algorithm (Figure 1)** were read only from the text and legend; doses are not given. | `input_unavailable` |
+| 7 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826). *Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer*. published 9 October 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528). *ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer*. published 9 April 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

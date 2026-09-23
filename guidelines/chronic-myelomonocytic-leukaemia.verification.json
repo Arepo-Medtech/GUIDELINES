@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/chronic-myelomonocytic-leukaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6745959/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6745959/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and European LeukemiaNet (ELN), HemaSphere 2018;2(6):e150 'Diagnosis and Treatment of Chronic Myelomonocytic Leukemias in Adults: Recommendations From the European Hematology Association and the European LeukemiaNet' (published 29 November 2018). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC6745959). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and European LeukemiaNet (ELN), HemaSphere 2018;2(6):e150 'Diagnosis and Treatment of Chronic Myelomonocytic Leukemias in Adults: Recommendations From the European Hematology Association and the European LeukemiaNet' (published 29 November 2018), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC6745959). S2: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071) 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)' (published 12 October 2022), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9722354). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the EHA/ELN 2018 claims (S1) unchanged and adds Australian Prescriber's 2022 new-drug comment on oral decitabine–cedazuridine (S2, PMC9722354), which S1 predates. S2 is a drug commentary, not a guideline, and its trial data pool CMML with MDS.",
  "summary": {
-  "total": 23,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -318,6 +319,106 @@
    ],
    "locator": "European Hematology Association (EHA) and European LeukemiaNet (ELN), HemaSphere 2018;2(6):e150, 'Diagnosis and Treatment of Chronic Myelomonocytic Leukemias in Adults: Recommendations From the European Hematology Association and the European LeukemiaNet', published 29 November 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6745959/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Decitabine–cedazuridine (Inqovi, 35 mg/100 mg tablets) is approved in Australia for CMML and myelodysplastic syndromes.** It is an oral alternative to hypomethylating agents otherwise given by infusion on several consecutive days each month: cedazuridine blocks the cytidine deaminase in gut and liver that would otherwise break down oral decitabine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee267bf8681f92ff",
+     "n": 117,
+     "p": "Approved"
+    },
+    {
+     "h": "dc8e74cea8b9aa3e",
+     "n": 447,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071), 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)', published 12 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Oral 35 mg decitabine with 100 mg cedazuridine gave 97.6% of the decitabine exposure (AUC) of 20 mg/m2 intravenously;** the phase III crossover also found similar exposure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9da3ced1a0006277",
+     "n": 542,
+     "p": "A phase "
+    },
+    {
+     "h": "01d2f4fe856be17c",
+     "n": 83,
+     "p": "This als"
+    }
+   ],
+   "locator": "Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071), 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)', published 12 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Take it fasting, since food reduces decitabine absorption, and keep drugs that raise gastric pH at least four hours away.** No dose change is advised for mild hepatic or mild to moderate renal impairment; more severe impairment has not been studied.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b9a65aaf21fd68f9",
+     "n": 230,
+     "p": "As the a"
+    },
+    {
+     "h": "a137a09a5ec2f00e",
+     "n": 166,
+     "p": "No dose "
+    }
+   ],
+   "locator": "Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071), 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)', published 12 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Efficacy (CMML and MDS together):** in the phase II trial (80 patients; five-day cycles every 28 days, median seven cycles) 60% responded, 21% completely, with complete responses lasting a median 13.3 months and median overall survival 18.3 months. Interim phase III data (133 patients) also showed 21% complete responses, and some patients stopped needing transfusions.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da35b1a67880ccd5",
+     "n": 380,
+     "p": "The 80 p"
+    },
+    {
+     "h": "ad21e2dc8ea22e91",
+     "n": 150,
+     "p": "Informat"
+    }
+   ],
+   "locator": "Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071), 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)', published 12 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Most patients have serious adverse effects, chiefly neutropenia, anaemia and thrombocytopenia with bleeding risk.** Check blood counts regularly and delay or reduce doses for abnormal results; rises in creatinine or liver enzymes may also need dose changes. Fatigue, nausea, dizziness, diarrhoea and constipation are common; five of 80 phase II patients stopped for adverse effects.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a18bbe44aad74603",
+     "n": 583,
+     "p": "Most pat"
+    }
+   ],
+   "locator": "Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071), 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)', published 12 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**It is easier to give than azacitidine, but whether outcomes are comparable is not yet known** (awaiting full phase III results).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c37c66a6f9e604a5",
+     "n": 226,
+     "p": "While de"
+    }
+   ],
+   "locator": "Australian Prescriber Editorial Executive Committee, Aust Prescr 45(6):213 (doi 10.18773/austprescr.2022.071), 'Decitabine/cedazuridine for chronic myelomonocytic leukaemia, myelodysplastic syndromes (new drug comment)', published 12 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9722354/, retrieved 2026-09-24"
   },
   {
    "claim": "**ESAs for symptomatic anaemia in lower-risk disease with low serum EPO** (Level B); erythroid response was 64%, lasting a median 7 months.",

@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/al-amyloidosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13251756/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13251756/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Brazilian expert panel, Hematology, Transfusion and Cell Therapy 'Brazilian consensus recommendations on the diagnosis and treatment of light chain amyloidosis' (Jul–Sep 2026). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at NCBI PMC efetch JATS <license> element for PMC13251756 (Europe PMC returned 503 on 2026-09-23)). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Brazilian expert panel, Hematology, Transfusion and Cell Therapy 'Brazilian consensus recommendations on the diagnosis and treatment of light chain amyloidosis' (Jul–Sep 2026), 20 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at NCBI PMC efetch JATS <license> element for PMC13251756 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from American Society of Hematology (ASH) guideline panel, Blood Advances 10(14) 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis' (published 22 July 2026), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13425172). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Brazilian consensus claims (S1, quoted) unchanged and adds the ASH 2026 AL amyloidosis diagnosis guideline (S2, PMC13425172, CC BY-NC-ND, paraphrased) for GRADE-rated testing, imaging and biopsy-site recommendations.",
  "summary": {
-  "total": 20,
+  "total": 30,
   "pass": 20,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -85,6 +87,216 @@
    "verdict": "pass",
    "source_text": "Once amyloid deposits have been confirmed with Congo red testing, the type of amyloid protein must be identified in a tissue biopsy using more specific methods such as immunological techniques or mass spectrometry … In the absence of a monoclonal component, patients with suspected cardiac amyloidosis should be tested for transthyretin (ATTR) amyloidosis using cardiac scintigraphy with bone-seeking tracers, notably 99mTc-diphosphono-propanodicarboxylic acid, 99mTc-pyrophosphate, and 99mTc-hydroxymethylene diphosphonate [,]. A DNA analysis is necessary to differentiate between hereditary and wild-type ATTR amyloidosis and to dismiss other rarer hereditary forms",
    "locator": "Brazilian expert panel, Hematology, Transfusion and Cell Therapy, 'Brazilian consensus recommendations on the diagnosis and treatment of light chain amyloidosis', Jul–Sep 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13251756/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Suspected cardiac amyloidosis: send serum and urine immunofixation plus a serum free light chain assay with ratio** (strong; moderate certainty). Any one abnormal result raises suspicion. The same panel of tests is suggested for unexplained proteinuria (conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e4a3c0149935699a",
+     "n": 346,
+     "p": "For indi"
+    },
+    {
+     "h": "12c4e033db754ea4",
+     "n": 130,
+     "p": "Clinical"
+    },
+    {
+     "h": "b6e0f59373f46110",
+     "n": 203,
+     "p": "For indi"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Never rely on serum or urine protein electrophoresis alone to screen:** ASH requires electrophoresis and immunofixation of both serum and urine together with serum free light chains. Urine immunofixation can use a 24-hour collection or an early-morning random sample, but assessing renal involvement needs the 24-hour collection. Read free light chains cautiously in renal impairment or autoimmune disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a661cfbf65d2767d",
+     "n": 258,
+     "p": "Serum an"
+    },
+    {
+     "h": "4a07cc6a47edec89",
+     "n": 464,
+     "p": "UIFE sho"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monoclonal protein found, cardiac biomarkers raised:** if the echocardiogram is non-diagnostic, add cardiac MRI (conditional); if the echocardiogram already fits amyloidosis, skip MRI and go straight to tissue biopsy without delay (conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39e1fa18cbd4c131",
+     "n": 169,
+     "p": "the ASH "
+    },
+    {
+     "h": "e667485b420385e3",
+     "n": 354,
+     "p": "the ASH "
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not use bone scintigraphy (PYP, DPD, HMDP) to diagnose AL cardiac amyloidosis** (strong). It is recommended for ATTR only when free light chains are normal and immunofixation shows no monoclonal protein; use SPECT, not planar images alone, and offer genetic counselling whatever the family history.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "037dda52394b96c2",
+     "n": 228,
+     "p": "the ASH "
+    },
+    {
+     "h": "2355c0e8d1774f2c",
+     "n": 306,
+     "p": "For pati"
+    },
+    {
+     "h": "4f4821248c3bd8d6",
+     "n": 517,
+     "p": "bone sci"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Where to biopsy first:** suspected cardiac AL, either fat pad plus marrow together or go directly to endomyocardial biopsy (favoured when hereditary ATTR is a risk); suspected renal AL, fat pad plus marrow before renal biopsy; neuropathy with a monoclonal gammopathy, fat pad plus marrow before nerve biopsy. All are conditional. Proceed to the organ biopsy if these are negative and suspicion stays high, or up front if another renal or nerve disease is suspected.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07b57578fdf682ca",
+     "n": 172,
+     "p": "the ASH "
+    },
+    {
+     "h": "c9fa7e1cfe0d40c5",
+     "n": 156,
+     "p": "In certa"
+    },
+    {
+     "h": "e43af46305299331",
+     "n": 149,
+     "p": "the ASH "
+    },
+    {
+     "h": "6ba4f6dbba7995ed",
+     "n": 439,
+     "p": "A positi"
+    },
+    {
+     "h": "a3da20dcda4759cb",
+     "n": 125,
+     "p": "the ASH "
+    },
+    {
+     "h": "d8c715c6e3c7e93a",
+     "n": 401,
+     "p": "In cases"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not do a marrow biopsy in isolation** from immunological assays and cardiac biomarkers, and do not hold other tests (including target-organ biopsy) while waiting for it. AL neuropathy closely resembles the far more common diabetic neuropathy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7a99e7eda3cacd4",
+     "n": 308,
+     "p": "The pane"
+    },
+    {
+     "h": "467e611ecc531376",
+     "n": 127,
+     "p": "The neur"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Multi-organ disease: start with fat pad plus marrow if they can be done quickly, otherwise biopsy the symptomatic heart or kidney** (conditional). For suspected gut amyloid take larger, deeper biopsies that include submucosa. Pathology samples from the last 3 years can be retested for amyloid.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9cb644109b243f7d",
+     "n": 413,
+     "p": "For indi"
+    },
+    {
+     "h": "59d2b45b6b426a3d",
+     "n": 146,
+     "p": "In patie"
+    },
+    {
+     "h": "d76ab6fedf571a37",
+     "n": 143,
+     "p": "In indiv"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Once amyloid is seen on histology, subtype it promptly with a validated method,** and take fat-pad samples in a way that allows subtyping.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0a0b1a43c644e39",
+     "n": 165,
+     "p": "The ASH "
+    },
+    {
+     "h": "01f3cbfe3e0005cf",
+     "n": 137,
+     "p": "The ASH "
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In myeloma or smouldering myeloma, stain existing marrow biopsies with Congo red** (conditional); a positive stain prompts reassessment for systemic AL.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "95b4c761606b4016",
+     "n": 430,
+     "p": "For indi"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Proven AL without cardiac symptoms still needs hs-troponin, a natriuretic peptide (BNP or NT-proBNP) and cardiac imaging at diagnosis** (strong; low certainty). Cardiac MRI is more accurate than echocardiography but limited by cost and access.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e24bda49d694dfd7",
+     "n": 302,
+     "p": "For indi"
+    },
+    {
+     "h": "f255cc8f69b2b6aa",
+     "n": 210,
+     "p": "The ASH "
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
   },
   {
    "claim": "**Staging rests on cardiac biomarkers (troponin T and NT-proBNP or BNP).** The Mayo 2004 model and its European modification are most used; the European version better predicts early death, Mayo 2012 better predicts late survival. A renal staging system (eGFR and proteinuria) predicts dialysis risk.",

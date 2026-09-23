@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/prostate-cancer-advanced.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://anzup.org.au/wp-content/uploads/2024/08/Chiong-et-al-APAC-APCCC-APJCO-2024.pdf (DOI 10.1111/ajco.14064)"
+  "https://anzup.org.au/wp-content/uploads/2024/08/Chiong-et-al-APAC-APCCC-APJCO-2024.pdf (DOI 10.1111/ajco.14064)",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490 'Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023' (published 16 April 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at licence statement printed on page 1 of the article PDF). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490 'Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023' (published 16 April 2024), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at licence statement printed on page 1 of the article PDF). S2: PARAPHRASED AND HASH-ANCHORED from Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150) 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice' (published 18 January 2025), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12206285). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the APAC APCCC 2023 claims (S1) unchanged and adds Australian practical guidance on BRCA testing in mCRPC (S2, PMC12206285): Medicare-funded test pathways, tissue handling, germline testing and consent, ctDNA, and olaparib access. S2 is a narrative practical-guidance review; its medical writing was funded by AstraZeneca (which markets olaparib).",
  "summary": {
-  "total": 22,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -261,6 +262,165 @@
    "locator": "Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490, 'Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023', published 16 April 2024, https://anzup.org.au/wp-content/uploads/2024/08/Chiong-et-al-APAC-APCCC-APJCO-2024.pdf (DOI 10.1111/ajco.14064), retrieved 2026-09-23"
   },
   {
+   "claim": "**BRCA2 is the commonest target:** about 3.9% of men with mCRPC carry a germline and 10.5% a somatic BRCA2 mutation, against 1.2% and 1.1% for BRCA1. BRCA-mutant cells cannot repair the DNA damage PARP inhibitors cause.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0fac1df214411c9f",
+     "n": 406,
+     "p": "Approxim"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Medicare funds BRCA1 and BRCA2 testing after an mCRPC diagnosis to decide PARP-inhibitor eligibility:** tumour testing with follow-on germline characterisation if that is inconclusive (MBS item 73303), germline testing when tumour testing is not feasible (item 73304), and germline confirmation after a positive tumour result (item 73302). Only NATA-accredited laboratories using validated tests can claim.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f01fc2cc7b54775",
+     "n": 1154,
+     "p": "In Austr"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tumour tissue NGS is the gold standard** and finds both somatic and germline variants, though it cannot reliably say which (especially at allele fractions around 30% or more), so confirm with germline testing. Start early enough that a BRCA-positive patient is not kept waiting for olaparib.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02d68e29ad1337ca",
+     "n": 492,
+     "p": "Tumor ti"
+    },
+    {
+     "h": "23b701db3353818f",
+     "n": 344,
+     "p": "While tu"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do germline testing when tumour tissue shows a pathogenic BRCA1 or BRCA2 variant, or when family history or ancestry suggests it, after informed consent** (an Australian Genomics national consent form exists). Oncologists increasingly consent patients themselves ('mainstream' testing), but still refer to a familial cancer clinic to verify tissue findings in the germline, for cascade testing of relatives, and for a worrying family history even when tissue testing is negative.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "220aa5f68c329aec",
+     "n": 599,
+     "p": "Germline"
+    },
+    {
+     "h": "8f16ac94e6662e94",
+     "n": 172,
+     "p": "This mai"
+    },
+    {
+     "h": "02bef30b3f18695a",
+     "n": 416,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Tumour testing often fails: 31% of 4047 PROfound patients had no result.** Archived blocks gave results in 68% when under 1 year old, 62% at 1–3 years and 47% beyond 10 years, so use samples under 3 years old where possible; if FFPE testing fails, test germline blood or use a liquid biopsy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3faaa4bd53260757",
+     "n": 117,
+     "p": "Testing "
+    },
+    {
+     "h": "d5b60df54cf848ee",
+     "n": 282,
+     "p": "In an an"
+    },
+    {
+     "h": "6eb382f25d6ca95d",
+     "n": 81,
+     "p": "If FFPE "
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Handle new biopsies for later sequencing:** put tissue in formalin within 1 h to avoid cold ischaemia, fix in 10% neutral buffered formalin for 8–24 h (cores) or no more than 48 h (resections), avoid over-fixation, and ask for EDTA (not acid) decalcification of bone biopsies. Most NGS platforms need at least 10% or 20% tumour cellularity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcb5bd28384d7c63",
+     "n": 368,
+     "p": "Placemen"
+    },
+    {
+     "h": "e794e1ceb1c2d821",
+     "n": 144,
+     "p": "over‐fix"
+    },
+    {
+     "h": "8187d01bd46a547b",
+     "n": 208,
+     "p": "In the c"
+    },
+    {
+     "h": "8a40d7ca37b17ef0",
+     "n": 104,
+     "p": "most of "
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**On the request form, give the diagnosis and original pathology report, say the specimen is for molecular testing and which gene, and flag urgency.** Comprehensive panels can take weeks, so retrieve and send blocks promptly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f93d6b1ef6be514",
+     "n": 243,
+     "p": "Clinicia"
+    },
+    {
+     "h": "e7276bba06d0e1af",
+     "n": 152,
+     "p": "Smaller "
+    },
+    {
+     "h": "c77e8781bc8d295e",
+     "n": 165,
+     "p": "Every ef"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ctDNA agrees reasonably with tissue (81% positive, 92% negative agreement for BRCA1/2 and ATM)** and can complement it when tissue is inadequate, but it is not routine or Medicare-reimbursed in Australia for mCRPC.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae37343f15c1413a",
+     "n": 244,
+     "p": "A recent"
+    },
+    {
+     "h": "1ac6e0b4e93354a3",
+     "n": 298,
+     "p": "ctDNA te"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**First-line mCRPC without a DNA-repair mutation depends on what was used for mHSPC:** after ADT alone (65%) or ADT + docetaxel (77%), an ARSi; after ADT + ARSi, docetaxel (73%); after ADT + ARSi + docetaxel, Lu-177 PSMA (50%).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -324,6 +484,24 @@
     }
    ],
    "locator": "Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490, 'Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023', published 16 April 2024, https://anzup.org.au/wp-content/uploads/2024/08/Chiong-et-al-APAC-APCCC-APJCO-2024.pdf (DOI 10.1111/ajco.14064), retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Olaparib in Australia:** PBS-subsidised for mCRPC with a pathogenic or likely pathogenic BRCA1 or BRCA2 mutation that has progressed after an androgen receptor pathway inhibitor (PROfound: median survival 19.1 vs 14.7 months against a switch of ARPI, HR 0.69). Olaparib with abiraterone and prednisone or prednisolone is also TGA-approved for BRCA-mutated mCRPC.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "95ca684af2c8f2bf",
+     "n": 853,
+     "p": "Olaparib"
+    },
+    {
+     "h": "8e33e9ba29b74739",
+     "n": 219,
+     "p": "Olaparib"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
   },
   {
    "claim": "**Use geriatric assessment for older men** (77% recommend it), in practice usually when red-flag issues come up. Supportive care includes bone protection, screening for and preventing metabolic syndrome, and exercise physiology.",

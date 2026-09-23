@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/chemotherapy-induced-neutropenia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9715510/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9715510/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement' (published 5 November 2022). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9715510). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement' (published 5 November 2022), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9715510). S2: PARAPHRASED AND HASH-ANCHORED from International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1) 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations' (published 25 August 2017), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC5610660). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Italian Delphi claims (S1, quoted) unchanged and adds the 2017 international pegfilgrastim consensus (S2, PMC5610660, CC BY-NC, paraphrased) for choosing pegfilgrastim versus daily filgrastim by regimen and in haematological cancers. S2's advisory board was funded by Sandoz.",
  "summary": {
-  "total": 18,
+  "total": 30,
   "pass": 18,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -94,6 +96,60 @@
    "locator": "Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877, 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement', published 5 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9715510/, retrieved 2026-09-23"
   },
   {
+   "claim": "**When treatment is curative, protecting planned dose intensity with G-CSF is the standard of care** (S2 consensus, evidence level I).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d094b2a10b95bef",
+     "n": 212,
+     "p": "When cur"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **S2 goes further on low risk:** whatever the regimen's FN risk (10–20% or even below 10%), give G-CSF when patient, disease or treatment factors bring the overall risk of neutropenic complications to 20% or more, and do not refuse G-CSF on regimen risk alone. Decide it together with the patient.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c932df9ccd9a2be7",
+     "n": 271,
+     "p": "In patie"
+    },
+    {
+     "h": "eb2a10c3a1c82978",
+     "n": 259,
+     "p": "In patie"
+    },
+    {
+     "h": "5462f606c20b68af",
+     "n": 478,
+     "p": "The deci"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**G-CSF is recommended for secondary as well as primary prophylaxis, and once started it continues through every remaining cycle:** stopping pegfilgrastim raises FN risk in the next cycle.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "47e2e63106f29634",
+     "n": 181,
+     "p": "G-CSF, i"
+    },
+    {
+     "h": "3cfb603f677c2b54",
+     "n": 353,
+     "p": "Once ini"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Biosimilar G-CSFs are appropriate for routine use;** their activity and toxicity match the originators.",
    "source": "S1",
    "verdict": "pass",
@@ -123,6 +179,150 @@
    "locator": "Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877, 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement', published 5 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9715510/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Daily filgrastim matches pegfilgrastim only over about 11 days; in practice courses are often under 7 days.** If filgrastim will not be given for 11 days, use pegfilgrastim rather than a shortened filgrastim course; if filgrastim is used, continue it until neutrophils recover (up to 14 days). Pegfilgrastim may be preferred for convenience, particularly in frail or elderly patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce85c02772d8f515",
+     "n": 170,
+     "p": "If 11 da"
+    },
+    {
+     "h": "dc3bf0f297e15595",
+     "n": 780,
+     "p": "In clini"
+    },
+    {
+     "h": "4145563cfe8d7511",
+     "n": 155,
+     "p": "pegfilgr"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not use pegfilgrastim with weekly chemotherapy** (use short-acting G-CSF until there is evidence); it works with fortnightly regimens such as R-CHOP-14. With split-dose regimens, give it at least 24 h after the last dose and at least 14 days before the next.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6fece90d901223ee",
+     "n": 799,
+     "p": "In the a"
+    },
+    {
+     "h": "3c7c0d989aed5df2",
+     "n": 107,
+     "p": "Pegfilgr"
+    },
+    {
+     "h": "000b49fc83777229",
+     "n": 122,
+     "p": "Administ"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Palliative chemotherapy:** if G-CSF is needed, pegfilgrastim suits for convenience, but first consider switching regimen, lowering the dose or lengthening the gap between cycles.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52d25c47a46d5d27",
+     "n": 306,
+     "p": "If a nee"
+    },
+    {
+     "h": "a2eb957030a7d407",
+     "n": 194,
+     "p": "When pos"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Renal impairment: no pegfilgrastim dose change is needed** (panel opinion, no formal consensus), because it is cleared by neutrophils, not the kidneys.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6d3da2c58c11e34",
+     "n": 348,
+     "p": "No clear"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Targeted drugs and immunotherapy** (for example lenalidomide, bortezomib, obinutuzumab, ibrutinib) can cause neutropenia; with little specific evidence, apply the chemotherapy rules.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d0aa4af9546ce3b",
+     "n": 538,
+     "p": "Targeted"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Myeloma: filgrastim often fits better,** because weekly and fortnightly regimens are common and it can run alongside immunomodulatory drugs and proteasome inhibitors; pegfilgrastim can be used in some cases.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "761468c173b578ac",
+     "n": 285,
+     "p": "In patie"
+    },
+    {
+     "h": "eb52095757fbb84f",
+     "n": 152,
+     "p": "Weekly a"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Acute myeloid leukaemia: filgrastim may be considered during induction, where pegfilgrastim cannot be recommended; pegfilgrastim may be preferred for curative consolidation.** Pegfilgrastim is contraindicated in chronic myeloid leukaemia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d32e47c9b7ee395",
+     "n": 238,
+     "p": "In newly"
+    },
+    {
+     "h": "4978b045f555e969",
+     "n": 125,
+     "p": "Pegfilgr"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Lymphoma, CLL or myeloma on targeted treatment:** consider pegfilgrastim or short-acting G-CSF if needed to keep treatment going, particularly once neutropenia reaches grade 3 or above.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d0bd5c908cfefc5",
+     "n": 178,
+     "p": "In patie"
+    },
+    {
+     "h": "808fca433ae498fe",
+     "n": 66,
+     "p": "G-CSF su"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Bone pain affects 25 to 38%.** Treat first with paracetamol or an NSAID (e.g. naproxen); antihistamines (e.g. loratadine), opioids or G-CSF dose reduction are second line.",
    "source": "S1",
    "verdict": "pass",
@@ -142,6 +342,19 @@
    "verdict": "pass",
    "source_text": "with estimates of 6.8 to 20% mortality among patients who are hospitalised for FN-related complications and with higher rates observed in patients who have major comorbidities and documented sepsis or shock",
    "locator": "Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877, 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement', published 5 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9715510/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For bone pain or other G-CSF side effects, S2 suggests switching between filgrastim and pegfilgrastim; it does not recommend lowering the pegfilgrastim dose,** which is off-label and of disputed effect.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d0f45f03b926a052",
+     "n": 398,
+     "p": "In patie"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
   }
  ]
 }

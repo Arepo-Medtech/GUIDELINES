@@ -1,11 +1,13 @@
 # Advanced prostate cancer: mHSPC, nmCRPC and mCRPC
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** imaging and staging choices, treatment of metastatic hormone-sensitive prostate cancer (mHSPC), non-metastatic and metastatic castration-resistant prostate cancer (nmCRPC, mCRPC), HRR/BRCA testing, and patient-centred care. Early detection and localised disease are not covered. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 claims paraphrased from **Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490 — *Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023*** (published 16 April 2024; origin: international). **30 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **51 fragments or anchors re-checkable by machine; 0 doses.** **S1** Chiong E (published 16 April 2024; international): 22 claims, paraphrased, hash-anchored · **S2** Azad A (published 18 January 2025; AU): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Asia-Pacific Advanced Prostate Cancer Consensus Conference, 2024). Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is Australian** (practical guidance on BRCA testing in mCRPC, 2025): a narrative review by Australian oncologists and a pathologist, not a graded guideline. It covers testing only; medical writing was funded by AstraZeneca.
 
 > ⚠️ **This is a consensus of 27 experts voting on low-evidence questions**, not a graded guideline. Percentages are the share of panelists holding a view; the panel notes that cost and reimbursement shape practice across the region.
 
@@ -38,6 +40,14 @@
 - **Up to 23% of men with mCRPC carry actionable mutations.** BRCA is commonest (about half germline); ATM is also frequent but responds less well to treatment. [S1]
 - ⚠️ **Plan testing as the disease approaches castration resistance**, since PARP inhibitors such as olaparib benefit BRCA-mutated cancers. At minimum take a family history; refer for specialist genetic counselling before germline testing or when somatic testing finds a pathogenic HRR mutation. [S1]
 - **Tissue can limit testing:** archived primary biopsies often have small samples and poor DNA yield or quality; alternatives include biopsy of other sites, ctDNA and germline testing. [S1]
+- **BRCA2 is the commonest target:** about 3.9% of men with mCRPC carry a germline and 10.5% a somatic BRCA2 mutation, against 1.2% and 1.1% for BRCA1. BRCA-mutant cells cannot repair the DNA damage PARP inhibitors cause. [S2]
+- 🇦🇺 **Medicare funds BRCA1 and BRCA2 testing after an mCRPC diagnosis to decide PARP-inhibitor eligibility:** tumour testing with follow-on germline characterisation if that is inconclusive (MBS item 73303), germline testing when tumour testing is not feasible (item 73304), and germline confirmation after a positive tumour result (item 73302). Only NATA-accredited laboratories using validated tests can claim. [S2]
+- **Tumour tissue NGS is the gold standard** and finds both somatic and germline variants, though it cannot reliably say which (especially at allele fractions around 30% or more), so confirm with germline testing. Start early enough that a BRCA-positive patient is not kept waiting for olaparib. [S2]
+- **Do germline testing when tumour tissue shows a pathogenic BRCA1 or BRCA2 variant, or when family history or ancestry suggests it, after informed consent** (an Australian Genomics national consent form exists). Oncologists increasingly consent patients themselves ('mainstream' testing), but still refer to a familial cancer clinic to verify tissue findings in the germline, for cascade testing of relatives, and for a worrying family history even when tissue testing is negative. [S2]
+- ⚠️ **Tumour testing often fails: 31% of 4047 PROfound patients had no result.** Archived blocks gave results in 68% when under 1 year old, 62% at 1–3 years and 47% beyond 10 years, so use samples under 3 years old where possible; if FFPE testing fails, test germline blood or use a liquid biopsy. [S2]
+- **Handle new biopsies for later sequencing:** put tissue in formalin within 1 h to avoid cold ischaemia, fix in 10% neutral buffered formalin for 8–24 h (cores) or no more than 48 h (resections), avoid over-fixation, and ask for EDTA (not acid) decalcification of bone biopsies. Most NGS platforms need at least 10% or 20% tumour cellularity. [S2]
+- **On the request form, give the diagnosis and original pathology report, say the specimen is for molecular testing and which gene, and flag urgency.** Comprehensive panels can take weeks, so retrieve and send blocks promptly. [S2]
+- **ctDNA agrees reasonably with tissue (81% positive, 92% negative agreement for BRCA1/2 and ATM)** and can complement it when tissue is inadequate, but it is not routine or Medicare-reimbursed in Australia for mCRPC. [S2]
 
 ## Metastatic castration-resistant disease (mCRPC)
 
@@ -46,6 +56,7 @@
 - **BRCA-mutated mCRPC:** half the panel (50%) uses a PARP inhibitor alone; ARSi-plus-PARPi combinations are approved first line in some countries. [S1]
 - **Docetaxel can be re-tried in mCRPC** after a reasonable gap since its use for mHSPC (62%). Cabazitaxel is an option, but worries about chemotherapy and bone-marrow suppression lead some to prefer Lu-177 PSMA where it is available. [S1]
 - **Monitor mCRPC clinically and with PSA**; the usual view is to image only when PSA or symptoms suggest progression. [S1]
+- 🇦🇺 **Olaparib in Australia:** PBS-subsidised for mCRPC with a pathogenic or likely pathogenic BRCA1 or BRCA2 mutation that has progressed after an androgen receptor pathway inhibitor (PROfound: median survival 19.1 vs 14.7 months against a switch of ARPI, HR 0.69). Olaparib with abiraterone and prednisone or prednisolone is also TGA-approved for BRCA-mutated mCRPC. [S2]
 
 ## Patient-centred care
 
@@ -74,13 +85,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Drug doses and schedules** are not given in the source. Use eviQ protocols (for example abiraterone, enzalutamide, darolutamide, docetaxel, olaparib) for dosing. | `input_unavailable` |
 | 2 | **Figure 1 (regional availability and reimbursement) and Tables 1–3** were not used; the figure is an image and the tables break up in PDF extraction. | `input_unavailable` |
 | 3 | **Localised and locally advanced disease** (Table 2 of the source: radiotherapy with ADT ± abiraterone, salvage vs adjuvant radiotherapy) is out of scope here. | `out_of_scope` |
-| 4 | **Australian practice:** PBS funds ARSis and PARP inhibitors under specific restrictions (see PBS listings), so the cost-driven practices reported for the region (ADT alone, lower-dose abiraterone, ARSi switching) should not be read as Australian standards. An Australian BRCA-testing guidance in mCRPC (PMC12206285) exists and could supplement the testing section. | `observation` |
-| 5 | **Licence:** CC BY-NC-ND 4.0 (no derivatives). The claims are paraphrased and hash-anchored; the source's words are not reproduced. The meeting was industry-sponsored (Bayer, Astellas, AstraZeneca, Pfizer); the authors state sponsors had no role. | `observation` |
+| 4 | **Australian practice:** PBS funds ARSis and PARP inhibitors under specific restrictions (see PBS listings), so the cost-driven practices reported for the region (ADT alone, lower-dose abiraterone, ARSi switching) should not be read as Australian standards. The Australian BRCA-testing guidance in mCRPC (PMC12206285) is now S2 and supplements the testing section. | `observation` |
+| 5 | **Timing of BRCA testing: the sources differ.** S1 advises planning HRR testing as disease approaches castration resistance; S2 describes Medicare funding for BRCA1/2 testing only once mCRPC is diagnosed, while noting that first-line PARP-inhibitor combinations make early testing increasingly important. Both are shown. | `observation` |
+| 6 | **Genetic counselling route:** S1 advises specialist genetic counselling before germline testing; S2 describes oncologist-led ('mainstream') consent, with familial cancer clinic referral for confirmation, cascade testing or a concerning family history. Both are shown. | `observation` |
+| 7 | **S2's Medicare test table (Table 3), tissue-handling checklist (Table 4) and variant classification table (Table 5)** were stripped; their key points are in S2's text and used here. | `input_unavailable` |
+| 8 | **Licence:** CC BY-NC-ND 4.0 (no derivatives). The claims are paraphrased and hash-anchored; the source's words are not reproduced. The meeting was industry-sponsored (Bayer, Astellas, AstraZeneca, Pfizer); the authors state sponsors had no role. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490. *Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023*. published 16 April 2024. https://anzup.org.au/wp-content/uploads/2024/08/Chiong-et-al-APAC-APCCC-APJCO-2024.pdf (DOI 10.1111/ajco.14064) — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150). *BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice*. published 18 January 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

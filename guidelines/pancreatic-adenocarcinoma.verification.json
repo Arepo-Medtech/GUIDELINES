@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/pancreatic-adenocarcinoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826) 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer' (published 9 October 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12546840 (Europe PMC returned HTTP 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826) 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer' (published 9 October 2025), 16 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12546840 (Europe PMC returned HTTP 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528) 'ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer' (published 9 April 2025), 5 claims; LICENCE: CC BY-NC-ND 4.0 (read at JATS XML <license> element for PMC12125698 (src/para/pancreatic-adenocarcinoma-PMC12125698.xml)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Pan-Asian ESMO 2025 claims (S1) unchanged and adds the ESMO 2025 Express Update on metastatic disease (S2, PMC12125698) for graded first-line choices, NAPOLI 3 toxicity, and second-line treatment after FOLFIRINOX (GEMPAX) and after NALIRIFOX.",
  "summary": {
-  "total": 16,
+  "total": 21,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 16
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
@@ -255,6 +256,101 @@
     }
    ],
    "locator": "European Society for Medical Oncology (ESMO) with Pan-Asian oncology societies, ESMO Open (doi 10.1016/j.esmoop.2025.105826), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer', published 9 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ESMO's metastatic grading:** with ECOG PS 0–1, bilirubin under 1.5 times normal and no major comorbidity, FOLFIRINOX or NALIRIFOX is the recommended first line (both I, A); gemcitabine–nab-paclitaxel can also be used (I, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d125b16a4704b80",
+     "n": 343,
+     "p": "In patie"
+    },
+    {
+     "h": "1e103538c6723541",
+     "n": 44,
+     "p": "GN can a"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528), 'ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer', published 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**NAPOLI 3 detail (770 patients):** NALIRIFOX improved median PFS (7.4 vs 5.6 months) but not response (42% vs 36%, not significant). Grade ≥3 adverse events were similar (87% vs 86%), but the profile differed: grade 3–4 diarrhoea 20% vs 5%, neutropenia 14% vs 25%. Quality of life did not differ.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f82d5e2c18960cb4",
+     "n": 1338,
+     "p": "In the p"
+    },
+    {
+     "h": "52963249a89dc690",
+     "n": 196,
+     "p": "Changes "
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528), 'ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer', published 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**FOLFIRINOX and NALIRIFOX have never been compared head to head, and their cost-effectiveness is unknown.** Choose on expected survival gain, the patient's toxicity risks and cost; gemcitabine–nab-paclitaxel suits patients unfit for a triplet or when gastrointestinal toxicity is the worry.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3f7c67d03bb72be",
+     "n": 211,
+     "p": "5-FU-FA-"
+    },
+    {
+     "h": "88b51d20084a5390",
+     "n": 380,
+     "p": "the fina"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528), 'ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer', published 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **After FOLFIRINOX: gemcitabine–paclitaxel for ECOG PS 0–2 with a favourable comorbidity profile (I, B);** gemcitabine–nab-paclitaxel (not approved for second line) or gemcitabine alone are alternatives (III, C). In GEMPAX (211 patients), adding paclitaxel lengthened PFS (3.1 vs 2.0 months) and raised response (17.1% vs 4.2%) but not overall survival (6.4 vs 5.9 months, not significant), with more grade ≥3 toxicity (58.0% vs 27.1%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d9ad1af39433680",
+     "n": 293,
+     "p": "After FO"
+    },
+    {
+     "h": "6f1e57de9fa89a7c",
+     "n": 735,
+     "p": "In the p"
+    },
+    {
+     "h": "0ec65ce59858c705",
+     "n": 128,
+     "p": "Grade ≥3"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528), 'ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer', published 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After NALIRIFOX there are no trial data;** offering gemcitabine-based treatment to fit patients (ECOG PS 0–2, few comorbidities) is reasonable (V, C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6a2a06cc1a736c2",
+     "n": 279,
+     "p": "Currentl"
+    },
+    {
+     "h": "b09a22f56e3937f3",
+     "n": 149,
+     "p": "After NA"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(4):104528 (doi 10.1016/j.esmoop.2025.104528), 'ESMO Clinical Practice Guideline Express Update on the management of metastatic pancreatic cancer', published 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12125698/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Venous thromboembolism affects 20%–25% of patients;** consider primary thromboprophylaxis during chemotherapy for advanced disease if there is no contraindication.",

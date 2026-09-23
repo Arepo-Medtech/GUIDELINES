@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/biliary-tract-cancer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12259768/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12259768/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD, Clinical and Translational Oncology (doi 10.1007/s12094-025-03916-y) 'SEOM-GEMCAD-TTD clinical guidelines for biliary tract cancer (2025)' (published 30 May 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12259768 (Europe PMC returned HTTP 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD, Clinical and Translational Oncology (doi 10.1007/s12094-025-03916-y) 'SEOM-GEMCAD-TTD clinical guidelines for biliary tract cancer (2025)' (published 30 May 2025), 17 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12259768 (Europe PMC returned HTTP 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003) 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer' (published 17 December 2024 (January 2025 issue)), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11846563 (XML fetched in Wave 4)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the SEOM-GEMCAD-TTD 2025 claims (S1) unchanged and adds the ESMO 2025 interim update (S2, PMC11846563) for HER2 testing, the molecular panel, first-line immunotherapy data, triplet chemotherapy and the HER2, FGFR2, NTRK and RET later-line recommendations. The ESMO algorithm (Figure 1) was read from its legend text only.",
  "summary": {
-  "total": 17,
+  "total": 26,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
@@ -121,6 +122,42 @@
    "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD, Clinical and Translational Oncology (doi 10.1007/s12094-025-03916-y), 'SEOM-GEMCAD-TTD clinical guidelines for biliary tract cancer (2025)', published 30 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12259768/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Profile before or during first-line therapy** for locally advanced or metastatic disease (ESMO I, A). The panel should cover hotspots in FGFR2, IDH1, HER2, BRAF, RET, NTRK, PALB2 and BRCA1/2, and may add genes such as c-MET.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2f245ed9fc7081e0",
+     "n": 221,
+     "p": "Molecula"
+    },
+    {
+     "h": "b22d69c864c22ae9",
+     "n": 230,
+     "p": "bMolecul"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**HER2 alterations occur in about 5%-10% of biliary cancers, more often extrahepatic and gallbladder tumours.** Test protein by IHC and amplification by FISH (or by NGS); with no BTC-specific scoring standard, score IHC with the gastric cancer criteria.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "75a67ff1d6f0b2f5",
+     "n": 260,
+     "p": "HER2 alt"
+    },
+    {
+     "h": "a38cf3cfdba15243",
+     "n": 654,
+     "p": "HER2 pro"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Resection with clear margins is the only cure, but only 20–30% are candidates;** a specialised multidisciplinary team should decide on surgery and all treatment.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -190,6 +227,24 @@
    "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD, Clinical and Translational Oncology (doi 10.1007/s12094-025-03916-y), 'SEOM-GEMCAD-TTD clinical guidelines for biliary tract cancer (2025)', published 30 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12259768/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Before resection (ESMO algorithm):** consider whether preoperative biliary drainage is needed, avoid percutaneous biopsy of a resectable distal or perihilar cholangiocarcinoma, assess the future liver remnant, and complete the surgery for an incidental gallbladder cancer of stage T1b or above. Reconsider surgery or local therapy when initially inoperable disease responds.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2dc54a5c07589bcc",
+     "n": 290,
+     "p": "cSpecial"
+    },
+    {
+     "h": "266830e616bd31cf",
+     "n": 114,
+     "p": "dSalvage"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Standard first line for unresectable or metastatic disease is cisplatin–gemcitabine plus a checkpoint inhibitor** (durvalumab or pembrolizumab), regardless of PD-L1 or targetable alterations. If immunotherapy is contraindicated, cisplatin–gemcitabine alone; if cisplatin is contraindicated, gemcitabine alone or with oxaliplatin.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -224,6 +279,42 @@
     }
    ],
    "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD, Clinical and Translational Oncology (doi 10.1007/s12094-025-03916-y), 'SEOM-GEMCAD-TTD clinical guidelines for biliary tract cancer (2025)', published 30 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12259768/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ESMO also gives both first-line chemo-immunotherapy regimens equal standing (I, A).** In KEYNOTE-966 (1069 patients), adding pembrolizumab to cisplatin–gemcitabine lengthened median survival from 10.9 to 12.7 months (HR 0.83), and ESMO sees no biomarker, efficacy or toxicity reason to prefer one checkpoint inhibitor.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4a3f214fb2ec6565",
+     "n": 697,
+     "p": "In KEYNO"
+    },
+    {
+     "h": "4b87c106a8b9bcb6",
+     "n": 118,
+     "p": "Cisplati"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Triplet chemotherapy is not standard:** mFOLFIRINOX and cisplatin–gemcitabine–nab-paclitaxel did not beat cisplatin–gemcitabine and every triplet added toxicity; only a Japanese trial of cisplatin–gemcitabine–S1 showed gains. Gemcitabine alone suits patients too frail for platinum.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "348bb4d322973efc",
+     "n": 653,
+     "p": "Intensif"
+    },
+    {
+     "h": "0b11c3d296697510",
+     "n": 172,
+     "p": "eConside"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
   },
   {
    "claim": "**Second line without a target: FOLFOX** (about 45% are fit for it). Single fluoropyrimidine or irinotecan suits those who cannot take a doublet; FOLFIRI only in highly selected cases. Liposomal irinotecan is not recommended outside trials.",
@@ -301,6 +392,88 @@
     }
    ],
    "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD, Clinical and Translational Oncology (doi 10.1007/s12094-025-03916-y), 'SEOM-GEMCAD-TTD clinical guidelines for biliary tract cancer (2025)', published 30 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12259768/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**FGFR inhibitor results (phase II):** futibatinib response 42%, median PFS 9.0 and OS 21.7 months; pemigatinib response 37.0%, PFS 7.0 and OS 17.5 months. ESMO recommends both after one or more earlier lines (III, A).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "84dacd2f99093aa2",
+     "n": 228,
+     "p": "In the F"
+    },
+    {
+     "h": "0b26454fac7f12d8",
+     "n": 246,
+     "p": "Futibati"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Previously treated HER2-positive disease: zanidatamab is recommended and trastuzumab deruxtecan should be considered** (both III, A; FDA- but not EMA-approved at the time). Phase II response rates were 41.3% for zanidatamab and 56.3% for trastuzumab deruxtecan in IHC 3+ tumours; responses look lower when HER2 is mutated rather than amplified.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06cbb1a132a24248",
+     "n": 251,
+     "p": "Trastuzu"
+    },
+    {
+     "h": "ee5e6117dff43700",
+     "n": 169,
+     "p": "Zanidata"
+    },
+    {
+     "h": "0f8ed9b3983d25a1",
+     "n": 321,
+     "p": "In the p"
+    },
+    {
+     "h": "7be0f0f61ca548fb",
+     "n": 77,
+     "p": "suggesti"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**NTRK fusions (under 0.1% of cases): entrectinib, larotrectinib or repotrectinib; RET fusions: consider selpercatinib,** each after progression on or intolerance of earlier treatment (III, A).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f73b20606f319a9",
+     "n": 41,
+     "p": "NTRK fus"
+    },
+    {
+     "h": "da03e38b7a2c6625",
+     "n": 228,
+     "p": "Entrecti"
+    },
+    {
+     "h": "74bd07a353073e45",
+     "n": 123,
+     "p": "Selperca"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**MSI-high or dMMR tumours: anti-PD-1 therapy if immunotherapy was not already given first line.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "adbaa18affb38c88",
+     "n": 122,
+     "p": "kAnti-PD"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) Guidelines Committee, ESMO Open 10(1):104003 (doi 10.1016/j.esmoop.2024.104003), 'ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer', published 17 December 2024 (January 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/, retrieved 2026-09-24"
   },
   {
    "claim": "**After curative treatment, review every three to six months for two years** (examination, bloods, CEA and CA 19–9, CT chest, abdomen and pelvis), then yearly to five years; on systemic therapy, CT every three months.",
