@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/phaeochromocytoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Japan Endocrine Society, Endocrine Journal 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025' (published online 10 October 2025 (issue 6 January 2026)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12819074 (Europe PMC returned 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Japan Endocrine Society, Endocrine Journal 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025' (published online 10 October 2025 (issue 6 January 2026)), 21 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12819074 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438) 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension' (published August 2020), 12 claims; LICENCE: No open licence: the PMC record states 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (free to read; copyright retained) (read at Europe PMC fullTextXML <license> element for PMC7486815). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Japan Endocrine Society 2025 claim (S1) unchanged and adds S2, the European Society of Hypertension 2020 position statement, paraphrased because it has no open licence. S2 adds Western metanephrine-first testing, phenoxybenzamine (the PBS drug) against doxazosin, somatostatin-receptor PET imaging, post-operative follow-up and metastatic treatment. Its tables (interfering drugs, radiopharmaceuticals, genes) were stripped.",
  "summary": {
-  "total": 21,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -47,6 +48,19 @@
     }
    ],
    "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Who to test (ESH):** suggestive symptoms, whether spontaneous or triggered by drugs; cardiovascular events such as takotsubo cardiomyopathy with suggestive features; any adrenal incidentaloma of 10 HU or more, hypertensive or not; lean people (BMI under 25) with type 2 diabetes; carriers of a susceptibility-gene variant or those with syndromic features; and anyone with a personal or family history of PPGL.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5cabb19c4673f68",
+     "n": 636,
+     "p": "Screenin"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
   },
   {
    "claim": "**Screen as an outpatient** using any one of: free metanephrines in plasma above the reference limit; creatinine-corrected metanephrines in a random urine sample more than three times the limit; or blood catecholamines more than three times the limit. (1B)",
@@ -103,6 +117,52 @@
    "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
   },
   {
+   "claim": "**ESH (Western practice) tests first with free normetanephrine and metanephrine in plasma or urine, preferably by LC-MS/MS:** both exclude PPGL with a negative predictive value over 99% at about 94% specificity, and plasma is better in high-risk patients (incidentaloma or surveillance). Add plasma 3-methoxytyramine for dopamine-producing, SDHx or possibly metastatic tumours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "756fa8b19b2b7892",
+     "n": 712,
+     "p": "For firs"
+    },
+    {
+     "h": "da31ac6b02aafd98",
+     "n": 164,
+     "p": "LC-MS/MS"
+    },
+    {
+     "h": "37fce8d16df8f90c",
+     "n": 144,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Draw plasma after at least 20 minutes lying down, fasting and without strenuous exercise** (24-hour urinary free metanephrines if that is not possible). A rise more than two-fold above the cut-off, or in two or more metabolites, justifies imaging; smaller single rises need weighing against pre-test risk, and a clonidine suppression test can help.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3b20274e0d2cec87",
+     "n": 127,
+     "p": "Therefor"
+    },
+    {
+     "h": "975796c686b5a885",
+     "n": 486,
+     "p": "It is im"
+    },
+    {
+     "h": "45b1dfd74cd993d5",
+     "n": 567,
+     "p": "Incremen"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **High-dose dexamethasone can trigger a hypertensive crisis:** use glucocorticoids cautiously when PPGL is suspected.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -147,6 +207,34 @@
     }
    ],
    "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ESH imaging choices:** 68Ga-DOTA-somatostatin-analogue PET is first choice for head and neck paraganglioma, suspected SDH-related tumours and metastatic disease; 18F-FDOPA PET suits VHL or HIF2A tumours; 123I-MIBG is a fallback when PET is not available. Functional imaging is advised to exclude metastases in phaeochromocytomas over 5.0 cm and with SDHA/B/D variants.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04b9f19715568dd7",
+     "n": 413,
+     "p": "When PET"
+    },
+    {
+     "h": "9dc2116d58014feb",
+     "n": 216,
+     "p": "In patie"
+    },
+    {
+     "h": "d3d7ceab500ec1e6",
+     "n": 104,
+     "p": "Based on"
+    },
+    {
+     "h": "0222e4127d6ed80e",
+     "n": 236,
+     "p": "Currentl"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Block catecholamine effects adequately before surgery (and in non-operated functional tumours)** to control blood pressure and prevent cardiovascular events. Surgery can release catecholamines, causing crisis, arrhythmia, ischaemia, pulmonary oedema and organ failure. (1C)",
@@ -202,6 +290,42 @@
    ],
    "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **Phenoxybenzamine (non-selective, non-competitive; the PBS drug) and doxazosin (alpha1-selective) are the usual choices,** both given twice daily, started 7 to 14 days or more before the operation and increased gradually to target. In the only randomised trial, time outside the blood pressure target during surgery did not differ, but phenoxybenzamine gave more haemodynamic stability. Normotensive patients should also be blocked.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b506ed1fc5a4f0d",
+     "n": 920,
+     "p": "Frequent"
+    },
+    {
+     "h": "bd127adfeb0bbf65",
+     "n": 261,
+     "p": "It shoul"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Calcium channel blockers can be added to an alpha-blocker,** but are not advised alone unless blood pressure is normal or only mildly raised, or alpha-blockade causes severe orthostatic hypotension. Metyrosine is usually combined with an alpha-blocker; it is hard to obtain and sedating.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d0671a369244db9",
+     "n": 483,
+     "p": "Calcium "
+    },
+    {
+     "h": "d1e424b727c30c90",
+     "n": 175,
+     "p": "It is us"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Never start a beta-blocker before the alpha-blocker** (risk of hypertensive attack; 1A). Add one several days after adequate alpha-blockade for tachycardia, arrhythmia, heart failure or ischaemic heart disease. Avoid labetalol and carvedilol because their beta effect is too strong.",
@@ -297,6 +421,60 @@
     }
    ],
    "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Head and neck paragangliomas:** block symptomatic patients before surgery; completely asymptomatic ones may be exempted (weak evidence). When radical resection is unsafe, options include wait-and-scan, stereotactic radiosurgery, conventional radiotherapy or somatostatin-receptor-targeted radionuclide therapy, decided by a multidisciplinary team.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "892c878895f16b66",
+     "n": 323,
+     "p": "Although"
+    },
+    {
+     "h": "0f1a3f94138de58a",
+     "n": 245,
+     "p": "Options "
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check metanephrines (and 3-methoxytyramine where raised before) two to six weeks after surgery;** normal values confirm complete resection and no imaging is needed. If they stay high, or the tumour was non-functional, image at 3 and 6 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eb1539a0986b5ac5",
+     "n": 405,
+     "p": "The Euro"
+    },
+    {
+     "h": "81b153237a15fefd",
+     "n": 174,
+     "p": "In cases"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ESH follow-up: everyone for the first ten years,** because recurrence runs at about 1 per 100 person-years and doubles in genetic disease: yearly examination and metanephrines for functional tumours, imaging every two years for non-functional ones. High-risk patients (large tumours, paraganglioma, childhood onset, multifocal disease, SDHB) need stricter yearly checks including 3-methoxytyramine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe9f77209038a1f7",
+     "n": 812,
+     "p": "Risk of "
+    },
+    {
+     "h": "fabb7f58d4e382ed",
+     "n": 396,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Hypertensive crisis (3–11% incidence, about 15% mortality) needs hospital admission:** give intravenous phentolamine, then a continuous infusion, adding calcium channel blockers or nitrates as needed; switch to oral doxazosin once stable. (1B)",
@@ -412,6 +590,65 @@
     }
    ],
    "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ESH genetics:** up to 40% carry a germline variant, so consider testing every patient (shared decision), using a targeted next-generation sequencing panel; SDHB carries the highest metastatic risk (30–70%). Offer relatives cascade testing, from age 5 for VHL and SDHB and from 10 for SDHA, SDHC and SDHD.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0309758de61775d3",
+     "n": 117,
+     "p": "Up to 40"
+    },
+    {
+     "h": "b56e2ead661941ea",
+     "n": 815,
+     "p": "It is re"
+    },
+    {
+     "h": "31566be6bfa206e7",
+     "n": 327,
+     "p": "While th"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About 10–20% develop metastases.** Before treating, stage the disease and show progression (usually imaging over 3 months), unless there are many liver, lung or brain deposits. Rapid progression: chemotherapy, e.g. CVD (cyclophosphamide, vincristine, dacarbazine), with responses up to 70% in SDHx carriers against 30% in sporadic disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5de481abf063ca50",
+     "n": 135,
+     "p": "Approxim"
+    },
+    {
+     "h": "ebf317d7e074ee63",
+     "n": 624,
+     "p": "Before a"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moderately progressive metastatic disease: consider radionuclide therapy with 177Lu-DOTATATE or 131I-MIBG;** external beam radiotherapy is for painful bone lesions or threatened cord compression. Lifelong follow-up with yearly metanephrines and re-staging imaging, more often if the burden is high.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e73343048aab7070",
+     "n": 243,
+     "p": "For mode"
+    },
+    {
+     "h": "e3c90c43807479c7",
+     "n": 498,
+     "p": "External"
+    }
+   ],
+   "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
   }
  ]
 }

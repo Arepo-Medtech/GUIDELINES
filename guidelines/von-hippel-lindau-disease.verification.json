@@ -1,22 +1,189 @@
 {
  "guideline": "guidelines/von-hippel-lindau-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/4506"
+  "https://www.eviq.org.au/p/4506",
+  "https://www.eviq.org.au/p/397"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4506 Belzutifan (eviQ ID 4506, version 2)' (first approved 30 July 2025; version 2 published 13 April 2026; review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page, fetched 2026-09-24)). The source's words are NOT reproduced here. Source page fetched 2026-09-24 and converted from HTML to text; eviQ tables (dose levels, trial results) survive as text on this page and are anchored where used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4506 Belzutifan (eviQ ID 4506, version 2)' (first approved 30 July 2025; version 2 published 13 April 2026; review due 31 December 2026), 22 claims; LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page, fetched 2026-09-24)). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Genetics, Cancer Institute NSW 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)' (first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027), 12 claims; LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page, fetched 2026-09-24)). Verify each source separately: verify.py --source <file> --only-source S<n>. Source page fetched 2026-09-24 and converted from HTML to text; eviQ tables (dose levels, trial results) survive as text on this page and are anchored where used. Edition 2.0 keeps every S1 (eviQ 4506 belzutifan) claim unchanged and adds S2, the separate eviQ cancer-genetics risk-management page for VHL (ID 397, version 11, aligned with the 2023 International VHL Surveillance Guidelines Consortium and VHL Alliance), paraphrased because it is CC BY-NC; its surveillance tables survive as text and are anchored.",
  "summary": {
-  "total": 22,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
+  {
+   "claim": "**VHL is inherited as an autosomal dominant trait and predisposes to clear cell kidney cancer, phaeochromocytoma, and haemangioblastomas of the retina and central nervous system;** about 20% of people have a new (de novo) variant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "617075e597f63a29",
+     "n": 322,
+     "p": "Von Hipp"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Approximate lifetime frequency (mean age at onset):** retinal angioma 49-62% (25), cerebellar haemangioblastoma 60-80% (30), kidney cancer 40-70% (40), phaeochromocytoma or paraganglioma 10-20% (24), pancreatic NET 8-17% (35), endolymphatic sac tumour 6-15% (30).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7907950dc7c1bb09",
+     "n": 400,
+     "p": "Retinal "
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Parents, siblings and children each have up to a 50% chance of carrying the variant;** relatives should be referred for predictive testing at a familial cancer centre or genetics service.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f29ee366493181fb",
+     "n": 345,
+     "p": "First de"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Kidney and pancreas: abdominal MRI every 2 years from age 15.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cadba951e3d6b2d2",
+     "n": 166,
+     "p": "Renal ce"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Phaeochromocytoma:** a yearly examination including blood pressure from age 2, and from age 5 yearly fasting plasma free metanephrines, with plasma 3-methoxytyramine where available (24-hour urinary metanephrines if plasma testing is not possible).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "deba1a17aa468c67",
+     "n": 240,
+     "p": "Phaeochr"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Brain and spine haemangioblastoma: MRI of brain and spine every 2 years from age 11. Retina: paediatric review at birth, then a yearly eye review from age 1.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f2d750d76a34cdc",
+     "n": 216,
+     "p": "Cerebell"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Endolymphatic sac tumour: hearing tests every 2 years from age 11, plus one high-resolution MRI of the internal auditory canals between 15 and 20** (or at diagnosis for anyone diagnosed after 20). Early detection and surgery can save hearing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8181b09bb5c77e19",
+     "n": 299,
+     "p": "Endolymp"
+    },
+    {
+     "h": "8f7c0ea7c437a111",
+     "n": 137,
+     "p": "The earl"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Surveillance is the same for all VHL genotypes** (links between VHL subtype and tumour pattern are not yet reliable enough to tailor it), and routine nuclear scans are of uncertain value. Epididymal cystadenomas need no routine surveillance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e299a5cf343dac1",
+     "n": 262,
+     "p": "Genotype"
+    },
+    {
+     "h": "217632bafaf61af1",
+     "n": 90,
+     "p": "Epididym"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**When to stop:** blood tests and imaging may cease in someone without symptoms who reaches 65 with no VHL lesions on earlier screening, but yearly examination and eye checks continue.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94c9c1b83c98eeb0",
+     "n": 235,
+     "p": "Routine "
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Kidney tumours are often multiple and bilateral. Watch renal masses under 3 cm with MRI (active surveillance),** and manage kidney cancer in a unit experienced in VHL and nephron-sparing surgery.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0637fe8c917770b",
+     "n": 280,
+     "p": "Multicen"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pancreatic cysts are the commonest pancreatic finding and are essentially never malignant;** follow them and intervene only for symptoms or when they cannot be told apart from lesions that may be malignant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ee133641afb829b",
+     "n": 303,
+     "p": "The most"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Pregnancy:** complete surveillance before a planned conception where possible; any MRI during pregnancy is done without contrast, and no extra scans are needed if she stays well. An undiagnosed phaeochromocytoma is dangerous, especially in labour and delivery, so consider a high-risk pregnancy unit.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7abcbba411bc4a0c",
+     "n": 674,
+     "p": "Surveill"
+    }
+   ],
+   "locator": "eviQ Cancer Genetics, Cancer Institute NSW, 'VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)', first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027, https://www.eviq.org.au/p/397, retrieved 2026-09-24"
+  },
   {
    "claim": "**VHL-associated tumours belong with an experienced multidisciplinary team** that knows this disease.",
    "source": "S1",

@@ -1,13 +1,13 @@
 # Neurofibromatosis type 1 — tumour surveillance and management
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, lifelong clinical and imaging surveillance, and management of NF1-associated tumours (plexiform neurofibromas, ANNUBP/MPNST, gliomas, breast cancer, phaeochromocytoma, GIST) in children and adults. Related: `soft-tissue-sarcoma` (MPNST), `phaeochromocytoma`, `gastrointestinal-stromal-tumour`, `glioblastoma`. PBS access (selumetinib) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 23 claims quoted verbatim from **European Reference Network for Genetic Tumour Risk Syndromes (ERN GENTURIS), eClinicalMedicine 2023;56:101818 — *ERN GENTURIS tumour surveillance guidelines for individuals with neurofibromatosis type 1*** (published 13 January 2023; origin: international); **26 fragments re-checked by machine; 0 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **61 fragments or anchors re-checkable by machine; 0 doses.** **S1** European Reference Network for Genetic Tumour Risk Syndromes (ERN GENTURIS) (published 13 January 2023; international): 23 claims, quoted · **S2** Azizi AA (published 27 April 2024; international): 12 claims, paraphrased, hash-anchored
 
-> ⚠️ International guideline (ERN GENTURIS, 2023). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International sources (ERN GENTURIS 2023; European selumetinib expert consensus 2024). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **The PBS drug here is selumetinib, a MEK inhibitor for symptomatic, inoperable plexiform neurofibromas.** This guideline mentions MEK inhibitors in one line only; it gives no dose, monitoring or adverse-effect guidance for them.
+> ⚠️ **The PBS drug here is selumetinib, a MEK inhibitor for symptomatic, inoperable plexiform neurofibromas.** S1 mentions MEK inhibitors in one line only; **S2** (2024 European expert consensus, children) adds baseline checks, echo, eye and CK monitoring and adverse-effect management. Neither source gives the selumetinib dose: the product information is the reference for dosing and dose modification.
 
 ---
 
@@ -31,6 +31,24 @@
 - **Plexiform neurofibromas occur in about 40–60% of people with NF1.** [S1]
 - ⚠️ **Surgery should be considered for a symptomatic plexiform neurofibroma, with closer monitoring; if it is symptomatic and inoperable, a MEK inhibitor may be considered.** [S1]
 - ⚠️ **New pain, a change in texture or a sudden increase in growth of a plexiform neurofibroma means evaluate for malignant change.** [S1]
+- **Selumetinib, an oral MEK1/2 inhibitor, is licensed as monotherapy for children with NF1 and symptomatic, inoperable plexiform neurofibromas:** by the FDA from age 2 (April 2020) and by the EMA from age 3 (June 2021). [S2]
+- **In the SPRINT phase II trial the commonest adverse effects were nausea, vomiting, diarrhoea, asymptomatic CPK rise, acneiform rash and paronychia,** mostly mild; 14 of 50 children (28%) needed a dose reduction and 5 (10%) stopped for toxicity. [S2]
+
+## Selumetinib: baseline checks and monitoring
+
+- **Before starting, get a baseline eye examination with fundoscopy and optical coherence tomography (OCT); then repeat every 3–6 months,** more often in younger children. Monthly review may be needed under 6 years, with limited speech, abnormal baseline fundi or reduced acuity, or a progressing optic glioma. [S2]
+- **Echocardiography about every 3 months, more often early in treatment,** and at intervals shorter than 3 months if there are other cardiovascular risk factors (hypertension, congenital heart disease, high cholesterol, diabetes). [S2]
+- **Creatine phosphokinase (CPK): check it every 1–3 months at first and every 4–6 months later,** making sure the sample is a resting value unaffected by exercise or muscle injury. [S2]
+
+## Selumetinib: managing adverse effects
+
+- ⚠️ **Heart:** a fall in LVEF that stays above the age-specific lower limit of normal, without symptoms, needs only continued echo. **Stop selumetinib and refer to cardiology for symptomatic or grade 3–4 LVEF reduction;** if LVEF returns to normal within 3 months it may be restarted at the first reduced dose. [S2]
+- ⚠️ **Eyes:** if retinal pigment epithelial detachment or central serous retinopathy is found, consider pausing selumetinib until it resolves, even with normal acuity, and re-examine every 3–4 weeks. [S2]
+- ⚠️ **CPK:** an asymptomatic rise below 5 times the upper limit of normal (grade 1–2) is not a reason to stop. Rhabdomyolysis means stopping permanently, weighed against how fast the tumour is progressing. [S2]
+- **Paronychia:** prevent it by protecting hands and feet (no tight shoes, nails not cut short). Treat every grade with antiseptic soaks twice a day (5–20 minutes); for grade 2 add a potent topical steroid once infection is excluded by swab, or a systemic antibiotic if infected; for grade 3 with several nails involved seek podiatry or surgical advice and consider reducing or stopping the drug. The panel waits at least 2 weeks, and until healed, before restarting. [S2]
+- **Skin rashes:** for eczematous rash, emollient twice a day and a low-potency topical steroid for 1–2 weeks, stepping up to a stronger steroid after 3–7 days if needed, then a dose reduction. For mild acneiform rash, a topical antibiotic with or without a mild steroid; for severe rash, an oral semisynthetic tetracycline for 2–6 weeks, but topical antibiotics under 8 years; minocycline is not advised. Sun protection helps prevent rash. [S2]
+- ⚠️ **Interactions:** avoid fluconazole and itraconazole as systemic antifungals, and avoid omeprazole for gastritis (use another proton pump inhibitor), because each can raise selumetinib levels. For nausea not settled by diet, an antiemetic such as ondansetron can be tried for 2–3 weeks. [S2]
+- **Mouth:** prevent stomatitis with twice-daily tooth and tongue brushing, a soft brush replaced at least every 3 months, and no alcohol-based mouthwash; treat early stomatitis with an analgesic or topical nystatin and use mucositis gels for pain. [S2]
 
 ## MPNST and atypical neurofibroma (ANNUBP)
 
@@ -72,14 +90,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Detailed surveillance intervals and imaging protocols** for each tumour type are in Tables 1–15, which were stripped, and are not stated here. | `input_unavailable` |
-| 2 | **Selumetinib dosing, eligibility and adverse-effect monitoring** (echocardiography, eye review, CK, skin and GI toxicity) are not in this guideline. A 2024 European Delphi consensus on selumetinib adverse events in children (Neuro-Oncology Practice, PMC11398946, CC BY-NC) covers them and could seed a follow-up. | `out_of_scope` |
-| 3 | **Australian source:** eviQ has an NF1 genetic risk-management page (eviQ 752); it was not used (CC BY-NC-ND, and not about selumetinib). | `observation` |
-| 4 | **Licence:** CC BY 4.0. Fragments are quoted and machine re-checkable. | `observation` |
+| 2 | **Selumetinib adverse-effect monitoring and management** (echocardiography, eye review, CK, skin and GI toxicity) is now from S2. **Selumetinib dosing and dose-modification steps** are in no source read: S2 defers to the product information and its Supplementary Table 2 and consensus Table 1 were not machine-read. Check the Australian product information and PBS criteria. | `input_unavailable` |
+| 3 | **S2 is a panel of 10 European experts and covers children only;** it says this may limit worldwide application, and it gives no adult guidance. Several of its restart timings (e.g. 2 weeks after paronychia) are expert opinion, not product-information rules. | `observation` |
+| 4 | **Australian source:** eviQ has an NF1 genetic risk-management page (eviQ 752); it was not used (CC BY-NC-ND, and not about selumetinib). | `observation` |
+| 5 | **Licences:** S1 is CC BY 4.0, quoted and machine re-checkable; S2 is CC BY-NC 4.0, so it is paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | European Reference Network for Genetic Tumour Risk Syndromes (ERN GENTURIS), eClinicalMedicine 2023;56:101818. *ERN GENTURIS tumour surveillance guidelines for individuals with neurofibromatosis type 1*. published 13 January 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC9845795/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Azizi AA, Hargrave D, Passos J, Wolkenstein P, et al. (European expert panel, modified Delphi), Neuro-Oncology Practice 2024;11(5):515 (doi 10.1093/nop/npae038). *Consensus recommendations on management of selumetinib-associated adverse events in pediatric patients with neurofibromatosis type 1 and plexiform neurofibromas*. published 27 April 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11398946/ — retrieved 2026-09-24. | CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial License) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

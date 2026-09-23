@@ -1,13 +1,36 @@
 # Von Hippel-Lindau disease: belzutifan for VHL-associated tumours
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** belzutifan for adults with von Hippel-Lindau (VHL) disease whose renal cell carcinoma, CNS haemangioblastoma or pancreatic neuroendocrine tumour does not need immediate surgery: eligibility, dose, dose reductions, hypoxia and anaemia, monitoring, interactions and the LITESPARK-004 evidence. VHL genetic testing and lifelong tumour surveillance are separate eviQ pages (ID 615, ID 397) and are not covered. Advanced clear cell RCC in general: see `renal-cell-carcinoma` (which does not cover belzutifan). Sporadic pancreatic NETs: see `neuroendocrine-neoplasms`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** belzutifan for adults with von Hippel-Lindau (VHL) disease whose renal cell carcinoma, CNS haemangioblastoma or pancreatic neuroendocrine tumour does not need immediate surgery: eligibility, dose, dose reductions, hypoxia and anaemia, monitoring, interactions and the LITESPARK-004 evidence; and, from edition 2.0, lifelong tumour surveillance for carriers (eviQ ID 397). VHL genetic testing (eviQ ID 615) is not covered. Advanced clear cell RCC in general: see `renal-cell-carcinoma` (which does not cover belzutifan). Sporadic pancreatic NETs: see `neuroendocrine-neoplasms`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 claims paraphrased from **eviQ Cancer Treatments Online, Cancer Institute NSW — *4506 Belzutifan (eviQ ID 4506, version 2)*** (first approved 30 July 2025; version 2 published 13 April 2026; review due 31 December 2026; origin: AU). **27 anchors re-checkable by machine; 2 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL.*.
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **41 fragments or anchors re-checkable by machine; 2 doses.** **S1** eviQ Cancer Treatments Online (first approved 30 July 2025; version 2 published 13 April 2026; review due 31 December 2026; AU): 22 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Genetics (first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027; AU): 12 claims, paraphrased, hash-anchored
 
-> ⚠️ **This guideline follows a single eviQ limited-evidence protocol.** eviQ found no strong evidence for belzutifan in VHL disease and relies on one single-arm phase 2 trial; decisions sit with a VHL multidisciplinary team.
+> ⚠️ **The belzutifan sections follow a single eviQ limited-evidence protocol (S1).** eviQ found no strong evidence for belzutifan in VHL disease and relies on one single-arm phase 2 trial; decisions sit with a VHL multidisciplinary team.
+
+> 🇦🇺 **S2 is eviQ's VHL risk-management page (ID 397),** which adds tumour risks, the lifelong surveillance schedule, pregnancy and family testing. Both sources are Australian (Cancer Institute NSW).
 
 ---
+
+## Recognise and assess risk
+
+- **VHL is inherited as an autosomal dominant trait and predisposes to clear cell kidney cancer, phaeochromocytoma, and haemangioblastomas of the retina and central nervous system;** about 20% of people have a new (de novo) variant. [S2]
+- **Approximate lifetime frequency (mean age at onset):** retinal angioma 49-62% (25), cerebellar haemangioblastoma 60-80% (30), kidney cancer 40-70% (40), phaeochromocytoma or paraganglioma 10-20% (24), pancreatic NET 8-17% (35), endolymphatic sac tumour 6-15% (30). [S2]
+- **Parents, siblings and children each have up to a 50% chance of carrying the variant;** relatives should be referred for predictive testing at a familial cancer centre or genetics service. [S2]
+
+## Lifelong surveillance
+
+- **Kidney and pancreas: abdominal MRI every 2 years from age 15.** [S2]
+- ⚠️ **Phaeochromocytoma:** a yearly examination including blood pressure from age 2, and from age 5 yearly fasting plasma free metanephrines, with plasma 3-methoxytyramine where available (24-hour urinary metanephrines if plasma testing is not possible). [S2]
+- **Brain and spine haemangioblastoma: MRI of brain and spine every 2 years from age 11. Retina: paediatric review at birth, then a yearly eye review from age 1.** [S2]
+- **Endolymphatic sac tumour: hearing tests every 2 years from age 11, plus one high-resolution MRI of the internal auditory canals between 15 and 20** (or at diagnosis for anyone diagnosed after 20). Early detection and surgery can save hearing. [S2]
+- **Surveillance is the same for all VHL genotypes** (links between VHL subtype and tumour pattern are not yet reliable enough to tailor it), and routine nuclear scans are of uncertain value. Epididymal cystadenomas need no routine surveillance. [S2]
+- **When to stop:** blood tests and imaging may cease in someone without symptoms who reaches 65 with no VHL lesions on earlier screening, but yearly examination and eye checks continue. [S2]
+
+## Managing VHL lesions and pregnancy
+
+- **Kidney tumours are often multiple and bilateral. Watch renal masses under 3 cm with MRI (active surveillance),** and manage kidney cancer in a unit experienced in VHL and nephron-sparing surgery. [S2]
+- **Pancreatic cysts are the commonest pancreatic finding and are essentially never malignant;** follow them and intervene only for symptoms or when they cannot be told apart from lesions that may be malignant. [S2]
+- ⚠️ **Pregnancy:** complete surveillance before a planned conception where possible; any MRI during pregnancy is done without contrast, and no extra scans are needed if she stays well. An undiagnosed phaeochromocytoma is dangerous, especially in labour and delivery, so consider a high-risk pregnancy unit. [S2]
 
 ## Who it is for
 
@@ -62,15 +85,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **VHL surveillance (organ-by-organ screening schedules) and genetic testing** are separate eviQ pages (ID 397 risk management, ID 615 genetic testing) and were not used as sources here. | `out_of_scope` |
-| 2 | **Local treatment options** (surgery, ablation, radiotherapy for VHL tumours) and the size thresholds that trigger them are not on this page. | `input_unavailable` |
-| 3 | **Counterparts checked:** `renal-cell-carcinoma` covers first-line ipilimumab and nivolumab only and lists belzutifan as out of scope; `neuroendocrine-neoplasms` covers NENs generally, not VHL-associated pNET with belzutifan. No duplication. | `observation` |
-| 4 | **Licence:** the commissioning brief described eviQ as CC BY-NC-ND; the eviQ copyright page fetched 2026-09-24 states CC BY-NC 4.0. Either way it is non-commercial, so the claims are paraphrased and hash-anchored. | `observation` |
+| 1 | **VHL surveillance** is now from S2 (eviQ ID 397). **Genetic testing** criteria are a separate eviQ page (ID 615) and were not used. | `out_of_scope` |
+| 2 | **Local treatment options** (surgery, ablation, radiotherapy for VHL tumours) and their size thresholds are mostly in neither source; S2 gives only the kidney rule (active MRI surveillance under 3 cm, nephron-sparing surgery in an expert unit). | `input_unavailable` |
+| 3 | **Whether VHL tumours progress in pregnancy is uncertain:** S2 notes conflicting studies, particularly for CNS haemangioblastomas. | `observation` |
+| 4 | **Counterparts checked:** `renal-cell-carcinoma` covers first-line ipilimumab and nivolumab only and lists belzutifan as out of scope; `neuroendocrine-neoplasms` covers NENs generally, not VHL-associated pNET with belzutifan. No duplication. | `observation` |
+| 5 | **Licence:** the commissioning brief described eviQ as CC BY-NC-ND; the eviQ copyright page fetched 2026-09-24 states CC BY-NC 4.0. Either way it is non-commercial, so the claims from both eviQ pages (S1 and S2) are paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | eviQ Cancer Treatments Online, Cancer Institute NSW. *4506 Belzutifan (eviQ ID 4506, version 2)*. first approved 30 July 2025; version 2 published 13 April 2026; review due 31 December 2026. https://www.eviq.org.au/p/4506 — retrieved 2026-09-23. | CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
+| **S2** | eviQ Cancer Genetics, Cancer Institute NSW. *VHL (von Hippel-Lindau) disease – risk management (eviQ ID 397, version 11)*. first approved 20 December 2010; last reviewed 13 May 2024; version 11 updated 23 February 2026; review due 31 December 2027. https://www.eviq.org.au/p/397 — retrieved 2026-09-24. | CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

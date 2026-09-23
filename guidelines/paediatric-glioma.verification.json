@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/paediatric-glioma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1016/j.lana.2026.101422"
+  "https://doi.org/10.1016/j.lana.2026.101422",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)' (published 2 March 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12969682). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)' (published 2 March 2026), 16 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12969682). S2: QUOTED from Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952) 'Advances in the management of pediatric low-grade glioma' (published 24 June 2026), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13320482). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every SOBOPE 2026 consensus claim (S1, paraphrased) unchanged and adds S2, a 2026 CC BY narrative review of paediatric low-grade glioma, quoted, for chemotherapy and radiotherapy position, trial results for targeted drugs, treatment duration, toxicity and cancer predisposition. S2 covers low-grade glioma only; its Tables 1-3 were stripped.",
  "summary": {
-  "total": 16,
-  "pass": 0,
+  "total": 28,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 16
  },
@@ -44,6 +45,13 @@
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
   },
   {
+   "claim": "**Paediatric LGG is the commonest childhood brain tumour (about one-third of paediatric CNS tumours).** Survival exceeds 90% at 20 years, but up to half of children eventually need further treatment for progression, so it is managed as a chronic disease.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Pediatric low-grade gliomas (pLGGs) constitute the most common central nervous system (CNS) neoplasm in childhood, accounting for approximately one-third of all pediatric CNS tumors []. In the 2021 World Health Organization (WHO) Classification of Tumors of the Central Nervous System, these tumors are broadly grouped into pediatric-type diffuse low-grade gliomas, circumscribed astrocytic gliomas (including pilocytic astrocytoma), and glioneuronal and neuronal tumors. Historically, management was guided by their indolent clinical course, with long-term survivorship data reporting overall survival exceeding 90% at 20 years following diagnosis [,]. However, this statistic obscures substantial clinical morbidity related to tumor location, resectability, and biological behavior, with up to half of patients ultimately requiring adjuvant therapy for disease progression [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Surgery comes first:** the maximal resection that is safe is the mainstay of LGG treatment; molecular results guide prognosis and therapy, above all when disease progresses or recurs.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -68,6 +76,13 @@
     }
    ],
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Use a fusion-sensitive test (RNA sequencing or targeted PCR) to look for BRAF fusions:** conventional DNA hotspot panels may miss them and FISH can be unreliable.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Accurate detection requires fusion-sensitive assays, including Ribonucleic Acid (RNA) based sequencing or targeted PCR approaches for common breakpoints. This is because conventional hotspot deoxyribonucleic acid (DNA) panels may miss fusions and fluorescence in situ hybridization (FISH) may be unreliable depending on probe design and breakpoint location.",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
   },
   {
    "claim": "**The two BRAF changes behave differently:** fusion-driven tumours tend to be indolent, while V600E tumours carry more risk of progressing or recurring.",
@@ -101,6 +116,20 @@
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
   },
   {
+   "claim": "**Standard chemotherapy is carboplatin with vincristine, or vinblastine alone,** with 5-year progression-free survival of 40 to 50% for either. Radiotherapy is now generally kept for refractory disease after medical and surgical options have failed, because of late neurocognitive and vascular harm.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Carboplatin and vincristine regimens or vinblastine monotherapy are the current standard of care in many centers and are commonly used to stabilize disease, with 5-year progression-free survival (PFS) ranging from 40 to 50% for both regimen [, ]. … Radiotherapy, once central to salvage management, has been progressively de-emphasized to mitigate late neurocognitive and vascular sequelae. Radiotherapy is generally reserved for refractory disease and is considered only after failure of medical and surgical management, or in carefully selected cases where other therapeutic options are not feasible [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The dabrafenib-trametinib trial result (phase II, BRAF V600E):** response 47% against 11% with vincristine-carboplatin, and median progression-free survival 20.1 against 7.4 months; FDA approval as first-line therapy followed in March 2023.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A phase II study demonstrated superior response rates and progression-free survival compared with vincristine-carboplatin chemotherapy with an ORR of 47% versus 11% (p < 0.001) and a median PFS of 20.1 months versus 7.4 months (p < 0.001), respectively. This led to FDA approval as first-line therapy in March 2023 [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Do not use a type I BRAF inhibitor (dabrafenib, vemurafenib) for a KIAA1549-BRAF fusion:** it can paradoxically switch on MAPK signalling and speed tumour growth. Tovorafenib, or a MEK inhibitor alone, are the alternatives.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -117,6 +146,27 @@
     }
    ],
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Tovorafenib, a CNS-penetrant type II RAF inhibitor, works where type I inhibitors cannot:** in FIREFLY-1 the response rate was 53% and median progression-free survival 13.9 months, leading to FDA accelerated approval in April 2024 for relapsed or refractory RAF-altered pLGG. Trials of it as frontline therapy are ongoing.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Tovorafenib, a CNS-penetrant type II RAF inhibitor, overcomes this limitation and demonstrated substantial activity in the FIREFLY-1 trial (overall response rate (ORR) of 53% and a median PFS of 13.9 months), leading to FDA accelerated approval in April 2024 for relapsed or refractory RAF-altered pLGG []. Ongoing trials (LOGGIC/FIREFLY-2) are evaluating tovorafenib as a frontline alternative to chemotherapy [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**MEK inhibitors:** selumetinib gave response rates of 36–40% in recurrent or progressive pLGG, but the phase 3 upfront trials against standard chemotherapy (NCT04166409, NCT03871257) closed early because of poor accrual. Trametinib alone also gives durable control in refractory disease, though toxicity leads some to stop.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Selumetinib achieved objective response rates of 36-40% in recurrent or progressive pLGG []. This supported the initiation of a phase 3 trials (NCT04166409, NCT03871257) comparing selumetinib with standard chemotherapy in upfront settings that unfortunately closed early because of poor accrual []. Trametinib monotherapy has also demonstrated durable disease control in refractory disease, although treatment discontinuation due to toxicity remains a clinically relevant limitation [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**NTRK fusions (about 2% of paediatric gliomas) respond to TRK inhibitors:** larotrectinib and entrectinib gave response rates of 46% and 54%, so fusions are worth looking for despite their rarity.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "NTRK fusions, are identified in approximately 2% of pediatric gliomas overall … Respectively, they achieved an ORR of 46% and 54% and a disease control rate (DCR) of 92% and 81.3% [,]. … Given the efficacy of TRK inhibition, identification of NTRK fusions is clinically critical despite rarity [,].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
   },
   {
    "claim": "**In refractory LGG, also test IDH1, IDH2, FGFR and ALK;** in subependymal giant cell astrocytoma test TSC1 and TSC2 even without clinical tuberous sclerosis, since mTOR inhibition may work.",
@@ -166,6 +216,41 @@
     }
    ],
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The best length of targeted therapy is not known,** and tumours often regrow when it stops. Canadian consensus suggests about 36 months for BRAF V600E pLGG with a gradual taper, usually the MEK inhibitor first and then the BRAF inhibitor, with close MRI surveillance while reducing.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The optimal duration of MAPK-directed therapy remains undefined. Tumor rebound following treatment discontinuation is well described and is thought to reflect rapid MAPK reactivation []. … Canadian consensus recommendations propose treatment durations of approximately 36 months for pLGG with BRAF p.V600E, with gradual tapering to mitigate rebound risk; in general, MEK inhibitors are tapered first, followed by BRAF inhibitors, with close radiologic surveillance during dose reduction [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Manage toxicity proactively:** fever is common with dabrafenib-trametinib, skin toxicity with MEK and RAF inhibitors, and tovorafenib often causes low-grade rash and slows growth, which mostly recovers when treatment is interrupted. Long-term growth and cardiovascular effects are still being studied.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Toxicities require proactive management. Pyrexia is common with dabrafenib-trametinib combination therapy, while cutaneous toxicities occur frequently with MEK and RAF inhibitors. Tovorafenib is associated with frequent but generally low-grade rash and growth suppression with recovery after treatment interruption for most patients []. Long-term effects on growth and cardiovascular health remain under investigation [,].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider germline testing when LGG is diagnosed before age two, is multifocal, comes with a personal or family cancer history or café-au-lait macules, or has an atypical profile such as hypermutation.** Confirm with blood or saliva: tumour-only sequencing misses about 8–10% of germline variants. The result changes care, for example avoiding radiotherapy in Li-Fraumeni syndrome.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Indicators prompting germline testing include diagnosis before two years of age, multifocal disease, a personal or family history of cancer, the presence of café-au-lait macules or other syndromic features, and tumors with atypical molecular profiles such as hypermutation or biallelic tumor suppressor inactivation [,]. … confirmatory germline testing using blood or saliva is therefore essential. Tumor-only approaches are estimated to miss approximately 8-10% of pathogenic germline variants [,]. … guides therapeutic decision-making including avoidance of radiotherapy in Li-Fraumeni syndrome and prioritization of MEK inhibition in NF1",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **NF1 optic pathway glioma: treat for clinical decline, mostly falling vision, not for scan changes alone.** Follow with serial eye assessments, keeping MRI for symptoms or when vision cannot be tested reliably. Avoid radiotherapy whenever possible (moyamoya and second cancers).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Therapeutic intervention is guided by documented clinical deterioration, most commonly visual decline, rather than radiographic progression alone, as a substantial proportion of optic pathway gliomas remain asymptomatic or demonstrate spontaneous stabilization or regression []. … Accordingly, surveillance strategies prioritize serial ophthalmologic assessment, with MRI reserved for symptomatic patients or those unable to undergo reliable visual testing. Radiotherapy is contraindicated whenever possible due to increased risks of vasculopathy, including Moyamoya syndrome, and secondary malignancies [].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tuberous sclerosis (SEGA): mTOR inhibitors (everolimus, sirolimus) have largely replaced surgery as first-line treatment,** except for acute hydrocephalus or mass effect. Tumours commonly regrow when they stop, so treatment is often prolonged.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Management has been fundamentally altered by the advent of mTOR inhibitors, which have largely supplanted surgical resection as first-line therapy except in cases of acute hydrocephalus or mass effect []. … However, tumor regrowth following treatment discontinuation is common, necessitating prolonged therapy in many patients.",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
   },
   {
    "claim": "**H3K27M is the key HGG biomarker,** signalling a poor outlook, especially in midline tumours. IDH mutations are uncommon in children but still worth testing in adolescents, as IDH-mutant tumours could be candidates for vorasidenib.",

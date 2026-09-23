@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/kaposi-sarcoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1016/j.ejca.2018.12.036"
+  "https://doi.org/10.1016/j.ejca.2018.12.036",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)' (published June 2019). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2019 Elsevier Ltd. All rights reserved (free to read; publisher PDF from the University of Szeged repository, publicatio.bibl.u-szeged.hu/21424) (read at copyright line in the retrieved PDF; Unpaywall lists it as free-to-read ('other-oa')). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)' (published June 2019), 24 claims; LICENCE: © 2019 Elsevier Ltd. All rights reserved (free to read; publisher PDF from the University of Szeged repository, publicatio.bibl.u-szeged.hu/21424) (read at copyright line in the retrieved PDF; Unpaywall lists it as free-to-read ('other-oa')). S2: QUOTED from Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008) 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches' (published 20 March 2026), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13024955). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every S1 claim unchanged and adds S2, a CC BY 2026 narrative review of classic Kaposi sarcoma, quoted, for staging, local-therapy response rates, PLD and taxane detail, pomalidomide, immunotherapy and interferon dosing. The file kaposi-sarcoma.layout.txt is a second extraction of S1 (same guideline), not a second source; one Europe PMC search found no newer open KS guideline. S2's Tables 1-2 were stripped.",
  "summary": {
-  "total": 24,
-  "pass": 0,
+  "total": 35,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -147,6 +148,34 @@
    "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
   },
   {
+   "claim": "**For classic KS, Brambilla's staging is now preferred over Krigel's:** stage I small macules confined to the lower limbs, II larger plaques still on the lower limbs, III multiple plaques and nodules on the lower limbs, IV lesions beyond the lower limbs.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Historically, CKS staging was based on Krigel's classification, but more recent reviews suggest that Brambilla's classification provides a more accurate framework []. In this system, stage I (macronodular) includes small macules confined to the lower extremities; stage II (infiltrative) involves larger plaques still limited to the lower extremities; stage III (florid) includes multiple plaques and nodules in the lower extremities; and stage IV (disseminated) includes lesions extending beyond the lower extremities [].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Work-up for classic KS (NCCN, via S2):** clinical photography at baseline and follow-up and a chest X-ray; CT only for new gut or chest symptoms or unexpected findings. FDG PET/CT finds extracutaneous spread but misses some gut mucosal lesions.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "However, NCCN guidelines recommend clinical photography as an essential component of the initial workup and follow-up. While chest X-ray is indicated to screen for thoracic involvement, CT is reserved for specific clinical scenarios, such as onset of new gastrointestinal or pulmonary symptoms or to investigate abnormalities found during routine monitoring. … Finally, whole body FDG PET\\CT is a valuable tool for identifying extracutaneous extensions, but it remains less sensitive in detecting lesions within the mucosal surfaces of the digestive tract [,].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Because KS is multifocal, treating one lesion does not stop new ones and aggressive sarcoma-style surgery is not indicated.** Watchful observation suits asymptomatic immunocompetent patients; treat symptomatic lesions locally, and use systemic therapy for florid, disseminated or rapidly progressive disease or when local treatment fails.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Because KS is driven by latent KSHV infection and typically presents as a multifocal disease, treatment of a single lesion does not prevent the development of additional lesions. Therefore, aggressive surgical resection, as used for other soft-tissue sarcomas, is generally not indicated. Watchful observation may be appropriate for immunocompetent patients without symptoms. Symptomatic lesions can be effectively managed with topical therapies, radiotherapy, or surgical excision. In cases of florid or disseminated disease, or in infiltrative stages with rapid progression or resistance to local treatments, systemic therapy is usually the preferred treatment option [,].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Radiotherapy in classic KS: overall response 88–100%, complete response 58–93%, symptom relief in 95–100%;** randomised data show hypofractionated schedules work as well as conventional ones. Brachytherapy suits small lesions. Side effects (dry desquamation, pigmentation, lymphoedema) often improve.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "KS is a radiosensitive tumor [], and radiotherapy remains a cornerstone in the management of localized CKS, achieving overall response rates of 88-100% [,], with a complete response rate of 58-93% [,], and symptomatic relief in 95-100% of patients [,]. Radiotherapy (RT) has also been shown to be effective for both mucosal and cutaneous lesions []. Several RT regimens can be used for palliation and local disease control, and randomized data suggest that hypo-fractionated regimens are as effective as conventional fractionation []. … Brachytherapy represents an alternative RT modality, demonstrating high response rates in small lesions, especially in elderly patients or in cases where cosmetic outcomes are a concern []. Radiotherapy is generally well tolerated, with adverse effects such as dry desquamation, hyperpigmentation, and lymphedema, which often improve during follow-up [,].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**No randomised trial compares the local options.**",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -240,6 +269,13 @@
    "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
   },
   {
+   "claim": "**Other local response rates (S2):** imiquimod 5% cream about one-third complete and one-third partial response (47% in an HIV-negative phase I–II study); intralesional vincristine complete response up to 76%; electrochemotherapy with bleomycin complete response 65–89%; liquid-nitrogen cryotherapy complete remission in 63% (19/30).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Topical imiquimod 5% cream acts as a Toll-like receptor 7 agonist, enhancing local immune activation, inhibiting angiogenesis, and inducing endothelial apoptosis [,]. It has demonstrated antitumor activity in cutaneous KS, with complete responses reported in approximately one-third of patients and partial responses in another third. Several studies have also reported no recurrence after one year of follow-up []. In addition, an open-label phase I-II study in HIV-negative patients reported a response rate of 47% with good tolerability []. … Intralesional vincristine has been reported as a safe and effective treatment for nodular lesions, with complete response rates of up to 76% []. Similarly, bleomycin combined with electroporation (electrochemotherapy) has demonstrated complete response rates of 65-89% []. … In one series, 63% (19/30) of patients achieved complete remission without recurrence [].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The aim is control, symptom relief and quality of life, not cure.** The preferred first-line drugs are paclitaxel and pegylated liposomal doxorubicin (PLD).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -316,6 +352,50 @@
     }
    ],
    "locator": "European Dermatology Forum, European Association of Dermato-Oncology and EORTC (Lebbé C, et al.), European Journal of Cancer 2019;114:117–127, 'Diagnosis and treatment of Kaposi's sarcoma: European consensus-based interdisciplinary guideline (EDF/EADO/EORTC)', published June 2019, https://doi.org/10.1016/j.ejca.2018.12.036, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **PLD (S2): 20–30 mg/m² intravenously every two to three weeks.** In a randomised trial it beat bleomycin-vincristine (response 46% vs 25%). Hand-foot syndrome and mucositis limit the dose; NCCN advises an echocardiogram before starting and periodically after.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Clinically, PLD achieves high response rates with a favorable safety profile and is typically administered intravenously at 20-30 mg/m2 every two to three weeks []. In a randomized trial, PLD demonstrated superior efficacy and tolerability compared with the bleomycin-vincristine combination in KS, with an overall response rate of 46% with PLD versus 25% with the combination []. … PLD is primarily associated with palmar-plantar erythrodysesthesia and mucositis as dose-limiting toxicities []. Other adverse effects include mild myelosuppression and reduced cardiotoxicity compared with conventional doxorubicin; however, current National Comprehensive Cancer Network (NCCN) guidelines recommend an echocardiogram prior to initiating treatment, followed by periodic reassessment.",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2 ranks PLD as the preferred first-line systemic therapy for classic KS, keeping taxanes for PLD resistance or intolerance;** no randomised trial compares systemic therapies head to head in classic KS.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A critical limitation in CKS management is the absence of head-to-head randomized controlled trials comparing systemic therapies. Consequently, clinical consensus is largely based on retrospective analyses and data derived from HIV-associated cohorts. Within this framework, PLD remains the preferred first-line systemic therapy for CKS, due to its favorable safety profile and well-established efficacy. While taxanes are typically reserved for cases of PLD resistance or intolerance. Other chemotherapeutic agents, including vinblastine, gemcitabine, vinorelbine, etoposide, and bleomycin, may be considered second-line alternatives but are generally not recommended as first-line treatments [].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Weekly paclitaxel in the largest classic-KS cohort:** complete response 15.9%, partial 63.7%, stable 13.6% (disease control over 90%). Nab-paclitaxel needs no steroid premedication and is better tolerated by older patients; neutropenia is the main dose-limiting toxicity.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the largest CKS-specific cohort to date [], weekly paclitaxel (80-100 mg) achieved complete responses in 15.9%, partial responses in 63.7%, and stable disease in 13.6% of patients, resulting in disease control in more than 90% of cases. Nab-paclitaxel, an albumin-bound formulation of paclitaxel, avoids the need for steroid premedication and is generally better tolerated in elderly patients with CKS []. … Neutropenia represents the main dose-limiting toxicity, along with fatigue and peripheral neuropathy [].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pomalidomide gave an 80% response in HIV-negative KS (phase I/II)** and is FDA-approved for KS in HIV-negative patients and in HIV-positive patients after antiretroviral failure; watch for liver and bone-marrow toxicity. Lenalidomide is less active (up to 40%).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In HIV-negative KS, pomalidomide achieved a response rate of 80% in a phase I/II trial and is now FDA-approved for KS in both HIV-positive (after ART failure) and HIV-negative patients, with generally good tolerability, but potential hepatotoxicity and myelotoxicity []. Lenalidomide has shown more modest activity, with response rates ranging from none to partial response rates up to 40% of patients [].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Checkpoint inhibitors are active in classic KS:** nivolumab plus ipilimumab gave 78–93% response in 18 elderly patients (grade 3–4 events 22%), and pembrolizumab 71% in classic and endemic KS. Indirect evidence suggests higher and more durable responses than antiangiogenic drugs, but they have not been compared directly.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a phase II trial of 18 elderly patients with progressive classic KS, nivolumab plus ipilimumab achieved a response rate of 78-93%. Toxicity was manageable, with grade 3-4 adverse events occurring in 22% of patients []. In a multicenter, single-arm, phase II study that included patients with classic and endemic KS, pembrolizumab achieved an overall response rate of 71%, with durable responses and an acceptable safety profile []. … Currently, no direct comparative trials have been conducted between immunotherapy and antiangiogenic agents in CKS. Indirect evidence suggests that immunotherapy may provide higher response rates and more durable remissions",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Low-dose interferon for classic KS is 3–5 million IU subcutaneously three times a week,** now rarely used. Sirolimus works in post-transplant KS but has shown no meaningful benefit in classic KS.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In classic KS, responses have also been reported with low-dose interferon, administered at 3-5 million IU subcutaneously three times weekly []. However, this treatment is now rarely used and supporting clinical data remain limited. … However, sirolimus has not demonstrated meaningful benefit in classic KS, as its immunosuppressive effects may outweigh its antitumor activity [].",
+   "locator": "Revenko A, Shirron N, Shainer R, et al. (narrative review), Cancers (Basel) 2026;18(6):1008 (doi 10.3390/cancers18061008), 'Classic Kaposi Sarcoma: Current Treatment Strategies and Emerging Therapeutic Approaches', published 20 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13024955/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**HIV-related KS: start antiretroviral therapy first;** most lesions regress. Add chemotherapy for poor-prognosis (T1) or rapidly progressive disease, and to prevent or treat IRIS.",
