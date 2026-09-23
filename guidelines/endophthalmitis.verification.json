@@ -1,0 +1,338 @@
+{
+ "guideline": "guidelines/endophthalmitis.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy' (published 25 October 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8589908). The source's words are NOT reproduced here. Tables 1–3 (Sydney Eye Hospital organism data, early-vitrectomy outcomes) were stripped. A Taiwan Ocular Inflammation Society consensus (Lee CY et al., Ophthalmol Ther 2024, PMC10776529, CC BY-NC 4.0) was read and not used as S1: it has 8 statements, no doses, and is framed for Taiwanese epidemiology.",
+ "summary": {
+  "total": 19,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 19
+ },
+ "claims": [
+  {
+   "claim": "**Endophthalmitis is a clinical diagnosis:** red, painful eye with reduced vision, watering or mucopurulent discharge, lid and periocular swelling, and hypopyon. Acute post-operative cases start within 6 weeks of surgery; later onset is chronic.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "766f0d808e17009c",
+     "n": 221,
+     "p": "Endophth"
+    },
+    {
+     "h": "dd67eccf5b90cb94",
+     "n": 178,
+     "p": "Post-ope"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Know the high-risk settings:** Streptococcus is up to three times commoner after intravitreal injection than other eye surgery, and bleb-related infection (which can start months to years after glaucoma filtration surgery) involves virulent organisms and does worst.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e878c51a03f23ea9",
+     "n": 142,
+     "p": "Streptoc"
+    },
+    {
+     "h": "3b0d7fd8476fb3ff",
+     "n": 223,
+     "p": "Bleb-ass"
+    },
+    {
+     "h": "ccf86b834b0e654e",
+     "n": 84,
+     "p": "In contr"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Endogenous endophthalmitis (under 10% of cases) is often missed (16–50%)** because it can smoulder with vague inflammation. Sources include Candida with central lines or injecting drug use, streptococci from endocarditis, S. aureus from skin infection, and Klebsiella or E. coli in diabetes, urinary infection and liver abscess. Find and treat the source.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46ae9b02967ac914",
+     "n": 680,
+     "p": "Endogeno"
+    },
+    {
+     "h": "f08f0d4055330b6d",
+     "n": 343,
+     "p": "In endog"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Time matters:** bacteria in the vitreous grow exponentially for the first 24 h, typically tenfold in the first 3 h. Presenting vision is the strongest predictor of outcome.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6aad5d21c38da5c",
+     "n": 210,
+     "p": "Vitreous"
+    },
+    {
+     "h": "80bc360d1158cdf6",
+     "n": 67,
+     "p": "Presenti"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Take aqueous and vitreous samples before intravitreal antibiotics where possible** (vitrector or needle tap), and warn the microbiology lab before sending them for Gram stain, culture and sensitivities. **A 'dry tap' must not delay the injection.** PCR stays positive after antibiotics (70% vs 9% for culture).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d79161c71f481820",
+     "n": 449,
+     "p": "Collecti"
+    },
+    {
+     "h": "9befe04ba594a945",
+     "n": 116,
+     "p": "Therefor"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Inject two intravitreal antibiotics as first-line empirical cover: vancomycin 1.0 mg/0.1 ml (gram-positive) plus ceftazidime 2.25 mg/0.1 ml (gram-negative).** They precipitate when mixed, so many surgeons use separate syringes and needles.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "887f3e157097a84d",
+     "n": 448,
+     "p": "A combin"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Alternatives to ceftazidime:** amikacin 0.4 mg/0.1 ml for cephalosporin allergy; benzylpenicillin 0.18 mg/0.1 ml for confirmed or suspected Streptococcus.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3dc95600734941d9",
+     "n": 255,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Endogenous endophthalmitis of unknown cause:** add empirical antifungal cover, either intravitreal amphotericin B (5 μg) or intravitreal voriconazole (100 μg), alongside vancomycin and ceftazidime; fungi caused up to 50% of endogenous cases in one series. After trauma, resistant organisms are more frequent; piperacillin–tazobactam has been proposed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9cea6a5095baa00",
+     "n": 451,
+     "p": "Fungal e"
+    },
+    {
+     "h": "bfcc2ccad36e31c2",
+     "n": 354,
+     "p": "A recent"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Repeat intravitreal injection only after careful thought, usually no sooner than 48 h and guided by sensitivities:** levels stay bactericidal for 3–4 days, and repeated doses risk retinal toxicity.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6645329846ef8369",
+     "n": 279,
+     "p": "Repeat i"
+    },
+    {
+     "h": "75f6c61f3a021953",
+     "n": 180,
+     "p": "antibiot"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Intravitreal dexamethasone 0.4 mg/0.1 ml is widely used with antibiotics in bacterial endophthalmitis,** though evidence is inconclusive. ⚠️ **Avoid intravitreal steroid when fungal infection is suspected.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e02cc90bd5ae2a1",
+     "n": 194,
+     "p": "Although"
+    },
+    {
+     "h": "880ed3cef8bdd049",
+     "n": 155,
+     "p": "In cases"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**The EVS found no benefit from IV amikacin plus ceftazidime, which penetrate the eye poorly.** Oral fluoroquinolones reach the vitreous well; the authors' unit adds 10 days of oral ciprofloxacin 750 mg twice daily or moxifloxacin 400 mg daily, and one comparison favoured moxifloxacin.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4975ad2c046a5d57",
+     "n": 278,
+     "p": "The EVS "
+    },
+    {
+     "h": "3041148203b5a4a8",
+     "n": 396,
+     "p": "In our u"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Caution with fluoroquinolones:** they are excreted in sweat and increase MRSA colonisation, so some units avoid them.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5ec274df3af7128",
+     "n": 208,
+     "p": "However,"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Add topical antibiotic (e.g. ofloxacin), topical steroid (e.g. dexamethasone) and a cycloplegic (e.g. atropine),** with oral antibiotics per local microbiology advice; the clinician may add intravitreal dexamethasone or briefly give oral steroid.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c667c75b1eb56a61",
+     "n": 369,
+     "p": "Topical "
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The EVS found immediate vitrectomy (within 6 h) helped only eyes presenting with light-perception vision,** tripling the chance of 6/12 or better; no benefit was shown at hand movements or better, except in people with diabetes on post hoc analysis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e3e37d41ca6cd2e6",
+     "n": 488,
+     "p": "It concl"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Modern small-gauge vitrectomy has lowered the threshold.** ESCRS 2013 calls immediate complete vitrectomy with intravitreal antibiotics the gold standard, and tap-and-inject the silver standard, but vitrectomy must never delay intravitreal antibiotics.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a3091b641147bfed",
+     "n": 700,
+     "p": "The 2013"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **The authors' approach: give intravitreal antibiotics immediately in every case, and vitrectomise as soon as possible for light-perception vision, likely virulent organisms (after trauma or glaucoma filtration surgery), or no improvement 48 h after tap and inject.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c542f43dc150e75b",
+     "n": 371,
+     "p": "In the m"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Other reasons for early vitrectomy:** deterioration despite intravitreal antibiotics, retained lens material or retinal detachment, hand-movements vision or worse, no red reflex, diabetes, and injection-related infection. Silicone oil is considered with retinal detachment or necrotic retina.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8b0885c145b34f2",
+     "n": 442,
+     "p": "Indicati"
+    },
+    {
+     "h": "051d622854fe6856",
+     "n": 251,
+     "p": "In pract"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Before intraocular surgery:** treat blepharitis and other ocular surface disease, leave 5–10% povidone-iodine on the cornea, conjunctival sac and surrounding skin for 3 min, wear face masks and sterilise instruments meticulously. Intracameral cefuroxime cut post-cataract infection in the ESCRS study.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "63d6774297df969f",
+     "n": 406,
+     "p": "Measures"
+    },
+    {
+     "h": "1b8383ece65637cc",
+     "n": 81,
+     "p": "In contr"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For intravitreal injections, RANZCO guidance has proceduralists wear masks and patients stay silent,** to stop saliva-borne streptococci; streptococcal cases fell at Sydney Eye Hospital after this was adopted.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7a31f70452ffcd3",
+     "n": 232,
+     "p": "the rout"
+    },
+    {
+     "h": "9877173df2dcc786",
+     "n": 180,
+     "p": "Decrease"
+    }
+   ],
+   "locator": "Retinal Unit and Save Sight Institute, Sydney Eye Hospital (Shao EH, Yates WB, Ho IV, Chang AA, Simunovic MP), Ophthalmology and Therapy 10(4):877-890, doi:10.1007/s40123-021-00406-6, 'Endophthalmitis: Changes in Presentation, Management and the Role of Early Vitrectomy', published 25 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589908/, retrieved 2026-09-23"
+  }
+ ]
+}
