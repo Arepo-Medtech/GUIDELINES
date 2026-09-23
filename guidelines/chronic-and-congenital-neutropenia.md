@@ -1,11 +1,11 @@
 # Chronic, cyclic and congenital neutropenia — G-CSF and supportive care
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** G-CSF indications, targets, types, doses and risks; corticosteroids and granulocyte transfusion; infection management and prophylaxis; dental care, vaccination, psychological support and stem-cell transplant for severe congenital, cyclic, autoimmune and idiopathic chronic neutropenia in children and adults. Not covered: chemotherapy-induced neutropenia (`chemotherapy-induced-neutropenia`), fever in children on cancer treatment (`febrile-neutropenia-children`), phagocyte disorders within `primary-immunodeficiencies`, and MDS (`myelodysplastic-syndromes`). PBS access (filgrastim) is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** Definitions, work-up, genetic and antibody testing, bone-marrow surveillance, transition and pregnancy (S2); G-CSF indications, targets, types, doses and risks; corticosteroids and granulocyte transfusion; infection management and prophylaxis; dental care, vaccination, psychological support and stem-cell transplant for severe congenital, cyclic, autoimmune and idiopathic chronic neutropenia in children and adults. Not covered: chemotherapy-induced neutropenia (`chemotherapy-induced-neutropenia`), fever in children on cancer treatment (`febrile-neutropenia-children`), phagocyte disorders within `primary-immunodeficiencies`, and MDS (`myelodysplastic-syndromes`). PBS access (filgrastim) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113 — *European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action*** (published 16 April 2025; origin: international). **38 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **66 fragments or anchors re-checkable by machine; 4 doses.** **S1** European Hematology Association (EHA) and COST Action EuNet-INNOCHRON (published 16 April 2025; international): 25 claims, paraphrased, hash-anchored · **S2** European Hematology Association (EHA) and COST Action EuNet-INNOCHRON (published 30 March 2023; international): 12 claims, paraphrased, hash-anchored
 
-> ⚠️ International guideline (EHA / EuNet-INNOCHRON, 2025). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International guideline (EHA / EuNet-INNOCHRON, 2025; S2 is its 2023 diagnosis part). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Evidence is weak throughout** (no randomised trials for most questions); recommendations are expert consensus requiring more than 75% agreement.
 
@@ -16,6 +16,23 @@
 - **Chronic neutropenia means a low neutrophil count lasting more than 3 months.** It is congenital, or acquired: primary/idiopathic (including autoimmune, with antineutrophil antibodies) or secondary to another disease. [S1]
 - ⚠️ **The two big risks are infection and progression to MDS or acute leukaemia.** Infections are mostly bacterial; in congenital neutropenia their risk tracks how low the count is. Malignant change is seen mainly in congenital forms and in acquired forms with clonal haematopoiesis. [S1]
 - **Duffy-null (ACKR1/DARC-associated) neutropenia, common in people of African or Middle Eastern descent, does not appear to raise infection risk,** so routine G-CSF has no clear role. [S1]
+- **Thresholds vary with age and ancestry (ANC in billions of cells per litre):** below 1.0 in infants up to 1 year (2.5 for term neonates 72–240 hours after birth; 1.0 if preterm), below 1.5 from age 1 to adulthood, and below 1.8 in Caucasian adults (WHO). Grading: mild 1.0–1.5 (1.8 in adults), moderate 0.5–1.0, severe below 0.5; agranulocytosis below 0.2 carries a high risk of life-threatening infection. [S2]
+- **Some people of African or Middle Eastern descent normally run an ANC of 0.5–1.5, occasionally lower,** because of the Duffy-null ACKR1/DARC polymorphism; S2 prefers the name ACKR1/DARC-associated neutropenia (ADAN) to 'ethnic neutropenia'. Confirming it genetically avoids an unnecessary work-up, and testing for it is reasonable in anyone with chronic mild neutropenia. [S2]
+- **Childhood autoimmune or idiopathic neutropenia that has not resolved by 24–36 months, or that begins after age 3, needs a full search for a genetic cause:** some of these children have low B and NK cells or variants in immune-dysregulation genes. [S2]
+
+## Investigate (after specialist referral)
+
+- **First-line tests,** once ADAN and post-infectious or drug-induced causes seem unlikely: FBC and film, liver and kidney function, immunoglobulins, CRP, B12 and folate, lymphocyte subsets, viral serology (hepatitis B and C, HIV, EBV, CMV, parvovirus), indirect antineutrophil antibodies, and thyroid function and antibodies. Children add double-negative TCR-α/β T cells; adults add antiphospholipid antibodies, LGL/TCR clonality, ferritin, autoimmune serology and ESR. [S2]
+- **Second line, if first-line tests are inconclusive:** counts in family members, twice-weekly counts for 6 weeks to exclude cyclic neutropenia, copper and caeruloplasmin, coeliac serology and pancreatic isoamylase; adults add serum electrophoresis, complement and a myeloid-malignancy NGS panel. Genetic testing is strongly advised for children, young adults and selected adults, and brought forward to follow first-line tests in young children with a family history, typical anomalies or repeated severe infections. [S2]
+- **Genetic approach:** Sanger-sequence ELANE first (mutated in about 45% of severe congenital neutropenia) or a gene the picture points to (TAZ with cardiomyopathy, G6PC3 with heart and genitourinary malformations, SBDS with poor growth, malabsorption and bone changes). Otherwise use an NGS panel of all 30-plus known genes, ideally as a trio, then exome, genome or RNA sequencing. Screen relatives for known variants, and always screen related stem-cell donors. [S2]
+- **Antineutrophil antibodies are a first-line test in children and adults,** by indirect GIFT in a reference laboratory. A positive result supports autoimmune neutropenia but excludes nothing, including genetically proven congenital neutropenia; if it is negative and suspicion stays high, repeat it several times. In adults, rule out HLA class I alloantibodies (common after transfusion or pregnancy) before trusting a positive result. [S2]
+
+## Bone marrow and surveillance
+
+- ⚠️ **Diagnostic bone marrow (morphology, cytogenetics, myeloid NGS):** in children with severe or moderate chronic neutropenia (except antibody-positive primary autoimmune and drug-induced cases); in suspected autoimmune neutropenia with negative antibodies and recurrent infections; before any G-CSF; and in every adult with unexplained chronic neutropenia unless it is long-standing, mild, isolated and stable. [S2]
+- ⚠️ **Surveillance:** a yearly marrow with cytogenetics in every congenital marrow-failure syndrome, whatever the ANC or G-CSF use (consider it in undefined severe chronic neutropenia on G-CSF); a repeat marrow if the ANC falls or other counts or red-cell indices change; and an FBC with differential and film every 3–4 months in all chronic neutropenia. [S2]
+- **Clonal change in adults:** with one or more MDS/leukaemia-gene mutations, especially at a variant allele frequency above 10% and in younger patients, check counts and film more than 4 times a year, and do a full marrow work-up if cytopenias worsen, macrocytosis appears or morphology changes. Warning signs of transformation are dysplasia, trisomy 21 or monosomy 7, somatic CSF3R, RUNX1 or ASXL1 mutations, and biallelic TP53 in Shwachman–Diamond syndrome. [S2]
+- **Transition: as patients with congenital neutropenia near adulthood, hand their care to a dedicated haematologist.** [S2]
 
 ## G-CSF: who benefits (ANC values in ×10⁹/L)
 
@@ -53,6 +70,7 @@
 
 - **Regular professional dental care** is needed: untreated or refractory neutropenia causes chronic periodontal disease. [S1]
 - **Vaccinate on the national schedule, including live vaccines,** when there is no other immune defect; ask an immunologist if there is. [S1]
+- **Pregnancy:** give G-CSF to women already on it and to all with severe congenital neutropenia (offer it when the ANC is below 0.5), and consider it for untreated women; published experience finds G-CSF safe and well tolerated throughout pregnancy. Check the ANC often, especially in autoimmune neutropenia where counts can rise, offer genetic counselling before conception, and check the baby's neutrophil count after birth. [S2]
 
 ---
 
@@ -73,14 +91,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **The G-CSF starting-dose and schedule table (Table 1) and Boxes 1–13** are stripped; exact starting doses by subtype are not stated beyond the text. | `input_unavailable` |
-| 2 | **Diagnosis, bone-marrow surveillance and transition to adult care** are in Part 1 of the same guideline (HemaSphere 2023, PMC10065839, CC BY-NC-ND), not used here. | `out_of_scope` |
+| 2 | **Diagnosis, bone-marrow surveillance and transition to adult care** are in Part 1 of the same guideline (HemaSphere 2023, PMC10065839, CC BY-NC-ND), now S2. Its age and ancestry thresholds table, congenital and acquired classification tables (Tables 1–3) and flowcharts (Figures 1–2, including neonatal work-up) were not machine-read; history and examination checklists (Boxes 1–2) and flow cytometry (Box 7) are not stated here. | `input_unavailable` |
 | 3 | **Mavorixafor (WHIM syndrome) and gene therapy** are mentioned as emerging or US-only options; not PBS-listed. | `observation` |
-| 4 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 4 | **Licence:** CC BY-NC-ND 4.0 (both parts). The claims are paraphrased and hash-anchored; the sources' words are not reproduced. | `observation` |
+| 5 | **No disagreement found between the two parts;** S2 predates S1 by two years, and S1's treatment recommendations assume S2's work-up. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113. *European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action*. published 16 April 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872. *The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action*. published 30 March 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

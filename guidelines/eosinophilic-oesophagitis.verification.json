@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/eosinophilic-oesophagitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.allergy.org.au/patients/food-other-adverse-reactions/eoe-management-plan"
+  "https://www.allergy.org.au/patients/food-other-adverse-reactions/eoe-management-plan",
+  "https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA eosinophilic oesophagitis resources: EoE Frequently Asked Questions (content updated September 2025), Management Plan for EoE (2025) and Action Plan for EoE (2023)' (FAQ and Management Plan 2025; Action Plan 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © ASCIA 2025 / 2023. 'None of the materials included in this website may be reproduced in any form without the express written permission of ASCIA' (read at https://www.allergy.org.au/about-ascia/disclaimer-and-privacy). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA eosinophilic oesophagitis resources: EoE Frequently Asked Questions (content updated September 2025), Management Plan for EoE (2025) and Action Plan for EoE (2023)' (FAQ and Management Plan 2025; Action Plan 2023), 17 claims; LICENCE: © ASCIA 2025 / 2023. 'None of the materials included in this website may be reproduced in any form without the express written permission of ASCIA' (read at https://www.allergy.org.au/about-ascia/disclaimer-and-privacy). S2: PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)' (content updated 2021, format updated June 2023), 7 claims; LICENCE: © ASCIA 2023. 'None of the materials included in this website may be reproduced in any form without the express written permission of ASCIA' (read at the PDF footer and https://www.allergy.org.au/about-ascia/disclaimer-and-privacy (re-read 2026-09-24)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, ASCIA's Two Food Elimination Diet (2FED) dietary guide for EoE (landing page https://www.allergy.org.au/patients/food-other-adverse-reactions/eoe-2fed). The ASCIA Management Plan 2025 and FAQ 2025 offered as candidates are already part of S1 (the Management Plan text is identical), so they were not added again. ASCIA's terms bar reproduction without written permission, so S2 is paraphrased and hash-anchored like S1. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 17,
+  "total": 24,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
@@ -195,6 +196,118 @@
     }
    ],
    "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA eosinophilic oesophagitis resources: EoE Frequently Asked Questions (content updated September 2025), Management Plan for EoE (2025) and Action Plan for EoE (2023)', FAQ and Management Plan 2025; Action Plan 2023, https://www.allergy.org.au/patients/food-other-adverse-reactions/eoe-management-plan, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The 2FED diet cuts out cow's milk (dairy) and wheat, the two commonest EoE triggers, strictly and even in trace amounts in food and drink,** for a trial of 8 to 12 weeks. It is a test of whether foods are driving symptoms, not necessarily a long-term treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29fe349174e96941",
+     "n": 529,
+     "p": "The 2FED"
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**During the trial, keep a diary of foods and symptoms.** The result is judged on symptoms and/or a repeat endoscopy with oesophageal biopsies; then foods go back in one by one, as planned with the doctor and dietitian.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcf5efd088d83ad5",
+     "n": 502,
+     "p": "You will"
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Keep avoiding any food the person is already allergic to.** Apart from that, meat, chicken and fish, eggs, legumes, fruit and vegetables, nuts and seeds, and grains other than wheat are all allowed; the specialist may also exclude every gluten grain (wheat, barley, rye, oats).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b26c57405350d946",
+     "n": 346,
+     "p": "If you h"
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Read every label.** In Australia and New Zealand, milk, wheat and other gluten grains must be declared however small the amount. 'May contain' traces statements are voluntary, and such products are allowed on the diet as long as milk or wheat is not an actual ingredient.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08da1dc8d02c35d0",
+     "n": 187,
+     "p": "In Austr"
+    },
+    {
+     "h": "36b76b25a861eaa9",
+     "n": 335,
+     "p": "These st"
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Goat, sheep, camel and buffalo milk are too similar to cow's milk to use instead, and lactose-free milk still carries the usual cow's milk protein,** so neither is allowed. Lactose used in medicines is pure sugar and is fine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d9f26fb26195a5c",
+     "n": 160,
+     "p": "Note: Ot"
+    },
+    {
+     "h": "52227a61ff15a0e8",
+     "n": 109,
+     "p": "Lactose "
+    },
+    {
+     "h": "43316afb02088c85",
+     "n": 115,
+     "p": "Lactose "
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Replacing milk:** under one to two years, breast milk or a formula chosen by the child's specialist; older children and adults can use soy, rice, oat, nut or pea-protein drinks, with calcium-fortified soy preferred for its protein and fat. A dietitian can help a child who refuses the substitute.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7d1d92220da59cd",
+     "n": 396,
+     "p": "milk inf"
+    },
+    {
+     "h": "b09461003e98453d",
+     "n": 206,
+     "p": "If your "
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Daily calcium targets on the diet:** 500 mg at 1–3 years, 700 mg at 4–8, 1000 mg at 9–11 and 1300 mg at 12–18; adults 1000 mg, rising to 1300 mg for men over 70 and women over 50. The dietitian decides whether a supplement is needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f7d73a853290d585",
+     "n": 450,
+     "p": "It is im"
+    }
+   ],
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Patients and Carers: Dietary Guide - Two Food Elimination Diet (2FED) for Eosinophilic Oesophagitis (EoE)', content updated 2021, format updated June 2023, https://www.allergy.org.au/images/pc/ASCIA_PC_Dietary_Guide_EoE_2FED_2023.pdf, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**If symptoms worsen, the specialist is contacted first;** the plan may allow a double dose of swallowed corticosteroid for a set period. Review maintenance therapy after rescue treatment or any food impaction.",

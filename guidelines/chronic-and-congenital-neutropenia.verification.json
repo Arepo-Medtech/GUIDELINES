@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/chronic-and-congenital-neutropenia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 16 April 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12001981). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 16 April 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12001981). S2: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 30 March 2023), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10065839). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, Part 1 of the same EHA / EuNet-INNOCHRON guideline (diagnosis, bone-marrow surveillance, pregnancy; HemaSphere 2023), which edition 1.0 named in its Unresolved table as out of scope. Both parts are CC BY-NC-ND 4.0, so both are paraphrased and hash-anchored. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 25,
+  "total": 37,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 37
  },
  "claims": [
   {
@@ -65,6 +66,214 @@
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Thresholds vary with age and ancestry (ANC in billions of cells per litre):** below 1.0 in infants up to 1 year (2.5 for term neonates 72–240 hours after birth; 1.0 if preterm), below 1.5 from age 1 to adulthood, and below 1.8 in Caucasian adults (WHO). Grading: mild 1.0–1.5 (1.8 in adults), moderate 0.5–1.0, severe below 0.5; agranulocytosis below 0.2 carries a high risk of life-threatening infection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0a803b31a200d48",
+     "n": 662,
+     "p": "The wide"
+    },
+    {
+     "h": "ca7eed6c08349f3c",
+     "n": 334,
+     "p": "to class"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Some people of African or Middle Eastern descent normally run an ANC of 0.5–1.5, occasionally lower,** because of the Duffy-null ACKR1/DARC polymorphism; S2 prefers the name ACKR1/DARC-associated neutropenia (ADAN) to 'ethnic neutropenia'. Confirming it genetically avoids an unnecessary work-up, and testing for it is reasonable in anyone with chronic mild neutropenia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8acd0d694d9468d6",
+     "n": 757,
+     "p": "It shoul"
+    },
+    {
+     "h": "968a471e4f465e56",
+     "n": 515,
+     "p": "An accur"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Childhood autoimmune or idiopathic neutropenia that has not resolved by 24–36 months, or that begins after age 3, needs a full search for a genetic cause:** some of these children have low B and NK cells or variants in immune-dysregulation genes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80ee903d421424d3",
+     "n": 753,
+     "p": "Likely a"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**First-line tests,** once ADAN and post-infectious or drug-induced causes seem unlikely: FBC and film, liver and kidney function, immunoglobulins, CRP, B12 and folate, lymphocyte subsets, viral serology (hepatitis B and C, HIV, EBV, CMV, parvovirus), indirect antineutrophil antibodies, and thyroid function and antibodies. Children add double-negative TCR-α/β T cells; adults add antiphospholipid antibodies, LGL/TCR clonality, ferritin, autoimmune serology and ESR.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b77f5b28249eb6a1",
+     "n": 353,
+     "p": "If the i"
+    },
+    {
+     "h": "c34280859962e189",
+     "n": 726,
+     "p": "CBCs, PB"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Second line, if first-line tests are inconclusive:** counts in family members, twice-weekly counts for 6 weeks to exclude cyclic neutropenia, copper and caeruloplasmin, coeliac serology and pancreatic isoamylase; adults add serum electrophoresis, complement and a myeloid-malignancy NGS panel. Genetic testing is strongly advised for children, young adults and selected adults, and brought forward to follow first-line tests in young children with a family history, typical anomalies or repeated severe infections.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3616d1add03e6abe",
+     "n": 207,
+     "p": "CBCs in "
+    },
+    {
+     "h": "ea0d0487a63a84d1",
+     "n": 218,
+     "p": "Addition"
+    },
+    {
+     "h": "d1567b3a34987b3e",
+     "n": 401,
+     "p": "Notably,"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Genetic approach:** Sanger-sequence ELANE first (mutated in about 45% of severe congenital neutropenia) or a gene the picture points to (TAZ with cardiomyopathy, G6PC3 with heart and genitourinary malformations, SBDS with poor growth, malabsorption and bone changes). Otherwise use an NGS panel of all 30-plus known genes, ideally as a trio, then exome, genome or RNA sequencing. Screen relatives for known variants, and always screen related stem-cell donors.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b37eade89b30e4ce",
+     "n": 641,
+     "p": "Sanger s"
+    },
+    {
+     "h": "81a055d9970e4704",
+     "n": 109,
+     "p": "Multigen"
+    },
+    {
+     "h": "6d75ae0fca4f854c",
+     "n": 99,
+     "p": "A target"
+    },
+    {
+     "h": "138fec7d1b16c653",
+     "n": 142,
+     "p": "If suspi"
+    },
+    {
+     "h": "2e7a409259391f3c",
+     "n": 206,
+     "p": "Because "
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Antineutrophil antibodies are a first-line test in children and adults,** by indirect GIFT in a reference laboratory. A positive result supports autoimmune neutropenia but excludes nothing, including genetically proven congenital neutropenia; if it is negative and suspicion stays high, repeat it several times. In adults, rule out HLA class I alloantibodies (common after transfusion or pregnancy) before trusting a positive result.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2df62886d7b41985",
+     "n": 535,
+     "p": "antineut"
+    },
+    {
+     "h": "062af9854e9e3219",
+     "n": 149,
+     "p": "positive"
+    },
+    {
+     "h": "ed399a053cc0423f",
+     "n": 200,
+     "p": "It is pa"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Diagnostic bone marrow (morphology, cytogenetics, myeloid NGS):** in children with severe or moderate chronic neutropenia (except antibody-positive primary autoimmune and drug-induced cases); in suspected autoimmune neutropenia with negative antibodies and recurrent infections; before any G-CSF; and in every adult with unexplained chronic neutropenia unless it is long-standing, mild, isolated and stable.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9a9f04743b755e7",
+     "n": 637,
+     "p": "A diagno"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Surveillance:** a yearly marrow with cytogenetics in every congenital marrow-failure syndrome, whatever the ANC or G-CSF use (consider it in undefined severe chronic neutropenia on G-CSF); a repeat marrow if the ANC falls or other counts or red-cell indices change; and an FBC with differential and film every 3–4 months in all chronic neutropenia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cff47db39248d9fd",
+     "n": 433,
+     "p": "Annual B"
+    },
+    {
+     "h": "298eae691388478c",
+     "n": 149,
+     "p": "In chron"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Clonal change in adults:** with one or more MDS/leukaemia-gene mutations, especially at a variant allele frequency above 10% and in younger patients, check counts and film more than 4 times a year, and do a full marrow work-up if cytopenias worsen, macrocytosis appears or morphology changes. Warning signs of transformation are dysplasia, trisomy 21 or monosomy 7, somatic CSF3R, RUNX1 or ASXL1 mutations, and biallelic TP53 in Shwachman–Diamond syndrome.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94ea59921a486ac4",
+     "n": 499,
+     "p": "Patients"
+    },
+    {
+     "h": "feeeba56baafd1c0",
+     "n": 312,
+     "p": "Typical "
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Transition: as patients with congenital neutropenia near adulthood, hand their care to a dedicated haematologist.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f23d1dd9f989efe",
+     "n": 99,
+     "p": "When app"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
   },
   {
    "claim": "**In severe congenital and cyclic neutropenia, G-CSF has transformed outcomes:** registry data show better survival, fewer infections, less antibiotic use and fewer admissions than before G-CSF.",
@@ -410,6 +619,34 @@
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Pregnancy:** give G-CSF to women already on it and to all with severe congenital neutropenia (offer it when the ANC is below 0.5), and consider it for untreated women; published experience finds G-CSF safe and well tolerated throughout pregnancy. Check the ANC often, especially in autoimmune neutropenia where counts can rise, offer genetic counselling before conception, and check the baby's neutrophil count after birth.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb72d2c87e526f2b",
+     "n": 479,
+     "p": "The pane"
+    },
+    {
+     "h": "9856e54f8bc960bb",
+     "n": 138,
+     "p": "in all p"
+    },
+    {
+     "h": "857d8c1085bf1579",
+     "n": 129,
+     "p": "we recom"
+    },
+    {
+     "h": "c51127045b66fac1",
+     "n": 96,
+     "p": "genetic "
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
   }
  ]
 }

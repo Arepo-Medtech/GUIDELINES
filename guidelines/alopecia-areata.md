@@ -1,11 +1,13 @@
 # Alopecia areata — moderate to severe disease in adults
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** adults with moderate to very severe alopecia areata: natural history, severity scoring, systemic corticosteroids, JAK inhibitors (baricitinib, ritlecitinib), conventional immunosuppressants, and topical and intralesional therapy for limited disease. Children and adolescents are outside the source's scope. Androgenetic alopecia is covered in `androgenetic-alopecia`. PBS access is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** adults with moderate to very severe alopecia areata: natural history, severity scoring, systemic corticosteroids, JAK inhibitors (baricitinib, ritlecitinib), conventional immunosuppressants, and topical and intralesional therapy for limited disease. Children and adolescents are outside the source's scope. Androgenetic alopecia is covered in `androgenetic-alopecia`. PBS access is in `docs/no-guideline-pbs-listings.md`. Australian expert criteria for starting and continuing subsidised JAK inhibitors (S2) are in their own section.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7) — *Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement*** (published online 30 September 2025; origin: AU). **42 anchors re-checkable by machine; 6 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **60 fragments or anchors re-checkable by machine; 7 doses.** **S1** Australian expert panel (Sinclair et al.) (published online 30 September 2025; AU): 25 claims, paraphrased, hash-anchored · **S2** Australian eDelphi panel (Thomas et al.) (published 6 August 2025; AU): 10 claims, paraphrased, hash-anchored
 
-> ⚠️ **The PBS items for this condition are topical and intralesional corticosteroids only** (betamethasone, triamcinolone). The consensus centres on JAK inhibitors, which are TGA-approved for severe alopecia areata; this guideline does not state their PBS status. Check the PBS before prescribing.
+> ⚠️ **The PBS items for this condition are topical and intralesional corticosteroids only** (betamethasone, triamcinolone). The consensus centres on JAK inhibitors, which are TGA-approved for severe alopecia areata; S2 (August 2025) reported no PBS subsidy for them in AA at publication, and none is listed in the table below. Check the PBS before prescribing.
+
+> 🇦🇺 **Both sources are Australian expert consensus (2025).** S1 covers treatment; S2 sets proposed criteria for who should get subsidised JAK inhibitors, and when to call remission or failure. S2's criteria are proposals for reimbursement, not PBS restriction text, and its authors ask that they be tested before use.
 
 ---
 
@@ -49,6 +51,19 @@
 - **Keep methotrexate, ciclosporin and azathioprine for patients who need systemic therapy but cannot take a JAK inhibitor,** given their weaker efficacy, higher cost and worse side effects. [S1]
 - **Ciclosporin is not TGA-approved for AA and is not advised first line;** off label, experts dose 3–5 mg/kg/day for no more than 6–12 months, alone or as a steroid-sparing agent. Expert methotrexate dose: 15–20 mg once weekly. [S1]
 
+## Who should get a subsidised JAK inhibitor (proposed Australian criteria)
+
+- **Australian experts (S2) accepted the AA-IGA scale, where severe means 50% or more scalp loss.** They judged a JAK inhibitor nearly always the best choice at SALT 50 or above, usually best at 21–49, and sometimes best below 21. [S2]
+- **Findings beyond scalp extent that raise eligibility:** an ophiasis pattern; ClinRo 2–3 loss of brows or lashes; marked beard loss in men; ClinRo 2–3 nail disease; and a strongly positive pull test. Adverse trichoscopy does not count. [S2]
+- **A disease course that raises eligibility:** SALT climbing by more than 10 points within six weeks; earlier episodes or past totalis or universalis; a current episode lasting beyond one year; or more than 10 years since the first episode. [S2]
+- ⚠️ **Refractory disease is the most heavily weighted factor.** It means no response to intralesional steroid (three or more rounds, 4–6 weeks apart), to a six-week oral steroid taper starting at 20 mg/day, or to azathioprine, methotrexate or ciclosporin at adequate dose for three months or more. A good response to earlier compassionate or private JAK-inhibitor supply also counts in favour. [S2]
+- **Psychosocial harm raises eligibility too:** a history of anxiety, depression, suicidal thoughts or social impairment made worse by AA; a DLQI of 11 or more; hair of cultural significance; and loss in places that are hard to hide. The experts note the DLQI is a poor fit for AA. [S2]
+- **Children and adolescents:** experts judged 5–17-year-olds more likely than adults to benefit, and would make children from age five eligible once data support safety and efficacy. No consensus was reached on sex, failure of topical steroids, or coexisting atopic or autoimmune disease. [S2]
+- **What counts as remission (S2):** SALT 0, regrown facial hair, a better DLQI, patient satisfaction, a negative pull test and less psychosocial impairment. SALT 10 or SALT 20 on its own was not accepted as remission. Review stopping or dose reduction 6 months after remission. [S2]
+- ⚠️ **Treatment failure that should end subsidised therapy:** scalp hair loss less than 50% better than at baseline when judged 12 months after the JAK inhibitor was started. [S2]
+- **Access at publication:** despite TGA approval there was no JAK-inhibitor subsidy for AA in Australia, and a private month of baricitinib cost over $1000. The UK NHS has funded ritlecitinib for severe AA since March 2024, and Canada and the UK reimburse JAK inhibitors for adults with more than 50% scalp loss. [S2]
+- **For comparison, the British Association of Dermatologists also counts SALT 21–49 as severe** when there is psychosocial harm, noticeable brow or lash loss, too little response after 6 months or more of treatment, or a diffuse positive pull test. [S2]
+
 ## Limited disease: topical and intralesional
 
 - **Topical corticosteroids suit limited disease, alone or as add-on; high-potency agents work better than weak ones.** Watch for folliculitis, atrophy, striae, telangiectasia and acneiform eruptions. [S1]
@@ -71,15 +86,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Risk factors for JAK-inhibitor harm, cautions, pre-treatment and monitoring blood tests, and the side-effect comparison (Tables 4–7), plus the treatment algorithms (Figure 2),** were stripped and are not stated here. | `input_unavailable` |
-| 2 | **PBS status of baricitinib and ritlecitinib for AA** is not stated in this guideline; the source called PBS listing a step toward equitable access. A companion consensus paper (PMC12633699) sets criteria for commencing subsidised JAK inhibitors and was not used. | `observation` |
-| 3 | **Children and adolescents** are outside the source's scope. | `out_of_scope` |
-| 4 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Risk factors for JAK-inhibitor harm, cautions, pre-treatment and monitoring blood tests, and the side-effect comparison (Tables 4–7), plus the treatment algorithms (Figure 2),** were stripped and are not stated here. S2's consensus-outcome, SALT and severity-weighting tables (Tables 1–3) were also stripped; the weightings are quoted only where the text repeats them. | `input_unavailable` |
+| 2 | **PBS status of baricitinib and ritlecitinib for AA:** S2 (August 2025) reported no subsidy at publication and set out proposed criteria for one (used here); whether a listing has since been made is not in either source, and none appears in the PBS table below. | `observation` |
+| 3 | **Children and adolescents** are outside S1's scope. S2 offers only an eligibility opinion (ages 5–17 may benefit more; from age five once data allow), with no dosing or monitoring. | `out_of_scope` |
+| 4 | **Licence:** both sources are CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the sources' words are not reproduced. | `observation` |
+| 5 | **Response, remission and stopping differ between the sources:** S1 defines response as SALT 20 or below (secondary goal 10 or below) and discusses stopping after 6–12 months at target; S2 does not accept SALT 10 or 20 alone as remission (it wants SALT 0 or other markers), reviews stopping 6 months after remission, and calls failure under 50% improvement at 12 months. Both are shown: S1 is a treatment target, S2 a proposed reimbursement rule. | `observation` |
+| 6 | **Ritlecitinib TGA approval date:** S1 gives June 2024, S2 July 2024. Both are shown; check the TGA register. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7). *Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement*. published online 30 September 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404. *Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise*. published 6 August 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
