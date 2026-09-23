@@ -134,3 +134,55 @@ Notes for the reviewer:
   - `cushing-syndrome`: pasireotide "every 28 months"
 - **HCM rebuild on ESC 2023:** still blocked.
 - **Shared-folder rule:** it was broken again. One agent's cleanup glob deleted five 128-byte 404 files belonging to another agent. The agent recreated them, and no real source was lost.
+
+---
+
+## 7. After Wave 6 (2026-09-24)
+
+The corpus has 578 guidelines, and all 578 pass. Of the 393 true-gap rows, 284 are now covered, leaving **109**. Most of those need a link, not a new guideline:
+
+- **Links to confirm.** Each one needs the owner's confirmation:
+  - The rows in sections 1 and 6.
+  - Cancer subtypes that go to an existing tumour guideline:
+    - NSCLC rows → `non-small-cell-lung-cancer`
+    - breast rows → `breast-cancer-*`
+    - urothelial and BCG → `urothelial-carcinoma`
+    - gastric and GOJ → `gastric-and-gojunction-cancer`
+    - NET rows → `neuroendocrine-neoplasms`
+    - BCC and cSCC → `keratinocyte-cancer`
+    - medullary and thyroid → `thyroid-cancer-systemic-therapy`
+    - clear-cell RCC → `renal-cell-carcinoma`
+    - endometrial → `endometrial-cancer-advanced`
+    - PV → `myeloproliferative-neoplasms`
+  - Antibiotic rows (the septicaemia, susceptible-organism and staphylococcal rows) → `drug-choice-for-selected-infections`
+  - STI rows → `sti-syndromes-and-screening`
+  - Worm rows → `worm-infections`
+  - Mood rows:
+    - bipolar mixed episodes → `bipolar-disorder`
+    - depression rows → `major-depressive-disorder`
+  - Spasticity and equinus rows → `spasticity`
+  - Hypsarrhythmia → `infantile-spasms`
+  - Pseudomonas in CF → `cystic-fibrosis`
+  - Enthesitis-related JIA → `juvenile-idiopathic-arthritis`
+  - Megacolon → `hirschsprung-enterocolitis` (weak)
+- **PBS listing text** (no guideline needed):
+  - section 2 rows
+  - *Local intra-articular or peri-articular infiltration*
+  - *Use in a hospital*
+  - *Terminal disease* and *Malignant neoplasia* (the benzodiazepine rows)
+- **Still no guideline:**
+  - adult diabetic ketoacidosis. It isn't a PBS row, but it came up as a corpus gap.
+  - micropenis
+  - enterokinase deficiency
+  - corneal grafts and postoperative eye inflammation
+  - neurogenic urinary retention
+  - perichondritis of the pinna
+  - the dietary "highly restrictive therapeutic diet" row
+  - the HCM ESC 2023 rebuild, which is still blocked
+
+Notes for the reviewer:
+- **`type-1-diabetes`, unresolved items 4–5.** These are Australian context written from model knowledge, not from the source. They are marked `observation` and "check" and are not claims:
+  - no SGLT inhibitor is TGA- or PBS-approved for T1D
+  - CGM is supplied through the NDSS
+- **`status-epilepticus-adults` has no doses.** NICE defers to the BNF and AMH defers to local protocol, so the guideline sends readers to their hospital protocol.
+- **eviQ licence.** The eviQ copyright page, fetched 2026-09-24, now reads CC BY-NC 4.0 and says the content is not to be hosted on external sites. We still paraphrase it.

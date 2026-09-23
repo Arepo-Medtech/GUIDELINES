@@ -1,0 +1,454 @@
+{
+ "guideline": "guidelines/type-1-diabetes.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "international",
+ "method": "PARAPHRASED AND HASH-ANCHORED from American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)' (published 30 September 2021 (corrected 2021)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence) (read at Europe PMC fullTextXML <permissions>/<license> element for PMC8481000). The source's words are NOT reproduced here. The consensus report's glycaemic-target and insulin-regimen tables (Tables 1 and 5) were stripped and are not used.",
+ "summary": {
+  "total": 25,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 25
+ },
+ "claims": [
+  {
+   "claim": "**For most adults the HbA1c goal is below 53 mmol/mol (7.0%), as long as it is reached without significant hypoglycaemia.** Set the target for the person: diabetes duration, age and life expectancy, comorbidity, established cardiovascular disease or advanced microvascular disease, and impaired hypoglycaemia awareness all shift it, and it can change over time.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e4c61fe1e7b4d36a",
+     "n": 324,
+     "p": "The glyc"
+    },
+    {
+     "h": "8517cc7d63ca9390",
+     "n": 103,
+     "p": "An HbA1c"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Going lower than 53 mmol/mol (7%) is acceptable, even beneficial, if it is safe; a looser goal such as under 64 mmol/mol (8.0%) suits limited life expectancy or when treatment harms outweigh benefits.** Any fall from a high starting HbA1c helps, even short of the goal.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae2685763d38e79c",
+     "n": 258,
+     "p": "Followin"
+    },
+    {
+     "h": "96650d84ecc427bf",
+     "n": 320,
+     "p": "Less-str"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Finger-prick targets:** before meals 4.4–7.2 mmol/l for many people; if HbA1c stays high despite that, target the peak after meals, measured 1–2 h after starting to eat, at under 10.0 mmol/l.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcc5d7e1c4a23eb0",
+     "n": 110,
+     "p": "A prepra"
+    },
+    {
+     "h": "c68938fa80abc3b3",
+     "n": 265,
+     "p": "Postpran"
+    },
+    {
+     "h": "a2eb472881884b64",
+     "n": 118,
+     "p": "A peak p"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**CGM targets for most adults: time in range (3.9–10 mmol/l) above 70%, time below 3.9 mmol/l under 4%, and time below 3.0 mmol/l under 1%.** For older people with long-standing diabetes the main target is time below range under 1%. A 70% time in range equates approximately to HbA1c 53 mmol/mol (7.0%).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fbefae022a4206a3",
+     "n": 213,
+     "p": "TIR is o"
+    },
+    {
+     "h": "e81480f749c761f3",
+     "n": 371,
+     "p": "a TIR of"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Blood pressure: aim for under 140/90 mmHg at lower cardiovascular risk (10-year risk under 15%), and under 130/80 mmHg at higher risk or with microvascular complications, especially kidney disease.** An ACE inhibitor or angiotensin receptor blocker is first-line.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de156c545b3785ca",
+     "n": 427,
+     "p": "Blood pr"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Consider a moderate-intensity statin from age 40, and at 20–39 years when there are other atherosclerotic risk factors or a 10-year cardiovascular risk above 10%** on a calculator suited to type 1 diabetes. Consider aspirin or another antiplatelet agent for everyone with established cardiovascular disease.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53351e229d19f41b",
+     "n": 318,
+     "p": "moderate"
+    },
+    {
+     "h": "4a1de46c11afb64d",
+     "n": 131,
+     "p": "Antiplat"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Review glucose with the care team as often as needed and at least once a year; check glycaemic status at least every 3 months after a therapy change or when goals are not being met.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c3741d8b72ef759",
+     "n": 307,
+     "p": "People w"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Continuous glucose monitoring is now the standard for most adults,** but everyone should still have a finger-prick meter, for when readings seem not to match symptoms. HbA1c alone is not enough, because it shows neither variability nor hypoglycaemia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a67520123bb90a53",
+     "n": 80,
+     "p": "CGM is t"
+    },
+    {
+     "h": "d10e0c9863ca74bb",
+     "n": 119,
+     "p": "Every pe"
+    },
+    {
+     "h": "6ac1ec0d988c356d",
+     "n": 113,
+     "p": "However,"
+    },
+    {
+     "h": "49b6fd15be8ea6a6",
+     "n": 151,
+     "p": "it does "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Offer blood ketone strips and a meter.** Urine strips miss β-hydroxybutyrate, so they can understate ketosis, and they may stay positive for 48 h after ketoacidosis has resolved.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "788ba9d7b042b897",
+     "n": 197,
+     "p": "Urine te"
+    },
+    {
+     "h": "006b5a94ade35322",
+     "n": 48,
+     "p": "urine te"
+    },
+    {
+     "h": "a878ab913ae42fdf",
+     "n": 144,
+     "p": "Blood ke"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Use a regimen that mimics normal physiology:** multiple daily injections of a basal analogue plus a rapid-acting (or ultra-rapid) mealtime analogue, or a pump infusing a rapid-acting analogue with manual meal boluses. Analogues are the insulins of choice, because newer basal analogues cause less hypoglycaemia than older basal analogues and NPH, and rapid-acting analogues cover meals better than regular human insulin.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6f6edb9f917c418",
+     "n": 450,
+     "p": "Most peo"
+    },
+    {
+     "h": "901d29fad156ddf5",
+     "n": 352,
+     "p": "Trials h"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**First-generation basal analogues and NPH are often given once daily, but twice-daily dosing may cover basal needs better and add flexibility.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bbadcf5b742a1ea7",
+     "n": 214,
+     "p": "Although"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Hybrid closed-loop systems (pump, CGM and a control algorithm) are the most effective way to keep glucose in range;** adding CGM to injections or a pump improves HbA1c, time in range and time below range.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a69c0865fac6e8b2",
+     "n": 286,
+     "p": "HbA1c, T"
+    },
+    {
+     "h": "dc78a5c8be0d9a50",
+     "n": 134,
+     "p": "Hybrid c"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When analogues, pumps or CGM are unaffordable or unwanted,** regular human insulin with NPH, or premixed insulin, plus finger-prick checks as often as feasible, is an option, at the price of more glucose variability, more hypoglycaemia and less flexibility.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a59d028ca03958a6",
+     "n": 451,
+     "p": "Despite "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Teach injection technique at the start and repeat it:** 4 mm needles at 90° reach the subcutaneous layer in most adults; rotate sites, because lipohypertrophy from reusing sites drives up doses and causes erratic glucose. Examine injection and pump sites at least once a year.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ef6a99a4b57a173",
+     "n": 142,
+     "p": "Needles "
+    },
+    {
+     "h": "8cb56bf4395f1fc0",
+     "n": 238,
+     "p": "Lipohype"
+    },
+    {
+     "h": "dc8c52736a935a0c",
+     "n": 300,
+     "p": "People w"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Ask about weight worries:** insulin causes weight gain and some people cut their doses to avoid it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1510d28031061d54",
+     "n": 232,
+     "p": "Insulin "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Three levels:** Level 1 is glucose below 3.9 but at least 3.0 mmol/l (an alert value); Level 2 is below 3.0 mmol/l (clinically important); Level 3 is any episode with altered mental or physical state that needs another person's help to recover. Prevent Levels 2 and 3 above all.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a47b843e84ac0e6",
+     "n": 600,
+     "p": "Level 1 "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Risk factors for severe hypoglycaemia** include long diabetes duration, older age, a recent Level 3 episode, alcohol, exercise, chronic kidney disease and impaired awareness; hypothyroidism, adrenal or growth hormone deficiency and coeliac disease can also precipitate it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b5bf0ca72bf2b8ad",
+     "n": 401,
+     "p": "Risks fo"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Screen for impaired awareness at visits:** ask whether symptoms usually start at 3.0 mmol/l or above, below it, or not at all. People who feel them only below 3.0 mmol/l, or never, have a more than 4-fold higher risk of Level 3 hypoglycaemia; impaired awareness overall raises that risk sixfold and affects about 25%.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "19ce78adcce3748d",
+     "n": 200,
+     "p": "Its prev"
+    },
+    {
+     "h": "87ab08e4663e2e65",
+     "n": 353,
+     "p": "Another "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Treat glucose below 3.9 mmol/l with about 15 g of glucose or other simple carbohydrate by mouth; repeat every 15 min until symptoms settle and glucose is above 3.9 mmol/l.** More may be needed below 3.0 mmol/l. Confirm recovery with a finger-prick test, because CGM lags capillary glucose by 5–15 min. Once recovered, give about 20 g of longer-acting carbohydrate and look for the cause.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29b4409e9425917a",
+     "n": 833,
+     "p": "The reco"
+    },
+    {
+     "h": "72b18c02113c4004",
+     "n": 204,
+     "p": "After th"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**On automated insulin delivery, less carbohydrate (5–15 g) may be enough,** because the system will already have cut or stopped basal insulin.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77e7e46e0ba5fe1c",
+     "n": 186,
+     "p": "Less car"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **If consciousness is reduced, give nothing by mouth (aspiration risk).** Bystanders give glucagon by subcutaneous or intramuscular injection or nasally; health professionals can give intravenous glucose for Level 3 events.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "975bf847bef4fcbd",
+     "n": 356,
+     "p": "Where th"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Prevent it with structured education in insulin self-adjustment (e.g. DAFNE, blood glucose awareness training), analogue regimens and hybrid closed-loop systems.** Strictly avoiding hypoglycaemia can restore awareness; sometimes the glucose target must be raised.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2296748ff5f992bf",
+     "n": 501,
+     "p": "Structur"
+    },
+    {
+     "h": "5175f39f76590d99",
+     "n": 77,
+     "p": "Strict a"
+    },
+    {
+     "h": "6e5090ccbe175928",
+     "n": 76,
+     "p": "In some "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Agree a written sick-day plan in advance:** during illness, check glucose and ketones more often, keep up fluids and carbohydrate, adjust insulin, and know when to seek urgent care.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "863bc16e3c3f90be",
+     "n": 483,
+     "p": "More fre"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Ketoacidosis can occur with near-normal glucose.** It follows absolute insulin lack (new diagnosis, missed insulin) or relative lack (infection or stress without extra insulin). Modifiable risks include a previous episode, high HbA1c, missed insulin, psychiatric illness, infection and alcohol or drug misuse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ceb5f3cf6022699",
+     "n": 363,
+     "p": "There ar"
+    },
+    {
+     "h": "04699d0e3ee83acf",
+     "n": 258,
+     "p": "These in"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Adjunct SGLT inhibitors raise ketoacidosis risk by about 4% a year in absolute terms, often euglycaemic.** The FDA refused them for type 1 diabetes; the EMA licensed dapagliflozin 5 mg or sotagliflozin 200 mg only when BMI was 27 kg/m2 or more. If used: careful selection, avoid cutting insulin too far, start low, and check ketones regularly.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a951adf2e8b3a13",
+     "n": 259,
+     "p": "Adjuncti"
+    },
+    {
+     "h": "311e27740ea531eb",
+     "n": 651,
+     "p": "However,"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23",
+   "dose": true
+  }
+ ]
+}
