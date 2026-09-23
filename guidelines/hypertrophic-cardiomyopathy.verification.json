@@ -1,160 +1,578 @@
 {
  "guideline": "guidelines/hypertrophic-cardiomyopathy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/"
+  "https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/"
  ],
- "retrieved_utc": "2026-09-23",
- "source_origin": "international",
- "method": "OPEN AND QUOTED from Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117) 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations' (published 2 January 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12587277). Rebuilt in Wave 7. The 2024 AHA/ACC/AMSSM/HRS/PACES/SCMR guideline itself (Circulation doi 10.1161/CIR.0000000000001250; JACC doi 10.1016/j.jacc.2024.02.014) could not be read: ahajournals.org and jacc.org returned a Cloudflare 'Just a moment' challenge and ScienceDirect a 403 bot page, so it was not used. The ESC 2023 guideline was blocked in Wave 4. This systematic review (CC BY 4.0) reports both guidelines' recommendations, including those on cardiac myosin inhibitors.",
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement' (ratified 25 November 2016), 24 claims; LICENCE: © The Cardiac Society of Australia and New Zealand (no licence or reproduction permission in the PDF or on the site) (read at the PDF itself and the csanz.edu.au site footer). S2: QUOTED from Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117) 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations' (published 2 January 2025), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12587277). S3: QUOTED from Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z) 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy' (published 2 June 2025), 7 claims; LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC12128337). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 compiles the Wave 3 edition (CSANZ 2016) and the Wave 7 edition (Sanghvi 2025) without dropping either, and adds BSE 2025 for mavacamten monitoring. The S1 claims and anchors are unchanged from commit 0c3f49e. The AHA/ACC 2024 and ESC 2023 guidelines themselves could not be read (bot challenge), so they are cited through S2.",
  "summary": {
-  "total": 20,
-  "pass": 20,
-  "fail": 0
+  "total": 50,
+  "pass": 26,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
-   "claim": "**HCM is LV hypertrophy that abnormal loading or another cardiac, metabolic, storage, infiltrative or systemic disease does not explain;** the American and Japanese guidelines also mention identifying a pathogenic variant.",
+   "claim": "**HCM is left ventricular hypertrophy arising from the heart muscle itself,** not explained by aortic stenosis, hypertension, thyroid disease or other loading. It may affect as many as 1 in 200 people, making it the most common inherited heart condition.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All guidelines agree that HCM is defined by the presence of increased LV wall thickness or hypertrophy and that this cannot be explained by abnormal loading conditions or any other cardiac, metabolic, storage, infiltrative, or systemic disease. … In their definitions, the AHA/ACC/AMSSM/HRS/PACES/SCMR and JCS/JHFS guidelines also reference that a pathogenic mutation should be identified.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "035f8fa54b2aebec",
+     "n": 226,
+     "p": "Hypertro"
+    },
+    {
+     "h": "02033eccb33475a2",
+     "n": 157,
+     "p": "the prev"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Adult threshold: end-diastolic wall thickness of 15 mm or more in any LV segment, or 13 mm or more when a relative has confirmed HCM.** Per AHA/ACC, 13–14 mm can be diagnostic with a pathogenic or likely pathogenic sarcomere variant; per ESC it needs other features weighed.",
+   "claim": "**Inheritance is autosomal dominant with variable penetrance:** each child of an affected parent has a 50% chance of carrying the mutation, regardless of sex.",
    "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "238258737b2f2841",
+     "n": 252,
+     "p": "HCM is i"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Under age 35, HCM is the leading structural cause of sudden cardiac death,** competitive athletes included. Death happens most often during or just after exertion, though it can occur at rest.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd779a83a05380cb",
+     "n": 133,
+     "p": "HCM is t"
+    },
+    {
+     "h": "1d40d69fd98d0763",
+     "n": 124,
+     "p": "Sudden d"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Symptoms range from none to heart failure and sudden death,** and include angina-type chest pain, breathlessness (including orthopnoea and nocturnal dyspnoea), fatigue, syncope or near-syncope, and palpitations.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c4524e98d8c7318",
+     "n": 137,
+     "p": "Patients"
+    },
+    {
+     "h": "c8fa0d6fa5d0edbb",
+     "n": 300,
+     "p": "Individu"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**On examination:** a jerky, rapidly rising pulse, a prominent LV impulse, and an apical systolic murmur that gets louder with Valsalva (dynamic obstruction); a fourth heart sound is common. The ECG may show LVH voltage, T-wave inversion and Q waves.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5792b453a81c6dda",
+     "n": 288,
+     "p": "Clinical"
+    },
+    {
+     "h": "4e54f8988aa49ca4",
+     "n": 142,
+     "p": "lead ele"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Echocardiography is the key test:** in adults a maximal LV wall thickness of 15 mm or more is diagnostic, while 13–14 mm counts as borderline except in a family with definite HCM. It also shows cavity size, systolic and diastolic function, outflow tract obstruction and mitral regurgitation.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c3b24348e7a49dc",
+     "n": 353,
+     "p": "The echo"
+    },
+    {
+     "h": "7f1cdfa05a26fced",
+     "n": 173,
+     "p": "HCM is u"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Current guidelines agree:** an end-diastolic wall thickness of 15 mm or more in any LV segment, or 13 mm or more when a relative has confirmed HCM. Per AHA/ACC, 13–14 mm can be diagnostic with a pathogenic or likely pathogenic sarcomere variant; per ESC it needs other features weighed.",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "All guidelines use a ≥15 mm end-diastolic wall thickness in any segment of the LV as the diagnostic threshold for HCM in adults. All guidelines suggest a lower threshold (≥13 mm) in individuals who have a family member with a confirmed diagnosis of HCM. The ESC guidelines comment that lesser degrees of wall thickening (13-14 mm) require evaluation of other features including family history, genetic findings, and ECG abnormalities. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines state that this more limited degree of hypertrophy (13-14 mm) can be diagnostic in cases where a pathogenic/likely pathogenic (P/LP) sarcomeric gene variant is identified.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "**Start with transthoracic echocardiography, using provocation (such as Valsalva) to find the peak LVOT gradient.** If symptomatic with a resting gradient of 50 mmHg or less, do an exercise echocardiogram.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "All guidelines agree that two-dimensional transthoracic echocardiography should be performed in the initial evaluation of an individual with suspected HCM. There is also consensus that provocative manoeuvres (e.g. Valsalva) should be performed to detect peak left ventricular outflow tract (LVOT) gradient and characterize LVOT obstruction. For HCM patients who are symptomatic and have a resting LVOT gradient of ≤50 mmHg, all guidelines recommend performing an echocardiogram during exercise in order to detect and quantify dynamic LVOT obstruction.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
-   "claim": "**Cardiac MRI:** the ESC recommends it with late gadolinium enhancement at initial evaluation; the AHA/ACC reserves it for inconclusive echocardiography or a suspected alternative diagnosis (athlete's heart, storage or infiltrative disease).",
+   "claim": "**Consider phenocopies, especially when hypertrophy is concentric rather than asymmetric:** infiltrative disease such as Fabry disease and amyloidosis, and glycogen or lysosomal storage disorders.",
    "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "67b309759e6d7244",
+     "n": 305,
+     "p": "When con"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Cardiac MRI uses the same 15 mm threshold** and adds quantification of fibrosis by late gadolinium enhancement and better views of regions echo misses, such as apical HCM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd20fc5c6162d176",
+     "n": 342,
+     "p": "The diag"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When to do cardiac MRI:** the ESC recommends it with late gadolinium enhancement at initial evaluation; the AHA/ACC reserves it for inconclusive echocardiography or a suspected alternative diagnosis (athlete's heart, storage or infiltrative disease).",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "The ESC guidelines state that CMR with late gadolinium enhancement (LGE) imaging is recommended in patients with HCM at their initial evaluation and that it is superior to echocardiography in the detection of LV apical and anterolateral hypertrophy, aneurysms, and thrombi. It further suggests that CMR should be considered during follow-up to monitor progression and aid risk stratification. … The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines recommend that for patients suspected of having HCM in whom echocardiography is inconclusive, CMR imaging is indicated for diagnostic clarification, and it is useful in patients with LV hypertrophy in whom there is a suspicion of an alternative diagnosis (e.g. athlete's heart, storage diseases, infiltrative diseases).",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
-   "claim": "⚠️ **First line for symptoms from LVOT obstruction: a non-vasodilating beta-blocker; if not tolerated, a non-dihydropyridine calcium channel blocker.** All three guidelines agree.",
+   "claim": "**Exercise testing and Holter monitoring, plus the family's cardiac history,** help confirm the diagnosis and build a sudden-death risk profile.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All guidelines advocate the use of non-dilating beta blockers, or if these are not tolerated, non-dihydropyridine calcium channel blockers, in individuals with HCM who are symptomatic due to LVOT obstruction.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
-  },
-  {
-   "claim": "⚠️ **Mavacamten (a cardiac myosin inhibitor) or disopyramide is added when symptoms of obstruction persist despite a beta-blocker or calcium channel blocker.** It is a Class 1 recommendation in the AHA/ACC guideline and Class IIa in the ESC guideline; the older Japanese guideline predates myosin inhibitors.",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "The ESC and AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines recommend the addition of disopyramide or a cardiac myosin ATPase inhibitor (e.g. mavacamten) in individuals whose symptoms of LVOT obstruction are incompletely controlled despite beta blockers or non-dihydropyridine calcium channel blockers. It should be noted that this comes as a Class IIa recommendation in the ESC guidelines and as a Class 1 indication in the AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines. By contrast, the JCS/JHFS guideline, due to its release date, does not reference the use of myosin inhibitors. It recommends cibenzoline as well as disopyramide-both are class 1a antiarrhythmic drugs.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
-  },
-  {
-   "claim": "**Septal reduction therapy (myectomy or alcohol septal ablation) belongs in experienced centres with a multidisciplinary team.** ESC and JCS: gradient of 50 mmHg or more (rest or provoked) with NYHA class III–IV despite maximal drugs. AHA/ACC: symptoms from obstruction despite optimal therapy, a gradient around 50 mmHg or more with septal hypertrophy and systolic anterior motion, and enough septal thickness.",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "All guidelines recommend that septal reduction therapy (SRT) is performed by experienced operators in experienced centres within the framework of multidisciplinary teamwork. The ESC and JCS/JHFS guidelines recommend SRT to be performed in individuals with an LVOT gradient (resting or provoked) ≥50 mmHg who are in New York Heart Association (NYHA) Class III-IV despite maximal medical therapy. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines recommend that SRT should be performed in eligible patients with obstructive HCM who remain symptomatic despite goal-directed medical therapy. The guideline's definition of 'eligible' is as follows: (i) clinical: severe dyspnoea or chest pain (usually NYHA class III or IV), or occasionally other exertional symptoms (e.g. syncope, near syncope), when attributable to LVOT obstruction, that interferes with everyday activity or quality of life despite optimal medical therapy; (ii) haemodynamic: dynamic LVOT gradient at rest or with physiologic provocation with approximate peak gradient of ≥50 mmHg, associated with septal hypertrophy and systolic anterior motion of the mitral valve; and (iii) anatomic: targeted anterior septal thickness is sufficient to perform the procedure.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
-  },
-  {
-   "claim": "**Choose myectomy when other lesions also need surgery; choose alcohol septal ablation when surgery is contraindicated or too risky.**",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Regarding the choice of SRT, septal myectomy or alcohol septal ablation (ASA), all guidelines agree that septal myectomy rather than ASA should be performed in individuals with other lesions requiring surgical intervention. In those where SRT is indicated but surgery is contraindicated or associated with unacceptable risk, then ASA is recommended.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
-  },
-  {
-   "claim": "**For angina-like chest pain or breathlessness without obstruction, use a beta-blocker or non-dihydropyridine calcium channel blocker.** ESC adds oral nitrates or ranolazine for angina; AHA/ACC and JCS support diuretics for exertional breathlessness, used cautiously if obstruction is present.",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "non-obstructive HCM and symptoms of angina-like chest pain or dyspnoea, all guidelines recommend beta blockers or non-dihydropyridine calcium channel blockers. … For patients with non-obstructive HCM experiencing angina-like chest pain, the ESC guidelines recommend consideration of oral nitrates or ranolazine as additional agents to beta blockers or calcium channel blockers, even in the absence of coronary artery disease. The AHA/ACC/AMSSM/HRS/PACES/SCMR and JCS/JHFS guidelines strongly recommend the use of diuretics to individuals with exertional dyspnoea and non-obstructive HCM and recommend cautious consideration in obstructive HCM.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
-  },
-  {
-   "claim": "⚠️ **Anticoagulate every patient with HCM and atrial fibrillation for life, whatever the CHA2DS2-VASc score.** AHA/ACC names direct oral anticoagulants first line over warfarin.",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Regarding the management of atrial fibrillation, all guidelines agree that lifelong, oral anticoagulation is recommended for all patients with HCM, irrespective of CHA2DS2-VASc scoring. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines specify that direct oral anticoagulants are first line over vitamin K antagonists (e.g. warfarin).",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "258b796b02e7a3ad",
+     "n": 299,
+     "p": "Other in"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Secondary prevention: an ICD after cardiac arrest from ventricular arrhythmia or documented sustained VT.** All guidelines agree.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "All guidelines agree that implantation of a secondary prevention implantable cardioverter-defibrillator (ICD) is recommended in individuals with HCM who have suffered a cardiac arrest due to ventricular arrhythmia or have a documented history of sustained ventricular tachycardia (VT).",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Major risk factors:** previous cardiac arrest or ventricular tachycardia; family history of premature sudden cardiac death; LV wall thickness of 30 mm or more; documented non-sustained VT (3 or more beats at 120 bpm or faster); and unexplained syncope.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a92af274cc296262",
+     "n": 70,
+     "p": "Previous"
+    },
+    {
+     "h": "5344bb339a44fe6d",
+     "n": 49,
+     "p": "Family h"
+    },
+    {
+     "h": "c6dcab3c5ff0285b",
+     "n": 39,
+     "p": "Left ven"
+    },
+    {
+     "h": "4f2cfd93bc06bb1e",
+     "n": 64,
+     "p": "Previous"
+    },
+    {
+     "h": "96cd289afdf362ba",
+     "n": 19,
+     "p": "Unexplai"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Most clinicians advise an ICD if a patient has even one of the five major factors,** although some argue for requiring at least 2.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a47d9a4fd5d811b2",
+     "n": 180,
+     "p": "Most cli"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Other factors add risk:** abnormal blood pressure response to exercise, myocardial ischaemia, LVOT obstruction of 30 mmHg or more (at rest or provoked), late gadolinium enhancement, presentation before age 21, and a large left atrium. Early data suggest LGE above 15% of LV myocardium matters.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a50a414326015e61",
+     "n": 267,
+     "p": "Abnormal"
+    },
+    {
+     "h": "59528e629819df86",
+     "n": 174,
+     "p": "includin"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When only minor factors are present, the ICD decision is hard;** weigh clinical judgement with what the patient wants.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "437fcf749dfab989",
+     "n": 241,
+     "p": "Clearly,"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The HCM Risk-SCD score estimates 5-year sudden-death risk** from these factors plus LVOT gradient, left atrial size and age: under 4% low, 4–6% intermediate, over 6% high. At the time it was still being validated in other cohorts.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ccff579691618e26",
+     "n": 448,
+     "p": "Most rec"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
   },
   {
    "claim": "**ESC approach: the HCM Risk-SCD calculator** (age, maximum wall thickness, left atrial diameter, maximum LVOT gradient, family history of sudden death, non-sustained VT, unexplained syncope), repeated every 1–2 years. Consider an ICD at a 5-year risk of 6% or more; individually at 4–6%; and below 4% if LGE is 15% or more or LVEF is below 50%.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "The ESC guideline advocates for the use of the HCM Risk-SCD calculator, which estimates the risk of sudden death within 5 years for individuals with HCM. The HCM-Risk SCD calculator considers the following parameters: age, maximum wall thickness, left atrial diameter, maximum LVOT gradient, family history of SCD, recorded non-sustained VT, and unexplained syncope. It is recommended that the risk score be used at initial assessment and re-evaluated at 1-2-year intervals or whenever a change in clinical status occurs. Recommendations on subsequent decisions regarding implantation of an ICD are made, in part, based on the risk calculator output. The ESC guidelines recommend that implantation of an ICD should be considered if the 5-year risk of SCD is ≥6% and that it may be considered on an individual basis in those with a risk score between 4% and 6%. ICD implantation may also be considered in individuals with a risk score of <4% but extensive LGE (≥15%) on CMR or LVEF <50%.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **AHA/ACC approach: offer an ICD if one or more major risk factors is present:** HCM sudden death in a first-degree or close relative aged 50 or under; LV hypertrophy of 30 mm or more; recent syncope thought to be arrhythmic; an LV apical aneurysm with scar; or LVEF below 50%. It reassesses risk every 1–2 years and gives more weight to longer, faster, more frequent non-sustained VT.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines, whilst also advocating assessment of SCD risk at initial evaluation and every 1 or 2 years thereafter, recommend a systematic assessment, including evaluation of the following risk factors: a personal history of syncope suspected by clinical history to be arrhythmic, a family history of premature HCM-related sudden death/cardiac arrest/sustained ventricular arrhythmias; maximal wall thickness, ejection fraction <50%, and presence of an apical aneurysm; non-sustained VT on continuous ambulatory electrocardiographic monitoring, with it carrying greater weight as a risk maker with longer, faster, and more frequent documented episodes. This contrasts with the current ESC guidance which does not consider the burden of non-sustained VT as influencing SCD risk. … For decision-making around ICD implantation, the AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines provide a linked set of more specific criteria which constitute 'major' risk factors for SCD, the presence of ≥1 indicating that ICD implantation should be offered. These are: sudden death judged definitively or likely attributable to HCM in ≥1 first-degree or close relatives who are ≤50 years of age; LV hypertrophy ≥30 mm in any LV segment; ≥1 recent episodes of syncope suspected by clinical history to be arrhythmic (i.e. unlikely to be of vasovagal aetiology, or related to LVOT obstruction); LV apical aneurysm with transmural scar or LGE; LV systolic dysfunction (EF <50%).",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "**Where they disagree:** ESC does not treat an apical aneurysm alone as a strong enough predictor to justify a primary-prevention ICD; AHA/ACC does.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "The ESC guidelines do not consider the presence of LV apical aneurysm alone to be a sufficiently strong predictor of SCD to guide primary prevention ICD implantation decisions.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **An ICD is the most effective protection against sudden death for those at highest risk,** clearly better than the older empirical use of amiodarone or beta-blockers.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae374810fbddf1e4",
+     "n": 138,
+     "p": "The sing"
+    },
+    {
+     "h": "edbd16964db29035",
+     "n": 285,
+     "p": "Recent s"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
   },
   {
    "claim": "**A subcutaneous ICD is a reasonable alternative** to a transvenous device when no bradycardia pacing, resynchronisation or anti-tachycardia pacing is expected.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "Regarding the choice of defibrillator device, both the ESC guidelines and the AHA/ACC/AMSSM/HRS/PACES/SCMR suggest that subcutaneous defibrillators should be considered as an alternative to a transvenous device in individuals when pacing therapy for bradycardia, cardiac resynchronization, or anti-tachycardia pacing is not anticipated.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**At least 13 genes cause HCM, mostly sarcomeric** (notably MYH7 and MYBPC3). One mutation is enough; people carrying two or three mutations may have more severe disease.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8421ac41ecfa966d",
+     "n": 594,
+     "p": "At least"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Testing the 10 commonest genes finds a cause in 40–50%, rising to 70–80% with a definite family history.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8cb23ee94f7ac2db",
+     "n": 185,
+     "p": "screenin"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Finding the family mutation allows cascade testing:** relatives who test negative can be spared lifelong surveillance, and the result can inform preimplantation and antenatal testing.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d8174f0b01f1fc86",
+     "n": 268,
+     "p": "This gen"
+    },
+    {
+     "h": "1abd02f185d44990",
+     "n": 130,
+     "p": "since a "
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Genetic counselling must come before any genetic test,** and testing is best done in a specialised multidisciplinary clinic.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "51d6a5263d261646",
+     "n": 178,
+     "p": "All pati"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
   },
   {
    "claim": "**Offer genetic testing to the patient to enable cascade screening of relatives,** and in borderline or atypical cases or suspected phenocopies. Do not test phenotype-negative relatives unless a pathogenic or likely pathogenic variant has been found in the proband.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "It is agreed that genetic testing for a patient with HCM is beneficial to elucidate its genetic basis to facilitate cascade genetic screening of family members if required. All guidelines also recommend that genetic testing is beneficial in patients with a borderline phenotype or atypical presentation of HCM or when another genetic condition may be the cause of unexplained cardiac hypertrophy ('HCM phenocopies'). Diagnostic genetic testing in phenotype-negative family members is not recommended if a definitive disease-causing mutation (i.e. P/LP variant) is not identified in the HCM proband.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Screen every first-degree relative:** at minimum a cardiologist's examination, an ECG and a transthoracic echo; cardiac MRI is increasingly used too.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ccc095e7962e860f",
+     "n": 331,
+     "p": "It is st"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Suggested screening intervals, tailored to each person:** ages 12–20 every 1–1.5 years; 21–40 every 2–3 years; over 40 every 3–5 years. Under 12 (0–11) it is optional unless there is suspicion, symptoms or a malignant family history.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6df30baefbbc1cfe",
+     "n": 113,
+     "p": "0-11 Opt"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Surveillance is lifelong but less frequent with age;** screening second-degree relatives is decided family by family.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "988634a44e9883a1",
+     "n": 372,
+     "p": "Clinical"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Take a detailed family history,** including the age and circumstances of any death, and retrieve medical records and post-mortem reports; sudden cardiac death in a relative counts as a major risk factor.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ba06f583b69f41e",
+     "n": 382,
+     "p": "In all c"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Options run from no treatment and lifestyle change (every patient should avoid competitive sport),** through drugs (beta-blockers, diuretics or calcium channel blockers), to surgical septal myectomy or alcohol septal ablation for significant outflow obstruction that stays symptomatic despite drugs.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c6bccee03ab1fe3",
+     "n": 589,
+     "p": "Many tre"
+    }
+   ],
+   "locator": "Cardiac Society of Australia and New Zealand (CSANZ), Cardiovascular Genetic Diseases Council, 'Diagnosis and Management of Hypertrophic Cardiomyopathy – Position Statement', ratified 25 November 2016, https://www.csanz.edu.au/Common/Uploaded%20files/Smart%20Suite/Smart%20Library/08e39ca0-febb-4d7e-adfa-0b9af2a70795/Diagnosis%20and%20Mangement%20-%20Hypertrophic-Cardiomyopathy%20(2016).pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **First line for symptoms from LVOT obstruction: a non-vasodilating beta-blocker; if not tolerated, a non-dihydropyridine calcium channel blocker.** All three current guidelines agree.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "All guidelines advocate the use of non-dilating beta blockers, or if these are not tolerated, non-dihydropyridine calcium channel blockers, in individuals with HCM who are symptomatic due to LVOT obstruction.",
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mavacamten (a cardiac myosin inhibitor) or disopyramide is added when symptoms of obstruction persist despite a beta-blocker or calcium channel blocker.** It is a Class 1 recommendation in the AHA/ACC guideline and Class IIa in the ESC guideline; the older Japanese guideline predates myosin inhibitors.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The ESC and AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines recommend the addition of disopyramide or a cardiac myosin ATPase inhibitor (e.g. mavacamten) in individuals whose symptoms of LVOT obstruction are incompletely controlled despite beta blockers or non-dihydropyridine calcium channel blockers. It should be noted that this comes as a Class IIa recommendation in the ESC guidelines and as a Class 1 indication in the AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines. By contrast, the JCS/JHFS guideline, due to its release date, does not reference the use of myosin inhibitors. It recommends cibenzoline as well as disopyramide-both are class 1a antiarrhythmic drugs.",
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Septal reduction therapy (myectomy or alcohol septal ablation) belongs in experienced centres with a multidisciplinary team.** ESC and JCS: gradient of 50 mmHg or more (rest or provoked) with NYHA class III–IV despite maximal drugs. AHA/ACC: symptoms from obstruction despite optimal therapy, a gradient around 50 mmHg or more with septal hypertrophy and systolic anterior motion, and enough septal thickness.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "All guidelines recommend that septal reduction therapy (SRT) is performed by experienced operators in experienced centres within the framework of multidisciplinary teamwork. The ESC and JCS/JHFS guidelines recommend SRT to be performed in individuals with an LVOT gradient (resting or provoked) ≥50 mmHg who are in New York Heart Association (NYHA) Class III-IV despite maximal medical therapy. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines recommend that SRT should be performed in eligible patients with obstructive HCM who remain symptomatic despite goal-directed medical therapy. The guideline's definition of 'eligible' is as follows: (i) clinical: severe dyspnoea or chest pain (usually NYHA class III or IV), or occasionally other exertional symptoms (e.g. syncope, near syncope), when attributable to LVOT obstruction, that interferes with everyday activity or quality of life despite optimal medical therapy; (ii) haemodynamic: dynamic LVOT gradient at rest or with physiologic provocation with approximate peak gradient of ≥50 mmHg, associated with septal hypertrophy and systolic anterior motion of the mitral valve; and (iii) anatomic: targeted anterior septal thickness is sufficient to perform the procedure.",
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Choose myectomy when other lesions also need surgery; choose alcohol septal ablation when surgery is contraindicated or too risky.**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Regarding the choice of SRT, septal myectomy or alcohol septal ablation (ASA), all guidelines agree that septal myectomy rather than ASA should be performed in individuals with other lesions requiring surgical intervention. In those where SRT is indicated but surgery is contraindicated or associated with unacceptable risk, then ASA is recommended.",
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mavacamten can reduce LV systolic function and cause heart failure in a small percentage of patients, so safety monitoring with echocardiography is required.**",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Seminal studies of Mavacamten highlighted potential risk of heart failure due to left ventricular (LV) systolic dysfunction in a small percentage of oHCM patients. Due to this risk, safety monitoring is required when integrating this therapy into clinical practice",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before starting:** a full baseline echocardiogram on standard treatment, and CYP2C19 pharmacogenomic testing.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "A full comprehensive echocardiographic assessment in accordance with the British Society of Echocardiography Hypertrophic Cardiomyopathy guideline … should be undertaken before initiation of treatment with Mavacamten. This should be performed with the patient on standard medical treatment … genotyping of CYP2C19 is required to guide Mavacamten therapy and dosing",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Poor (slow) CYP2C19 metabolisers are exposed to higher than intended doses, so titration is adjusted;** while CYP status is pending, start at 2.5 mg.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "therefore adjustments need to be made during dose titration … In the situation where there may be a delay gaining access to CYP status patients may be initiated at a low dose of 2.5 mg until CYP status is known.",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Echo schedule (UK NICE, per the product information): weeks 4, 8 and 12 after starting, then every 24 weeks long term, and 4 weeks after any dose change.**",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "NICE guidance recommends surveillance echocardiography as per the summary of product characteristics of the medication at weeks 4, 8 and 12 post initiation of Mavacamten followed by 24 weekly echocardiograms long term. … Echocardiography is also mandated 4 weeks after any dose change",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Interrupt treatment at any point if LVEF is below 50%.**",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Interrupt treatment at any point if LVEF <50%",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Use echo contrast when two or more segments cannot be seen:** contrast LVEF has a minimal detectable difference of about 4%, against 9–11% without contrast, which matters when LVEF sits near a decision boundary.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "The BSE recommend that contrast is used when two or more segments cannot be visualised … Minimal detectable difference for 2D contrast LVEF has been noted to be in the order of 4% in comparison to 9-11% for non-contrast 2D LVEF",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Stress echocardiography is not part of routine mavacamten surveillance.**",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Stress echocardiography is not recommended as part of routine surveillance for Mavacamten therapy.",
+   "locator": "Culshaw, Augustine, Coats et al., British Society of Echocardiography, Echo Research and Practice (doi 10.1186/s44156-025-00078-z), 'British Society of Echocardiography guideline for the transthoracic echocardiographic assessment of adult patients with obstructive hypertrophic cardiomyopathy receiving myosin-inhibitor therapy', published 2 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12128337/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For angina-like chest pain or breathlessness without obstruction, use a beta-blocker or non-dihydropyridine calcium channel blocker.** ESC adds oral nitrates or ranolazine for angina; AHA/ACC and JCS support diuretics for exertional breathlessness, used cautiously if obstruction is present.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "non-obstructive HCM and symptoms of angina-like chest pain or dyspnoea, all guidelines recommend beta blockers or non-dihydropyridine calcium channel blockers. … For patients with non-obstructive HCM experiencing angina-like chest pain, the ESC guidelines recommend consideration of oral nitrates or ranolazine as additional agents to beta blockers or calcium channel blockers, even in the absence of coronary artery disease. The AHA/ACC/AMSSM/HRS/PACES/SCMR and JCS/JHFS guidelines strongly recommend the use of diuretics to individuals with exertional dyspnoea and non-obstructive HCM and recommend cautious consideration in obstructive HCM.",
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Anticoagulate every patient with HCM and atrial fibrillation for life, whatever the CHA2DS2-VASc score.** AHA/ACC names direct oral anticoagulants first line over warfarin.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Regarding the management of atrial fibrillation, all guidelines agree that lifelong, oral anticoagulation is recommended for all patients with HCM, irrespective of CHA2DS2-VASc scoring. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines specify that direct oral anticoagulants are first line over vitamin K antagonists (e.g. warfarin).",
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Mavacamten is contraindicated in pregnancy because it is teratogenic** (AHA/ACC). Offer genetic and reproductive counselling before conception, review medicines in advance, plan vaginal delivery for most women, and anticoagulate with low-molecular-weight heparin or a vitamin K antagonist.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "The ESC and AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines are concordant in their recommendations, namely that reproductive and genetic counselling should be offered prior to conception; vaginal delivery is recommended as the mode of delivery in most women with HCM, medication should be reviewed for its suitability in advance of pregnancy with the AHA/ACC/AMSSM/HRS/PACES/SCMR guideline explicitly noting that the use of mavacamten is contraindicated due to teratogenicity, and that therapeutic anticoagulation should be with low-molecular-weight heparin or vitamin K antagonists.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "**Mild to moderate exercise benefits all able patients,** and genotype-positive, phenotype-negative people are not barred from high-intensity exercise or competitive sport.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "Both guidelines recommend that mild-to-moderate level intensity exercise is beneficial in all able individuals with HCM. Similarly, they advise that genotype-positive/phenotype-negative individuals are not excluded from high-intensity exercise and competitive sport should they seek to do so.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "**High-intensity sport is where they differ:** ESC advises against it in high-risk patients and in obstruction with exercise-induced complex ventricular arrhythmias; AHA/ACC does not restrict most patients universally, asks for expert shared decision-making, and advises against an ICD placed only to allow competitive sport.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "The ESC guidelines are explicit in stating that high-intensity exercise, including competitive sport, is not recommended in high-risk individuals and in individuals with LV outflow tract obstruction and exercise-induced complex ventricular arrhythmias. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines state that for most patients with HCM, universal restriction from vigorous physical activity or competitive sport is not indicated, although a comprehensive evaluation and shared-decision making process with an expert professional is recommended prior to participation. The AHA/ACC/AMSSM/HRS/PACES/SCMR guidelines also advocate that ICD placement for the sole purpose of participation in competitive sports should not be performed in patients with HCM, something which is not mentioned in any of the other guidelines.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   },
   {
    "claim": "**The guidelines mention only mavacamten among myosin inhibitors.** Phase 3 data for aficamten (shorter half-life) and longer-term and real-world mavacamten data were published after them, and myosin inhibitors are being tested in non-obstructive HCM.",
-   "source": "S1",
+   "source": "S2",
    "verdict": "pass",
    "source_text": "due to the timing of guideline publication, the ESC and AHA/ACC/AMSSM/HRS/PACES/SCMR only reference mavacamten in the context of myosin inhibitors. Since their publication, phase 3 data for second-in-class molecule aficamten (shorter half-life compared to mavacamten) have been published, as well as long-term (3.5 years) follow-up and 'real-world' experience with mavacamten; the burgeoning research output around utility of myosin inhibitors will form a key component when synthesizing future guidelines. … There are ongoing clinical trials to examine the benefit of myosin inhibitors in non-obstructive HCM with data likely expected in early 2025.",
-   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-23"
+   "locator": "Sanghvi MM, Dhall E, Chahal CAA, et al., European Heart Journal - Quality of Care and Clinical Outcomes 11(7):919-933 (doi 10.1093/ehjqcco/qcae117), 'Hypertrophic cardiomyopathy management: a systematic review of the clinical practice guidelines and recommendations', published 2 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12587277/, retrieved 2026-09-24"
   }
  ]
 }
