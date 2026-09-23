@@ -1,0 +1,411 @@
+{
+ "guideline": "guidelines/breast-cancer-risk-reduction.md",
+ "edition": "1.0",
+ "verified_utc": "2026-09-23",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf"
+ ],
+ "retrieved_utc": "2026-09-23",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from Clinical Oncology Society of Australia (COSA) 'Medications to lower the risk of breast cancer: clinician guide' (Version 7, approved by COSA Council 22 March 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: COSA website terms: personal, non-commercial use only; 'Any other use is strictly prohibited.' (the PDF itself carries no licence statement) (read at https://www.cosa.org.au/common/Uploaded%20files/Policies/003_website-terms-and-conditions-of-use_v004_approved_5august2022.pdf). The source's words are NOT reproduced here. ",
+ "summary": {
+  "total": 23,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
+ },
+ "claims": [
+  {
+   "claim": "**Offer a risk-reducing medicine to high-risk women who decline or delay risk-reducing mastectomy, and to women with raised risk that does not justify surgery.** Do not offer it at population risk, where harms probably outweigh benefits. Never continue it beyond 5 years.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5cff127032198670",
+     "n": 566,
+     "p": "Risk red"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Measure absolute risk formally first**, so the absolute benefit can be set against the absolute chance of harm. iPrevent (Tyrer-Cuzick and BOADICEA/CanRisk) gives these estimates for each SERM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0682a709995cb33f",
+     "n": 240,
+     "p": "It is im"
+    },
+    {
+     "h": "af39bfee3e1b21b8",
+     "n": 178,
+     "p": "The iPre"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Keep up screening suited to her age and risk**, and discuss medicines alongside lifestyle change (hormone use, alcohol, body weight, exercise, breastfeeding) and, where risk is high, bilateral risk-reducing mastectomy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a315c63d4cc9aba2",
+     "n": 407,
+     "p": "Women pr"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **What to tell her about the limits:** all four medicines lower only oestrogen-receptor-positive cancer, and none has been shown to reduce breast cancer deaths or deaths from any cause.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e292b05405230ff8",
+     "n": 114,
+     "p": "Tamoxife"
+    },
+    {
+     "h": "fc5cdd79565a961b",
+     "n": 107,
+     "p": "No breas"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Before menopause, tamoxifen is the only option.** After menopause, tamoxifen, raloxifene, exemestane and anastrozole all work.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4dc53eb6613992a3",
+     "n": 216,
+     "p": "Tamoxife"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Tamoxifen 20 mg daily for 5 years** cuts relative risk by at least a third, before or after menopause, and the protection lasts at least 20 years.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aae4571b6ad8244d",
+     "n": 185,
+     "p": "Tamoxife"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Low-dose tamoxifen, 5 mg daily for 3 years**, also lowers risk by one third or more, lasting 10 years or longer, with significantly fewer hot flushes. It has not been tested head-to-head against 20 mg, so use it for women who cannot tolerate the standard dose.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc711f49dd279e4f",
+     "n": 318,
+     "p": "Tamoxife"
+    },
+    {
+     "h": "32555010ab6ee121",
+     "n": 100,
+     "p": "Compared"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**There is no 5 mg tablet.** Prescribe 10 mg every second day on a private script (the 10 mg strength is not PBS-subsidised for prevention); tamoxifen's long half-life makes this reasonable.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a877ca0107d97e88",
+     "n": 277,
+     "p": "* 5mg ta"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Raloxifene 60 mg daily for five years** (post-menopausal women only) matches tamoxifen early on but is less effective in the longer term. It carries no endometrial cancer risk and causes fewer cataracts.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d805cb0384d4eefc",
+     "n": 184,
+     "p": "Raloxife"
+    },
+    {
+     "h": "ba6f8ad20ad6a21c",
+     "n": 106,
+     "p": "Raloxife"
+    },
+    {
+     "h": "c6f81121129e9854",
+     "n": 61,
+     "p": "Raloxife"
+    },
+    {
+     "h": "f437dc85b2713ab8",
+     "n": 50,
+     "p": "Raloxife"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Anastrozole 1 mg daily for five years** lowers relative risk by 49% over 10 years in post-menopausal women.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b42c79fa87fbe797",
+     "n": 128,
+     "p": "Anastroz"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Exemestane 25 mg daily for five years** lowered relative risk by 63% in the short term; longer-term efficacy is unknown. Neither aromatase inhibitor has been compared with the other or with a SERM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3972adf1781c75b6",
+     "n": 174,
+     "p": "Exemesta"
+    },
+    {
+     "h": "988052224be548a4",
+     "n": 162,
+     "p": "The rela"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Tamoxifen and raloxifene raise the risk of DVT and PE:** on average about 1 extra case in 250 women over 5 years on tamoxifen and 1 in 330 on raloxifene, lower before menopause. Teach women the symptoms.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08dda4f6079f69d3",
+     "n": 307,
+     "p": "Tamoxife"
+    },
+    {
+     "h": "7273c02f622cdffb",
+     "n": 56,
+     "p": "Educate "
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Tamoxifen raises endometrial cancer risk after menopause only** (about 1 extra case per 250 women over 5 years), and the excess falls away once it stops. Ask women to report any post-menopausal vaginal bleeding promptly.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "13027ddb2fb3e1b9",
+     "n": 240,
+     "p": "Tamoxife"
+    },
+    {
+     "h": "f525505df11080f5",
+     "n": 68,
+     "p": "Encourag"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Everyday side-effects of tamoxifen:** vasomotor symptoms in about 1 extra woman in 10, and possibly cataract in about 1 extra in 250. It also lightens or disturbs periods without causing menopause.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db980ca730fe6a29",
+     "n": 81,
+     "p": "On avera"
+    },
+    {
+     "h": "ee995cf162b54fdd",
+     "n": 108,
+     "p": "Tamoxife"
+    },
+    {
+     "h": "c4a447f1ae01800d",
+     "n": 137,
+     "p": "Tamoxife"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Bone:** tamoxifen and raloxifene slow age-related bone loss and cut fracture risk after menopause, whereas the aromatase inhibitors make bone loss worse, so give bone-health advice (calcium, vitamin D, exercise, no smoking).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4482971e1e1c72a0",
+     "n": 129,
+     "p": "Both tam"
+    },
+    {
+     "h": "c7fe3fcfdcc13286",
+     "n": 60,
+     "p": "Exemesta"
+    },
+    {
+     "h": "b308485a7f068b5f",
+     "n": 110,
+     "p": "Provide "
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Do not use tamoxifen** when lifetime risk is below 1.5 times population risk, after bilateral mastectomy, after DVT, PE or thrombotic stroke, after endometrial cancer, in smokers, in pregnancy or breastfeeding or when pregnancy is planned within 3 years, with anticoagulants, HRT or the combined pill, or with strong CYP2D6 inhibitors such as some antidepressants.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba1628a604bca50b",
+     "n": 686,
+     "p": "not reco"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Do not use an aromatase inhibitor** before menopause, with HRT, or when bone density testing in the past 2 years showed osteoporosis (take care with osteopenia).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8dc7e06048a15200",
+     "n": 333,
+     "p": "not reco"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Pre-treatment checklist:** formal risk assessment (refer to clinical genetics if the family history is concerning), full history including interacting drugs, menopausal status, a normal breast examination, and if age-appropriate a normal mammogram or breast MRI within 12 months.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9138f41290b2151c",
+     "n": 1040,
+     "p": "1. Forma"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Count a woman as post-menopausal only if** she is 60 or older, has had both ovaries removed, is under 60 with a uterus and more than 12 months of unexplained amenorrhoea, or is under 60 without a uterus and has FSH above 30 IU/L.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "40cecb5cb1f2e12f",
+     "n": 315,
+     "p": "Consider"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Start with a 6-8 week trial**, then review side-effects. A woman who cannot tolerate one option may manage low-dose tamoxifen, or after menopause a different medicine.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23a88f22ba08bc4b",
+     "n": 271,
+     "p": "Consider"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Tamoxifen practicalities:** premenopausal women start on day 1 of a period and use non-hormonal contraception; stop 4-6 weeks before elective surgery; stop at least 3 months before trying to conceive.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23c67ad30c3903a5",
+     "n": 115,
+     "p": "Instruct"
+    },
+    {
+     "h": "0d967b32165efa5e",
+     "n": 70,
+     "p": "Emphasis"
+    },
+    {
+     "h": "ab9e02e85e359fa6",
+     "n": 74,
+     "p": "Advise t"
+    },
+    {
+     "h": "008b4460c061da74",
+     "n": 96,
+     "p": "Advise p"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Review at least yearly until treatment stops:** reassess risk (especially after new family genetic results), manage side-effects and bleeding, check contraception and contraindications, arrange yearly imaging if age-appropriate, repeat bone density every 2 years on an aromatase inhibitor, and stop after 5 years at most.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d01ba74cd631e3c3",
+     "n": 596,
+     "p": "Schedule"
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**PBS and TGA status:** tamoxifen 20 mg is PBS-listed for women with lifetime risk at least 1.5 times the population level. Raloxifene is TGA-approved for high-risk post-menopausal women but has never been put forward for PBS listing, and the aromatase inhibitors are used off-label.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b68e8ba4c5fc3658",
+     "n": 254,
+     "p": "Tamoxife"
+    },
+    {
+     "h": "4711b776f03d3a3e",
+     "n": 199,
+     "p": "but has "
+    }
+   ],
+   "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  }
+ ]
+}
