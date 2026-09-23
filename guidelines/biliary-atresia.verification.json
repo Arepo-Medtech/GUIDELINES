@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/biliary-atresia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.21037/hbsn-2025-97"
+  "https://doi.org/10.21037/hbsn-2025-97",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103 'Diagnostic and management guidelines for biliary atresia in 2025' (published 4 September 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13449986). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103 'Diagnostic and management guidelines for biliary atresia in 2025' (published 4 September 2025), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13449986). S2: QUOTED from Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601) 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper' (published 7 November 2022), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9656543). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Edition 1.0 claim (S1, Chinese Medical Association 2025) unchanged and adds S2, the 2022 RARE-LIVER/BARD position paper on initial surgical and medical treatment (a 43-respondent practice survey with expert discussion), for the diagnostic work-up, KPE technique, adjuvant-therapy practice and long-term outcomes.",
  "summary": {
-  "total": 23,
-  "pass": 0,
+  "total": 34,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 23
  },
@@ -47,6 +48,27 @@
     }
    ],
    "locator": "Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103, 'Diagnostic and management guidelines for biliary atresia in 2025', published 4 September 2025, https://doi.org/10.21037/hbsn-2025-97, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Operate early:** the older the infant at KPE, the lower its success, both in clearing jaundice and in survival with the native liver. Biliary atresia accounts for an estimated 25–40% of neonatal cholestasis, so the first aim is to find a non-BA cause quickly.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In patients with BA, the age at which KPE is performed is negatively related to the success rate of the surgery, in terms both of clearance of jaundice and survival with native liver … It has been estimated that BA accounts for 25-40% of neonatal cholestasis []. Accordingly, the initial diagnostic strategy in infants with neonatal cholestasis aims to rapidly identify whether a condition other than biliary atresia is the cause of the cholestasis.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Work-up for neonatal cholestasis (per the NASPGHAN/ESPGHAN guideline):** recheck the newborn blood-screening results (galactosemia, hypothyroidism, cystic fibrosis); bloods including alpha-1-antitrypsin level and phenotype, thyroid hormone and TSH, bile acids, cortisol, glucose, lactate and metabolic tests; urine for reducing substances and infection (including CMV PCR); liver ultrasound, and X-ray for multisystem disease such as the butterfly vertebrae of Alagille syndrome.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The workup as indicated in the guidelines includes (re)checking of newborn blood-screening results (galactosemia, hypothyroidism, cystic fibrosis), and blood analyses including measurement of white blood counts, differential alpha-1-antitrypsin level and phenotype, thyroid hormone and TSH, bile acid concentration, cortisol, glucose, lactate, and metabolic parameters. Urine analysis is aimed at reducing substances (galactitol), and bacterial or viral infections (including CMV PCR). Imaging of the liver is performed by ultrasound for anatomical abnormalities (choledochal malformations, cholelithiasis) and by X-ray for evidence of multisystem disease (such as in Alagille syndrome, or butterfly vertebrae).",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hepatobiliary scintigraphy is no longer advocated** (low specificity). Most, but not all, centres do a percutaneous liver biopsy as the last step; biopsy features of biliary obstruction lead to intraoperative cholangiography and then KPE.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Most (but not all) centres perform a percutaneous liver biopsy as a final step in the diagnostic analysis. In case of sufficient histological indications compatible with biliary obstruction, particularly if combined with ductular reaction and fibrosis, the decision is frequently made to perform intraoperative cholangiography, followed by KPE, based on positive cholangiography or macroscopic absence of extrahepatic bile ducts. The diagnostic use of hepatobiliary scintigraphy for the discrimination of biliary atresia is no longer advocated, partly because of relatively low specificity [] which fails to abolish the need for liver biopsy and, if suspicious, an intraoperative cholangiogram.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Suspect biliary atresia when direct bilirubin is 17.1 µmol/L or more and over 20% of total bilirubin.** A GGT above 100 U/L raises the possibility; above 300 U/L makes it highly likely.",
@@ -169,6 +191,34 @@
    "locator": "Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103, 'Diagnostic and management guidelines for biliary atresia in 2025', published 4 September 2025, https://doi.org/10.21037/hbsn-2025-97, retrieved 2026-09-23"
   },
   {
+   "claim": "**European and North American practice is open KPE:** in the S2 survey only a single respondent did it laparoscopically. No report has shown laparoscopic KPE to be superior, and it has no advantage for jaundice clearance or native-liver survival.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There was only a single respondent who would perform the KPE laparoscopically, all others opting for a conventional open technique. … However, no report has shown or even implied its superiority to the more conventional open approach, and indeed it is difficult to see a real rationale for this technique beyond the cosmetic. Certainly, in terms of the primary objective-clearance of jaundice and preservation of the native liver-it clearly has no advantage.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Technique:** a retrocolic Roux loop, 25–50 cm for 90% of respondents, and an end-to-side portoenterostomy. A randomised trial of 166 infants found no difference in cholangitis (43% vs. 47%) or jaundice clearance (45% vs. 50%) with a short (13–20 cm) loop.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The preferred length of the retrocolic Roux loop was 25-50 cm for 90% of respondents, but 5% aimed for less than this while 5% aimed for more. … All surgeons performed an end-to-side portoenterostomy using either an interrupted (48%) or running stitch (43%) or both (9%) … Most recently, a Chinese centre prospectively randomized 166 infants, comparing standard length with a short length (13-20 cm) []; there was no difference in incidence of cholangitis (43% vs. 47%) or clearance of jaundice (45% vs. 50%).",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About 20% of cases have a structurally normal gallbladder filled with clear mucus.** Some centres, particularly in France, then do a portocholecystostomy, which effectively abolishes the risk of post-operative cholangitis but has a higher revision rate for leaks and obstruction.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "about 20% of cases have a gallbladder that is structurally normal (evident on ultrasound) but is filled with clear mucus. … Some centres, particularly in France, would consider a portocholecystostomy (i.e., the gallbladder opened and anastomosed to the transected portal plate) for BA to make use of this feature []. This option effectively abolishes the risk of post-operative cholangitis, although has a higher revision rate for leaks and obstruction.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Operate with a later transplant in mind:** KPE done in a centre that does not perform liver transplantation adversely affected hepatectomy time, bleeding and transplant prognosis. Avoid unnecessary exposure of the intestines outside the abdomen, and avoid abdominal drains, to reduce adhesions.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "that duration of total hepatectomy, bleeding, and prognosis of liver transplantation were adversely impacted when KPE was performed in a centre that does not perform liver transplantation. … Operative details which may reduce adhesions include avoidance of unnecessary exposure of the intestines outside the abdomen, avoidance of abdominal drains",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Steroids after KPE improve jaundice clearance but not proven native-liver survival,** and remain contested; high doses (methylprednisolone above 4 mg/kg/day) have impaired growth up to 6 years of age.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -236,6 +286,27 @@
    "locator": "Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103, 'Diagnostic and management guidelines for biliary atresia in 2025', published 4 September 2025, https://doi.org/10.21037/hbsn-2025-97, retrieved 2026-09-23"
   },
   {
+   "claim": "**Practice after KPE (S2 survey):** most prescribed prophylactic antibiotics for more than 1 week (82%) and ursodeoxycholic acid (94%); half used steroids; none used immunoglobulins, farnesoid X receptor agonists or IBAT inhibitors.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Post-operatively, most respondents felt that prophylactic antibiotics should be prescribed for >1 week (82%) and the regimen should include ursodeoxycholic acid (94%). Respondents were split between use of steroids (50%) and no one used immunoglobulins, farnesoid X receptor agonists, or ileal bile acid transporter (IBAT) inhibitors.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Steroids after KPE remain among the most controversial treatments:** large studies and a Shanghai randomised trial support them, other studies show no benefit, and side effects and impaired growth increase. Worldwide use ranges from 0–100%.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The use of corticosteroids post-KPE is among the more controversial aspects of treatment. Large studies have supported its use [], including a recent randomised trial from Shanghai []. However, there have also been studies indicating no discernible benefit according to the available evidence []. Despite this gap in therapeutic support for steroids post-KPE, along with evidence of an increase in side effects and impaired growth among patients receiving steroids []; half (17/34) of respondents to the survey reported their use. This is a crucial issue, as use of corticosteroids post-KPE varies widely around the globe-from 0-100%.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IBAT inhibitors after KPE are still investigational:** maralixibat (Phase 2, EMBARK) and odevixibat (Phase 3, BOLD, native-liver survival at 2 years). They are approved in many countries for pruritus in Alagille syndrome and PFIC.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "These studies are focussed on maralixibat (Phase 2, NCT 04524390; EMBARK), assessing a short-term outcome of reduction in total bilirubin at 6 months, and odevixibat (Phase 3 NCT 04336722; BOLD), with a clinical outcome measure of improvement of NLS at 2 years. … IBAT inhibitors are approved in many countries for relief of pruritus in children with Alagille syndrome and PFIC",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Add MCT to feeds after KPE** to support growth (2B), and replace fat-soluble vitamins as needed (1B).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -275,6 +346,13 @@
    ],
    "locator": "Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103, 'Diagnostic and management guidelines for biliary atresia in 2025', published 4 September 2025, https://doi.org/10.21037/hbsn-2025-97, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Expected outcomes:** native-liver survival at age 2 is about 45–65%, varying between centres and countries, and falls to about 25% by early adulthood. At least three-quarters of children with biliary atresia need a liver transplant in their lifetime: KPE is essentially palliative, the first step of treatment.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "the expected early results of KPE are native liver survival (NLS) at age 2 of ~45-65%, with significant variability between centres and countries … leading ultimately to NLS rates of ~25% by the beginnings of adulthood … At least three-quarters of BA patients will need LT in their lifetime [,]. KPE is essentially palliative in nature and is typically only the first step of treatment.",
+   "locator": "Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601), 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper', published 7 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656543/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Refer for transplant assessment promptly if total bilirubin is above 100 µmol/L three months after KPE.** Other triggers: failed drainage, progressive cirrhosis, intractable malnutrition, recurrent cholangitis, or complications of portal hypertension.",

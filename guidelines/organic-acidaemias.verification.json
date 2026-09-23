@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/organic-acidaemias.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1002/jimd.12370"
+  "https://doi.org/10.1002/jimd.12370",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley) 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision' (vol. 44, pp. 566–592, published 9 March 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8252715 ('open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License')). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley) 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision' (vol. 44, pp. 566–592, published 9 March 2021), 17 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8252715 ('open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License')). S2: QUOTED from Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002) 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN' (published 6 September 2024), 12 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at Europe PMC fullTextXML <license> element for PMC11652068). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, the 2024 ERKNet/MetabERN consensus on kidney disease, dialysis and transplantation in MMA (CC BY, quoted). The candidate named for this pass, the isovaleric acidaemia review PMC12551068 (already S1 of `isovaleric-acidaemia`), was assessed and not used: its MMA/PA statements only restate S1. S2 was found by one Europe PMC search.",
  "summary": {
-  "total": 17,
-  "pass": 0,
+  "total": 29,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 17
  },
@@ -345,6 +346,92 @@
     }
    ],
    "locator": "Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley), 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision', vol. 44, pp. 566–592, published 9 March 2021, https://doi.org/10.1002/jimd.12370, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Chronic kidney disease is common in isolated MMA and depends on subtype:** 47% of 30 cobalamin-unresponsive patients; in 82 patients, mut0 61% and cblB 66% but cblA 21% and mut− 0%. Median age at CKD was 8 years (mut0), 13.5 years (cblB) and 11 years (cblA). Function can fall within a few years, so monitor closely.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a series of 30 patients with cobalamin-unresponsive MMA (mut0, mut-, and cblB), 47% developed CKD. A larger series, including 82 patients demonstrated that CKD was most common in patients with mut0 (61%) and cblB (66%) and occurred less frequently in patients with cblA (21%) and mut- (0%) during the study period. Median age at CKD presentation was 8 years (mut0), 13.5 years (cblB), and 11 years (cblA). Thus, in terms of kidney impairment, individuals with mut0 and cblB-type MMA are considered severely affected regarding morbidity and mortality, whereas mut--type and cblA-type MMA exhibit a more attenuated disease course. In most patients with MMA who exhibit kidney failure, deterioration of kidney function may occur in a few years, requiring vigilant monitoring.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not rely on creatinine-based eGFR:** low muscle mass and the low-protein diet make CKD-EPI and Schwartz overestimate kidney function (bias 16 ± 15 and 37 ± 22 ml/min per 1.73 m2 against measured GFR). Use cystatin C equations (grade B, strong) and measured GFR by iohexol clearance when possible. Kidney biopsy is generally not required.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Compared to measured GFR, bias estimation of 16 ± 15 ml/min per 1.73 m2 and 37 ± 22 ml/min per 1.73 m2 have been published for CKD-Epidemiology Collaboration and Schwartz, respectively. … Kidney biopsy is generally not required. … Because both CKD-Epidemiology Collaboration and Schwartz formulae significantly overestimate renal function in patients with MMA, use cystatin C based equations rather than creatinine-based equations for the estimation of GFR. Grade B, strong. • Measured GFR using iohexol clearance can be performed when possible. Grade B, moderate.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check tubular function and kidney growth:** plasma electrolytes, uric acid, acid-base balance, low-molecular-weight proteinuria and calcium-phosphate balance. Kidney growth runs at about one-third to one-half of normal; repeated kidney ultrasound could be proposed in children.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Proximal tubular function may be assessed by measurement of plasma electrolytes, uric acid, acid base balance, low molecular weight proteinuria, calcium phosphate balance. … The rate of kidney growth in MMA individuals is impaired by about one-third to one-half of normal values. Kidney growth is predicted by height and correlates negatively with serum cystatin C and plasma MMA concentrations (pMMA). In order to evaluate kidney growth in children, repeated kidney ultrasound could be proposed.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No treatment is proven to preserve kidney function, so follow standard CKD care** (grade C). S2's standard long-term treatment includes oral L-carnitine 100–200 mg/kg/d in 2–4 doses, hydroxocobalamin if cobalamin-responsive, carglumic acid for hyperammonaemia, growth hormone in selected children with CKD, and bicarbonate by acid-base balance.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Given that there is no evidence for specific treatment strategies that preserve kidney function in patients with MMA, we suggest following standard recommendations for CKD impairment. Grade C, moderate. … Administration of oral L-carnitine (100-200 mg/kg/d in 2-4 doses) … Vitamin B12 (hydroxocobalamin) in cobalamin-responsive patients with MMA. … Acute and long-term treatment with carglumic acid (N-carbamylglutamate), a structural analog of N-acetyl-glutamate which stimulates carbamoylphosphate synthase and promotes the removal of ammonia via the urea cycle, may be beneficial for the management of hyperammonemia. … Consider rhGH treatment in selected cases with CKD. 6. Bicarbonate supplementation according to acid base balance.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Pancreatitis risk:** because pancreatitis may be triggered by hypercalcaemia, monitor serum calcium and vitamin D closely and keep calcium in the low-normal range.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Given the high risk of pancreatitis in children with MMA, and that pancreatitis may be triggered by hypercalcemia, careful monitoring of serum calcium and vitamin D levels, and adjusting medications to keep serum calcium in the low-normal range is recommended.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**With CKD, follow plasma MMA rather than urinary MMA** (urinary excretion falls with GFR), together with ammonia, lactate, amino acids and acid-base status, with expert dietetic support (grade B, strong).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In patients with MMA with CKD, the metabolic follow-up should rely on pMMA concentration rather than urinary MMA concentration and should include other parameters such as ammonia, lactate, amino acid levels, and acid base status. Expert dietetic support should ensure adequate nutritional status. Grade B, strong.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Acute dialysis when initial medical management fails** in a decompensation with severe neurological symptoms, a change in consciousness, or persistent ketoacidosis with high or rising ammonium or lactate. Do not wait for MMA results. Continuous veno-venous or intermittent haemodialysis is preferred to peritoneal dialysis for rapid control.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Acute dialysis is required in the following acute situations when initial optimal medical management fails acute severe neurological symptoms, change in level of consciousness, persistent ketoacidosis with rapidly increasing or high plasma ammonium and/or lactate level. It is important to note that clinicians should not wait for results of plasma and/or urine MMA levels, which are usually not available in an emergency, prior to starting dialysis. … Acute Dialysis. Continuous veno-venous HD or intermittent HD are preferred to PD to achieve rapid metabolic control. Grade C, moderate.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Long-term dialysis:** start it when plasma MMA rises with metabolic or clinical instability despite optimised protein intake and medicines, often at a higher eGFR than usual. Do not cut protein to control plasma MMA; on dialysis natural protein can be increased. Haemodialysis needs 4 or 5 hours per session, at least 4 sessions a week; use bicarbonate-based fluids (grade X, strong).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Long-term dialysis may be required for clearance of toxic metabolites. Start dialysis when pMMA concentrations are rising with metabolic or clinical instability despite an optimized controlled protein intake and medications. Dialysis may be required at higher eGFR levels compared to those without MMA. Grade C, moderate. • Do not decrease protein intake to control pMMA concentrations. … HD sessions should last 4 or 5 hours per session with at least 4 sessions per week. … On dialysis, the natural protein intake can be increased (according to biochemical profile) to prevent chronic protein malnutrition. … Use bicarbonate-based dialysis fluid in preference to acetate or lactate-based dialysis fluids for HD and PD. Grade X, strong.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Which transplant:** consider liver transplantation early, before CKD progresses; prefer combined liver-kidney transplantation at CKD stage 3b, 4 and 5. Kidney transplant alone lowers plasma MMA less, and may be discussed in adults (especially cblA), late-onset forms or limited life expectancy.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Liver transplantation should be considered early and before CKD progresses to improve metabolic control, reduce neurological risk, and minimize late multi-organ complications and disease burden. Combined LKT should be preferred in patients with MMA with CKD stage 3b, 4, and 5. … The KT alone allows to correct kidney function but does not reduce the pMMA concentrations as much as LKT. … Isolated KT may be discussed situations, including adults (especially cblA patients) and late-onset forms because it is associated with less morbidity or children with limited life expectancy.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Transplant surgery:** replace fasting with 10% glucose infusion with electrolytes (and lipids) at age-appropriate calories, plus IV L-carnitine (grade B, strong). Glucose from 4 to 8 mg/kg/min by age needs close monitoring for high lactate or glucose. After transplant check lactate every 4 hours and give thiamine.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "During surgery, fasting should be prevented by balanced glucose infusions containing 10% glucose with electrolytes (and lipids) at the appropriate age-dependent calories intake to block catabolism during procedure. i.v., L-carnitine should be added. Grade B, strong. … Glucose infusion (from 4 mg/kg/min to 8 mg/kg/min according to age) in the perioperative management requires close monitoring due to the risk of hyperlactatemia and/or hyperglycemia. … Immediately after transplant, lactate should be checked often (every 4 hours) because metabolic acidosis may occur. In case of a high lactate level, dialysis could be started. Vitamin B1 (thiamine) should also be administered in a pharmacological dose in this acute context.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**After transplant, continue L-carnitine for life** (grade B, strong); natural protein can usually rise, to about 0.8 g/kg in adults and up to 1.5 g/kg in children, guided by lactate, plasma and urine MMA and amino acids.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "After transplantation, patients with MMA should continue supplementation with L-carnitine. Grade B, strong. … In our experience, patients can tolerate a natural protein intake of approximately 0.8 g/kg in adults, up to 1.5 g/kg in children, according to CKD requirements, discussed case by case and adjusted according to the monitoring of the recommended biomarkers: lactate, plasma and urinary MMA, and plasma aminoacids",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Tacrolimus is particularly poorly tolerated in MMA:** calcineurin-inhibitor neurotoxicity can look exactly like a metabolic stroke, and needs prompt dose reduction or withdrawal. Early after transplant a calcineurin inhibitor is recommended, with cyclosporine better tolerated than tacrolimus; mTOR inhibitors could replace them for maintenance in adults.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Tacrolimus, the CNI usually used in solid organ transplantation, may be associated with sudden onset of tremor (basal ganglia toxicity) in all patients and is particularly poorly tolerated in patients with MMA. Given that CNI-induced neurotoxicity may be clinically indistinguishable from a metabolic stroke, a careful clinical, biochemical, and neuroradiological assessment is required to distinguish between both entities whose therapy is strikingly different, with prompt tacrolimus reduction or discontinuation in CNI-induced neurotoxicity. … In the early course after transplantation, we recommend the use of CNI with an increasing evidence that cyclosporine has a more favorable tolerance profile than tacrolimus. … For maintenance therapy, mTOR inhibitors could be considered alternatively to avoid CNI in adults.",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
   }
  ]
 }

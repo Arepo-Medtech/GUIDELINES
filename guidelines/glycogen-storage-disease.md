@@ -1,9 +1,13 @@
 # Glycogen storage disease type I (GSD Ia and Ib)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** glycogen storage disease type I (Ia and Ib): diagnosis, preventing hypoglycaemia (frequent feeds, overnight tube feeds, uncooked cornstarch and modified cornstarch), treating hypoglycaemia, liver adenoma surveillance, kidney protection, anaemia and GSD Ib neutropenia, surgery, contraception and pregnancy. Other GSD types (III, VI, IX) are not covered. Hypoglycaemia in an unwell child: `hypoglycaemia-children`, `metabolic-disorders-children`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 18 claims paraphrased from **Kishnani PS, Austin SL, Abdenur JE, et al., Genetics in Medicine (ACMG) — *Diagnosis and management of glycogen storage disease type I: a practice guideline of the American College of Medical Genetics and Genomics*** (vol. 16, e1, published 2014; origin: international). **38 anchors re-checkable by machine; 3 doses.** The source's words are not reproduced: its licence is *© American College of Medical Genetics and Genomics (free to read; no open licence)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **70 fragments or anchors re-checkable by machine; 6 doses.** **S1** Kishnani PS (vol. 16, e1, published 2014; international): 18 claims, paraphrased, hash-anchored · **S2** Grünert SC (published online 17 January 2024; international): 12 claims, quoted
+
+> 🌐 **Two sources.** S1 (ACMG, 2014) covers GSD I as a whole. **S2** (international expert consensus, 2024) covers only empagliflozin for GSD Ib neutropenia and neutrophil dysfunction; its recommendations are grade C or D (observational data and expert opinion). Where they differ, both are shown.
+
+> ⚠️ **Empagliflozin for GSD Ib is off-label** (S2: FDA-approved only for type 2 diabetes from age 10 and heart failure; EMA only in adults) and the PBS `Glycogen storage disease` row does not list it. Check TGA and PBS status and local off-label processes before prescribing.
 
 > ⚠️ International guideline (ACMG practice guideline, 2014; older than 5 years). Australian practice follows the PBS listings below and may differ.
 
@@ -41,6 +45,21 @@
 - **Heart and general care:** screen blood pressure from infancy, keep lipids normal, and screen for pulmonary hypertension by echocardiography from age 10 years, every 3 years. Avoid drugs that cause hypoglycaemia, and contact or competitive sports. [S1]
 - **Contraception and pregnancy:** avoid oestrogen contraceptives (adenoma risk) and, in GSD Ib, an IUD; plan pregnancies, stop ACE inhibitors, allopurinol and lipid-lowering drugs, and have a high-risk obstetric team manage them. [S1]
 
+## GSD Ib neutropenia: empagliflozin (S2, 2024)
+
+- ⚠️ **Empagliflozin is now the mechanism-based treatment for GSD Ib neutropenia and neutrophil dysfunction** (mucosal lesions, IBD): start it in all GSD Ib individuals with clinical or laboratory signs related to neutropenia/neutrophil dysfunction, at 0.3–0.4 mg/kg/d as a single dose in the morning. Treatment can be started as an outpatient. [S2]
+- **Also start it** when family history suggests the child will become symptomatic, before surgery that is common in GSD Ib (PEG tube, liver transplant), and when daily G-CSF is needed to control oral or systemic infections. There is no evidence for starting it in adults without symptoms of neutropenia or neutrophil dysfunction. [S2]
+- ⚠️ **Titrate by response and side effects in 0.05 mg steps, using the lowest necessary dose;** in children and adolescents over 10 years, 10 mg/day is a reasonable start. Tablets are 10 and 25 mg; they can be divided, or ground and suspended in water for tube feeding. [S2]
+- **Give one dose a day, about one hour after breakfast or the morning cornstarch,** so peak levels fall in the daytime when children can be supervised. Split it in two if hypoglycaemia or glucose problems persist, glucosuria is not sustained over 24 h on dipstick, or the clinical response (diarrhoea, mucosal lesions) is inadequate. [S2]
+- ⚠️ **Hypoglycaemia is the commonest effect (about 18%).** Start in hospital for nonverbal children, short fasting tolerance, or evening dosing (then use CGM overnight). Use CGM, or frequent capillary glucose checks, in everyone while starting, and optimise metabolic control first. [S2]
+- ⚠️ **Pause empagliflozin immediately with gastroenteritis (vomiting or acute diarrhoea), febrile infection or threatening dehydration:** severe, potentially life-threatening keto- and lactic acidosis has been reported, mainly with gut infections. Minor surgery needs no break; pause it at least 3 days before long operations or anaesthesia. [S2]
+- ⚠️ **Attempt to stop G-CSF in everyone** (it is associated with myelodysplastic syndrome and leukaemia); consider tapering from 2 (−4) weeks after starting empagliflozin. Many remain neutropenic despite an excellent clinical response, so neutropenia without signs of neutrophil dysfunction is not a reason to raise the dose. [S2]
+- **Side effects:** for recurrent urinary infections look for anatomical causes and prefer antibiotic prophylaxis to a lower dose; treat genital infections topically. Reduce the dose for recurrent hypoglycaemia or worse metabolic control, side effects such as hypertriglyceridaemia, renal insufficiency, or weight change. [S2]
+- ⚠️ **Kidney function (extrapolated from diabetes):** with GFR below 60 ml/min/1.73 m2 do not exceed 10 mg; empagliflozin is not recommended below 30 ml/min/1.73 m2. [S2]
+- **Monitor:** kidney tests including GFR; glucose; full blood count; CRP; ESR; iron studies; albumin; uric acid; an IBD activity index; 1,5-AG if available; and urine dipstick for glucosuria twice daily for the first 3 days. Check everything at baseline and at 4–6 weeks, the blood count and urine at 1 week, then every 3–6 months. Neutrophil function tests are not needed. [S2]
+- **Once on empagliflozin:** encourage those who previously could not tolerate starches to try them again; consider stopping other neutropenia treatments such as vitamin E in symptom-free individuals; IBD may resolve, so IBD therapy can be tapered. [S2]
+- ⚠️ **Pregnancy and transplant:** consider stopping SGLT2 inhibitors in pregnancy and breastfeeding (inadvertent pregnancies on them showed more miscarriages and malformations). After liver transplant neutropenia persists, so continue empagliflozin, restarting at an individually chosen time. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -58,15 +77,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Glucose units:** the source uses mg/dl (70 mg/dl ≈ 3.9 mmol/l; the text also gives 4 mmol/l as the overnight target). Australian laboratories report mmol/L. | `observation` |
-| 2 | **GSD Ib neutropenia:** since 2014, empagliflozin has become an established treatment (international consensus, Mol Genet Metab 2024, CC BY). This 2014 guideline predates it and recommends G-CSF only. | `observation` |
-| 3 | **Other GSD types** covered by the PBS row (e.g. GSD III) are outside this source. A candidate CC BY source: 'French recommendations for the management of glycogen storage disease type III', Eur J Med Res 2023 (PMC10364360), not yet assessed. | `out_of_scope` |
-| 4 | **Food lists and mutation tables** (Tables 3–4) were not anchored. | `input_unavailable` |
-| 5 | **Licence:** © ACMG, free to read, no open licence. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **GSD Ib neutropenia:** S1 (2014) predates empagliflozin and recommends G-CSF only; S2 (2024 consensus) makes empagliflozin the treatment and advises attempting to stop G-CSF in everyone. Both are shown; S2 is the current position. | `observation` |
+| 3 | **Gastrostomy in GSD Ib:** S1 advises a G-tube only if G-CSF is given; S2 notes PEG tubes are better tolerated on empagliflozin and suggests a few days of combined G-CSF and empagliflozin after placement. The S1 claim is kept as written. | `observation` |
+| 4 | **Other GSD types** covered by the PBS row (e.g. GSD III) are outside this source. The CC BY 'French recommendations for the management of glycogen storage disease type III' (Eur J Med Res 2023, PMC10364360) was assessed on 2026-09-24: it covers GSD III only, so it belongs in a separate GSD III page rather than this GSD I one. | `out_of_scope` |
+| 5 | **Food lists and mutation tables** (Tables 3–4) were not anchored. | `input_unavailable` |
+| 6 | **Licence:** © ACMG, free to read, no open licence. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Kishnani PS, Austin SL, Abdenur JE, et al., Genetics in Medicine (ACMG). *Diagnosis and management of glycogen storage disease type I: a practice guideline of the American College of Medical Genetics and Genomics*. vol. 16, e1, published 2014. https://doi.org/10.1038/gim.2014.128 — retrieved 2026-09-23. | © American College of Medical Genetics and Genomics (free to read; no open licence) | **paraphrased, hash-anchored** |
+| **S2** | Grünert SC, Derks TGJ, Mundy H, et al., international expert workshop (Salzburg, February 2023); Molecular Genetics and Metabolism 141(3):108144 (doi 10.1016/j.ymgme.2024.108144). *Treatment recommendations for glycogen storage disease type IB-associated neutropenia and neutrophil dysfunction with empagliflozin: Consensus from an international workshop*. published online 17 January 2024. https://doi.org/10.1016/j.ymgme.2024.108144 — retrieved 2026-09-24. | CC BY 4.0 ('This is an open access article under the CC BY license') | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

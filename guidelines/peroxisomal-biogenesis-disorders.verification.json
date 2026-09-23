@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/peroxisomal-biogenesis-disorders.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1016/j.ymgme.2015.12.009"
+  "https://doi.org/10.1016/j.ymgme.2015.12.009",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Braverman NE, Raymond GV, Rizzo WB, Moser AB, Wilkinson ME, Stone EM, Steinberg SJ, Wangler MF, Rush ET, Hacia JG, Bose M; Molecular Genetics and Metabolism 117(3):313-321 (NIH author manuscript PMC5214431) 'Peroxisome biogenesis disorders in the Zellweger spectrum: An overview of current diagnosis, clinical manifestations, and treatment guidelines' (published online 23 December 2015 (issue March 2016)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Elsevier; NIH author manuscript, 'available for text mining' and fair use only (read at NCBI efetch JATS XML <license> element for PMC5214431 (Europe PMC holds no full text for this manuscript)). The source's words are NOT reproduced here. Europe PMC fullTextXML returned no record for this author manuscript, so the JATS XML was fetched from NCBI efetch and its citation labels (ref-type=\"ref\") renamed to \"bibr\" before running pmc_text.py.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Braverman NE, Raymond GV, Rizzo WB, Moser AB, Wilkinson ME, Stone EM, Steinberg SJ, Wangler MF, Rush ET, Hacia JG, Bose M; Molecular Genetics and Metabolism 117(3):313-321 (NIH author manuscript PMC5214431) 'Peroxisome biogenesis disorders in the Zellweger spectrum: An overview of current diagnosis, clinical manifestations, and treatment guidelines' (published online 23 December 2015 (issue March 2016)), 19 claims; LICENCE: © Elsevier; NIH author manuscript, 'available for text mining' and fair use only (read at NCBI efetch JATS XML <license> element for PMC5214431 (Europe PMC holds no full text for this manuscript)). S2: QUOTED from Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9) 'Zellweger spectrum disorders: clinical overview and management approach' (published 1 December 2015), 12 claims; LICENCE: CC BY 4.0 (© Klouwer et al. 2015) (read at Europe PMC fullTextXML <license> element for PMC4666198). Verify each source separately: verify.py --source <file> --only-source S<n>. Europe PMC fullTextXML returned no record for this author manuscript, so the JATS XML was fetched from NCBI efetch and its citation labels (ref-type=\"ref\") renamed to \"bibr\" before running pmc_text.py. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, the 2015 Amsterdam clinical overview by Klouwer et al. (CC BY, quoted), for presentation by age group, prognosis, fibroblast and newborn-screening diagnostics, genetic counselling, adrenal treatment thresholds, citrate for hyperoxaluria and the status of unproven therapies. Its tables and figures (including the diagnostic flow-chart and Table 4 of therapies) were stripped.",
  "summary": {
-  "total": 19,
-  "pass": 0,
+  "total": 31,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 19
  },
@@ -65,6 +66,34 @@
     }
    ],
    "locator": "Braverman NE, Raymond GV, Rizzo WB, Moser AB, Wilkinson ME, Stone EM, Steinberg SJ, Wangler MF, Rush ET, Hacia JG, Bose M; Molecular Genetics and Metabolism 117(3):313-321 (NIH author manuscript PMC5214431), 'Peroxisome biogenesis disorders in the Zellweger spectrum: An overview of current diagnosis, clinical manifestations, and treatment guidelines', published online 23 December 2015 (issue March 2016), https://doi.org/10.1016/j.ymgme.2015.12.009, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 groups patients by age at presentation: neonatal-infantile, childhood and adolescent-adult (late).** Heimler syndrome was recently recognised as a peroxisome biogenesis disorder and added to the (very) mild end of the spectrum.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients with a ZSD can roughly be divided into three groups according to the age of presentation: the neonatal-infantile presentation, the childhood presentation and an adolescent-adult (late) presentation … Recently, Heimler syndrome was recognized as a peroxisome biogenesis disorder within the Zellweger spectrum and added to the (very) mild end of the clinical spectrum",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Neonatal-infantile presentation:** hepatic dysfunction and profound hypotonia, causing prolonged jaundice and feeding difficulties; seizures are usual. Calcific stippling (chondrodysplasia punctata) may be present, especially in the knees and hips.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "ZSD patients within this group typically present in the neonatal period with hepatic dysfunction and profound hypotonia resulting in prolonged jaundice and feeding difficulties. Epileptic seizures are usually present in these patients. … Calcific stippling (chondrodysplasia punctata) may be present, especially in the knees and hips.",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Childhood presentation:** usually delayed milestones, retinitis pigmentosa, cataract or glaucoma, sensorineural deafness (almost always present) and hepatic dysfunction with coagulopathy. Kidney oxalate stones and adrenal insufficiency may develop. Early-onset progressive leukodystrophy can take away acquired skills, but no rapid late-onset white matter disease after the age of five has been reported.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Presentation at the outpatient clinic usually involves delayed developmental milestone achievement. Ocular abnormalities comprise retinitis pigmentosa, cataract and glaucoma, often leading to early blindness and tunnel vision []. Sensorineural deafness is almost always present and usually discovered by auditory screening programs. Hepatomegaly and hepatic dysfunction with coagulopathy, elevated transaminases and (history of) hyperbilirubinemia are common. … Renal calcium oxalate stones and adrenal insufficiency may develop. Early-onset progressive leukodystrophy may occur, leading to loss of acquired skills and milestones in some individuals. … but no patients with late-onset rapid progressive white matter disease after the age of five have been reported",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Adolescent-adult presentation** can be diagnosed in late childhood or adulthood: eye and hearing problems are the most consistent features, dysmorphism may be absent and intelligence can be normal. Primary adrenal insufficiency is common and probably under-diagnosed. Peripheral neuropathy, cerebellar ataxia and pyramidal signs are usual; the course is slowly progressive.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Symptoms in this group are less severe, and diagnosis can be in late child- or even adulthood []. Ocular abnormalities and a sensorineural hearing deficit are the most consistent symptoms. Craniofacial dysmorphic features can be present, but may also be completely absent (Fig. 2d-f). Developmental delay is highly variable and some patients may have normal intelligence. … It is important to emphasize that primary adrenal insufficiency is common and is probably under diagnosed []. In addition to some degree of developmental delay, other neurological abnormalities are usually also present: signs of peripheral neuropathy, cerebellar ataxia and pyramidal tract signs. The clinical course is usually slowly progressive",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
   },
   {
    "claim": "**Start with fasting plasma very-long-chain fatty acids (VLCFA);** repeat after an overnight fast if the result is equivocal. A ketogenic diet can give a false positive.",
@@ -137,6 +166,27 @@
     }
    ],
    "locator": "Braverman NE, Raymond GV, Rizzo WB, Moser AB, Wilkinson ME, Stone EM, Steinberg SJ, Wangler MF, Rush ET, Hacia JG, Bose M; Molecular Genetics and Metabolism 117(3):313-321 (NIH author manuscript PMC5214431), 'Peroxisome biogenesis disorders in the Zellweger spectrum: An overview of current diagnosis, clinical manifestations, and treatment guidelines', published online 23 December 2015 (issue March 2016), https://doi.org/10.1016/j.ymgme.2015.12.009, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2's first-line tests** also include C26:0-lysoPC in dried blood spots and urine bile acids and oxalic acid. Mildly affected patients may have (near) normal blood and urine tests: if suspicion stays high, test fibroblasts, including culture at 40 °C. Confirm by mutation analysis in all patients; biochemical testing is still needed to confirm that a sequenced variant is pathogenic.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "This testing includes measurement of VLCFAs, the peroxisomal bile acid intermediates di- and trihydroxycholestanoic acid (DHCA, THCA), the branched-chain fatty acids phytanic and pristanic acid, and pipecolic acid in plasma, plasmalogen levels in erythrocytes, and C26:0-lysoPC in dried blood spots. Additionally, bile acids and oxalic acid can be analyzed in urine … It is important to note that relatively mild ZSD patients may have (near) normal biochemical tests in plasma and urine [-]. If clinical suspicion of a ZSD is high and peroxisomal parameters in blood and urine are normal, further testing in fibroblasts is recommended, including culturing the fibroblasts at 40 °C … Subsequent mutation analysis of the defective PEX gene is done in all patients to confirm the diagnosis. … However, biochemical testing in blood and/or fibroblasts is still required in these cases to confirm pathogenicity of the identified mutations and to characterize the extent of the deficiency.",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Newborn screening for X-linked adrenoleukodystrophy** (C26:0-lysoPC in dried blood spots) will also pick up ZSD at birth, but severity and progression are hard to predict for an individual child.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The screening method is based on C26:0-lysophosphatidylcholine (C26:0-lysoPC) measurement in dried bloodspots using LC-MS/MS technology, which will also identify ZSD patients … the severity and progression of the disease is difficult to predict for individual patients.",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Offer genetic counselling to parents.** Carriers can have prenatal or preimplantation genetic diagnosis once the family's PEX variants are known; otherwise biochemical prenatal testing on chorionic villi or amniocytes is possible if the index patient's cells were clearly abnormal.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Because of the poor outcome and high disease burden associated with the majority of ZSDs, genetic counseling should be offered to parents of affected children. Carriers can be offered prenatal- or preimplantation genetic diagnosis. Before prenatal genetic testing can be performed the familial pathogenic mutation (s) in one of the PEX genes need (s) to be identified []. If the PEX mutations are unknown or cannot be detected, biochemical prenatal testing for ZSD is possible in chorionic villus biopsy material, cultured chorionic villus cells or cultured amniocytes. Biochemical prenatal testing can only be performed in case of clear biochemical abnormalities in cells from the index patient",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
   },
   {
    "claim": "**Assess every organ system at diagnosis** and re-evaluate at least yearly to catch progression early.",
@@ -313,6 +363,13 @@
    "locator": "Braverman NE, Raymond GV, Rizzo WB, Moser AB, Wilkinson ME, Stone EM, Steinberg SJ, Wangler MF, Rush ET, Hacia JG, Bose M; Molecular Genetics and Metabolism 117(3):313-321 (NIH author manuscript PMC5214431), 'Peroxisome biogenesis disorders in the Zellweger spectrum: An overview of current diagnosis, clinical manifestations, and treatment guidelines', published online 23 December 2015 (issue March 2016), https://doi.org/10.1016/j.ymgme.2015.12.009, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **S2: give cortisone only for true adrenal insufficiency (an abnormal Synacthen test),** because it can cause severe side effects such as growth suppression and osteoporosis.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Because supplementation of cortisone is associated with severe side effects, such as growth suppression and osteoporosis [], only patients with a true insufficiency (i.e. altered Synacthen test) should be treated.",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Kidney and vaccines:** screen older children (from about 4-6 years) for hyperoxaluria with urine oxalate and creatinine, and ultrasound for stones; give routine vaccines plus yearly influenza and RSV vaccination.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -329,6 +386,34 @@
     }
    ],
    "locator": "Braverman NE, Raymond GV, Rizzo WB, Moser AB, Wilkinson ME, Stone EM, Steinberg SJ, Wangler MF, Rush ET, Hacia JG, Bose M; Molecular Genetics and Metabolism 117(3):313-321 (NIH author manuscript PMC5214431), 'Peroxisome biogenesis disorders in the Zellweger spectrum: An overview of current diagnosis, clinical manifestations, and treatment guidelines', published online 23 December 2015 (issue March 2016), https://doi.org/10.1016/j.ymgme.2015.12.009, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Kidney stones are common: 83% in a large Dutch cohort.** S2 screens urine oxalic acid every year, starts oral citrate for hyperoxaluria to prevent stones, and advises enough fluid.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a large cohort of Dutch ZSD patients a high prevalence of 83 % of renal calcium oxalate stones was shown []. For this reason, patients should be screened for the presence of high levels of oxalic acid in urine yearly. To prevent the formation of renal stones, patients with hyperoxaluria should start oral citrate treatment. Furthermore, sufficient fluid intake is recommended",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Restrict dietary phytanic acid only when levels are extremely high,** not when moderately raised, since adequate calories matter more. Review eyes and hearing every year, and have a dentist follow the enamel hypoplasia present in nearly all patients.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A phytanic acid restricted diet is only necessary when levels of phytanic acid are extremely high and is not recommended when levels are moderately increased, as sufficient intake of calories is more decisive. Hearing and visual impairment should be (partly) corrected by hearing aids and glasses, with ophthalmologic and audiological evaluations yearly. Enamel hypoplasia, present in nearly all patients, should be followed-up by a dentist",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Unproven treatments (S2):** there is no reason to expect benefit from Lorenzo's oil; evidence is insufficient that cholic acid helps, despite its FDA approval; plasmalogen precursors (batyl alcohol) have never been studied systematically. Liver or hepatocyte transplantation has been reported in single patients only, without long-term outcomes.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "However, based on data of studies in X-ALD individuals, there is no reason to expect that Lorenzo's oil will be beneficial for ZSD patients at this point. … Current evidence is insufficient to conclude that cholic acid treatment is beneficial for patients with a ZSD. The Food and Drug Administration recently approved cholic acid as a safe treatment for ZSD patients in the United States. However, efficiency should be demonstrated in large clinical trials before this treatment can be implemented. … Although never studied systematically, ether lipid therapy could be of interest for ZSD. … An orthotopic liver transplantation was described in a single 6-month old ZSD patient and hepatocytes transplantation in another 4-year old patient [, ]. It resulted in decreased concentrations of VLCFAs and pipecolic acid, and improved bile acid profiles. However, the effect on long-term disease course has not been reported.",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prognosis:** severe neonatal-infantile disease usually means death within the first year. Childhood or adolescent presentations usually do better, but progressive liver disease or leukodystrophy carries a poor outlook. Milder patients can reach adulthood; later progression is mainly neuropathy and pyramidal signs, with stable cognition.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Children with the severe phenotype (neonatal-infantile presentation with severe clinical symptoms) have a poor prognosis and these patients usually die within the first year of life. Patients that present in childhood or adolescence usually have a better prognosis, but can develop progressive liver disease or leukodystrophy and deteriorate. If progressive liver disease or leukodystrophy occurs prognosis is poor. The remaining milder individuals can reach adulthood without progression or with long periods of stabilization. When progression occurs, it is mainly related to peripheral neuropathy and pyramidal signs, while cognition remains stable",
+   "locator": "Klouwer FCC, Berendse K, Ferdinandusse S, Wanders RJA, Engelen M, Poll-The BT; Orphanet Journal of Rare Diseases 10:151 (doi 10.1186/s13023-015-0368-9), 'Zellweger spectrum disorders: clinical overview and management approach', published 1 December 2015, https://pmc.ncbi.nlm.nih.gov/articles/PMC4666198/, retrieved 2026-09-24"
   }
  ]
 }

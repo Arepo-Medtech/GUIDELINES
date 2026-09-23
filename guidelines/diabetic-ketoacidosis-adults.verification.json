@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/diabetic-ketoacidosis-adults.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia 'Hyperglycaemic crises in adults with diabetes: a consensus report' (published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275)). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11343900). Source text: Europe PMC fullTextXML of the Diabetologia co-publication (CC BY 4.0). The Diabetes Care version (PMC11272983) is under a non-alteration licence and its full text was not available through Europe PMC or NCBI efetch, so it was not used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia 'Hyperglycaemic crises in adults with diabetes: a consensus report' (published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275)), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11343900). S2: PARAPHRASED AND HASH-ANCHORED from Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024) 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey' (published 6 March 2025), 8 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12077586). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: Europe PMC fullTextXML of the Diabetologia co-publication (CC BY 4.0). The Diabetes Care version (PMC11272983) is under a non-alteration licence and its full text was not available through Europe PMC or NCBI efetch, so it was not used. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, a 2024 national survey of DKA protocols at 31 Australian hospitals (Intern Med J 2025; CC BY-NC-ND, so paraphrased and hash-anchored), for the Australian angle. S2 is a practice survey, not a guideline, and gives no diagnostic pH or bicarbonate cut-offs.",
  "summary": {
-  "total": 24,
+  "total": 32,
   "pass": 24,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 8
  },
  "claims": [
   {
@@ -194,6 +196,142 @@
    "verdict": "pass",
    "source_text": "with the highest risk of suicide attempt in the 12 months following the DKA episode … all individuals experiencing hyperglycaemic crises should be screened for mental health concerns. The Patient Health Questionnaire (PHQ-9) is the most used and validated screening test for depression",
    "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Insulin infusions differ across Australia:** in a national survey covering 31 hospitals, 39% of DKA protocols used a fixed rate, 45% a variable (glucose-titrated) rate and 16% a mix, and the responding clinicians were evenly divided in which they preferred.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dce5af4f4f01341f",
+     "n": 165,
+     "p": "There we"
+    },
+    {
+     "h": "7c9c24dd3547fce6",
+     "n": 134,
+     "p": "There wa"
+    },
+    {
+     "h": "f494b410b6533003",
+     "n": 180,
+     "p": "When ask"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What the fixed or mixed protocols used:** nearly all set the rate by weight, most often 0.1 and/or 0.05 u/kg (one used 0.07 u/kg; one used a flat 4 u/h). Only 10% started with an IV insulin bolus (all variable-rate protocols), and 68% said to keep giving subcutaneous basal insulin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d29f007f4618203",
+     "n": 518,
+     "p": "Of those"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Where DKA is managed in Australia varies:** mainly the emergency department in 29% of hospitals, ICU in 26%, a high-dependency unit in 13% and the ward in 32%; 77% had written criteria for ICU admission.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9703b22bedaef61",
+     "n": 265,
+     "p": "The prim"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most Australian protocols still name 0.9% sodium chloride** (86% of those naming a fluid; only three chose a balanced crystalloid) and 70% of clinicians prefer it, for reasons such as premixed potassium bags, familiarity and cost, and a view that hyperchloraemia matters little beside ketosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cdb75222df1ec312",
+     "n": 278,
+     "p": "The most"
+    },
+    {
+     "h": "93b5e36beec715f6",
+     "n": 268,
+     "p": "Potentia"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **SGLT2-inhibitor ketoacidosis is under-addressed:** 55% of protocols mentioned SGLT2 inhibitors but only 16% managed it differently. Because it runs closer to normal glucose, a variable-rate infusion may under-treat it unless extra dextrose is given early, and a fixed-rate infusion needs added dextrose to prevent hypoglycaemia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee7402c6e64695ce",
+     "n": 158,
+     "p": "Just ove"
+    },
+    {
+     "h": "9533962e19e2285f",
+     "n": 544,
+     "p": "From a p"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Resolution criteria, where written (67% of protocols), are close to S1's:** most used pH above 7.3 (two used above 7.35), and 77% used ketones below 0.6 mmol/L, with the rest ranging from below 0.3 to below 1.0 mmol/L.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "548eadf95528d8b5",
+     "n": 463,
+     "p": "Most (67"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The S2 authors dispute the international push for fixed-rate infusions:** no regimen has been shown superior, and fixed rates bring more hypoglycaemia (28% in a 2014 UK audit, after which UK guidance added halving from 0.1 to 0.05 u/kg/h once glucose is below 14 mmol/L). Variable rates usually give about 2.6–3.5 u/h, against 7 u/h for a 70-kg adult on a weight-based protocol. Until better evidence exists they would support both, chosen by local capacity with a focus on avoiding hypoglycaemia and hypokalaemia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "38eb8605e64df2d9",
+     "n": 392,
+     "p": "High rat"
+    },
+    {
+     "h": "cff21c36fbd006b0",
+     "n": 234,
+     "p": "typicall"
+    },
+    {
+     "h": "86cc049567ad8bd6",
+     "n": 337,
+     "p": "Until fu"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2 calls for an Australian national consensus,** starting with how DKA is diagnosed and when it has resolved, so outcomes of the different infusion regimens can be compared.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8138ee044359aaab",
+     "n": 153,
+     "p": "Starting"
+    }
+   ],
+   "locator": "Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024), 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey', published 6 March 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12077586/, retrieved 2026-09-24"
   }
  ]
 }
