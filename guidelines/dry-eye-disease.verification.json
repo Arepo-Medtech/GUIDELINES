@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/dry-eye-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10152565/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10152565/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts' (online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10152565). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts' (online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481)), 20 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10152565). S2: QUOTED from Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437) 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method' (published 30 October 2022), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9656447). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Wave 7 claim from S1 (European panel 2023) unchanged and adds S2, the Italian Dry Eye Consensus Group Delphi statements (2022, CC BY 4.0, quoted), for patient education and dosing schedules, lid-margin disease and the ocular surface around eye surgery. The TFOS management summary (© Alcon/TFOS) was again not used.",
  "summary": {
-  "total": 20,
-  "pass": 0,
+  "total": 29,
+  "pass": 9,
   "fail": 0,
   "pass_paraphrase_anchored": 20
  },
@@ -331,6 +332,69 @@
     }
    ],
    "locator": "Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology, 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts', online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481), https://pmc.ncbi.nlm.nih.gov/articles/PMC10152565/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Teach patients that dry eye is chronic and fluctuating, and prescribe a planned dosing schedule that fits their lifestyle** (97.1% agreement) rather than leaving treatment decisions to them.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "the qualitative discussion led to 97.1% acceptance of the first statement: \"The most important aspect for recognizing and treating signs and symptoms of dry eye disease is educating patients about its chronic nature. Furthermore, it should be stressed the need for a dynamic treatment by proposing a programmed dose schedule that also takes into account patients' lifestyle.\" … once patients have been educated about the disease, it is important to establish a planned therapeutic regimen rather than leaving treatment decisions up to the patients themselves.",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Avoid 'as needed' dosing and belittling words like 'droplets':** call it a tear substitute or artificial tear, and explain that treatment targets the cause, not the symptom felt at the time.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Given that patients usually do not understand that DED is a chronic condition and are inclined to underestimate the importance of treatment, it was stressed that diminutive words such as \"droplets\" should be avoided in favor of more appropriate terms such as \"tear substitute\" or \"artificial tear\". The posology regimen \"as needed\" was also criticized because it suggests that patients can autonomously decide when a symptom should be treated, whereas there is a need for continuous ocular surface nutrition regardless of patient's ocular discomfort []. It was also considered important to explain that treatment is not prescribed to treat the perceived symptom but in order to treat the underlying cause of the symptom.",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fit treatment to the patient's environment, work, diet and the season.**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It was also pointed out that treatment should be adapted to the environment in which patients live, to the work type and place, to the diet and also to the seasonality.",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prescribe, do not suggest:** give clear instructions on how, when and how often to use each medicine.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Good treatment adherence requires clinicians to prescribe (and not suggest) medications and give clear instructions about how, when and how frequently to administer them",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dry eye is often linked with anxiety and depression;** consider assessing mood and quality of life, at interview or with self-completed questionnaires, which also helps track the effect of treatment.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "some of the clinicians said it was also important to assess psychological variables, as DED is often associated with depressive syndromes. Such assessments could be made as part of a patient interview but also by using self-completed questionnaires that evaluate patient depression and anxiety scores as well as their quality of life. … This may not only improve patient's subjective perceptions but also allows monitoring the effects of treatment on symptoms and the patients' subjectively perceived quality of life.",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Lid-margin problems that do not need surgery can cause or worsen dry eye.** Treat them with lid hygiene, topical corticosteroid, specific topical and/or systemic antibiotics and tear substitutes, tailored to the lid and surface changes, disease stage and patient (100% agreement).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "led to 100% acceptance of the second statement: \"Problems of the eyelid margin that are not of surgical interest may cause and/or exacerbate dry eye disease; they should be treated with hygienic treatments, topical corticosteroid medications, specific topical and/or systemic antibiotics, and tear substitutes in a personalized manner, depending on the nature of the change in the eyelid margin and ocular surface, the stage of the disease, and the type of patient.\"",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Start lid hygiene while the meibomian glands are still present;** once they have become atrophic, treatment is unlikely to help.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "pointed out the importance of educating patients about hygienic treatments and the need to use them when the meibomian glands are still present, before the eventual progression towards an atrophic process, when any therapeutic action is likely to be useless.",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ocular surface disease is a risk factor for poorer surgical results and postoperative adverse events:** assess and treat the surface before, during and after eye surgery (100% agreement).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "led to the formulation of the third statement with 100% acceptance: \"Ocular surface abnormalities may be a risk factor for poorer surgical outcomes and postoperative adverse events. It is important to evaluate and treat the ocular surface before, during and after surgery in order to optimize surgical outcomes\"",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Tell patients about any dry-eye signs found before surgery,** so later problems are not blamed on the operation, and postpone surgery if needed until the surface disease is well controlled. Surgical technique (such as where corneal incisions go) can be adapted to protect the surface.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "They stressed the importance of informing patients of the presence of any preoperative DED signs so that any eventual postoperative problem is not considered a direct consequence of the surgery. In addition, they agreed on the importance of treating DED before surgery and, if necessary, postponing the operation until the treatment is successful and the ocular surface disease well controlled. … It was also agreed that the ocular surface should also be examined and treated after surgery and that, in some cases, the surgical technique (e.g., the location of corneal incisions) may be modified in order to better protect the ocular surface.",
+   "locator": "Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437), 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method', published 30 October 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9656447/, retrieved 2026-09-24"
   }
  ]
 }

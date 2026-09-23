@@ -1,11 +1,13 @@
 # Spinal muscular atrophy — newborn screening, diagnosis and treatment initiation
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** 5q (SMN1-related) spinal muscular atrophy found by newborn screening: the screening analyte, SMN2 copy number, diagnostic confirmation and timelines, uncertain or discordant results, disclosure to families, the first clinical assessment, and the decision to start SMN-augmenting treatment (nusinersen, risdiplam, onasemnogene abeparvovec) or to follow up. Long-term management after the initial post-diagnostic period, later-onset (type IIIb/IIIc) SMA and non-5q SMA are outside the source's scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 23 claims quoted verbatim from **University of New South Wales (Kariyawasam D and the Guideline Development Group); recommendations approved by the NHMRC CEO on 22 April 2025 — *Recommendations for Newborn Screening in Spinal Muscular Atrophy in Australia and Aotearoa New Zealand*** (April 2025; origin: AU); **30 fragments re-checked by machine; 0 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **50 fragments or anchors re-checkable by machine; 1 doses.** **S1** University of New South Wales (Kariyawasam D and the Guideline Development Group); recommendations approved by the NHMRC CEO on 22 April 2025 (April 2025; AU): 23 claims, quoted · **S2** Cure SMA expert panel (Schroth M (published online 8 October 2024 (February 2025 issue); international): 12 claims, paraphrased, hash-anchored
 
 > ℹ️ **NHMRC-approved Australian guideline, focused on the screening pathway.** It does not recommend medicines or services that are unavailable or restricted in Australia or Aotearoa New Zealand, so treatment advice is limited to starting SMN-augmenting therapy.
+
+> ⚠️ International guideline (S2: Cure SMA expert panel, US and Europe, 2024). Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -41,6 +43,21 @@
 - **Presymptomatic newborns with 1, 2 or 3 SMN2 copies:** a paediatric neurologist should discuss immediate SMN-augmenting treatment with the family. (Consensus) [S1]
 - **Start with a single agent (monotherapy), in a paediatric neurology treatment centre,** since there are no comparative data. (Consensus) [S1]
 - **4 or more SMN2 copies is the grey zone:** international advice ranges from immediate treatment to watching for symptoms, and access to treatment varies between countries. [S1]
+- **For a new diagnosis, symptomatic or not, SMN2 copy number and age are the two patient features that steer treatment (100% agreement),** and it should begin as soon as it can be arranged. [S2]
+- ⚠️ **With 2 SMN2 copies the window before motor neurons are irreversibly lost is very short;** with 3 or 4 it is longer but unpredictable, and neurons die before symptoms appear, so treatment must not wait. [S2]
+- ⚠️ **US consensus: urgent treatment for every newly diagnosed infant with up to 4 SMN2 copies.** Some national agencies will not fund treatment of symptom-free infants with 4 copies, and people with 5 or more copies may be ineligible. [S2]
+- **Screening bloods can change the first drug:** an abnormal AAV9 antibody titre or liver function in a child under 2 delays or excludes onasemnogene abeparvovec. Start another SMN-enhancing drug without delay, and revisit the original choice if the results normalise. [S2]
+- **How each drug is given:** nusinersen intrathecally, with 4 loading doses across 2 months and then one every 4 months; onasemnogene abeparvovec as a single intravenous dose in infants and toddlers, under each country's rules; risdiplam as a once-daily liquid by mouth or feeding tube. [S2]
+- **In trials the drugs improved motor function and event-free survival and reduced ventilator need compared with natural history, with the best results in presymptomatic infants;** none is a cure. [S2]
+- **Children under 5, and above all those under 2, respond best to SMN-enhancing treatment.** [S2]
+
+## Choosing and reviewing treatment with the family (S2)
+
+- **The first visit has several jobs:** assess the child, give compassionate, culturally appropriate education to support shared decisions, and collect the tests needed to confirm the diagnosis and apply for treatment. Delay at any step pushes treatment back. [S2]
+- **Every decision to start, change, add or stop should weigh the family's view and the drug's safety (89% agreement).** Tell families how each drug is given, how often they must attend and travel, what monitoring follows, and that treatment is not a cure. [S2]
+- ⚠️ **Loss of motor milestones in an infant is an urgent reason to change the plan (100% agreement).** Otherwise allow 6 to 12 months before judging a drug, but review sooner if an infant loses a milestone within 2–3 months of starting. [S2]
+- **Add-on treatment is unproven:** any SMN-enhancing drug after onasemnogene abeparvovec, or nusinersen and risdiplam together, has unknown benefit, safety and timing, and may not be funded. Decide it with the family. [S2]
+- **Care coordination and multidisciplinary care are essential:** introduce a named care coordinator early to help with information, access to treatment, appointments, laboratory monitoring and community support. [S2]
 
 ## Follow-up without treatment, and genetics
 
@@ -64,15 +81,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Dosing and administration of nusinersen, risdiplam and onasemnogene abeparvovec** are not stated in the recommendations; the source defers ongoing management to international standards of care. | `out_of_scope` |
+| 1 | **Dosing and administration of nusinersen, risdiplam and onasemnogene abeparvovec** are not stated in S1's recommendations; the source defers ongoing management to international standards of care. S2 gives each drug's route and schedule; doses (including risdiplam's weight-based dose) are in its stripped Table 1. | `out_of_scope` |
 | 2 | **Type IIIb/IIIc (later-onset) SMA,** a separate PBS condition for risdiplam and nusinersen, is outside this newborn-screening guideline. The only candidate source found (Cure SMA 2024 treatment update) is CC BY-NC-ND and international. | `out_of_scope` |
 | 3 | **Australian divergence:** the source notes that children in Australasia who cannot access presymptomatic treatment are generally those with more than 3 SMN2 copies, whereas some international guidance treats 4-copy infants immediately. | `observation` |
 | 4 | **Licence:** CC BY 4.0 (© 2024 The Authors). Recommendations are quoted with attribution; images in the source are excluded from the licence. | `observation` |
+| 5 | **4 SMN2 copies, sources differ:** S1 (Australian) calls 4 copies a grey zone with varying international advice and no recommendation to treat immediately; S2 (US consensus) treats every newly diagnosed infant with up to 4 copies urgently. Both are shown; PBS criteria apply in Australia. | `observation` |
+| 6 | **S2 licence:** CC BY-NC-ND 4.0. Its claims are paraphrased and hash-anchored; its words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | University of New South Wales (Kariyawasam D and the Guideline Development Group); recommendations approved by the NHMRC CEO on 22 April 2025. *Recommendations for Newborn Screening in Spinal Muscular Atrophy in Australia and Aotearoa New Zealand*. April 2025. https://www.unsw.edu.au/content/dam/pdfs/medicine-health/clinical-medicine/research-reports/nbs-for-sma/2025-07-nbs-sma-guideline.pdf — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374. *Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations*. published online 8 October 2024 (February 2025 issue). https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

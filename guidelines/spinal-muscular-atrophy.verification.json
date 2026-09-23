@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/spinal-muscular-atrophy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.unsw.edu.au/content/dam/pdfs/medicine-health/clinical-medicine/research-reports/nbs-for-sma/2025-07-nbs-sma-guideline.pdf"
+  "https://www.unsw.edu.au/content/dam/pdfs/medicine-health/clinical-medicine/research-reports/nbs-for-sma/2025-07-nbs-sma-guideline.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from University of New South Wales (Kariyawasam D and the Guideline Development Group); recommendations approved by the NHMRC CEO on 22 April 2025 'Recommendations for Newborn Screening in Spinal Muscular Atrophy in Australia and Aotearoa New Zealand' (April 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at the guideline's Copyright page (p3): '© 2024 by The Authors is licensed under Creative Commons Attribution 4.0 International'). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from University of New South Wales (Kariyawasam D and the Guideline Development Group); recommendations approved by the NHMRC CEO on 22 April 2025 'Recommendations for Newborn Screening in Spinal Muscular Atrophy in Australia and Aotearoa New Zealand' (April 2025), 23 claims; LICENCE: CC BY 4.0 (read at the guideline's Copyright page (p3): '© 2024 by The Authors is licensed under Creative Commons Attribution 4.0 International'). S2: PARAPHRASED AND HASH-ANCHORED from Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations' (published online 8 October 2024 (February 2025 issue)), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11464225). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every S1 (NHMRC-approved newborn-screening guideline, 2025) claim unchanged and adds S2, the Cure SMA 2024 treatment-considerations update (CC BY-NC-ND 4.0, paraphrased; a different document from S1, and also S1 of `spinal-muscular-atrophy-later-onset`), for how treatment is chosen, given and reviewed in newly diagnosed infants. S2's drug and consensus tables were stripped.",
  "summary": {
-  "total": 23,
+  "total": 35,
   "pass": 23,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -162,6 +164,203 @@
    "verdict": "pass",
    "source_text": "Treatment recommendations for infants with 4 SMN2 copies are evolving, with some guidelines advocating immediate treatment whilst others are in favour of a surveillance approach for symptom onset. (170-173), with access to SMN augmenting therapies in these individuals varying between countries.",
    "locator": "University of New South Wales (Kariyawasam D and the Guideline Development Group); recommendations approved by the NHMRC CEO on 22 April 2025, 'Recommendations for Newborn Screening in Spinal Muscular Atrophy in Australia and Aotearoa New Zealand', April 2025, https://www.unsw.edu.au/content/dam/pdfs/medicine-health/clinical-medicine/research-reports/nbs-for-sma/2025-07-nbs-sma-guideline.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For a new diagnosis, symptomatic or not, SMN2 copy number and age are the two patient features that steer treatment (100% agreement),** and it should begin as soon as it can be arranged.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42924383f697f144",
+     "n": 410,
+     "p": "When con"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **With 2 SMN2 copies the window before motor neurons are irreversibly lost is very short;** with 3 or 4 it is longer but unpredictable, and neurons die before symptoms appear, so treatment must not wait.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65f53ecc60ed8cb1",
+     "n": 410,
+     "p": "Infants "
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **US consensus: urgent treatment for every newly diagnosed infant with up to 4 SMN2 copies.** Some national agencies will not fund treatment of symptom-free infants with 4 copies, and people with 5 or more copies may be ineligible.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c3de491d5c1f39c8",
+     "n": 724,
+     "p": "Initiati"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Screening bloods can change the first drug:** an abnormal AAV9 antibody titre or liver function in a child under 2 delays or excludes onasemnogene abeparvovec. Start another SMN-enhancing drug without delay, and revisit the original choice if the results normalise.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef1ab9bc68d1e8cb",
+     "n": 609,
+     "p": "An addit"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**How each drug is given:** nusinersen intrathecally, with 4 loading doses across 2 months and then one every 4 months; onasemnogene abeparvovec as a single intravenous dose in infants and toddlers, under each country's rules; risdiplam as a once-daily liquid by mouth or feeding tube.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35ff43f879ec5040",
+     "n": 126,
+     "p": "Nusiners"
+    },
+    {
+     "h": "34747f69856ae199",
+     "n": 123,
+     "p": "OA is ad"
+    },
+    {
+     "h": "b46aa1b26fffa546",
+     "n": 72,
+     "p": "Risdipla"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**In trials the drugs improved motor function and event-free survival and reduced ventilator need compared with natural history, with the best results in presymptomatic infants;** none is a cure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "afdc8154867a462d",
+     "n": 393,
+     "p": "Clinical"
+    },
+    {
+     "h": "b2610ea1ad8174b0",
+     "n": 63,
+     "p": "None of "
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Children under 5, and above all those under 2, respond best to SMN-enhancing treatment.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "653f0959ac62542d",
+     "n": 162,
+     "p": "patients"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The first visit has several jobs:** assess the child, give compassionate, culturally appropriate education to support shared decisions, and collect the tests needed to confirm the diagnosis and apply for treatment. Delay at any step pushes treatment back.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "478377d9f8b224d6",
+     "n": 526,
+     "p": "The firs"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Every decision to start, change, add or stop should weigh the family's view and the drug's safety (89% agreement).** Tell families how each drug is given, how often they must attend and travel, what monitoring follows, and that treatment is not a cure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b17d715e1a6e04c4",
+     "n": 199,
+     "p": "When det"
+    },
+    {
+     "h": "830fa6f619d50cd3",
+     "n": 46,
+     "p": "The HCPW"
+    },
+    {
+     "h": "f3196b28bd0d7cd2",
+     "n": 28,
+     "p": "that tre"
+    },
+    {
+     "h": "59787da9bb412101",
+     "n": 226,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Loss of motor milestones in an infant is an urgent reason to change the plan (100% agreement).** Otherwise allow 6 to 12 months before judging a drug, but review sooner if an infant loses a milestone within 2–3 months of starting.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e14b77c20946b022",
+     "n": 391,
+     "p": "URGENT i"
+    },
+    {
+     "h": "4fbfb60bb504d26b",
+     "n": 85,
+     "p": "Within 2"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Add-on treatment is unproven:** any SMN-enhancing drug after onasemnogene abeparvovec, or nusinersen and risdiplam together, has unknown benefit, safety and timing, and may not be funded. Decide it with the family.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e343530573fba7e",
+     "n": 658,
+     "p": "Add-on t"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Care coordination and multidisciplinary care are essential:** introduce a named care coordinator early to help with information, access to treatment, appointments, laboratory monitoring and community support.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "13959c6002d98a4a",
+     "n": 166,
+     "p": "Access t"
+    },
+    {
+     "h": "bdd38bc4296e6218",
+     "n": 690,
+     "p": "The CWG "
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-24"
   },
   {
    "claim": "**Untreated infants** (no access to approved and reimbursed treatment, or the family chooses to wait) need review at least every 3 months for the first two years after diagnosis, then at least every 6 months. (Consensus)",
