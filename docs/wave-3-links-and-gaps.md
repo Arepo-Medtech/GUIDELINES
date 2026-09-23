@@ -186,3 +186,21 @@ Notes for the reviewer:
   - CGM is supplied through the NDSS
 - **`status-epilepticus-adults` has no doses.** NICE defers to the BNF and AMH defers to local protocol, so the guideline sends readers to their hospital protocol.
 - **eviQ licence.** The eviQ copyright page, fetched 2026-09-24, now reads CC BY-NC 4.0 and says the content is not to be hosted on external sites. We still paraphrase it.
+
+---
+
+## 8. After Wave 7 (2026-09-24)
+
+The corpus has 585 guidelines, and all 585 pass. Of the 393 true-gap rows, 290 are now covered, leaving **103**. Those are almost all links for the owner to confirm (sections 1, 6 and 7) or PBS listing text, not conditions.
+
+- **New link to confirm:** *Eye inflammation* (prednisolone with phenylephrine) → `cataract`.
+- **Not written:** `enterokinase-deficiency`. Only case reports exist.
+- **HCM rebuilt** on Sanghvi 2025 (CC BY 4.0), a systematic review of ESC 2023, AHA/ACC 2024 and JCS 2018. It now covers mavacamten's place in treatment and its pregnancy contraindication, and CSANZ 2016 appears as the Australian counterpart banner. The page lost two things:
+  - The CSANZ family-screening intervals. The Wave 3 version, commit `0c3f49e`, still has them.
+  - Mavacamten monitoring was never covered. BSE 2025 (CC BY, PMC12128337) could support a companion page.
+- **`neurogenic-bladder`: attached on class-level support only.** EAU recommends α-blockers but never names phenoxybenzamine, the PBS drug. A banner says so. To drop the row, remove it from `pbs_conditions`.
+- **Weaker sources, each bannered:**
+  - corneal graft: narrative review
+  - perichondritis: single-centre retrospective study
+  - CGD: expert "How I Treat"
+  - micropenis: narrative review with no dose
