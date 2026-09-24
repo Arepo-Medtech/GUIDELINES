@@ -1,13 +1,15 @@
 # Chronic disabling spasticity in adults
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising disabling spasticity from an upper motor neurone lesion (stroke, brain injury, cerebral palsy, spinal cord injury, multiple sclerosis) in adults, first-line physical management, and choosing between intrathecal baclofen (ITB), botulinum toxin type A (BoNT A) or both once oral antispasticity drugs fail or are not tolerated. The source does **not** give doses or a sequence for oral baclofen, dantrolene or diazepam, which are the PBS drugs for this condition. Related: `multiple-sclerosis`, `cerebral-palsy-children`. Botulinum toxin PBS conditions (upper-limb and post-acute-event spasticity) are separate listings. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **European expert advisory board (8 specialists, survey of 77 experts from 17 countries), Journal of Rehabilitation Medicine vol 54, doi 10.2340/16501977-2877 — *European expert consensus on improving patient selection for the management of disabling spasticity with intrathecal baclofen and/or botulinum toxin type A*** (published 5 October 2021; origin: international). **36 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **45 fragments or anchors re-checkable by machine; 1 doses.** **S1** European expert advisory board (8 specialists (published 5 October 2021; international): 24 claims, paraphrased, hash-anchored · **S2** Stroke Foundation (Australia) (recommendations as at June 2025 (living guideline); AU): 8 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (European expert consensus, J Rehabil Med 2021). Australian practice follows the PBS listings below and may differ.
 
 > ℹ️ **This consensus is about what comes after oral drugs.** The PBS condition *Chronic spasticity* covers oral baclofen, dantrolene and diazepam. The source says oral drugs are usually tried first but gives no oral doses or order. The board and its publication fees were funded by an ITB pump manufacturer (Medtronic).
+
+> 🇦🇺 **S2 is the Australian and New Zealand living stroke guideline (Stroke Foundation, June 2025).** It applies to spasticity **after stroke only**, and it has no recommendation on oral antispasticity drugs or intrathecal baclofen. Where it differs from S1 (stretching, splints), both are shown.
 
 ---
 
@@ -48,6 +50,17 @@
 - **Start BoNT early:** most experts give it straight away (31.2%) or within 3 months of disabling spasticity starting (49.4%), to prevent secondary complications. [S1]
 - ⚠️ **ITB is usually started later** (at least 4–6 months, or over 6 months), but that delay is inappropriate when the patient is losing range of movement, especially with dysautonomia after brain injury, where ITB helps. [S1]
 
+## After stroke: the Australian living guideline
+
+- **Arm spasticity after stroke:** botulinum toxin A added to rehabilitation may be used (weak recommendation). It lowers tone but is not expected to make motor function or activity better. [S2]
+- **Leg spasticity after stroke:** the same weak recommendation applies. Botulinum toxin A with rehabilitation may lower tone, but walking and motor function are unlikely to improve. [S2]
+- **Electrical stimulation, casting or taping may be added alongside botulinum toxin A** (weak recommendation). [S2]
+- **Shoulder pain with arm spasticity:** a botulinum toxin A injection is an option for easing the pain (weak recommendation). [S2]
+- **Acupuncture is advised against for spasticity** except within a research study (weak recommendation against). [S2]
+- ⚠️ **Routine stretching to reduce post-stroke spasticity is not recommended** (weak against). For people at risk of contracture who are already in comprehensive active therapy, routine splinting or stretching of arm or leg muscles is recommended against (strong against). [S2]
+- **Hand and wrist splints should not be part of routine care after stroke** (strong against): they do not change function, pain or range of movement. [S2]
+- **For established or threatened contracture (consensus practice statements):** serial casting can be tried for severe, persistent contracture once conventional therapy has failed, and active motor training or electrical stimulation should be given to make the muscles work. [S2]
+
 ## Monitor and decide together
 
 - **Measure outcomes:** the Ashworth or modified Ashworth scale for tone and spasms, the visual analogue scale or Numeric Pain Rating Scale for pain, the Barthel Index for function, and the Goal Attainment Scale for goals. [S1]
@@ -74,14 +87,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **The consensus definitions of spasticity distribution and the algorithm itself** are in a table and a figure, which were stripped. Claims come from the narrative text. | `input_unavailable` |
 | 3 | **ITB and BoNT dosing** (test dose, pump titration, toxin units per muscle) are not in the source. | `input_unavailable` |
 | 4 | **Children:** the consensus covers adults only (surveys from clinicians treating only children were excluded). See `cerebral-palsy-children`. | `out_of_scope` |
-| 5 | **No Australian guideline for chronic spasticity was found** (research, 2026-09-23). The Stroke Foundation living guideline covers post-stroke spasticity only, and the RMSANZ statement covers botulinum toxin only. | `observation` |
-| 6 | **Conflict of interest:** the advisory board and publication fees were funded by Medtronic, which makes ITB pumps. The source is more than 4 years old and turns 5 in October 2026. | `observation` |
-| 7 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **No Australian guideline for chronic spasticity in general was found** (research, 2026-09-23; searched again 2026-09-24). S2, the Stroke Foundation living guideline, is now included but covers post-stroke spasticity only. The RMSANZ botulinum toxin statement (2024) could not be read (not in PMC; Wiley bot challenge). | `observation` |
+| 6 | **Stretching and splints: the sources differ.** S1 (all causes of spasticity) lists stretching, positioning with splints and standing in the first-line physical programme; S2 (after stroke) advises against routine stretching for spasticity and against routine splints or stretching to prevent contracture. Both are shown; S2 is the newer, Australian, stroke-specific position. | `observation` |
+| 7 | **What botulinum toxin achieves:** S1 frames treatment around optimising function; S2 finds that after stroke botulinum toxin A lowers tone but is unlikely to improve motor function, activity or walking. Both are shown. | `observation` |
+| 8 | **Conflict of interest:** the advisory board and publication fees were funded by Medtronic, which makes ITB pumps. The source is more than 4 years old and turns 5 in October 2026. | `observation` |
+| 9 | **Licences:** S1 is CC BY-NC 4.0 and S2 is © Stroke Foundation (all rights reserved). Both are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | European expert advisory board (8 specialists, survey of 77 experts from 17 countries), Journal of Rehabilitation Medicine vol 54, doi 10.2340/16501977-2877. *European expert consensus on improving patient selection for the management of disabling spasticity with intrathecal baclofen and/or botulinum toxin type A*. published 5 October 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8862646/ — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Stroke Foundation (Australia), InformMe. *Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)*. recommendations as at June 2025 (living guideline). https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf — retrieved 2026-09-24. | © Stroke Foundation, all copyright reserved (InformMe terms: personal, non-commercial use; no reproduction or adaptation without permission) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/blepharospasm-and-hemifacial-spasm.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7969540/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7969540/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from IAB Interdisciplinary Working Group for Movement Disorders (Dressler D, Altavista MC, Altenmueller E, Bhidayasiri R, et al.), Journal of Neural Transmission vol 128, doi 10.1007/s00702-021-02312-4 'Consensus guidelines for botulinum toxin therapy: general algorithms and dosing tables for dystonia and spasticity' (published 26 February 2021). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC7969540). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from IAB Interdisciplinary Working Group for Movement Disorders (Dressler D, Altavista MC, Altenmueller E, Bhidayasiri R, et al.), Journal of Neural Transmission vol 128, doi 10.1007/s00702-021-02312-4 'Consensus guidelines for botulinum toxin therapy: general algorithms and dosing tables for dystonia and spasticity' (published 26 February 2021), 15 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC7969540). S2: QUOTED from Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review) 'Hemifacial spasm: an update on pathophysiology, investigations and management' (published 10 July 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12245930). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, IAB consensus 2021) unchanged and adds S2, a 2025 UK narrative review of hemifacial spasm, because no Australian source and no open, current hemifacial spasm guideline or consensus was found (Europe PMC searches 2026-09-24: hemifacial spasm or blepharospasm with guideline/consensus/recommendation in the title, 2018-2026; blepharospasm or hemifacial spasm with Australia and consensus or guideline; hemifacial spasm reviews 2020-2026).",
  "summary": {
-  "total": 15,
-  "pass": 15,
+  "total": 26,
+  "pass": 26,
   "fail": 0
  },
  "claims": [
@@ -65,6 +66,83 @@
    "verdict": "pass",
    "source_text": "BT injections into perioral muscles are prone to produce paretic adverse effects. The M. frontalis should be used carefully as it is an auxiliary eyelid opening muscle. The M. orbicularis oculi/Pars palpebralis is used when there is a component of eyelid opening apraxia.",
    "locator": "IAB Interdisciplinary Working Group for Movement Disorders (Dressler D, Altavista MC, Altenmueller E, Bhidayasiri R, et al.), Journal of Neural Transmission vol 128, doi 10.1007/s00702-021-02312-4, 'Consensus guidelines for botulinum toxin therapy: general algorithms and dosing tables for dystonia and spasticity', published 26 February 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7969540/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Hemifacial spasm (HFS) is involuntary, paroxysmal twitching of the facial-expression muscles on one side,** all supplied by that side's facial nerve. Women are affected about twice as often as men, onset is usually from the fourth to the sixth decade, and 2.6% of cases are bilateral.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Hemifacial spasm (HFS) is a movement disorder characterized by involuntary, paroxysmal contractions of muscles involved in facial expression, which are innervated by the ipsilateral facial nerve. … with a 2:1 predilection for women over men … Disease onset usually occurs from the fourth through to the sixth decades of life … HFS is often sporadic and unilateral, but in 2.6% of cases may be bilateral",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The usual cause is a neurovascular conflict:** an ectatic or looping artery (typically the anterior- or posterior-inferior cerebellar artery or the vertebral artery) presses on the facial nerve in the posterior fossa.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is well established that an ectatic or aberrant arterial loop (typically the anterior-inferior cerebellar artery, posterior-inferior cerebellar artery, or vertebral artery) interacts with facial nerve fibers in the posterior fossa to induce HFS",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Image every patient with MRI** to exclude a structural cause (vestibular schwannoma, meningioma, arteriovenous anomaly); high-resolution T2 sequences with MRA can show the conflict. EEG and EMG help exclude mimics such as seizures and myokymia when the clinical signs are subtle.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Investigations can be immensely helpful to exclude potential HFS mimics, particularly when the distinguishing clinical signs are absent or very subtle. … Electromyography (EMG) may also show short 5-150 Hz bursts of motor unit potentials, that appear as doublets, triplets or multiplets, to support a diagnosis of myokymia … Neuroimaging, in the form of MRI, remains invaluable to assess for potential structural causes, such as vestibular schwannomas, meningiomas, or arteriovenous anomalies. … High-resolution T2-weighted sequences with MRA may also be able to demonstrate an area(s) of NVC",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **A vessel touching the nerve is common without symptoms** (found on 38.8% of asymptomatic sides versus 97.9% of symptomatic ones), so the MRI needs a reader who knows facial-nerve root anatomy; first reports can miss the true compression or blame an incidental contact.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is important to note that NVC in asymptomatic patients is common. … NVC was found in 97.9% of symptomatic and 38.8% of asymptomatic cases … the interpretation of MRI in HFS patients relies on a radiologist or neurosurgeon being familiar with the anatomical details of the facial nerve root. In our experience, initial MRI reports may often overlook the compression at the attached or cisternal segments of the facial nerve, or inaccurately implicate an incidental neurovascular contact.",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**HFS is not life-limiting, and many people choose no procedure;** treatment is for symptoms that distress or reduce quality of life. In one cohort followed for an average of 12 years without treatment, 41.3% were in remission.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is important to note that although HFS may produce cosmetic and task-disruptive symptoms, it is still not a life-limiting condition and many patients subsequently choose non-operative management, avoiding surgical interventions that carry small but significant risks. … However, for patients who find the symptoms sufficiently distressing to impact on quality of life, pharmacological or surgical treatments may be sought … a more recent study involving 104 HFS patients with an average follow-up period of 12 years showed that 41.3% of patients were in remission",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Botulinum toxin A is the mainstay for HFS:** it helps most patients (reported efficacy 73 to 98.4%), is used in up to 90%, and keeps working for up to 10 years. Ptosis and facial weakness are the commonest side effects, usually mild and short-lived.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Botulinum toxin A, continues to produce a significant improvement in symptoms in the majority of patients (efficacy ranging from 73 to 98.4%) … A recent study has therefore implied that it is used in up to 90% of HFS patients … Adverse effects are sometimes reported, with a recent study suggesting that ptosis and facial weakness are the most commonly observed, although these are generally mild and transient if present … it continues to be effective for up to 10 years after its initial commencement in HFS patients",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Toxin resistance is rare at the low doses used in HFS,** but the effect wears off, so injections are repeated every 3 to 6 months by a clinician skilled in choosing doses and target muscles.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Immunoresistance to botulinum toxin remains rare due to the low dosages often utilized for HFS. However, the ultimate wearing off from the effect still requires patients to attend the clinic on a 3- to 6-monthly basis … The botulinum toxin injections also necessitate appropriately skilled and knowledgeable clinicians to select the optimum dosages and precisely identify the target muscles",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oral drugs help only a small minority,** mostly on case-report evidence. Carbamazepine, baclofen, pizotifen and clonazepam often cause drowsiness, dizziness, ataxia or weakness in older people; gabapentin and levetiracetam may be better tolerated.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Oral medications remain a commonly trialed method of treatment for HFS patients, particularly for those who are deemed unsuitable or unkeen to try botulinum toxin or surgical intervention, although the clinical benefit is only observed in a small minority of individuals … the evidence for many of these medications is often based on isolated case reports … Several medications (e.g. carbamazepine, baclofen, pizotifen and clonazepam) also produce unwanted side effects especially in the elderly population, such as somnolence, dizziness, ataxia and weakness. However, gabapentin and levetiracetam may be better tolerated",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Microvascular decompression (MVD) is the only potentially curative treatment,** helping up to 90% of those operated on, yet in some groups only about 10% are referred, after delays of up to 5 years. Tell suitable patients about it and refer in good time.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Microvascular decompression (MVD) remains the only potential curative treatment for HFS, producing a significant benefit in up to 90% of patients who undergo an operation … only 10% of HFS patients are ultimately referred for MVD [], with a mean delay from diagnosis to surgery of up to 5 years … It is, therefore, essential that clinicians are aware of this highly efficacious treatment option for HFS patients and refer them in timely fashion.",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After MVD the benefit may be delayed** (in up to 30% of cases, usually about 30 days, occasionally up to a year). Previous botulinum toxin does not worsen surgical results. Up to 9% need a second operation, which works less often and has more complications (nervous system lesions 10.6% after a first operation, 20.7% after revision).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is increasingly recognized that there may be a time delay before the effects of MVD are fully noticed (in up to 30% of cases), amounting to approximately 30 days in the majority of patients but can be up to a year in a minority … A very recent study suggested that the use of botulinum toxin as a treatment pre-operatively does not significantly alter surgical outcomes … suggesting that up to 9% of patients may require a re-operation … Re-operations were also shown to be associated with a greater number of complications than a first procedure, with nervous system lesions shown to potentially rise in likelihood from 10.6% with the initial surgery to 20.7% following a revision.",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other options rest on case reports:** pulsed radiofrequency ablation gives only short-lived relief and often a disfiguring facial palsy; electroacupuncture helped one patient temporarily.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Further treatments that have previously been suggested for HFS, typically in the form of isolated case reports, include pulse radiofrequency ablation … However, a recent study showed the durability of this intervention is very short and that it also resulted in high rates of disfiguring facial paresis … Electroacupuncture (2 Hz and ~ 1-2 mA intensity used for two periods over 30 weeks) was also attempted in a recent case report, leading to reduced Jankovic Rating and visual analogue scale scores in an HFS patient, although symptoms gradually reappeared at the 6-month follow-up",
+   "locator": "Jesuthasan A, Natalwala A, Davagnanam I, Saifee T, Zrinzo L (National Hospital for Neurology and Neurosurgery, UCLH, London), Journal of Neurology 272:502, doi 10.1007/s00415-025-13220-y (narrative review), 'Hemifacial spasm: an update on pathophysiology, investigations and management', published 10 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12245930/, retrieved 2026-09-24"
   },
   {
    "claim": "**Standard dilution:** 2.5 ml of 0.9% saline per 100 MU of onabotulinumtoxinA (ONA) or incobotulinumtoxinA (INCO). Inject 0.5 ml (20 MU) per site, or 0.2 ml (4 MU) per site in the face.",

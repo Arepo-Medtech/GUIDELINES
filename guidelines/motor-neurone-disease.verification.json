@@ -1,20 +1,22 @@
 {
  "guideline": "guidelines/motor-neurone-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12566403/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)' (published 12 March 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11235832). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)' (published 12 March 2024), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11235832). S2: PARAPHRASED AND HASH-ANCHORED from PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis' (published 16 September 2025), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12465052). S3: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041 'Edaravone for amyotrophic lateral sclerosis' (published 14 October 2025), 3 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12566403). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, EAN 2024) unchanged and adds two sources: S2, the 2025 PACTALS Asia-Pacific guideline (led by Australian authors; Australia and New Zealand are member countries), for diagnosis, riluzole monitoring, edaravone and tofersen dosing and respiratory monitoring; and S3, the Australian Prescriber comment on edaravone (2025), for Australian access and the edaravone regimen. The Australian MND Guideline (FightMND) is still in development; only its protocol (2026) is published. Searches 2026-09-24: Europe PMC for MND or ALS with Australia and guideline/consensus/management/recommendation (2015-2026); Australian Prescriber (ISSN 0312-8008) for riluzole or motor neurone disease.",
  "summary": {
-  "total": 22,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -65,6 +67,68 @@
     }
    ],
    "locator": "European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264, 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)', published 12 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refer promptly to a neurologist experienced in ALS** once a progressive motor weakness without explanation is found.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "50c87a762bd4461b",
+     "n": 186,
+     "p": "Educate "
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diagnose with the Gold Coast criteria,** which are simpler and more sensitive than El Escorial or Awaji: progressive motor loss after previously normal function; combined upper and lower motor neuron dysfunction in one region, or lower motor neuron dysfunction in two or more; and tests that exclude mimics.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c94d598d86f1002b",
+     "n": 122,
+     "p": "Use the "
+    },
+    {
+     "h": "af7c536ff07e2616",
+     "n": 433,
+     "p": "Progress"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Exclude mimics with nerve conduction studies and EMG, MRI of brain and spinal cord, and relevant blood and CSF tests.** In selected patients add: vitamin B12, parathyroid hormone and thyroid function; a heavy-metal screen (lead especially); HIV and syphilis serology; vasculitis, paraneoplastic and myasthenia antibodies; and gene tests for SMA and Kennedy disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "773e528f4455c476",
+     "n": 834,
+     "p": "Do NCS a"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Genetics differ across the region:** SOD1 variants are the commonest genetic cause in many Asia-Pacific countries but not in Australia or New Zealand, and C9orf72 expansions dominate in European and North American populations. Genetic testing needs counselling that weighs risks and benefits, including a variant found without any family history.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f42f4efd99e8922c",
+     "n": 339,
+     "p": "A region"
+    },
+    {
+     "h": "b57158bd7a536741",
+     "n": 387,
+     "p": "The offe"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Offer riluzole to everyone with ALS at diagnosis, for life** (strong). The dose is 50 mg twice daily. If side effects occur, consider a lower dose and reassess; stop if they persist (weak).",
@@ -143,6 +207,140 @@
     }
    ],
    "locator": "European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264, 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)', published 12 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Riluzole monitoring (S2):** watch for side effects clinically and with liver function tests; if they occur, lower the dose and reassess. Stop it for persistent adverse events, at the terminal (palliative) stage, or after tracheostomy. Common effects are nausea, weakness, vomiting, diarrhoea, poor appetite, dizziness and a rise in ALT. A liquid form helps when bulbar weakness makes swallowing hard.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "561573f3f9369e43",
+     "n": 311,
+     "p": "If riluz"
+    },
+    {
+     "h": "e644130c5ce8b910",
+     "n": 152,
+     "p": "The comm"
+    },
+    {
+     "h": "b1c957799e8b0f94",
+     "n": 105,
+     "p": "Consider"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Edaravone, the Asia-Pacific view (S2, weak recommendation):** consider intravenous or oral edaravone at diagnosis for milder patients like those in the pivotal trial, where available and affordable, preferably with riluzole. IV dose: 60 mg/day for 14 days then 14 days of observation; from cycle 2, treatment on 10 of every 14 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2f1fe794a2f5c04",
+     "n": 365,
+     "p": "The dose"
+    },
+    {
+     "h": "6261e099511ea454",
+     "n": 338,
+     "p": "Consider"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Oral edaravone evidence is mixed:** the phase III ADORE trial showed no benefit on function or survival (with a different product and broader entry criteria), whereas the approved oral suspension (105 mg/5 mL) matched intravenous exposure in a small study.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bfb108c5a83fbc89",
+     "n": 775,
+     "p": "a recent"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tofersen regimen (SOD1 ALS):** 100 mg as a 15 mL intrathecal bolus on days 0, 14 and 28, then monthly. Expect lumbar-puncture pain, low-pressure headache, limb and back pain and falls; myelitis, aseptic meningitis, radiculopathy and raised intracranial pressure are uncommon. Do not give it to symptom-free SOD1 carriers until the ATLAS trial reports.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8931ff96e5b96545",
+     "n": 211,
+     "p": "Tofersen"
+    },
+    {
+     "h": "6e3e0338b94b2173",
+     "n": 272,
+     "p": "Tofersen"
+    },
+    {
+     "h": "a690c76bd6544bea",
+     "n": 153,
+     "p": "At prese"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Australian access (S3):** riluzole is approved for ALS in Australia; tofersen can be obtained only through the Special Access Scheme.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fccb28698435d8ac",
+     "n": 119,
+     "p": "Riluzole"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041, 'Edaravone for amyotrophic lateral sclerosis', published 14 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12566403/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Who may benefit from edaravone (S3):** it may slow progression only in early ALS (onset within 2 years) matching the pivotal trial: living independently with mild disease, forced vital capacity of at least 80%, and at least 2 points on every ALSFRS-R item. Benefit outside that group is unproven, and a trial in more advanced (grade 3) disease was negative.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d30ad797455e95f",
+     "n": 279,
+     "p": "Edaravon"
+    },
+    {
+     "h": "337cc47e748bc3a4",
+     "n": 380,
+     "p": "Recruite"
+    },
+    {
+     "h": "dff962615e25791b",
+     "n": 116,
+     "p": "Study MC"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041, 'Edaravone for amyotrophic lateral sclerosis', published 14 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12566403/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Edaravone infusion (S3):** 60 mg (2 ampoules) in 100 mL of 0.9% sodium chloride IV over 60 minutes, daily for 14 days then 14 days off; later cycles give 10 daily doses within 14 days, then 14 days off. No dose change is needed for kidney or liver impairment, but it is not recommended on renal replacement therapy. The ampoules contain sodium bisulfite, which can provoke allergic or asthmatic reactions, and hypersensitivity and anaphylaxis have been reported.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6676484bd3619fe4",
+     "n": 557,
+     "p": "The reco"
+    },
+    {
+     "h": "6465a7b780c001cf",
+     "n": 251,
+     "p": "Hypersen"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041, 'Edaravone for amyotrophic lateral sclerosis', published 14 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12566403/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Care should come from a coordinated specialist ALS multidisciplinary team (MDT)**, in clinic or community, with planned appointments and home or remote visits for people who cannot attend. Reassess usually every 3–6 months, depending on how fast the disease progresses, and track function with the ALSFRS-R.",
@@ -302,6 +500,52 @@
     }
    ],
    "locator": "European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264, 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)', published 12 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Monitor breathing regularly (S2):** check for hypercapnia where resources allow; the interval may be every 3 months for the ALSFRS-R and every 6 months for supine vital capacity. Consider starting NIV early according to FVC; maximal inspiratory and sniff nasal pressures can also guide it. A peak cough flow below 270 L/min marks a weak cough with more retained secretions and infection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41fcede51885e96a",
+     "n": 246,
+     "p": "Monitori"
+    },
+    {
+     "h": "63c4f4f539b0a5b9",
+     "n": 213,
+     "p": "Consider"
+    },
+    {
+     "h": "dfda997a5cfed11b",
+     "n": 193,
+     "p": "Peak cou"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Laryngospasm (S2):** look for triggers (reflux, postnasal drip or drooling, swallowing problems, smoke, strong smells, cold or dry air, emotion, spicy food), advise avoiding them, consider speech pathology, and reassure patient and carers that episodes resolve on their own. Treat reflux, with a prokinetic at night if needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46aed44e26302baf",
+     "n": 242,
+     "p": "Identify"
+    },
+    {
+     "h": "fcacb696244e40b7",
+     "n": 240,
+     "p": "Advise a"
+    },
+    {
+     "h": "6afb884109a2385a",
+     "n": 68,
+     "p": "Treat GO"
+    }
+   ],
+   "locator": "PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684, 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis', published 16 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12465052/, retrieved 2026-09-24"
   },
   {
    "claim": "**Cramps:** consider sodium-channel blockers (ranolazine, quinine sulfate, mexiletine, carbamazepine), gabapentin, pregabalin or baclofen. Start quinine low (100 to 200 mg per day) and check for cardiac side effects before and after prescribing. With coexisting spasticity, try baclofen first.",
