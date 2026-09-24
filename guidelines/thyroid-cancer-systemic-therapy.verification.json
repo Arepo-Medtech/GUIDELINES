@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/thyroid-cancer-systemic-therapy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11570806/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11570806/",
+  "https://www.eviq.org.au/p/1919"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Canadian multidisciplinary consensus panel, Frontiers in Oncology 14:1437360 (doi 10.3389/fonc.2024.1437360) 'Multidisciplinary Canadian consensus on the multimodal management of high-risk and radioactive iodine-refractory thyroid carcinoma' (published 4 November 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11570806). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Canadian multidisciplinary consensus panel, Frontiers in Oncology 14:1437360 (doi 10.3389/fonc.2024.1437360) 'Multidisciplinary Canadian consensus on the multimodal management of high-risk and radioactive iodine-refractory thyroid carcinoma' (published 4 November 2024), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11570806). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines) 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)' (current versions retrieved 24 September 2026), 11 claims; LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page). eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Canadian consensus claim (S1) unchanged and adds S2, two Australian eviQ treatment protocols (CC BY-NC 4.0, paraphrased): lenvatinib (https://www.eviq.org.au/p/1919) and cabozantinib (https://www.eviq.org.au/p/4483), for the doses, dose reductions, blood pressure, proteinuria and blood-test monitoring and the SELECT and COSMIC-311 results that S1 does not give. The S2 source file concatenates the two protocol pages, each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ protocols are regimen documents, not guidelines. No Australian guideline for RAI-refractory thyroid cancer was found.",
  "summary": {
-  "total": 20,
+  "total": 31,
   "pass": 20,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -155,6 +157,262 @@
    "verdict": "pass",
    "source_text": "a recent Phase 3 trial showed the addition of selumetinib to adjuvant RAI did not significantly improve 18-month complete remission (CR) rate versus placebo plus RAI in patients with DTC at high risk of primary treatment failure … we recommend resensitization only be attempted as part of a clinical trial, with careful monitoring.",
    "locator": "Canadian multidisciplinary consensus panel, Frontiers in Oncology 14:1437360 (doi 10.3389/fonc.2024.1437360), 'Multidisciplinary Canadian consensus on the multimodal management of high-risk and radioactive iodine-refractory thyroid carcinoma', published 4 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11570806/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Lenvatinib (PBS authority) is for progressive, locally advanced or metastatic RAI-refractory differentiated thyroid cancer.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "343895964e84f9d9",
+     "n": 139,
+     "p": "Indicati"
+    },
+    {
+     "h": "5d31c4ec33f94769",
+     "n": 27,
+     "p": "Lenvatin"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Lenvatinib 24 mg by mouth once daily, with or without food, until progression or unacceptable toxicity.** eviQ's committee advises considering a 14 mg starting dose for older or significantly comorbid patients; 14 mg is also the start for eGFR below 30 or severe (Child-Pugh C) liver impairment, and it is not recommended in end-stage kidney disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33770876b8910437",
+     "n": 282,
+     "p": "24 mg (P"
+    },
+    {
+     "h": "29e35adc670a580c",
+     "n": 308,
+     "p": "< 30 Rec"
+    },
+    {
+     "h": "d4e03077f670c977",
+     "n": 68,
+     "p": "Severe ("
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Dose reductions:** grade 1–2 effects usually do not need a break unless intolerable. For grade 3–4 toxicity, hold until grade 1 or less, then restart at 20 mg, then 14 mg, then 10 mg daily with each recurrence; go below 10 mg only case by case, as data are scant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c50a5f2889536b6b",
+     "n": 311,
+     "p": "Mild to "
+    },
+    {
+     "h": "80cdde81ddd6047b",
+     "n": 72,
+     "p": "Grade 3 "
+    },
+    {
+     "h": "12c38678c0eecdea",
+     "n": 149,
+     "p": "1 st occ"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Blood pressure:** control hypertension before starting, then check at 1 week, every 2 weeks for 2 months and monthly after that. Above 160 systolic or 100 diastolic despite optimal treatment, withhold; resume at a lower dose once below 150/95 after 48 hours or more of unchanged antihypertensive treatment. Stop for a hypertensive crisis or other life-threatening consequence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd0469fba765e141",
+     "n": 224,
+     "p": "Pre-exis"
+    },
+    {
+     "h": "7887220d9bc3a1c4",
+     "n": 487,
+     "p": "Systolic"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Proteinuria appears early:** dipstick urine at baseline and regularly, measure 24-hour protein if positive, hold and reduce for grade 2–3, and stop for nephrotic syndrome.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0df66cd1ea17549",
+     "n": 593,
+     "p": "Proteinu"
+    },
+    {
+     "h": "680f621142741a96",
+     "n": 153,
+     "p": "Proteinu"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Watch for the serious effects:** gastrointestinal perforation (care after surgery or radiotherapy), sometimes fatal bleeding, severe liver toxicity, QT prolongation, arterial and venous clots, and PRES (stop the drug). Hold it around surgery until wounds heal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16073b365a98c9da",
+     "n": 259,
+     "p": "Serious "
+    },
+    {
+     "h": "aee1d4e9f0adaec1",
+     "n": 159,
+     "p": "Serious "
+    },
+    {
+     "h": "923f5266dd744c86",
+     "n": 87,
+     "p": "Severe h"
+    },
+    {
+     "h": "864c86f3494fe0c6",
+     "n": 45,
+     "p": "Disconti"
+    },
+    {
+     "h": "23e196f1d7705ede",
+     "n": 158,
+     "p": "be inter"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tests:** FBC, EUC, eGFR, calcium, magnesium, phosphate and thyroid function at baseline and then monthly; liver tests every 2 weeks for the first 2 months, then monthly. Dental review before starting and every 6 months, avoiding dental procedures on treatment (jaw osteonecrosis).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "899eba0e56d701ec",
+     "n": 211,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "d69f6ba73d7d9104",
+     "n": 162,
+     "p": "Dental r"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**SELECT (392 patients):** median PFS 18.3 months on lenvatinib against 3.6 on placebo (HR 0.21) and response 64.8% against 1.5%; overall survival did not differ significantly (HR 0.73). 82.4% needed a dose interruption and 67.8% a dose reduction, the first at a median of 3.0 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8575ab0ae8bdc919",
+     "n": 213,
+     "p": "SELECT s"
+    },
+    {
+     "h": "4ea15d98054d1f10",
+     "n": 210,
+     "p": "The medi"
+    },
+    {
+     "h": "8d5c8f621d1922cf",
+     "n": 141,
+     "p": "The resp"
+    },
+    {
+     "h": "4f216697a66bd8c5",
+     "n": 101,
+     "p": "The over"
+    },
+    {
+     "h": "4272a0586f4be91e",
+     "n": 119,
+     "p": "In the l"
+    },
+    {
+     "h": "bdf0efa891344aba",
+     "n": 81,
+     "p": "The firs"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cabozantinib is for RAI-refractory (or RAI-ineligible) DTC after progression on, or intolerance of, a VEGF-targeting TKI,** with ECOG 0 to 2. Take care after more than two previous TKIs; patients must be on thyroxine suppression with TSH below 0.5 mIU/L, and the trial excluded prior BRAF inhibitor treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1eb4ca16a27a0719",
+     "n": 557,
+     "p": "Locally "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Cabozantinib 60 mg by mouth once daily, continuously; start at 40 mg in mild to moderate liver impairment.** Reduce to 40 mg, then 20 mg, for recurrent toxicity. It is a PBS authority item.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a29439906c27533",
+     "n": 180,
+     "p": "60 mg ON"
+    },
+    {
+     "h": "cd1b62d780459902",
+     "n": 29,
+     "p": "Cabozant"
+    },
+    {
+     "h": "3e43525d55d58541",
+     "n": 91,
+     "p": "1 st occ"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**COSMIC-311 (258 previously treated patients):** median PFS 11.0 months against 1.9 on placebo (HR 0.22), whether the prior drug was lenvatinib, sorafenib or both; response 11% against 0%. 67% needed dose reductions; grade 3–4 hypertension (12%), hand-foot syndrome (10%) and fatigue (9%) were commonest.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9311106a1775fc41",
+     "n": 140,
+     "p": "randomis"
+    },
+    {
+     "h": "4b7e7676b382ceb5",
+     "n": 363,
+     "p": "the medi"
+    },
+    {
+     "h": "22a5fd77b40ea338",
+     "n": 104,
+     "p": "The ORR "
+    },
+    {
+     "h": "4fbc8943ff1f4e2e",
+     "n": 345,
+     "p": "Dose red"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1919, retrieved 2026-09-24"
   }
  ]
 }

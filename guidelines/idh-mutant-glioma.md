@@ -1,9 +1,11 @@
 # Adult IDH-mutant glioma (astrocytoma and oligodendroglioma)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** testing, surgery, adjuvant radiotherapy and chemotherapy, IDH inhibitors (vorasidenib), follow-up, recurrence and survivorship for adults with IDH-mutant astrocytoma (WHO grade 2-4) or oligodendroglioma (grade 2-3). Children and adolescents, and IDH-wildtype glioblastoma, are out of scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **Cooperative Trials Group for Neuro-Oncology (COGNO), Asia-Pacific Journal of Clinical Oncology 22(3):392-403 — *Management of Adult Patients With Isocitrate Dehydrogenase-Mutant Gliomas in Australia: An Expert Position Statement From the Cooperative Trials Group for Neuro-Oncology*** (published 25 March 2026; origin: AU). **45 anchors re-checkable by machine; 2 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **60 fragments or anchors re-checkable by machine; 2 doses.** **S1** Cooperative Trials Group for Neuro-Oncology (COGNO) (published 25 March 2026; AU): 25 claims, paraphrased, hash-anchored · **S2** Lim-Fat MJ (published 10 April 2026; international): 11 claims, quoted
+
+> ⚠️ International expert recommendations (Lim-Fat, van den Bent et al., 2026) for S2, a follow-up review rather than a society guideline. Australian practice follows S1 (COGNO) and the PBS listings below and may differ.
 
 > ⚠️ **PBS status has changed since the source was written.** The statement (March 2026) says vorasidenib is TGA-approved but **not PBS-funded**, so patients faced the full cost. The PBS listing data below now shows **vorasidenib listed** for adult-type IDH-mutant astrocytoma or oligodendroglioma (streamlined authority). Check the current PBS restriction before prescribing; the source's advice to discuss cost reflects the pre-listing position.
 
@@ -55,6 +57,23 @@
 - **MRI every 3-4 months at first**, then lengthen the interval once the disease course is clear, using the same acquisition protocol each time. [S1]
 - ⚠️ **Read surveillance MRI cautiously.** Treatment effects are common in the first months after RT. Small T2/FLAIR change in a stable patient, or enhancement alone, does not prove progression; a new progressive neurological deficit is the trigger to investigate or treat. [S1]
 - **At recurrence, get fresh tissue where possible** to confirm it and check for grade change, individualise treatment, and offer a trial because second-line options work poorly. [S1]
+- **Repeat surgery:** if residual tumour could be completely removed, offer re-resection before adjuvant therapy, even in higher grades, when neurological risk is acceptable. At recurrence reassess resectability promptly; about 20% of recurrent lower grade gliomas can be re-resected without functional loss. [S2]
+
+## Scan schedule (international expert recommendations)
+
+- **After surgery:** an MRI within 48-72 hours, with diffusion imaging, to define the resection; then a scan at 3-4 months to delineate residual tumour and detect rapid growth. For almost all grade 2 patients, further treatment decisions can wait for that scan. [S2]
+- **After radiotherapy (grade 2 or 3):** make the first baseline MRI 4 months after radiotherapy ends, then scan every 6 months; an earlier scan mainly risks mistaking pseudoprogression for tumour. [S2]
+- ⚠️ **Watch-and-wait without tissue diagnosis:** scan every 2-3 months at first, especially over age 50, when a non-enhancing tumour may be an IDH-wildtype glioblastoma. After surgery alone NCCN advises 3-4 months; once the growth rate is established on 4-monthly scans with little change, 6-monthly scans can be considered. [S2]
+- **On vorasidenib alone after surgery:** follow the watch-and-wait schedule: first scan at 4 months, then 6-monthly after 1-2 years if stable or responding; earlier lengthening is reasonable if growth was known to be slow before starting. [S2]
+- **Long-term survivors:** some oligodendrogliomas treated with radiotherapy and chemotherapy stay progression-free for decades (30% at 20 years for anaplastic oligodendroglioma), and yearly follow-up can be discussed. [S2]
+- ⚠️ **Scan sooner for any unexplained new symptom or rising seizure frequency,** and more often while possible treatment-related changes settle. [S2]
+
+## Reading surveillance scans (international expert recommendations)
+
+- **Measure growth by volume against the MRI taken when surveillance began,** not the latest pretreatment scan. The RANO threshold of a 40% or greater volume increase was designed for trials and may be too insensitive for everyday practice. [S2]
+- ⚠️ **Know the mimics:** after radiotherapy, pseudoprogression in IDH-mutant tumours tends to appear years later as small, waxing and waning, often periventricular enhancing lesions; surgery, radiotherapy and chemotherapy can also cause leukoencephalopathy. Lack of mass effect and perfusion MRI, amino acid PET or spectroscopy help tell them apart. [S2]
+- **Gadolinium can often be spared:** in one study 96.3% of glioma progressions were visible on T2/FLAIR alone, supporting less routine contrast in long-term surveillance. [S2]
+- **Clinical triggers matter as much as scans:** changing seizures, and cognitive decline not otherwise explained, may justify earlier treatment, as may growth threatening bilateral spread across the corpus callosum. [S2]
 
 ## Survivorship
 
@@ -77,15 +96,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Grading and molecular classification figure (Figure 1) and the treatment algorithm (Figure 2)** are images and were not extracted. | `input_unavailable` |
-| 2 | **Chemotherapy doses** (PCV, temozolomide) are not stated in the text; the source points to eviQ protocols for them. | `input_unavailable` |
-| 3 | **PBS status of vorasidenib** differs between the source (not funded) and the current PBS data (listed); a clinician should confirm the restriction wording. | `observation` |
-| 4 | **Paediatric and adolescent IDH-mutant glioma** is excluded by the source. | `out_of_scope` |
-| 5 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **Chemotherapy doses** (PCV, temozolomide) are not stated in S1, which points to eviQ protocols for them, and S2 gives none. Vorasidenib's dose and liver-test monitoring are in neither source. | `input_unavailable` |
+| 3 | **Early scan intervals differ:** S1 advises MRI every 3-4 months at first; S2 puts the first post-radiotherapy baseline at 4 months and then 6-monthly, keeps 2-4-monthly scans for watch-and-wait, and allows yearly scans for long-term oligodendroglioma survivors. Both are shown. | `observation` |
+| 4 | **Timing of treatment effects:** S1 notes treatment change is common in the first months after radiotherapy; S2 stresses that pseudoprogression in IDH-mutant glioma typically appears years after radiotherapy. The two are complementary; both are shown. | `observation` |
+| 5 | **PBS status of vorasidenib** differs between the source (not funded) and the current PBS data (listed); a clinician should confirm the restriction wording. | `observation` |
+| 6 | **Paediatric and adolescent IDH-mutant glioma** is excluded by the source. | `out_of_scope` |
+| 7 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 8 | **S2 licence:** CC BY 4.0 (Neuro-Oncology Practice); fragments are quoted verbatim with attribution. S2's follow-up tables (Tables 1-2, including the NCCN schedule) were stripped. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Cooperative Trials Group for Neuro-Oncology (COGNO), Asia-Pacific Journal of Clinical Oncology 22(3):392-403. *Management of Adult Patients With Isocitrate Dehydrogenase-Mutant Gliomas in Australia: An Expert Position Statement From the Cooperative Trials Group for Neuro-Oncology*. published 25 March 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13053624/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032). *Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era*. published 10 April 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

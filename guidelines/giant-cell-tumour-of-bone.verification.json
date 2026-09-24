@@ -1,22 +1,51 @@
 {
  "guideline": "guidelines/giant-cell-tumour-of-bone.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3467"
+  "https://www.eviq.org.au/p/3467",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '3467 Giant cell tumour of bone denosumab (eviQ ID 3467, version 4)' (first approved 10 July 2018; last reviewed 4 September 2024 (biosimilar note added 12 September 2025); review due 31 December 2027). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page, fetched 2026-09-24)). The source's words are NOT reproduced here. Source page fetched 2026-09-24 and converted from HTML to text; the eviQ treatment-schedule table survives as text and is anchored where used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '3467 Giant cell tumour of bone denosumab (eviQ ID 3467, version 4)' (first approved 10 July 2018; last reviewed 4 September 2024 (biosimilar note added 12 September 2025); review due 31 December 2027), 19 claims; LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page: 'Information on the eviQ website is licensed under the Creative Commons Attribution-NonCommercial 4.0 license (CC BY-NC 4.0)'). eviQ also states that its content should not be hosted on external sites; adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page, fetched 2026-09-24)). S2: QUOTED from British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4) 'UK guidelines for the management of bone sarcomas' (published 16 November 2024), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11723950). Verify each source separately: verify.py --source <file> --only-source S<n>. Source page fetched 2026-09-24 and converted from HTML to text; the eviQ treatment-schedule table survives as text and is anchored where used. Edition 2.0 keeps every eviQ 3467 claim (S1) unchanged and adds S2, the British Sarcoma Group 2024 bone sarcoma guideline (international, CC BY 4.0, quoted), for GCTB recognition, surgery, when and how long to give denosumab, metastatic disease and malignant GCTB, which S1 does not cover. The ESMO-EURACAN-GENTURIS 2021 bone sarcoma guideline (Annals of Oncology) has no open copy and was not used.",
  "summary": {
-  "total": 19,
-  "pass": 0,
+  "total": 29,
+  "pass": 10,
   "fail": 0,
   "pass_paraphrase_anchored": 19
  },
  "claims": [
+  {
+   "claim": "**GCTB makes up 12–15% of primary bone tumours in England,** usually at ages 20 to 40 and rarely before the growth plates close, typically in the epiphysis of a long bone next to a joint.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "GCTBs are relatively rare, representing 12-15% of primary bone tumours in England. Incidence is higher in Asia []. GCTBs usually occur between 20 and 40 years of age and are rare before epiphyseal closure. Tumours usually occur at the epiphyses of long bones next to joints but may arise in other bones, and are rarely multicentric.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **It is locally aggressive:** local recurrence reaches 50%, and about 5% spread to the lungs, mostly after recurrence. An H3F3A mutation supports the diagnosis, especially against giant-cell-rich osteosarcoma.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "GCTBs are usually locally aggressive and may demonstrate a soft tissue mass or pathological fracture. There is a high risk of local recurrence (up to 50%) and approximately 5% metastasise to the lungs, particularly after local recurrence [-]. Both conventional and malignant GCTs demonstrate a mutation in the H3F3A gene, the detection of which can help diagnosis, especially distinguishing from giant-cell enriched osteosarcoma",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A bone sarcoma MDT should manage every patient; check serum calcium to exclude a brown tumour of hyperparathyroidism.**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "All patients with GCTB should be managed by a bone sarcoma MDT. Brown tumours of hyperparathyroidism should be excluded with serum calcium levels.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Surgery is first choice for resectable GCTB.** En-bloc excision recurs less than curettage, but curettage usually keeps more function; burring, cement and cryotherapy improve local control. The approach balances joint preservation and soft tissue extent against recurrence risk.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Surgery is the treatment of choice for resectable GCTB. En-bloc excision is associated with lower rates of recurrence than intralesional curettage. However, curettage usually preserves more function. Local control is improved with surgical adjuvants such as high-speed burring, cement and cryotherapy []. The choice of surgical approach depends on whether joint preservation is possible, and the size of any soft tissue mass and should weigh morbidity of treatment against the risk of recurrence.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
   {
    "claim": "**Sarcoma care is complex and multimodal, so a sarcoma multidisciplinary team should plan and review treatment,** and patients should be offered a clinical trial where one fits.",
    "source": "S1",
@@ -244,6 +273,48 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '3467 Giant cell tumour of bone denosumab (eviQ ID 3467, version 4)', first approved 10 July 2018; last reviewed 4 September 2024 (biosimilar note added 12 September 2025); review due 31 December 2027, https://www.eviq.org.au/p/3467, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Denosumab is for GCTB where surgery is impossible or too morbid, and for metastases;** it is also used before surgery in selected cases to firm up the soft tissue component and make resection easier.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Denosumab is indicated where surgery is not possible or unacceptably morbid and in patients with metastases. It is also used for selected cases before surgery to solidify the soft tissue component, facilitating surgical resection and reducing the risk of recurrence.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Curettage after denosumab is harder and recurs more often, so complete resection is usually preferred once denosumab has been given.**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Curettage after denosumab can be difficult and is associated with a higher risk of local recurrence []. Therefore, complete resection is usually preferred after denosumab treatment.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Control is excellent at first (96%), but most tumours regrow once denosumab stops (after about 9 months),** so resect where possible. Up to 6 months before surgery is reasonable for a responding tumour; inoperable tumours may need life-long treatment, whose consequences, especially in the young, are unknown.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Whilst initial control is excellent (96%), most tumours recur if the drug is stopped (after around 9 months), so surgical resection is indicated where possible. The optimal duration of pre-operative treatment is not clear, but treatment for up to 6 months is reasonable for responding tumours. Inoperable tumours may require life-long treatment but the consequences of this, particularly in younger patients, are not known",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Metastatic GCTB may need life-long denosumab;** retrospective series have stretched dosing from 4-weekly to 8-weekly once disease has been stable for two years after starting. Lung metastases are usually not operated on.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients with metastatic disease may require life-long treatment with denosumab. Retrospective studies have increased the interval between doses in patients with stable disease two years after starting treatment from 4 weekly to 8 weekly []. Surgery for pulmonary metastases is usually not performed.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Radiotherapy** was used historically when surgery was too morbid or margins were hard to achieve, with local control approaching 80% (lower after heavy pretreatment). **Chemotherapy** for denosumab-refractory disease is not standard of care.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Radiotherapy has been used historically where surgery was judged to be unacceptably morbid or adequate margins were difficult to achieve. Local control rates approach 80% but are lower in heavily pre-treated patients []. Cytotoxic chemotherapy has been used in unresectable advanced GCTB not responding to denosumab, but there are no randomised clinical trials, and chemotherapy is not standard of care.",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Malignant GCTB (rare high-grade transformation) does not respond to denosumab;** consider combination chemotherapy on osteosarcoma-type protocols.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Rarely, GCTs can transform to or present as malignant high-grade tumours. Patients do not benefit from denosumab. Combination cytotoxic chemotherapy following protocols for osteosarcoma and other high-grade PMBT should be considered",
+   "locator": "British Sarcoma Group, British Journal of Cancer 132(1):32 (doi 10.1038/s41416-024-02868-4), 'UK guidelines for the management of bone sarcomas', published 16 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723950/, retrieved 2026-09-24"
   },
   {
    "claim": "**The main phase 2 study (2008 to 2016) enrolled 532 patients in 3 cohorts:** 267 with surgically unsalvageable GCTB, 253 whose planned surgery would cause severe morbidity, and 12 from an earlier denosumab study. All got 120 mg every 4 weeks, with loading doses on days 8 and 15 in the first two cohorts; safety was the primary end point.",

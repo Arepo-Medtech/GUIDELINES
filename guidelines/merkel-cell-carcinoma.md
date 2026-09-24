@@ -1,11 +1,13 @@
 # Merkel cell carcinoma
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** clinical diagnosis, pathology, staging, surgery and radiotherapy for local and locoregional disease, immunotherapy for advanced disease, older patients and follow-up in adults with Merkel cell carcinoma. Basal cell and cutaneous squamous cell carcinoma: see `keratinocyte-cancer`. Melanoma: see `melanoma`. Other neuroendocrine neoplasms: see `neuroendocrine-neoplasms`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 18 claims paraphrased from **European Society for Medical Oncology (ESMO) and EURACAN, ESMO Open (doi 10.1016/j.esmoop.2024.102977) — *Merkel-cell carcinoma: ESMO-EURACAN Clinical Practice Guideline for diagnosis, treatment and follow-up*** (published 30 April 2024; origin: international). **36 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **58 fragments or anchors re-checkable by machine; 4 doses.** **S1** European Society for Medical Oncology (ESMO) and EURACAN (published 30 April 2024; international): 18 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 9 claims, paraphrased, hash-anchored
 
-> ⚠️ International guideline (ESMO-EURACAN, 2024). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International guideline (ESMO-EURACAN, 2024) for S1. Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is Australian: two eviQ treatment protocols (avelumab 3463; adjuvant radiotherapy 1023).** They are regimen protocols, not guidelines, and add the avelumab dose and monitoring and Australian radiotherapy doses.
 
 > ⚠️ **Of the four checkpoint inhibitors the guideline recommends, only avelumab is in the PBS data for Merkel cell carcinoma.** Pembrolizumab, retifanlimab and nivolumab are not PBS-listed for this condition.
 
@@ -30,6 +32,9 @@
 - ⚠️ **Adjuvant radiotherapy of 50–60 Gy to the tumour bed** for tumours 1 cm or larger or with adverse features (stage IB or higher). Observation alone in stage IA is a referral-centre decision. [S1]
 - **Positive sentinel node:** adjuvant nodal radiotherapy, with or without completion dissection, after MDT review. Clinically involved nodes or extranodal spread: node dissection plus postoperative radiotherapy (or definitive radiotherapy if inoperable). [S1]
 - ⚠️ **Do not give adjuvant chemotherapy;** offer trials of (neo)adjuvant immunotherapy instead. [S1]
+- **Australian adjuvant radiotherapy protocol (eviQ):** for T1–4, any N, M0 disease with no gross tumour left after surgery, ECOG 0–2. After MDT discussion radiotherapy can be left out when every favourable feature is present: margins of 1 cm or more, a primary of 1 cm or less, a negative sentinel node, no chronic immunosuppression, no lymphovascular invasion and a primary outside the head and neck. Treat the primary site alone if the sentinel node is negative and imaging shows no suspicious nodes. [S2]
+- **Start radiotherapy once the wound has healed, ideally 4–6 weeks after surgery;** wait for a skin graft to take fully. PET staging before surgery, where available, helps with work-up and follow-up. With positive margins the MDT weighs further surgery against delaying radiotherapy, since a boost may make re-excision unnecessary. [S2]
+- ⚠️ **Adjuvant radiotherapy doses (eviQ, 2 Gy fractions to the high-risk volume):** clear margins (R0) 50–54 Gy in 25–27 fractions; microscopically positive margins or extracapsular extension (R1) 60 Gy recommended, with 54 Gy an option for small T1 tumours; gross residual disease (R2) 60–66 Gy. Hypofractionated options for the primary are 45–50 Gy in 20 fractions over 4 weeks, or 30 Gy in 6 fractions over 3 weeks. [S2]
 
 ## Advanced and metastatic disease
 
@@ -37,6 +42,15 @@
 - **Avelumab (JAVELIN Merkel trial):** in untreated patients the response rate was 39.7% with median survival 20.3 months; outcomes are best when it is used first line, and immunosuppressed patients benefit too. [S1]
 - **No biomarker predicts benefit** (PD-L1, viral status, tumour mutational burden and CD8 infiltration all failed), and the best duration of immunotherapy is unknown. [S1]
 - **Oligometastatic progression:** consider surgery or stereotactic radiotherapy in fit patients, but start with systemic immunotherapy. If immunotherapy is contraindicated or fails, palliative radiotherapy or chemotherapy are options of uncertain survival benefit. [S1]
+
+## Avelumab: dose and monitoring (eviQ)
+
+- ⚠️ **Avelumab 10 mg/kg IV on day 1 every 14 days, or 800 mg every 14 days (no more than 10 mg/kg below 80 kg), until progression or unacceptable toxicity,** for unresectable or metastatic Merkel cell carcinoma. It is a PBS authority item, and doses are never reduced. [S2]
+- ⚠️ **Infusion reactions are a high risk with avelumab, some severe:** give paracetamol 1,000 mg and loratadine 10 mg by mouth 60 minutes before each of the first four infusions, and keep premedicating after any mild or moderate reaction. [S2]
+- **Seek expert advice first** if the patient has significant autoimmune disease, an organ transplant, past viral hepatitis or previous lung radiotherapy. Radiation recall has been seen with PD-L1 inhibitors, so time the start carefully after a long course of radiotherapy. [S2]
+- **Early apparent growth can be pseudoprogression (about 5%):** if the patient is well, consider continuing and rescanning 4 to 6 weeks later. [S2]
+- **Tests:** FBC, EUC, eGFR, liver tests, cortisol, thyroid function and glucose at baseline; FBC, EUC, eGFR, liver tests and glucose before every cycle; thyroid function (and consider cortisol) every 4–6 weeks on treatment and 12-weekly afterwards. Screen for hepatitis before starting. [S2]
+- **eviQ calls the evidence limited, resting mainly on the phase II JAVELIN Merkel 200 trial.** After chemotherapy (part A, 88 patients), 33.0% responded (10 completely), responses lasted a median of 40.5 months, and median PFS and survival were 2.7 and 12.6 months. Grade 3 treatment-related events were 5% in part A and 20.5% in untreated patients (part B), where 23.1% had infusion reactions and 15.4% stopped for toxicity. [S2]
 
 ## Older patients
 
@@ -64,14 +78,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **The staging (AJCC 8th edition) table and the treatment algorithm figures** were stripped and are not reproduced. | `input_unavailable` |
-| 2 | **Avelumab dose and schedule** are not stated in the text; see the PBS restriction and eviQ. | `input_unavailable` |
-| 3 | **Australian divergence:** the guideline recommends four PD-(L)1 antibodies, but only avelumab is PBS-listed for Merkel cell carcinoma. | `observation` |
-| 4 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **Avelumab dose and schedule** are not stated in S1; they now come from S2 (eviQ 3463). Doses of pembrolizumab, retifanlimab and nivolumab for this disease are in neither source. | `input_unavailable` |
+| 3 | **First-line avelumab response rate:** S1 cites the final JAVELIN Merkel 200 part B result (39.7%); S2's evidence section still reports the interim part B analysis (62.1% of 29 evaluable patients). The S1 figure is the more mature one; the interim figure is not repeated as a claim. | `observation` |
+| 4 | **Omitting adjuvant radiotherapy:** S1 leaves observation in stage IA to referral centres and recommends 50–60 Gy for tumours of 1 cm or more; S2 allows omission after MDT review only when all six favourable features are present, and gives 50–54 Gy for clear margins and 60 Gy for positive margins. The positions are compatible but not identical; both are shown. | `observation` |
+| 5 | **Australian divergence:** the guideline recommends four PD-(L)1 antibodies, but only avelumab is PBS-listed for Merkel cell carcinoma. | `observation` |
+| 6 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 7 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial users to seek permission and says its content should not be hosted on external sites. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | European Society for Medical Oncology (ESMO) and EURACAN, ESMO Open (doi 10.1016/j.esmoop.2024.102977). *Merkel-cell carcinoma: ESMO-EURACAN Clinical Practice Guideline for diagnosis, treatment and follow-up*. published 30 April 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11145756/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines). *eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)*. current versions retrieved 24 September 2026. https://www.eviq.org.au/p/3463 — retrieved 2026-09-24. | CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page). eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

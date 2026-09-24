@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/soft-tissue-sarcoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/",
+  "https://www.eviq.org.au/p/1554"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02674-y) 'UK guidelines for the management of soft tissue sarcomas' (published 11 May 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11724041). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02674-y) 'UK guidelines for the management of soft tissue sarcomas' (published 11 May 2024), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11724041). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines) 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)' (current versions retrieved 24 September 2026), 10 claims; LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page). eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every British Sarcoma Group claim (S1) unchanged and adds S2, four Australian eviQ treatment protocols (CC BY-NC 4.0, paraphrased): doxorubicin (https://www.eviq.org.au/p/1554), trabectedin (/p/3474), eribulin (/p/3462) and pazopanib (/p/1602), for the PBS-listed drugs' doses, indications, safety monitoring and pivotal-trial results, which S1 does not give. The S2 source file concatenates the four protocol pages, each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The ANZSA/Cancer Council sarcoma guideline was not used (surgery and diagnosis focus, and not re-checked for an open licence in this pass).",
  "summary": {
-  "total": 24,
+  "total": 34,
   "pass": 24,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -185,6 +187,246 @@
    "verdict": "pass",
    "source_text": "For a number of patients, particularly those with poor performance status or significant comorbidities, standard supportive care with symptom control alone, is often the most appropriate option. Early involvement of community palliative care teams should be considered in all patients with advanced disease.",
    "locator": "British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02674-y), 'UK guidelines for the management of soft tissue sarcomas', published 11 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Doxorubicin 75 mg/m² IV on day 1 every 21 days, with pegfilgrastim 6 mg subcutaneously on day 2, for up to 6 cycles** (or until progression or toxicity). A 72-hour infusion of 25 mg/m² daily on days 1 to 3 is an alternative that lowers cardiotoxicity. Activity is dose-dependent and best at 60 to 75 mg/m².",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e54a861052741647",
+     "n": 444,
+     "p": "DOXOrubi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**For locally advanced unresectable, metastatic or highly symptomatic soft tissue sarcoma with ECOG 0 to 2, as palliation;** not if LVEF is below 50%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3c5806945adbd8d",
+     "n": 206,
+     "p": "Locally "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Heart:** count every anthracycline the patient has ever had towards the lifetime limit. Get an echo (or gated heart pool scan) and ECG at baseline. With normal function and low risk, recheck LVEF past 70% of the anthracycline threshold or with symptoms; high-risk patients need an echo every 6 weeks and within 3 months of finishing, and all adults within 12 months of finishing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f793f7786dc4f1a7",
+     "n": 181,
+     "p": "Cumulati"
+    },
+    {
+     "h": "ea60df4987aa818e",
+     "n": 602,
+     "p": "Baseline"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**EORTC 62012 (455 patients):** adding ifosfamide did not significantly lengthen survival (median 14.3 against 12.8 months, HR 0.83) but did improve PFS (7.4 against 4.6 months) and response (26.5% against 13.6%), with more toxicity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c559619e7023d47",
+     "n": 38,
+     "p": "(EORTC 6"
+    },
+    {
+     "h": "e0752cf2d75d3095",
+     "n": 125,
+     "p": "Median O"
+    },
+    {
+     "h": "4d5c981f3600866f",
+     "n": 288,
+     "p": "doxorubi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Trabectedin 1.5 mg/m² as a 24-hour continuous infusion through a central line every 21 days, after dexamethasone 20 mg IV 30 minutes before,** until progression or toxicity. PBS authority, for unresectable or metastatic liposarcoma or leiomyosarcoma after anthracycline chemotherapy (ECOG 0 to 2); not if bilirubin is raised at baseline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f973194adef0f10",
+     "n": 173,
+     "p": "Trabecte"
+    },
+    {
+     "h": "7e99265abd66c887",
+     "n": 55,
+     "p": "Dexameth"
+    },
+    {
+     "h": "7608e2a75ed4c479",
+     "n": 300,
+     "p": "Unresect"
+    },
+    {
+     "h": "3fb698ad7d3b5c86",
+     "n": 77,
+     "p": "Central "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Trabectedin can kill through neutropenic sepsis, liver toxicity, capillary leak or rhabdomyolysis.** Check CK before every dose and stop for good if rhabdomyolysis occurs; assess LVEF before starting and every 2 to 3 months; bloods (FBC, EUC, eGFR, liver tests, CK) before starting, every week through the first 2 cycles, then at least once between cycles and before each.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c2e77d800ab2c56",
+     "n": 144,
+     "p": "Assess l"
+    },
+    {
+     "h": "fbbb333fd267df2c",
+     "n": 48,
+     "p": "Fatal ca"
+    },
+    {
+     "h": "c3112b296c88a2be",
+     "n": 67,
+     "p": "Capillar"
+    },
+    {
+     "h": "09d8a0906f245733",
+     "n": 247,
+     "p": "Ensure a"
+    },
+    {
+     "h": "86177a540da78d5a",
+     "n": 173,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Trabectedin against dacarbazine (577 patients):** median survival 13.7 against 13.1 months (HR 0.93, not significant), but PFS 4.2 against 1.5 months (HR 0.55). The 7 treatment-related deaths (2.1%) were all on trabectedin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c17ff2ee325a23c3",
+     "n": 75,
+     "p": "phase II"
+    },
+    {
+     "h": "621b58e613ce3640",
+     "n": 153,
+     "p": "the medi"
+    },
+    {
+     "h": "b0db3c80213fadef",
+     "n": 136,
+     "p": "Median P"
+    },
+    {
+     "h": "11c9f98ac176b49f",
+     "n": 181,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Eribulin mesilate 1.4 mg/m² IV on days 1 and 8 every 21 days** (the same as 1.23 mg/m² eribulin base), until progression or toxicity. PBS authority, for dedifferentiated, pleomorphic, round cell or myxoid liposarcoma after chemotherapy that included an anthracycline and ifosfamide (ECOG 0 to 2); take care with neuropathy, abnormal liver tests or a long QTc. Against dacarbazine it lengthened median survival to 13.5 from 11.5 months (HR 0.77), with PFS the same (2.6 months).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4a466d45ca9f0263",
+     "n": 167,
+     "p": "Eribulin"
+    },
+    {
+     "h": "9883fe26c898aa7c",
+     "n": 86,
+     "p": "(Note: e"
+    },
+    {
+     "h": "76afabc8eebc0bab",
+     "n": 329,
+     "p": "Advanced"
+    },
+    {
+     "h": "c3ec8357ae197e0d",
+     "n": 287,
+     "p": "the medi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Pazopanib 800 mg by mouth once daily on an empty stomach (one hour before or two hours after food), swallowed whole,** until progression or toxicity. PBS authority, for advanced non-adipocytic soft tissue sarcoma after anthracycline chemotherapy (ECOG 0 to 2); take care with heart failure, hypertension or liver impairment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8bf41fb6a74a8154",
+     "n": 137,
+     "p": "pAZOPani"
+    },
+    {
+     "h": "432b7a915596b9fe",
+     "n": 26,
+     "p": "Pazopani"
+    },
+    {
+     "h": "8662c6c41c23be7c",
+     "n": 251,
+     "p": "Advanced"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Pazopanib monitoring:** severe, sometimes fatal liver toxicity usually starts within 18 weeks, so test liver function in weeks 3, 5, 7 and 9 and in months 3 and 4, and periodically after that; FBC, EUC and eGFR at baseline, week 2 and monthly; thyroid function every 8 to 12 weeks. Control blood pressure first; for hypertension not controlled within 2 weeks, pause and restart at 600 mg, then 400 mg. In the pivotal trial PFS was 4.6 against 1.6 months (HR 0.31) with no significant survival gain.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "10f1c091e8a067ae",
+     "n": 84,
+     "p": "Onset of"
+    },
+    {
+     "h": "9990369725eaf747",
+     "n": 250,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "721544484f107d73",
+     "n": 263,
+     "p": "if BP is"
+    },
+    {
+     "h": "b0a351ae93894a3c",
+     "n": 272,
+     "p": "the medi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/1554, retrieved 2026-09-24",
+   "dose": true
   }
  ]
 }

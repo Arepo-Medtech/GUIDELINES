@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/renal-cell-carcinoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3561"
+  "https://www.eviq.org.au/p/3561",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Renal cell metastatic ipilimumab and nivolumab (induction) (eviQ ID 3561 v.10)' (ID 3561 v.10; first approved 28 March 2019, last reviewed 30 June 2025, review due 30 June 2029). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Renal cell metastatic ipilimumab and nivolumab (induction) (eviQ ID 3561 v.10)' (ID 3561 v.10; first approved 28 March 2019, last reviewed 30 June 2025, review due 30 June 2029), 19 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788) 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0' (published 23 March 2026), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13034276). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ 3561 claim (S1) unchanged and adds S2, the SITC 2026 immunotherapy guideline for RCC (international, CC BY-NC 4.0, paraphrased), for the choice among the four first-line immunotherapy combinations, sarcomatoid disease, 6-year favourable-risk data, treatment duration and beyond progression, oligometastatic disease, later lines, adjuvant pembrolizumab and special populations. S2 gives no doses; its tables and algorithm figures were stripped.",
  "summary": {
-  "total": 19,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -55,6 +56,101 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Renal cell metastatic ipilimumab and nivolumab (induction) (eviQ ID 3561 v.10)', ID 3561 v.10; first approved 28 March 2019, last reviewed 30 June 2025, review due 30 June 2029, https://www.eviq.org.au/p/3561, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Special populations (SITC):** with significant autoimmune disease or a solid organ transplant, hold off checkpoint inhibitors at first and ask a specialist. HIV and older age are not contraindications; a geriatric assessment can help judge whether treatment will be tolerated.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f7a02ef249b140d",
+     "n": 182,
+     "p": "For pati"
+    },
+    {
+     "h": "6065549934a7086b",
+     "n": 92,
+     "p": "For pati"
+    },
+    {
+     "h": "0e8bd71cc6783df7",
+     "n": 181,
+     "p": "older ag"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**An immunotherapy-based first line is recommended for anyone fit for systemic therapy.** Four combinations have improved overall survival: nivolumab with ipilimumab, pembrolizumab with axitinib, nivolumab with cabozantinib, and pembrolizumab with lenvatinib. No trial compares them head to head, so any of them may be chosen.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a1544ff5281d5092",
+     "n": 98,
+     "p": "For pati"
+    },
+    {
+     "h": "13c6ca6b908a97f9",
+     "n": 315,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Sarcomatoid features: ipilimumab with nivolumab is the preferred choice.** In CheckMate 214 these patients had not reached median overall survival at the 42-month analysis, against 14.2 months on sunitinib (HR 0.45).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35549b335093221e",
+     "n": 104,
+     "p": "For pati"
+    },
+    {
+     "h": "0c2ae6da4ab7f864",
+     "n": 419,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Favourable risk, with longer follow-up:** by the 6-year analysis, overall survival in favourable-risk patients had shifted towards the combination (median 79 against 68 months, HR 0.87). SITC judges IMDC risk nearly useless for predicting immunotherapy response, so any approved combination may be offered whatever the risk group.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a7d346f6fc96d4e",
+     "n": 315,
+     "p": "At the 6"
+    },
+    {
+     "h": "708be5d1493dbde6",
+     "n": 279,
+     "p": "the pred"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Small, slow-growing, symptom-free metastatic disease may be watched** or treated with metastasis-directed therapy. Whether to remove or irradiate the kidney primary, now or later, is still under study and is an MDT decision.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d5918dd4b923425",
+     "n": 159,
+     "p": "A subset"
+    },
+    {
+     "h": "91f32114f57b1d54",
+     "n": 286,
+     "p": "the role"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
   },
   {
    "claim": "**Induction: nivolumab 3 mg/kg IV, then ipilimumab 1 mg/kg IV 30 minutes later, on day 1 of a 21-day cycle for 4 cycles.** Then continue with nivolumab alone until progression or unacceptable toxicity.",
@@ -105,6 +201,19 @@
    "dose": true
   },
   {
+   "claim": "**How long (SITC):** the best evidence supports 2 years of checkpoint inhibitor treatment; carrying on past 2 years can be tailored to the individual.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "788065a98095e677",
+     "n": 218,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Assess response at 12 weeks,** when induction ends. About 5% of patients have pseudoprogression (early growth or new lesions before later shrinkage); if the patient is well, carrying on and rescanning 4 to 6 weeks later can be considered.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -129,6 +238,88 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Renal cell metastatic ipilimumab and nivolumab (induction) (eviQ ID 3561 v.10)', ID 3561 v.10; first approved 28 March 2019, last reviewed 30 June 2025, review due 30 June 2029, https://www.eviq.org.au/p/3561, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Progression on scans but clinically well (SITC):** immunotherapy may continue with close monitoring if the patient is stable and tolerating it. Reported rates of pseudoprogression or atypical response vary from 1.8% to 14%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3e10c58b56ba031f",
+     "n": 208,
+     "p": "For pati"
+    },
+    {
+     "h": "1335ecd726d667d3",
+     "n": 119,
+     "p": "larger s"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oligometastatic or oligoprogressive disease:** consider local treatment, with stereotactic radiotherapy for oligoprogression; brain metastases should get local therapy wherever feasible. None of this requires stopping immunotherapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b376b8a3902d20d5",
+     "n": 364,
+     "p": "Local th"
+    },
+    {
+     "h": "48485fb37693e620",
+     "n": 112,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After checkpoint inhibitor failure:** a TKI-based regimen, or belzutifan once a TKI has been used; if the first line paired immunotherapy with a TKI, switch to a different TKI. Moving to another anti-PD-(L)1 drug has no proven role.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6837fa0d43de2e52",
+     "n": 250,
+     "p": "For pati"
+    },
+    {
+     "h": "5baed7595a66a00b",
+     "n": 113,
+     "p": "There is"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adjuvant pembrolizumab after nephrectomy** should be considered for pT2 with grade 4 or sarcomatoid disease, pT3 or higher, node-positive disease, or M1 with no evidence of disease. Image within 3 months beforehand, start within 3–4 months of surgery and treat for 1 year. Non-clear cell RCC has no standard adjuvant treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2397ccea3e36e74",
+     "n": 206,
+     "p": "For pati"
+    },
+    {
+     "h": "856d2a84896ee790",
+     "n": 63,
+     "p": "imaging "
+    },
+    {
+     "h": "84a29bf5ecc0be0d",
+     "n": 94,
+     "p": "treatmen"
+    },
+    {
+     "h": "cd9ab38f747cadf4",
+     "n": 146,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Society for Immunotherapy of Cancer (SITC) expert panel, Journal for ImmunoTherapy of Cancer 14(3):e013788 (doi 10.1136/jitc-2025-013788), 'Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immunotherapy for the treatment of renal cell carcinoma, version 3.0', published 23 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13034276/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Immune-related adverse events can begin early, escalate fast and appear even after treatment stops.** They are more frequent and earlier with the combination than with nivolumab alone, and deaths have occurred.",

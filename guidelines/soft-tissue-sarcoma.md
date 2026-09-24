@@ -1,11 +1,13 @@
 # Soft tissue sarcoma in adults (limbs and trunk; systemic therapy for advanced disease)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition and referral, biopsy and staging, surgery, radiotherapy, peri-operative chemotherapy, follow-up and systemic therapy for advanced disease in adults with soft tissue sarcoma, mainly of the limbs and trunk. GIST: see `gastrointestinal-stromal-tumour`. Retroperitoneal, gynaecological, paediatric and bone sarcomas are covered only in passing by the source. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 24 claims quoted verbatim from **British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02674-y) — *UK guidelines for the management of soft tissue sarcomas*** (published 11 May 2024; origin: international); **32 fragments re-checked by machine; 2 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **63 fragments or anchors re-checkable by machine; 7 doses.** **S1** British Sarcoma Group (published 11 May 2024; international): 24 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 10 claims, paraphrased, hash-anchored
 
-> ⚠️ International guideline (British Sarcoma Group, 2024). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International guideline (British Sarcoma Group, 2024) for S1. Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is Australian: four eviQ treatment protocols (doxorubicin 1554, trabectedin 3474, eribulin 3462, pazopanib 1602).** They are regimen protocols, not guidelines, and add doses, eligibility and monitoring for the PBS-listed drugs.
 
 > ⚠️ **Funding differs from the UK.** The source notes eribulin is **not funded in England** for sarcoma, but the PBS lists eribulin for **liposarcoma**. The PBS also lists trabectedin (leiomyosarcoma or liposarcoma) and pazopanib (soft tissue sarcoma). Check each restriction before prescribing.
 
@@ -50,6 +52,22 @@
 - **Lung metastases:** base metastasectomy on disease-free interval, other disease, number and growth. Without a meaningful disease-free interval, rescan at three months and operate if no new lesions appear. [S1]
 - **Poor performance status or major comorbidity:** symptom control alone is often best; involve community palliative care early in all advanced disease. [S1]
 
+## Doxorubicin (eviQ)
+
+- ⚠️ **Doxorubicin 75 mg/m² IV on day 1 every 21 days, with pegfilgrastim 6 mg subcutaneously on day 2, for up to 6 cycles** (or until progression or toxicity). A 72-hour infusion of 25 mg/m² daily on days 1 to 3 is an alternative that lowers cardiotoxicity. Activity is dose-dependent and best at 60 to 75 mg/m². [S2]
+- **For locally advanced unresectable, metastatic or highly symptomatic soft tissue sarcoma with ECOG 0 to 2, as palliation;** not if LVEF is below 50%. [S2]
+- ⚠️ **Heart:** count every anthracycline the patient has ever had towards the lifetime limit. Get an echo (or gated heart pool scan) and ECG at baseline. With normal function and low risk, recheck LVEF past 70% of the anthracycline threshold or with symptoms; high-risk patients need an echo every 6 weeks and within 3 months of finishing, and all adults within 12 months of finishing. [S2]
+- **EORTC 62012 (455 patients):** adding ifosfamide did not significantly lengthen survival (median 14.3 against 12.8 months, HR 0.83) but did improve PFS (7.4 against 4.6 months) and response (26.5% against 13.6%), with more toxicity. [S2]
+
+## Second-line drugs on the PBS (eviQ)
+
+- ⚠️ **Trabectedin 1.5 mg/m² as a 24-hour continuous infusion through a central line every 21 days, after dexamethasone 20 mg IV 30 minutes before,** until progression or toxicity. PBS authority, for unresectable or metastatic liposarcoma or leiomyosarcoma after anthracycline chemotherapy (ECOG 0 to 2); not if bilirubin is raised at baseline. [S2]
+- ⚠️ **Trabectedin can kill through neutropenic sepsis, liver toxicity, capillary leak or rhabdomyolysis.** Check CK before every dose and stop for good if rhabdomyolysis occurs; assess LVEF before starting and every 2 to 3 months; bloods (FBC, EUC, eGFR, liver tests, CK) before starting, every week through the first 2 cycles, then at least once between cycles and before each. [S2]
+- **Trabectedin against dacarbazine (577 patients):** median survival 13.7 against 13.1 months (HR 0.93, not significant), but PFS 4.2 against 1.5 months (HR 0.55). The 7 treatment-related deaths (2.1%) were all on trabectedin. [S2]
+- ⚠️ **Eribulin mesilate 1.4 mg/m² IV on days 1 and 8 every 21 days** (the same as 1.23 mg/m² eribulin base), until progression or toxicity. PBS authority, for dedifferentiated, pleomorphic, round cell or myxoid liposarcoma after chemotherapy that included an anthracycline and ifosfamide (ECOG 0 to 2); take care with neuropathy, abnormal liver tests or a long QTc. Against dacarbazine it lengthened median survival to 13.5 from 11.5 months (HR 0.77), with PFS the same (2.6 months). [S2]
+- ⚠️ **Pazopanib 800 mg by mouth once daily on an empty stomach (one hour before or two hours after food), swallowed whole,** until progression or toxicity. PBS authority, for advanced non-adipocytic soft tissue sarcoma after anthracycline chemotherapy (ECOG 0 to 2); take care with heart failure, hypertension or liver impairment. [S2]
+- ⚠️ **Pazopanib monitoring:** severe, sometimes fatal liver toxicity usually starts within 18 weeks, so test liver function in weeks 3, 5, 7 and 9 and in months 3 and 4, and periodically after that; FBC, EUC and eGFR at baseline, week 2 and monthly; thyroid function every 8 to 12 weeks. Control blood pressure first; for hypertension not controlled within 2 weeks, pause and restart at 600 mg, then 400 mg. In the pivotal trial PFS was 4.6 against 1.6 months (HR 0.31) with no significant survival gain. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -69,14 +87,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Subtype-specific tables** (further staging by histology, follow-up schedules, targeted therapies by subtype) were stripped from the text and are not used. | `input_unavailable` |
-| 2 | **Drug doses and schedules** for doxorubicin, trabectedin, eribulin and pazopanib are not stated in the text; use eviQ protocols (e.g. 1554, 3474, 3462, 1602). | `input_unavailable` |
-| 3 | **Kaposi sarcoma and DFSP** (PBS: pegylated liposomal doxorubicin; imatinib) get one line each in the source, not enough to author guidance. | `out_of_scope` |
-| 4 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
+| 2 | **Drug doses and schedules** for doxorubicin, trabectedin, eribulin and pazopanib now come from S2 (eviQ 1554, 3474, 3462, 1602). Doses for doxorubicin with ifosfamide or dacarbazine, and gemcitabine with docetaxel, are in neither source used here. | `input_unavailable` |
+| 3 | **Trabectedin against dacarbazine:** S1 says trabectedin beat dacarbazine in leiomyosarcoma and liposarcoma; the trial S2 cites improved PFS but not overall survival (HR 0.93). Both are shown. | `observation` |
+| 4 | **Eribulin eligibility:** S1 describes authorisation for unresectable liposarcoma after anthracycline; S2 requires prior anthracycline and ifosfamide and names the liposarcoma subtypes. Check the PBS restriction. | `observation` |
+| 5 | **Kaposi sarcoma and DFSP** (PBS: pegylated liposomal doxorubicin; imatinib) get one line each in the source, not enough to author guidance. | `out_of_scope` |
+| 6 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
+| 7 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial users to seek permission and says its content should not be hosted on external sites. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02674-y). *UK guidelines for the management of soft tissue sarcomas*. published 11 May 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11724041/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines). *eviQ protocols 1554 Soft tissue sarcoma doxorubicin, 3474 trabectedin, 3462 Liposarcoma eribulin and 1602 pazopanib (advanced or metastatic disease)*. current versions retrieved 24 September 2026. https://www.eviq.org.au/p/1554 — retrieved 2026-09-24. | CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page). eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

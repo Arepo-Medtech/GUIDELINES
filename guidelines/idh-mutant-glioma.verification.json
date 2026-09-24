@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/idh-mutant-glioma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13053624/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13053624/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Cooperative Trials Group for Neuro-Oncology (COGNO), Asia-Pacific Journal of Clinical Oncology 22(3):392-403 'Management of Adult Patients With Isocitrate Dehydrogenase-Mutant Gliomas in Australia: An Expert Position Statement From the Cooperative Trials Group for Neuro-Oncology' (published 25 March 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13053624). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Cooperative Trials Group for Neuro-Oncology (COGNO), Asia-Pacific Journal of Clinical Oncology 22(3):392-403 'Management of Adult Patients With Isocitrate Dehydrogenase-Mutant Gliomas in Australia: An Expert Position Statement From the Cooperative Trials Group for Neuro-Oncology' (published 25 March 2026), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13053624). S2: QUOTED from Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032) 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era' (published 10 April 2026), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13578488). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every COGNO claim (S1) unchanged and adds S2, 2026 multidisciplinary expert recommendations on follow-up of IDH-mutant glioma (international, CC BY 4.0, quoted), for scan timing after surgery, radiotherapy, watch-and-wait and vorasidenib, volumetric assessment, tumour mimics and repeat surgery. S2 is an expert recommendations paper that summarises the EANO 2021 and NCCN 2025 schedules, not a society guideline: the EANO 2021 glioma guideline (Nature Reviews Clinical Oncology), the ESTRO-EANO 2025 radiotherapy guideline and the ASTRO 2022 guideline have no open copy. A Spanish six-society Delphi consensus on grade 2 IDH-mutant glioma (Clinical and Translational Oncology 2026, PMC13499869, CC BY-NC-ND) was read and not used: its recommendations sit in stripped tables and its narrative largely repeats S1.",
  "summary": {
-  "total": 25,
-  "pass": 0,
+  "total": 36,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 25
  },
@@ -425,6 +426,83 @@
     }
    ],
    "locator": "Cooperative Trials Group for Neuro-Oncology (COGNO), Asia-Pacific Journal of Clinical Oncology 22(3):392-403, 'Management of Adult Patients With Isocitrate Dehydrogenase-Mutant Gliomas in Australia: An Expert Position Statement From the Cooperative Trials Group for Neuro-Oncology', published 25 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13053624/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Repeat surgery:** if residual tumour could be completely removed, offer re-resection before adjuvant therapy, even in higher grades, when neurological risk is acceptable. At recurrence reassess resectability promptly; about 20% of recurrent lower grade gliomas can be re-resected without functional loss.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "patients whose residual tumors are amenable to complete resection should be offered repeat surgery prior to initiating adjuvant therapy even in higher grade lesions, provided neurological risks are acceptable. … Recurrence should prompt timely reevaluation of resectability, as delayed surgical decision-making may forfeit the window of safe and beneficial second surgical intervention. Approximately 20% of recurrent lower grade gliomas (LGGs) can undergo a second resection without deterioration in functional status",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After surgery:** an MRI within 48-72 hours, with diffusion imaging, to define the resection; then a scan at 3-4 months to delineate residual tumour and detect rapid growth. For almost all grade 2 patients, further treatment decisions can wait for that scan.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "An immediate postoperative scan (within 48-72 h from surgery) in IDH-mutant grades 2 and 3 tumors is important to define the extent of resection and should include diffusion weighted images to identify zones of postsurgical ischemia. However, postsurgical changes can also lead to overestimation of the amount of residual tumor. A subsequent MR scan after 3-4 months will allow better delineation of the residual tumor volume, and will inform if unsuspected rapid growth is present. In virtually all grade 2 IDH-mutant glioma patients, decisions for further postsurgical treatments can be postponed until that moment.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After radiotherapy (grade 2 or 3):** make the first baseline MRI 4 months after radiotherapy ends, then scan every 6 months; an earlier scan mainly risks mistaking pseudoprogression for tumour.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For patients treated with radiotherapy, an MR scan shortly after the end of radiotherapy in grades 2 and 3 IDH-mutant glioma carries mainly the risk of picking up pseudoprogression as tumor progression at that stage is very unlikely. Therefore, it is justified to make a first baseline MR scan 4 months after the completion of radiotherapy in patients with IDH mutated grades 2 and 3 tumors, and then continue with scans every 6 months.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Watch-and-wait without tissue diagnosis:** scan every 2-3 months at first, especially over age 50, when a non-enhancing tumour may be an IDH-wildtype glioblastoma. After surgery alone NCCN advises 3-4 months; once the growth rate is established on 4-monthly scans with little change, 6-monthly scans can be considered.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Watch-and-wait strategies without prior histological verification of presumed low-grade tumors based on neuro-imaging only carry the risk of underestimating the grade of malignancy and thus require initial intervals of only 2-3 months between scans. This is especially true for patients over 50 years of age as the risk of a glioblastoma IDHwt with low-grade histological features presenting with a nonenhancing tumor increases with age. … In the setting of \"watch-and-wait\" following surgery only, the NCCN guidelines recommend to have intervals of 3-4 months. … Expanding this interval to every 6 months in case of no or only minimal changes after an initial period with follow-up scans every 4 months allowing the establishment of the tumor growth rate is to be considered.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**On vorasidenib alone after surgery:** follow the watch-and-wait schedule: first scan at 4 months, then 6-monthly after 1-2 years if stable or responding; earlier lengthening is reasonable if growth was known to be slow before starting.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There is still little clinical follow-up data to guide the management of patients treated after surgery with an IDH inhibitor alone. It seems prudent to follow the recommendations for patients on a \"watch-and-wait\" policy, until more information becomes available. With a first scan after 4 months and after 1-2 years increasing the intervals to 6 months in stable or responding patients seems reasonable. If patients have a known and slow tumor growth rate prior to the start of vorasidenib, longer intervals can be implemented earlier.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Long-term survivors:** some oligodendrogliomas treated with radiotherapy and chemotherapy stay progression-free for decades (30% at 20 years for anaplastic oligodendroglioma), and yearly follow-up can be discussed.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a subset of patients, in particular those with grade 2 and even grade 3 oligodendroglioma, long-term PFS (anaplastic oligodendroglioma: 30% PFS at 20 years) is observed after radiotherapy in combination with chemotherapy., In that situation, annual follow-up could be discussed with the patient.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Scan sooner for any unexplained new symptom or rising seizure frequency,** and more often while possible treatment-related changes settle.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Importantly, any new sign or symptom or an increase in seizure frequency not otherwise explained should lead to the consideration of an earlier MRI. This also holds true when radiological changes occur that may be therapy related. In that case, more frequent follow-up will be necessary until lesions stabilize and/or resolve, to ensure tumor progression is not missed.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Measure growth by volume against the MRI taken when surveillance began,** not the latest pretreatment scan. The RANO threshold of a 40% or greater volume increase was designed for trials and may be too insensitive for everyday practice.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "First, it is essential to use the appropriate baseline MRI, meaning the MRI exam obtained at the beginning of active surveillance rather than the most recent pretreatment exam., Second, with increasing technology allowing (semi)automated tumor segmentation and volumetric assessment, there is a trend toward volumetric evaluation of tumor growth rather than conventional 2D measurements, particularly after surgery … While RANO criteria propose a ≥ 40% increase of tumor volume from baseline as a threshold, this cutoff is intended for clinical trials and may be insufficiently sensitive for use in everyday clinical practice.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Know the mimics:** after radiotherapy, pseudoprogression in IDH-mutant tumours tends to appear years later as small, waxing and waning, often periventricular enhancing lesions; surgery, radiotherapy and chemotherapy can also cause leukoencephalopathy. Lack of mass effect and perfusion MRI, amino acid PET or spectroscopy help tell them apart.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Radiotherapy-associated pseudoprogression in IDH-mutant (IDHmt) tumors typically appears ensue years after the end of radiotherapy often in the shape of waxing and waning frequently periventricular located enhancing lesions, typically smaller in size., Surgery, radiotherapy, and even chemotherapy have been associated with leuko-encephalopathy mimicking tumor progression., These can be identified by awareness of the possible occurrence of these developments, by their lack of mass effect and if necessary with more advanced imaging techniques (perfusion MRI, amino acid-positron emission tomography [AA-PET], magnetic resonance spectroscopy [MRS]).",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gadolinium can often be spared:** in one study 96.3% of glioma progressions were visible on T2/FLAIR alone, supporting less routine contrast in long-term surveillance.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In 1 study, 96.3% of glioma progressions were detectable via T2/FLAIR abnormalities alone, raising questions about the necessity of routine GBCA use in every follow-up scan, especially among long-term survivors. These findings support emerging guidelines advocating for reduced contrast use during surveillance.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Clinical triggers matter as much as scans:** changing seizures, and cognitive decline not otherwise explained, may justify earlier treatment, as may growth threatening bilateral spread across the corpus callosum.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Importantly, radiological changes must be integrated with systematic clinical evaluation when considering treatment. Epilepsy represents a key clinical marker: seizure evolution may reflect tumor progression but also represents a therapeutic objective in itself, as oncological treatments (surgery, IDH inhibitors, radiotherapy, or chemotherapy) can improve seizure control in pharmaco-resistant cases. Likewise, both subjective cognitive complaints and objective cognitive impairment must be monitored. Indeed, cognitive deterioration (when not explained by other factors) may justify an earlier treatment. Also, in some cases, the anticipated neurological impact of continued tumor growth (ie, the risk of bilateral and cognitive impairment in tumors crossing the corpus callosum) may lead to earlier therapeutic intervention.",
+   "locator": "Lim-Fat MJ, Darlix A, Suchorska B, Castellano A, Minniti G, Wijnenga M, Short SC, van den Bent MJ (European and Canadian multidisciplinary expert recommendations, presented in part at EANO 2025), Neuro-Oncology Practice 13(5):854 (doi 10.1093/nop/npag032), 'Multidisciplinary recommendations for routine follow-up of isocitrate dehydrogenase-mutant glioma in 2026: Adapting clinical practice to the molecular era', published 10 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13578488/, retrieved 2026-09-24"
   },
   {
    "claim": "**Provide brain cancer care coordination and allied health referral**, and encourage early legal and financial planning (wills, medical and financial powers of attorney) while cognition is intact.",

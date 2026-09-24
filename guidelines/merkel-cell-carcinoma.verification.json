@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/merkel-cell-carcinoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11145756/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11145756/",
+  "https://www.eviq.org.au/p/3463"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) and EURACAN, ESMO Open (doi 10.1016/j.esmoop.2024.102977) 'Merkel-cell carcinoma: ESMO-EURACAN Clinical Practice Guideline for diagnosis, treatment and follow-up' (published 30 April 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC11145756 (Europe PMC returned HTTP 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) and EURACAN, ESMO Open (doi 10.1016/j.esmoop.2024.102977) 'Merkel-cell carcinoma: ESMO-EURACAN Clinical Practice Guideline for diagnosis, treatment and follow-up' (published 30 April 2024), 18 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC11145756 (Europe PMC returned HTTP 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines) 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)' (current versions retrieved 24 September 2026), 9 claims; LICENCE: CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page). eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every ESMO-EURACAN claim (S1) unchanged and adds S2, two Australian eviQ treatment protocols (CC BY-NC 4.0, paraphrased): avelumab for metastatic disease (https://www.eviq.org.au/p/3463) and post-operative radiotherapy (https://www.eviq.org.au/p/1023), for the avelumab dose, premedication and monitoring, and Australian radiotherapy indications and dose prescriptions, which S1 does not give. The S2 source file concatenates the two protocol pages, each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The radiotherapy dose-prescription tables survived conversion as text and are anchored where used. No Australian Merkel cell carcinoma guideline was found (the Cancer Council keratinocyte guideline does not cover it).",
  "summary": {
-  "total": 18,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -207,6 +208,66 @@
    "locator": "European Society for Medical Oncology (ESMO) and EURACAN, ESMO Open (doi 10.1016/j.esmoop.2024.102977), 'Merkel-cell carcinoma: ESMO-EURACAN Clinical Practice Guideline for diagnosis, treatment and follow-up', published 30 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11145756/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Australian adjuvant radiotherapy protocol (eviQ):** for T1–4, any N, M0 disease with no gross tumour left after surgery, ECOG 0–2. After MDT discussion radiotherapy can be left out when every favourable feature is present: margins of 1 cm or more, a primary of 1 cm or less, a negative sentinel node, no chronic immunosuppression, no lymphovascular invasion and a primary outside the head and neck. Treat the primary site alone if the sentinel node is negative and imaging shows no suspicious nodes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "559ebebb8760a317",
+     "n": 689,
+     "p": "Merkel c"
+    },
+    {
+     "h": "e339daf2102bb7dc",
+     "n": 9,
+     "p": "ECOG 0-2"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Start radiotherapy once the wound has healed, ideally 4–6 weeks after surgery;** wait for a skin graft to take fully. PET staging before surgery, where available, helps with work-up and follow-up. With positive margins the MDT weighs further surgery against delaying radiotherapy, since a boost may make re-excision unnecessary.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db0e9ac27a1cd806",
+     "n": 675,
+     "p": "Radiatio"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Adjuvant radiotherapy doses (eviQ, 2 Gy fractions to the high-risk volume):** clear margins (R0) 50–54 Gy in 25–27 fractions; microscopically positive margins or extracapsular extension (R1) 60 Gy recommended, with 54 Gy an option for small T1 tumours; gross residual disease (R2) 60–66 Gy. Hypofractionated options for the primary are 45–50 Gy in 20 fractions over 4 weeks, or 30 Gy in 6 fractions over 3 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8aaf88b09217021b",
+     "n": 41,
+     "p": "50-54 Gy"
+    },
+    {
+     "h": "eb525c6ebc552743",
+     "n": 106,
+     "p": "*A total"
+    },
+    {
+     "h": "bc7f6916b7c4288c",
+     "n": 9,
+     "p": "60-66* G"
+    },
+    {
+     "h": "82b42847b5e3401f",
+     "n": 131,
+     "p": "Adjuvant"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "⚠️ **First line for inoperable or disseminated disease is a PD-1 or PD-L1 antibody** rather than chemotherapy, being more effective and safer. Avelumab, pembrolizumab, retifanlimab and nivolumab are all recommended in the first or second line unless contraindicated.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -277,6 +338,131 @@
     }
    ],
    "locator": "European Society for Medical Oncology (ESMO) and EURACAN, ESMO Open (doi 10.1016/j.esmoop.2024.102977), 'Merkel-cell carcinoma: ESMO-EURACAN Clinical Practice Guideline for diagnosis, treatment and follow-up', published 30 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11145756/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Avelumab 10 mg/kg IV on day 1 every 14 days, or 800 mg every 14 days (no more than 10 mg/kg below 80 kg), until progression or unacceptable toxicity,** for unresectable or metastatic Merkel cell carcinoma. It is a PBS authority item, and doses are never reduced.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc25e0d668e36eb2",
+     "n": 210,
+     "p": "10 mg/kg"
+    },
+    {
+     "h": "1332a04824a647f7",
+     "n": 25,
+     "p": "Avelumab"
+    },
+    {
+     "h": "44e1df2a08d460a4",
+     "n": 61,
+     "p": "Indicati"
+    },
+    {
+     "h": "2350cfd946f1130b",
+     "n": 80,
+     "p": "Immune c"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Infusion reactions are a high risk with avelumab, some severe:** give paracetamol 1,000 mg and loratadine 10 mg by mouth 60 minutes before each of the first four infusions, and keep premedicating after any mild or moderate reaction.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad4f485c2f7da6d7",
+     "n": 105,
+     "p": "Paraceta"
+    },
+    {
+     "h": "cac61710c720a17e",
+     "n": 436,
+     "p": "Hypersen"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Seek expert advice first** if the patient has significant autoimmune disease, an organ transplant, past viral hepatitis or previous lung radiotherapy. Radiation recall has been seen with PD-L1 inhibitors, so time the start carefully after a long course of radiotherapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e54d976ed033d71c",
+     "n": 400,
+     "p": "If any o"
+    },
+    {
+     "h": "9416bd326915556b",
+     "n": 177,
+     "p": "Radiatio"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Early apparent growth can be pseudoprogression (about 5%):** if the patient is well, consider continuing and rescanning 4 to 6 weeks later.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e7555da3ae734ac",
+     "n": 457,
+     "p": "In the f"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tests:** FBC, EUC, eGFR, liver tests, cortisol, thyroid function and glucose at baseline; FBC, EUC, eGFR, liver tests and glucose before every cycle; thyroid function (and consider cortisol) every 4–6 weeks on treatment and 12-weekly afterwards. Screen for hepatitis before starting.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0af30ebec785367",
+     "n": 225,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "1cde6a2e9f4e1378",
+     "n": 99,
+     "p": "Hepatiti"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**eviQ calls the evidence limited, resting mainly on the phase II JAVELIN Merkel 200 trial.** After chemotherapy (part A, 88 patients), 33.0% responded (10 completely), responses lasted a median of 40.5 months, and median PFS and survival were 2.7 and 12.6 months. Grade 3 treatment-related events were 5% in part A and 20.5% in untreated patients (part B), where 23.1% had infusion reactions and 15.4% stopped for toxicity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "97b7a4bc23a27740",
+     "n": 359,
+     "p": "A search"
+    },
+    {
+     "h": "6d8abefc5868a207",
+     "n": 381,
+     "p": "After a "
+    },
+    {
+     "h": "7b8d814507913fd5",
+     "n": 75,
+     "p": "Grade 3 "
+    },
+    {
+     "h": "ede476531540c52d",
+     "n": 394,
+     "p": "In part "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines), 'eviQ protocols 3463 Merkel cell carcinoma metastatic avelumab (v.10) and 1023 Skin cancer Merkel cell carcinoma adjuvant EBRT post-operative (v.5)', current versions retrieved 24 September 2026, https://www.eviq.org.au/p/3463, retrieved 2026-09-24"
   },
   {
    "claim": "**Use geriatric and comorbidity assessment to guide treatment;** radiotherapy alone suits those unfit for surgery, and checkpoint inhibitors are the preferred systemic therapy in older patients with inoperable disease.",
