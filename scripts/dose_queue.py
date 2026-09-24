@@ -44,7 +44,8 @@ for title, url, g, i, claim in rows:
 
 n_mono = len({(t, u) for t, u, _, _, _ in rows})
 n_claim = len({(g, i) for _, _, g, i, _ in rows})
-kept = rej = dropped = 0
+kept = rej = acc = dropped = 0
+seen = {}                           # ref -> status, so a claim listed under two monographs counts once
 body = []
 for (title, url), items in sorted(by.items()):
     head = f"[{title}]({url})" if url else f"**{title}**"
@@ -53,17 +54,21 @@ for (title, url), items in sorted(by.items()):
         a = prior.get(ref)
         if a and a["sha"] == s:
             if a["status"] == "confirmed":
-                tick, _ = a["by"], kept
-                kept += 1
+                tick = a["by"]
+                seen[ref] = "confirmed"
+            elif a["status"] == "accepted":
+                tick = "~ " + a["by"]
+                seen[ref] = "accepted"
             else:
                 tick = "! " + a["by"]
-                rej += 1
+                seen[ref] = "rejected"
         else:
             if a:
                 dropped += 1   # claim reworded since sign-off: back in the queue
             tick = ""
         body.append(f"| {tick} | {ref} | `{s}` | {head if n == 0 else ''} | {claim} |")
 
+kept, acc, rej = (sum(1 for v in seen.values() if v == k) for k in ("confirmed", "accepted", "rejected"))
 out = []
 out.append("# Attestation queue — licensed-source dose claims\n")
 out.append("Every row is a **dose, strength, interval or course duration** paraphrased from a")
@@ -75,12 +80,14 @@ out.append("> |---|---|")
 out.append("> | *(empty)* | not yet attested |")
 out.append("> | `KL 2026-09-23` | **CONFIRMED** against the subscription |")
 out.append("> | `! KL 2026-09-23 AMH says 400 mg` | ⚠️ **REJECTED** — the claim is wrong. **`verify.py` FAILS until the guideline is fixed.** |")
+out.append("> | `~ owner 2026-09-24` | **OWNER-ACCEPTED, not individually checked** against the subscription. Counted separately; never reported as confirmed. Overwrite with initials and date once checked. |")
 out.append(">")
 out.append("> Regenerating this file preserves your ticks. ⚠️ **A tick is matched on `ref` AND `sha`**")
 out.append("> — if the claim is reworded the sha changes, the tick is dropped, and the row returns to")
 out.append("> the queue. **No sign-off is ever carried onto text nobody read.**\n")
 out.append(f"**{n_mono} monographs/topics · {n_claim} claims · "
-           f"{kept} confirmed · {rej} REJECTED · {n_claim - kept - rej} outstanding.** "
+           f"{kept} confirmed · {acc} owner-accepted (not individually checked) · {rej} REJECTED · "
+           f"{n_claim - kept - rej - acc} outstanding.** "
            "A claim naming more than one monograph appears under each.\n")
 if dropped:
     out.append(f"⚠️ **{dropped} previously attested row(s) returned to the queue** because the "
@@ -95,6 +102,6 @@ if "--stdout" in sys.argv:
 else:
     os.makedirs(os.path.dirname(QUEUE), exist_ok=True)
     open(QUEUE, "w", encoding="utf-8").write(text)
-    print(f"{QUEUE}: {n_claim} claims, {kept} confirmed, {rej} rejected, "
-          f"{n_claim - kept - rej} outstanding"
+    print(f"{QUEUE}: {n_claim} claims, {kept} confirmed, {acc} owner-accepted, {rej} rejected, "
+          f"{n_claim - kept - rej - acc} outstanding"
           + (f", {dropped} returned to queue" if dropped else ""))

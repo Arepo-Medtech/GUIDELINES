@@ -17,7 +17,7 @@ import glob, sys
 from attestation import load as _load_attest, status_for as _status_for
 
 def main(argv):
-    n = t = p = img = lic = qd = od = fail = att = rejd = 0
+    n = t = p = img = lic = qd = od = fail = att = acc = rejd = 0
     _rec = _load_attest()      # human ticks in docs/attestation-queue.md
     for f in glob.glob("guidelines/*.verification.json"):
         n += 1
@@ -35,6 +35,7 @@ def main(argv):
                     # attested only counts a PERSON's tick whose sha still matches
                     _st = _status_for(f"{gname}#{i}", c["claim"], _rec)
                     att += _st == "confirmed"
+                    acc += _st == "accepted"
                     rejd += _st == "rejected"
             elif c.get("dose"):
                 od += 1
@@ -42,8 +43,9 @@ def main(argv):
                if l.strip()])
     print(f"Corpus: {n} guidelines, {t:,} claims, {p:,} pass, {img} "
           f"image-transcription, {lic} licensed-source ({qd} queued doses), "
-          f"{od} quoted doses ({att} of {qd} queued doses ATTESTED), "
-          f"{fail} fail, {n}/{n} structural."
+          f"{od} quoted doses ({att} of {qd} queued doses ATTESTED"
+          + (f", {acc} OWNER-ACCEPTED not individually checked" if acc else "")
+          + f"), {fail} fail, {n}/{n} structural."
           + (f" ⚠️ {rejd} dose(s) REJECTED on attestation — build is FAILING."
              if rejd else ""))
     if "--gap" in argv:
