@@ -1,188 +1,418 @@
 {
  "guideline": "guidelines/intussusception.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Intussusception' (Last updated February 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Intussusception' (Last updated February 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 24,
-  "pass": 24,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
-   "claim": "⚠️ **Keep a high index of suspicion:** consider it in infants and children with intermittent distress, pallor, vomiting, or isolated unexplained lethargy.",
+   "claim": "⚠️ **Keep a high index of suspicion:** consider it in any infant or child with pallor, vomiting, intermittent distress, or isolated unexplained lethargy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The diagnosis of intussusception requires a high index of suspicion. Consider intussusception in infants and children with intermittent distress, pallor, vomiting or isolated unexplained lethargy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d829014ae7e9903",
+     "n": 195,
+     "p": "The diag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most common between 3 months and 2 years**, peaking at 4–9 months. Younger infants may present atypically and more acutely; older children may have a pathological lead point.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "May occur at any age, but most commonly between 3 months and 2 years of age, with peak incidence at 4-9 months of age … In younger infants, the clinical presentation may be atypical, often more acute and rapidly progressive … In older children, a pathological lead point may be the cause",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3bf53c518f745a5b",
+     "n": 117,
+     "p": "May occu"
+    },
+    {
+     "h": "4ea66d684b5b12f9",
+     "n": 103,
+     "p": "In young"
+    },
+    {
+     "h": "56f2550f5fcbfbf0",
+     "n": 61,
+     "p": "In older"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Typical pain is paroxysmal (colicky), severe and cyclic, lasting 4–5 minutes**, recurring over minutes to hours; the child may look very well between episodes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The typical paroxysmal pain is described as severe, cyclic or cramping. The pain episodes usually last 4-5 minutes … Episodes can recur within minutes to hours and may increase in frequency over the next 12-24 hours … Intermittent pain or distress, the child may appear very well between episodes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e82bacf952f7b3c2",
+     "n": 114,
+     "p": "The typi"
+    },
+    {
+     "h": "173498c7e1947cd8",
+     "n": 98,
+     "p": "Episodes"
+    },
+    {
+     "h": "d1cb46e5d4810949",
+     "n": 78,
+     "p": "Intermit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Lethargy may be the only presenting symptom.** Bile-stained vomiting is a late sign of bowel obstruction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lethargy may be the only presenting symptom. It may be profound, episodic or persistent … Vomiting is usually a prominent feature, bile-stained vomiting is a late sign and indicates a bowel obstruction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "100eb84342470ea4",
+     "n": 87,
+     "p": "Lethargy"
+    },
+    {
+     "h": "353078c4b9c8f8ae",
+     "n": 111,
+     "p": "Vomiting"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Early diarrhoea can lead to a misdiagnosis of gastroenteritis.** Rectal bleeding or \"red currant jelly\" stool is a late sign of ischaemia; the classic triad occurs in under 15%.",
+   "claim": "⚠️ **Diarrhoea early on can lead to gastroenteritis being misdiagnosed.** Rectal bleeding or \"red currant jelly\" stool is a late sign of ischaemia; the classic triad occurs in under 15%.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Diarrhoea may occur initially and can lead to a misdiagnosis of gastroenteritis. Rectal bleeding or the classic \"red currant jelly\" stool are late, less common signs suggesting bowel ischemia and infarction … The triad of intermittent abdominal pain, palpable abdominal mass and red currant jelly stools occurs in less than 15% of children",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4a5375a0281e8716",
+     "n": 206,
+     "p": "Diarrhoe"
+    },
+    {
+     "h": "56e74547fc72c42c",
+     "n": 130,
+     "p": "The tria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine between episodes:** a sausage-shaped right-sided mass may be felt; distension suggests obstruction; tenderness or guarding suggests perforation. Rectal examination is rarely indicated.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abdominal distension suggests bowel obstruction Tenderness or guarding may suggest perforation and peritonitis Abdominal mass may be felt, typically a sausage shaped mass in the right abdomen, crossing the midline in the epigastrium or behind umbilicus may be subtle and examination is best performed when the child is settled in between episodes … A rectal examination is rarely indicated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f188d1352896e44",
+     "n": 346,
+     "p": "Abdomina"
+    },
+    {
+     "h": "2bab59c5bb30155c",
+     "n": 40,
+     "p": "A rectal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Delayed presentation** can mean small bowel obstruction, perforation, peritonitis or shock; infants may present in hypovolaemic shock.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Delayed presentation of intussusception can manifest as small bowel obstruction, bowel perforation, peritonitis and/or shock … Infants may present with hypovolaemic shock",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54e29b0a2f11b136",
+     "n": 124,
+     "p": "Delayed "
+    },
+    {
+     "h": "eb07fd90534ace29",
+     "n": 43,
+     "p": "Infants "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Risk factors:** male sex (3:1), recent intussusception (may present more subtly), Henoch–Schönlein purpura. RCH states **current rotavirus vaccines are not linked to intussusception** — see Unresolved.",
+   "claim": "**Risk factors:** male sex (3:1), recent intussusception (may present more subtly), Henoch–Schönlein purpura. RCH says **today's rotavirus vaccines have no link to intussusception** — see Unresolved.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "More frequent in males than females (3:1 ratio) Recent intussusception (may present with more subtle symptoms) Henoch Schönlein Purpura … Current rotavirus vaccines are not linked to intussusception",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f787ea511afb4557",
+     "n": 135,
+     "p": "More fre"
+    },
+    {
+     "h": "3a8e69fddecd9ca0",
+     "n": 60,
+     "p": "Current "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Resuscitation and analgesia precede investigation. Secure IV access before imaging.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Resuscitation and analgesia should precede investigation … Secure IV access for all children suspected to have intussusception before diagnostic imaging",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1093191e3445d52c",
+     "n": 56,
+     "p": "Resuscit"
+    },
+    {
+     "h": "83b6f396eddb086a",
+     "n": 93,
+     "p": "Secure I"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Treat hypovolaemic shock with IV boluses of 0.9% saline**, then IV fluids to optimise circulating volume.",
+   "claim": "**Give IV boluses of 0.9% saline for hypovolaemic shock**, then IV fluids to optimise circulating volume.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat hypovolaemic shock with IV boluses of 0.9% saline Start IV fluids to optimise circulatory volume",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2aa87778ceb8a665",
+     "n": 102,
+     "p": "Treat hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Analgesia: usually intranasal fentanyl or IV morphine.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ensure adequate analgesia, usually intranasal fentanyl or IV morphine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b81de9c3ebefc679",
+     "n": 69,
+     "p": "Ensure a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Nil by mouth.** Pass an NG tube for obstruction or perforation on AXR, or before air transfer.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Keep nil orally. Pass nasogastric tube if bowel obstruction or perforation on AXR, or if planning transfer by air",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59de4ada2b009076",
+     "n": 113,
+     "p": "Keep nil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ultrasound is the initial study of choice** — over 98% sensitive and specific with an experienced paediatric sonographer.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ultrasound is the initial study of choice … High sensitivity (>98%) and specificity (>98%) when performed by an experienced paediatric ultrasonographer",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0afaef9d9c495a93",
+     "n": 41,
+     "p": "Ultrasou"
+    },
+    {
+     "h": "f19262a4e583a68d",
+     "n": 107,
+     "p": "High sen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **POCUS by trained clinicians can confirm but must not be used to exclude intussusception.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Point of Care Ultrasound (POCUS) can be used to confirm the diagnosis of intussusception by appropriately trained clinicians (95% sensitivity and 98% specificity). It should not be used to exclude the diagnosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "480c5e9a423bb360",
+     "n": 210,
+     "p": "Point of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ileo-ileal intussusception** (two small-bowel segments) may present with mild symptoms, is more likely to resolve spontaneously, and rarely needs enema reduction, as ischaemia is rare.",
+   "claim": "**Ileo-ileal intussusception** (two small-bowel segments): symptoms may be mild, spontaneous resolution is more likely, and because ischaemia is rare it seldom needs enema reduction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ileo-ileal intussusception, involving invagination of two small bowel segments, may present with mild symptoms. This type of intussusception is more likely to resolve spontaneously and rarely requires enema reduction, as ischaemia is rare",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94ffdddaf01d09a9",
+     "n": 238,
+     "p": "Ileo-ile"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **AXR only for signs of obstruction or perforation. A normal AXR does not exclude intussusception** (sensitivity under 50%), and it must not delay transfer.",
+   "claim": "⚠️ **AXR only for signs of obstruction or perforation. Intussusception is not excluded by a normal AXR** (sensitivity under 50%), and it must not delay transfer.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Perform AXR only if there are signs of obstruction or perforation … AXR may be used in centres without ready access to ultrasound, although this should not delay transfer to appropriate services. … A normal AXR does not exclude intussusception (sensitivity <50%)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d6aec067c3b4b6b",
+     "n": 65,
+     "p": "Perform "
+    },
+    {
+     "h": "c641fda98b2a08b4",
+     "n": 127,
+     "p": "AXR may "
+    },
+    {
+     "h": "7d3f18821d2d1691",
+     "n": 64,
+     "p": "A normal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Bloods:** glucose; venous gas, FBE and UEC if unwell; group and hold before theatre.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Blood glucose Venous gas, FBE and UEC if the child looks unwell Blood group and hold prior to theatre",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa4a9fa02c58d9e2",
+     "n": 101,
+     "p": "Blood gl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Contrast or gas enema is diagnostic and therapeutic**, done with a surgical team **where paediatric surgery is available**, because of a small risk of perforation and bacteraemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The enema may be used diagnostically and therapeutically in consultation with a surgical team. … There is a small risk of bowel perforation and bacteraemia during the gas enema. Therefore, the enema is performed where paediatric surgery is available in case of the need for laparotomy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4ad568b0f2a9e5a",
+     "n": 94,
+     "p": "The enem"
+    },
+    {
+     "h": "cf455d709076d76a",
+     "n": 187,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Enema is contraindicated** in peritonitis, shock, radiological perforation, or an unstable child. Fluid resuscitation comes before sedation and reduction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Contraindicated in peritonitis, shock, radiological evidence of bowel perforation, or an unstable clinical condition … Fluid resuscitation is important prior to sedation and reduction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ac9307edee44ce4",
+     "n": 116,
+     "p": "Contrain"
+    },
+    {
+     "h": "bda4fd631e4e9933",
+     "n": 64,
+     "p": "Fluid re"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Strongly consider procedural sedation**, which may improve success of hydrostatic and pneumatic reduction. **No routine prophylactic antibiotics.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Procedural sedation by an experienced clinician should be strongly considered, as this may improve the success rate of non-operative reduction, both hydrostatic and pneumatic enema … Routine prophylactic antibiotics do not decrease post-reduction complications and are therefore unnecessary",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a17c88c25adffdde",
+     "n": 180,
+     "p": "Procedur"
+    },
+    {
+     "h": "c67202d339fd3b7d",
+     "n": 107,
+     "p": "Routine "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**Success exceeds 80%**; repeat enemas may add 10%. **Recurrence is most common in the first 24–48 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Success rate is more than 80% Recurrences most commonly occur within the first 24-48 hours Repeated enemas may be considered and may increase success rates by 10% with few complications",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1080ecedade1574e",
+     "n": 185,
+     "p": "Success "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Discuss every suspected intussusception with a paediatric surgical team.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with suspected intussusception should be discussed with a paediatric surgical team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83d3fe86bca1777c",
+     "n": 95,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "**After non-operative reduction, surgical admission is routine in most centres**; with the surgical team's agreement, a feed may be trialled at 2 hours and ED discharge considered 2 hours after a successful feed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In most centres, admission under the surgical team post reduction is routine … In discussion with the surgical team, it may be safe to trial a feed 2 hours after reduction and consider discharge from ED a further 2 hours after a successful feed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca9eeeb21ba1089e",
+     "n": 76,
+     "p": "In most "
+    },
+    {
+     "h": "29bb13710416d445",
+     "n": 165,
+     "p": "In discu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Before transfer, ensure analgesia, venous access and IV fluids** — third-space losses can cause haemodynamic collapse. **NG tube on free drainage for air transfer.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "ensure they have adequate analgesia, venous access and intravenous fluids prior to transfer, as third space losses can be large and lead to haemodynamic collapse. Insert a nasogastric tube on free drainage if transferring by air.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "343ef662f0666f9f",
+     "n": 229,
+     "p": "ensure t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Intussusception' (Last updated February 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/, retrieved 2026-09-23"
   }
  ]

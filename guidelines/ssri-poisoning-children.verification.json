@@ -1,140 +1,283 @@
 {
  "guideline": "guidelines/ssri-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 17,
-  "pass": 17,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 17
  },
  "claims": [
   {
    "claim": "**SSRI overdose is usually benign, whatever the dose**, and many children and young people stay asymptomatic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "SSRI poisoning is usually benign and many children and young people are asymptomatic … Overdose is usually benign irrespective of dose and many children and young people remain asymptomatic.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08d7ca77c50d691f",
+     "n": 84,
+     "p": "SSRI poi"
+    },
+    {
+     "h": "1b8e9ba38e58320b",
+     "n": 103,
+     "p": "Overdose"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Venlafaxine and desvenlafaxine are SNRIs, NOT SSRIs**: overdose is potentially life-threatening, with delayed seizures, hypotension and cardiac dysrhythmias.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Remember that venlafaxine and desvenlafaxine are serotonin and noradrenaline re-uptake inhibitors [SNRIs] NOT SSRIs, and overdose is potential life-threatening with a risk of delayed seizures, hypotension and cardiac dysrhythmias",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d1aae006b1fb4be",
+     "n": 229,
+     "p": "Remember"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess:** every deliberate self-poisoning · any ingestion of unknown quantity · any symptomatic child · any accidental ingestion above the threshold below.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children and young people with deliberate self-poisoning Ingestion of an unknown quantity Any symptomatic child or young person Children who have accidentally ingested doses greater than threshold for assessment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "633469824a3f3057",
+     "n": 215,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Accidental-ingestion thresholds for assessment:** citalopram >2 mg/kg · escitalopram >1 mg/kg · fluoxetine >5 mg/kg or >60 mg.",
+   "claim": "**Accidental-ingestion thresholds for assessment:** escitalopram >1 mg/kg · citalopram >2 mg/kg · fluoxetine >60 mg or >5 mg/kg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Citalopram >2 mg/kg Escitalopram >1 mg/kg Fluoxetine >5 mg/kg or >60 mg",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "012552c41de7c145",
+     "n": 71,
+     "p": "Citalopr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**…and:** fluvoxamine >10 mg/kg or >100 mg · paroxetine >5 mg/kg or >60 mg · sertraline >10 mg/kg. **These thresholds do not apply to adolescents or adults** — discuss with a toxicologist.",
+   "claim": "**…and:** sertraline >10 mg/kg · paroxetine >60 mg or >5 mg/kg · fluvoxamine >10 mg/kg or >100 mg. **These thresholds do not apply to adolescents or adults** — discuss with a toxicologist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fluvoxamine >10 mg/kg or >100 mg Paroxetine >5 mg/kg or >60 mg Sertraline >10 mg/kg … *Note these values do not apply to adolescents or adults please discuss with toxicologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df552ad759a1e604",
+     "n": 83,
+     "p": "Fluvoxam"
+    },
+    {
+     "h": "bc7483c5360fecf8",
+     "n": 89,
+     "p": "*Note th"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Co-ingested serotonergic agents — MAOIs, tramadol, SNRIs — significantly raise the risk of serotonin syndrome.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children and young people who have co-ingested other serotonergic agents are at significantly greater risk of serotonin syndrome (including monoamine oxidase inhibitors, tramadol or serotonin and noradrenaline re-uptake inhibitors [SNRIs])",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6bb30aaf7165c6b4",
+     "n": 239,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Symptoms usually start within 4 hours and resolve within 12 hours.** Nausea is common; mild serotonin toxicity occurs in under 20%.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms usually begin within 4 hours of consumption and resolve within 12 hours. … Mild symptoms of serotonin toxicity occur in less than 20% of children and young people. … Nausea is common.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df9850b27a3f2787",
+     "n": 81,
+     "p": "Symptoms"
+    },
+    {
+     "h": "765139be3fc34443",
+     "n": 88,
+     "p": "Mild sym"
+    },
+    {
+     "h": "c1032f32666512ab",
+     "n": 17,
+     "p": "Nausea i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Seizures are uncommon (2–4%)** — treat with benzodiazepines.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Seizures are uncommon occurring in 2-4% (treat with benzodiazepines).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e77dcd9ca1aaafc",
+     "n": 69,
+     "p": "Seizures"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Citalopram or escitalopram overdose can cause dysrhythmias** — wide-complex bradycardia and torsade de pointes.",
+   "claim": "⚠️ **Citalopram or escitalopram overdose can cause dysrhythmias** — torsade de pointes and wide-complex bradycardia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Citalopram or escitalopram overdose can cause cardiac dysrhythmias (wide complex bradycardia and torsade de pointes).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29a65ffe6034e8a0",
+     "n": 117,
+     "p": "Citalopr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Coma or a significantly reduced conscious level is not typical of SSRI overdose** — suspect a co-ingestant or another cause.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "SSRI overdose does not commonly cause coma or significantly reduced level of consciousness and this suggests co-ingestion or an alternate cause.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d343fa3c8312c9d1",
+     "n": 144,
+     "p": "SSRI ove"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Deliberate self-poisoning: 12-lead ECG, blood glucose and paracetamol level.** Large citalopram or escitalopram ingestion: cardiac monitoring and serial ECGs, duration by quantity (discuss with a toxicologist).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "12 lead ECG, blood glucose and paracetamol concentration in deliberate self-poisoning. … Cardiac monitoring and serial ECG if large citalopram or escitalopram ingestion, duration of monitoring will depend on ingestion quantity (discuss with toxicologist).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5791bea0c75ba95",
+     "n": 86,
+     "p": "12 lead "
+    },
+    {
+     "h": "3865ee17d4a2ccc3",
+     "n": 166,
+     "p": "Cardiac "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Supportive care. Serotonin syndrome: titrated IV benzodiazepines**, with toxicologist advice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Supportive care Serotonin syndrome can be treated with titrated intravenous benzodiazepines (discuss with toxicologist)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08a9dbd543d6c4fa",
+     "n": 119,
+     "p": "Supporti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Activated charcoal is rarely indicated** — except that a large citalopram or escitalopram ingestion warrants a toxicologist discussion, as charcoal may be recommended.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "SSRI intoxication has an excellent outcome and activated charcoal is rarely indicated … If large ingestion of citalopram or escitalopram discuss with toxicologist as activated charcoal may be recommended",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3424ed4a2701db39",
+     "n": 85,
+     "p": "SSRI int"
+    },
+    {
+     "h": "a820b26bb2a6e8f3",
+     "n": 115,
+     "p": "If large"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Asymptomatic accidental ingestion below threshold: observe at home. Deliberate self-poisoning or above-threshold ingestion: observe 12 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children and young people with accidental ingestion can be observed at home if asymptomatic and ingested dose is less than threshold for assessment … Observation for 12 hours is recommended in children and young people with deliberate self-poisoning or accidental ingestion where the ingested dose is greater than threshold for assessment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "806f627e8f19d3fb",
+     "n": 147,
+     "p": "Children"
+    },
+    {
+     "h": "e9780ef495d7084e",
+     "n": 188,
+     "p": "Observat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Symptomatic children usually need only 12–24 hours of supportive care** and can go home once features resolve. Citalopram or escitalopram with an abnormal QTc needs ongoing cardiac monitoring.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children and young people with symptoms usually only require supportive care for 12-24 hours and can be safely discharged when clinical features of SSRI intoxication resolve … Children and young people with citalopram or escitalopram intoxication require on-going cardiac monitoring if QTc abnormal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "632fa4e3b538b819",
+     "n": 173,
+     "p": "Children"
+    },
+    {
+     "h": "ae12a26b8368412d",
+     "n": 122,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Severe serotonin syndrome is managed in PICU.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children and young people who develop severe serotonin syndrome should be managed in PICU",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d422a3bbfd3acfd",
+     "n": 89,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when:** GCS and ECG normal · observation period complete · after deliberate ingestion, a risk assessment shows low risk of further self-harm.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Normal GCS Normal ECG Period of observation as above For deliberate ingestion a risk assessment should indicate that the patient is at low risk of further self harm in the discharge setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "879197bc754b3277",
+     "n": 213,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Selective serotonin re-uptake inhibitors SSRIs poisoning' (Last updated November 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/, retrieved 2026-09-23"
   }
  ]

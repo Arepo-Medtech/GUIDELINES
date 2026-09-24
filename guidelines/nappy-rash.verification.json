@@ -1,160 +1,306 @@
 {
  "guideline": "guidelines/nappy-rash.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Nappy rash' (Last updated August 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Nappy rash' (Last updated August 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 20,
-  "pass": 20,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
-   "claim": "**Nappy rash is an irritant contact dermatitis affecting more than half of infants by twelve months.**",
+   "claim": "**Nappy rash is an irritant contact dermatitis; by twelve months over half of all infants have had it.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "It is an irritant contact dermatitis and affects more than half of infants by twelve months",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3b30fab76b1fa049",
+     "n": 91,
+     "p": "It is an"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Typical:** widespread erythema on convex skin in direct contact with the nappy, **usually sparing the groin folds**, with scaling, swelling, scattered papules and ulcers from broken skin.",
+   "claim": "**Typical:** widespread erythema on convex skin that touches the nappy directly, **the groin folds usually spared**, with scaling, swelling, scattered papules and ulcers from broken skin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Widespread erythematous rash on convex skin surfaces in direct contact with the nappy, usually sparing the groin folds Associated scaling, swelling, scattered erythematous papules and ulcers from broken skin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a30239b39212a66",
+     "n": 207,
+     "p": "Widespre"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Contributors:** urine and faecal enzymes overhydrating and macerating the skin (worse with infrequent changes, cloth nappies and plastic pants), friction, *Candida*, irritants in wipes, powders, creams and moisturisers, eczema, and recent antibiotics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Exposure to urine and faecal enzymes leads to skin overhydration and maceration. This can be exacerbated by infrequent nappy changes, cloth nappies and the use of plastic pants Friction between nappy and skin Colonisation with micro-organisms such as Candida albicans Irritants such as soaps, chemicals, fragrance, plant or food products (eg vegetable or nut oils) present in some nappy wipes, powders, barrier creams and moisturisers Pre-existing skin conditions eg eczema Recent antibiotics - increased risk of diarrhoea and secondary Candida infections",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f8d9ef27d37fba1",
+     "n": 555,
+     "p": "Exposure"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**History to take:** nappy-change frequency and type, growth, feeding and stool output, prior treatments, atopy, prematurity or bowel surgery/short gut, and **maternal vegan/vegetarian diet in the third trimester (zinc deficiency).** Examine the whole body including scalp, the mouth for thrush, and the growth trend.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Frequency of nappy changes and type of nappies used Review of growth, feeding, solid intake and stool output Treatments previously tried Family history of atopy History of prematurity, bowel surgery, short gut Vegan/vegetarian diet in the mother during third trimester (zinc deficiency) … Whole body including scalp Mouth for thrush",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e538d13dae0d0491",
+     "n": 286,
+     "p": "Frequenc"
+    },
+    {
+     "h": "7ce356b5429caf80",
+     "n": 43,
+     "p": "Whole bo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider other causes when the rash is severe, unusual or not responding** — more than one condition can coexist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider other causes when nappy rash is severe, unusual in appearance or not responding to appropriate treatment. More than one condition may occur together",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e3e8e7d32b3fa10",
+     "n": 157,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "***Candida*: erythema in the skin folds with satellite spots or pustules.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Candida: erythema in skin folds with satellite spots or pustules",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "958e48c5ceb642ce",
+     "n": 64,
+     "p": "Candida:"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Perianal streptococcal cellulitis:** well-demarcated perianal erythema with fissuring and maceration; may cause itch, painful defecation or constipation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Perianal streptococcal cellulitis: localised well-demarcated erythema around the anus with fissuring and macerated skin. Can present with itch, painful defecation and/or constipation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7995a3a8ebefbcea",
+     "n": 182,
+     "p": "Perianal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Psoriasis:** sharp, non-scaly, bright red plaques. **Seborrhoeic dermatitis:** non-itchy salmon-pink patches ± greasy scale, also on scalp, face and folds.",
+   "claim": "**Psoriasis:** sharp, non-scaly, bright red plaques. **Seborrhoeic dermatitis:** salmon-pink patches that don't itch, ± greasy scale, also on scalp, face and folds.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Psoriasis: sharply demarcated, non-scaly, bright erythematous plaques … Seborrhoeic dermatitis: non-itchy salmon pink patches sometimes with greasy scale on top, found on scalp (cradle cap), face, body and skin folds",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90cff3ff482da272",
+     "n": 69,
+     "p": "Psoriasi"
+    },
+    {
+     "h": "f0a69889ce1fb66a",
+     "n": 144,
+     "p": "Seborrho"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Malabsorption** (lactose overload, cow milk protein intolerance, cystic fibrosis, IBD) can present with diarrhoea, erosive dermatitis and poor growth, driving intractable nappy rash.",
+   "claim": "⚠️ **Malabsorption** (cystic fibrosis, IBD, cow milk protein intolerance, lactose overload) may show as poor growth, diarrhoea and erosive dermatitis, causing intractable nappy rash.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Malabsorption from any cause (eg lactose overload, cow milk protein intolerance, cystic fibrosis, inflammatory bowel disease) can present with diarrhoea, erosive dermatitis and poor growth. Diarrhoea and secondary nutritional deficiencies may contribute to further progressive intractable nappy rash",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c3209ab153e38423",
+     "n": 299,
+     "p": "Malabsor"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Zinc deficiency (acrodermatitis enteropathica):** sharply defined, often extensive anogenital rash — look for perioral, perinasal and hand/foot dermatitis, alopecia, diarrhoea and failure to thrive.",
+   "claim": "⚠️ **Zinc deficiency (acrodermatitis enteropathica):** sharply defined anogenital rash, often extensive — check for dermatitis around the mouth and nose and on hands/feet, alopecia, diarrhoea and failure to thrive.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Zinc deficiency (acrodermatitis enteropathica): sharply defined red, often extensive, anogenital rash. Look for perioral, perinasal and hand/foot dermatitis, alopecia, diarrhoea and failure to thrive",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "66ac7dda5af80abd",
+     "n": 199,
+     "p": "Zinc def"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Langerhans cell histiocytosis:** chronic, often erosive inguinal or anogenital rash with brownish-red scale and petechiae, unresponsive to treatment; purpura, fever, diarrhoea or hepatosplenomegaly may be present.",
+   "claim": "⚠️ **Langerhans cell histiocytosis:** chronic anogenital or inguinal rash, often erosive, with petechiae and brownish-red scale, that fails to respond to treatment; there may be fever, purpura, hepatosplenomegaly or diarrhoea.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Langerhans cell histiocytosis: a chronic inguinal or anogenital rash with brownish/red scale and petechiae, which is often erosive and unresponsive to treatment. Purpura, fever, diarrhoea or hepatosplenomegaly may be present",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36f1087987939a2c",
+     "n": 224,
+     "p": "Langerha"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Generally no investigations are required.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Generally, no investigations are required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "181e2c2a299f8087",
+     "n": 41,
+     "p": "Generall"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Cleanse with warm water ± bath oil and a soft cloth at every change**; pat or air dry, no rubbing; maximise nappy-free time; daily warm bath with fragrance-free cleanser or bath oil; **avoid soaps and bubble baths.**",
+   "claim": "**Cleanse with warm water ± bath oil and a soft cloth at every change**; pat or air dry, no rubbing; maximise nappy-free time; daily warm bath with fragrance-free cleanser or bath oil; **no soap, no bubble bath.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Use warm water +/- bath oil with a soft cloth to cleanse the area after every change Pat gently or air dry, avoid rubbing Allow as much nappy free time as possible Daily bath using warm water and fragrance-free skin cleanser or bath oil Avoid soaps and bubble baths",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7678e64257d78e06",
+     "n": 265,
+     "p": "Use warm"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "**A thick layer of barrier cream at every change** — zinc, white soft paraffin or petrolatum. **Not responding to low-zinc cream → switch to a higher concentration, eg 40%.**",
+   "claim": "**Barrier cream, thickly, with each change** — zinc, white soft paraffin or petrolatum. **Not responding to low-zinc cream → switch to a higher concentration, eg 40%.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Apply a thick layer of barrier cream at every nappy change. Effective barrier creams contain zinc, white soft paraffin or petrolatum. Nappy rash not responding to a barrier cream with low zinc concentration may improve with switch to a higher zinc concentration eg 40%",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f1f56eccc481dba",
+     "n": 268,
+     "p": "Apply a "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Don't strip the barrier at each change** — remove visible soiling and layer more on top.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not remove barrier cream after each nappy change - remove visible soiling then apply another layer over the top",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1e1ec5c590a57a94",
+     "n": 114,
+     "p": "Do not r"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Not responding to simple measures: add 1% hydrocortisone ointment 1–2 times daily for 1–2 weeks** on top of the barrier cream.",
+   "claim": "**Not responding to simple measures: over the barrier cream add 1% hydrocortisone ointment, 1–2 times a day for 1–2 weeks.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "1% hydrocortisone ointment (1-2 times daily for 1-2 weeks) can be used in addition to barrier cream for nappy rash not responding to simple treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "700c07ba8892845e",
+     "n": 149,
+     "p": "1% hydro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "***Candida*:** single agent — clotrimazole 1% cream twice daily **or** miconazole 2% cream twice daily; **or** combination — miconazole 2% + hydrocortisone 1% cream twice daily, **or** miconazole 2.5 mg + zinc oxide 150 mg/g ointment as a thick layer at every change. A topical antifungal can be combined with 1% hydrocortisone.",
+   "claim": "***Candida*:** single agent, twice daily — clotrimazole 1% cream **or** miconazole 2% cream; **or** combination — a cream of hydrocortisone 1% + miconazole 2%, twice daily, **or** an ointment of zinc oxide 150 mg/g + miconazole 2.5 mg, thickly at every change. A topical antifungal can be combined with 1% hydrocortisone.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Candida infection Single agents: Clotrimazole 1% cream twice daily, or Miconazole 2% cream twice daily, or Combination agents: Miconazole 2% + hydrocortisone 1% cream twice daily, or Miconazole 2.5 mg + zinc oxide 150 mg/g ointment, apply a thick layer with every nappy change … NB topical antifungal agent can be used in combination with 1% hydrocortisone",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b497ac9d40c7cee",
+     "n": 276,
+     "p": "Candida "
+    },
+    {
+     "h": "29bc7efd2b609718",
+     "n": 77,
+     "p": "NB topic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Bacterial infection:** see Cellulitis and skin infections. Formulary restrictions may apply — check local guidelines.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Refer to local guidelines as formulary restrictions may apply … See Cellulitis and skin infections for treatment of bacterial infections",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a7dea187ab6fd77d",
+     "n": 61,
+     "p": "Refer to"
+    },
+    {
+     "h": "01bae715c4257c47",
+     "n": 72,
+     "p": "See Cell"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Prevention:** change wet or soiled nappies as soon as possible, wash and rinse cloth nappies thoroughly, **no plastic pants**, maximise nappy-free time, clean with good baby wipes or warm water, **barrier cream at every change**, and **avoid powders (eg talc) and soaps.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Change nappies as soon as possible after they become wet or soiled Wash and rinse all cloth nappies thoroughly Avoid using plastic pants Maximise nappy free time Clean area with good quality baby wipes or warm water and a cloth Apply barrier cream with every nappy change Avoid powders (eg talcum) and soaps",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "84470532992ffa5c",
+     "n": 307,
+     "p": "Change n"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the local paediatric team** if the rash isn't improving or a cause other than irritant dermatitis is suspected. **Discharge** once the family knows the plan and follow-up is in place.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Rash is not improving with above treatment measures Concern that nappy rash is due to a cause other than irritant contact dermatitis … Family is aware of treatment plan and follow up is in place",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d2b623aa42d35d3",
+     "n": 186,
+     "p": "Consider"
+    },
+    {
+     "h": "06d5ad460bdea757",
+     "n": 59,
+     "p": "Family i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nappy rash' (Last updated August 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/, retrieved 2026-09-23"
   }
  ]

@@ -1,210 +1,438 @@
 {
  "guideline": "guidelines/lacerations-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Lacerations' (Last updated May 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Lacerations' (Last updated May 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 27,
-  "pass": 27,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
-   "claim": "**Assess thoroughly before closure.** Adequate analgesia and anaesthesia (local ± sedation) improve function, infection risk and cosmesis as well as the child's experience.",
+   "claim": "**Assess thoroughly before closure.** Adequate analgesia and anaesthesia (local ± sedation) improve the child's experience and also function, cosmesis and infection risk.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lacerations require thorough assessment prior to closure … Ensuring suitable analgesia and anaesthesia (local +/- sedation) will improve wound outcomes (function, risk of infection, and cosmesis), as well as the child's experience",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "99eb551031fc07b4",
+     "n": 56,
+     "p": "Lacerati"
+    },
+    {
+     "h": "759bc1d6c6571a47",
+     "n": 171,
+     "p": "Ensuring"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**A child sedated for closure will likely need sedation again for suture removal — use absorbable sutures where appropriate.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children that require sedation for wound closure may need similar for removal of sutures. Use absorbable sutures where clinically appropriate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9fc94069964b2adb",
+     "n": 141,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Check for** contamination and foreign bodies, associated injuries (head/C-spine in falls, eye in facial trauma, teeth in mouth injuries) and **deeper structures** — in the face, the facial nerve, parotid/lacrimal ducts and medial canthus. **If a deep wound cannot be examined adequately, refer.**",
+   "claim": "**Check for** contamination and foreign bodies, associated injuries (teeth with mouth injuries, eye with facial trauma, head/C-spine with falls) and **deeper structures** — in the face, the facial nerve, parotid/lacrimal ducts and medial canthus. **If a deep wound cannot be examined adequately, refer.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Contamination by dirt or foreign bodies Associated injuries (eg head/ cervical spine in falls, eye in facial trauma, teeth with mouth injuries) Injury to deeper structures (eg tendons, joints or nerves) in the face, remember facial nerve, parotid/ lacrimal ducts, medial canthus of the eye if a deep laceration cannot be examined adequately to exclude damage to such structures, refer for relevant surgical specialty advice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d56ce9bf469f4a97",
+     "n": 423,
+     "p": "Contamin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **A dusky or poorly perfused flap needs specialty assessment**; take special care in end-arteriolar areas (nose tip, fingertips, ear lobes).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "if a flap or area of soft tissue distal to the laceration appears dusky or poorly perfused, the wound requires specialty assessment areas with end-arteriolar supply (extremities such as the tip of the nose, fingertips, and ear lobes) require special care",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee365c1745208e2c",
+     "n": 254,
+     "p": "if a fla"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Fast all children with lacerations from arrival.** Consider sedation (e.g. nitrous or ketamine) and analgesia as well as anaesthesia for full examination, cleaning and repair.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with lacerations should be fasted from arrival … Consider sedation (eg nitrous or ketamine) and analgesia in addition to anaesthesia for complete examination, cleaning, and repair of wounds.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e6e4fdac92cb9711",
+     "n": 59,
+     "p": "All chil"
+    },
+    {
+     "h": "6b6c29c64240f59b",
+     "n": 141,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Topical: ALA gel (adrenaline/lidocaine/tetracaine) applied directly to the wound under an occlusive dressing 20-30 minutes before the procedure.** EMLA (lidocaine 2.5% and prilocaine 2.5%) and AnGel (tetracaine 4%) are alternatives, most effective on limb wounds.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Topical anaesthesia ALA (adrenaline (epinephrine)/ lidocaine (lignocaine)/ tetracaine (amethocaine)) gel (Laceraine®) applied directly to wound and covered with an occlusive dressing, 20-30 minutes prior to intervention … EMLA®(lidocaine (lignocaine) 2.5% and prilocaine 2.5%) and AnGel®(tetracaine (amethocaine) 4%) are suitable alternatives; most effective on limb wounds",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf7a39090bf45b77",
+     "n": 219,
+     "p": "Topical "
+    },
+    {
+     "h": "0c24a3979adc6638",
+     "n": 151,
+     "p": "EMLA®(li"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Local: 1% lignocaine with or without adrenaline, infiltrated slowly** — ⚠️ adrenaline with caution in body parts with end arteries. **Ring and digital blocks: 1% lignocaine without adrenaline.**",
+   "claim": "**Local: 1% lignocaine with or without adrenaline, infiltrated slowly** — ⚠️ take care using adrenaline where a body part is supplied by end arteries. **Ring and digital blocks: 1% lignocaine without adrenaline.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Local anaesthesia 1% lignocaine with or without adrenaline slowly infiltrated into the wound (use adrenaline with caution in body parts with end arteries) … Regional block eg ring blocks and digital nerve blocks 1% lignocaine (without adrenaline)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ffa64a510ab1fd9",
+     "n": 154,
+     "p": "Local an"
+    },
+    {
+     "h": "fa3f761ef9ac535d",
+     "n": 89,
+     "p": "Regional"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Bier block only by an appropriately trained clinician**; consider whether the child can tolerate tourniquet time of up to 20 minutes. General anaesthesia for extensive debridement or complex repair.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intravenous regional anaesthesia (Bier block) To be done by a clinician of appropriate training only - see Bier block Consider the ability of the child to tolerate torniquet time for up to 20 minutes General anaesthesia For wounds requiring extensive debridement or complex management in theatre",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc0ec3e295c45821",
+     "n": 295,
+     "p": "Intraven"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Superficial wounds: 0.9% sodium chloride or aqueous chlorhexidine** — ⚠️ not alcohol-based chlorhexidine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Superficial wounds Use 0.9% sodium chloride or aqueous chlorhexidine (alcohol-based chlorhexidine should not be used)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62ba7a44bb02a79b",
+     "n": 117,
+     "p": "Superfic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Deep wounds:** anaesthetise first, remove all foreign bodies, and **irrigate with about 50-100 mL per cm of wound of 0.9% sodium chloride under pressure** (e.g. 19 gauge needle on a 10-20 mL syringe).",
+   "claim": "**Deep wounds:** anaesthetise first, remove all foreign bodies, and **irrigate with about 50-100 mL per cm of wound of 0.9% sodium chloride under pressure** (e.g. a 10-20 mL syringe fitted with a 19 gauge needle).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Deep wounds Those which require exploration should be anaesthetised first to allow more thorough cleaning. Foreign bodies must be removed … Thorough irrigation (approximately 50-100 mL per cm of wound) with 0.9% sodium chloride under pressure (eg with a 19 gauge needle on a 10-20 mL syringe)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33e89834632045bf",
+     "n": 137,
+     "p": "Deep wou"
+    },
+    {
+     "h": "d3350d4ce8aa163f",
+     "n": 152,
+     "p": "Thorough"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Gravel rash:** after anaesthesia, scrub with a brush to prevent tattooing; larger areas may need sedation or GA. **Ragged wounds:** trim edges of doubtful viability before closure.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gravel rash (Bitumen/dirt ground into the skin with associated skin abrasion) After anaesthesia, scrub with a brush to remove ground in dirt and prevent tattooing Small area may only need local anaesthesia, however larger areas may require debridement under procedural sedation or general anaesthesia Ragged wounds Trim edges of wound where the viability is in doubt, prior to closure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "447cd077c982d8a3",
+     "n": 384,
+     "p": "Gravel r"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Glass can cut to bone** — explore thoroughly, X-ray if glass may be retained (small fragments may not show), and evacuate all haematomas.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Glass injuries Glass can cut deep to bone and will need thorough exploration These injuries should be x-rayed if there is the possibility of retained glass, however small fragments of glass may not be visualised on x-ray All haematomas should be evacuated as glass may be found within",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ea2a5c1cd3b8c72",
+     "n": 284,
+     "p": "Glass in"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Dressing alone** for simple lacerations (small, superficial, not gaping or contaminated). **Puncture wounds are usually best left open.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Dressing only (see Wound dressings - acute traumatic wounds) Simple lacerations (small, superficial wounds which are not gaping or contaminated) can be managed with dressings alone Puncture wounds are usually best left open, although they may require exploration or debridement if deep or contaminated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72e33b9f578aaa3d",
+     "n": 301,
+     "p": "Dressing"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Adhesive strips:** not where there is movement or tension across the wound; space them to allow drainage; **keep dry for 72 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Adhesive strips (eg Steri-Strips) May be adequate for simple lacerations which require apposition of slightly separated wound edges Do not remain in place for long periods and should not be used if there is movement or tension across wound … Place strips with sufficient space between each to allow drainage of fluid from the wound to avoid infection Keep dry for 72 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "622c60d645a1cede",
+     "n": 239,
+     "p": "Adhesive"
+    },
+    {
+     "h": "b0367af7af536f86",
+     "n": 130,
+     "p": "Place st"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Tissue adhesive:** clean edges, no deep sutures needed, no tension; **best for wounds under 3 cm**; ⚠️ **not on mucosa.** Hold the edges together for 30 seconds; keep glue out of the wound; control bleeding first. It comes off in 1-2 weeks.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tissue adhesive (eg Dermabond™) Can be used on wounds which have clean edges, do not require deep sutures and are not under tension Best for wounds <3 cm in length with edges easily held together Do not use on mucosal surfaces … Appose edges of wound and apply very small amount of glue to surface, holding edges together for 30 seconds Do not allow glue to enter wound itself as it is non-absorbable (acts as foreign body) and may result in wound dehiscence For actively bleeding wounds, control bleeding first … Does not require removal; comes off in 1-2 weeks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4904ad8eb58d8794",
+     "n": 226,
+     "p": "Tissue a"
+    },
+    {
+     "h": "31918cb75d0c3cf2",
+     "n": 282,
+     "p": "Appose e"
+    },
+    {
+     "h": "0235a5aede175a51",
+     "n": 48,
+     "p": "Does not"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Gluing near the eye:** pad the eye and position the child so glue cannot drip into it.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If gluing the forehead or in the vicinity of the eye, the eye should be padded and the patient positioned appropriately to avoid any glue dripping into eye or onto eyelashes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "695358f69e76de0e",
+     "n": 173,
+     "p": "If gluin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Sutures: absorbable where practicable.** Monofilament is less prone to infection than braided — consider for contaminated wounds. Vicryl Rapide is braided and scars worse — caution on the face.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Use absorbable sutures where practicable: Monofilament sutures are less inclined to become infected than braided sutures – consider this with potentially contaminated wounds. Vicryl Rapide is a braided suture with a worse potential for scarring – use with caution for facial lacerations",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "368297858a92105f",
+     "n": 286,
+     "p": "Use abso"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Scalp:** firm digital pressure usually stops bleeding; shaving is not usually necessary; consider hair ties. **Close in 2 layers** — galea 3/0 or 5/0 chromic catgut or PDS; scalp 4/0 or 5/0 nylon or absorbable. **Remove sutures at 7 days.**",
+   "claim": "**Scalp:** firm digital pressure usually stops bleeding; shaving is not usually necessary; consider hair ties. **Two-layer closure** — galea with 3/0 or 5/0 chromic catgut or PDS; scalp with nylon or absorbable, 4/0 or 5/0. **Remove sutures at 7 days.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Scalp Bleeding may be profuse, but usually ceases with firm digital pressure along the margins of wound … It is not usually necessary to shave hair Consider hair ties (+/- glue or tincture of benzoic compound) to improve wound apposition (or also to definitively close a wound) Sutures: close in 2 layers Galea – 3/0 or 5/0 Chromic catgut (CCG) or Polydioxanone Suture (PDS) (absorbable) Scalp – 4/0 or 5/0 Nylon or absorbable Vicryl/ Monocryl sutures Removal of sutures (ROS) 7 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3571c7cb71803166",
+     "n": 103,
+     "p": "Scalp Bl"
+    },
+    {
+     "h": "3538927a4155b89b",
+     "n": 377,
+     "p": "It is no"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Forehead:** minimal debridement; **do not shave the eyebrow**; 5/0 or 6/0; **remove at 5-7 days.** **Cheek:** check for zygoma/orbit fractures and facial nerve injury; ophthalmology if hyphaema or a closed, swollen eye.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Forehead Minimal debridement. Do not shave eyebrow … Sutures: 5/0, 6/0 Nylon or absorbable catgut or Monocryl sutures ROS 5-7 days Cheek Check for fractures (zygoma, orbit) or involvement of facial nerve and muscle Specialist advice from ophthalmology if hyphema or \"closed eye with swelling\"",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "932706951f52e88f",
+     "n": 50,
+     "p": "Forehead"
+    },
+    {
+     "h": "7c043f171bd3be3f",
+     "n": 239,
+     "p": "Sutures:"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Eyelids: lid margin or tarsal plate involvement → ophthalmology.** Simple lid lacerations can be glued or sutured with absorbable 6/0.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Eyelids If involving lid margin or tarsal plate, seek specialist advice from ophthalmology Simple lacerations can be glued or sutured under low tension. If suturing, use absorbable 6/0 Monocryl or catgut sutures",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9802fc0f767b431",
+     "n": 211,
+     "p": "Eyelids "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Lips:** accurate approximation of the vermilion border is required; skin 6/0 nylon (remove at 5 days) or fast-absorbing catgut. Uncooperative child without adequate sedation → GA and surgeon. **Gum-margin (de-gloving) lacerations → dentist or maxillofacial surgery.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lips Superficial lacerations can be closed in the emergency department by a clinician with appropriate experience if the child is cooperative and/or adequate sedation can be achieved. Otherwise, GA and repair by a surgeon will be required Accurate approximation of vermilion border and skin is required for optimal cosmesis Sutures Skin: 6/0 Nylon (ROS 5 days) or fast absorbing catgut sutures … Lacerations of gum margin (eg de-gloving injury) need referral to dentist or maxillofacial surgery",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "acbb279c8d94de25",
+     "n": 393,
+     "p": "Lips Sup"
+    },
+    {
+     "h": "94aea4754aeb58ee",
+     "n": 98,
+     "p": "Lacerati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Subungual haematoma:** under 50% of the nail bed — ice and analgesia; over 50% with significant pain — trephine. **Fingertip skin loss up to 1 cm²** heals with dressings; more than that → refer.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Subungual haematoma Usually caused by blunt trauma to fingertip If <50% of nail bed, treat with ice and analgesia only If >50% and significant pain, trephine nail to relieve pressure … Small lacerations of fingertips with skin loss Areas of skin loss up to 1 cm2 can be treated with dressings and heal with good return of sensation. Any greater degree of tissue loss, refer for relevant surgical specialty advice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca820b6f93f0bfec",
+     "n": 182,
+     "p": "Subungua"
+    },
+    {
+     "h": "ef8a66153f3881a7",
+     "n": 227,
+     "p": "Small la"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Partial amputation or crush:** X-ray for a distal phalanx fracture — it implies nail-bed matrix damage and may be an open fracture needing theatre; refer. **Palm:** careful neurovascular assessment; **compound injuries need antibiotic cover and specialist management.**",
+   "claim": "⚠️ **Partial amputation or crush:** X-ray for a distal phalanx fracture — it implies nail-bed matrix damage and may be an open fracture needing theatre; refer. **Palm:** careful neurovascular assessment; **compound injuries require specialist management with antibiotic cover.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Partial-amputation/crush injury Need to assess integrity of nail bed: if damaged, needs repair by relevant surgical specialist X-ray for distal phalanx fracture, which implies damage to nail bed matrix and can also represent an open fracture requiring management in theatre Refer for relevant surgical specialty advice … Palm Careful neurovascular assessment of the wound is critical, especially in very young children, as deeper structures may be involved. If in doubt, refer for relevant surgical specialty advice Compound injuries need antibiotic cover and specialist management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0bff5ee83e138970",
+     "n": 318,
+     "p": "Partial-"
+    },
+    {
+     "h": "aed25b41c14f6984",
+     "n": 260,
+     "p": "Palm Car"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Tongue:** most need no sutures; refer to plastics if large, through the free edge, full thickness or still bleeding. **Ear:** full-thickness laceration involving cartilage → refer.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tongue Most lacerations do not require suturing If the laceration is large, extending through free edge, full thickness or associated with ongoing bleeding, refer for plastic surgery advice Ear If full thickness laceration involving cartilage, refer for relevant surgical speciality advice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f488a30b74617365",
+     "n": 289,
+     "p": "Tongue M"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Limbs:** 4/0 or 5/0 nylon or fast-absorbing Vicryl, deep 4/0 PDS; ⚠️ **lower limb — debride, and do not close under undue tension, especially pretibial.** Immobilise after repair; **remove at 7-10 days.** **Trunk:** fat 3/0 PDS, skin 4/0 or 5/0; **remove at 10-14 days.**",
+   "claim": "**Limbs:** nylon or fast-absorbing Vicryl, 4/0 or 5/0, deep 4/0 PDS; ⚠️ **lower limb — debride, and do not close under undue tension, especially pretibial.** Immobilise after repair; **remove at 7-10 days.** **Trunk:** PDS 3/0 for fat, 4/0 or 5/0 for skin; **remove at 10-14 days.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Limbs Upper limb: may require arterial tourniquet control Sutures: 4/0 or 5/0 Nylon or fast absorbing Vicryl sutures; Deep sutures 4/0 PDS Lower limb: Debridement is important. Do not close if under undue tension, especially pretibial region Following repair, immobilise area of laceration and joint above and below with back-slab or sling ROS 7-10 days Trunk Sutures Fat layer: 3/0 PDS Skin: 4/0 or 5/0 Nylon or fast absorbing Vicryl sutures ROS 10-14 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec4945d41f1af5b5",
+     "n": 457,
+     "p": "Limbs Up"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Antibiotics are not indicated for simple lacerations** — reserve them for bites and wounds with extensive tissue damage or massive contamination, and even then they come second to decontaminating the wound.",
+   "claim": "**Antibiotics are not indicated for simple lacerations** — keep them for bites and for wounds that are massively contaminated or have extensive tissue damage, and even then they come second to decontaminating the wound.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antibiotics Not indicated for simple lacerations Reserved for bites and wounds with extensive tissue damage or massive contamination, but secondary in importance to initial decontamination of wound",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "73ac1bd0901ddede",
+     "n": 197,
+     "p": "Antibiot"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge when the laceration is adequately cleaned and closed; refer every patient for early wound review** with their primary care physician.",
+   "claim": "**Discharge when the laceration is adequately cleaned and closed; every patient should see their primary care physician early for wound review.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Laceration adequately cleaned and closed Refer all patients for early wound review with their primary care physician",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e6906bb428cdb71",
+     "n": 140,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Lacerations' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/, retrieved 2026-09-23"
   }
  ]

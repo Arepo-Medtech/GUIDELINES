@@ -1,187 +1,426 @@
 {
  "guideline": "guidelines/micronutrient-deficiency-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Micronutrient deficiency' (Last updated September 2023), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Micronutrient deficiency' (Last updated September 2023), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 23,
-  "pass": 23,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
    "claim": "⚠️ **Consider micronutrient deficiency in every child with a diet highly restricted in variety**, e.g. from autism or cognitive impairment. **Normal growth does not exclude it.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider micronutrient deficiencies in all children with diets which are highly restricted in variety and balanced nutritional content due to neurodevelopmental conditions eg ASD, cognitive impairment … Normal growth parameters do not exclude possible micronutrient deficiency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db80dbc1f3cef1c8",
+     "n": 200,
+     "p": "Consider"
+    },
+    {
+     "h": "679912caeab6fa04",
+     "n": 73,
+     "p": "Normal g"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Deficiency can cause permanent disability (e.g. blindness) or death**, and features may be subtle and non-specific.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Micronutrient deficiencies can be associated with permanent physical disabilities (eg blindness) or death … Clinical features of micronutrient deficiency may be subtle, consider in children with highly restricted diets presenting with non-specific symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb46a931e1ca5a6f",
+     "n": 105,
+     "p": "Micronut"
+    },
+    {
+     "h": "59b6c8c9651b446f",
+     "n": 148,
+     "p": "Clinical"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**This is not 'fussy eating'**: calories may be enough for growth while variety is not. Typical groups: autism and other neurodevelopmental conditions, ARFID, multiple food allergies, elective dietary restriction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Micronutrient deficiency may occur in children who have sufficient caloric intake for acceptable growth, but a diet significantly restricted in food variety. … differs from ‘fussy eating’, which is common in early childhood and generally resolves over time … Neurodevelopmental conditions including autism spectrum disorder Avoidant restrictive food intake disorder (ARFID) Multiple food allergies Elective dietary restrictions due to cultural, religious, or environmental reasons",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "492bf5c57afc003a",
+     "n": 157,
+     "p": "Micronut"
+    },
+    {
+     "h": "b680b6ffdb03a8f2",
+     "n": 96,
+     "p": "differs "
+    },
+    {
+     "h": "54a96c6e6ad27091",
+     "n": 221,
+     "p": "Neurodev"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Red-flag diet history:** missing food groups, **fewer than 10 foods/food types regularly eaten**, little meal-to-meal variation; veganism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Diet highly limited in variety eg missing food groups, less than 10 foods/food types regularly consumed, minimal meal to meal variability … Dietary patterns predisposing to vitamin and mineral deficiencies eg veganism",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f13fbd443d38365",
+     "n": 137,
+     "p": "Diet hig"
+    },
+    {
+     "h": "d2e907dcbef990c0",
+     "n": 77,
+     "p": "Dietary "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Examine for** skin changes including pallor, dry eyes, oral mucosa and gum changes, goitre, bony deformity, neuropathy, hair or nail changes; the child may have normal growth or be overweight.",
+   "claim": "**Examine for** pallor and other skin changes, dry eyes, changes in the gums and oral mucosa, goitre, neuropathy, bony deformity, nail or hair changes; the child may have normal growth or be overweight.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "General assessment for micronutrient deficiency should be performed including checking for skin changes (including pallor), dry eyes, oral mucosa and gum changes, goitre, bony deformity, neuropathy, hair or nail changes … Growth measurements should be routinely performed, but noting that child may have normal growth for age and sex or even be overweight",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c8076d9c9e824e2",
+     "n": 219,
+     "p": "General "
+    },
+    {
+     "h": "17bf5d1739997ec9",
+     "n": 133,
+     "p": "Growth m"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Vitamin A:** xerophthalmia — night blindness, dry conjunctiva, corneal ulceration, blindness.",
+   "claim": "⚠️ **Vitamin A:** xerophthalmia — dry conjunctiva, night blindness, corneal ulceration, blindness.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Xerophthalmia: night blindness, dry conjunctiva, corneal ulceration, blindness",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd1da2fb5983a009",
+     "n": 78,
+     "p": "Xerophth"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Thiamine (B1):** dry beriberi (neuropathy), wet beriberi (cardiac failure), **Wernicke encephalopathy** (confusion, reduced consciousness, ataxia, ophthalmoplegia).",
+   "claim": "⚠️ **Thiamine (B1):** neuropathy (dry beriberi), cardiac failure (wet beriberi), **Wernicke encephalopathy** (ataxia, ophthalmoplegia, confusion, reduced consciousness).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Dry beriberi (symmetric peripheral neuropathy) Wet beriberi (cardiac failure) Wernicke encephalopathy: confusion, reduced consciousness, ataxia, ophthalmoplegia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f1b79d854a67ca10",
+     "n": 160,
+     "p": "Dry beri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Vitamin B12:** irritability, developmental delay or regression, involuntary movements, neuropathy; at risk — vegan/vegetarian diets and **exclusively breastfed infants of B12-deficient mothers.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Irritability, developmental delay, developmental regression, involuntary movements, peripheral neuropathy … Vegan and vegetarian diet Some refugee populations Gastrointestinal disease Exclusively breastfed infants of mothers with Vitamin B12 deficiency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d3b55d651144fac6",
+     "n": 105,
+     "p": "Irritabi"
+    },
+    {
+     "h": "4ca7f983cdc71696",
+     "n": 144,
+     "p": "Vegan an"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Vitamin C (scurvy):** fractures and joint pain, poor wound healing, bleeding gums, petechiae and purpura, corkscrew hair — in diets without fruit and vegetables.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Scurvy: skeletal fractures and joint pain, poor wound healing, fatigue, weight loss, gingival inflammation with gum bleeding, petechiae, ecchymosis, purpura, dry eyes and mouth, corkscrew hair … Diets without fruit and vegetables",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fdf64bd7f55572a3",
+     "n": 192,
+     "p": "Scurvy: "
+    },
+    {
+     "h": "49751df6ea3f7cd7",
+     "n": 34,
+     "p": "Diets wi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Zinc:** acrodermatitis enteropathica — periacral and periorificial dermatitis, diarrhoea, alopecia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acrodermatitis enteropathica: Periacral, periorificial dermatitis, diarrhoea, alopecia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2be1e25d7b56249",
+     "n": 86,
+     "p": "Acroderm"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Investigate at-risk children even without symptoms** — some complications are irreversible. **Prioritise symptomatic children** for urgent assessment and treatment, even empirical supplementation. **Refer to a dietitian.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider investigations even in asymptomatic children as some complications of micronutrient deficiency are irreversible … Symptomatic children should be prioritised for urgent assessment and initiation of treatment or even empirical supplementation … Dietician referral to assist in assessment and management (eg dietary change, supplementation) is recommended",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c96fcfba09e5b2a6",
+     "n": 120,
+     "p": "Consider"
+    },
+    {
+     "h": "c159790fa9e9fbec",
+     "n": 126,
+     "p": "Symptoma"
+    },
+    {
+     "h": "584c57938a375341",
+     "n": 109,
+     "p": "Dieticia"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Take all first-line bloods in one collection** (about 10–15 mL whole blood), and consider opportunistic sampling under sedation or anaesthesia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "consider performing all first line laboratory investigations with one blood collection unless only a specific deficiency is suspected based on history or examination … Opportunistic testing during sedation or anaesthesia should also be considered to minimise distress and trauma … Estimated blood volume required for first line investigations is 10-15 mL whole blood",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1068ad4f6ed13350",
+     "n": 165,
+     "p": "consider"
+    },
+    {
+     "h": "9d37027cbeeacac8",
+     "n": 110,
+     "p": "Opportun"
+    },
+    {
+     "h": "3722ac5da8b3dade",
+     "n": 85,
+     "p": "Estimate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "**First-line:** FBE; UEC, LFT, calcium, magnesium, phosphate; iron studies; **vitamin A (foil)**; **thiamine (foil, on ice)**; folate; B12; **vitamin C (foil, dry ice)**; vitamin D; zinc.",
+   "claim": "**First-line:** FBE; iron studies; UEC, LFT, calcium, phosphate, magnesium; **vitamin A (foil)**; **thiamine (foil, on ice)**; folate; B12; **vitamin C (foil, dry ice)**; vitamin D; zinc.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FBE UEC, LFT, calcium, magnesium, phosphate Iron studies Vitamin A (light sensitive, cover tube with foil) Thiamine (cover tube in foil and send on ice) Folate Vitamin B12 Vitamin C (cover tube in foil and send on dry ice) Vitamin D (see flowchart for criteria) Zinc",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d258d179a4b1531d",
+     "n": 266,
+     "p": "FBE UEC,"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Vitamin A, level 0.35–0.7 micromol/L:** oral stat — under 6 months 50,000 IU · 6–12 months 100,000 IU · over 12 months 200,000 IU; repeat at 6 months if risk persists.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Level 0.35-0.7 micromol/L (or low for age) <6 months: 50,000 IU oral stat 6-12 months: 100,000 IU oral stat >12 months: 200,000 IU oral stat Repeat dose at 6 months if risk factors persist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41a99e13191c3894",
+     "n": 188,
+     "p": "Level 0."
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Vitamin A, level under 0.35 micromol/L or xerophthalmia: same age doses orally on days 1, 2 and 14.** Toxicity occurs with chronic daily intakes over 6,000 microg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Level <0.35 micromol/L or Xerophthalmia Dose on day 1, 2 and 14 <6 months: 50,000 IU oral 6-12 months: 100,000 IU oral >12 months: 200,000 IU oral … Toxicity occurs at chronic daily intakes >6,000 microg",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8324b7d23a9ddb27",
+     "n": 146,
+     "p": "Level <0"
+    },
+    {
+     "h": "6bcb955499a45ff8",
+     "n": 54,
+     "p": "Toxicity"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Thiamine, subclinical: 2 mg/kg oral once daily for 6 weeks** (rounded to the nearest 25 mg, max 100 mg). **Symptomatic: discuss parenteral treatment** with the paediatric team.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Subclinical deficiency 2mg/kg (rounded to nearest 25 mg, max 100 mg) oral once daily for 6 weeks If symptomatic, discuss parenteral treatment with local paediatric team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fda394668d4f927a",
+     "n": 168,
+     "p": "Subclini"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **Folate-deficiency anaemia:** 1–12 months **0.5 mg/kg (max 5 mg) once daily for 4 months**; over 12 months **5 mg once daily for 4 months, then 5 mg every 1–7 days.** **Exclude B12 deficiency first.**",
+   "claim": "⚠️ **Folate-deficiency anaemia:** aged 1–12 months **0.5 mg/kg (max 5 mg) once daily for 4 months**; over 12 months **5 mg once a day for 4 months, followed by 5 mg every 1–7 days.** **Exclude B12 deficiency first.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treatment of folate deficiency anaemia 1-12 months: 0.5 mg/kg (maximum 5 mg) once daily for 4 months >12 months: 5 mg oral once daily for 4 months, then 5 mg every 1-7 days … Exclude Vitamin B12 deficiency prior to dosing",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0936053579606b0b",
+     "n": 172,
+     "p": "Treatmen"
+    },
+    {
+     "h": "ab3e14fdf44bd821",
+     "n": 46,
+     "p": "Exclude "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Folate prevention with ongoing risk:** 1 month to 12 years 2.5–10 mg oral once daily; 12–18 years 5–10 mg oral once daily. Supplementation can lower levels of phenytoin, carbamazepine and valproate.",
+   "claim": "**Folate prevention with ongoing risk:** 1 month to 12 years 2.5–10 mg orally once a day; 12–18 years 5–10 mg orally once a day. Supplementation can lower levels of phenytoin, carbamazepine and valproate.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prevention of folate deficiency if ongoing risk factors 1 month: 12 years, oral 2.5-10 mg once daily 12-18 years: 5-10 mg oral once daily … Supplementation can reduce serum levels of some antiepileptics (Phenytoin, Carbamazepine, Valproate)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a974892dab84b420",
+     "n": 137,
+     "p": "Preventi"
+    },
+    {
+     "h": "47e0332e73f3058b",
+     "n": 100,
+     "p": "Suppleme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Vitamin B12, subclinical: 100 microg oral once daily.** Symptomatic or unable to take oral: **discuss parenteral (IM hydroxocobalamin 1,000 microg)** with the paediatric team; high-dose oral may replace IM if there is no malabsorption.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Subclinical deficiency 100 microg oral once daily If symptomatic or unable to tolerate oral treatment, discuss parenteral treatment with local paediatric team … Intramuscular (Hydroxocobalamin) 1,000 microg … High dose oral replacement may be considered in place of intramuscular if no features of malabsorption",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42797530e0dfec9c",
+     "n": 158,
+     "p": "Subclini"
+    },
+    {
+     "h": "a2600ace8f3130f2",
+     "n": 45,
+     "p": "Intramus"
+    },
+    {
+     "h": "56d11a16b2e00fba",
+     "n": 102,
+     "p": "High dos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Vitamin C: 100 mg three times daily (oral, IV or IM) for one week, then 100 mg oral once daily** for several weeks until recovered or levels normalise.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "100 mg tds (oral, IV, IM) for one week, then 100mg oral once daily for several weeks until patient is fully recovered or repeat levels normalised",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a47e245846f0e07",
+     "n": 145,
+     "p": "100 mg t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Zinc, subclinical: 1 mg/kg/day oral in 1–3 doses**, recheck at 1 month; **acrodermatitis enteropathica: 3 mg/kg/day oral.** Excess zinc can cause copper deficiency.",
+   "claim": "**Zinc, subclinical: 1 mg/kg/day orally, split into 1–3 doses**, recheck at 1 month; **for acrodermatitis enteropathica, 3 mg/kg/day orally.** Excess zinc can cause copper deficiency.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Subclinical deficiency 1 mg/kg/day oral in 1-3 doses, repeat levels after 1 month Acrodermatitis enteropathica 3 mg/kg/day oral … Toxicity can lead to copper deficiency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5617a89b1254da70",
+     "n": 127,
+     "p": "Subclini"
+    },
+    {
+     "h": "d2dd8285ee778a5d",
+     "n": 38,
+     "p": "Toxicity"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consider a multivitamin for every at-risk child**, and **maintenance dosing after replacement** until the dietary risk is resolved.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider the use of a multivitamin in all children at risk of micronutrient deficiency. … Children with identified micronutrient deficiency who have completed initial replacement should have management put in place to maintain sufficient nutrient intake (maintenance dosing).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab464ec2e0846a14",
+     "n": 87,
+     "p": "Consider"
+    },
+    {
+     "h": "2ea83e45ab6f3442",
+     "n": 185,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the paediatric team** for symptomatic deficiency, unclear cause, failed oral supplementation, or when NG or gastrostomy feeding is being considered. **Discharge** once treated and risk factors addressed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Child has symptomatic micronutrient deficiency Cause of micronutrient deficiency is not clear Oral supplementation not successful Consideration of feeding support through nasogastric tube or gastrostomy is required … Micronutrient deficiency successfully treated, and risk factors have been addressed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82c162c6d1c67a30",
+     "n": 214,
+     "p": "Child ha"
+    },
+    {
+     "h": "b9806c0d8b9b755c",
+     "n": 83,
+     "p": "Micronut"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Micronutrient deficiency' (Last updated September 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/, retrieved 2026-09-23"
   }
  ]

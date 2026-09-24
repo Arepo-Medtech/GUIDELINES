@@ -1,172 +1,400 @@
 {
  "guideline": "guidelines/altered-conscious-state-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Altered conscious state' (Last updated November 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Altered conscious state' (Last updated November 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 22,
-  "pass": 22,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
-   "claim": "**Immediate management aims to minimise ongoing neurological damage** while investigation and treatment are started.",
+   "claim": "**First priority: limit further neurological damage**, while investigations and treatment get under way.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The aim of immediate management is to minimise ongoing neurological damage while investigation and treatment are initiated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b98ce127153f0b8",
+     "n": 122,
+     "p": "The aim "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Parents are the best judge of an altered conscious state**, particularly for children with disability. Take parental and nursing concerns seriously.",
+   "claim": "**Parents judge an altered conscious state best**, especially when the child has a disability. Take parental and nursing concerns seriously.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Parents are the best judge of an altered conscious state, particularly for children with disability … Parental and nursing concerns of conscious state should be taken seriously",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "958e1171e4f24c95",
+     "n": 99,
+     "p": "Parents "
+    },
+    {
+     "h": "051e26989978408d",
+     "n": 74,
+     "p": "Parental"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider child abuse** in a young child presenting with altered conscious state and signs of injury.",
+   "claim": "⚠️ **Consider child abuse** when a young child has signs of injury along with an altered conscious state.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider child abuse in a young child presenting with altered conscious state and signs of injury",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "650400582980b74b",
+     "n": 97,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Altered conscious state is defined by a GCS below 15.** It is uncommon but carries significant mortality and morbidity; **head injury and infection are the most common causes of paediatric coma.**",
+   "claim": "**Altered conscious state is defined by a GCS below 15.** It is uncommon but carries significant mortality and morbidity; **in children, coma is most often due to head injury or infection.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "altered conscious state defined by a GCS of < 15 … Altered conscious state is an uncommon presentation but is associated with significant mortality and morbidity … Head injury and infection are the most common causes of paediatric coma",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "44b11a851a1f0e8e",
+     "n": 48,
+     "p": "altered "
+    },
+    {
+     "h": "3ec457687af0a418",
+     "n": 110,
+     "p": "Altered "
+    },
+    {
+     "h": "156782ae2d4b80b4",
+     "n": 71,
+     "p": "Head inj"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Screen with AVPU** (Alert, responds to Voice, responds to Pain, Unresponsive), particularly in younger children. **Any impairment on AVPU → formal GCS.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Initial screening of conscious state may be done using AVPU scale, particularly in younger children … A = Alert V = Responds to voice P = Responds to pain U = Unresponsive … Any impairment on AVPU scale should prompt a formal assessment of GCS",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d507265886709784",
+     "n": 99,
+     "p": "Initial "
+    },
+    {
+     "h": "d8e5ed5042d46b55",
+     "n": 69,
+     "p": "A = Aler"
+    },
+    {
+     "h": "74456d279902ea93",
+     "n": 69,
+     "p": "Any impa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Trauma and infection:** head injury, falls, concussion; meningitis, encephalitis, sepsis, cerebral and extracerebral abscesses, malaria.",
+   "claim": "**Trauma and infection:** head injury, falls, concussion; sepsis, meningitis, encephalitis, malaria, cerebral and extracerebral abscesses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Trauma Blunt, penetrating head injury, falls, concussion … Infection Meningitis, encephalitis, sepsis, cerebral and extracerebral abscesses, malaria",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "89b0f46f04c8bdae",
+     "n": 56,
+     "p": "Trauma B"
+    },
+    {
+     "h": "e01eee93a4e52a6e",
+     "n": 89,
+     "p": "Infectio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Neurological:** post-ictal phase or status epilepticus; raised intracranial pressure (mass, cerebral oedema, **blocked VP shunt**); cerebral hypoxia or ischaemia from respiratory failure, shock, asphyxiation or stroke/intracranial haemorrhage.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Epilepsy: Post-ictal phase, status epilepticus … Raised intracranial pressure: Mass lesion, cerebral oedema, blocked ventriculoperitoneal shunt … Cerebral hypoxia, ischaemia: Respiratory failure, shock (cardiogenic, adrenal crisis, sepsis, hypovolaemia), asphyxiation, cerebrovascular event (stroke/intracranial haemorrhage)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9105f0938cd6437b",
+     "n": 46,
+     "p": "Epilepsy"
+    },
+    {
+     "h": "4237d342088d185f",
+     "n": 94,
+     "p": "Raised i"
+    },
+    {
+     "h": "f1bc0238f1546cb0",
+     "n": 178,
+     "p": "Cerebral"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Poisoning and metabolic:** alcohol, hallucinogens, opiates, lead; **hypoglycaemia**, DKA, renal or hepatic failure, hypo/hypernatraemia, hypothermia, inborn errors of metabolism. Also acute confusional migraine, psychiatric causes and arrhythmia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Poisoning/toxin Substance abuse or accidental ingestion (eg alcohol, hallucinogens, opiates, lead) … Metabolic and endocrine Hypoglycaemia Diabetic ketoacidosis, renal or hepatic failure, hypo/hypernatremia, hypothermia, inborn error of metabolism … Other Acute confusional migraine, psychiatric, arrhythmia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94b845a41616cca1",
+     "n": 98,
+     "p": "Poisonin"
+    },
+    {
+     "h": "95a2700ffc9bb3df",
+     "n": 146,
+     "p": "Metaboli"
+    },
+    {
+     "h": "8f947ef33613b9b5",
+     "n": 57,
+     "p": "Other Ac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Attend to ABCDE first, regardless of cause.** If trauma is possible, **immobilise the cervical spine and consult neurosurgery.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Regardless of cause of altered conscious state, attend to ABCDE first … If traumatic cause is possible, immobilise cervical spine and consult neurosurgery",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e06991d9c8e13c56",
+     "n": 69,
+     "p": "Regardle"
+    },
+    {
+     "h": "e83244f3ef65b077",
+     "n": 82,
+     "p": "If traum"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Then identify a cause as quickly as possible.** History: headache, confusion, seizures, focal neurology, abrupt vs gradual course or recurrence, injury, fever, past history including immunisation and development, family history including consanguinity, drug/toxin exposure (quantity, timing) and travel.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The aim is then to identify a cause as quickly as possible, to guide investigation and treatment … Symptoms: headache, confusion, seizures Focal neurology Time course of symptoms: abrupt vs gradual deterioration, recurrent episodes Injury: mechanism, timing Presence of fever Past and recent medical history including immunisation, seizures, developmental delay Family history including consanguinity Drug and toxin exposure: exposure, quantity, timing Travel history: personal or that of close family contacts",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5ea64e5ee57a35c",
+     "n": 96,
+     "p": "The aim "
+    },
+    {
+     "h": "5a5ff2f571c8b3b1",
+     "n": 411,
+     "p": "Symptoms"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Signs of raised intracranial pressure:** unilateral or bilateral pupillary dilatation · **GCS drop of more than 2 points** · focal neurology · decorticate or decerebrate posturing · irregular respirations, hypertension and bradycardia (Cushing reflex — **a late sign**).",
+   "claim": "⚠️ **Raised intracranial pressure — signs:** pupillary dilatation (one or both sides) · **GCS drop of more than 2 points** · focal neurology · decorticate or decerebrate posturing · Cushing reflex of bradycardia, hypertension and irregular respirations (**a late sign**).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs of raised intracranial pressure: unilateral or bilateral pupillary dilatation drop of more than 2 points in GCS focal neurological signs abnormal posturing (decorticate, decerebrate) irregular respirations, hypertension and bradycardia (Cushing reflex, a late sign)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dde49347abbf18d2",
+     "n": 271,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examination clues:** rash, petechiae, bruising, needle marks; the smell of alcohol, glue, ketones, petrol or phenol; scalp haematoma, bloody or clear ear/nasal discharge, otitis media, mastoiditis, neck bruising; hepatomegaly or abdominal guarding.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Skin Rash, petechiae, bruising, birth marks, sweating, needle marks … Smell Alcohol, glue, ketones, petrol, phenol … Head and neck Scalp haematoma, ear/nasal bloody or clear discharge, otitis media, mastoiditis, neck bruising … Hepatomegaly, abdominal guarding, rigidity, or tenderness",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6e3a9bf1717a25c",
+     "n": 67,
+     "p": "Skin Ras"
+    },
+    {
+     "h": "1321245fc91ee131",
+     "n": 44,
+     "p": "Smell Al"
+    },
+    {
+     "h": "5cf0e77569652962",
+     "n": 108,
+     "p": "Head and"
+    },
+    {
+     "h": "053433f5c2c0e970",
+     "n": 57,
+     "p": "Hepatome"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Guided by the differential:** point-of-care glucose; FBE, renal function, glucose, liver function; blood gas, ammonia, cortisol; coagulation; urine toxicology; blood and urine culture.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider the following as guided by your differential diagnoses: … POCT Glucose FBE, renal function, glucose, liver function tests Blood gas, ammonia, cortisol Coagulation profile Urine toxicology … Blood culture, urine culture",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2b5ea80d81c41f8",
+     "n": 64,
+     "p": "Consider"
+    },
+    {
+     "h": "2188ef00dfe2394d",
+     "n": 129,
+     "p": "POCT Glu"
+    },
+    {
+     "h": "dc42c87745a09f56",
+     "n": 28,
+     "p": "Blood cu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not perform a lumbar puncture in a child with a reduced GCS.** If needed, do it once the child is clinically stable.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lumbar puncture: do not perform in a child with a reduced GCS … If required, this can be performed when the child is clinically stable to determine if meningitis, encephalitis, or other neurological condition (such as autoimmune encephalitis etc) are present",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcc574327fd2c844",
+     "n": 61,
+     "p": "Lumbar p"
+    },
+    {
+     "h": "7fb3e33bd06f9501",
+     "n": 194,
+     "p": "If requi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**CT or MRI only after initial resuscitation and treatment**, where feasible, for suspected trauma, stroke or raised intracranial pressure.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "CT or MRI (where feasible and only after initial resuscitation and treatment) in suspected trauma, stroke or concerns regarding raised intracranial pressure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1fb198eb3eab2dc6",
+     "n": 156,
+     "p": "CT or MR"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**ECG:** a broad QRS suggests critical tricyclic antidepressant toxicity.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "ECG eg broad QRS suggestive of critical tricyclic antidepressant toxicity",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e35a8a01b554f75a",
+     "n": 73,
+     "p": "ECG eg b"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Definitive management follows the working diagnosis** (head injury, trauma, meningitis/encephalitis, sepsis, child abuse, poisoning).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Definitive management will be guided by the working diagnosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d597d928c60ee14",
+     "n": 61,
+     "p": "Definiti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Suspected infection: give antibiotic and antiviral therapy urgently.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If suspected infective cause, give antibiotic and antiviral therapy urgently",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83095dd0c6b26a12",
+     "n": 76,
+     "p": "If suspe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat signs of raised intracranial pressure.** For poisoning, 24-hour advice: **Poisons Information Centre 13 11 26.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat signs of raised intracranial pressure … For 24 hour advice, contact the Poisons Information Centre 13 11 26",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6341641196bb955d",
+     "n": 43,
+     "p": "Treat si"
+    },
+    {
+     "h": "0508ed6fdafe81df",
+     "n": 67,
+     "p": "For 24 h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the local paediatric team** for any persistent or unexplained altered conscious state, or any concern for child abuse.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Any child who presents with persistent or unexplained altered conscious state When there are concerns for child abuse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0882b3bc256a9758",
+     "n": 171,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider transfer** when the child is at risk of deteriorating and needs management beyond local capability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Child is at risk of deteriorating and requires management beyond the capability of available local services",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8f1a4039a2ffa8f",
+     "n": 130,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider discharge** only when conscious state has returned to normal and there is a clear follow-up plan if required.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when The child’s conscious state has returned to normal There is clear plan for ongoing follow up if required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "12b312081ee512fe",
+     "n": 128,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Altered conscious state' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/, retrieved 2026-09-23"
   }
  ]

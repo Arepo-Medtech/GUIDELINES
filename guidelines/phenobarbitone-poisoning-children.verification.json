@@ -1,130 +1,252 @@
 {
  "guideline": "guidelines/phenobarbitone-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Phenobarbitone poisoning' (Last Updated December 2017), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Phenobarbitone poisoning' (Last Updated December 2017), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 16,
-  "pass": 16,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 16
  },
  "claims": [
   {
    "claim": "**Toxicity is CNS depression plus cardiovascular effects; onset is usually within an hour; management is supportive.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Clinical features of phenobarbitone poisoning are due to depression of the central nervous system and effect on the cardiovascular system. … Onset of clinical features is usually within an hour of ingestion. … Management of phenobarbitone poisoning is supportive.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a210300cc611e6ae",
+     "n": 138,
+     "p": "Clinical"
+    },
+    {
+     "h": "e42997b7ee634249",
+     "n": 66,
+     "p": "Onset of"
+    },
+    {
+     "h": "f78048c33d27f898",
+     "n": 53,
+     "p": "Manageme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Features:** lethargy, slurred speech, ataxia, hypotension, arrhythmias — ⚠️ **may be profound and prolonged.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms include lethargy, slurred speech, ataxia, hypotension and arrhythmias. … Onset of symptoms is usually within an hour of ingestion and symptoms may be profound and prolonged.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c94368a1ba35710",
+     "n": 79,
+     "p": "Symptoms"
+    },
+    {
+     "h": "4f88ffe10d083be3",
+     "n": 100,
+     "p": "Onset of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Serum levels confirm ingestion but do not reliably predict the clinical course.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Serum phenobarbitone concentrations can be useful for confirming the ingestion but are not a reliable predictor of clinical course.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "753ba2bc1f77f03e",
+     "n": 131,
+     "p": "Serum ph"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess:** any deliberate self-poisoning · accidental ingestion over 5 mg/kg (or over 10 mg/kg above the normal dose if on phenobarbitone) · any symptomatic child · unknown quantity. **Consider non-accidental poisoning** if developmental age doesn't fit.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with deliberate self-poisoning or significant (>5 mg/kg OR >10 mg/kg greater than the child’s normal therapeutic dose if on regular dose) accidental ingestion Any symptomatic child Acute ingestion of unknown quantity Any child where the developmental age is inconsistent with accidental poisoning as non-accidental poisoning should be considered.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d50b5fa527ba859e",
+     "n": 359,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine for:** lethargy, slurred speech, ataxia, respiratory depression, coma · hypotension, arrhythmias. ⚠️ **Large ingestions can mimic brain death.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "CNS Lethargy, slurred speech, ataxia, respiratory depression, coma. Large ingestions can mimic brain death. CVS Hypotension, Arrhythmias",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f02ac7547166e43a",
+     "n": 136,
+     "p": "CNS Leth"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**ECG at presentation and repeat at 6 hours until normal.** Paracetamol level in all intentional overdoses.",
+   "claim": "**ECG on arrival, repeated at 6 hours until normal.** Paracetamol level in all intentional overdoses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "ECG: (initially and repeat at 6 hours until normal). Paracetamol concentration in all intentional overdoses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "764b373f323b3f73",
+     "n": 107,
+     "p": "ECG: (in"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Levels:** over 172–258 micromol/L may be expected to cause toxic effects; ⚠️ **over 345–650 micromol/L is potentially lethal.**",
+   "claim": "**Levels:** toxic effects can be expected above 172–258 micromol/L; ⚠️ **over 345–650 micromol/L is potentially lethal.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If phenobarbitone serum concentrations performed: >172-258 micromol/L – may be expected to cause toxic effects >345-650 micromol/L – potential to be lethal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "278032a2c2a236b2",
+     "n": 155,
+     "p": "If pheno"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat:** all symptomatic children · unknown quantity · over 5 mg/kg, or over 10 mg/kg above the normal dose if on maintenance phenobarbitone.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All symptomatic children Acute ingestion of unknown quantity Based on ingestion amount: Phenobarbitone ingestion of >5mg/kg OR >10mg/kg greater than the child’s normal therapeutic dose if child is on maintenance phenobarbitone treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e52328b36a02d274",
+     "n": 236,
+     "p": "All symp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Resuscitation: standard procedures and supportive care.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Standard procedures and supportive care. See also Resuscitation guideline and Poisoning – Guidelines for initial management.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "814ff000009cce5b",
+     "n": 124,
+     "p": "Standard"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Multidose activated charcoal via NGT after intubation increases elimination and may shorten coma** in large ingestions, provided bowel sounds are present — discuss with a toxicologist (13 11 26).",
+   "claim": "**After intubation, multidose activated charcoal by NGT enhances elimination and may shorten coma** in large ingestions, as long as bowel sounds are present — seek toxicologist advice (13 11 26).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Multidose activated charcoal via NGT after intubation increases phenobarbitone elimination and may reduce length of coma in children with large ingestions, provided bowel sounds are present. Discuss with a toxicologist via the Poisons Information Centre 13 11 26.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2228b2c3f3b5ecc8",
+     "n": 263,
+     "p": "Multidos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Mild symptoms (ataxia, blurred vision): observe 6 hours;** discharge once symptom-free.",
+   "claim": "**Mild symptoms (ataxia, blurred vision): 6 hours of observation;** discharge once symptom-free.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild symptoms (eg ataxia, blurred vision) Observe 6 hours Discharge once symptom-free",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5bba8f517a1ab0b7",
+     "n": 85,
+     "p": "Mild sym"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moderate–severe or persisting after 6 hours: admit.** Take a level at 6 hours if still symptomatic; if rising or above range, admit for serial levels with a toxicologist. Discuss severe cases with PICU.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Moderate-to-severe or persistent symptoms after 6 hours of observation (eg Depressed conscious state or cardiac arrhythmias) Admit for observation and supportive management Phenobarbitone serum concentration at 6 hours if ongoing symptoms If drug concentration increasing or above therapeutic range, admit for ongoing observation and serial drug concentration monitoring in consultation with toxicologist Discussion with toxicologist Discussion with paediatric intensive care team if severe symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da694514ab5ae5a2",
+     "n": 499,
+     "p": "Moderate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for every intentional overdose** and any child still symptomatic after 6 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all children with an intentional overdose or in children with persisting symptoms after 6 hours observation.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9499adfa3df9d8eb",
+     "n": 143,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer to a tertiary centre** for severe symptoms or potential need for intensive care. **PIPER: 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with severe symptoms and/or the potential to require intensive care review. … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c31c24e4a520d223",
+     "n": 84,
+     "p": "Children"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when:** normal GCS, normal ECG, observation period complete, and — after deliberate ingestion — a risk assessment shows low risk of further self-harm.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Normal GCS Normal ECG Period of observation as above For deliberate ingestion a risk assessment should indicate that the child is at low risk of further self-harm in the discharge setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4383b40072c0c758",
+     "n": 187,
+     "p": "Normal G"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Refer** intentional self-harm to local mental health services (e.g. Orygen Youth Health 1800 888 320) and recreational use to YoDAA (1800 458 685).",
+   "claim": "**Refer** intentional self-harm to the local mental health service (for example Orygen Youth Health, 1800 888 320) and recreational use to YoDAA (1800 458 685).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intentional self-harm: Referral to local mental health services e.g. Orygen Youth Health: 1800 888 320 … Recreational poisoning: Referral to YoDAA, Victoria's Youth Drug and Alcohol Advice service: 1800 458 685",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "593f3bdb589bd5f6",
+     "n": 102,
+     "p": "Intentio"
+    },
+    {
+     "h": "d129022e17c4653c",
+     "n": 105,
+     "p": "Recreati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenobarbitone poisoning' (Last Updated December 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/, retrieved 2026-09-23"
   }
  ]

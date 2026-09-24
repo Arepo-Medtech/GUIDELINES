@@ -1,180 +1,373 @@
 {
  "guideline": "guidelines/influenza-management-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Influenza/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Influenza' (Last updated January 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Influenza' (Last updated January 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 22,
-  "pass": 22,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
-   "claim": "**Most influenza in healthy children is self-limited**, but severe disease occurs both in previously well children and in those with risk factors.",
+   "claim": "**In healthy children, influenza usually settles by itself**, but severe disease occurs both in previously well children and in those with risk factors.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most influenza in healthy children is self-limited and uncomplicated … Severe disease can occur in previously well children and children with risk factors, including chronic illness",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b1bdd02f8a79e3a",
+     "n": 68,
+     "p": "Most inf"
+    },
+    {
+     "h": "46b7a8bac91854a2",
+     "n": 110,
+     "p": "Severe d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Incubation 1–4 days (average 2).** Infectious from 24 hours before symptoms for 4–7 days of illness — longer in young or immunodeficient children. PCR can stay positive for up to 3 weeks.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Incubation period is 1-4 days (average 2 days) … Infectious period is from 24 hours prior to onset of symptoms for 4-7 days of illness. This can be prolonged in young children or those with immunodeficiency … PCR testing can remain positive for up to 3 weeks following an infection",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ebf64360fe875d72",
+     "n": 46,
+     "p": "Incubati"
+    },
+    {
+     "h": "af1971d26e766c92",
+     "n": 157,
+     "p": "Infectio"
+    },
+    {
+     "h": "bca6d8af82daafe0",
+     "n": 72,
+     "p": "PCR test"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Younger children** are less likely to have respiratory features and more likely to have febrile seizures, gastrointestinal features and severe disease.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Younger children may be less likely to have respiratory features more likely to have febrile seizures more likely to have gastrointestinal features more likely to have severe disease",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e6610664f236140d",
+     "n": 182,
+     "p": "Younger "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Severe features — consider treatment:** pneumonia · secondary bacterial infection (especially *S. aureus*, *S. pneumoniae*) · respiratory failure · neurological complications (encephalopathy/encephalitis, aseptic meningitis, Guillain-Barré, cerebellar ataxia) · rhabdomyolysis · myocarditis/pericarditis · Reye syndrome (aspirin).",
+   "claim": "⚠️ **Severe features — consider treatment:** pneumonia · secondary bacterial infection (especially *S. aureus*, *S. pneumoniae*) · respiratory failure · neurological complications (cerebellar ataxia, aseptic meningitis, encephalopathy/encephalitis, Guillain-Barré) · rhabdomyolysis · myocarditis/pericarditis · Reye syndrome (aspirin).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Clinical features of severe influenza, consider treatment (see flowchart) Pneumonia Secondary bacterial infection, especially S. aureus and S. pneumoniae Respiratory failure Neurological complications Encephalopathy/encephalitis Aseptic meningitis Guillain-Barré syndrome Cerebellar ataxia Rhabdomyolysis Myocarditis and pericarditis Reye syndrome (associated with aspirin use)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "146d1e1c4a107462",
+     "n": 377,
+     "p": "Clinical"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Risk factors — consider treatment:** severe chronic disease (neurological, respiratory, cardiac, haematological including sickle cell, hepatic, CKD, diabetes, obesity over 95th centile) · genetic syndromes such as trisomy 21 · neuromuscular disease · prematurity under 37/40 · immunosuppression · pregnancy · long-term aspirin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk factors for severe disease, consider treatment (see flowchart) Severe chronic disease, particularly: neurological, respiratory, cardiac, haematological (including sickle cell disease), hepatic, chronic kidney disease, diabetes, obesity >95th centile Genetic syndrome eg trisomy 21 Neuromuscular disease Premature infants <37/40 Immunosuppression Pregnancy On long term aspirin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1338db02b50a45f2",
+     "n": 381,
+     "p": "Risk fac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **In an unwell child, a positive influenza PCR does not exclude co-existing or secondary serious bacterial infection.**",
+   "claim": "⚠️ **A positive influenza PCR in an unwell child does not rule out a serious bacterial infection, whether co-existing or secondary.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In an unwell child, a positive PCR test for influenza does not exclude co-existing or secondary serious bacterial infection",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1b424ce9b4180eef",
+     "n": 123,
+     "p": "In an un"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Immunisation status does not change management** of suspected influenza.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immunisation status does not affect the management of children with suspected influenza",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e744f779ff81eebf",
+     "n": 87,
+     "p": "Immunisa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mild flu-like illness needs no test.** Test when the result will change management — e.g. cohorting inpatients, or directing therapy in high-risk children.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with a mild flu-like illness do not require testing to confirm the causative virus … Consider testing where confirmation is likely to influence treatment decisions (eg cohorting on inpatient ward, directing therapy in high-risk children)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "86c622ab7e25755e",
+     "n": 91,
+     "p": "Children"
+    },
+    {
+     "h": "24d8d8b88f096ec0",
+     "n": 152,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Supportive care** (hydration, analgesia, respiratory support); **isolate or cohort admitted children.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Supportive care as required eg hydration support, analgesia and respiratory support … Admitted children should be isolated (or cohorted, depending on local infection control procedure)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1698b4b56e5f418b",
+     "n": 83,
+     "p": "Supporti"
+    },
+    {
+     "h": "3442c5b1a9b5e5ef",
+     "n": 98,
+     "p": "Admitted"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Hospitalised children with risk factors or severe features: start oseltamivir empirically.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In hospitalised children with risk factors or features of severe disease, antiviral treatment (oseltamivir) should be commenced empirically",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6d51758a41f7f68",
+     "n": 139,
+     "p": "In hospi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Oseltamivir is usually first line, oral or nasogastric.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oseltamivir is usually first line therapy (oral or nasogastric)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "45e7b3e2c4953a98",
+     "n": 63,
+     "p": "Oseltami"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Benefit is modest** — about 1 day shorter illness on average, and it may prevent severe disease. **Most effective started within 48 hours**; some benefit up to 7 days. Neuraminidase inhibitors do nothing for other viruses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treatment may have a modest effect in terms of reducing duration of symptoms (1 day on average) and may prevent more severe disease … Treatment is most effective if started within 48 hours of onset of illness for significant illness or higher risk children … There may be some clinical benefit up to 7 days … Neuraminidase inhibitors have no role in treating other viral infections",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "382866c7e2f073cb",
+     "n": 131,
+     "p": "Treatmen"
+    },
+    {
+     "h": "e0dce298d5a0f558",
+     "n": 122,
+     "p": "Treatmen"
+    },
+    {
+     "h": "271391dbe6c70858",
+     "n": 47,
+     "p": "There ma"
+    },
+    {
+     "h": "99f7f652edfc2e84",
+     "n": 72,
+     "p": "Neuramin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Oseltamivir comes as 30, 45 or 75 mg capsules or a 6 mg/mL suspension**; capsule contents can be dissolved in water for immediate use.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oseltamivir Oral capsule 30 mg, 45 mg, 75 mg or oral suspension 6 mg/mL … Capsule contents may be dissolved in water (for use immediately)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cb0cf162a664d5a",
+     "n": 71,
+     "p": "Oseltami"
+    },
+    {
+     "h": "daaf71751731a0c3",
+     "n": 64,
+     "p": "Capsule "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Side effects:** headache; nausea and vomiting — give with food; vomiting is twice as likely (4–8% of unwell children). **Seek advice in renal impairment.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Side effects headache nausea and vomiting (reduce by giving with food), twice as likely to have vomiting (4-8% of unwell children) Seek advice for use in renal impairment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54b5181a387f32af",
+     "n": 170,
+     "p": "Side eff"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Oseltamivir treatment, oral bd — preterm and infants:** under 38 weeks PMA 1 mg/kg/dose · 38–40 weeks PMA 1.5 mg/kg/dose · term birth to 12 months 3 mg/kg/dose; 5 days.",
+   "claim": "**Oseltamivir treatment, oral bd for 5 days — preterm and infants:** PMA under 38 weeks: 1 mg/kg per dose · PMA 38–40 weeks: 1.5 mg/kg per dose · term birth to 12 months: 3 mg/kg per dose.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oseltamivir dosage Weight Oral Doses Duration Treatment Preterm <38 weeks post menstrual age (PMA) 1 mg/kg/dose bd 5 days Preterm 38-40 weeks PMA 1.5 mg/kg/dose bd Birth (term)-12 months 3 mg/kg/dose bd",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69f667fd7ca87f89",
+     "n": 202,
+     "p": "Oseltami"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Oseltamivir treatment, 1–18 years, oral bd for 5 days:** under 15 kg 30 mg · 15–23 kg 45 mg · 23–40 kg 60 mg · over 40 kg 75 mg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "1-18 years <15 kg 30 mg bd 5 days 15-23 kg 45 mg bd 23-40 kg 60 mg bd >40 kg 75 mg bd",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3acea4e46d3770c",
+     "n": 85,
+     "p": "1-18 yea"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Peramivir (IV):** specialist advice, inpatients only, over 2 years, when the enteral route is not appropriate.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Peramivir Seek specialist advice, for inpatient use only Only in children over 2 years IV preparation: used when enteral route not appropriate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c56540af2c2560e3",
+     "n": 142,
+     "p": "Peramivi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**After significant exposure** (within 1 metre for over 15 minutes without PPE), **oseltamivir prophylaxis is recommended** for children and family members with personal risk factors, household contacts with risk factors, household contacts aged 65 or over, or pregnant or up to 2 weeks post-partum.",
+   "claim": "**After significant exposure** (within 1 metre for over 15 minutes without PPE), **give oseltamivir prophylaxis** to children and family members who have personal risk factors, household contacts with risk factors, household contacts aged 65 or over, or pregnant or up to 2 weeks post-partum.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "After significant exposure (within 1 metre for >15 minutes without personal protective equipment), oseltamivir prophylaxis is recommended for children and family members if personal risk factors household contacts have risk factors household contacts are: aged ≥65 years women who are pregnant or within 2 weeks after delivery",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82d9aa392cb104cf",
+     "n": 326,
+     "p": "After si"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Oseltamivir prophylaxis, oral once daily for 10 days:** term birth to 12 months 3 mg/kg/dose; 1–18 years under 15 kg 30 mg · 15–23 kg 45 mg · 23–40 kg 60 mg · over 40 kg 75 mg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prophylaxis Birth (term)-12 months 3 mg/kg/dose daily 10 days 1-18 years <15 kg 30 mg daily 15-23 kg 45 mg daily 23-40 kg 60 mg daily >40 kg 75 mg daily 10 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33f38629c09c997b",
+     "n": 160,
+     "p": "Prophyla"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Involve the paediatric team** for suspected influenza with risk factors for severe disease; **consider transfer** for severe disease or care beyond the local hospital.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Child has suspected influenza and risk factors for severe disease … Consider transfer when Child requiring care beyond the comfort level of the local hospital Child has severe disease",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de7781bc7d683463",
+     "n": 119,
+     "p": "Consider"
+    },
+    {
+     "h": "e54f5323915a295d",
+     "n": 115,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge a well child** once carers have been taught to watch for complications; consider community follow-up (community nursing, hospital in the home, virtual ED or GP).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Child is well and education to parent/carers has been provided to parents/carers regarding monitoring for complications … Consider referral to community follow-up services for early clinical review as appropriate for your local region, ie community nursing, hospital in the home, virtual emergency department, or general practice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "215b8e26743ab143",
+     "n": 143,
+     "p": "Consider"
+    },
+    {
+     "h": "58adc043f8e27eb8",
+     "n": 207,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Vaccination is the best prevention:** annual, strongly recommended and funded for children 6 months to under 5 years, Aboriginal and Torres Strait Islander children, children with risk factors, and pregnant women. Hand and respiratory hygiene also reduce spread.",
+   "claim": "**Vaccination is the best prevention:** yearly; funded and strongly recommended for children from 6 months to under 5 years, Aboriginal and Torres Strait Islander children, children with risk factors, and pregnant women. Hand and respiratory hygiene also reduce spread.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Influenza vaccine The best available preventative measure against influenza Recommended for all people aged >6 months annually Strongly recommended and funded for children ≥6 months and <5 years Strongly recommended and funded for all children with Aboriginal or Torres Strait Islander background, children with risk factors for severe influenza and pregnant women … Hand and respiratory hygiene (eg covering the mouth when coughing) reduces transmission",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "539d0dccdff94ff2",
+     "n": 364,
+     "p": "Influenz"
+    },
+    {
+     "h": "411b9672be365696",
+     "n": 87,
+     "p": "Hand and"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Influenza' (Last updated January 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Influenza/, retrieved 2026-09-23"
   }
  ]

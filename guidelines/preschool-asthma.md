@@ -1,9 +1,9 @@
 # Preschool asthma (1–5 years)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** diagnosis and maintenance management of asthma in children aged 1–5 years. Acute exacerbations: `acute-asthma-children`. Adult and adolescent counterpart: `asthma` (12 years and over). School age: `asthma-primary-school-children`.
 
-> ✅ **OPEN AND QUOTED.** 23 of 23 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Preschool asthma (1-5 years)*** (Last updated June 2023); **30 fragments re-checked by machine. 4 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 23 of 23 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Preschool asthma (1-5 years)*** (Last updated June 2023); **30 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > **Most preschool wheeze is infrequent, viral and needs no preventer.** When one is needed, **low-dose ICS via spacer is first line**; ⚠️ **no prednisolone outside ED or hospital.**
 
@@ -11,11 +11,11 @@
 
 ## Recognise it
 
-- **Preschool asthma = age 1–5 with recurrent wheeze, cough or difficulty breathing/activity limitation, all responding to SABA.** [S1]
+- **Preschool asthma = age 1–5 with recurrent cough, wheeze or difficulty breathing/activity limitation, each of which responds to SABA.** [S1]
 - **Most preschool children have infrequent mild viral wheeze** (over 6 weeks between episodes) **and do not need a preventer.** [S1]
 - **Wheeze under 1 year is most likely bronchiolitis.** [S1]
 - **Do not sub-type preschool wheeze** — 'viral-induced episodic' and 'multi-trigger' wheeze perform poorly and should not be used. [S1]
-- **Only half of children who wheeze in the preschool years will have asthma at school age.** [S1]
+- **Of children who wheeze as preschoolers, only half will still have asthma by school age.** [S1]
 - **A therapeutic trial of SABA or ICS may be needed to diagnose it**; ideally a health professional observes and documents the response to SABA. [S1]
 - **No routine investigations: no chest X-ray; lung function tests cannot be used at this age.** [S1]
 - **On ICS, measure height and weight at least annually, ideally every 3–6 months.** [S1]
@@ -23,11 +23,11 @@
 ## Reliever and device
 
 - **MDI with spacer and facemask** until coordinated enough for the mouthpiece (often around 4 years). [S1]
-- **Every child gets SABA with a spacer: salbutamol 100 mcg MDI, up to 6 puffs** via spacer ± mask. [S1]
+- **Every child gets SABA with a spacer: salbutamol 100 mcg MDI, a maximum of 6 puffs**, spacer ± mask. [S1]
 
 ## Preventer
 
-- **Start a preventer for:** daytime symptoms 2 or more times a week · night-time symptoms 2 or more times a month · 2 or more hospital presentations in a year · 4 or more exacerbations a year. [S1]
+- **Start a preventer for:** daytime symptoms at least 2 times weekly · night-time symptoms at least 2 times monthly · 2 or more hospital presentations in a year · 4 or more exacerbations a year. [S1]
 - **First line: low-dose ICS — fluticasone propionate 50 mcg, 1 puff twice daily.** [S1]
 - **Montelukast is an alternative first line or an ICS add-on: 4 mg once daily (5 mg if over 5 years)** — useful when parents worry about steroids or MDI + spacer is very difficult. [S1]
 - ⚠️ **1 in 6 children on montelukast get agitation, sleep disturbance or mood change — stop it and see if they resolve.** [S1]
@@ -57,12 +57,12 @@
 | 2 | **Two review intervals on one page:** 8–12 weeks after the initial prescription, and 6–12 weeks in the step-up/down section. Both are quoted as written. | `observation` |
 | 3 | **Steroid tension with `acute-asthma-children`:** this page bars prednisolone outside ED/hospital for preschool asthma; the RCH *Acute asthma* page's key points advise early steroids in moderate asthma while its flowchart says avoid them at 1–5 years. See that guideline's unresolved item. | `observation` |
 | 4 | **The source spells it 'fluticasone proprionate'**; quoted as written, restated as fluticasone propionate. | `observation` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Preschool asthma (1-5 years)*. Last updated June 2023. https://www.rch.org.au/clinicalguide/guideline_index/Preschool_asthma_(1-5_years)/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Preschool asthma (1-5 years)*. Last updated June 2023. https://www.rch.org.au/clinicalguide/guideline_index/Preschool_asthma_(1-5_years)/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

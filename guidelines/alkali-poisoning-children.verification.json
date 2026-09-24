@@ -1,89 +1,155 @@
 {
  "guideline": "guidelines/alkali-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Alkalis poisoning' (undated page), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Alkalis poisoning' (undated page), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 10,
-  "pass": 10,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
    "claim": "**Alkalis include** drain and oven cleaners, automatic dishwashing liquids and powders, laundry detergents, ammonia and Portland cement.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Alkalis include: Drain cleaners, Oven cleaners Automatic dish washing liquids & powders Laundry detergents, Ammonia Portland cement",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ceb2a1356f78036",
+     "n": 131,
+     "p": "Alkalis "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **pH over 11.5 is likely to cause significant GI ulceration.**",
+   "claim": "⚠️ **Significant GI ulceration is likely once the pH is above 11.5.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "pH of >11.5 is likely to cause significant GI ulceration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15d1ba7dca4c101a",
+     "n": 56,
+     "p": "pH of >1"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Get the container** to check contents and strength. Corrosive potential varies with concentration and preparation: **liquids are more likely than powders to burn the oesophagus.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Attempt to obtain container to check contents and strength of substance. … Corrosive potential varies with concentration of specific ingredients and preparations, ie liquid preparations are more likely to cause oesophageal burns than powders.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5f59964c02ae38e",
+     "n": 72,
+     "p": "Attempt "
+    },
+    {
+     "h": "13a84878ca1d7ba1",
+     "n": 167,
+     "p": "Corrosiv"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Check the product with the Poisons Information Centre** to establish whether it is weak, strong, irritant or corrosive.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Check preparations with Poisons Information Centre to determine whether ingested substance is weak, strong, irritant or corrosive in nature.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba80cda70b257673",
+     "n": 140,
+     "p": "Check pr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Exposure can severely burn the GI tract, especially the oesophagus.** **No mouth or pharyngeal ulcers does not rule out gastro-oesophageal lesions.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Exposure may lead to severe burns of GIT, especially oesophagus Absence of mouth or pharyngeal ulcers does not preclude gastro-oesophageal lesions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5bc0d05a8f102d5",
+     "n": 146,
+     "p": "Exposure"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Symptoms may be minimal:** pain · nausea and vomiting · drooling or refusing to eat and drink · ⚠️ stridor or respiratory distress.",
+   "claim": "**Symptoms may be minimal:** pain · nausea and vomiting · drooling, or refusal of food and drink · ⚠️ stridor or respiratory distress.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms: May be minimal Pain Nausea & vomiting, drooling or refusing to eat and drink Stridor, respiratory distress",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "78a386de394ed7c6",
+     "n": 116,
+     "p": "Symptoms"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Activated charcoal is contraindicated.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Activated charcoal is contraindicated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c12fb7caa293f408",
+     "n": 37,
+     "p": "Activate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Asymptomatic: fluid dilution with water 10 mL/kg, max 250 mL.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If asymptomatic treat with fluid dilution: 10 ml/kg of water (max 250 ml)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf7dc847089680e4",
+     "n": 73,
+     "p": "If asymp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Discharge** if still asymptomatic after 4 hours and able to eat and drink.",
+   "claim": "**Discharge** once 4 hours have passed with no symptoms and the child can eat and drink.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If asymptomatic after 4 hours and able to eat and drink the patient can be safely discharged",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6f77e3d301f96f0",
+     "n": 92,
+     "p": "If asymp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Any symptoms: contact the surgical registrar and admit for oesophagoscopy.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If any symptoms, contact surgical registrar, & admit for oesophagoscopy.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33cd9eb1ab684ae4",
+     "n": 72,
+     "p": "If any s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Alkalis poisoning' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/, retrieved 2026-09-23"
   }
  ]

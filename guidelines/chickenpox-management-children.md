@@ -1,9 +1,9 @@
 # Chickenpox (varicella) in children — clinical management
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** clinical management of chickenpox in children: who needs aciclovir, contacts, neonatal exposure and zoster immunoglobulin (VZIG). Vaccination is covered separately in `varicella` (Australian Immunisation Handbook); see also `herpes-zoster-vaccination`. Bacterial superinfection: `cellulitis-and-skin-infections-children`.
 
-> ✅ **OPEN AND QUOTED.** 26 of 26 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Chickenpox (varicella)*** (Last Updated July 2021); **40 fragments re-checked by machine. 7 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 26 of 26 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Chickenpox (varicella)*** (Last Updated July 2021); **40 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Page last updated July 2021.** Its vaccine-schedule statement is out of date — see *Unresolved*.
 
@@ -17,8 +17,8 @@
 - **Short prodrome** (fever, lethargy, anorexia), then rash over 3–5 days: **crops of papules → vesicles → crusts**, usually fully crusted by 10 days. [S1]
 - **Surrounding erythema is normal**, especially as lesions crust — **cellulitis tends to be over-diagnosed.** [S1]
 - **Vaccinated children can still get chickenpox, but it is typically mild**; the vaccine itself may cause a rash 1–3 weeks later. [S1]
-- ⚠️ **Complications:** bacterial superinfection (especially GAS and *S. aureus*), pneumonia, encephalitis, hepatitis, arthritis, Reye syndrome — **more common in premature neonates, neonates exposed before 7 days of age, unimmunised adolescents and the immunocompromised.** [S1]
-- ⚠️ **At risk of complications:** malignancy · chemotherapy or high-dose steroids (over 20 mg/day prednisolone equivalent for 2 weeks) · immunodeficiency. [S1]
+- ⚠️ **Complications:** bacterial superinfection (especially *S. aureus* and GAS), encephalitis, pneumonia, arthritis, hepatitis, Reye syndrome — **more common in premature neonates, in neonates exposed when under 7 days old, in unimmunised adolescents and in the immunocompromised.** [S1]
+- ⚠️ **At risk of complications:** malignancy · chemotherapy or high-dose steroids (prednisolone-equivalent over 20 mg/day for 2 weeks) · immunodeficiency. [S1]
 - **Infectious from 2 days before the rash until the vesicles crust.** Exposed children are potentially infectious from day 8 to 21 after exposure (8–28 if they received VZIG). [S1]
 - **Clinical diagnosis — no routine investigations.** In neonates or immunocompromised children a vesicle swab for VZV PCR may help. [S1]
 
@@ -41,7 +41,7 @@
 ## Neonates
 
 - ⚠️ **Term neonate under 1 week with a chickenpox-like rash: investigate and treat with IV aciclovir.** Any exposed neonate who becomes unwell starts IV aciclovir, **whether or not VZIG was given.** [S1]
-- ⚠️ **VZIG for an infant whose mother develops chickenpox from 7 days before to 2 days after delivery.** Maternal chickenpox, **born before 28 weeks** (no antibody transfer): VZIG. **Born after 28 weeks:** observe if maternal antibody present, VZIG if absent. [S1]
+- ⚠️ **VZIG for an infant whose mother's chickenpox starts in the window 7 days pre-delivery to 2 days post-delivery.** Maternal chickenpox, **born before 28 weeks** (no antibody transfer): VZIG. **Born after 28 weeks:** observe if maternal antibody present, VZIG if absent. [S1]
 - **Exposure under 1 week of age:** from the mother — assume no maternal antibody, give VZIG; from someone else — observe if maternal antibody present, VZIG if absent. **If maternal serology is unknown, assume antibodies absent.** [S1]
 - **Isolate an exposed hospitalised neonate for the first 21 days of life** (28 if VZIG given); exclude possibly exposed visitors from the nursery during days 8–21. [S1]
 - **Maternal varicella does not prevent breastfeeding**; cover any breast lesions with gauze and an occlusive dressing. [S1]
@@ -59,16 +59,16 @@
 | # | Item | Class |
 |---|---|---|
 | 1 | **Page last updated July 2021** — older than the rest of this RCH series; recheck against the live page before clinical use. | `time_sensitive` |
-| 2 | ⚠️ **Contradicts the Immunisation Handbook on the schedule:** this page says the NIP 'currently includes a single dose of a varicella-containing vaccine (MMR-V) at 18 months'; `varicella` (Handbook) says **all children under 14 should have 2 doses**, the first at 18 months as MMRV. Follow the Handbook for the schedule; the RCH statement is not quoted as a claim here. | `observation` |
+| 2 | ⚠️ **Contradicts the Immunisation Handbook on the schedule:** this page says the NIP gives only one varicella-containing dose (MMR-V), at 18 months of age; `varicella` (Handbook) says **all children under 14 should have 2 doses**, the first at 18 months as MMRV. Follow the Handbook for the schedule; the RCH statement is not quoted as a claim here. | `observation` |
 | 3 | **No aciclovir dose is on this page.** `empiric-antimicrobials-children` carries IV aciclovir only for encephalitis (500 mg/m² 8-hourly, 3 months–12 years; 10 mg/kg 8-hourly over 12 years); no oral aciclovir dose for varicella exists in this compendium. | `observation` |
 | 4 | **Fills a gap in `varicella`:** that guideline lists VZIG dose and window as not extracted; they are quoted here. Both agree on post-exposure vaccination within 5 days. | `observation` |
 | 5 | **Rash photographs** on the page are images and were not captured. | `input_unavailable` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Chickenpox (varicella)*. Last Updated July 2021. https://www.rch.org.au/clinicalguide/guideline_index/Chickenpox_varicella/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Chickenpox (varicella)*. Last Updated July 2021. https://www.rch.org.au/clinicalguide/guideline_index/Chickenpox_varicella/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

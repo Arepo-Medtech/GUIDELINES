@@ -1,191 +1,361 @@
 {
  "guideline": "guidelines/local-anaesthetic-toxicity-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Local anaesthetic poisoning' (Last Updated October 2018), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Local anaesthetic poisoning' (Last Updated October 2018), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 24,
-  "pass": 24,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
    "claim": "⚠️ **Onset is usually rapid, with potentially fatal neurological and cardiovascular effects** — but toxicity can appear later after oral or topical use.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Onset of local anaesthetic toxicity is usually rapid, with serious and potentially fatal neurological and cardiovascular manifestations. However symptoms and signs of toxicity can occur after a longer period of time following oral or topical administration.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61cc2fcf7235a86c",
+     "n": 257,
+     "p": "Onset of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Management is largely supportive, with IV lipid emulsion in severe cases.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Management of local anaesthetic toxicity is largely supportive, with the use of intravenous lipid emulsion in severe cases.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cf46dcf288a150e",
+     "n": 123,
+     "p": "Manageme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Methaemoglobinaemia** is more likely with benzocaine, lignocaine or prilocaine; it is **not dose-related and is more likely in children, including after topical use.**",
+   "claim": "⚠️ **Methaemoglobinaemia** is more likely with benzocaine, lignocaine or prilocaine; it **does not depend on dose, and children are more prone to it, even after topical use.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Methaemoglobinaemia can occur and is more likely caused by the administration of benzocaine, lignocaine (lidocaine) or prilocaine. It is not dose-related and is more likely to occur in children, including following topical administration.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ea014ccb22b6cc6",
+     "n": 238,
+     "p": "Methaemo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Allergic reactions including anaphylaxis are possible** — treat along conventional lines.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Allergic reactions including anaphylaxis are also possible and should be treated along conventional lines - see Anaphylaxis.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4b857d1264f6e5e",
+     "n": 124,
+     "p": "Allergic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Usually therapeutic error.** ⚠️ **Fatalities are reported after ingesting lignocaine-containing local and topical preparations**, despite first-pass metabolism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Local anaesthetic toxicity generally occurs as a result of therapeutic error. … Although there is extensive first-pass metabolism, there are reported fatalities following the ingestion of lignocaine-containing local and topical preparations.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28c35edec5ce283c",
+     "n": 77,
+     "p": "Local an"
+    },
+    {
+     "h": "058f4274ca236fb4",
+     "n": 161,
+     "p": "Although"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most agents have a 2-hour elimination half-life; bupivacaine's is 5 hours or longer.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most agents have elimination half-lives of 2 hours, but bupivacaine has a longer elimination half-life (5 hours or longer).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd845b06cdb0b273",
+     "n": 123,
+     "p": "Most age"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Maximum recommended doses (mg/kg):** bupivacaine 1–2.5 · lignocaine 4–5 · mepivacaine 4–5 · prilocaine 5–7 · ropivacaine 2.5–3. ⚠️ **Toxicity can occur below these after IV or intra-arterial injection**; larger doses can be given with adrenaline. **Bupivacaine is particularly cardiotoxic.**",
+   "claim": "**Maximum recommended doses (mg/kg):** ropivacaine 2.5–3 · bupivacaine 1–2.5 · prilocaine 5–7 · lignocaine 4–5 · mepivacaine 4–5. ⚠️ **Toxicity can occur below these after IV or intra-arterial injection**; larger doses can be given with adrenaline. **Bupivacaine is particularly cardiotoxic.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Local anaesthetic Maximum dose (mg/kg) Bupivocaine 1 – 2.5 Lignocaine / lidocaine 4 – 5 Mepivacaine 4 – 5 Prilocaine 5 – 7 Ropivacaine 2.5 - 3 Bupivocaine is particularly cardiotoxic. … Please note that toxicity can still occur with doses lower than these when given via intravenous or intra-arterial injection. Larger doses can safely be given with adrenaline.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2fe75755ff0d2282",
+     "n": 183,
+     "p": "Local an"
+    },
+    {
+     "h": "cbcf7999440bd83b",
+     "n": 175,
+     "p": "Please n"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Assess:** any deliberate self-poisoning, significant accidental overdose, or inadvertent venous or arterial injection · any symptomatic patient.",
+   "claim": "**Assess:** any symptomatic patient · any deliberate self-poisoning · a significant accidental overdose · accidental injection into a vein or artery.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All patients with deliberate self-poisoning (uncommon) or significant accidental overdose or inadvertent venous or arterial injection. Any symptomatic patient",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b256ad7ece666fdc",
+     "n": 158,
+     "p": "All pati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Early features:** tinnitus, difficulty focusing, dizziness, anxiety, agitation, confusion, drowsiness, perioral or tongue numbness, metallic taste.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Early clinical features include: Tinnitus Difficulty with visual focus Dizziness or lightheadedness Anxiety, agitation, confusion, disorientation, drowsiness Perioral and/or tongue numbness Metallic taste",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8d73cf31224ff25",
+     "n": 204,
+     "p": "Early cl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Severe:** seizures, coma · bradycardia, hypotension, dysrhythmias, conduction block, collapse, asystole · respiratory depression, apnoea. **Cardiac arrest may be the first sign after massive IV overdose.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "More severe toxicity manifests by: CNS: seizures, coma Cardiovascular: bradycardia, hypotension, atrial and ventricular dysrhythmias, conduction blocks, cardiovascular collapse, asystole Respiratory: respiratory depression, apnoea. … Cardiac arrest may be the first clinical manifestation following massive intravenous overdose.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f63b2bc87c106dd",
+     "n": 231,
+     "p": "More sev"
+    },
+    {
+     "h": "6cae9ebb19e8dd9a",
+     "n": 94,
+     "p": "Cardiac "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Investigate:** UEC, arterial blood gas, methaemoglobin; **serial ECGs for sodium channel blockade** (prolonged PR and QRS, large terminal R in aVR).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "UEC, arterial blood gas, methaemoglobin concentration Serial ECGs looking for evidence of sodium channel blockade (prolonged PR and QRS intervals, large terminal R wave in aVR)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f98d309d8cf8e90a",
+     "n": 176,
+     "p": "UEC, art"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Immediately stop the local anaesthetic and call for help.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immediately cease administration of the local anaesthetic Call for help",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a7ae9a26e787436f",
+     "n": 71,
+     "p": "Immediat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Any cardiotoxicity: intubate and ventilate immediately** to prevent hypoxaemia, hypercarbia and acidosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If there is evidence of cardiotoxicity, immediate intubation and ventilation is necessary to prevent hypoxaemia, hypercarbia and acidosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c824c2bd863e78a",
+     "n": 137,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Ventricular dysrhythmias: sodium bicarbonate 1–2 mmol/kg (max 100 mmol) IV every 1–2 minutes until a perfusing rhythm**; amiodarone can be used. **AVOID calcium channel blockers, beta blockers and local anaesthetics.**",
+   "claim": "⚠️ **Ventricular dysrhythmias: IV sodium bicarbonate 1–2 mmol/kg (max 100 mmol), repeated every 1–2 minutes until there is a perfusing rhythm**; amiodarone can be used. **AVOID calcium channel blockers, beta blockers and local anaesthetics.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat ventricular dysrhythmias with sodium bicarbonate (1–2 mmol/kg up to 100 mmol) IV every 1-2 minutes until perfusing rhythm; can use amiodarone; AVOID calcium channel blockers, beta blockers, local anaesthetics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b9b7964ab894d484",
+     "n": 214,
+     "p": "Treat ve"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Seizures: benzodiazepines. Hypotension: normal saline 20 mL/kg IV, then inotropes if needed; AVOID vasopressin.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat seizures with benzodiazepines Treat hypotension with intravenous normal saline 20 mL/kg followed by inotropes if required; AVOID vasopressin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c60f11c57513c99",
+     "n": 146,
+     "p": "Treat se"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Recovery from local-anaesthetic cardiac arrest may take over 1 hour.** Decontamination is not indicated; enhanced elimination is not useful.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Recovery from local-anaesthetic induced cardiac arrest may take > 1hr Decontamination Not indicated Enhanced elimination Not useful",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc58efa70c94fea6",
+     "n": 131,
+     "p": "Recovery"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Methaemoglobinaemia: methylene blue 1–2 mg/kg IV over 5 minutes.**",
+   "claim": "**Methaemoglobinaemia: IV methylene blue 1–2 mg/kg, given over 5 minutes.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Methylene blue for methaemoglobinaemia: 1 - 2 mg/kg IV over 5 minutes.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c8e0507f0b935bf",
+     "n": 70,
+     "p": "Methylen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Lipid emulsion (intralipid 20%) for severe cardiovascular toxicity or cardiac arrest.** Caution with egg yolk, soya or peanut protein hypersensitivity.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intravenous lipid emulsion (intralipid 20%) in severe cardiovascular toxicity or cardiac arrest. Precautions - hypersensitivity to egg yolk, soya or peanut protein",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6bb2b3add0a3ff46",
+     "n": 163,
+     "p": "Intraven"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **20% lipid emulsion: bolus 1.5 mL/kg IV over 1 minute, then infuse 0.25 mL/kg/minute.**",
+   "claim": "⚠️ **20% lipid emulsion: 1.5 mL/kg IV bolus across 1 minute, followed by an infusion of 0.25 mL/kg/minute.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Administration of lipid emulsion therapy with 20% lipid emulsion Bolus 1.5 mL/kg IV over 1 minute Continuous infusion 0.25 mL/kg/minute",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b4553986d02e1ee",
+     "n": 135,
+     "p": "Administ"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **After 5 minutes, if collapse persists or worsens: up to 2 repeat boluses (at least 5 minutes apart) and double the infusion to 0.5 mL/kg/minute.** Continue until circulation is stable or the **max cumulative 12 mL/kg** is reached.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Wait 5 Minutes, then Give a maximum of 2 repeat boluses for persistent cardiovascular collapse or deterioration (at least 5 minutes between boluses), AND Double infusion to 0.5 mL/kg/minute Continue infusion until stable and adequate circulation or maximum dose of lipid emulsion has been given (maximum cumulative dose is 12 mL/kg)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e0f7ed013b982ae",
+     "n": 332,
+     "p": "Wait 5 M"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Lipid emulsion adverse events:** allergy and anaphylaxis, laboratory interference, pancreatitis (rare), VTE (rare), pulmonary hypertension, acute lung injury, haematuria, hypertriglyceridaemia, ECMO circuit obstruction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Adverse events reported after lipid emulsion infusion: Allergy and anaphylaxis Interference with laboratory testing Pancreatitis (rare) Venous thromboembolism (rare) Pulmonary hypertension Acute lung injury Haematuria hypertriglyceridemia ECMO circuit obstruction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "67afd66c7c4fcd76",
+     "n": 263,
+     "p": "Adverse "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Lignocaine teething gel or other topical ingestion: hospital assessment if over 6 mg/kg or any symptoms.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children who have ingested lignocaine-containing teething gels and other topical preparations require hospital assessment if >6 mg/kg or there are symptoms.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "86e01e41610babab",
+     "n": 156,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ongoing care in a high-dependency or intensive care setting; consider tertiary transfer for any patient with local anaesthetic toxicity.** PIPER: 1300 137 650.",
+   "claim": "**Continue care in intensive care or high dependency; consider tertiary transfer for any patient with local anaesthetic toxicity.** PIPER: 1300 137 650.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ongoing care should be in a high-dependency or intensive care setting. … Consider transfer to a tertiary centre when Any patient with local anaesthetic toxicity … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2e3e9ea5333a0e61",
+     "n": 70,
+     "p": "Ongoing "
+    },
+    {
+     "h": "fa5c89aebfc1a152",
+     "n": 87,
+     "p": "Consider"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for every intentional overdose.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all children and young people with an intentional overdose.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4cf486005ff6a4a9",
+     "n": 94,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Local anaesthetic poisoning' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/, retrieved 2026-09-23"
   }
  ]

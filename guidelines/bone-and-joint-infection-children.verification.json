@@ -1,197 +1,428 @@
 {
  "guideline": "guidelines/bone-and-joint-infection-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Bone and joint infection' (Last updated August 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Bone and joint infection' (Last updated August 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 25,
-  "pass": 25,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 25
  },
  "claims": [
   {
    "claim": "**Suspect osteomyelitis or septic arthritis in any child with fever, pain and limited use of a limb or joint.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Osteomyelitis and septic arthritis should be suspected in any child presenting with fever, pain and limited use of the affected limb or joint",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28e4235c24a18115",
+     "n": 141,
+     "p": "Osteomye"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Always consider alternatives:** trauma, non-accidental injury, inflammatory conditions and malignancy.",
+   "claim": "**Always consider alternatives:** malignancy, inflammatory conditions, trauma and non-accidental injury.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Always consider alternate diagnoses such as trauma, non-accidental injury, inflammatory conditions and malignancy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea81f7d8f6e44f41",
+     "n": 113,
+     "p": "Always c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
-   "claim": "***S. aureus* is the commonest cause.** Consider others by age (group B streptococci in neonates, *Kingella kingae* from 6 months to 4 years), immunisation status (*Haemophilus influenzae*) and underlying illness (*Salmonella* in sickle-cell disease).",
+   "claim": "***S. aureus* is the commonest cause.** Consider others by age (group B streptococci in neonates, *Kingella kingae* at 6 months–4 years), by immunisation status (*Haemophilus influenzae*) and underlying illness (*Salmonella* in sickle-cell disease).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Staphylococcus aureus is the commonest cause, though other organisms should be considered based on age (eg Group B streptococci in neonates, Kingella Kingae in 6 months to 4 years), immunisation status (Haemophilus influenzae) and underlying illness (eg Salmonella in children with sickle-cell disease).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "81064ace4cfb9875",
+     "n": 303,
+     "p": "Staphylo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider MRSA at all ages.** *Pseudomonas aeruginosa* after a penetrating foot injury; *Neisseria gonorrhoeae* in sexually active adolescents.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Staphylococcus aureus All ages. Consider risk of MRSA … Pseudomonas aeruginosa Penetrating foot injury … Neisseria gonorrhoeae Sexually active adolescents",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb480ef514894941",
+     "n": 53,
+     "p": "Staphylo"
+    },
+    {
+     "h": "0af949b33375e3d1",
+     "n": 46,
+     "p": "Pseudomo"
+    },
+    {
+     "h": "041a4b07befc4e68",
+     "n": 49,
+     "p": "Neisseri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Sites:** septic arthritis most often hip or knee; osteomyelitis most often femur, tibia, pelvis and humerus — but any joint or bone.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Septic arthritis: most commonly hip or knee but could be any synovial joint … Osteomyelitis: most commonly femur or tibia, pelvis and humerus but can be any bone",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7af2612b96c54a74",
+     "n": 75,
+     "p": "Septic a"
+    },
+    {
+     "h": "87b7a914e5dd212e",
+     "n": 83,
+     "p": "Osteomye"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Fever may be absent, especially in infants.** Symptoms may be wrongly blamed on a minor fall; infants may show only irritability when picked up or changed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fever – may not be present, particularly in infants … History of trauma or fall – symptoms may be incorrectly attributed to minor injury … Irritability in infants – eg when picked up or nappy changed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b8a04623be5289e",
+     "n": 51,
+     "p": "Fever - "
+    },
+    {
+     "h": "9758bc72b7e927a7",
+     "n": 82,
+     "p": "History "
+    },
+    {
+     "h": "77354c0ea4b68e39",
+     "n": 60,
+     "p": "Irritabi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Higher risk of severe or disseminated infection:** immunocompromise, neonates, and delayed presentation or diagnosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk factors for development of a severe or disseminated infection include: Immunocompromised child Neonate Delayed presentation Delayed diagnosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c2c857833891785c",
+     "n": 146,
+     "p": "Risk fac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Look, feel, move — and don't forget the spine.** Look for resting limb position (e.g. hip flexed, abducted, externally rotated), swelling, erythema, and wounds or skin infection as a source.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Look for resting limb position (eg hip flexed, abducted and externally rotated), swelling and erythema, open wounds or soft tissue infection (potential source) … Don’t forget the spine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87e45f3d2f6ff1ec",
+     "n": 159,
+     "p": "Look for"
+    },
+    {
+     "h": "eb530812ec17fe20",
+     "n": 22,
+     "p": "Don't fo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discitis** typically affects pre-school children and the lumbar spine; it needs a high index of suspicion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Discitis is inflammation/infection of an intervertebral disc, typically occurring in pre-school aged children and most often affecting the lumbar spine. Diagnosis requires a high index of suspicion.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec37d4e91b3e9bff",
+     "n": 198,
+     "p": "Discitis"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
-   "claim": "**A well, afebrile child who is walking or using the limb comfortably may need no tests** — a clear working diagnosis and early follow-up usually suffice.",
+   "claim": "**A well, afebrile child who is walking or using the limb comfortably may need no tests** — usually enough: an evident working diagnosis plus early review.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Investigations may not be necessary for a child who is systemically well, afebrile and is walking or using the affected limb without significant discomfort – a clear working diagnosis and early follow-up is usually sufficient",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3acca176a3e21c54",
+     "n": 225,
+     "p": "Investig"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Systemic illness with significant bone or joint pain and limited movement needs urgent investigation and orthopaedic discussion.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Any child with systemic illness, significant bone or joint pain and limitation of movement requires urgent investigation and discussion with an orthopaedic team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ffeed1465e9a3255",
+     "n": 160,
+     "p": "Any chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**No blood test is specific.** Inflammatory markers may be normal early, in chronic infection or in small bones of hands and feet; they help monitor treatment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "No laboratory test, or combination thereof, is specific for a diagnosis of bone or joint infection … Inflammatory markers may be normal, especially early, in chronic infection, or for infection of the small bones (eg hand, feet) … They may also be used to monitor effectiveness of treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e2b829398d3af4b",
+     "n": 98,
+     "p": "No labor"
+    },
+    {
+     "h": "d2a9182b1c43698f",
+     "n": 127,
+     "p": "Inflamma"
+    },
+    {
+     "h": "98e2464f5914099d",
+     "n": 59,
+     "p": "They may"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Blood cultures before antibiotics if possible**; a blood film helps exclude malignancy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Blood cultures – taken prior to antibiotics if possible … A blood film may help to rule out other causes such as malignancy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ca80b24de5c73d9",
+     "n": 55,
+     "p": "Blood cu"
+    },
+    {
+     "h": "1fc4c04a9f54e8da",
+     "n": 65,
+     "p": "A blood "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Aspirate synovial fluid in suspected septic arthritis**, with the orthopaedic unit — without delaying antibiotics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Synovial fluid aspiration Where appropriate, in cases of suspected septic arthritis In consultation with an orthopaedic unit Should not delay antibiotic treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d134e43bd6df6d99",
+     "n": 162,
+     "p": "Synovial"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**X-ray** can exclude fracture or tumour but **is often normal for 7–10 days in osteomyelitis.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "May exclude other causes of pain (eg fracture, tumour) … Often normal until 7 to 10 days in osteomyelitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "818ed4631466a745",
+     "n": 54,
+     "p": "May excl"
+    },
+    {
+     "h": "4988a2a45a90d082",
+     "n": 48,
+     "p": "Often no"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ultrasound** finds joint effusion (sensitive, not specific). **Contrast MRI is the preferred test for osteomyelitis** and can show subperiosteal abscess or marrow involvement.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "To identify joint effusion in suspected septic arthritis Highly sensitive, but not specific … MRI with contrast Preferred test for osteomyelitis, especially where symptoms localised May demonstrate sub-periosteal abscess or marrow involvement",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7126fb53c97403fe",
+     "n": 91,
+     "p": "To ident"
+    },
+    {
+     "h": "81bddc4fd8693dff",
+     "n": 148,
+     "p": "MRI with"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Bone scan** if MRI access is limited — a negative scan does not rule out infection. **CT has a limited role and is not a substitute for MRI or bone scan.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Technetium bone scan May be useful where access to MRI is limited … A negative bone scan cannot rule out infection or other serious pathology … Plays a limited role in suspected bone and joint infections. Should not be used in lieu of MRI or bone scan.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "715cbb328bdb2f92",
+     "n": 65,
+     "p": "Techneti"
+    },
+    {
+     "h": "cc9fd5963abf1ef0",
+     "n": 73,
+     "p": "A negati"
+    },
+    {
+     "h": "842d2260b1da9733",
+     "n": 108,
+     "p": "Plays a "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Septic arthritis: urgent aspiration ± arthrotomy and washout. Do not delay antibiotics.**",
+   "claim": "⚠️ **Septic arthritis: aspirate urgently (± arthrotomy and washout) — and never hold back antibiotics.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Septic arthritis requires urgent aspiration +/- arthrotomy and washout. Do not delay antibiotics … Urgent surgical intervention reduces the risk of serious complications in septic arthritis, but should not delay antibiotics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea5db36270c71805",
+     "n": 96,
+     "p": "Septic a"
+    },
+    {
+     "h": "3e441280346ca7b9",
+     "n": 124,
+     "p": "Urgent s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Uncomplicated osteomyelitis or septic arthritis: cefazolin 50 mg/kg (max 2 g) IV 8-hourly.** Follow local susceptibility guidance.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In uncomplicated cases of both osteomyelitis and septic arthritis, commence: Cefazolin 50 mg/kg (max 2 g) intravenous every 8 hours … Antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please refer to local guidelines",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "808eb0927b81dd67",
+     "n": 131,
+     "p": "In uncom"
+    },
+    {
+     "h": "466a5b11219418c1",
+     "n": 129,
+     "p": "Antimicr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Switch to oral after 2–3 days of IV** if uncomplicated, improving, afebrile and markers falling: **cefalexin 45 mg/kg (max 1.5 g) orally 8-hourly.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In a child with uncomplicated infection who shows clinical improvement, remains afebrile and has improving inflammatory markers, a switch to oral antibiotics may be considered after 2 to 3 days of IV treatment … Oral cefalexin 45 mg/kg (max 1.5 g) oral, every 8 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcb516ba5cd39e2e",
+     "n": 209,
+     "p": "In a chi"
+    },
+    {
+     "h": "7a95beecf84db26b",
+     "n": 55,
+     "p": "Oral cef"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Total duration: osteomyelitis 3–4 weeks; septic arthritis 2–3 weeks** (uncomplicated).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Uncomplicated cases of osteomyelitis usually require total treatment duration of 3 to 4 weeks. Septic arthritis usually requires 2 to 3 weeks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ba3d8946ee5b166",
+     "n": 141,
+     "p": "Uncompli"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Longer IV and total courses** for unusual sites (small bones of hands and feet, vertebra, disc), flat bones (sternum, skull, scapula) or unusual/resistant organisms — **discuss with infectious diseases.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unusual sites of infection (eg small bones of the hands and feet, vertebra, disc), flat bone infection (eg sternum, skull, scapula) or unusual or resistant organisms will likely need longer intravenous and total duration of antibiotic therapy – discuss with infectious diseases team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ba2d99e8d731ce6",
+     "n": 282,
+     "p": "Unusual "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Discuss every suspected case with orthopaedics**, together with general paediatrics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with suspected osteomyelitis/septic arthritis should be discussed with an orthopaedic team (in conjunction with general paediatrics)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd626a9947eb8a98",
+     "n": 141,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider infectious diseases input** for treatment failure, resistant or unusual organisms, chronic infection (>2 weeks), disseminated or unusual-site infection, age under 3 months, or immunocompromise.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider infectious diseases consultation in the following circumstances: Failure to respond to treatment (either clinically or biochemically) Resistant or unusual organism Chronic infection (>2 weeks) Disseminated infection or unusual site Age <3 months Immunocompromised",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c4fb369228be466",
+     "n": 272,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** on oral antibiotics or planned outpatient IV (e.g. hospital in the home), afebrile and well, markers and clinical signs improved, weight-bearing or using the limb, and the family knows to **return for fever or deterioration.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Child tolerating appropriate oral antibiotics or has planned outpatient IV therapy, (eg hospital in the home) Afebrile, well child Improved inflammatory markers and clinical indicators Weightbearing/using involved limb The family has been advised to return to emergency in the presence of fever or a deterioration in symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0469a31e3048a7e",
+     "n": 349,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Bone and joint infection' (Last updated August 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/, retrieved 2026-09-23"
   }
  ]

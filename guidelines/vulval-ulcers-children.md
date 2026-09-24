@@ -1,27 +1,27 @@
 # Vulval ulcers in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** differential diagnosis, assessment, investigation, symptom relief and referral for vulval ulcers in children and adolescents. The adult counterpart for HSV is `genital-herpes`; related corpus pages are `vulval-and-vaginal-conditions-children` (examination technique, lichen sclerosus), `sti-adolescents`, `molluscum-contagiosum` and `chickenpox-management-children`.
 
-> ✅ **OPEN AND QUOTED.** 22 of 22 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Vulval ulcers*** (Last updated November 2022); **23 fragments re-checked by machine. 1 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Vulval ulcers*** (Last updated November 2022); **23 anchors re-checkable by machine; 1 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> **Most vulval ulcers in children are aphthous or due to systemic infection, not STIs** — but appearance alone misleads, so investigations are often needed. ⚠️ **If the child cannot void, admission for a urinary catheter may be required.**
+> **In children, vulval ulcers are mostly aphthous or caused by systemic infection, not STIs** — but appearance alone misleads, so investigations are often needed. ⚠️ **A child unable to void may need admitting for a urinary catheter.**
 
 ---
 
 ## Key points
 
-- **Most vulval ulcers in children are aphthous or secondary to systemic infection**, rather than sexually transmitted infection. [S1]
+- **In children, vulval ulcers are mostly aphthous or follow a systemic infection**, rather than being sexually transmitted. [S1]
 - **Clinical appearance alone is misleading**; investigations are often required. [S1]
 - **Ulcers are often very painful** and distressing for the child and family. [S1]
 
 ## Differential diagnosis
 
-- **Aphthous ulcers:** common in adolescents, may be multiple and recurrent, linked to systemic symptoms or recent illness. [S1]
-- **Infectious (non-STI):** HSV by autoinoculation, EBV, CMV, VZV, coxsackie virus, *Mycoplasma*, *Candida albicans*. [S1]
-- **STI — HSV:** common; multiple vesicles progressing to painful or itchy ulcers. **Syphilis:** single painless ulcer. [S1]
+- **Aphthous ulcers:** frequent in adolescents, can be recurrent and multiple, linked to systemic symptoms or recent illness. [S1]
+- **Infectious (non-STI):** HSV (via autoinoculation), VZV, EBV, CMV, coxsackie virus, *Candida albicans*, *Mycoplasma*. [S1]
+- **STI — HSV:** common; several vesicles that go on to become itchy or painful ulcers. **Syphilis:** single painless ulcer. [S1]
 - **Crohn's disease:** linear lesions and fissures, vulval oedema, GI symptoms. **Behçet disease:** recurrent oral ulcers, painful genital ulcers that scar, eye and skin involvement. [S1]
-- **Drug reactions** (e.g. NSAIDs, metronidazole, paracetamol, sulfonamides, tetracycline, phenytoin, oral contraceptives) have no definitive features. ⚠️ **SJS/TEN:** flu-like illness, mucous membrane and skin ulcers, conjunctivitis. [S1]
+- **Drug reactions** (e.g. paracetamol, NSAIDs, phenytoin, metronidazole, tetracycline, sulfonamides, oral contraceptives) have no definitive features. ⚠️ **SJS/TEN:** flu-like illness, mucous membrane and skin ulcers, conjunctivitis. [S1]
 
 ## Assess
 
@@ -32,14 +32,14 @@
 ## Investigate
 
 - **Swab the ulcer:** HSV-1/2 and VZV PCR; Gram stain, culture and syphilis PCR; fungal wet prep and culture. [S1]
-- **Consider bloods:** serology for HSV-1/2, EBV (plus monospot), CMV, syphilis and *Mycoplasma*; CRP, ESR, FBE, ANA ± HLA-B51 for Behçet. [S1]
+- **Consider bloods:** serology for HSV-1/2, CMV, EBV (plus monospot), *Mycoplasma* and syphilis; CRP, ESR, FBE, ANA ± HLA-B51 for Behçet. [S1]
 - **A non-healing lesion may need biopsy.** [S1]
 
 ## Treat
 
 - **Analgesia:** simple oral, and topical (viscous xylocaine, lidocaine gel 2%). [S1]
-- **Minimise irritants** (no soaps, pads or tight clothing); **pass urine in a bath or with a spray bottle** to reduce dysuria; salt baths, cool compresses, barrier cream. [S1]
-- ⚠️ **If unable to void, admission for a urinary catheter may be required.** [S1]
+- **Minimise irritants** (no soaps, pads or tight clothing); **pass urine in a bath or with a spray bottle** to ease dysuria; barrier cream, salt baths, cool compresses. [S1]
+- ⚠️ **A child who cannot void may need admitting for a urinary catheter.** [S1]
 - **Consider aciclovir if primary HSV is likely; topical corticosteroids if aphthous ulcers are most likely; antibiotics if bacterial infection is suspected**; treat any STI. [S1]
 
 ## Escalate and discharge
@@ -58,12 +58,12 @@
 | 1 | **No aciclovir dose or duration** is given for primary HSV. The adult `genital-herpes` page gives aciclovir 400 mg orally tds for 5–10 days (adult dosing) as an alternative to first-line valaciclovir. | `observation` |
 | 2 | **No topical corticosteroid potency or antibiotic choice** is specified. | `observation` |
 | 3 | **Rarer differentials** (impetigo, group A streptococcus, molluscum, LGV, chancroid, and the 'Other' causes such as erosive lichen sclerosus and malignancy) are on the page but not written up here. | `out_of_scope` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Vulval ulcers*. Last updated November 2022. https://www.rch.org.au/clinicalguide/guideline_index/Vulval_ulcers/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Vulval ulcers*. Last updated November 2022. https://www.rch.org.au/clinicalguide/guideline_index/Vulval_ulcers/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

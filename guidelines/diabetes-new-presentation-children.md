@@ -1,9 +1,9 @@
 # New presentation of diabetes mellitus in children (not in DKA)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** diagnosis, work-up and subcutaneous insulin initiation for children newly diagnosed with diabetes who are **not** in DKA. A child in DKA goes to `diabetic-ketoacidosis-children`; the adult counterpart for type 2 disease is `type-2-diabetes` (non-pregnant adults). Sick days at home: `diabetes-sick-day-management-children`.
 
-> ✅ **OPEN AND QUOTED.** 20 of 20 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Diabetes Mellitus: new presentation*** (Last updated July 2025); **32 fragments re-checked by machine. 7 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 of 20 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Diabetes Mellitus: new presentation*** (Last updated July 2025); **32 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Check the venous gas first: pH under 7.3 or bicarbonate under 18 mmol/L is DKA** — use `diabetic-ketoacidosis-children`, not this page.
 
@@ -19,25 +19,25 @@
 
 ## Investigate
 
-- **Formal serum glucose; point-of-care blood ketones if random BGL is 11.1 mmol/L or more** (urine ketones if blood ketones are unavailable); venous blood gas. [S1]
+- **Formal serum glucose; if a random BGL is 11.1 mmol/L or more, check blood ketones at the point of care** (urine ketones where blood ketones cannot be done); venous blood gas. [S1]
 - ⚠️ **pH under 7.3 or bicarbonate under 18 mmol/L: manage as DKA.** [S1]
 - **Also send:** UEC, diabetes autoantibodies (anti-GAD, IAA, anti-IA2, ZnT8), coeliac serology, TSH and FT4. [S1]
 
 ## Start subcutaneous insulin
 
-- **A child not in DKA can be managed with subcutaneous insulin.** ⚠️ **If ketones are 0.6 or more, start insulin as soon as possible to prevent DKA.** [S1]
-- **Initial total daily dose (TDD):** under 1 year — consult a paediatric endocrinologist · 1–5 years 0.5 units/kg/day · 5–10 years 0.7 units/kg/day · over 10 years 0.7–1.0 units/kg/day. [S1]
-- **MDI (basal-bolus): 40% of TDD as long-acting insulin in the evening; the other 60% as rapid-acting split across breakfast, lunch and dinner** (~0.1–0.2 units/kg before each main meal). [S1]
+- **Subcutaneous insulin is suitable for a child who is not in DKA.** ⚠️ **If ketones are 0.6 or more, start insulin as soon as possible to prevent DKA.** [S1]
+- **Initial total daily dose (TDD):** under 1 year — seek paediatric endocrinologist advice · aged 1–5 years: 0.5 units/kg/day · aged 5–10 years: 0.7 units/kg/day · aged over 10 years: 0.7–1.0 units/kg/day. [S1]
+- **MDI (basal-bolus): give 40% of the TDD in the evening as long-acting insulin; split the remaining 60% as rapid-acting across breakfast, lunch and dinner** (~0.1–0.2 units/kg with each main meal, given beforehand). [S1]
 - **First rapid-acting dose more than 2 hours before a meal: consider a stat 0.2 units/kg.** Daytime presenters may need slightly higher pre-meal doses (e.g. 0.25 units/kg) until the evening basal dose. **Round doses down to the nearest 0.5 unit.** [S1]
 - **Pre-meal target 4–8 mmol/L.** Above 8, use the correction factor to bring BGL back to 6 mmol/L, unless insulin was given in the preceding 2 hours. **Give pre-meal rapid-acting insulin 15 minutes before the meal** (Fiasp at the time of the meal). [S1]
 - **Flexible dosing: rapid-acting dose = (BGL − 6) ÷ correction factor, plus carbohydrate grams ÷ insulin:carbohydrate ratio.** Also give with snacks over 15 g carbohydrate. [S1]
 - **Worked example:** pre-lunch BGL 16, eating 20 g carbohydrate, CF 2, ICR 5 → (16 − 6) = 10 ÷ 2 = 5 units, plus 20 ÷ 5 = 4 units → **9 units**. Not eating or under 15 g carbohydrate: correction only. BGL 4–8 with food: carbohydrate dose only. [S1]
-- **Twice-daily injections are rarely used** as a standard regimen. Individualise doses and discuss ongoing dosing with a paediatric endocrinologist or experienced paediatrician. [S1]
+- **A twice-daily injection regimen is rarely used as standard.** Individualise doses and discuss ongoing dosing with a paediatric endocrinologist or experienced paediatrician. [S1]
 
 ## Monitor
 
 - **MDI finger-prick BGLs:** pre-meals, 2 am during initial stabilisation, and whenever hypoglycaemia is suspected; more often initially (e.g. 2 hours after the first dose and 4-hourly overnight), especially if ketotic. [S1]
-- **Ketones present at diagnosis: measure with each BGL every 2 hours until under 0.6.** Thereafter check ketones whenever BGL is 15 or more or the child is unwell. [S1]
+- **Ketones present at diagnosis: check them alongside every 2-hourly BGL until below 0.6.** Thereafter check ketones whenever BGL is 15 or more or the child is unwell. [S1]
 
 ## Admission and discharge
 
@@ -54,12 +54,12 @@
 | 2 | ⚠️ **The two appendices disagree on the long-acting starting dose** at the same weight — e.g. at 10 kg Appendix 1 gives 2 units and Appendix 2 gives 2.5; at around 60 kg Appendix 1 gives 18–24 units and Appendix 2 (56–60 kg) gives 14. RCH offers no reconciliation. | `observation` |
 | 3 | **The page says some centres use different management guidelines**; the regimen here is RCH's. | `observation` |
 | 4 | **Type 2 diabetes in children** is only flagged here (autoantibody-negative, obesity, acanthosis); `type-2-diabetes` covers adults only, so paediatric type 2 management is not in this corpus. | `out_of_scope` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Diabetes Mellitus: new presentation*. Last updated July 2025. https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_Mellitus__new_presentation/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Diabetes Mellitus: new presentation*. Last updated July 2025. https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_Mellitus__new_presentation/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

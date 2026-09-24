@@ -1,11 +1,11 @@
 # von Willebrand disease in children: acute bleeding
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** assessment and emergency treatment of bleeding in children with von Willebrand disease (VWD): tranexamic acid, desmopressin and VWF/FVIII concentrate (Biostate). For haemophilia see `haemophilia-children`; heavy menstrual bleeding in adolescents overlaps `heavy-menstrual-bleeding`.
 
-> ✅ **OPEN AND QUOTED.** 19 of 19 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *von Willebrand disease*** (Last Updated April 2026); **27 fragments re-checked by machine. 6 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 19 of 19 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *von Willebrand disease*** (Last Updated April 2026); **27 anchors re-checkable by machine; 6 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **Assessment and investigation must not delay treatment.** Major haemorrhage, head injury or suspected internal bleeding: give clotting factor immediately, before a full assessment is complete.
+> ⚠️ **Assessment and investigation must not delay treatment.** Major haemorrhage, head injury or suspected internal bleeding: clotting factor goes in straight away, without waiting to finish a full assessment.
 
 ---
 
@@ -17,15 +17,15 @@
 
 ## Assess and investigate
 
-- ⚠️ **Major haemorrhage, head injury or any suspected internal bleeding: give clotting factor immediately**, before a full assessment is complete. [S1]
+- ⚠️ **Give clotting factor at once for head injury, major haemorrhage or any suspected internal bleeding**, without waiting for a full assessment to be completed. [S1]
 - **Establish** the site and extent of bleeding, the VWD type and severity, and any home treatment (e.g. tranexamic acid). [S1]
 - **Routine coagulation studies are not required.** Consider FBE and ferritin after recurrent mucosal bleeding — anaemia and iron deficiency are common. [S1]
 
 ## Tranexamic acid
 
-- **Tranexamic acid treats and prevents recurrence of mouth bleeds and epistaxis in all severities of VWD**, alone or with desmopressin or factor concentrate; often helpful for heavy menstrual bleeding. [S1]
+- **Tranexamic acid both treats epistaxis and mouth bleeds and stops them recurring, whatever the VWD severity**, alone or with desmopressin or factor concentrate; often helpful for heavy menstrual bleeding. [S1]
 - ⚠️ **Tranexamic acid is contraindicated for haematuria.** [S1]
-- **Dose: tranexamic acid 25 mg/kg/dose (max 1.5 g/dose) orally three times daily for 5–10 days**, depending on severity. [S1]
+- **Dose: oral tranexamic acid, 25 mg/kg per dose up to a maximum of 1.5 g, three times a day for 5–10 days**, according to severity. [S1]
 
 ## Desmopressin (DDAVP)
 
@@ -54,12 +54,12 @@
 |---|---|---|
 | 1 | **Concentrate preparation and administration instructions** are on a linked RCH page ('can be found here'), not retrieved. | `input_unavailable` |
 | 2 | **The corpus `heavy-menstrual-bleeding` guideline gives no oral tranexamic acid dose** (it defers to *Therapeutic Guidelines*/AMH); this page's 25 mg/kg/dose (max 1.5 g) tds is a paediatric VWD dose and should not be read across to adult HMB without checking. | `observation` |
-| 3 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 3 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: von Willebrand disease*. Last Updated April 2026. https://www.rch.org.au/clinicalguide/guideline_index/von_Willebrand_disease/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: von Willebrand disease*. Last Updated April 2026. https://www.rch.org.au/clinicalguide/guideline_index/von_Willebrand_disease/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

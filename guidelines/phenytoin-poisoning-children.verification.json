@@ -1,137 +1,255 @@
 {
  "guideline": "guidelines/phenytoin-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Phenytoin poisoning' (Last updated January 2018), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Phenytoin poisoning' (Last updated January 2018), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 17,
-  "pass": 17,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 17
  },
  "claims": [
   {
    "claim": "**Phenytoin intoxication is usually benign, with dose-related symptoms.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Phenytoin intoxication is usually benign and symptoms are dose-related",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39908306b9f62b15",
+     "n": 70,
+     "p": "Phenytoi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Rapid IV administration can cause cardiac arrhythmias** — from the propylene glycol in the formulation, not the phenytoin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rapid IV administration may result in cardiac arrhythmias due to the propylene glycol contained in the formulation and not due to the phenytoin itself",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0b917fb3a922db25",
+     "n": 150,
+     "p": "Rapid IV"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Serum levels correlate well with clinical features but cannot predict how long symptoms will last.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is good correlation between serum concentrations and clinical manifestations, but this cannot be used to predict duration of symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e62d4f8d83abddc",
+     "n": 139,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Onset: within 1 to 2 hours orally, minutes IV.** ⚠️ **Maximal effect can be delayed up to five days after oral ingestion** (zero-order kinetics, prolonged absorption).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Onset of symptoms is usually within 1 to 2 hours of ingestion, or within minutes if IV administration. There can be a delay by up to five days for the maximal effects following oral ingestion due to zero-order kinetics and prolonged absorption.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a03071eeca5dad6f",
+     "n": 244,
+     "p": "Onset of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess:** any deliberate self-poisoning · accidental ingestion over 20 mg/kg (or over 10 mg/kg above the usual daily dose if on phenytoin) · any symptomatic child · unknown quantity. **Consider non-accidental poisoning** if developmental age doesn't fit.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with deliberate self-poisoning or significant (>20 mg/kg OR >10 mg/kg greater than the child’s usual daily dose if on a regular dose) accidental ingestion Any symptomatic child Acute ingestion of unknown quantity Any child where the developmental age is inconsistent with accidental poisoning as non-accidental poisoning should be considered.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd63ad54f048d30c",
+     "n": 355,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Examine for:** nystagmus, dysarthria, ataxia, tremor, drowsiness, involuntary movements, seizures, coma · nausea and vomiting · hypernatraemia and hyperglycaemia (massive ingestion) · ⚠️ **hypotension, bradycardia, arrhythmias (rapid IV).**",
+   "claim": "**Examine for:** nystagmus, ataxia, dysarthria, tremor, involuntary movements, drowsiness, seizures, coma · nausea and vomiting · hypernatraemia and hyperglycaemia (massive ingestion) · ⚠️ **hypotension, bradycardia, arrhythmias (rapid IV).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "CNS Nystagmus, dysarthria, ataxia, tremor, drowsiness, involuntary movements, seizures, coma GIT Nausea & Vomiting Other Massive ingestion: Hypernatraemia and hyperglycaemia Rapid IV administration: hypotension, bradycardia, arrhythmias",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b16159e47e0be86d",
+     "n": 236,
+     "p": "CNS Nyst"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**ECG (especially after IV) at presentation and repeat at 6 hours until normal.** Also BSL, and paracetamol in all intentional overdoses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "ECG: (particularly if IV administration) initially and repeat at 6 hours until normal. … BSL Paracetamol concentration in all intentional overdoses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b6b0279308c4145",
+     "n": 86,
+     "p": "ECG: (pa"
+    },
+    {
+     "h": "73627db9c06f462a",
+     "n": 58,
+     "p": "BSL Para"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Levels:** 40–80 micromol/L (10–20 mg/L) therapeutic · 80–120 (20–30 mg/L) horizontal nystagmus · 120–160 (30–40 mg/L) vertical nystagmus, diplopia, ataxia, slurred speech, tremor, hyperreflexia, drowsiness, vomiting.",
+   "claim": "**Levels:** 40–80 micromol/L (10–20 mg/L) therapeutic · 80–120 (20–30 mg/L) horizontal nystagmus · 120–160 (30–40 mg/L) vertical nystagmus, diplopia, slurred speech, ataxia, tremor, hyperreflexia, drowsiness, vomiting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "40 to 80 umol/L (10 to 20 mg/L) - Therapeutic 80 to 120 umol/L (20 to 30 mg/L) - Horizontal nystagmus 120 to 160 umol/L (30 to 40 mg/L) - Vertical nystagmus, diplopia, ataxia, slurred speech, tremor, hyperreflexia, drowsiness, nausea, vomiting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "86ae212f21bf7c02",
+     "n": 243,
+     "p": "40 to 80"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **160–200 micromol/L (40–50 mg/L): confusion, lethargy, mania, respiratory depression. Over 200 micromol/L (50 mg/L): extreme lethargy, coma, paradoxical seizures.**",
+   "claim": "⚠️ **160–200 micromol/L (40–50 mg/L): confusion, lethargy, mania, respiratory depression. Over 200 micromol/L (50 mg/L): coma, extreme lethargy, paradoxical seizures.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "160 to 200 umol/L (40 to 50 mg/L) - Confusion, disorientation, lethargy, hyperactivity, mania, respiratory depression > 200 umol/L (50 mg/L) - Extreme lethargy, coma, paradoxical seizures",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29edf8938c186325",
+     "n": 187,
+     "p": "160 to 2"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat:** all symptomatic children · unknown quantity · over 20 mg/kg, or over 10 mg/kg above the usual daily dose if on maintenance phenytoin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All symptomatic children Acute ingestion of unknown quantity Based on ingestion amount: Phenytoin ingestion of >20 mg/kg OR >10 mg/kg greater than the child’s usual daily dose if patient on maintenance treatment phenytoin treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9521b464b3c9d0a7",
+     "n": 231,
+     "p": "All symp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Standard supportive care. Decontamination is not usually required.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Resuscitation Standard procedures and supportive care Decontamination Decontamination is not usually required in phenytoin overdose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5c4b93f51456a77",
+     "n": 131,
+     "p": "Resuscit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mild symptoms: observe 6 hours after exposure;** discharge once symptom-free.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild symptoms Observe 6 hours post-exposure, discharge once symptom-free",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f6b157f30b5a9f4",
+     "n": 72,
+     "p": "Mild sym"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moderate–severe or persisting after 6 hours: admit.** Repeat the level at 6 hours if still symptomatic; if rising or above range, admit for serial levels with a toxicologist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Moderate-to-severe or persistent symptoms after 6 hours of observation (eg Depressed conscious state or cardiac arrhythmias) Admit for observation and supportive management Repeat blood drug concentration at 6 hours if ongoing symptoms If drug concentration increasing or above therapeutic range, admit for ongoing observation and serial drug concentration monitoring in consultation with toxicologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52f979375adb327f",
+     "n": 401,
+     "p": "Moderate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for every intentional overdose** and any child still symptomatic after 6 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all children and young people with an intentional overdose or in patients with persisting symptoms after 6 hours observation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad4666512e4c039a",
+     "n": 159,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer to a tertiary centre** for severe symptoms that may need intensive care. **PIPER: 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with severe symptoms with the potential to require intensive care review … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "297c9d114ef16fc8",
+     "n": 81,
+     "p": "Children"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when:** normal GCS, normal ECG, observation period complete, and — after deliberate ingestion — a risk assessment shows low risk of further self-harm.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Normal GCS Normal ECG Period of observation as above For deliberate ingestion a risk assessment should indicate that the patient is at low risk of further self-harm in the discharge setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d46f47111ae101c",
+     "n": 189,
+     "p": "Normal G"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Refer** intentional self-harm to local mental health services (e.g. Orygen Youth Health 1800 888 320) and recreational use to YoDAA (1800 458 685).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intentional self –harm: Referral to local mental health services eg Orygen Youth Health: 1800 888 320 … Recreational poisoning: Referral to YoDAA, Victoria's Youth Drug and Alcohol Advice service: 1800 458 685",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d85f95b5b07b8333",
+     "n": 101,
+     "p": "Intentio"
+    },
+    {
+     "h": "d129022e17c4653c",
+     "n": 105,
+     "p": "Recreati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Phenytoin poisoning' (Last updated January 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/, retrieved 2026-09-23"
   }
  ]

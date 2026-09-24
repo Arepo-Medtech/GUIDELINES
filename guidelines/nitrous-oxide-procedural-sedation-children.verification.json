@@ -1,163 +1,329 @@
 {
  "guideline": "guidelines/nitrous-oxide-procedural-sedation-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Nitrous Oxide - oxygen mix' (Last updated December 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Nitrous Oxide - oxygen mix' (Last updated December 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 20,
-  "pass": 20,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
-   "claim": "**Nitrous oxide gives amnesia, anxiolysis and modest analgesia with minimal respiratory and cardiovascular compromise.** Onset within minutes; peak effect at 3–5 minutes.",
+   "claim": "**Nitrous oxide provides anxiolysis, amnesia and modest analgesia, compromising breathing and circulation only minimally.** Onset within minutes; peak effect at 3–5 minutes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nitrous oxide provides amnesia, anxiolysis and modest analgesia with minimal respiratory and cardiovascular compromise … Onset is within minutes and peak effect is 3-5 minutes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ee57a56fc1fef62",
+     "n": 118,
+     "p": "Nitrous "
+    },
+    {
+     "h": "bd518ab64988c8e6",
+     "n": 54,
+     "p": "Onset is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Sedation uses a continuous-flow mixer titratable from 30–70% nitrous oxide**; premixed 50:50 Entonox can be used for analgesia on a demand-triggered system.",
+   "claim": "**Sedation uses a continuous-flow mixer titratable from 30–70% nitrous oxide**; for analgesia, a demand-triggered system delivering premixed 50:50 Entonox is an option.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nitrous for sedation is delivered using a continuous flow mixer (in concentrations titratable from 30-70% nitrous oxide) … A pre-mixed 50:50 combination of nitrous oxide and oxygen (Entonox) can be used for analgesia on a demand triggered system",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77dcd5811cf48eed",
+     "n": 120,
+     "p": "Nitrous "
+    },
+    {
+     "h": "bc08465f71d5434d",
+     "n": 122,
+     "p": "A pre-mi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consider it for procedures causing pain, discomfort or anxiety that need only short-term sedation.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nitrous can be considered for procedures that may cause pain, discomfort or anxiety and that require only short-term sedation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "24947699544cba91",
+     "n": 125,
+     "p": "Nitrous "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Absolute — airway or breathing compromise:** acute respiratory depression, current asthma exacerbation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Absolute contraindications Airway and/or breathing compromise: acute respiratory depression, current exacerbation of asthma",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7114b5a4970b0a50",
+     "n": 123,
+     "p": "Absolute"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Absolute — gas-filled spaces that would expand:** pneumothorax, lung cyst, obstructive airways disease, recent craniectomy or trauma with pneumocephalus, air embolus, decompression illness, bowel obstruction, middle-ear disease or surgery with air trapping.",
+   "claim": "⚠️ **Absolute — gas-filled spaces that would expand:** pneumothorax, obstructive airways disease, lung cyst, pneumocephalus after recent craniectomy or trauma, bowel obstruction, air embolus, decompression illness, air trapping from middle-ear disease or surgery.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Expansion of gas filled airspaces: pneumothorax, lung cyst, obstructive airways disease, recent craniectomy or trauma with pneuomocephalus, air embolus, decompression illness, bowel obstruction, middle ear disease or surgery with air trapping",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd69b8d5ce20d75a",
+     "n": 242,
+     "p": "Expansio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Absolute — also:** pulmonary hypertension with reduced exercise tolerance · methionine synthetase deficiency, homocystinuria, methylmalonic acidaemia · **GCS under 15 from head injury** · very painful or prolonged procedures (over 30 minutes).",
+   "claim": "⚠️ **Absolute — also:** pulmonary hypertension with reduced exercise tolerance · methionine synthetase deficiency, homocystinuria, methylmalonic acidaemia · **GCS under 15 from head injury** · procedures that are prolonged (over 30 minutes) or very painful.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pulmonary hypertension associated with decreased exercise tolerance Increased risk of nitrous oxide induced bone marrow suppression, neurotoxicity or increased homocysteine level: methionine synthetase deficiency, homocystinuria and methylmalonic academia GCS <15 from head injury Very painful or prolonged procedures (>30 minutes)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc280e8a5cf553d9",
+     "n": 331,
+     "p": "Pulmonar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Relative:** acute respiratory infection or history of difficult airway or obstruction · chest injury, abdominal distension, head injury with GCS 15 but ongoing symptoms · nutritional compromise, severe illness or infection, extensive tissue damage.",
+   "claim": "**Relative:** acute respiratory infection or history of difficult airway or obstruction · abdominal distension, chest injury, head injury with ongoing symptoms despite GCS 15 · nutritional compromise, severe illness or infection, extensive tissue damage.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Relative contraindications Increased risk of airway compromise: acute respiratory infection, history of difficult airway or airway obstruction Expansion of gas filled airspace: chest injury, abdominal distension, head injury with GCS 15 but ongoing symptoms Increased risk of nitrous oxide induced bone marrow suppression: nutritionally compromised patients, current severe illness, severe infection or extensive tissue damage",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "89e18875652289b5",
+     "n": 426,
+     "p": "Relative"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "**Relative: age under 12 months** — some paediatric centres with expertise use it from 6 months.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Age <12 months. NB some paediatric centres with appropriate expertise use nitrous oxide in children from 6 months of age",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77611d51c84011fa",
+     "n": 120,
+     "p": "Age <12 "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "**Entonox needs a cooperative child who can open the demand valve**, which usually limits it to school-aged children.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If using Entonox (premixed 50:50 nitrous and oxygen) the child must cooperate and generate enough negative pressure on inspiration to open the valve. This usually restricts its use to school aged children",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9725c04a181d879",
+     "n": 204,
+     "p": "If using"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **At least two staff:** a proceduralist experienced in paediatric resuscitation including airway skills, and an assistant trained to give nitrous oxide and monitor for side effects.",
+   "claim": "⚠️ **At least two staff:** a proceduralist with paediatric resuscitation experience (airway skills included), plus an assistant trained to give nitrous oxide and monitor for side effects.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A minimum of two staff are required: proceduralist with experience in paediatric resuscitation including airway skills and an assistant trained to administer nitrous oxide and monitor child for side effects",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02dd2c51ce5b1817",
+     "n": 206,
+     "p": "A minimu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider fasting times (local guidelines).** Plan for failure — **consider an alternate agent early** if sedation is inadequate.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider fasting times (see local guidelines) … Plan options for sedation failure – consider alternate agent early if adequate sedation not achieved",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0b2c4bb6d6fd204",
+     "n": 45,
+     "p": "Consider"
+    },
+    {
+     "h": "750d58e8d01594ca",
+     "n": 100,
+     "p": "Plan opt"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "**Equipment:** gas circuit, suction, oxygen and nitrous sources, mask or mouthpiece, and a variable-concentration machine with flow meter, concentration control and oxygen flush.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Circuit to deliver gas Suction Oxygen source Nitrous oxide source Mask or mouthpiece (for older children) … Variable concentration nitrous oxide machine with: Flow meter Nitrous and/or oxygen concentration control Oxygen flush",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7823d7c7e0d535c9",
+     "n": 105,
+     "p": "Circuit "
+    },
+    {
+     "h": "4c3e9825ddef303c",
+     "n": 118,
+     "p": "Variable"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "**Saturation probe on, and line-of-sight monitoring at all times.** Start with 100% oxygen and the smallest well-sealing mask.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Attach saturation probe for monitoring Ensure line of sight monitoring of the child at all times Commence with 100% oxygen Apply face mask ensuring adequate seal, aim for smallest fitting mask",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "01204930cc9375ba",
+     "n": 192,
+     "p": "Attach s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Starting at 70% is considered safe.** Titrating up does not reduce side effects and may slow sedation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Commencing nitrous oxide at a concentration of 70% is considered safe. The staff member providing the sedation may prefer to titrate the dose of nitrous oxide, doing so does not decrease the risk of side effects and may increase the length of time to the desired sedation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4400c4cb94b8656c",
+     "n": 271,
+     "p": "Commenci"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Keep the bag inflated but not over-expanded, and check it moves with each breath.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The bag should be inflated enough so there is a continuous supply of nitrous for the patient to breathe, but not over expanded as this makes it difficult for the patient to breathe against … Ensure that the bag is inflating and deflating with each breath so that nitrous oxide is being inhaled",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad4f67772b3b255d",
+     "n": 188,
+     "p": "The bag "
+    },
+    {
+     "h": "83d34a930f8efb4b",
+     "n": 102,
+     "p": "Ensure t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "**Over 30 minutes of nitrous makes side effects such as vomiting more likely.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Administration of nitrous for more than 30 minutes is more likely to result in side effects such as vomiting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "488b5a6231a79bd6",
+     "n": 108,
+     "p": "Administ"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Facial lacerations can be hard under a mask**; a nasal circuit or mouthpiece may help.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Facial lacerations may be challenging to repair under nitrous oxide due to positioning of the mask. A nasal circuit or mouth piece can assist where available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed156ca994a6d1b4",
+     "n": 157,
+     "p": "Facial l"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **At the end, switch to 100% oxygen for 3–5 minutes** to prevent diffusion hypoxia — no gradual weaning. **Monitor saturations for 5 minutes afterwards.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "At the end of the procedure commence 100% oxygen. Gradual weaning of nitrous is not required … Administration of 100% oxygen for 3-5 minutes post the procedure is recommended to prevent diffusion hypoxia Saturation monitoring is recommended for 5 minutes post procedure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "301f54b6ccc59480",
+     "n": 92,
+     "p": "At the e"
+    },
+    {
+     "h": "0be353ccc2ec5fc2",
+     "n": 174,
+     "p": "Administ"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Side effects:** mild — nausea, vomiting, dizziness, agitation. Rare but more serious — aspiration, airway obstruction, diffusion hypoxia, hallucinations. Tell families as part of consent.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild side-effects include: nausea vomiting dizziness agitation More serious side effects are rare in short term usage, but include: aspiration airway obstruction diffusion hypoxia (avoided with post-sedation with supplemental oxygen) hallucinations … Inform families of these effects as part of consent",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "12f72658361f3f06",
+     "n": 248,
+     "p": "Mild sid"
+    },
+    {
+     "h": "cc7da620eba49e0a",
+     "n": 51,
+     "p": "Inform f"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not discharge until back to premorbid neurological baseline.** If sedation fails, consider ketamine or general anaesthesia; **transfer if an alternative cannot be given safely where you are.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The child should not be discharged home until they have returned to their premorbid neurological baseline … Consider use of alternative sedation, eg Ketamine, general anaesthetic … It is not possible or safe to provide alternative sedation option in your location",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a4320a9f17055a9c",
+     "n": 105,
+     "p": "The chil"
+    },
+    {
+     "h": "264f2a68c607d516",
+     "n": 70,
+     "p": "Consider"
+    },
+    {
+     "h": "b1cd43f8304bed73",
+     "n": 82,
+     "p": "It is no"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide - oxygen mix' (Last updated December 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/, retrieved 2026-09-23"
   }
  ]

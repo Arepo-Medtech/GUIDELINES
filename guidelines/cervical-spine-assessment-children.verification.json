@@ -1,200 +1,427 @@
 {
  "guideline": "guidelines/cervical-spine-assessment-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Cervical spine assessment' (Last updated July 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Cervical spine assessment' (Last updated July 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 26,
-  "pass": 26,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
    "claim": "**CSI is uncommon in children. Keep spinal precautions until the cervical spine is cleared.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cervical spine injury (CSI) is uncommon in children … Maintain spinal precautions until cervical spine has been cleared",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16fb3ae8fd4a048f",
+     "n": 51,
+     "p": "Cervical"
+    },
+    {
+     "h": "acf5443997361795",
+     "n": 65,
+     "p": "Maintain"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Most cervical spines can be cleared clinically.** A senior clinician must help assess children with persistent symptoms or who cannot communicate.",
+   "claim": "**Clinical clearance is possible for most cervical spines.** A senior clinician must help assess children with persistent symptoms or who cannot communicate.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most cervical spines can be cleared clinically. A senior clinician must assist in the assessment of children with persistent symptoms or those who are unable to communicate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc4a3f6b4231b537",
+     "n": 172,
+     "p": "Most cer"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**This covers ED assessment after blunt trauma, not management of confirmed CSI.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "This guideline addresses the ED assessment of possible CSI in children following blunt trauma. It does not cover the management of confirmed CSI",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fdc4b99a908d399",
+     "n": 144,
+     "p": "This gui"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Under 8 years, high cord injuries (C1–3) are more common**; over 8, injuries are predominantly lower.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Under 8 years of age, higher spinal cord injuries (C1-3) are more common, as opposed to predominantly lower cord injuries >8 years of age",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74f45e3085204bd9",
+     "n": 137,
+     "p": "Under 8 "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**A high-risk mechanism means senior review and ongoing reassessment.** Persistent pain, paraesthesia or weakness means further assessment and considering imaging.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The presence of a high-risk mechanism should prompt senior review and ongoing reassessment. Persistent symptoms including pain, paraesthesia and/or weakness should prompt further assessment and consideration of imaging",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42922716e6f6efa6",
+     "n": 218,
+     "p": "The pres"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "**High-risk mechanisms:** axial load (diving, trampoline, fall from height) · forced hyperflexion (e.g. collapsed rugby scrum) · improper restraint in an MVC · MVC passenger over 60 km/hr, head-on, rollover, ejection or a passenger death · pedestrian or cyclist struck by a motor vehicle · fall over 3 metres (or twice the child's height) · kicked by or fall from a horse · substantial head or torso injury · clothesline injury and hanging.",
+   "claim": "**High-risk mechanisms:** axial load (diving, trampoline, fall from height) · forced hyperflexion (e.g. collapsed rugby scrum) · improper restraint in an MVC · MVC passenger over 60 km/hr, head-on, rollover, ejection or a passenger death · pedestrian or cyclist struck by a motor vehicle · fall from over 3 metres (or from twice the child's own height) · horse-related (fall from, or kicked by, a horse) · substantial head or torso injury · clothesline injury and hanging.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk factors for significant CSI in children Axial load to the head (diving, trampoline, falling from height) Forced neck hyperflexion (includes low velocity mechanism with high force eg rugby scrum collapse) Improper restraint in a motor vehicle collision (MVC) Passenger in an MVC at >60 km/hr, head on collision, rollover, ejection from any vehicle or any accident with a passenger death Pedestrian, bicycle or non-motorised vehicle struck by a motor vehicle Fall >3 metres (or twice the child’s height) Kicked by or fall from a horse Substantial head or torso injury (including the abdomen, flanks, back, spine, pelvis and clavicles) Clothesline injury and hanging",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6a51c4509aeda1f",
+     "n": 668,
+     "p": "Risk fac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Predisposing conditions:** previous CSI or injury, trisomy 21, osteogenesis imperfecta, achondroplasia, and other rheumatological, congenital, genetic or metabolic conditions.",
+   "claim": "**Predisposing conditions:** trisomy 21, achondroplasia, osteogenesis imperfecta, prior CSI or injury, and other rheumatological, congenital, genetic or metabolic conditions.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Previous CSI or injury Trisomy 21 Osteogenesis imperfecta, achondroplasia Other rheumatological, congenital, genetic or metabolic conditions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "782874ef339bc5c2",
+     "n": 140,
+     "p": "Previous"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Reliable examination needs a child who is** alert and cooperative, developmentally able to take part, not intoxicated, not significantly sedated, and with enough analgesia for distracting injuries.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For reliable clinical examination, the child must be alert and cooperative developmentally able to participate in the examination not intoxicated not significantly sedated have sufficient analgesia for distracting injuries",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e1113e15777973c",
+     "n": 222,
+     "p": "For reli"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Palpate the posterior midline from the nuchal ridge to T1 with minimal neck movement**, then either side of the midline.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Whilst minimising neck movement, gently palpate the posterior midline of the neck. Feel from the nuchal ridge to the 1st thoracic vertebra. … Repeat the process lateral to the midline on both sides",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "86a820e97d0d8e2d",
+     "n": 139,
+     "p": "Whilst m"
+    },
+    {
+     "h": "e206aa37b2902a2a",
+     "n": 55,
+     "p": "Repeat t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**No significant pain, tenderness or abnormal neurology → test active movement:** rotate to each side, chin to chest, look up. **Expect more than 45 degrees each side. Stop immediately for pain or paraesthesia.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If there is no significant neck pain or tenderness and no abnormal neurology, assess the active range of movement of the neck by asking the child to slowly rotate their head to each side, place their chin to chest and look up. Children should be able to move greater than 45 degrees to each side. Stop immediately if this causes pain or paraesthesia and minimise movement of the cervical spine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c454284edf02bf62",
+     "n": 393,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Children who can't communicate:** assess with a senior clinician, awake and alert, watching free neck movement for restriction or torticollis. Pain-free normal movement with no other significant injury or neurological concern clears the spine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children who are unable to communicate Should be assessed with assistance from a senior clinician … Assessment is performed when the child is awake and alert by allowing the child to freely move their neck whilst they are observed carefully for restricted movement(s) or torticollis … If the child demonstrates pain free and normal neck movement, and has no significant other injuries or neurological concerns, the cervical spine can be cleared",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "844938c3c3a0e8bd",
+     "n": 97,
+     "p": "Children"
+    },
+    {
+     "h": "a01176aac79561df",
+     "n": 182,
+     "p": "Assessme"
+    },
+    {
+     "h": "64962336c4ce81fa",
+     "n": 159,
+     "p": "If the c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Red flags:** traumatic torticollis · **child supporting their head with a hand (may be the only sign of atlanto-occipital dislocation)** · abnormal or asymmetric neurology or severe headache · GCS under 15 · neck pain or tenderness · restricted movement · significant head, chest, abdominal, pelvic or other spinal injury · unexplained refractory hypotension (neurogenic shock).",
+   "claim": "⚠️ **Red flags:** traumatic torticollis · **child supporting their head with a hand (may be the only sign of atlanto-occipital dislocation)** · abnormal or asymmetric neurology or severe headache · GCS under 15 · neck pain or tenderness · restricted movement · significant injury elsewhere (head, chest, abdomen, pelvis, or other spine) · unexplained refractory hypotension (neurogenic shock).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red flags Traumatic torticollis … Child uses hand to support head or neck (this may be the only sign of an atlanto-occipital dislocation) Abnormal or asymmetrical neurology: focal motor or sensory deficit or severe headache GCS <15 Child complains of neck pain or cervical spine tenderness Restricted neck movement Significant head, chest, abdominal, pelvic or other spinal injuries (ie those that require admission, investigations or surgery) Unexplained refractory hypotension (as a feature of neurogenic shock)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3703eb9d8fa936ae",
+     "n": 31,
+     "p": "Red flag"
+    },
+    {
+     "h": "06429255d5f65f1b",
+     "n": 479,
+     "p": "Child us"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **High risk → CT:** GCS 3–8 or AVPU = U · abnormal airway, breathing or circulation · focal neurological deficit.",
+   "claim": "⚠️ **High risk → CT:** AVPU = U or GCS 3–8 · abnormal airway, breathing or circulation · focal neurological deficit.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "High-risk features (CT) GCS 3-8 or AVPU = U Abnormal airway/breathing/circulation Focal neurological deficit",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37e70458f77ea948",
+     "n": 108,
+     "p": "High-ris"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Intermediate risk → consider X-ray first:** altered mental status (GCS 9–14 or AVPU V/P) · self-reported neck pain or midline tenderness · substantial head or torso injury. **Low risk (none of these) → may be cleared clinically.**",
+   "claim": "**Intermediate risk → consider X-ray first:** altered mental status (AVPU V/P, or GCS 9–14) · midline tenderness or neck pain reported by the child · substantial head or torso injury. **Low risk (none of these) → may be cleared clinically.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intermediate-risk features (consider x-ray first line) Altered mental status (GCS 9-14 or AVPU V/P) or other symptoms of mental status change Self-reported neck pain or midline tenderness Substantial head or torso injury … Low-risk features (may be clinically cleared) None of the above",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2c6fabb3a6115e66",
+     "n": 220,
+     "p": "Intermed"
+    },
+    {
+     "h": "7e21a49a792c60f4",
+     "n": 63,
+     "p": "Low-risk"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "**CT is also considered** when X-ray is abnormal or inconclusive, with persistent objective weakness or sensory loss, or — after senior review — when other body regions are being scanned.",
+   "claim": "**CT is also considered** when the X-ray is inconclusive or abnormal, with persistent objective weakness or sensory loss, or — after senior review — when other body regions are being scanned.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "CT may also be considered when x-ray is abnormal or inconclusive there is persistent objective neurological abnormality of weakness or sensory loss the child is undergoing CT of other body regions; inclusion of the cervical spine may be considered following senior clinician review",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c1f0ab563fdd87b9",
+     "n": 281,
+     "p": "CT may a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**X-ray views: 5 years and under, AP and lateral only; 6 years and over, AP, lateral and odontoid.** Laterals must show occiput to T1 (may need shoulder traction). **Flexion/extension views are not recommended.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "≤5 years old: AP and lateral X-rays only ≥6 years old: AP, lateral and odontoid X-rays are required … Lateral X-rays should include views of the vertebral column from the occiput to T1 vertebra (this may require shoulder traction) … Flexion and extension views are NOT recommended",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f63d75150a35954",
+     "n": 99,
+     "p": "≤5 years"
+    },
+    {
+     "h": "b89797e57893b9fa",
+     "n": 128,
+     "p": "Lateral "
+    },
+    {
+     "h": "381534802d6f7b59",
+     "n": 47,
+     "p": "Flexion "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Inconclusive imaging, or persistent symptoms or signs whatever the imaging shows → keep precautions and consider MRI or specialist consultation.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If imaging findings (CT or X-ray) are inconclusive or the child has persistent symptoms or clinical signs (regardless of imaging findings), cervical spine precautions should be continued, and MRI/specialist consultation considered",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "260585b285026e8b",
+     "n": 230,
+     "p": "If imagi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**A soft collar, labelled \"C-spine not clear\"**, is often useful. ⚠️ **Do not reposition the neck** of a child who supports their head with their hands, has traumatic torticollis or concerning abnormal neurology — leave them in their position of preference.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A soft collar is often useful to minimise movement … Also label with “C-spine not clear” until CSI has been excluded. However, do not reposition the neck for the following children who should be left in a position of preference Children who use their hands to support the head Children with traumatic torticollis Concerning abnormal neurology on examination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c5a5c2c028636a2",
+     "n": 50,
+     "p": "A soft c"
+    },
+    {
+     "h": "f1b4124bc53f3e45",
+     "n": 304,
+     "p": "Also lab"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Hard collars are not recommended** — they can raise intracranial pressure and cause respiratory disturbance, agitation and pressure injury.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hard collars are not recommended. Potential harm associated with hard collar use includes raised intracranial pressure, respiratory disturbance, agitation and localised pressure injury",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "048c893785b61c60",
+     "n": 184,
+     "p": "Hard col"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Take every child off the spinal board at transfer from the ambulance trolley.** Use a thoracic elevation device under 8 years (head elevation in teenagers) for a neutral position. **Sandbags or foam blocks: never taped.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children should be removed from spinal boards at the time of transfer from an ambulance trolley … A thoracic elevation device (TED) should be used in children <8 years old when available, or head elevation in teenagers to achieve neutral position … Sandbags or foam blocks can be used but should NOT be taped",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "122e334fe1b2ecd8",
+     "n": 99,
+     "p": "All chil"
+    },
+    {
+     "h": "07874c98d7e41b48",
+     "n": 148,
+     "p": "A thorac"
+    },
+    {
+     "h": "4c4344d66ee13c34",
+     "n": 59,
+     "p": "Sandbags"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Replace any pre-hospital collar with a new foam collar labelled \"Cervical spine not cleared\".** Babies, infants and uncooperative children who don't fit a foam collar: minimise movement without one, and make clear to staff and family that the spine is not clear.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children who are fitted with a pre-hospital collar should be fitted with a new foam collar labelled with “Cervical spine not cleared” … If the child is uncooperative or too small to fit a foam collar (baby or infant), movement should be minimised as best as possible without the use of a foam collar. It should be made clear to all staff and family that the cervical spine is not clear",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06a1e7b639ca8a41",
+     "n": 133,
+     "p": "Children"
+    },
+    {
+     "h": "0c2ce69f3d4e6f45",
+     "n": 249,
+     "p": "If the c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moments of risk:** early pain relief for pain or agitation; early antiemetics (or a gastric tube) for vomiting; in conscious infants, consider removing the collar and letting the child find their own position, e.g. in a parent's arms.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pain/agitation Early pain relief … Vomiting Early administration of antiemetics (or gastric tube insertion if appropriate) … In conscious infants, consider removing collar and allowing child to find their own best neck position (eg in parent's arms)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0dfea143a30cce7",
+     "n": 32,
+     "p": "Pain/agi"
+    },
+    {
+     "h": "ec442049ef0a3d75",
+     "n": 87,
+     "p": "Vomiting"
+    },
+    {
+     "h": "d5d854def738c1c9",
+     "n": 124,
+     "p": "In consc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Intubation:** assign an attendant to neck positioning, consider fibreoptic intubation, and avoid unpredictable muscle contractions such as from depolarising neuromuscular blockers.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intubation Assign specific attendant to neck positioning Consider fibreoptic intubation Avoid unpredictable muscular contractions eg depolarising neuromuscular junction blockade agents",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bce0fd492ee5fddf",
+     "n": 184,
+     "p": "Intubati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult local specialist teams when** the spine can't be cleared clinically, the choice of imaging is uncertain, or imaging is normal but symptoms or signs persist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local specialist teams when the cervical spine cannot be cleared clinically the role and modality of imaging to investigate suspected CSI is uncertain the radiological findings are normal, but the child has persistent symptoms or signs",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a462a4cbcc4aab8",
+     "n": 262,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Children meeting major trauma criteria, including suspected or confirmed CSI, should go to a major trauma service.**",
+   "claim": "⚠️ **A child who meets major trauma criteria — confirmed or suspected CSI included — belongs at a major trauma service.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "all children meeting major trauma criteria, including suspected or confirmed CSI should be referred and transferred to a major trauma service for definitive management.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4ad77a64974b085",
+     "n": 168,
+     "p": "all chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge when** the spine has been cleared, or CSI has been discussed with the appropriate team and a treatment and follow-up plan is in place.",
+   "claim": "**Discharge when** the spine has been cleared, or CSI has been discussed with the appropriate team and a plan for treatment and follow-up has been made.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when the cervical spine has been cleared CSI has been identified and discussed with the appropriate local team. A treatment and follow-up plan is in place",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6825bc9b0b29381",
+     "n": 173,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cervical spine assessment' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/, retrieved 2026-09-23"
   }
  ]

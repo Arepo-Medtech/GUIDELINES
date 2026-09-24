@@ -1,172 +1,364 @@
 {
  "guideline": "guidelines/neonatal-empiric-antimicrobials.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Neonatal antimicrobial guidelines' (Last updated January 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Neonatal antimicrobial guidelines' (Last updated January 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
-   "claim": "⚠️ **Give antibiotics within 1 hour of the decision to treat**; do not delay them unduly for investigations.",
+   "claim": "⚠️ **Antibiotics go in within 1 hour of deciding to treat**; investigations should not hold them up unduly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antibiotic therapy should be commenced within 1 hour of the decision to treat and should not be unduly delayed for investigations",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f65c6ef6b8f06c18",
+     "n": 129,
+     "p": "Antibiot"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Early-onset sepsis (under 48 hours)** is usually GBS or *E. coli* — GBS more in term infants, *E. coli* in preterm. **Late-onset (over 48 hours)** pathogens differ between community and hospital acquisition.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Early onset sepsis (EOS <48 hours) is commonly caused by Group B streptococci (GBS) or Escherichia coli … GBS is more common in term infants, and E. coli in preterm infants … Late onset sepsis (LOS >48 hours) in the community has different causative pathogens to hospital acquired infection",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0c73a2287e79dd5",
+     "n": 103,
+     "p": "Early on"
+    },
+    {
+     "h": "473148005c242dfe",
+     "n": 66,
+     "p": "GBS is m"
+    },
+    {
+     "h": "b536eea070a60936",
+     "n": 115,
+     "p": "Late ons"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Consider herpes simplex in all septic neonates, with a very low threshold for empiric aciclovir.** *Listeria* is rare but serious.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Herpes simplex virus should be considered in all septic neonates … with a very low threshold for commencing empiric Aciclovir … Listeria monocytogenes is a rare but serious infection in the neonatal period",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eaf44acbe1f2cfcf",
+     "n": 64,
+     "p": "Herpes s"
+    },
+    {
+     "h": "d996422b248b16bd",
+     "n": 58,
+     "p": "with a v"
+    },
+    {
+     "h": "f26d326b829ce19c",
+     "n": 77,
+     "p": "Listeria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Neonatal sepsis mortality is up to 20% in high-income countries**, inversely related to gestational age. Unnecessary, broad or prolonged antibiotics also harm neonates and drive resistance.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Sepsis in the neonatal period causes significant morbidity with a mortality rate of up to 20% in high-income countries. Mortality is inversely related to gestational age … Unnecessary, broad-spectrum, and prolonged antibiotic use in the neonatal period can have detrimental outcomes on neonatal morbidity and mortality and contribute to the burden of antimicrobial resistance.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9330d30b101d264b",
+     "n": 169,
+     "p": "Sepsis i"
+    },
+    {
+     "h": "b5ff575a59e7fe91",
+     "n": 204,
+     "p": "Unnecess"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Blood culture from a peripheral site and every central lumen** — minimum 0.5 mL, preferably 1 mL under 1.5 kg or 1.5 mL for 1.5–5 kg. Plus FBE and CRP or procalcitonin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FBE, CRP or procalcitonin … Blood culture - peripheral and from all central venous access lumens. Minimum volume = 0.5 mL but preferably 1 mL ( <1.5 kg) or 1.5 mL (1.5 – 5 kg).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d6e53c0da723a4d",
+     "n": 25,
+     "p": "FBE, CRP"
+    },
+    {
+     "h": "af9636ce19574d46",
+     "n": 148,
+     "p": "Blood cu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**LP particularly in late-onset sepsis.** Meningitis is uncommon in suspected early-onset sepsis (1–2%): do an LP if suspicion is high (maternal chorioamnionitis or PPROM, neurological signs) or blood cultures are positive.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lumbar puncture - particularly in LOS. Meningitis is less common in suspected EOS (1–2%) and LP should be performed if there is a high level of clinical suspicion e.g. maternal chorioamnionitis or PPROM, neurological signs in the infant, or if blood cultures are positive.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35b11c8b6cd01aab",
+     "n": 272,
+     "p": "Lumbar p"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Strongly consider removing the central line in sepsis.** Fulminant sepsis: urgent ID consultation on broadening. Start empirically, then tailor to microbiology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Strongly consider central line removal in infants with sepsis. For infants with fulminant sepsis, urgent ID consultation to advise on broadening treatment is recommended Empiric regimens are recommended for initial treatment. Tailor ongoing antibiotic use to microbiological results",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d3b7a38f90b9c96",
+     "n": 282,
+     "p": "Strongly"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Early-onset sepsis, meningitis not suspected or CSF normal:** **benzylpenicillin and gentamicin** (covers GBS, *E. coli*, *Listeria*). **Stop after 36 hours** if cultures show no growth and the baby is well.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Early-onset sepsis (<48 hours) Meningitis NOT suspected or Normal CSF Group B streptococci E.coli L. monocytogenes Benzylpenicillin and Gentamicin Cease after 36 hours if no growth on cultures and patient well.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "30b912176d0aab70",
+     "n": 210,
+     "p": "Early-on"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Late-onset sepsis, meningitis not suspected or CSF normal:** **cefazolin and gentamicin.** Stop after 36 hours if cultures show no growth — earlier if another cause is found (e.g. enterovirus).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Late-onset sepsis (>48 hours) Meningitis NOT suspected or Normal CSF As above plus other Gram-negatives H. influenzae spp. S. pneumoniae N. meningitidis S. aureus Group A streptococci Cefazolin and Gentamicin Cease antibiotics after 36 hours if no growth on cultures. Earlier cessation possible if alternative cause identified (e.g. enterovirus)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9110eebd9b626737",
+     "n": 345,
+     "p": "Late-ons"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Meningitis suspected or CSF abnormal: benzylpenicillin and a 3rd-generation cephalosporin.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Meningitis suspected or Abnormal CSF Benzylpenicillin and 3rd gen cephalosporin1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fde65124277b7797",
+     "n": 80,
+     "p": "Meningit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Avoid ceftriaxone where possible under 41 weeks' gestation**, especially if jaundiced or receiving calcium-containing solutions including TPN (cefotaxime is the other third-generation option).",
+   "claim": "⚠️ **Avoid ceftriaxone where possible under 41 weeks' gestation**, especially with jaundice or when calcium-containing solutions (TPN included) are running (cefotaxime is the other third-generation option).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Third-generation cephalosporins Cefotaxime/ceftriaxone: Where possible, ceftriaxone should be avoided in neonates <41 weeks gestation, particularly if jaundiced or receiving calcium containing solutions, including TPN",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac1e73cd98d5de86",
+     "n": 217,
+     "p": "Third-ge"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Add aciclovir if herpes simplex is possible.** HSV risk factors: maternal HSV · recent exposure (incubation up to 12 days) · abnormal neurology or seizures · vesicular rash · corneal ulcer/keratitis · hepatitis.",
+   "claim": "**Add aciclovir if herpes simplex is possible.** HSV risk factors: maternal HSV · recent exposure (incubation up to 12 days) · seizures or abnormal neurology · vesicular rash · hepatitis · corneal ulcer/keratitis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Add Aciclovir if presentation suggests possibility of … Herpes simplex virus (HSV) risk factors Maternal HSV Recent HSV exposure (incubation period up to 12 days) Abnormal neurological status or seizures Vesicular rash Corneal ulcer/keratitis Hepatitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5f4f8de3cf671281",
+     "n": 53,
+     "p": "Add Acic"
+    },
+    {
+     "h": "2e710ecfc5b4f5b4",
+     "n": 196,
+     "p": "Herpes s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Add benzylpenicillin if *Listeria* is suspected** (disseminated abscesses or granulomas, pustular rash, maternal listeriosis).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Add Benzylpenicillin if Listeria6 suspected … Listeria risk factors Disseminated abscesses, granulomas Pustular skin rash Maternal listeriosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b5125ba9a42c62f",
+     "n": 43,
+     "p": "Add Benz"
+    },
+    {
+     "h": "6a4ae7683290d110",
+     "n": 96,
+     "p": "Listeria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
-   "claim": "**MRSA risk — use vancomycin instead of cefazolin, and add vancomycin for meningitis cover.** Risk factors: fulminant infection (e.g. inotropes) · known infant or maternal colonisation · Aboriginal and Torres Strait Islander or Pacific Islander child.",
+   "claim": "**MRSA risk — use vancomycin instead of cefazolin, and add vancomycin for meningitis cover.** Risk factors: fulminant infection (e.g. inotropes) · colonisation known in the infant or mother · a child who is Pacific Islander or Aboriginal and Torres Strait Islander.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Use Vancomycin instead of Cefazolin if MRSA3 risk factors Add vancomycin for meningitis cover if MRSA3 risk factors … Methicillin-resistant Staphylococcus aureus (MRSA) Fulminant infection (e.g. inotrope requirement) Known infant or maternal colonisation Aboriginal and Torres Strait Islander or Pacific Islander child",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ea173ca989e99af",
+     "n": 115,
+     "p": "Use Vanc"
+    },
+    {
+     "h": "7e8b2bb7a9982bf3",
+     "n": 200,
+     "p": "Methicil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Suspected fungal infection: add liposomal amphotericin, continued for 72 hours pending blood culture.** Risk factors: fulminant infection · under 1500 g deteriorating on antibiotics · ≥7 days of antibiotics with deterioration · TPN or systemic steroids · thrombocytopenia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Add Liposomal Amphotericin if fungal infection … Continue empiric antifungals for 72 hours pending blood culture … Fungal infection risk factors Fulminant infection (e.g. inotrope requirement) <1500 g and deteriorates while on antibiotics ≥7 days antibiotics with deterioration On TPN or systemic steroids Thrombocytopenia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "294eebcde9504ee3",
+     "n": 46,
+     "p": "Add Lipo"
+    },
+    {
+     "h": "03ec3389ca78f5f7",
+     "n": 63,
+     "p": "Continue"
+    },
+    {
+     "h": "04763df042e449bc",
+     "n": 207,
+     "p": "Fungal i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**UTI: gentamicin.** Uncomplicated (fever without vomiting or urological abnormality): **3 days IV then 4 days oral.** Bacteraemic: **7 days IV then 3 days oral.** Narrow to culture and request an early renal ultrasound.",
+   "claim": "**UTI: gentamicin.** Uncomplicated (fever without vomiting or urological abnormality): **IV for 3 days, then oral for 4 days.** Bacteraemic: **IV for 7 days, then oral for 3 days.** Narrow to culture and request an early renal ultrasound.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urinary tract infection E. coli P. mirabilis K. oxytoca Other Gram-negatives Enterococcus spp. Gentamicin Uncomplicated UTI8: 3 days IV then 4 days oral Bacteraemic UTI: 7 days IV then 3 days oral Narrow antibiotics based on culture result Request early renal ultrasound … Uncomplicated urinary tract infection Fever, but no vomiting or urological abnormalities",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e334cce2b6930db1",
+     "n": 270,
+     "p": "Urinary "
+    },
+    {
+     "h": "65d85f91b3955288",
+     "n": 88,
+     "p": "Uncompli"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Intra-abdominal infection (e.g. NEC): amoxicillin and gentamicin and metronidazole, 7–10 days.** At 72 hours: switch to amoxicillin-clavulanic acid if improving, or to piperacillin-tazobactam if not.",
+   "claim": "**Intra-abdominal infection (e.g. NEC): 7–10 days of amoxicillin plus gentamicin plus metronidazole.** At 72 hours: switch to amoxicillin-clavulanic acid if improving, or to piperacillin-tazobactam if not.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intra-abdominal infection (e.g. Necrotising enterocolitis) Gram-negative coliforms Anaerobes Enterococcus spp Amoxicillin and Gentamicin and Metronidazole 7 – 10 days Change to Amoxicillin-clavulanic acid at 72 hours if infant clinically improving If no improvement at 72 hours, switch to Piperacillin-tazobactam",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2cc8455f0ee0b42",
+     "n": 312,
+     "p": "Intra-ab"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Cellulitis or post-operative wound infection: cefazolin, 5–7 days**, switching IV to oral at 3 days if improved.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cellulitis, Post-operative wound infection Group A streptococci S. aureus Cefazolin 5 – 7 days (IV to oral switch at 3 days if improved)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b08173948368f678",
+     "n": 136,
+     "p": "Cellulit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Fungal prophylaxis: nystatin for all infants under 1500 g**, stopping at ≥1500 g.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fungal All infants <1500 g Nystatin Cease when weight ≥1500 g",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3b2f5f1c5d6f5cf5",
+     "n": 61,
+     "p": "Fungal A"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**UTI prophylaxis: trimethoprim**, decided case by case with Nephrology or Urology; stop if nil by mouth.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urinary tract infection Trimethoprim If nil by mouth, cease prophylaxis Discuss with Nephrology or Urology teams to determine need for UTI prophylaxis on a case-by-case basis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "715afa05214b43a4",
+     "n": 174,
+     "p": "Urinary "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23"
   },
   {
    "claim": "**Surgical prophylaxis: cefazolin within 1 hour before surgery**; post-operative doses usually not required (maximum 24 hours). Add **metronidazole** for intra-abdominal, pelvic, deep debridement, ischaemic limb, bowel-lumen entry or open fracture.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most procedures Within 1 hour prior to start of surgery Cefazolin Prophylactic post-operative antibiotics usually not required (maximum 24 hours) … If intra-abdominal, pelvic, deep wound debridement, ischaemic limb, risk of bowel lumen entry, open fracture Cefazolin and Metronidazole",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7fb16eda3941cc01",
+     "n": 145,
+     "p": "Most pro"
+    },
+    {
+     "h": "37f3b9e5926db0de",
+     "n": 136,
+     "p": "If intra"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal antimicrobial guidelines' (Last updated January 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/, retrieved 2026-09-23",
    "dose": true
   }

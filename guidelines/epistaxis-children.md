@@ -1,11 +1,11 @@
 # Epistaxis in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** causes, red flags, first aid, cautery, anterior packing and discharge advice for nosebleeds in children. No adult counterpart in this compendium; bleeding from ITP is in `immune-thrombocytopenia-children`.
 
-> ✅ **OPEN AND QUOTED.** 21 of 21 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Epistaxis*** (Last updated April 2026); **31 fragments re-checked by machine. 2 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 of 21 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Epistaxis*** (Last updated April 2026); **31 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **Under 2 years, epistaxis is rare: consider child abuse or underlying systemic disease.** Try simple measures first; seek ENT early if bleeding is severe or hard to stop.
+> ⚠️ **Under 2 years, epistaxis is rare: think of systemic disease or child abuse.** Start with simple measures; seek ENT early if bleeding is severe or hard to stop.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## Investigations
 
-- **Usually none for a single self-limiting episode.** Consider FBE, coagulation screen and group and hold/cross-match for severe or recurrent bleeding, a suspected bleeding disorder, or haemodynamic compromise. [S1]
+- **Usually none for a single self-limiting episode.** With severe or recurrent bleeding, a suspected bleeding disorder, or haemodynamic compromise, consider FBE, a coagulation screen and group and hold/cross-match. [S1]
 
 ## First aid
 
@@ -31,14 +31,14 @@
 
 ## Cautery
 
-- **Cauterise if simple measures fail and a visible vessel is on the anterior septum.** Get senior help; consider procedural sedation if the child is unlikely to tolerate it. [S1]
-- **First apply gauze soaked in Co-Phenylcaine, or topical lignocaine 1% with adrenaline 1:100,000, for 10–15 minutes**, keeping pressure on. ⚠️ The page's lignocaine dose figure is ambiguous and is not restated here — see Unresolved. [S1]
+- **Cautery: when simple measures have failed and a vessel can be seen on the anterior septum.** Get senior help; if the child is unlikely to cope, consider procedural sedation. [S1]
+- **First hold gauze on the site for 10–15 minutes, soaked in Co-Phenylcaine or in topical 1% lignocaine with 1:100,000 adrenaline**, keeping pressure on. ⚠️ The page's lignocaine dose figure is ambiguous and is not restated here — see Unresolved. [S1]
 - **Silver nitrate: treat the area around the bleeding point first, then the vessel, for a few seconds until a white eschar forms.** Cauterising both sides of the septum may be needed and is not thought to raise the risk of perforation. [S1]
 
 ## Anterior packing
 
 - **Young children rarely tolerate packing**, which may need to stay in for 48 hours. If the site is known, use a **unilateral anterior pack.** [S1]
-- **Prefer resorbable tampons for young children or bleeding disorders**, to avoid traumatic removal. **Discharge home and review in 48 hours if tolerated.** [S1]
+- **Prefer resorbable tampons for young children or bleeding disorders**, to avoid traumatic removal. **If tolerated, send home with review at 48 hours.** [S1]
 - ⚠️ **Site not visible (profuse or posterior), or bilateral packing needed: consult ENT.** [S1]
 
 ## Escalation and discharge
@@ -57,12 +57,12 @@
 | 1 | **No tranexamic acid dose on this page** for the shocked child. `immune-thrombocytopenia-children` quotes oral tranexamic acid 25 mg/kg (max 1.5 g) for epistaxis in ITP; that is a different indication and route, so it is not transferable here. | `observation` |
 | 2 | ⚠️ **The lignocaine-with-adrenaline dosing reads '0.3mL/kg, max 3mg'.** 0.3 mL/kg of 1% lignocaine is 3 mg/kg, so 'max 3mg' may be a missing '/kg'. Quoted as written; confirm locally. | `observation` |
 | 3 | **The Little's area diagram and the cautery video** are images or media only. | `input_unavailable` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Epistaxis*. Last updated April 2026. https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Epistaxis*. Last updated April 2026. https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

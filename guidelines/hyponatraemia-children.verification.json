@@ -1,145 +1,304 @@
 {
  "guideline": "guidelines/hyponatraemia-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Hyponatraemia' (Last updated November 2023), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Hyponatraemia' (Last updated November 2023), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 18,
-  "pass": 18,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
-   "claim": "**Normal sodium is 135–145 mmol/L.** Hyponatraemia usually comes from excess water intake or impaired free water excretion; acute hyponatraemia can cause cerebral oedema.",
+   "claim": "**Normal sodium is 135–145 mmol/L.** The usual cause is too much water in, or too little free water excreted; acute hyponatraemia can cause cerebral oedema.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In children, the normal range of sodium is 135-145 mmol/L … Hyponatraemia usually occurs due to excess water intake or impaired free water excretion … Acute hyponatraemia can result in cerebral oedema",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d34cb1ec9aa424b3",
+     "n": 57,
+     "p": "In child"
+    },
+    {
+     "h": "bca74f347731aeac",
+     "n": 88,
+     "p": "Hyponatr"
+    },
+    {
+     "h": "31d2e40186240a30",
+     "n": 49,
+     "p": "Acute hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Severity:** mild 125–135 (mostly asymptomatic) · moderate 120–125 (nausea, malaise) · **severe under 120 mmol/L (headache, obtundation, seizures).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild (125-135 mmol/L): most children are asymptomatic Moderate (120-125 mmol/L): children may have non-specific symptoms such as nausea and malaise Severe (<120 mmol/L): headache, obtundation and seizures may occur",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e93621fda96a70ce",
+     "n": 214,
+     "p": "Mild (12"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Chronic hyponatraemia (over 48 hours)** is subtler — restlessness, weakness, fatigue, irritability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Chronic hyponatraemia (developing >48 hours) may have more subtle features such as restlessness, weakness, fatigue or irritability (due to cerebral adaptation)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "968328e2b92099d2",
+     "n": 159,
+     "p": "Chronic "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Speed of onset predicts neurological risk better than the sodium level.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The speed of onset of hyponatraemia is often a better predictor of risk of neurological compromise than the sodium level",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f83262d0732e9d9",
+     "n": 120,
+     "p": "The spee"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Red flags:** nausea and vomiting, irritability, headache, decreased conscious state, seizures.",
+   "claim": "⚠️ **Red flags:** seizures · decreased conscious state · headache · irritability · nausea and vomiting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red Flags Nausea and vomiting Irritability Headache Decreased conscious state Seizures",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "492e81462c846a4b",
+     "n": 86,
+     "p": "Red Flag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Fluid status is key** to both the cause and the treatment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fluid status is key in determining the cause of hyponatraemia and dictating treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e1147bc94d2351d",
+     "n": 85,
+     "p": "Fluid st"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**SIADH causes:** pulmonary (pneumonia, bronchiolitis, ventilation), CNS (infection, injury, tumour), post-operative, trauma, pain, and endocrine (hypothyroidism, low cortisol).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Increased ADH secretion (SIADH): Pulmonary: pneumonia, bronchiolitis, mechanical ventilation CNS: infections, injury, tumour Post-operative, trauma, pain Endocrine: Hypothyroid, low cortisol",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "398cc737e5899829",
+     "n": 190,
+     "p": "Increase"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Medication causes listed:** chemotherapy (cyclophosphamide, vincristine, platinum agents), antiepileptics (valproate, carbamazepine, oxcarbazepine), vasopressin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Medications: Chemotherapy (cyclophosphamide, vincristine, platinum-based agents) Antiepileptics (valproate, carbamazepine, oxcarbazepine) Vasopressin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7bc27784cbb17a6e",
+     "n": 149,
+     "p": "Medicati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Exclude pseudo-hyponatraemia** — e.g. high glucose, mannitol, sorbitol. **Corrected Na in hyperglycaemia = serum Na + (BSL − 5)/3.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Exclude pseudo-hyponatraemia secondary to, for example high blood glucose … mannitol or sorbitol … Corrected sodium in hyperglycaemia = serum Na + (BSL-5)/3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "55bfaf30915c41c6",
+     "n": 73,
+     "p": "Exclude "
+    },
+    {
+     "h": "51afb7d70b6b9bb3",
+     "n": 20,
+     "p": "mannitol"
+    },
+    {
+     "h": "3db3e38cd5527c83",
+     "n": 57,
+     "p": "Correcte"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Isotonic fluids** (sodium 125–160 mmol/L): 0.9% sodium chloride, Plasma-Lyte 148, Hartmann's. **Hypotonic fluids** (sodium under 125 mmol/L): e.g. oral rehydration solution.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Isotonic fluids are those containing a similar sodium concentration to plasma (sodium ≥125 to 160 mmol/L) eg 0.9% sodium chloride, Plasma-Lyte 148 and Hartmann’s solution … Hypotonic fluids contain a sodium concentration less than that of plasma (sodium <125 mmol/L) eg Oral Rehydration Solution",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e51f22ab4b020ba",
+     "n": 170,
+     "p": "Isotonic"
+    },
+    {
+     "h": "77448ea40c28509a",
+     "n": 122,
+     "p": "Hypotoni"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If Na under 130 mmol/L:** paired serum and urine osmolality, urinary sodium, BSL; blood gas if significantly unwell.",
+   "claim": "**If Na under 130 mmol/L:** BSL, urinary sodium, and serum osmolality paired with urine osmolality; blood gas if significantly unwell.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Recommended if Na <130 mmol/L Paired serum and urine osmolality Urinary sodium BSL … Consider blood gas if significantly unwell",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4bb5481929b00a94",
+     "n": 82,
+     "p": "Recommen"
+    },
+    {
+     "h": "9f6520595cd2c749",
+     "n": 42,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**History:** fluid intake and losses, the underlying cause (infection, malignancy, trauma), SIADH-causing medications, neurological status. **Examine** fluid status, weight and signs of cerebral oedema.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "History Fluid intake and losses Underlying cause, for example: infections, malignancy, trauma Medications which may cause SIADH Neurological status … Examination Fluid status Weight Signs of cerebral oedema",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f9d44779a2e0cd6",
+     "n": 147,
+     "p": "History "
+    },
+    {
+     "h": "95b247fd43249304",
+     "n": 56,
+     "p": "Examinat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Hyponatraemic seizures are a medical emergency and may not respond to anticonvulsants — do not delay sodium correction.**",
+   "claim": "⚠️ **A hyponatraemic seizure is an emergency that may resist anticonvulsants — correct the sodium without delay.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hyponatraemic seizures are a medical emergency and may be refractory to anticonvulsants; do not delay sodium correction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f936851d8271b1cb",
+     "n": 119,
+     "p": "Hyponatr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Target correction 6–8 mmol/L in 24 hours; do not exceed 8 mmol/L in 24 hours in a child who is not seizing.** Rapid correction risks osmotic demyelination.",
+   "claim": "⚠️ **Aim to raise sodium by 6–8 mmol/L per 24 hours; in a child who is not seizing, never more than 8 mmol/L over that 24 hours.** Rapid correction risks osmotic demyelination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The rate of correction of hyponatraemia should not exceed 8 mmol/L in 24 hours in a non-seizing child … The target rate of serum sodium correction is 6-8 mmol/L in 24 hours (unless seizing, see flowchart below) … Rapid correction of hyponatraemia can result in osmotic demyelination syndrome",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc1089d95d2cc9de",
+     "n": 101,
+     "p": "The rate"
+    },
+    {
+     "h": "d74862deb41425ae",
+     "n": 106,
+     "p": "The targ"
+    },
+    {
+     "h": "4ad78ef6dec12e4e",
+     "n": 78,
+     "p": "Rapid co"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Management depends on seizures/altered conscious state and fluid status.** Strict fluid balance with weights for every child; treat the underlying cause.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Management is determined by presence of seizures/altered conscious state and fluid status … All children should have a strict fluid balance including weight Treat the underlying cause",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54eaf3f495326ee2",
+     "n": 89,
+     "p": "Manageme"
+    },
+    {
+     "h": "0b9430b553edcf44",
+     "n": 91,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the paediatric team** if Na under 130 mmol/L or symptomatic, correction has exceeded 8 mmol/L in 24 hours, or fluid needs are complex (e.g. PN).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Sodium level <130 mmol/L or the child is symptomatic Correction >8 mmol/L in 24 hours Child has complex fluid requirements (eg parenteral nutrition)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90e6d1558c1e5f38",
+     "n": 202,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider transfer** if Na under 125 mmol/L or there are CNS symptoms, including seizures or altered conscious state.",
+   "claim": "⚠️ **Consider transfer** if Na under 125 mmol/L, or with CNS symptoms such as altered conscious state or seizures.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Sodium <125 mmol/L CNS symptoms including seizures or altered conscious state",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "55ccbcf9c1cd6f21",
+     "n": 100,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge** once the cause is identified and adequately treated.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Cause for hyponatraemia identified and treated adequately",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42a9159b58f159cc",
+     "n": 81,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hyponatraemia' (Last updated November 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/, retrieved 2026-09-23"
   }
  ]

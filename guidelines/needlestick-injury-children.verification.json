@@ -1,137 +1,240 @@
 {
  "guideline": "guidelines/needlestick-injury-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Community acquired needle stick injury' (Last Updated January 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Community acquired needle stick injury' (Last Updated January 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 17,
-  "pass": 17,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 17
  },
  "claims": [
   {
-   "claim": "**There are no published reports of an incidental community needlestick in a child transmitting a blood-borne virus** (hepatitis B, hepatitis C or HIV).",
+   "claim": "**No published report exists of a child acquiring a blood-borne virus from an incidental community needlestick** (hepatitis B, hepatitis C or HIV).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There are no published reports of an incidental CA-NSI in a child leading to transmission of a blood borne virus such as hepatitis B, hepatitis C, or HIV",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a030dfc6c7df4729",
+     "n": 153,
+     "p": "There ar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Decide whether the CA-NSI is high risk, and establish the child's immunisation status.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "It is important to determine whether a CA-NSI is high risk, and ascertain the immunisation status of the child",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b75056ef5decf75a",
+     "n": 110,
+     "p": "It is im"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**History:** time, date and place · body site, superficial or deep · source known or unknown · needle/syringe type · first aid given · visible blood on or in the needle · **immunisation history, specifically tetanus and hepatitis B**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Details of incident: time, date, place Details of injury: location on body, superficial or deep Source (the person who used the needle): known or unknown What kind of needle/syringe What first-aid has been provided Was there visible blood on/in the needle/syringe Immunisation history (specifically tetanus and hepatitis B)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "987a1311538bb3da",
+     "n": 323,
+     "p": "Details "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **High-risk CA-NSI:** source known to be infected with a blood-borne virus · deliberate assault · deep, large-volume injection with a hollow-bore needle · adolescent with a personal history of injecting drug use · needle placed directly into a vein or artery · device visibly contaminated with blood.",
+   "claim": "⚠️ **High-risk CA-NSI:** the source is known to carry a blood-borne virus · deliberate assault · deep, large-volume injection with a hollow-bore needle · adolescent with a personal history of injecting drug use · device visibly contaminated with blood · needle placed directly into a vein or artery.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "High risk CA-NSI Source known to be infected with a blood borne virus Needlestick injury from a deliberate assault Deep, large volume injection with hollow bore needle Personal history of injecting drug use (adolescents) Needle directly placed into vein or artery Device visibly contaminated with blood",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c30c928c2d4c97c",
+     "n": 302,
+     "p": "High ris"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess and manage associated injuries first. First aid: wash the site with soap and water**, and dispose of the needle safely.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Assess and manage associated injuries prior to specific management of CA-NSI First Aid: wash site with soap and water Dispose of needle safely",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ebf681f273e0f37",
+     "n": 142,
+     "p": "Assess a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **High-risk CA-NSI: discuss with a senior clinician and consider referral to Infectious Diseases.**",
+   "claim": "⚠️ **High-risk CA-NSI: talk to a senior clinician, and consider an Infectious Diseases referral.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If high risk CA-NSI, discuss with a senior clinician and consider referral to the Infectious Diseases team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2b1752ed160fea1",
+     "n": 106,
+     "p": "If high "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Immunised child: test hepatitis B surface antibody (HBsAb), marked urgent, and follow up the result within 72 hours** (in ED or via the GP). The anti-HBs level should be over 10 mIU/mL.",
+   "claim": "**Immunised child: test hepatitis B surface antibody (HBsAb), marked urgent, with the result followed up within 72 hours** (by the ED or the GP). The anti-HBs level should be over 10 mIU/mL.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If child is immunised, test for: Hepatitis B surface antibody (HBsAb) marked urgent, follow up result within 72 hours (in ED or via GP) Anti-HBs antibody level should be >10 mIU/mL",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "27973dca4e369ff0",
+     "n": 180,
+     "p": "If child"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Store serum; do not routinely test the child for hepatitis C or HIV.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Take serum to store, do not routinely investigate for hepatitis C or HIV",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c0ff9d89bc6f348",
+     "n": 72,
+     "p": "Take ser"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Source, if known:** test hepatitis B surface antigen, hepatitis C serology and HIV serology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Source - if known, test for: Hepatitis B surface antigen Hepatitis C serology HIV serology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "48a4aab639ebb7df",
+     "n": 90,
+     "p": "Source -"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Do not send the needle or syringe for testing** — results on discarded injecting equipment are unreliable.",
+   "claim": "⚠️ **Never send the syringe or needle for testing** — results on discarded injecting equipment are unreliable.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not send the needle or syringe for testing, as results on discarded injecting equipment are unreliable",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0d20b4889b62a8d",
+     "n": 105,
+     "p": "Do not s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Tetanus: needlestick injuries are tetanus-prone wounds** — see `tetanus-prone-wounds`.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tetanus Needlestick injuries are considered tetanus-prone wounds",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "14892320020e918e",
+     "n": 64,
+     "p": "Tetanus "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Hepatitis B:** follow the page's flowchart, with Australian Red Cross Lifeblood for immunoglobulin and the Immunisation Handbook for immunisation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hepatitis B See flowchart, Australian Red Cross Lifeblood for immunoglobulin and Australian Immunisation Handbook for immunisation information",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8886f64f6dd3afdf",
+     "n": 142,
+     "p": "Hepatiti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Hepatitis C: no post-exposure prophylaxis is available.**",
+   "claim": "**Hepatitis C: there is no post-exposure prophylaxis for it.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "No post-exposure prophylaxis is available for hepatitis C",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5e8f906529abe272",
+     "n": 57,
+     "p": "No post-"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **HIV: only children with a high-risk CA-NSI are offered post-exposure prophylaxis** — discuss with Infectious Diseases.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Only children with high risk CA-NSI are offered HIV post-exposure prophylaxis - discuss with Infectious Diseases",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c11e132498bb1433",
+     "n": 112,
+     "p": "Only chi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**PEP immunisations begin a catch-up schedule**; refer children needing further doses to their GP or local immunisation service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immunisations provided as post-exposure prophylaxis mark the beginning of a catch-up schedule. Children who require further or catch-up vaccinations should be referred to their GP or local immunisation service to complete this schedule",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1101e789260fdb0f",
+     "n": 235,
+     "p": "Immunisa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** the necessary treatment, immunisations and a plan to follow up results are arranged.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Necessary treatment, immunisations and plan to follow up results is arranged",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22847c9fe60204c0",
+     "n": 100,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Reassure parents that the risk of viral transmission is exceedingly low.** Unimmunised children: give written information on hepatitis B and tetanus catch-up doses at minimum. Consider referral to the Infectious Diseases outpatient clinic.",
+   "claim": "**Reassure parents: viral transmission risk is exceedingly low.** Unimmunised children: give written information on hepatitis B and tetanus catch-up doses at minimum. Consider referral to the Infectious Diseases outpatient clinic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Reassure parents that the risk of viral transmission from CA-NSI in children is exceedingly low For unimmunised children, provide written information about further catch-up doses of hepatitis B and tetanus immunisations (at minimum) Consider referral to Infectious Diseases outpatient clinic",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa0c722e866cd96b",
+     "n": 291,
+     "p": "Reassure"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Community acquired needle stick injury' (Last Updated January 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/, retrieved 2026-09-23"
   }
  ]

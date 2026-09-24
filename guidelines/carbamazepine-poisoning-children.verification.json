@@ -1,174 +1,342 @@
 {
  "guideline": "guidelines/carbamazepine-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Carbamazepine poisoning' (Last Updated July 2020), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Carbamazepine poisoning' (Last Updated July 2020), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 22,
-  "pass": 22,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
    "claim": "⚠️ **Onset can be prolonged or delayed — children need observation for clinical features to develop.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Carbamazepine poisoning may have prolonged or delayed onset of symptoms, and children require observation for development of clinical manifestations.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "57af08024e0502c2",
+     "n": 149,
+     "p": "Carbamaz"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Serum concentrations correlate reasonably with clinical effects** and are particularly helpful in large ingestions.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is reasonable correlation between carbamazepine serum concentrations and clinical effects, and concentrations can be particularly helpful in large ingestions.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37cb50bd6f55f045",
+     "n": 164,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider decontamination for large ingestions, with a toxicologist.** 24-hour advice: Poisons Information Centre 13 11 26.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Decontamination should be considered for children with large ingestions in consultation with a toxicologist. … For 24 hour advice, contact the Poisons Information Centre 13 11 26",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a08361b8dae23522",
+     "n": 108,
+     "p": "Decontam"
+    },
+    {
+     "h": "0508ed6fdafe81df",
+     "n": 67,
+     "p": "For 24 h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Onset: 1–2 hours for immediate-release, 4–8 hours for sustained-release.** Features: drowsiness, nausea and vomiting, anticholinergic effects, seizures, coma, life-threatening arrhythmias.",
+   "claim": "**Onset: 1–2 hours for immediate-release, 4–8 hours for sustained-release.** Features: nausea and vomiting, drowsiness, anticholinergic effects, seizures, coma and life-threatening arrhythmias.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Clinical features of toxicity generally develop within 1-2 hours for immediate release preparations and 4-8 hours for sustained release. … Clinical features include: drowsiness nausea and vomiting anticholinergic effects seizures coma life-threatening arrhythmias",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9743a820a7e0ca3d",
+     "n": 136,
+     "p": "Clinical"
+    },
+    {
+     "h": "d45495750a967797",
+     "n": 124,
+     "p": "Clinical"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Large ingestions can give prolonged or delayed (over 48 hours) symptoms** — slow, erratic absorption from anticholinergic ileus.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Large carbamazepine ingestions can result in prolonged or delayed (>48 hours) symptoms due to slow and erratic absorption, secondary to anticholinergic effects causing ileus and ongoing absorption.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c57655f5248e6736",
+     "n": 197,
+     "p": "Large ca"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess:** any deliberate self-poisoning · accidental ingestion over 20 mg/kg (or over 20 mg/kg above the usual daily dose if on carbamazepine) · any symptomatic child · unknown quantity. **Consider non-accidental poisoning** if developmental age doesn't fit.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with deliberate self-poisoning or significant (>20 mg/kg OR >20 mg/kg greater than the child’s usual daily dose if on a regular dose) accidental ingestion Any symptomatic child Acute ingestion of unknown quantity Any child where the developmental age is inconsistent with accidental poisoning as non-accidental poisoning should be considered",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bacd8eb1e73a9ca7",
+     "n": 354,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **50 mg/kg (or more than 3 g) is associated with significant toxicity.** Calculate the maximum possible dose per kg and note the formulation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Presented as syrup, immediate or modified-release tablets … Calculate the maximum possible dose per kg Ingestion of 50 mg/kg (or more than 3g) is associated with significant toxicity",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce5329700c9baf6f",
+     "n": 57,
+     "p": "Presente"
+    },
+    {
+     "h": "772b6f881cf9229e",
+     "n": 122,
+     "p": "Calculat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine for:** ataxia, nystagmus, drowsiness, coma, seizures · tachycardia, hypotension, ⚠️ **heart block, QRS widening, VF** · urinary retention, reduced bowel motility, dry mouth.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "CNS: ataxia, nystagmus, drowsiness, coma, seizures Cardiovascular system: tachycardia, hypotension, life threatening arrhythmias (heart block, widening of QRS, ventricular fibrillation) Anticholinergic effects: urinary retention, decreased bowel motility, dry mouth and sinus tachycardia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "651109ef6a2f0086",
+     "n": 287,
+     "p": "CNS: ata"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**ECG at presentation and repeat at 6 hours until normal.** Paracetamol level in all intentional overdoses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "ECG: initially and repeat at 6 hours until normal Paracetemol concentration in all intentional overdoses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6c5d1364e4d5981",
+     "n": 104,
+     "p": "ECG: ini"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Carbamazepine levels:** 5–12 mg/L (20–50 micromol/L) therapeutic · 10–20 mg/L (40–85) nystagmus, sedation, ataxia · 20–40 mg/L (85–170) horizontal and vertical nystagmus, coma.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Carbamazepine concentration: mg/L Micromol/L Effect 5-12 20-50 Therapeutic range 10-20 40-85 Nystagmus, sedation, ataxia 20-40 85-170 Horizontal and vertical nystagmus, coma",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "168a830aa4a453ee",
+     "n": 173,
+     "p": "Carbamaz"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Above 170 micromol/L (40 mg/L): respiratory depression, seizures, arrhythmia.** Children are at risk of severe features at lower concentrations than adults.",
+   "claim": "⚠️ **Above 170 micromol/L (40 mg/L): respiratory depression, seizures, arrhythmia.** Severe features can appear in children at lower concentrations than in adults.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Micromol/L … 40 mg/L >170 Respiratory depression, seizures, cardiac arrhythmia … *Children are at risk of severe features at lower concentrations compared to adults",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36635449cc3e8232",
+     "n": 10,
+     "p": "Micromol"
+    },
+    {
+     "h": "eba6bdff972d27f8",
+     "n": 65,
+     "p": "40 mg/L "
+    },
+    {
+     "h": "726c4cc1eb9f7c05",
+     "n": 83,
+     "p": "*Childre"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat:** all symptomatic children · unknown quantity · over 20 mg/kg if not usually on carbamazepine · over 20 mg/kg above the usual daily dose if on it.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All symptomatic children Acute ingestion of unknown quantity Based on ingestion amount: if child not usually on carbamazepine: dose >20 mg/kg if child on regular carbamazepine: >20 mg/kg above the child's usual daily dose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5949e9152801f995",
+     "n": 221,
+     "p": "All symp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Support blood pressure and electrolytes; IV fluid 20 mL/kg for hypovolaemia or hypotension.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Supportive treatment to maintain adequate blood pressure and electrolyte balance is essential IV fluid resuscitation 20 mL/kg for hypovolaemia or hypotension",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d571c0683c129243",
+     "n": 157,
+     "p": "Supporti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Decontamination only with a toxicologist.** Consider **activated charcoal for massive ingestion (over 50 mg/kg) within 24 hours**, or after a large controlled-release ingestion. ⚠️ **With CNS toxicity, give charcoal only once the airway is secured.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "This must be in discussion with a toxicologist (Poisons Information Centre - 13 11 26) … activated charcoal if massive ingestion (eg >50 mg/kg) and within 24 hours, or after large ingestion of controlled release preparations … In setting of CNS toxicity, activated charcoal should only be administered once airway protection is secured",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "99d63ff15cd4997b",
+     "n": 86,
+     "p": "This mus"
+    },
+    {
+     "h": "b09163dbd4da15c6",
+     "n": 135,
+     "p": "activate"
+    },
+    {
+     "h": "e4194ff6d59a2c1f",
+     "n": 108,
+     "p": "In setti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Multidose activated charcoal may be indicated for large ingestions if bowel sounds are present** — discuss with a toxicologist.",
+   "claim": "**For large ingestions with bowel sounds present, multidose activated charcoal may be indicated** — discuss it with a toxicologist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Multidose activated charcoal may be indicated in children with large ingestions, provided bowel sounds are present. Discuss with a toxicologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3645ba49e2833069",
+     "n": 143,
+     "p": "Multidos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Seizures: benzodiazepines for any that don't self-resolve. Sodium-channel-blocking anticonvulsants (e.g. phenytoin) are relatively contraindicated.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Benzodiazepines should be used to terminate seizures that are not self-resolving. Sodium channel blocking anticonvulsants (eg phenytoin) are relatively contraindicated.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "edeb4c7f9cc48291",
+     "n": 168,
+     "p": "Benzodia"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mild symptoms (ataxia, blurred vision): observe at least 8 hours after ingestion, longer for controlled-release;** discharge once symptom-free.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild symptoms (eg ataxia, blurred vision) Observe for a minimum of 8 hours post-ingestion and consider longer if controlled-release formulation Discharge once symptom-free",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "679cb7bfc956e7e0",
+     "n": 171,
+     "p": "Mild sym"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moderate–severe or persisting after 8 hours (depressed conscious state, arrhythmia): admit** for observation and supportive care; discuss level monitoring with a toxicologist and severe cases with PICU.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Moderate-to-severe or persistent symptoms after 8 hours of observation (eg Depressed conscious state or cardiac arrhythmias) Admit for observation and supportive management Discussion with toxicologist regarding monitoring of drug concentration monitoring Discussion with paediatric intensive care team if severe symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4e480257388a0fe8",
+     "n": 321,
+     "p": "Moderate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for every intentional overdose** and any child still symptomatic after 8 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all children and young people with an intentional overdose or in children with persisting symptoms after 8 hours observation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a592fed122e8d4f2",
+     "n": 159,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider transfer** for severe symptoms that may need intensive care, or care beyond the hospital's comfort level.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with severe symptoms with the potential to require intensive care review or care required is beyond the comfort level of the hospital",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "325a0729fd99a7f3",
+     "n": 142,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when:** normal GCS, normal ECG, and symptom-free after 8 hours of observation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Normal GCS Normal ECG Child remains symptom free after 8 hour period of observation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "623e4986df46c64c",
+     "n": 107,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Adolescents with deliberate ingestion need a self-harm risk assessment and drug and alcohol assessment before discharge**, with links to services if needs are found.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prior to discharge, adolescents who present with deliberate ingestions need a risk assessment regarding the likelihood of further ingestions or other attempts to self-harm Assessment of other drug and alcohol use should also be undertaken If, after risk assessment, it is deemed safe to discharge a patient from hospital, but ongoing mental health or drug and alcohol needs are identified, the adolescent should be linked with appropriate services",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "749b13aaa61c4c8d",
+     "n": 447,
+     "p": "Prior to"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Carbamazepine poisoning' (Last Updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/, retrieved 2026-09-23"
   }
  ]

@@ -1,95 +1,167 @@
 {
  "guideline": "guidelines/invasive-gas-household-contacts.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 11,
-  "pass": 11,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
    "claim": "**iGAS carries significant morbidity and mortality**, and household contacts of a case are at increased risk of secondary iGAS.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Invasive Group A Streptococcal disease (iGAS) is associated with significant morbidity and mortality … There is an increased risk of secondary cases of iGAS in household contacts of an index case",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3d4371815bd71da0",
+     "n": 100,
+     "p": "Invasive"
+    },
+    {
+     "h": "0388553b52b439f7",
+     "n": 92,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
-   "claim": "**iGAS = GAS isolated from a normally sterile site:** bacteraemia/septicaemia · streptococcal toxic shock syndrome · necrotising fasciitis · pneumonia and empyema · retropharyngeal abscess · osteomyelitis or septic arthritis · meningitis.",
+   "claim": "**iGAS = GAS isolated from a normally sterile site:** bacteraemia/septicaemia · streptococcal toxic shock syndrome · necrotising fasciitis · pneumonia and empyema · meningitis · osteomyelitis or septic arthritis · retropharyngeal abscess.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "iGAS is defined by the isolation of GAS from a normally sterile site. Manifestations include: bacteraemia/septicaemia streptococcal toxic shock syndrome (STSS) necrotising fasciitis pneumonia and empyema retropharyngeal abscess osteomyelitis or septic arthritis meningitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a7e8db9c7254935",
+     "n": 272,
+     "p": "iGAS is "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**Cellulitis, scarlet fever and pharyngitis are not invasive disease.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cellulitis, scarlet fever and pharyngitis are not considered to be invasive disease",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "668542a65e5c6512",
+     "n": 83,
+     "p": "Cellulit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Household contact** = spent more than 24 hours in the same house as the case, from 7 days before symptom onset until 24 hours after effective antibiotics began.",
+   "claim": "**Household contact** = over 24 hours spent in the case's house, from 7 days before symptom onset until 24 hours after effective antibiotics began.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Definition: those who have spent more than 24 hours in the same house as an index case in the 7 days prior to symptom onset until 24 hours after effective antibiotic therapy commenced",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61a8a2d7ee8fb7e2",
+     "n": 183,
+     "p": "Definiti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**Secondary cases usually occur within a month, mostly in the first 7 days.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Secondary cases usually occur within a month of the index case, but predominantly in the first 7 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e584e33fe26242f5",
+     "n": 101,
+     "p": "Secondar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**Inform household contacts about iGAS features and give chemoprophylaxis as soon as possible.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Inform household contacts about the clinical features of iGAS and provide chemoprophylaxis as soon as possible",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54b96882d192b51a",
+     "n": 110,
+     "p": "Inform h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**The evidence for chemoprophylaxis is limited** — some experts and guidelines recommend it, but it has not been studied extensively.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Some experts and guidelines recommend antibiotic chemoprophylaxis to reduce the risk of iGAS in household contacts, although this has not been studied extensively",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1349612480d5843e",
+     "n": 162,
+     "p": "Some exp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Whether or not prophylaxis is given, educate every household contact** on their raised risk and the signs needing prompt review: fever · severe muscle aches · sore throat · cellulitis · diarrhoea or vomiting · severe headache.",
+   "claim": "⚠️ **Whether or not prophylaxis is given, educate every household contact** on their raised risk and the signs needing prompt review: fever · sore throat · severe headache · severe muscle aches · vomiting or diarrhoea · cellulitis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Regardless of whether chemoprophylaxis is prescribed, all household contacts should be educated about their increased risk of iGAS and the early signs and symptoms of iGAS that require prompt medical evaluation. These include: fever severe muscle aches sore throat cellulitis diarrhoea or vomiting severe headache",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ac4bbeb97dccf47",
+     "n": 313,
+     "p": "Regardle"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**Do not throat-swab asymptomatic close contacts** to assess carriage — it does not help.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Throat swabs to assess GAS carriage in asymptomatic close contacts are not helpful",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c2b65c92a75fb13",
+     "n": 82,
+     "p": "Throat s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**Asymptomatic household contacts need not isolate or restrict activities.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Asymptomatic household contacts are not required to isolate or restrict activities",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "172ce1165534d848",
+     "n": 82,
+     "p": "Asymptom"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the local paediatric or infectious diseases team** for non-household close contacts, or if adherence to chemoprophylaxis is a concern.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric (or infectious diseases specialist) team when Non-household close contacts or concerns regarding compliance with chemoprophylaxis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7d7b997a9ce0e399",
+     "n": 173,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Invasive group A streptococcal infections: management of household contacts' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/, retrieved 2026-09-23"
   }
  ]

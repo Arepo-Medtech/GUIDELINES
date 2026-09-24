@@ -1,9 +1,9 @@
 # Bone and joint infection in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** recognition, investigation, antibiotics, surgical referral and discharge for osteomyelitis and septic arthritis in children. No adult counterpart in this compendium; `anti-infectives-general-principles` lists both among infections needing extended (>10 day) courses, consistent with RCH.
 
-> ✅ **OPEN AND QUOTED.** 25 of 25 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Bone and joint infection*** (Last updated August 2021); **41 fragments re-checked by machine. 4 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 of 25 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Bone and joint infection*** (Last updated August 2021); **41 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Septic arthritis needs urgent aspiration ± washout — but never delay antibiotics for it.** Fever may be absent, especially in infants.
 
@@ -12,8 +12,8 @@
 ## Recognise it
 
 - **Suspect osteomyelitis or septic arthritis in any child with fever, pain and limited use of a limb or joint.** [S1]
-- **Always consider alternatives:** trauma, non-accidental injury, inflammatory conditions and malignancy. [S1]
-- ***S. aureus* is the commonest cause.** Consider others by age (group B streptococci in neonates, *Kingella kingae* from 6 months to 4 years), immunisation status (*Haemophilus influenzae*) and underlying illness (*Salmonella* in sickle-cell disease). [S1]
+- **Always consider alternatives:** malignancy, inflammatory conditions, trauma and non-accidental injury. [S1]
+- ***S. aureus* is the commonest cause.** Consider others by age (group B streptococci in neonates, *Kingella kingae* at 6 months–4 years), by immunisation status (*Haemophilus influenzae*) and underlying illness (*Salmonella* in sickle-cell disease). [S1]
 - **Consider MRSA at all ages.** *Pseudomonas aeruginosa* after a penetrating foot injury; *Neisseria gonorrhoeae* in sexually active adolescents. [S1]
 - **Sites:** septic arthritis most often hip or knee; osteomyelitis most often femur, tibia, pelvis and humerus — but any joint or bone. [S1]
 - ⚠️ **Fever may be absent, especially in infants.** Symptoms may be wrongly blamed on a minor fall; infants may show only irritability when picked up or changed. [S1]
@@ -23,7 +23,7 @@
 
 ## Investigate
 
-- **A well, afebrile child who is walking or using the limb comfortably may need no tests** — a clear working diagnosis and early follow-up usually suffice. [S1]
+- **A well, afebrile child who is walking or using the limb comfortably may need no tests** — usually enough: an evident working diagnosis plus early review. [S1]
 - ⚠️ **Systemic illness with significant bone or joint pain and limited movement needs urgent investigation and orthopaedic discussion.** [S1]
 - **No blood test is specific.** Inflammatory markers may be normal early, in chronic infection or in small bones of hands and feet; they help monitor treatment. [S1]
 - **Blood cultures before antibiotics if possible**; a blood film helps exclude malignancy. [S1]
@@ -34,7 +34,7 @@
 
 ## Treat
 
-- ⚠️ **Septic arthritis: urgent aspiration ± arthrotomy and washout. Do not delay antibiotics.** [S1]
+- ⚠️ **Septic arthritis: aspirate urgently (± arthrotomy and washout) — and never hold back antibiotics.** [S1]
 - **Uncomplicated osteomyelitis or septic arthritis: cefazolin 50 mg/kg (max 2 g) IV 8-hourly.** Follow local susceptibility guidance. [S1]
 - **Switch to oral after 2–3 days of IV** if uncomplicated, improving, afebrile and markers falling: **cefalexin 45 mg/kg (max 1.5 g) orally 8-hourly.** [S1]
 - **Total duration: osteomyelitis 3–4 weeks; septic arthritis 2–3 weeks** (uncomplicated). [S1]
@@ -55,12 +55,12 @@
 | 1 | ⚠️ **Only uncomplicated infection is dosed.** The page gives no regimen for suspected MRSA, beta-lactam allergy, neonates or complicated infection; it defers to local guidelines and infectious diseases. | `input_unavailable` |
 | 2 | **The differential table** (osteomyelitis vs septic arthritis vs myositis vs discitis vs transient synovitis) is flattened column-by-column in extraction, so rows cannot be reliably attributed; not quoted. | `input_unavailable` |
 | 3 | **Discitis treatment** is not described beyond the longer-course statement for vertebral and disc infection. | `observation` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Bone and joint infection*. Last updated August 2021. https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Bone and joint infection*. Last updated August 2021. https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

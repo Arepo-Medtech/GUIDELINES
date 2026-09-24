@@ -1,9 +1,9 @@
 # Animal and human bites in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** assessment, washout, closure, antibiotic prophylaxis and treatment, and referral for mammalian bites in children. Counterparts: `tetanus` and `rabies-and-lyssaviruses` (Immunisation Handbook); snake bites are in `snakebite-antivenoms`.
 
-> ✅ **OPEN AND QUOTED.** 25 of 25 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Animal and human bites*** (Last updated March 2023); **36 fragments re-checked by machine. 5 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 of 25 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Animal and human bites*** (Last updated March 2023); **36 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Every bite that breaks the skin is a contaminated wound:** prompt, thorough washout and exploration under adequate analgesia or sedation. **Leave most bite wounds open.**
 
@@ -14,8 +14,8 @@
 ## Recognise and assess
 
 - ⚠️ **Skin-breaking bites are contaminated wounds at high risk of infection and need prompt, thorough washout**, with enough analgesia, anaesthesia or sedation to wash out and explore them. [S1]
-- **Dog bites are mostly crush injuries, lacerations and abrasions. Cat bites are almost always punctures** that look small but can penetrate deeply and damage bone, joints and tendons. [S1]
-- **Clenched-fist injury ("fight bite")**: a closed fist striking teeth, leaving a laceration over the dorsum and MCP joints of the hand. [S1]
+- **Dog bites are mostly crush injuries, lacerations and abrasions. Cat bites are almost always punctures** : the wound looks small, yet it may reach deep and injure bone, joints and tendons. [S1]
+- **Clenched-fist injury ("fight bite")**: a closed fist hits teeth, causing a laceration across the back of the hand over the MCP joints. [S1]
 - **Infection is the commonest complication, especially after cat and human bites**; it can show within 24 hours of a dog bite and within 12 hours of a cat bite. [S1]
 - **Ask about tetanus immunisation status**, and look for associated injuries: c-spine and head after a fall, long bone, limb or spine if dragged, eye if the face is bitten. [S1]
 - **Assess depth — cat bites and clenched-fist injuries often go deep. Check nerves, vessels and tendons before infiltrating local anaesthetic**, and examine a joint wound through a range of positions. [S1]
@@ -35,7 +35,7 @@
 - **If in doubt about the wound's extent or the ability to wash it out in ED, refer to Plastics or Orthopaedics.** [S1]
 - ⚠️ **Leave most bite wounds open to heal by secondary intention.** Primary closure only for low-risk wounds that can be fully explored and irrigated, are under 12 hours old and where cosmesis matters (face, neck). **Elevate the limb for 48–72 hours.** [S1]
 - **Give prophylaxis to a non-infected bite with any high-risk feature:** primary closure · presentation over 8 hours · deep puncture or laceration · hand (including clenched fist), face, foot or genitals · near bone or joint · crush injury · open fracture · immunocompromised child · **any cat bite.** [S1]
-- **Oral prophylaxis: amoxicillin/clavulanate 22.5 mg/kg (max 875 mg, amoxicillin component) twice daily for 5 days.** [S1]
+- **Prophylaxis by mouth: amoxicillin/clavulanate twice daily for 5 days, 22.5 mg/kg (up to 875 mg, amoxicillin component).** [S1]
 - **Penicillin hypersensitivity: metronidazole 10 mg/kg (max 400 mg) twice daily PLUS trimethoprim-sulfamethoxazole 4/20 mg/kg (max 160/800 mg) twice daily, both oral for 5 days.** [S1]
 - ⚠️ **Grossly contaminated or infected, or admitted for surgical washout: IV antibiotics** — amoxicillin/clavulanate 25 mg/kg (max 1 g, amoxicillin component) 6–8 hourly, **or** ceftriaxone 50 mg/kg (max 1 g) daily plus oral metronidazole 10 mg/kg (max 400 mg) three times daily, **or** piperacillin-tazobactam 100 mg/kg (max 4 g, piperacillin component) 8 hourly. [S1]
 - **Infected wounds: at least 14 days of antibiotics in total**, longer for deep tissue, bone or joint infection; consider Infectious Diseases advice on duration and the IV-to-oral switch. [S1]
@@ -57,12 +57,12 @@
 | 1 | ⚠️ **Contradicts `drug-choice-for-selected-infections` (AMH) on duration and the penicillin-allergy partner.** AMH: 3 days for prevention, 5–10 days for established infection, and metronidazole **plus doxycycline**. RCH: **5 days** prophylaxis, **at least 14 days** for infected wounds, and metronidazole **plus trimethoprim-sulfamethoxazole**. Both agree on amoxicillin/clavulanate first line. | `observation` |
 | 2 | **Tetanus-prone wound management and rabies/ABLV post-exposure prophylaxis** are separate RCH pages, not retrieved. The corpus counterparts `tetanus` and `rabies-and-lyssaviruses` do not carry the wound table or the PEP schedules either. | `input_unavailable` |
 | 3 | **Snake and spider bites** are separate RCH guidelines; see `snakebite-antivenoms`. | `out_of_scope` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Animal and human bites*. Last updated March 2023. https://www.rch.org.au/clinicalguide/guideline_index/Animal_and_human_bites/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Animal and human bites*. Last updated March 2023. https://www.rch.org.au/clinicalguide/guideline_index/Animal_and_human_bites/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

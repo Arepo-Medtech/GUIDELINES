@@ -1,179 +1,353 @@
 {
  "guideline": "guidelines/prolonged-fever-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Prolonged fever' (Last updated October 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Prolonged fever' (Last updated October 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 23,
-  "pass": 23,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
    "claim": "**Prolonged fever = 38.0°C or more for more than 7 days with no identifiable source.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In this guideline, prolonged fever refers to a fever of ≥38.0°C lasting more than 7 days without an identifiable source",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70a52955a4abc98f",
+     "n": 119,
+     "p": "In this "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Infection is the commonest cause**, but consider malignancy, rheumatological disorders and other inflammatory conditions. Detailed history and serial examination are essential.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infection is the most common cause of prolonged fever. However, malignancy, rheumatological disorders and other inflammatory conditions should also be considered … Detailed history taking and serial examination are essential in the workup",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9dc5f658465f7f5",
+     "n": 161,
+     "p": "Infectio"
+    },
+    {
+     "h": "ee8fbfb0d940a3dc",
+     "n": 74,
+     "p": "Detailed"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Use a tiered approach guided by the presentation** to avoid unnecessary tests. **Investigations may wait 10–14 days** in a previously healthy, immunised, well-looking child who is not a returned international traveller.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A tiered diagnostic approach helps minimise unnecessary investigations and should be guided by the child's clinical presentation … Investigations may be postponed for 10-14 days in previously healthy, immunised, otherwise well looking children, who are not returned international travellers",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "48fe9ad65920a803",
+     "n": 128,
+     "p": "A tiered"
+    },
+    {
+     "h": "eb32dcf8103a78d3",
+     "n": 159,
+     "p": "Investig"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Out of scope:** sepsis, acute febrile illness, returned international travellers, opportunistic infection in the immunocompromised, neonatal and hospital-acquired infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The following are outside the scope of this guideline: Sepsis: assessment and management Acute febrile illness Fever in the recently returned international traveller … Opportunistic infections in immunocompromised children Neonatal infections Hospital-acquired infections",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c5637663c69ba71",
+     "n": 165,
+     "p": "The foll"
+    },
+    {
+     "h": "25b694634e7ecdb5",
+     "n": 103,
+     "p": "Opportun"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ask about:** immune status · Aboriginal and/or Torres Strait Islander status, country of birth, vaccination · fever onset, duration and pattern · resolved symptoms (rash, conjunctivitis, sore throat, skin infection) · weight loss, night sweats, bruising/bleeding, joint pain or swelling.",
+   "claim": "**Ask about:** immune status · vaccination history, country of birth, Aboriginal and/or Torres Strait Islander status · fever onset, duration and pattern · resolved symptoms (rash, conjunctivitis, sore throat, skin infection) · night sweats, weight loss, joint pain or swelling, bruising/bleeding.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immune status: immunocompetent vs immunocompromised Ethnicity and background: Aboriginal and/or Torres Strait Islander status, country of birth, vaccination history Fever details: onset, duration, pattern Resolved or transient symptoms: rash, conjunctivitis, sore throat, skin infections Systemic symptoms: weight loss, night sweats, bruising/bleeding, joint pain or swelling",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "64ad420b03e3928b",
+     "n": 375,
+     "p": "Immune s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Exposure history:** urban vs rural · tank or town water, floods and swimming · soil ingestion (toddlers, pica) · unpasteurised milk or imported foods · pets and animals · arthropod bites · domestic or international travel.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Property type (urban vs rural) Drinking water source (town vs tank) and water exposure (floods, swimming) Soil ingestion (intentional or unintentional eg toddler age-group, children with pica) Consumption of unpasteurised animal milk or imported foods/substances Contact with pets/animals (at home or outside the home) Exposure to arthropod bites Travel history (domestic or international): timeframe of travel, destinations visited, activities undertaken and preventative measures taken",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68a013ac91f51db5",
+     "n": 487,
+     "p": "Property"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Also ask:** recent antibiotics or steroids and possible drug fever · prior microbiology including multi-resistant organisms · family history of ARF/RHD, hereditary cancer, rheumatological, autoimmune or recurrent fever syndromes · sexual history.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Medications: recent antibiotics, steroids, possibility of drug-induced fever Infection history: previous similar episodes of symptoms, previous significant microbiology if available including multi-resistant organisms Family history: acute rheumatic fever (ARF), rheumatic heart disease (RHD), hereditary cancer syndromes, rheumatological conditions, autoimmune disorders or recurrent fever syndromes Sexual history: sexually transmitted infections should be considered",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c8b359dfd5ad2181",
+     "n": 469,
+     "p": "Medicati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine head to toe:** neurology (personality change, lethargy, meningism, focal signs) · **new murmur may mean endocarditis** · subtle chest signs · abdominal tenderness or mass · lymphadenopathy or hepatosplenomegaly · inability to weight bear or bony tenderness · rash, purpura, **hidden tick or eschar**, mucosal changes · sinus, mastoid or dental infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Neurological: change in personality, unexplained lethargy or confusion, meningism or focal neurological findings Cardiac: new murmur may suggest endocarditis Respiratory: subtle reduced air entry or respiratory distress Abdominal: tenderness or mass Lymphadenopathy or hepatosplenomegaly Musculoskeletal: inability to weight bear, focal bony tenderness, or joint pain or swelling Skin and mucosa: rash, purpura, cellulitis, hidden tick or eschar, mucosal or oral changes like conjunctival injection or strawberry tongue Ear, nose and throat: sinus, mastoid or dental infection",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "730afb99b0fc2f48",
+     "n": 576,
+     "p": "Neurolog"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Look for systemic inflammatory conditions:** Kawasaki disease (including incomplete), ARF, JIA and SLE.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs of systemic inflammatory conditions: consider clinical criteria of Kawasaki Disease including incomplete, acute rheumatic fever (ARF), juvenile idiopathic arthritis (JIA) and systemic lupus erythematosus (SLE)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3602c85da0367d01",
+     "n": 215,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Tier 1 bloods:** FBE · UEC and LFTs · CRP, ESR · ferritin, LDH · **serial blood cultures, at least two sets initially** · spare serum and plasma stored for add-on tests.",
+   "claim": "**Tier 1 bloods:** FBE · UEC and LFTs · CRP, ESR · LDH, ferritin · **serial blood cultures, at least two sets initially** · spare serum and plasma stored for add-on tests.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tier 1 investigations Bloods FBE UEC and LFTs CRP, ESR Ferritin, LDH Serial blood cultures, initially at least two sets Collect spare serum and plasma specimens for storage for \"add-on\" investigations as required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "468feb19c82132ca",
+     "n": 212,
+     "p": "Tier 1 i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Tier 1 other:** nasopharyngeal respiratory virus and *Mycoplasma* PCR · urinalysis and MCS · CXR · faecal PCR ± MCS and OCP if diarrhoea · CSF if CNS infection is a concern.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tier 1 investigations Bloods FBE UEC and LFTs CRP, ESR Ferritin, LDH Serial blood cultures, initially at least two sets Collect spare serum and plasma specimens for storage for \"add-on\" investigations as required Other investigations Nasopharyngeal swab for respiratory virus and Mycoplasma pneumoniae polymerase chain reaction (PCR) Urinalysis and MCS Chest radiograph (CXR) Faecal PCR +/- MCS and ova, cyst and parasite examination (if diarrhoea) CSF analysis (if clinical concerns of CNS infection)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "afd8d351dbace7f2",
+     "n": 501,
+     "p": "Tier 1 i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Tier 2:** repeat FBE and film, LDH, urea · serology for EBV, CMV (± IgG avidity if IgM detected), GAS (ASOT, anti-DNAse), *Bartonella henselae*, *Toxoplasma* · throat swab MCS · enterovirus and adenovirus PCR · abdominal ultrasound · targeted imaging for focal findings.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tier 2 investigations Bloods Repeat FBE and film, LDH and urea Serology for Epstein Barr virus Cytomegalovirus +/- IgG avidity (if IgM detected) Group A Streptococcus (ASOT, anti-DNAse) Bartonella henselae Toxoplasma gondii Other investigations Throat swab MCS Nasopharyngeal swab and faecal PCR for enterovirus and adenovirus US abdomen Consideration of further imaging: targeted imaging is preferred in patients with focal findings",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "86ba42271bcd04cd",
+     "n": 433,
+     "p": "Tier 2 i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Tier 3 bloods:** hepatitis A, B, C, E serology ± PCR if LFTs are deranged (**withhold hepatitis B serology in a vaccinated child**) · HIV · syphilis · IGRA ± TB PCR after TB contact or endemic travel · ANA, dsDNA, ENA, ANCA, RF · consider tumour markers, lymph node biopsy and/or bone marrow aspirate. **Tier 3 other:** mycobacterial culture (induced sputum, early-morning gastric aspirate, or stool) after TB contact or endemic travel · FOBT · **echocardiogram** · targeted imaging · CSF if not done.",
+   "claim": "**Tier 3 bloods:** hepatitis A, B, C, E serology ± PCR if LFTs are deranged (**withhold hepatitis B serology in a vaccinated child**) · HIV · syphilis · IGRA ± TB PCR after TB contact or endemic travel · ANA, dsDNA, ENA, ANCA, RF · consider tumour markers, bone marrow aspirate and/or lymph node biopsy. **Tier 3 other:** mycobacterial culture (induced sputum, early-morning gastric aspirate, or stool) after TB contact or endemic travel · FOBT · **echocardiogram** · targeted imaging · CSF if not done.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tier 3 investigations Bloods Serology for Hepatitis ABCE +/- PCR in child with deranged LFTs; withhold hep B serology in vaccinated child HIV Syphilis If close contact of tuberculosis (TB) or travel to endemic areas: Interferon-gamma release assay (IGRA) +/- TB PCR (eg Xpert TB/Rif Ultra) Anti-nuclear antibodies (ANA), double stranded DNA (dsDNA), extractable nuclear antigen (ENA), anti-neutrophil cytoplasmic antibodies (c-ANCA, p-ANCA) and rheumatic factor (RF) Consideration of tumour markers, lymph node biopsy and/or bone marrow aspirate Other investigations If close contact of TB or travel to endemic areas: mycobacterial culture on induced sputum or early morning gastric aspirate or stool (if sputum/aspirate is not feasible) Faecal-occult blood test (FOBT) Echocardiogram Consideration of further imaging: targeted imaging is preferred in patients with focal findings CSF analysis (if not already completed)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1b2283e0f36a1260",
+     "n": 920,
+     "p": "Tier 3 i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Interpret results in clinical context** — a positive test (e.g. a respiratory virus) may not explain the severity or duration of the illness.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Interpret investigation results in the context of the clinical presentation, considering both the limitations of the test and recognising that positive tests (eg for respiratory viruses) may not fully account for the severity or duration of a child's illness",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "efd8e3dd3807ccfb",
+     "n": 258,
+     "p": "Interpre"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Match exposure timing to incubation period.** PCR is most useful in the first 1–2 weeks (the seronegative window); serology early and again at 7–21 day intervals, **with serial samples tested in parallel** to show seroconversion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Carefully review the timing of the exposure, the expected incubation period and the onset of illness … Nucleic acid amplification tests, most commonly polymerase chain reaction (PCR), are most helpful in the first 1-2 weeks of infection (in the seronegative window period) … Serology is most useful when collected early in illness and again at 7-21 day intervals. Serial samples should be tested in parallel to be able to demonstrate seroconversion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7162017bbd392cd",
+     "n": 100,
+     "p": "Carefull"
+    },
+    {
+     "h": "06ceaae784f55c65",
+     "n": 169,
+     "p": "Nucleic "
+    },
+    {
+     "h": "3bf1f71790307939",
+     "n": 173,
+     "p": "Serology"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Q fever** (cattle, sheep, goats, macropods; inhaled aerosols; QLD, NSW, VIC): incubation 2–3 weeks; acute flu-like illness, pneumonia, hepatitis, lymphopenia, thrombocytopenia; chronic endocarditis, osteomyelitis. **PCR days 1–14, serology from day 7.**",
+   "claim": "**Q fever** (cattle, sheep, goats, macropods; inhaled aerosols; QLD, NSW, VIC): incubation 2–3 weeks. Acute illness: pneumonia, hepatitis, flu-like illness, thrombocytopenia, lymphopenia; chronic: osteomyelitis, endocarditis. **Test by PCR on days 1–14, serology from day 7.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cattle, sheep, goats or macropods Contaminated aerosols being inhaled Q fever Coxiella burnetii QLD, NSW, VIC 2 to 3 weeks Acute: flu-like illness, pneumonia, hepatitis, lymphopenia, thrombocytopenia Chronic: endocarditis, osteomyelitis PCR (days 1-14) Serology (from day 7)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "913759391cd8538a",
+     "n": 274,
+     "p": "Cattle, "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Brucellosis** (feral pigs — hunting, pig dogs, undercooked meat; QLD, NSW): incubation 5–60 days; night sweats, malaise, arthralgia, hepatosplenomegaly, lymphadenopathy. Blood culture, PCR, serology — **notify pathology before sending samples.**",
+   "claim": "**Brucellosis** (feral pigs — hunting, pig dogs, undercooked meat; QLD, NSW): incubation 5–60 days; malaise, arthralgia, night sweats, lymphadenopathy, hepatosplenomegaly. Tests: blood culture, serology, PCR — **tell pathology before the samples are sent.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pigs (pig hunting, pig dogs or undercooked feral pig meat) Brucellosis Brucella suis QLD, NSW 5 to 60 days Night sweats, malaise, arthralgia, hepatosplenomegaly, lymphadenopathy Blood culture PCR Serology Notify pathology prior to sending samples",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9279d8f1756902d",
+     "n": 246,
+     "p": "Pigs (pi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Melioidosis** (contaminated water/soil; northern Australia): incubation 1–21 days; subclinical, localised or disseminated (sepsis, abscesses, septic arthritis, osteomyelitis, parotitis, CNS). Blood culture; serology is of limited value in endemic areas; MCS of relevant samples — **note the provisional diagnosis on the form for specific media.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Contaminated water/soil Melioidosis Burkholderia pseudomallei Northern Australia 1 to 21 days Subclinical, localised (pneumonia, skin lesions), disseminated (sepsis, internal abscesses, septic arthritis, osteomyelitis, parotitis, central nervous system disease) Blood culture Serology (limited value in endemic areas) Sample for MCS (respiratory secretions, urine, CSF, wound sample) Note provisional diagnosis on pathology form for specific media",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f3ce5ee12ee6505",
+     "n": 447,
+     "p": "Contamin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Leptospirosis** (fresh water/soil, water sports, animal urine; QLD, NSW, VIC): incubation 5–14 days; calf and lower-back myalgia, conjunctival suffusion, headache, jaundice, renal failure. Blood culture under 10 days; PCR under 7 days; IgM and MAT after 7 days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Contaminated freshwater/soil Water activities (eg white-water rafting) Animal urine (eg rats) Leptospirosis Leptospira sp. QLD, NSW, VIC 5 to 14 days Subclinical, myalgia (calves and lower back), conjunctival suffusion, headache, disseminated (jaundice, renal failure) Blood culture ( <10 days) PCR ( <7 days) Leptospira IgM and Leptospira microscopic agglutination test (MAT) (>7 days)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5e107343c6d2030",
+     "n": 386,
+     "p": "Contamin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Any febrile child who appears seriously unwell: manage as suspected sepsis.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Any febrile child who appears seriously unwell should be managed as suspected sepsis (see Sepsis)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "167e53ad6ccff510",
+     "n": 97,
+     "p": "Any febr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**If stable, observe and investigate before antibiotics**; tailor specific treatment to the clinical picture and results. Give antipyretics for comfort and keep the child hydrated.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If the child is stable, observation and investigation prior to commencing antibiotics is preferred Specific treatment should be guided by clinical condition and investigation results … Provide antipyretics for comfort and ensure hydration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42f36b6cdd407beb",
+     "n": 182,
+     "p": "If the c"
+    },
+    {
+     "h": "aee99336b9a1b4d8",
+     "n": 53,
+     "p": "Provide "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discuss every child with prolonged fever with the local paediatric team.** Transfer if care or sub-specialty input is beyond the local hospital.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with prolonged fever should be discussed with local paediatric team … The child requires care above the level of comfort of the local hospital or further inpatient sub-specialty opinion +/- management is required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8265236a97809e94",
+     "n": 80,
+     "p": "All chil"
+    },
+    {
+     "h": "4d1627598762d979",
+     "n": 142,
+     "p": "The chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** afebrile for more than 24–48 hours and improving, **or** the cause is diagnosed, treatment has started and outpatient care is feasible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The child has been afebrile for >24-48 hours and showing clinical improvement The diagnosis of the underlying cause of prolonged fever has been made, appropriate treatment (if required) has been commenced, and the child can be managed in the outpatient setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ca38c896aa46a54",
+     "n": 260,
+     "p": "The chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Prolonged fever' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/, retrieved 2026-09-23"
   }
  ]

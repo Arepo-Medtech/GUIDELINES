@@ -1,152 +1,362 @@
 {
  "guideline": "guidelines/non-ige-food-allergy-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Non-IgE mediated food allergy' (Last updated October 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Non-IgE mediated food allergy' (Last updated October 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 19,
-  "pass": 19,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 19
  },
  "claims": [
   {
    "claim": "**Non-IgE food allergies are delayed reactions**, usually hours to days after ingestion. **The exception is FPIES**, on average 2–4 hours after the offending food.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Non-IgE-mediated food allergies are characterised by a delayed onset of signs and symptoms, usually over hours to days following ingestion … The exception is FPIES (Food Protein Induced Enterocolitis Syndrome), which occurs on average 2-4 hours after ingestion of the offending allergen",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "561383fdd54db765",
+     "n": 138,
+     "p": "Non-IgE-"
+    },
+    {
+     "h": "d6b23c7dc6daf970",
+     "n": 145,
+     "p": "The exce"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**They are common in the first 1–2 years, mostly resolve by early childhood, and mostly involve the gut.** **They do not cause anaphylaxis and are not treated with adrenaline.**",
+   "claim": "**Common in the first 1–2 years, they mainly affect the gut and mostly settle by early childhood.** **They do not cause anaphylaxis and are not treated with adrenaline.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Non-IgE food allergies are common in the first 1-2 years of life, with most resolving by early childhood … They commonly involve the gastrointestinal tract … Non-IgE-mediated allergies do not cause anaphylaxis and therefore are not treated with adrenaline",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3e963899cc32d8b",
+     "n": 104,
+     "p": "Non-IgE "
+    },
+    {
+     "h": "6ffba6da3bf90700",
+     "n": 48,
+     "p": "They com"
+    },
+    {
+     "h": "2048dcbb91b47019",
+     "n": 97,
+     "p": "Non-IgE-"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Proctocolitis (FPIAP):** first few months of life; stools with blood ± mucus; infant usually well and thriving.",
+   "claim": "**Proctocolitis (FPIAP):** in the first few months; blood ± mucus in the stools; infant usually well and thriving.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Food Protein-Induced Allergic Proctocolitis (FPIAP): delayed, non-IgE-mediated inflammation of the rectum, commonly presenting in first few months of life. Stools with blood +/- mucous. Infant usually well and thriving",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "041d7d6c35aedcd8",
+     "n": 218,
+     "p": "Food Pro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Enteropathy:** early infancy; persistent loose stools, vomiting common, possible poor weight gain; may have secondary lactose malabsorption with bloating and peri-anal excoriation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Food Protein-Induced Enteropathy: delayed, non-IgE-mediated inflammation of the small intestine, commonly presenting in early infancy. Persistent loose stools, vomiting is common and there may be poor weight gain. Child can be unsettled and may have secondary lactose malabsorption, leading to bloating and peri-anal excoriation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65c046123f8dec3c",
+     "n": 328,
+     "p": "Food Pro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**FPIES:** repeated vomiting on average 2–4 hours after the trigger, ± pallor, lethargy, loose stools; usually in the first year after solids start. **Commonest Australian triggers: rice, cow milk, soy, oats** — but any food can cause it.",
+   "claim": "**FPIES:** repeated vomiting, typically about 2–4 hours after the trigger, ± pallor, lethargy, loose stools; usually in the first year after solids start. **Commonest Australian triggers: rice, cow milk, soy, oats** — but any food can cause it.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Food Protein-Induced Enterocolitis Syndrome (FPIES): delayed onset of repeated vomiting, on average 2-4 hours after ingestion of trigger food. May be associated with pallor, lethargy and may have loose stools. Usually presents in first year of life following introduction of solid foods. The most common trigger foods in Australia are rice, cow milk, soy or oats, however it can be caused by any food",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "38165675041b98b9",
+     "n": 400,
+     "p": "Food Pro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**The abdomen should be soft and non-tender**; consider other causes if it is distended or tender. **Assess for dehydration**, examine the perianal area and plot weight, length and head circumference.",
+   "claim": "**Expect a soft, non-tender abdomen**; consider other causes if it is distended or tender. **Assess for dehydration**, examine the perianal area and plot weight, length and head circumference.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Assess for dehydration … In non-IgE-mediated food allergy presentations, the abdomen should be soft and non-tender Consider other causes for presentation if abdomen is distended or tender … Perianal examination for rash or fissures Growth parameters: weight, length, head circumference",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a7f988c931dc858",
+     "n": 22,
+     "p": "Assess f"
+    },
+    {
+     "h": "8dbf292f32682ddb",
+     "n": 162,
+     "p": "In non-I"
+    },
+    {
+     "h": "68320c74ca1e63c3",
+     "n": 95,
+     "p": "Perianal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Petechiae with bloody stools → consider thrombocytopenia and send an urgent FBE.** Haemangiomas can also be in the gut and cause rectal bleeding.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "petechiae in the setting of bloody stools (consider thrombocytopenia), haemangiomas (may also be present in GI tract and present with rectal bleeding) … If there are petechiae, suggest urgent FBE looking for thrombocytopenia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ea21bbecce11212",
+     "n": 150,
+     "p": "petechia"
+    },
+    {
+     "h": "098015ec1c9dbf5e",
+     "n": 71,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Differentials include** infection (sepsis, meningitis, UTI, gastroenteritis), pyloric stenosis, intussusception, bowel obstruction (suspect with bilious vomiting).",
+   "claim": "⚠️ **Differentials include** intussusception, pyloric stenosis, bowel obstruction (suspect if vomiting is bilious) and infection (sepsis, meningitis, UTI, gastroenteritis).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infection (sepsis, meningitis, UTI, gastroenteritis) Pyloric stenosis Intussusception Bowel obstruction (suspect with bilious vomiting)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f50ca5c0cc7bfcc2",
+     "n": 135,
+     "p": "Infectio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Investigations are not routinely required.** Persistent blood in stools: FBE for anaemia or thrombocytopenia. Stool MCS and viral PCR can exclude infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Not routinely required; diagnoses of non-IgE-mediated allergies are made clinically … If persistent blood in stools, check FBE for anaemia or thrombocytopaenia … Can consider stool testing for MCS and viral PCR to exclude infectious causes for presentation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb4a8bbd8b38774a",
+     "n": 83,
+     "p": "Not rout"
+    },
+    {
+     "h": "3b8c501d84d8d70e",
+     "n": 73,
+     "p": "If persi"
+    },
+    {
+     "h": "380ecab063b43d85",
+     "n": 94,
+     "p": "Can cons"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not do skin prick or specific IgE testing** — it won't help the diagnosis and can harm by driving unnecessary food eliminations. If in doubt at an acute presentation, discuss with Allergy & Immunology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Allergy testing with skin prick tests or allergen-specific IgE testing is not indicated for suspected non-IgE-mediated food allergies … Allergy testing will not assist with a diagnosis of non-IgE food allergies, and may even cause harm by driving unnecessary food eliminations … If there is doubt about the diagnosis at the time of an acute presentation and thought to be an allergic cause, discuss with Allergy & Immunology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53c2c451d5fb4380",
+     "n": 133,
+     "p": "Allergy "
+    },
+    {
+     "h": "e1ee23be130518b3",
+     "n": 140,
+     "p": "Allergy "
+    },
+    {
+     "h": "54218b3b64c73d61",
+     "n": 145,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Eliminate the suspected trigger. Cow milk first** — improvement may take two weeks — **including maternal elimination if breastfed.** If little or no improvement, also eliminate soy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Food elimination of suspected trigger … If cow milk is the suspected trigger, start with cow milk elimination first, noting improvement may not be seen until two weeks Includes maternal elimination if child is breast-fed If nil or sub-optimal improvement, then also eliminate soy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "09f74663a13d5afd",
+     "n": 37,
+     "p": "Food eli"
+    },
+    {
+     "h": "31105b881c3a381b",
+     "n": 239,
+     "p": "If cow m"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**More than 2 eliminations is unusual — get a dietitian.** Suggest calcium supplements for a breastfeeding mother excluding cow milk and soy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "It is unusual to need multiple (>2) food eliminations, in which case, a dietitian review is strongly suggested … Suggest calcium supplements for breastfeeding mother if she is needing to eliminate cow milk and soy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ebe61383bd7f0ba",
+     "n": 110,
+     "p": "It is un"
+    },
+    {
+     "h": "d32b363be29ef1d2",
+     "n": 100,
+     "p": "Suggest "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Formula: trial an extensively hydrolysed formula (EHF) or rice formula for two weeks.** No improvement → amino acid-based formula with a specialist; no improvement on that → re-evaluate the diagnosis. Keep monitoring weight gain.",
+   "claim": "**Formula: try a rice formula or an extensively hydrolysed formula (EHF) for two weeks.** No improvement → amino acid-based formula with a specialist; no improvement on that → re-evaluate the diagnosis. Keep monitoring weight gain.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If formula is required, suggest trialling an extensively hydrolysed formula (EHF) or rice formula in the first instance Recommend two-week trial to begin with … If no improvements after two weeks of EHF, then change to an amino acid-based formula in consultation with a specialist … If no improvements on amino acid-based formula, re-evaluate for alternative diagnosis Ongoing monitoring of weight gain is important",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1cff1100d4da6463",
+     "n": 158,
+     "p": "If formu"
+    },
+    {
+     "h": "01f4228d93e91a59",
+     "n": 119,
+     "p": "If no im"
+    },
+    {
+     "h": "13b299605270497c",
+     "n": 132,
+     "p": "If no im"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Re-introduce trigger foods one at a time around 12 months, at least 2–3 weeks apart.** Cow milk goes up a ladder: baked goods → hard cheese → yoghurt → fresh milk. **Delayed reaction → stop and retry in a few months.** Most improve by 1–2 years.",
+   "claim": "**Around 12 months, bring trigger foods back singly, spacing them at least 2–3 weeks apart.** Cow milk goes up a ladder: baked goods → hard cheese → yoghurt → fresh milk. **Delayed reaction → stop and retry in a few months.** Most improve by 1–2 years.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider re-introduction of trigger foods, one at a time, around 12 months of age Recommend at least 2-3 week interval between each food introduction … For cow milk re-introduction, suggest a graded approach starting with processed milk (eg milk in baked goods), then hard cheese, yoghurt and then finally fresh milk … If any delayed reactions occur, cease introduction and re-try in another few months Most children will improve by 1-2 years of age",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "015277d089921b7b",
+     "n": 149,
+     "p": "Consider"
+    },
+    {
+     "h": "d35328199dbb7605",
+     "n": 164,
+     "p": "For cow "
+    },
+    {
+     "h": "8ebf541ea873a72b",
+     "n": 130,
+     "p": "If any d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Oral ondansetron for vomiting:** 8–15 kg 2 mg · 15–30 kg 4 mg · over 30 kg 6–8 mg.",
+   "claim": "**Oral ondansetron for vomiting:** 2 mg for 8–15 kg · 4 mg for 15–30 kg · 6–8 mg for over 30 kg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Suggested ondansetron doses (oral): Weight Dose 8-15 kg 2 mg 15-30 kg 4 mg >30 kg 6-8 mg",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9812f3bb740c1b5",
+     "n": 88,
+     "p": "Suggeste"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **Fluid resuscitation** (see Intravenous fluids). **In an unwell child or one not improving, keep a low threshold to investigate and treat for sepsis.** **Any bilious vomiting needs an urgent surgical opinion.**",
+   "claim": "⚠️ **Fluid resuscitation** (see Intravenous fluids). **If the child is unwell or not improving, have a low threshold for investigating and treating sepsis.** **Any bilious vomiting needs an urgent surgical opinion.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fluid resuscitation (see Intravenous fluids) … In an unwell child, or if not improving with initial management, have a low threshold to investigate and treat for other possible causes, such as sepsis Any bilious vomiting requires an urgent surgical opinion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da9405a98ff04eed",
+     "n": 44,
+     "p": "Fluid re"
+    },
+    {
+     "h": "f40623a52cfad09a",
+     "n": 209,
+     "p": "In an un"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Before discharge: an FPIES Action Plan and an ondansetron script.** Eliminate the trigger and refer to a paediatric allergist, who usually manages re-introduction (some under medical supervision). Most resolve by 2–3 years.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prior to discharge, the family should be given an FPIES Action Plan and a script for ondansetron Food elimination of suspected trigger Suggest referral to a paediatric allergist Most cases resolve by 2-3 years of age A paediatric allergist usually manages re-introduction of trigger foods, as some of these need to be done under medical supervision",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d0dbb8252e25bee4",
+     "n": 348,
+     "p": "Prior to"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge FPIES when the child is tolerating oral fluids and appears well**, with education, written advice and follow-up in place.",
+   "claim": "**FPIES: discharge once the child looks well and is managing oral fluids**, with education, written advice and follow-up in place.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Parental education has occurred and written/printed advice provided. … Appropriate follow-up has been arranged For FPIES: when the child is tolerating oral fluids and appears well",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "93c9b35ab46f255a",
+     "n": 68,
+     "p": "Parental"
+    },
+    {
+     "h": "b0d51c537b61789e",
+     "n": 108,
+     "p": "Appropri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**No improvement with common eliminations → general paediatrician, paediatric gastroenterologist or allergist/immunologist.** ⚠️ **Poor weight gain, loose stools and eczema not responding → Immunology**, to exclude primary immunodeficiency such as SCID.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If no improvements in symptoms with common food eliminations, then refer to general paediatrician, paediatric gastroenterologist or paediatric allergist/immunologist … If poor weight gain, loose stools and eczema, and not responding to treatment, consider referral to Immunology to exclude other causes (an underlying primary immune-deficiency, eg SCID, may present in this way)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd6abe4868aed675",
+     "n": 165,
+     "p": "If no im"
+    },
+    {
+     "h": "61fff6710a74c50f",
+     "n": 210,
+     "p": "If poor "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Non-IgE mediated food allergy' (Last updated October 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/, retrieved 2026-09-23"
   }
  ]

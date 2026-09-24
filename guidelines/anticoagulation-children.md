@@ -1,9 +1,9 @@
 # Anticoagulation in children: heparin infusion, reversal and systemic lysis
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** intravenous unfractionated heparin (UFH) prescribing, APTT-guided dose adjustment, protamine reversal and systemic lytic therapy in children. Warfarin and enoxaparin (Clexane) are on separate RCH Haematology pages, not used here. The adult/hospital counterpart is `venous-thromboembolism-prevention` (ACSQHC Clinical Care Standard, prophylaxis rather than treatment).
 
-> ✅ **OPEN AND QUOTED.** 25 of 25 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Anticoagulation therapy*** (undated page); **55 fragments re-checked by machine. 16 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 of 25 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Anticoagulation therapy*** (undated page); **55 anchors re-checkable by machine; 16 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **High-risk infusion: consult Clinical Haematology before starting UFH** outside the RCH intensive care and cardiac units, and **double-check calculations and pump programming at the bedside.**
 
@@ -13,10 +13,10 @@
 
 ## Before starting UFH
 
-- **Intravenous route only.** UFH is compatible with 5% dextrose and 0.9% sodium chloride. [S1]
+- **Give by IV only.** UFH can be mixed with 5% dextrose or 0.9% sodium chloride. [S1]
 - ⚠️ **Every order must state:** total units in the syringe (no abbreviation for units), units/kg/hour, mL/hour, and an individualised target APTT range. If any is missing, the order must be recharted. [S1]
-- **Baseline FBE, APTT, INR, creatinine and renal function.** Discuss any low platelet count or abnormal APTT or INR with a haematologist first. [S1]
-- **Concentrations by weight:** 1000 units in 50 mL under 10 kg · 5000 units in 50 mL for 10–40 kg · 10,000 units in 50 mL over 40 kg. Fluid-restricted patients may need stronger solutions — extra vigilance and a Haematology consult. [S1]
+- **Before starting: FBE, APTT, INR, creatinine and renal function.** Discuss any low platelet count or abnormal APTT or INR with a haematologist first. [S1]
+- **Concentrations by weight:** under 10 kg: 1000 units per 50 mL · 10–40 kg: 5000 units per 50 mL · over 40 kg: 10,000 units per 50 mL. Fluid-restricted patients may need stronger solutions — extra vigilance and a Haematology consult. [S1]
 
 ## Starting dose
 
@@ -36,12 +36,12 @@
 ## Precautions and adverse events
 
 - ⚠️ **No lumbar punctures on UFH.** Avoid IM injections, arterial stabs, aspirin and other antiplatelet drugs. Withhold UFH before procedures — timing with Haematology. [S1]
-- ⚠️ **Bleeding is the major adverse event: if it occurs, cease the UFH infusion and seek urgent Clinical Haematology consult.** Screening for HIT requires Haematology consultation. [S1]
+- ⚠️ **Bleeding is the major adverse event: if it happens, stop the UFH infusion and get an urgent Clinical Haematology consult.** Screening for HIT requires Haematology consultation. [S1]
 
 ## Reversal with protamine
 
 - **Stopping the infusion usually suffices; for an immediate effect consider protamine sulfate.** Outside cardiac surgery and ICU, protamine needs Clinical Haematology approval — **but do not let this delay it in bleeding.** [S1]
-- **Protamine per 100 units of UFH received in the previous 2 hours**, by time since last UFH: under 30 min 1 mg · 30–60 min 0.5–0.75 mg · 60–120 min 0.375–0.5 mg · over 120 min 0.25–0.375 mg. [S1]
+- **Protamine dose for each 100 units of UFH given over the last 2 hours**, by time since the last UFH: 1 mg if under 30 min · 0.5–0.75 mg if 30–60 min · 0.375–0.5 mg if 60–120 min · 0.25–0.375 mg if over 120 min. [S1]
 - ⚠️ **Maximum protamine 50 mg** (except after cardiopulmonary bypass), usually as 10 mg/mL, **no faster than 5 mg/minute — too fast can cause cardiovascular collapse.** Check PT and APTT 15 min after. [S1]
 - **Hypersensitivity risk:** fish allergy, previous protamine-containing insulin or previous protamine. [S1]
 
@@ -51,7 +51,7 @@
 - ⚠️ **Contraindications:** active bleeding · significant risk of serious local bleeding · general surgery within 10 days · neurosurgery within 3 weeks · AV malformations · recent significant trauma. [S1]
 - **Before lysis:** platelet count must be over 100; give FFP 20 mL/kg if clinically indicated; consider vitamin K. **Run heparin 10 units/kg/hour throughout lysis**, ideally starting 6 hours before. [S1]
 - **tPA is the preferred agent: 0.5 mg/kg/hour over 6 hours, no loading dose.** Streptokinase (never after previous streptokinase exposure; premedicate with paracetamol and/or promethazine): 2000 units/kg over 10 minutes, then 1000 units/kg/hour over 6 hours, max loading 250,000 units. [S1]
-- **Monitor:** pulse and BP hourly; puncture sites hourly and for 4 hours after; fibrinogen at 3 hours and at completion. **Stop lysis at 6 hours, then increase heparin to 20 units/kg/hour (no bolus)** and arrange Haematology review. [S1]
+- **Monitor:** pulse and BP hourly; puncture sites hourly and for 4 hours after; fibrinogen at 3 hours and at completion. **Stop lysis at 6 hours, then raise the heparin to 20 units/kg/hour without a bolus** and arrange Haematology review. [S1]
 - ⚠️ **Any bleeding or bruising: cease tPA and heparin and seek urgent Haematology review.** Local pressure usually suffices for wound or puncture-site oozing; cryoprecipitate, antifibrinolytics and blood products may be needed for major bleeding. **No IM injections; avoid warfarin and antiplatelet agents.** [S1]
 
 ---
@@ -66,12 +66,12 @@
 | 4 | **Warfarin and enoxaparin (Clexane) dosing** is on separate RCH Clinical Haematology pages linked from this one, not retrieved. | `out_of_scope` |
 | 5 | **Blocked central venous access device** management is named in the page introduction but its content was not in the retrieved text. | `input_unavailable` |
 | 6 | **The page is RCH-specific in places** (Rosella and Koala wards, extension and pager numbers); those were not reproduced. | `observation` |
-| 7 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 7 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Anticoagulation therapy*. undated page. https://www.rch.org.au/clinicalguide/guideline_index/Anticoagulation_therapy/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Anticoagulation therapy*. undated page. https://www.rch.org.au/clinicalguide/guideline_index/Anticoagulation_therapy/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,171 +1,303 @@
 {
  "guideline": "guidelines/hypercholesterolaemia-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Hypercholesterolaemia' (Last updated June 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Hypercholesterolaemia' (Last updated June 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
    "claim": "**Suspect familial hypercholesterolaemia (FH) when LDL-C is >4 mmol/L or there is a strong family history.** Early treatment, including statins, improves long-term cardiovascular outcomes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Familial hypercholesterolaemia (FH) is the most common inherited cause and should be suspected when low density lipoprotein cholesterol (LDL-C) is >4 mmol/L, or in the presence of a strong family history Early identification and treatment, including with statins, improves long-term cardiovascular outcomes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ddf2f9275d4c8d46",
+     "n": 306,
+     "p": "Familial"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**For practical purposes, childhood LDL-C ≥3.5 mmol/L is elevated.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For practical purposes, LDL-C ≥3.5 mmol/L in childhood is considered elevated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "facd360d9ed9764f",
+     "n": 77,
+     "p": "For prac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**FH is autosomal dominant, about 1 in 250 children.** No universal screening, but **a one-off lipid profile is reasonable if adolescents are having other bloods.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FH is an autosomal dominant condition leading to lifelong elevation of LDL-C with a prevalence of approx. 1 in 250 children … There is currently no universal screening for FH, but if other blood tests are being done in adolescence, a one-off lipid profile is a reasonable addition",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a50b0e23bd3bed2d",
+     "n": 123,
+     "p": "FH is an"
+    },
+    {
+     "h": "0340bea16a1b8f13",
+     "n": 154,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Family history that counts:** premature coronary artery disease (males <55 years, females <65 years), hypercholesterolaemia or known FH.",
+   "claim": "**Family history that counts:** premature coronary artery disease (onset <55 years in males, <65 years in females), hypercholesterolaemia or known FH.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Family history of premature coronary artery disease (males <55 years, females <65 years), hypercholesterolaemia or known FH",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5deeeb8552e62498",
+     "n": 123,
+     "p": "Family h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Secondary causes:** hypothyroidism, diabetes, liver disease, nephrotic syndrome; medications (steroids, atypical antipsychotics, some antiepileptics); obesity/metabolic syndrome; high saturated-fat diet.",
+   "claim": "**Secondary causes:** diabetes, hypothyroidism, nephrotic syndrome, liver disease; medications (steroids, atypical antipsychotics, some antiepileptics); obesity/metabolic syndrome; high saturated-fat diet.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hypothyroidism, diabetes, liver disease, nephrotic syndrome Medication use, eg steroids, atypical antipsychotics, some antiepileptics Obesity or metabolic syndrome Diet high in saturated fats",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "382b808d7e757069",
+     "n": 191,
+     "p": "Hypothyr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Examination is typically normal. Plot BMI and blood pressure in all children**; look for tendon xanthomas, xanthelasma and corneal arcus.",
+   "claim": "**Examination is typically normal. Every child needs blood pressure and BMI plotted**; look for tendon xanthomas, xanthelasma and corneal arcus.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Typically normal Co-morbid obesity and hypertension can occur. Plot BMI and blood pressure in all children Look specifically for tendon xanthomas, xanthelasma, corneal arcus (rare in children)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06ff3df486e64301",
+     "n": 192,
+     "p": "Typicall"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Red flags for homozygous FH:** LDL-C >13 mmol/L · parental consanguinity with elevated LDL-C · tendon xanthomas.",
+   "claim": "⚠️ **Red flags for homozygous FH:** tendon xanthomas · LDL-C >13 mmol/L · elevated LDL-C in a child of consanguineous parents.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red flags - consider homozygous FH LDL-C >13 mmol/L Parental consanguinity with elevated LDL-C Tendon xanthomas",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e875e850d2f31a8d",
+     "n": 111,
+     "p": "Red flag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Confirm with a fasting lipid profile**; repeat if the first was non-fasting or unexpected.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Confirm fasting lipid profile. Repeat if initial sample non-fasting or unexpected",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6df729ece55880a7",
+     "n": 81,
+     "p": "Confirm "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Screen for secondary causes:** FBE, UEC, LFTs, TFTs, HbA1C, urinalysis ± albumin:creatinine ratio.",
+   "claim": "**Secondary causes — screen with** HbA1C, TFTs, LFTs, UEC, FBE, urinalysis ± albumin:creatinine ratio.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Screen for secondary causes FBE, UEC, LFTs, TFTs, HbA1C Urinalysis +/- Alb:Cr ratio",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2c1d8ccabcc44cac",
+     "n": 83,
+     "p": "Screen f"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If FH is suspected:** consider genetic testing if criteria are met (MBS Item 73352); baseline CK and Lp(a); **advise screening of all first-degree relatives.**",
+   "claim": "**Suspected FH:** where criteria are met, consider genetic testing (MBS Item 73352); baseline CK and Lp(a); **recommend that every first-degree relative is screened.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If FH is suspected Consider genetic testing if criteria met (see MBS Item 73352) Perform extended biochemical profile: baseline CK, Lp(a) Advise screening of all first-degree relatives",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c36e3d130e1fbb3",
+     "n": 184,
+     "p": "If FH is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Everyone:** heart-healthy diet (less saturated fat, plant sterols), regular activity, **no smoking, vaping or alcohol**, and optimise comorbidities.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Heart-healthy diet (reduced saturated fats, include plant sterols) Regular physical activity Avoid smoking, vaping and alcohol Optimise control of comorbidities (diabetes, obesity, thyroid, renal, hepatic)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2adf8a43a553f30",
+     "n": 205,
+     "p": "Heart-he"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Start a statin from age 8 years (earlier if high risk)** if LDL-C stays above target despite up to 6 months of lifestyle change.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Statin therapy Recommended from age 8 years (or earlier, if high risk) if LDL-C remains above age-specific target despite lifestyle changes for up to 6 months",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c31500ac3cbd0ae4",
+     "n": 158,
+     "p": "Statin t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**LDL-C target: <4.0 mmol/L at 8-10 years; <3.5 mmol/L over 10 years.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Target LDL-C <4.0 mmol/L (8-10 years) <3.5 mmol/L (>10 years)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "edb70354609457a4",
+     "n": 61,
+     "p": "Target L"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Rosuvastatin — usually first choice:** start 5 mg daily, titrate to max 20 mg; dose-adjust in renal impairment.",
+   "claim": "**Rosuvastatin — usually first choice:** begin at 5 mg daily and titrate up to a max of 20 mg; dose-adjust in renal impairment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rosuvastatin 5 mg daily Titrate to max 20 mg Start low dose Dose adjust in renal impairment Usually first choice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "01262599c87dbbdd",
+     "n": 112,
+     "p": "Rosuvast"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Atorvastatin:** start 10 mg daily, titrate to max 40 mg; more side effects at higher doses.",
+   "claim": "**Atorvastatin:** begin at 10 mg daily and titrate up to a max of 40 mg; more side effects at higher doses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Atorvastatin 10 mg daily Titrate to max 40 mg Start low dose Increased side effects at higher doses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "11330c0fe94cef57",
+     "n": 99,
+     "p": "Atorvast"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Pravastatin:** 10-20 mg nocte, titrate to max 40mg; less potent, but myalgia less common — an option if myalgia occurred on another statin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pravastatin 10-20 mg nocte (improved efficacy if taken nocte) Titrate to max 40mg Less potent LDL-C reduction Myalgia less common; may be useful if myalgia occurred with other statin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e73d7233594ed48",
+     "n": 182,
+     "p": "Pravasta"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Recheck lipids, LFTs and CK 6-12 weeks after starting or changing the dose.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Repeat lipids, LFTs, CK at 6-12 weeks after initiation or dose change",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d453deb8863c338a",
+     "n": 69,
+     "p": "Repeat l"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Stop promptly for myopathy, rhabdomyolysis or severe hepatotoxicity** (rare). Myalgia, headache and GI upset are usually self-limiting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Side effects (generally rare): include myalgia, headache and gastrointestinal upset which are usually self-limiting Rarer side effects include myopathy, rhabdomyolysis and severe hepatotoxicity, at which time prompt cessation is advised",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "362227fcd116fdb9",
+     "n": 236,
+     "p": "Side eff"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider ezetimibe if a statin alone is inadequate.** ⚠️ **Advise effective contraception for adolescents starting a statin.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider ezetimibe if statin alone inadequate Effective contraception should be advised for adolescents starting a statin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "781ead190e1b2e82",
+     "n": 121,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Local paediatric team:** suspected FH, or uncertainty about starting a statin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Diagnosis of FH suspected Uncertainty around initiation of statin therapy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08e27a698e4189ff",
+     "n": 127,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Lipid team — urgent:** features of homozygous FH, or multidisciplinary care needed (genetics, cardiology, apheresis). **Routine:** LDL-C above target despite treatment, or genetic testing/cascade screening questions.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urgent Features suggestive of homozygous FH. See Red flags Multidisciplinary management required, eg genetics, cardiology, apheresis Routine Further specialist input required LDL-C remains above target despite treatment Further input required regarding genetic testing or cascade screening",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "615a2944161673de",
+     "n": 289,
+     "p": "Urgent F"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypercholesterolaemia' (Last updated June 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypercholesterolaemia/, retrieved 2026-09-23"
   }
  ]

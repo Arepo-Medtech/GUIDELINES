@@ -1,132 +1,249 @@
 {
  "guideline": "guidelines/fever-and-petechiae-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Petechiae and purpura' (Last updated February 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Petechiae and purpura' (Last updated February 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 16,
-  "pass": 16,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 16
  },
  "claims": [
   {
-   "claim": "**Most children with petechiae do not have serious bacterial infection or meningococcal disease**, and often no cause is found. ⚠️ **Seriously unwell children with petechiae/purpura need urgent management.**",
+   "claim": "**Serious bacterial infection and meningococcal disease are absent in most children with petechiae**, and frequently no cause is identified. ⚠️ **Seriously unwell children with petechiae/purpura need urgent management.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The majority of children with petechiae do not have a serious bacterial infection or meningococcal disease, and often will not have a specific cause identified Seriously unwell children with petechiae/purpura require urgent management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28ab52180b052ae2",
+     "n": 234,
+     "p": "The majo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Serious bacterial infection, including meningococcal disease, can present with a non-blanching rash with or without fever.** Pneumococcal and meningococcal bacteraemia have fallen since routine vaccination.",
+   "claim": "**Serious bacterial infection (meningococcal disease included) can present as a non-blanching rash, febrile or afebrile.** Pneumococcal and meningococcal bacteraemia have fallen since routine vaccination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Serious bacterial infections including meningococcal disease can present with a non-blanching rash, with or without fever … The incidence of pneumococcal and meningococcal bacteraemia has decreased since the introduction of routine vaccination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "73049ac7295ffade",
+     "n": 121,
+     "p": "Serious "
+    },
+    {
+     "h": "446778d38797f7c9",
+     "n": 119,
+     "p": "The inci"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**Petechiae and purpura do not blanch.** Glass test: press a drinking glass firmly on the rash — if it does not disappear, it is non-blanching. **Petechiae are pinpoint; purpura are larger (over 2 mm).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Both petechiae and purpura do not blanch when pressure is applied … The 'glass test' can be used to assist with assessing whether a rash is blanching - a drinking glass can be applied firmly against a rash - if the rash does not disappear it is non-blanching … Petechiae are pinpoint non-blanching spots Purpura are larger non-blanching spots (>2 mm)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb7f484cbb65c261",
+     "n": 65,
+     "p": "Both pet"
+    },
+    {
+     "h": "a201990e22a31e72",
+     "n": 190,
+     "p": "The 'gla"
+    },
+    {
+     "h": "152ef94692bb259a",
+     "n": 89,
+     "p": "Petechia"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **All children with fever and petechiae/purpura should be reviewed promptly by a senior clinician.**",
+   "claim": "⚠️ **Every child with petechiae/purpura and fever needs prompt senior clinician review.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with fever and petechiae/purpura should be reviewed promptly by a senior clinician",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f7f6e2c78a233f0",
+     "n": 95,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**Higher-risk history:** under 6 months or incompletely immunised · rapid onset or progression · **prior antibiotics may mask bacterial infection** · immunosuppression or previous invasive bacterial infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immunisation status - children <6 months of age or with incomplete immunisation status Rapid onset and/or rapid progression of symptoms and rash Medications: prior treatment with antibiotics may mask signs of a bacterial infection High risk groups: immunosuppression, previous invasive bacterial infections",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "67626ca976e8b143",
+     "n": 306,
+     "p": "Immunisa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **The child is unwell if:** abnormal vital signs (tachycardia, tachypnoea, desaturation in air) · **cold shock** (narrow pulse pressure, cold extremities, prolonged refill) · **warm shock** (wide pulse pressure, bounding pulses, flushed skin, rapid refill) · altered conscious state (inconsolable crying, lethargy) · limb tenderness or difficulty mobilising.",
+   "claim": "⚠️ **The child is unwell if:** abnormal vital signs (tachycardia, tachypnoea, desaturation in air) · **cold shock** (a narrow pulse pressure, cold extremities, prolonged refill) · **warm shock** (bounding pulses, wide pulse pressure, flushed skin, rapid refill) · altered conscious state (inconsolable crying, lethargy) · limb tenderness or difficulty mobilising.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children are considered unwell when they have: Abnormal vital signs: tachycardia, tachypnoea and/or desaturation in air Cold shock: narrow pulse pressure, cold extremities, prolonged capillary refill Warm shock: wide pulse pressure, bounding pulses, flushed skin with rapid capillary refill Altered conscious state: irritability (inconsolable crying or screaming), lethargy (including as reported by family or other staff) Limb tenderness or difficulty mobilising",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0037a9b0fb021cb",
+     "n": 463,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**In every child, look for haematological causes:** hepatomegaly or splenomegaly, lymphadenopathy, joint swelling or erythema.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For all children, also consider haematological causes and review for: Hepatomegaly or splenomegaly Lymphadenopathy Swelling or erythema of joints",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3308331e63c0c293",
+     "n": 145,
+     "p": "For all "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mechanical:** vomiting or coughing (petechiae in the superior vena cava distribution, above the nipples) · local pressure (holding, tight tourniquet) · non-accidental or accidental injury.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mechanical Vomiting or coughing - occurs in the distribution of the superior vena cava which is above the level of the nipples Local physical pressure eg holding child during procedure, tight tourniquet Non-accidental injury or accidental injury",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "423e688568bd76b3",
+     "n": 245,
+     "p": "Mechanic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**Infective:** enterovirus, adenovirus, influenza; *N. meningitidis*, *S. pneumoniae*, *H. influenzae*, group A streptococcus, *S. aureus*.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Viral Enterovirus Adenovirus Influenza Bacterial Neisseria meningitidis (meningococcal disease) Streptococcus pneumoniae Haemophilus influenzae Group A streptococcus Staphylococcus aureus",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5bc915eac207fe7b",
+     "n": 187,
+     "p": "Viral En"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**Haematological and other:** ITP · malignancy including acute leukaemia · aplastic anaemia · DIC · HUS · Henoch-Schönlein purpura · vasculitis · drug-induced thrombocytopenia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Haematological Immune thrombocytopenia (ITP) Malignancy including acute leukaemia Aplastic anaemia Disseminated intravascular coagulation (DIC) Haemolytic uraemic syndrome (HUS) Other Henoch-Schönlein purpura (HSP) Vasculitis Drug-induced thrombocytopenia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c226fce818a11ff",
+     "n": 255,
+     "p": "Haematol"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Any newborn with petechiae needs prompt senior review** — consider congenital CMV, toxoplasmosis and neonatal lupus as well.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There are additional causes of petechiae that should be considered in newborns (eg congenital cytomegalovirus, toxoplasmosis, neonatal lupus). Any newborn with petechiae should be promptly reviewed with a senior clinician",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "14687ae2a8293516",
+     "n": 221,
+     "p": "There ar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If no senior clinician is available, manage by the flowchart** — the safest approach. A blood film must be reviewed to exclude an alternative diagnosis.",
+   "claim": "**If no senior clinician is available, manage by the flowchart** — the safest approach. Review of a blood film is mandatory to rule out another diagnosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If a senior clinician is unavailable, the safest approach is to manage according to the flowchart. … Film must be reviewed to exclude an alternative diagnosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d42dfff6380699ed",
+     "n": 98,
+     "p": "If a sen"
+    },
+    {
+     "h": "c6232cf4d8100f0c",
+     "n": 57,
+     "p": "Film mus"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ceftriaxone 100 mg/kg (max 4 g) IV daily.** ⚠️ Avoid where possible in neonates under 41 weeks' gestation, especially if jaundiced or receiving calcium-containing solutions including TPN.",
+   "claim": "**Ceftriaxone 100 mg/kg (max 4 g) IV daily.** ⚠️ Avoid where possible in neonates under 41 weeks' gestation, especially with jaundice or when calcium-containing solutions (TPN included) are running.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ceftriaxone: 100 mg/kg (4 g) IV daily (where possible, ceftriaxone should be avoided in neonates <41 weeks gestation, particularly if jaundiced or receiving calcium containing solutions, including TPN)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07e6a7700de5b40a",
+     "n": 201,
+     "p": "Ceftriax"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Cefotaxime 50 mg/kg (max 2 g) IV** — 12-hourly in week 1 of life, 6–8-hourly in weeks 2–4, 6-hourly after week 4.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cefotaxime: 50 mg/kg (2 g) IV 12H (week 1 of life), 6-8H (week 2-4 of life), 6H (>week 4 of life)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ffc907282743d88b",
+     "n": 97,
+     "p": "Cefotaxi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Involve the paediatric team** for any unwell child including suspected meningococcal disease, diagnostic uncertainty or follow-up, and escalation advice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Assessing any unwell child, including any with suspected meningococcal disease Uncertainty about diagnosis or to arrange follow-up Advice regarding escalation of care",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68a088f9e8849d6b",
+     "n": 220,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when a serious cause is unlikely** on assessment and/or investigations — and **always advise return if the child becomes more unwell.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Serious cause of petechiae/purpura considered unlikely based on clinical assessment and/or investigations Always advise parents to return for review if their child becomes more unwell or there is concern",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dfbc279e723b4ea7",
+     "n": 227,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Petechiae and purpura' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/, retrieved 2026-09-23"
   }
  ]

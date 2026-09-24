@@ -1,123 +1,219 @@
 {
  "guideline": "guidelines/recreational-drug-overdose-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Recreational drug use and overdose' (undated page), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Recreational drug use and overdose' (undated page), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 15,
-  "pass": 15,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 15
  },
  "claims": [
   {
-   "claim": "**For 24-hour advice, call the Victorian Poisons Information Centre on 13 11 26.**",
+   "claim": "**Advice around the clock: phone 13 11 26 (Victorian Poisons Information Centre).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For 24 hour advice, contact the Victorian Poisons Information Centre on 13 11 26",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e57239b3a87d5484",
+     "n": 80,
+     "p": "For 24 h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most adolescent recreational-drug presentations involve alcohol, often with other agents.** The page covers the acute issues only.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most recreational drug related presentations for acute health intervention in Australian adolescents involve alcohol, frequently in combination with other agents. … This guideline has a limited scope, addressing the acute issues of adolescent recreational drug use.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "503a595845fb36db",
+     "n": 162,
+     "p": "Most rec"
+    },
+    {
+     "h": "c0b08d2b3778e146",
+     "n": 100,
+     "p": "This gui"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Amphetamines: a small dose may cause significant toxicity.** Sympathomimetic effects — agitation, sweating, tachycardia, hypertension. ⚠️ **Complications:** severe hyperthermia, rhabdomyolysis, seizures, intracranial haemorrhage, hyponatraemia, cerebral oedema.",
+   "claim": "⚠️ **Amphetamines: a small dose may cause significant toxicity.** Sympathomimetic effects — agitation, sweating, tachycardia, hypertension. ⚠️ **Complications:** seizures, severe hyperthermia, hyponatraemia, cerebral oedema, rhabdomyolysis, intracranial haemorrhage.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Amphetamines (small dose may produce significant toxicity) Ice, speed, gooey, whiz, base, ecstasy, love drug, MDMA, MD Central & peripheral sympathomimetic effects: - agitation, sweating, tachycardia, hypertension Medical complications: - severe hyperthermia, rhabdomyolysis, seizures, intracranial haemorrhage, hyponatraemia, cerebral oedema - 12 lead ECG - BSL - Electrolytes & renal function, CK, troponin - Consider intracranial imaging if any concern regarding vascular dissection Safe, low stimulus environment Continuous cardiac monitoring Benzodiazepines to control agitation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61f9f07ef21108c8",
+     "n": 583,
+     "p": "Amphetam"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Investigate:** 12-lead ECG, BSL, electrolytes and renal function, CK, troponin; **consider intracranial imaging** if vascular dissection is a concern. **Manage:** safe, low-stimulus environment · **continuous cardiac monitoring** · **benzodiazepines to control agitation.**",
+   "claim": "**Investigate:** 12-lead ECG, BSL, CK, troponin, electrolytes and renal function; **if vascular dissection is a worry, consider intracranial imaging.** **Manage:** a safe, low-stimulus setting · **cardiac monitoring, continuously** · **benzodiazepines for agitation.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Amphetamines (small dose may produce significant toxicity) Ice, speed, gooey, whiz, base, ecstasy, love drug, MDMA, MD Central & peripheral sympathomimetic effects: - agitation, sweating, tachycardia, hypertension Medical complications: - severe hyperthermia, rhabdomyolysis, seizures, intracranial haemorrhage, hyponatraemia, cerebral oedema - 12 lead ECG - BSL - Electrolytes & renal function, CK, troponin - Consider intracranial imaging if any concern regarding vascular dissection Safe, low stimulus environment Continuous cardiac monitoring Benzodiazepines to control agitation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61f9f07ef21108c8",
+     "n": 583,
+     "p": "Amphetam"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Cannabis effects are dose related:** mild sedation, euphoria and disinhibition, progressing to CNS depression, anxiety and psychotic symptoms, postural hypotension and tachycardia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cannabis (dose related effects) Marijuana, grass, pot, weed, ganja, dope, hashish Mild sedation, euphoria, disinhibition progressing to CNS depression, anxiety & psychotic symptoms, postural hypotension & tachycardia N/A Benign symptoms: - supportive care until asymptomatic Anxiety: - Diazepam Cardiovascular effects: - IV fluids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a118695f4ce3e4c",
+     "n": 330,
+     "p": "Cannabis"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Benign symptoms: supportive care until asymptomatic. Anxiety: diazepam. Cardiovascular effects: IV fluids.**",
+   "claim": "**Benign symptoms → supportive care until symptom-free · anxiety → diazepam · cardiovascular effects → IV fluids.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cannabis (dose related effects) Marijuana, grass, pot, weed, ganja, dope, hashish Mild sedation, euphoria, disinhibition progressing to CNS depression, anxiety & psychotic symptoms, postural hypotension & tachycardia N/A Benign symptoms: - supportive care until asymptomatic Anxiety: - Diazepam Cardiovascular effects: - IV fluids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a118695f4ce3e4c",
+     "n": 330,
+     "p": "Cannabis"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **GHB causes CNS and respiratory depression progressing to coma**, with bradycardia and myoclonic jerks.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gamma-Hydroxybutyrate (GHB) G, fantasy, easy lay, grievous bodily harm, cherry meth, liquid E CNS & respiratory depression progressing to coma Bradycardia & myoclonic jerks N/A Resuscitation environment Expect improvement within 4-6 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7aa308e5c2bdea4",
+     "n": 238,
+     "p": "Gamma-Hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Manage GHB in a resuscitation environment; expect improvement within 4–6 hours.**",
+   "claim": "**GHB: manage in a resuscitation area; expect it to improve within 4–6 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gamma-Hydroxybutyrate (GHB) G, fantasy, easy lay, grievous bodily harm, cherry meth, liquid E CNS & respiratory depression progressing to coma Bradycardia & myoclonic jerks N/A Resuscitation environment Expect improvement within 4-6 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7aa308e5c2bdea4",
+     "n": 238,
+     "p": "Gamma-Hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Hallucinogens (Datura / angel's trumpet, magic mushrooms, LSD)** listed with an **anticholinergic toxidrome**: agitation, delirium, hallucinations, mydriasis, tachycardia, dry flushed skin.",
+   "claim": "**Hallucinogens (Datura / angel's trumpet, magic mushrooms, LSD)** listed with an **anticholinergic toxidrome**: delirium, agitation, hallucinations, tachycardia, mydriasis, dry flushed skin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hallucinogens Datura sp., Angels trumpet, magic mushrooms, LSD Central & peripheral anti-cholinergic toxidrome - agitation, delirium, hallucinations, mydriasis, tachycardia, dry flushed skin N/A Supportive care Treat delirium with titrated diazepam Anti-psychotic major tranquilisers (eg haloperidol) may worsen anti-cholinergic symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05e8f038dfaab8e2",
+     "n": 337,
+     "p": "Hallucin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Supportive care; treat delirium with titrated diazepam.** ⚠️ **Antipsychotics such as haloperidol may worsen anticholinergic symptoms.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hallucinogens Datura sp., Angels trumpet, magic mushrooms, LSD Central & peripheral anti-cholinergic toxidrome - agitation, delirium, hallucinations, mydriasis, tachycardia, dry flushed skin N/A Supportive care Treat delirium with titrated diazepam Anti-psychotic major tranquilisers (eg haloperidol) may worsen anti-cholinergic symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05e8f038dfaab8e2",
+     "n": 337,
+     "p": "Hallucin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Inhalants act like alcohol** — euphoria and disinhibition, then CNS depression. ⚠️ **Complications:** sustained 'high', encephalopathy and seizures, methaemoglobinaemia, **cardiac arrhythmia and sudden death.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Inhalants/Volatile Substance Abuse Huffing, bagging, sniffing, chroming Similar effects to alcohol intoxication: - initial euphoria & disinhibition followed by CNS depression Acute medical complications: - sustained 'high', encephalopathy & seizures, methaemoglobinaemia, cardiac arrhythmia & sudden death Treat behavioural disturbance/delirium with diazepam Cardiac arrest resuscitation should limit the use of exogenous adrenaline",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1af32d289b61109c",
+     "n": 432,
+     "p": "Inhalant"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat behavioural disturbance or delirium with diazepam.** ⚠️ **In cardiac arrest, limit exogenous adrenaline.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Inhalants/Volatile Substance Abuse Huffing, bagging, sniffing, chroming Similar effects to alcohol intoxication: - initial euphoria & disinhibition followed by CNS depression Acute medical complications: - sustained 'high', encephalopathy & seizures, methaemoglobinaemia, cardiac arrhythmia & sudden death Treat behavioural disturbance/delirium with diazepam Cardiac arrest resuscitation should limit the use of exogenous adrenaline",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1af32d289b61109c",
+     "n": 432,
+     "p": "Inhalant"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Opioids: CNS and respiratory depression with miosis.** Dextropropoxyphene — seizures and arrhythmias; **tramadol — seizures and serotonin syndrome.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Opiates CNS & respiratory depression associated with miosis Dextropropoxyphene (Digesic) - seizures & arrhythmias Tramadol - seizures & serotonin syndrome Monitor for CNS & respiratory depression Airway protection & ventilation ensures good outcome Naloxone infusion (note short half life) Treat seizures with benzodiazepines and phenobarbitone",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6240a84ed92cc2a1",
+     "n": 344,
+     "p": "Opiates "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Monitor for CNS and respiratory depression; airway protection and ventilation ensure a good outcome.** **Naloxone infusion** — note its short half-life. **Seizures: benzodiazepines and phenobarbitone.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Opiates CNS & respiratory depression associated with miosis Dextropropoxyphene (Digesic) - seizures & arrhythmias Tramadol - seizures & serotonin syndrome Monitor for CNS & respiratory depression Airway protection & ventilation ensures good outcome Naloxone infusion (note short half life) Treat seizures with benzodiazepines and phenobarbitone",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6240a84ed92cc2a1",
+     "n": 344,
+     "p": "Opiates "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   },
   {
    "claim": "**Emergency advice and paediatric ICU transfer: PIPER, 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For emergency advice and paediatric or neonatal ICU transfers, call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c837961c9a22aa30",
+     "n": 150,
+     "p": "For emer"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Recreational drug use and overdose' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/, retrieved 2026-09-23"
   }
  ]

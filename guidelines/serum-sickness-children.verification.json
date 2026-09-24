@@ -1,151 +1,286 @@
 {
  "guideline": "guidelines/serum-sickness-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 19,
-  "pass": 19,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 19
  },
  "claims": [
   {
    "claim": "**Key features: rash, fever and polyarthritis.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The key features of serum sickness and serum sickness-like reactions (SSLRs) are rash, fever and polyarthritis.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "886a1f049b2ccd50",
+     "n": 111,
+     "p": "The key "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Timing:** true serum sickness one to two weeks after first exposure; SSLRs usually after 5 to 10 days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs and symptoms of true serum sickness occur one to two weeks after first exposure, while SSLRs usually develop after 5 to 10 days.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98588fd693c0ce25",
+     "n": 134,
+     "p": "Signs an"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Identify and remove the causative agent** — note it may already have been stopped before the rash appears.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Identification and removal of the causative agent is the key, but note treatment may have been ceased prior to appearance of rash.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c64a47537dc05da6",
+     "n": 130,
+     "p": "Identifi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**True serum sickness** is a delayed hypersensitivity reaction triggered by snake antivenom, equine and rabbit anti-thymocyte globulin (ATG), monoclonal antibodies (rituximab most often), insect stings such as bees, and rabies and tetanus antiserum.",
+   "claim": "**True serum sickness**, a delayed hypersensitivity reaction, is triggered by snake antivenom, monoclonal antibodies (rituximab most often), anti-thymocyte globulin (ATG) of equine or rabbit origin, insect stings such as bees, and rabies and tetanus antiserum.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "True Serum Sickness is a delayed hypersensitivity reaction, triggered by: Snake anti-venom, equine and rabbit anti-thymocyte globulin (ATG) Monoclonal antibody drugs such as Rituximab are most often implicated. Insect stings eg: bees Antiserum – rabies and tetanus",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "71e78e08e74550f3",
+     "n": 264,
+     "p": "True Ser"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**SSLRs are more common in children** and milder, without measurable immune complexes. **Commonest drug triggers: cefaclor and amoxicillin**; illness, immunisation and occasionally chemicals can also trigger them.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Serum Sickness-Like Reaction (SSLRs), which are more common in children, can cause a similar but less severe clinical picture, without measurable immune-complex formation. They are triggered by a variety of drugs, most commonly cefaclor and amoxicillin. Illnesses, immunisations and occasionally chemicals can also trigger SSLRs.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "58118a7e44059ae0",
+     "n": 329,
+     "p": "Serum Si"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**History:** illness, immunisation, antibiotics and other medicines in the two weeks before onset.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Explore events in the two - weeks before onset of symptoms: Illness Immunisation Antibiotics Other medication history",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2268b5448f1d9c57",
+     "n": 117,
+     "p": "Explore "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Rash:** in SSLRs usually urticarial, starting in the flexures then generalising; **unlike acute urticaria, lesions persist for days in the same area**; pruritic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rash – children with SSLRs usually present with urticarial-type lesions (see images below), often appearing first in flexural areas and then becoming more generalised. Unlike acute urticaria, the lesions often persist for days in the same area. The rash tends to be pruritic.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a30639211dfc8c2",
+     "n": 275,
+     "p": "Rash - c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Fever:** over 38.5 in true serum sickness; may be absent or low-grade in an SSLR.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fever – patients with true serum sickness develop fever >38.5. Fever may not develop in those with an SSLR, and tend to be low-grade.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "935f061d2568940b",
+     "n": 133,
+     "p": "Fever - "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Arthralgia:** acute joint pain, limp or inability to walk; in up to two-thirds of patients, most often the metacarpophalangeal joints, knees, wrists, ankles and shoulders.",
+   "claim": "**Arthralgia:** acute joint pain, a limp, or being unable to walk; in up to two-thirds of patients, most often the metacarpophalangeal joints, knees, wrists, ankles and shoulders.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Arthralgia – acute joint pain, limp or inability to walk. … Arthralgia is common, appearing in up to two-thirds of patients. The metacarpophalangeal, knees, wrists, ankles, and shoulder joints are most commonly involved.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "455faf13d737a276",
+     "n": 57,
+     "p": "Arthralg"
+    },
+    {
+     "h": "7accb9273a26ccb6",
+     "n": 160,
+     "p": "Arthralg"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examination:** lesions gradually expand and may leave central clearing or slight purpura; erythema and oedema of the hands and feet are common; lymphadenopathy; facial and periorbital oedema.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lesions gradually expand, and may leave a central area of clearing or slight purpura. … Erythema and oedema of hands and feet is common … Lymphadenopathy Oedema – facial, periorbital and oedema of hands and feet may be seen",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7376bc2094cae7d",
+     "n": 85,
+     "p": "Lesions "
+    },
+    {
+     "h": "ba63318115485301",
+     "n": 47,
+     "p": "Erythema"
+    },
+    {
+     "h": "1633f712bf859354",
+     "n": 85,
+     "p": "Lymphade"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "In true serum sickness the rash varies (urticarial, palpable purpura, morbilliform, papules, maculopapular); urticaria is the commonest rash in SSLRs.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In true serum sickness the dermatologic manifestations are variable, and may include urticarial, palpable purpura, morbilliform eruptions, papules, or maculopapular lesions. Urticaria is the most common rash seen in SSLRs.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a2d7b6b243f4466b",
+     "n": 222,
+     "p": "In true "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **The mucous membranes are not involved in either condition.** Erythema multiforme and Stevens-Johnson syndrome typically do involve them.",
+   "claim": "⚠️ **Neither condition involves the mucous membranes.** Erythema multiforme and Stevens-Johnson syndrome typically do involve them.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The mucous membranes are not involved in either condition. … Erythema multiforme* Stevens-Johnson syndrome* Kawasaki disease Acute rheumatic fever * Typically show involvement of mucous membranes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fb062702228cfc1",
+     "n": 58,
+     "p": "The muco"
+    },
+    {
+     "h": "fa2e303dfd6e16cb",
+     "n": 134,
+     "p": "Erythema"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Differentials:** acute viral exanthem · urticaria · systemic-onset juvenile idiopathic arthritis · erythema multiforme · Stevens-Johnson syndrome · Kawasaki disease · acute rheumatic fever.",
+   "claim": "**Differentials:** urticaria · acute rheumatic fever · acute viral exanthem · erythema multiforme · Kawasaki disease · systemic-onset juvenile idiopathic arthritis · Stevens-Johnson syndrome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Differential diagnosis of serum sickness and SSLRs Acute viral exanthem Urticaria Systemic onset juvenile idiopathic arthritis Erythema multiforme* Stevens-Johnson syndrome* Kawasaki disease Acute rheumatic fever",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fea1080b44c129a4",
+     "n": 212,
+     "p": "Differen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**SSLR is a clinical diagnosis; laboratory investigation is not necessary.** Finding the culprit can be hard if the child is on several medicines and has been recently unwell.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "SSLR is a clinical diagnosis. Identification of the offending agent in SSLR may be complicated if the child is on multiple medications and has a history of recent illness. Laboratory investigation is not necessary.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0495ce70c9d6fa21",
+     "n": 214,
+     "p": "SSLR is "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Identify and stop the offending drug** — fever and arthralgia usually resolve and new lesions stop forming within 48 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Identify and discontinue the offending drug - fever and arthralgia tends to resolve and new skin lesions stop forming within 48 hours.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2458ad892486c677",
+     "n": 134,
+     "p": "Identify"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Symptomatic treatment: NSAIDs and/or antihistamines.** Systemic glucocorticoids may help with more severe symptoms and high fevers, though the evidence is low.",
+   "claim": "**Symptomatic treatment: NSAIDs and/or antihistamines.** For high fevers and more severe symptoms, systemic glucocorticoids may help, but the evidence is low.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "NSAIDs and/or antihistamines may be used for symptomatic treatment. Systemic glucocorticoids may be useful in patients with more severe symptoms and high fevers (though evidence is low)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69960e4f6dd57662",
+     "n": 185,
+     "p": "NSAIDs a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Once diagnosed, avoid the offending drug** — re-exposure may cause a more rapid and severe serum sickness.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Once a SSLR or true serum sickness is diagnosed, the offending drug should ideally be avoided. Re-exposure may lead to a more rapid and severe serum sickness.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab0b6e7fb30bbc5e",
+     "n": 158,
+     "p": "Once a S"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the paediatric team** if ongoing or future treatment with the drug is desirable (lifesaving, or no suitable alternative) — refer to clinical pharmacology or the paediatric drug allergy clinic — or for advice on alternative antimicrobials.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when If ongoing or future treatment with the offending agent is desirable – ie: treatment is lifesaving, or no suitable alternative exists – refer to clinical pharmacology or paediatric drug allergy clinic. For advice regarding alternative choice of antimicrobials in those children presenting with SSLR.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ddac9666f550a22",
+     "n": 353,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge** with adequate symptom relief and pain control, and information about serum sickness.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Underlying diagnosis remains unclear Adequate symptom relief/pain control Discharge information and follow-up Provision of information regarding serum sickness.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4795cf0ddf59431e",
+     "n": 184,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Serum Sickness and Serum Sickness like reactions (SSLRs)' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/, retrieved 2026-09-23"
   }
  ]

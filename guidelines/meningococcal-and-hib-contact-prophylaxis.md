@@ -1,31 +1,31 @@
 # Contact prophylaxis for invasive meningococcal or Hib disease (children)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** who counts as a contact, and the clearance antibiotic, dose and duration, for contacts (and the index case) of invasive meningococcal or Hib disease. Treatment of the case is `acute-meningococcal-disease-children`; vaccination is `meningococcal-disease` and `haemophilus-influenzae-type-b`; AMH's adult choices, without doses, are in `drug-choice-for-selected-infections`.
 
-> ✅ **OPEN AND QUOTED.** 20 of 20 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Contact prophylaxis for invasive meningococcal or Hib disease*** (Last updated April 2026); **22 fragments re-checked by machine. 5 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 of 20 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Contact prophylaxis for invasive meningococcal or Hib disease*** (Last updated April 2026); **22 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **Give prophylaxis as soon as possible — to the index case and contacts.** Meningococcal risk is highest in the 7–10 days after exposure.
+> ⚠️ **Give prophylaxis as soon as possible — to the index case and contacts.** The meningococcal risk peaks 7–10 days post-exposure.
 
 ---
 
 ## Principles
 
 - **Prophylaxis treats at-risk contacts to eliminate nasopharyngeal carriage**, cutting transmission and secondary cases. **Give it as soon as possible.** [S1]
-- ⚠️ **Give prophylaxis early to both the index case and contacts**, especially for *N. meningitidis*, because secondary cases can develop rapidly. [S1]
+- ⚠️ **Prophylaxis goes early — to contacts and to the index case**, especially for *N. meningitidis*, because secondary cases can develop rapidly. [S1]
 - **Local susceptibility patterns may change the choice** — check local guidelines. [S1]
 
 ## Meningococcal: who needs it
 
-- **_N. meningitidis_ contacts needing prophylaxis:** close, prolonged contact from 7 days before symptom onset until 24 hours after the case's antibiotics began — household (highest risk); same childcare group (two full 6–8 hour days, or 20 hours cumulative); intimate (kissing); healthcare workers with unprotected close airway exposure and inadequate PPE; passengers seated immediately next to the case for more than 8 hours. [S1]
+- **_N. meningitidis_ contacts needing prophylaxis:** close, prolonged contact from 7 days before symptom onset until 24 hours after the case's antibiotics began — household (highest risk); same childcare group (two full 6–8 hour days, or 20 hours cumulative); intimate (kissing); healthcare workers who had close, unprotected airway exposure without adequate PPE; passengers seated immediately next to the case for more than 8 hours. [S1]
 - **Risk of meningococcal disease is highest 7–10 days after exposure**; effective clearance antibiotics eliminate meningococci from the nasopharynx within 24 hours. [S1]
 
 ## Meningococcal: antibiotic
 
-- **Ciprofloxacin, oral, single dose:** under 5 years 30 mg/kg (max 125 mg); 5–12 years 250 mg; 12 years and over 500 mg. [S1]
+- **Ciprofloxacin, oral, single dose:** 30 mg/kg (max 125 mg) if under 5 years; 250 mg at 5–12 years; 500 mg from 12 years. [S1]
 - **Rifampicin, oral, twice daily for 2 days:** under 1 month 5 mg/kg; 1 month and over 10 mg/kg (max 600 mg). [S1]
-- **Rifampicin is preferred in neonates; ceftriaxone is preferred in pregnancy.** ⚠️ **Rifampicin is contraindicated in pregnancy and severe liver disease.** [S1]
-- **Pregnancy or rifampicin contraindicated: ceftriaxone IM, single dose** — 12 years and over 250 mg; 1 month to 12 years 125 mg. [S1]
+- **Rifampicin is preferred in neonates; ceftriaxone is preferred in pregnancy.** ⚠️ **Do not use rifampicin in pregnancy or severe liver disease.** [S1]
+- **Pregnancy or rifampicin contraindicated: ceftriaxone IM, single dose** — 125 mg for 1 month to 12 years; 250 mg from 12 years. [S1]
 - **Offer vaccination to non-immunised contacts** of serogroup A, C, W or Y cases. [S1]
 
 ## Hib: who needs it
@@ -37,8 +37,8 @@
 ## Hib: antibiotic
 
 - **Rifampicin, oral, daily for 4 days:** under 1 month 10 mg/kg; 1 month and over 20 mg/kg (max 600 mg). [S1]
-- **Pregnancy or rifampicin contraindicated: ceftriaxone 50 mg/kg (max 1 g) IM daily for 2 days.** [S1]
-- **Immunise children who are not up to date with Hib.** [S1]
+- **Pregnancy or rifampicin contraindicated: IM ceftriaxone daily for 2 days, 50 mg/kg (max 1 g).** [S1]
+- **Catch up Hib immunisation in any child who is behind.** [S1]
 
 ## Not needed
 
@@ -56,15 +56,15 @@
 
 | # | Item | Class |
 |---|---|---|
-| 1 | ⚠️ **Newer than, and broader than, the RCH antimicrobial table** (`empiric-antimicrobials-children`, Feb 2025): that table doses meningococcal ciprofloxacin only from 5 years and offers rifampicin 'if unable to take tablets'; this page (Apr 2026) adds **ciprofloxacin under 5 years 30 mg/kg (max 125 mg)**, prefers rifampicin in neonates, and adds a **Hib rifampicin dose under 1 month (10 mg/kg)**. The doses that overlap agree. | `observation` |
+| 1 | ⚠️ **Newer than, and broader than, the RCH antimicrobial table** (`empiric-antimicrobials-children`, Feb 2025): that table doses meningococcal ciprofloxacin only from 5 years and offers rifampicin 'if unable to take tablets'; this page (Apr 2026) adds **ciprofloxacin 30 mg/kg (max 125 mg) for children under 5 years**, prefers rifampicin in neonates, and adds a **Hib rifampicin dose under 1 month (10 mg/kg)**. The doses that overlap agree. | `observation` |
 | 2 | **Fills gaps elsewhere in the corpus:** `acute-meningococcal-disease-children` and `meningococcal-disease` both record contact-prophylaxis doses as unavailable; this page supplies them for children. Consistent with AMH (`drug-choice-for-selected-infections`) in preferring ceftriaxone in pregnancy. | `observation` |
 | 3 | **Public health notification and contact tracing are not described on this page**; who identifies and reaches contacts is not stated. | `input_unavailable` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Contact prophylaxis for invasive meningococcal or Hib disease*. Last updated April 2026. https://www.rch.org.au/clinicalguide/guideline_index/Contact_prophylaxis_for_invasive_meningococcal_or_Hib_disease/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Contact prophylaxis for invasive meningococcal or Hib disease*. Last updated April 2026. https://www.rch.org.au/clinicalguide/guideline_index/Contact_prophylaxis_for_invasive_meningococcal_or_Hib_disease/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

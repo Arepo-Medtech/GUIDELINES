@@ -1,9 +1,9 @@
 # Molluscum contagiosum in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** diagnosis, advice and treatment decisions for molluscum contagiosum in children. No dedicated counterpart: `conjunctivitis-and-eye-infections` lists molluscum only as a differential (out of scope there), `sti-syndromes-and-screening` lists it among anogenital lesion causes in adults, and `eczema` covers the eczema this page says to optimise.
 
-> ✅ **OPEN AND QUOTED.** 13 of 13 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Molluscum contagiosum*** (Last updated March 2026); **19 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 13 of 13 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Molluscum contagiosum*** (Last updated March 2026); **19 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > **Self-limiting; most children need no treatment and no exclusion from childcare or school.** Treat the surrounding eczema.
 
@@ -14,7 +14,7 @@
 - **A common, self-limiting viral skin infection of childhood.** [S1]
 - **Diagnosis is clinical, from the characteristic lesions; no investigations are needed.** [S1]
 - **Firm, pearly, dome-shaped papules with a central pit**, usually 1–3 mm but up to 1–2 cm. [S1]
-- **Anywhere except the palms and soles**; commonest on the trunk, axillae, antecubital and popliteal fossae and groin. **Autoinoculation explains most anogenital lesions in children.** [S1]
+- **Anywhere except the palms and soles**; most often seen on the trunk, in the axillae, the groin and the antecubital and popliteal fossae. **Autoinoculation explains most anogenital lesions in children.** [S1]
 - **Spread is by skin-to-skin contact, fomites (eg towels) or autoinoculation** by scratching or touching a lesion. [S1]
 
 ## Eczema
@@ -43,12 +43,12 @@
 | 1 | **Antibiotic choice for infected lesions** is not on this page; skin-infection treatment is in `cellulitis-and-skin-infections-children` and `empiric-antimicrobials-children`. | `observation` |
 | 2 | **The lesion images** are photographs, not in the retrieved text. | `input_unavailable` |
 | 3 | **No cantharidin regimen** (concentration, application time) is given; it is dermatology-led. | `out_of_scope` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Molluscum contagiosum*. Last updated March 2026. https://www.rch.org.au/clinicalguide/guideline_index/Molluscum_contagiosum/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Molluscum contagiosum*. Last updated March 2026. https://www.rch.org.au/clinicalguide/guideline_index/Molluscum_contagiosum/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

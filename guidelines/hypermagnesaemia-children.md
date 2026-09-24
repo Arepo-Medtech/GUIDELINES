@@ -1,9 +1,9 @@
 # Hypermagnesaemia in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** causes, assessment and initial management of hypermagnesaemia in children. No adult hypermagnesaemia guideline is in this corpus. Related RCH pages: `hypomagnesaemia-children` (replacement that can cause it), `hypocalcaemia-children` and `hyperkalaemia-children` (the only corpus calcium doses, written for other indications).
 
-> ✅ **OPEN AND QUOTED.** 10 of 10 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Hypermagnesaemia*** (Last Updated November 2021); **10 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 10 of 10 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Hypermagnesaemia*** (Last Updated November 2021); **10 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Stop all magnesium-containing medicines and IV solutions.** **Symptomatic child: discuss with PICU.** The page gives **no dose** for any treatment.
 
@@ -39,14 +39,14 @@
 |---|---|---|
 | 1 | ⏳ **Last updated November 2021.** | `time_sensitive` |
 | 2 | ⚠️ **No dose, route or rate is given** for calcium chloride, calcium gluconate or furosemide. The corpus calcium doses (`hypocalcaemia-children`, `hyperkalaemia-children`) are for other indications and **were not carried over.** Nothing supplied from memory. | `input_unavailable` |
-| 3 | **No reference range or severity bands** beyond 'symptomatic hypermagnesaemia usually not until >2 mmol/L'; no discharge criteria are given. | `input_unavailable` |
+| 3 | **No reference range or severity bands** — the page only notes that symptoms are not usually seen until magnesium exceeds 2 mmol/L; no discharge criteria are given. | `input_unavailable` |
 | 4 | **Short page:** 10 claims is all it supports. | `observation` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Hypermagnesaemia*. Last Updated November 2021. https://www.rch.org.au/clinicalguide/guideline_index/Hypermagnesaemia/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Hypermagnesaemia*. Last Updated November 2021. https://www.rch.org.au/clinicalguide/guideline_index/Hypermagnesaemia/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

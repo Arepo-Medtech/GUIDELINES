@@ -1,165 +1,306 @@
 {
  "guideline": "guidelines/headache-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Headache/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Headache' (Last updated December 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Headache' (Last updated December 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 20,
-  "pass": 20,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
    "claim": "⚠️ **History red flags:** age under 4 · early-morning headache · waking from sleep · triggered by coughing, sneezing or position change · sudden severe onset · occipital · vomiting without another cause · a changed or progressively worsening pattern.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider red flags: Age < 4 years Headache features (any) Early morning Wakes the child from sleep Triggered or aggravated by coughing, sneezing or positional changes (eg bending forwards) Sudden onset and severe Occipital region Associated vomiting without another clear cause Significant change in an established headache pattern or progressive worsening",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf1ac81d57481a59",
+     "n": 356,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Also:** focal neurological symptoms, new seizures, developmental regression, meningitis/encephalitis features, significant head injury, relevant systemic disorder, anticoagulant or antiplatelet use, **VP shunt.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Focal neurological symptoms New onset seizures Developmental regression Features of meningitis or encephalitis Recent history of significant head injury Known systemic disorder: haematological condition (bleeding tendency, prothrombotic state), malignancy, rheumatological disorder, immunosuppression, hypertension Medications: anticoagulants, antiplatelet agents Presence of ventriculoperitoneal (VP) shunt",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a248a0cbff70abbd",
+     "n": 407,
+     "p": "Focal ne"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Examination red flags:** altered conscious state, rising head-circumference centiles, abnormal head position, new focal signs, **raised ICP (papilloedema, ataxia, bradycardia with hypertension)**, meningism.",
+   "claim": "⚠️ **Examination red flags:** altered conscious state, new focal signs, abnormal head position, head circumference crossing centiles upward, **raised ICP (papilloedema, ataxia, bradycardia with hypertension)**, meningism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red flag findings include: Altered conscious state/confusion Increasing head circumference centiles Abnormal head position New focal neurological abnormalities Signs of raised ICP (papilloedema, ataxia, bradycardia with hypertension) Signs of meningism (photophobia, neck stiffness)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c029104682d58c0",
+     "n": 282,
+     "p": "Red flag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine** BP and conscious state, a full neurological examination including fundoscopy, and look for neurocutaneous stigmata.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Observations including BP and conscious state Neurological examination – cranial nerve and peripheral nerve examination, gait, fundoscopy Stigmata of neurocutaneous syndromes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "11a5bc3deea4c3c9",
+     "n": 174,
+     "p": "Observat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most common causes:** migraine and tension-type (primary); viral illness (secondary). Serious secondary causes include CNS infection, raised ICP and haemorrhage.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The most common primary headaches in children are migraine and tension-type headache … Viral illnesses are the most common cause of secondary headaches in children, while less common but serious causes include CNS infection (meningitis, encephalitis), raised intracranial pressure and haemorrhage",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "85916d4c230fa169",
+     "n": 84,
+     "p": "The most"
+    },
+    {
+     "h": "c1c33d1182502062",
+     "n": 209,
+     "p": "Viral il"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
-   "claim": "**No red flags → no routine investigations.** **Red flags → discuss with a senior clinician and consider intracranial imaging.**",
+   "claim": "**No red flags → no routine investigations.** **Red flags → senior discussion, and think about intracranial imaging.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Investigations are not routinely indicated in children with headache presenting without red flag features on history or examination … If red flags present, discuss with a senior clinician and consider intracranial imaging",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa16eb0c3d0ae571",
+     "n": 131,
+     "p": "Investig"
+    },
+    {
+     "h": "bd26d4a572af0130",
+     "n": 87,
+     "p": "If red f"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Prevent medication-overuse headache: simple analgesics under 15 days a month, triptans under 10 days a month.** Hydration, sleep hygiene, exercise, trigger avoidance, and address emotional stressors.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ensure adequate hydration Encourage good sleep hygiene and a healthy exercise pattern To prevent medication overuse headache, limit use of simple analgesics to less than 15 days per month, and triptans to less than 10 days per month Avoid triggers Address emotional stressors which may be precipitating the headache",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d9695dc7906d00e",
+     "n": 315,
+     "p": "Ensure a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Paracetamol 15 mg/kg (max 1 g) or ibuprofen 10 mg/kg (max 400 mg).** ⚠️ **Do not offer opioids.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tension-type headache Provide simple analgesia Paracetamol 15 mg/kg (max 1g) Ibuprofen 10 mg/kg (max 400 mg) Manage triggers Opioids should not be offered for the acute treatment of tension-type headache",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22a6fcc24c30f62e",
+     "n": 203,
+     "p": "Tension-"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Soon after onset (usually at home): paracetamol 15 mg/kg (max 1 g) or ibuprofen 10 mg/kg (max 400 mg)**, fluids, and rest in a quiet dark room.",
+   "claim": "**Early in the attack, usually at home: ibuprofen 10 mg/kg (max 400 mg) or paracetamol 15 mg/kg (max 1 g)**, fluids, and rest in a quiet dark room.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Soon after onset of migraine (usually at home) Paracetamol 15 mg/kg (max 1g) Ibuprofen 10 mg/kg (max 400 mg) Keep hydrated and rest/sleep in quiet, dark room",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2b04b4751702d7c",
+     "n": 157,
+     "p": "Soon aft"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Rizatriptan wafer if oral analgesics fail:** over 6 years and under 40 kg 5 mg; over 40 kg 10 mg orally; **may repeat once after 2 hours (max 2 doses in 24 hours).** Sumatriptan nasal spray is no longer available.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rizatriptan (wafer or disintegrating tablet) may be used if oral analgesics ineffective (sumatriptan nasal spray is no longer available) >6 yo and <40 kg: 5 mg orally >40 kg: 10 mg orally can be repeated once after 2 hours if headache recurs (max 2 doses in 24 hours)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d50d3fd810cdc941",
+     "n": 267,
+     "p": "Rizatrip"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Propranolol raises rizatriptan levels** — avoid or use a lower dose with specialist advice. ⚠️ **Avoid opioids in migraine.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Propranolol increases the plasma concentration of rizatriptan - avoid or use lower doses of rizatriptan (seek specialist advice) Avoid opioids in the treatment of migraine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cab7a979ed21eb6c",
+     "n": 171,
+     "p": "Proprano"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
-   "claim": "**In ED:** paracetamol and ibuprofen if not already given; **ondansetron 0.15 mg/kg (max 8 mg) oral/IV if vomiting.**",
+   "claim": "**In ED:** give ibuprofen and paracetamol if they haven't been given yet; **for vomiting, ondansetron 0.15 mg/kg oral/IV (max 8 mg).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "On presentation to ED consider Paracetamol and ibuprofen, if not already given Ondansetron 0.15 mg/kg (max 8 mg) oral/IV if vomiting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e9a67dff57af02a",
+     "n": 132,
+     "p": "On prese"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**8 years and over: IV chlorpromazine 0.25 mg/kg (max 12.5 mg)** in 10–20 mL/kg 0.9% sodium chloride (max 1 L) over 30–60 minutes, **or IV prochlorperazine 0.15 mg/kg (max 12.5 mg)** in the same fluid over 30–60 minutes (a single 12.5 mg dose may be given over 12 years and 50 kg).",
+   "claim": "**8 years and over: IV chlorpromazine 0.25 mg/kg, up to 12.5 mg**, diluted in 10–20 mL/kg 0.9% sodium chloride (max 1 L) and run over 30–60 minutes, **or IV prochlorperazine 0.15 mg/kg, up to 12.5 mg**, in the same fluid over 30–60 minutes (a single 12.5 mg dose may be given over 12 years and 50 kg).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If ≥8 yo: IV Chlorpromazine (Largactil) 0.25 mg/kg (max 12.5 mg) in 10–20 mL/kg sodium chloride 0.9% (max 1 L) administered over 30-60minutes … IV Prochlorperazine (Stemetil) 0.15 mg/kg (max 12.5 mg) in 10-20 mL/kg sodium chloride 0.9% (max 1 L) administered over 30-60 minutes (a single dose of 12.5 mg may be given to children >12 yo and >50 kg)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "027297c5a19aa10d",
+     "n": 141,
+     "p": "If ≥8 yo"
+    },
+    {
+     "h": "b88968dece75cdf4",
+     "n": 203,
+     "p": "IV Proch"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Both can cause hypotension: monitor BP and give with IV fluid**, plus more fluid if needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "both agents may cause hypotension and require BP monitoring and administration with IV fluid (as above) +/- additional IV fluids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "40dd925fa4e06c84",
+     "n": 128,
+     "p": "both age"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Therapeutic nerve blocks** may be offered by experienced ED clinicians or anaesthetic/pain specialists.",
+   "claim": "**Therapeutic nerve blocks** are an option, done by anaesthetic/pain specialists or experienced ED clinicians.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Therapeutic nerve blocks may be offered by experienced ED clinicians, or by anaesthetic/pain specialists",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "002afa80832037d0",
+     "n": 104,
+     "p": "Therapeu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Aura:** focal neurological symptoms — usually visual, sensory or speech — before the headache, lasting under an hour.",
+   "claim": "**Aura:** focal neurological symptoms (most often visual, sensory or speech) that precede the headache and last under an hour.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "With aura: presence of focal neurological symptoms, usually visual, sensory or speech changes before onset of headache (aura lasts less than one hour)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea38c1fcc166ebdd",
+     "n": 150,
+     "p": "With aur"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "**Simple analgesia has not been shown to work. Give 100% oxygen at 12 L/min or more via non-rebreather with reservoir.** **Rizatriptan:** over 6 years and under 40 kg 5 mg, over 40 kg 10 mg orally; may repeat once after at least 2 hours (max 2 doses in 24 hours).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cluster headache Simple analgesia has not been shown to be effective Administer 100% oxygen with a flow rate of at least 12 L per minute via a non-rebreathing mask with a reservoir bag Rizatriptan (wafer or disintegrating tablet) >6 yo and <40 kg: 5 mg orally >40 kg: 10 mg orally can be repeated once after at least 2 hours if headache recurs (max 2 doses in 24 hours)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b15730d7d3189076",
+     "n": 369,
+     "p": "Cluster "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Cluster headache may have a secondary cause — low threshold for neuroimaging.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "May have a secondary cause, suggest a low threshold for neuroimaging",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd75a2e4cc45d6cb",
+     "n": 68,
+     "p": "May have"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the paediatric team for any red flag.** Consider transfer if neurosurgery or care beyond the local facility is needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when A child presents with headache and a red flag symptom/sign Consider transfer when Neurosurgical intervention required or child requiring escalation in care beyond the comfort of the local healthcare facility",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46444a83aa2e51f2",
+     "n": 261,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge** when clinically stable with no red flags and follow-up arranged. A migraine is unlikely to fully resolve in ED; continue rest at home, with GP or paediatrician follow-up for ongoing care and preventives.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Child is clinically stable and no red flag features Appropriate follow-up has been arranged … It is unlikely that a migraine headache will fully resolve in the emergency department On discharge home, encourage the child to continue resting in a quiet, dark environment to enable recovery GP follow up or referral to a paediatrician may be appropriate for ongoing management of headaches including consideration of preventative treatments",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1b53b6dda29c546a",
+     "n": 115,
+     "p": "Consider"
+    },
+    {
+     "h": "c3cfa079ff88919f",
+     "n": 343,
+     "p": "It is un"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Headache' (Last updated December 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Headache/, retrieved 2026-09-23"
   }
  ]

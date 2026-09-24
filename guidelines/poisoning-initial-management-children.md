@@ -1,9 +1,9 @@
 # Acute poisoning in children: initial management
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, resuscitation, decontamination, antidote choice, enhanced elimination and disposition for acute poisoning in children and adolescents. Agent-specific pages: `paracetamol-poisoning-children`, `iron-poisoning-children`, `tricyclic-antidepressant-poisoning-children`, `salicylate-poisoning-children`, `serotonin-toxicity-children`. The general (AMH) decontamination counterpart is `gastrointestinal-decontamination`.
 
-> ✅ **OPEN AND QUOTED.** 26 of 26 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Poisoning - Acute Guidelines For Initial Management*** (Last updated August 2017); **38 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 26 of 26 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Poisoning - Acute Guidelines For Initial Management*** (Last updated August 2017); **38 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ☎️ **Victorian Poisons Information Centre: 13 11 26, 24 hours.** ⚠️ **Some agents are highly toxic to a toddler in a dose of 1–2 tablets.**
 
@@ -11,15 +11,15 @@
 
 ## Key points
 
-- **Most toddler ingestions are insignificant**, but ⚠️ **some agents are highly toxic in a dose of 1–2 tablets** in this age group. [S1]
+- **Most toddler ingestions are insignificant**, but ⚠️ **at this age, just 1–2 tablets of certain agents can be highly toxic.** [S1]
 - **Resuscitation and risk assessment may need to run concurrently; most treatment is supportive.** [S1]
 - ⚠️ **All intentional self-poisonings in adolescents need a paracetamol screen and admission.** Take every act of deliberate self-harm extremely seriously. [S1]
-- ⚠️ **Consider non-accidental injury or neglect** when the poisoning doesn't fit the child's developmental age, the history is inconsistent, or there is past poisoning, illicit drugs or unusual household-substance poisoning. **Infants under 1 do not self-administer medicines.** [S1]
+- ⚠️ **Consider non-accidental injury or neglect** when the poisoning doesn't fit the child's developmental age, the history is inconsistent, or there is past poisoning, illicit drugs or unusual household-substance poisoning. **An infant under 1 cannot take medicines by themselves.** [S1]
 - **Check any unconscious patient for a Medicalert bracelet** or other signs of an underlying condition. [S1]
 
 ## ⚠️ Small doses that can kill a toddler
 
-- ⚠️ **Potentially lethal in 1–3 tablets:** beta blockers · calcium channel blockers (delayed bradycardia, hypotension) · chloroquine/hydroxychloroquine · ecstasy and other amphetamines · sulphonylureas (**hypoglycaemia may be delayed 8 hours**) · tricyclic antidepressants · theophylline. [S1]
+- ⚠️ **Potentially lethal in 1–3 tablets:** tricyclic antidepressants · theophylline · beta blockers · sulphonylureas (**onset of hypoglycaemia may be delayed by 8 hours**) · calcium channel blockers (delayed bradycardia, hypotension) · ecstasy and other amphetamines · chloroquine/hydroxychloroquine. [S1]
 - **Potentially harmful in 1–3 tablets or small exposures (selected):** baclofen 25 mg (coma) · camphor · carbamazepine 400 mg (coma) · clonidine · clozapine · corrosives · hydrocarbons and essential oils · paraquat · venlafaxine 150 mg (seizures). [S1]
 
 ## Risk assessment
@@ -32,26 +32,26 @@
 - ⚠️ **A poisoned child may be unable to protect the airway even at >GCS8**; AVPU may describe conscious state better. [S1]
 - **Dysrhythmias:** sodium-channel blockade → **sodium bicarbonate**; potassium-channel blockade → **magnesium sulphate**. [S1]
 - **Poisoning seizures: benzodiazepines first, barbiturates second.** ⚠️ **Phenytoin is not recommended** (usually ineffective). [S1]
-- **Check glucose; treat if under 4 mmol/L.** Consider malignant hyperthermia, serotonin syndrome and neuroleptic malignant syndrome. [S1]
+- **Check glucose; treat if under 4 mmol/L.** Think of drug-induced syndromes: neuroleptic malignant syndrome, serotonin syndrome, malignant hyperthermia. [S1]
 - ⚠️ **Temperature above 38.5 °C needs urgent cooling.** [S1]
 
 ## Decontamination
 
-- **Eye:** copious saline irrigation (local anaesthetic drops and sedation may be needed). **Skin:** remove clothes, rinse with copious water, then soap and water. [S1]
-- ⚠️ **Discuss every gut-decontamination method with a toxicologist first** — **paediatric deaths have occurred from activated charcoal.** **Emesis has no role in hospital.** [S1]
-- **Activated charcoal has a very limited role:** not without a toxicologist, **unless the child presents less than 1 hour after a potentially toxic ingestion with a normal conscious state.** [S1]
-- ⚠️ **Charcoal contraindications:** altered conscious state · ethanol/glycols · alkalis/corrosives · metals including lithium, iron and potassium · fluoride · cyanide · hydrocarbons · mineral acids (boric acid). [S1]
-- **Gastric lavage:** very limited role, needs intubation, only after consultation. **Whole bowel irrigation:** limited role in life-threatening ingestions of some slow-release preparations and agents charcoal doesn't bind. [S1]
+- **Eye:** copious saline irrigation (local anaesthetic drops and sedation may be needed). **Skin:** take the clothes off, rinse with plenty of water, then wash with soap and water. [S1]
+- ⚠️ **Discuss every gut-decontamination method with a toxicologist first** — **activated charcoal has killed children.** **In hospital, emesis has no place.** [S1]
+- **Activated charcoal has a very limited role:** not without a toxicologist, **unless the child arrives within 1 hour of a potentially toxic ingestion and is fully conscious.** [S1]
+- ⚠️ **Charcoal contraindications:** altered conscious state · cyanide · fluoride · hydrocarbons · alkalis/corrosives · mineral acids (boric acid) · ethanol/glycols · metals including lithium, iron and potassium. [S1]
+- **Gastric lavage:** very limited role, needs intubation, only after consultation. **Whole bowel irrigation:** a limited role when a life-threatening ingestion involves certain slow-release preparations or agents charcoal doesn't bind. [S1]
 
 ## Antidotes (choice only — doses are on the agent pages)
 
-- **Antidote pairings (selected):** benzodiazepines → flumazenil · beta blocker → glucagon · digoxin → digoxin immune Fab · iron → desferrioxamine · isoniazid → pyridoxine · local anaesthetics → Intralipid · methaemoglobinaemia → methylene blue · opiates → naloxone · oral hypoglycaemics → octreotide · paracetamol → N-acetylcysteine · tricyclic antidepressants → sodium bicarbonate · warfarin/long-acting rodenticide → vitamin K. [S1]
-- **Calcium channel blocker:** calcium, insulin/glucose, Intralipid. **Cyanide:** hydroxocobalamin, dicobalt edetate, sodium thiosulphate. [S1]
+- **Antidote pairings (selected):** flumazenil for benzodiazepines · glucagon for beta blocker · digoxin immune Fab for digoxin · desferrioxamine for iron · pyridoxine for isoniazid · Intralipid for local anaesthetics · methylene blue for methaemoglobinaemia · naloxone for opiates · octreotide for oral hypoglycaemics · N-acetylcysteine for paracetamol · sodium bicarbonate for tricyclic antidepressants · vitamin K for warfarin/long-acting rodenticide. [S1]
+- **Calcium channel blocker:** Intralipid, insulin/glucose, calcium. **Cyanide:** sodium thiosulphate, dicobalt edetate, hydroxocobalamin. [S1]
 
 ## Enhanced elimination
 
 - **Urinary alkalinisation helps salicylate toxicity if done meticulously.** **Multi-dose charcoal** has a pharmacokinetic effect but no evident improvement in clinical outcome. [S1]
-- **Intermittent high-flux haemodialysis** removes small water-soluble toxins: salicylate, toxic alcohols, lithium, theophylline, valproate, barbiturates, methotrexate. CVVH is only for patients who can't tolerate haemodialysis. [S1]
+- **Small water-soluble toxins are cleared by intermittent high-flux haemodialysis**: lithium, salicylate, valproate, theophylline, methotrexate, barbiturates, toxic alcohols. CVVH is only for patients who can't tolerate haemodialysis. [S1]
 
 ## Disposition
 
@@ -70,12 +70,12 @@
 | 3 | **No antidote doses appear on this page** — it defers to agent-specific guidelines. Desferrioxamine, sodium bicarbonate and N-acetylcysteine doses are in `iron-poisoning-children`, `tricyclic-antidepressant-poisoning-children`/`salicylate-poisoning-children` and `paracetamol-poisoning-children`. | `observation` |
 | 4 | **The buprenorphine entry reads '8 g sublingual'** (almost certainly 8 mg) and was **not quoted**; the source typo is recorded rather than corrected. | `observation` |
 | 5 | **The page's toxidrome, caustic and ~35 linked agent pages** (e.g. clonidine, sulphonylurea, calcium channel blocker) were not retrieved. | `out_of_scope` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Poisoning - Acute Guidelines For Initial Management*. Last updated August 2017. https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Poisoning - Acute Guidelines For Initial Management*. Last updated August 2017. https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
