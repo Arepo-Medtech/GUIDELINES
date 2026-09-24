@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/kidney-transplant-immunosuppression-and-rejection.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.cariguidelines.org/wp-content/uploads/Transplantation/transplantation%20care%20of%20recipients/Summaries/Chadban_2012_204.pdf"
+  "https://www.cariguidelines.org/wp-content/uploads/Transplantation/transplantation%20care%20of%20recipients/Summaries/Chadban_2012_204.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from KHA-CARI (Chadban SJ et al.), Nephrology 'KHA-CARI guideline: KHA-CARI adaptation of the KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients (summary, Nephrology 2012; 17: 204–214)' (published 2012 (accepted December 2011); listed as current (Jan 2012) on the CARI Transplant page). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2011 The Authors; Nephrology © 2011 Asian Pacific Society of Nephrology (CARI site: 'All Rights Reserved') (read at copyright lines in the PDF footer; cariguidelines.org footer). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from KHA-CARI (Chadban SJ et al.), Nephrology 'KHA-CARI guideline: KHA-CARI adaptation of the KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients (summary, Nephrology 2012; 17: 204–214)' (published 2012 (accepted December 2011); listed as current (Jan 2012) on the CARI Transplant page), 22 claims; LICENCE: © 2011 The Authors; Nephrology © 2011 Asian Pacific Society of Nephrology (CARI site: 'All Rights Reserved') (read at copyright lines in the PDF footer; cariguidelines.org footer). S2: PARAPHRASED AND HASH-ANCHORED from The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095) 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group' (published online 21 April 2020), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC7176344). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, The Transplantation Society 2019 expert consensus on antibody-mediated rejection (Europe PMC JATS XML, tables stripped), paraphrased and hash-anchored. The S1 claims and anchors are unchanged from edition 1.0.",
  "summary": {
-  "total": 22,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -319,6 +320,159 @@
     }
    ],
    "locator": "KHA-CARI (Chadban SJ et al.), Nephrology, 'KHA-CARI guideline: KHA-CARI adaptation of the KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients (summary, Nephrology 2012; 17: 204–214)', published 2012 (accepted December 2011); listed as current (Jan 2012) on the CARI Transplant page, https://www.cariguidelines.org/wp-content/uploads/Transplantation/transplantation%20care%20of%20recipients/Summaries/Chadban_2012_204.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Antibody-mediated rejection (AMR) is a leading cause of graft loss:** up to 25% of recipients develop de novo donor-specific anti-HLA antibody (dnDSA) by 10 years, and AMR was the commonest cause of failure in one cohort biopsied before graft loss.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3408bee8f5d5bf6f",
+     "n": 256,
+     "p": "By 10 ye"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before transplant, type donor and recipient HLA, screen for anti-HLA antibody (single-antigen bead assays first line) and take a history of sensitising events** such as an earlier transplant, transfusion or pregnancy (1A). Recipients with no such history and negative bead testing are at low AMR risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcb65462904ef824",
+     "n": 286,
+     "p": "The init"
+    },
+    {
+     "h": "f95e2e15d6da1d6d",
+     "n": 387,
+     "p": "The firs"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Test for dnDSA whenever the clinician reduces immunosuppression, when non-adherence is known, and at any rejection episode** (2B). dnDSA signals under-immunosuppression: review maintenance therapy, watch graft function closely (1B) and biopsy to look for cellular or antibody-mediated rejection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba1acaa5f9a9e16e",
+     "n": 626,
+     "p": "Monitori"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reading DSA results:** single-antigen bead results vary between and within laboratories (a positive cut-off is usually an MFI of 1000–1500), and complement-binding (C1q or C3d) assays are not advised routinely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5556eb28bbdff175",
+     "n": 237,
+     "p": "First, t"
+    },
+    {
+     "h": "6f4e72985c80fcb6",
+     "n": 139,
+     "p": "For this"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Early active AMR (within 30 days): plasma exchange plus IV immunoglobulin with corticosteroids is the consensus standard of care;** some centres keep steroids for concurrent T-cell-mediated rejection. Where graft-loss risk is high, add a complement inhibitor, rituximab or splenectomy as available, and treat any concurrent T-cell-mediated rejection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "73717afbbf34fbb4",
+     "n": 69,
+     "p": "CONSENSU"
+    },
+    {
+     "h": "2c78c7dba3f66517",
+     "n": 304,
+     "p": "The cons"
+    },
+    {
+     "h": "38d174692f528e9e",
+     "n": 305,
+     "p": "the cons"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Later AMR (from 30 days) with pre-existing DSA but no chronic features:** plasma exchange, IV immunoglobulin and corticosteroids.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e12c05777ef0e4ef",
+     "n": 87,
+     "p": "CONSENSU"
+    },
+    {
+     "h": "b31a9c5e86960bf9",
+     "n": 163,
+     "p": "Among pa"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Chronic active AMR: plasma exchange and IV immunoglobulin, with or without rituximab, have not been shown to help** and add infection risk and cost. Optimise immunosuppression and supportive care instead: restart steroids if the regimen was steroid-free, keep the tacrolimus trough above 5 ng/mL, and control blood pressure, glucose and lipids.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c452c9a280f9760c",
+     "n": 571,
+     "p": "The use "
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**AMR with dnDSA usually follows under-immunosuppression** (non-adherence or a deliberate reduction) and often comes with T-cell-mediated rejection: optimise baseline immunosuppression, tackle adherence and treat the cellular rejection. Some centres add plasma exchange, IV immunoglobulin and rituximab, but the evidence is weak (3C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c48a73359006c69",
+     "n": 704,
+     "p": "dnDSA ge"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adjuncts without trial support:** rituximab showed no clear benefit in three small randomised trials; bortezomib alone did not help in the only randomised trial (late AMR); T-cell-depleting antibody has shown no benefit in pure AMR.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f1b621cbb15ce623",
+     "n": 144,
+     "p": "Despite "
+    },
+    {
+     "h": "92aea25a8f3a772f",
+     "n": 156,
+     "p": "The only"
+    },
+    {
+     "h": "798c23c44d999ea6",
+     "n": 89,
+     "p": "no benef"
+    }
+   ],
+   "locator": "The Transplantation Society (TTS) Antibody-mediated Rejection Working Group (Schinstock CA, Mannon RB, Budde K, et al.), Transplantation 104(5):911-922 (doi 10.1097/TP.0000000000003095), 'Recommended Treatment for Antibody-mediated Rejection After Kidney Transplantation: The 2019 Expert Consensus From the Transplantion Society Working Group', published online 21 April 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7176344/, retrieved 2026-09-24"
   },
   {
    "claim": "**Biopsy any graft with falling function of unclear cause** to find reversible causes (1C). With CNI toxicity on histology, reduce, stop or replace the CNI (2C); swap to an mTOR inhibitor only if eGFR is over 40 mL/min per 1.73 m2 with urine protein under 50 mg/mmol creatinine, and not when eGFR is below 40 (2D).",

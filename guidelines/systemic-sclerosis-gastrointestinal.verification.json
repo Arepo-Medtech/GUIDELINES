@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/systemic-sclerosis-gastrointestinal.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11534099/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11534099/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from British Society for Rheumatology (Denton CP et al.), Rheumatology (Oxford) 63(11):2956 'The 2024 British Society for Rheumatology guideline for management of systemic sclerosis' (published 11 September 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11534099). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from British Society for Rheumatology (Denton CP et al.), Rheumatology (Oxford) 63(11):2956 'The 2024 British Society for Rheumatology guideline for management of systemic sclerosis' (published 11 September 2024), 16 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11534099). S2: PARAPHRASED AND HASH-ANCHORED from World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024) 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'' (published 1 January 2026), 11 claims; LICENCE: CC BY-NC (per Europe PMC); the PMC copy is the NIH author manuscript (NIHMS2140814), 'available for text mining' and fair use (read at Europe PMC search record (license field) and the <license> element of the NCBI efetch JATS XML for PMC13271578). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the World Scleroderma Foundation 2026 expert recommendations on refractory reflux in SSc (NIH author manuscript, JATS XML from NCBI efetch because the Europe PMC full-text service returned 500), paraphrased and hash-anchored. The S1 claims and anchors are unchanged from edition 1.0.",
  "summary": {
-  "total": 16,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 16
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -143,6 +144,261 @@
     }
    ],
    "locator": "British Society for Rheumatology (Denton CP et al.), Rheumatology (Oxford) 63(11):2956, 'The 2024 British Society for Rheumatology guideline for management of systemic sclerosis', published 11 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11534099/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refractory reflux in SSc (WSF):** symptoms, or new or continuing mucosal disease (Barrett's, oesophagitis, strictures, ulcers, even without symptoms), despite optimal acid suppression. Optimal means a high-dose PPI (omeprazole 40 mg or more a day or equivalent, for example twice daily) or a combination such as PPI plus H2 blocker or standard-dose PPI plus a promotility drug; standard dose is omeprazole 20 mg a day.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dee2d77192c58eb8",
+     "n": 842,
+     "p": "For thes"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Look for red flags** (iron-deficiency anaemia, unintended weight loss, night sweats, fever) that need urgent tests for cancer, infection or bleeding. In early diffuse or anti-RNA polymerase III-positive disease, remember gastric antral vascular ectasia ('watermelon stomach') as a bleeding source. Finish the work-up before blaming SSc for GI symptoms.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac4ee69320433635",
+     "n": 253,
+     "p": "Clinicia"
+    },
+    {
+     "h": "309d5c6a837fcdb0",
+     "n": 281,
+     "p": "In some "
+    },
+    {
+     "h": "86ce1c30cb9acc26",
+     "n": 97,
+     "p": "ensure a"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Review other drugs:** calcium channel blockers and other vasodilators for Raynaud's can worsen reflux by lowering lower oesophageal sphincter tone. Check that PPIs are taken about 30 minutes before meals.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46d8fded334990c8",
+     "n": 156,
+     "p": "However,"
+    },
+    {
+     "h": "a0370bf5a1804e76",
+     "n": 49,
+     "p": "many PPI"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Test objectively:** examine the mucosa in everyone with refractory symptoms, and strongly consider high-resolution manometry (particularly with dysphagia) and pH-impedance monitoring on a PPI to link symptoms to acid exposure. If manometry is not tolerated, scintigraphy or a timed barium swallow can screen for dysmotility.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68aaafeffe74029b",
+     "n": 151,
+     "p": "All pati"
+    },
+    {
+     "h": "35cc88d5a5147aea",
+     "n": 268,
+     "p": "Strongly"
+    },
+    {
+     "h": "8ed8cac32141672a",
+     "n": 132,
+     "p": "Strongly"
+    },
+    {
+     "h": "79a13ca453e17dd9",
+     "n": 146,
+     "p": "If a pat"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Test for Helicobacter pylori and eradicate it if present.** It does not cause reflux, but long-term acid suppression in people carrying it raises the risk of gastric atrophy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e485fc0f0f8d0e2",
+     "n": 100,
+     "p": "If prese"
+    },
+    {
+     "h": "fb193d10b64ad88a",
+     "n": 229,
+     "p": "We highl"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Night-time reflux:** raise the head of the bed, leave a longer gap between dinner and bed, and lie on the left side. Keep up weight control, stopping smoking and avoiding large, fatty or spicy meals throughout the disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1054af45999de4a6",
+     "n": 458,
+     "p": "These in"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **High-dose PPI is the first-line drug strategy for refractory SSc reflux,** a move away from H2 blockers, which often failed. Weigh the risks when osteoporosis, electrolyte disturbance, bacterial overgrowth or infection risk is high; heavy PPI exposure is linked with more severe calcinosis, and potassium-competitive acid blockers have similar side effects.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "733db9cc8d18f634",
+     "n": 99,
+     "p": "High-dos"
+    },
+    {
+     "h": "fdd1fe56dd191072",
+     "n": 153,
+     "p": "This ref"
+    },
+    {
+     "h": "a8f2f58632f29b14",
+     "n": 284,
+     "p": "In patie"
+    },
+    {
+     "h": "434924340ff4beba",
+     "n": 110,
+     "p": "However,"
+    },
+    {
+     "h": "1919430a876f5c8a",
+     "n": 105,
+     "p": "Potassiu"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Add-ons when a PPI alone is not enough or cannot be increased:** an H2 blocker, a promotility drug or an alginate. With refractory reflux and dysphagia, strongly consider a trial of a promotility drug (prucalopride, pyridostigmine, domperidone or metoclopramide); vomiting, early satiety, post-meal pain or bloating also favour one.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a9c848ab566f5fd",
+     "n": 172,
+     "p": "Add on t"
+    },
+    {
+     "h": "b4b12a36144330bc",
+     "n": 207,
+     "p": "In patie"
+    },
+    {
+     "h": "abcc0de56105e6a8",
+     "n": 220,
+     "p": "Patients"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Further options:** buspirone for a hypotensive lower oesophageal sphincter (stop it if a 2–4 week trial does not help); baclofen when pH-impedance shows mostly weakly acidic or non-acid reflux with a positive symptom link; an anti-emetic (ondansetron, promethazine, mirtazapine) for nausea that promotility drugs do not settle. Immunosuppression has no firm evidence for SSc gut disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ab2c5142fc20125",
+     "n": 85,
+     "p": "Consider"
+    },
+    {
+     "h": "8e83aee30ebf5206",
+     "n": 156,
+     "p": "If there"
+    },
+    {
+     "h": "a053e3a95635ec87",
+     "n": 179,
+     "p": "Baclofen"
+    },
+    {
+     "h": "8153682f03efb3b2",
+     "n": 221,
+     "p": "In the c"
+    },
+    {
+     "h": "1b98276e51eb5a34",
+     "n": 108,
+     "p": "no defin"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Endoscopic anti-reflux procedures have little evidence** and are unsuitable with a large (over 3 cm) hiatal hernia. Surgery such as Nissen fundoplication is a last resort for highly selected patients, but may matter when upper-GI disease threatens eligibility for a life-saving lung transplant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ff25d9e6d2d6618b",
+     "n": 335,
+     "p": "To date,"
+    },
+    {
+     "h": "d84be1aa9691584c",
+     "n": 104,
+     "p": "Surgery "
+    },
+    {
+     "h": "15bff4effc92ec63",
+     "n": 201,
+     "p": "GI surgi"
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**With lung disease (SSc-ILD),** screen for aspiration (a modified barium swallow if there is proximal dysphagia, or coughing with meals or on lying flat), optimise reflux treatment, and test high-risk patients for silent reflux. **With overlapping myositis,** screen for pharyngeal involvement; IV immunoglobulin 2 g/kg a month, split over several days, may greatly help pharyngeal myositis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dbe9f0e06d345097",
+     "n": 200,
+     "p": "In patie"
+    },
+    {
+     "h": "0db708db121cbe5a",
+     "n": 181,
+     "p": "Clinicia"
+    },
+    {
+     "h": "7ca7e6e1da6d4106",
+     "n": 198,
+     "p": "Screen f"
+    },
+    {
+     "h": "32e719ccaa64acb7",
+     "n": 154,
+     "p": "IVIg at "
+    }
+   ],
+   "locator": "World Scleroderma Foundation GI ad hoc committee (Hughes M, Cricchio AL, De Santis MC, et al.), Journal of Scleroderma and Related Disorders 11(1):e000024 (doi 10.1136/jsrd-2026-000024), 'Expert recommendations for the management of refractory gastroesophageal reflux disease in systemic sclerosis: A report from the World Scleroderma Foundation (WSF) Gastrointestinal 'Ad hoc committee'', published 1 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271578/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**For symptomatic small intestinal bacterial overgrowth, give intermittent broad-spectrum oral antibiotics** (for example ciprofloxacin), possibly rotating agents; rifaximin is an option when refractory. (2B, 95%)",

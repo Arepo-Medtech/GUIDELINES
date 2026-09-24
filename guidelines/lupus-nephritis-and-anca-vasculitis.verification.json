@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/lupus-nephritis-and-anca-vasculitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://europepmc.org/article/PMC/PMC12439324"
+  "https://europepmc.org/article/PMC/PMC12439324",
+  "http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Nephrology (Wiley) 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases' (published 16 September 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12439324). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Nephrology (Wiley) 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases' (published 16 September 2025), 18 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12439324). S2: PARAPHRASED AND HASH-ANCHORED from EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762) 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update' (published online 12 October 2023), 10 claims; LICENCE: © Author(s) (or their employer(s)) 2024. No commercial re-use. See rights and permissions. Published by BMJ. (read at copyright line on page 1 of the published PDF (University of Szeged repository copy of the BMJ version)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR 2023 SLE recommendations (published BMJ PDF from the University of Szeged repository, pdftotext; the same text used by `cutaneous-lupus-erythematosus`), paraphrased and hash-anchored. The S1 claims and anchors are unchanged from edition 1.0.",
  "summary": {
-  "total": 18,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -271,6 +272,199 @@
     }
    ],
    "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **EULAR: for active proliferative lupus nephritis, give low-dose (Euro-Lupus) IV cyclophosphamide or mycophenolate with glucocorticoids (IV methylprednisolone pulses, then lower oral doses), and consider adding belimumab or a calcineurin inhibitor (voclosporin or tacrolimus with mycophenolate) from the start.** The add-on is left to the treating doctor; if it is not used first, add belimumab or voclosporin when response is inadequate at 3–6 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f03a638d6f2e863",
+     "n": 454,
+     "p": "8. Patie"
+    },
+    {
+     "h": "2cd0e3b85b544f57",
+     "n": 227,
+     "p": "it was p"
+    },
+    {
+     "h": "a8750ad94a440e96",
+     "n": 118,
+     "p": "add-on t"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Choosing the add-on (EULAR):** belimumab worked better when baseline proteinuria was under 3 g/day; voclosporin lowers proteinuria quickly, which may suit nephrotic-range disease, but its safety at GFR 30–45 mL/min is unknown because AURORA-1 excluded GFR below 45. In the small pure class V subgroups, neither beat placebo on renal response.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e4d79862aa9a81af",
+     "n": 482,
+     "p": "Second, "
+    },
+    {
+     "h": "b5dfa066d9407e82",
+     "n": 162,
+     "p": "neither "
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Class V (EULAR): the proteinuria threshold for starting immunosuppression is 1 g/day,** unchanged from the 2019 EULAR/ERA-EDTA advice.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4e2eee917a58c92b",
+     "n": 146,
+     "p": "the reco"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Patients at high risk of kidney failure** (reduced GFR, cellular crescents, fibrinoid necrosis or severe interstitial inflammation) can have high-dose (NIH) IV cyclophosphamide, 0.5–0.75 g/m2 once a month for 6 months, with IV methylprednisolone pulses. Such patients were under-represented or excluded in the recent trials.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52a7cd3ff778c703",
+     "n": 362,
+     "p": "10. In p"
+    },
+    {
+     "h": "a403aa8c552d7fb3",
+     "n": 88,
+     "p": "patients"
+    },
+    {
+     "h": "fc578fb6531d697a",
+     "n": 86,
+     "p": "the trad"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Response targets (EULAR/ERA-EDTA 2019, now validated):** proteinuria down by at least 25% at 3 months and 50% at 6 months, and under 500–700 mg a day by month 12, with GFR staying within 10% of baseline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4bdbf192f8595bf",
+     "n": 31502,
+     "p": "renal re"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**EULAR maintenance:** keep treating for at least 3 years after response. Stay on a mycophenolate-based regimen (with belimumab or a calcineurin inhibitor if those were used); after cyclophosphamide, switch to mycophenolate or azathioprine and keep belimumab if it was part of the first regimen.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4292f11b31b7a01d",
+     "n": 412,
+     "p": "9. Follo"
+    },
+    {
+     "h": "b9ad834dbad02f35",
+     "n": 183,
+     "p": "if low-d"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In sustained remission, taper gradually, stopping glucocorticoids first.** In the WIN-LUPUS trial, withdrawing mycophenolate or azathioprine after 2–3 years of lupus nephritis treatment was not shown to be non-inferior: those who stopped had more renal relapses and extra-renal flares.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9865e696b1377468",
+     "n": 156,
+     "p": "11. In p"
+    },
+    {
+     "h": "95940ea89d9543b9",
+     "n": 380,
+     "p": "a second"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hydroxychloroquine for every patient unless contraindicated, aiming at 5 mg/kg of actual body weight a day,** adjusted to flare and retinal-toxicity risk. A higher start (not above 400 mg/day) can be used in moderate or severe disease, then lowered. Kidney disease raises retinal risk, so eye follow-up should be closer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5504e3b35aaafa63",
+     "n": 213,
+     "p": "1. Hydro"
+    },
+    {
+     "h": "e18fb5384c69e406",
+     "n": 156,
+     "p": "In selec"
+    },
+    {
+     "h": "a26ccdc5c41a740f",
+     "n": 175,
+     "p": "with pat"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Glucocorticoids: dose by organ and severity, taper to 5 mg/day or less (prednisone-equivalent) for maintenance, and stop when possible.** In moderate-to-severe disease, IV methylprednisolone pulses of 125–1000 mg a day for 1–3 days can be used. The maintenance ceiling was lowered from 7.5 mg/day in 2019.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90baf0345b579ea7",
+     "n": 335,
+     "p": "2. Gluco"
+    },
+    {
+     "h": "a97471b802434ac4",
+     "n": 186,
+     "p": "to lower"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**If SLE does not respond to hydroxychloroquine (with or without steroids), or steroids cannot be cut to an acceptable long-term dose, add an immunosuppressant (methotrexate, azathioprine or mycophenolate) and/or a biologic (belimumab or anifrolumab).** EULAR sets no order between the two biologics, and a conventional immunosuppressant need not be tried first.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2a44611a22f4f84",
+     "n": 400,
+     "p": "3. In pa"
+    },
+    {
+     "h": "f0b1629adf2d4e87",
+     "n": 215,
+     "p": "there is"
+    },
+    {
+     "h": "02746fa1ab3bc457",
+     "n": 321,
+     "p": "most pan"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
   }
  ]
 }

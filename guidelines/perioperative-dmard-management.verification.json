@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/perioperative-dmard-management.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/",
+  "https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery' (published 22 May 2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10946831). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery' (published 22 May 2023), 16 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10946831). S2: PARAPHRASED AND HASH-ANCHORED from American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893) '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty' (published online 20 June 2022 (corrected 24 August 2022)), 8 claims; LICENCE: © 2022 American College of Rheumatology (no open licence; PDF free to read from the ACR guideline page) (read at copyright line on page 1 of the PDF linked from https://rheumatology.org/perioperative-management-guideline). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2022 ACR/AAHKS guideline (Arthritis Care & Research version, free PDF from the ACR guideline page, pdftotext in reading order with ligatures and line-end hyphens normalised), paraphrased and hash-anchored. The S1 claims are unchanged from edition 1.0.",
  "summary": {
-  "total": 16,
+  "total": 24,
   "pass": 16,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 8
  },
  "claims": [
   {
@@ -59,6 +61,29 @@
    "locator": "Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal, 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery', published 22 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Every ACR/AAHKS recommendation is conditional, resting on indirect or low-quality evidence;** no randomised trials appeared after the 2017 version. It covers only elective hip and knee replacement, though its principles may guide other operations.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "66b241e772acc1a8",
+     "n": 132,
+     "p": "Because "
+    },
+    {
+     "h": "131ad83a1db6bdf3",
+     "n": 128,
+     "p": "To our k"
+    },
+    {
+     "h": "529fe178ff112eae",
+     "n": 277,
+     "p": "we are u"
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Flares are not benign:** they are linked to long-term joint damage, disability and cardiovascular disease, and can derail rehabilitation or need extra glucocorticoids.",
    "source": "S1",
    "verdict": "pass",
@@ -72,6 +97,29 @@
    "source_text": "For patients planning to withhold csDMARDS perioperatively, the panel suggested that methotrexate be withheld for one dosing cycle prior to surgery (i.e. plan surgery 1-2 weeks after the most recent dose) and leflunomide be withheld approximately 7 days before surgery. It is unlikely that clinicians or patients would choose to withhold other csDMARDs (sulfasalazine or hydroxychloroquine).",
    "locator": "Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal, 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery', published 22 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**ACR/AAHKS also continues methotrexate, leflunomide, hydroxychloroquine, sulfasalazine and (now including) apremilast at the usual dose through hip or knee replacement.** People with severe or recurrent infections or a past prosthetic joint infection may choose to withhold them.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0af8ef1e5e3bd4cc",
+     "n": 239,
+     "p": "elective"
+    },
+    {
+     "h": "a117ebbf2934dad9",
+     "n": 111,
+     "p": "This con"
+    },
+    {
+     "h": "1ba8b0d735f8121b",
+     "n": 149,
+     "p": "Patients"
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Leflunomide and methotrexate act for a long time**, leflunomide especially, which limits what a short pause achieves.",
@@ -94,6 +142,94 @@
    "source_text": "If a decision is made to withhold bDMARDS perioperatively, for most bDMARDs, the panel recommended withholding medication for one dosing cycle prior to surgery, that is, plan surgery at approximately the time of the subsequent dose (e.g. for a monthly injection, aim for surgery in the fifth week after the last injection); for rituximab, aim for surgery at least 3 months after the most recent dose.",
    "locator": "Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal, 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery', published 22 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **ACR/AAHKS: withhold all biologics, rituximab included, and schedule surgery just after the next dose would have been due,** when drug levels are low: for example week 3 for adalimumab given every 2 weeks, and month 7 for rituximab given every 6 months. Claims data found no difference between pausing about one dosing interval and pausing longer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ace897ca88646d2d",
+     "n": 146,
+     "p": "withhold"
+    },
+    {
+     "h": "e4548434e9d890c4",
+     "n": 278,
+     "p": "Planning"
+    },
+    {
+     "h": "e519ce61c8103aa0",
+     "n": 159,
+     "p": "In both "
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Operating within the dosing cycle is reasonable** when joint symptoms are severe (for example advanced osteonecrosis), and people whose disease has been hard to control may keep the biologic going rather than risk losing control.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e97fed2b3cc0b390",
+     "n": 472,
+     "p": "Patients"
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**SLE that is not severe: stop mycophenolate, azathioprine, ciclosporin or tacrolimus 1 week before surgery, and withhold belimumab and rituximab.** Most can be watched closely afterwards and a flare treated; frequent flares or hard-to-control disease may justify continuing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "01a8a674624076f9",
+     "n": 239,
+     "p": "For pati"
+    },
+    {
+     "h": "9a707ff58e64b027",
+     "n": 100,
+     "p": "withhold"
+    },
+    {
+     "h": "1e6ec854c746a128",
+     "n": 179,
+     "p": "Patients"
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Severe (organ-threatening) SLE: continue mycophenolate, azathioprine, ciclosporin, tacrolimus, anifrolumab, voclosporin and belimumab through surgery, and time surgery for the last month of a rituximab cycle** (usually month 5 or 6 of a 6-monthly schedule). Involve the treating rheumatologist; a patient stable for over 6 months, or with serious past infections, might pause.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cdedb6aa55b389a0",
+     "n": 306,
+     "p": "For pati"
+    },
+    {
+     "h": "c72df9f39fc9e129",
+     "n": 174,
+     "p": "For pati"
+    },
+    {
+     "h": "d5f7a4996c352a4c",
+     "n": 135,
+     "p": "Surgery "
+    },
+    {
+     "h": "6b8c67f44ac269e1",
+     "n": 177,
+     "p": "A patien"
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Temporarily stop tsDMARDs, from about 1 week before surgery.** Reasons: no evidence, infection risk, a blunted acute-phase response and a possible thrombosis risk.",
@@ -123,6 +259,43 @@
    "verdict": "pass",
    "source_text": "Finally, it was noted that some DMARDs, particularly those that target the IL‐6 pathway (e.g. tocilizumab), and possibly JAK inhibitors, may dampen the acute phase response, and therefore clinicians should remain vigilant to the possibility of infection even in the presence of normal inflammatory markers.",
    "locator": "Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal, 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery', published 22 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Keep the usual daily glucocorticoid dose; do not add supraphysiologic 'stress' doses on the day of surgery.** In one study of 432 people with RA, each extra 10 mg of glucocorticoid raised the short-term complication risk by 8.4%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80bf255657436fd5",
+     "n": 203,
+     "p": "who are "
+    },
+    {
+     "h": "9ad6f965065b083f",
+     "n": 277,
+     "p": "Another "
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Exceptions:** people who had glucocorticoids for JIA during childhood development, or who take them for primary adrenal insufficiency or hypothalamic disease, may need supraphysiologic doses to stay haemodynamically stable. A high cumulative dose, even below 5 mg/day, may slow wound healing and add to infection risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cbd9c301df632407",
+     "n": 314,
+     "p": "This rec"
+    },
+    {
+     "h": "1aaf365cfdd5a7bb",
+     "n": 157,
+     "p": "wound he"
+    }
+   ],
+   "locator": "American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893), '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty', published online 20 June 2022 (corrected 24 August 2022), https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt19bb97501e28722c/633209055710672259b3da0c/perioperative-management-guideline-2022.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**ACR/AAHKS 2022 and BSR 2019 advise withholding bDMARDs**, balanced against flare risk. The US panel's consumers prioritised infection; UK patients in focus groups prioritised avoiding flares.",

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/primary-hyperoxaluria.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.nature.com/articles/s41581-022-00661-1"
+  "https://www.nature.com/articles/s41581-022-00661-1",
+  "https://uroweb.org/guidelines/urolithiasis"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from ERKNet and OxalEurope (Groothoff JW et al.), Nature Reviews Nephrology 'Clinical practice recommendations for primary hyperoxaluria: an expert consensus statement from ERKNet and OxalEurope' (published 5 January 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Springer Nature (exclusive rights under a publishing agreement; free to read, no open licence) (read at nature.com article page, 'Rights and permissions' section). The source's words are NOT reproduced here. Source text: nature.com article HTML (full text returned without login), article body extracted with tags, tables and reference anchors stripped. Boxes 1 and 2 are in the text; Tables 1 and 2 were not extracted.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from ERKNet and OxalEurope (Groothoff JW et al.), Nature Reviews Nephrology 'Clinical practice recommendations for primary hyperoxaluria: an expert consensus statement from ERKNet and OxalEurope' (published 5 January 2023), 22 claims; LICENCE: © Springer Nature (exclusive rights under a publishing agreement; free to read, no open licence) (read at nature.com article page, 'Rights and permissions' section). S2: PARAPHRASED AND HASH-ANCHORED from European Association of Urology (EAU) Urolithiasis Guidelines Panel 'EAU Guidelines on Urolithiasis (section 4.6.3, Primary hyperoxaluria, and the drug table)' (2026 edition (full update of the 2025 publication; web version)), 5 claims; LICENCE: © European Association of Urology: personal and educational use only; no reproduction without written permission; AI-use clause (see method) (read at https://uroweb.org/guidelines/urolithiasis, chapter 10 'Copyright and terms of use'). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: nature.com article HTML (full text returned without login), article body extracted with tags, tables and reference anchors stripped. Boxes 1 and 2 are in the text; Tables 1 and 2 were not extracted. Edition 2.0 adds S2, the EAU Guidelines on Urolithiasis (2026 edition): the uroweb.org web chapter HTML, taken from the page data and tag-stripped, paraphrased and hash-anchored; the S1 claims and anchors are unchanged. EAU terms of use (chapter 10), verbatim: 'The content of the EAU Guidelines and all products derived from them is made available for personal and educational use only. No commercial usage is authorised. No part of the EAU Guidelines or any related products may be translated or reproduced in any form without written permission from the EAU. Furthermore, the EAU prohibits the usage or upload of its Guidelines, and any material derived from these texts (whether in full or in part) on external websites, bots, pages, portals, servers, software, or external applications, including those employing artificial intelligence technologies and infrastructure, such as large language models and generative AI, deep learning and machine learning, unless written permission has been granted for such by the EAU.' Under the owner's standing decision (Wave 4) an AI-use clause does not exclude a source; the clause is recorded here and S2 is paraphrased, not reproduced.",
  "summary": {
-  "total": 22,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -105,6 +106,19 @@
    "locator": "ERKNet and OxalEurope (Groothoff JW et al.), Nature Reviews Nephrology, 'Clinical practice recommendations for primary hyperoxaluria: an expert consensus statement from ERKNet and OxalEurope', published 5 January 2023, https://www.nature.com/articles/s41581-022-00661-1, retrieved 2026-09-23"
   },
   {
+   "claim": "**EAU urine oxalate bands (adults):** over 0.40 mmol a day confirms hyperoxaluria. Primary hyperoxaluria mostly exceeds 1 mmol a day; secondary (enteric or dietary) hyperoxaluria is usually between 0.5 and 1; 0.40–0.50 is the mild form common in idiopathic calcium oxalate stone formers.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ab593c02ac55b51",
+     "n": 509,
+     "p": "Oxalate "
+    }
+   ],
+   "locator": "European Association of Urology (EAU) Urolithiasis Guidelines Panel, 'EAU Guidelines on Urolithiasis (section 4.6.3, Primary hyperoxaluria, and the drug table)', 2026 edition (full update of the 2025 publication; web version), https://uroweb.org/guidelines/urolithiasis, retrieved 2026-09-24"
+  },
+  {
    "claim": "**In kidney failure, use plasma oxalate, not urine,** and compare results with dialysis patients who do not have PH rather than with healthy people. Plasma assays vary a lot between laboratories.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -190,6 +204,54 @@
     }
    ],
    "locator": "ERKNet and OxalEurope (Groothoff JW et al.), Nature Reviews Nephrology, 'Clinical practice recommendations for primary hyperoxaluria: an expert consensus statement from ERKNet and OxalEurope', published 5 January 2023, https://www.nature.com/articles/s41581-022-00661-1, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**EAU: pyridoxine for PH1 at 5–20 mg/kg a day,** set by the urine oxalate response and tolerance; its drug table gives a 5 mg/kg/day start, a 20 mg/kg/day maximum, and sensory peripheral neuropathy as the main risk. In about one-third of PH1 patients it normalises or markedly lowers urine oxalate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "78fa51a4f2cc4d45",
+     "n": 100,
+     "p": "pyridoxi"
+    },
+    {
+     "h": "561ef1cd1bcdab5c",
+     "n": 99,
+     "p": "Pyridoxi"
+    },
+    {
+     "h": "5d52b735b770f31c",
+     "n": 136,
+     "p": "In appro"
+    }
+   ],
+   "locator": "European Association of Urology (EAU) Urolithiasis Guidelines Panel, 'EAU Guidelines on Urolithiasis (section 4.6.3, Primary hyperoxaluria, and the drug table)', 2026 edition (full update of the 2025 publication; web version), https://uroweb.org/guidelines/urolithiasis, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**EAU fluids and citrate:** adults 3.5–4.0 L a day and children 1.5 L/m2 of body surface, drunk on a round-the-clock schedule; alkaline citrate 3.25–9.75 g a day in adults (the children's dose is printed as 0.1–0.15 mg/kg a day; see Unresolved). Refer every patient to a specialised centre with an experienced interdisciplinary team.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "20f018b9fd1fa138",
+     "n": 157,
+     "p": "Patients"
+    },
+    {
+     "h": "3c4455eb769aee36",
+     "n": 181,
+     "p": "The goal"
+    },
+    {
+     "h": "01db6844ff35d510",
+     "n": 74,
+     "p": "alkaline"
+    }
+   ],
+   "locator": "European Association of Urology (EAU) Urolithiasis Guidelines Panel, 'EAU Guidelines on Urolithiasis (section 4.6.3, Primary hyperoxaluria, and the drug table)', 2026 edition (full update of the 2025 publication; web version), https://uroweb.org/guidelines/urolithiasis, retrieved 2026-09-24",
    "dose": true
   },
   {
@@ -281,6 +343,48 @@
     }
    ],
    "locator": "ERKNet and OxalEurope (Groothoff JW et al.), Nature Reviews Nephrology, 'Clinical practice recommendations for primary hyperoxaluria: an expert consensus statement from ERKNet and OxalEurope', published 5 January 2023, https://www.nature.com/articles/s41581-022-00661-1, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**EAU: prescribe lumasiran for PH type 1 that does not respond to pyridoxine** (strong; evidence level 1b that it lowers urine oxalate and stone recurrence). It may also stabilise GFR and improve nephrocalcinosis. Nedosiran was not yet EMA-approved when the EAU wrote this.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f09086fd9207220",
+     "n": 92,
+     "p": "Prescrib"
+    },
+    {
+     "h": "62e29c390fdc7978",
+     "n": 105,
+     "p": "Lumasira"
+    },
+    {
+     "h": "3b521e58b4b4003f",
+     "n": 130,
+     "p": "Lumasira"
+    },
+    {
+     "h": "16497b28ea0c5ba7",
+     "n": 68,
+     "p": "Lumasira"
+    }
+   ],
+   "locator": "European Association of Urology (EAU) Urolithiasis Guidelines Panel, 'EAU Guidelines on Urolithiasis (section 4.6.3, Primary hyperoxaluria, and the drug table)', 2026 edition (full update of the 2025 publication; web version), https://uroweb.org/guidelines/urolithiasis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Lumasiran dosing (EAU), by subcutaneous injection:** loading doses once a month for three months, 6 mg/kg below 10 kg and at 10–20 kg, and 3 mg/kg above 20 kg; maintenance from one month later, 3 mg/kg monthly below 10 kg, 6 mg/kg every three months at 10–20 kg, and 3 mg/kg every three months above 20 kg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb23f74e5eaf63dd",
+     "n": 455,
+     "p": "Lumasira"
+    }
+   ],
+   "locator": "European Association of Urology (EAU) Urolithiasis Guidelines Panel, 'EAU Guidelines on Urolithiasis (section 4.6.3, Primary hyperoxaluria, and the drug table)', 2026 edition (full update of the 2025 publication; web version), https://uroweb.org/guidelines/urolithiasis, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Consider dialysis early in stage 4–5 CKD,** before uraemia, when plasma oxalate stays high despite treatment or there are signs of systemic oxalosis. Standard dialysis removes far less oxalate than PH1 produces.",
