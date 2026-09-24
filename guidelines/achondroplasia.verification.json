@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/achondroplasia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/",
+  "https://www.nature.com/articles/s41574-021-00595-x"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia' (published 28 June 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11274906). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia' (published 28 June 2024), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11274906). S2: PARAPHRASED AND HASH-ANCHORED from Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x) 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia' (published March 2022), 13 claims; LICENCE: © Springer Nature Limited 2021 (free to read at nature.com; no open licence) (read at the copyright line in the article PDF downloaded from nature.com (Unpaywall: free to read, no licence)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2022 International Consensus Statement (modified Delphi, 160 statements; led from Melbourne), for general lifelong care, which S1 does not cover. S2 is © Springer Nature and free to read, so it is paraphrased and hash-anchored; text is from pdftotext of the published PDF, whose citation superscripts run into the words. The meeting was sponsored by BioMarin (maker of vosoritide), which the authors say had no input into content. The S1 claims are unchanged.",
  "summary": {
-  "total": 20,
+  "total": 33,
   "pass": 20,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 13
  },
  "claims": [
   {
@@ -156,6 +158,230 @@
    "verdict": "pass",
    "source_text": "Recommendation 13: In babies and infants < 24 months of age, all monitoring visits (6-monthly and annual) should take place in a specialist clinic (R). … a formal review in the specialised clinic should occur 3 months after starting vosoritide. … For young children who are unable to stand independently, supine length measurements are needed",
    "locator": "Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789, 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia', published 28 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refer every infant to a skeletal dysplasia centre or achondroplasia expert at diagnosis,** with ongoing multidisciplinary follow-up. In the first year, review every 2–4 months at first and then every 3–6 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ff9658abe1a63de",
+     "n": 120,
+     "p": "Frequenc"
+    },
+    {
+     "h": "dc6832d4fa4c263e",
+     "n": 388,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Check for cervicomedullary compression at every visit in infants and young children:** motor regression or delayed milestones, apnoea, swallowing difficulty, poor weight gain, clonus, abnormal reflexes, weakness. Concerning findings need urgent paediatric neurosurgical review.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e883fdd558470d04",
+     "n": 434,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider an MRI of the cervicomedullary junction and foramen magnum in the first months of life, even without symptoms.** Symptomatic compression is an indication for foramen magnum decompression; MRI-proven compression without symptoms still needs a neurosurgical opinion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c531492d08e17f55",
+     "n": 190,
+     "p": "Recommen"
+    },
+    {
+     "h": "89c073834988d343",
+     "n": 167,
+     "p": "Recommen"
+    },
+    {
+     "h": "fdf6f4c245c6f353",
+     "n": 176,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do a sleep study (polysomnography) in the first year or at the first sign of sleep-disordered breathing, and by 2 years at the latest.** Adenotonsillectomy is first-line for obstructive sleep apnoea, with a repeat study 2–4 months afterwards.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70e026922b5cf33b",
+     "n": 343,
+     "p": "Recommen"
+    },
+    {
+     "h": "1af97199d7475862",
+     "n": 235,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Teach positioning and handling:** avoid early unsupported sitting (fixed thoracolumbar kyphosis) and prolonged car-seat positioning (positional death). Refer to a paediatric spine surgeon if a kyphosis persists beyond a year or progresses once walking.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7ece818ba64ffc6",
+     "n": 302,
+     "p": "Recommen"
+    },
+    {
+     "h": "eb7b34b9083ee206",
+     "n": 288,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Use achondroplasia-specific growth charts,** and plot head circumference monthly through the first year.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "11b59e5fc75fb061",
+     "n": 165,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Middle-ear effusions are common:** screen hearing at least yearly in early childhood and refer to ENT when concerned. Grommets can be recommended for effusions lasting 3 months or more with documented hearing loss.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bedec2cc15462258",
+     "n": 296,
+     "p": "Recommen"
+    },
+    {
+     "h": "0afe106e2f653923",
+     "n": 125,
+     "p": "Tympanos"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bracing does not treat genu varum.** Limb lengthening needs multidisciplinary assessment before and after, with psychological input.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d700f3cbe93a02b",
+     "n": 92,
+     "p": "Recommen"
+    },
+    {
+     "h": "c20093f60b68679b",
+     "n": 259,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Adults: back pain with neurological features** (claudication, spasticity, shorter walking distance, bladder or bowel change) suggests spinal stenosis: consider whole-spine MRI, and refer promptly to an experienced spine centre if the cord is compressed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8057142e6ccd10b5",
+     "n": 283,
+     "p": "Recommen"
+    },
+    {
+     "h": "22f2574d05c41182",
+     "n": 288,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Measure adult blood pressure regularly with a correctly sized cuff,** or on the forearm if elbow contractures or short upper arms prevent it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d591bd5eb24e8dab",
+     "n": 266,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pregnancy:** obstetrician-led care (not midwife-only) and an antenatal anaesthetic assessment; birth after 32 weeks should be by caesarean section because of pelvic shape and size.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3127f24aa5a1ef81",
+     "n": 119,
+     "p": "Recommen"
+    },
+    {
+     "h": "38dcd790b6002d35",
+     "n": 224,
+     "p": "Recommen"
+    },
+    {
+     "h": "7451713a1dffc756",
+     "n": 144,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Anaesthesia:** minimise head and neck movement during bag-mask ventilation and intubation because of foramen magnum stenosis, and have difficult-airway equipment ready.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "164ecddadb6874b3",
+     "n": 408,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Inheritance for counselling:** about 80% of cases are new (de novo) variants in unaffected parents; 20% are inherited. One affected parent gives a 50% chance per child; with two affected parents it is 25% average stature, 50% achondroplasia and 25% homozygous (usually lethal).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "13dd680aa42ea1c6",
+     "n": 282,
+     "p": "80% of i"
+    },
+    {
+     "h": "cbfab03cb3add480",
+     "n": 412,
+     "p": "When one"
+    }
+   ],
+   "locator": "Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x), 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia', published March 2022, https://www.nature.com/articles/s41574-021-00595-x, retrieved 2026-09-24"
   }
  ]
 }

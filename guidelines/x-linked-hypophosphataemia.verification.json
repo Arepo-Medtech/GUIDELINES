@@ -1,19 +1,22 @@
 {
  "guideline": "guidelines/x-linked-hypophosphataemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10241092/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10241092/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS) 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care' (published 1 May 2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10241092). ",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS) 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care' (published 1 May 2023), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10241092). S2: PARAPHRASED AND HASH-ANCHORED from Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093) 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline' (published 17 February 2025), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12187519). S3: PARAPHRASED AND HASH-ANCHORED from Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170) 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline' (published 17 April 2025), 5 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12261105). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds the 2025 International Working Group GRADE guidelines for children (S2) and adults (S3), both CC BY-NC-ND and so paraphrased and hash-anchored. No Australian XLH guideline was found: the 2025 JBMR Plus ANZBMS supplement ('Hypophosphatemia across the lifespan') was checked and its opening article is an editorial, not guidance. The S1 claims are unchanged.",
  "summary": {
-  "total": 24,
+  "total": 38,
   "pass": 24,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 14
  },
  "claims": [
   {
@@ -154,6 +157,197 @@
    "locator": "APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS), 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care', published 1 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10241092/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **International Working Group, children: burosumab is recommended over conventional therapy from 12 months of age** (strong recommendation, moderate certainty) and suggested from 6 to 12 months (conditional, low certainty). Start treatment promptly once XLH and hypophosphataemia are confirmed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a8d76155577de311",
+     "n": 369,
+     "p": "In child"
+    },
+    {
+     "h": "c5cae1c5a73be421",
+     "n": 106,
+     "p": "Commence"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Burosumab dosing in children (S2):** starting doses vary by regulator (0.4–0.8 mg/kg, fortnightly) and titration is often needed; US FDA-approved paediatric doses reach 2 mg/kg fortnightly, capped at 90 mg. Adjust to serum phosphate (low- to mid-normal at peak, just below or low-normal at trough), not simply to weight gain, and avoid hyperphosphataemia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa018d75e30c3114",
+     "n": 476,
+     "p": "Childhoo"
+    },
+    {
+     "h": "55af9534b39f7d13",
+     "n": 282,
+     "p": "When tre"
+    },
+    {
+     "h": "eacd1717da23413d",
+     "n": 206,
+     "p": "Optimal "
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**If burosumab is unavailable, children should still be treated with conventional therapy** rather than nothing. Never give phosphate alone; do not aim for a normal fasting phosphate; more than 60 mg/kg/day of elemental phosphorus is rarely tolerated; lower the active vitamin D if hypercalciuria persists. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2a17ababe0ae794",
+     "n": 318,
+     "p": "If buros"
+    },
+    {
+     "h": "d8d5136b27e7de87",
+     "n": 191,
+     "p": "When tre"
+    },
+    {
+     "h": "1078d2747ea4647a",
+     "n": 187,
+     "p": "However,"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**High PTH on conventional therapy:** reduce phosphate or raise active vitamin D (if no hypercalciuria or hypercalcaemia). Tertiary hyperparathyroidism with hypercalcaemia may need off-label cinacalcet with calcium monitoring, or subtotal parathyroidectomy. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b30b9e5d6af7b3b",
+     "n": 251,
+     "p": "Consider"
+    },
+    {
+     "h": "2e3084ce384cae99",
+     "n": 401,
+     "p": "In terti"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not use burosumab in acute kidney injury or when eGFR is under 30 mL/min;** use it cautiously, with close monitoring, at eGFR 30–60. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea61bd4a951518f7",
+     "n": 229,
+     "p": "Burosuma"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Growth hormone is not advised routinely for short stature in XLH** (S2: limited benefit in randomised trials). S1 found the evidence too weak for any recommendation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f88dbab8443d5e6",
+     "n": 166,
+     "p": "The rout"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **International Working Group, adults: burosumab is recommended over no therapy for fractures or pseudofractures** (strong, moderate certainty) and suggested over conventional therapy in that group (conditional, low certainty); it is also suggested over no therapy for adults without fractures (conditional, low certainty).",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "069bd6bf320f32be",
+     "n": 272,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170), 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline', published 17 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adults (S3): treat symptomatic or osteomalacic disease** (for example pain, weakness, osteomalacic fractures, a high ALP or biopsy-proven osteomalacia), optimise treatment before orthopaedic or dental implant surgery, and keep treating for several years after the growth plates close, since peak bone mass comes at about 20 to 25 years.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c0b0383f641ff5c",
+     "n": 672,
+     "p": "Continue"
+    }
+   ],
+   "locator": "Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170), 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline', published 17 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Conventional therapy in adults (S3):** phosphate salts 750-2000 mg/day in 3 to 4 doses plus either alfacalcidol 0.75-1.5 μg a day or calcitriol 0.5 to 1 µg a day, lowered for maintenance; active vitamin D alone may do for mild symptoms. If burosumab is unavailable, symptomatic adults should get conventional therapy, and fasting phosphate is not a target.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53a9c29ae46d8378",
+     "n": 786,
+     "p": "Generall"
+    },
+    {
+     "h": "94434802badb1ed2",
+     "n": 526,
+     "p": "If buros"
+    }
+   ],
+   "locator": "Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170), 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline', published 17 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Hypercalciuria (S3):** cut the active vitamin D dose; if it persists, hydrochlorothiazide or potassium citrate may be used, with sodium below 1500 mg/day and fluids up to 3 L/24 hours.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed6ed58d0b08e8fe",
+     "n": 290,
+     "p": "Treat hy"
+    }
+   ],
+   "locator": "Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170), 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline', published 17 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pregnancy (S3):** offer genetic counselling to all women and adolescent girls of childbearing age; check corrected or ionised calcium each trimester, creatinine and eGFR monthly on treatment, and fasting phosphate at least once. Stop thiazides and ACE inhibitors or ARBs before conception; cinacalcet is not recommended in pregnancy.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb739948879f3bd6",
+     "n": 147,
+     "p": "Providin"
+    },
+    {
+     "h": "496a2fab17418caf",
+     "n": 252,
+     "p": "Measurem"
+    },
+    {
+     "h": "0a069b712d823900",
+     "n": 162,
+     "p": "Thiazide"
+    }
+   ],
+   "locator": "Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170), 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline', published 17 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The lead physician should build a team including at least orthopaedics, dentistry, rehabilitation and allied health,** and arrange formal audiology from age 8.",
    "source": "S1",
    "verdict": "pass",
@@ -187,6 +381,55 @@
    "verdict": "pass",
    "source_text": "Generally, introducing transition of care to families should begin 2-4 years before the actual initiation of care transition. … Notwithstanding, timelines should be individualized according to the patient's readiness for transition of care.",
    "locator": "APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS), 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care', published 1 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10241092/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Across transition (S2):** continue medical therapy for at least several years after epiphyseal closure to optimise peak bone mass. If burosumab continues into adulthood, switching to monthly injections in the first 1–2 years after the growth plates fuse is reasonable; the best approach has not been studied.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b04988c91770a965",
+     "n": 120,
+     "p": "To optim"
+    },
+    {
+     "h": "b7e7593b0ada535d",
+     "n": 157,
+     "p": "If conti"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dental care in children (S2):** a dentist belongs on the team; visits every 6 months, with sealing of pits and fissures in primary and permanent teeth.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c16b3c4d12ecc92f",
+     "n": 231,
+     "p": "A dentis"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Physiotherapy (S2):** orthoses are generally not indicated (they increase in-toeing) and bulky footwear increases tripping; balance higher-impact or high-torsion sports with lower-impact activities such as swimming or cycling.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ca27601dc032891",
+     "n": 115,
+     "p": "Orthoses"
+    },
+    {
+     "h": "a35705b8c5036bf5",
+     "n": 267,
+     "p": "Caution "
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
   }
  ]
 }

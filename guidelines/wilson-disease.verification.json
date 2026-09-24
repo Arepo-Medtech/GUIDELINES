@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/wilson-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1097/HC9.0000000000000150"
+  "https://doi.org/10.1097/HC9.0000000000000150",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer) 'Wilson disease: a summary of the updated AASLD Practice Guidance' (vol. 7, article e0150, published June 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10187853 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)')). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer) 'Wilson disease: a summary of the updated AASLD Practice Guidance' (vol. 7, article e0150, published June 2023), 18 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10187853 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)')). S2: QUOTED from Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553) 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration' (published 7 April 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12645139). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a GRADE-graded Chinese multidisciplinary consensus (2025, CC BY, quoted), chosen because it states D-penicillamine and zinc doses in its text, which S1 lacks (S1's dose table was stripped). No Australian Wilson disease guideline was found (Europe PMC search for Australian authors or MJA/IMJ/JPCH, 2015-2026). Still not readable: EASL-ERN 2025 (Unpaywall: closed) and the ESPGHAN 2018 paediatric position paper (the University of Groningen repository copy returned a Cloudflare challenge). The S1 claims are unchanged.",
  "summary": {
-  "total": 18,
-  "pass": 0,
+  "total": 29,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 18
  },
@@ -130,6 +131,13 @@
     }
    ],
    "locator": "Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer), 'Wilson disease: a summary of the updated AASLD Practice Guidance', vol. 7, article e0150, published June 2023, https://doi.org/10.1097/HC9.0000000000000150, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**A Leipzig score of 4 or more confirms Wilson disease** and treatment can begin. The score is built stepwise from clinical features, biochemistry, genetics and liver biopsy.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The Leipzig scoring system is recommended for the diagnosis of WD. Leipzig score can be calculated in a stepwise manner according to the order of the tests, including clinical manifestations, biochemical, genetic testing, and histological examination of liver biopsy. Once a total score of ≥ 4 is obtained, the diagnosis can be confirmed and treatment can be initiated (1A).",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Every newly diagnosed patient starts lifelong treatment;** stopping it leads to relapse, liver failure, transplant or neuropsychiatric deterioration.",
@@ -263,6 +271,50 @@
    "locator": "Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer), 'Wilson disease: a summary of the updated AASLD Practice Guidance', vol. 7, article e0150, published June 2023, https://doi.org/10.1097/HC9.0000000000000150, retrieved 2026-09-23"
   },
   {
+   "claim": "**D-penicillamine dosing (S2):** adults start at 125–250 mg/day and rise by 250 mg/day every 4 to 7 days to a maximum of 1,000–1,500 mg/day; maintenance is 750–1,000 mg/day (10–15 mg/kg/day) in 2–4 divided doses. Children build up to 20 mg/kg/day (maximum 750–1,000 mg/day), maintenance 10–20 mg/kg/day. Give it 1 hour before or two hours after food, with vitamin B6 10–30 mg/day. S2 requires a negative penicillin skin test first.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "D-penicillamine can be administered to patients only when the negative penicillin skin test. The tolerability of D-penicillamine may be enhanced by starting with a low dose. For adults, the initial dose is 125-250 mg/d, increased by 250 mg/d increments every 4 to 7 days to a maximum dose of 1,000 to 1,500 mg/d, and the maintenance dose is 750 to 1,000 mg/d (or 10 to 15 mg/kg/d), administered in 2-4 divided doses. For children, lower doses can be used initially and gradually increased to 20 mg/kg/d (maximum 750-1,000 mg/d). The maintenance dose is 10-20 mg/kg/d. Food can affect the absorption of D-penicillamine. It should, therefore, be administered either 1 hour before or two hours after a meal. Since D-penicillamine can interfere with vitamin B6 metabolism, vitamin B6 (10-30 mg/d) should be supplemented simultaneously",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **D-penicillamine reactions:** about 30% of patients stop it. Fever, rash, lymphadenopathy, proteinuria, neutropenia or thrombocytopenia usually appear 1–3 weeks in and mean stopping it at once; neurological worsening occurs in 10–50% after starting. Nephrotoxicity (proteinuria, haematuria, acute kidney failure) also means immediate discontinuation.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Adverse reactions are more frequent after D-penicillamine treatment, leading to treatment discontinuation in approximately 30% of patients. Allergic reactions characterized by fever, skin rash, and lymphadenopathy, as well as proteinuria, neutropenia, and thrombocytopenia, commonly occur 1-3 weeks after starting the treatment. D-penicillamine should be discontinued immediately. … Worsening of neurological symptoms can occur in 10-50% of patients after beginning treatment with D-penicillamine … Nephrotoxicity is one of the commonly observed adverse effects following treatment with D-penicillamine, presenting as proteinuria and/or hematuria and occasionally acute renal failure. In such cases, D-penicillamine must be discontinued immediately.",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Trientine** suits every form of Wilson disease, especially neuropsychiatric disease and penicillamine allergy or intolerance. Avoid iron supplements on trientine (copper–iron chelates are toxic). Its adverse effects, once thought rare, now look comparable to penicillamine's: about 26% have them during initial treatment.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Trientine can be used in patients with all clinical forms of WD, especially those with neuropsychiatric symptoms and those who are allergic or intolerant to D-penicillamine. Iron supplementation should be avoided during trientine treatment as copper-iron chelates can produce toxic complexes … It is initially believed that the adverse effects of trientine are rare. However, with its widespread use, it has been found that the occurrence and incidence of adverse reactions after trientine treatment were comparable to those observed after D-penicillamine treatment, which requires further investigation. Potential adverse effects during trientine treatment include pancytopenia, hemorrhagic gastritis, loss of taste, systemic lupus erythematosus, and worsening of neurological symptoms. About 26% of patients with WD experience those corresponding symptoms during initial treatment",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Zinc dosing (S2):** adults and older children 150–220 mg/day of elemental zinc in 3 divided doses; children aged 5–15 years under 50 kg 75 mg/day in 3 doses; under 5 years 50 mg/day in 2 doses. Take on an empty stomach, at least 2 hours apart from a chelator. Do not use zinc alone for a severe acute presentation.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The dose for adults and older children is 150-220 mg/d of elemental zinc [, ], equivalent to zinc gluconate tablets (70 mg/tablet, each tablet containing 10 mg of elemental zinc), administered orally in 3 divided doses. The dose for children aged 5-15 years with a body weight of < 50 kg is 75 mg/d of elemental zinc in 3 divided doses. For children aged < 5, the dose is 50 mg/d of elemental zinc in 2 divided doses. Since food may interfere with zinc absorption, it should be taken on an empty stomach. In case of gastric intolerance, zinc can be given at 0.5-1 h after a meal and gradually adapted to the administration mode on an empty stomach. If zinc is used in combination with a chelating agent, it should be administered at a time interval of 2 hours at least in order to avoid the neutralization of zinc efficiency by a chelating agent … For the initial treatment of WD patients with severe acute presentation, zinc should not be used alone; instead, it should be used in combination or alternately with other chelating agents",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Pregnancy (S2):** continue anti-copper therapy but **reduce the chelator dose**; some patients can be managed on zinc alone.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "anti-copper therapy may be continued during pregnancy, the dose of chelating agents should be reduced, and the administration of traditional Chinese medicine Gandou tablet should be discontinued during the early pregnancy stage and 3 months before delivery (1A), and some patients can be treated only with zinc therapy.",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Liver transplant:** evaluate patients with acute liver failure or decompensated cirrhosis who fail or cannot tolerate anti-copper therapy. S2 bridges acute liver failure with plasma exchange plus a chelator before transplant.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients with ALF and decompensated cirrhosis who fail to respond or are intolerant to anti-copper treatment should undergo evaluation for liver transplantation (IA); WD patients with ALF are temporarily not allowed to receive liver transplantation. They should be treated initially with a combination of artificial liver therapy, such as plasma exchange and copper-chelating agents, before transitioning to liver transplantation (1B).",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**On treatment, check 24-hour urine copper, and twice a year** liver tests, INR, FBC, urinalysis (especially on a chelator), serum copper and ceruloplasmin, signs of overtreatment and of non-adherence.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -305,6 +357,34 @@
     }
    ],
    "locator": "Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer), 'Wilson disease: a summary of the updated AASLD Practice Guidance', vol. 7, article e0150, published June 2023, https://doi.org/10.1097/HC9.0000000000000150, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Expected response (S2):** liver disease usually improves markedly within 2-6 months and can fully remit by 1 year; neurological disease improves slowly, often over 1 to 3 years. Review once or twice a month at first, every 1 to 3 months once liver tests improve, and 2 to 3 times a year on maintenance.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For WD patients presenting with liver disease as the main manifestation, liver function usually improves markedly after 2-6 months of treatment, and complete remission can be achieved 1 year after treatment. For patients presenting with neurological symptoms, their symptoms and signs improve slowly, and it often takes 1 to 3 years for a patient to recover. During treatment, the patient's symptoms and signs, blood routine and urine routine results, liver and kidney function, 24-h urinary copper excretion should be observed and detected regularly. In general, evaluation can be performed once or twice a month after starting treatment, once every 1 to 3 months after liver function is improved, and 2 to 3 times a year during maintenance therapy.",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Urine copper on a chelator (S2):** peaks about 1 month in (up to 1,500-8,000 μg/24 h), then falls; most reach the maintenance range of 200-500 μg/24 h after 6 months to 1 year. More than 100 μg/24 h after 48 h off penicillamine suggests poor adherence.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "24-h urinary copper often reaches a peak after 1 month of initial treatment, up to 1,500-8,000 μg/24 h, and then gradually decreases. After 6 months to 1 year of treatment, 24-h urinary copper can reach its target range on maintenance therapy, i.e., 200-500 μg/24 h, in most patients, but the time required varies greatly across individuals. Urinary copper >100 μg/24 h after 48 h of D-penicillamine cessation indicates poor treatment adherence",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Urine copper on zinc (S2):** maintenance target below 75 μg/24 h. Urinary zinc is usually 2,000-8,000 μg/24 h on treatment; urine copper above 100 μg/24 h with urine zinc below 1,000 μg/24 h suggests poor adherence. If transaminases rise on zinc, add a chelator promptly.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "If transaminase elevation occurs during zinc treatment, chelating agents such as D-penicillamine should be applied timely. Urinary copper decreases gradually after zinc treatment. The target range of 24-h urinary copper excretion on maintenance therapy is < 75 μg/24 h. Urinary zinc excretion can be measured to check treatment adherence to zinc treatment in WD patients. Urinary zinc excretion is typically 2,000-8,000 μg/24 h during treatment. Urinary copper excretion > 100 μg/24 h and urinary zinc excretion < 1,000 μg/24 h suggest poor adherence to zinc treatment",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Lower chelator doses for maintenance** to avoid overtreatment: iatrogenic copper deficiency can cause sideroblastic anaemia and myelopathy, and penicillamine skin effects are dose-dependent.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Some patients require high doses of chelating agents or combination therapy during the initial copper removal stage, but ideally, it should be changed to lower doses during maintenance therapy to reduce the risk of long-term overtreatment [, ]. Complications of chelation-induced iatrogenic copper deficiency, such as sideroblastic anemia and myelopathy, have been reported in overtreated patients. The dermatologic side effects of penicillamine, such as elastosis perforans serpiginosa or cutis laxa, are dose-dependent and further emphasize the need for careful review of maintenance doses of penicillamine.",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
   }
  ]
 }

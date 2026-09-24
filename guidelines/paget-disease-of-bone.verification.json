@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/paget-disease-of-bone.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/",
+  "https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline' (published 25 February 2019 (vol 34, issue 4)). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6522384). Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline' (published 25 February 2019 (vol 34, issue 4)), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6522384). S2: PARAPHRASED AND HASH-ANCHORED from Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921) 'Paget disease of bone - an update' (March 2012), 9 claims; LICENCE: © The Royal Australian College of General Practitioners (free to read; no open licence) (read at the racgp.org.au article page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. Edition 2.0 adds S2, an Australian clinical review (Australian Family Physician 2012, © RACGP, free to read), paraphrased and hash-anchored from the racgp.org.au HTML with tags stripped; its Table 3 (indications and doses) survived as text. It is not a guideline and predates S1. The Endocrine Society 2014 guideline (CC BY-NC-ND) was tried and returned a bot challenge at academic.oup.com. No Australian Paget guideline was found. The S1 claims are unchanged.",
  "summary": {
-  "total": 19,
+  "total": 28,
   "pass": 19,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
   {
@@ -73,6 +75,57 @@
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **Common in Australia:** Paget disease affects 2–4% of adults over 55 and is common in countries with much British ancestry, including Australia; no recent Australian prevalence study exists. It is now usually found by chance (raised ALP or an X-ray); lifetime osteosarcoma risk is under 1%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2c0812a277a6c3a",
+     "n": 130,
+     "p": "Paget di"
+    },
+    {
+     "h": "0fd375f60af4dcad",
+     "n": 133,
+     "p": "and is a"
+    },
+    {
+     "h": "33ec5d247df39929",
+     "n": 69,
+     "p": "There ar"
+    },
+    {
+     "h": "1a037a70f8c5632e",
+     "n": 143,
+     "p": "Nowadays"
+    },
+    {
+     "h": "010b8f476d0ba346",
+     "n": 103,
+     "p": "Malignan"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ 🇦🇺 **Check 25-hydroxyvitamin D:** osteomalacia can also cause bone pain with a raised ALP, and vitamin D deficiency must be corrected before a bisphosphonate to avoid hypocalcaemia. In liver disease, ALP isoenzymes or bone resorption markers help.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9417797d7af60a54",
+     "n": 274,
+     "p": "Serum 25"
+    },
+    {
+     "h": "f807ef0e31a014ec",
+     "n": 221,
+     "p": "Increase"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Bisphosphonates are recommended for Paget bone pain, and zoledronic acid is the one most likely to relieve it.**",
    "source": "S1",
    "verdict": "pass",
@@ -125,6 +178,74 @@
    "dose": true
   },
   {
+   "claim": "🇦🇺 **Who to treat (S2):** symptomatic disease (PBS-subsidised); a trial of therapy when pain localises to pagetic bone. S2 also argues for treating **asymptomatic** disease in the long bones, vertebrae or skull base, and younger patients with joint involvement such as the hip, to prevent complications. ⚠️ S1 found no evidence that this prevents complications.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "744237f34e52bf93",
+     "n": 446,
+     "p": "Those wi"
+    },
+    {
+     "h": "29ca31acf8f3ee23",
+     "n": 381,
+     "p": "A strong"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Give a bisphosphonate before elective surgery** (such as joint replacement) on metabolically active pagetic bone, to reduce bleeding. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "192c95bd7dc358cb",
+     "n": 211,
+     "p": "Pre-oper"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Australian regimens (S2):** zoledronic acid 5 mg IV once, infused over at least 15 minutes; or oral alendronate 40 mg daily for 3–6 months; or oral risedronate 30 mg daily for 2 months. Oral courses are stopped at remission, not continued long term. Pamidronate has largely been replaced by zoledronic acid; etidronate, tiludronate and calcitonin are largely obsolete.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "058b985e63a53d18",
+     "n": 174,
+     "p": "Zoledron"
+    },
+    {
+     "h": "1d4d93e331df2f27",
+     "n": 147,
+     "p": "oral bis"
+    },
+    {
+     "h": "e2e2a8bbed446697",
+     "n": 156,
+     "p": "Intraven"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Zoledronic acid is probably the treatment of choice (S2):** in the key trial ALP normalised in 89% vs 58% with 2 months of risedronate, and at 6.5 years 0.7% vs 20% had relapsed. Oral drugs remain reasonable if preferred or if IV treatment is unavailable.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9917c9410dd18e9",
+     "n": 721,
+     "p": "A key cl"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Zoledronic acid's commonest adverse effect is a transient flu-like illness,** which is milder after the second and later infusions than after the first.",
    "source": "S1",
    "verdict": "pass",
@@ -137,6 +258,50 @@
    "verdict": "pass",
    "source_text": "The estimated frequency of osteonecrosis of the jaw (ONJ) in people with PDB receiving oral bisphosphonates was estimated as between 0.0004% and 0.06%, which is much lower than in osteoporosis.",
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **IV bisphosphonate side effects (S2):** a transient flu-like illness in about one in 4; rarely acute kidney failure or uveitis (past uveitis is a contraindication). Take oral bisphosphonates fasting, half an hour ahead of food and separate from other drugs; they can cause dyspepsia and, occasionally, oesophageal ulcers. Estimated jaw osteonecrosis risk ranges from one in 100 000 to one in 10 000.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5615e0d38e6eff7b",
+     "n": 470,
+     "p": "A common"
+    },
+    {
+     "h": "5c5a297efa22e38f",
+     "n": 152,
+     "p": "Bisphosp"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Monitor ALP every 3–6 months until normal, then yearly once treatment stops (S2).** Relapse is common, can come years later and merits re-treatment; recurrent pain or progressing lytic lesions may precede a rise in ALP. (S1 favours treating symptoms over an ALP target.)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cdc3212a6e28adf2",
+     "n": 537,
+     "p": "The resp"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Do not neglect non-drug measures:** shoe raises or orthotics for leg shortening from deformity can help pain and gait. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c381b8029464336",
+     "n": 211,
+     "p": "Nonpharm"
+    }
+   ],
+   "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
   },
   {
    "claim": "**Offer total hip or knee replacement for osteoarthritis when medical treatment is not enough.** No surgical approach is favoured over another.",

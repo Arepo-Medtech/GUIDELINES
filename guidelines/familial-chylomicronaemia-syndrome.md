@@ -1,13 +1,13 @@
-# Familial chylomicronaemia syndrome (hyperlipoproteinaemia type 1): diagnosis
+# Familial chylomicronaemia syndrome (hyperlipoproteinaemia type 1): diagnosis and management
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** suspecting and confirming familial chylomicronaemia syndrome (FCS; PBS 'hyperlipoproteinaemia type 1') in children and adults, and telling it apart from multifactorial chylomicronaemia. **Diagnosis only:** the source does not cover diet, MCT products or drug treatment. Cardiovascular lipid management: see `cardiovascular-disease-risk`; children with high cholesterol: `hypercholesterolaemia-children`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** suspecting and confirming familial chylomicronaemia syndrome (FCS; PBS 'hyperlipoproteinaemia type 1') in children and adults, and telling it apart from multifactorial chylomicronaemia (S1); the very-low-fat diet, MCT, triglyceride-lowering and APOC3-targeted drugs, acute pancreatitis and monitoring (S2, S3). Cardiovascular lipid management: see `cardiovascular-disease-risk`; children with high cholesterol: `hypercholesterolaemia-children`.
 
-> ✅ **OPEN AND QUOTED.** 16 claims quoted verbatim from **Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism — *A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome*** (2025; origin: international); **27 fragments re-checked by machine; 0 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 3 SOURCES.** 34 claims; **58 fragments or anchors re-checkable by machine; 1 doses.** **S1** Latin American lipid and endocrine societies (Delphi panel) (2025; international): 16 claims, quoted · **S2** Lan NSR (November 2025; AU): 7 claims, paraphrased, hash-anchored · **S3** Bajaj A (published 16 November 2025; international): 11 claims, quoted
 
 > ⚠️ International guideline (Latin American multi-society Delphi consensus, 2025). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **This page covers diagnosis only.** The PBS listing is for medium-chain triglyceride (MCT) products used in the very-low-fat diet. The source does not address diet or treatment, and the two readable-looking management sources (NLA 2025 expert review; 2018 dietary recommendations, both J Clin Lipidol) returned a 403 bot challenge and were not used.
+> ⚠️ **Diagnosis rests on S1; management on S2 and S3, neither of which is a guideline.** S2 (🇦🇺 AJGP 2025) is an Australian review of hypertriglyceridaemia in general practice, not specific to FCS. S3 is an FCS treatment review **funded by Ionis Pharmaceuticals, the maker of olezarsen**, with two Ionis employees among its authors. The PBS listing is for medium-chain triglyceride (MCT) products used in the very-low-fat diet. The FCS management guidelines (NLA 2025 expert review; 2018 dietary recommendations, both J Clin Lipidol) returned a 403 bot challenge and were not used.
 
 ---
 
@@ -16,6 +16,10 @@
 - **FCS is a rare recessive disorder** (about 1 to 10 per million) caused by biallelic variants affecting lipoprotein lipase (LPL). It carries a high risk of recurrent, life-threatening acute pancreatitis. [S1]
 - **Diagnosis starts with finding severe hypertriglyceridaemia.** Some patients have few or no symptoms. Triglycerides are extremely and persistently high (above 885 mg/dL). [S1]
 - **A poor response to standard lipid-lowering drugs is typical,** and FCS is widely underdiagnosed, which delays proper treatment. [S1]
+- 🇦🇺 **Most chylomicronaemia is not FCS:** polygenic and secondary causes are 40 to 60 times more likely than monogenic ones such as FCS or familial partial lipodystrophy. [S2]
+- 🇦🇺 **Suspect a monogenic cause when triglycerides are extremely high (for example above 10 mmol/L) with features in childhood or adolescence,** or when a sibling has severe hypertriglyceridaemia. Refer to a specialist, especially when no secondary cause is found. [S2]
+- 🇦🇺 **Severe hypertriglyceridaemia is 5.6 mmol/L or more,** fasting or not. At that level the priority moves from cardiovascular risk to preventing acute pancreatitis, which can be fatal. [S2]
+- 🇦🇺 **Look for and correct secondary causes:** poorly controlled diabetes, insulin resistance, central obesity, diets high in simple carbohydrate or saturated fat, heavy drinking and some medicines. [S2]
 
 ## Clinical diagnosis
 
@@ -39,6 +43,32 @@
 - **Think of autoimmune chylomicronaemia (anti-GPIHBP1 antibodies)** when hypertriglyceridaemia is intermittent, genetics are inconclusive, there are other autoimmune conditions, or onset is in adulthood. [S1]
 - **Use the same diagnostic approach** in patients admitted with acute pancreatitis, in pregnancy and in children (including those under 10). [S1]
 
+## Diet
+
+- **The FCS diet is strict and lifelong:** under 15–20 g of fat a day, with simple carbohydrates and alcohol restricted, whatever drug is added. Monitor fat-soluble vitamins (A, D, E, K) and supplement if needed. [S3]
+- **Medium-chain triglycerides (MCT) do not drive chylomicron production and can be a good fat source,** but MCT oils can be expensive. [S3]
+- **Ordinary 'low-fat' recipes and diabetes diets are often too fatty for FCS** (the aim is under 20 g/day). Work with a registered dietitian on a personalised plan. [S3]
+- 🇦🇺 **Australian primary-care advice for severe hypertriglyceridaemia:** a low-fat diet with few added sugars, a very-low-fat diet once triglycerides exceed 10 mmol/L, dietitian referral, and no alcohol at all. [S2]
+
+## Drug treatment
+
+- ⚠️ **Standard triglyceride-lowering drugs (statins, fibrates, omega-3 fatty acids) are unlikely to help in FCS.** Avoid medicines that raise triglycerides, and treat hypothyroidism and uncontrolled diabetes. [S3]
+- 🇦🇺 **In severe hypertriglyceridaemia generally, Australian advice recommends fibrates** to lower triglycerides and pancreatitis risk; prescription omega-3 products may be considered. With a statin, fenofibrate is preferred to gemfibrozil. [S2]
+- **Olezarsen, an APOC3 antisense drug, is approved as an add-on to diet in adults with FCS** (US FDA 2024; European Medicines Agency 2025, for genetically confirmed FCS). In the phase 3 Balance trial (66 patients) olezarsen 80 mg subcutaneously every 4 weeks lowered triglycerides at 6 months. [S3]
+- **Olezarsen adverse effects in Balance:** injection-site reactions (19% vs 9% on placebo), lower platelet count (12% vs 4%) and joint pain (9% vs 0%). Hypersensitivity reactions were the commonest reason for stopping, per the US prescribing information. [S3]
+- ⚠️ **Olezarsen is not approved in pregnancy and children were excluded from its trial** and are ineligible. Triglycerides rise in the third trimester, raising pancreatitis risk in FCS. [S3]
+- 🇦🇺 **The Australian review describes APOC3- and ANGPTL3-targeted RNA therapies as still in advanced clinical development;** they lower triglycerides substantially and can reduce acute pancreatitis, including in chylomicronaemia syndrome. [S2]
+
+## Acute pancreatitis
+
+- ⚠️ **Acute pancreatitis in FCS:** admit for IV fluids, bowel rest, pain control and watching for organ failure. Nothing by mouth for at least 48 hours, then clear fluids for another 48 hours, then food as tolerated with fat under 20 g/day. Enteral tube feeding is not advised in FCS. [S3]
+- **IV insulin and plasmapheresis are not generally recommended for hypertriglyceridaemic pancreatitis;** insulin does not work when LPL is completely absent and can cause hypoglycaemia. [S3]
+- ⚠️ **FCS pancreatitis can be misread as alcohol-related, or pain as drug-seeking.** Contact the patient's FCS specialist at presentation. [S3]
+
+## Monitor
+
+- **Check triglycerides at least 4 times a year after pancreatitis or when levels are unstable, and at least twice a year when stable** (European FCS Expert Panel, as cited in S3). If triglycerides do not fall on treatment, review the diet and cut fat further. [S3]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -55,16 +85,21 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Management is not covered:** diet (very-low-fat diet, MCT products), triglyceride-lowering drugs and pancreatitis prevention are outside the source. A management source is needed; the NLA 2025 FCS expert review (J Clin Lipidol) was free to read but returned a 403 bot challenge. | `input_unavailable` |
-| 2 | **The clinical scores** (FCS score and others, Tables 1 and 2) were stripped with the tables and are not stated here. | `input_unavailable` |
-| 3 | **Units:** the source gives triglycerides in mg/dL (885 mg/dL is about 10 mmol/L). The mmol/L figure is not in the source, so it is not anchored. | `observation` |
-| 4 | **Regional context:** a Latin American panel. Its advice on access to genetic and LPL-activity testing reflects that region; in Australia, testing is through clinical genetics and lipid services. | `observation` |
-| 5 | **Licence:** CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
+| 1 | **Management now rests on two reviews, not a guideline** (S2 Australian primary care, S3 industry-funded FCS review). The NLA 2025 FCS expert review (J Clin Lipidol) was free to read but returned a 403 bot challenge; check it when readable. | `input_unavailable` |
+| 2 | **Sources disagree on standard drugs:** S2 (for severe hypertriglyceridaemia generally) recommends fibrates and allows prescription omega-3 to cut pancreatitis risk; S3 (FCS specifically) says statins, fibrates and omega-3 are unlikely to help because LPL is absent. Both are shown. | `observation` |
+| 3 | **Olezarsen in Australia:** neither source states its TGA or PBS status. S2 (Australian, late 2025) still calls APOC3-targeted therapy investigational; the PBS row lists MCT products only. | `observation` |
+| 4 | **Olezarsen monitoring table** (S3 Table 2) was stripped with the tables. | `input_unavailable` |
+| 5 | **The clinical scores** (FCS score and others, Tables 1 and 2) were stripped with the tables and are not stated here. | `input_unavailable` |
+| 6 | **Units:** S1 gives triglycerides in mg/dL (885 mg/dL is about 10 mmol/L) and S3 also uses mg/dL; S2, the Australian source, uses mmol/L (severe at 5.6 or more; very-low-fat diet above 10). | `observation` |
+| 7 | **Regional context:** a Latin American panel. Its advice on access to genetic and LPL-activity testing reflects that region; in Australia, testing is through clinical genetics and lipid services. | `observation` |
+| 8 | **Licence:** CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism. *A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome*. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535). *Hypertriglyceridaemia: A practical approach for primary care*. November 2025. https://doi.org/10.31128/AJGP-01-25-7535 — retrieved 2026-09-24. | © The Royal Australian College of General Practitioners 2025 (free to read; no open licence stated) | **paraphrased, hash-anchored** |
+| **S3** | Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352). *Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide*. published 16 November 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
