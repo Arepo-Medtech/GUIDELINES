@@ -1,197 +1,383 @@
 {
  "guideline": "guidelines/post-streptococcal-glomerulonephritis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 25,
-  "pass": 25,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 25
  },
  "claims": [
   {
-   "claim": "**PSGN is usually mild and self-limiting**, but is a **strong risk factor for chronic kidney disease in Aboriginal and Torres Strait Islander people**, in whom incidence is much higher.",
+   "claim": "**PSGN is usually mild and self-limiting**, but **for Aboriginal and Torres Strait Islander people — among whom it is far more common — it strongly predisposes to chronic kidney disease.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Post-streptococcal glomerulonephritis (PSGN) is generally a mild, self-limiting condition, however it has been recognised as a strong risk factor for chronic kidney disease in Aboriginal and Torres Strait Islander people … The incidence of PSGN is much higher in Aboriginal and Torres Strait Islander populations",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23921b8b0a4d0d38",
+     "n": 220,
+     "p": "Post-str"
+    },
+    {
+     "h": "ce3242a79e5ffbd5",
+     "n": 89,
+     "p": "The inci"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Priorities: blood pressure, oedema and early detection of complications.** Most cases can be managed locally, with close follow-up to confirm resolution by 8 weeks; microscopic haematuria may persist for up to 2 years.",
+   "claim": "**Priorities: blood pressure, oedema and early detection of complications.** Local management suits most cases, with close follow-up to confirm it has resolved by 8 weeks; microscopic haematuria can last as long as 2 years.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Priorities of treatment include blood pressure and oedema management and early identification of complications … Most cases can be managed locally with close follow-up to ensure resolution by 8 weeks (noting that microscopic haematuria may persist for up to 2 years)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a13e5f2308a7b04",
+     "n": 110,
+     "p": "Prioriti"
+    },
+    {
+     "h": "df8c2fee038c0df4",
+     "n": 153,
+     "p": "Most cas"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Typically 2–4 weeks after group A streptococcal pharyngitis or impetigo.** Classical triad: **hypertension, haematuria (macro- or microscopic), oedema.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The disease commonly occurs 2-4 weeks following an acute group A Streptococcal infection (usually pharyngitis or impetigo) … the classical triad being: Hypertension Haematuria (may be macroscopic or microscopic) Oedema",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "513b37fbf2333d74",
+     "n": 122,
+     "p": "The dise"
+    },
+    {
+     "h": "85e65db7c83e758a",
+     "n": 93,
+     "p": "the clas"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Urgent management and discussion with retrieval, paediatric nephrology and/or ICU for:** severe hypertension (over the 95th centile + 30 mmHg for sex/age/height) · critical electrolytes (usually hyperkalaemia and acidosis) · pulmonary oedema · anuria or oliguria (under 0.5 mL/kg/hr) despite adequate intravascular volume.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with any of the below features require urgent management, discussion with retrieval services, paediatric nephrology and/or intensive care: Severe hypertension (>95th centile + 30 mmHg for gender/age/height) with or without evidence of end organ dysfunction Critical electrolyte abnormalities (generally hyperkalaemia and acidosis) Evidence of pulmonary oedema Anuria or oliguria ( <0.5 mL/kg/hr of urine output) despite adequate intravascular volume",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c90c7bf13512206",
+     "n": 458,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Rising creatinine, oliguria/anuria, acidosis, refractory hyperkalaemia and hypertension can signal rapidly progressive GN (RPGN).**",
+   "claim": "⚠️ **Possible rapidly progressive GN (RPGN):** oliguria/anuria · rising creatinine · acidosis · hypertension · refractory hyperkalaemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Persistently rising creatinine, oliguria/anuria, acidosis, refractory hyperkalaemia and hypertension can be indicators of rapidly progressive glomerulonephritis (RPGN)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c9cfecad612db63",
+     "n": 167,
+     "p": "Persiste"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ask about** recent streptococcal infection, swelling, urine colour and volume, headache, altered mental state, blurred vision, vomiting, breathlessness, chest pain, palpitations. **Prior haematuria** suggests IgA nephropathy or Alport syndrome; **prior rash or joint swelling** suggests lupus or IgA vasculitis nephritis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Recent or intercurrent streptococcal infection Swelling/oedema Colour and volume of urine Headache, altered mental state, blurred vision, vomiting Oedema: shortness of breath, swelling Cardiac: chest pain, palpitations Previous episodes of macroscopic or microscopic haematuria may be indicative of IgA nephropathy or Alport syndrome … Previous history of rashes, swollen joints or other systemic symptoms may be suggestive of underlying lupus nephritis or IgA vasculitis nephritis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5e910fa5870a1919",
+     "n": 333,
+     "p": "Recent o"
+    },
+    {
+     "h": "b77ea584b8c38a4b",
+     "n": 145,
+     "p": "Previous"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Weigh and compare with pre-illness weight** — it may be the only sign of fluid overload. **Confirm BP manually** against age and sex references; look for pulmonary oedema and end-organ effects (retinopathy, cardiac failure, facial nerve palsy, encephalopathy).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Growth parameters and comparison to pre-illness weight (may be an isolated sign of fluid overload in absence of oedema) Blood pressure (use age and gender reference ranges), confirm with manual measurement … Signs of pulmonary oedema End organ effects of hypertension (hypertensive retinopathy, cardiac failure, facial nerve palsy, encephalopathy)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "64b82f476b423784",
+     "n": 205,
+     "p": "Growth p"
+    },
+    {
+     "h": "0385adb7b79a74ca",
+     "n": 139,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Investigations:** urine dipstick and MCS · spot urine protein/creatinine ratio · FBE · UEC, LFTs, albumin · **C3, C4** · ASOT ± anti-DNAse B.",
+   "claim": "**Investigations:** urine dipstick and MCS · FBE · spot urine protein/creatinine ratio · UEC, LFTs, albumin · **C3, C4** · ASOT ± anti-DNAse B.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urine dipstick Urine MCS Spot urine protein/creatinine ratio FBE UEC, LFTs, serum albumin Complement C3, C4 Anti-streptococcal antibodies: ASOT +/- anti-DNAse B (depending on laboratory availability)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8aca18284bc41229",
+     "n": 199,
+     "p": "Urine di"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider:** throat/skin swabs if active streptococcal infection · CXR if effusion or pulmonary oedema is a concern · renal ultrasound with Doppler if the diagnosis is unclear, flank pain, atypical history or poor diuretic response · blood culture if febrile or unwell.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Throat and/or skin swabs for MCS if signs of acute Streptococcal infection Chest X-ray (if any concerns for pleural effusion or pulmonary oedema) Renal tract ultrasound (including doppler) in cases of unclear diagnosis, significant flank or abdominal pain, atypical history or poor response to diuretics eg congenital malformations, renal vein thrombus Blood culture, if febrile, or systemically unwell",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d615e634367ccc7",
+     "n": 402,
+     "p": "Throat a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Raised creatinine, atypical history or possible systemic disease:** consider autoimmune testing with nephrology and rheumatology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If raised creatinine, atypical history, or concern for systemic disease, consider further testing for autoimmune disease in discussion with nephrology and rheumatology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7a7ecadaaa99ceb",
+     "n": 167,
+     "p": "If raise"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Strict fluid balance, daily weights** (same time, same scales) and urine output in mL/kg/hr.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Strict fluid balance with daily weights (taken at same time on same scales) Monitor urine output in mL/kg/hr",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9b7127a42e1cc7c",
+     "n": 108,
+     "p": "Strict f"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Fluid overload and oedema: furosemide 0.5–1 mg/kg (max 40 mg) IV or oral 12-hourly.** Consider IV if very oedematous (gut oedema may impair absorption); move to PRN as overload improves and stop once no longer oedematous and/or back to pre-illness weight.",
+   "claim": "**Oedema and fluid overload: IV or oral furosemide every 12 hours, 0.5–1 mg/kg (up to 40 mg).** Consider IV if very oedematous (gut oedema may impair absorption); move to PRN as overload improves and stop when the oedema has gone and/or pre-illness weight is regained.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Clinical signs of fluid overload and oedema Furosemide 0.5-1 mg/kg (max 40 mg) IV/oral 12H Consider IV dosing if child is very oedematous as gut oedema could impair absorption. Change to PRN dosing as fluid overload improves, and discontinue when child is no longer oedematous and/or back to pre-illness weight",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "282cd1f5c5afd499",
+     "n": 310,
+     "p": "Clinical"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Low or no-added-salt diet; fluid restrict to 750 mL/m²/day** (about half maintenance).",
+   "claim": "**Restrict fluid to 750 mL/m²/day (about half maintenance), with a diet low in salt or with none added.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Low or no-added salt diet Fluid restrict to 750 mL/m2/day (about ½ maintenance fluids)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bbb2f7dfbee14fbf",
+     "n": 86,
+     "p": "Low or n"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Active streptococcal infection: antibiotics per local guidance.** Consider family contact tracing, prophylaxis and eradication per local ID and public health guidance (PSGN is notifiable in some services).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Evidence of active Streptococcal infection Antibiotics as per local guidance Consider familial contact tracing, prophylaxis and eradication in accordance with local infectious diseases and public health guidelines (PSGN is a notifiable condition in some health services)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56364c5685f8c0db",
+     "n": 270,
+     "p": "Evidence"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**AKI: calculate eGFR (revised Schwartz, over 2 years) = height (cm) × 36.5 ÷ creatinine (µmol/L).** Adjust medicines; if creatinine is raised at presentation, monitor bloods for progression to RPGN.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute kidney injury Calculate eGFR (using revised Schwartz formula). For children >2 years: eGFR = [height (cm) x 36.5] / serum creatinine (µmol/L) Adjust medications as required. If raised creatinine on presentation, monitor blood tests to ensure not progressing to RPGN",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82a8333b3cde9328",
+     "n": 271,
+     "p": "Acute ki"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Target SBP below the 95th centile** for age, sex and height. Hypertension is mostly fluid-driven — **furosemide will treat it.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Target systolic blood pressure (SBP) <95th centile for age, sex and height … Mostly driven by fluid overload and commencement of furosemide will treat hypertension",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "26d59377d4f417cc",
+     "n": 74,
+     "p": "Target s"
+    },
+    {
+     "h": "2f9d211093534c34",
+     "n": 86,
+     "p": "Mostly d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **SBP over the 95th centile on two readings 1 hr apart: PRN immediate-release nifedipine 0.25 mg/kg (max 20 mg) orally, up to 6-hourly.**",
+   "claim": "⚠️ **SBP over the 95th centile on two readings 1 hr apart: oral immediate-release nifedipine PRN, 0.25 mg/kg (up to 20 mg), up to 6-hourly.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If SBP is >95th centile (on two measurements 1 hr apart), use PRN doses of immediate release nifedipine 0.25 mg/kg (max 20 mg) oral every 6 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ddbb71e4f58783f3",
+     "n": 145,
+     "p": "If SBP i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**After day 2, if still needing more than 2 nifedipine doses a day: regular amlodipine 0.1 mg/kg/day, up to 0.6 mg/kg/day (max 10 mg)**, with PRN nifedipine to titrate.",
+   "claim": "**After day 2, if still needing more than 2 nifedipine doses a day: start regular amlodipine at 0.1 mg/kg/day, increasing as needed to 0.6 mg/kg/day (10 mg maximum)**, with PRN nifedipine to titrate.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "After day 2, if still requiring >2 doses of nifedipine per day, commence regular amlodipine 0.1 mg/kg/day, can increase to 0.6 mg/kg/day (max 10 mg) and utilise PRN nifedipine as a titrating agent",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4b170b4fc7dfb6a",
+     "n": 196,
+     "p": "After da"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Manage locally where possible** — many cases present to rural and remote services, and local care supports family-centred, culturally safe care. **Consult paediatric nephrology** for any red flag or hypertension needing multiple agents.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A large number of PSGN cases occur in geographically isolated regions and may present to rural and remote health services. To facilitate family-centred and culturally safe care, most PSGN can and should be managed by the local (or closest) paediatric service … Consider consultation with paediatric nephrology when Any red flag features are present Hypertension requiring multiple agents",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16b81685b67be0cb",
+     "n": 258,
+     "p": "A large "
+    },
+    {
+     "h": "c64a1cd6ec397a44",
+     "n": 126,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** for early significant renal impairment or systemic illness beyond what PSGN would explain, or care beyond the local hospital.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Early evidence of significant renal impairment or systemic illness outside of what would be expected for PSGN Children requiring care beyond the level of comfort of the local hospital",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05887d05253787f6",
+     "n": 206,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** BP and renal function are stable or improving and weight is at or near baseline. **No furosemide at home**, though another agent may be needed for BP.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Blood pressure and renal function stabilise or start improving and child is at or near baseline weight Child should not require ongoing furosemide at home, but may require BP control with another agent",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d0f0a2f93de9afe",
+     "n": 201,
+     "p": "Blood pr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Weekly BP and urinalysis; paediatric review at 8 weeks** with repeat C3/C4 and renal function. **Wean antihypertensives** as able — usually within 6 weeks.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Arrange weekly follow-up to monitor blood pressure and urinalysis General paediatric review 8 weeks after initial presentation Aim to wean off anti-hypertensives as able (generally achievable within 6 weeks of presentation) Repeat bloods including C3/C4 and renal function at 8 weeks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "406e9219f26d5fdc",
+     "n": 283,
+     "p": "Arrange "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Microscopic haematuria and intermittent proteinuria may persist up to 2 years** — but not macroscopic haematuria, proteinuria over 3+, or proteinuria that is increasing.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Microscopic haematuria and intermittent proteinuria may persist for up to 2 years (this should not be macroscopic haematuria, >3+ proteinuria or increasing over time)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6a2a5c3f2538ff59",
+     "n": 166,
+     "p": "Microsco"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Refer to paediatric nephrology (consider biopsy) if:** macroscopic haematuria beyond 5 days or recurring · nephritic or nephrotic features · BP persistently over the 95th percentile · **cannot wean antihypertensives by 8 weeks** · **C3 still low** or renal function abnormal at 8 weeks · rising proteinuria.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Discuss with paediatric nephrology (for consideration of renal biopsy) if any of the following are identified during follow-up macroscopic haematuria persists >5 days from initial presentation or recurs signs of acute nephritic syndrome (haematuria, proteinuria, oedema, hypertension, oliguria) signs of nephrotic syndrome (proteinuria, hypoalbuminaemia, oedema) blood pressure persistently >95th percentile for age, sex, height unable to wean anti-hypertensive medication by 8 weeks repeat blood tests at 8 weeks show persistently low C3 and/or abnormal renal function proteinuria increasing over time",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "19547064019d55e5",
+     "n": 602,
+     "p": "Discuss "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   },
   {
    "claim": "**Persistent proteinuria** (early-morning urine protein/creatinine ratio) — also a referral trigger: over 200 mg/mmol for 4 weeks · over 100 mg/mmol for 3 months · over 50 mg/mmol for 6 months.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "persistent proteinuria, defined as an early morning urine protein/creatinine ratio: >200 mg/mmol for 4 weeks >100 mg/mmol for 3 months >50 mg/mmol for 6 months",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e6d6d9cb18be9d8",
+     "n": 159,
+     "p": "persiste"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Post-streptococcal glomerulonephritis (PSGN)' (Last updated June 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/, retrieved 2026-09-23"
   }
  ]

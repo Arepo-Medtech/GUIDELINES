@@ -1,228 +1,493 @@
 {
  "guideline": "guidelines/nephrotic-syndrome-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Nephrotic syndrome' (Last updated July 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Nephrotic syndrome' (Last updated July 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 29,
-  "pass": 29,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
    "claim": "**Diagnosis is the triad:** heavy proteinuria (dipstick over 3+ or spot protein/creatinine ratio over 200 mg/mmol), hypoalbuminaemia (albumin under 25 g/L) and oedema.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "NS is diagnosed based on the triad of: Heavy proteinuria (dipstick >3+ or spot protein/creatinine ratio >200 mg/mmol) Hypoalbuminaemia (serum albumin <25 g/L) Oedema",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0b1873c81e1956f7",
+     "n": 165,
+     "p": "NS is di"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Remission** = 3 consecutive days of negative or trace urine protein. **Relapse** = over 3+ proteinuria for 3 consecutive days, often triggered by mild illness.",
+   "claim": "**Remission** = urine protein negative or trace on 3 days running. **Relapse** = proteinuria over 3+ on 3 days running — mild illness is a frequent trigger.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Remission: resolution of proteinuria, defined by 3 consecutive days of negative or trace urine protein … Relapse: >3+ proteinuria for 3 consecutive days - often triggered by mild illnesses, but can occur spontaneously",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04754a6b10c72276",
+     "n": 102,
+     "p": "Remissio"
+    },
+    {
+     "h": "a9227de4b7ab7158",
+     "n": 112,
+     "p": "Relapse:"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most children respond to prednisolone and do not need a renal biopsy**; about 85% of steroid-sensitive children relapse at least once and 50% relapse frequently.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most children with NS respond to prednisolone treatment, have a good prognosis and do not require renal biopsy … Approximately 85% of children with steroid sensitive NS have at least one relapse and 50% have frequent relapses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6822c8be0b7b5755",
+     "n": 110,
+     "p": "Most chi"
+    },
+    {
+     "h": "65f98e78f152cbf8",
+     "n": 112,
+     "p": "Approxim"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Weigh the child and compare with pre-illness weight** — weight gain may be the only sign of fluid overload. Measure BP against age and gender ranges and confirm manually.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Growth parameters and comparison to pre-illness weight (may be an isolated sign of fluid overload in absence of oedema) … Blood pressure (use age and gender reference ranges); confirm with manual measurement",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "097bc147c3817fcb",
+     "n": 119,
+     "p": "Growth p"
+    },
+    {
+     "h": "3d43003965baa64a",
+     "n": 85,
+     "p": "Blood pr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Intravascular volume depletion:** dizziness, abdominal cramps, poor perfusion, tachycardia, reduced urine output, transient hypertension, hypotension, shock.",
+   "claim": "⚠️ **Intravascular volume depletion:** abdominal cramps · dizziness · tachycardia · poor perfusion · reduced urine output · transient hypertension · hypotension · shock.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intravascular volume depletion Dizziness, abdominal cramps, poor perfusion, tachycardia, reduced urine output, transient hypertension, hypotension, shock",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d613f2b04d87f5f0",
+     "n": 153,
+     "p": "Intravas"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Infection:** encapsulated bacteria (complement loss). **Spontaneous bacterial peritonitis** presents with abdominal pain with rebound, fever and vomiting — **signs can be masked by steroids.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Encapsulated bacterial infection due to loss of complement … Spontaneous bacterial peritonitis Abdominal pain with rebound tenderness, fevers, nausea/vomiting (signs can be masked by steroids)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d686ee2cb9be0c56",
+     "n": 58,
+     "p": "Encapsul"
+    },
+    {
+     "h": "8797d5ce0c1c3b3d",
+     "n": 131,
+     "p": "Spontane"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Thrombosis** can be venous or arterial, at any site — e.g. central venous, renal vein, pulmonary embolism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Thrombosis Can be venous or arterial and located in any site eg central venous thrombosis, renal vein thrombosis, pulmonary embolism",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3518bf39a73eb6ac",
+     "n": 132,
+     "p": "Thrombos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Atypical features — discuss with Nephrology early:** age under 1 or over 12 years · nephritic features · persistent hypertension or renal impairment · significant complications at first presentation · features of systemic disease · dysmorphism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "It is important to identify children with atypical features, who should be discussed with Nephrology at presentation or early in the course of the disease … Atypical features Age <1 or >12 years Features of nephritic syndrome (renal impairment, macroscopic haematuria and hypertension) Persistent hypertension (can have mild elevation in first 1-2 days) Persistent renal impairment (can be related to intravascular hypovolaemia initially) Significant complications at first presentation Features (eg rash, arthritis, fevers) that may suggest a systemic disease eg SLE, HSP, sickle cell, HIV, hepatitis Dysmorphic features that may suggest a syndromic cause",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5057edaeed144851",
+     "n": 154,
+     "p": "It is im"
+    },
+    {
+     "h": "1154c8b7f5bffbef",
+     "n": 499,
+     "p": "Atypical"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Standard:** urine dipstick, urine MCS, spot protein/creatinine ratio, UEC, LFTs, albumin, FBE. **Complement, ANA/ANCA and anti-streptococcal antibodies** only if creatinine is raised, the history is atypical or systemic disease is suspected.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Standard investigations: Urine dipstick Urine MCS Spot urine protein/creatinine ratio UEC, LFTs, albumin FBE … If raised creatinine, atypical history, or concern for systemic disease, consider further testing discussion with paediatric nephrology team: Complement C3, C4 ANA, ANCA Anti-streptococcal antibodies",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "24f2e82d350936e7",
+     "n": 108,
+     "p": "Standard"
+    },
+    {
+     "h": "94c95b93bc26da4b",
+     "n": 199,
+     "p": "If raise"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Blood culture if febrile or systemically unwell**; chest X-ray if effusion or pulmonary oedema is suspected; renal ultrasound with Doppler for unclear diagnosis, significant flank/abdominal pain, atypical history or poor diuretic response.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Blood culture (if febrile, or systemically unwell) … Chest X-ray (if any concerns for pleural effusion or significant pulmonary oedema) … Renal tract ultrasound (including doppler) in cases of unclear diagnosis, significant flank or abdominal pain, atypical history or poor response to diuretics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "50f649fc0547b827",
+     "n": 50,
+     "p": "Blood cu"
+    },
+    {
+     "h": "354c2dba3347764a",
+     "n": 82,
+     "p": "Chest X-"
+    },
+    {
+     "h": "798571c29796e37d",
+     "n": 157,
+     "p": "Renal tr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Admit all children on their first presentation.** Strict fluid balance, urine output in mL/kg/hr, daily weights on the same scales at the same time.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admit all children to hospital on their first presentation … Strict fluid balance Measure urine output and calculate in mL/kg/hr Daily weights taken at the same time on same scales",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "18c085b94632249f",
+     "n": 58,
+     "p": "Admit al"
+    },
+    {
+     "h": "e3940e8fdef19341",
+     "n": 119,
+     "p": "Strict f"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Sodium restriction: 2–3 mmol/kg** (about 40 mg/kg or 2 g/day); a low or no-added-salt diet is usually enough.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Sodium restriction Limit to 2-3 mmol/kg (approx 40 mg/kg or 2 g/day) Generally, low or no-added salt diet is sufficient to achieve this",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1374c0014ab92228",
+     "n": 135,
+     "p": "Sodium r"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Fluid restriction to 50–70% of maintenance over 24 hours**, particularly if Na under 130 mmol/L; **do not count albumin in the allowance.** Mild hyponatraemia often corrects with fluid restriction alone.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fluid restriction Particularly useful when hyponatraemic (Na <130 mmol/L) Restrict to 50-70% of usual maintenance fluid in total across 24 hrs Do not count albumin administration in this fluid allowance … Mild hyponatraemia will often correct with fluid restriction alone",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "add559493498972c",
+     "n": 202,
+     "p": "Fluid re"
+    },
+    {
+     "h": "2c06a2296d317ffc",
+     "n": 66,
+     "p": "Mild hyp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**20% albumin 5 mL/kg (1 g/kg) over 4 hours** for intravascular depletion and/or severe or symptomatic oedema. **Consider IV furosemide 0.5–1 mg/kg (max 40 mg)** at the middle and/or end of the infusion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "5 mL/kg of 20% albumin (equivalent to 1 g/kg) administered over 4 hours Indicated when there is intravascular volume depletion and/or severe or symptomatic oedema … Consider IV furosemide (0.5-1mg/kg max 40mg) at middle and/or end of infusions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c0e23f0b30715c0",
+     "n": 162,
+     "p": "5 mL/kg "
+    },
+    {
+     "h": "c184c942056ee2b2",
+     "n": 78,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Monitor closely for hypertension and pulmonary oedema during albumin; run infusions in the day with adequate staffing.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Monitor closely for hypertension and pulmonary oedema (infusions should occur during the day with adequate staffing)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90f9d248a60a8288",
+     "n": 116,
+     "p": "Monitor "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Use diuretics cautiously, usually only with albumin** — they can precipitate intravascular depletion, AKI and thrombosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Diuretics should be used cautiously (usually only in combination with albumin infusions) as may precipitate intravascular volume depletion, acute kidney injury and increase risk of thrombosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "261e534adc12ebd4",
+     "n": 191,
+     "p": "Diuretic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**First presentation: prednisolone 60 mg/m² or 2 mg/kg (max 60 mg) orally daily for 4 weeks**, however quickly remission comes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For first presentations, the initial dose of prednisolone continues for 4 weeks, regardless of how quickly remission is achieved … First presentation Relapse presentation Prednisolone 60 mg/m2 or 2 mg/kg (max 60 mg) oral daily for 4 weeks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c361effa72c5fbbc",
+     "n": 128,
+     "p": "For firs"
+    },
+    {
+     "h": "2116e374e9340782",
+     "n": 107,
+     "p": "First pr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Relapse: prednisolone 60 mg/m² or 2 mg/kg (max 60 mg) orally daily only until remission.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For relapses, the initial dose of prednisolone is only continued until remission achieved … Prednisolone 60 mg/m2 or 2 mg/kg (max 60 mg) oral daily until remission achieved",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2474278348ce939a",
+     "n": 89,
+     "p": "For rela"
+    },
+    {
+     "h": "e1885b4d74af2f4a",
+     "n": 80,
+     "p": "Predniso"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Followed by prednisolone 40 mg/m² or 1.5 mg/kg (max 40 mg) orally on alternate days for 4 weeks, then stop.** A relapse during this period goes back to 60 mg/m² or 2 mg/kg (max 60 mg) daily until remission, then repeats the step-down.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Followed by Prednisolone 40 mg/m2 or 1.5 mg/kg (max 40 mg) oral alternate days for 4 weeks … If relapse occurs during this period, increase prednisolone dose to 60 mg/m2 or 2 mg/kg (max 60 mg) oral daily until remission achieved again, then repeat the step down to 40 mg/m2 or 1.5 mg/kg (max 40 mg) oral alternate days for 4 weeks Then stop",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f5fc1dab5462ec2",
+     "n": 90,
+     "p": "Followed"
+    },
+    {
+     "h": "ee0464d6df51597a",
+     "n": 247,
+     "p": "If relap"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**If oral intake is not tolerated, give IV methylprednisolone at 80% of the oral prednisolone dose.** Round prednisolone up to the easiest dose; tablets can be crushed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If unable to tolerate oral intake, give equivalent dose of IV methylprednisolone (80% of oral prednisolone dose) … Prednisolone - dose should be rounded up to the easiest administrable dose; tablets are more cost effective and accessible (can be crushed)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ba8d6bf975a8e01",
+     "n": 112,
+     "p": "If unabl"
+    },
+    {
+     "h": "835e833121e26443",
+     "n": 139,
+     "p": "Predniso"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Steroid-dependent NS** = two consecutive relapses on a decreasing dose, or relapse within 15 days of stopping prednisolone.",
+   "claim": "**Steroid-dependent NS** = two relapses in a row while the prednisolone dose is being reduced, or a relapse within 15 days after it is stopped.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Two consecutive relapses (on decreasing prednisolone dose), or relapse within 15 days of stopping prednisolone is deemed steroid dependent NS",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "93fab4df1bce5341",
+     "n": 141,
+     "p": "Two cons"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Antibiotics are not indicated unless there is pneumococcal risk** (e.g. gross oedema, unimmunised). **No routine acid suppression** unless upper GI symptoms on steroids.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antibiotics Not indicated unless there is a risk of pneumococcal infection (eg gross oedema, unimmunised) … Not indicated unless there are upper gastrointestinal symptoms while on steroid therapy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b1b765bd80f25d99",
+     "n": 105,
+     "p": "Antibiot"
+    },
+    {
+     "h": "f58e0184835fe644",
+     "n": 87,
+     "p": "Not indi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Additional meningococcal and pneumococcal vaccines and yearly influenza vaccine.** ⚠️ **Delay live vaccines until 1 month off steroids.** Consider varicella immunoglobulin after chickenpox exposure in an unimmunised child in relapse or on steroids.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Additional meningococcal and pneumococcal vaccines Yearly influenza vaccine Live vaccines need to be delayed until 1 month off steroid treatment Consider varicella immunoglobulin for children unimmunised against varicella, who are in relapse or on steroids, and have had an exposure to chickenpox",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a913c4bea65c6fa",
+     "n": 296,
+     "p": "Addition"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**VTE prophylaxis:** above-knee TED stockings are usually all that is needed for mobile children over 12 years without other VTE risk factors.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mechanical prophylaxis (above-knee TED stockings) is usually all that is required for children >12 years who are mobile and do not have any other risk factors for VTE",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec7d03f0904f54bc",
+     "n": 166,
+     "p": "Mechanic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Adrenal suppression risk after stopping steroids:** consider adrenal stimulation testing if cushingoid or frequently relapsing.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Following cessation of steroids, there is a risk of adrenal suppression Adrenal stimulation testing should be considered in those children at risk of adrenal insufficiency (eg cushingoid appearance or frequent relapses)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d47809f0fc362b15",
+     "n": 219,
+     "p": "Followin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Involve paediatric nephrology** for atypical features, significant complications, **no resolution of proteinuria after 4 weeks of prednisolone**, refractory oedema, or steroid toxicity.",
+   "claim": "**Involve paediatric nephrology** for atypical features, significant complications, **proteinuria persisting after 4 weeks of prednisolone**, refractory oedema, or steroid toxicity.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric nephrology team when Atypical nephrotic syndrome features present Any significant complications present No resolution of proteinuria after 4 weeks of prednisolone Oedema refractory to management strategies Development of more complex disease phenotypes or steroid toxicity",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "20627f3c16f32034",
+     "n": 316,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** oedema is manageable without regular IV albumin and weight is not rising, steroids have started, and education and follow-up are done.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Oedema can be managed without regular IV albumin infusions and weight is not increasing Appropriate steroid treatment has been commenced Discharge education has been provided and follow up arranged",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e2964779dcb39b1",
+     "n": 221,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Home dipstick daily (first-morning urine) until proteinuria resolves, then at least twice weekly in the first year**; back to daily if 1+ or more protein, intercurrent infection, oedema or suspected relapse.",
+   "claim": "**Home dipstick daily (first-morning urine) until proteinuria resolves, then twice a week or more through the first year**; back to daily if 1+ or more protein, intercurrent infection, oedema or suspected relapse.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Home urine dipstick testing should continue daily until proteinuria resolves (3 consecutive days of negative or trace urine protein). This is best collected first thing in the morning … After resolution of proteinuria, recommend dipstick testing at least twice weekly in the first year (individualised thereafter) … Revert to daily testing if ≥1+ protein, intercurrent infections, oedema, suspected relapse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "25226316e0dde2ad",
+     "n": 183,
+     "p": "Home uri"
+    },
+    {
+     "h": "27451733ebc4d72d",
+     "n": 127,
+     "p": "After re"
+    },
+    {
+     "h": "10eb6ff860d88eea",
+     "n": 90,
+     "p": "Revert t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Tell families about adrenal suppression** and give written information on possible steroid need in acute illness or trauma.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Following cessation of steroids there is a risk of adrenal suppression, and this should be explained to families and written information given about the potential need for steroids in the case of acute illness or trauma",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0863d94025475524",
+     "n": 219,
+     "p": "Followin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nephrotic syndrome' (Last updated July 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/, retrieved 2026-09-23"
   }
  ]
