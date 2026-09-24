@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/narcolepsy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186 'Narcolepsy 2025 (with an Australasian perspective)' (published 27 August 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12608058). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186 'Narcolepsy 2025 (with an Australasian perspective)' (published 27 August 2025), 21 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12608058). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline' (published 1 September 2021), 10 claims; LICENCE: © 2021 American Academy of Sleep Medicine (no open licence; PMC not open access) (read at PMC article page (pmc.ncbi.nlm.nih.gov/articles/PMC8636351) copyright and licence information). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the AASM 2021 GRADE-based clinical practice guideline, read from the PMC article page (tables stripped). S1 claims are unchanged. The EAN/ESRS/EU-NN 2021 European guideline (Bassetti et al., CC BY-NC-ND) was sought first: the Wiley publisher PDF and every open repository copy listed by Unpaywall and OpenAlex (HAL Montpellier, Unimore IRIS, Leiden, Helsinki, University of Copenhagen, Bern) returned bot challenges or access blocks, which were not bypassed. Europe PMC search: narcolepsy AND guideline/consensus/recommendations 2019-2026.",
  "summary": {
-  "total": 21,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -259,6 +260,210 @@
    "locator": "Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186, 'Narcolepsy 2025 (with an Australasian perspective)', published 27 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/, retrieved 2026-09-23"
   },
   {
+   "claim": "**AASM strong recommendations for adults with narcolepsy of either type:** modafinil, pitolisant, sodium oxybate and solriamfetol. **Conditional:** armodafinil, dexamfetamine (dextroamphetamine) and methylphenidate. Each was judged against no treatment, and the order is alphabetical within strength, not a ranking.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46e2ce9738ab959c",
+     "n": 716,
+     "p": "We recom"
+    },
+    {
+     "h": "7eedc0867a55e2a8",
+     "n": 85,
+     "p": "The inte"
+    },
+    {
+     "h": "6f8c11b077ddc250",
+     "n": 142,
+     "p": "The orde"
+    },
+    {
+     "h": "d8d8e5331088a9bd",
+     "n": 79,
+     "p": "the task"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What each drug improved in trials:** cataplexy responded to pitolisant, sodium oxybate and dexamfetamine; modafinil and solriamfetol improved sleepiness and disease severity (modafinil also quality of life).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90da57b38eefbcdc",
+     "n": 242,
+     "p": "The TF i"
+    },
+    {
+     "h": "cfee2786025fcb30",
+     "n": 291,
+     "p": "The TF i"
+    },
+    {
+     "h": "fcb8f6340cac7514",
+     "n": 339,
+     "p": "The TF i"
+    },
+    {
+     "h": "2454f121f5ffa0c4",
+     "n": 281,
+     "p": "The TF i"
+    },
+    {
+     "h": "7079e042f5d456b7",
+     "n": 247,
+     "p": "The TF i"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Certainty of evidence:** high for solriamfetol; moderate for modafinil, pitolisant, sodium oxybate and armodafinil; very low for dexamfetamine and methylphenidate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a52f4b3fdd527f9d",
+     "n": 101,
+     "p": "The over"
+    },
+    {
+     "h": "cbca69f28019375c",
+     "n": 327,
+     "p": "The TF i"
+    },
+    {
+     "h": "70bfd5726faf0847",
+     "n": 288,
+     "p": "The TF i"
+    },
+    {
+     "h": "3978760fb3448646",
+     "n": 115,
+     "p": "The over"
+    },
+    {
+     "h": "ab8344ffe34fb2a5",
+     "n": 308,
+     "p": "The TF i"
+    },
+    {
+     "h": "b417c02d4c453c56",
+     "n": 385,
+     "p": "The TF i"
+    },
+    {
+     "h": "fe8baaf63e1ff5ea",
+     "n": 306,
+     "p": "The TF i"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Not enough evidence to recommend either way** in adult narcolepsy: scheduled naps, SSRIs and SNRIs, l-carnitine, selegiline and triazolam. Being left off the list is not advice against a treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41d80d7b8a400574",
+     "n": 232,
+     "p": "There wa"
+    },
+    {
+     "h": "5ed89b0f97543893",
+     "n": 154,
+     "p": "The abse"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tailor and review the choice** by age, pregnancy status and plans, comorbidity (including cardiovascular disease), allergy or past adverse reactions, misuse risk and treatment goals, and reassess at follow-up as life changes. Whatever the drug, many patients also need work or study accommodations, sleep hygiene and CBT or psychological support.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "043d414fb2289b83",
+     "n": 758,
+     "p": "clinicia"
+    },
+    {
+     "h": "c5b7e5bf5d7f7039",
+     "n": 276,
+     "p": "Clinicia"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Closely related compounds** (modafinil and armodafinil; dexamfetamine, mixed amphetamine salts and lisdexamfetamine) may reasonably be assumed to carry similar benefits and risks, although the AASM graded single drugs rather than classes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a02d76655de16e4d",
+     "n": 515,
+     "p": "The TF e"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Common adverse effects:** modafinil, headache, insomnia, nausea, diarrhoea and dry mouth; pitolisant, headache, weight gain, insomnia and nausea (none led to stopping); sodium oxybate, nausea, headache, dizziness, bedwetting, chest discomfort, disturbed sleep and sleep-disordered breathing; solriamfetol, headache, nausea, insomnia, reduced appetite and chest discomfort, mostly mild or moderate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6bb617a50cca42ee",
+     "n": 178,
+     "p": "Across a"
+    },
+    {
+     "h": "8bda5377182a4412",
+     "n": 217,
+     "p": "Across a"
+    },
+    {
+     "h": "ad114835e2d7c998",
+     "n": 272,
+     "p": "Across a"
+    },
+    {
+     "h": "8bc76f1eaf797be5",
+     "n": 238,
+     "p": "Across a"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Sodium oxybate** has an FDA boxed warning as a central nervous system depressant that can depress breathing; it is the sodium salt of GHB, whose misuse, especially with alcohol or sedating drugs, can cause seizures, coma and death. **Dexamfetamine and methylphenidate** are Schedule II drugs with boxed warnings about misuse and dependence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "096da740c2c0a342",
+     "n": 530,
+     "p": "Remark: "
+    },
+    {
+     "h": "a642a40bf0a9ebdb",
+     "n": 202,
+     "p": "Remark: "
+    },
+    {
+     "h": "2d5c26185368f7c8",
+     "n": 208,
+     "p": "Remark: "
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Plan for pregnancy.** European guidance strongly advises stopping narcolepsy drugs before conception, accepting that symptoms will worsen, or using a single drug if stopping is not practical. Modafinil and armodafinil carry higher rates of congenital anomalies and make the oral contraceptive pill less effective.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -296,6 +501,67 @@
     }
    ],
    "locator": "Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186, 'Narcolepsy 2025 (with an Australasian perspective)', published 27 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **AASM pregnancy remarks:** animal data suggest each drug may harm the fetus, and human data are too sparse to judge; the 2018 report of the US armodafinil/modafinil pregnancy registry showed more major congenital anomalies after exposure in the womb. Modafinil, armodafinil and pitolisant may weaken oral contraception. The AASM makes no specific recommendations for pregnancy or breastfeeding.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d9a42b8880cdc6ba",
+     "n": 383,
+     "p": "Based on"
+    },
+    {
+     "h": "93885116a4da0320",
+     "n": 164,
+     "p": "Based on"
+    },
+    {
+     "h": "c98991bab6d4c326",
+     "n": 63,
+     "p": "Armodafi"
+    },
+    {
+     "h": "578e2580a6b727e9",
+     "n": 133,
+     "p": "The scop"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Children with narcolepsy (AASM, conditional):** modafinil or sodium oxybate. Modafinil lacks FDA approval under 17 years because of a boxed warning for Stevens–Johnson syndrome and psychosis from paediatric case reports. Sodium oxybate improved cataplexy, severity and sleepiness, but rare serious effects include central sleep apnoea, depression and suicidality. No eligible evidence was found for methylphenidate, amphetamines, scheduled naps or SSRIs/SNRIs for cataplexy in children.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ccf53dcd853183b3",
+     "n": 228,
+     "p": "We sugge"
+    },
+    {
+     "h": "635718871da15391",
+     "n": 180,
+     "p": "The drug"
+    },
+    {
+     "h": "7845f238e5148fed",
+     "n": 128,
+     "p": "These st"
+    },
+    {
+     "h": "2f99208fc611aa04",
+     "n": 91,
+     "p": "rare but"
+    },
+    {
+     "h": "f572914299ca9b6b",
+     "n": 240,
+     "p": "Review o"
+    }
+   ],
+   "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
   },
   {
    "claim": "**Orexin receptor (OX2R) agonists are the coming change.** Oveporexton has reduced sleepiness and cataplexy and improved wakefulness testing in NT1, with trials under way in Australia; an earlier agent was stopped for liver toxicity. Immunotherapy has little evidence and carries risk.",

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/cervical-dystonia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors' (published 30 June 2026). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13418215). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors' (published 30 June 2026), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13418215). S2: QUOTED from Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin' (published 24 February 2017), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC5323428). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, evidence-based recommendations from a European expert group (COST Action BM1101) built on a structured literature review (Medline, Embase, Cochrane) and graded with the American Academy of Neurology evidence and recommendation scheme. S1 claims are unchanged. Searches for a newer society guideline (Europe PMC: cervical dystonia AND guideline/consensus/recommendations 2015-2026; botulinum AND guideline/consensus AND dystonia, open access 2018-2026) found the retired AAN 2016 guideline, the Dressler 2021 IAB consensus (dosing only in tables) and a 2026 Italian Delphi consensus whose statements are in tables; S2 was the strongest open graded source. S2's starting doses cite European summaries of product characteristics from 2012-2015.",
  "summary": {
-  "total": 20,
-  "pass": 20,
+  "total": 32,
+  "pass": 32,
   "fail": 0
  },
  "claims": [
@@ -66,6 +67,20 @@
    "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Evidence grade:** class I evidence shows all three BoNT-A products and BoNT-B improve cervical dystonia (level A for abobotulinumtoxinA, onabotulinumtoxinA and rimabotulinumtoxinB; level B for incobotulinumtoxinA). BoNT-A also reduces dystonia pain (level A).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There is class I evidence that the three BoNT-A and the BoNT-B formulations significantly improve dystonia in CD. The recommendation level is A for abobotulinumtoxinA, onabotulinumtoxinA, and rimabotulinumtoxinB, and level B for incobotulinumtoxinA … There is class I evidence that BoNT-A reduces pain symptoms in CD (level A).",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**BoNT-A and BoNT-B work equally well and for as long (level A), but BoNT-B causes more side effects (level B),** notably dry mouth and swallowing difficulty.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Dry mouth and swallowing difficulties were more common with BoNT-B … Botulinum neurotoxin-A and BoNT-B have a comparable effect and duration of effect (level A). Side effects are more frequent with BoNT-B (class I evidence, level B).",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Pick muscles by the direction of abnormal movement.** Rotation (torticaput/torticollis): contralateral sternocleidomastoid and semispinalis capitis; ipsilateral splenius capitis/cervicis, levator scapulae, inferior oblique of the head and trapezius.",
    "source": "S1",
    "verdict": "pass",
@@ -94,6 +109,13 @@
    "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
   },
   {
+   "claim": "**EMG-assisted muscle selection (level A):** in treatment-naive patients, choosing muscles by examination plus polymyographic EMG and injecting under EMG guidance improves dystonia and pain more than examination alone; without polymyography 24–41% of dystonic muscles were missed. It can also help when benefit wanes (level C).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There is class I evidence that, in treatment-naïve patients, improvements in dystonia and pain are greater if muscles are selected based on a combination of clinical examination and pEMG and injections are performed with EMG guidance (level A) … Other studies showed that without pEMG, 24-41% of the dystonic muscles were missed, and 25-35% of the injected muscles were misjudged as dystonic … In patients with deterioration of treatment effect, the use of pEMG and EMG guidance can improve the results (class III, level C)",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Individualise the total dose** by pattern complexity, number of muscles, body build and response to past cycles. Higher doses are often needed when both caput and collis components are active or tremor is prominent.",
    "source": "S1",
    "verdict": "pass",
@@ -114,6 +136,37 @@
    "verdict": "pass",
    "source_text": "The typical retreatment interval is approximately 12-16 weeks, corresponding to the expected duration of clinical benefit [,]. A flexible 8-12-week interval is acceptable only for incobotulinumtoxinA",
    "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Starting total dose per session:** abobotulinumtoxinA 500 IU (level A; an average 200–400 IU under EMG guidance also worked, with fewer side effects); incobotulinumtoxinA 120 IU (level B); rimabotulinumtoxinB 2,500 or 5,000 IU (level B) or 10,000 IU (level A). No optimal onabotulinumtoxinA starting dose can be recommended (level U); studies used 60 to 374 IU in total.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "An initial total dose of 500 IU abobotulinumtoxinA is effective (level A), although other dosages might be used (, ). An initial total dose of 120 IU incobotulinumtoxinA is probably effective (evidence class I, level B) (). No clear recommendations can be given on the optimal starting does of onabotulinumtoxinA (level U). An initial total dose of 2,500 or 5,000 IU rimabotulinumtoxinB (evidence class I, level B) or 10,000 IU (level A) is probably effective. … It is worth mentioning, however, that CD could be successfully treated using an average total dose of 200-400 IU abobotulinumtoxinA under electromyography (EMG) guidance, resulting also in fewer side effects … The mean total doses of original onabotulinumtoxinA injections, reported in 30 studies, as assessed by a systematic review, ranged from 60 to 374 IU in total",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**One tested split of 500 IU abobotulinumtoxinA:** 100–200 IU sternocleidomastoid, 250–350 IU splenius, 100–200 IU trapezius and 100–200 IU levator scapulae (RCT, 68 patients).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "An initial dose of 500 IU abobotulinumtoxinA (divided into 100-200 IU in the sternocleidomastoid muscle, 250-350 IU in the splenius, 100-200 IU in the trapezius, and 100-200 IU in the levator scapulae) significantly improved CD with respect to placebo in another RCT on 68 patients",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Switching products, dose conversion:** 1 IU onabotulinumtoxinA to 3 IU abobotulinumtoxinA (level A), though 1:2.5 may be equally safe and effective (level B); onabotulinumtoxinA to incobotulinumtoxinA 1:1 (level B).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is recommended to use a conversion of 1 IU onabotulinumtoxinA to 3 IU abobotulinumtoxinA (level A) (, ), although conversion ratios of 1:2.5 might be equally safe and effective (class I, level B) … It is recommended to use a conversion of 1:1 IU onabotulinumtoxinA to incobotulinumtoxinA (class I, level B).",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Reinjecting sooner than 12 weeks:** only incobotulinumtoxinA has class I evidence that shorter intervals do not raise antibody risk; for the other products data are insufficient (level U). Experts advise leaving reinjection as long as clinically possible to limit antibody formation; product information gives a 10- to 12-week minimum.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There is only one class I study showing that, with incobotulinumtoxinA, treatment intervals <12 weeks do not increase the risk of developing antibodies. There is insufficient data to recommend or discourage the use of an interval <12 weeks for treatment with rimabotulinumtoxinB, onabotulinumtoxinA, and abobotulinumtoxinA (level U) … In a consensus statement, experts recommend that reinjection is left as long as clinically possible, to minimize the chance of antibody responses … The current manufacturer information suggest that the minimal interval between injections should be 10 (SPC onabotulinumtoxinA and incobotulinumtoxinA) to 12 weeks",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Dysphagia is the main adverse effect,** especially with deep or anterior neck injections or high doses there. Manage with diet changes, hydration and speech or swallow therapy; next time use lower doses or other targets, with US and EMG guidance.",
@@ -137,6 +190,20 @@
    "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Dysphagia rates and risk:** commoner after bilateral sternocleidomastoid injections; usually mild (severe in under 5%) and gone in 2–3 weeks. Reported rates range from 3.4% (current onabotulinumtoxinA) to 19.4% (abobotulinumtoxinA), with incobotulinumtoxinA 12.6% and rimabotulinumtoxinB 15.6%. Adding ultrasound guidance may lessen recurrent dysphagia (level U).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Bilateral sternocleidomastoid injections are more frequently associated with dysphagia (). Dysphagia is often mild (severe in <5% of the cases), very rarely requires hospitalization or feeding tube, and disappears gradually after 2-3 weeks (). Dysphagia is relatively common: 7.1% of the patients reported dysphagia after treatment with the original onabotulinumtoxinA, 3.4% with the new generation onabotulinumtoxinA, 19.4% with abobotulinumtoxinA, 12.6% with incobotulinumtoxinA, and 15.6% with rimabotulinumtoxinB … The additional use of ultrasound may lessen recurrent dysphagia after botulinum treatment (class IV, level U)",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Avoid BoNT in pregnancy where possible, and during breastfeeding** (insufficient human data, level U). **Anticoagulants:** haematoma risk with coumarins seems low (level U). **Myasthenia gravis, ALS and Lambert–Eaton syndrome** are listed contraindications in product information, because BoNT can worsen or unmask them.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "therefore, BoNT treatment during pregnancy is not recommended and should be avoided whenever possible (class IV, level U). No studies have been conducted on the effect of BoNT on the nursing child; to exclude side effects, BoNT treatment should be avoided during lactation (class IV, level U) … The risk of hematoma following BoNT treatment by concomitant use of coumarin derivatives has not been sufficiently studied but seems low (class IV, level U) … Myasthenia gravis, amyotrophic lateral sclerosis, and Lambert-Eaton diseases are reported as contraindications to BoNTs treatment in the respective SPCs",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**True primary non-response is extraordinarily rare;** first re-examine the patient, the diagnosis and the injection strategy.",
    "source": "S1",
    "verdict": "pass",
@@ -156,6 +223,27 @@
    "verdict": "pass",
    "source_text": "Focal cervical dystonia is not a common condition in the pediatric population, as it is usually part of a generalized or segmental dystonic syndrome, and no toxin has approval for use in dystonic syndromes in childhood.",
    "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Secondary non-response is posture no longer improving after three or more failed cycles in a previous good responder;** it affects about 3–5%. Neutralising antibodies are one cause, commoner with rimabotulinumtoxinB (antibody failure in 44% in one short series), and switching from BoNT-A to BoNT-B helps only temporarily (level U).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Secondary non-responsiveness is defined as \"insufficiently improved posture after three or more unsuccessful injection cycles in CD patient's previously achieving satisfactory results\" (). SNR concerns around 3-5% of the patients … antibody-induced therapy failure was shown in 44% of CD patients treated with BoNT-B during a short period … Switching to treatment with BoNT-B produces only temporary recovery of effect, often followed by development of antibodies against BoNT-B (level U)",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adding physiotherapy to BoNT does not improve motor scores (level C),** but may improve disability and pain and prolong the effect (level U).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Adding physiotherapy in combination with BoNT treatment does not produce a greater motor improvement as measured by TWSTRS or Tsui (class II, level C) … Adding physiotherapy to BoNT treatment may improve disability, pain, and prolong the effect of BoNT [class III () and IV (), level U]",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oral drugs have a limited role:** trihexyphenidyl is poorly tolerated; diazepam or clonazepam mainly ease pain, anxiety and perhaps dystonic tremor; tetrabenazine is limited by depression and parkinsonism. **When BoNT is unsatisfactory,** pallidal deep brain stimulation appears a better choice than selective peripheral denervation, which is now rarely done.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Oral medication has a limited role. Trihexyphenidyl is classically proposed, but the tolerance profile is low (). Benzodiazepines, especially diazepam and clonazepam, mainly reduce dystonia-related pain, anxiety, and possibly dystonic tremor (). Tetrabenazine, although possibly effective (), is limited by the frequent side effect of depression and parkinsonism. Evidence on the effectiveness of allied care treatments, including physiotherapy and cognitive behavioral therapy, is scanty (). In those with unsatisfactory botulinum neurotoxin (BoNT) effect, surgery may be considered. Peripheral surgery, such as selective peripheral denervation, can provide improvement in about two-thirds of cases, with frequent relapses and is now rarely performed (, ). Deep brain stimulation (DBS) of the globus pallidus pars interna appears to be a better choice, despite potential severe complications (). Alternative DBS targets, such as the subthalamic nucleus, need further investigation",
+   "locator": "Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035, 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin', published 24 February 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5323428/, retrieved 2026-09-24"
   }
  ]
 }
