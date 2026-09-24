@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/giant-cell-arteritis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://europepmc.org/article/PMC/PMC9853546"
+  "https://europepmc.org/article/PMC/PMC9853546",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine 'Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis' (published 6 January 2023 (volume 2022)). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9853546). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine 'Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis' (published 6 January 2023 (volume 2022)), 16 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9853546). S2: PARAPHRASED AND HASH-ANCHORED from American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608 '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis' (published online 8 July 2021), 11 claims; LICENCE: NIH author manuscript, not open access: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (read at NCBI efetch JATS XML <license> element for PMC12344528 (Europe PMC fullTextXML returned HTTP 500)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ACR/Vasculitis Foundation 2021 GCA guideline (NIH author manuscript, paraphrased and hash-anchored), because no readable Australian GCA guideline exists. Searches run 2026-09-24: PubMed for GCA with Australia/Australian/New Zealand or MJA/IMJ/Aust Prescr (2017-2026; only studies, a survey and a paywalled IMJ review); PMC for GCA/large-vessel vasculitis/PMR guidelines or recommendations (2020-2026). Only the GCA part of S2 is used; its Takayasu recommendations are not. S2's definitions table (glucocorticoid dose ranges) was not in the text. S1's claims are unchanged.",
  "summary": {
-  "total": 16,
+  "total": 27,
   "pass": 16,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -66,6 +68,65 @@
    "locator": "Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine, 'Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis', published 6 January 2023 (volume 2022), https://europepmc.org/article/PMC/PMC9853546, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 (ACR, US) prefers temporal artery biopsy to ultrasound or cranial MRI for diagnosis,** because US ultrasound expertise is limited, results depend on the operator, and steroids quickly erase the signs; where the expertise exists, ultrasound is a useful complement.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ded97da8538c4a5a",
+     "n": 764,
+     "p": "Recommen"
+    },
+    {
+     "h": "862dcce30a4b3419",
+     "n": 188,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Biopsy technique:** start with one side (take the other if symptoms are not one-sided, or the first is negative and doubt remains), take a long segment (>1 cm), and biopsy within two weeks of starting oral steroids; a later biopsy can still help.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59ca2f874928d400",
+     "n": 471,
+     "p": "Recommen"
+    },
+    {
+     "h": "e94ef875ef5bdbec",
+     "n": 174,
+     "p": "Recommen"
+    },
+    {
+     "h": "3668b79476359e37",
+     "n": 755,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Image the large vessels** after a negative biopsy, and at diagnosis in everyone (CT or MR angiography from neck to pelvis) as a baseline for aneurysm and stenosis follow-up.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "141eec6edd6dd44c",
+     "n": 256,
+     "p": "Recommen"
+    },
+    {
+     "h": "1427f6040aaa2ce0",
+     "n": 391,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Start glucocorticoids immediately on suspicion.** Prednisolone 40 mg/day without visual manifestations; 60 mg/day with visual involvement (visual loss, diplopia, amaurosis fugax, blurred vision). A single IV methylprednisolone 500 mg dose before 60 mg/day may be considered, though evidence is sparse.",
    "source": "S1",
    "verdict": "pass",
@@ -88,6 +149,47 @@
    "source_text": "We recommend continuing treatment with 5 mg/day at least for 1 year after initiation of Prednisolone. Further tapering can be considered on an individual basis if the patient has been in remission for at least 1 year.",
    "locator": "Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine, 'Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis', published 6 January 2023 (volume 2022), https://europepmc.org/article/PMC/PMC9853546, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**S2 (ACR): start high-dose oral steroids daily** (not on alternate days, and not a moderate dose unless steroid toxicity risk is high and the risk of visual loss is low). Without cranial ischaemia, oral beats IV pulses; **with threatened visual loss, use IV pulse steroids.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dde0127fd5c2ae1a",
+     "n": 687,
+     "p": "Recommen"
+    },
+    {
+     "h": "236647a7442edcc8",
+     "n": 207,
+     "p": "Recommen"
+    },
+    {
+     "h": "77f5476184e6f061",
+     "n": 149,
+     "p": "Recommen"
+    },
+    {
+     "h": "c18a0c7547a1f00a",
+     "n": 200,
+     "p": "Moderate"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2: how long to continue steroids is not established;** it should follow the patient's values and preferences, the number of flares and steroid toxicity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "38a71a784343b4cf",
+     "n": 388,
+     "p": "Ungraded"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
   },
   {
    "claim": "**Relapse:** raise prednisolone to the last effective dose, or higher depending on severity. Confirm relapse by imaging (preferably ultrasound) and/or blood tests where possible.",
@@ -120,6 +222,88 @@
    "locator": "Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine, 'Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis', published 6 January 2023 (volume 2022), https://europepmc.org/article/PMC/PMC9853546, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **S2 (ACR) differs from S1: it suggests tocilizumab with steroids from diagnosis** rather than steroids alone, for its steroid-sparing effect (GiACTA); methotrexate with steroids, or steroids alone, remain options, and abatacept if these fail. Cost and limited long-term data may restrict tocilizumab.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2c2aed9ca94d312c",
+     "n": 899,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Active large-vessel (extracranial) disease: add a steroid-sparing drug,** preferably tocilizumab; methotrexate if tocilizumab is unsuitable (recurrent infections, past bowel perforation or diverticulitis, or cost).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2057065d8c8fe506",
+     "n": 245,
+     "p": "Recommen"
+    },
+    {
+     "h": "2e0155aa42583782",
+     "n": 310,
+     "p": "While th"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 on relapse:** relapse on moderate or high-dose steroids → add a steroid-sparing drug; relapse with cranial ischaemia → raise steroids and add one; cranial relapse → prefer tocilizumab to methotrexate. Polymyalgia-type relapses may need only a higher steroid dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6cce2a44f8fe2d44",
+     "n": 404,
+     "p": "Recommen"
+    },
+    {
+     "h": "925fd22e0932e3ac",
+     "n": 259,
+     "p": "Recommen"
+    },
+    {
+     "h": "144e31c0db06ba0c",
+     "n": 117,
+     "p": "Relapses"
+    },
+    {
+     "h": "8814ba35f7d08a5d",
+     "n": 257,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Worsening limb or organ ischaemia: escalate immunosuppression before surgery,** unless an aortic aneurysm is at high risk of rupture or tissue infarction is imminent. Plan vascular procedures jointly with the vascular surgeon, and cover them with high-dose steroids if the disease is active.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ff508dc46d07345",
+     "n": 634,
+     "p": "Recommen"
+    },
+    {
+     "h": "f7944e9d088425a5",
+     "n": 216,
+     "p": "Ungraded"
+    },
+    {
+     "h": "4318318f56397dba",
+     "n": 210,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Check bone density in new-onset GCA** and treat osteoporosis risk. **Aspirin is not routine** unless there is a cardiovascular reason.",
    "source": "S1",
    "verdict": "pass",
@@ -132,6 +316,42 @@
    "verdict": "pass",
    "source_text": "In GCA patients, follow-up should be continued every month until remission is achieved. Thereafter follow-up at 3 months, 6 months, and thereafter yearly.",
    "locator": "Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine, 'Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis', published 6 January 2023 (volume 2022), https://europepmc.org/article/PMC/PMC9853546, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2: no statin to treat GCA itself; add aspirin only for critical or flow-limiting vertebral or carotid disease.** Statins for cardiovascular risk are a separate decision.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf1461fda9c19357",
+     "n": 466,
+     "p": "Recommen"
+    },
+    {
+     "h": "e2c62ab20d245c88",
+     "n": 167,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **S2: keep monitoring long term in remission** (strong recommendation, because missed disease can be catastrophic). **A rise in ESR or CRP alone is not a reason to escalate;** watch more closely instead.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce20155a626e8021",
+     "n": 642,
+     "p": "Recommen"
+    },
+    {
+     "h": "9b0fba13c9ff01d2",
+     "n": 587,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608, '2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis', published online 8 July 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/, retrieved 2026-09-24"
   }
  ]
 }

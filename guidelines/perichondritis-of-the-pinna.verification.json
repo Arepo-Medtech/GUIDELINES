@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/perichondritis-of-the-pinna.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12706554/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12706554/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409) 'Auricular Perichondritis in the Cartilage Piercing Era' (2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at NCBI efetch JATS XML <license> element for PMC12706554 (Europe PMC fullTextXML returned no body)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409) 'Auricular Perichondritis in the Cartilage Piercing Era' (2025), 15 claims; LICENCE: CC BY-NC 4.0 (read at NCBI efetch JATS XML <license> element for PMC12706554 (Europe PMC fullTextXML returned no body)). S2: PARAPHRASED AND HASH-ANCHORED from Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522) 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study' (published 31 January 2024), 11 claims; LICENCE: © 2024 Zhang et al.; published and licensed by Dove Medical Press under CC BY-NC 3.0 (unported) and the Dove terms (https://www.dovepress.com/terms.php) (read at Europe PMC fullTextXML <license> element for PMC10838494). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a single-centre retrospective study of 127 inpatients with refractory auricular perichondritis in eastern China (Zhang et al. 2024, CC BY-NC 3.0), for causes, culture yield, fungal infection and antibiotic susceptibility. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 15,
+  "total": 26,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 15
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
@@ -116,6 +117,42 @@
    "locator": "Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409), 'Auricular Perichondritis in the Cartilage Piercing Era', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12706554/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Why it damages the ear:** the cartilage has no blood vessels of its own and is fed by the perichondrium, so infection there can starve it, leading to necrosis and liquefaction. The disease moves fast, and poor management risks deep soft-tissue or systemic infection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6ccf0bdf0cfe30e",
+     "n": 527,
+     "p": "The auri"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In a hospital cohort the leading cause was ear surgery, not piercing:** 37.8% followed aural surgery (29.1% tympanoplasty) and 18.1% trauma, of which only six were piercings and five frostbite. No cause was found in 37.0%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "339ce91d366f69c7",
+     "n": 160,
+     "p": "auricula"
+    },
+    {
+     "h": "d2dc5d5d1fc8bd7a",
+     "n": 159,
+     "p": "Trauma w"
+    },
+    {
+     "h": "0761e1cd406dfa98",
+     "n": 97,
+     "p": "In a sig"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Of cultured cases, *P. aeruginosa* and *Staphylococcus aureus* were the main organisms.** *P. aeruginosa* was more frequent after piercing (52.4% against 20.6%). Other organisms, including *Enterobacter*, *Morganella*, *Aspergillus* and *Actinomyces*, were much more frequent without a piercing.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -170,6 +207,122 @@
    "locator": "Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409), 'Auricular Perichondritis in the Cartilage Piercing Era', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12706554/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Cultures are often negative once antibiotics have started:** swabs were taken in 73.2% and only 59.1% grew anything, which the authors put down to prior outpatient antibiotics and the little discharge these ears produce.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2df7ca94a1ae1a5",
+     "n": 93,
+     "p": "Culture "
+    },
+    {
+     "h": "087b1895fb030cc4",
+     "n": 309,
+     "p": "1) Our s"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Ask the laboratory for fungal culture, especially after ear surgery.** Fungi made up 23.0% of isolates (*Aspergillus* 18.0%); fungal infection was found in 41.7% of post-surgical cases against 7.1% after trauma, and went with immune-related comorbidity and longer admissions.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41ae5b6f8485becb",
+     "n": 288,
+     "p": "Among th"
+    },
+    {
+     "h": "d71ad4ddc4f0d433",
+     "n": 284,
+     "p": "Notably,"
+    },
+    {
+     "h": "e90083ffffa67004",
+     "n": 134,
+     "p": "the cult"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "***P. aeruginosa* was the commonest isolate (49.2%), and in piercing-related cases it was the organism every time (100%).** Other series report from 20.4% (Denmark) to 60.6% (India).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cdd2b8d59cc12d8e",
+     "n": 245,
+     "p": "Pseudomo"
+    },
+    {
+     "h": "a14aff828e3cb4f9",
+     "n": 98,
+     "p": "In cases"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gram-negative isolates were almost all susceptible to amikacin (100%), cefepime (93.9%), meropenem (97.1%) and ceftazidime (90.9%),** but only 67.4% to levofloxacin and 65.2% to ciprofloxacin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2866ac740fb70b0c",
+     "n": 347,
+     "p": "Gram-neg"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gram-positive isolates were all susceptible to vancomycin (100%),** but few to penicillin G (30.8%), ceftriaxone (20.0%), levofloxacin (41.7%), ciprofloxacin (30.8%) or erythromycin (15.4%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22b37db342b80b01",
+     "n": 285,
+     "p": "In gener"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Be cautious with a fluoroquinolone as the first empirical choice.** Pseudomonas susceptibility to fluoroquinolones fell over the decade, and multidrug-resistant Pseudomonas appeared (22.2% of Pseudomonas cases in 2018–2022, none in 2013–2017), all resistant to gentamicin, ciprofloxacin and levofloxacin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd206b7e6c214425",
+     "n": 475,
+     "p": "MDR Pseu"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gram-positive organisms fell from 34.6% to 11.4% of isolates between 2013–2017 and 2018–2022,** while gram-negative and fungal isolates rose; the authors link this to wide outpatient use of amoxicillin-clavulanate and first- and second-generation cephalosporins.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d271544917b4d66a",
+     "n": 351,
+     "p": "when com"
+    },
+    {
+     "h": "831af6a9d17b2dfa",
+     "n": 251,
+     "p": "We belie"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Usual empirical treatment is ciprofloxacin, with incision and drainage of any abscess under the perichondrium;** necrotic cartilage often has to be debrided carefully as well.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -222,6 +375,24 @@
    "locator": "Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409), 'Auricular Perichondritis in the Cartilage Piercing Era', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12706554/, retrieved 2026-09-23"
   },
   {
+   "claim": "**In hospital, start empirical cover against *Pseudomonas*.** In S2, 78.7% got an anti-pseudomonal first regimen, most often ceftazidime alone (47.2%); the best option for people allergic to cephalosporins is still unknown.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7cf4ab4f4547a89c",
+     "n": 553,
+     "p": "Therefor"
+    },
+    {
+     "h": "f63a36bf5a37004d",
+     "n": 103,
+     "p": "Ceftazid"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Expect a real chance of treatment failure:** 18.3% needed at least one change of regimen for poor response and 29.5% needed further drainage in hospital. Mean hospital stay was 5.3 days and mean total treatment 11.1 days.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -251,6 +422,19 @@
     }
    ],
    "locator": "Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409), 'Auricular Perichondritis in the Cartilage Piercing Era', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12706554/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refractory disease responds slowly:** in S2 only 62.2% had fully settled by discharge, and six of the 71 followed up had a recurrence within 30 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b97ba7dda100572",
+     "n": 206,
+     "p": "A total "
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
   }
  ]
 }

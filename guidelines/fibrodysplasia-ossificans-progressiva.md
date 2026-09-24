@@ -1,13 +1,15 @@
 # Fibrodysplasia ossificans progressiva (FOP)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, injury and flare-up prevention, corticosteroid flare-up treatment, immunisation, anaesthesia and procedures, emergencies, and monitoring for fibrodysplasia ossificans progressiva (FOP) in children and adults. Palovarotene (the PBS drug) is only named as approved; its use and dosing are in stripped tables. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 claims paraphrased from **International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150 — *Medical guidelines for fibrodysplasia ossificans progressiva*** (published November 2025 (online 19 September 2025); origin: international). **36 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **53 fragments or anchors re-checkable by machine; 6 doses.** **S1** International Clinical Council on FOP (Kaplan FS (published November 2025 (online 19 September 2025); international): 21 claims, paraphrased, hash-anchored · **S2** Seefried L (published online 21 August 2023; international): 12 claims, quoted
 
 > ⚠️ International guideline (International Clinical Council on FOP, 2025). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Expert opinion for an ultra-rare disease.** Evidence is moderate to low; the council states it is a guide, not a fixed approach. It was developed without industry funding. **Palovarotene detail (dose, age limits, growth-plate monitoring) is only in the stripped drug tables** — follow TGA product information.
+
+> ⚠️ **S2 is a German national expert recommendation (Seefried et al., Die Orthopädie 2023)**, written in German and built on the ICC guideline. It adds care organisation, first-visit assessment, follow-up, imaging restraint and a high-dose IV steroid option. It predates palovarotene's approvals outside Canada and says nothing on its use.
 
 ---
 
@@ -17,6 +19,18 @@
 - **Flare-ups, painful inflammatory soft-tissue swellings, usually start in the first decade and mostly turn into bone;** they can be mistaken for tumours. Most patients use a wheelchair by their third decade, and median life expectancy is 56 years, often ending in thoracic insufficiency. [S1]
 - **Diagnose clinically (malformed great toes plus progressive HO) and confirm with a pathogenic ACVR1 variant;** about 97% carry ACVR1 R206H. [S1]
 - ⚠️ **If FOP is suspected, defer every elective procedure — surgery, biopsy and IM vaccines — until the diagnosis is confirmed.** [S1]
+- **Early diagnosis matters most for the course of the disease.** The curved or shortened great toes are visible at birth, so routine infant checks can raise the suspicion. [S2]
+- **About 50% of patients are first given another diagnosis.** Common first suspicions are a cancer, juvenile fibromatosis, non-hereditary myositis ossificans, Klippel-Feil syndrome and hallux valgus. [S2]
+
+## Organise care and follow up
+
+- **Care needs a multidisciplinary team experienced in FOP:** paediatrics, internal medicine, cardiology, neurology, surgery, dentistry, anaesthesia, ENT, physiotherapy, gynaecology, dermatology and psychology. Patients can have important cardiopulmonary and neurological problems, including thoracic insufficiency syndrome, pulmonary hypertension and neuropathic pain. [S2]
+- **First visit:** record the history, earlier medical and surgical care, the course so far and flare-ups; examine, and consider vital signs and lung function testing (from age 6). Note the aids and adaptations in use. [S2]
+- **Track function over time** with the FOP Physical Function Questionnaire (FOP-PFQ, 36 items, a patient-reported measure) and regular joint status, for example with the FOP-specific CAJIS scale. [S2]
+- ⚠️ **Limit imaging because of radiation:** outside studies, image only for acute symptoms with a clinical indication, localised where possible. Avoid whole-body imaging in routine care. [S2]
+- **Review yearly;** closer checks at an experienced FOP centre may be needed when the disease is very active. [S2]
+- **Local doctors can give glucocorticoids in an acute flare-up,** with telehealth consultation to link them with FOP specialists at the centres. [S2]
+- **Starting a disease-modifying drug: monitor closely at a centre, especially at first,** at a frequency set by the disease course, the drug and its side effects. Once stable, repeat prescriptions can come from the centre or from local doctors on the centre's advice. [S2]
 
 ## Prevent injury and flare-ups
 
@@ -34,6 +48,9 @@
 - **After severe soft-tissue injury, prednisone 1-2 mg/kg daily (maximum 100 mg) for 3-4 days may prevent a flare-up;** not for minor bumps. Also give it around dental or surgical procedures. [S1]
 - **Palovarotene (an RAR-gamma agonist) is approved in Australia, the US, Canada, UAE and Russia, but not in Europe;** it is the only regulator-approved medicine, for chronic and episodic use. [S1]
 - **No proven benefit on flare-ups from chronic NSAIDs/COX-2 inhibitors, bisphosphonates or off-label drugs (imatinib, tofacitinib, anakinra and others);** chemotherapy and radiotherapy are contraindicated. [S1]
+- **S2 (German experts, following the ICC):** trunk and back flare-ups get an NSAID, and a topical NSAID can be added; neck, jaw and large-joint (e.g. hip) flare-ups get prednisone 2 mg/kg/day orally, up to 100 mg, for 4 days, started as early as possible, with a 4-day supply kept at home. [S2]
+- **S2 also allows an IV glucocorticoid pulse (for example prednisolone 20–30 mg/kg/day) for 3 days, as an inpatient,** and advises against long-term glucocorticoids. [S2]
+- **Physiotherapy need not always stop during a flare-up;** gentle anti-inflammatory measures such as cold therapy are possible. [S2]
 
 ## Emergencies
 
@@ -67,11 +84,15 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **The full ICC topic guidelines** (dental, anaesthesia, immunisation, medications) are on www.iccfop.org and were not read. | `input_unavailable` |
 | 3 | **No Australian FOP guideline was found** (research, 2026-09-23). The source notes palovarotene is approved in Australia but not in Europe. | `observation` |
 | 4 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **Lung function start age differs:** S1 (ICC 2025) sets baseline lung function tests after age 4; S2 (German experts 2023) suggests lung function testing from age 6. Both are shown. | `observation` |
+| 6 | **IV steroid doses differ:** S1 gives IV methylprednisolone 80 mg or dexamethasone 15 mg at once for a submandibular emergency; S2 allows a 3-day inpatient pulse of prednisolone 20–30 mg/kg/day for flare-ups generally. S2's is a weight-based pulse and much higher; both are shown. | `observation` |
+| 7 | **S2 (2023) predates the wider palovarotene approvals** and says only that no disease-modifying drug was approved in Europe and that Canada approved the first in 2022. S2's own do's-and-don'ts table (Table 1) was stripped. S2 is CC BY 4.0 and quoted in German with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150. *Medical guidelines for fibrodysplasia ossificans progressiva*. published November 2025 (online 19 September 2025). https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/ — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y). *Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)*. published online 21 August 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/ — retrieved 2026-09-24. | CC BY 4.0 (© The Author(s) 2023) | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

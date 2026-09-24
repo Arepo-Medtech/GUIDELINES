@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/juvenile-idiopathic-arthritis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://livingguidelines.org/jia/"
+  "https://livingguidelines.org/jia/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, with the Australian Rheumatology Association and Australian Paediatric Rheumatology Group 'An Australian Living Guideline for the Management of Juvenile Idiopathic Arthritis (version 3.1)' (version 3.1 published 22 October 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © ANZMUSC; reproduction only unaltered, for personal or internal non-commercial use (PDF copyright notice) (read at copyright notice in https://s3.amazonaws.com/files.magicapp.org/guideline/7d97bcf1-d544-4b82-b4e3-8a97cd7bc715/published_guideline_10522-3_1.pdf). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, with the Australian Rheumatology Association and Australian Paediatric Rheumatology Group 'An Australian Living Guideline for the Management of Juvenile Idiopathic Arthritis (version 3.1)' (version 3.1 published 22 October 2025), 19 claims; LICENCE: © ANZMUSC; reproduction only unaltered, for personal or internal non-commercial use (PDF copyright notice) (read at copyright notice in https://s3.amazonaws.com/files.magicapp.org/guideline/7d97bcf1-d544-4b82-b4e3-8a97cd7bc715/published_guideline_10522-3_1.pdf). S2: PARAPHRASED AND HASH-ANCHORED from EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851) 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease' (published 24 September 2024), 12 claims; LICENCE: CC BY-NC-ND 4.0 (© EULAR 2024, published by BMJ: 'Re-use permitted under CC BY-NC-ND. No commercial re-use. No derivatives.') (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC11672000). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR/PReS 2024 Still's disease recommendations (CC BY-NC-ND, paraphrased and hash-anchored), for the diagnosis and first-line treatment of systemic JIA and for macrophage activation syndrome and lung disease, which S1 does not cover. Some S2 claims are anchored to the treatment-algorithm figure footnotes, which are in the article text. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 19,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -321,6 +322,260 @@
     }
    ],
    "locator": "Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, with the Australian Rheumatology Association and Australian Paediatric Rheumatology Group, 'An Australian Living Guideline for the Management of Juvenile Idiopathic Arthritis (version 3.1)', version 3.1 published 22 October 2025, https://livingguidelines.org/jia/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Systemic JIA and adult-onset Still's disease are one disease, now called Still's disease.** Clues: spiking fever of 39°C or more lasting at least a week; a fleeting salmon-pink rash, mostly on the trunk, that comes with the fever; joint or muscle pain; and high neutrophils, ESR, CRP and ferritin. **Arthritis is not needed for the diagnosis** and may come later.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7de6bfb33680d86",
+     "n": 135,
+     "p": "OP A:sJI"
+    },
+    {
+     "h": "44d37b0c94793192",
+     "n": 560,
+     "p": "Fever is"
+    },
+    {
+     "h": "78ab6c69c4aadf53",
+     "n": 125,
+     "p": "For this"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A marked rise in serum IL-18 and/or S100 proteins (such as calprotectin) strongly supports the diagnosis;** test if available. Carefully exclude cancer, infection, other immune-mediated disease and monogenic autoinflammatory disorders.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6088b3e94d8e3b5d",
+     "n": 154,
+     "p": "RS2:mark"
+    },
+    {
+     "h": "47eec7691b2edfd1",
+     "n": 185,
+     "p": "RS3:alte"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Start an IL-1 or IL-6 inhibitor as soon as the diagnosis is made** (observational data favour within 3 months of onset), whatever the severity; the aim is drug-free remission. If bacterial infection is still possible, prefer an IL-1 blocker; anakinra is often first because of its short half-life and safety.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "153637aa5f65fd54",
+     "n": 108,
+     "p": "RS7:an I"
+    },
+    {
+     "h": "c3649c05c2d97b7b",
+     "n": 127,
+     "p": "Low-leve"
+    },
+    {
+     "h": "d501b341de3d066b",
+     "n": 289,
+     "p": "the TF r"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Steroids: high dose (2 mg/kg/day prednisone equivalent or more in children, 1 mg/kg/day in adults) for severe disease** — high spiking fever, widespread polyarthritis, pain above 6–7/10, pericarditis or impending MAS. Milder disease may need low or intermediate doses or none. Start tapering once fever has gone and active joints have halved, and never use steroids to hold the target: if steroid-dependent, add other treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6cbbd1b1efed5308",
+     "n": 320,
+     "p": "High-dos"
+    },
+    {
+     "h": "3b4695610bcab1d3",
+     "n": 235,
+     "p": "2High-do"
+    },
+    {
+     "h": "ef3e1899c03f57aa",
+     "n": 141,
+     "p": "4GC tape"
+    },
+    {
+     "h": "a58e12c726042af5",
+     "n": 243,
+     "p": "the TF e"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Targets on the way to drug-free remission:** day 7, no fever and CRP down by more than 50%; week 4, no fever, active joints down by more than 50%, normal CRP and global assessments under 20 out of 100; month 3, inactive disease on under 0.2 mg/kg/day steroid in children (0.1 in adults); month 6, inactive disease off steroids. Remission means at least 6 months of inactive disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3c8ca28fd8ed0cb",
+     "n": 178,
+     "p": "RS4:clin"
+    },
+    {
+     "h": "4b367418d9ff67e2",
+     "n": 324,
+     "p": "At day 7"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Missing the 3-month or 6-month target: rotate to the other IL-1 or IL-6 inhibitor,** continuing a slow steroid taper. Still not off steroids after rotation means difficult-to-treat disease: discuss with an expert centre (options include JAK inhibitors, stem cell transplant and immunosuppressants).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0acd3108a683c422",
+     "n": 810,
+     "p": "When the"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Serious adverse events and infections are more frequent with IL-6 than IL-1 inhibition; anakinra looks safest.** Methotrexate was no better than placebo in the one sJIA trial, so conventional DMARDs are for places without IL-1/IL-6 inhibitors, and NSAIDs only for fever and joint pain during the work-up.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d609f328f1db0281",
+     "n": 339,
+     "p": "Serious "
+    },
+    {
+     "h": "65e61a9a8cd287d1",
+     "n": 554,
+     "p": "In the o"
+    },
+    {
+     "h": "4195c16f8dcef33d",
+     "n": 134,
+     "p": "However,"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tapering the biologic:** only after steroids are off and inactive disease has held at least 3 months (6 for severe or difficult disease; the algorithm says at least 6), in steps every 3–6 months, preferably by spacing injections rather than stopping abruptly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "00acc34580bcc83d",
+     "n": 356,
+     "p": "The TF r"
+    },
+    {
+     "h": "6a7141942cadbbb3",
+     "n": 122,
+     "p": "At least"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Suspect macrophage activation syndrome (MAS)** with persistent fever, splenomegaly, high or rising ferritin, inappropriately low blood counts, abnormal liver tests, activated coagulation or high or rising triglycerides; watch the trend, not single values. It can occur at onset, in remission, and on IL-1 or IL-6 inhibitors, where canakinumab or tocilizumab can blunt or delay the fever and ferritin rise.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6b4250ac075f34d4",
+     "n": 240,
+     "p": "RS10:MAS"
+    },
+    {
+     "h": "6483417f6749514e",
+     "n": 412,
+     "p": "The TF u"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check ferritin routinely in everyone with Still's disease,** and daily or even twice daily when MAS is suspected or the child is at risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f5fabd07cec856e3",
+     "n": 231,
+     "p": "In all p"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treat MAS with high-dose steroids: IV methylprednisolone 15–30 mg/kg/day (maximum 1 g per infusion),** or dexamethasone if the brain is involved. Add anakinra (above the standard 1–2 mg/kg/day; over 4 mg/kg/day in children), ciclosporin and/or an IFN-γ inhibitor (emapalumab) early if the response is poor or MAS is severe. Look for and treat an infective trigger, without delaying MAS treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b4a3ad74e492ab83",
+     "n": 264,
+     "p": "In MAS, "
+    },
+    {
+     "h": "02f9359ee9663eec",
+     "n": 132,
+     "p": "In these"
+    },
+    {
+     "h": "6d08e5ee9018551d",
+     "n": 117,
+     "p": "High-dos"
+    },
+    {
+     "h": "e3d6c1e6706c16a0",
+     "n": 371,
+     "p": "The TF r"
+    },
+    {
+     "h": "1ccc7452c133a577",
+     "n": 85,
+     "p": "The pres"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Screen for Still's lung disease:** ask about clubbing, persistent cough and breathlessness, check pulse oximetry and DLCO, and do a high-resolution CT if symptomatic. Lung disease or its risk factors do not rule out IL-1 or IL-6 inhibitors; manage it, severe MAS and difficult-to-treat disease with an expert centre.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c63d502449dac839",
+     "n": 309,
+     "p": "RS12:LDs"
+    },
+    {
+     "h": "8b1a1e0ff3417553",
+     "n": 181,
+     "p": "RS13:bas"
+    },
+    {
+     "h": "c4d3650ecee2d571",
+     "n": 154,
+     "p": "RS14:dif"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
   }
  ]
 }
