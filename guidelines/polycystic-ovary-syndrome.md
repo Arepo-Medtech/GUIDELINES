@@ -1,13 +1,15 @@
 # Polycystic ovary syndrome
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adolescents and women with PCOS: diagnosis, long-term risk assessment, psychological health, lifestyle, and drug treatment of irregular cycles and hyperandrogenism (hirsutism, androgenisation). Ovulation induction and assisted reproduction are summarised only; see `infertility` for those drugs. Acne with androgen excess is also in `acne`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 17 claims paraphrased from **Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447 — *Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome*** (published 15 August 2023; origin: AU). **17 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0 (the article also states the guideline recommendations are protected under copyright)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **36 fragments or anchors re-checkable by machine; 1 doses.** **S1** Teede HJ et al. for the International PCOS Network (Monash University-led (published 15 August 2023; AU): 17 claims, paraphrased, hash-anchored · **S2** Teede HJ (7 October 2024; AU): 12 claims, quoted
 
 > ⚠️ **This is the summary article, and its recommendation table (Table 4) was stripped.** What follows is drawn from the prose overview of the key recommendations only: no doses, grades or practice points are stated.
 
 > ⚠️ **Australian-led international guideline (Monash University, NHMRC, with ASRM, Endocrine Society, ESE and ESHRE, 2023).** Australian practice follows the PBS listings below, which include cyproterone for androgenisation, a drug class the guideline gives only a limited role.
+
+> 🇦🇺 **S2 is the guideline authors' Australian summary (MJA 2024), quoted under CC BY.** It adds evidence grades (EBR evidence-based, CR consensus, PP practice point), the COCP dose ceiling, when to add an anti-androgen, and Australian access (Medicare, PBS, off-label use). Doses of individual drugs are still not given.
 
 ---
 
@@ -42,6 +44,21 @@
 ## Infertility (summary)
 
 - **Letrozole is the preferred first-line drug for anovulatory infertility,** alongside clomiphene combined with metformin. Gonadotrophins or ovarian surgery are mainly second line; IVF, possibly with in vitro maturation, is third line once ovulation induction has failed. Prefer single embryo transfer. [S1]
+- **Ovulation induction drugs are used off-label in Australia, which is allowed;** discuss the evidence, concerns and side effects with the woman (PP). [S2]
+
+## Australian detail (MJA 2024 summary)
+
+- **Diagnosis in adults with only one of irregular cycles or hyperandrogenism:** use either pelvic ultrasound or AMH, not both (PP). Test androgens biochemically only when there is no clinical hyperandrogenism (PP). [S2]
+- **Adolescents with only one criterion are 'at risk of PCOS' and need follow-up and reassessment (PP).** For adolescents at risk or diagnosed, the COCP alone or metformin alone is recommended (EBR). [S2]
+- ⚠️ **Pregnancy risks are higher regardless of age and BMI:** early miscarriage, excess gestational weight gain, gestational diabetes, hypertension, pre-eclampsia, small-for-gestational-age babies, preterm birth and caesarean section. Identify PCOS before conception or early in antenatal care, and screen and monitor (EBR). [S2]
+- **Cardiometabolic and other risks:** recognise raised cardiovascular risk factors and disease (EBR); high risk of early impaired fasting glucose, impaired glucose tolerance and type 2 diabetes (EBR); obstructive sleep apnoea; and endometrial hyperplasia and cancer. First-degree relatives may also carry more cardiometabolic risk. [S2]
+- **Mental health in Australia:** screen routinely for depression and anxiety (EBR), for example with the DASS or K10; the Better Access Initiative gives up to ten individual and ten group Medicare-rebated sessions. Consider eating disorders whatever the weight; severe eating disorders may qualify for up to 40 psychological and 20 dietetic sessions a year. Psychological therapy should be considered first line (CR). [S2]
+- ⚠️ **COCP for irregular cycles or hirsutism (EBR), at low dose (30 μg or less of oestrogen) for hirsutism in adults. Cyproterone acetate-containing pills add little and are second line because of side effects (EBR).** [S2]
+- ⚠️ **Add an anti-androgen for hirsutism only with effective contraception and only after at least six months of COCP and/or cosmetic treatment has not worked well enough (EBR).** Laser and light therapies should be considered for hirsutism (EBR). [S2]
+- **Metformin:** consider it in adults with a BMI of 25 kg/m2 or more for weight and metabolic outcomes (EBR), and for irregular cycles when the COCP is contraindicated (PP) or in adolescents (EBR). Prefer it to inositol for hirsutism and central adiposity, accepting more side effects (EBR). [S2]
+- **Anti-obesity medicines** can be used with lifestyle change as in general-population guidelines (CR), with effective contraception because pregnancy safety data are limited (PP). In Australia, PBS subsidy of the newer agents covers diabetes only, so access can be hard. [S2]
+- **Most PCOS medicines are used off-label** despite evidence that they work, usually because no company has applied for the indication. [S2]
+- **Few dedicated PCOS services exist in Australia;** the Victorian PCOS service is the exception and is expanding, while most other states and territories are underserved. [S2]
 
 ---
 
@@ -61,14 +78,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **The 77 evidence-based and 54 consensus recommendations and 123 practice points** are in the article's Table 4, which was stripped; the diagnostic thresholds (cycle length, hirsutism scoring, androgen assays, follicle count, AMH cut-offs) and any drug doses are therefore not stated here. | `input_unavailable` |
 | 2 | **The diagnostic and infertility algorithms** (Figures 1 and 2) are © Monash University and excluded from the article's Creative Commons licence; they were not used. | `input_unavailable` |
-| 3 | **The full guideline** (monash.edu/medicine/mchri/pcos) is behind a bot challenge, and the MJA 2024 Australian summary (doi 10.5694/mja2.52432, CC BY) returned 403 at Wiley; neither was read. | `observation` |
-| 4 | **Cyproterone (the PBS drug for androgenisation)** is not named in the prose; the guideline's anti-androgen statement is general. | `observation` |
-| 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 3 | **The full guideline** (monash.edu/medicine/mchri/pcos) is still behind a bot challenge and was not read. The MJA 2024 Australian summary (doi 10.5694/mja2.52432, CC BY), blocked at Wiley in edition 1.0, was read from its open figshare copy and is now S2. | `observation` |
+| 4 | **Cyproterone (the PBS drug for androgenisation)** is not named in S1's prose. S2 names cyproterone acetate-containing COCPs as second line because of side effects, and allows anti-androgens after six months of COCP and/or cosmetic therapy; no source gives a cyproterone dose. | `observation` |
+| 5 | **S2's COCP dose wording:** it reads '≤ 30 μg of oestradiol'; this almost certainly means the ethinyl oestradiol content of the pill, which S1 describes as lower-dose ethinyl estradiol. | `observation` |
+| 6 | **Licence:** S1 CC BY-NC 4.0, paraphrased and hash-anchored; S2 CC BY 4.0, quoted with attribution and re-checkable. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447. *Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome*. published 15 August 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/ — retrieved 2026-09-23. | CC BY-NC 4.0 (the article also states the guideline recommendations are protected under copyright) | **paraphrased, hash-anchored** |
+| **S2** | Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432. *Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective*. 7 October 2024. https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074 — retrieved 2026-09-24. | CC BY 4.0 (figshare record licence; the article's own footer reads '© 2024 The Author(s). Medical Journal of Australia published by John Wiley & Sons Australia') | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

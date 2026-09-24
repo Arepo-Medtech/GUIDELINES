@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/gastroparesis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://europepmc.org/article/PMC/PMC13326989"
+  "https://europepmc.org/article/PMC/PMC13326989",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis' (published 3 June 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13326989 (Europe PMC returned 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis' (published 3 June 2026), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13326989 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis' (published April 2021), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8259275). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the UEG/ESNM 2021 Delphi consensus (40 experts, 19 countries; a statement was endorsed at 80% or more agreement), which covers all causes of gastroparesis, including diabetic and postsurgical, and grades each statement. S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored.",
  "summary": {
-  "total": 22,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -52,6 +53,57 @@
     }
    ],
    "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Diabetes, especially type 1, is a risk factor** (100% agreement): over 10 years, 5.2% of people with type 1 and 1.0% with type 2 diabetes developed gastroparesis, against 0.2% of controls. Other endorsed risk factors are partial gastrectomy or vagotomy, bariatric and antireflux surgery, some neurological disorders (Parkinson's disease, multiple sclerosis, amyloid neuropathy), some connective tissue diseases, and drugs such as opioids.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cf0ff8d09535c8d",
+     "n": 102,
+     "p": "Diabetes"
+    },
+    {
+     "h": "7df986c303c65811",
+     "n": 199,
+     "p": "In a pop"
+    },
+    {
+     "h": "787a2190fb563040",
+     "n": 123,
+     "p": "Partial "
+    },
+    {
+     "h": "b9dd7c4a8cfeb9b1",
+     "n": 149,
+     "p": "Some neu"
+    },
+    {
+     "h": "4b2f686f2eb98df9",
+     "n": 85,
+     "p": "Some con"
+    },
+    {
+     "h": "733a68c6980e818f",
+     "n": 80,
+     "p": "Some dru"
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If there is weight loss, rule out an eating disorder** (98% agreement).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b4852be34e84576",
+     "n": 101,
+     "p": "In case "
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
   },
   {
    "claim": "**Take a full medical, surgical, nutritional and psychosocial history, and review every medicine:** opioids, anticholinergics, antipsychotics, centrally acting and weight-loss drugs, cannabinoids and illicit substances can change emptying or symptoms. If they cannot be stopped, explain how that limits motility testing.",
@@ -178,6 +230,49 @@
     }
    ],
    "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Both an upper endoscopy and an abnormal gastric emptying test are required for the diagnosis.** Scintigraphy and breath testing were endorsed as valid; the wireless motility capsule and gastric ultrasound were not, and food found in the stomach at a fasting endoscopy was not accepted as diagnostic.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "badabe54ad01180f",
+     "n": 111,
+     "p": "Upper ga"
+    },
+    {
+     "h": "b6b217c17772f4b2",
+     "n": 98,
+     "p": "An abnor"
+    },
+    {
+     "h": "636828304330645a",
+     "n": 92,
+     "p": "Scintigr"
+    },
+    {
+     "h": "6730c4c2a9ad564d",
+     "n": 87,
+     "p": "Breath t"
+    },
+    {
+     "h": "dfdb4b72b4af9352",
+     "n": 105,
+     "p": "Wireless"
+    },
+    {
+     "h": "0810b30dbd21d0ac",
+     "n": 98,
+     "p": "Gastric "
+    },
+    {
+     "h": "a1c3a00bd1f6b8c8",
+     "n": 110,
+     "p": "The pres"
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
   },
   {
    "claim": "**Every patient needs a full assessment by a gut-focused dietitian when diagnosed, and again whenever clinically needed.** Micronutrient deficiencies are common, for example potassium (86%), vitamin E (80%) and magnesium (72%).",
@@ -369,6 +464,159 @@
     }
    ],
    "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Only two drug classes were endorsed as effective: dopamine-2 antagonists and 5-HT4 agonists.** The panel did not back prokinetics as a single group, did not accept a PPI as first-line treatment, and did not endorse tricyclics or mirtazapine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a5c1f97f893e7cd8",
+     "n": 74,
+     "p": "Dopamine"
+    },
+    {
+     "h": "85a4a23244ee146c",
+     "n": 66,
+     "p": "5‐HT4 ag"
+    },
+    {
+     "h": "1ae7dce59dd0bf4d",
+     "n": 237,
+     "p": "Based on"
+    },
+    {
+     "h": "ea8f011088c8162e",
+     "n": 120,
+     "p": "Proton p"
+    },
+    {
+     "h": "654b905316fda004",
+     "n": 81,
+     "p": "Tricycli"
+    },
+    {
+     "h": "177430d7155d47ff",
+     "n": 66,
+     "p": "Mirtazap"
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Metoclopramide carries a US boxed warning:** it is often poorly tolerated, and taking it for more than 12 weeks risks extrapyramidal effects and tardive dyskinesia that may not reverse. Domperidone rarely reaches the brain but lengthens the QTc interval, which has limited its use.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f2255975a23a006",
+     "n": 369,
+     "p": "In the U"
+    },
+    {
+     "h": "f6aa5b32c5fc4038",
+     "n": 331,
+     "p": "Domperid"
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prucalopride's evidence is split by cause:** it improved emptying and symptoms in a mainly idiopathic group but not in a mainly diabetic one. Erythromycin and other motilin-acting antibiotics bring resistance and tachyphylaxis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6267fe3e13996a57",
+     "n": 353,
+     "p": "Prucalop"
+    },
+    {
+     "h": "2bd8606c7c582869",
+     "n": 121,
+     "p": "The use "
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gastric electrical stimulation, pyloric botulinum toxin and pyloric myotomy were not endorsed;** open-label botulinum results were not borne out by two controlled trials, and myotomy data are uncontrolled.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "462fa43fe6b4c8f2",
+     "n": 91,
+     "p": "Gastric "
+    },
+    {
+     "h": "8895b49e39a74471",
+     "n": 88,
+     "p": "Pyloric "
+    },
+    {
+     "h": "0e04c52f78b2c137",
+     "n": 70,
+     "p": "Pyloric "
+    },
+    {
+     "h": "e10a1c44168184b3",
+     "n": 98,
+     "p": "However,"
+    },
+    {
+     "h": "bbf7bb65ddc5a750",
+     "n": 111,
+     "p": "However,"
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diet changes are useful** (85% agreement), and **with severe weight loss or intractable vomiting, enteral or parenteral nutrition may be needed** (98% agreement).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e90a38e32f1a07cb",
+     "n": 109,
+     "p": "Dietary "
+    },
+    {
+     "h": "abc802b99c370fda",
+     "n": 178,
+     "p": "In case "
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Psychological and complementary therapies were not endorsed as effective:** hypnotherapy, cognitive behavioural therapy, mindfulness and acupuncture all fell short of consensus.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf24e299b466c9b0",
+     "n": 67,
+     "p": "Hypnothe"
+    },
+    {
+     "h": "f9959b9cfdc48401",
+     "n": 83,
+     "p": "Cognitiv"
+    },
+    {
+     "h": "ff01d09953f4c769",
+     "n": 66,
+     "p": "Acupunct"
+    },
+    {
+     "h": "8d7e235420473018",
+     "n": 66,
+     "p": "Mindfuln"
+    }
+   ],
+   "locator": "UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060, 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis', published April 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8259275/, retrieved 2026-09-24"
   },
   {
    "claim": "**Offer evidence-based brain-gut psychological therapies early,** and include mental health clinicians in the team when there is significant psychosocial or psychiatric comorbidity. Anxiety (49%) and depression (39%) are common.",

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/short-bowel-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_chronic_intestinal_failure_in_adults.pdf"
+  "https://www.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_chronic_intestinal_failure_in_adults.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Society for Clinical Nutrition and Metabolism (ESPEN), Clinical Nutrition 42 (2023) 1940–2021 'ESPEN guideline on chronic intestinal failure in adults – Update 2023' (2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2023 European Society for Clinical Nutrition and Metabolism. Published by Elsevier Ltd. All rights reserved. (read at copyright line of the ESPEN-hosted PDF (free to read at espen.org; DOI 10.1016/j.clnu.2023.07.019, Crossref licence: Elsevier user licence)). The source's words are NOT reproduced here. The PDF is two-column, so it was converted with plain `pdftotext` (no `-layout`): `-layout` interleaves the two columns on each line and no sentence could be anchored. Recommendations were taken from the body text, not from the summary table.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Society for Clinical Nutrition and Metabolism (ESPEN), Clinical Nutrition 42 (2023) 1940–2021 'ESPEN guideline on chronic intestinal failure in adults – Update 2023' (2023), 25 claims; LICENCE: © 2023 European Society for Clinical Nutrition and Metabolism. Published by Elsevier Ltd. All rights reserved. (read at copyright line of the ESPEN-hosted PDF (free to read at espen.org; DOI 10.1016/j.clnu.2023.07.019, Crossref licence: Elsevier user licence)). S2: PARAPHRASED AND HASH-ANCHORED from Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466 'Intestinal transplantation in Australia: progress, challenges and future directions' (published 7 May 2026), 8 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409190). Verify each source separately: verify.py --source <file> --only-source S<n>. The PDF is two-column, so it was converted with plain `pdftotext` (no `-layout`): `-layout` interleaves the two columns on each line and no sentence could be anchored. Recommendations were taken from the body text, not from the summary table. Edition 2.0 adds S2, an Australian single-program report (retrospective series of all intestinal transplants in Australia, 2010-2026, with a discussion of referral). It is not a guideline: it is used only for Australian referral and transplant context, which ESPEN lacks. No Australian or NZ SBS guideline or position statement was found (Europe PMC: short bowel/intestinal failure with Australia/AuSPEN/Australasian and guideline/consensus/position statement; SBS guideline/consensus/practice update 2019-2026); the AGA 2022 practice update is closed access, and the 2025 German practical guideline is in German. S1's claims and anchors are unchanged; S2 is CC BY-NC and is paraphrased and hash-anchored.",
  "summary": {
-  "total": 25,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -99,6 +100,125 @@
     }
    ],
    "locator": "European Society for Clinical Nutrition and Metabolism (ESPEN), Clinical Nutrition 42 (2023) 1940–2021, 'ESPEN guideline on chronic intestinal failure in adults – Update 2023', 2023, https://www.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_chronic_intestinal_failure_in_adults.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Australian authors' recommendation:** refer every patient with intestinal failure to an expert tertiary centre for multidisciplinary rehabilitation aimed at getting off parenteral nutrition, and on to the Australian Intestinal Transplant Service if life-threatening complications develop.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "25136333d82fcc13",
+     "n": 329,
+     "p": "We stron"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Australia has a single intestinal transplant service** for adults and children: a joint Royal Children's Hospital and Austin Health program in Melbourne, running since 2010 and now also accepting New Zealand patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7317dde5dff21809",
+     "n": 283,
+     "p": "In Austr"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Refer early for transplant assessment when the risk of complications is highest:** radiation enteritis, microvillous inclusion disease, several enterocutaneous fistulae, an ultrashort bowel such as an end duodenostomy, intestinal failure following bariatric surgery, and loss of two of the four central veins above the diaphragm. Late referral, with long waits, harms outcomes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3dde5231de1198c2",
+     "n": 440,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Waiting-list deaths are high:** about 30% for people awaiting a combined liver-intestine graft and about 10% for an isolated intestine. Assessing patients before liver failure sets in makes an isolated intestinal graft, with a shorter wait, more likely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5facb63429c3decb",
+     "n": 504,
+     "p": "Early as"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Candidates needing a liver-containing graft because of IF-associated liver disease** go on the national liver transplant list in category 2C.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3b62b8e8229346a2",
+     "n": 256,
+     "p": "In recog"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most people on home parenteral nutrition are not transplant candidates:** long-term PN rarely leads to life-threatening complications, and a large European study found suitable candidates among just 16% of adults (35% in children) on HPN.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9f41657f999a6ca",
+     "n": 316,
+     "p": "Most pat"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Likely under-referral:** the new national HPN registry counted 328 people on HPN in 2024 (244 adults, 84 children); by European rates about 39 adults and 29 children could have an indication, more than are currently referred.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6a3ed360640888d5",
+     "n": 620,
+     "p": "Within A"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Australian results:** nineteen patients had 20 transplants between July 2010 and April 2026, half of them for short bowel syndrome. Graft and patient survival were 85% and 89.5% at median follow-up; conditional 5-year figures were 67% and 75%. Every recipient came off parenteral nutrition before discharge, a median of 21 days after transplant.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac8d8bfc9d4a3e21",
+     "n": 77,
+     "p": "Nineteen"
+    },
+    {
+     "h": "fdba50bd4010dfa5",
+     "n": 72,
+     "p": "The indi"
+    },
+    {
+     "h": "b779d17709a2fb38",
+     "n": 450,
+     "p": "overall "
+    },
+    {
+     "h": "e38d00106744cc67",
+     "n": 114,
+     "p": "All pati"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
   },
   {
    "claim": "**Diet should be guided by an expert dietitian**, drawing on the patient's own experience and, ideally, metabolic balance studies, so that the patient can stick to it. (GPP)",

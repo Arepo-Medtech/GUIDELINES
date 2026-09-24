@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/cows-milk-allergy-formulas.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy"
+  "https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA Information for Health Professionals: Milk Substitutes in Cow's Milk Allergy' (content updated June 2026 (supersedes the December 2025 edition)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © ASCIA 2026; no reuse terms stated (read at the page footer ('© ASCIA 2026, Content updated June 2026')). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA Information for Health Professionals: Milk Substitutes in Cow's Milk Allergy' (content updated June 2026 (supersedes the December 2025 edition)), 13 claims; LICENCE: © ASCIA 2026; no reuse terms stated (read at the page footer ('© ASCIA 2026, Content updated June 2026')). S2: PARAPHRASED AND HASH-ANCHORED from World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA' (published April 2024), 7 claims; LICENCE: CC BY-NC-ND 4.0 (© 2024 The Author(s)) (read at Europe PMC fullTextXML <license> element for PMC11068951). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the WAO DRACMA 2024 GRADE recommendations on which formula to use and in what order, because ASCIA's formula-by-type table (S1) could not be machine-read. S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored; its qualifying remarks are kept with each recommendation as WAO asks.",
  "summary": {
-  "total": 13,
+  "total": 20,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 13
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
@@ -104,6 +105,127 @@
     }
    ],
    "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 'ASCIA Information for Health Professionals: Milk Substitutes in Cow's Milk Allergy', content updated June 2026 (supersedes the December 2025 edition), https://www.allergy.org.au/hp/papers/guide-for-milk-substitutes-cows-milk-allergy, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **IgE-mediated CMA, infant not breastfed: first choice is an extensively hydrolysed cow's milk formula (eHF) or a hydrolysed rice formula; second, amino acid formula (AAF); third, soy formula.** Conditional recommendation, very low certainty evidence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d8a32cdee96d88b",
+     "n": 357,
+     "p": "When cho"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🚩 **Never give a formula the child has already reacted to,** and warn that a few children react the first time they take eHF or soy formula (whether this happens with rice formula is unknown).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "934468806c49d6e1",
+     "n": 330,
+     "p": "Children"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Non-IgE-mediated CMA, infant not breastfed: the same order** (eHF or hydrolysed rice formula, then AAF, then soy; conditional, very low certainty). Where soy is an option, think about soy sensitisation in a child who has not settled on eHF, such as one with FPIES or FPIAP.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da311951bf9fffe1",
+     "n": 361,
+     "p": "When cho"
+    },
+    {
+     "h": "60111d784b6a0846",
+     "n": 226,
+     "p": "In count"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Eosinophilic oesophagitis: evidence exists only for AAF,** so the panel advises avoiding eHF, rice and soy formulas for now, with rice formula second if AAF cannot be had. **FPIES to milk or rice, or rice tolerance unknown:** do not use hydrolysed rice formula.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08f2ca65bf02a289",
+     "n": 696,
+     "p": "In infan"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why the order is only a suggestion:** in very low certainty evidence, eHF may favour outgrowing CMA compared with AAF (RR 2.32) but may support weight and length gain less well than AAF. The choice should be made individually with the carer, weighing the child's severity, tolerance and taste of the formula, local availability and what is funded.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b174ade83a72d8d9",
+     "n": 160,
+     "p": "Our revi"
+    },
+    {
+     "h": "aa6755159501e39a",
+     "n": 193,
+     "p": "We also "
+    },
+    {
+     "h": "b4bf5bc3b150be64",
+     "n": 428,
+     "p": "the pane"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cost matters for equity:** AAF is usually the dearest, eHF and rice formula cost less but are still expensive in many places, and soy is usually the cheapest.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb28b0f64c9701ab",
+     "n": 290,
+     "p": "Specific"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Probiotic-containing formula (IgE or non-IgE CMA): either a formula without a probiotic, or a casein-based eHF with *Lacticaseibacillus rhamnosus* GG (LGG),** is suggested (conditional, very low certainty); LGG-casein eHF is the only combination studied. Children with immune deficiency may be at more risk from probiotics, though this has not been studied.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "401177222eb0029e",
+     "n": 292,
+     "p": "When cho"
+    },
+    {
+     "h": "65c2c238e4549a80",
+     "n": 208,
+     "p": "When cho"
+    },
+    {
+     "h": "27ccbea6e5fb2892",
+     "n": 270,
+     "p": "current "
+    },
+    {
+     "h": "36f285d0cccc3d08",
+     "n": 201,
+     "p": "Children"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
   },
   {
    "claim": "**If the usual formula is unavailable, swap within the same group** (one eHF for another eHF), after reviewing why it was first chosen and any change in history.",

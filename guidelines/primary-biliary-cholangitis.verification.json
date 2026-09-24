@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/primary-biliary-cholangitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis' (published 4 February 2022). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8843914). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis' (published 4 February 2022), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8843914). S2: PARAPHRASED AND HASH-ANCHORED from Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective' (published 9 August 2026), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13534266). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian expert-opinion review (2026). Its authors state it is a narrative expert opinion, not a consensus document or systematic review; medical writing was funded by Gilead Sciences, and several authors report industry advisory roles. It is used for the Australian context (TGA and PBS status, elafibranor and seladelpar, current OCA status) that the 2022 APASL guidance predates. No Australian society guideline for PBC was found (Europe PMC searches: PBC with Australia/GESA/New Zealand; PBC guideline/guidance 2024-2026). EASL 2025 and AISF 2026 are not open access. S1's claims are unchanged; S2 is CC BY-NC-ND and is paraphrased and hash-anchored.",
  "summary": {
-  "total": 20,
+  "total": 32,
   "pass": 20,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -43,6 +45,37 @@
    "verdict": "pass",
    "source_text": "23. AMA reactivity alone is not sufficient to diagnose PBC. AMA-positive patients with normal serum liver tests should be followed up with an annual biochemical reassessment for the presence of liver disease. A liver biopsy may be considered in selected patients (eg. patients with elevated IgM, high titer of AMA, or ALP close to ULN) to identify preclinical PBC. (III, 2) … 22. It is recommended that liver biopsy should be performed on patients who present otherwise unexplained cholestatic liver biochemistry and negative for AMA, anti-gp210, or anti-sp100 to confirm the diagnosis of PBC. (III, 2)",
    "locator": "Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6, 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis', published 4 February 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Offer family screening, starting with liver function tests, to female first-degree relatives over 30,** since PBC is more common in first-degree relatives (S2, Australian expert opinion).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f5281b4055542290",
+     "n": 187,
+     "p": "Because "
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Stratify risk at diagnosis:** progression is most likely in men, people aged 45 or under and those with advanced fibrosis; a liver stiffness above 9.6 kPa signals higher risk. Fast-track specialist review for severe itch, a bilirubin above 2 × ULN, or decompensated disease (Child-Pugh class B/C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d84f5e6ede9d638f",
+     "n": 268,
+     "p": "The stro"
+    },
+    {
+     "h": "ba8d1a76822039f8",
+     "n": 137,
+     "p": "The pres"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Oral UDCA 13–15 mg/kg/day is standard therapy for everyone with PBC** (I, 1). Continue long term and check adherence.",
@@ -98,6 +131,134 @@
    "dose": true
   },
   {
+   "claim": "**Response to UDCA (Australian view):** the usual target is ALP below 1.67 × ULN and bilirubin below 2 × ULN after 12 months; about 60% reach it and around 40% are intolerant or do not respond and should be offered second-line therapy. Before calling it non-response, check the dose, adherence, absorption and other causes of a raised ALP such as MASLD.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9acfff0591acf33f",
+     "n": 196,
+     "p": "A bioche"
+    },
+    {
+     "h": "ea6cb703cd5e9784",
+     "n": 226,
+     "p": "Approxim"
+    },
+    {
+     "h": "53ec72c0a830bbc8",
+     "n": 296,
+     "p": "Where pa"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Second-line options in Australia:** fenofibrate (approved here for lipids, not PBC, so off-label), obeticholic acid, and the newer PPAR agonists elafibranor and seladelpar. **Budesonide is not recommended in Australian practice,** because a placebo-controlled trial found no histological benefit.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9861fde6347eb0f",
+     "n": 375,
+     "p": "In Austr"
+    },
+    {
+     "h": "eb992a6d374516e0",
+     "n": 91,
+     "p": "Fenofibr"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PBS-subsidised add-on OCA or elafibranor needs an inadequate response after 52 weeks of UDCA at a therapeutic dose (or documented UDCA intolerance),** judged by ALP of 1.67 × ULN or more or bilirubin of one to two times the ULN. Severe liver disease excludes subsidy, and OCA and a PPAR agonist cannot be PBS-prescribed together. Because of the 12-month requirement, earlier escalation for high-risk patients is not funded.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ce50b66adc8cafb",
+     "n": 718,
+     "p": "To be el"
+    },
+    {
+     "h": "394f47fc263c9dc3",
+     "n": 135,
+     "p": "However,"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Elafibranor 80 mg once daily** (dual PPAR-alpha/delta agonist; ELATIVE trial, 161 patients) lowered ALP from week 4, sustained to week 52, but did not significantly improve the worst-itch score. Abdominal pain, diarrhoea, nausea and vomiting were more common. TGA-approved March 2025 and PBS-listed November 2025, for use with UDCA but not with OCA.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c21ee583a541927",
+     "n": 1189,
+     "p": "The dual"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Seladelpar 10 mg** (selective PPAR-delta agonist; RESPONSE trial): 61.7% reached the composite biochemical response against 20% on placebo, a quarter normalised ALP, and itch scores fell significantly. It is now approved in Australia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "897e024bf04ae3d5",
+     "n": 1263,
+     "p": "The sele"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Obeticholic acid status now:** contraindicated in advanced cirrhosis (past or current decompensation or portal hypertension; boxed warning in the Australian product information). It was withdrawn in the US in November 2025 and deregistered in Europe after COBALT, but remains TGA-registered and PBS-listed. The Australian authors advise continuing it when tolerated with a good response, switching to a PPAR agonist for significant itch, and close monitoring in compensated cirrhosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d85e6ac49e39160",
+     "n": 623,
+     "p": "OCA is c"
+    },
+    {
+     "h": "dad769fd70fa0a49",
+     "n": 422,
+     "p": "It is re"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fibrates in practice:** a low-cost add-on after inadequate UDCA response, usable even for ALP 1–1.67 × ULN after 12 months of UDCA; continue if ALP falls below 1.67 × ULN and switch to a PPAR agonist if high-risk features appear. Beware rising creatinine and kidney disease, avoid in decompensated disease, and never combine a fibrate with elafibranor or seladelpar.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "896d519a86a90ff0",
+     "n": 264,
+     "p": "There ha"
+    },
+    {
+     "h": "3dc27ad96dd9ddf3",
+     "n": 487,
+     "p": "Fibrates"
+    },
+    {
+     "h": "b5104af9506274c5",
+     "n": 70,
+     "p": "Selectiv"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Itch: cholestyramine 4–16 g/day is first line** (II, 2). Take other medicines, including UDCA, at least 1 h before or 4 to 6 h after it.",
    "source": "S1",
    "verdict": "pass",
@@ -129,6 +290,24 @@
    "dose": true
   },
   {
+   "claim": "**Itch in Australian practice:** antihistamines rarely help; clinicians here favour rifampicin and fibrates, with close liver-enzyme monitoring on rifampicin. Naltrexone, sertraline and gabapentin are other off-label options.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f27a540225ae9d2",
+     "n": 37,
+     "p": "Antihist"
+    },
+    {
+     "h": "da85fbff95ee7b95",
+     "n": 358,
+     "p": "Addition"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Screen for gastro-oesophageal varices** when there are features of portal hypertension such as splenomegaly or low platelets (II, 2). Varices can appear before cirrhosis.",
    "source": "S1",
    "verdict": "pass",
@@ -150,6 +329,29 @@
    "locator": "Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6, 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis', published 4 February 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Follow-up for life, at least yearly:** bilirubin, ALP, AST, albumin, platelets and elastography; 6-monthly ultrasound for liver cancer in everyone with cirrhosis; and, each year, thyroid tests, lipids, vitamin D and a bone-health (osteoporosis) check. Medicare funds bone density testing every 2 years for people with liver disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd3f255236b2f8b4",
+     "n": 52,
+     "p": "All PBC "
+    },
+    {
+     "h": "bb1a4f8733a0bbbb",
+     "n": 240,
+     "p": "all pati"
+    },
+    {
+     "h": "0b900cdf5baad482",
+     "n": 293,
+     "p": "comprehe"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**PBC with autoimmune hepatitis features** needs two of three criteria, one of which must be moderate or severe interface hepatitis on histology; the others are ALT/AST above 5 times ULN, and IgG above 1.3 times ULN or ASMA (III, 2). Immunosuppression (a corticosteroid with or without azathioprine or mycophenolate) can be added to UDCA or started with it (III, 2).",
    "source": "S1",
    "verdict": "pass",
@@ -162,6 +364,24 @@
    "verdict": "pass",
    "source_text": "24. Pregnancy can be advised in PBC patients at childbearing age. Patients with features of cirrhosis should be well informed about the possible maternal and fetal complications. (III, 2) 25. Although data on UDCA treatment during pregnancy and breastfeeding remains limited, continued use of UDCA can be considered in those patients after special counseling on these particular issues. (III, 2)",
    "locator": "Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6, 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis', published 4 February 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**In pregnancy, expect itch to get worse as pregnancy advances (second and third trimesters) and check liver tests after the birth for a flare.** For new cholestasis in pregnancy, test AMA to separate PBC from intrahepatic cholestasis of pregnancy, and follow SOMANZ advice on bile acid monitoring.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a7f804fa4bb97b61",
+     "n": 160,
+     "p": "patients"
+    },
+    {
+     "h": "f2dc779a279f26b0",
+     "n": 661,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
   }
  ]
 }
