@@ -1,9 +1,9 @@
 # Nasopharyngeal carcinoma
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, EBV DNA testing, staging work-up, radiotherapy and chemoradiation for early and locally advanced disease, induction and adjuvant chemotherapy, recurrent and metastatic disease, and follow-up for adults with nasopharyngeal carcinoma. Other head and neck squamous cell carcinomas: see `head-and-neck-squamous-cell-carcinoma` (which excludes NPC). Nutrition during head and neck cancer treatment: see `head-and-neck-cancer-nutrition`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 17 claims paraphrased from **Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC), Clinical and Translational Oncology (doi 10.1007/s12094-026-04252-5) — *SEOM-TTCC clinical guideline for nasopharyngeal carcinoma (update 2025)*** (published 17 February 2026 (recommendations updated July 2025); origin: international). **35 anchors re-checkable by machine; 2 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **64 fragments or anchors re-checkable by machine; 5 doses.** **S1** Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (published 17 February 2026 (recommendations updated July 2025); international): 17 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026; AU): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (SEOM-TTCC, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -30,6 +30,13 @@
 - ⚠️ **Stage III–IVA: concurrent cisplatin 100 mg/m² every 3 weeks with radiotherapy is standard;** weekly cisplatin or carboplatin if that is contraindicated. [S1]
 - **Induction gemcitabine–cisplatin before chemoradiation** improved relapse-free, distant relapse-free and overall survival in high-risk locally advanced disease, at the cost of more acute toxicity; choose patients so it does not compromise chemoradiation. [S1]
 - **Adjuvant chemotherapy after chemoradiation is controversial;** adjuvant capecitabine has shown relapse-free and overall survival benefit in high-risk disease. [S1]
+- ⚠️ **Induction gemcitabine–cisplatin (eviQ):** for stage III or IVA non-keratinising NPC with performance status 0 to 1, gemcitabine 1,000 mg/m² IV on days 1 and 8 plus cisplatin 80 mg/m² IV on day 1, every 21 days for 3 cycles; chemoradiation starts 21 to 28 days after day 1 of the final cycle. Carboplatin is an option if cisplatin is not tolerated. Avoid with grade 2 or worse neuropathy or significant hearing loss or tinnitus. [S2]
+- **Induction trial (480 patients):** 3-year recurrence-free survival 85.3% with induction versus 76.5% with chemoradiation alone (HR 0.51), and 3-year overall survival 94.6% versus 90.3% (HR 0.43). Grade 3–4 events over the whole course were 75.7% versus 55.7%, mostly neutropenia during induction. [S2]
+- **Before starting treatment:** dental assessment, a dietitian review (nutrition risk is high) and a speech pathology review of communication and swallowing; screen for hepatitis B before induction chemotherapy. [S2]
+- **Cisplatin–gemcitabine monitoring:** before the first and every later dose, check calcium, magnesium, phosphate, FBC, kidney function and LFTs; use measured GFR for the first cisplatin dose when eGFR is under 60; assess neuropathy each cycle; arrange audiometry if hearing symptoms develop. About 10% have breathlessness within hours of gemcitabine. [S2]
+- ⚠️ **Adjuvant metronomic capecitabine (eviQ):** 650 mg/m² by mouth twice daily for 1 year, stopping for recurrence or unacceptable toxicity, after cisplatin chemoradiation (with or without induction) for high-risk non-keratinising NPC: stage III–IVA, except T3–4N0 and T3N1. Reserve it for very fit patients because toxicity accumulates. [S2]
+- **Adjuvant capecitabine trial (406 patients):** 3-year failure-free survival 85.3% versus 75.7% with observation (HR 0.50) and overall survival 93.3% versus 88.6% (HR 0.44), whether or not induction was given. Doses were interrupted in 26%, reduced in 14% and stopped in 5%. [S2]
+- ⚠️ **Capecitabine safety:** DPYD genotyping has been MBS-listed since 1 November 2025, and severe unexplained toxicity needs investigating before going on. Cardiac events (angina, arrhythmia, infarction) can occur, especially with coronary disease. An antidote for overexposure works if given within 96 hours. Bloods 2-weekly at first, then monthly. [S2]
 
 ## Recurrent and metastatic disease
 
@@ -37,6 +44,8 @@
 - ⚠️ **First line for recurrent or metastatic NPC: gemcitabine–cisplatin plus an anti-PD-1 antibody** (toripalimab, camrelizumab or tislelizumab trials). With toripalimab (JUPITER-02), overall survival also improved. [S1]
 - **Gemcitabine–cisplatin is the chemotherapy backbone,** superior to cisplatin–fluorouracil; for de novo metastatic disease responding to chemotherapy, adding locoregional radiotherapy improves survival. [S1]
 - **No second-line standard exists.** Several chemotherapies and checkpoint inhibitors have activity, but pembrolizumab did not beat chemotherapy in KEYNOTE-122. Oligometastatic patients may benefit from local treatment after a good chemotherapy response. [S1]
+- **Gemcitabine–cisplatin for recurrent or metastatic NPC (eviQ, chemotherapy only):** performance status 0 to 2; gemcitabine 1,000 mg/m² IV on days 1 and 8 with cisplatin 80 mg/m² IV on day 1 (or split as 40 mg/m² on days 1 and 8), every 21 days for 4 to 6 cycles. [S2]
+- **Why gemcitabine–cisplatin over cisplatin–fluorouracil:** in a phase 3 trial of 362 patients, median PFS was 7.0 versus 5.6 months (HR 0.55), median overall survival 29.1 versus 20.9 months (HR 0.62) and response 64% versus 42%. [S2]
 
 ## Follow-up
 
@@ -60,14 +69,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Staging (AJCC 8th edition), evidence-grading and follow-up tables** were stripped. | `input_unavailable` |
-| 2 | **Toripalimab dose and schedule** are not stated in the text; see the PBS restriction and eviQ (no eviQ toripalimab protocol was confirmed in research). | `input_unavailable` |
+| 2 | **Toripalimab dose and schedule** are not stated in S1, and eviQ (S2) has no toripalimab or other anti-PD-1 protocol for NPC: its first-line recurrent or metastatic protocol is gemcitabine–cisplatin alone. See the PBS restriction and product information. | `input_unavailable` |
 | 3 | **Australian divergence:** anti-PD-1 plus gemcitabine–cisplatin is not publicly funded in Spain, whereas toripalimab is PBS-listed in Australia. | `observation` |
 | 4 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **First-line recurrent or metastatic treatment differs between sources:** S1 (2025) makes gemcitabine–cisplatin plus an anti-PD-1 antibody the standard; S2's eviQ protocol 1384 (first approved 2013, reviewed as required) gives gemcitabine–cisplatin without immunotherapy. Toripalimab is PBS-listed for NPC. Both are shown. | `observation` |
+| 6 | **Adjuvant chemotherapy:** S1 calls it controversial, while S2 provides an adjuvant metronomic capecitabine protocol restricted to high-risk, very fit patients. Both are shown. | `observation` |
+| 7 | **S2 licence:** eviQ CC BY-NC 4.0, with a request not to host content externally; S2 claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. Dose-modification and antiemetic tables were not paraphrased. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC), Clinical and Translational Oncology (doi 10.1007/s12094-026-04252-5). *SEOM-TTCC clinical guideline for nasopharyngeal carcinoma (update 2025)*. published 17 February 2026 (recommendations updated July 2025). https://pmc.ncbi.nlm.nih.gov/articles/PMC13009139/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW. *eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)*. retrieved 24 September 2026. https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal — retrieved 2026-09-24. | CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

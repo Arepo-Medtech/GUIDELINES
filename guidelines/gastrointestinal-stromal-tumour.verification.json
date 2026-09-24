@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/gastrointestinal-stromal-tumour.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/",
+  "https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02672-0) 'Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines' (published 5 June 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11723931). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02672-0) 'Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines' (published 5 June 2024), 22 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11723931). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)' (retrieved 24 September 2026), 8 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, four Australian eviQ GIST treatment protocols (paraphrased and hash-anchored), for Australian dosing, PBS-linked dose limits, the ripretinib line of therapy and TKI monitoring. The S2 source file concatenates https://www.eviq.org.au/p/1222, /p/330, /p/329 and /p/4112, each under a header line naming its URL. eviQ's regorafenib protocol (1902) is marked superseded and was not used. S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 22,
+  "total": 30,
   "pass": 22,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 8
  },
  "claims": [
   {
@@ -109,6 +111,25 @@
    "locator": "British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02672-0), 'Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines', published 5 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Australian adjuvant imatinib (eviQ):** 400 mg by mouth once daily for up to 3 years, started after recovery and within 3 months of surgery, for primary GIST at high risk of relapse, defined as over 5 cm with more than 5 mitoses per 50 HPF, over 10 cm at any mitotic rate, or more than 10 mitoses per 50 HPF.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0cfcb7721a056c9b",
+     "n": 58,
+     "p": "Imatinib"
+    },
+    {
+     "h": "59166ae807888e4c",
+     "n": 376,
+     "p": "Adjuvant"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**First line: imatinib 400 mg daily, continued indefinitely until progression.** For KIT exon 9 mutations, 800 mg daily improves PFS (and survival in long-term follow-up); not for PDGFRA D842V.",
    "source": "S1",
    "verdict": "pass",
@@ -160,6 +181,150 @@
    "verdict": "pass",
    "source_text": "Response assessment is complex and early progression should be confirmed by a team experienced in treating GIST. … Tumour size may even increase in the short term but if tumour density on CT scan is decreased this may still indicate tumour response … an increase in the tumour density shown by contrast enhancement within a previously responding low density tumour lesion, may be indicative of tumour progression.",
    "locator": "British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02672-0), 'Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines', published 5 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Australian imatinib dose ceiling:** in metastatic or unresectable GIST, keep responders on 400 mg daily and reassess regularly; non-responders may go up to 600 mg daily. eviQ notes that PBS Authority applications for more than 600 mg a day will not be approved.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3e47b427b43b5687",
+     "n": 397,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Imatinib monitoring:** baseline TSH, FBC, EUC, eGFR and LFTs; FBC weekly in month one, fortnightly in month two, then every 2 to 3 months; LFTs monthly. Watch for fluid retention and periorbital oedema (withhold if severe), and check LVEF at baseline if there is heart disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de25e9f27ae773d4",
+     "n": 352,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "65db921a98ca7909",
+     "n": 221,
+     "p": "Patients"
+    },
+    {
+     "h": "d3e0a53fa404a24a",
+     "n": 169,
+     "p": "For pati"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Sunitinib in Australia is second line** for KIT (CD117)-positive advanced GIST after imatinib failure or intolerance: 50 mg daily for 4 weeks then 2 weeks off (42-day cycle). With a strong CYP3A4 inhibitor, lower the dose in 12.5 mg steps to no less than 25 mg; with a CYP3A4 inducer, raise it in 12.5 mg steps to no more than 87.5 mg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df0d03068dce4527",
+     "n": 193,
+     "p": "second l"
+    },
+    {
+     "h": "284b83c45c4a63ad",
+     "n": 338,
+     "p": "sUNITini"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Sunitinib safety:** control blood pressure before starting, then check it weekly for 6 weeks and regularly after; withhold for severe or uncontrolled hypertension. Arrange a dental review before treatment and every 6 months (jaw osteonecrosis risk). Bloods at baseline, week 2 and 4-weekly; thyroid function every 8 to 12 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e3bd3758a1d4fd35",
+     "n": 303,
+     "p": "Pre-exis"
+    },
+    {
+     "h": "d69f6ba73d7d9104",
+     "n": 162,
+     "p": "Dental r"
+    },
+    {
+     "h": "24ee808257995fe6",
+     "n": 124,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Ripretinib in Australia follows imatinib and sunitinib:** for metastatic or unresectable GIST after failure of, or intolerance to, both, with ECOG 0 to 2. Dose 150 mg (three 50 mg tablets) once daily until progression or unacceptable toxicity, reducing to 100 mg daily if needed; stop if 100 mg cannot be tolerated or a delay exceeds 4 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c075d5c80102903e",
+     "n": 154,
+     "p": "Metastat"
+    },
+    {
+     "h": "77133d9148e340f4",
+     "n": 53,
+     "p": "Ripretin"
+    },
+    {
+     "h": "e922bbe73699796a",
+     "n": 312,
+     "p": "Ripretin"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Ripretinib raises the risk of new skin cancers** (squamous cell carcinoma, keratoacanthoma, melanoma): examine the skin at the start and routinely during treatment. Hand-foot syndrome and rash usually appear in the first 6 weeks. Bloods fortnightly in the first month, then 4-weekly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7adb89c55b0934b",
+     "n": 238,
+     "p": "Ripretin"
+    },
+    {
+     "h": "4067c8984912d4df",
+     "n": 171,
+     "p": "Hand-foo"
+    },
+    {
+     "h": "e756ded5298d05db",
+     "n": 110,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For any TKI, assess the heart at baseline** (ECG and biochemistry, especially with cardiovascular disease; echocardiogram if high risk), repeat when clinically indicated or when a QT-prolonging drug is started, and interrupt treatment around major surgery until the wound has healed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "79d4d43961fa7044",
+     "n": 435,
+     "p": "Patients"
+    },
+    {
+     "h": "5328f9578babe7f5",
+     "n": 216,
+     "p": "This tre"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours, retrieved 2026-09-24"
   },
   {
    "claim": "**High risk on adjuvant therapy:** cross-sectional imaging every 3-6 months for the first 3 years, then 3-monthly for 2 years after stopping, 6-monthly for 3 years, then yearly for at least 5 years. High-risk patients not given adjuvant therapy follow the post-adjuvant schedule.",
