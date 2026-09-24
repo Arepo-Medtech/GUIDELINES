@@ -186,6 +186,32 @@ under 2 years.** **Safe in pregnancy and breastfeeding** [G3].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **6 match · 4 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Decontamination for poisonings (Toxicology and Toxinology); **T2** Enhanced elimination of poisons (Toxicology and Toxinology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Gastric aspiration and lavage are RARELY INDICATED in a conscious patient and are NOT INDICATED IF MORE THAN 4 HOURS have elapsed since poisoning; if in doubt seek expert advice from a Poisons Information Centre on 13 11 26 `gastrointestinal-decontamination#21` | Gastric lavage is not recommended for poisoning (high aspiration risk, less effective than charcoal); induced emesis/ipecac also not recommended. [T1] | eTG is categorical (not recommended) vs AMH 'rarely indicated, not beyond 4 h'. |
+| Activated charcoal REPEAT doses of 25 g every 2 to 4 hours for UP TO 3 DOSES may be appropriate in some poisonings; seek specialist advice or review `gastrointestinal-decontamination#30` | Multiple-dose charcoal (for barbiturates, carbamazepine, colchicine, dapsone, phenytoin, theophylline, warfarin), with toxicologist advice: after the initial dose, 25 g every 2 h, or 50 g every 4 h, or 12.5 g/h via feeding pump; child 0.5 g/kg up to 50 g every 4 h; check for ileus before each dose. [T1] | eTG gives no 3-dose cap and offers alternative 50 g 4-hourly and continuous regimens plus a paediatric regimen. |
+| Macrogol laxatives for poisoning, ADULT, oral or nasogastric, 15 mL/kg/hour; IF TOLERATED INCREASE TO 25 mL/kg/hour, continuing until the rectal effluent is clear -- noting that the typical dose for bowel preparation in adults is 3 to 4 litres `gastrointestinal-decontamination#41` | Whole bowel irrigation: macrogol 3350 with electrolytes 1 to 1.5 L orally/NG over 1 h, started within 4 h of ingestion, then 1 L/hour until diarrhoea runs clear; discuss with a toxicologist. [T1] | eTG uses fixed volumes (1-1.5 L load then 1 L/h) rather than weight-based 15-25 mL/kg/h; eTG limits to presentations within 4 h (iron, lithium, MR verapamil/diltiazem/metformin/potassium/theophylline, body packers/stuffers). |
+| Macrogol laxatives for poisoning, CHILD, oral or nasogastric, 30 mL/kg/hour for 4 to 8 hours or until the rectal effluent is clear `gastrointestinal-decontamination#42` | Child: macrogol 20 to 30 mL/kg (up to 1.5 L) over 1 h, then 20 to 30 mL/kg/hour (up to 1 L/hour) until diarrhoea runs clear. [T1] | eTG rate 20-30 mL/kg/h with caps vs AMH 30 mL/kg/h for 4-8 h. |
+
+### Additional therapies in eTG
+
+- Macrogol 3350 (with electrolytes) preparation for WBI: e.g. ColonLYTELY or Glycoprep C 2 sachets in 2 L water, Glycoprep 1 sachet in 3 L, Movicol 8 sachets in 2 L, Moviprep A+B in 2 L. [T1]
+- Charcoal decision terms: 'give' when death/serious morbidity likely with supportive care alone (intubate if needed), 'offer' when benefit possible but not life-threatening, 'consider' by individual risk assessment; do not use if supportive care alone suffices; vomiting is not a contraindication in potentially lethal poisoning. [T1]
+- Skin decontamination: remove clothing and wash with soapy water; ocular exposure: irrigate with sodium chloride 0.9% or Hartmann's 15-20 min (until pH 6.5-8.5 for alkali) and refer to ophthalmology. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Decontamination for poisonings* (Toxicology and Toxinology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Toxicology%20and%20Toxinology&topicfile=what-is-covered-in-toxicology-toxinology&guidelinename=auto&sectionId=c_decontamination_for_poisonings — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Enhanced elimination of poisons* (Toxicology and Toxinology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Toxicology%20and%20Toxinology&topicfile=what-is-covered-in-toxicology-toxinology&guidelinename=auto&sectionId=c_enhanced_elimination_of_poisons — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

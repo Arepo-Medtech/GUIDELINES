@@ -158,6 +158,34 @@ support network, and a short history of opioid use** [A1].
 | **Cardiovascular disease risk** | ⚠️ **clonidine must be tapered over 3 days to prevent hypertensive rebound** |
 | **Sepsis** · **Acute rheumatic fever and RHD** | **endocarditis, septicaemia and abscess** from non-sterile injecting |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 3 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Opioids: hazardous, harmful and dependent use (Addiction); **T2** Long-term management of alcohol dependence (Addiction).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Methadone for opioid dependence is oral, initially 20 to 30 mg daily, increased by small increments according to local protocols to a maintenance dose around 60 to 80 mg daily in most patients `opioid-dependence#31` | Methadone 20 to 30 mg orally daily (daily opioid users not using other sedatives); increase by 5 to 10 mg no more often than every 3 to 5 days; aim for maintenance usually 60 to 120 mg daily within 4 to 8 weeks. [T1] | eTG maintenance range 60-120 mg (AMH 60-80 mg) and specifies increment size/interval; eTG stresses fatal toxicity risk in first 2 weeks, ECG before start if QTc risk and periodically above 120 mg/day. |
+| Naltrexone for maintenance of opioid abstinence is oral, initially 25 mg daily, then 50 mg once daily if no withdrawal symptoms occur `opioid-dependence#37` | Naltrexone is generally not used for opioid dependence because adherence is very poor; seek specialist advice if requested; naltrexone implants not recommended. [T1] | eTG does not recommend the AMH naltrexone opioid-abstinence regimen. |
+| Naltrexone for alcohol dependence is oral 50 mg once daily `opioid-dependence#39` | Naltrexone 25 mg orally daily at bedtime; if tolerated increase after 5 days to 50 mg daily. [T2] | eTG starts at 25 mg for 5 days before 50 mg daily; AMH gives 50 mg daily from the outset. |
+
+### Additional therapies in eTG
+
+- Switching sublingual buprenorphine to Buvidal Weekly (start day after last SL dose): SL 2-6 mg -> 8 mg; 8-10 mg -> 16 mg; 12-16 mg -> 24 mg; 18-24 mg -> 32 mg weekly SC; extra 8 mg once or twice if withdrawal; max 32 mg/week. [T1]
+- Buvidal Monthly SC: SL 8-10 mg -> 64 mg; 12-16 mg -> 96 mg; 18-24 mg -> 128 mg; 26-32 mg -> 160 mg monthly; start 1 week after last weekly dose (or day after last SL), extra 8 mg weekly dose if needed, max 160 mg/month. [T1]
+- Sublocade: after at least 1 week of SL buprenorphine at 8 mg/day or more, 300 mg SC monthly for 2 months then 100 mg monthly (minimum interval 26 days). [T1]
+- Take-home naloxone (nasal spray or prefilled injection, free via Take Home Naloxone program) for all people with hazardous, harmful or dependent opioid use and on discharge after withdrawal. [T1]
+- Symptomatic withdrawal if buprenorphine unusable: diazepam 5-10 mg orally 6-hourly prn (max 7 days home, 10 days inpatient; supply 2-3 days at a time); temazepam 10-20 mg at night prn max 5 days; clonidine 50-75 micrograms orally 6-8-hourly (inpatient, max 600 micrograms/day, hold if bradycardia or SBP <90, stop within 5-6 days); plus antiemetics, loperamide, hyoscine, paracetamol/NSAID up to 7 days. [T1]
+- Encourage MATOD for at least 12 months; taper over months when stopping. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Opioids: hazardous, harmful and dependent use* (Addiction). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Addiction%20Medicine&topicfile=alcohol-drug-problems&guidelinename=auto&sectionId=c_AMG_Opioids-hazardous-harmful-and-dependent-use_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Long-term management of alcohol dependence* (Addiction). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Addiction%20Medicine&topicfile=alcohol-drug-problems&guidelinename=auto&sectionId=c_AMG_Long-term-management-of-alcohol-dependence_topic_3 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

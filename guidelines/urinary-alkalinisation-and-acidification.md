@@ -52,6 +52,29 @@ of renal stones**, or **in combination with methenamine hippurate** [M1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 1 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Acute cystitis in adults (Antibiotic); **T2** Kidney and ureteric stones in adults (Kidney and Urinary); **T3** Enhanced elimination of poisons (Urinary alkalinisation) (Toxicology and Toxinology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| SODIUM BICARBONATE WITH SODIUM CITRATE, CITRIC ACID AND TARTARIC ACID: USE 1-2 SACHETS IN A GLASS OF WATER UP TO 4 TIMES DAILY FOR SYMPTOMATIC RELIEF OF UTI. ⚠️ THE SACHET CONTAINS APPROXIMATELY 28 mmol (644 mg) OF SODIUM `urinary-alkalinisation-and-acidification#2` | Efficacy of urinary alkalinising agents for symptomatic cystitis has not been established in trials though some patients find them helpful; they significantly reduce nitrofurantoin's effect and should not be used with quinolones. No sachet dose given; NSAID (ibuprofen 400 mg 8-hourly up to 3 days) is the recommended symptomatic therapy. [T1] | Clinically important: AMH presents sachets up to 4 times daily for UTI relief without the nitrofurantoin/quinolone interaction warning; eTG's first-line cystitis antibiotic is nitrofurantoin, so co-use undermines treatment. |
+
+### Additional therapies in eTG
+
+- For uric acid stone prevention, target urinary pH 6 to 7 via diet plus citrate salts (potassium citrate preferred) or sodium bicarbonate if citrate unsuitable; citrate salts also for hypocitraturia in calcium stone formers and for cystine stones. [T2]
+- Urinary alkalinisation with IV sodium bicarbonate is used to enhance elimination of aspirin/salicylates and chlorophenoxy herbicides (distinct from serum alkalinisation). [T3]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Acute cystitis in adults* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Acute-cystitis-in-adults_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Kidney and ureteric stones in adults* (Kidney and Urinary). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Kidney-and-ureteric-stones-in-adults_topic_13 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Enhanced elimination of poisons (Urinary alkalinisation)* (Toxicology and Toxinology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Toxicology%20and%20Toxinology&topicfile=what-is-covered-in-toxicology-toxinology&guidelinename=auto&sectionId=c_enhanced_elimination_of_poisons — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

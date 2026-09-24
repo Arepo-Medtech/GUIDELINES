@@ -225,6 +225,24 @@ of nail involvement, he was continued on oral terbinafine to complete a total 3-
 | ⚠️ **Antimicrobial stewardship** | ⚠️ **terbinafine-resistant *T. interdigitale* is now reported in Australia** [S1] |
 | **Ectoparasites / head lice** | the same chapter neighbours, and the same hygiene-plus-drug structure |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **3 match · 0 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Tinea (Dermatology); **T2** Onychomycosis (tinea of the nails) (Dermatology).
+
+### Additional therapies in eTG
+
+- Oral therapy for tinea not on scalp/nails: terbinafine 250 mg (child <20 kg 62.5 mg; 20-40 kg 125 mg) daily for 2 weeks; fluconazole 150 mg weekly for 6 weeks; itraconazole 100 mg daily (Lozanoc 50 mg) 2 weeks for corporis/cruris, 4 weeks for pedis; griseofulvin 500 mg (child 10 mg/kg) daily 8-12 weeks. [T1]
+- Tinea capitis: terbinafine 250 mg (weight-banded in children) daily for 4 weeks; Microsporum: griseofulvin 20 mg/kg up to 500 mg daily 6-8 weeks; alternatives itraconazole liquid 5 mg/kg up to 200 mg daily 4 weeks, fluconazole 6 mg/kg up to 400 mg daily 3-6 weeks or child 8 mg/kg weekly 8-12 weeks; adjunct ketoconazole/selenium shampoo; urgent referral for kerion; repeat culture at end. [T1]
+- Topical tinea (recent localised): terbinafine 1% once or twice daily 7-14 days; bifonazole 1% daily, clotrimazole 1% or econazole 1% 2-3 times daily, ketoconazole 2% once or twice daily, miconazole 2% twice daily, each for 2-4 weeks. [T1]
+- Onychomycosis oral therapy dosing: terbinafine 250 mg daily (child <20 kg 62.5 mg, 20-40 kg 125 mg) until clinical clearance; review at 3 months for proximal clear nail (scratch test) and refer if not progressing. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Tinea* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Tinea_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Onychomycosis (tinea of the nails)* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Onychomycosis-tinea-of-the-nails_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

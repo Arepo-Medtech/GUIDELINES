@@ -161,6 +161,29 @@ Note also that the four that exist differ in scope: **NSW's covers children and 
 | **Sepsis (children)** · **Hypoglycaemia** *(open)* | medical instability is what admission guidelines exist to catch, and four jurisdictions have none |
 | **Psychotropic medicines in cognitive disability or impairment** | the compendium's other place where **the drug is explicitly not the main treatment** |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 1 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Bulimia nervosa (Psychotropic); **T2** Binge eating disorder (Psychotropic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Fluoxetine for bulimia nervosa is oral 20 mg once daily increasing as indicated to 60 to 80 mg daily `eating-disorders#31` | Fluoxetine 20 mg orally each morning; review every 1-2 weeks and raise by 20 mg no more than weekly up to 60 mg daily; continue at least 6 months then consider deprescribing; used after limited response to (or poor access to) psychological therapy. [T1] | eTG maximum 60 mg daily vs AMH 60-80 mg; eTG positions drugs after psychological therapy and notes upper-range doses usually needed. |
+
+### Additional therapies in eTG
+
+- Bulimia nervosa alternatives to fluoxetine (each continued at least 6 months): citalopram 10 mg daily up to 40 mg; fluvoxamine 50 mg in the evening up to 300 mg (split above 150 mg); sertraline 50 mg daily up to 200 mg; fluvoxamine/sertraline preferred if hypokalaemia/arrhythmia risk (less QT effect). Topiramate by specialists for refractory cases (avoid if underweight). [T1]
+- Binge eating disorder: fluoxetine 20 mg each morning, increase by 20 mg no more than weekly up to 80 mg daily, especially with anxiety or mood disorder; topiramate by specialists after other failures. [T2]
+- Psychological therapy (CBT-E/CBT-BN; family-based therapy for young people with bulimia) is first line for both disorders; monitor purging patients for hypokalaemia and dehydration. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Bulimia nervosa* (Psychotropic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=bulimia-nervosa&guidelinename=Psychotropic — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Binge eating disorder* (Psychotropic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=binge-eating-disorder — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

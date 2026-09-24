@@ -125,6 +125,22 @@ organ type and intensity of immunosuppression** [I1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 0 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Principles of immunomodulatory drug use (Rheumatology).
+
+### Additional therapies in eTG
+
+- Intercurrent infection: continue immunomodulators for minor infections; withhold until symptoms resolve if antimicrobials needed; withhold and discuss with specialist if hospitalised; do not withhold corticosteroids (may need stress dosing). [T1]
+- Before starting: screen for active infection, IGRA for latent TB before b/tsDMARDs, hepatitis B (sAg, core and surface antibody) and C serology, update vaccines; give live vaccines at least 4 weeks before (not during) therapy and inactivated vaccines ideally at least 2 weeks before. [T1]
+- Drug-specific monitoring: TPMT testing before azathioprine/mercaptopurine with FBC and LFTs every 2 weeks during escalation then every 4-6 weeks; mycophenolate FBC weekly for month 1, 2-weekly months 2-3, then monthly for 9 months; leflunomide washout with colestyramine 8 g orally three times daily for 11 days; avoid JAK inhibitors in people 65+ or at increased cardiovascular/cancer risk unless no alternative. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Principles of immunomodulatory drug use* (Rheumatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Rheumatology&topicfile=gout&guidelinename=auto&sectionId=c_RHG_Principles-of-immunomodulatory-drug-use_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

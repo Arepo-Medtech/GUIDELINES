@@ -5,12 +5,15 @@
  "verifier": "claude-opus-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://amhonline.amh.net.au/chapters/genitourinary-drugs/other-drugs-urinary-tract-disorders/urinary-alkalinisation-acidification"
+  "https://amhonline.amh.net.au/chapters/genitourinary-drugs/other-drugs-urinary-tract-disorders/urinary-alkalinisation-acidification",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Acute-cystitis-in-adults_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Kidney-and-ureteric-stones-in-adults_topic_13",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Toxicology%20and%20Toxinology&topicfile=what-is-covered-in-toxicology-toxinology&guidelinename=auto&sectionId=c_enhanced_elimination_of_poisons"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "ENTIRELY from ONE AMH page, read under subscription and PARAPHRASED. No passage reproduced, no source_text stored, so NOTHING here is machine re-checkable and every statement must be verified by a person against a current subscription. ⚠️ THIS PAGE DOES GIVE DOSES -- in sachets, capsules and tablets rather than mg of active -- together with the electrolyte content of each product. All are queued for attestation.",
+ "method": "ENTIRELY from ONE AMH page, read under subscription and PARAPHRASED. No passage reproduced, no source_text stored, so NOTHING here is machine re-checkable and every statement must be verified by a person against a current subscription. ⚠️ THIS PAGE DOES GIVE DOSES -- in sachets, capsules and tablets rather than mg of active -- together with the electrolyte content of each product. All are queued for attestation. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "summary": {
-  "total": 6,
+  "total": 8,
   "pass": 0,
   "fail": 0
  },
@@ -54,6 +57,22 @@
    "source": "M1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, 'Urinary alkalinisation and acidification' at https://amhonline.amh.net.au/chapters/genitourinary-drugs/other-drugs-urinary-tract-disorders/urinary-alkalinisation-acidification, July 2026 release ('Last modified by AMH: July 2026'), read under subscription 2026-09-22"
+  },
+  {
+   "claim": "For uric acid stone prevention, target urinary pH 6 to 7 via diet plus citrate salts (potassium citrate preferred) or sodium bicarbonate if citrate unsuitable; citrate salts also for hypocitraturia in calcium stone formers and for cystine stones.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Kidney and ureteric stones in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Kidney-and-ureteric-stones-in-adults_topic_13, accessed 2026-09-24 through the owner's subscription, section 'Measures to prevent uric acid / calcium / cystine kidney and ureteric stones'"
+  },
+  {
+   "claim": "Urinary alkalinisation with IV sodium bicarbonate is used to enhance elimination of aspirin/salicylates and chlorophenoxy herbicides (distinct from serum alkalinisation).",
+   "source": "T3",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Toxicology and Toxinology guideline: 'Enhanced elimination of poisons (Urinary alkalinisation)' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Toxicology%20and%20Toxinology&topicfile=what-is-covered-in-toxicology-toxinology&guidelinename=auto&sectionId=c_enhanced_elimination_of_poisons, accessed 2026-09-24 through the owner's subscription, section 'Urinary alkalinisation'"
   }
  ]
 }

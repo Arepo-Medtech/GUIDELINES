@@ -247,6 +247,16 @@ warning symptoms such as ocular pain, redness or blurred vision that require urg
 | **Psoriasis / eczema / asthma** | ⚠️ **chronic corticosteroid use by ANY route is a glaucoma risk factor** [S1] and a cause of secondary glaucoma [A1] |
 | **Allergic rhinitis** | ⚠️ **intranasal and ocular corticosteroids count as steroid exposure** — S1 says screen **all routes** |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 0 differ · 5 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Search: glaucoma (no dedicated eTG topic; only incidental mentions in Diabetic retinopathy, JIA-associated uveitis, Migraine, Myasthenia gravis, Inhalational devices) (n/a).
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Search: glaucoma (no dedicated eTG topic; only incidental mentions in Diabetic retinopathy, JIA-associated uveitis, Migraine, Myasthenia gravis, Inhalational devices)* (n/a). https://app.tg.org.au/searchAction/?appendedinputbuttons=glaucoma — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

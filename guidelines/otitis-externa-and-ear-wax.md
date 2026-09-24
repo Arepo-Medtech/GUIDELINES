@@ -194,6 +194,28 @@ syringing** [A1].
 | **Psoriasis / eczema** | **named predisposing skin conditions** [A1] |
 | **Antimicrobial stewardship** | ⚠️ **topical beats systemic here**, and **routine swabs are not required** |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **3 match · 1 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Otitis externa (Antibiotic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH advises keeping the external ear canal dry by meticulous gentle cleansing and drying with tissue spears made of rolled tissue paper, 2 to 4 times daily if possible but at least once daily `otitis-externa-and-ear-wax#20` | Consider dry aural toilet (suction, or cotton wool on a probe under direct vision) if expertise/equipment available, mainly to help drop delivery; evidence is weak; do not syringe the ear. [T1] | eTG does not recommend patient tissue-spear cleaning 2-4 times daily; it frames cleaning as a clinician procedure and explicitly bans syringing in otitis externa. |
+
+### Additional therapies in eTG
+
+- Acute localised otitis externa (boil): dicloxacillin or flucloxacillin 500 mg (child 12.5 mg/kg) orally 6-hourly for 5 days; erysipelas of pinna: phenoxymethylpenicillin 500 mg 6-hourly 5 days; cefalexin 500 mg 6-hourly (child option); MRSA risk/severe penicillin allergy: trimethoprim+sulfamethoxazole 160+800 mg 12-hourly or clindamycin 450 mg 8-hourly for 5 days. [T1]
+- Necrotising otitis externa (diabetes, elderly, immunocompromised; pain despite improved canal): urgent ED referral; piperacillin+tazobactam 4+0.5 g IV 6-hourly (continuous infusion if septic shock); cefepime 2 g IV 8-hourly if nonsevere penicillin allergy; prolonged therapy with ID/ENT input. [T1]
+- Analgesia (paracetamol/NSAID) for acute diffuse otitis externa; no oral antibiotics; culture not routinely needed. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Otitis externa* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=otitis-externa&guidelinename=Antibiotic — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |
