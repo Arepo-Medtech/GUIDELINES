@@ -1,9 +1,11 @@
 # Growth hormone and IGF-1 therapy in children — PBS eligibility and prescribing
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** PBS eligibility, prescribing logistics, continuation rules and doses for somatropin (daily), somatrogon (weekly) and mecasermin (IGF-1) under the Section 100 Growth Hormone Program: all paediatric categories plus late-onset and mature-skeleton (adult) GH deficiency. It is an eligibility and prescribing summary, not a guideline on investigating short stature; GH stimulation testing protocols are in the ANZSPED HEDT-Paeds manual (not authored). Related: `hypoglycaemia-children` (GH deficiency as a cause of neonatal hypoglycaemia). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **Australasian Paediatric Endocrine Group (ANZSPED), Child and Adolescent Growth Committee — *Growth Hormone and IGF-1 PBS Eligibility and Prescribing Summary Guidelines 2025*** (last updated February 2026; origin: AU). **56 anchors re-checkable by machine; 6 doses.** The source's words are not reproduced: its licence is *No licence or reuse terms stated in the PDF (treated as all rights reserved)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **77 fragments or anchors re-checkable by machine; 7 doses.** **S1** Australasian Paediatric Endocrine Group (ANZSPED) (last updated February 2026; AU): 25 claims, paraphrased, hash-anchored · **S2** International expert group (Maniatis A (published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text); international): 9 claims, quoted
+
+> ⚠️ **S2 is an international consensus (11 experts, 2025) on weekly GH, funded by Pfizer.** It covers clinical use, not Australian eligibility: PBS criteria come from S1 and the current PBS listing. Lonapegsomatropin is discussed in S2 but is not among the PBS drugs listed below.
 
 > ⚠️ **This source is a restatement of the PBS eligibility rules, written by ANZSPED as a quick reference.** It says the full PBS listings remain the authoritative text; always check the current listing before applying.
 
@@ -40,6 +42,18 @@
 - **Daily somatropin: up to 7.5 mg/m²/week in most categories.** Older advice was 4.5-7.5 mg/m²/week; starting low and titrating is reasonable, but children without GH deficiency respond poorly at the low end, whereas truly GH-deficient children usually do well there. [S1]
 - **Weekly somatrogon: 0.66 mg/kg once a week.** Check IGF-1 on day 4 after a dose, and cut the dose by 15% if IGF-1 is more than 2 SDS above the age-sex mean. If growth does not pick up in year one, look at adherence and other causes (hypothyroidism, undernutrition, advanced bone age) and consider stopping. [S1]
 - **Continuing approval depends on response.** Each period (32 weeks initially, then 26 weeks) is renewed if the child was below the maximum dose (7.5 mg/m²/week); at the maximum, growth must reach the 50th velocity percentile, raise height SDS, reach at least 4 cm/year, or hold mid-parental height SDS. The ceiling is 9.5 mg/m²/week in the Turner, SHOX and renal categories. [S1]
+
+## Weekly (long-acting) GH in GH deficiency: international consensus (S2)
+
+- **Three weekly GH products are approved internationally for paediatric GH deficiency:** lonapegsomatropin, somapacitan and somatrogon. Each matched daily GH for 1-year height velocity in prepubertal children, but long-term and real-world data are still lacking. [S2]
+- **Children who may gain most from weekly GH:** those at risk of poor adherence (such as teenagers), on multiple medicines, with neurodiversity or injection fear (theirs or a carer's), with more than one home or frequent travel, or from socioeconomically disadvantaged families. [S2]
+- ⚠️ **Not yet studied in trials:** survivors of cancer or intracranial tumours (take special care with dosing and IGF-1 monitoring), Prader–Willi syndrome, very young children, and non-GH-deficient states such as SGA, Turner syndrome, SHOX deficiency and chronic renal insufficiency. Use shared decision-making in these groups. [S2]
+- **Dosing is weight based and product specific,** so milligram doses cannot be compared between molecules or with daily GH. Consider a lower start (using ideal body weight) in obesity or hyperglycaemia risk, and a lower initial dose with raised intracranial pressure risk, severe GH deficiency, genetic or chromosomal abnormalities, renal failure or oestrogen therapy. [S2]
+- **IGF-1 timing on weekly GH:** sample on day 4 after the dose (somapacitan, somatrogon) or day 4.5 (lonapegsomatropin) to estimate the average IGF-1; aim for an SDS between −2 and +2, preferably close to 0. Outside the 4- to 5-day window, apply product-specific correction factors. In the trials the dose was cut by 15–20% when average IGF-1 exceeded +2.0 SDS. [S2]
+- **Switching without overlap:** from daily GH, give the first weekly dose the next day (at least 8 hours after the last daily dose); from one weekly product to another, give the new one 7 days after the last dose. [S2]
+- **Missed doses:** pick a fixed injection day. A late dose can be given within ±2 days (lonapegsomatropin) or +3 days (somapacitan, somatrogon), then return to the usual day; missed doses matter for efficacy and for hypoglycaemia risk. If non-adherence persists, consider a school or community nurse giving the injection. [S2]
+- **More than one injection a week is regularly needed** above about 45 kg (somatrogon), 50 kg (somapacitan) or 60.5 kg (lonapegsomatropin), when the dose exceeds one pen or cartridge. Record the time and site and rotate sites to avoid lipoatrophy. [S2]
+- **Safety so far matches daily GH,** with no new signals over up to 5 years; somatrogon caused more injection-site reactions and pain than daily GH, and antidrug antibodies had no clinical effect. Only somapacitan is approved for adult GH deficiency, and oral oestrogen interactions in adolescents are unstudied. [S2]
 
 ## Mature skeleton and adult (late-onset) GH deficiency
 
@@ -79,15 +93,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Product-level details** (which brands are licensed for which categories, including that only one product is registered for Prader-Willi syndrome and that benzyl-alcohol-preserved cartridges are not for children under 3) and the **mature-skeleton Prader-Willi dose** are in tables and were not anchored. | `input_unavailable` |
-| 2 | **Somapacitan** (weekly GH, listed on the PBS for BGHD and short stature and slow growth) is not covered in this February 2026 edition. | `observation` |
-| 3 | **Services Australia authority pages** (site licence CC BY 4.0, read at servicesaustralia.gov.au/copyright; the GH page itself carries no separate licence) are administrative only: dispensing channels, brand-specific prescribing and forms. They add no clinical criteria, so ANZSPED was chosen as S1 and no second guideline was written. | `observation` |
-| 4 | **Diagnostic GH stimulation test protocols** are in ANZSPED HEDT-Paeds (2025) and are not authored here. | `out_of_scope` |
-| 5 | **Licence:** no licence or reuse terms appear in the PDF. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **Somapacitan** (weekly GH, listed on the PBS for BGHD and short stature and slow growth): its PBS dose and continuation rules are not in S1's February 2026 edition. S2 now covers its clinical use (IGF-1 timing, switching, missed doses), not its PBS rules. | `observation` |
+| 3 | **Sources differ slightly on weekly GH dose reduction:** S1 (somatrogon) cuts the dose by 15% when IGF-1 is above +2 SDS; S2 reports 15–20% reductions in the trials. Follow the PBS/product information. | `observation` |
+| 4 | **S2's product table (Table 1: doses per kg, devices, age limits) and IGF-1 correction factors (Table 2)** were stripped; weight-based starting doses for somapacitan and lonapegsomatropin are therefore not stated. | `input_unavailable` |
+| 5 | **Services Australia authority pages** (site licence CC BY 4.0, read at servicesaustralia.gov.au/copyright; the GH page itself carries no separate licence) are administrative only: dispensing channels, brand-specific prescribing and forms. They add no clinical criteria, so ANZSPED was chosen as S1 and no second guideline was written. | `observation` |
+| 6 | **Diagnostic GH stimulation test protocols** are in ANZSPED HEDT-Paeds (2025) and are not authored here. | `out_of_scope` |
+| 7 | **Licence:** no licence or reuse terms appear in the PDF. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 8 | **Licence (S2):** CC BY 4.0; S2 claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Australasian Paediatric Endocrine Group (ANZSPED), Child and Adolescent Growth Committee. *Growth Hormone and IGF-1 PBS Eligibility and Prescribing Summary Guidelines 2025*. last updated February 2026. https://media.anzsped.org/2026/05/18111028/26_05-Growth-Hormone-Eligibility-and-Prescribing-Summary-Guidelines.pdf — retrieved 2026-09-23. | No licence or reuse terms stated in the PDF (treated as all rights reserved) | **paraphrased, hash-anchored** |
+| **S2** | International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834). *Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement*. published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text). https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

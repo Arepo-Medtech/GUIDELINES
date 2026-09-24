@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/hyperprolactinaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.nature.com/articles/s41574-023-00886-5"
+  "https://www.nature.com/articles/s41574-023-00886-5",
+  "https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature) 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement' (published online 5 September 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2023 Springer Nature Limited; exclusive rights held by Springer Nature or its licensor (no open licence) (read at the article's 'Rights and permissions' section and dc.rights metadata on nature.com). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature) 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement' (published online 5 September 2023), 17 claims; LICENCE: © 2023 Springer Nature Limited; exclusive rights held by Springer Nature or its licensor (no open licence) (read at the article's 'Rights and permissions' section and dc.rights metadata on nature.com). S2: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060) 'Hyperprolactinaemia' (published 1 December 2017), 12 claims; LICENCE: Copyright 2017 NPS MedicineWise (now published by Therapeutic Guidelines Limited); no open licence (read at PMC JATS <permissions> for PMC5768604 (NCBI efetch; Europe PMC returned 500) and the article page). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian Prescriber review (2017), for Australian laboratory practice (mIU/L thresholds, routine macroprolactin screening), drug-induced hyperprolactinaemia, the dopamine agonists available in Australia, monitoring and withdrawal. S2 is a narrative review by two Australian endocrinologists, not a guideline, and is older than 5 years. S1 claims and anchors are unchanged. No Australian society guideline on hyperprolactinaemia was found (Europe PMC: prolactin/hyperprolactinaemia/prolactinoma with Aust Prescr, Med J Aust, Intern Med J or Australian affiliation).",
  "summary": {
-  "total": 17,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -62,6 +63,52 @@
     }
    ],
    "locator": "Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature), 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement', published online 5 September 2023, https://www.nature.com/articles/s41574-023-00886-5, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Reading the level (Australian units, S2):** physiological rises (pregnancy, breastfeeding, exercise, sex, stress) are brief and usually no more than twice the upper limit; drug-induced rises usually run 500–4000 mIU/L; stalk compression usually stays below 2000 mIU/L; a level above 10 000 mIU/L almost always means a macroprolactinoma.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec726c61df95f51f",
+     "n": 197,
+     "p": "Pregnanc"
+    },
+    {
+     "h": "c41dd8ed66fe121d",
+     "n": 125,
+     "p": "A number"
+    },
+    {
+     "h": "6bc1daf18a7eb13a",
+     "n": 70,
+     "p": "hyperpro"
+    },
+    {
+     "h": "4717404cb35065c1",
+     "n": 92,
+     "p": "a prolac"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drug-induced hyperprolactinaemia (S2):** it is seen with antipsychotics such as risperidone and, less often, some SSRIs, and usually resolves within 72 hours of stopping the drug.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d39d867ce51855da",
+     "n": 175,
+     "p": "Hyperpro"
+    },
+    {
+     "h": "0c67f9e84d8a7c31",
+     "n": 108,
+     "p": "If hyper"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
   },
   {
    "claim": "**If prolactin is under five times the upper limit of normal, repeat it;** use cannulated sampling when stress may be the cause. A lesion pressing on the stalk can raise prolactin up to six times ULN without a prolactinoma. (strong)",
@@ -121,6 +168,55 @@
     }
    ],
    "locator": "Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature), 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement', published online 5 September 2023, https://www.nature.com/articles/s41574-023-00886-5, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2: one raised prolactin can be enough for the diagnosis, provided blood was taken without undue stress** (S1 advises repeating results below five times the upper limit).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f06ccb4448a4738e",
+     "n": 194,
+     "p": "The diag"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Macroprolactin accounts for at least 10% of hyperprolactinaemia** and is mostly inactive. Many Australian laboratories screen for it routinely with polyethylene glycol precipitation, which also gives the monomeric prolactin, usually normal in macroprolactinaemia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "beaa536b1d6f6dba",
+     "n": 441,
+     "p": "Estimate"
+    },
+    {
+     "h": "f72cad1cceacf468",
+     "n": 260,
+     "p": "Many lab"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Work-up once confirmed (S2):** gonadotrophins with oestradiol in women or morning testosterone in men; thyroid and kidney function; a pregnancy test in women who could be pregnant. Pituitary MRI unless another clear cause is found; for a mass over 1 cm, test other pituitary hormones and visual fields. Check bone density if hypogonadal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15b192ea2c674d88",
+     "n": 208,
+     "p": "Women an"
+    },
+    {
+     "h": "d558cc696e42343a",
+     "n": 285,
+     "p": "Unless a"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Cabergoline is the preferred dopamine agonist** (long half-life, most effective, well tolerated), and patients on other agonists who are resistant or intolerant should switch to it. Knosp grade 2 or higher: treat with cabergoline. (strong)",
@@ -213,6 +309,63 @@
    ],
    "locator": "Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature), 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement', published online 5 September 2023, https://www.nature.com/articles/s41574-023-00886-5, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Treatment is usually unnecessary** for physiological or drug-induced hyperprolactinaemia, macroprolactinaemia or an asymptomatic microprolactinoma; hypothyroidism-related hyperprolactinaemia should settle on thyroxine. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "84d95715363a2cf7",
+     "n": 329,
+     "p": "Some pat"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Symptomatic drug-induced hyperprolactinaemia (S2):** first stop the drug or switch to one that spares prolactin. If stopping is riskier, treat hypogonadism with sex hormone replacement. A dopamine agonist is only occasionally used for galactorrhoea, because it can worsen the psychiatric illness in someone on an antipsychotic.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "067039edf413f70e",
+     "n": 649,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **In Australia, cabergoline and bromocriptine are the dopamine agonists mostly used, and quinagolide (non-ergot) is also available;** start low and titrate to limit nausea and postural hypotension. Cabergoline normalises prolactin in up to 95% and shrinks the tumour in about 90%. S2 names the agonist as first-line for every macroprolactinoma and most symptomatic microprolactinomas.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4bb4c708e92adcb",
+     "n": 526,
+     "p": "The firs"
+    },
+    {
+     "h": "a25e8b137cc3cff2",
+     "n": 91,
+     "p": "Cabergol"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 defines resistance as under 50% shrinkage or a prolactin that does not normalise** (10% of patients on cabergoline, 25% on bromocriptine); try another agonist or higher doses. Surgery, radiotherapy or both are often needed for persistent field loss, resistance or apoplexy; after surgery prolactin normalises in about 90% of microadenomas but under 50% of macroadenomas.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c575fd2ee43079c6",
+     "n": 688,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
   },
   {
    "claim": "🚩 **Warn about impulse-control disorders** (gambling, compulsive buying, hypersexuality, aggression, mood change), more often in men; stop or reduce the drug if they occur, and involve the partner or family. (strong)",
@@ -315,6 +468,37 @@
    "locator": "Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature), 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement', published online 5 September 2023, https://www.nature.com/articles/s41574-023-00886-5, retrieved 2026-09-23"
   },
   {
+   "claim": "**Valve risk from cabergoline (S2) is mainly with daily doses above 3 mg (as in Parkinson's disease);** prolactinoma doses, usually under 2 mg a week, appear not to cause valvulopathy, and bromocriptine does not.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c32de80c2d87891",
+     "n": 448,
+     "p": "Conseque"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monitoring and stopping (S2):** check prolactin one month after starting, then periodically; MRI after about a year for a microprolactinoma, earlier for a macroprolactinoma, new symptoms or rising prolactin. The agonist can often be tapered off after 2–3 years if prolactin stays normal, especially with no visible adenoma, but hyperprolactinaemia returns in 26–69%, mostly within 12 months, so keep testing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9bc9457ed277c813",
+     "n": 442,
+     "p": "Prolacti"
+    },
+    {
+     "h": "1560db289f0de442",
+     "n": 475,
+     "p": "Dopamine"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Stop the dopamine agonist once pregnancy is confirmed** (keeping it is an option for large macroprolactinomas). Do not use prolactin to follow the tumour in pregnancy. With a macroprolactinoma, review monthly and check visual fields every 3 months; MRI without gadolinium if growth is suspected. (strong)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -359,6 +543,19 @@
     }
    ],
    "locator": "Pituitary Society (Petersenn S, Fleseriu M, Casanueva FF, et al.), Nature Reviews Endocrinology (Springer Nature), 'Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement', published online 5 September 2023, https://www.nature.com/articles/s41574-023-00886-5, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Pregnancy raises growth risk mainly in macroprolactinomas:** clinically significant growth in 20–25%, against about 3% for microprolactinomas. (S2)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a0213cb048b7776",
+     "n": 214,
+     "p": "The oest"
+    }
+   ],
+   "locator": "Australian Prescriber (Chen AX, Burt MG), Aust Prescr 2017;40:220-4 (doi 10.18773/austprescr.2017.060), 'Hyperprolactinaemia', published 1 December 2017, https://australianprescriber.tg.org.au/articles/hyperprolactinaemia.html, retrieved 2026-09-24"
   }
  ]
 }

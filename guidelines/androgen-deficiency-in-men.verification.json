@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/androgen-deficiency-in-men.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.mja.com.au/journal/2016/205/4/endocrine-society-australia-position-statement-male-hypogonadism-part-1 ; https://www.mja.com.au/journal/2016/205/5/endocrine-society-australia-position-statement-male-hypogonadism-part-2"
+  "https://www.mja.com.au/journal/2016/205/4/endocrine-society-australia-position-statement-male-hypogonadism-part-1 ; https://www.mja.com.au/journal/2016/205/5/endocrine-society-australia-position-statement-male-hypogonadism-part-2",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Endocrine Society of Australia (Yeap BB et al.), Medical Journal of Australia 2016;205(4):173-178 and 205(5) 'Endocrine Society of Australia position statement on male hypogonadism (part 1: assessment and indications for testosterone therapy; part 2: treatment and therapeutic considerations)' (published 15 August and 5 September 2016). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2016 AMPCo Pty Ltd. All rights reserved (read at the copyright line of each article PDF (free-to-read PDFs linked from the MJA article pages)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Endocrine Society of Australia (Yeap BB et al.), Medical Journal of Australia 2016;205(4):173-178 and 205(5) 'Endocrine Society of Australia position statement on male hypogonadism (part 1: assessment and indications for testosterone therapy; part 2: treatment and therapeutic considerations)' (published 15 August and 5 September 2016), 22 claims; LICENCE: © 2016 AMPCo Pty Ltd. All rights reserved (read at the copyright line of each article PDF (free-to-read PDFs linked from the MJA article pages)). S2: QUOTED from European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062) 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research' (published online 15 May 2025 (issue 2026)), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12670475). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European Expert Panel for Testosterone Research position statement on cardiovascular safety after TRAVERSE (Andrology, CC BY 4.0, quoted), for post-2016 cardiovascular evidence and practical monitoring. S2 says it is not written as a guideline, and its meeting and publication were funded by Androlabs (stated in its acknowledgments). S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 22,
-  "pass": 0,
+  "total": 31,
+  "pass": 9,
   "fail": 0,
   "pass_paraphrase_anchored": 22
  },
@@ -248,6 +249,20 @@
    "locator": "Endocrine Society of Australia (Yeap BB et al.), Medical Journal of Australia 2016;205(4):173-178 and 205(5), 'Endocrine Society of Australia position statement on male hypogonadism (part 1: assessment and indications for testosterone therapy; part 2: treatment and therapeutic considerations)', published 15 August and 5 September 2016, https://www.mja.com.au/journal/2016/205/4/endocrine-society-australia-position-statement-male-hypogonadism-part-1 ; https://www.mja.com.au/journal/2016/205/5/endocrine-society-australia-position-statement-male-hypogonadism-part-2, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 position (differs from S1):** confirm hypogonadism with consistent symptoms and a low testosterone (EAU and EAA use 12.0 nmol/L as the cut-off), and separate organic (primary or secondary) from functional hypogonadism. In functional hypogonadism, weight management and physical activity come first and must precede testosterone; S2 then treats testosterone as an option, whereas S1 does not justify it without a pathological cause.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Accurate diagnosis: Confirm hypogonadism with consistent symptoms (e.g., fatigue, low libido) and low serum testosterone according to guidelines. The EAU and EAA guidelines mention 12.0 nmol/L as cut‐off. … A distinction between functional and organic hypogonadism for individualized treatment is required. The latter forms can be primary or secondary hypogonadism. This \"classical form\" of hypogonadism can be of testicular origin or due to hypothalamic-pituitary failure, thus have definitive etiologies. Functional hypogonadism represents a clinical condition associated with comorbidities (e.g., obesity, MetS), which can act either at central or peripheral level, potentially requiring lifestyle intervention prior to TTh. … Especially in functional hypogonadism, where the underlying morbidity is most often obesity‐associated, this is a paramount key to success of treatment and must precede TTh.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not start testosterone** when paternity is wanted, with unexplained prostate or breast changes, or with a high haematocrit; avoid it with untreated sleep apnoea, severe heart failure, a recent cardiovascular event or hormone-sensitive cancer unless a specialist is guiding care. (S2)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "TTh should not be initiated in case of desired paternity, unclear processes of the prostate, mammary gland, or high hematocrit (Hct) level. … Exclude contraindications: Avoid TTh in men with untreated sleep apnea, severe heart failure, a recent CV event, or hormone‐sensitive cancers unless under specialist guidance.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Replace with testosterone itself.** Depot intramuscular injection and transdermal gel, cream or liquid are convenient and cost-effective; aim to relieve symptoms and signs at standard doses, keeping levels within the eugonadal reference interval.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -372,6 +387,55 @@
     }
    ],
    "locator": "Endocrine Society of Australia (Yeap BB et al.), Medical Journal of Australia 2016;205(4):173-178 and 205(5), 'Endocrine Society of Australia position statement on male hypogonadism (part 1: assessment and indications for testosterone therapy; part 2: treatment and therapeutic considerations)', published 15 August and 5 September 2016, https://www.mja.com.au/journal/2016/205/4/endocrine-society-australia-position-statement-male-hypogonadism-part-1 ; https://www.mja.com.au/journal/2016/205/5/endocrine-society-australia-position-statement-male-hypogonadism-part-2, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When to sample testosterone (S2):** on gel, about 2–4 h after the last application; on long-acting testosterone undecanoate, preferably 1 week before the next injection (delay the injection if the level is still high-normal); on short-acting injections, just before the next dose. Titrate gels by daily dose and injections by the interval.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Gel formulations: Measure trough levels ∼2-4 h after the last application. ✓ Injectables: Timing depends on the formulation. For long‐acting T undecanoate, measure preferably 1 week before the next injection (the next injection might be adjourned in case of levels still being within the higher normal range). For short acting injections, measure directly before the next injection. … Dosing: Transdermal Gel preparations can be easily titrated in daily dose, injectable forms of treatment should be titrated by modulating injection intervals",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Haematocrit (S2 schedule): every 3–6 months in the first year, then yearly, keeping it below 54%.** If it rises too high, lower the dose, change formulation or pause treatment; phlebotomy may be needed. S1's schedule is at 3 months, then yearly.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Check Hct every 3-6 months in the first year, then annually, keeping levels below 54% to minimize thromboembolic risk. … Erythrocytosis: If Hct exceeds safe limits, adjust TTh dosage, consider a different formulation, or temporarily stop therapy. Phlebotomy may be warranted to reduce Hct.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Australian T4DM trial:** 22% of men on testosterone undecanoate injections had a haematocrit above 0.52 on fasting samples taken in a hot climate, but only 2.5% on repeat non-fasting samples.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the Australian T4DM study, during which more than 1000 men received intramuscular injections of T undecanoate versus placebo, 22% using T had an elevated Hct > 0.52. These blood samples were taken under fasting conditions in a hot country. On repeat samples in a non‐fasting condition the incidence of an elevated Hct fell to 2.5%.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PSA usually rises on testosterone:** a rise of up to 1.4 ng/mL a year is generally considered safe; more than that needs urological evaluation. Monitor lower urinary tract symptoms. (S2)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Prostate health surveillance: Monitor PSA levels and perform prostate exams. PSA levels are likely to increase with TTh. PSA increases ≤1.4 ng/mL/year are generally considered safe. Increases beyond this threshold warrant urologic evaluation. Lower urinary tract symptoms (LUTS) require regular monitoring.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**TRAVERSE (5246 men aged 45–80 with functional hypogonadism, most with cardiovascular disease or high risk) found no significant increase in major adverse cardiovascular events** on 1.62% testosterone gel titrated to 350–750 ng/dL for a mean of 22 months. Heart failure and cardiovascular death did not differ.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "TRAVERSE enrolled 5246, 45-80‐year‐old men (mean age 63.3 years; 47% older than 65 years of age) with functional hypogonadism as above mentioned. Most suffered from existing CV disease or they were at high risk of CV events. Mean body mass index was 35 kg m-2. Approximately 70% had T2DM (HbA1c 6.5-11%), and 90% had hypertension and dyslipidemia. Participants received either placebo or T gel (a 1.62% gel), titrated to maintain physiological serum T levels (350-750 ng/dL) for a mean of 22 months. … Results showed no statistically significant increase in CV risk in the TTh group compared with placebo when either primary or secondary end points were considered. … No significant differences were seen in CV death or heart failure.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **But atrial fibrillation and non-fatal arrhythmias rose slightly but significantly,** and the trial's limits matter: an older, high-risk group (mean age 63.3, BMI 35, about 70% with T2DM), follow-up of only about 22 months, and too few events to settle arrhythmia and heart failure.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "While there was a minor, but significant, increase in AF and non‐fatal arrhythmias … TRAVERSE included an older, high‐risk population (mean age 63.3 years, BMI 35, ∼70% with T2DM), limiting generalizability to younger, healthier hypogonadal men. In these men, CV events may seem less likely, but it is also possible that monitoring is less strict Exclusion of men with low baseline CV risk makes the findings less applicable to this subgroup. The study does not address long‐term CV outcomes beyond ∼22 months. Endpoints like arrhythmias and heart failure were underpowered for definitive conclusions.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After TRAVERSE, the US FDA is removing the boxed-warning language on cardiovascular risk from testosterone labels,** while keeping the limitation-of-use wording for functional hypogonadism. S2 concludes that testosterone is cardiovascularly safe in clinically confirmed hypogonadism with careful selection and monitoring.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Based on recent findings from the TRAVERSE trials, the US FDA is implementing several significant changes to testosterone product labeling: Addition of TRAVERSE trial results to all testosterone product labels Retention of \"limitation of use\" language for functional hypogonadism Removal of language from the Boxed Warning related to increased risk of adverse CV outcomes … The expert panel concludes that TTh is safe from a CV standpoint when prescribed to men with clinically confirmed hypogonadism and managed appropriately.",
+   "locator": "European Expert Panel for Testosterone Research (PaTeR) (Zitzmann M, Rastrelli G, Murray RD, et al.), Andrology 2026;14:294-302 (doi 10.1111/andr.70062), 'Cardiovascular safety of testosterone therapy - Insights from the TRAVERSE trial and beyond: A position statement of the European Expert Panel for Testosterone Research', published online 15 May 2025 (issue 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12670475/, retrieved 2026-09-24"
   }
  ]
 }

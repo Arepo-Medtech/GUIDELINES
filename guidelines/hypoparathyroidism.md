@@ -1,9 +1,11 @@
 # Chronic hypoparathyroidism in adults
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with chronic hypoparathyroidism (mostly after neck surgery): diagnosis, predicting permanence after thyroidectomy, genetic testing, conventional treatment with calcium and active vitamin D (calcitriol in Australia), treatment targets, when PTH replacement is considered, monitoring, and pregnancy. Hypocalcaemia in children and acute post-operative hypocalcaemia are not covered. Secondary hyperparathyroidism in CKD: `secondary-hyperparathyroidism-ckd`.
 
-> ✅ **OPEN AND QUOTED.** 21 claims quoted verbatim from **Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism — *Hypoparathyroidism: update of guidelines from the 2022 International Task Force*** (published 10 November 2022; origin: international); **26 fragments re-checked by machine; 1 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **45 fragments or anchors re-checkable by machine; 2 doses.** **S1** Clarke BL (published 10 November 2022; international): 21 claims, quoted · **S2** Delphi panel of seven experts from Germany (published 12 August 2025; international): 6 claims, quoted
+
+> ⚠️ **S2 is a small regional Delphi consensus (7 experts, DACH region, 2025), industry-funded (Ascendis).** It adds post-operative testing, the current PTH-replacement position and monitoring intervals; **S1** (Second International Workshop, 2022) remains the main source. Where they differ, both are shown.
 
 > ⚠️ International guideline (Second International Workshop on Hypoparathyroidism, 2022, as summarised by a task-force member). Australian practice follows the PBS listings below and may differ.
 
@@ -19,6 +21,9 @@
 - **Avoiding parathyroid autotransplantation during neck surgery may lower the risk;** autotransplant only after inadvertent parathyroidectomy. [S1]
 - **Genetic testing for non-surgical hypoparathyroidism** with a family history, syndromic features, or age under 40; test for AIRE variants when there are other features of APECED. [S1]
 - **Complications (median across studies):** cataracts 24%, infections 18%, nephrocalcinosis or stones 15%, renal insufficiency 13%, seizures 12%, depression 11%, ischaemic heart disease 9%, arrhythmias 7%. [S1]
+- **S2 consensus on making the diagnosis:** measure albumin-adjusted calcium, albumin and PTH together; an isolated calcium or 25OH vitamin D is not enough, and there is no universally accepted PTH cut-off. Low calcium is an albumin-adjusted total calcium of 2.1 mmol/L or below; a fall of more than 70% from pre- to post-operative PTH is strongly associated with chronic disease (PARAT). [S2]
+- **After neck surgery, check albumin-adjusted calcium at 12–24 h, again within 2 weeks, then every 3–6 months,** and later still if symptoms suggest hypoparathyroidism. Monitor more often with higher-risk surgery: female sex, central or lateral neck dissection, total thyroidectomy, incidental parathyroidectomy or cancer. [S2]
+- **Most acute post-operative hypoparathyroidism recovers within 6–12 months;** the S2 panel agreed recovery can no longer be expected after 12 months (no consensus on 6 months), consistent with S1. The commonest symptoms are paraesthesia, muscle cramps and fatigue. [S2]
 
 ## Treat
 
@@ -31,6 +36,8 @@
 - **PTH may also help** in poor adherence, malabsorption, intolerance of large calcium and active vitamin D doses, or when needs are high (e.g. active vitamin D > 2 mcg/day). [S1]
 - ⚠️ **Do not routinely use bisphosphonates, denosumab, oestrogen or raloxifene** (they worsen the already low bone turnover), and **never use cinacalcet**, which suppresses any remaining PTH secretion. Thiazides may be used to cut urine calcium. [S1]
 - **Normocalcaemic hypoparathyroidism:** no treatment recommendation is made, as benefit is unclear. [S1]
+- **S2 treatment goals:** calcium in the lower reference range, no symptoms, quality of life like age- and sex-matched peers, normal urinary calcium, phosphate and magnesium, and 25OH vitamin D above 50 nmol/L; long term, avoid complications and both hypo- and hypercalcaemia. [S2]
+- ⚠️ **PTH replacement now (S2):** about 10% (range 5–20%) of patients are not controlled on calcium and active vitamin D. **rhPTH(1–84) production ended in 2024;** the remaining European option is **palopegteriparatide**, a once-daily prodrug of PTH(1–34), aiming for normal calcium without active vitamin D and with calcium no more than 600 mg a day. In the PaTHway trial, 79% became independent of calcium and active vitamin D, with normal mean 24-h urine calcium. [S2]
 
 ## Monitor
 
@@ -38,6 +45,7 @@
 - **When stable:** calcium, phosphate, magnesium, creatinine and eGFR every 3-12 months; 25OHD every 6-12 months; 24-hour urine calcium and creatinine every 6-24 months. Unstable patients need more frequent calcium and phosphate. [S1]
 - **Baseline renal imaging for calcification or stones,** and recheck calcium within several days of any significant treatment change (expert opinion). [S1]
 - **Bone density testing is not routine:** bone mass is usually high without PTH. [S1]
+- **S2 monitoring intervals:** urine calcium to creatinine at least once a year (the international guideline behind S1 allows 6–24 months; ESE suggests creatinine every 3–6 months); a validated hypoparathyroidism-specific quality-of-life questionnaire (such as the free HPQ28) every 6–12 months where possible; and on PTH therapy, review at least every 3 months in the first year once a stable dose is reached. [S2]
 
 ## Pregnancy and lactation
 
@@ -64,11 +72,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Probable typo in the source:** it gives a high calcium supplement dose as '> 2 mg/day' (almost certainly grams). The quoted fragment keeps it; the claim does not repeat the figure. | `observation` |
 | 3 | **Source type:** a summary article by a task-force member of the Second International Workshop guidelines (JBMR 2022), not the full guideline, which was unreadable (Wiley/OUP 403). The ESE 2025 revised guideline was not found in open full text. | `observation` |
 | 4 | **Acute post-operative hypocalcaemia and hypoparathyroidism in children** are out of scope. | `out_of_scope` |
+| 5 | **ESE 2025 revised guideline** (Bollerslev et al., Eur J Endocrinol, doi 10.1093/ejendo/lvaf222, CC BY-NC) exists but is behind a bot challenge at academic.oup.com and has no PMC copy; it was not used. | `observation` |
+| 6 | **Sources differ on vitamin D and urine monitoring:** S1 keeps 25OHD in the laboratory normal range (e.g. 75–125 nmol/L) and checks 24-h urine every 6–24 months; S2 accepts 25OHD above 50 nmol/L and checks urine calcium yearly. Both are shown. | `observation` |
+| 7 | **PTH replacement in Australia:** neither palopegteriparatide nor rhPTH(1–84) is among the PBS drugs listed below; S2 describes European availability only. Check TGA status. | `observation` |
+| 8 | **S2's consensus tables (Tables 1–4) and the non-consensus statements (Supplement Table S1)** were stripped or not retrieved. | `input_unavailable` |
+| 9 | **Licence (S2):** CC BY 4.0; S2 claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism. *Hypoparathyroidism: update of guidelines from the 2022 International Task Force*. published 10 November 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC10118814/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5). *Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region*. published 12 August 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

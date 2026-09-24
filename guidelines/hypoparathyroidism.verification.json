@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/hypoparathyroidism.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10118814/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10118814/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force' (published 10 November 2022). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10118814). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force' (published 10 November 2022), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10118814). S2: QUOTED from Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5) 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region' (published 12 August 2025), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12343711). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 Delphi consensus of seven experts from Germany, Austria and Switzerland (Calcified Tissue International, CC BY 4.0, quoted), for post-operative testing, current PTH replacement (palopegteriparatide; rhPTH(1-84) withdrawn) and monitoring intervals. S2 was funded by Ascendis, maker of palopegteriparatide (stated in its funding section). The ESE 2025 revised guideline (Eur J Endocrinol, CC BY-NC) was found but sits behind a bot challenge on academic.oup.com and has no PMC copy, so it was not used. No Australian hypoparathyroidism guideline was found. S1 claims and quotes are unchanged.",
  "summary": {
-  "total": 21,
-  "pass": 21,
+  "total": 27,
+  "pass": 27,
   "fail": 0
  },
  "claims": [
@@ -57,6 +58,27 @@
    "verdict": "pass",
    "source_text": "Cataracts are reported in 24% of patients, infections in 18%, nephrocalcinosis/nephrolithiasis in 15%, renal insufficiency in 13%, seizures in 12%, depression in 11%, ischemic heart disease in 9%, and arrhythmias in 7%",
    "locator": "Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism, 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force', published 10 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC10118814/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 consensus on making the diagnosis:** measure albumin-adjusted calcium, albumin and PTH together; an isolated calcium or 25OH vitamin D is not enough, and there is no universally accepted PTH cut-off. Low calcium is an albumin-adjusted total calcium of 2.1 mmol/L or below; a fall of more than 70% from pre- to post-operative PTH is strongly associated with chronic disease (PARAT).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The experts also unanimously agreed on a combination of serum albumin-adjusted calcium, serum albumin, and serum PTH levels as a prerequisite for the diagnosis of HypoPT, whereas the measurement of isolated serum calcium and serum concentrations of 25 (OH) vitamin D is not adequate for diagnosis. Regarding serum albumin-adjusted calcium, they agreed on the possibility of an assessment 12-24 h post-surgically, within 2 weeks postoperative, as well as subsequently every 3 to 6 months thereafter. With regards to serum PTH levels, respondents agreed that there is no generally recognized threshold that could be used as a diagnostic criterion (6 out of 7 agreed). … Low serum calcium is defined as a subnormal albumin-adjusted total calcium of ≤ 8.4 mg/dL or ≤ 2.1 mmol/L []. … The Position Statement of the PARAT program identified an additional approach, namely calculating the ratio between pre- and post-surgical serum PTH concentrations and the decrease of > 70% as being strongly associated with chronic Hypo-PT []. … They suggest that both serum PTH and albumin-adjusted calcium levels should be measured by the same laboratory where the initial postoperative measurements were performed []",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After neck surgery, check albumin-adjusted calcium at 12–24 h, again within 2 weeks, then every 3–6 months,** and later still if symptoms suggest hypoparathyroidism. Monitor more often with higher-risk surgery: female sex, central or lateral neck dissection, total thyroidectomy, incidental parathyroidectomy or cancer.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Regarding serum albumin-adjusted calcium, they agreed on the possibility of an assessment 12-24 h post-surgically, within 2 weeks postoperative, as well as subsequently every 3 to 6 months thereafter. … Factors significantly linked with transient and permanent HypoPT include sex (female vs. male), cN stage, central neck dissection, lateral neck dissection, the extent of central neck dissection (bilateral vs. unilateral), type of surgery (total thyroidectomy [TT] vs. lobectomy), type of total thyroidectomy (TT vs. sub-TT), incidental parathyroidectomy, and pathology (cancer vs. benign) []. These factors should be taken into consideration with regards to a higher frequency of biochemical monitoring post-surgically.",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most acute post-operative hypoparathyroidism recovers within 6–12 months;** the S2 panel agreed recovery can no longer be expected after 12 months (no consensus on 6 months), consistent with S1. The commonest symptoms are paraesthesia, muscle cramps and fatigue.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The majority of patients with acute HypoPT recover during the first 6-12 months [] … No consensus was reached on whether a surgically induced HypoPT will recover after 6 months (5 of 7 agreed). On the other hand, there was a consensus (6 out of 7) that a surgically induced HypoPT can no longer be expected to recover after 12 months. … Regarding the symptoms of HypoPT, all experts stated that paresthesia, muscle cramps and fatigue were the three most common manifestations (7 out of 7 agreed).",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Conventional therapy, calcium plus active vitamin D, is first line** (weak recommendation, low quality evidence).",
@@ -123,6 +145,21 @@
    "locator": "Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism, 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force', published 10 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC10118814/, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 treatment goals:** calcium in the lower reference range, no symptoms, quality of life like age- and sex-matched peers, normal urinary calcium, phosphate and magnesium, and 25OH vitamin D above 50 nmol/L; long term, avoid complications and both hypo- and hypercalcaemia.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Treatment goals include serum albumin-adjusted calcium concentrations in the lower reference range, lack of symptoms, improved quality of life, defined as reduction of negative impact of physical, mental or emotional health, urinary calcium, serum phosphate, serum magnesium within reference ranges, and an adequate 25 OH vitamin D status (> 50 nmol/L) [, ]. … the most important long-term goals are the avoidance of complications and the prevention of hypo- and hypercalcemia.",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **PTH replacement now (S2):** about 10% (range 5–20%) of patients are not controlled on calcium and active vitamin D. **rhPTH(1–84) production ended in 2024;** the remaining European option is **palopegteriparatide**, a once-daily prodrug of PTH(1–34), aiming for normal calcium without active vitamin D and with calcium no more than 600 mg a day. In the PaTHway trial, 79% became independent of calcium and active vitamin D, with normal mean 24-h urine calcium.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Experts estimated that on average, in 10% (with a range of 5 to 20%) of patients therapy with calcium and active vitamin D is inadequate and they require PTH replacement therapy. … rhPTH(1-84) had been approved as an adjunctive treatment of adult patients with chronic hypoparathyroidism who cannot be adequately controlled with standard therapy alone-however, production of rhPTH(1-84) was terminated in 2024. … As production ended in 2024, this treatment is no longer available []. The second is palopegteriparatide (or TransCon PTH), which is available as a once-daily injection. Palopegteriparatide is a prodrug of PTH(1-34), administered once-daily, designed to provide active PTH within the physiologic range for 24 h/day []. The primary goal of PTH-replacement therapy with palopegteriparatide is to maintain serum calcium within the normal range without need for additional treatment with active vitamin D and oral calcium beyond low doses (calcium dose ≤ 600 mg/d) [] … In the PaTHway study, independence from calcium and active vitamin D supplements was achieved in 79% of all participants receiving palopegteriparatide, and mean 24-h urine calcium was normalized.",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**At first assessment:** ionised or albumin-adjusted calcium, phosphate, magnesium, creatinine, eGFR, 25OHD, and 24-hour urine calcium and creatinine.",
    "source": "S1",
    "verdict": "pass",
@@ -149,6 +186,13 @@
    "verdict": "pass",
    "source_text": "Skeletal assessment of patients with chronic HypoPT by bone density testing by DXA, vertebral fracture analysis, spine x-rays, or trabecular bone score, if available, are not routinely recommended because these patients usually have high bone mass due to absence or lack of circulating PTH.",
    "locator": "Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism, 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force', published 10 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC10118814/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 monitoring intervals:** urine calcium to creatinine at least once a year (the international guideline behind S1 allows 6–24 months; ESE suggests creatinine every 3–6 months); a validated hypoparathyroidism-specific quality-of-life questionnaire (such as the free HPQ28) every 6–12 months where possible; and on PTH therapy, review at least every 3 months in the first year once a stable dose is reached.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The experts unanimously supported the need to measure urinary calcium/creatinine levels at least once a year and unanimously agreed that assessing quality of life using validated questionnaires is relevant for monitoring therapy. All experts also agreed that quality of life questionnaires specifically designed and validated for HypoPT are important for this purpose (Table 3). … Khan et al. [] support a range of 6-24 months and Bollerslev et al. [] recommend creatinine measurement every 3-6 months. … The use of these specific questionnaires as part of the monitoring program of patients with chronic HypoPT, i.e., every 6-12 months, is recommended if possible. … subsequent PTH therapy should be monitored at least quarterly during the first year, after reaching a stable state without dose adjustments, and thereafter adjusted if necessary.",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
   },
   {
    "claim": "**Keep calcium in the mid-to-low normal range through pregnancy,** with phosphate, magnesium and 25OHD normal. Check calcium every 3-4 weeks in pregnancy and lactation, more often in the month before and after delivery or with symptoms.",

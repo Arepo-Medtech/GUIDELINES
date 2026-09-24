@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/obesity.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/",
+  "https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update' (published 11 August 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12350384). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update' (published 11 August 2025), 19 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12350384). S2: PARAPHRASED AND HASH-ANCHORED from Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003) 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)' (updated January 2026 (PDF dated 3 February 2026)), 12 claims; LICENCE: No licence or reuse terms stated in the PDF (treated as all rights reserved) (read at the PDF itself (27 pages; no copyright or licence statement) and the ADS page https://www.diabetessociety.com.au/guideline/obesity/). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Australian Diabetes Society's Australian Obesity Management Algorithm (January 2026 update), for the Australian treatment pathway, diets, starting doses, phentermine, bariatric surgery criteria and pregnancy. S1 claims and anchors are unchanged. The NHMRC 2013 obesity guideline is marked 'Rescinded' on nhmrc.gov.au and was not used as a source; S2 restates its bariatric surgery criteria.",
  "summary": {
-  "total": 19,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -86,6 +87,129 @@
     }
    ],
    "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Australian pathway: BMI band, waist circumference and complications decide the treatment.** Abdominal obesity is a waist above 88 cm in women or 102 cm in men. For South Asian, South-East Asian, East Asian and Aboriginal and Torres Strait Islander people, use BMI 27.5–37.5 and above 37.5 in place of 30–40 and above 40.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c994df026d650446",
+     "n": 329,
+     "p": "Treatmen"
+    },
+    {
+     "h": "f39272219034bab3",
+     "n": 603,
+     "p": "The algo"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Weight-loss targets (a guide, to be agreed with the person):** 10–15% for BMI 30–40, or for BMI above 40 without complications; more than 15% for BMI above 40 with complications. Even about 5% lowers diabetes risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1754e87d141a1860",
+     "n": 769,
+     "p": "A target"
+    },
+    {
+     "h": "4b732c83e5dde694",
+     "n": 236,
+     "p": "These ta"
+    },
+    {
+     "h": "303d49a850e3c9dd",
+     "n": 70,
+     "p": "with wei"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Three levels of energy restriction:** a reduced energy diet (a deficit of 2000–4000 kJ a day); a low energy diet (4200–5000 kJ a day, which can replace one or two meals with formulated meal replacements); and a very low energy diet (under 3300 kJ a day, meals replaced by formulated products), offered when the first two have not worked or rapid loss is needed, such as before surgery.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "193134292410713c",
+     "n": 89,
+     "p": "An RED a"
+    },
+    {
+     "h": "6f2f6fda286dabfb",
+     "n": 354,
+     "p": "An LED a"
+    },
+    {
+     "h": "a69b6a6fd4a6ce47",
+     "n": 491,
+     "p": "For indi"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Very low energy diet in practice:** usually up to 12 weeks, or 6–12 months under close supervision, with review at least monthly. The partial regimen replaces two meals a day and the complete regimen all three; add a teaspoon of olive oil daily to reduce gallstone risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ceae67f892cb5925",
+     "n": 97,
+     "p": "VLEDs ar"
+    },
+    {
+     "h": "6cdb066b86c04f56",
+     "n": 537,
+     "p": "Regular "
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **In DiRECT-Aus (25 NSW general practices), a very low energy diet put 56% into diabetes remission at 12 months,** among people who had had type 2 diabetes for 6 years or less.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f03587a7635be63",
+     "n": 206,
+     "p": "In DiREC"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Not for a very low energy diet:** pregnancy or breastfeeding; severe psychiatric illness, alcoholism or drug dependence; recent myocardial infarction, stroke or unstable angina; porphyria; and use caution over 65. **On insulin or a sulfonylurea, halve the dose at the start** and adjust by frequent glucose checks; on an SGLT2 inhibitor, monitor ketones or consider stopping it; on warfarin, check the INR after one week.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b680f0efb4cfc667",
+     "n": 292,
+     "p": "Pregnanc"
+    },
+    {
+     "h": "3781aff152b84598",
+     "n": 155,
+     "p": "Doses of"
+    },
+    {
+     "h": "eb9bac981c18fecb",
+     "n": 106,
+     "p": "Monitor "
+    },
+    {
+     "h": "bc98fbac28640301",
+     "n": 91,
+     "p": "Individu"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Semaglutide 2.4 mg weekly** (trial entry BMI ≥ 30, or ≥ 27 with a complication, no diabetes) gave −14.9% weight change at 68 weeks vs −2.4% on placebo. Nausea, vomiting and diarrhoea were common and mostly transient; gallbladder problems and, rarely, pancreatitis occurred.",
@@ -183,6 +307,130 @@
     }
    ],
    "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **The TGA has approved six obesity medicines:** semaglutide 2.4 mg, tirzepatide, liraglutide, naltrexone–bupropion, orlistat and phentermine. When lifestyle change is not enough, the Australian algorithm usually adds semaglutide 2.4 mg (Wegovy) or tirzepatide (Mounjaro).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b4d13b468a3facb9",
+     "n": 217,
+     "p": "Six medi"
+    },
+    {
+     "h": "b475b73ea9fa98fa",
+     "n": 177,
+     "p": "If weigh"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Starting doses and titration (S2):** liraglutide 0.6 mg daily, raised by 0.6 mg a week to a maximum of 3.0 mg; semaglutide 0.25 mg weekly, raised monthly to 2.4 mg; tirzepatide 2.5 mg weekly, raised monthly to a maintenance dose of 5, 10 or 15 mg; naltrexone 8 mg/bupropion 90 mg, one tablet a day, adding one a week up to two tablets twice a day.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "533e2d56e534944a",
+     "n": 189,
+     "p": "The star"
+    },
+    {
+     "h": "6333d2c6be1f766c",
+     "n": 94,
+     "p": "The reco"
+    },
+    {
+     "h": "b52ffddf719ce11a",
+     "n": 133,
+     "p": "The reco"
+    },
+    {
+     "h": "3366304a286cc8f0",
+     "n": 97,
+     "p": "Naltrexo"
+    },
+    {
+     "h": "8e65f0a4c89368af",
+     "n": 139,
+     "p": "graduall"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Phentermine (S2 only; not among S1's recommended medicines)** is licensed only for up to 3 months as an add-on to lifestyle change and gives 5–10% loss over 12 weeks with a low-energy diet. Avoid it alongside antidepressants and in coronary heart disease, heart rhythm disorders or uncontrolled high blood pressure; it can cause a fast heart rate, raised blood pressure, insomnia and dry mouth.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e85693587910c218",
+     "n": 241,
+     "p": "Side eff"
+    },
+    {
+     "h": "85879937f1f9b8ab",
+     "n": 200,
+     "p": "Phenterm"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Semaglutide can worsen pre-existing diabetic retinopathy,** most likely through the rapid fall in glucose, so people with a history of retinopathy need close eye monitoring.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "184dad4e22f4bd59",
+     "n": 255,
+     "p": "worsenin"
+    },
+    {
+     "h": "fc15074277c7bf76",
+     "n": 101,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Consider bariatric surgery** (NHMRC criteria as restated by ADS) for BMI above 40; BMI 35.0–39.9 with complications that weight loss may improve; or BMI 30.0–34.9 with poorly controlled type 2 diabetes and raised cardiovascular risk. **In type 2 diabetes, ADS endorses metabolic surgery** at BMI 40 or more whatever the glucose control, or BMI 35.0–39.9 with inadequate control despite optimal therapy, and suggests considering it at 30.0–34.9 when hyperglycaemia remains uncontrolled.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "914c4418d9da8577",
+     "n": 274,
+     "p": "bariatri"
+    },
+    {
+     "h": "3c2339e99b4bd766",
+     "n": 438,
+     "p": "BMI ≥ 40"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Pregnancy (Australian categories):** semaglutide, tirzepatide and topiramate are category D. If bariatric surgery is indicated, do it at least 12–18 months before pregnancy. With BMI above 30, total gestational weight gain should not exceed 9 kg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2a242e013621161f",
+     "n": 264,
+     "p": "If indic"
+    },
+    {
+     "h": "bfd046234990eb27",
+     "n": 82,
+     "p": "In women"
+    }
+   ],
+   "locator": "Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003), 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)', updated January 2026 (PDF dated 3 February 2026), https://www.diabetessociety.com.au/wp-content/uploads/2026/02/Australian-Obesity-Management-Algorithm-January-2026.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Obesity medicines are long-term treatment.** Trials consistently show weight regain and loss of health benefit when they are stopped, even with continued lifestyle change.",

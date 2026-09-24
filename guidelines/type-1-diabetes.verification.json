@@ -1,20 +1,22 @@
 {
  "guideline": "guidelines/type-1-diabetes.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/",
+  "https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)' (published 30 September 2021 (corrected 2021)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence) (read at Europe PMC fullTextXML <permissions>/<license> element for PMC8481000). The source's words are NOT reproduced here. The consensus report's glycaemic-target and insulin-regimen tables (Tables 1 and 5) were stripped and are not used.",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)' (published 30 September 2021 (corrected 2021)), 25 claims; LICENCE: © European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence) (read at Europe PMC fullTextXML <permissions>/<license> element for PMC8481000). S2: PARAPHRASED AND HASH-ANCHORED from Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118) 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group' (published 15 November 2021), 7 claims; LICENCE: © 2021 AMPCo Pty Ltd (no open licence) (read at the copyright line of the article PDF linked from the MJA article page). S3: PARAPHRASED AND HASH-ANCHORED from International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266) 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets' (published 19 December 2024), 5 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11854972). Verify each source separately: verify.py --source <file> --only-source S<n>. The consensus report's glycaemic-target and insulin-regimen tables (Tables 1 and 5) were stripped and are not used. Edition 2.0 adds S2, the Australian ADS/ADEA/APEG/ADIPS consensus statement on diabetes technologies (MJA 2021, paraphrased), for Australian access to pumps, CGM and dose advisors across the lifespan, and S3, the ISPAD 2024 glycaemic-targets chapter (CC BY-NC, paraphrased), for children and adolescents. S1 claims and anchors are unchanged. The 2011 APEG/ADS national type 1 diabetes guideline was not used because it is 15 years old.",
  "summary": {
-  "total": 25,
+  "total": 37,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 37
  },
  "claims": [
   {
@@ -124,6 +126,96 @@
     }
    ],
    "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**HbA1c target for children and adolescents: 48 mmol/mol (6.5%) or lower** when it can be reached safely with CGM and automated insulin delivery, without adding burden that harms quality of life (grade C); **53 mmol/mol (7%) or lower** otherwise (grade A). Measure HbA1c every 3 months.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e42c76f85995df68",
+     "n": 342,
+     "p": "ISPAD re"
+    },
+    {
+     "h": "f2a1d0a249894d31",
+     "n": 100,
+     "p": "with an "
+    }
+   ],
+   "locator": "International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266), 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets', published 19 December 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**CGM targets for young people:** more than 70% of time at 3.9–10 mmol/L, under 4% below 3.9, under 1% below 3.0, under 25% above 10 and under 5% above 13.9 mmol/L (grade B). Reaching an HbA1c of 6.5% may need time in range above 80%; time in tight range (3.9–8 mmol/L) above 50% is an emerging metric.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a438bb3360dfcb03",
+     "n": 287,
+     "p": "Children"
+    },
+    {
+     "h": "ebf89c520b3a29d0",
+     "n": 380,
+     "p": "It is re"
+    }
+   ],
+   "locator": "International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266), 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets', published 19 December 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Without CGM:** finger-prick glucose of 4.0–8.0 mmol/L before meals and 4.0–10 mmol/L after meals, tested at least 6 times a day on insulin (grade B); fasting and bedtime 4.0–8 mmol/L, with 4.0–10 mmol/L at bedtime reasonable after hypoglycaemia or exercise.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6bf39363fdbd1bd6",
+     "n": 256,
+     "p": "In the a"
+    },
+    {
+     "h": "b364aead7ff37006",
+     "n": 409,
+     "p": "Fasting "
+    }
+   ],
+   "locator": "International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266), 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets', published 19 December 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why the lower target:** retinopathy is least common at transition to adult care when HbA1c has been 48 mmol/mol (6.5%) or lower. **But individualise it** where CGM and insulin-suspending technology are unavailable, because severe hypoglycaemia can harm cognition.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d09664921d1c9cf",
+     "n": 144,
+     "p": "Critical"
+    },
+    {
+     "h": "3842980bd64e3b0a",
+     "n": 479,
+     "p": "Yet, in "
+    }
+   ],
+   "locator": "International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266), 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets', published 19 December 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Watch weight as glycaemia improves:** BMI SDS is rising in young people with diabetes, though automated insulin delivery improves glucose without changing BMI; dietetic education matters.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "793b1a42cf3648df",
+     "n": 205,
+     "p": "This is "
+    },
+    {
+     "h": "a54f52b50c7b0632",
+     "n": 330,
+     "p": "Use of a"
+    }
+   ],
+   "locator": "International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266), 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets', published 19 December 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/, retrieved 2026-09-24"
   },
   {
    "claim": "**Review glucose with the care team as often as needed and at least once a year; check glycaemic status at least every 3 months after a therapy change or when goals are not being met.**",
@@ -286,6 +378,147 @@
     }
    ],
    "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Start pumps, CGM or dose advisors on engagement, not strict glucose thresholds.** Essential: willingness with realistic expectations, regular contact with the diabetes team, individual goals set with a diabetes specialist, and carbohydrate counting for insulin-delivery devices.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16bc0c782bc2a275",
+     "n": 264,
+     "p": "Rather t"
+    },
+    {
+     "h": "7024f6bf5fda4b84",
+     "n": 467,
+     "p": "Essentia"
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Technology is likely to help most with:** past severe hypoglycaemia needing help, impaired awareness or fear of hypoglycaemia, poor diabetes-related quality of life, glucose variability, repeated hospital visits for hypoglycaemia or DKA, pregnancy or planning it, jobs where finger pricks are impractical, transplant candidacy, a need for remote monitoring, needle phobia or insulin allergy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4397b797411b4fcf",
+     "n": 1065,
+     "p": "Criteria"
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Continue technology while the person keeps using it, stays in contact with the team, is helped towards their goals, and a specialist reviews and signs off.** Avoid punitive cut-offs: address barriers, switch device, or allow a break.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c123d1c39999fabd",
+     "n": 483,
+     "p": "Essentia"
+    },
+    {
+     "h": "d292bf699b728b93",
+     "n": 488,
+     "p": "Rather t"
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Pump access (when S2 was written):** mostly through Gold or Silver private hospital cover; the Insulin Pump Program (run by JDRF, means-tested) funds about 220 a year for under-18s; otherwise pumps cost $6994–$8574 each.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "63a8720138607464",
+     "n": 159,
+     "p": "access t"
+    },
+    {
+     "h": "0d3a702db8342c62",
+     "n": 573,
+     "p": "The Aust"
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **CGM funding as S2 described it:** the NDSS CGM Initiative began in April 2017 for under-21s (fully subsidised under 10), later adding women planning pregnancy (within 12 months), pregnant or within 3 months after birth, and concession-card holders and Aboriginal and Torres Strait Islander adults; flash monitoring was added in March 2020.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd10d8e1eb3123db",
+     "n": 239,
+     "p": "Through "
+    },
+    {
+     "h": "e913d3374246e6f4",
+     "n": 162,
+     "p": "In Austr"
+    },
+    {
+     "h": "0841c38234e365e3",
+     "n": 138,
+     "p": "women wi"
+    },
+    {
+     "h": "d5573b6db326c1b6",
+     "n": 287,
+     "p": "The CGM "
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Insulin dose advisors may help anyone who titrates insulin;** NDSS registrants can get meters with a built-in dose advisor free, but many smartphone apps are not assessed or approved.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f55355b96f00ec8",
+     "n": 105,
+     "p": "All peop"
+    },
+    {
+     "h": "35147197800edb5c",
+     "n": 229,
+     "p": "People w"
+    },
+    {
+     "h": "e119ecbcf76fd35c",
+     "n": 148,
+     "p": "However,"
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Use only TGA-approved technology, as the maker intends;** the working group does not endorse do-it-yourself systems, though clinicians should understand them well enough to discuss the risks. At the time, commercial hybrid closed-loop systems were not recommended in pregnancy or for young children.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0cf7847a6bf1fb70",
+     "n": 4784,
+     "p": "The Work"
+    },
+    {
+     "h": "bcb939b86bf65f3e",
+     "n": 138,
+     "p": "However,"
+    },
+    {
+     "h": "e780b8514057d2bd",
+     "n": 110,
+     "p": "commerci"
+    }
+   ],
+   "locator": "Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118), 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group', published 15 November 2021, https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living, retrieved 2026-09-24"
   },
   {
    "claim": "**Three levels:** Level 1 is glucose below 3.9 but at least 3.0 mmol/l (an alert value); Level 2 is below 3.0 mmol/l (clinically important); Level 3 is any episode with altered mental or physical state that needs another person's help to recover. Prevent Levels 2 and 3 above all.",
