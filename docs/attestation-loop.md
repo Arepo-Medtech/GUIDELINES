@@ -13,6 +13,7 @@ There was nowhere to record a sign-off, nothing read one, and no number moved if
 | *(empty)* | not yet attested |
 | `KL 2026-09-23` | **CONFIRMED** against the subscription |
 | `! KL 2026-09-23 AMH says 400 mg` | ⚠️ **REJECTED** — ***`verify.py` fails until the guideline is fixed*** |
+| `~ owner 2026-09-24` | **OWNER-ACCEPTED, not individually checked** — the owner accepts the dose for use without having read it against the subscription. Counted separately and **never reported as confirmed**; overwrite with initials and date once checked |
 
 There is deliberately **no second JSON to keep in sync**, because two copies drift.
 
@@ -48,6 +49,13 @@ python3 scripts/attestation.py           # self-check of the parser
 
 **Run `dose_queue.py` after any change to the guidelines.** It is the step that returns reworded claims
 to the queue.
+
+## Owner acceptance (2026-09-24)
+
+On 2026-09-24 the owner accepted all 621 queued doses for use **without** checking each against the AMH
+subscription (`~ owner 2026-09-24` on every row). `verify.py` and `corpus_stats.py` report these as
+**OWNER-ACCEPTED, not individually checked**, and keep the ATTESTED count at the number of doses a person has
+actually read against the source. The sha rule applies to acceptance too: a reworded claim loses it.
 
 ## ⚠️ What this does NOT do
 

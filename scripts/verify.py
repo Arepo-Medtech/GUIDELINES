@@ -172,7 +172,7 @@ def check(path, source=None, only_source=None):
         # whose claim text changed after sign-off -- reported, not trusted.
         rec = _attest()
         gname = path.split("/")[-1].replace(".verification.json", "")
-        tally = {"confirmed": 0, "rejected": 0, "stale": 0, "open": 0}
+        tally = {"confirmed": 0, "rejected": 0, "accepted": 0, "stale": 0, "open": 0}
         for i, c in enumerate(claims, 1):
             if not (c.get("dose") and c.get("verdict") == "licensed_source_not_quoted"):
                 continue
@@ -187,6 +187,8 @@ def check(path, source=None, only_source=None):
                              f"CHANGED since - back in the queue, sign-off not carried")
         if tally["confirmed"]:
             notes.append(f"  {tally['confirmed']}/{ndose} queued dose(s) ATTESTED by a person")
+        if tally["accepted"]:
+            notes.append(f"  {tally['accepted']}/{ndose} queued dose(s) OWNER-ACCEPTED, not individually checked against the subscription")
     nqdose = sum(1 for c in claims if c.get("dose") and c.get("verdict") == "pass")
     if nqdose:
         notes.append(f"{nqdose} DOSE claim(s) QUOTED from an open source: re-checkable "

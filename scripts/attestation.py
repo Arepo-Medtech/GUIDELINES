@@ -14,6 +14,9 @@ Tick conventions, documented in the file's own header:
     (empty)                      not yet attested
     KL 2026-09-23                CONFIRMED against the subscription
     ! KL 2026-09-23 <reason>     REJECTED - the claim is wrong; verify.py fails
+    ~ owner 2026-09-24           OWNER-ACCEPTED - the owner accepts the dose for use WITHOUT having
+                                 checked it against the subscription; reported separately, never
+                                 counted as confirmed
 """
 import hashlib, os, re
 
@@ -23,7 +26,7 @@ def sha(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:8]
 
 def load(path=QUEUE):
-    """-> {ref: {"sha":..., "status":"confirmed"|"rejected", "by":...}}"""
+    """-> {ref: {"sha":..., "status":"confirmed"|"rejected"|"accepted", "by":...}}"""
     out = {}
     if not os.path.exists(path):
         return out
@@ -36,14 +39,12 @@ def load(path=QUEUE):
         tick, ref, s = cells[0], cells[1], cells[2]
         if not tick or "#" not in ref:
             continue
-        rejected = tick.startswith("!")
-        out[ref] = {"sha": s.strip("`"),
-                    "status": "rejected" if rejected else "confirmed",
-                    "by": tick.lstrip("!").strip()}
+        status = "rejected" if tick.startswith("!") else "accepted" if tick.startswith("~") else "confirmed"
+        out[ref] = {"sha": s.strip("`"), "status": status, "by": tick.lstrip("!~").strip()}
     return out
 
 def status_for(ref, claim_text, record):
-    """confirmed / rejected / stale / open, for one claim."""
+    """confirmed / rejected / accepted / stale / open, for one claim."""
     a = record.get(ref)
     if not a:
         return "open"
@@ -57,6 +58,12 @@ def demo():
     assert status_for("x#1", "dose is 500 mg", rec) == "confirmed"
     assert status_for("x#1", "dose is 400 mg", rec) == "stale"   # reworded -> not carried
     assert status_for("x#2", "anything", rec) == "open"
+    import tempfile
+    with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False) as fh:
+        fh.write("| ✓ | ref | sha |\n|---|---|---|\n| ~ owner 2026-09-24 | g#3 | `%s` |\n" % sha("give 5 mg"))
+    r = load(fh.name)
+    assert r["g#3"]["status"] == "accepted" and status_for("g#3", "give 5 mg", r) == "accepted"
+    assert status_for("g#3", "give 6 mg", r) == "stale"                  # acceptance is not carried either
     print("attestation.py self-check ok")
 
 if __name__ == "__main__":
