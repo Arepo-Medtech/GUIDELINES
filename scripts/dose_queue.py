@@ -29,7 +29,7 @@ def mono_of(loc):
     return [(m.group(1) + " (therapeutic topic)", "")] if m else [(loc[:60], "")]
 
 rows = []
-for f in sorted(glob.glob("guidelines/*.verification.json")):
+for f in sorted(glob.glob("verification/*.verification.json")):
     d = json.load(open(f))
     g = f.split("/")[-1].replace(".verification.json", "")
     for i, c in enumerate(d["claims"], 1):

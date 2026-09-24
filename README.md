@@ -13,7 +13,8 @@ had none (rheumatology, respiratory, blood cancers, endocrine, neuro, eye, schiz
 
 | path | contents |
 |---|---|
-| `guidelines/` | one `<slug>.md` (the guideline) and one `<slug>.verification.json` (every claim, its verdict and its source) per guideline |
+| `guidelines/` | one `<slug>.md` per guideline: the guideline itself |
+| `verification/` | one `<slug>.verification.json` per guideline: every claim, its verdict and its source (split from `guidelines/` on 2026-09-25 so each folder stays under GitHub's 1,000-file listing limit) |
 | `scripts/verify.py` | structural checks; with `--source`, re-checks quotes verbatim, and hash anchors for paraphrased claims |
 | `scripts/anchor.py`, `scripts/test_anchor_verify.py` | hash anchors: paraphrased claims stay machine re-checkable without storing the source's words |
 | `scripts/number_guard.py` | flags any number in a claim that its own quote does not contain |
@@ -24,7 +25,7 @@ had none (rheumatology, respiratory, blood cancers, endocrine, neuro, eye, schiz
 ## Check it
 
 ```bash
-python3 scripts/verify.py guidelines/*.verification.json
+python3 scripts/verify.py verification/*.verification.json
 python3 scripts/corpus_stats.py
 ```
 

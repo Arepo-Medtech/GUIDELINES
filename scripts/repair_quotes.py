@@ -13,7 +13,7 @@ stored fragment with what the page actually says. A fragment is only rewritten
 when the alignment is unambiguous and close; anything else is reported and left
 alone for a person to look at.
 
-  python3 scripts/repair_quotes.py guidelines/stroke.verification.json \
+  python3 scripts/repair_quotes.py verification/stroke.verification.json \
       --source /tmp/rc_stroke.txt --only-source S1 [--write]
 
 Without --write it prints the diff and changes nothing.
