@@ -1,21 +1,21 @@
 # IgE-mediated food allergy in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** recognition, acute treatment, testing and discharge planning for suspected IgE-mediated food allergy in children. Counterparts: `anaphylaxis-children` (RCH, the acute reaction) and `acute-anaphylaxis` (ACSQHC, all ages).
 
-> ✅ **OPEN AND QUOTED.** 21 of 21 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Food allergy - IgE mediated food allergy*** (Last updated October 2021); **32 fragments re-checked by machine. 4 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 of 21 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Food allergy - IgE mediated food allergy*** (Last updated October 2021); **32 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **Anaphylaxis first: IM adrenaline 10 microgram/kg (0.01 mL/kg of 1:1000, max 0.5 mL), repeat after 5 minutes if not improving.** Every child goes home with an allergy action plan.
+> ⚠️ **Anaphylaxis first: IM adrenaline 10 microgram/kg (0.01 mL/kg of 1:1000, max 0.5 mL); if no improvement, repeat at 5 minutes.** Every child goes home with an allergy action plan.
 
 ---
 
 ## Recognise it
 
-- ⚠️ **Recognising and managing anaphylaxis is the most important consideration** in any child with suspected food allergy. [S1]
-- **IgE-mediated reactions usually start within 60 minutes of ingestion.** Commonest foods: peanut, tree nuts, shellfish, fish, milk, egg, wheat, soy, sesame. [S1]
+- ⚠️ **In a child with suspected food allergy, nothing matters more than recognising and managing anaphylaxis.** [S1]
+- **IgE-mediated reactions usually start within 60 minutes of ingestion.** Commonest foods: egg, milk, peanut, tree nuts, fish, shellfish, wheat, soy, sesame. [S1]
 - ⚠️ **Anaphylaxis = any acute respiratory and/or cardiovascular symptoms, even without skin signs.** Mild-to-moderate reactions involve only skin and/or gut. [S1]
 - **Respiratory:** hoarse voice, throat tightness, difficulty swallowing, stridor, wheeze, persistent cough. **Cardiovascular:** pallor, dizziness, collapse. [S1]
-- **Risk factors:** personal atopy (asthma, eczema, allergic rhinitis) · atopy or food allergy in parents or siblings · other IgE-mediated food allergies. [S1]
+- **Risk factors:** personal atopy (asthma, eczema, allergic rhinitis) · a parent or sibling with atopy or food allergy · other IgE-mediated food allergies. [S1]
 - **A contact reaction around the mouth is common in eczema and is not diagnostic** of IgE-mediated allergy; nor is eczema alone. [S1]
 - **FPIES is non-IgE:** profuse vomiting ± diarrhoea two to four hours after a recently introduced food, sometimes with pallor, poor tone, hypothermia and low blood pressure. [S1]
 
@@ -27,7 +27,7 @@
 
 ## Treat
 
-- ⚠️ **Anaphylaxis: IM adrenaline immediately, 10 microgram/kg or 0.01 mL/kg of 1:1000 (max 0.5 mL); repeat after 5 minutes if not improving.** [S1]
+- ⚠️ **Anaphylaxis: give IM adrenaline straight away — 0.01 mL/kg of 1:1000 (10 microgram/kg), max 0.5 mL; if no improvement, repeat at 5 minutes.** [S1]
 - **Mild-to-moderate: non-sedating antihistamine, e.g. cetirizine orally** — 1–2 years 2.5 mg · 2–6 years 5 mg · 6 years and above 10 mg; safe from 6 months at 0.25 mg/kg/dose. [S1]
 - **Or loratadine orally once daily:** 1–2 years 2.5 mg · over 2 years and under 30 kg 5 mg · over 30 kg 10 mg. [S1]
 - **Observe until symptoms are not escalating**, then discharge with a plan. [S1]
@@ -43,7 +43,7 @@
 ## Long-term follow-up
 
 - **Adrenaline auto-injectors** (usually a 12-month expiry; GP can re-prescribe): **150 mcg under 20 kg · 300 mcg from 20 kg · 300–500 mcg close to or above 50 kg.** [S1]
-- ⚠️ **Identify and manage asthma — poorly controlled asthma is a risk factor for fatal anaphylaxis.** Re-check action-plan knowledge and auto-injector technique regularly. [S1]
+- ⚠️ **Find and treat asthma: fatal anaphylaxis is more likely when asthma is poorly controlled.** Re-check action-plan knowledge and auto-injector technique regularly. [S1]
 
 ---
 
@@ -56,12 +56,12 @@
 | 3 | **Auto-injector bands differ slightly from `anaphylaxis-children`** (RCH, Oct 2025): that page gives 150 microg for **7.5–20 kg**, 300 microg **over 20 kg**, and 500 or 300 microg **over 50 kg**; this page has no 7.5 kg floor and switches to 300 mcg **at** 20 kg. The IM dose (10 microgram/kg, max 0.5 mL of 1:1000) agrees. | `observation` |
 | 4 | **The non-IgE food allergy flowchart** referenced in the Background is an image not in the retrieved text. | `input_unavailable` |
 | 5 | **The source reads 'mild-moderate allergic to reaction'** (a typo); it is quoted as written. | `observation` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Food allergy - IgE mediated food allergy*. Last updated October 2021. https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Food allergy - IgE mediated food allergy*. Last updated October 2021. https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

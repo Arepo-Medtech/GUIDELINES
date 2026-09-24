@@ -1,229 +1,505 @@
 {
  "guideline": "guidelines/head-injury-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Head injury' (Last updated November 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Head injury' (Last updated November 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 30,
-  "pass": 30,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
-   "claim": "**Sort every child into one of four groups:** moderate–severe injury needing immediate management, investigation and referral · mild injury fit for immediate discharge · injury needing observation and/or neuroimaging · other significant injuries or suspected child abuse.",
+   "claim": "**Sort every child into one of four groups:** moderate–severe injury needing immediate management, investigation and referral · mild injury fit for immediate discharge · injury that needs observation and/or neuroimaging · suspected child abuse or other significant injuries.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The priorities when assessing a child with head injury are to identify those with: Moderate to severe head injury who need immediate management, urgent investigation and referral Mild head injury who can be immediately discharged home Head injury who need observation and/or neuroimaging Other significant injuries or suspected child abuse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b646cab11c649c6f",
+     "n": 339,
+     "p": "The prio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most head injuries are mild**, but an injury can still be significant without loss of consciousness.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most head injuries are mild … A head injury may still be significant without loss of consciousness",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0521f3a08c4394b",
+     "n": 27,
+     "p": "Most hea"
+    },
+    {
+     "h": "933dcfaf594af324",
+     "n": 68,
+     "p": "A head i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider non-accidental injury, especially in infants.** Infants and non-verbal or non-ambulant children are at higher risk of inflicted head injury; non-verbal children, particularly under 6 months, need a more cautious assessment and may need longer observation.",
+   "claim": "⚠️ **Consider non-accidental injury, especially in infants.** Inflicted head injury is more likely in infants and in children who are non-verbal or non-ambulant; non-verbal children, particularly under 6 months, need a more cautious assessment and may need longer observation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider non-accidental injury, especially in infants (See child abuse) … Infants and non-verbal/non-ambulant children have a higher risk of inflicted head injury … Non-verbal children, particularly those under 6 months, require a more cautious assessment approach and may require longer observation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d2a8dfe3490c5e7",
+     "n": 71,
+     "p": "Consider"
+    },
+    {
+     "h": "84936629c9c1f3b7",
+     "n": 88,
+     "p": "Infants "
+    },
+    {
+     "h": "89e83937bea5fe72",
+     "n": 134,
+     "p": "Non-verb"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Suspected drug or alcohol intoxication: assume the conscious level is due to the injury** and keep a lower threshold for referral and neuroimaging. **Assess the cervical spine at the same time.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with suspected drug or alcohol intoxication may be more difficult to assess – assume conscious level relates to injury and have a lower threshold for referral and neuroimaging … Concurrent cervical spine assessment is required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f0b96c6eac3c487",
+     "n": 184,
+     "p": "Children"
+    },
+    {
+     "h": "62886b46a402feb0",
+     "n": 48,
+     "p": "Concurre"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Risk factors:** severe headache · persistent altered mental status or acting abnormally · abnormal neurology · suspected child abuse · palpable skull fracture · signs of base of skull fracture · non-frontal scalp haematoma under 2 years · severe mechanism · post-traumatic seizure · loss of consciousness · persistent vomiting · bleeding disorder or anticoagulation · VP shunt · neurodevelopmental disability.",
+   "claim": "**Risk factors:** loss of consciousness · post-traumatic seizure · persistent vomiting · severe headache · abnormal neurology · persistent altered mental status or acting abnormally · non-frontal scalp haematoma in a child under 2 years · severe mechanism · palpable skull fracture, or signs of a base-of-skull fracture · suspected child abuse · VP shunt · bleeding disorder or anticoagulation · neurodevelopmental disability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk factors: Severe headache Persistent altered mental status/acting abnormally Abnormal neurology Suspected child abuse Palpable skull fracture Signs of base of skull fracture Non-frontal scalp haematoma (occipital, parietal or temporal) in child <2 years Severe mechanism Post-traumatic seizure Loss of consciousness Persistent vomiting Known bleeding disorder/anticoagulation Ventriculoperitoneal shunt Neurodevelopmental disability",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "40d0b1141dcdff4d",
+     "n": 436,
+     "p": "Risk fac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Severe mechanism** = vehicle accident with ejection, rollover or a passenger death · pedestrian or cyclist struck by a vehicle · fall of 1 m or more under 2 years, or over 1.5 m over 2 years · head struck by a high-impact object.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Severe mechanism includes: motor vehicle accident with patient ejection or rollover, death of another passenger pedestrian or cyclist struck by motor vehicle falls of ≥1 m (<2 yr) fall >1.5 m (>2 yr) head struck by high impact object",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c046051eddb93c2b",
+     "n": 233,
+     "p": "Severe m"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Signs of raised intracranial pressure:** unilateral or bilateral pupil dilatation · GCS drop of more than 2 points · new focal neurological signs · abnormal posturing. **Irregular breathing, hypertension and bradycardia (Cushing reflex) is a late sign.**",
+   "claim": "⚠️ **Raised intracranial pressure — look for:** pupil dilatation (one or both sides) · abnormal posturing · new focal neurological signs · a fall in GCS of more than 2 points. **The Cushing reflex (bradycardia, hypertension, irregular breathing) is a late sign.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Neurological examination, including signs of raised intracranial pressure: unilateral or bilateral pupillary dilatation drop of more than 2 points in GCS development of focal neurological signs abnormal posturing Irregular respirations, hypertension and bradycardia (Cushing reflex – late sign)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4fa46d26639227f4",
+     "n": 294,
+     "p": "Neurolog"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Feel for a palpable skull fracture and look for base of skull fracture:** haemotympanum, CSF otorrhoea or rhinorrhoea, raccoon eyes, Battle sign.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Feel specifically for palpable skull fractures … Look for signs of fractured base of skull (haemotympanum, cerebrospinal fluid otorrhoea or rhinorrhoea, periorbital bruising (raccoon eyes), bruising over mastoid area (Battle sign))",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0ef97579a8088f8",
+     "n": 46,
+     "p": "Feel spe"
+    },
+    {
+     "h": "1ce51a6e7a0f19e9",
+     "n": 182,
+     "p": "Look for"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Severity can change: reassess every observed child regularly** for signs or symptoms of deterioration.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Severity may change – all children being observed should be regularly reassessed for signs or symptoms of deterioration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0b40a71473f2136",
+     "n": 119,
+     "p": "Severity"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Imaging balances clinical benefit against radiation and sedation risk; discuss it with a senior doctor or neurosurgeon.** In mild head injury, the decision rests on the presence or absence of risk factors, and indications may appear during observation.",
+   "claim": "**Imaging balances clinical benefit against radiation and sedation risk; discuss it with a senior doctor or neurosurgeon.** In mild head injury, whether to image depends on which risk factors are present, and indications may emerge while the child is observed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The need and timing of neuroimaging requires balancing the clinical benefit with the risk of radiation exposure and sedation – discuss with a senior doctor or neurosurgeon … For children with mild head injury, a decision about whether to image should be based on the presence or absence of risk factors (as described below) … Indications for neuroimaging may be present on initial assessment, or may evolve during the period of observation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ebc8cb97d6c35228",
+     "n": 171,
+     "p": "The need"
+    },
+    {
+     "h": "967ab96e9abc3378",
+     "n": 149,
+     "p": "For chil"
+    },
+    {
+     "h": "bf65795d03a1fb28",
+     "n": 113,
+     "p": "Indicati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Give greater consideration to imaging for:** age under 6 months · bleeding disorder, anticoagulant or antiplatelet therapy · immune thrombocytopenia · VP shunt · neurodevelopmental disorders · drug or alcohol intoxication. If no other risk factors are present, structured observation may be chosen over immediate imaging, with senior, haematology or subspecialty advice.",
+   "claim": "**Give greater consideration to imaging for:** age under 6 months · bleeding disorder, anticoagulant or antiplatelet therapy · immune thrombocytopenia · VP shunt · neurodevelopmental disorders · drug or alcohol intoxication. With no other risk factors, structured observation may be preferred to imaging straight away, with senior, haematology or subspecialty advice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with any of the following conditions, although not at increased risk of intracranial injury, require greater consideration of neuroimaging: Age <6 months Bleeding disorder, or taking either anticoagulation or anti-platelet therapy Immune thrombocytopenia Ventriculoperitoneal shunt Neurodevelopmental disorders Drug or alcohol intoxication … If no other risk factors are present, structured observation may be considered over immediate neuroimaging. Seek advice from a senior clinician, haematologist or other relevant subspecialist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6f0c5be808fed31",
+     "n": 348,
+     "p": "Children"
+    },
+    {
+     "h": "ab1d28ea7b60f78c",
+     "n": 190,
+     "p": "If no ot"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not use plain skull X-ray or head ultrasound instead of CT.** MRI may be equivalent but only where it can be done quickly and safely.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Plain skull X-ray or head ultrasound should not be performed in lieu of a CT … MRI may be equivalent in terms of clinical utility, but should only be considered in settings where it can be performed quickly and safely",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9ad25c53f39fdf9",
+     "n": 76,
+     "p": "Plain sk"
+    },
+    {
+     "h": "739f3f8f497792e3",
+     "n": 138,
+     "p": "MRI may "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Look for the cause of a fall**, e.g. alcohol, other ingestions, arrhythmias, hypoglycaemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider investigation for causes of falls eg alcohol, other ingestions, arrhythmias, hypoglycaemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a85a812e264caba",
+     "n": 99,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mild, no risk factors** (GCS 15, no concern for abusive trauma, over 6 months, no special conditions, non-severe mechanism): **may go home with parents** once back to a normal conscious state and acting normally, with no other concerns.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "GCS 15 and meets the following criteria: no concern about abusive head trauma age over 6 months no special conditions (bleeding tendency, neurodevelopmental disorder, VP shunt) non-severe mechanism … If on the basis of history and examination there are no other clinical concerns, the child has returned to normal conscious state, and is acting normally, they may be discharged to the care of their parents",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f07f400d72f1c63d",
+     "n": 197,
+     "p": "GCS 15 a"
+    },
+    {
+     "h": "c897cb01ee7fa341",
+     "n": 206,
+     "p": "If on th"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mild, with risk factors: observe for up to 4 hours after injury**, with neuro obs (conscious state, PR, RR, BP, pupils, limb power) **every 30 minutes for the first 2 hours, then hourly.** Simple analgesia; consider anti-emetics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Child should be observed for up to 4 hours post injury, with: 30-minutely neurological observations (conscious state, PR, RR, BP, pupils and limb power) for the first 2 hours one-hourly neurological observations thereafter Treat pain with simple analgesia Consider anti-emetics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ddc9b29f6f2f0c19",
+     "n": 277,
+     "p": "Child sh"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Persistent headache, ongoing vomiting, GCS 14 or persistent altered mental status needs further observation and likely investigation** — discuss with a senior clinician. **Discharge once normal conscious state for at least an hour**, acting normally and tolerating oral fluids.",
+   "claim": "⚠️ **Persistent headache, ongoing vomiting, GCS 14 or persistent altered mental status needs longer observation and probably investigation** — talk to a senior clinician. **Discharge once normal conscious state for at least an hour**, acting normally and tolerating oral fluids.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A persistent headache, ongoing vomiting, GCS of 14 or persistent altered mental status requires further observation and likely investigation. Discuss with a senior clinician … The child may be discharged home if there is return to normal conscious state for at least one hour, is acting normally, and they can tolerate oral fluids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2785ed5f4d76d83",
+     "n": 173,
+     "p": "A persis"
+    },
+    {
+     "h": "ec77b9567107e85f",
+     "n": 154,
+     "p": "The chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moderate head injury: urgent CT of head** (consider c-spine imaging), senior or neurosurgical advice and early specialist consultation, **with a low threshold to escalate as for severe injury.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consult a senior doctor or neurosurgeon for advice Urgent CT of head (and consideration of imaging of c-spine if relevant) Ensure early specialist consultation Low threshold to escalate care as per severe head injury below",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db8dbd295ec24652",
+     "n": 222,
+     "p": "Consult "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **The aim is to prevent secondary brain damage:** maintain oxygenation, ventilation and circulation, and avoid rises in ICP. **Urgent CT of head and early neurosurgical consultation.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The initial aim of management of a child with a serious head injury is prevention of secondary brain damage … The key aims are to maintain oxygenation, ventilation, and circulation, and to avoid rises in intracranial pressure (ICP) … Urgent CT of head (and consideration of c-spine imaging if relevant) Ensure early neurosurgical consultation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "578f46040da0a4bf",
+     "n": 107,
+     "p": "The init"
+    },
+    {
+     "h": "003abde71cc552bd",
+     "n": 121,
+     "p": "The key "
+    },
+    {
+     "h": "e86c43d92501c07c",
+     "n": 108,
+     "p": "Urgent C"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consider intubation if** unresponsive or not responding purposefully to pain · GCS persistently under 8 · loss of protective laryngeal reflexes · irregular breathing or suspected hypoventilation. **Avoid hypotension, hypoventilation and hypoxia during intubation** and minimise c-spine movement.",
+   "claim": "**Consider intubation if** GCS persistently under 8 · unresponsive, or no purposeful response to pain · protective laryngeal reflexes lost · breathing irregular or hypoventilation suspected. **While intubating, prevent hypoxia, hypotension and hypoventilation**, and keep c-spine movement to a minimum.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider intubation if: Child unresponsive or not responding purposefully to pain GCS persistently <8 Loss of protective laryngeal reflexes Respiratory irregularity or suspected hypoventilation … Avoid hypotension, hypoventilation and hypoxia during intubation and minimise cervical spine movement",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b74178fdf21dfa2e",
+     "n": 193,
+     "p": "Consider"
+    },
+    {
+     "h": "1cd27a8d75b196d4",
+     "n": 101,
+     "p": "Avoid hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ventilated children: titrate morphine and midazolam carefully** — head-injured children are often more sensitive to opioids. Consider muscle paralysis (e.g. pancuronium or vecuronium).",
+   "claim": "**Ventilated children: titrate morphine and midazolam carefully** — opioid sensitivity is often increased after head injury. Muscle paralysis may be considered (e.g. pancuronium or vecuronium).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Analgesia and sedation with morphine and midazolam should be administered by careful titration. Children with head injury are often more sensitive to opioids … Consider muscle paralysis (eg pancuronium or vecuronium)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4e47aa447ef35d7c",
+     "n": 157,
+     "p": "Analgesi"
+    },
+    {
+     "h": "2e65cd3e84c67f68",
+     "n": 56,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Uncorrected hypotension is a significant cause of secondary brain damage.** Maintain blood pressure with isotonic crystalloid (e.g. 0.9% sodium chloride) or inotropes if necessary.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Uncorrected hypotension is a significant factor in secondary brain damage … Ensure adequate blood pressure with crystalloid infusion (eg 0.9% sodium chloride) or inotropes if necessary",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05bf2592c5dc7e94",
+     "n": 73,
+     "p": "Uncorrec"
+    },
+    {
+     "h": "a3a2befaa61328fd",
+     "n": 108,
+     "p": "Ensure a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Raised ICP, with the neurosurgical team:** nurse 30° head-up (after correcting shock) with the head midline; **ventilate to PaCO2 35–40 mmHg.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In consultation with neurosurgical team, consider measures to decrease intracranial pressure: Maintain head position: Nurse 30 degrees head up (after correction of shock) with head in midline position to help venous drainage Ventilate to PaCO2 35-40 mmHg",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab10a49e7808f827",
+     "n": 254,
+     "p": "In consu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider hypertonic saline (3% sodium chloride 3 mL/kg IV over 10–20 min) or 20% mannitol (0.25–0.5 g/kg IV over 20–30 min).**",
+   "claim": "⚠️ **Consider IV hypertonic saline — 3 mL/kg of 3% sodium chloride across 10–20 min — or IV 20% mannitol 0.25–0.5 g/kg across 20–30 min.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider hypertonic saline (sodium chloride 3% 3 mL/kg IV over 10-20 min) or 20% mannitol (0.25-0.5 g/kg IV over 20-30 min)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23b486a4eb902836",
+     "n": 123,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Seizures: benzodiazepines immediately**, early neurosurgical advice, then a **phenytoin or levetiracetam loading dose**; watch for hypotension or hypoventilation afterwards.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat with benzodiazepines to immediately control seizures Seek neurosurgical advice early Give phenytoin or levetiracetam loading dose Observe closely for subsequent hypotension or hypoventilation and manage appropriately",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce7f35423cb43e7f",
+     "n": 222,
+     "p": "Treat wi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**Keep sodium and glucose normal, maintain normothermia, and check for coagulopathy.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Maintain normal sodium and glucose levels Maintain normothermia Check for coagulopathy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08477a697258a192",
+     "n": 86,
+     "p": "Maintain"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consult the paediatric or paediatric neurosurgical team for:** failure to return to normal within 4 hours · suspected child abuse (also child protection and forensic service) · uncertainty about imaging · any ventricular shunt · any bleeding disorder, anticoagulant or antiplatelet therapy (discuss with a paediatric haematologist).",
+   "claim": "**Consult the paediatric or paediatric neurosurgical team for:** not back to normal within 4 hours · uncertainty about imaging · suspected child abuse (also child protection and forensic service) · any ventricular shunt · any bleeding disorder, anticoagulant or antiplatelet therapy (discuss with a paediatric haematologist).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric or paediatric neurosurgical team when Failure to return to normal within 4 hours Suspected child abuse. Consult child protective and forensic medical service Uncertainty surrounding when to perform neuroimaging Any child with a ventricular shunt Any child with a bleeding disorder, or who is taking anticoagulant or anti-platelet therapy (discuss with paediatric haematologist)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65302ed9f3ac6cfc",
+     "n": 421,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider tertiary transfer for:** all severe head injuries · suspected inflicted injury · falling conscious level (especially motor changes) · focal neurological signs · seizure without full recovery · definite or suspected penetrating injury · CSF leak.",
+   "claim": "⚠️ **Consider tertiary transfer for:** all severe head injuries · suspected inflicted injury · CSF leak · definite or suspected penetrating injury · focal neurological signs · incomplete recovery after a seizure · falling conscious level (especially motor changes).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer to a tertiary centre when All severe head injuries Suspected inflicted head injury Deteriorating conscious level (especially motor response changes) Focal neurological signs Seizure without full recovery Definite or suspected penetrating injury Cerebrospinal fluid leak",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4aa733e7caf605c5",
+     "n": 287,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge when** the child has acted normally for at least an hour per the parent, has a normal neurological examination and tolerates fluids — and nothing else warrants admission (other injuries, medical concerns, intoxication, social factors, possible abusive injury).",
+   "claim": "**Discharge when** the parent says the child has been acting normally for at least an hour, neurological examination is normal and fluids are tolerated — and nothing else warrants admission (other injuries, medical concerns, intoxication, social factors, possible abusive injury).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The child is acting normally for at least one hour as per the parent, has a normal neurological examination and can tolerate fluids … There are no other factors warranting admission or longer observation (eg other injuries or underlying medical concerns, drug and alcohol intoxication, social factors, possible abusive head injury)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ef1070236d4cbb8",
+     "n": 131,
+     "p": "The chil"
+    },
+    {
+     "h": "3d704c374b3f66c2",
+     "n": 197,
+     "p": "There ar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Concussion temporarily alters brain function**; post-concussive symptoms are common, so advise rest and a gradual return to activity.",
+   "claim": "**Concussion causes a temporary change in brain function**; symptoms after concussion are common, so advise rest and a gradual return to activity.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A concussion is a mild injury which temporarily alters brain function … Post concussive symptoms are common, and advice should be given regarding rest and gradual return to activity",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d64459e8827e6044",
+     "n": 69,
+     "p": "A concus"
+    },
+    {
+     "h": "dd125881f86d9f18",
+     "n": 109,
+     "p": "Post con"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   },
   {
    "claim": "**GP follow-up within 1–2 weeks** after mild to moderate injury for post-concussive symptoms. **Recovery from anything beyond a trivial injury can take up to 4 weeks**; graded return to activity.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children discharged following a mild to moderate head injury should consider follow-up with a primary care doctor within 1 to 2 weeks to assess post-concussive symptoms … Advise parents that children with anything other than a trivial head injury may take up to 4 weeks to recover, and graded return to activity is recommended",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b9490bad5692fee",
+     "n": 168,
+     "p": "Children"
+    },
+    {
+     "h": "c75ad8e58fe715ba",
+     "n": 155,
+     "p": "Advise p"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Head injury' (Last updated November 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/, retrieved 2026-09-23"
   }
  ]

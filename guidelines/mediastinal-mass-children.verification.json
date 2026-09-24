@@ -1,116 +1,211 @@
 {
  "guideline": "guidelines/mediastinal-mass-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 14,
-  "pass": 14,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 14
  },
  "claims": [
   {
    "claim": "⚠️ **Children with mediastinal masses can deteriorate acutely and rapidly become critically unwell.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with mediastinal masses are at risk of acute respiratory deterioration, and may rapidly become critically unwell",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f8edb49d1cf9bce",
+     "n": 121,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **A mediastinal mass on CXR requires urgent escalation to a tertiary paediatric hospital** — involve retrieval services and oncology promptly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with a mediastinal mass on CXR require urgent escalation of care to a tertiary paediatric hospital. Promptly involve retrieval services and oncology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "44c5964a61e92815",
+     "n": 157,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ask about** noisy breathing (stridor or wheeze), **orthopnoea** (difficulty lying flat to sleep), bone pain, and collapse or dizziness.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Noisy breathing consistent with stridor or wheeze Orthopnoea (difficulty lying flat on back to sleep at night) Bone pain Collapse or dizziness",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17dd4a4caff83334",
+     "n": 142,
+     "p": "Noisy br"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Let the child adopt a position of comfort. Do not force them to lie flat.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Keep the child comfortable, allow them to adopt position of comfort (see Minimising distress in healthcare setting). Do not force the child to lie flat",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "457c4bb40e3d53f9",
+     "n": 151,
+     "p": "Keep the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine for stridor or wheeze** (airway obstruction) and for **pericardial effusion or tamponade**: distended neck veins, muffled heart sounds, low blood pressure.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Examine for stridor or wheeze which suggest airway obstruction … Examine for signs of pericardial effusion or tamponade, including distention of jugular veins, muffled heart sounds, and low blood pressure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72d940f0d2c56a85",
+     "n": 62,
+     "p": "Examine "
+    },
+    {
+     "h": "848078afb58a4ead",
+     "n": 139,
+     "p": "Examine "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Check for SVC obstruction and Pemberton's sign:** the child raises both arms to touch the sides of the face; facial congestion, cyanosis and respiratory distress are positive.",
+   "claim": "**Look for SVC obstruction; test Pemberton's sign** by having the child lift both arms until they touch the sides of the face — positive if facial congestion, cyanosis and respiratory distress develop.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Check for SVC obstruction and Pemberton's sign (ask the child to elevate both arms to touch the sides of the face; a positive sign is facial congestion, cyanosis and respiratory distress)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4735467289b886f",
+     "n": 187,
+     "p": "Check fo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine for organomegaly or lymphadenopathy.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Examine for organomegaly or lymphadenopathy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cfa3b53ef525457d",
+     "n": 43,
+     "p": "Examine "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discuss with oncology before further bloods** to avoid repeat sampling; peripheral blood flow cytometry may be diagnostic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discussion with oncology prior to taking further bloods to minimise repeat sampling. Bloods will include peripheral blood flow cytometry (which may be diagnostic)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b04be6e648de71c1",
+     "n": 171,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Lateral CXR** to locate the mass; **CT chest only if the child can lie flat comfortably**; urgent echocardiogram and cardiology opinion if available.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lateral CXR to assess location of mass If the child can lie flat comfortably, consider CT chest If available, urgent echocardiogram and cardiology opinion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "96acd6e016d1c258",
+     "n": 154,
+     "p": "Lateral "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Arrange urgent retrieval to a tertiary paediatric hospital**, in discussion with oncology and PICU.",
+   "claim": "⚠️ **Arrange urgent retrieval to a tertiary paediatric hospital**, discussed with PICU and oncology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Facilitate urgent retrieval to tertiary paediatric hospital, in discussion with oncology and PICU",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a08562299b1e8a8",
+     "n": 97,
+     "p": "Facilita"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Plan sedation, general anaesthesia and all invasive procedures carefully to minimise the risk of airway compromise.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Sedation, general anaesthesia and all invasive procedures should be carefully planned to minimise risk of airway compromise, see Acute upper airway obstruction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "efa6841c226e3ce6",
+     "n": 159,
+     "p": "Sedation"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Start hydration as oncology advises.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Commence hydration as per oncology advice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8053380b2594d26f",
+     "n": 41,
+     "p": "Commence"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not start corticosteroids without consulting oncology.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not commence corticosteroids without consultation with oncology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f864a35845ac46a",
+     "n": 66,
+     "p": "Do not c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   },
   {
    "claim": "**Manage every child with a new or symptomatic mediastinal mass in a centre with paediatric intensive care**; discuss all children with a mediastinal mass with the local paediatric team.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with new diagnosis or symptomatic mediastinal mass should be managed in a centre with paediatric intensive care support … Consider consultation with local paediatric team when All children with a mediastinal mass",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e3946cf6e119fe33",
+     "n": 132,
+     "p": "All chil"
+    },
+    {
+     "h": "43f8a82b45653e2d",
+     "n": 90,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Oncological emergencies: Mediastinal mass' (Last updated December 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/, retrieved 2026-09-23"
   }
  ]

@@ -1,9 +1,9 @@
 # Resuscitation — care of the seriously unwell child
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** the structured ABCDE approach to resuscitating a seriously unwell (not arrested) child. It excludes trauma, neonates and cardiorespiratory arrest. **Sepsis-specific fluids, inotropes and antibiotics are in `sepsis-children`** (the page's 'Consider sepsis' step routes there) and are not repeated; arrest is `cardiopulmonary-arrest-children`; neonates and young infants are `seriously-unwell-neonate`; airway obstruction is `acute-upper-airway-obstruction-children`; hypoglycaemia is `hypoglycaemia-children`.
 
-> ✅ **OPEN AND QUOTED.** 24 of 24 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Resuscitation: Care of the seriously unwell child*** (Last Updated May 2020); **29 fragments re-checked by machine. 2 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 of 24 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Resuscitation: Care of the seriously unwell child*** (Last Updated May 2020); **29 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Resuscitate immediately if there are signs of hypoxia or shock** — to stop the progression to cardiorespiratory arrest. Call for help early, inside the hospital and to retrieval.
 
@@ -11,10 +11,10 @@
 
 ## Key points
 
-- ⚠️ **Start resuscitation immediately if there are signs of hypoxia and/or shock**, to prevent progression to cardiorespiratory arrest. [S1]
+- ⚠️ **Signs of shock and/or hypoxia → begin resuscitation at once**, so the child does not progress to cardiorespiratory arrest. [S1]
 - **Call early for help** within the hospital and to the local paediatric retrieval service. [S1]
 - **This page does not cover** trauma, neonates or children in cardiorespiratory arrest. [S1]
-- **Assess and manage in parallel, and allocate roles early:** team leader · airway nurse and doctor · circulation nurse and doctor · primary survey doctor · scribe/timekeeper with a stopwatch · family support. [S1]
+- **Assess and manage in parallel, and allocate roles early:** team leader · airway doctor and nurse · circulation doctor and nurse · primary survey doctor · scribe/timekeeper with a stopwatch · family support. [S1]
 
 ## Airway
 
@@ -26,12 +26,12 @@
 - **Not breathing: start artificial ventilation.** Otherwise give **oxygen 15 L/min by non-rebreather mask** and consider elevating the head of the bed. [S1]
 - **Non-invasive options:** high-flow nasal cannulae, CPAP, BiPAP. [S1]
 - ⚠️ **Do not use a self-inflating bag on a spontaneously breathing child** — it delivers oxygen only when squeezed. A T-piece/Neopuff can give PEEP. [S1]
-- **Secondary signs of inadequate oxygenation:** tachy- or bradycardia, pallor or cyanosis, cool peripheries, altered mental state. [S1]
+- **Secondary signs that oxygenation is inadequate:** brady- or tachycardia, pallor or cyanosis, cool peripheries, altered mental state. [S1]
 
 ## Circulation
 
 - ⚠️ **Hypotension is a late, pre-terminal sign** — use the correct cuff size. [S1]
-- **Secondary signs of poor circulation:** tachypnoea without increased work of breathing, or bradypnoea; altered conscious state; pallor or cyanosis. [S1]
+- **Secondary signs of poor circulation:** bradypnoea, or tachypnoea without extra work of breathing; altered conscious state; pallor or cyanosis. [S1]
 - ⚠️ **No signs of circulation — no pulse, pulse below 60, or unsure — start external cardiac compressions**, then determine the rhythm and treat it. [S1]
 - **Two large-bore IV cannulas; intraosseous if IV access is not prompt.** [S1]
 - ⚠️ **Fluid bolus 10–20 mL/kg sodium chloride 0.9%, up to 40 mL/kg.** Consider sepsis and inotropes/vasopressors; correct electrolytes. [S1]
@@ -50,7 +50,7 @@
 ## After resuscitation
 
 - **Get phone advice early from the specialised paediatric service**, review the history and examine thoroughly. [S1]
-- **Reassess regularly; maintain oxygenation and ventilation; aim for normal systolic BP, urine output, glucose, electrolytes and temperature**; monitor for end-organ damage; consider analgesia and sedation. [S1]
+- **Reassess regularly; maintain oxygenation and ventilation; aim for normal systolic BP, urine output, glucose, electrolytes and temperature**; watch for end-organ damage; think about sedation and analgesia. [S1]
 - **Offer family members the option to be present**, ideally with a support person. **Offer debriefing to all staff involved.** [S1]
 - **Involve the local paediatric team for any child needing resuscitation**; consider transfer when care is beyond the hospital's comfort level. [S1]
 
@@ -65,12 +65,12 @@
 | 3 | **No drug doses are on this page** — inotropes/vasopressors, antibiotics, glucose and seizure drugs are deferred to linked guidelines and the Emergency Drug and Fluid Calculator. See `sepsis-children`, `empiric-antimicrobials-children`, `hypoglycaemia-children`, `seizures-acute-management-children`. | `observation` |
 | 4 | **Fluid bolus, compared with `sepsis-children` (RCH, March 2020):** this page says 10–20 mL/kg up to 40 mL/kg; the sepsis page says 20 mL/kg (10 mL/kg in neonates), then 10 mL/kg repeats to a 40 mL/kg maximum. `cardiopulmonary-arrest-children` also says 10–20 mL/kg. Same ceiling, different starting volume. | `observation` |
 | 5 | **Compression threshold 'slow pulse <60'** carries no age qualifier here; `cardiopulmonary-arrest-children` (December 2025) specifies '<60 in an infant'. | `observation` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Resuscitation: Care of the seriously unwell child*. Last Updated May 2020. https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__Care_of_the_seriously_unwell_child/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Resuscitation: Care of the seriously unwell child*. Last Updated May 2020. https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__Care_of_the_seriously_unwell_child/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

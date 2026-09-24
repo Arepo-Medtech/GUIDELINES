@@ -1,180 +1,379 @@
 {
  "guideline": "guidelines/covid-19-management-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'COVID-19' (Last updated September 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'COVID-19' (Last updated September 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 23,
-  "pass": 23,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
-   "claim": "**Children are less severely affected by COVID-19 than adults.** Provide appropriate respiratory support for any child with suspected or confirmed COVID-19.",
+   "claim": "**COVID-19 is generally milder in children than in adults.** Whether it is suspected or confirmed, give the child appropriate respiratory support.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children are less severely affected by COVID-19 than adults … Appropriate respiratory support should be provided for any child with suspected or confirmed COVID-19",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe19cd07e177267c",
+     "n": 59,
+     "p": "Children"
+    },
+    {
+     "h": "9d65d51af2b80569",
+     "n": 101,
+     "p": "Appropri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **High-flow oxygen or nebulised therapy: maintain airborne precautions** and manage in the highest level of isolation available.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For children requiring high-flow oxygen or nebulised therapy, airborne precautions must be maintained and management must occur in the highest level of isolation available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "caf60d30b662fcc4",
+     "n": 171,
+     "p": "For chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**COVID-19 may be incidental** — prioritise the child's presenting clinical syndrome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "COVID-19 may be an incidental finding in a child who presents with a different illness. Assessment and treatment should prioritise the child’s presenting clinical syndrome",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f821d835c712701",
+     "n": 171,
+     "p": "COVID-19"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Isolate in the highest level available**, ideally a single room with negative pressure if available.",
+   "claim": "**Isolate in the highest level available** — ideally a single room, negative pressure where possible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Place child in the highest level of isolation possible, ideally in a single room, with negative pressure if available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68208f76e83c2d1c",
+     "n": 117,
+     "p": "Place ch"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**Risk factors for severe disease:** immunosuppression, severe or complex chronic disease, obesity, pregnancy, and age — **under 3 months corrected age, and adolescents**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk factors for more severe disease Immunosuppression Children with severe or complex chronic disease Obesity Pregnancy Age Less than 3 months corrected age Adolescents",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "747714d3a10eb5be",
+     "n": 169,
+     "p": "Risk fac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Escalate for tachycardia or tachypnoea persistently breaching early-warning or pre-MET limits.** Disease may be severe without deranged vital signs.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tachycardia or tachypnoea that persistently breach the early warning of pre-MET call limits should prompt escalation of care … In other children, disease may be severe without derangement of vital signs",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0b2e06f2fa86250e",
+     "n": 124,
+     "p": "Tachycar"
+    },
+    {
+     "h": "779594a668360279",
+     "n": 75,
+     "p": "In other"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Signs of severe illness:** severe respiratory distress, severe hypoxaemia or cyanosis, marked tachycardia, altered mental state.",
+   "claim": "⚠️ **Signs of severe illness:** altered mental state · marked tachycardia · severe respiratory distress · cyanosis or severe hypoxaemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs of severe illness include: severe respiratory distress severe hypoxaemia or cyanosis marked tachycardia altered mental state",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "387d07c848acf54e",
+     "n": 130,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**Keep a low threshold to look for complications** (myocarditis/chest pain, respiratory, neurological) and progression.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Maintain a low threshold for assessment of complications (eg myocarditis/chest pain, respiratory, neurological) and disease progression",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c756aa45b4314977",
+     "n": 135,
+     "p": "Maintain"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**Swab every child who meets current testing criteria**; consider re-testing if the child deteriorates and suspicion stays high.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children who meet current testing criteria for COVID-19 should receive a swab … Consider repeat testing if a child clinically deteriorates and clinical suspicion of COVID-19 remains high",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a114d3f96a537fee",
+     "n": 81,
+     "p": "All chil"
+    },
+    {
+     "h": "b1d627552a140628",
+     "n": 106,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not swab a child with croup or suspected upper airway obstruction** until a senior clinician deems it safe.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with croup and/or suspected upper airway obstruction should not be swabbed for COVID-19, until it is deemed safe to do so by a senior clinician",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4581319823afce70",
+     "n": 152,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Mild to moderate disease:** manage as per the clinical syndrome; base the decision to admit on clinical assessment (including risk factors), social and geographical factors and phase of illness. **Airborne precautions for all HCWs.**",
+   "claim": "**Mild to moderate disease:** manage as per the clinical syndrome; decide on admission from the clinical assessment (risk factors included), the phase of illness, and social and geographical factors. **Airborne precautions for all HCWs.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild to moderate disease Decision to admit should be supported by clinical assessment (including risk factors), social and geographical factors, and phase of illness Should be managed as per clinical syndrome … Airborne precautions should be observed for ALL HCWs",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94d9c23afc4b9dc1",
+     "n": 208,
+     "p": "Mild to "
+    },
+    {
+     "h": "5ac7f0b0e78d9eaf",
+     "n": 52,
+     "p": "Airborne"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Severe disease:** respiratory support as required. **High-flow nasal oxygen may be used with airborne precautions**; discuss with a senior clinician and consult ICU/Retrieval.",
+   "claim": "**Severe disease:** give whatever respiratory support is needed. **High-flow nasal oxygen is acceptable with airborne precautions**; discuss with a senior clinician and consult ICU/Retrieval.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Severe disease Respiratory support as required High-flow nasal oxygen therapy may be used when needed, but with appropriate airborne precautions to reduce risk of aerosolisation. Discuss with senior clinician and consult ICU/Retrieval services",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07233f3f83906b64",
+     "n": 243,
+     "p": "Severe d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Reserve nebulised adrenaline for severe croup** because of aerosolisation risk.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nebulised adrenaline should be reserved for severe croup, due to risk of aerosolisation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c76fe15d2e6d17dc",
+     "n": 87,
+     "p": "Nebulise"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Additional treatments are for very-high-risk children, moderate to severe disease, or PIMS-TS — always consult Infectious Diseases or a senior clinician.**",
+   "claim": "**Additional treatments are for very-high-risk children, moderate to severe disease, or PIMS-TS — never without consulting Infectious Diseases or a senior clinician.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Considered in children at very high risk, with moderate to severe disease, and/or those who meet criteria for PIMS-TS (see Additional notes below). Always consult Infectious Diseases or a senior clinician",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d1bf9b3b1fc7edf1",
+     "n": 204,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**Corticosteroids for children needing ongoing supplemental oxygen** (including ventilated): **dexamethasone 0.15 mg/kg/day IV or oral, max 6 mg.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Corticosteroids Consider for children requiring ongoing supplemental oxygen (including mechanically ventilated patients) Starting dose dexamethasone (IV or oral) 0.15 mg/kg/day (max dose 6 mg)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3458ceb524638fe5",
+     "n": 192,
+     "p": "Corticos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**VTE prophylaxis:** for hospitalised children, follow local thromboprophylaxis guidelines and consult haematology. **IVIG** is for PIMS-TS; other immunomodulators (anti-IL-1, anti-IL-6, anti-TNF) are third-line for PIMS-TS.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For hospitalised children, refer to local thromboprophylaxis guidelines and consult haematology … Intravenous immunoglobulin Consider for children who meet criteria for PIMS-TS … Other immunomodulatory agents (eg: anti IL-1, anti IL-6 or anti-TNF) May be considered as a third-line option for children with PIMS-TS",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d83959bcdbe8fce",
+     "n": 95,
+     "p": "For hosp"
+    },
+    {
+     "h": "91dca71489ac67f0",
+     "n": 78,
+     "p": "Intraven"
+    },
+    {
+     "h": "8bcd69351a88c35e",
+     "n": 135,
+     "p": "Other im"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Not recommended:** vitamin D, ivermectin, hydroxychloroquine, colchicine or azithromycin — no supporting evidence.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is no evidence to support the use of vitamin D, ivermectin, hydroxychloroquine, colchicine or azithromycin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c34c7cf891c2844a",
+     "n": 112,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Myocarditis and pericarditis are associated with mRNA COVID-19 vaccines** — rare, more common in **adolescent males and after the 2nd dose**, mostly **within 7 days** but reported up to 14 days.",
+   "claim": "**Myocarditis and pericarditis are associated with mRNA COVID-19 vaccines** — rare, more frequent **after the 2nd dose and in adolescent males**, mostly **within 7 days** but reported up to 14 days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Myocarditis and pericarditis have both been associated with mRNA COVID-19 vaccines (Pfizer and Moderna) Rare, higher incidence in adolescent males and after the 2nd dose Most cases occur within 7 days, but have been reported to occur up to 14 days after vaccination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ffbc8b47a021c5be",
+     "n": 265,
+     "p": "Myocardi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Chest pain, shortness of breath, palpitations, syncope or dizziness within 1 to 14 days of an mRNA COVID-19 vaccine** in an adolescent needs thorough evaluation. Report any adverse event after vaccination.",
+   "claim": "⚠️ **An adolescent with palpitations, chest pain, dizziness, syncope or shortness of breath 1 to 14 days after an mRNA COVID-19 vaccine** needs thorough evaluation. Report any adverse event after vaccination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "An adolescent who presents with chest pain, shortness of breath, palpitations, syncope or dizziness within 1 to 14 days of receiving an mRNA COVID-19 vaccine requires thorough evaluation … Any adverse events following COVID-19 vaccination should be reported",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f76f91ac286dd3d",
+     "n": 186,
+     "p": "An adole"
+    },
+    {
+     "h": "75924c48131473b6",
+     "n": 68,
+     "p": "Any adve"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the paediatric team** for any case needing respiratory or ongoing hydration support; **ICU/Retrieval** for escalating respiratory support; **Infectious Diseases** for severe disease, ongoing respiratory support or PIMS-TS.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when All suspected or confirmed cases of COVID-19 requiring respiratory or ongoing hydration support … Consider consultation with ICU/Retrieval services All children requiring escalating respiratory support Consider consultation with infectious diseases All children with severe disease or ongoing respiratory support All children who meet criteria for PIMS-TS",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2015057908b5c79a",
+     "n": 149,
+     "p": "Consider"
+    },
+    {
+     "h": "ba10f3b0e4cdfaee",
+     "n": 257,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider discharge** for cases that need no hydration or respiratory support.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Suspected or confirmed cases who do not require hydration or respiratory support",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f5dc911b0973350",
+     "n": 104,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **PIMS-TS is a very rare, serious complication 2–6 weeks after SARS-CoV-2 infection** (which may have been asymptomatic). **Consider it in an unwell child with fever (3 days or more), shock, rash and abdominal pain**; it overlaps with Kawasaki disease and toxic shock syndrome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Very rare but serious complication that occurs 2-6 weeks after infection with SARS-CoV-2. The initial infection may be asymptomatic … PIMS-TS should be considered in an unwell child who presents with fever (≥3 days), signs of shock, rash and abdominal pain … Several features overlap with Kawasaki disease and toxic shock syndrome",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dbc3eace8d0bda2c",
+     "n": 131,
+     "p": "Very rar"
+    },
+    {
+     "h": "b0dc09acf9ed225e",
+     "n": 122,
+     "p": "PIMS-TS "
+    },
+    {
+     "h": "2eb58f53a10ec7a5",
+     "n": 71,
+     "p": "Several "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Discuss every suspected PIMS-TS case urgently with a senior clinician**; tertiary ICU transfer may be needed. With Infectious Diseases consider corticosteroids, IVIG and low-dose aspirin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All suspected cases of PIMS-TS should be discussed urgently with a senior clinician … Transfer to a tertiary centre with intensive care support may be required … In consultation with Infectious disease consider: Corticosteroids, maybe given before, or in combination with IVIg Intravenous immunoglobulin (IVIg) Low-dose aspirin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8f711a610955631",
+     "n": 83,
+     "p": "All susp"
+    },
+    {
+     "h": "e3ee52104d394731",
+     "n": 73,
+     "p": "Transfer"
+    },
+    {
+     "h": "bba8a7f53034fa8e",
+     "n": 165,
+     "p": "In consu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'COVID-19' (Last updated September 2021), at https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/, retrieved 2026-09-23"
   }
  ]

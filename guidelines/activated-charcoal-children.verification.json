@@ -1,125 +1,231 @@
 {
  "guideline": "guidelines/activated-charcoal-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 15,
-  "pass": 15,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 15
  },
  "claims": [
   {
-   "claim": "⚠️ **Activated charcoal has a very limited role in childhood poisoning and should not be used without consulting a toxicologist.**",
+   "claim": "⚠️ **Charcoal has only a very small place in treating poisoned children — never give it unless a toxicologist has been consulted.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Activated charcoal has a very limited role in the treatment of childhood poisoning. It should not be used without consultation with a toxicologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d1603ff6665ecf3b",
+     "n": 146,
+     "p": "Activate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Aspirated charcoal causes significant morbidity and death. Confirm nasogastric tube position on chest X-ray before giving it.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aspiration of activated charcoal can cause significant morbidity and mortality. Nasogastric tube position must be confirmed on chest X-ray before administering activated charcoal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3b56fbc8fc145653",
+     "n": 178,
+     "p": "Aspirati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If indicated, give it as soon as possible — usually within 1 to 2 hours of exposure.**",
+   "claim": "**When indicated, give it without delay — typically in the first 1 to 2 hours after exposure.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If indicated, activated charcoal should be administered as soon as possible, usually within 1 to 2 hours of the exposure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2d60279c2fc474f",
+     "n": 120,
+     "p": "If indic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Use it only in potentially severe poisonings where supportive care and antidotes alone would give a poor outcome** — where benefit outweighs risk.",
+   "claim": "**Reserve it for potentially severe poisonings in which supportive care plus antidotes alone would lead to a poor outcome** — ie benefit must outweigh risk.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Activated charcoal is very rarely indicated in children. It should only be used in potentially severe poisonings where supportive care and antidote therapy alone would result in a poor outcome, ie where the benefits outweigh the potential risks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee3f5b72b8e1992d",
+     "n": 244,
+     "p": "Activate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Don't wait for drug levels** — they return too late to influence the early decision.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Specific drug concentrations may be measured, although these results (and other blood tests) would return too late to influence the early consideration of Charcoal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b711b178d979f9c",
+     "n": 163,
+     "p": "Specific"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Resuscitate first.** Charcoal is given early, but only after appropriate resuscitation; **intubation and ventilation may be needed beforehand.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Although charcoal should be administered early after ingestions, it should only be administered after appropriate resuscitation has been administered Intubation and ventilation may be required prior to administration.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c5e5d4a9559d87e",
+     "n": 217,
+     "p": "Although"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consider it when the child presents early (eg 1–2 hours) after a potentially severe ingestion of:** amisulpride · chloroquine, hydroxychloroquine or quinine · calcium channel blockers, especially verapamil and diltiazem · carbamazepine · colchicine · beta blockers · flecainide · methotrexate · paraquat/diquat.",
+   "claim": "**Think of it for an early presentation (eg 1–2 hours) following a potentially severe ingestion of:** calcium channel blockers (verapamil and diltiazem especially) · beta blockers · flecainide · amisulpride · carbamazepine · colchicine · methotrexate · quinine, chloroquine or hydroxychloroquine · paraquat/diquat.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider activated Charcoal if the patient presents early (for example 1-2 hours) after a potentially severe toxic ingestion … Table 1: List of selected toxins where activated charcoal may be considered: Amisulpride Chloroquine, hydroxychloroquine or quinine Calcium channel blockers, particularly verapamil and diltiazem Carbamazepine Colchicine Beta Blockers Flecainide Methotrexate Paraquat/diquat",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "95baaa3a34b87fe5",
+     "n": 124,
+     "p": "Consider"
+    },
+    {
+     "h": "a5c3c2b55ad3edee",
+     "n": 273,
+     "p": "Table 1:"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Other drugs:** see the individual poisoning guidelines and discuss with a toxicologist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Activated Charcoal may need to be considered for other drugs, see individual poisoning guidelines and discuss with toxicologist.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b98b08165f9cb987",
+     "n": 128,
+     "p": "Activate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Contraindicated with an altered or reduced conscious state, or imminent risk of seizures, and an unprotected airway.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "When is Activated Charcoal contraindicated? Patients with altered/reduced conscious state or at imminent risk of seizures and with unprotected airway",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ced521abe6d02d9",
+     "n": 149,
+     "p": "When is "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Not helpful and contraindicated for:** acids, alkalis and corrosives · cyanide · ethanol, methanol and glycols · eucalyptus and essential oils · fluoride · hydrocarbons · **metals — lithium, iron, potassium, lead** · boric acid.",
+   "claim": "⚠️ **Not helpful and contraindicated for:** cyanide · fluoride · hydrocarbons · acids, alkalis and corrosives · boric acid · ethanol, methanol and glycols · eucalyptus and essential oils · **metals — lithium, iron, potassium, lead**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "List of toxins where Charcoal is NOT helpful and contraindicated Acid,and Alkalis / corrosives Cyanide Ethanol/methanol/glycols Eucalyptus and Essential Oils Fluoride Hydrocarbons Metals - including Lithium, Iron compounds, potassium, lead Mineral acids - Boric acid",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15dcf04840503afb",
+     "n": 266,
+     "p": "List of "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Adverse effects: aspiration, progressive respiratory failure and death.** Beware oral use in a drowsy child or after substances that can rapidly depress the CNS or cause seizures. Also faecal discolouration and **bowel obstruction from bezoars.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Adverse Effects: Respiratory - aspiration, progressive respiratory failure; Death. Beware oral use with drowsiness, or following the ingestion of substances which could cause rapidly reduced CNS depression or may cause seizures Faecal discolouration GI obstruction: by bezoar formation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d1bea0dbd64f531",
+     "n": 285,
+     "p": "Adverse "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Giving it:** it is highly viscous — dilute with at least 0.25 parts water to 1 part charcoal — and **use a large-bore NG tube, eg 10–14 French.**",
+   "claim": "**Giving it:** it is highly viscous — dilute with at least 0.25 parts water to 1 part charcoal — and **pass it down a 10–14 French large-bore NG tube.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "highly viscous and dilution ratio varies minimum of 0.25 parts water:1 part of activated charcoal use large bore NG tube eg 10-14 French gauge",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d07d38d0362c5fef",
+     "n": 142,
+     "p": "highly v"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Multi-dose charcoal has a pharmacokinetic effect but no evident improvement in clinical outcome.** ⚠️ **Stop immediately if bowel sounds disappear.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Whilst there is evidence of a pharmacokinetic effect, it is not evident that repeating doses of charcoal improves clinical outcome. Multiple dose activated charcoal should be ceased immediately if bowel sounds disappear",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22a74d1c52bd3de4",
+     "n": 219,
+     "p": "Whilst t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If repeating doses, monitor drug levels and the clinical state.** Some evidence supports repeat charcoal in **life-threatening** ingestions of carbamazepine, dapsone, phenobarbitone, phenytoin, quinine or theophylline.",
+   "claim": "**If repeating doses, monitor drug levels and the clinical state.** Some evidence backs repeat dosing when a **life-threatening** ingestion involves carbamazepine, phenytoin, phenobarbitone, dapsone, theophylline or quinine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If repeating multiple doses of activated charcoal, consider measuring drug concentrations, as well as monitoring the patients clinical condition In particular, there is some evidence for repeating Charcoal for life threatening ingestions of carbamazepine, dapsone, phenobarbitone, phenytoin, quinine or theophylline",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "19965c6e13b0b671",
+     "n": 315,
+     "p": "If repea"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for every adolescent with an intentional overdose.** 24-hour advice: Victorian Poisons Information Centre 13 11 26. Transfers: PIPER 1300 137 650. Discharge criteria are on the individual poisoning pages.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all adolescent patients with an intentional overdose For 24 hour advice, contact the Victorian Poisons Information Centre on 13 11 26 … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650. … Discharge Criteria See individual poisoning guidelines as appropriate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ad69d19fe679180",
+     "n": 168,
+     "p": "Admissio"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    },
+    {
+     "h": "6cb48ec7089c8a65",
+     "n": 69,
+     "p": "Discharg"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Use of Activated Charcoal in Poisonings' (Last updated June 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/, retrieved 2026-09-23"
   }
  ]

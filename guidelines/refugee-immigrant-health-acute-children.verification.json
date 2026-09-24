@@ -1,165 +1,307 @@
 {
  "guideline": "guidelines/refugee-immigrant-health-acute-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Refugee Health - acute presentation' (Last Updated September 2020), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Refugee Health - acute presentation' (Last Updated September 2020), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
-   "claim": "**The main ED issue is a recently arrived child with fever**; other health screening belongs in the outpatient setting.",
+   "claim": "**In ED, the key concern is fever in a child who has recently arrived**; other health screening is for the outpatient setting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In the emergency setting, the main issue is a recently-arrived child with fever. Other health screening should be completed in the outpatient setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f03c35627859bc6",
+     "n": 149,
+     "p": "In the e"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Use an interpreter — not a family member.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "An interpreter is usually needed. It is not appropriate to use a family member for interpreting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "000a62cdf82f02cd",
+     "n": 95,
+     "p": "An inter"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Asylum seekers receive free hospital care in NSW, Queensland and Victoria.**",
+   "claim": "**In NSW, Queensland and Victoria, hospital care is free for asylum seekers.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Asylum seekers receive free hospital care in NSW, Queensland and Victoria",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "483ee9139f6a8a70",
+     "n": 73,
+     "p": "Asylum s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Post-arrival screening is recommended within 1 month but is not mandated** — many children will not have had it.",
+   "claim": "**Post-arrival screening is advised within 1 month, though it is not mandatory** — so many children won't have had it.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Post-arrival refugee health screening is recommended within 1 month but is not mandated, many children may not have had this screening",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c9fca5eb3518c89",
+     "n": 134,
+     "p": "Post-arr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Febrile recent arrivals (under 3 months in Australia) from malaria-endemic areas need malaria screening** — thick/thin films and a rapid diagnostic test, which can be done on finger-prick blood.",
+   "claim": "⚠️ **Screen for malaria in a febrile child from a malaria-endemic area who has been in Australia under 3 months** — thick/thin films and a rapid diagnostic test, which can be done on finger-prick blood.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Recent arrivals (<3 months in Australia) from malaria-endemic areas who are febrile need malaria screening … Screening (thick/thin films and rapid diagnostic test - RDT) can be completed on finger prick bloods.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb279acc33202a9d",
+     "n": 106,
+     "p": "Recent a"
+    },
+    {
+     "h": "c5ad778d5c28e858",
+     "n": 101,
+     "p": "Screenin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If taking bloods in ED and the child has not had post-arrival screening:** with consent, store extra blood — a large gel serum tube (7.5 mL) and an EDTA tube (2.7 mL) — and notify the immigrant health team.",
+   "claim": "**When bloods are drawn in ED for a child who hasn't had post-arrival screening:** with consent, store extra blood — a large gel serum tube (7.5 mL) and an EDTA tube (2.7 mL) — and notify the immigrant health team.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If bloods are being taken in ED and the child has not had post-arrival screening: consider storing extra blood for screening with consent; large gel serum tube (7.5 mL) & EDTA tube (2.7 mL) notify your immigrant health (or equivalent) team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4a6b2ae1416b6c8e",
+     "n": 239,
+     "p": "If blood"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **A verbal immunisation history is not reliable: with no written record, presume the child is unimmunised.**",
+   "claim": "⚠️ **A verbal immunisation history is not reliable: without a written record, assume the child has not been immunised.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A verbal history of immunisation is not reliable. If there is no written record presume the child is unimmunised",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6792eee124bcd7e9",
+     "n": 112,
+     "p": "A verbal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Fever:** beyond viral and bacterial infection, consider **malaria (endemic areas), typhoid, dysentery, dengue and arboviral infections, and hepatitis.**",
+   "claim": "**Fever:** beyond viral and bacterial infection, consider **hepatitis, typhoid, dysentery, dengue and arboviral infections, and malaria (endemic areas).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fever Viral infections Bacterial infections Malaria (endemic areas) Typhoid Dysentery Dengue and arboviral infections Hepatitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "21d18a5b572f3bb6",
+     "n": 127,
+     "p": "Fever Vi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Respiratory:** pertussis (vaccine may have been unavailable); **TB with chronic cough or a contact history**; rarely parasites causing wheeze; **sickle cell disease presenting as acute chest syndrome.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Respiratory symptoms Viral RTI Pneumonia, Asthma Bronchiolitis Croup Pertussis: vaccination may not have been available in country of origin Tuberculosis (TB) consider in children with chronic cough or contact history Parasite infection may (very rarely) cause wheeze/respiratory symptoms Sickle cell disease may present with acute chest syndrome",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f27846ef9988d42",
+     "n": 346,
+     "p": "Respirat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Abdominal pain:** also consider parasites, **Helicobacter pylori gastritis** (epigastric pain, early satiety, nausea/vomiting, family history) and hepatitis.",
+   "claim": "**Abdominal pain:** also consider parasites, **Helicobacter pylori gastritis** (family history, epigastric pain, nausea/vomiting, early satiety) and hepatitis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abdominal pain Acute infection Constipation Surgical or gynaecological causes. Parasite infection Helicobacter pylori gastritis - epigastric pain, early satiety, nausea/vomiting, family history Hepatitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b40f364a208ee3c",
+     "n": 203,
+     "p": "Abdomina"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Diarrhoea:** also consider parasites, lactose intolerance (more common in some groups), and bacillary or amoebic dysentery.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Diarrhoea Viral gastroenteritis Bacterial gastroenteritis Malabsorption Parasite infection Lactose intolerance is more common in some racial groups Bacillary and amoebic dysentery",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "18a4017a515003eb",
+     "n": 179,
+     "p": "Diarrhoe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Hypocalcaemia** (tetany, cramps, stridor, seizures) — think vitamin D deficiency, more likely under 12 months; examine for rickets. **Rickets or symptomatic hypocalcaemia need ED screening** (vitamin D, Ca, Mg, PO₄, ALP, PTH, UEC, urine Cr/Ca/PO₄) **and specialist management.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hypocalcaemia Tetany, muscle cramps, stridor, seizures Vitamin D deficiency (low calcium more likely in children <12 months) Examine for rickets (bossing, swelling wrists/ankles, bony deformity) Children with rickets or symptomatic hypocalcaemia need screening in ED (Vitamin D, Ca, Mg, PO4, ALP and PTH, UEC and urine Cr, Ca PO4) and specialist management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "033db98f0fddab72",
+     "n": 356,
+     "p": "Hypocalc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Rashes — Strongyloides** can cause an intermittent urticarial rash (larva currens), typically buttocks/perianal. **Untreated Strongyloides can progress to hyperinfection syndrome if immunosuppressants, including steroids, are given.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rashes Infective Eczema Dermatophyte (tinea) infection Strongyloides infection may cause an intermittent urticarial rash lasting a few days (larva currens), typically on the buttocks/perianal region Patients with untreated Strongyloides infections can develop hyperinfection syndrome if given immunosuppressant therapy, including steroids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7192915139c4226e",
+     "n": 338,
+     "p": "Rashes I"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Continence/UTI:** chronic UTI may be undetected; consider mental health in secondary enuresis; **consider female genital mutilation in girls** (seek advice on how to raise it).",
+   "claim": "**Continence/UTI:** chronic UTI may be undetected; consider mental health in secondary enuresis; **in girls, consider female genital mutilation** (get advice on how to raise it).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Continence/UTI UTI Irritable bladder Enuresis Chronic UTI may not have been detected/treated Consider mental health issues as a cause of secondary enuresis Consider female circumcision (female genital mutilation - FGM) as an additional possibility in girls (seek advice on how to raise this)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f7a9500a9469f26e",
+     "n": 291,
+     "p": "Continen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Musculoskeletal pain:** low vitamin D is an extremely common cause in refugee children and adolescents with risk factors.",
+   "claim": "**Musculoskeletal pain:** low vitamin D is an extremely frequent cause in at-risk refugee children and adolescents.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Musculoskeletal pain Injury Growing pains Joint pathology/ inflammation Low vitamin D is an extremely common cause in refugee children and adolescents with risk factors",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9acdd98fe79e6c1",
+     "n": 168,
+     "p": "Musculos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Nutrition concerns:** malnutrition may need admission; consider food insecurity, **iron deficiency (common)**, B12 deficiency, H. pylori, dental disease limiting chewing, and rickets restricting growth.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nutrition concerns, fussy eating Poor intake Increased losses (gut, urine) Increased requirements Behavioural issues Excess milk intake Enlarged tonsils Malnutrition - may need admission Food insecurity (not being able to afford/access adequate food) Iron deficiency is common in refugee children Consider B12 deficiency Helicobacter pylori gastritis … Dental disease – pain with chewing may restrict food intake Rickets may restrict linear growth",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6fef07211f64769e",
+     "n": 350,
+     "p": "Nutritio"
+    },
+    {
+     "h": "4f65e27cfa042a52",
+     "n": 94,
+     "p": "Dental d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Disability or developmental concerns:** children may have had no treatment — check nutrition, clarify seizures, **link urgently with care**; don't attribute delay to English as an additional language; check age and interrupted schooling.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Disability (and developmental or learning concerns) … Children with complex disability may not have had any access to treatment, check nutrition and clarify seizures, link urgently with care Be wary of attributing to English as an additional language - seek specialist review Check age in older children and consider interrupted schooling",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea23bfdef67aad81",
+     "n": 51,
+     "p": "Disabili"
+    },
+    {
+     "h": "3a490b871712b5ed",
+     "n": 284,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mental health:** consider PTSD and experience of violence, including sexual violence; clarify family separations, migration history, parental mental health and **detention experience.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mental health Behaviour concerns Sleep issues Anxiety/separation issues Mental health diagnosis PTSD Experience of violence/conflict, including sexual violence Clarify family background, separations and migration history, parent mental health, and detention experience for people arriving as asylum seekers",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c45349ec764c777",
+     "n": 306,
+     "p": "Mental h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consult the paediatric team for:** escalating care or admission; age assessment; **all unaccompanied minors or orphan relative visa holders**; developmental delay or disability; **malnutrition (weight/BMI under the 5th centile and disproportionate for family)**; complex medical issues; offshore or prolonged immigration detention.",
+   "claim": "**Consult the paediatric team for:** escalation of care or admission; age assessment; **every unaccompanied minor or orphan relative visa holder**; developmental delay or disability; **malnutrition (weight/BMI below the 5th centile, out of proportion to the family)**; complex medical issues; offshore or prolonged immigration detention.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Escalating needs of care Requiring inpatient admission or outpatient follow-up Age assessment/clarification of birthdate All unaccompanied minors or orphan relative visa holders Developmental delay or disability Malnutrition - weight/BMI <5th centile for age and disproportionate for family Complex medical issues Offshore detention or prolonged immigration detention",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "efac06b2e35d249f",
+     "n": 421,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when stable**, with clear advice on when to return and how to access emergency services.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Child is stable and clear advice has been provided about when to return and how/when to access emergency services if needed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9acb5fbbdf0f1a07",
+     "n": 147,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   },
   {
    "claim": "**Update contact details** (families move often early in settlement), consider contacting the settlement case worker or refugee health nurse, and **refer to a paediatrician** for any issue above.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ensure contact details are up to date as families often move in the early settlement period Consider contacting the family’s settlement case worker or refugee health nurse about the presentation Ensure children are referred to a paediatrician with any issues listed above",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcc652837e2c6338",
+     "n": 271,
+     "p": "Ensure c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Refugee Health - acute presentation' (Last Updated September 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/, retrieved 2026-09-23"
   }
  ]

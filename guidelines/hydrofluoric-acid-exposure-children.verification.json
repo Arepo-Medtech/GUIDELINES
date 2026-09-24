@@ -1,187 +1,351 @@
 {
  "guideline": "guidelines/hydrofluoric-acid-exposure-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Hydrofluoric acid exposure' (Last Updated October 2018), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Hydrofluoric acid exposure' (Last Updated October 2018), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 23,
-  "pass": 23,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
-   "claim": "⚠️ **Skin exposure alone can cause systemic hypocalcaemia.** Pain may be delayed and out of proportion to what is visible.",
+   "claim": "⚠️ **Systemic hypocalcaemia can follow skin exposure alone.** Pain can come late and be out of proportion to what is visible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Topical exposure to Hydrofluoric Acid (HF) can cause systemic hypocalcaemia Pain may be delayed and disproportionate to external signs",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6097127ca3ce9082",
+     "n": 134,
+     "p": "Topical "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not use local anaesthetic techniques for pain** — they can mask ongoing symptoms.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Local anaesthetic techniques are not appropriate for pain relief as they may mask ongoing symptoms.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70ba39f18a3345b0",
+     "n": 99,
+     "p": "Local an"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
-   "claim": "**HF is corrosive and systemically toxic by any route through fluorosis, which shows as hypocalcaemia.** Sources: rust cleaners, car wheel cleaners (aluminium brightener), glass etching, industry. Concentrations run up to 70%; domestic products are likely under 5%.",
+   "claim": "**HF is corrosive; whatever the route, it is toxic systemically via fluorosis, which shows as hypocalcaemia.** Sources: rust cleaners, car wheel cleaners (aluminium brightener), glass etching, industry. Concentrations run up to 70%; domestic products are likely under 5%.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "HF is corrosive, and systemically toxic by any route, due to fluorosis which manifests as hypocalcaemia. … HF is found in rust cleaners, car wheel cleaners (aluminium brightener) and is used in glass etching, as well as for industrial applications. … It is available in concentrations up to 70%, though in domestic applications is likely <5%",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc5a22440594de26",
+     "n": 104,
+     "p": "HF is co"
+    },
+    {
+     "h": "0515ca7f6438b835",
+     "n": 141,
+     "p": "HF is fo"
+    },
+    {
+     "h": "23eb9e69387cb80e",
+     "n": 90,
+     "p": "It is av"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**All exposures need medical assessment.** ⚠️ **Hypocalcaemia risk:** over 1% BSA with over 50% HF · over 5% BSA at any concentration · **any ingestion.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All exposures should be medically assessed … Exposure associated with hypocalcaemia: >1% body surface area (BSA) with > 50% concentration HF Greater than 5% BSA with any concentration any ingestion as risk of systemic fluorosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "784991e54670e13d",
+     "n": 42,
+     "p": "All expo"
+    },
+    {
+     "h": "935f4fac63ad7324",
+     "n": 182,
+     "p": "Exposure"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**Fluorosis (any route) → hypocalcaemia and hypomagnesaemia:** perioral numbness, paraesthesiae, cramps · irritability, seizures · tetany · Chovostek's and Trosseau's signs · ⚠️ arrhythmias (long QT) · heart failure.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms of resultant hypocalcaemia and hypomagnesaemia, including: Perioral numbness, paraesthesias, muscle cramps Irritability, seizures Tetany Chovostek’s sign (facial muscle spasm) Trosseau’s sign (carpal spasm) Arrhythmias (long QT) Heart failure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fee6408a56d4aaa9",
+     "n": 251,
+     "p": "Symptoms"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**Skin pain is immediate with over 50% HF but can be delayed up to 24 hours with weaker solutions**, and may precede any blistering or erythema as a marker of tissue destruction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pain Immediate with concentrations > 50% but will be delayed for up to 24 hours with weaker solutions. Pain as marker of tissue destruction may be experienced before any external signs of blistering or skin erythema.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2e004c103f480819",
+     "n": 216,
+     "p": "Pain Imm"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ingestion:** under 20% irritates the oesophagus; higher concentrations may burn. **Inhalation:** immediate irritation, but cough, wheeze and breathlessness may be delayed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oesophageal irritation occurs with concentrations <20%. Burns may occur with higher than this. … immediate irritation but cough, wheeze and SOB may be delayed.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1744a0ff441bf921",
+     "n": 94,
+     "p": "Oesophag"
+    },
+    {
+     "h": "a3d05222a85a950e",
+     "n": 62,
+     "p": "immediat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**Investigations:** electrolytes and blood gas (calcium, magnesium, potassium) · **ECG — prolonged QT marks hypocalcaemia** · consider urgent endoscopy after ingestion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Electrolytes and blood gas - hypocalcaemia, hypomagnesaemia, hypo/hyperkalaemia, ECG - prolonged QT is a marker of hypocalcaemia Consider referral for urgent endoscopy in cases of ingestion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1acfb95625fa53c6",
+     "n": 189,
+     "p": "Electrol"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Apply calcium gluconate 2.5% gel to contaminated skin; repeat every 15 minutes until pain stops.**",
+   "claim": "**Put calcium gluconate 2.5% gel on the contaminated skin, reapplying every 15 minutes until the pain stops.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Apply Calcium gluconate 2.5 % gel to contaminated skin. Repeat 15 minutely until pain has stopped.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b793b9fc4dcfbf2e",
+     "n": 98,
+     "p": "Apply Ca"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**No gel available?** Make one by adding 10 mL of calcium gluconate 10% injection to 30 mL of sterile surgical lubricant.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If not available, an extemporaneous gel can be prepared by adding 10 mL of calcium gluconate injection 10% to 30 mL of sterile surgical lubricant.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "14ea2a54b9c15b49",
+     "n": 146,
+     "p": "If not a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Remove clothing and jewellery into sealed bags out of patient areas; wash off, scrubbing under nails.** ⚠️ **Staff wear PPE including chemical-resistant gloves.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Remove clothing and jewellery, bag in sealed containers and remove from patient care areas to protect other patients and health care workers from exposure Wash off, including scrubbing under nails. Ensure that staff do not become contaminated - wear PPE, including chemical resistant gloves.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab0d6a06f03ee262",
+     "n": 291,
+     "p": "Remove c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Flush eyes with 0.9% saline.** ⚠️ **Ingestion: activated charcoal is not indicated.**",
+   "claim": "**Eyes: flush with 0.9% saline.** ⚠️ **Ingestion: no activated charcoal — it is not indicated.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Flush eyes with 0.9% Saline, Ingestion - activated charcoal is not indicated.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f86c48db81369aa2",
+     "n": 77,
+     "p": "Flush ey"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Everyone at risk of fluorosis — including all ingestions — is managed in a resuscitation area on continuous cardiac monitoring.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All patients at risk of fluorosis need to be managed in a resuscitation area and have continuous cardiac monitoring. (This includes all ingestions)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "716e8378fdec13b0",
+     "n": 147,
+     "p": "All pati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Cardiac arrest or ventricular arrhythmia: calcium gluconate 10% 0.5 mL/kg, max 60 mL** — higher than the standard maximum.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If cardiac arrest or ventricular arrhythmias: 10 % Calcium gluconate 0.5 mL/kg up to 60 mL (note: this dose is higher than standard maximum dose).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d9781209ea4c08c3",
+     "n": 146,
+     "p": "If cardi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Plus IV sodium bicarbonate (1 mmol/mL) 1 mL/kg (1 mmol/kg).**",
+   "claim": "**Plus IV sodium bicarbonate 1 mmol/kg, i.e. 1 mL/kg of the 1 mmol/mL solution.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Plus IV Sodium bicarbonate8.4 % (1 mmol/ml) 1 mL/kg (1 mmol/kg)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d8500c43c71b3b41",
+     "n": 63,
+     "p": "Plus IV "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Plus IV magnesium sulfate 50% (2 mmol/mL):** VF **0.05–0.1 mL/kg (0.1–0.2 mmol/kg) slow IV**; deficiency **0.2 mL/kg (0.4 mmol/kg) over 4 hours.**",
+   "claim": "**Plus magnesium sulfate IV, as the 50% (2 mmol/mL) solution:** VF **0.1–0.2 mmol/kg (= 0.05–0.1 mL/kg), given slowly IV**; deficiency **0.4 mmol/kg (= 0.2 mL/kg) over 4 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Plus IV Magnesium sulfate 50 %, 2 mmol/mL: For ventricular fibrillation 0.05 - 0.1 mL/kg (= 0.1 - 0.2 mmol/kg) slow IV For deficiency 0.2 mL/kg (= 0.4 mmol/kg) over 4 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2c9153a632b4115",
+     "n": 172,
+     "p": "Plus IV "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Correct hypocalcaemia with calcium gluconate 10% 0.5 mL/kg**; repeated and higher doses may be needed — discuss with a toxicologist. Correct other electrolytes too.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Correct hypocalcaemia: Calcium gluconate 10%, 0.5mL/kg May require repeated and higher doses. Discuss with a toxicologist Correct hypocalcaemia and other electrolyte abnormalities",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e56bfe5368ae5e7",
+     "n": 179,
+     "p": "Correct "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Skin:** calcium gluconate 2.5% gel topically, repeated every 15 minutes. **Inhalation: nebulised 1 mL calcium gluconate 10% in 3 mL 0.9% sodium chloride.**",
+   "claim": "**Skin:** calcium gluconate 2.5% gel topically, repeated every 15 minutes. **Inhalation: nebulise calcium gluconate 10%, 1 mL diluted in 3 mL of 0.9% sodium chloride.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Skin exposure: Calcium gluconate 2.5 % gel topically and repeated 15 minutely Inhalational exposure: Nebulised 1 mL Calcium gluconate 10 % in 3 mL 0.9 % sodium chloride.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f271dad9b3ff07c9",
+     "n": 169,
+     "p": "Skin exp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Refractory pain:** discuss with Poisons Information (131126) — subcutaneous calcium gluconate 0.5 mL/cm², regional IV or intra-arterial infusion. ⚠️ **Never use calcium chloride for local or regional infiltration: it causes tissue damage.**",
+   "claim": "**Refractory pain:** discuss with Poisons Information (131126) — subcutaneous calcium gluconate 0.5 mL/cm², regional IV or intra-arterial infusion. ⚠️ **Calcium chloride damages tissue, so never infiltrate it locally or regionally.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Refractory pain: Discuss with Poisons Information Centre 131126 regarding subcutaneous infiltration of Calcium gluconate 0.5 mL/cm2, regional IV infusion or intra-arterial infusion. DO NOT use Calcium chloride for local or regional infiltration as this causes tissue damage",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ecca98bc892b911",
+     "n": 273,
+     "p": "Refracto"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Monitor for 12 hours if at risk of systemic fluorosis.**",
+   "claim": "**A child at risk of systemic fluorosis needs 12 hours of monitoring.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Monitor for 12 hours if at risk of systemic fluorinosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b66adab748fe73b9",
+     "n": 55,
+     "p": "Monitor "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for all adolescents with intentional exposure**; assess self-harm risk before ward transfer, but **never delay urgent care such as ICU admission.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all adolescent patients with an intentional overdose Patients must be assessed for ongoing risk of deliberate self-harm on the ward before transfer to the ward to enable appropriate supervision and support. However, this should not delay urgent care, such as ICU admission.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1889d984fd39c1de",
+     "n": 308,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** if care is beyond the local hospital's comfort. **PIPER: 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Patients requiring care outside the comfort level of the local hospital. … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6647c8731b0b7ddf",
+     "n": 72,
+     "p": "Patients"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge:** pain controlled with simple analgesia only · normal GCS · normal ECG (if required) · observation period complete · after deliberate ingestion, low assessed risk of further self-harm.",
+   "claim": "**Discharge:** simple analgesia alone controls the pain · GCS normal · normal ECG (if required) · observation period complete · after deliberate ingestion, low assessed risk of further self-harm.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pain can be controlled with simple analgesia only Normal GCS Normal ECG (if required) Period of observation as above For deliberate ingestion a risk assessment should indicate that the patient is at low risk of further self-harm in the discharge setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8769ef218909f2ea",
+     "n": 253,
+     "p": "Pain can"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hydrofluoric acid exposure' (Last Updated October 2018), at https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/, retrieved 2026-09-23"
   }
  ]

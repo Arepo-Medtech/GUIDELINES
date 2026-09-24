@@ -1,166 +1,353 @@
 {
  "guideline": "guidelines/dental-trauma-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Dental trauma' (Last updated July 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Dental trauma' (Last updated July 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
-   "claim": "**Management depends on whether the tooth is primary or permanent.** Primary teeth are **never repositioned, splinted or replanted** — they are observed or extracted.",
+   "claim": "**Management depends on whether the tooth is primary or permanent.** Primary teeth: **never replant, splint or reposition** — observe or extract them.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Management of dental trauma depends on whether primary or permanent teeth are involved … Injuries to primary teeth are generally managed by observation or extraction … primary teeth are never repositioned, splinted or replanted",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa4f36b6e4b69e4b",
+     "n": 86,
+     "p": "Manageme"
+    },
+    {
+     "h": "db7daf5b02c56b50",
+     "n": 76,
+     "p": "Injuries"
+    },
+    {
+     "h": "48eda0669ee9eafb",
+     "n": 59,
+     "p": "primary "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Replanting permanent teeth or fragments needs urgent management** to improve long-term viability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Successful replantation of permanent teeth or teeth fragments requires urgent management to improve long term tooth viability",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9cec400a450c7715",
+     "n": 125,
+     "p": "Successf"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Do the primary and secondary survey first** where required — dental trauma often comes with facial and head injuries. ⚠️ **In infants and young children with oral trauma, consider child abuse.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Dental trauma is very common, and often occurs alongside other injuries, especially facial and head injuries. Where required, perform a primary and secondary survey prior to instituting dental management … In young children and infants with oral trauma, consider child abuse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a17b047f3ea65e6",
+     "n": 203,
+     "p": "Dental t"
+    },
+    {
+     "h": "4d86ddc603edb3d2",
+     "n": 68,
+     "p": "In young"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Time since injury matters** — avulsion of a permanent tooth is a dental emergency. Ask about first aid (rinsing, wet or dry storage) and tetanus status.",
+   "claim": "**Time since injury matters** — a knocked-out (avulsed) permanent tooth is a dental emergency. Ask about first aid (rinsing, wet or dry storage) and tetanus status.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Time since injury - avulsion of a permanent tooth is a dental emergency … First aid rendered - tooth rinsing, wet or dry storage … Tetanus immunisation status",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac09bbf1f11263d6",
+     "n": 71,
+     "p": "Time sin"
+    },
+    {
+     "h": "8c1a13372f52cfed",
+     "n": 54,
+     "p": "First ai"
+    },
+    {
+     "h": "5856bdf1c07ca4e7",
+     "n": 27,
+     "p": "Tetanus "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Account for every lost tooth and fragment**; if any are missing, examine the chest and oral soft tissues for aspiration or embedding. **Chest X-ray if aspiration is suspected.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Account for all lost teeth and fragments, examine chest and soft tissues of the mouth if any missing as they may have been aspirated or embedded … Chest x-ray if suspicion of aspiration of missing tooth or fragments",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4084429cd15a3e3e",
+     "n": 144,
+     "p": "Account "
+    },
+    {
+     "h": "a9aad29a01a107da",
+     "n": 68,
+     "p": "Chest x-"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Lift the lips firmly** to find gingival or mucosal injury — degloving is missed otherwise; a swollen tender chin suggests mandibular degloving.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lift the lips to look for gingival or oral mucosal injury … Oral mucosa degloving injuries (gingivae stripped from underlying bone) can be missed if the lips are not firmly lifted away from the gum as part of the examination … The chin is often swollen and tender in mandibular degloving injuries",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7d566900c4eb0e3",
+     "n": 57,
+     "p": "Lift the"
+    },
+    {
+     "h": "a77cd263f4bfc053",
+     "n": 164,
+     "p": "Oral muc"
+    },
+    {
+     "h": "0addc807a243984b",
+     "n": 69,
+     "p": "The chin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**OPG for children over 3 years who can cooperate** if a mandible fracture, TMJ injury or fully intruded tooth is a concern.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Orthopantogram (OPG) for children >3 years who can cooperate if considering fractured mandible, temporomandibular joint (TMJ) injury or concern for fully intruded tooth",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce79dbf4c55ee7e4",
+     "n": 168,
+     "p": "Orthopan"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discuss with the emergency dental service** and send an intraoral photograph where possible; they decide between emergency specialist care and community dental referral.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Discuss with emergency dental service and provide an intraoral photograph of the injury, where possible",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5e5fbef2baf2beb",
+     "n": 103,
+     "p": "Discuss "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Prophylactic antibiotics after replantation of an avulsed tooth**, for soft-tissue injuries with debris, or when operative management is needed. Give a tetanus booster if required.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prophylactic antibiotics recommended after replantation of avulsed tooth, soft tissue injuries with debris or operative management required. Provide tetanus booster if required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e8ef68044db31418",
+     "n": 176,
+     "p": "Prophyla"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
-   "claim": "**0.12% chlorhexidine mouthwash swabbed twice a day for 10–14 days** reduces infection risk; a soft diet lets loose teeth firm up.",
+   "claim": "**Swab 0.12% chlorhexidine mouthwash on twice daily for 10–14 days** to lower infection risk; a soft diet lets loose teeth firm up.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Swabbing the area with 0.12% chlorhexidine mouth wash twice a day for 10-14 days reduces the infection risk. A soft diet will also allow loose teeth to become firmer",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "572d0163e9ce7b5c",
+     "n": 165,
+     "p": "Swabbing"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Concussion** (tender but firm): community dentist; usually heals without intervention. **Subluxation** (tender, loose, blood at the gum): emergency dental service if very loose.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Concussion Tender but firm Review by community dentist Usually heal without intervention … Subluxation Tender loose tooth, blood around gum Refer to emergency dental service if very loose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7759640e5376de57",
+     "n": 88,
+     "p": "Concussi"
+    },
+    {
+     "h": "9dd777abd3d1e416",
+     "n": 96,
+     "p": "Subluxat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Lateral luxation, extrusion or intrusion:** emergency dental service. Primary teeth are monitored or extracted; permanent teeth are usually repositioned or splinted under local or general anaesthetic.",
+   "claim": "**Lateral luxation, extrusion or intrusion:** emergency dental service. Primary teeth are monitored or extracted; permanent teeth are usually splinted or repositioned, under general or local anaesthetic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lateral luxation Extrusion Intrusion Anteriorly or posteriorly displaced Partially out of socket Pushed into socket Refer to emergency dental service Primary: monitored or extracted Permanent: usually repositioned or splinted under local or general anaesthetic",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68db49a797b26115",
+     "n": 260,
+     "p": "Lateral "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Avulsion:** distinguish from a fully intruded tooth (may need X-ray). Refer to the emergency dental service. **Primary: do not reinsert.**",
+   "claim": "**Avulsion:** make sure the tooth is not fully intruded (an X-ray may be needed), then refer to the emergency dental service. **Primary: do not reinsert.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Avulsion Complete displacement from socket Note: need to differentiate avulsion from fully intruded tooth (may need x-ray) Refer to emergency dental service Primary: not reinserted",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b807934417cd714",
+     "n": 180,
+     "p": "Avulsion"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Avulsed permanent tooth:** store in **milk (first choice) or saline**; **never water, never scrub it**; handle the crown only, not the root.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Permanent: place in milk (1st choice) or saline while awaiting assessment Do not store tooth in water or scrub tooth Handle the crown (white) only, do not handle tooth root (yellow)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1da7eb0c45d4af0b",
+     "n": 181,
+     "p": "Permanen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**If possible, return it to the socket** and bite on gauze, supported with alfoil. **Best prognosis if dry time is under 20 minutes.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If possible, return to socket and bite down with gauze to hold tooth in position. Support tooth with alfoil wrap Best prognosis if \"dry-time\" less than 20 minutes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae0c4bbe139876b6",
+     "n": 162,
+     "p": "If possi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Enamel or enamel-dentine fracture:** community dentist. **Pulp exposed (pink and painful):** emergency dental service — primary for likely extraction; permanent, keep fragments in milk for rebonding.",
+   "claim": "**Enamel or enamel-dentine fracture:** community dentist. **Pulp exposed (pink and painful):** emergency dental service — a primary tooth will likely be extracted; for a permanent tooth, keep fragments in milk for rebonding.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Enamel fracture, Enamel-dentine fracture Fracture confined to enamel +/- dentine Review by community dentist … Enamel-dentine-pulp fracture Fracture with exposure of pulp (pink and painful) Refer to emergency dental service Primary: for likely extraction Permanent: keep tooth fragments in milk for possible rebonding",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd8d0c80b05e3501",
+     "n": 108,
+     "p": "Enamel f"
+    },
+    {
+     "h": "0be5d69ba6ceac78",
+     "n": 206,
+     "p": "Enamel-d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Crown-root fracture** (may be an aspiration risk) **and root fracture:** emergency dental service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Crown-root fracture Fracture in crown extending below gums. May be aspiration risk Refer to emergency dental service Root fracture Displacement or mobility of tooth Refer to emergency dental service",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36d907a4039bd06b",
+     "n": 198,
+     "p": "Crown-ro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Supporting bone:** check the bite, OPG, refer to dental and maxillofacial; **follow up every mandibular or maxillary fracture, even undisplaced.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Injuries to the supporting bone Check that the child's bite is normal Get an OPG and other views as required Refer to both dental and maxillofacial (obvious jaw fractures) … Dental and maxillofacial follow-up is recommended for all patients with mandibular or maxillary fractures, even when undisplaced",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d568a2d464123bc2",
+     "n": 171,
+     "p": "Injuries"
+    },
+    {
+     "h": "b2bd04679462343f",
+     "n": 128,
+     "p": "Dental a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Degloving injuries and deep tears need operative cleaning, debridement and suturing** to reduce osteomyelitis risk.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Degloving injuries and deep lacerations or tears require operative cleaning, debridement and suturing to reduce the risk of osteomyelitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "264321d3f82dc77e",
+     "n": 137,
+     "p": "Deglovin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Crown discolouration is common and may resolve**; extraction only for pulp infection or abscess.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Crown discolouration is a common complication after dental injury. This may resolve with time. Extraction is only required where there is associated infection of the dental pulp or abscess formation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f25dc11f81c89bfe",
+     "n": 198,
+     "p": "Crown di"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** if specialist dental or maxillofacial care is not available locally; **discharge** once intervention is complete and follow-up is arranged.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Specialist dental or maxillofacial assessment and management is required and is not locally available … Consider discharge when Intervention is complete and follow up plans are in place",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "926e71d43735efa0",
+     "n": 124,
+     "p": "Consider"
+    },
+    {
+     "h": "3d1c60423132a309",
+     "n": 81,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Dental trauma' (Last updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/, retrieved 2026-09-23"
   }
  ]

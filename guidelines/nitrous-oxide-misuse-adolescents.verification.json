@@ -1,139 +1,272 @@
 {
  "guideline": "guidelines/nitrous-oxide-misuse-adolescents.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Nitrous Oxide Misuse' (Last updated February 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Nitrous Oxide Misuse' (Last updated February 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 17,
-  "pass": 17,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 17
  },
  "claims": [
   {
    "claim": "**Chronic high-level use impairs vitamin B12 function, causing neurological dysfunction and rarely myelosuppression**; presentations often resemble **subacute combined degeneration of the spinal cord.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Chronic high-level recreational N2O exposure impedes vitamin B12 function, leading to neurological dysfunction and rarely myelosuppression … Patients often present with symptoms and signs consistent with subacute combined degeneration of the spinal cord",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41adc5cd9a06f003",
+     "n": 138,
+     "p": "Chronic "
+    },
+    {
+     "h": "8e33f6971381463d",
+     "n": 112,
+     "p": "Patients"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Assess every child with deliberate self-poisoning, and any child with neurological symptoms and a history of nitrous oxide misuse.**",
+   "claim": "**Assess every child with deliberate self-poisoning, and any child who has misused nitrous oxide and now has neurological symptoms.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children requiring assessment All children with deliberate self-poisoning Any child with neurological symptoms and a history of N2O misuse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8869616a7e566f1d",
+     "n": 138,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "**Higher-risk pattern:** regular daily use, or more than 100 bulbs per session, is often reported in cases with neurological dysfunction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Regular daily misuse or misuse of greater than 100 bulbs per session, are often reported in cases where there is clinical evidence of neurological dysfunction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eb9f248a747edac7",
+     "n": 158,
+     "p": "Regular "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Symptoms progress over days or weeks:** altered sensation, muscle weakness, gait disturbance; rarely depression, irritability or personality change.",
+   "claim": "**Symptoms build up across days to weeks:** gait disturbance, muscle weakness, altered sensation; rarely depression, irritability or personality change.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Progressive onset of symptoms (over days or weeks) Altered sensation Muscle weakness Gait disturbance Rarely: depression, irritability, personality change",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0df27b142a708c9",
+     "n": 154,
+     "p": "Progress"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examination:** sensory deficits (dermatomal or patchy), **impaired proprioception and coordination — dorsal columns first**, sensory ataxia, reduced power and reflexes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Sensory deficits, may be dermatomal but can be patchy (akin to findings in multiple sclerosis) Impaired proprioception and coordination (affects dorsal columns first) Sensory ataxia Reduced power in limbs Reduced reflexes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "687d829342429aee",
+     "n": 221,
+     "p": "Sensory "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "**Acute toxicity is rare** — brief confusion, hallucinations or falls from temporary ataxia; ⚠️ **forceful inhalation can rarely cause pneumothorax.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Presentations due to acute toxicity are rare, but may include short-lived confusion, hallucinations or falls as a result of temporary ataxia. Pneumothorax may rarely occur as the result of forceful inhalation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ed78580b89ec04b",
+     "n": 208,
+     "p": "Presenta"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
-   "claim": "**FBE and blood film** for macrocytic anaemia or marrow suppression. Total and active B12 (holotranscobalamin) may be low or undetectable; **methylmalonic acid is usually raised.**",
+   "claim": "**FBE and blood film**, looking for marrow suppression or a macrocytic anaemia. Total and active B12 (holotranscobalamin) may be low or undetectable; **methylmalonic acid is usually raised.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FBE and blood film for macrocytic anaemia or other evidence of bone marrow suppression … Total vitamin B12 and active vitamin B12 (holotranscobalamin) concentrations may be low or undetectable and methylmalonic acid concentration is usually raised",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec943b3cbe499730",
+     "n": 86,
+     "p": "FBE and "
+    },
+    {
+     "h": "1bbaf05a7562e834",
+     "n": 158,
+     "p": "Total vi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Do not withhold vitamin B12 and methionine because levels are normal** in a patient with clinical signs and a history of nitrous oxide misuse — measured B12 does not reflect functional B12.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Vitamin B12 and methionine treatment should not be withheld if concentrations are normal in patients with clinical signs of toxicity and a history of N2O misuse … Measured vitamin B12 may be normal and does not reflect ‘functional vitamin B12’ concentration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ddf1254482914ab",
+     "n": 160,
+     "p": "Vitamin "
+    },
+    {
+     "h": "c2d3797bab1e79fe",
+     "n": 94,
+     "p": "Measured"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "**MRI brain and/or spine may show demyelination; nerve conduction studies may show impaired transmission.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "MRI Brain and/or Spine may demonstrate demyelination Nerve conduction studies may demonstrate impaired signal transmission",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc3d88c358479eec",
+     "n": 122,
+     "p": "MRI Brai"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Stop nitrous oxide; IM vitamin B12 and oral methionine are the mainstays.** ☎️ **Consult toxicology via the Victorian Poisons Information Centre (13 11 26).**",
+   "claim": "**Stop nitrous oxide; treatment rests on IM vitamin B12 plus oral methionine.** ☎️ **Toxicology advice: Victorian Poisons Information Centre, 13 11 26.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Discontinuation of N2O and administration of intramuscular vitamin B12 and oral methionine are the mainstays of management … Consult with Toxicology via the Victorian Poisons Information Centre (13 11 26)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0faa72c4a328cdc",
+     "n": 122,
+     "p": "Disconti"
+    },
+    {
+     "h": "b62ab51312891a1b",
+     "n": 79,
+     "p": "Consult "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Admit if unable to walk independently or with haematological or psychiatric sequelae.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission to hospital is required if a patient is unable to walk independently or has evidence of haematological or psychiatric sequelae",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "13497f5cc3481614",
+     "n": 136,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "**Vitamin B12 1 mg IM daily for 2 weeks, then weekly for 4 weeks, then monthly until maximal recovery.** Higher weekly IM doses speed resolution and may improve recovery.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Administer 1 mg vitamin B12 IM daily for 2 weeks, weekly for 4 weeks and monthly until maximal recovery … High doses of vitamin B12 via intra-muscular injection weekly leads to swifter resolution of toxicity and may improve recovery",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "91af5b3b5b6dd9eb",
+     "n": 103,
+     "p": "Administ"
+    },
+    {
+     "h": "5f6257b8bd824a0c",
+     "n": 126,
+     "p": "High dos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Methionine 1 g orally TDS for 2 weeks.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Administer 1 g methionine oral TDS for 2 weeks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c7246d4c5d2e2cb",
+     "n": 46,
+     "p": "Administ"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consult haematology if there is marrow suppression**; consider other nutritional deficiencies from poor intake.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consult with haematology service if evidence of bone marrow suppression Consider the presence of other nutritional deficiencies due to poor intake",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c34d173970e0db8",
+     "n": 146,
+     "p": "Consult "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Any child or adolescent with intentional overdose: consult the paediatric team and consider admission.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Any child or adolescent presents with intentional overdose as admission should be considered",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98d60c001618ccee",
+     "n": 146,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when:** walking safely and independently · haematological dysfunction improving (if present) · safe from a mental health perspective with drug and alcohol referrals made · educated about the dangers of nitrous oxide misuse.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Patient is able to walk safely and independently Improvement in haematological dysfunction (if present) Safe for discharge from a mental health perspective, with appropriate referrals to alcohol and drug services made where relevant Education has been provided regarding the dangers of N2O misuse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2f2159bd5329d38",
+     "n": 320,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Before discharge, assess adolescents with deliberate ingestion for risk of further ingestion or self-harm**, and screen for other drug and alcohol use.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prior to discharge, adolescents who present with deliberate ingestions need a risk assessment regarding the likelihood of further ingestions or other attempts to self-harm … Assessment of other drug and alcohol use should also be undertaken",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72787fc9e5a21e5a",
+     "n": 171,
+     "p": "Prior to"
+    },
+    {
+     "h": "25744ead2fa413bc",
+     "n": 66,
+     "p": "Assessme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Nitrous Oxide Misuse' (Last updated February 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/, retrieved 2026-09-23"
   }
  ]

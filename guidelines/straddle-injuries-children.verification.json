@@ -1,123 +1,249 @@
 {
  "guideline": "guidelines/straddle-injuries-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Straddle injuries' (Last Updated May 2020), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Straddle injuries' (Last Updated May 2020), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 15,
-  "pass": 15,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 15
  },
  "claims": [
   {
    "claim": "**Most straddle injuries are minor.** Consider analgesia, with or without procedural sedation, early for the examination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most injuries are minor … Consider analgesia +/- procedural sedation early for examination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e03d55c9fbec0595",
+     "n": 23,
+     "p": "Most inj"
+    },
+    {
+     "h": "13e3886acadc9f05",
+     "n": 64,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Non-accidental injury is uncommon but must be considered** — if suspected, consult a senior doctor and consider advice from the forensic paediatric medical service.",
+   "claim": "⚠️ **Non-accidental injury is uncommon but must be considered** — where it is suspected, talk to a senior doctor and think about advice from the forensic paediatric medical service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Although infrequently associated with non-accidental injury, if suspected, consult a senior doctor and consider advice from the forensic paediatric medical service",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "916d0e7e67193499",
+     "n": 163,
+     "p": "Although"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Pre-pubertal female genital tissue is friable and well perfused**, so even minor trauma can bleed in a way that looks extensive.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The unoestrogenised pre-pubertal female genital tissues are friable (with excellent blood flow) and lack distensibility. Therefore, even minor trauma can cause injury and bleeding which may appear extensive.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b6adde5f8b87fa2",
+     "n": 207,
+     "p": "The unoe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Check the history matches the findings; document thoroughly and refer any case suspicious for abuse.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "It is important to be able to correlate the history of the injury with physical findings on examination. Thorough documentation and appropriate referral of cases suspicious for abuse is a priority of care.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c24e930f820701f0",
+     "n": 205,
+     "p": "It is im"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**History:** mechanism, timing and setting, first aid given, **inability to pass urine or faeces**, other injuries, witnesses — and whether the injury fits the history.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mechanism of injury Timing and setting of injury First aid provided Inability to pass urine and faeces Other injuries Witnesses Consider if injury is consistent with history, is there a suspicion of non-accidental injury?",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9483fd61470e4c71",
+     "n": 221,
+     "p": "Mechanis"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine only once — involve a senior clinician early.** If non-accidental injury is suspected, contact the local forensic paediatric medical service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Examination should be performed only once, therefore consider early involvement of a senior clinician. If suspicious of non-accidental injury contact the local forensic paediatric medical service",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f48ea271b940f933",
+     "n": 195,
+     "p": "Examinat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Supine frog-leg position, with explanation and gentle handling**; consider analgesia or procedural sedation. Document in detail — a clock face helps describe location.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Examination is usually performed in the supine frog-legged position. Explanation and gentle handling of the child is important. Consider analgesia +/- procedural sedation … Document a detailed description of the injury. A clock face can often be used to describe the location of the injury",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c83c7bdcbaa29dda",
+     "n": 170,
+     "p": "Examinat"
+    },
+    {
+     "h": "d9c7770a5afad29d",
+     "n": 116,
+     "p": "Document"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Can you see the posterior or upper limit of the wound? If not, consider examination under anaesthesia.** Look also for an expanding haematoma and any anal or rectal involvement.",
+   "claim": "⚠️ **Is the wound's upper or posterior limit visible? If not, consider examination under anaesthesia.** Look also for an expanding haematoma and any anal or rectal involvement.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Can the posterior or upper limit of the wound be seen? If not, examination under anaesthaesia should be considered … Is there an expanding haematoma? … Is there any anal or rectal involvement?",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b40094cf732c06a1",
+     "n": 114,
+     "p": "Can the "
+    },
+    {
+     "h": "d947c509adb3db1c",
+     "n": 32,
+     "p": "Is there"
+    },
+    {
+     "h": "d26e5c009b5ddcfb",
+     "n": 40,
+     "p": "Is there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Compress bleeding with a clean dressing pad.** In older adolescents with significant vaginal bleeding, the vagina can be packed with a tampon or gauze.",
+   "claim": "**Compress bleeding with a clean dressing pad.** For significant vaginal bleeding in an older adolescent, vaginal packing with gauze or a tampon is an option.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Compression of bleeding with a clean dressing pad … If there is significant vaginal bleeding in older adolescents, the vagina can be packed with a tampon or gauze",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eb78e059d255054b",
+     "n": 49,
+     "p": "Compress"
+    },
+    {
+     "h": "4722035078ba7003",
+     "n": 110,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ice packs** reduce bleeding and swelling (not directly over the clitoris). **Irrigate with warm water. Review tetanus status.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Use ice packs to reduce bleeding and swelling (avoid directly overlying the clitoris) … Irrigate the area with warm water … Review tetanus status",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c48abb1eae30ac3f",
+     "n": 85,
+     "p": "Use ice "
+    },
+    {
+     "h": "63df93af1e10386c",
+     "n": 33,
+     "p": "Irrigate"
+    },
+    {
+     "h": "11855f1f778994f1",
+     "n": 21,
+     "p": "Review t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Minor** (bleeding minor or stopped, voiding spontaneously): salt-water baths, topical anaesthetic or barrier cream for pain on passing urine, **less strenuous activity for 24 hours**, simple analgesia; **GP follow-up.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Minor Bleeding is minor or has stopped and the child can void spontaneously Salt water baths for comfort Topical anaesthetic cream or barrier cream to reduce local pain on micturition Reduction in strenuous activity for 24 hours to prevent re-injury Simple analgesia GP",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b844221fda79488a",
+     "n": 269,
+     "p": "Minor Bl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Non-minor** (ongoing bleeding, laceration borders not seen, labia minora tear, unable to void, clinician concern): as above, **consider a urethral catheter if unable to void** (e.g. large vulval haematoma); **local paediatric team and gynaecology or surgical service.**",
+   "claim": "⚠️ **Non-minor** (ongoing bleeding, laceration borders not seen, tear of the labia minora, clinician concern, unable to void): as above, **consider a urethral catheter if unable to void** (e.g. large vulval haematoma); **local paediatric team and gynaecology or surgical service.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Non-minor Ongoing bleeding, laceration borders not visualised, labia minora tear, unable to void, clinician concern Management as above Consider urethral catheter if unable to void eg in the presence of a large vulval hematoma Local paediatric team Local gynaecology or surgical service",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fbadf11d20698482",
+     "n": 286,
+     "p": "Non-mino"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the local paediatric team for** a non-minor injury, a child unable to pass urine, or suspected non-accidental injury needing forensic examination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Child has non-minor injury Child unable to pass urine Suspected non-accidental injury for forensic examination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3996963635444d22",
+     "n": 164,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when the injury is minor and the child can pass urine.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Minor injury and able to pass urine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f360391f0c566b20",
+     "n": 59,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Victorian Forensic Paediatric Medical Service (VFPMS): 1300 66 11 42.**",
+   "claim": "**Phone 1300 66 11 42 for the Victorian Forensic Paediatric Medical Service (VFPMS).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Victorian Forensic Paediatric Medical Service (VFPMS) 1300 66 11 42",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d8135c22570cfe32",
+     "n": 67,
+     "p": "Victoria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Straddle injuries' (Last Updated May 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/, retrieved 2026-09-23"
   }
  ]

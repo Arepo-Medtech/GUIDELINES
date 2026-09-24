@@ -1,187 +1,371 @@
 {
  "guideline": "guidelines/sickle-cell-disease-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Sickle cell disease' (undated page), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Sickle cell disease' (undated page), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 23,
-  "pass": 23,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
    "claim": "**All patients become functionally asplenic** and are at risk of infection with encapsulated organisms (pneumococcus, meningococcus, *Haemophilus*).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All patients become functionally asplenic and thus at risk for infection particularly by encapsulated organisms (eg pneumococcus, meningococcus, haemophilus).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "97065fcc02c01948",
+     "n": 158,
+     "p": "All pati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Crises may be spontaneous or triggered by** infection, dehydration, hypoxia, or sedatives, local anaesthetics and surgery. SS disease, sickle β-thalassaemia and HbSC disease are all treated the same way.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute crises may occur spontaneously, or may be precipitated by Infection Dehydration Hypoxia Sedatives, local anaesthetics and surgery … There are 3 common types causing sickle disease, all of which are treated the same way: sickle cell anaemia (SS disease) is the most common sickle ß Thalassemia sickle haemoglobin C disease",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "40415e975b5f1de4",
+     "n": 135,
+     "p": "Acute cr"
+    },
+    {
+     "h": "3e40142892c2765b",
+     "n": 189,
+     "p": "There ar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Many presentations need urgent treatment, and discussion with the on-call Haematology Consultant is mandatory.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Many of these presentations require urgent treatment, and discussion with the Haematology Consultant on-call is mandatory.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "075f812636b2863e",
+     "n": 122,
+     "p": "Many of "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Investigations:** FBE with reticulocytes · group and crossmatch · blood and urine cultures if febrile · U&E and LFT if jaundiced or dehydrated · consider CXR if febrile with respiratory symptoms. **Compare the spleen with the patient's baseline**; do a neurological examination.",
+   "claim": "**Investigations:** FBE with reticulocytes · group and crossmatch · if febrile, blood and urine cultures · if jaundiced or dehydrated, U&E and LFT · consider CXR if febrile with respiratory symptoms. **Compare the spleen with the patient's baseline**; do a neurological examination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FBE including reticulocyte count Blood group & cross match Blood and urine cultures if febrile U&E's and LFT's if jaundice or dehydrated Consider chest xray if febrile with respiratory symptoms … Splenic examination – compare to patients baseline Neurological examination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90d8c760cc5c8407",
+     "n": 193,
+     "p": "FBE incl"
+    },
+    {
+     "h": "bdb19b59bd062cb7",
+     "n": 75,
+     "p": "Splenic "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Start analgesia promptly and treat pain aggressively.** Mild: paracetamol or ibuprofen. **Moderate to severe: morphine 0.05 mg/kg/dose IV, repeated as necessary**; some benefit from PCA.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Start analgesics promptly – treat pain aggressively … Mild pain Paracetamol Ibuprofen Moderate to severe pain Morphine 0.05 mg/kg/dose – IV (repeat as necessary) … Some patients may benefit from continuous infusion via PCA (Patient Controlled Analgesia)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c075fa26c550d15",
+     "n": 51,
+     "p": "Start an"
+    },
+    {
+     "h": "9b09a2341d4753ce",
+     "n": 107,
+     "p": "Mild pai"
+    },
+    {
+     "h": "74ae1ade60a18b48",
+     "n": 89,
+     "p": "Some pat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Fluids:** push oral fluids; IV if needed — **bolus 10–20 mL/kg 0.9% saline** if required, then maintenance (Plasma-Lyte 148 + 5% glucose, or 0.9% sodium chloride + 5% glucose).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Push oral fluids May require IV Fluids May require bolus 10-20 ml/kg 0.9% Saline Maintenance rate (Plasma-Lyte 148 and 5% Glucose OR 0.9% sodium chloride (normal saline) and 5% Glucose)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f69b9cfbc83a3ce0",
+     "n": 185,
+     "p": "Push ora"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Avoid excess fluids after initial resuscitation** (chest crisis risk). **Do not delay IV fluids or analgesia for topical anaesthetic cream.** Transfusion may be needed — discuss with the haematologist.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Avoid excess fluids after initial resuscitation to reduced risks of chest crisis Do not delay commencement of IV fluids or analgesics for topical anaesthetic cream May require blood transfusion – discuss with haematologist on call",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0d77eed9c0c012ec",
+     "n": 230,
+     "p": "Avoid ex"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Treat all pain initially as vaso-occlusive** — but chest pain with respiratory symptoms may be acute chest syndrome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All episodes of pain should be treated initially as vaso-occlusive disease … NB Chest pain may indicate an acute chest syndrome rather than as a vaso-occlusive episode if associated with respiratory symptoms.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e21ac035c3b968bb",
+     "n": 74,
+     "p": "All epis"
+    },
+    {
+     "h": "87b211411d206272",
+     "n": 131,
+     "p": "NB Chest"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Life-threatening; patients may deteriorate quickly.** Lung infarction with lower respiratory symptoms, hypoxaemia and a new CXR infiltrate — **chest pain and hypoxaemia may be the only signs. Treat chest pain as acute chest syndrome.**",
+   "claim": "⚠️ **Life-threatening; patients may deteriorate quickly.** Lung infarction: hypoxaemia, lower respiratory symptoms and a new infiltrate on CXR — **the only signs may be hypoxaemia and chest pain. Treat chest pain as acute chest syndrome.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Usually associated with lower respiratory symptoms, hypoxaemia and a new infiltrate on CXR. Chest pain and hypoxaemia may be the only signs. … Chest pain should be treated as an acute chest syndrome and not simply as a vaso-occlusive crisis. … NB This is a life threatening illness and patients may deteriorate quickly",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ffef60024455feb",
+     "n": 140,
+     "p": "Usually "
+    },
+    {
+     "h": "7489b17fd478b4fd",
+     "n": 98,
+     "p": "Chest pa"
+    },
+    {
+     "h": "0be2f175dabc2628",
+     "n": 74,
+     "p": "NB This "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**IV 3rd-generation cephalosporin plus atypical cover (roxithromycin or azithromycin)**; the CXR must not delay treatment. **Oxygen to keep saturation over 96%** or for comfort.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider chest xray – but this should not delay commencement of treatment Commence IV antibiotics – 3rd generation cephalosporin and coverage for atypical organisms (Roxithromycin or Azithromycin) Oxygen to keep O2 sats >96% or for comfort",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fed3410d6361a6a",
+     "n": 239,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Refer early to PICU** for significant hypoxia or respiratory distress.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Early referral to PICU for respiratory support if significant hypoxia or respiratory distress",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f36537e22ef3224",
+     "n": 93,
+     "p": "Early re"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Fever: IV 3rd-generation cephalosporin** (add atypical cover if there is a significant respiratory component) and **blood and urine cultures**. Treat co-existing pain as a vaso-occlusive crisis and cough or dyspnoea as acute chest syndrome concurrently.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "NB If pain is also present, then treat as Vaso-occlusive crisis concurrently If cough or dyspnoea is also present look and treat for acute chest syndrome concurrently … Commence IV antibiotics – 3rd generation cephalosporin and consider coverage for atypical organisms (Roxithromycin or Azithromycin) if significant respiratory component Obtain appropriate cultures- blood and urine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "999858e292397ed3",
+     "n": 166,
+     "p": "NB If pa"
+    },
+    {
+     "h": "8f4613737fbda752",
+     "n": 213,
+     "p": "Commence"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Definition:** Hb drop of at least 20 g/L below the patient's baseline with an acutely enlarged spleen; often mild–moderate thrombocytopenia; reticulocytes at or above baseline. **Low reticulocytes → consider co-existent aplasia.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Splenic sequestion is defined as a haemoglobin drop of at least 20 gm/l below baseline level for that patient with an acutely enlarged spleen. Mild to moderate thrombocytopenia is often present. Reticulocyte count is equal to or greater than patient's usual baseline. Consider co-existent aplastic anaemia if reticulocyte count is low.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b66a3c62e3383d91",
+     "n": 335,
+     "p": "Splenic "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **While waiting for blood, give 0.9% sodium chloride 10–20 mL/kg for hypovolaemia.** Initial transfusion to aim for **Hb 5–6 g/dL** to treat shock (the page adds 'not >3 g/dL').",
+   "claim": "⚠️ **Hypovolaemia: 0.9% sodium chloride 10–20 mL/kg while blood is awaited.** Initial transfusion to aim for **Hb 5–6 g/dL** to treat shock (the page adds 'not >3 g/dL').",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "While waiting for blood give 0.9% sodium chloride (normal saline) (10-20 ml/kg) to treat hypovolaemia Suggest initial transfusion to aim for Hb of 5-6 g/dL initially to ameliorate shock/haemodynamic instability (not >3 g/dL )",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3af09afad36d0803",
+     "n": 225,
+     "p": "While wa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Do not raise Hb too far or too fast** — the spleen shrinks and autotransfuses, overshooting Hb with a **risk of stroke from hyperviscosity.** IV 3rd-generation cephalosporin if febrile.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not raise haemoglobin excessively / too quickly as the spleen will shrink and autotransfusion will occur. This will then increase the haemoglobin excessively with increased risk of stroke due to hyperviscosity Commence IV antibiotics if febrile – 3rd generation cephalosporin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f788c045b89965e1",
+     "n": 278,
+     "p": "Do not r"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Aplastic crisis:** Hb below baseline with a markedly reduced reticulocyte count (usually under 1%), usually with acute infection including parvovirus; the spleen may also be enlarged.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aplastic crisis is defined as an acute illness associated with haemoglobin below baseline for that patient associated with a substantially decreased reticulocyte count (usually <1%). Usually associated with acute infection including parvovirus. May be associated with enlarged spleen as well",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c5904bb6ae702a7",
+     "n": 291,
+     "p": "Aplastic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**IV plus oral fluids to a total of maintenance. Transfuse red cells if symptomatic or Hb under 5 g/dL — do not increase Hb by more than 3 g/dL.** IV 3rd-generation cephalosporin if febrile.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intravenous fluids and oral intake to a total of maintenance Transfuse red blood cells if patient is symptomatic with anaemia or Hb <5 gm/dL (do not increase Hb by >3 g/dL Commence IV antibiotics if febrile – 3rd generation cephalosporin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ea2d6739a0252b7",
+     "n": 237,
+     "p": "Intraven"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Acute neurological events occur in about 10% of patients with HbSS**, suddenly or as a complication of acute chest syndrome or aplastic crisis.",
+   "claim": "**About 10% of HbSS patients have an acute neurological event** — either suddenly or complicating an aplastic crisis or acute chest syndrome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute neurological events occur in about 10% of patients with Hb SS. Can occur suddenly or as a complication of acute chest syndrome or aplastic crisis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a8f6fbb0d2631e6",
+     "n": 151,
+     "p": "Acute ne"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Image without delay: MRI is the modality of choice; if unavailable, CT with NO contrast** (hyperviscosity risk worsens the neurological state).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Obtain CT without contrast to exclude bleed if concerns regarding stroke or MRI if available without delay … MRI is the modality of choice Or if not available CT (NO CONTRAST as risk of hyperviscosity will worsen neurological state)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf204c6f5dee0883",
+     "n": 106,
+     "p": "Obtain C"
+    },
+    {
+     "h": "20a386de6bd5a904",
+     "n": 123,
+     "p": "MRI is t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Transfusion is required:** options include initial simple transfusion to **Hb 10 g/dL**, then **red cell exchange** (in ICU acutely).",
+   "claim": "⚠️ **Transfusion is required:** e.g. a simple transfusion first, to **Hb 10 g/dL**, then **red cell exchange** (in ICU acutely).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Transfusion support will be required, options include initial simple transfusion to Hb 10 g/dL followed by Red Cell Exchange (performed in ICU in acute setting)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "09ae4bc2edfc3ed8",
+     "n": 160,
+     "p": "Transfus"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Two forms:** stuttering episodes of 2–4 hrs (often recurrent, may precede a severe episode) and **severe attacks over 4 hrs, which can cause impotence.** Most common in adolescence.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most common in adolescent years. Occurs in 2 forms stuttering episodes which last 2-4 hrs but are often recurrent and may precede a severe episode severe attack lasting longer than 4 hrs and can result in impotence.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "770f6ca1a669a3c5",
+     "n": 215,
+     "p": "Most com"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Empty the bladder (catheterise if needed); moderate exercise, bath or shower. Do NOT use ice.** Start hydration, oxygen, analgesia and urinary alkalinisation as soon as possible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Encourage emptying of the bladder: catheterise if unable to empty bladder Simple measures – moderate exercise, take a bath or shower Do not use ICE Hydration, oxygen, analgesia and alkanization of the urine should be commenced as soon as possible",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6295780ce4934149",
+     "n": 246,
+     "p": "Encourag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Priapism over 4 hours is a urological emergency** — consult General Surgery (Urology) and the on-call haematologist.",
+   "claim": "⚠️ **Priapism beyond 4 hours: urological emergency** — involve the on-call haematologist and General Surgery (Urology).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Priapism lasting more than 4 hours can result in ischaemia and is a urological emergency. Consult General Surgery (Urology) and on-call Haematologist.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f2e0ce1c02b2df4",
+     "n": 150,
+     "p": "Priapism"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sickle cell disease' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/, retrieved 2026-09-23"
   }
  ]

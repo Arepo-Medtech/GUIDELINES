@@ -1,201 +1,423 @@
 {
  "guideline": "guidelines/unsettled-crying-baby.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Unsettled or crying babies' (Last updated October 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Unsettled or crying babies' (Last updated October 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 26,
-  "pass": 26,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
-   "claim": "**Crying is a normal part of infant communication.** Assessment aims to **exclude medical conditions, inflicted injury or parental mental health concerns.**",
+   "claim": "**Infants normally communicate by crying.** The point of assessment is to **rule out a medical condition, inflicted injury or a parental mental health concern.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Crying is a normal part of infant communication … Assessment aims to exclude medical conditions, inflicted injury or parental mental health concerns",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "532e976b82d18c53",
+     "n": 47,
+     "p": "Crying i"
+    },
+    {
+     "h": "5873ed8875de1829",
+     "n": 98,
+     "p": "Assessme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Crying peaks at 6–8 weeks, averaging 2–3 hours a day**, and improves by 3–4 months. It is often worse in the late afternoon or evening, may last hours and can resist soothing. **Night waking is normal.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Crying typically peaks at 6-8 weeks of age, averaging 2-3 hours/day … Increases to a peak at 6-8 weeks and improves by 3-4 months (see graph below) Often worse in the late afternoon/evening, may last hours, can be resistant to soothing Night waking is normal for infants",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "839d29a031147b13",
+     "n": 67,
+     "p": "Crying t"
+    },
+    {
+     "h": "664f9e5eee8d9649",
+     "n": 200,
+     "p": "Increase"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Avoid the term 'infant colic'** — it inaccurately implies an abdominal cause.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The term 'infant colic' has traditionally described excessive crying but is now considered unhelpful, as it inaccurately implies an abdominal cause",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c403f99d7cd3f82c",
+     "n": 147,
+     "p": "The term"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Straining, crying, grunting and going red before passing soft stools (infant dyschezia) is common and self-resolving.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Some babies strain, cry, grunt and go red in the face, before passing soft stools (also known as infant dyschezia). This is a common and self-resolving difficulty",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f43dc69de4278d2b",
+     "n": 162,
+     "p": "Some bab"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Red flags:** sudden onset irritability and persistent crying · an acutely unwell infant · faltering growth, feeding difficulties or oral aversion · rapid head circumference growth crossing percentiles · unexplained injuries.",
+   "claim": "⚠️ **Red flags:** persistent crying with irritability of sudden onset · infant acutely unwell · feeding difficulties, oral aversion or faltering growth · head circumference growing fast and crossing percentiles · injuries without explanation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red flags Sudden onset irritability and persistent crying Features of an acutely unwell infant … Faltering growth, feeding difficulties, oral aversion Rapid head circumference growth crossing percentiles Unexplained injuries",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b9b7117e8ded55b1",
+     "n": 94,
+     "p": "Red flag"
+    },
+    {
+     "h": "e2fbb99d49ce274d",
+     "n": 127,
+     "p": "Falterin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Excessive crying is a risk factor for abusive head trauma**, and the peak crying period is strongly linked to increased risk.",
+   "claim": "⚠️ **Excessive crying raises the risk of abusive head trauma**, and that risk is strongly tied to the peak crying period.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Excessive crying is a risk factor for abusive head trauma (previously known as shaken baby syndrome) … The peak period of infant crying is strongly linked to an increased risk of abusive head trauma (AHT)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4e255822c2706110",
+     "n": 100,
+     "p": "Excessiv"
+    },
+    {
+     "h": "186ea79049435b0b",
+     "n": 101,
+     "p": "The peak"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Screen parents for postnatal depression with the Edinburgh Postnatal Depression Scale.** Concern if the score is over 12 (mothers), over 9 (fathers), or any score over 1 on question 10 (suicidal thoughts). Social isolation is also a red flag.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Parental post-natal depression (PND) and social isolation … Screen for PND using the Edinburgh Postnatal Depression Scale … Concern if score >12 (mothers), >9 (fathers) or any score >1 on question 10 (suicidal thoughts)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e20376ba2956129e",
+     "n": 57,
+     "p": "Parental"
+    },
+    {
+     "h": "60f0f8bff4b1c5d1",
+     "n": 61,
+     "p": "Screen f"
+    },
+    {
+     "h": "4a1c5bcbf058843c",
+     "n": 95,
+     "p": "Concern "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Sudden onset crying — consider:** incarcerated inguinal hernia · intussusception · raised intracranial pressure · accidental or inflicted injury · infection · hair tourniquet · corneal foreign body or abrasion.",
+   "claim": "**Sudden onset crying — consider:** intussusception · incarcerated inguinal hernia · infection · raised intracranial pressure · injury, inflicted or accidental · hair tourniquet · corneal foreign body or abrasion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider in infants with sudden onset crying Incarcerated inguinal hernia Intussusception Raised intracranial pressure Accidental or inflicted injury, see Child abuse Infection, see Sepsis Hair tourniquet Corneal foreign body/abrasion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "342211a34cbec5c5",
+     "n": 234,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Also consider** inadequate caloric intake and non-IgE mediated food allergy. **Reflux disease is not a common cause of unexplained crying in otherwise well infants**, and there is no evidence for 'silent reflux'.",
+   "claim": "**Also consider** inadequate caloric intake and non-IgE mediated food allergy. **In infants who are otherwise well, reflux disease is an uncommon cause of unexplained crying**, and there is no evidence for 'silent reflux'.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Other causes to consider in assessment Inadequate caloric intake, see Slow weight gain Non-IgE mediated food allergy … Gastrooesophageal reflux disease Not a common cause of unexplained crying in otherwise well infants Need to differentiate normal infant physiological reflux from reflux disease No evidence to support the diagnosis of 'silent reflux'",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c230fefa0283502d",
+     "n": 116,
+     "p": "Other ca"
+    },
+    {
+     "h": "4ed0949aae77e33b",
+     "n": 232,
+     "p": "Gastrooe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Functional lactose overload** (frothy green stools, perianal excoriation, excess gas) may occur with non-IgE food allergy or excessive maternal breast milk supply.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Functional lactose overload, eg frothy, green stools, perianal excoriation and excess gas May occur with non-IgE mediated food allergy (relative loss of brush border enzymes) or excessive maternal breast milk supply",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7364e04202f529f",
+     "n": 215,
+     "p": "Function"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**No investigations are needed** if history and examination fit a typical infant crying pattern.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If history and examination is consistent with typical infant crying patterns, no investigations are required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3db7fab3d652e9e5",
+     "n": 108,
+     "p": "If histo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Once red flags and medical causes are excluded, reassurance and education are essential.** Share resources on normal crying (e.g. PURPLE crying).",
+   "claim": "**After red flags and medical causes have been ruled out, reassure and educate — this is essential.** Share resources on normal crying (e.g. PURPLE crying).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Once red flags and medical causes are excluded, parental reassurance and education are essential. … Share resources (eg PURPLE crying) that describe normal crying behaviours as an important form of infant communication",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d376cd58d0d058c5",
+     "n": 97,
+     "p": "Once red"
+    },
+    {
+     "h": "d5dc4fe1e1be419d",
+     "n": 118,
+     "p": "Share re"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Arrange urgent mental health assessment** if postnatal depression screening raises significant concern or there are safety concerns for parent or infant.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If screening for postnatal depression raises significant concerns, or there are concerns for the safety of parent and/or infant, urgent mental health assessment and support should be facilitated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2a2549a01d288bf",
+     "n": 194,
+     "p": "If scree"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Responding sensitively to cues and crying** fosters secure attachment, improves parental wellbeing and sleep, and reduces crying.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Responding sensitively to infant cues and crying has been shown to foster secure attachment, improve parental wellbeing, improve sleep and reduce infant crying",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "934ea8705e1d1cac",
+     "n": 159,
+     "p": "Respondi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Safe sleep:** baby on their back, on a firm, flat, level surface, head and face uncovered, in a clear space free of objects.",
+   "claim": "**Safe sleep:** lay the baby supine on a flat, firm, level surface, head and face uncovered, in a clear space free of objects.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Baby on their back On a firm, flat, level surface Head and face uncovered Clear space free of objects",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e2df1d367cc73f7",
+     "n": 101,
+     "p": "Baby on "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Babywearing — TICKS:** tight; in view; close enough to kiss; keep chin off the chest (a finger-width gap); supported back.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Tight: carrier snugly supports the baby close to wearer's body In view: face is always visible Close enough to kiss: positioned high on the chest Keep chin off the chest: maintain a finger-width gap … Supported back: back is in a natural, supported position",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "870a9a14744e2e9e",
+     "n": 198,
+     "p": "Tight: c"
+    },
+    {
+     "h": "a8aa1ccab65505da",
+     "n": 56,
+     "p": "Supporte"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Avoid medications** — limited evidence of benefit and potential for harm. Treatments families seek are often not indicated, lack evidence and can cause harm.",
+   "claim": "⚠️ **Avoid medications** — little evidence they help, and they may cause harm. Treatments families seek are often not indicated, lack evidence and can cause harm.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Avoid medications due to limited evidence of benefit and potential for harm … Medication, supplements and interventions are often sought by families. Often these are not indicated, have no evidence and can cause harm",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83637580ffb00b27",
+     "n": 75,
+     "p": "Avoid me"
+    },
+    {
+     "h": "3b7774c21d32436c",
+     "n": 138,
+     "p": "Medicati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Feeding:** flexible on-demand feeding helps. **Maternal diet or formula changes rarely help** unless non-IgE food allergy is suspected; introducing formula or solids does not improve sleep or crying; bottle and teat changes are usually ineffective.",
+   "claim": "**Feeding:** flexible on-demand feeding helps. **Maternal diet or formula changes rarely help** unless non-IgE food allergy is suspected; introducing formula or solids does not improve sleep or crying; changing bottles or teats usually does not work.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Flexible, on-demand feeding is associated with improved infant regulation and reduced parental stress … Maternal dietary and/or formula changes rarely reduces infant distress, except when a non-IgE mediated food allergy is suspected. Introducing formula or solid foods does not improve infant sleep or crying … Bottle and teat changes are usually ineffective",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b0812119ac09463",
+     "n": 101,
+     "p": "Flexible"
+    },
+    {
+     "h": "425e9d8ce5245813",
+     "n": 204,
+     "p": "Maternal"
+    },
+    {
+     "h": "bdc9219e304fb9af",
+     "n": 47,
+     "p": "Bottle a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Probiotic (emerging evidence), exclusively breastfed babies under 3 months only:** *Lactobacillus reuteri* DSM 17938, **5 drops/day orally for 21 days** — the only strain shown effective.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is emerging evidence to support probiotic use for exclusively breastfed babies <3 months - Lactobacillus reuteri DSM 17938 (only strain shown to be effective): 5 drops/day PO for 21 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e54f4ba3b3638809",
+     "n": 192,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Acid suppression (PPIs, H2 receptor antagonists) is not effective** for physiological reflux, irritability or unsettled behaviour.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acid suppression medications eg proton pump inhibitors, H2 receptor antagonists Not effective for infants with physiological reflux, irritability or unsettled behaviours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5715e0d36db76eec",
+     "n": 169,
+     "p": "Acid sup"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Do not use:** simethicone or herbal 'colic' mixtures such as gripe water (not effective, possibly harmful); **anticholinergics such as dicyclomine** (drowsiness, apnoea, seizures — belladonna toxicity); spinal manipulation (not effective, risk of significant harm).",
+   "claim": "⚠️ **Do not use:** simethicone or herbal 'colic' mixtures such as gripe water (not effective, possibly harmful); **anticholinergics such as dicyclomine** (drowsiness, apnoea, seizures — belladonna toxicity); spinal manipulation (ineffective, with a risk of significant harm).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Simethicone eg InfacolTM Not effective, possibly harmful Herbal 'colic' mixtures eg gripe water Not effective, possibly harmful Anticholinergic medications eg dicyclomine, cimetropium Risk of significant harm (drowsiness, apnoea, seizures) associated with belladonna toxicity Spinal manipulation Not effective, risk of significant harm",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ce70cbcb2a50369",
+     "n": 335,
+     "p": "Simethic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Tongue tie:** most infants with a short frenulum need no intervention. If feeding is ineffective, get a trained assessment (lactation consultant, midwife, speech pathologist); first-line is improving positioning, latch and feeding frequency.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most infants with a short lingual frenulum (aka tongue tie) have no functional limitations and require no intervention … If feeding is ineffective, assessment by trained professional eg lactation consultant, midwife, speech pathologist is essential. First-line treatments include improving breastfeeding positioning, latch and feeding frequency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0da44d684cc94a2d",
+     "n": 118,
+     "p": "Most inf"
+    },
+    {
+     "h": "f7f6949d08e886e1",
+     "n": 223,
+     "p": "If feedi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the paediatric team** if a medical cause is identified or suspected, the infant is clinically unwell, or there is concern about inflicted injury or significant parental mental health.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Medical cause of crying identified or suspected Infant clinically unwell Concerns for inflicted injury or significant parental mental health concerns",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7aca01aac6939fc9",
+     "n": 203,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider transfer** when infant **or parent** needs care beyond the hospital's comfort level (including inpatient mental health support).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Infant requiring care beyond the comfort level of the hospital Parent requiring care beyond the comfort level of the hospital (inpatient mental health support)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "726343f61d2bfd4b",
+     "n": 182,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge when** medical conditions, inflicted injury and parental mental health concerns are excluded or addressed, and the family has reassurance, education, resources and referral for early ongoing support.",
+   "claim": "**Discharge once** any medical condition, inflicted injury or parental mental health concern has been excluded or dealt with, and the family has been given reassurance, education and resources, plus a referral for early ongoing support.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Medical conditions, inflicted injury, and parental mental health concerns have been excluded or appropriately addressed Families have been provided reassurance, education, resources and referral for early ongoing support",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65b5394a22cde91c",
+     "n": 244,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ongoing support** can include an early parenting centre for sleep and settling, or a parent-baby unit when close professional or inpatient mental health support is needed.",
+   "claim": "**Ongoing support** can include an early parenting centre for sleep and settling, or a parent-baby unit if inpatient or close professional mental health support is required.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Early parenting centre for sleep and settling support Parent-baby unit when close professional or inpatient mental health support is required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ec77356e8887a1b",
+     "n": 141,
+     "p": "Early pa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Unsettled or crying babies' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/, retrieved 2026-09-23"
   }
  ]

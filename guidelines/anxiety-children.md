@@ -1,9 +1,9 @@
 # Anxiety in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** recognition, assessment, psychoeducation, psychological therapy, SSRI initiation and titration, follow-up and referral for anxiety disorders in children and adolescents. The adult counterpart is `generalised-anxiety-disorder`.
 
-> ✅ **OPEN AND QUOTED.** 25 of 25 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Anxiety: identification and management*** (Last updated April 2024); **36 fragments re-checked by machine. 6 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 of 25 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Anxiety: identification and management*** (Last updated April 2024); **36 anchors re-checkable by machine; 6 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > **Psychological therapy is first line and ongoing.** ⚠️ **Medication is not first line except in exceptional circumstances, and always alongside continued psychological therapy.** SSRIs are used off label in Australian children.
 
@@ -17,7 +17,7 @@
 ## Recognise and assess
 
 - **Look for:** regular avoidance (school, social events, play, sport, eating, sleeping) · frequent tummy aches and headaches · outbursts or meltdowns · poor sleep · appetite change · frequent reassurance-seeking · poor concentration · overplanning and overthinking. [S1]
-- **Check against DSM-5 or ICD-11 criteria**; screening tools (Spence, SCARED, Social phobia inventory) help but **must be supplemented by clinical interview and observation.** [S1]
+- **Check against DSM-5 or ICD-11 criteria**; screening tools (Spence, SCARED, Social phobia inventory) help, but **never stand alone — add observation and a clinical interview.** [S1]
 - **Risk factors include** neurodevelopmental disorders (autism, ADHD, intellectual disability), other mental health conditions, chronic illness, sensory impairment, gender-related concerns, trauma, family history of anxiety, depression, OCD or substance use, and substance misuse. [S1]
 - **Examine:** baseline cardiac exam, BP, heart rate and growth; targeted exam to rule out mimics such as **hyperthyroidism**. **No investigations** unless considering an alternative diagnosis. [S1]
 
@@ -46,7 +46,7 @@
 
 ## Other drugs
 
-- **Short-acting benzodiazepines may be cautiously considered for an acute crisis in high-risk settings** (eg ED). [S1]
+- **In a high-risk setting such as ED, a short-acting benzodiazepine may be cautiously considered for acute crisis.** [S1]
 - ⚠️ **Not recommended for anxiety disorders alone:** antipsychotics, clonidine, guanfacine, atomoxetine, reboxetine, tricyclic antidepressants. [S1]
 
 ## Follow-up, referral, discharge
@@ -64,12 +64,12 @@
 | 1 | **The SSRI table gives no dosing frequency and no age or weight bands**; it is labelled 'an example of common prescribing patterns'. None is added here. | `input_unavailable` |
 | 2 | **Switching and stopping antidepressants** is deferred to a separate RCH page, not retrieved. | `out_of_scope` |
 | 3 | **No conflict found with `generalised-anxiety-disorder`** (adult), which leaves first-line drug and psychotherapy unresolved; this page names **SSRIs** and **CBT** as first line for children. | `observation` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Anxiety: identification and management*. Last updated April 2024. https://www.rch.org.au/clinicalguide/guideline_index/Anxiety__identification_and_management/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Anxiety: identification and management*. Last updated April 2024. https://www.rch.org.au/clinicalguide/guideline_index/Anxiety__identification_and_management/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

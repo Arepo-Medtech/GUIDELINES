@@ -1,394 +1,1062 @@
 {
-  "guideline": "guidelines/anaphylaxis-children.md",
-  "edition": "1.0",
-  "verified_utc": "2026-09-22",
-  "verifier": "claude-opus-5",
-  "verifier_class": "single_verifier_uncalibrated",
-  "retrieved_from": [
-    "https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png"
-  ],
-  "retrieved_utc": "2026-09-22",
-  "method": "Each claim checked against the retrieved text of the RCH Melbourne Clinical Practice Guideline 'Anaphylaxis' (last updated October 2025, PIC endorsed), including key points, background, the clinical features table, investigations, the adrenaline dose chart and its footnote, the device table, refractory anaphylaxis, the peripheral IV infusion protocol, other considerations, observation and admission, consultation and transfer triggers, the discharge checklist, PBS availability, the WAO diagnostic criteria, timing by route, fatal anaphylaxis, and the reference list. Every source_text fragment was machine-checked verbatim against the retrieved source with scripts/verify.py. Doses, the device weight bands and the infusion recipe are transcribed verbatim from the source's own tables and text, which state them in full. The initial and refractory management flowcharts are IMAGES and were not retrieved: the sequence, the interval between IM adrenaline doses, the injection site, and the fluid and oxygen steps are inside them, are recorded as input_unavailable, and are not reconstructed. ADDENDUM 2026-09-22: both management flowcharts were downloaded as PNG images and read visually. 16 further claims were added carrying verdict pass_image_transcription and source S2. They cannot be re-checked by scripts/verify.py and are subject to transcription error; every dose among them must be re-checked against the image by a person before clinical use. The diagrams supplied three items absent from the retrieved text: the IM injection site (lateral mid-thigh), the mg/kg rule behind the age-based dose chart (10 microg/kg, max 500 microg; 0.01 mL/kg of 1:1000, min 0.1 mL, max 0.5 mL), and the repeat interval (5 minutes, and every 5 minutes until an infusion is started).",
-  "claims": [
+ "guideline": "guidelines/anaphylaxis-children.md",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/",
+  "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png"
+ ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Anaphylaxis' (last updated October 2025, PIC endorsed), 45 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). S2: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'RCH flowcharts for Anaphylaxis' (initial and refractory management flowcharts on the same page, transcribed in Wave 1), 16 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 rebuilds the hand-written Wave 1 page (which quoted RCH) as a paraphrase. All but one Wave 1 claim are carried over and re-anchored in the page as fetched on 2026-09-24 (see Unresolved). S2 anchors point into a text transcription of the two management flowcharts made in Wave 1; the flowcharts are images and were not re-read, so a person should re-check S2 doses against them before use.",
+ "summary": {
+  "total": 61,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 61
+ },
+ "claims": [
+  {
+   "claim": "**Definition (World Allergy Organization):** a severe hypersensitivity reaction affecting the whole body, which usually comes on quickly and can be fatal.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
     {
-      "claim": "The World Allergy Organization Anaphylaxis Committee definition of anaphylaxis is a serious systemic hypersensitivity reaction that is usually rapid in onset and may cause death",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**A serious systemic hypersensitivity reaction that is usually rapid in onset and may cause death**"
-    },
-    {
-      "claim": "Severe anaphylaxis is characterised by potentially life-threatening compromise in airway, breathing and/or circulation, and may occur without typical skin features or circulatory shock being present",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Severe anaphylaxis is characterised by potentially life-threatening compromise in: \u2026 - **Airway, breathing and/or circulation** \u2026 May occur **without** typical skin features or circulatory shock being present"
-    },
-    {
-      "claim": "Initial treatment is to remove the allergen if possible and give IM adrenaline",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "2. Initial treatment is to remove the allergen if possible and give IM adrenaline"
-    },
-    {
-      "claim": "In children with possible anaphylaxis and known asthma, clinicians should always give adrenaline first, then asthma medications",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "3. In children with possible anaphylaxis and known asthma, **always give adrenaline first**, then asthma medications"
-    },
-    {
-      "claim": "Position is important and the child should be laid flat or sat with legs extended and not allowed to stand or walk for at least 1 hour after symptoms have resolved",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "4. Position is important. **Lay child flat or sitting with legs extended \u2013 do NOT allow to stand or walk** for at least 1 hour after symptoms have resolved"
-    },
-    {
-      "claim": "As anaphylaxis is a clinical diagnosis, emergency treatment should be guided by clinician judgement rather than a precise definition",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "As anaphylaxis is a clinical diagnosis, emergency treatment should be guided by clinician judgement rather than a precise definition"
-    },
-    {
-      "claim": "Respiratory symptoms predominate in children and may resolve prior to any treatment or hospital arrival, but should still be recognised to avoid missed diagnosis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Respiratory symptoms predominate in children, and may resolve prior to any treatment or hospital arrival, but should still be recognised to avoid missed diagnosis"
-    },
-    {
-      "claim": "Gastrointestinal symptoms such as abdominal pain are not always due to anaphylaxis, but when severe the diagnosis should be considered to avoid treatment delay",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Gastrointestinal symptoms (eg abdominal pain) are not always due to anaphylaxis, but when severe, consider the diagnosis to avoid treatment delay"
-    },
-    {
-      "claim": "Airway features of anaphylaxis are difficult or noisy breathing, tongue rather than lip swelling, throat swelling or tightness, hoarse voice or change in character of cry, and drooling in infants",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| Airway | Difficult or noisy breathing<br>**Tongue** (not lip) swelling<br> Throat swelling or tightness<br> Hoarse voice or change in character of cry<br> Drooling (infants) |"
-    },
-    {
-      "claim": "Breathing features, which are the most common in children, are difficulty talking, wheeze and persistent usually sudden onset cough",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| Breathing<br>(most common in children) | Difficulty talking<br> Wheeze<br> Persistent (usually sudden onset) cough |"
-    },
-    {
-      "claim": "Circulation features of anaphylaxis are pale and floppy in an infant, persistent dizziness, sudden drowsiness, collapse with or without unconsciousness, hypotension, tachycardia, bradycardia, and cardiac arrest",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| Circulation | Pale and floppy (infant)<br> Persistent dizziness<br> Sudden drowsiness<br> Collapse with or without unconsciousness<br> Hypotension, tachycardia, bradycardia<br> Cardiac arrest |"
-    },
-    {
-      "claim": "Severe or persistent gastrointestinal symptoms are a sign of anaphylaxis of any cause, mild gastrointestinal symptoms are a sign of anaphylaxis when caused by insect stings or parenteral medications, and mild gastrointestinal symptoms are not a sign of anaphylaxis when caused by food",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Severe/persistent** GI symptoms (abdominal pain and/or vomiting) are a sign of anaphylaxis of **any cause**<br>**Mild** GI symptoms (abdominal pain and/or vomiting) are a sign of anaphylaxis when caused by **insect stings or parenteral medications**<br>**Mild** GI symptoms (abdominal pain and/or vomiting) are **not** a sign of anaphylaxis when caused by **food**"
-    },
-    {
-      "claim": "Skin signs including facial angioedema and widespread hives alone do not indicate anaphylaxis, and skin signs are absent in 10 to 20 per cent of cases",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| Skin signs (including facial angioedema, widespread hives) **alone** do **not** indicate anaphylaxis (skin signs absent in 10-20%) |"
-    },
-    {
-      "claim": "Investigations are required in none in the majority because anaphylaxis is a clinical diagnosis, and in special circumstances tryptase may be considered",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "None in the majority; **anaphylaxis is a clinical diagnosis.** In special circumstances consider tryptase (see below)"
-    },
-    {
-      "claim": "The adrenaline dose for a child under 1 year weighing under 7.5 kg is 0.1 mL of 1:1000 with no device available, and for 1 to 2 years at 10 kg is 0.1 mL with a 150 microgram device for 7.5 to 20 kg under 5 years",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| <1 | <7.5 | 0.1\\* | Not available | \u2026 | 1-2 | 10 | 0.1 | 7.5-20 kg (<5 yrs):<br>150 microg |"
-    },
-    {
-      "claim": "The adrenaline dose is 0.15 mL at 2 to 4 years and 15 kg, 0.2 mL at 4 to 5 years and 20 kg, and 0.3 mL at 5 to 10 years and 30 kg with a 300 microgram device for over 20 kg aged 5 years or more",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| 2-4 | 15 | 0.15 | \u2026 | 4-5 | 20 | 0.2 | \u2026 | 5-10 | 30 | 0.3 | >20 kg (\u22655 yrs):<br>300 microg |"
-    },
-    {
-      "claim": "The adrenaline dose is 0.4 mL at 10 to 12 years and 40 kg, and 0.5 mL at over 12 years and over 50 kg with a 500 microgram or 300 microgram device for over 50 kg aged over 12 years",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| 10-12 | 40 | 0.4 | \u2026 | >12 | >50 | 0.5 | >50 kg (>12 yrs):<br>500 microg or 300 microg |"
-    },
-    {
-      "claim": "Volumes under 0.1 mL are difficult to measure accurately and prone to 10 times overdose, particularly in a stressful situation when managing anaphylaxis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "NB volumes <0.1 mL are difficult to measure accurately and prone to 10x overdose, particularly in a stressful situation when managing anaphylaxis"
-    },
-    {
-      "claim": "The adrenaline devices are EpiPen Jr at 150 micrograms or 0.15 mg for 7.5 to 20 kg under 5 years, EpiPen at 300 micrograms or 0.3 mg for over 20 kg aged 5 years or more, and Anapen at 500 micrograms or 0.5 mg for over 50 kg aged over 12 years",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| EpiPen\u00ae Jr<br>(150 microg / 0.15 mg) | 7.5-20 kg (<5 years) | \u2026 | EpiPen\u00ae<br>(300 microg / 0.3 mg) | >20 kg (\u22655 years) | \u2026 | Anapen\u00ae<br>(500 microg / 0.5 mg) | >50 kg (>12 years) |"
-    },
-    {
-      "claim": "Refractory anaphylaxis is anaphylaxis requiring ongoing treatment due to persisting respiratory or cardiovascular symptoms despite 2 appropriate doses of IM adrenaline",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Refractory anaphylaxis is anaphylaxis requiring ongoing treatment (due to persisting respiratory or cardiovascular symptoms) despite 2 appropriate doses of IM adrenaline**"
-    },
-    {
-      "claim": "In anaphylaxis refractory to adrenaline infusion clinicians should seek expert critical care or transport service advice, and IV bolus adrenaline is not recommended but may be used in peri-arrest scenarios at adrenaline 1 microgram/kg IV",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Seek expert critical care / transport service advice \u2026 **IV bolus adrenaline is not recommended**, but may be used in peri-arrest scenarios eg adrenaline 1 microg/kg IV"
-    },
-    {
-      "claim": "Clinicians should follow local infusion guidelines, and in non-tertiary hospital settings the stated infusion guideline can be used in consultation with a senior clinician and paediatric transport services",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Follow local infusion guidelines** \u2026 In non-tertiary hospital settings, the infusion guideline below can be used in consultation with a senior clinician and paediatric transport services:"
-    },
-    {
-      "claim": "The peripheral IV adrenaline infusion is made by mixing 1 mL of 1:1000 adrenaline in 1000 mL of sodium chloride 0.9 per cent giving approximately 1 microgram/mL, started at 5 mL/kg/hr which is approximately 0.1 microgram/kg/min",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Mix 1 mL of **1:1000** adrenaline in 1000 mL of sodium chloride 0.9% (approx 1 microg/mL) \u2026 Start infusion at 5 mL/kg/hr (approx 0.1 microg/kg/min)"
-    },
-    {
-      "claim": "A dedicated line, infusion pump and anti-reflux valves should be used when possible, the dose should be titrated according to response and side effects, high infusion rates should be avoided for more than 2 hours as this may cause fluid overload, and monitoring should be continuous including all vital signs, 12-lead ECG and conscious state",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "A dedicated line, infusion pump and anti-reflux valves should be used when possible \u2026 Titrate dose according to response and side effects \u2026 Avoid high infusion rates for more than 2 hours as this may cause fluid overload \u2026 Monitor continuously (all vital signs, 12-lead ECG and conscious state)"
-    },
-    {
-      "claim": "Subcutaneous adrenaline should not be used as absorption is less reliable and can be delayed compared to IM",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Do **not** use subcutaneous adrenaline, as absorption is less reliable and can be delayed compared to IM"
-    },
-    {
-      "claim": "Antihistamines, corticosteroids and leukotriene antagonists should not be given in anaphylaxis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Antihistamines, corticosteroids and leukotriene antagonists **should not** be given in anaphylaxis"
-    },
-    {
-      "claim": "Serum tryptase has no role in acute management of anaphylaxis and should only be ordered where significant diagnostic doubt exists such as idiopathic anaphylaxis or co-existing anxiety, or after consultation with a paediatric allergy specialist in special circumstances such as insect stings, diagnostic agents or perioperative reactions",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Serum tryptase has no role in acute management of anaphylaxis. It should only be ordered in situations where significant diagnostic doubt exists (eg idiopathic, co-existing anxiety) or after consultation with a paediatric allergy specialist in special circumstances (eg insect stings, diagnostic agents, perioperative reactions)"
-    },
-    {
-      "claim": "All children with anaphylaxis should be observed in a setting equipped to manage deterioration for at least 4 hours after the last dose of adrenaline, or after onset of symptoms if no adrenaline is given",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "All children with anaphylaxis should be **observed** in a setting equipped to manage deterioration, **for at least 4 hours**: \u2026 After last dose of adrenaline \u2026 After onset of symptoms if no adrenaline is given"
-    },
-    {
-      "claim": "Overnight admission for observation is recommended for more than 2 adrenaline doses, adrenaline infusion, IV fluid resuscitation or circulatory involvement, history of biphasic reaction or more severe initial reaction, poorly controlled asthma, living in an isolated location with delay to emergency services, presenting for medical care late in the evening, and anaphylaxis to monoclonal antibody therapy",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": ">2 adrenaline doses, adrenaline infusion, IV fluid resuscitation, circulatory involvement \u2026 History of biphasic reaction, more severe initial reaction \u2026 Poorly controlled asthma \u2026 Lives in an isolated location with delay to emergency services \u2026 Presents for medical care late in the evening \u2026 Anaphylaxis to monoclonal antibody therapy"
-    },
-    {
-      "claim": "Consultation with the local paediatric or allergy immunology team should be considered for high risk of fatal anaphylaxis, more than 1 dose of adrenaline, first diagnosis of anaphylaxis, and anaphylaxis to monoclonal antibody therapy",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "High risk of fatal anaphylaxis (see additional notes) \u2026 >1 dose of adrenaline \u2026 First diagnosis of anaphylaxis"
-    },
-    {
-      "claim": "Transfer should be considered for more than 2 doses of adrenaline meaning refractory anaphylaxis, adrenaline infusion, and a child requiring care beyond the comfort level of the hospital",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": ">2 doses of adrenaline (refractory anaphylaxis) \u2026 Adrenaline infusion \u2026 A child requiring care beyond the comfort level of the hospital"
-    },
-    {
-      "claim": "Discharge may be considered when the child is clinically stable and not requiring adrenaline for at least 4 hours",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Clinically stable and not requiring adrenaline for at least 4 hours"
-    },
-    {
-      "claim": "The discharge checklist includes updating the medical record identifying the suspected allergen to avoid where possible, supplying or prescribing 2 adrenaline devices with the option of keeping the child until morning if a script cannot be accessed due to pharmacy closure, and training in correct use with a trainer device of the prescribed brand and appropriate positioning such as not standing or walking during anaphylaxis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "1. **Update the medical record** identifying suspected allergen to avoid where possible \u2026 3. **2 EpiPen\u00ae/ EpiPen\u00ae Jr/ Anapen\u00ae** supplied or prescribed, if unable to access script due to pharmacy closure (eg overnight) then consider keeping until morning \u2026 4. Training in correct use with trainer device of prescribed brand and appropriate positioning (eg **not** standing or walking during anaphylaxis)"
-    },
-    {
-      "claim": "Children with medication or drug anaphylaxis are generally not prescribed an adrenaline device",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "- Children with medication (drug) anaphylaxis are generally not prescribed an adrenaline device"
-    },
-    {
-      "claim": "The discharge checklist also includes considering a MedicAlert bracelet, referral to a paediatrician for review as soon as possible, optimising asthma management including diagnosis, asthma action plan and preventers, and considering reporting as per local requirements",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "5. Consider MedicAlert bracelet \u2026 7. Referral to paediatrician or for review as soon as possible \u2026 8. **Optimise asthma management** including diagnosis, asthma action plan and preventers \u2026 9. Consider reporting as per local requirements"
-    },
-    {
-      "claim": "EpiPen, EpiPen Jr and Anapen are available on PBS for all children with a history of anaphylaxis, and they require authority prescription or can be purchased without prescription at full cost",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "EpiPen\u00ae / EpiPen\u00ae Jr / Anapen\u00ae are available on PBS for all children with a history of anaphylaxis. See . They require authority prescription or can be purchased without prescription at full cost."
-    },
-    {
-      "claim": "According to the World Allergy Organization Anaphylaxis Committee, anaphylaxis is highly likely when any one of two criteria are fulfilled",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "According to the World Allergy Organization Anaphylaxis Committee, anaphylaxis is highly likely when **any one** of the following two criteria are fulfilled:"
-    },
-    {
-      "claim": "The first WAO criterion is acute onset of an illness over minutes to several hours with simultaneous involvement of the skin, mucosal tissue or both, and at least one of respiratory compromise, reduced blood pressure or associated symptoms of end-organ dysfunction, or severe gastrointestinal symptoms especially after exposure to non-food allergens",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "1. Acute onset of an illness (minutes to several hours) with simultaneous involvement of the skin, mucosal tissue, or both (eg generalized hives, pruritus or flushing, swollen lips-tongue-uvula), **and at least one of the following:** \u2026 1. **Respiratory** compromise (eg dyspnoea, wheeze-bronchospasm, stridor, reduced peak expiratory flow, hypoxaemia) \u2026 2. Reduced **blood pressure** or associated symptoms of end-organ dysfunction (eg hypotonia (collapse), syncope, incontinence) \u2026 3. **Severe** gastrointestinal symptoms (eg severe crampy abdominal pain, repetitive vomiting), especially after exposure to **non-food allergens**"
-    },
-    {
-      "claim": "The second WAO criterion is acute onset of hypotension or bronchospasm or laryngeal involvement after exposure to a known or highly probable allergen for that patient over minutes to several hours, even in the absence of typical skin involvement",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "2. Acute onset of **hypotension or bronchospasm or laryngeal involvement** after exposure to a known or highly probable allergen for that patient (minutes to several hours), even in the absence of typical skin involvement"
-    },
-    {
-      "claim": "Timing of reactions is dependent on the trigger with most developing quickly over minutes, allergens given by parenteral route such as IV medication, IM injection or insect sting often cause symptoms in 5 to 15 minutes, ingested food allergens cause symptoms typically by 30 minutes, and oral medication allergy is slower usually occurring in 1 to 6 hours",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Timing of reactions is dependent on the trigger, most develop quickly over minutes \u2026 Allergens given by parenteral route (eg IV medication, IM injection, insect sting) often cause symptoms in 5-15 minutes \u2026 Ingested food allergens cause symptoms typically by 30 minutes \u2026 Oral medication (drug) allergy are slower usually occurring in 1-6 hours"
-    },
-    {
-      "claim": "Fatal anaphylaxis is rare in Australia at approximately 1 per million population and is mainly triggered by food in children, and cardiorespiratory arrest more than 4 hours after initial allergen exposure is rare",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Prevalence: rare in Australia, approximately 1 per million/population \u2026 Mainly triggered by food in children \u2026 **Cardiorespiratory arrest more than 4 hours after initial allergen exposure is rare**"
-    },
-    {
-      "claim": "Risk factors for fatal anaphylaxis are delay to administration of adrenaline or emergency response services, upright posture, poorly controlled asthma, allergy to peanut, tree nuts and seafood, adolescence, and pre-existing cardiac and respiratory conditions",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Delay to administration of adrenaline or emergency response services \u2026 Upright posture \u2026 Poorly controlled asthma (see ) \u2026 Allergy to peanut, tree nuts and seafood \u2026 Adolescence \u2026 Pre-existing cardiac and respiratory conditions"
-    },
-    {
-      "claim": "Severity of previous reactions does not predict future risk, and proper diagnosis and safe discharge management are essential to minimise risk on discharge",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Severity of previous reactions does not predict future risk** \u2026 Proper diagnosis and safe discharge management are essential to minimise risk on discharge"
-    },
-    {
-      "claim": "The guideline was last updated October 2025 and is PIC endorsed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Last updated October 2025 \u2026 PIC Endorsed"
-    },
-    {
-      "claim": "The initial anaphylaxis management and refractory anaphylaxis management are presented as flowcharts",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Initial anaphylaxis management flowchart \u2026 Refractory anaphylaxis management flowchart"
-    },
-    {
-      "claim": "The guideline cites the ASCIA Acute Management of Anaphylaxis Guideline 2024 accessed 17 October 2025 and ANZCOR 2025 Anaphylaxis accessed 17 October 2025",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Australasian Society of Clinical Immunology and Allergy (ASCIA). Acute Management of Anaphylaxis Guideline, 2024. . Accessed 17/10/2025 \u2026 Australian and New Zealand Resuscitation Council (ANZCOR), 2025, Anaphylaxis, accessed 17 October 2025"
-    },
-    {
-      "claim": "The initial flowchart directs assessment for upper airway obstruction with stridor or oral swelling, or lower airway obstruction with wheeze or respiratory distress, or shock with dizziness, pallor, collapse, hypotension, severe or persistent vomiting and/or abdominal pain, with or without skin changes of itchy rash or redness",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Assess for: Upper airway obstruction (stridor, oral swelling) OR Lower airway obstruction (wheeze, respiratory distress) OR Shock (dizziness, pallor, collapse, hypotension, severe/persistent vomiting and/or abdominal pain) +/- Skin changes (itchy rash / redness)"
-    },
-    {
-      "claim": "The first step is to remove the trigger and stop any infusion",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Remove trigger (stop infusion)"
-    },
-    {
-      "claim": "The child should be laid flat and not allowed to stand or walk; if there is difficulty breathing they should sit with legs extended, and if vomiting they should be laid on their side in the recovery position",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Lay child flat / Do not allow to stand or walk / If difficulty breathing, sit with legs extended / If vomiting, lay on side in recovery position"
-    },
-    {
-      "claim": "Adrenaline should be injected IM into the lateral mid-thigh at 10 micrograms/kg to a maximum of 500 micrograms",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "GIVE ADRENALINE / Inject IM lateral mid-thigh / 10 microg/kg (max 500 microg) IM"
-    },
-    {
-      "claim": "Using adrenaline 1:1000 the volume is 0.01 mL/kg with a minimum of 0.1 mL and a maximum of 0.5 mL, or an adrenaline device may be used",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Using adrenaline 1:1000: 0.01 mL/kg (min 0.1 mL, max 0.5 mL) OR Use adrenaline device"
-    },
-    {
-      "claim": "If in doubt, give adrenaline",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "If in doubt, give adrenaline"
-    },
-    {
-      "claim": "Oxygen should be given and monitoring attached including SpO2, blood pressure and ECG",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Give O2 / Attach monitoring: SpO2, BP, ECG"
-    },
-    {
-      "claim": "If there is no or inadequate response, IM adrenaline should be repeated after 5 minutes",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "IF NO OR INADEQUATE RESPONSE / Repeat IM adrenaline after 5 minutes"
-    },
-    {
-      "claim": "No improvement after two doses of IM adrenaline equals refractory anaphylaxis, and expert critical care help should be called being ED senior, ICU, anaesthetics or transport service, with IV or IO access obtained",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "NO IMPROVEMENT AFTER TWO DOSES OF IM ADRENALINE = REFRACTORY ANAPHYLAXIS / Call for expert critical care help: ED Senior / ICU / Anaesthetics/ Transport Service / IV / IO access"
-    },
-    {
-      "claim": "In refractory anaphylaxis an IV bolus of 10 to 20 mL/kg sodium chloride 0.9 per cent should be given and an IV adrenaline infusion started via a dedicated IV line",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Give IV bolus: 10-20 mL/kg sodium chloride 0.9% AND Start IV adrenaline infusion / Dedicated IV line"
-    },
-    {
-      "claim": "The infusion should follow local protocol, or as an example mix 1 mL adrenaline 1:1000 in 1000 mL sodium chloride 0.9 per cent with a usual starting dose of 5 mL/kg/hr approximating 0.1 micrograms/kg/min",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Follow local protocol OR Example (see below algorithm): Mix 1 mL adrenaline 1:1000 in 1000 mL sodium chloride 0.9% / Usual starting dose 5 mL/kg/hr (approx 0.1 microg/kg/min)"
-    },
-    {
-      "claim": "IM adrenaline should be given every 5 minutes until the infusion is started",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Give IM adrenaline every 5 minutes until infusion started"
-    },
-    {
-      "claim": "Expert critical care or transport service advice should be sought early",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Seek expert critical care / transport service advice early"
-    },
-    {
-      "claim": "For partial airway obstruction or stridor, nebulised adrenaline of 5 mL of 1:1000 should be given, and for complete obstruction the guideline refers to acute upper airway obstruction, intubation via emergency airway management, and can't intubate can't oxygenate",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "AIRWAY / Partial obstruction / stridor / Nebulised adrenaline (5 mL of 1:1000) / Complete obstruction / See Acute Upper Airway Obstruction / See Intubation via Emergency Airway Management / See Can't Intubate Can't Oxygenate"
-    },
-    {
-      "claim": "For wheeze, salbutamol should be given via spacer or nebuliser with reference to the management of life-threatening asthma, and for apnoea the child should be oxygenated and ventilated via bag valve mask, endotracheal tube or supraglottic airway",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "BREATHING / Wheeze / Salbutamol via spacer or nebuliser / See management of life-threatening Asthma / Apnoea / Oxygenate and ventilate via bag valve mask / endotracheal tube / supraglottic airway"
-    },
-    {
-      "claim": "For shock the adrenaline infusion should be prioritised and IV boluses of 10 to 20 mL/kg sodium chloride 0.9 per cent continued, and for cardiac arrest BLS and ALS apply with reference to management of cardiopulmonary arrest",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "CIRCULATION / Shock / Prioritise adrenaline infusion / Continue IV boluses 10-20 mL/kg sodium chloride 0.9% / Cardiac arrest / BLS/ALS / See Management of Cardiopulmonary Arrest"
+     "h": "07bb7f9a1f3b9bb4",
+     "n": 95,
+     "p": "A seriou"
     }
-  ],
-  "summary": {
-    "total": 62,
-    "pass": 46,
-    "fail": 0,
-    "pass_image_transcription": 16
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Severe anaphylaxis** threatens the airway, breathing and/or circulation, and can happen with no typical skin signs and without shock.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1b379ab6f08f9255",
+     "n": 82,
+     "p": "Severe a"
+    },
+    {
+     "h": "502adf8ba881fffd",
+     "n": 36,
+     "p": "Airway, "
+    },
+    {
+     "h": "24882af6889f11fd",
+     "n": 74,
+     "p": "May occu"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**First steps:** take the allergen away if you can, and give adrenaline IM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c12fc94eb0ab403a",
+     "n": 78,
+     "p": "Initial "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Possible anaphylaxis in a child with asthma:** adrenaline always goes first; asthma drugs come after.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "158273bcf95d0e35",
+     "n": 109,
+     "p": "In child"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Positioning matters:** lie the child flat, or sit them with legs out straight; they must not stand or walk until at least 1 hour after symptoms have gone.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02e7b4c782ba1c98",
+     "n": 148,
+     "p": "Position"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The diagnosis is clinical,** so emergency treatment follows the clinician's judgement, not a strict definition.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a2adb99972fa7b3",
+     "n": 132,
+     "p": "As anaph"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Breathing symptoms dominate in children** and can settle before treatment or before reaching hospital. Recognise them anyway, or the diagnosis will be missed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ba8754bd435defc",
+     "n": 162,
+     "p": "Respirat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Abdominal pain and other gut symptoms** are not always anaphylaxis, but when they are severe consider it, so treatment is not delayed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "faca60ce140532f6",
+     "n": 145,
+     "p": "Gastroin"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Airway:** hard or noisy breathing · swelling of the tongue (lip swelling does not count) · throat tightness or swelling · a hoarse voice or altered cry · drooling in infants.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94f01220fddd1678",
+     "n": 152,
+     "p": "Airway D"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Breathing** (the commonest features in children): trouble talking · wheeze · a persistent cough, usually of sudden onset.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7753d59af776576d",
+     "n": 101,
+     "p": "Breathin"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Circulation:** an infant who is pale and floppy · dizziness that persists · drowsiness coming on suddenly · collapse, with or without loss of consciousness · low blood pressure, fast or slow heart rate · cardiac arrest.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "511f51ddd263886d",
+     "n": 169,
+     "p": "Circulat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gut symptoms depend on the trigger:** severe or persistent pain or vomiting counts as anaphylaxis whatever the cause; mild pain or vomiting counts after an insect sting or a parenteral drug, but not after a food.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cad1b8a79e62a16d",
+     "n": 332,
+     "p": "Severe/p"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Skin signs alone (hives everywhere, facial angioedema) are not anaphylaxis,** and 10-20% of cases have no skin signs at all.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c6af6b593a1d9fb",
+     "n": 122,
+     "p": "Skin sig"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tests:** none for most children, since the diagnosis is clinical. Tryptase only in special circumstances (see below).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22d849ffd1b629d4",
+     "n": 113,
+     "p": "None in "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WAO criteria:** anaphylaxis is highly likely when either one of two criteria is met.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf0979ce3fbcf3be",
+     "n": 153,
+     "p": "Accordin"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**First criterion:** sudden illness (over minutes to several hours) involving skin, mucosa or both (e.g. widespread hives, itch or flushing, swollen lips, tongue or uvula), plus at least one of: breathing compromise (e.g. breathlessness, wheeze, stridor, lower peak flow, hypoxaemia) · low blood pressure or end-organ effects (e.g. collapse, syncope, incontinence) · severe gut symptoms (e.g. severe cramps, repeated vomiting), particularly after a non-food allergen.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7166f77fc62c92b",
+     "n": 227,
+     "p": "Acute on"
+    },
+    {
+     "h": "cafedab5fe9cdc6e",
+     "n": 108,
+     "p": "Respirat"
+    },
+    {
+     "h": "3214dcbc15e17399",
+     "n": 119,
+     "p": "Reduced "
+    },
+    {
+     "h": "47da9a4ca9f5f0cf",
+     "n": 136,
+     "p": "Severe g"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Second criterion:** after exposure to an allergen known or very likely to affect that child, sudden hypotension, bronchospasm or laryngeal involvement (over minutes to several hours), even with no typical skin signs.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "409959168b76a6d3",
+     "n": 214,
+     "p": "Acute on"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Timing depends on the trigger;** most reactions come on within minutes. Injected allergens (IV or IM drugs, stings) often cause symptoms in 5-15 minutes; foods typically by 30 minutes; oral medicines more slowly, usually over 1-6 hours.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28385d73b5b5cd7a",
+     "n": 82,
+     "p": "Timing o"
+    },
+    {
+     "h": "6a645558aec70208",
+     "n": 119,
+     "p": "Allergen"
+    },
+    {
+     "h": "4ee623b3de866592",
+     "n": 62,
+     "p": "Ingested"
+    },
+    {
+     "h": "d01651a57d26841a",
+     "n": 72,
+     "p": "Oral med"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IM adrenaline 1:1000, volume by age and weight:** under 1 year (under 7.5 kg): 0.1 mL (see the note on small volumes), no device available · 1-2 years (10 kg): 0.1 mL; device 150 microg for 7.5-20 kg (under 5 years).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f75428f2d6267851",
+     "n": 32,
+     "p": "Volume ("
+    },
+    {
+     "h": "a31b4b4c0196414f",
+     "n": 26,
+     "p": "<1 <7.5 "
+    },
+    {
+     "h": "e186ea4285cebb0f",
+     "n": 41,
+     "p": "1-2 10 0"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Continued:** 2-4 years (15 kg): 0.15 mL · 4-5 years (20 kg): 0.2 mL · 5-10 years (30 kg): 0.3 mL; device 300 microg above 20 kg (5 years and over).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "690315899d1c3866",
+     "n": 11,
+     "p": "2-4 15 0"
+    },
+    {
+     "h": "1145079977f45ad9",
+     "n": 10,
+     "p": "4-5 20 0"
+    },
+    {
+     "h": "3bb8042d52529cb1",
+     "n": 39,
+     "p": "5-10 30 "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Continued:** 10-12 years (40 kg): 0.4 mL · over 12 years (over 50 kg): 0.5 mL; device 500 microg or 300 microg above 50 kg (over 12 years).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "26dcc409a43c5253",
+     "n": 12,
+     "p": "10-12 40"
+    },
+    {
+     "h": "74cbb5e9f97c807b",
+     "n": 54,
+     "p": ">12 >50 "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Volumes below 0.1 mL** are hard to draw up accurately and invite a 10x overdose, especially in the stress of treating anaphylaxis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74eeeef7aabf3f84",
+     "n": 145,
+     "p": "NB volum"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Devices:** EpiPen Jr 150 microg (0.15 mg) for 7.5-20 kg (under 5 years) · EpiPen 300 microg (0.3 mg) above 20 kg (5 years and over) · Anapen 500 microg (0.5 mg) above 50 kg (over 12 years).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "47faac965c86e752",
+     "n": 54,
+     "p": "EpiPen® "
+    },
+    {
+     "h": "b06eba0ed6139a98",
+     "n": 47,
+     "p": "EpiPen® "
+    },
+    {
+     "h": "8236c47142933c20",
+     "n": 48,
+     "p": "Anapen® "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Refractory anaphylaxis:** breathing or circulatory symptoms still need treatment after 2 correctly given IM adrenaline doses.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3019fc6391dccf7e",
+     "n": 169,
+     "p": "Refracto"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Not responding to the infusion:** ask critical care or the transport service for expert advice. ⚠️ An IV adrenaline bolus is advised against, though it may be used peri-arrest (e.g. 1 microg/kg IV).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0380f1d9789d4f5",
+     "n": 52,
+     "p": "Seek exp"
+    },
+    {
+     "h": "f10b520970201216",
+     "n": 109,
+     "p": "IV bolus"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Infusion protocol:** use the local one. In a non-tertiary hospital, the RCH protocol can be used together with a senior clinician and the paediatric transport service.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b758326d34517faa",
+     "n": 32,
+     "p": "Follow l"
+    },
+    {
+     "h": "99c16d56b3a5eb14",
+     "n": 150,
+     "p": "In non-t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Peripheral IV adrenaline infusion:** add 1 mL of adrenaline 1:1000 to a 1000 mL bag of sodium chloride 0.9%, giving about 1 microg/mL; start at 5 mL/kg/hr (about 0.1 microg/kg/min).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e8e9f7e74d7029d5",
+     "n": 85,
+     "p": "Mix 1 mL"
+    },
+    {
+     "h": "c06ed7bdc8cb23c9",
+     "n": 55,
+     "p": "Start in"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Running it:** a dedicated line, pump and anti-reflux valves where possible · titrate to response and side effects · do not run high rates for more than 2 hours (fluid overload) · continuous monitoring of all vital signs, a 12-lead ECG and conscious state.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6dbb81d1516ece1",
+     "n": 83,
+     "p": "A dedica"
+    },
+    {
+     "h": "11ca3937cdcca7b8",
+     "n": 51,
+     "p": "Titrate "
+    },
+    {
+     "h": "f6ead77c0de246a1",
+     "n": 80,
+     "p": "Avoid hi"
+    },
+    {
+     "h": "54a9c087523a5d23",
+     "n": 71,
+     "p": "Monitor "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No subcutaneous adrenaline:** it is absorbed less reliably, and can be slower, than IM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fff45c66e3d16f26",
+     "n": 100,
+     "p": "Do not u"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not give** antihistamines, corticosteroids or leukotriene antagonists for anaphylaxis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2eb27cd839fa59e8",
+     "n": 94,
+     "p": "Antihist"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Serum tryptase** plays no part in acute treatment. Order it only when the diagnosis is genuinely in doubt (e.g. idiopathic reactions, coexisting anxiety), or after talking to a paediatric allergist in special situations (e.g. stings, diagnostic agents, reactions around surgery).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04ef03fe8731c24c",
+     "n": 328,
+     "p": "Serum tr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Look for:** upper airway obstruction (stridor, swelling in the mouth) · lower airway obstruction (wheeze, respiratory distress) · shock (dizziness, pallor, collapse, hypotension, severe or persistent vomiting and/or abdominal pain) · with or without skin changes (itchy rash, redness).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "806db586c2751941",
+     "n": 262,
+     "p": "Assess f"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Remove the trigger;** stop any infusion that is running.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc6a8bdff5e1e71d",
+     "n": 30,
+     "p": "Remove t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Position:** flat, and not standing or walking; sitting with legs out if breathing is difficult; on the side (recovery position) if vomiting.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c47bab325f8a0ed",
+     "n": 144,
+     "p": "Lay chil"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adrenaline IM into the outer mid-thigh:** 10 microg/kg, up to 500 microg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c74a98ccc3d87d71",
+     "n": 80,
+     "p": "GIVE ADR"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**As 1:1000:** 0.01 mL/kg, at least 0.1 mL and at most 0.5 mL; or use an adrenaline device.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c206e464ab341356",
+     "n": 85,
+     "p": "Using ad"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **When in doubt, give the adrenaline.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7efb949ba2e07588",
+     "n": 28,
+     "p": "If in do"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Then** oxygen, and monitoring of SpO2, blood pressure and ECG.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "58b35d7834858aec",
+     "n": 42,
+     "p": "Give O2 "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Response absent or inadequate:** repeat the IM adrenaline 5 minutes later.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a5bd1e5e276f9f2b",
+     "n": 67,
+     "p": "IF NO OR"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No better after two IM doses = refractory anaphylaxis.** Call for critical care help (senior ED, ICU, anaesthetics, transport service) and get IV or IO access.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2c8afe2f6bb22f6",
+     "n": 177,
+     "p": "NO IMPRO"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Refractory:** give an IV sodium chloride 0.9% bolus of 10-20 mL/kg and start an IV adrenaline infusion through its own line.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7552affa18c3d2ed",
+     "n": 100,
+     "p": "Give IV "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Infusion:** follow local protocol, or for example put 1 mL of adrenaline 1:1000 into 1000 mL sodium chloride 0.9% and start at 5 mL/kg/hr (about 0.1 microg/kg/min).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7474516cd421b54b",
+     "n": 174,
+     "p": "Follow l"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Keep giving IM adrenaline every 5 minutes** until the infusion is running.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2f315592e5a5b694",
+     "n": 57,
+     "p": "Give IM "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ask critical care or the transport service for advice early.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2f19a02db76a135c",
+     "n": 58,
+     "p": "Seek exp"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Airway:** stridor or partial obstruction → 5 mL of adrenaline 1:1000, nebulised. Complete obstruction → follow the RCH pages on acute upper airway obstruction, emergency airway management (intubation) and can't intubate, can't oxygenate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5b89b6fa43d7e68",
+     "n": 224,
+     "p": "AIRWAY /"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Breathing:** wheeze → salbutamol by spacer or nebuliser (see the life-threatening asthma management); apnoea → oxygenate and ventilate by bag-valve-mask, endotracheal tube or supraglottic airway.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b35b0187f36c9aff",
+     "n": 195,
+     "p": "BREATHIN"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Circulation:** shock → the adrenaline infusion comes first, with further sodium chloride 0.9% IV boluses (10-20 mL/kg); cardiac arrest → BLS and ALS (see the cardiopulmonary arrest guideline).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "892b4b35b0f0b4f0",
+     "n": 177,
+     "p": "CIRCULAT"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Anaphylaxis', initial and refractory management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Observe every child for at least 4 hours** where deterioration can be managed: from the last adrenaline dose, or from symptom onset if none was given.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe94b2299ddeb28c",
+     "n": 117,
+     "p": "All chil"
+    },
+    {
+     "h": "8db2e07f63c89832",
+     "n": 29,
+     "p": "After la"
+    },
+    {
+     "h": "8793a0afe9cbc039",
+     "n": 49,
+     "p": "After on"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Keep overnight** after more than 2 adrenaline doses, an infusion, IV fluid resuscitation or circulatory involvement · with a past biphasic or more severe first reaction · poorly controlled asthma · living far from emergency services · presenting late in the evening · anaphylaxis to a monoclonal antibody.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "92effe851fa66572",
+     "n": 89,
+     "p": ">2 adren"
+    },
+    {
+     "h": "b90ac6cad07ee25f",
+     "n": 58,
+     "p": "History "
+    },
+    {
+     "h": "f9882579ee5cd166",
+     "n": 24,
+     "p": "Poorly c"
+    },
+    {
+     "h": "c5c2b7fff9d56e25",
+     "n": 62,
+     "p": "Lives in"
+    },
+    {
+     "h": "cf77527dba0a08e0",
+     "n": 45,
+     "p": "Presents"
+    },
+    {
+     "h": "a1731368d75e58a6",
+     "n": 42,
+     "p": "Anaphyla"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Talk to the local paediatric and/or allergy-immunology team** for high risk of fatal anaphylaxis · more than 1 adrenaline dose · a first diagnosis · anaphylaxis to a monoclonal antibody.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ffb9e5b1fdbd5294",
+     "n": 149,
+     "p": "High ris"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Think about transfer** for more than 2 adrenaline doses (refractory anaphylaxis) · an adrenaline infusion · care beyond what the hospital can comfortably give.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "943fc52485bc3fc3",
+     "n": 47,
+     "p": ">2 doses"
+    },
+    {
+     "h": "039ede9b3aba1be8",
+     "n": 19,
+     "p": "Adrenali"
+    },
+    {
+     "h": "aee0261108334602",
+     "n": 63,
+     "p": "A child "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Discharge** can be considered once the child is stable and has needed no adrenaline for at least 4 hours.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7fe07facec8c25f4",
+     "n": 67,
+     "p": "Clinical"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before home:** record the suspected allergen in the notes so it can be avoided · an individual ASCIA action plan (red for anaphylaxis, dark green for medication allergy) · 2 adrenaline injectors (EpiPen, EpiPen Jr or Anapen) supplied or prescribed; if a pharmacy is shut (e.g. overnight), consider keeping the child until morning · training with a trainer device of the brand prescribed, including positioning (no standing or walking during a reaction).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e802e36e60fec6c",
+     "n": 80,
+     "p": "Update t"
+    },
+    {
+     "h": "073cc670f4df7792",
+     "n": 90,
+     "p": "Individu"
+    },
+    {
+     "h": "dc9fddd1aea5de25",
+     "n": 156,
+     "p": "2 EpiPen"
+    },
+    {
+     "h": "dfd8ad3d92094650",
+     "n": 139,
+     "p": "Training"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drug-induced anaphylaxis:** these children usually do not get an adrenaline injector.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "044a665dd27cbf93",
+     "n": 93,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Also:** consider a MedicAlert bracelet · refer promptly to a paediatrician or a paediatric allergy-immunology specialist · optimise asthma care (diagnosis, action plan, preventer) · consider reporting under local rules.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "587324abdeaead9a",
+     "n": 28,
+     "p": "Consider"
+    },
+    {
+     "h": "3b49838b35c3bdd2",
+     "n": 100,
+     "p": "Referral"
+    },
+    {
+     "h": "5774ac67f6a62ac6",
+     "n": 81,
+     "p": "Optimise"
+    },
+    {
+     "h": "9c797da27c4a2412",
+     "n": 44,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PBS:** EpiPen, EpiPen Jr and Anapen are PBS-listed for every child with a history of anaphylaxis, on authority prescription; they can also be bought at full price without a script.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7dd7410698b798fb",
+     "n": 99,
+     "p": "EpiPen® "
+    },
+    {
+     "h": "0b8ba73e74ea1f25",
+     "n": 90,
+     "p": "They req"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fatal anaphylaxis is rare in Australia** (about 1 per million people), in children mainly from food. Arrest more than 4 hours after the exposure is rare.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fca506cf1a3c99f3",
+     "n": 69,
+     "p": "Prevalen"
+    },
+    {
+     "h": "ffc98a75dad8c50c",
+     "n": 36,
+     "p": "Mainly t"
+    },
+    {
+     "h": "841c0ad7b475d01b",
+     "n": 82,
+     "p": "Cardiore"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fatal risk factors:** delayed adrenaline or delayed emergency response · being upright · poorly controlled asthma · peanut, tree nut or seafood allergy · adolescence · existing heart or lung disease.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f66e321b805e76b",
+     "n": 68,
+     "p": "Delay to"
+    },
+    {
+     "h": "f209b4ad6b22374c",
+     "n": 15,
+     "p": "Upright "
+    },
+    {
+     "h": "f9882579ee5cd166",
+     "n": 24,
+     "p": "Poorly c"
+    },
+    {
+     "h": "ca74c34057f6c979",
+     "n": 40,
+     "p": "Allergy "
+    },
+    {
+     "h": "09d5e196b41dc71e",
+     "n": 11,
+     "p": "Adolesce"
+    },
+    {
+     "h": "5530bd9d88274a3e",
+     "n": 47,
+     "p": "Pre-exis"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Past severity does not predict the next reaction.** Getting the diagnosis right and discharging safely are what reduce the risk afterwards.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2146f1fab85be622",
+     "n": 59,
+     "p": "Severity"
+    },
+    {
+     "h": "a96fb12539b33b9b",
+     "n": 90,
+     "p": "Proper d"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Currency:** PIC endorsed; page last updated October 2025.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cd3779c3112aebb",
+     "n": 25,
+     "p": "Last upd"
+    },
+    {
+     "h": "a76135c52ac5dc90",
+     "n": 12,
+     "p": "PIC Endo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Sources it cites** include the ASCIA acute management guideline (2024) and the ANZCOR anaphylaxis guideline (2025), both accessed 17 October 2025.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4e110c0fd6d59d02",
+     "n": 112,
+     "p": "Australa"
+    },
+    {
+     "h": "38bc1c1184ca797c",
+     "n": 102,
+     "p": "Australi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Anaphylaxis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/, retrieved 2026-09-24"
   }
+ ]
 }

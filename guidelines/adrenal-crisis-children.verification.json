@@ -1,199 +1,414 @@
 {
  "guideline": "guidelines/adrenal-crisis-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 24,
-  "pass": 24,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
-   "claim": "**Most crises occur in children with known adrenal insufficiency who develop an intercurrent illness or injury.** Consider a **new** presentation in any child with unexplained severe dehydration or shock.",
+   "claim": "**Most crises happen when a child already known to have adrenal insufficiency gets an intercurrent illness or injury.** Consider a **new** presentation in any child with unexplained severe dehydration or shock.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Adrenal crisis most commonly presents in children with known adrenal insufficiency who develop an intercurrent illness or injury … Consider a new presentation of adrenal insufficiency in a child presenting with unexplained severe dehydration or shock",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cfd62fb42faa8bb3",
+     "n": 128,
+     "p": "Adrenal "
+    },
+    {
+     "h": "1511be5c6c4e773b",
+     "n": 119,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Classic biochemical triad (primary): low sodium, high potassium, low glucose.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The classic biochemical triad for primary adrenal crisis is low serum sodium, high serum potassium, and low serum glucose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9debef0d5d39177a",
+     "n": 121,
+     "p": "The clas"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "**At-risk children:** primary adrenal insufficiency (Addison's), prolonged steroid therapy (2–4 weeks) in the past 12 months, or hypopituitarism.",
+   "claim": "**At-risk children:** primary adrenal insufficiency (Addison's), long-term steroid treatment (2–4 weeks) at any point in the past 12 months, or hypopituitarism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Primary adrenal insufficiency (Addison’s disease) or Secondary adrenal insufficiency: Prolonged steroid therapy (2-4 weeks) in the past 12 months Hypopituitarism",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b9d9625cb5274e4",
+     "n": 161,
+     "p": "Primary "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Consider first presentation of congenital adrenal hyperplasia in a collapsed neonate.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider first presentation of congenital adrenal hyperplasia (CAH) in the collapsed neonate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0dabe7790ef965bb",
+     "n": 92,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**In secondary insufficiency, mineralocorticoid deficiency may be absent** — sodium may be only mildly low and potassium normal. Acidosis on blood gas indicates mineralocorticoid deficiency.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Note that mineralocorticoid deficiency may not be present in secondary adrenal sufficiency. Mild hyponatraemia and normal potassium levels may be noted … Blood gas: acidosis indicates mineralocorticoid deficiency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5da587931918aa93",
+     "n": 151,
+     "p": "Note tha"
+    },
+    {
+     "h": "be4e9dc0e7d1aade",
+     "n": 58,
+     "p": "Blood ga"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**First presentation: take cortisol, ACTH, 17-hydroxyprogesterone, aldosterone and plasma renin activity before steroids if possible**, plus a urinary steroid profile and urinary sodium.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Additional investigations if first presentation (prior to steroid administration if possible) Cortisol ACTH 17 hydroxyprogesterone Aldosterone Plasma renin activity Urine: urinary steroid profile and urinary sodium",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "757d78c0f3958835",
+     "n": 214,
+     "p": "Addition"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Severely unwell: involve a senior clinician and discuss with endocrinology.** Without a crisis plan, give **IV/IM hydrocortisone sodium succinate** by age; consider repeating the dose if response is poor in the first hour; then give hydrocortisone IV every 6 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Severely unwell/in crisis Involve senior clinician and discuss with endocrinology … If no adrenal crisis management plan available, give IV/IM hydrocortisone sodium succinate as per table below Consider repeating the IV/IM hydrocortisone dose if there is a poor response to initial steroid and fluid treatment in the first hour Follow with hydrocortisone every 6 hours IV",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4973ef19db049065",
+     "n": 81,
+     "p": "Severely"
+    },
+    {
+     "h": "b89838becfe5efb3",
+     "n": 287,
+     "p": "If no ad"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Initial IM/IV hydrocortisone, then every 6 hours:** birth–6 weeks 25 mg, then 5–10 mg · 6 weeks–2 years 25 mg, then 10 mg · 3–12 years 50 mg, then 12.5 mg (3–6 years) or 25 mg (7–12 years) · over 12 years 100 mg, then 25 mg.",
+   "claim": "**Hydrocortisone IM/IV (first dose, then repeat 6-hourly)** — aged birth–6 weeks: 25 mg first, then 5–10 mg · aged 6 weeks–2 years: 25 mg first, then 10 mg · aged 3–12 years: 50 mg first, then 12.5 mg (3–6 years) or 25 mg (7–12 years) · aged over 12 years: 100 mg first, then 25 mg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Age Initial dose of IM/IV hydrocortisone THEN hydrocortisone every 6 hours* Birth-6 weeks 25 mg 5-10 mg 6 weeks-2 years 25 mg 10 mg 3-12 years 50 mg 3-6 years: 12.5 mg 7-12 years: 25 mg >12 years 100 mg 25 mg",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ec7dc6a7dc0029b",
+     "n": 208,
+     "p": "Age Init"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**These equate to about 50–75 mg/m² stat, then 50–75 mg/m²/day in 4 doses**, which also covers mineralocorticoid needs over that period.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The doses outlined equate to approximately 50-75 mg/m2 as a stat dose initially, followed by 50-75 mg/m2/day divided in 4 doses (6 hourly). These doses will also cover the child's mineralocorticoid replacement over this dosing period",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9d89891b5194f24",
+     "n": 233,
+     "p": "The dose"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Once stable:** reduce the IV dose, or if tolerating oral, switch to **triple-dose oral hydrocortisone (~30–50 mg/m²/day)** and wean under paediatric/endocrine advice. **Primary insufficiency:** start fludrocortisone once taking oral fluids, after endocrinology discussion (usually 50–100 micrograms/day).",
+   "claim": "**Once stable:** lower the IV dose, or — if oral intake is tolerated — change to **triple-dose oral hydrocortisone (~30–50 mg/m²/day)** and wean under paediatric/endocrine advice. **Primary insufficiency:** start fludrocortisone once taking oral fluids, after endocrinology discussion (usually 50–100 micrograms/day).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "When the child is stable, reduce the IV dose, or if tolerating oral medications, switch to triple dose oral hydrocortisone replacement (~30-50 mg/m2/day). This can then be gradually reduced to maintenance levels following the advice of the local paediatric/endocrinology team … For primary adrenal insufficiency, when the child can tolerate oral fluids, start fludrocortisone after discussion with endocrinologist (usually 50-100 micrograms/day)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f15a9be64f4fdd51",
+     "n": 275,
+     "p": "When the"
+    },
+    {
+     "h": "5b2ac56792e43ba9",
+     "n": 167,
+     "p": "For prim"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **Shock or moderate–severe dehydration: 0.9% sodium chloride 10 mL/kg IV bolus, repeated until circulation is restored**; then replace deficit plus maintenance evenly over 24 hours with 0.9% sodium chloride and 5% glucose.",
+   "claim": "⚠️ **Shock or moderate–severe dehydration: 0.9% sodium chloride 10 mL/kg IV bolus, repeated until circulation is restored**; then give deficit plus maintenance as 0.9% sodium chloride with 5% glucose, spread evenly across 24 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Give 0.9% sodium chloride (normal saline) 10 mL/kg IV bolus, assess response. Repeat until circulation is restored Replace remaining deficit + maintenance fluid requirements evenly over 24 hours with 0.9% sodium chloride and 5% glucose IV",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4dcff59d18c17e6",
+     "n": 238,
+     "p": "Give 0.9"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Monitoring:** blood gas and glucose hourly for 2 hours, then 2–4-hourly once normoglycaemic and acidosis correcting; UEC 2-hourly initially. ⚠️ **Avoid a sodium rise over 8 mmol/L in 24 hours.**",
+   "claim": "**Monitoring:** blood gas and glucose hourly for 2 hours, then every 2–4 hours once glucose is normal and the acidosis is improving; UEC 2-hourly initially. ⚠️ **Avoid a sodium rise over 8 mmol/L in 24 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Blood gas and blood glucose hourly for 2 hours (more frequent if hypoglycaemic, see below), then 2-4 hourly once normoglycaemic and acidosis correcting UEC: 2 hourly initially … Avoid rise in serum sodium >8 mmol/L in 24 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "056be8cf89cc063a",
+     "n": 175,
+     "p": "Blood ga"
+    },
+    {
+     "h": "ffb06b44bd10e654",
+     "n": 48,
+     "p": "Avoid ri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Mild or no dehydration:** no bolus; 1–1.5 × maintenance as 0.9% sodium chloride and 5% glucose IV evenly over 24 hours.",
+   "claim": "**Mild or no dehydration:** skip the bolus; give 0.9% sodium chloride with 5% glucose IV at 1–1.5 × maintenance, spread evenly across 24 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mild or no dehydration: No bolus 1-1.5 x maintenance fluid volume as 0.9% sodium chloride and 5% glucose IV administered evenly over 24 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "acd884d201650de7",
+     "n": 141,
+     "p": "Mild or "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **Hypoglycaemia: 10% glucose 2–5 mL/kg IV**, recheck at 15 and 30 minutes to confirm glucose above 4.0 mmol/L; maintenance may need up to 10% glucose in 0.9% sodium chloride.",
+   "claim": "⚠️ **Hypoglycaemia: 10% glucose 2–5 mL/kg IV**, recheck at 15 and 30 minutes to confirm glucose above 4.0 mmol/L; the maintenance fluid may need to contain as much as 10% glucose (in 0.9% sodium chloride).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Give a bolus of 10% glucose 2-5 mL/kg IV and recheck blood glucose level 15 minutes post treatment, then at 30 minutes, to ensure recovery to greater than 4.0 mmol/L … Maintenance fluids may require up to 10% glucose in 0.9% sodium chloride IV to maintain normoglycaemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ed34c9b210ad652",
+     "n": 165,
+     "p": "Give a b"
+    },
+    {
+     "h": "7dd28f7fa4f4face",
+     "n": 102,
+     "p": "Maintena"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Hyperkalaemia usually normalises with fluids and steroids.** Potassium over 5.5 mmol/L: ECG and cardiac monitoring. ⚠️ **Over 7.0 mmol/L with ECG changes: nebulised salbutamol and insulin–glucose infusion** as per the Hyperkalaemia guideline.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hyperkalaemia This usually normalises with fluid and hydrocortisone and fludrocortisone replacement Children with potassium >5.5 mmol/L should have an ECG and be on cardiac monitoring If potassium is >7.0 mmol/L and ECG changes of hyperkalaemia are present (eg peaked T waves ± wide QRS complex ± flattened P waves), treat with nebulised salbutamol and insulin and glucose infusion as per Hyperkalaemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a3355c67659d51d3",
+     "n": 402,
+     "p": "Hyperkal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moderately unwell** (moderate illness/injury and/or fever over 38°C, tolerating oral): **hydrocortisone 30 mg/m²/day** and increase fluids and carbohydrate. **Mildly unwell** (fever under 38°C, looks well, no antibiotics needed): **20 mg/m²/day**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Moderate illness or injury and/or fever >38oC and tolerating oral intake and medicines: Give hydrocortisone 30 mg/m2/day and increase fluid and carbohydrate intake … Mildly unwell For example, respiratory or ear infection with no more than low grade fever <38oC, looks well, able to tolerate oral intake and no need for antibiotics Increase dose of hydrocortisone to 20 mg/m2/day",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f30ed00da91a7d07",
+     "n": 163,
+     "p": "Moderate"
+    },
+    {
+     "h": "cbe422ef91015c77",
+     "n": 213,
+     "p": "Mildly u"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Ongoing vomiting = imminent adrenal crisis**, even if otherwise well, because oral medicines are not reliably absorbed. One or two vomits: hydrocortisone 30 mg/m²/day.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If one or two vomits give hydrocortisone 30 mg/m2/day … If ongoing vomiting, consider child to have an imminent adrenal crisis, even if they are otherwise well. This is because oral medications are not reliably absorbed in this scenario",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af3856d88c4e190b",
+     "n": 53,
+     "p": "If one o"
+    },
+    {
+     "h": "b2c624ca4a0391e3",
+     "n": 180,
+     "p": "If ongoi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**With an obvious cause (e.g. family gastroenteritis), give a stress dose IV/IM and observe 4–6 hours; admit for parenteral hydrocortisone if there is any doubt.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Where there is an obvious cause eg other family members with gastroenteritis, give an initial 'stress' dose of IV/IM hydrocortisone sodium succinate as above and observe for 4-6 hours … If there is any doubt as to the clinical status or ability to tolerate oral hydrocortisone, admit for ongoing parenteral hydrocortisone",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "914235a90f5a8e6d",
+     "n": 183,
+     "p": "Where th"
+    },
+    {
+     "h": "c763d3a7c53ae3c3",
+     "n": 135,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Known or suspected adrenal insufficiency needs IV stress-dose hydrocortisone peri-operatively.** Elective: initial dose at induction, then 6-hourly. Emergency: give the initial dose without delay; IM if no IV access.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with known or suspected adrenal insufficiency require IV stress dosing of hydrocortisone in the peri-operative period … For elective surgery, the 'initial' dose can be given at induction of anaesthesia (when an IV line can be more easily sited), with 6 hourly parenteral dosing continuing thereafter … If the child requires emergency surgery, the initial dose should be administered without delay and ongoing doses continued 6 hourly thereafter. Doses can be given IM if IV access is not readily available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "add22b0d8cdcf13e",
+     "n": 126,
+     "p": "Children"
+    },
+    {
+     "h": "dc519ac672620585",
+     "n": 179,
+     "p": "For elec"
+    },
+    {
+     "h": "704edb59089e1b81",
+     "n": 203,
+     "p": "If the c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Short anaesthetic for a non-invasive procedure (e.g. MRI):** stress dose at induction; resume usual therapy if well and eating afterwards.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children having a short general anaesthetic for an elective non-invasive procedure (eg MRI) should have an initial 'stress' dose at induction. If clinically well and tolerating oral intake after the procedure, they can then recommence their usual replacement therapy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7450ea6df73546e5",
+     "n": 266,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Oral step-down after surgery, e.g. 30–50 mg/m²/day for 3 days then 20 mg/m²/day for 2 days**, before maintenance. Usual maintenance is ~10–15 mg/m²/day (primary) or ~5–8 mg/m²/day (secondary).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Once the child is stable and tolerating oral intake post-op, hydrocortisone cover can be changed to oral route … eg 30-50 mg/m2/day for 3 days, 20 mg/m2/day for 2 days before resuming maintenance therapy … Usual replacement requirements are ~10-15 mg/m2/day for children with primary adrenal insufficiency, or ~5-8 mg/m2/day in secondary adrenal insufficiency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef44a71e441d5b61",
+     "n": 110,
+     "p": "Once the"
+    },
+    {
+     "h": "09547c6d435d1613",
+     "n": 90,
+     "p": "eg 30-50"
+    },
+    {
+     "h": "f08d02ca58e81152",
+     "n": 153,
+     "p": "Usual re"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consider transfer for** severe electrolyte or glucose abnormalities, no response to stress-dose steroids, or haemodynamic instability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Severe electrolyte or glucose abnormalities Children not responding to stress dose steroids Haemodynamic instability",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "67eb51bffecaaa78",
+     "n": 139,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** recovering, tolerating oral intake **and** back on the usual glucocorticoid dose or with a clear weaning plan.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Recovering from illness, tolerating oral intake and back on usual dose of glucocorticoid or have a clear plan for weaning steroids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "485820bcef6acc52",
+     "n": 154,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Children on corticosteroids should wear ID reading 'Adrenal insufficiency: In emergency give hydrocortisone at 2 mg/kg IM/IV'** and have an adrenal action plan for sick days.",
+   "claim": "**Children on corticosteroids should wear medical ID stating they have adrenal insufficiency and that, in an emergency, hydrocortisone 2 mg/kg IM/IV is to be given** and have an adrenal action plan for sick days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children on corticosteroids should wear an identification disc or bracelet carrying the words ‘Adrenal insufficiency: In emergency give hydrocortisone at 2 mg/kg IM/IV … Children with known adrenal insufficiency should have an adrenal action plan for managing sick days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b1dc201b1e7e3f79",
+     "n": 167,
+     "p": "Children"
+    },
+    {
+     "h": "5b823684e382abf1",
+     "n": 99,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Adrenal crisis and acute adrenal insufficiency' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/, retrieved 2026-09-23",
    "dose": true
   }

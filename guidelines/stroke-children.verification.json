@@ -1,148 +1,287 @@
 {
  "guideline": "guidelines/stroke-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Stroke/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Stroke' (Last Updated July 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Stroke' (Last Updated July 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 18,
-  "pass": 18,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
    "claim": "⚠️ **Urgent brain imaging confirms the diagnosis and guides management; involve paediatric Neurology early.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "brain imaging is critical to confirm stroke diagnosis and guide management. … Early involvement of a paediatric Neurology team is essential to guide assessment and acute management of suspected childhood stroke.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8cf9ae94a447f80f",
+     "n": 75,
+     "p": "brain im"
+    },
+    {
+     "h": "0e58ae996bf02fa2",
+     "n": 133,
+     "p": "Early in"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Reperfusion windows: alteplase within 4.5 hours; endovascular clot retrieval within 6 hours** of symptom onset.",
+   "claim": "⚠️ **Reperfusion windows, from symptom onset: alteplase within 4.5 hours; endovascular clot retrieval within 6 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Reperfusion therapies are time critical: alteplase within 4.5 hours, and endovascular clot retrieval within 6 hours of symptom onset.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a4650e087b190eb1",
+     "n": 133,
+     "p": "Reperfus"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Childhood stroke carries 5–10% mortality**; over half of survivors have long-term impairment and 10–20% have recurrent strokes. **Arterial ischaemic stroke is the commonest subtype**, just over half.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Childhood stroke has a mortality rate of 5-10%. More than half of the survivors have long-term neurological impairment and 10-20% suffer recurrent strokes … Arterial ischaemic stroke is the most common subtype, accounting for just over half of all strokes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4bdcf292c03f31d5",
+     "n": 154,
+     "p": "Childhoo"
+    },
+    {
+     "h": "8dab5ce3edc8161f",
+     "n": 98,
+     "p": "Arterial"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Red flags — sudden onset of any of these needs immediate neurological assessment and consideration of urgent neuroimaging:** focal limb or facial weakness · visual or speech disturbance · limb incoordination or ataxia · headache with other neurological signs · altered mental state · raised ICP · new seizures with persistent neurological signs.",
+   "claim": "⚠️ **Red flags — sudden onset of any of these needs immediate neurological assessment and consideration of urgent neuroimaging:** visual or speech disturbance · focal limb or facial weakness · headache with other neurological signs · limb incoordination or ataxia · altered mental state · raised ICP · new seizures with persistent neurological signs.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children presenting with sudden onset of the following features are at high risk of stroke and should undergo immediate neurological assessment and be considered for urgent neuroimaging: Focal limb or facial weakness* Visual or speech disturbance* Limb incoordination or ataxia* Headache with other neurological signs or symptoms^ Altered mental state^ Signs of raised intracranial pressure^ New onset seizures associated with persistent neurological signs or symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "405a2a1d20550e10",
+     "n": 468,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Weakness, visual or speech disturbance and ataxia point to arterial ischaemic stroke; headache, altered mental state and raised ICP point to haemorrhage.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "*Arterial ishaemic stroke more likely ^Haemorrhagic stroke more likely",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c94eab57c326b17",
+     "n": 70,
+     "p": "*Arteria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
-   "claim": "**History:** congenital heart disease, sickle cell disease, recent head/neck injury or chiropractic neck manipulation (dissection risk), methamphetamine or cocaine use. **Examine for** raised ICP, hypertension, cardiac murmur, carotid or cranial bruit.",
+   "claim": "**History:** sickle cell disease, congenital heart disease, recent head/neck injury or chiropractic neck manipulation (dissection risk), methamphetamine or cocaine use. **Examine for** hypertension, raised ICP, a cardiac murmur, and carotid or cranial bruit.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "History Congenital heart disease Sickle cell disease Recent head/neck injury, chiropractic neck manipulation (risk factor for dissection) Methamphetamine or cocaine use Examination Signs of raised ICP Hypertension Cardiac murmur Carotid or cranial bruit",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74008ffa57af4c99",
+     "n": 253,
+     "p": "History "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Suspected haemorrhage: urgent non-contrast CT. Suspected arterial ischaemic stroke: urgent MRI and MRA** — or CT with CT angiography if MRI is not possible within 30 minutes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In suspected haemorrhagic stroke, urgent non-contrast CT should be performed … In suspected arterial ischaemic stroke, urgent brain MRI and MRA should be performed … Where urgent MRI is not possible within 30 minutes, CT, including CT angiography should be performed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a5cb3bf2f6a73d64",
+     "n": 76,
+     "p": "In suspe"
+    },
+    {
+     "h": "62368ab1a2bafbdd",
+     "n": 84,
+     "p": "In suspe"
+    },
+    {
+     "h": "bf0983620cc0752c",
+     "n": 100,
+     "p": "Where ur"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Immediately, for reperfusion eligibility:** FBE, coagulation profile, UEC, glucose, LFTs, group and hold. **Later, for cause:** ECG, echocardiography, prothrombotic markers and serum homocysteine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immediate investigations to determine eligibility for reperfusion therapies FBE, coagulation profile, UEC, glucose, LFTs, blood group and hold … Subsequent investigations to identify underlying causes of confirmed stroke ECG and echocardiography Prothrombotic markers and serum homocysteine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d02674e257d98f69",
+     "n": 142,
+     "p": "Immediat"
+    },
+    {
+     "h": "7b462abe8e26bef3",
+     "n": 145,
+     "p": "Subseque"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Oxygen if hypoxic. If hypertensive, discuss with Neurology before treating.** Treat recurrent or prolonged symptomatic seizures.",
+   "claim": "**Give oxygen for hypoxia. Hypertension: talk to Neurology before treating it.** Treat recurrent or prolonged symptomatic seizures.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oxygen if hypoxic If hypertensive, discuss with Neurology team before considering treatment Treat recurrent or prolonged symptomatic seizures.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ce0a7fadf9b4c02",
+     "n": 142,
+     "p": "Oxygen i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Avoid hyperthermia — keep temperature at or below 37.5 °C.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Avoid hyperthermia – aim to keep temperature ≤37.5oC",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2cbf4056bfdab5d3",
+     "n": 52,
+     "p": "Avoid hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Neurology coordinates acute treatment decisions** with Emergency and Haematology, and **a Pediatric NIH Stroke Scale score must be done with Neurology before reperfusion starts.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute treatment decisions should be coordinated by the Neurology team in consultation with Emergency and Haematology teams … Pediatric NIH Stroke Scale must be performed in consultation with the Neurology team before reperfusion therapy is commenced",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d441be419d0572c0",
+     "n": 122,
+     "p": "Acute tr"
+    },
+    {
+     "h": "f011ace8acec7ead",
+     "n": 124,
+     "p": "Pediatri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Alteplase may suit specific children. Potential eligibility:** age 2 to 17 years · radiologically confirmed arterial stroke without haemorrhage · PedNIHSS 4 or more and under 24, not improving · **under 4.5 hours from onset.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Alteplase (recombinant tissue plasminogen activator) may be appropriate in specific children. Potential eligibility criteria include: 2 to 17 years of age radiologically confirmed arterial stroke with absence of haemorrhage Pediatric NIH Stroke Scale score ≥4 and <24, with symptoms that are not improving time from symptom onset <4.5 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bbb29e022412c58b",
+     "n": 340,
+     "p": "Alteplas"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Alteplase dose: total 0.9 mg/kg (max 90 mg) IV — 0.09 mg/kg bolus, then 0.81 mg/kg over 60 minutes.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Administration: IV infusion - Total dose is 0.9 mg/kg (maximum 90 mg): bolus of 0.09 mg/kg then 0.81 mg/kg infused over 60 minutes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3e1dd9cf4ef116f",
+     "n": 130,
+     "p": "Administ"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Absolute contraindications to alteplase:** known cerebral AVM, aneurysm or CNS neoplasm; known alteplase allergy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Absolute contraindications Known cerebral arterial venous malformation, aneurysm, or CNS neoplasm Known allergy to Alteplase",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90c9c9ef88a62104",
+     "n": 124,
+     "p": "Absolute"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Endovascular therapy may suit some children** with radiologically diagnosed ischaemic stroke — discuss with Neurology.",
+   "claim": "**Endovascular therapy may suit some children** whose ischaemic stroke is diagnosed radiologically — discuss with Neurology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Endovascular therapies may be appropriate in some children with radiologically diagnosed ischaemic stroke (discuss with Neurology)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "30a8f7a16b126885",
+     "n": 130,
+     "p": "Endovasc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Arterial ischaemic stroke without reperfusion, or for secondary prevention: anticoagulation and antiplatelet therapy after haemorrhage is excluded on imaging.** ⚠️ **Not within 24 hours of alteplase.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In children with arterial ischaemic stroke in whom reperfusion therapy is not given, or as secondary prevention: Anticoagulation and antiplatelet therapy are indicated after the exclusion of haemorrhage on brain imaging Anticoagulation and antiplatelet therapy should not be administered within 24 hours of receiving alteplase",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "20277e2e72259d30",
+     "n": 326,
+     "p": "In child"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Urgent neurosurgical consultation for:** raised ICP · intracranial haemorrhage · malignant MCA infarction · posterior circulation infarction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urgent neurosurgical consultation recommended for: Clinical signs of raised intracranial pressure Intracranial haemorrhage Malignant middle cerebral artery infarction Posterior circulation infarction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ecae84d053b8d670",
+     "n": 199,
+     "p": "Urgent n"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the local paediatric team for every suspected stroke; admit every child with stroke to a primary paediatric stroke centre.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when All children with suspected stroke Consider transfer when All children with stroke should be admitted to a primary paediatric stroke centre",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1368992c5db84fb0",
+     "n": 193,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Stroke' (Last Updated July 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Stroke/, retrieved 2026-09-23"
   }
  ]

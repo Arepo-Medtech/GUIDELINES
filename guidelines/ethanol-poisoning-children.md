@@ -1,9 +1,9 @@
 # Ethanol poisoning in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, blood alcohol interpretation, investigations, supportive care and disposition for ethanol ingestion in children and adolescents. General principles are in `poisoning-initial-management-children`; adolescent substance use is in `substance-use-adolescents` and `recreational-drug-overdose-children`; the adult counterpart for alcohol use is `alcohol-problems`. Toxic alcohols (methanol, ethylene glycol) are not covered.
 
-> ✅ **OPEN AND QUOTED.** 15 of 15 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Ethanol poisoning*** (Last Updated April 2021); **22 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Ethanol poisoning*** (Last Updated April 2021); **22 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Young children get profound hypoglycaemia, coma and hypothermia from small amounts.** **Check the glucose.** A raised blood alcohol level does not rule out head injury or other drugs. ☎️ **Poisons Information Centre 13 11 26.**
 
@@ -12,12 +12,12 @@
 ## Key points
 
 - ⚠️ **Confirm it is ethanol, not a toxic alcohol** — methanol and ethylene glycol cause severe toxicity in small doses. [S1]
-- **Exploratory ethanol ingestion in children under 6 usually causes minor symptoms**, but ⚠️ **infants and young children are prone to profound hypoglycaemia, coma and hypothermia** even after small amounts. [S1]
+- **Exploratory ethanol ingestion in children under 6 usually causes minor symptoms**, but ⚠️ **even a relatively small amount can leave an infant or young child with profound hypoglycaemia, coma and hypothermia.** [S1]
 - ⚠️ **Even with a raised blood alcohol, always consider more dangerous causes of a decreased conscious state**, including head injury and other drugs. [S1]
 
 ## Sources and blood alcohol
 
-- **Household products can be highly concentrated:** perfumes and colognes over 60% · some hand sanitisers 60–70% · aftershaves 80% · some mouthwashes 25% · methylated spirit 95% (no methanol in Australian preparations). Spirits are 45%. [S1]
+- **Household products can be highly concentrated:** perfumes and colognes over 60% · some hand sanitisers 60–70% · aftershaves 80% · some mouthwashes 25% · methylated spirit 95% (Australian products contain no methanol). Spirits are 45%. [S1]
 - **Units: a BAC of 0.05% = 0.05 g/100 mL = 11 mmol/L.** Peak BAC is at about 90 minutes; it usually falls by 0.01–0.02% per hour. [S1]
 - **BAC effects in non-tolerant adults:** 0.02–0.05% reduced inhibition · 0.05–0.10% impaired judgement · 0.10–0.15% gait and balance difficulty · 0.15–0.25% lethargy · ⚠️ **0.30% coma · 0.40% respiratory depression.** [S1]
 
@@ -53,12 +53,12 @@
 | 3 | **The BAC–effect table is for non-tolerant adults**, adapted from UpToDate; the page gives no child-specific BAC thresholds, and young children can be severely affected at lower levels. | `observation` |
 | 4 | **Charcoal:** this page gives no decontamination advice, but the RCH charcoal page (`activated-charcoal-children`), the RCH acute-poisoning page and AMH (`gastrointestinal-decontamination`) all list ethanol/alcohols among substances charcoal does not bind. | `observation` |
 | 5 | **Toxic alcohols (methanol, ethylene glycol)** are flagged but not managed on this page. | `out_of_scope` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Ethanol poisoning*. Last Updated April 2021. https://www.rch.org.au/clinicalguide/guideline_index/Ethanol_Posioning/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Ethanol poisoning*. Last Updated April 2021. https://www.rch.org.au/clinicalguide/guideline_index/Ethanol_Posioning/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

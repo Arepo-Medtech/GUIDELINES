@@ -1,194 +1,389 @@
 {
  "guideline": "guidelines/sore-throat-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Sore throat' (Last updated October 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Sore throat' (Last updated October 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 24,
-  "pass": 24,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
    "claim": "**Viral pharyngitis is the most common cause.** GAS is the most frequent bacterial cause; it is usually self-limiting, hard to distinguish from viral infection, and **most patients do not need empiric antibiotics**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Viral pharyngitis is the most common cause of sore throat in children … Group A streptococcus (GAS) is the most frequently implicated bacterial pathogen. It is usually self-limiting, difficult to distinguish from viral infection and empiric antibiotic therapy is not required for most patients",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b1e2785f99407fe1",
+     "n": 69,
+     "p": "Viral ph"
+    },
+    {
+     "h": "5240e913f89a63c2",
+     "n": 221,
+     "p": "Group A "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**GAS pharyngitis is uncommon under 4 years of age.**",
+   "claim": "**Under 4 years of age, GAS pharyngitis is uncommon.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "GAS pharyngitis is uncommon under 4 years of age",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "072a9d3f3ec871c7",
+     "n": 48,
+     "p": "GAS phar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**High ARF risk:** Aboriginal and/or Torres Strait Islander people; Māori and/or Pacific Islander people; personal history of ARF or RHD; communities with high rates of ARF.",
+   "claim": "**High ARF risk:** Māori and/or Pacific Islander people; Aboriginal and/or Torres Strait Islander people; personal history of ARF or RHD; communities with high rates of ARF.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aboriginal and/or Torres Strait Islander people Māori and/or Pacific Islander people Personal history of rheumatic fever or rheumatic heart disease Those living in communities with high rates of ARF",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c1b0c2bce402c16",
+     "n": 198,
+     "p": "Aborigin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "**Antibiotics for suspected GAS pharyngitis are not known to prevent invasive GAS**, but consider iGAS in children with more severe illness and treat accordingly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Despite periodic surges in the incidence of invasive GAS (iGAS), there is no current evidence that treatment of suspected GAS pharyngitis with antibiotics will prevent invasive disease. However, clinicians are encouraged to consider iGAS in children who present with more severe illness and provide appropriate treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2516193422072799",
+     "n": 320,
+     "p": "Despite "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Red flags:** unwell/toxic appearance, respiratory distress, stridor, trismus, drooling, 'hot potato' voice, torticollis, neck stiffness or fullness. In the acutely unwell child consider an alternative diagnosis or a complication.",
+   "claim": "⚠️ **Red flags:** unwell/toxic appearance, stridor, respiratory distress, drooling, trismus, 'hot potato' voice, torticollis, neck stiffness or fullness. In the acutely unwell child consider an alternative diagnosis or a complication.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unwell/toxic appearance Respiratory distress Stridor Trismus Drooling “Hot potato” voice (muffled voice associated with pharyngeal/peritonsillar pathology) Torticollis Neck stiffness/fullness In the acutely unwell child consider alternative diagnosis and/or complications of GAS pharyngitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ceb054aad40ff17",
+     "n": 290,
+     "p": "Unwell/t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Signs of upper airway obstruction: examine minimally so as not to upset the child.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with signs of acute upper airway obstruction should have minimal examination to not upset the child further",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c425f9f7971ee3d6",
+     "n": 116,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "**Throat swab is not routinely recommended. Streptococcal serology has no role** in diagnosing GAS pharyngitis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Throat swab is not routinely recommended for sore throat … Streptococcal serology has no role in diagnosis of GAS pharyngitis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d3b1472cf9d82837",
+     "n": 56,
+     "p": "Throat s"
+    },
+    {
+     "h": "134827478cd8d45b",
+     "n": 66,
+     "p": "Streptoc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "**Other tests only if indicated:** imaging for suspected suppurative complications; FBE, EBV serology ± monospot for hepatosplenomegaly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "suspected suppurative complications (eg relevant imaging) hepatosplenomegaly (FBE, EBV serology, +/- monospot)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "415b0e4edc1b34d2",
+     "n": 110,
+     "p": "suspecte"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Supportive management is adequate for most sore throats.**",
+   "claim": "**For most sore throats, supportive management is enough.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Supportive management is adequate for most sore throats",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9317148757ca0391",
+     "n": 55,
+     "p": "Supporti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Severe pain unresponsive to simple analgesia:** consider dexamethasone 0.15 mg/kg (max 10 mg) oral/IV/IM single dose, or prednisolone 1 mg/kg (max 50 mg) oral single dose.",
+   "claim": "**Severe pain unresponsive to simple analgesia:** consider a single dose of dexamethasone (oral/IV/IM) 0.15 mg/kg (max 10 mg), or a single oral dose of prednisolone 1 mg/kg (max 50 mg).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider in children with severe pain unresponsive to simple analgesia dexamethasone 0.15 mg/kg (max 10 mg) oral/IV/IM as a single dose, or prednisolone 1 mg/kg (max 50 mg) oral as a single dose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "377508bd471071b7",
+     "n": 194,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **High ARF risk: treat any sore throat with antibiotics.** Otherwise, **empiric antibiotics for every child with a sore throat are not recommended.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children identified to be at high-risk for acute rheumatic fever (ARF) should be treated with antibiotics if they develop a sore throat (irrespective of other clinical features) … Empiric antibiotic treatment of all children presenting with a sore throat is not recommended",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "efd045cd33b7b4c1",
+     "n": 177,
+     "p": "Children"
+    },
+    {
+     "h": "45109c190fe5cc8c",
+     "n": 93,
+     "p": "Empiric "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**First line: phenoxymethylpenicillin 15 mg/kg (max 500 mg) oral twice daily for 10 days.**",
+   "claim": "**First line: oral phenoxymethylpenicillin twice daily for 10 days, 15 mg/kg (up to 500 mg).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Phenoxymethylpenicillin Oral 15 mg/kg (max 500 mg) BD 10 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9eeba704d13d6ef",
+     "n": 61,
+     "p": "Phenoxym"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Second line, for better adherence: amoxicillin 50 mg/kg (max 1 g) oral once daily for 10 days.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Amoxicillin (second line therapy for improved oral adherence) Oral 50 mg/kg (max 1 g) daily 10 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5bc9f1868cbd0dff",
+     "n": 99,
+     "p": "Amoxicil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Poor adherence or oral not tolerated: benzathine benzylpenicillin IM single dose** — <10 kg 450,000 units (0.9 mL); 10–20 kg 600,000 units (1.2 mL); ≥20 kg 1,200,000 units (2.3 mL).",
+   "claim": "**Poor adherence or oral not tolerated: benzathine benzylpenicillin IM single dose** — by weight: 450,000 units (0.9 mL) if <10 kg; 600,000 units (1.2 mL) for 10–20 kg; and for ≥20 kg, 1,200,000 units (a volume of 2.3 mL).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Poor adherence or oral therapy not tolerated Benzathine benzylpenicillin … IM <10 kg 450,000 units (0.9 mL) 10-20 kg 600,000 units (1.2 mL) ≥20 kg 1,200,000 units (2.3 mL) Single dose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc481203efadd2c8",
+     "n": 72,
+     "p": "Poor adh"
+    },
+    {
+     "h": "a4193131a9b1980c",
+     "n": 108,
+     "p": "IM <10 k"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Non-immediate penicillin hypersensitivity: cefalexin 25 mg/kg (1 g) oral twice daily for 10 days.** **Immediate beta-lactam hypersensitivity: azithromycin 12 mg/kg (max 500 mg) oral daily for 5 days.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hypersensitivity to penicillins (excluding immediate hypersensitivity) Cefalexin Oral 25 mg/kg (1 g) BD 10 days … Immediate hypersensitivity to beta-lactams Azithromycin Oral 12 mg/kg (max 500 mg) daily 5 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b42a5c1fe13d8744",
+     "n": 111,
+     "p": "Hypersen"
+    },
+    {
+     "h": "1266df90459cb86b",
+     "n": 95,
+     "p": "Immediat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Peritonsillar abscess (quinsy):** fever, odynophagia, dysphagia, 'hot potato' voice, trismus, peritonsillar swelling, uvula deviation. **Refer to ENT for drainage;** benzylpenicillin 50 mg/kg (max 1.2 g) IV 6-hourly, then phenoxymethylpenicillin 15 mg/kg (max 500 mg) oral twice daily to a total of 10 days.",
+   "claim": "**Peritonsillar abscess (quinsy):** fever, odynophagia, dysphagia, 'hot potato' voice, trismus, peritonsillar swelling, uvula deviation. **Refer to ENT for drainage;** IV benzylpenicillin 6-hourly, 50 mg/kg (max 1.2 g), then oral phenoxymethylpenicillin twice daily, 15 mg/kg (max 500 mg), to a total of 10 days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fever, odynophagia, dysphagia (pooling/drooling), “hot potato” voice, trismus, peritonsillar swelling/erythema, uvula deviation Refer to ENT for consideration of drainage … Benzylpenicillin 50 mg/kg (max 1.2 g) IV 6 hourly Switch to oral therapy: Phenoxymethylpenicillin 15 mg/kg (max 500 mg) oral BD to complete a total of 10 days of therapy (IV + oral inclusive)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c07dd0d0719c1fd",
+     "n": 170,
+     "p": "Fever, o"
+    },
+    {
+     "h": "b109a8889885f2ea",
+     "n": 191,
+     "p": "Benzylpe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Retropharyngeal/parapharyngeal abscess:** refer to ENT. **A normal lateral neck X-ray does not exclude it;** CT with IV contrast is the imaging of choice, only with advanced airway management available.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Refer to ENT for consideration of imaging and ongoing management … Lateral neck X-ray: normal X-ray does not exclude the diagnosis … CT with IV contrast is the imaging modality of choice when required. (Should only be performed with advanced airway management available)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0802598dffa7c9a9",
+     "n": 64,
+     "p": "Refer to"
+    },
+    {
+     "h": "2b334cf1218508e5",
+     "n": 63,
+     "p": "Lateral "
+    },
+    {
+     "h": "878dc9b004d01330",
+     "n": 137,
+     "p": "CT with "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Retropharyngeal antibiotics:** amoxicillin with clavulanic acid 25 mg/kg (max 1 g) IV 8-hourly, then 22.5 mg/kg (max 875 mg) oral twice daily (doses by amoxicillin component).",
+   "claim": "**Retropharyngeal antibiotics:** IV amoxicillin with clavulanic acid 8-hourly, 25 mg/kg (max 1 g), then 22.5 mg/kg (max 875 mg) oral twice daily (doses by amoxicillin component).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Amoxicillin with clavulanic acid 25 mg/kg (max 1 g) IV 8 hourly (dosing based on amoxicillin component) Switch to oral therapy: Amoxicillin with clavulanic acid 22.5 mg/kg (max 875 mg) oral bd (dosing based on amoxicillin component)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da61c37957d06089",
+     "n": 232,
+     "p": "Amoxicil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Epiglottitis/bacterial tracheitis:** defer all unnecessary examination, procedures and imaging until advanced airway management is available; **early ICU/anaesthetic/ENT review.** Higher risk if unimmunised against HiB.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Increased risk in children unimmunised to Haemophilus influenzae type B (HiB) … Defer all unnecessary examination/procedures/imaging until advanced airway management available Early ICU/anaesthetic/ENT review",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "be66bd6062c0fd46",
+     "n": 77,
+     "p": "Increase"
+    },
+    {
+     "h": "fe0fe261a8bb16ce",
+     "n": 128,
+     "p": "Defer al"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Epiglottitis antibiotics: ceftriaxone 50 mg/kg (max 2 g) IV/IM daily for 5 days;** consider dexamethasone 0.15 mg/kg (max 10 mg) oral/IV/IM stat, repeated in 24 hours if needed.",
+   "claim": "**Epiglottitis antibiotics: IV/IM ceftriaxone daily for 5 days at 50 mg/kg (max 2 g);** consider stat dexamethasone (oral/IV/IM) 0.15 mg/kg (max 10 mg), repeated in 24 hours if needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ceftriaxone 50 mg/kg (max 2 g) IV/IM daily for 5 days … Dexamethasone 0.15 mg/kg (max 10 mg) oral/IV/IM/ stat, repeat in 24 hours prn",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8ad7a3e946ae73e",
+     "n": 53,
+     "p": "Ceftriax"
+    },
+    {
+     "h": "39e55f895b630620",
+     "n": 77,
+     "p": "Dexameth"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consult the paediatric team if** systemically unwell, suppurative complications, moderate/severe dehydration, or significant pain despite analgesia and steroids.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Systemically unwell Suppurative complications are present Evidence of moderate/severe dehydration Significant pain poorly responsive to supportive management (including analgesia and steroids)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80e2abeb09d876a3",
+     "n": 192,
+     "p": "Systemic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer for** acute suppurative complications such as abscess, upper airway obstruction, or significant comorbidities such as immunosuppression.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Evidence of acute suppurative complications eg abscess formation Evidence of upper airway obstruction Significant comorbidities are present, eg immunosuppression",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b81f93a98e88e3a5",
+     "n": 161,
+     "p": "Evidence"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when pain relief is adequate and oral intake is tolerated.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pain relief is adequate Tolerating appropriate oral intake",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae2f16147c8f6c7f",
+     "n": 58,
+     "p": "Pain rel"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   },
   {
    "claim": "**Paediatric/ENT outpatient referral for recurrence:** 7 episodes in 1 year, 5 a year for 2 years, or 3 a year for 3 years.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "7 episodes of sore throat/tonsillitis in 1 year 5 infections/year for 2 consecutive years 3 infections/year for 3 consecutive years",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab4cca760dbcb67c",
+     "n": 131,
+     "p": "7 episod"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Sore throat' (Last updated October 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/, retrieved 2026-09-23"
   }
  ]

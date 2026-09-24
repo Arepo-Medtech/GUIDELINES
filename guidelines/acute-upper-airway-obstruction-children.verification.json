@@ -1,187 +1,377 @@
 {
  "guideline": "guidelines/acute-upper-airway-obstruction-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Acute upper airway obstruction' (Last updated March 2021), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Acute upper airway obstruction' (Last updated March 2021), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 24,
-  "pass": 24,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
-   "claim": "⚠️ **Let the child adopt a position of their choice and avoid distress.** Decompensation can be rapid and needs emergency airway management.",
+   "claim": "⚠️ **Let the child choose their own position, and do not upset them.** Decompensation can be rapid and needs emergency airway management.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Allow children with acute upper airway obstruction to adopt a position of their choice and avoid causing distress … Decompensation of acute upper airway obstruction can be rapid and requires emergency airway management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b5dcc5b433c65e90",
+     "n": 113,
+     "p": "Allow ch"
+    },
+    {
+     "h": "87c9d0a83ed29305",
+     "n": 102,
+     "p": "Decompen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Infants are most at risk**, and a child with a pre-existing narrow airway may fully obstruct with otherwise minor swelling.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Due to their size, infants are most at risk of severe upper airway obstruction … Children with pre-existing narrowing of the upper airway may fully obstruct with otherwise minor acute upper airway swelling",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a5074aa66d819154",
+     "n": 78,
+     "p": "Due to t"
+    },
+    {
+     "h": "bd1abe674f5057c4",
+     "n": 124,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Croup is the most common cause, but always consider others.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Although croup is the most common cause of acute upper airway obstruction, other diagnoses must always be considered",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5033af85779f18ad",
+     "n": 116,
+     "p": "Although"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Let the child settle quietly on a parent's lap**, and observe closely with minimal examination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Allow the child to settle quietly on parent's lap in a position of their choice, and observe closely with minimal examination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62ed897c1c779f0b",
+     "n": 125,
+     "p": "Allow th"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Hypoxia is a late sign. Total obstruction rapidly progresses to unconsciousness and cardiorespiratory arrest.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hypoxia (late sign) … Total obstruction will rapidly progress to unconsciousness and cardiorespiratory arrest",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c97ab9f748aca7ad",
+     "n": 19,
+     "p": "Hypoxia "
+    },
+    {
+     "h": "75ef98f050989055",
+     "n": 87,
+     "p": "Total ob"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Presentations often overlap, particularly the bacterial causes.** **Croup:** young child (rare under 3 months), sudden harsh barking cough, hoarse voice, stridor; may be febrile but systemically well.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Presentations, particularly the bacterial causes, often overlap … Croup Young child (rare <3 months) Rapid onset harsh barking cough Hoarse voice/cry Stridor May be febrile and miserable but systemically well",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9523e4cf0e587b31",
+     "n": 63,
+     "p": "Presenta"
+    },
+    {
+     "h": "d71a2a733b9f176b",
+     "n": 142,
+     "p": "Croup Yo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Epiglottitis:** inadequate Hib immunisation or immunocompromise; high fever, systemically unwell; muffled voice, neck hyperextension, drooling; **absent cough**; low-pitched expiratory stridor or stertor.",
+   "claim": "⚠️ **Epiglottitis:** inadequate Hib immunisation or immunocompromise; high fever, systemically unwell; muffled voice, neck hyperextension, drooling; **cough absent**; stridor (or stertor) that is expiratory and low-pitched.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Epiglottitis Inadequate Hib immunisation or immunocompromised High fever and systemically unwell Muffled voice Hyperextension of neck Dysphagia Pooling of secretions, drooling Absent cough Low pitched expiratory stridor or stertor",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5a3a366b43a9038",
+     "n": 230,
+     "p": "Epiglott"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Bacterial tracheitis:** systemically unwell, more severe and rapidly progressive, after a recent URTI; markedly tender trachea; thick secretions.",
+   "claim": "⚠️ **Bacterial tracheitis:** follows a recent URTI; the child is systemically unwell and the illness is more severe and progresses rapidly; trachea markedly tender; thick secretions.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bacterial tracheitis Systemically unwell More severe and rapidly progressive symptoms Recent URTI Markedly tender trachea Cough may be productive with thick secretions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e3f14a3067ef5bfb",
+     "n": 167,
+     "p": "Bacteria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Inhaled foreign body:** young child, very sudden onset, a coughing or choking episode (may be unwitnessed), possibly unilateral chest signs or wheeze.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Inhaled foreign body Young child (or developmentally similar) Very sudden onset Coughing, choking, vomiting episode (may not be witnessed) May have unilateral chest findings, wheeze",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90209134b3ac020a",
+     "n": 181,
+     "p": "Inhaled "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Anaphylaxis:** facial and tongue swelling, wheeze, urticaria, allergen exposure, haemodynamic compromise.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Anaphylaxis Swelling of the face and tongue Wheeze Urticarial rash Allergen exposure Haemodynamic compromise",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3788fedda1471542",
+     "n": 108,
+     "p": "Anaphyla"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Retropharyngeal abscess:** sore throat, fever, neck pain and stiffness or torticollis, a full red posterior pharyngeal wall, dysphagia and drooling.",
+   "claim": "**Retropharyngeal abscess:** fever with sore throat; neck pain with stiffness or torticollis; posterior pharyngeal wall full and red; dysphagia; drooling.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Retropharyngeal abscess Sore throat Fever Neck pain and stiffness or torticollis Fullness and redness of posterior pharyngeal wall; may be midline but can be laterally behind tonsil Dysphagia and drooling",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ea09c4c2012604f",
+     "n": 204,
+     "p": "Retropha"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Quinsy:** severe, often unilateral sore throat, hot-potato voice, trismus, medially displaced tonsil and deviated uvula.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Peritonsillar abscess (quinsy) Severe sore throat (often unilateral) Hot potato/muffled voice Trismus Swollen posterior palate and tonsil, with medial displacement of tonsil and deviation of the uvula",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8fa9cadb1827605d",
+     "n": 200,
+     "p": "Peritons"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ludwig angina:** swollen, tender floor of mouth, submandibular swelling, with a facial laceration or dental abscess. **Airway burns:** facial burns, singed nasal hairs, sooty sputum.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ludwig angina (infection of the sublingual and submandibular spaces) Swollen, tender floor of mouth and under tongue Facial laceration or dental abscess Submandibular swelling … Airway burns Burns elsewhere, especially facial Singed nasal hairs Sooty sputum",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e02b56e9972e42c5",
+     "n": 175,
+     "p": "Ludwig a"
+    },
+    {
+     "h": "fcf3e048213a7618",
+     "n": 79,
+     "p": "Airway b"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Moderate to severe obstruction: at high risk of complete obstruction if upset, sedated or repositioned. Defer investigations until the airway is secure.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with moderate to severe upper airway obstruction are at high risk of deterioration and complete obstruction if they are upset, sedated or repositioned. Investigations should be deferred until the airway is secure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ff9c1bbd067d413",
+     "n": 221,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If IV access is needed, use analgesia and distraction.** **Croup needs no investigations.** X-ray (chest and/or soft-tissue neck) or CT may help locate the obstruction.",
+   "claim": "**If IV access is needed, use analgesia and distraction.** **Croup needs no investigations.** Imaging to help locate the obstruction: CT, or an X-ray of the chest and/or soft-tissue neck.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If IV access is required use appropriate analgesia and distraction techniques to minimise distress … Children with croup do not require any investigations … X-ray (chest and/or soft tissue neck) or CT may be helpful in identifying the location and nature of upper airway obstruction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b60c8240424397b0",
+     "n": 98,
+     "p": "If IV ac"
+    },
+    {
+     "h": "0b6d5c0118503e35",
+     "n": 53,
+     "p": "Children"
+    },
+    {
+     "h": "ae2a628b26ec667b",
+     "n": 125,
+     "p": "X-ray (c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Emergency airway management here is a difficult airway: involve the most senior clinician available**, with anaesthetic or ENT support.",
+   "claim": "⚠️ **Treat emergency airway management here as a difficult airway, led by the most senior clinician available**, with anaesthetic or ENT support.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "emergency airway management is required, it will be a \"difficult airway\". Involve the most senior clinician available ± anaesthetic or ENT support",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd089c73ee38e485",
+     "n": 146,
+     "p": "emergenc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Oxygen may improve saturations but does not relieve the obstruction.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oxygen can be given. It may improve saturations but does not relieve obstruction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "10b716c130658ff1",
+     "n": 80,
+     "p": "Oxygen c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Consider nebulised adrenaline for temporary relief in any life-threatening obstruction**, while awaiting definitive measures.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider nebulised adrenaline to provide temporary relief in any life-threatening upper airway obstruction … In any child with severe acute upper airway obstruction, nebulised adrenaline may provide temporary relief while awaiting other definitive measures",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "877a63cc093042b5",
+     "n": 106,
+     "p": "Consider"
+    },
+    {
+     "h": "d3778cbdda6fd2f9",
+     "n": 147,
+     "p": "In any c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consider dexamethasone 0.6 mg/kg (max 16 mg) IM, IV or oral** to reduce swelling if present.",
+   "claim": "**Consider giving 0.6 mg/kg dexamethasone (max 16 mg)** by the IM, IV or oral route to reduce swelling if present.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider dexamethasone 0.6 mg/kg (max 16 mg) IM/IV/oral to reduce swelling if present",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d56993fd370d9001",
+     "n": 85,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**For intubation, use a tube ½ to 1 size smaller than usual for age.** Cuffed tubes allow inflation if a leak develops as the obstruction resolves; gaseous induction is preferred.",
+   "claim": "**Intubate with a tube ½–1 size below the usual age-appropriate size.** Cuffed tubes allow inflation if a leak develops as the obstruction resolves; gaseous induction is preferred.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For intubation, use an endotracheal tube ½ to 1 size smaller than usual for age. Cuffed tubes allow for cuff inflation if leak develops when obstruction begins to resolve. Gaseous induction methods are preferred",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "014cc2a83ec8eb93",
+     "n": 211,
+     "p": "For intu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat the specific cause**; for bacterial infections follow local antimicrobial guidelines.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat the specific cause. For bacterial infections refer to local antimicrobial guidelines",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a8df012b21260ab",
+     "n": 90,
+     "p": "Treat th"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Moderate obstruction: involve the paediatric team. Severe obstruction or a known difficult airway: anaesthetics and/or ENT.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Child has moderate acute upper airway obstruction … Consider consultation with anaesthetics and/or ENT: Child with severe acute upper airway obstruction Child is at risk of deteriorating due to known difficult airway",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a070eb67aedad9f",
+     "n": 103,
+     "p": "Consider"
+    },
+    {
+     "h": "6ef3b312aeddc305",
+     "n": 164,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** if the child may deteriorate and need airway management beyond local capability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Child is at risk of deteriorating and requires airway management beyond the capability of available local services",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f288e69ff80dbc6e",
+     "n": 137,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** the cause is identified, signs have resolved or are mild and improving, and follow-up is in place.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when The cause for the acute upper airway obstruction has been identified and symptoms and signs of acute upper airway obstruction have resolved, or are mild and improving Appropriate management undertaken and an adequate follow up plan is in place",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "49b408d9470d940a",
+     "n": 267,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Acute upper airway obstruction' (Last updated March 2021), at https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/, retrieved 2026-09-23"
   }
  ]

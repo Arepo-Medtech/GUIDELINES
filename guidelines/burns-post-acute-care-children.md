@@ -1,11 +1,11 @@
 # Burns in children: post-acute care and dressings
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** analgesia, topical care and dressing choice by site and depth, dressing changes, nutrition, infection, positioning and scar prevention after the first presentation of a burn in children. First aid, TBSA and fluid resuscitation are in `burns-acute-management-children`; general traumatic-wound dressings are in `wound-dressings-children`.
 
-> ✅ **OPEN AND QUOTED.** 22 of 22 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Burns - post acute care and dressings*** (Last updated May 2026); **36 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Burns - post acute care and dressings*** (Last updated May 2026); **36 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **Prophylactic antibiotics are not recommended in burns** — but **consider toxic shock syndrome** in any child with fever, spreading erythema, instability or systemic symptoms, even with small burns.
+> ⚠️ **Prophylactic antibiotics are not recommended in burns** — but **think of toxic shock syndrome** whenever a child has fever, spreading erythema, instability or systemic symptoms, even with small burns.
 
 ---
 
@@ -22,9 +22,9 @@
 
 ## Dressings by site and depth
 
-- **Face, epidermal or superficial dermal:** white soft paraffin several times a day after gentle cleaning without soap; consider chloramphenicol ointment to eye and ear burns. [S1]
-- ⚠️ **Face, mid or deep dermal:** follow the local burns guideline or discuss with the burns service. **Do not use silver dressings near the eyes.** [S1]
-- **Perineum, epidermal or superficial dermal:** white soft paraffin several times a day. **Contamination risk** — clean with soapy solution after bowel actions; consider catheterisation. [S1]
+- **Face, epidermal or superficial dermal:** white soft paraffin several times a day after gentle soap-free cleaning; for burns to the ear or eye, consider chloramphenicol ointment. [S1]
+- ⚠️ **Face, mid or deep dermal:** follow the local burns guideline or discuss with the burns service. **Keep silver dressings away from the eyes.** [S1]
+- **Perineum, epidermal or superficial dermal:** white soft paraffin several times a day. **Contamination risk** — after each bowel action, clean with a soapy solution; catheterisation may be considered. [S1]
 - **Other regions, epidermal:** generally no dressing; white soft paraffin, with a low-adherent dressing for comfort if needed. [S1]
 - **Other regions, mid or deep dermal:** local burns guideline. Layers: primary silver-impregnated (e.g. Mepilex Ag) or medicated paraffin; a secondary layer to absorb moisture and secure; then a crepe bandage securement layer. [S1]
 
@@ -38,10 +38,10 @@
 
 ## Nutrition and positioning
 
-- **Burns raise metabolic and nutritional needs:** consult a dietitian, weigh regularly, consider checking and supplementing vitamin A, vitamin C and zinc. [S1]
+- **Burns raise metabolic and nutritional needs:** consult a dietitian, weigh regularly, consider measuring zinc, vitamin C and vitamin A levels and supplementing them. [S1]
 - **Start nasogastric feeding early** if facial burns, injuries or comorbidities prevent adequate oral intake. [S1]
 - **Elevate burnt areas** and watch peripheral circulation; splint to prevent contractures. **OT/physio for deep burns crossing flexor surfaces and circumferential burns.** [S1]
-- ⚠️ **Consult the burns service for oedema limiting limb function or vascular integrity** (poor capillary return, cool distal to the burn). [S1]
+- ⚠️ **Consult the burns service if oedema compromises vascular integrity or limb function** (limb cool distal to the burn, poor capillary return). [S1]
 
 ## Scars, escalation and discharge
 
@@ -59,12 +59,12 @@
 | 2 | **No empiric antibiotic agent or dose** is given for infected burns; the page defers to cellulitis and local guidelines. See `empiric-antimicrobials-children`. | `observation` |
 | 3 | **Silver dressings:** this page says **do not use silver dressings near eyes**; `wound-dressings-children` lists antimicrobial silver dressings for burns without that caveat. Not a contradiction, but the facial restriction lives only here. | `observation` |
 | 4 | **Mid or deep dermal dressings** are largely deferred to state burns guidelines, which are not retrieved. | `out_of_scope` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Burns - post acute care and dressings*. Last updated May 2026. https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Burns - post acute care and dressings*. Last updated May 2026. https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

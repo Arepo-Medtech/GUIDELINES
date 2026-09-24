@@ -1,206 +1,114 @@
 # Croup (laryngotracheobronchitis)
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** children with viral upper airway obstruction, generally 6 months to 6 years.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** viral upper airway obstruction in children, usually aged 6 months to 6 years: recognising it, grading severity, steroids and nebulised adrenaline, observation and discharge. Related pages in this set: `bronchiolitis` (managed almost the opposite way), `acute-asthma-children` and `anaphylaxis-children` (the first differential to exclude).
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Clinical Practice Guidelines:
-> Croup (Laryngotracheobronchitis)***. **Last updated September 2024. PIC Endorsed** [S1], with the
-> management diagram read from its image [S2].
+> ✅ **COMPILED FROM 2 SOURCES.** 45 claims; **87 fragments or anchors re-checkable by machine; 9 doses.** **S1** The Royal Children's Hospital Melbourne (last updated September 2024, PIC endorsed; AU): 37 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (management diagram on the same page, transcribed in Wave 1; AU): 8 claims, paraphrased, hash-anchored
 
-**The third leg of the paediatric acute respiratory set**, alongside **acute asthma** and **bronchiolitis**.
+> ⚠️ **Opposite to bronchiolitis.** Both are viral illnesses of small children, but in croup a corticosteroid is the core treatment and nebulised adrenaline is first line when it is severe; in `bronchiolitis` neither is given. The two agree on no antibiotics and no routine tests.
 
-## ⚠️ The same drugs, the opposite answer
+> ⚠️ **Do not upset the child.** Distress narrows the airway further, so the source lets you skip observations and leave the child in whatever position they choose.
 
-**Croup and bronchiolitis are both viral respiratory infections of small children.** They are managed in
-directly opposing ways, and reading the two files together is the point of holding both:
+> ⚠️ **A quiet stridor can be the dangerous one**, the same trap as the silent chest in `acute-asthma-children`. The stridor adrenaline dose here (5 mL of 1:1000, nebulised) matches the one in `anaphylaxis-children`.
 
-| | **Bronchiolitis** | **Croup** |
-|---|---|---|
-| **Corticosteroids** | ⚠️ **do not administer — nebulised, oral, intramuscular or intravenous** | ⚠️ **the primary treatment**; *less severe cases can be managed with corticosteroids alone* [S1] |
-| **Adrenaline** | ⚠️ **do not administer… except in peri-arrest or arrest** | ⚠️ **nebulised adrenaline is first-line in severe and life-threatening disease** [S1] |
-| **Antibiotics** | **do not administer, including azithromycin** | **no role in uncomplicated croup as it has a viral aetiology** [S1] |
-| **Investigations** | **not indicated** | **not indicated in typical presentations** [S1] |
+> 🖼️ S2 claims come from the RCH management diagram. Two items appear only there: nebulised budesonide when oral steroids are not tolerated, and a repeat steroid dose the next evening.
 
-**Two of the four rows invert completely between two conditions that present in the same clinic, on the same
-night, in children of overlapping age.** The shared rows — no antibiotics, no investigations — are where they
-agree.
+---
 
-## ⚠️ The treatment is not examining the child
+## Key points
 
-> **Minimise distress to the child, as this can worsen upper airway obstruction** [S1]
+- ⚠️ **Keep the child calm:** upset makes the upper airway obstruction worse. [S1]
+- **Call senior help early**, and think about transfer, whenever the airway looks to be getting worse. [S1]
+- **Severe or life-threatening croup → nebulised adrenaline plus an experienced senior to support the airway.** Milder croup can usually be treated with a corticosteroid on its own. [S1]
 
-That is **key point 1**, and it is carried through to instructions that few guidelines give [S1]:
+## Recognise it
 
-> - **Observations such as oximetry and blood pressure are not necessary for managing croup, and can be
->   omitted if expected to cause distress**
-> - **Throat examination is rarely required**
-> - **Keep child with carer and involve the carer in assisting with examination**
-> - **Try to keep the environment quiet, moderate lighting**
-> - ⚠️ **Children will adopt a position of comfort that minimises airway obstruction, do not change this**
-> - **Minimise interventions including examination and investigation that are not going to impact acute
->   management**
+- **What it is:** a (usually viral) inflammation of the larynx, trachea and upper airway. Parainfluenza is the commonest cause; other respiratory viruses, COVID-19 among them, also cause it, so use infection control. Typical age 6 months to 6 years; symptoms tend to be worse overnight. [S1]
+- **Examine selectively,** so that the examination itself does not upset the child more. [S1]
+- **Oximetry and blood pressure can be skipped** if taking them would distress the child; they are not needed to manage croup. The throat seldom needs looking at. Keep the carer with the child and let them help with the examination. [S1]
+- **Risk factors for severe croup:** earlier severe croup · an already narrowed upper airway · low airway tone from an underlying condition (e.g. trisomy 21, neuromuscular disease) · ⚠️ young age: croup is unusual below 6 months and rare below 3 months, so look for another diagnosis. [S1]
+- **Findings:** barking cough · stridor · a hoarse cry or voice · sometimes widespread wheeze · increased work of breathing · sometimes fever, but the child does not look toxic. [S1]
 
-**A guideline that tells you to skip the observations.** In a compendium where standards audit whether
-observations were recorded, this one states that taking them can make the patient worse. **And the position
-of comfort instruction is the same principle as anaphylaxis's *do not allow to stand or walk* — the child's
-own posture is therapeutic and the clinician's job is not to disturb it.**
+## Grade the severity
 
-## The other key points
+- ⚠️ **A loud stridor does not mean a worse obstruction.** When the child is otherwise deteriorating, a quiet stridor can signal that the airway is about to obstruct. [S1]
+- **Colour and perfusion:** normal and well perfused in mild and moderate → pale in severe → pale, mottled or blue in life-threatening. [S1]
+- **Behaviour:** alert and active (mild) → alert with bouts of mild agitation (moderate) → more agitated, drowsy (severe) → confused, drowsy or agitated, perhaps motionless or drooling (life-threatening). [S1]
+- **Stridor:** absent or only on activity or upset (mild) → intermittent at rest (moderate) → continuous at rest or biphasic (severe) → biphasic, or ⚠️ possibly soft (life-threatening). [S1]
+- **Breathing rate:** normal (mild) → raised (moderate) → markedly raised or ⚠️ falling (severe) → abnormal, with the child tiring towards respiratory exhaustion (life-threatening). [S1]
+- **Accessory muscles:** little or none (mild) → intercostal and subcostal recession with tracheal tug (moderate) → marked recession, tracheal tug and abdominal breathing (severe) → severe sternal recession, poor effort, exhaustion (life-threatening). [S1]
+- **Oxygen saturation** stays normal in mild and moderate croup. ⚠️ Hypoxia comes late and can mean complete upper airway obstruction is close. [S1]
+- **Stridor on its own**, with no change in behaviour or work of breathing, may not need urgent treatment. [S1]
 
-> 2. **Involve senior staff early and consider transfer if concerns regarding worsening upper airway
->    obstruction**
-> 3. **For severe and life-threatening croup, use nebulised adrenaline and seek a skilled senior clinician for
->    airway support**
-> 4. **Less severe cases can be managed with corticosteroids alone** [S1]
+## Differential diagnosis
 
-**Background** [S1]: **inflammation of the upper airway, larynx and trachea, usually triggered by a virus,
-most commonly parainfluenza as well as other respiratory viruses including COVID-19**; **generally between the
-ages of 6 months and 6 years**; **often worse at night**.
+- **Other causes of upper airway obstruction to consider:** retropharyngeal or peritonsillar abscess (quinsy) · bacterial tracheitis · epiglottitis · burns or trauma to the airway. [S1]
 
-## ⚠️ Loudness does not indicate severity
+## Tests and supportive care
 
-> **Loudness of stridor is not a good indicator of severity of obstruction. Soft stridor in the presence of
-> worsening clinical picture may be a sign of imminent airway obstruction** [S1]
+- **The diagnosis is clinical.** In a typical case do not send swabs or nasopharyngeal aspirates, X-rays or bloods; test only when a differential diagnosis is a real concern. [S1]
+- **Do only what will change acute management;** every extra examination or test adds distress and can worsen the symptoms. Keep carers close, the room quiet and the lighting moderate. [S1]
+- ⚠️ **Leave the child in the position they choose:** it is the one that keeps their airway most open. [S1]
+- **Oxygen is seldom needed.** A child who does need it should be treated as having severe upper airway obstruction, or reconsidered for another diagnosis such as anaphylaxis or asthma. [S1]
 
-**The exact structure of the asthma guideline's silent chest** — *a child that looks unwell with a silent
-chest may herald imminent respiratory collapse*. **Two different obstructions, the same trap: the noise stops
-when the air stops moving.**
+## Treat by severity
 
-And, in the severity table: > **Hypoxia is a late sign which may indicate imminent complete upper airway
-obstruction** [S1].
+- ⚠️ **No steroid for a barking cough alone** when there has never been stridor. [S1]
+- **Mild:** think about an oral steroid (dexamethasone 0.15 mg/kg, or prednisolone 1 mg/kg) when there is stridor, or a risk factor such as young age or poor access to urgent review. [S1]
+- **Moderate:** give an oral steroid (dexamethasone 0.15 mg/kg or prednisolone 1 mg/kg); add nebulised adrenaline if symptoms persist or get worse. [S1]
+- **Severe:** a senior clinician reviews, in a high-acuity area; give nebulised adrenaline together with dexamethasone 0.6 mg/kg (maximum 12 mg) by mouth, IM or IV. [S1]
+- **Life-threatening:** move to resuscitation with senior staff · nebulise 5 mL of adrenaline 1:1000 · 100% oxygen at 15 L/min by non-rebreather mask · an experienced clinician prepares to intubate (croup endotracheal tubes if the unit has them) · dexamethasone 0.6 mg/kg (maximum 12 mg) IM or IV. [S1]
+- **Keep repeating nebulised adrenaline** until a senior clinician arrives who can support the airway. [S1]
 
-**This is the fifth consecutive paediatric guideline in this compendium to remove a reassurance** — after
-febrile child's four non-predictors, sepsis's late hypotension, anaphylaxis's *previous severity does not
-predict future risk*, and asthma's unreliable wheeze and peak flow.
+## What the diagram adds
 
-### Assessment of severity
+- **Mild (diagram):** a barking cough alone may need no steroid. If the child has had stridor or has risk factors, consider oral dexamethasone 0.15 mg/kg or oral prednisolone 1 mg/kg, and give the dose again the next evening. [S2]
+- **Moderate (diagram):** oral dexamethasone 0.15 mg/kg or oral prednisolone 1 mg/kg, repeated the next evening. [S2]
+- ⚠️ **Oral steroid not tolerated:** the diagram offers nebulised budesonide 2 mg instead. [S2]
+- **Moderate, responding well:** home once there is no stridor at rest. If the child worsens, move to the severe pathway. [S2]
+- **Severe (diagram):** 5 mL of adrenaline 1:1000, nebulised undiluted, plus dexamethasone 0.6 mg/kg (maximum 12 mg) IM, IV or oral. [S2]
+- **Severe, responding well:** give adrenaline again if severe respiratory distress comes back; discharge can be considered 3 hours after the adrenaline if there is no stridor at rest. [S2]
+- **Severe, responding poorly or not at all:** repeat the adrenaline, rethink the diagnosis and escalate to senior staff or ICU. [S2]
+- **Life-threatening (diagram):** senior, ICU and anaesthetic help at once · nebulised adrenaline 1:1000, 5 mL, undiluted · 15 L/min oxygen through a non-rebreather mask · dexamethasone 0.6 mg/kg (maximum 12 mg) IM or IV. [S2]
 
-| | **Mild** | **Moderate** | **Severe** | **Life-threatening** |
-|---|---|---|---|---|
-| **Appearance/colour** | **Normal, well-perfused** | **Normal, well-perfused** | **Pale** | **Pale, mottled or cyanosed** |
-| **Behaviour** | **Alert and active** | **Alert and active, intermittent mild agitation** | **Increasing agitation, drowsiness** | **Confused, drowsy, agitated. May be not moving, drooling** |
-| **Stridor** | **None, or only when active or upset** | **Intermittent at rest** | **Persistent at rest, or biphasic\*** | ⚠️ **Biphasic or may be soft** |
-| **Respiratory rate** | **Normal** | **Increased** | **Marked increase or decrease** | **Abnormal, signs of impending respiratory exhaustion** |
-| **Accessory muscle use** | **None or minimal** | **Intercostal and subcostal recession, tracheal tug** | **Abdominal breathing, marked intercostal and subcostal recession, tracheal tug** | **Severe sternal recession, exhausted, poor respiratory effort** |
-| **Oxygen saturation** | **Normal** | **Normal** | colspan → **Hypoxia is a late sign…** | |
+## Observation, referral and discharge
 
-> **\* stridor alone, without change in behaviour, work of breathing, etc, may not require urgent
-> intervention** [S1]
+- **Home when there is no stridor at rest.** After nebulised adrenaline, watch for 3 hours to make sure symptoms do not return. [S1]
+- **Observe for more than 3 hours** if the child came in overnight · lives far from medical care · has had stridor more than once in this illness · has a risk factor for severe croup. [S1]
+- **Talk to the local paediatric team** for: severe obstruction · risk factors or diagnostic doubt · age under 6 months · no response to nebulised adrenaline. [S1]
+- **Think about transfer** if nebulised adrenaline has not helped, keeps being needed, or the child needs more care than the local hospital is comfortable giving. [S1]
+- **Discharge criteria:** at least 3 hours of observation after any nebulised adrenaline. Tell parents to come back if stridor at rest returns even though oral steroids were given. [S1]
 
-**"Marked increase *or decrease*" in respiratory rate**, and **"biphasic or may be soft"** stridor, both put
-the reassuring-looking finding in the worst column.
+## What does not help
 
-**Risk factors for severe croup** [S1]: **history of previous severe croup** · **pre-existing narrowing of
-upper airways** · **reduced airway tone due to pre-existing conditions eg trisomy 21, neuromuscular
-conditions** · ⚠️ **young age: uncommon in under 6 months old, rare in under 3 months old — consider
-alternative diagnosis**.
+- **No antibiotics** in uncomplicated croup: the cause is viral. [S1]
+- ⚠️ **No cough suppressants such as codeine:** they do not change the course or severity, and can depress breathing and add sedation. [S1]
+- **Cold outdoor air (under 10 °C) might ease moderate croup.** Humidified air has no proven effect on severity, and heliox has not beaten nebulised adrenaline in severe croup. [S1]
 
-**Differential** [S1]: **anaphylaxis** · **inhaled foreign body** · **retropharyngeal abscess** ·
-**peritonsillar abscess (quinsy)** · **bacterial tracheitis** · **epiglottitis** · **airway burns or
-trauma**.
+## Currency and evidence
 
-## Treatment
+- **Currency:** PIC endorsed; page last updated September 2024. [S1]
+- **Key evidence cited:** a 2023 Cochrane review of glucocorticoids for childhood croup, and a 2023 randomised trial (Siebert et al., Pediatrics) comparing outdoor cold air with room-temperature air. [S1]
 
-**Croup is a clinical diagnosis. Investigations such as respiratory swab or nasopharyngeal aspirate, X-rays
-and blood tests are not indicated in typical presentations** [S1]. **Supplemental oxygen is not usually
-required; if needed, manage as severe upper airway obstruction or consider alternative diagnosis eg
-anaphylaxis, asthma** [S1].
-
-| Severity | Treatment [S1] |
-|---|---|
-| **Mild** | ⚠️ **Children with barking cough alone and no history of stridor do not require steroids.** **Consider oral steroids: dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral if stridor present or if risk factors such as young age and inability to access urgent review** |
-| **Moderate** | **Oral steroids: dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral.** **Consider nebulised adrenaline if persistent or worsening symptoms** |
-| **Severe** | **Senior clinician review. Manage in high acuity treatment area.** **Nebulised adrenaline *and* dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV** |
-| **Life-threatening** | **Move to resuscitation area and involve senior staff.** **Nebulised adrenaline 5 mL of 1:1000.** **100% oxygen 15 L/min via non-rebreather mask.** **Prepare for intubation by experienced clinician, consider croup endotracheal tubes if available.** **Dexamethasone 0.6 mg/kg (max 12 mg) IM/IV.** **Further doses of nebulised adrenaline can be given until senior clinician available to provide airway support** |
-
-**"Barking cough alone and no history of stridor" is the threshold below which nothing is given** — a stated
-floor, in a guideline whose main intervention is otherwise given liberally.
-
-⚠️ **Nebulised adrenaline 5 mL of 1:1000 is identical to the dose the anaphylaxis flowchart gives for partial
-airway obstruction with stridor.** Two guidelines, same presentation, same dose — and only the compendium
-view shows that they agree.
-
-## ⚠️ Two things that exist only in the diagram
-
-**Verification basis differs for this section** — read off the image, verdict `pass_image_transcription` [S2].
-
-> - ⚠️ **Consider nebulised budesonide 2 mg if oral corticosteroids not tolerated**
-> - ⚠️ **Prednisolone 1 mg/kg oral with a repeat dose the following evening** (moderate), and in mild
->   **repeat dose following evening**
-
-**Neither appears anywhere in the guideline's text.** The **budesonide alternative** is what you need when the
-child vomits the dexamethasone — the commonest practical failure — and the **repeat evening dose** changes
-the discharge prescription. **Both were in a picture.**
-
-**The diagram also adds** [S2]: **5 mL of *undiluted* adrenaline 1:1000** (the text says only *5 mL of
-1:1000*); **moderate → good response → discharge home once stridor free at rest**; **moderate →
-deterioration → severe pathway**; **severe → good response → repeat adrenaline dose if recurrence of severe
-respiratory distress, consider discharge at 3 hours post adrenaline if stridor free at rest**; **severe →
-minimal or poor response → repeat dose of adrenaline, consider alternative diagnosis, escalation to
-senior/ICU**; and for life-threatening, **immediate senior involvement / ICU / anaesthetics**.
-
-## Disposition
-
-- **Children can be discharged home once stridor free at rest** [S1]
-- **A period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of
-  symptoms** [S1]
-- ⚠️ **Consider a longer period of observation than 3 hours for a child who presents overnight · has limited
-  access to medical care · presents with stridor more than once during the same illness · has risk factors
-  for severe croup** [S1]
-
-**Two of those four are circumstantial** — the hour of the night and the distance to care — which is the same
-device the febrile child, anaphylaxis and asthma guidelines use.
-
-**Parents should be advised to seek medical attention if recurrence of stridor at rest despite having received
-oral steroids** [S1].
-
-**Consult the local paediatric team** for **severe airway obstruction · risk factors or any doubt about
-diagnosis · child less than 6 months of age · no improvement with nebulised adrenaline**; **transfer** for **no
-improvement following nebulised adrenaline · repeated doses of nebulised adrenaline · care above the level of
-comfort of the local hospital** [S1].
-
-## ⚠️ Four things that do not work, and one that might
-
-> - **Antibiotics have no role in uncomplicated croup as it has a viral aetiology**
-> - ⚠️ **Anti-tussives such as codeine have no proven effect on the course or severity of croup, and may
->   cause respiratory depression and increase sedation**
-> - **Humidified air has not been proven to change the severity of croup**
-> - **Heliox has not been shown to be better than nebulised adrenaline in severe croup**
-> - ⚠️ **Cold air (below 10 °C) exposure might reduce severity in moderate croup** [S1]
-
-**The steam-in-the-bathroom remedy is retired and the cold night air one is not** — the latter supported by
-**Siebert et al., *Outdoor Cold Air Versus Room Temperature Exposure for Croup Symptoms: A Randomized
-Controlled Trial*, Pediatrics 2023** in the reference list. **A piece of folk practice that survived a
-randomised trial**, sitting beside three that did not.
-
-**Codeine carries the sharpest warning**: not merely ineffective, but **respiratory depression in a child with
-upper airway obstruction.**
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| ⚠️ **Bronchiolitis** | **the same drugs, the opposite answer** — steroids and adrenaline are prohibited there and primary here, in overlapping ages |
-| ⚠️ **Acute asthma in children** | **loudness does not indicate severity** here; **the silent chest** there. The same trap in two obstructions |
-| ⚠️ **Anaphylaxis in children** | **nebulised adrenaline 5 mL of 1:1000 for stridor — the identical dose**; anaphylaxis is the first listed differential; and both instruct that the child's **position of comfort** must not be changed |
-| **Opioid analgesic stewardship** | **codeine… may cause respiratory depression** — the same agent, the same mechanism, a different population |
-| **Antimicrobial stewardship** | **antibiotics have no role**, stated as a consequence of viral aetiology |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| ⚠️ **Nebulised budesonide and the repeat evening steroid dose** | **observation** | **both exist only in the diagram**, not in the guideline text. The budesonide alternative covers the commonest practical failure — a child who vomits the oral dose |
-| **Nebulised adrenaline volume outside life-threatening croup** | **input_unavailable** | **5 mL of 1:1000 is stated only for life-threatening**; severe and moderate say *nebulised adrenaline* without a volume in the text, and the diagram gives it only for severe and life-threatening |
-| **Assessment of severity of respiratory conditions** | **input_unavailable** | a separate RCH guideline the text defers to |
-| **Acute upper airway obstruction · Emergency airway management · Inhaled foreign body** | **input_unavailable** | three separate guidelines carrying the differential and the airway plan |
-| **"Croup endotracheal tubes"** | **input_unavailable** | named for life-threatening croup; **no sizing guidance given** |
-| **Cold air exposure** | **evidence_unsettled** | **"might reduce severity in moderate croup"**, on a single 2023 RCT; **no dose, duration or method of exposure is given** |
-| **Currency** | **observation** | **last updated September 2024**; newest references **2023** |
+| 1 | **Diagram-only items:** nebulised budesonide as the alternative when oral steroid is not tolerated, and the next-evening repeat steroid dose, are in the management diagram but not in the page text. The budesonide option matters most for the child who vomits the oral dose. | `observation` |
+| 2 | **Adrenaline volume below life-threatening:** the page text gives 5 mL of 1:1000 only for life-threatening croup; for moderate and severe it says nebulised adrenaline without a volume. The diagram gives 5 mL for severe and life-threatening only. | `input_unavailable` |
+| 3 | **Linked RCH pages not held here:** severity assessment of respiratory conditions, acute upper airway obstruction, emergency airway management and inhaled foreign body carry the fuller differential and airway plan. | `input_unavailable` |
+| 4 | **Croup endotracheal tubes** are named for life-threatening croup with no sizing advice. | `input_unavailable` |
+| 5 | **Cold air** rests on a single 2023 trial and the page gives no method, dose or duration of exposure. | `evidence_unsettled` |
+| 6 | **Codeine:** the respiratory-depression warning here is the paediatric face of opioid stewardship; the no-antibiotics line is antimicrobial stewardship applied to a viral illness. | `observation` |
+| 7 | **Re-check 2026-09-24:** the page is unchanged since Wave 1 (still last updated September 2024); every Wave 1 claim was carried over. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Croup (Laryngotracheobronchitis).* Last updated September 2024. PIC Endorsed | paediatric clinical practice guideline (AU) |
-| S2 | *ibid.*, the **croup management diagram** — **read from the image** | diagram, transcribed by eye |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)*. last updated September 2024, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+| **S2** | The Royal Children's Hospital Melbourne. *RCH flowcharts for Croup (Laryngotracheobronchitis)*. management diagram on the same page, transcribed in Wave 1. https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

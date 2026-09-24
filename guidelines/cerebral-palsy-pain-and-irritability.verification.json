@@ -1,144 +1,268 @@
 {
  "guideline": "guidelines/cerebral-palsy-pain-and-irritability.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Cerebral palsy - pain and irritability' (Last updated July 2023), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Cerebral palsy - pain and irritability' (Last updated July 2023), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 18,
-  "pass": 18,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
    "claim": "**A careful history and a thorough head-to-toe examination** are needed — the range of causes is wide. **Take parents' concerns about behaviour change seriously.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A careful history and thorough ‘head to toe’ examination is required to assess for the wide range of causes … Pay particular attention to the concerns of parents about behavioural change",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a2a54d95781fcdb6",
+     "n": 107,
+     "p": "A carefu"
+    },
+    {
+     "h": "565c114996c6ee47",
+     "n": 76,
+     "p": "Pay part"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Unexpected changes in physical, social or cognitive abilities can be due to untreated pain.**",
+   "claim": "**Untreated pain can show up as an unexpected change in physical, social or cognitive abilities.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unexpected changes to children’s physical, social and cognitive abilities can be due to untreated pain",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9a7bc66452a0b97f",
+     "n": 102,
+     "p": "Unexpect"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Give analgesia while assessing, but be cautious with opioids.** Admission may be needed for observation or investigation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Provide analgesia while assessing the child but be cautious with opioid prescription … Admission may be required for observation and/or further investigations",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2439f8705424742",
+     "n": 84,
+     "p": "Provide "
+    },
+    {
+     "h": "dc7eda59bbba4319",
+     "n": 71,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Infection:** respiratory, throat, ear, **dental**, urinary, skin/bone/joint, and **meningitis or an infected VP shunt**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infection Upper or lower respiratory tract infection with increased secretions Pharyngitis/tonsillitis with throat pain/reduced intake Otitis media Dental infection UTI Skin, bone, or joint infections Meningitis/infected VP shunt",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0cde58fceedc89c7",
+     "n": 229,
+     "p": "Infectio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Musculoskeletal:** accidental and pathological fractures · **consider non-accidental injury (under-reported in this group)** · hip dislocation or subluxation · contractures · spasticity · back pain and scoliosis.",
+   "claim": "⚠️ **Musculoskeletal:** accidental and pathological fractures · **think of non-accidental injury, which is under-reported in these children** · hip dislocation or subluxation · contractures · spasticity · back pain and scoliosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Musculoskeletal Accidental fractures Consider non-accidental injury (under reported in this group) Pathological fractures/osteoporosis Hip dislocation or subluxation Contractures Spasticity (can cause pain or is often secondary to pain) Back pain/scoliosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3454b09340df1f64",
+     "n": 256,
+     "p": "Musculos"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Neurological:** more seizures · dystonia · headache · **raised intracranial pressure — a blocked VP shunt, especially with vomiting or altered consciousness** · neuropathic pain.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Neurological Increased seizure activity Dystonia Headache Increased intracranial pressure (consider in children with VP shunts - blocked shunt especially with vomiting or change in level of consciousness) Neuropathic pain",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e6d585784f2d51a3",
+     "n": 221,
+     "p": "Neurolog"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Abdominal/genitourinary:** constipation · reflux · gallstones · pancreatitis · dysmotility or dumping · feeding-tube problems · renal stones (more likely on topiramate) · dysmenorrhoea · appendicitis · ovarian or testicular torsion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abdominal/genitourinary Constipation Gastro-oesophageal reflux Gallstones Pancreatitis … Issue with feeding tube (if NG/NJ or PEG/PEJ in situ) Renal stones (increased risk if on topiramate) Gynaecological eg dysmenorrhoea Appendicitis Ovarian or testicular torsion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f8009b5fae30fa68",
+     "n": 86,
+     "p": "Abdomina"
+    },
+    {
+     "h": "32725cec2a754198",
+     "n": 175,
+     "p": "Issue wi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Dumping syndrome:** look for post-prandial hypoglycaemia, and evaluate gastric emptying if a PEG/PEJ is in situ.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gastro-intestinal motility disorders/dumping syndrome (look for post prandial hypoglycaemia, evaluate gastric emptying if PEG/PEJ in situ)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1369ee6d1cabca3b",
+     "n": 138,
+     "p": "Gastro-i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Psychological and other:** emotional or behavioural difficulty (including changes at home or school), anxiety, depression, ASD/ADHD; sleep deprivation, medications, nutritional deficiency.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Psychological Emotional and behavioural difficulties (consider changes in environment eg home, school or family) Anxiety or depression ASD or ADHD Other Sleep deprivation (associated with pain and spasm) Medications Nutritional deficiencies",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cf1faac3fb97f2d",
+     "n": 240,
+     "p": "Psycholo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Establish a timeline** of when the change in behaviour, irritability or pain began.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Establish a timeline as to when change in behaviour, features of irritability or pain started",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a42bf6ea20699d6d",
+     "n": 93,
+     "p": "Establis"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Examine fully — dentition, ENT, abdomen, hips and limbs** — check blood pressure and any VP shunt, and **dip the urine** for blood (stones) or white cells (infection).",
+   "claim": "**Examine fully — dentition, ENT, abdomen, hips and limbs** — check blood pressure and any VP shunt, and **dip the urine** — blood suggests stones, white cells infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Full physical examination including dentition, ENT, abdomen, hips and limbs in particular and investigate as indicated Check blood pressure Assess VP shunt if present Check urine for blood (stones) or white cells (infection)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcb8047ea27faa92",
+     "n": 224,
+     "p": "Full phy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consider imaging** (hip X-ray, abdominal US, CT, bone scan, gastroscopy, CT brain) **and a dental review.**",
+   "claim": "**Consider imaging** (hip X-ray, CT, abdominal US, bone scan, CT brain, gastroscopy) **and a dental review.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider further imaging that might be useful eg hip X-ray, abdominal US, CT, bone scan, gastroscopy, CT brain Consider dental review",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9a7ae0d7a9f896f",
+     "n": 133,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat identifiable causes and give adequate analgesia.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat identifiable causes Provide adequate analgesia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "797d3984d3b0f2a7",
+     "n": 52,
+     "p": "Treat id"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Caution with opioids — increased risk of respiratory depression in CP. Seek specialist advice early.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Caution with opioid use in children with cerebral palsy due to increased risk of respiratory depression. Seek specialist advice early",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2c9de10f7cc8405b",
+     "n": 133,
+     "p": "Caution "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**No cause found: under specialist guidance, consider a trial of** empiric paracetamol or NSAIDs · antacid/PPI · laxatives · bisphosphonates if osteopenia is suspected · gabapentin for neuropathic pain · melatonin for sleep.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Under guidance of specialist, consider trial of medication if unable to identify cause eg Empiric analgesia with paracetamol or NSAIDs Antacid/PPI Laxatives, see constipation Bisphosphonates, if osteopenia suspected Gabapentin, for neuropathic pain Medications for sleep, eg melatonin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a879b9f2a7445cd",
+     "n": 284,
+     "p": "Under gu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider physiotherapy and OT** for positioning, seating and splinting, and **dietetics** for diet or feed type.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider physiotherapy and occupational therapy for positioning, seating, splinting etc Consider dietetics for assessment of diet/feed type",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7179faa7fc310680",
+     "n": 139,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the paediatric team** when no cause is found and pain persists despite simple analgesia, or analgesic needs escalate beyond simple analgesia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when No identifiable cause has been found for pain/irritability and ongoing pain/irritability despite adequate simple analgesia Escalating analgesic requirements beyond simple analgesia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72659128f1e9d85f",
+     "n": 234,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** the pain or irritability has been assessed and managed, with follow-up arranged.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Pain or irritability has been appropriately assessed and managed and follow up arranged",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02ca4d0e23a53205",
+     "n": 111,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cerebral palsy - pain and irritability' (Last updated July 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/, retrieved 2026-09-23"
   }
  ]

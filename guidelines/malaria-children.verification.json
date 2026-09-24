@@ -1,170 +1,332 @@
 {
  "guideline": "guidelines/malaria-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Malaria/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Malaria' (Last updated July 2020), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Malaria' (Last updated July 2020), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
    "claim": "**Suspect malaria in any febrile child who has travelled to an endemic region.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Malaria should be suspected in children with any febrile illness if they have travelled to a region where malaria is endemic",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c73d842a5f823a9f",
+     "n": 124,
+     "p": "Malaria "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Young children, especially under 5, can deteriorate rapidly** and are more likely than adults to get severe and cerebral malaria.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Young children (especially <5 years) can deteriorate rapidly and are more likely to have severe and cerebral malaria than adults",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "970cb26b6e0c80b6",
+     "n": 128,
+     "p": "Young ch"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "**P. falciparum incubation is usually 14 days (range 7–30).** *P. vivax* and *P. ovale* form liver hypnozoites that can relapse months to years later.",
+   "claim": "**P. falciparum typically incubates for 14 days (range 7–30).** *P. ovale* and *P. vivax* form liver hypnozoites that can relapse months to years later.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Incubation period for P. falciparum infection is usually 14 days (range 7-30) … P. vivax and P. ovale produce liver hypnozoite forms which can cause relapse of the illness months to years later",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08a50f7764f45690",
+     "n": 77,
+     "p": "Incubati"
+    },
+    {
+     "h": "f0fff30bcd8d9e5d",
+     "n": 113,
+     "p": "P. vivax"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Early symptoms are non-specific** — chills, sweating, abdominal pain, vomiting, diarrhoea, headache, myalgia. **Ask about prophylaxis** (drug, duration, adherence).",
+   "claim": "**Early symptoms are non-specific** — headache, myalgia, chills, sweating, abdominal pain, vomiting, diarrhoea. **Ask about prophylaxis** (drug, duration, adherence).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Initial symptoms non-specific – include chills, sweating, abdominal pain, vomiting, diarrhoea, headache, myalgia Malaria prophylaxis – medication, duration, adherence",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c048f7a9d119e16",
+     "n": 166,
+     "p": "Initial "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "**Send both thick and thin films and a malaria antigen test** — 1 mL of EDTA blood is enough for both. The antigen test detects *P. falciparum* with over 90% sensitivity but is insensitive for other species and low parasitaemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Thick and thin film Malaria antigen/ICT (rapid immunochromatographic assay) - detects P. falciparum with >90% sensitivity - insensitive for other species or low level of parasitaemia Both tests are required: 1 ml blood in EDTA tube is sufficient for both",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc2c986b07e05fae",
+     "n": 254,
+     "p": "Thick an"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **A single negative film or antigen does not exclude malaria:** repeat thick and thin films with fever spikes until positive or 3 negative films.",
+   "claim": "⚠️ **One negative film or antigen test does not rule malaria out:** repeat thick and thin films with fever spikes until positive or 3 negative films.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Note: A single negative film or antigen does not exclude malaria - thick and thin films should be repeated with fever spikes until positive test or 3 negative films",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15a8907b50fae6f1",
+     "n": 164,
+     "p": "Note: A "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Severity markers:** haemolytic anaemia, hypoglycaemia, metabolic acidosis, raised lactate, haemoglobinuria, **parasitaemia over 2%**, renal impairment, pulmonary oedema, coagulopathy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Assessment of severity Haemolytic anaemia Hypoglycaemia Metabolic acidosis Increased serum lactate Haemoglobinuria Parasitaemia >2% Renal impairment Pulmonary oedema Coagulopathy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70f95f5867d36065",
+     "n": 178,
+     "p": "Assessme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "**Uncomplicated malaria** = confirmed parasitological diagnosis without signs of severity (organ dysfunction).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Uncomplicated malaria is defined as confirmed parasitological diagnosis of malaria without signs of severity (organ dysfunction)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6c0a114047c6054",
+     "n": 128,
+     "p": "Uncompli"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **In an unwell child, assume *P. falciparum* is present** — mixed infection is relatively common.",
+   "claim": "⚠️ **If the child is unwell, presume *P. falciparum* is there** — mixed infection is relatively common.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In an unwell child, assume P. falciparum is present as mixed infection is relatively common",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a4ffefb320c757d",
+     "n": 91,
+     "p": "In an un"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "**P. falciparum or unidentified species: artemether-lumefantrine** (1 tablet = 20/120 mg) — 5–14 kg 1 tablet · 15–24 kg 2 · 25–34 kg 3 · over 35 kg 4 (adult dose) — **orally with fatty food, full-fat milk or breastmilk at 0, 8, 24, 36, 48 and 60 hours.**",
+   "claim": "**Artemether-lumefantrine for P. falciparum or an unidentified species** (each tablet 20/120 mg): 1 tablet for 5–14 kg · 2 for 15–24 kg · 3 for 25–34 kg · 4 (adult dose) over 35 kg — **give orally at hours 0, 8, 24, 36, 48 and 60, taken with breastmilk, full-fat milk or fatty food.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "P. falciparum or unidentified species Artemether-lumefantrine (1 tablet = 20 mg artemether/120 mg lumefantrine) 5-14 kg: 1 tablet 15-24 kg: 2 tablets 25-34 kg: 3 tablets >35 kg: 4 tablets (adult dose) orally with fatty food, full-fat milk, or breastmilk At 0, 8, 24, 36, 48 and 60 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea2ebc94b3ce944e",
+     "n": 286,
+     "p": "P. falci"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Outpatient care may suit** if adherence to antimalarials can be assured.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Outpatient management may be suitable if adherence to antimalarials can be assured",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46ad5703fc288212",
+     "n": 82,
+     "p": "Outpatie"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "**P. vivax, P. ovale, P. malariae, P. knowlesi (unless chloroquine-resistant P. vivax is suspected): chloroquine base 10 mg/kg (max 620 mg) orally at 0 hours, then 5 mg/kg (max 310 mg) at 6, 24 and 48 hours**, followed by primaquine for *P. vivax*, *P. ovale* or unknown species. Round to the nearest ¼ tablet.",
+   "claim": "**P. vivax, P. ovale, P. malariae, P. knowlesi (unless chloroquine-resistant P. vivax is suspected): oral chloroquine base: 10 mg/kg (max 620 mg) at hour 0, then 5 mg/kg (max 310 mg) at 6, 24 and 48 hours**, followed by primaquine for *P. vivax*, *P. ovale* or unknown species. Round to the nearest ¼ tablet.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "P. vivax, P. ovale, P. malariae, and P. knowlesi All regions except if suspected chloroquine-resistant P. vivax … Doses are expressed in chloroquine base Chloroquine (1 tablet = 155 mg base = 250 mg chloroquine phosphate) 10 mg/kg (max 620 mg) orally at 0 hours, then 5 mg/kg (max 310 mg) orally at 6, 24, and 48 hours and follow up with Primaquine for P. vivax or P. ovale or unknown species … Round dose to the nearest ¼ tablet",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28dd7b4aab01f7b6",
+     "n": 111,
+     "p": "P. vivax"
+    },
+    {
+     "h": "748bb17f5ab22df8",
+     "n": 278,
+     "p": "Doses ar"
+    },
+    {
+     "h": "11a557c796666fa1",
+     "n": 34,
+     "p": "Round do"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Chloroquine is accessed through the Special Access Scheme**; artemether-lumefantrine is an alternative.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Chloroquine is available in Australia through Special Access Scheme. … or artemether-lumefantrine are alternatives",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15b37e92d56cf1c0",
+     "n": 68,
+     "p": "Chloroqu"
+    },
+    {
+     "h": "4ab091270e07b862",
+     "n": 43,
+     "p": "or artem"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "**P. vivax with known chloroquine resistance:** artemether-lumefantrine as for *P. falciparum*, **and** primaquine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "P. vivax malaria with known chloroquine resistance Artemether-lumefantrine as above for uncomplicated P. falciparum and Primaquine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77e58be9bc2e9d51",
+     "n": 130,
+     "p": "P. vivax"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Severe malaria (any species) or unable to tolerate oral: artesunate 2.4 mg/kg IV/IM bolus over 1–2 minutes on admission, repeated at 12 and 24 hours, then daily until oral is tolerated** — then complete a full oral course.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Severe malaria Any species or inability to tolerate oral therapy Artesunate 2.4 mg/kg IV/IM (bolus dose over 1-2 minutes) on admission Repeat at 12 hours and 24 hours, then once daily until oral therapy tolerated (complete full oral course as above)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35bbdc6920a6f95f",
+     "n": 249,
+     "p": "Severe m"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Strict fluid balance — avoid fluid overload** (cerebral and pulmonary oedema). Artesunate is via the Special Access Scheme and complex to give: contact pharmacy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Available through Special Access Scheme Maintain strict fluid balance - avoid fluid overload - cerebral/pulmonary oedema Complex administration – please contact pharmacy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e592916a04ca40b3",
+     "n": 169,
+     "p": "Availabl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "**Once oral is tolerated, change to artemether-lumefantrine**; discuss alternatives with Infectious Diseases if unavailable.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "When patient is able to tolerate oral therapy, change to Artemether-lumefantrine (dosage as above) Discuss alternatives with Infectious Disease if Artemether-lumefantrine not available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f482c5890d8a335",
+     "n": 184,
+     "p": "When pat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **P. vivax, P. ovale or an unknown species must get primaquine to prevent relapse — and G6PD screening must be done first.** If G6PD-deficient, consult Infectious Diseases.",
+   "claim": "⚠️ **Primaquine is mandatory for P. ovale, P. vivax or an unknown species, to prevent relapse — and G6PD screening must come first.** If G6PD-deficient, consult Infectious Diseases.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infection with P. vivax, P. ovale (or an unknown species) must be treated with primaquine to prevent relapse G6PD screening must be done before Primaquine is commenced … G6PD deficiency Consult Infectious Diseases",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2edb9ff8b93ada3b",
+     "n": 167,
+     "p": "Infectio"
+    },
+    {
+     "h": "86426d8b2b76a2c5",
+     "n": 43,
+     "p": "G6PD def"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Primaquine base (children over 6 months), 7.5 mg tablets: 0.5 mg/kg (max 30 mg) orally daily with food for 14 days** for *P. vivax*, *P. ovale* or unknown species; for *P. vivax* or unknown species it may be divided 12-hourly if it causes nausea.",
+   "claim": "**Primaquine base (children over 6 months), 7.5 mg tablets: 0.5 mg/kg (max 30 mg) by mouth once a day with food, for 14 days** for *P. vivax*, *P. ovale* or unknown species; for *P. vivax* or unknown species it may be divided 12-hourly if it causes nausea.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Primaquine dose (for children >6 months of age) Doses are expressed in terms of primaquine base … Tablet strength = 7.5 mg … P. vivax 0.5 mg/kg (max 30 mg) orally daily with food for 14 days (or divided 12 hourly if causing nausea) P. ovale 0.5 mg/kg (max 30 mg) orally daily with food for 14 days Species unknown 0.5 mg/kg (max 30 mg) orally daily with food for 14 days (or divided 12 hourly if causing nausea)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6e443270e547b2c",
+     "n": 95,
+     "p": "Primaqui"
+    },
+    {
+     "h": "9f3acbf30bc7d45f",
+     "n": 24,
+     "p": "Tablet s"
+    },
+    {
+     "h": "52ef3e579ffba3d9",
+     "n": 286,
+     "p": "P. vivax"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Involve the paediatric team for every suspected case** and consider Infectious Diseases. ⚠️ **Consider transfer for any feature of severe malaria.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Any child presents with suspected malaria Consider consultation with Infectious Diseases team Consider transfer when Any child with features of severe malaria",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a1a4d89530b6861f",
+     "n": 212,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge** when afebrile for 24 hours, tolerating oral medicines, and parasite counts are falling.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Afebrile for 24 hours Able to tolerate oral medications Decreasing parasite counts",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6fd3522149875ef",
+     "n": 106,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Malaria' (Last updated July 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Malaria/, retrieved 2026-09-23"
   }
  ]

@@ -1,9 +1,9 @@
 # Nephrotic syndrome in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** diagnosis, complications, fluid and oedema management, prednisolone regimens and discharge education for nephrotic syndrome in children. There is no adult or other-source nephrotic syndrome guideline in this compendium; related: `chronic-kidney-disease` (adult).
 
-> ✅ **OPEN AND QUOTED.** 29 of 29 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Nephrotic syndrome*** (Last updated July 2025); **47 fragments re-checked by machine. 7 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 29 of 29 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Nephrotic syndrome*** (Last updated July 2025); **47 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Admit every child on first presentation.** Watch for intravascular depletion, infection (including spontaneous bacterial peritonitis masked by steroids) and thrombosis.
 
@@ -12,13 +12,13 @@
 ## Recognise it
 
 - **Diagnosis is the triad:** heavy proteinuria (dipstick over 3+ or spot protein/creatinine ratio over 200 mg/mmol), hypoalbuminaemia (albumin under 25 g/L) and oedema. [S1]
-- **Remission** = 3 consecutive days of negative or trace urine protein. **Relapse** = over 3+ proteinuria for 3 consecutive days, often triggered by mild illness. [S1]
+- **Remission** = urine protein negative or trace on 3 days running. **Relapse** = proteinuria over 3+ on 3 days running — mild illness is a frequent trigger. [S1]
 - **Most children respond to prednisolone and do not need a renal biopsy**; about 85% of steroid-sensitive children relapse at least once and 50% relapse frequently. [S1]
 - **Weigh the child and compare with pre-illness weight** — weight gain may be the only sign of fluid overload. Measure BP against age and gender ranges and confirm manually. [S1]
 
 ## Complications and atypical features
 
-- ⚠️ **Intravascular volume depletion:** dizziness, abdominal cramps, poor perfusion, tachycardia, reduced urine output, transient hypertension, hypotension, shock. [S1]
+- ⚠️ **Intravascular volume depletion:** abdominal cramps · dizziness · tachycardia · poor perfusion · reduced urine output · transient hypertension · hypotension · shock. [S1]
 - ⚠️ **Infection:** encapsulated bacteria (complement loss). **Spontaneous bacterial peritonitis** presents with abdominal pain with rebound, fever and vomiting — **signs can be masked by steroids.** [S1]
 - ⚠️ **Thrombosis** can be venous or arterial, at any site — e.g. central venous, renal vein, pulmonary embolism. [S1]
 - **Atypical features — discuss with Nephrology early:** age under 1 or over 12 years · nephritic features · persistent hypertension or renal impairment · significant complications at first presentation · features of systemic disease · dysmorphism. [S1]
@@ -43,7 +43,7 @@
 - **Relapse: prednisolone 60 mg/m² or 2 mg/kg (max 60 mg) orally daily only until remission.** [S1]
 - **Followed by prednisolone 40 mg/m² or 1.5 mg/kg (max 40 mg) orally on alternate days for 4 weeks, then stop.** A relapse during this period goes back to 60 mg/m² or 2 mg/kg (max 60 mg) daily until remission, then repeats the step-down. [S1]
 - **If oral intake is not tolerated, give IV methylprednisolone at 80% of the oral prednisolone dose.** Round prednisolone up to the easiest dose; tablets can be crushed. [S1]
-- **Steroid-dependent NS** = two consecutive relapses on a decreasing dose, or relapse within 15 days of stopping prednisolone. [S1]
+- **Steroid-dependent NS** = two relapses in a row while the prednisolone dose is being reduced, or a relapse within 15 days after it is stopped. [S1]
 
 ## Prophylaxis and extras
 
@@ -54,9 +54,9 @@
 
 ## Escalation and discharge
 
-- **Involve paediatric nephrology** for atypical features, significant complications, **no resolution of proteinuria after 4 weeks of prednisolone**, refractory oedema, or steroid toxicity. [S1]
+- **Involve paediatric nephrology** for atypical features, significant complications, **proteinuria persisting after 4 weeks of prednisolone**, refractory oedema, or steroid toxicity. [S1]
 - **Discharge when** oedema is manageable without regular IV albumin and weight is not rising, steroids have started, and education and follow-up are done. [S1]
-- **Home dipstick daily (first-morning urine) until proteinuria resolves, then at least twice weekly in the first year**; back to daily if 1+ or more protein, intercurrent infection, oedema or suspected relapse. [S1]
+- **Home dipstick daily (first-morning urine) until proteinuria resolves, then twice a week or more through the first year**; back to daily if 1+ or more protein, intercurrent infection, oedema or suspected relapse. [S1]
 - ⚠️ **Tell families about adrenal suppression** and give written information on possible steroid need in acute illness or trauma. [S1]
 
 ---
@@ -70,12 +70,12 @@
 | 3 | **No prednisolone choice between mg/m² and mg/kg** is stated; the page gives both without saying which to prefer. | `observation` |
 | 4 | **Stress-dose steroid and hypertension management** are linked out (*Adrenal crisis*, *Hypertension in children*) and were not retrieved. | `out_of_scope` |
 | 5 | **Doses stated as a maximum in brackets** in the source, e.g. '(max 60 mg)', are rendered here as 'max 60 mg'. | `observation` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Nephrotic syndrome*. Last updated July 2025. https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Nephrotic syndrome*. Last updated July 2025. https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

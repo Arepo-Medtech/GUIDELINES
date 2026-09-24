@@ -1,11 +1,11 @@
 # Acute scrotal pain or swelling in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** recognition and emergency management of testicular torsion, irreducible hernia, torsion of the testicular appendage, epididymo-orchitis, scrotal trauma and non-painful scrotal swelling in children. Related: `acute-abdominal-pain-children`. Adult and STI counterparts: `benign-prostatic-hyperplasia-and-prostatitis` (epididymitis in men) and `sti-syndromes-and-screening` (sexually acquired epididymo-orchitis).
 
-> ✅ **OPEN AND QUOTED.** 22 of 22 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Acute scrotal pain or swelling*** (Last updated January 2026); **23 fragments re-checked by machine. 1 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Acute scrotal pain or swelling*** (Last updated January 2026); **23 anchors re-checkable by machine; 1 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **If testicular torsion is suspected or cannot be confidently excluded: urgent surgical review — do not wait for an ultrasound.** Viability falls with every hour of delay.
+> ⚠️ **Testicular torsion suspected, or not confidently ruled out → urgent surgical review; do not wait for an ultrasound.** Viability falls with every hour of delay.
 
 ---
 
@@ -26,18 +26,18 @@
 - ⚠️ **Do not delay surgical review for investigations.** Blood tests, ultrasound and Doppler are **not useful in the acute setting** (except for trauma). [S1]
 - ⚠️ **A negative ultrasound does not exclude torsion** — findings may be non-specific, and scanning may delay surgery and cost the testis. [S1]
 - **Only once torsion and irreducible hernia are excluded** may ultrasound be considered if the diagnosis is still unclear. [S1]
-- **Suspected epididymo-orchitis:** urine MCS (ideally first-pass). Bacterial infection is more likely with structural urinary tract abnormality, recent instrumentation or an STI. **A normal urine does not exclude it.** Chlamydia and gonorrhoea PCR if an STI is suspected. [S1]
-- **Viral causes** include enterovirus, adenovirus and rarely mumps (orchitis 4-6 days after parotitis); if mumps is suspected, send RT-PCR and/or IgM. [S1]
+- **Epididymo-orchitis suspected:** send urine MCS, ideally a first-pass sample. Bacterial infection is more likely with structural urinary tract abnormality, recent instrumentation or an STI. **A normal urine does not exclude it.** Chlamydia and gonorrhoea PCR if an STI is suspected. [S1]
+- **Viruses:** enterovirus, adenovirus, rarely mumps (its orchitis follows parotitis by 4-6 days); where mumps is a possibility, send RT-PCR and/or IgM. [S1]
 - **Consider urinalysis (nephrotic syndrome) and urine MCS.** [S1]
 
 ## Treatment by diagnosis
 
-- ⚠️ **Testicular torsion — suspected or not confidently excluded: urgent surgical review.** Fast (nil by mouth or sips of clear fluid per local guideline) until review, and give adequate analgesia. [S1]
-- ⚠️ **Irreducible hernia — if you cannot reduce it: urgent surgical review**, fast, and consider a nasogastric tube on free drainage if bowel obstruction is suspected. [S1]
+- ⚠️ **Testicular torsion — suspected or not confidently excluded: urgent surgical review.** Keep fasted until the surgeons see the child (nil by mouth, or clear-fluid sips if the local guideline allows), and give adequate analgesia. [S1]
+- ⚠️ **Irreducible hernia — if you cannot reduce it: urgent surgical review**, fast, and if bowel obstruction is suspected consider a nasogastric tube on free drainage. [S1]
 - **Torsion of the testicular appendage** can be hard to tell from testicular torsion — **explore surgically if torsion cannot be confidently excluded.** Once confirmed, treat supportively with analgesia and rest; pain should settle in 5-10 days. [S1]
-- **Trauma: surgical review for all testicular trauma**, unless the testis is clearly normal and not significantly tender. For suspected abuse, follow the child abuse pathway. [S1]
-- **Suspected epididymo-orchitis: antibiotics IV if systemically unwell or a young infant, oral if well.** A second episode warrants renal tract ultrasound and urological review. Discomfort and swelling may take weeks to subside. [S1]
-- **Hydrocele:** 90% resolve spontaneously by 2 years; consider outpatient surgical referral if still present after 2 years of age. **Varicocele:** refer to surgical outpatients. [S1]
+- **Any testicular trauma needs surgical review**, unless the testis is clearly normal and not significantly tender. For suspected abuse, follow the child abuse pathway. [S1]
+- **Epididymo-orchitis suspected: oral antibiotics if well; IV if a young infant or systemically unwell.** A second episode warrants renal tract ultrasound and urological review. Discomfort and swelling may take weeks to subside. [S1]
+- **Hydrocele:** by 2 years, 90% have resolved on their own; if one persists beyond 2 years of age, consider referring to surgical outpatients for repair. **Varicocele:** surgical outpatient referral. [S1]
 - **Scrotal oedema** can accompany systemic disease such as nephrotic syndrome; if idiopathic, it resolves spontaneously over 1-5 days with no intervention. [S1]
 
 ## Escalate, transfer, discharge
@@ -55,12 +55,12 @@
 | 1 | **The differential tables** (torsion vs irreducible hernia vs appendage torsion vs epididymo-orchitis vs trauma; and hydrocele vs varicocele vs idiopathic oedema vs tumour) flatten cell by cell with the column headings detached, so no row can be attributed verbatim — e.g. age groups, cremasteric reflex, blue-dot sign and transillumination were not quoted. | `input_unavailable` |
 | 2 | **No antibiotic agent, dose or duration for epididymo-orchitis** is given on this page (only IV vs oral). The RCH empiric table in `empiric-antimicrobials-children` has no epididymo-orchitis row; for sexually acquired cases see `sti-syndromes-and-screening`. | `observation` |
 | 3 | ⚠️ **Contradiction with an adult corpus page:** `benign-prostatic-hyperplasia-and-prostatitis` lists **ultrasound to rule out testicular torsion** in epididymitis, whereas this RCH page says ultrasound is **not useful in the acute setting**, may be falsely negative in torsion, and should follow surgical assessment. The populations differ (men vs children), but the paediatric rule is: surgical review first. | `observation` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Acute scrotal pain or swelling*. Last updated January 2026. https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Acute scrotal pain or swelling*. Last updated January 2026. https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

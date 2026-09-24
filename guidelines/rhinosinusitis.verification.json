@@ -1,289 +1,738 @@
 {
  "guideline": "guidelines/rhinosinusitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-22",
- "verifier": "claude-opus-5",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/"
  ],
- "retrieved_utc": "2026-09-22",
- "method": "Page fetched directly with curl and converted from HTML to text. Every claim is verbatim-checked against that file with scripts/verify.py. Prose paraphrases; source_text stays verbatim. The antibiotic table and the stepped allergic rhinitis regimens are tables rendered as text, quoted as contiguous blocks; column alignment is a transcription risk and must be confirmed against the page before prescribing. Cefalexin, ceftriaxone/metronidazole and montelukast are named without doses in the source and no dose is reconstructed.",
- "claims": [
-  {
-   "claim": "Infective rhinosinusitis rarely causes orbital or intracranial complications",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infective rhinosinusitis rarely leads to orbital or intracranial complications"
-  },
-  {
-   "claim": "Allergic rhinitis managed with allergen minimisation, antihistamines and nasal steroids",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Allergic rhinitis should be managed with allergen minimisation, antihistamines +/- nasal steroids"
-  },
-  {
-   "claim": "Neonatal rhinitis is common and often self-resolving",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Neonatal rhinitis is common and often resolves without treatment"
-  },
-  {
-   "claim": "Rhinitis and rhinosinusitis definitions and classification",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rhinitis and rhinosinusitis are characterised by inflammation of the nasal mucosa and paranasal sinuses, respectively (often co-exist) … Rhinitis is classified as allergic (perennial or seasonal) or non-allergic"
-  },
-  {
-   "claim": "Rhinosinusitis time classification",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Recurrent acute: At least 3 acute episodes with at least 10 days or more with no symptoms in 6 months, or at least 4 episodes in 12 months … Subacute: 4-12 weeks … Chronic: >12 weeks"
-  },
-  {
-   "claim": "Viral cause predominates with bacterial secondary infection after 10 days",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute rhinosinusitis is most commonly caused by viral infections, but secondary acute bacterial rhinosinusitis may develop, particularly if symptoms persist beyond 10 days"
-  },
-  {
-   "claim": "Viral and bacterial organisms",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Viral: Rhinovirus, RSV, influenza, adenovirus, additional systemic symptoms of viral illness common … Bacterial: Streptococcus pneumoniae, Haemophilus influenzae (non-typeable), Moraxella catarrhalis"
-  },
-  {
-   "claim": "Allergic rhinitis and asthma relationship",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Significant implications for childhood asthma … A risk factor for the development of asthma … Affects asthma control … Impacts the prognosis and progression of asthma into adulthood"
-  },
-  {
-   "claim": "The pig nose manoeuvre",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Use the 'pig nose' manoeuvre to examine the nasal mucosa (tilt child's head back, elevate the nasal tip with your thumb, and illuminate the orifice with light/otoscope) … Examine mucosal surfaces, colour and calibre of turbinates, and position of septum"
-  },
-  {
-   "claim": "Mucosal appearance distinguishes allergic from infective",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pale, boggy mucosa of inferior turbinates is in keeping with allergic rhinitis … Red and oedematous mucosa is seen more commonly in infective or medication induced rhinitis"
-  },
-  {
-   "claim": "Allergic facies signs",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Allergic facies (Dennie-Morgan lines, allergic salute, allergic shiners, transverse nasal crease and mouth breathing)"
-  },
-  {
-   "claim": "Acute bacterial sinusitis history including purulence caveat",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Preceding viral illness is common … Persistent nasal discharge >10 days (purulence is of little significance) … Maxillary toothache … Unilateral facial pain"
-  },
-  {
-   "claim": "Otitis media signs reflect shared aetiology",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs of acute otitis media are commonly seen, reflecting a shared aetiology"
-  },
-  {
-   "claim": "Complications of acute bacterial sinusitis",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Periorbital and orbital cellulitis … Cerebral abscess … Cavernous sinus thrombosis … Meningitis … Encephalitis … Subdural and epidural empyema"
-  },
-  {
-   "claim": "Watchful waiting for 3 days before antibiotics",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider watchful waiting for 3 days to assess for spontaneous resolution as acute viral sinusitis is the most likely cause with similar signs and symptoms … Antibiotics can be commenced if there is no improvement at this time or if there is clinical worsening"
-  },
-  {
-   "claim": "Antibiotic regimen table for acute bacterial sinusitis",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "1st line Amoxicillin 15 mg/kg (max 500 mg) oral tds for 5 days (Cefalexin if penicillin allergy) If not improving, Amoxicillin/clavulanic acid 22.5 mg/kg (max 875 mg) oral 12 hourly for another 5 days Systemically unwell or unable to tolerate oral Amoxicillin/clavulanic acid 25 mg/kg (max 1 g) IV 6 hourly (Ceftriaxone and metronidazole if penicillin allergy)"
-  },
-  {
-   "claim": "Nasal swabs should not be taken",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nasal swabs should not be taken. Culture is not indicative of sinus pathogens and is therefore not helpful"
-  },
-  {
-   "claim": "Steroid sprays decongestants and antihistamines have no benefit in acute sinusitis",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Steroid sprays, decongestants, or antihistamines has been shown to have no benefit in acute sinusitis"
-  },
-  {
-   "claim": "Surgery rarely needed in acute bacterial sinusitis",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Surgery is very rarely needed for acute bacterial sinusitis (in the absence of orbital or intracranial complications)"
-  },
-  {
-   "claim": "CT indications",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "CT is the imaging modality of choice, consider if … Failed medical management … Possible orbital or intracranial complication … Surgery is being considered"
-  },
-  {
-   "claim": "Chronic rhinosinusitis is uncommon under 12 and defined at 12 weeks",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms occur for 12 weeks or more … Nasal obstruction/congestion … Postnasal drip … Loss of smell … Halitosis"
-  },
-  {
-   "claim": "Chronic rhinosinusitis risk factors",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Exposure to cigarette smoke … Adenoid hypertrophy … Reflux disease … Cystic fibrosis … Mucociliary impairment … Immune deficiency … Prolonged use of intranasal decongestants"
-  },
-  {
-   "claim": "Chronic rhinosinusitis saline and steroid regimen",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intranasal saline spray or irrigation for minimum 6 weeks … Sodium chloride, 2 sprays or irrigations into each nostril twice daily and as required … Use prior to steroid spray … Intranasal corticosteroid for minimum 6 weeks"
-  },
-  {
-   "claim": "No role for decongestants",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is no role for oral or intranasal decongestants"
-  },
-  {
-   "claim": "Assess adherence and technique and refer to ENT if unsuccessful",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Assess treatment adherence and nasal spray technique … Referral to ENT is recommended if the above are unsuccessful in relieving symptoms"
-  },
-  {
-   "claim": "Allergic rhinitis stepped approach principles",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "To be used in conjunction with allergen minimisation for common allergens eg house dust mite, pollens, pet dander and mould … Trial each step for around 4 weeks before assessing response … Assess treatment adherence and nasal spray technique before escalating … Use minimal effective regimen"
-  },
-  {
-   "claim": "Step 1 antihistamine either route but not both",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Step 1: Oral antihistamine OR intranasal antihistamine … Using both is not of additional benefit … Can be used as required for intermittent symptoms or regularly for persistent symptoms"
-  },
-  {
-   "claim": "Oral versus intranasal antihistamine properties",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "More effective than intranasal for symptoms such as itch at non nasal sites … Typically better tolerated in younger children … Less sedating antihistamines recommended … More effective than oral for local nasal symptoms … Faster onset of action … Require good technique"
-  },
-  {
-   "claim": "Cetirizine paediatric dosing",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Eg cetirizine … 1-2 years, oral drops, 2.5 mg (5 drops) twice daily … 2-6 years, oral 5 mg once daily or 2.5 mg twice daily … 6-12 years, oral 10 mg once daily or 5 mg twice daily … 12-18 years, oral 10 mg"
-  },
-  {
-   "claim": "Azelastine nasal spray dosing",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Eg azelastine (1mg/mL nasal spray) … 5 years, 1 spray into each nostril twice daily"
-  },
-  {
-   "claim": "Step 2 intranasal corticosteroid with mometasone dosing",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Step 2: Add intranasal corticosteroid … Especially effective for nasal obstruction and reduces ocular symptoms … Symptom relief usually starts within a few days but a minimum trial of 4 weeks of consistent use is required to establish efficacy … Eg mometasone 50 microg nasal spray … 2-12 years, 1 spray into each nostril daily … 12-18 years, 2 sprays into each nostril daily. Reduce to 1 spray into each nostril daily when symptoms controlled"
-  },
-  {
-   "claim": "Step 3 combination spray and cease oral antihistamine",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Step 3: Consider change to combination intranasal antihistamine and corticosteroid if predominant nasal symptoms … Cease any oral antihistamine if taking … Eg azelastine with fluticasone propionate 125/50 microg nasal spray … 6-18 years, 1 spray into each nostril twice daily"
-  },
-  {
-   "claim": "Step 4 eye drops and montelukast",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ocular symptoms: add eye drops … Ketotifen 0.025% eye drops - 3-18 years, 1 eye drop twice daily … Olopatadine 0.1% eye drops - 3-18 years, 1 eye drop twice daily up to 14 weeks … Intermittent allergic rhinitis and co-existing asthma, consider adding montelukast"
-  },
-  {
-   "claim": "Immunotherapy criteria duration and cost",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "For moderate to severe symptoms not responding to treatment (including allergen minimisation) … Subcutaneous (SCIT) or sublingual (SLIT) for at least 3 years … Not covered by PBS and there may be a significant yearly cost"
-  },
-  {
-   "claim": "Neonatal rhinitis treatment",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nasal antihistamines, decongestants, steroids and humidifiers are not recommended … Saline drops can be used prior to feeding … Specialist review if impacting breathing or feeding"
-  },
-  {
-   "claim": "Other causes of rhinitis",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Foreign body: Unilateral symptoms, brown discharge, foreign body may be visible, foul odour common from the affected nostril … Association with menstrual cycle, pregnancy … Subclinical hypothyroidism in older children … Typically aspirin and other NSAIDS … Consider 'rebound congestion' (inflammation of the nasal mucosa caused by overuse of topical nasal decongestants) if history suggestive"
-  },
-  {
-   "claim": "Vasomotor rhinitis features",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Sudden onset and offset of watery nasal discharge. Can be triggered by strong smells or changes in environmental temperature"
-  },
-  {
-   "claim": "Rarer causes if recurrent or severe",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Anatomical anomalies … Immunodeficiency … Ciliary dysfunction … Cystic fibrosis"
-  },
-  {
-   "claim": "Diagnosis is clinical and testing only confirms sensitisation",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "In most instances the diagnosis is made clinically and no investigations are required … Further testing is not diagnostic and needs to be correlated with clinical history. Positive results only confirm sensitisation to allergens … Testing may assist with allergen minimisation"
-  },
-  {
-   "claim": "Serum specific IgE versus skin prick testing",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Serum specific IgE (previously known as RAST) to environmental allergens. Not affected by anti-allergy medications … Skin prick testing. Affected by anti-allergy medications"
-  },
-  {
-   "claim": "Paediatric consultation and ENT referral triggers",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "All systemically unwell children … Suspected orbital or intracranial complication … Suppurative complications are present, or surgical intervention may be required … Medically refractory nasal obstruction"
-  },
-  {
-   "claim": "Immunology referral triggers",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Further allergy testing and interpretation is required to facilitate allergen minimisation … Severe or inadequately controlled allergic rhinitis despite treatment … Consideration for allergen immunotherapy"
-  },
-  {
-   "claim": "Transfer criteria",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Suspected intracranial involvement with altered conscious state, seizures or focal neurological signs"
-  },
-  {
-   "claim": "Brand cost and accessibility vary",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "There are many different brands of pharmacotherapy treatments available with varying cost and accessibility (over the counter or script)"
-  },
-  {
-   "claim": "Last updated October 2025",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Last updated October 2025"
-  }
- ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis' (last updated October 2025, PIC endorsed). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at the RCH website Terms and Conditions, clause 5.2). The source's words are NOT reproduced here. Edition 2.0 rebuilds the Wave 1 hand-written page (edition 1.0, 2026-09-22), which quoted RCH verbatim, as a paraphrase of the page re-fetched 2026-09-24. All 45 Wave 1 claims are carried over; the dose claims are now flagged as doses.",
  "summary": {
   "total": 45,
-  "pass": 45,
-  "fail": 0
- }
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 45
+ },
+ "claims": [
+  {
+   "claim": "⚠️ **Orbital or intracranial spread from infective rhinosinusitis is uncommon**, but it is the complication to look for.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa7644c6c1c18190",
+     "n": 78,
+     "p": "Infectiv"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Allergic rhinitis:** reduce allergen exposure, give antihistamines, and add a nasal steroid where needed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e43da4251a05661f",
+     "n": 97,
+     "p": "Allergic"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Neonatal rhinitis is common** and usually settles untreated.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a4df84e2b711071",
+     "n": 64,
+     "p": "Neonatal"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rhinitis** is inflammation of the nasal lining and **rhinosinusitis** of the paranasal sinuses; the two often occur together. Rhinitis is either allergic (seasonal or perennial) or non-allergic.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e66805db41395d20",
+     "n": 134,
+     "p": "Rhinitis"
+    },
+    {
+     "h": "46df8a130096a020",
+     "n": 74,
+     "p": "Rhinitis"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rhinosinusitis by duration:** acute: under 4 weeks, usually infective · recurrent acute: 3 or more episodes in 6 months with symptom-free gaps of 10 days or longer, or 4 or more per 12 months · subacute: 4 to 12 weeks · chronic: beyond 12 weeks.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d52bae5aeea95b3",
+     "n": 247,
+     "p": "Rhinosin"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Acute rhinosinusitis is mostly viral.** A secondary bacterial infection can follow, especially when symptoms last beyond 10 days.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "420ca16f7a5ed247",
+     "n": 171,
+     "p": "Acute rh"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Organisms:** viral — rhinovirus, RSV, influenza, adenovirus, often with wider viral symptoms; bacterial — *Streptococcus pneumoniae*, non-typeable *Haemophilus influenzae*, *Moraxella catarrhalis*.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd10d8d2e4583886",
+     "n": 99,
+     "p": "Viral: R"
+    },
+    {
+     "h": "93e41e284e8e7a91",
+     "n": 97,
+     "p": "Bacteria"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Allergic rhinitis matters for asthma:** it raises the chance of developing asthma, worsens control, and shapes how asthma progresses into adult life.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e8a7c91f13a5320",
+     "n": 175,
+     "p": "Signific"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The 'pig nose' manoeuvre:** tip the head back, lift the nasal tip with a thumb and shine a light or otoscope in. Look at the mucosa, the colour and size of the turbinates, and where the septum sits.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e17a3c02c97bc414",
+     "n": 168,
+     "p": "Use the "
+    },
+    {
+     "h": "0c8e287d8bb4074d",
+     "n": 82,
+     "p": "Examine "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reading the mucosa:** pale, boggy inferior turbinates fit allergic rhinitis; red, swollen mucosa points more to infection or a medication cause.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4b74205323d4682",
+     "n": 78,
+     "p": "Pale, bo"
+    },
+    {
+     "h": "d058c1d2b74c5056",
+     "n": 91,
+     "p": "Red and "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Allergic facies:** Dennie-Morgan lines, the allergic salute, allergic shiners, a transverse crease across the nose, mouth breathing.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56b72feb03b4beb0",
+     "n": 117,
+     "p": "Allergic"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**History:** often a viral illness first · nasal discharge lasting over 10 days (whether it is purulent matters little) · pain in the maxillary teeth · facial pain on one side.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82516bb59281385b",
+     "n": 33,
+     "p": "Precedin"
+    },
+    {
+     "h": "7a6679eb79a1c611",
+     "n": 73,
+     "p": "Persiste"
+    },
+    {
+     "h": "b9d31ff17d76ea62",
+     "n": 19,
+     "p": "Maxillar"
+    },
+    {
+     "h": "5a1d603605ff1d7c",
+     "n": 22,
+     "p": "Unilater"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Acute otitis media is often found as well**, because the two share a cause.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "48f736ff1a4f63b9",
+     "n": 76,
+     "p": "Signs of"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Complications:** meningitis or encephalitis · cerebral abscess · subdural or epidural empyema · cavernous sinus thrombosis · periorbital and orbital cellulitis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e34975ca484b2fea",
+     "n": 132,
+     "p": "Periorbi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Wait 3 days first:** a viral sinusitis looks the same and is the likelier cause, so allow time for it to settle. Start antibiotics if there is no improvement by then, or sooner if the child gets worse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "733812bf5e69fd2e",
+     "n": 155,
+     "p": "Consider"
+    },
+    {
+     "h": "59cb456883b212fa",
+     "n": 102,
+     "p": "Antibiot"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Antibiotics:** first line oral amoxicillin 15 mg/kg, up to 500 mg, three times daily × 5 days (cefalexin if penicillin-allergic). Not improving: switch to oral amoxicillin/clavulanic acid 22.5 mg/kg, up to 875 mg, every 12 hours × a further 5 days. Systemically unwell or cannot take oral: IV amoxicillin/clavulanic acid 25 mg/kg, up to 1 g, every 6 hours (ceftriaxone plus metronidazole if penicillin-allergic).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2af8e02379c10215",
+     "n": 351,
+     "p": "Amoxicil"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Do not take nasal swabs:** a nasal culture does not reflect the sinus organisms, so it does not help.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d7056baaa6b4ba5",
+     "n": 106,
+     "p": "Nasal sw"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No benefit in acute sinusitis** from steroid sprays, decongestants or antihistamines.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d1559fdd8f33d32a",
+     "n": 101,
+     "p": "Steroid "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Surgery is very seldom needed** for acute bacterial sinusitis unless there is an orbital or intracranial complication.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "211e2dfccd1c03b5",
+     "n": 117,
+     "p": "Surgery "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**CT is the preferred imaging**, and is considered when medical treatment has failed, an orbital or intracranial complication is possible, or surgery is being weighed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b473d2162587492",
+     "n": 149,
+     "p": "CT is th"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Uncommon under 12 years.** Defined by 12 weeks or more of symptoms: nasal obstruction or congestion, discharge, facial pain, postnasal drip, cough, reduced smell, halitosis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36cb1b0b90e06f23",
+     "n": 156,
+     "p": "Uncommon"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Risk factors:** cigarette smoke exposure · adenoid hypertrophy · allergy · asthma · reflux · cystic fibrosis · physical obstruction · impaired mucociliary clearance · immune deficiency · long-term intranasal decongestant use.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "812b115666914647",
+     "n": 197,
+     "p": "Exposure"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Treat for at least 6 weeks:** saline spray or irrigation (sodium chloride, 2 sprays or irrigations each nostril twice daily and when needed, before the steroid) plus an intranasal corticosteroid, eg mometasone 50 microg spray — 2-12 y: 1 spray per nostril once a day · 12-18 y: 2 sprays per nostril once a day, stepping down to 1 per side when controlled.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7eecccf63da8845",
+     "n": 411,
+     "p": "Intranas"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Decongestants, oral or intranasal, have no place.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7010708031d2052e",
+     "n": 53,
+     "p": "There is"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If symptoms persist:** check adherence and spray technique, then refer to ENT if still not relieved.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "383abf8163783af3",
+     "n": 52,
+     "p": "Assess t"
+    },
+    {
+     "h": "c34f40bebc99219a",
+     "n": 82,
+     "p": "Referral"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Principles:** always alongside minimising common allergens (house dust mite, pollens, pet dander, mould) · give each step about 4 weeks before judging it · check adherence and spray technique before stepping up · use the least treatment that works.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a2f502b874e10b01",
+     "n": 123,
+     "p": "To be us"
+    },
+    {
+     "h": "e27e3d8c204bb3e1",
+     "n": 60,
+     "p": "Trial ea"
+    },
+    {
+     "h": "0aca90b8a3eb4acc",
+     "n": 70,
+     "p": "Assess t"
+    },
+    {
+     "h": "1182c2a209af6d8f",
+     "n": 29,
+     "p": "Use mini"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Step 1 (mild):** one antihistamine, oral or intranasal; combining them adds nothing. Use it when needed for intermittent symptoms, or regularly for persistent ones.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f55dd9c546e87398",
+     "n": 54,
+     "p": "Step 1: "
+    },
+    {
+     "h": "6d1b12c6f07896d8",
+     "n": 39,
+     "p": "Using bo"
+    },
+    {
+     "h": "15a5ab5e1e65d929",
+     "n": 86,
+     "p": "Can be u"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oral vs intranasal antihistamine:** oral works better on itch away from the nose, suits younger children better, and a less sedating agent is preferred; intranasal works better on nasal symptoms, acts faster, and needs good technique.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f899912b8311cdf",
+     "n": 163,
+     "p": "More eff"
+    },
+    {
+     "h": "f8fd5cf776d6d0f3",
+     "n": 95,
+     "p": "More eff"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cetirizine, for example:** 1-2 y: 2.5 mg as oral drops (5 drops) twice a day · 2-6 y: 5 mg once a day, or 2.5 mg twice a day · 6-12 y: 10 mg once a day, or 5 mg twice a day · 12-18 y: 10 mg.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5bf0437d7b7966c1",
+     "n": 197,
+     "p": "Eg cetir"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Azelastine nasal spray (1 mg/mL), for example:** over 5 years, 1 spray each nostril twice daily.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b0a1d459a76fdab",
+     "n": 82,
+     "p": "Eg azela"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Step 2 (moderate-severe): add an intranasal corticosteroid.** Particularly good for blockage and also eases eye symptoms. Relief often begins within days, but judge it only after at least 4 weeks of steady use. Eg mometasone 50 microg spray — 2-12 y: 1 spray per nostril once a day · 12-18 y: 2 sprays per nostril once a day, then 1 per side when controlled.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7f488359034932d",
+     "n": 486,
+     "p": "Step 2: "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Step 3:** where nasal symptoms dominate, consider switching to a combined antihistamine-corticosteroid nasal spray and stop any oral antihistamine. For example a fluticasone propionate + azelastine spray (125/50 microg), 6-18 y: 1 spray per nostril twice a day.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e34ea840bca80b2",
+     "n": 269,
+     "p": "Step 3: "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Step 4 (site-specific):** eye symptoms — ketotifen 0.025% drops, 3-18 years, 1 drop twice daily; for prevention of recurrent eye flares, olopatadine 0.1% drops, 3-18 years, 1 drop twice daily for up to 14 weeks. Intermittent allergic rhinitis with asthma: consider montelukast.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1be4e29d121c9760",
+     "n": 366,
+     "p": "Step 4: "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Allergen immunotherapy:** for moderate-severe symptoms that fail treatment including allergen minimisation; refer to immunology/allergy; subcutaneous (SCIT) or sublingual (SLIT) for 3 years or more. **It is not PBS-subsidised and the yearly cost can be substantial.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c99b266fa9971b9",
+     "n": 259,
+     "p": "For mode"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Newborns: no nasal antihistamines, decongestants, steroids or humidifiers.** Saline drops before feeds are fine; seek specialist review if breathing or feeding is affected.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "271edfa42a2ed243",
+     "n": 175,
+     "p": "Nasal an"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other causes to consider:** a foreign body (one-sided symptoms, brown discharge, sometimes visible, often a foul smell from that nostril) · hormonal (pregnancy or the menstrual cycle; in older children, subclinical hypothyroidism) · drugs, typically aspirin and other NSAIDs · rebound congestion, where overuse of topical decongestants inflames the nasal lining.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0d9e242a550b08e3",
+     "n": 124,
+     "p": "Foreign "
+    },
+    {
+     "h": "158b8c3c0b5ca4e6",
+     "n": 43,
+     "p": "Associat"
+    },
+    {
+     "h": "844193329e4908b7",
+     "n": 44,
+     "p": "Subclini"
+    },
+    {
+     "h": "24ea519352ec4dd5",
+     "n": 34,
+     "p": "Typicall"
+    },
+    {
+     "h": "1f06dd414850c5cc",
+     "n": 135,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Idiopathic (vasomotor) rhinitis:** watery discharge that switches on and off abruptly, set off by strong smells or temperature changes.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a5dae1cc6f7822e",
+     "n": 124,
+     "p": "Sudden o"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Recurrent or severe? Think of rarer causes:** cystic fibrosis, ciliary dysfunction, immunodeficiency, anatomical anomalies.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62786dd0f4037dd2",
+     "n": 119,
+     "p": "If recur"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diagnosis is usually clinical, with no tests.** In allergic rhinitis, testing does not make the diagnosis and must be read against the history: a positive result shows sensitisation only. It can guide allergen minimisation.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d872e89f38886490",
+     "n": 85,
+     "p": "In most "
+    },
+    {
+     "h": "773d7f6461ad248d",
+     "n": 140,
+     "p": "Further "
+    },
+    {
+     "h": "bf3e234460f0bc0c",
+     "n": 45,
+     "p": "Testing "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Serum specific IgE vs skin prick:** serum specific IgE to environmental allergens (formerly RAST) is unaffected by anti-allergy medicines; skin prick testing is affected by them.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "75a5b5c977b0f490",
+     "n": 114,
+     "p": "Serum sp"
+    },
+    {
+     "h": "7612ce20d76e10cc",
+     "n": 56,
+     "p": "Skin pri"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Paediatric team** for any systemically unwell child or suspected orbital/intracranial complication. **ENT** for suppurative complications or possible surgery, and for nasal obstruction that medical treatment has not fixed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0d3ee84fb71aaf87",
+     "n": 32,
+     "p": "All syst"
+    },
+    {
+     "h": "cefeec182d18b0b8",
+     "n": 46,
+     "p": "Suspecte"
+    },
+    {
+     "h": "84c27634ff19d8d9",
+     "n": 79,
+     "p": "Suppurat"
+    },
+    {
+     "h": "fe5edf721851f65b",
+     "n": 38,
+     "p": "Medicall"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Immunology/allergy referral:** more allergy testing and interpretation to guide allergen minimisation · severe or poorly controlled allergic rhinitis despite treatment · assessment for immunotherapy.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "339b364a01409ac0",
+     "n": 201,
+     "p": "Further "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Transfer** if intracranial involvement is suspected, with altered consciousness, seizures or focal neurological signs.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f360c939fe831d2",
+     "n": 101,
+     "p": "Suspecte"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Many brands exist**, and their price and access (over the counter or on prescription) vary.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16ed7efe3aabe52f",
+     "n": 136,
+     "p": "There ar"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The page was last updated October 2025.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3cd3779c3112aebb",
+     "n": 25,
+     "p": "Last upd"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Rhinitis and rhinosinusitis', last updated October 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/, retrieved 2026-09-24"
+  }
+ ]
 }

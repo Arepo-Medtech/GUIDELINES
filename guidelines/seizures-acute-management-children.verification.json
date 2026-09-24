@@ -1,333 +1,785 @@
 {
-  "guideline": "guidelines/seizures-acute-management-children.md",
-  "edition": "1.0",
-  "verified_utc": "2026-09-22",
-  "verifier": "claude-opus-5",
-  "verifier_class": "single_verifier_uncalibrated",
-  "retrieved_from": [
-    "https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png"
-  ],
-  "retrieved_utc": "2026-09-22",
-  "method": "Each claim checked against the retrieved text of the RCH Melbourne Clinical Practice Guideline 'Seizures - acute management' (last updated June 2025, PIC endorsed), including key points, background, assessment, history, examination, red flags, differential diagnosis, active seizure flowchart notes, the medications table, post seizure care, investigations, consultation and transfer triggers, discharge criteria, follow-up and reference list. Doses are transcribed verbatim from the source's own table, which states them in full; this is the first source in this compendium to do so. The active seizure flowchart is a diagram image and was NOT retrieved: the sequence of agents and the intervals between doses are recorded as input_unavailable and are not reconstructed, and the guideline states that it cannot be used to sequence therapy. Febrile seizure, neonatal seizures and ongoing paediatric epilepsy treatment are separate documents and are marked out_of_scope. The AMH Children's dosing companion is cited by the source as reference 1 and is licensed content, cited by reference only and not reproduced. The source contains one typographical slip ('Most seizures well self-terminate' for 'will'); source_text is preserved verbatim and the guideline renders the evident word. ADDENDUM 2026-09-22: the active seizure management flowchart was downloaded as a PNG image and read visually. Eight further claims carry verdict pass_image_transcription and source S2; they cannot be re-checked by scripts/verify.py. The diagram supplies the agent sequence and the five-minute gating that the text omitted, including that reassessment is timed from COMPLETION of the second-line infusion rather than from its start.",
-  "claims": [
+ "guideline": "guidelines/seizures-acute-management-children.md",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/",
+  "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png"
+ ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Seizures - acute management' (last updated June 2025, PIC endorsed), 44 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at the RCH website Terms and Conditions, clause 5.2). S2: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'RCH flowcharts for Seizures - acute management (active seizure flowchart)' (last updated June 2025), 8 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at the RCH website Terms and Conditions, clause 5.2). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 rebuilds the Wave 1 hand-written page (edition 1.0, 2026-09-22), which quoted RCH verbatim, as a paraphrase of the page re-fetched 2026-09-24 (S1) and of the Wave 1 transcription of the active seizure flowchart image (S2). All 52 Wave 1 claims are carried over. The S2 anchors re-check the transcription file, not the image itself: a person should still compare the flowchart steps with the image. The medication claims are now flagged as doses.",
+ "summary": {
+  "total": 52,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 52
+ },
+ "claims": [
+  {
+   "claim": "**Five headline points:** look for a reversible cause and treat it · most seizures stop within 5 minutes and need no drugs · start drug treatment once total seizure time reaches 5 minutes or is unknown · count pre-hospital benzodiazepine doses in the active plan · teach parents about safety and what to do next time.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
     {
-      "claim": "The guideline's key points are to aim to identify reversible causes and manage accordingly, that most seizures will resolve within 5 minutes and do not require medications, to commence pharmacological management if total seizure duration is at least 5 minutes or unknown, to include pre-hospital doses of benzodiazepines in active management, and to ensure parental education regarding safety and future seizures",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "1. Aim to identify reversible causes and manage accordingly\n2. Most seizures will resolve within 5 minutes and do not require medications\n3. Commence pharmacological management if total seizure duration is \u22655 minutes or unknown\n4. Include pre-hospital doses of benzodiazepines in active management\n5. Ensure parental education regarding safety and future seizures"
-    },
-    {
-      "claim": "Seizures are common with 1 in 20 or 5 per cent of children having a seizure of some form during childhood, and most seizures are brief and self-limiting generally ceasing within 5 minutes",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Seizures are common, 1 in 20 (5%) children will have a seizure of some form during childhood\n  - Most seizures are brief and self-limiting, generally ceasing within 5 minutes"
-    },
-    {
-      "claim": "Seizures should be treated immediately where a child is seizing with duration unknown or seizure for more than 5 minutes, where there is cardio-respiratory compromise, or where there is known pathology such as meningitis, hypoxic injury or trauma",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Seizures should be treated immediately in the following situations\n    - child seizing with duration unknown, or seizure for >5 minutes\n    - cardio-respiratory compromise\n    - known pathology\n      - meningitis\n      - hypoxic injury\n      - trauma"
-    },
-    {
-      "claim": "Most seizures will self-terminate within 5 minutes without intervention and unless there is airway compromise it is appropriate to observe only during this period without intervention, in line with seizure first aid advice",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Most seizures well self-terminate within 5 minutes without intervention, and unless there is airway compromise it is appropriate to **observe only** during this period without intervention, in line with seizure first aid advice"
-    },
-    {
-      "claim": "Assessment and management should occur concurrently if the child is seizing",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Assessment and management should occur concurrently if the child is seizing"
-    },
-    {
-      "claim": "Key considerations in acute assessment include duration of seizure including the pre-hospital period and any benzodiazepine doses given to treat the seizure immediately prior to arrival at hospital",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Duration of seizure including pre-hospital period\n  - Any benzodiazepine doses given to treat the seizure immediately prior to arrival at hospital"
-    },
-    {
-      "claim": "Relevant past history in acute assessment includes previous seizures and anti-seizure medication with a management plan if in place, neurological comorbidity such as VP shunt or structural brain abnormality, renal failure causing hypertensive encephalopathy, and endocrinopathy causing electrolyte disturbance",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Past history: previous seizures and anti-seizure medication (management plan if in place), neurological comorbidity (eg VP shunt, structural brain abnormality), renal failure (hypertensive encephalopathy), endocrinopathy (electrolyte disturbance)"
-    },
-    {
-      "claim": "Underlying causes that may require additional specific emergency management include hypoglycaemia, electrolyte disturbances such as hyponatraemia, hypocalcaemia and hypomagnesaemia, meningitis, drug or toxin overdose or envenomation, head trauma, and stroke and intracranial haemorrhage",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Underlying causes include\n    - hypoglycaemia\n    - electrolyte disturbances (hyponatraemia, hypocalcaemia, hypomagnesaemia)\n    - meningitis\n    - drug/toxin overdose or envenomation\n    - head trauma\n    - stroke and intracranial haemorrhage"
-    },
-    {
-      "claim": "A treatable cause is more likely in children under 6 months and pyridoxine dependent seizures should be considered in that age group",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Age: treatable cause is more likely in children\n     <6 months\n    - Consider pyridoxine dependent seizures"
-    },
-    {
-      "claim": "History should be a detailed chronological history of events and behaviours before, during and after the seizure, should be taken from the child if possible, and should obtain a bystander account including video recordings",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Detailed chronological history of events and behaviours before, during and after the seizure\n\nHistory should be taken from the child if possible and obtain bystander account, including video recordings"
-    },
-    {
-      "claim": "History should ask about aura and focal features, level of awareness, recent trauma with consideration of non-accidental injury, focality of limb or eye movement, post-ictal phase or hemiparesis, and relation to the sleep-wake cycle",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "aura, focal features\n  - level of awareness\n  - recent trauma, consider non-accidental injury\n  - focality of limb or eye movement\n  - post-ictal phase/hemiparesis\n  - relation to sleep-wake cycle"
-    },
-    {
-      "claim": "Relevant past history includes family history of seizures or cardiac disorders or sudden death, history suggestive of absence seizures or myoclonic jerks or nocturnal events, and developmental history",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Family history of seizures or cardiac disorders/sudden death\n  - History suggestive of absence seizures or myoclonic jerks, nocturnal events\n  - Developmental history"
-    },
-    {
-      "claim": "Examination should include a full neurological examination looking for abnormal neurological findings and signs of meningitis or raised intracranial pressure, cardiovascular examination including blood pressure, signs suggesting an underlying cause such as neurocutaneous stigmata or microcephaly, and assessment for features of a toxidrome",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Full neurological examination looking for any abnormal neurological findings, signs of meningitis or raised intracranial pressure\n  - Cardiovascular examination including BP\n  - Look for any signs that suggest an underlying cause eg neurocutaneous stigmata, microcephaly\n  - Assess for features of a"
-    },
-    {
-      "claim": "Red flags include head injury with delayed seizure, developmental delay or regression, headache prior to the seizure, hypertension, bleeding disorder or anticoagulation therapy, features suggestive of toxidrome, focal signs, history or examination findings concerning for non-accidental injury, and arrhythmia noting that a seizure may be the cause or result of arrhythmia and an ECG should be considered",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Head injury with delayed seizure\n  - Developmental delay or regression\n  - Headache prior to the seizure\n  - Hypertension\n  - Bleeding disorder, anticoagulation therapy\n  - Features suggestive of \u2026 Focal signs\n  - History or examination findings concerning for non-accidental injury\n  - Arrhythmia (seizure may be cause or result of arrhythmia; consider ECG)"
-    },
-    {
-      "claim": "The differential diagnosis of seizure includes arrhythmia, breath holding spell where the episode occurs when the child is crying, vasovagal syncope with anoxic seizure involving postural change preceded by dizziness and nausea, paroxysmal non-epileptic events including gastro-oesophageal reflux or Sandifer syndrome and gratification disorder or infantile masturbation, psychogenic non-epileptic seizures, and benign infantile movements such as shudder and sleep myoclonus",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Arrhythmia\n  - Breath holding spell (episode occurs when the child is crying)\n  - Vasovagal syncope with anoxic seizure (postural change, preceded by dizziness and nausea)\n  - Paroxysmal non-epileptic events (PNEEs)\n    - Gastro-oesophageal reflux (Sandifer syndrome)\n    - Gratification disorder (infantile masturbation)\n  - Psychogenic non-epileptic seizures (PNES)\n  - Benign infantile movements (shudder, sleep myoclonus)"
-    },
-    {
-      "claim": "Active seizure management should take into account benzodiazepine doses given pre-hospital for example by parents or paramedics, and should ensure a maximum of 2 appropriate doses of benzodiazepine are administered including pre-hospital doses",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Take into account benzodiazepine doses given pre-hospital (eg by parents or paramedics)\n  - Ensure a maximum of 2 appropriate doses of benzodiazepine are administered (including pre-hospital doses)"
-    },
-    {
-      "claim": "If available clinicians should refer to a patient specific seizure management plan in children with a known seizure disorder",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "If available, refer to patient specific seizure management plan in children with a known seizure disorder"
-    },
-    {
-      "claim": "Clinicians should not give a medication to which the child is allergic or which has previously been unsuccessful in terminating the seizure",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Do not give a medication to which the child is allergic or has previously been unsuccessful in terminating the seizure"
-    },
-    {
-      "claim": "In children already on phenytoin, phenobarbitone should be used as the alternative second line agent",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "In children already on phenytoin use phenobarbitone as alternative 2nd line agent"
-    },
-    {
-      "claim": "First line midazolam is dosed at 0.15 mg/kg IV, IM or IO to a maximum of 10 mg, or 0.3 mg/kg buccal or intranasal to a maximum of 10 mg",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Midazolam** | 0.15 mg/kg IV/IM/IO (max 10 mg)<br>0.3 mg/kg buccal/IN (max 10 mg) |"
-    },
-    {
-      "claim": "The midazolam injection solution may be given orally, buccally or intranasally, an oromucosal product is also available and is only for buccal use, and intranasal midazolam may cause nasal irritation and a burning sensation",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Injection solution may be given orally, buccally or intranasally, an oromucosal product is also available and is only for buccal use<br>Intranasal midazolam may cause nasal irritation and a burning sensation"
-    },
-    {
-      "claim": "First line diazepam is dosed at 0.3 mg/kg IV or IO to a maximum of 10 mg, the IV dose is preferable, and it should not be given IM",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Diazepam** | 0.3 mg/kg IV/IO (max 10 mg) | IV dose preferable<br>Do not give IM |"
-    },
-    {
-      "claim": "Second line phenytoin has a loading dose of 20 mg/kg IV or IO to a maximum of 2 g, used undiluted or diluted to 5 mg/mL or greater and infused at 1 mg/kg/minute with a maximum rate of 50 mg/minute, requires cardiac monitoring, and is contraindicated in Dravet syndrome",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Phenytoin** | Loading dose:<br>20 mg/kg IV/IO (max 2 g) | Use undiluted or dilute to 5 mg/mL or greater and infuse at 1 mg/kg/minute with a maximum rate of 50 mg/minute<br>Cardiac monitoring required<br>Contraindicated in Dravet syndrome |"
-    },
-    {
-      "claim": "Second line levetiracetam is dosed at 40 to 60 mg/kg IV or IO to a maximum of 4.5 g, diluted to 50 mg/mL and infused over 5 minutes",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Levetiracetam** | 40-60 mg/kg IV/IO (max 4.5 g) | Dilute to 50 mg/mL and infuse over 5 minutes |"
-    },
-    {
-      "claim": "Second line phenobarbitone is dosed at 20 mg/kg IV or IO to a maximum of 1 g, diluted to 20 mg/mL or weaker and infused over 30 minutes or longer at a maximum rate of 1 mg/kg/minute, requires cardiac monitoring, and is commonly used in neonatal seizures",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Phenobarbitone** | 20 mg/kg IV/IO (max 1 g) | Dilute to 20 mg/mL or weaker and infuse over 30 minutes or longer (max rate 1 mg/kg/minute)<br>Cardiac monitoring required<br>Commonly used in"
-    },
-    {
-      "claim": "Second line valproate is dosed at 20 to 40 mg/kg to a maximum of 3 g infused over 3 to 10 minutes as a single dose, is not recommended in children under 3 years because of high risk of hepatotoxicity, and should be stopped immediately if skin reaction or signs of hypersensitivity with or without rash, hepatotoxicity or pancreatitis occur",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Valproate** | 20-40 mg/kg (max 3 g) | Infuse over 3-10 minutes as a single dose<br>**Not recommended in children <3 years (high risk of hepatotoxicity)**<br>Stop immediately if skin reaction or signs of hypersensitivity (with or without rash), hepatotoxicity<br> or pancreatitis occur |"
-    },
-    {
-      "claim": "Third line pyridoxine is dosed at 100 mg IV and should be considered in children up to 6 months with seizures refractory to standard anticonvulsants",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Pyridoxine** | 100 mg IV | Consider in children up to 6 months with seizures refractory to standard anticonvulsants |"
-    },
-    {
-      "claim": "For refractory seizures requiring rapid sequence induction and ventilation, medications may include infusions of midazolam, ketamine, propofol or thiopentone, and these should be used only with involvement of senior staff confident with airway management",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "For refractory seizures requiring rapid sequence induction and ventilation. Use only with involvement of senior staff confident with airway management<br>Medications may include infusions of **midazolam, ketamine, propofol, thiopentone**"
-    },
-    {
-      "claim": "Post seizure care involves positioning the child in the recovery position, maintaining the airway, monitoring for further seizure activity and considering investigations as appropriate",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Position child in recovery position, maintain airway\n\nMonitor for further seizure activity\n\nConsider investigations as appropriate"
-    },
-    {
-      "claim": "Blood glucose should be checked, and electrolytes, calcium and venous gas should be considered where there is any seizure needing a second line agent, in children under 12 months, where there is medical comorbidity such as metabolic disorder, diabetes, dehydration or toxidrome, or where the child has not returned to baseline once the post-ictal phase and the effect of any medication has passed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Blood glucose\n\nConsider electrolytes, calcium and venous gas in the following circumstances:\n\n  - any seizure needing a second line agent\n  - children\n     <12 months\n  - medical comorbidity such as metabolic disorder, diabetes, dehydration, toxidrome\n  - child has not returned to baseline once the post-ictal phase and the effect of any medication has passed"
-    },
-    {
-      "claim": "An ECG should be performed where arrhythmia is considered",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Perform where arrythmia is considered"
-    },
-    {
-      "claim": "Imaging should be considered where there is evidence of trauma, focal seizure, children requiring a third line agent, children under 6 months, signs of elevated intracranial pressure, new focal signs or symptoms suggestive of stroke, bleeding disorder or anticoagulation, or where the child has not returned to baseline or has persistent neurological signs once the postictal phase and the effect of any medication has passed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "evidence of trauma\n  - focal seizure\n  - children requiring 3rd line agent\n  - children\n     <6 months\n  - signs of elevated ICP\n  - new focal signs or symptoms suggestive of stroke\n  - bleeding disorder / anticoagulation\n  - child has not returned to baseline or has persistent neurological signs once the postictal phase and the effect of any medication has passed"
-    },
-    {
-      "claim": "CT should be avoided in children with established epilepsy after a typical seizure unless there are other indications",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Avoid CT in children with established epilepsy after a typical seizure, unless there are other indications"
-    },
-    {
-      "claim": "EEG is rarely required in the acute setting and is not routine after a first seizure, but should be considered if the child is under 12 months or has a known genetic condition",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Rarely required in the acute setting\n  - Not routine after a first seizure. Should be considered if the child is\n     <12 months or has a known genetic condition"
-    },
-    {
-      "claim": "Self-limited epilepsy with centrotemporal spikes also known as benign focal epilepsy of childhood and idiopathic generalised epilepsy are the most common causes of afebrile seizures in children, diagnosis needs EEG to confirm, these syndromes may not require treatment so EEG confirmation is usually not urgent, an EEG should generally be performed if a child has a second seizure, and a positive diagnosis can avoid the need for neuroimaging",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Self-limited epilepsy with centrotemporal spikes (SeLECTS) (also known as benign focal epilepsy of childhood (BFEC), childhood epilepsy with centrotemporal spikes (CECTS) or benign rolandic epilepsy) and idiopathic generalised epilepsy (IGE)\n     are the most common causes of afebrile seizures in children. Diagnosis needs EEG to confirm. SeLECTS and IGE may not require treatment, so EEG confirmation is usually not urgent. An EEG should generally be performed if a child has a second\n     seizure. A positive diagnosis can avoid the need for neuroimaging"
-    },
-    {
-      "claim": "Consultation with the local paediatric team should be considered for children under 12 months, suspected infantile spasms, prolonged seizures, incomplete recovery, intracranial pathology, meningoencephalitis, focal seizures or post ictal findings, recurrent seizures without a diagnosis of epilepsy, frequent or uncontrolled seizures in a child with known epilepsy, developmental delay, existing comorbidities, and concern for non-accidental injury",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children\n     <12 months\n  - Suspected infantile spasms\n  - Prolonged seizures\n  - Incomplete recovery\n  - Intracranial pathology\n  - Meningoencephalitis\n  - Focal seizures or post ictal findings\n  - Recurrent seizures without a diagnosis of epilepsy\n  - Frequent/uncontrolled seizures in a child with known epilepsy\n  - Developmental delay\n  - Existing comorbidities\n  - Concern for non-accidental injury"
-    },
-    {
-      "claim": "Admission for observation should be considered in children under 12 months",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Consider admission for observation in children\n<12 months"
-    },
-    {
-      "claim": "Transfer to a tertiary centre should be considered for children anticipated to require ICU level care due to cardiorespiratory compromise",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children anticipated to require ICU level care (cardiorespiratory compromise)"
-    },
-    {
-      "claim": "Discharge may be considered in older children when the child is back to baseline function with no red flags on history or examination",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "In older children, when the child is back to baseline function with no red flags on history or examination"
-    },
-    {
-      "claim": "All families should receive education prior to discharge including explanation of risk of recurrence, seizure safety advice, seizure first aid and management plan, advice to video events if safe to do so and keep a record, written information, consideration of the need for emergency medication such as buccal midazolam, and advice regarding driving in older children of driving age",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "explanation of risk of recurrence\n  - \u2026 seizure first aid and management plan\n  - advise parents to video events if safe to do so and keep a record\n  - provide written information\n  - consider need for emergency medication (buccal midazolam)\n  - advice regarding driving in older children of driving age"
-    },
-    {
-      "claim": "All children who have a first afebrile seizure should have medical follow up, and EEG is not routinely performed after a first afebrile seizure but should be considered if the child is under 12 months or has a known genetic condition",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "All children who have a first afebrile seizure should have medical follow up\n  - EEG is not routinely performed after a first afebrile seizure but should be considered (child\n     <12 months or has a known genetic condition)"
-    },
-    {
-      "claim": "The guideline was last updated June 2025 and is PIC endorsed by the Paediatric Improvement Collaborative",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Last updated June 2025 \u2026 PIC Endorsed"
-    },
-    {
-      "claim": "The guideline cites the ConSEPT trial by Dalziel et al comparing levetiracetam versus phenytoin for second-line treatment of convulsive status epilepticus in children, the EcLiPSE trial by Lyttle et al, and the ESETT trial by Chamberlain et al comparing levetiracetam, fosphenytoin and valproate for established status epilepticus",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Chamberlain JM, et al. Neurological Emergencies Treatment Trials; Pediatric Emergency Care Applied Research Network investigators. Efficacy of levetiracetam, fosphenytoin, and valproate for established status epilepticus by age group\n       (ESETT): a double-blind, responsive-adaptive, randomised controlled trial. Lancet. 2020 Apr 11;395(10231):1217-1224. \u2026 Dalziel S et al. Levetiracetam versus phenytoin for second-line treatment of convulsive status epilepticus in children (ConSEPT): an open-label, multicentre, randomised controlled trial. The Lancet. 2019. 393 (10186), p2135-2145. \u2026 Lyttle M et al. Levetiracetam versus phenytoin for second-line treatment of paediatric convulsive status epilepticus (EcLiPSE): a multicentre, open-label, randomised trial. The Lancet. 2019. 393 (10186), p2125-2134."
-    },
-    {
-      "claim": "The guideline cites the paediatric seizure guidelines of Queensland, South Australia, Western Australia, the Sydney Children's Hospitals Network and Starship Child Health in New Zealand, as well as the AMH Children's dosing companion, Advanced Paediatric Life Support 7th edition 2024, NICE guideline NG217 and the ILAE 2022 classification of epilepsy syndromes with onset in childhood",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "AMH Children's dosing companion. \u2026 Queensland Paediatric Emergency Care (QPEC) Queensland Paediatric Clinical Guidelines (QPCG). Status Epilepticus -- Emergency Management in Children. \u2026 SA Health. South Australian Paediatric Clinical Practice Guidelines. Seizures in children. \u2026 Smith eds. _Advanced Paediatric Life Support7th Edition_, Wiley Blackwell, 2024. \u2026 Specchio N, et al. \"International League Against Epilepsy classification and definition of epilepsy syndromes with onset in childhood: Position paper by the ILAE Task Force on Nosology and Definitions.\" _Epilepsia_ 63.6 (2022):\n       1398-1442. \u2026 Spooner C, et al. Starship Child Health. Seizures -- status epilepticus. \u2026 The Sydney Children's Hospitals Network. Guideline No 2014-9103 v2, Guideline: Seizures and status epilepticus management. \u2026 NICE guideline \\[NG217\\]. Epilepsies in children, young people and adults. Published: 27 April 2022. \u2026 Western Australia Child and Adolescent Health Service & Perth Children's Hospital. Status epilepticus."
-    },
-    {
-      "claim": "The active seizure flowchart entry point is suspected causative pathology with a check of blood glucose level, cardio-respiratory compromise, or duration of seizure more than 5 minutes or unknown; if no, ensure airway patency, keep safe and observe, and if the seizure is ongoing at 5 minutes commence active treatment",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Suspected causative pathology / Check BGL / Cardio-respiratory compromise / Duration of seizure >5 minutes or unknown / Ensure airway patency Keep safe & observe / Seizure ongoing at 5 minutes"
-    },
-    {
-      "claim": "Active treatment comprises continuous monitoring and oxygen, obtaining venous access, checking VBG, giving a benzodiazepine, and addressing any causative pathology",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Commence active treatment / Continuous monitoring, oxygen / Obtain venous access / Check VBG / Give benzodiazepine / Address any causative pathology"
-    },
-    {
-      "claim": "If IV access is difficult, IM, buccal or intranasal midazolam should be used",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "If IV access difficult, use IM/buccal/IN midazolam"
-    },
-    {
-      "claim": "If still seizing 5 minutes later, repeat the dose of benzodiazepine and involve senior staff",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "5 minutes still seizing / Repeat dose of benzodiazepine / Involve senior staff"
-    },
-    {
-      "claim": "If still seizing 5 minutes after the repeat benzodiazepine, give a second line agent being either levetiracetam or phenytoin",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "5 minutes still seizing / Give 2nd line agent: / Levetiracetam OR Phenytoin"
-    },
-    {
-      "claim": "Reassessment is 5 minutes after the infusion is completed, and if the seizure is ongoing give the alternative second line agent not already administered, using phenobarbitone if the child is already on phenytoin, and consider intubation",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Reassess 5 minutes after infusion completed - ongoing seizure? / Give alternative 2nd line agent / Levetiracetam OR Phenytoin (agent not already administered) / Phenobarbitone if already on Phenytoin / Consider intubation"
-    },
-    {
-      "claim": "If the seizure is still ongoing 5 minutes after that infusion is completed, seek help from senior staff for further seizure management with or without airway management",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Reassess 5 minutes after infusion completed - ongoing seizure? / Seek help from senior staff for further seizure management +/- airway management"
-    },
-    {
-      "claim": "When the seizure is terminated, post seizure care comprises revisiting history and examination and investigations as required",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Seizure terminated / Post seizure care / Revisit history and examination / Investigations as required"
+     "h": "b1810868ef47f5ca",
+     "n": 348,
+     "p": "Aim to i"
     }
-  ],
-  "summary": {
-    "total": 52,
-    "pass": 44,
-    "fail": 0,
-    "pass_image_transcription": 8
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Seizures are common:** about 1 child in 20 (5%) has some kind of seizure during childhood, and most are short and stop by themselves, usually inside 5 minutes.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e50d7c3f7d985920",
+     "n": 170,
+     "p": "Seizures"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treat straight away** if the duration is unknown or it has gone on for more than 5 minutes, if there is cardiorespiratory compromise, or if there is known pathology (meningitis, hypoxic injury, trauma).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2fdebd36d39668e3",
+     "n": 208,
+     "p": "Seizures"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If the child is still seizing, assess and treat at the same time.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06f029a0665d62a1",
+     "n": 75,
+     "p": "Assessme"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Establish the full duration, pre-hospital time included, and every benzodiazepine dose given just before arrival.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "544d4cd1d50c0ef5",
+     "n": 49,
+     "p": "Duration"
+    },
+    {
+     "h": "0b4742a5817c280e",
+     "n": 92,
+     "p": "Any benz"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Past history that matters now:** earlier seizures and current anti-seizure medicine (and any management plan) · neurological comorbidity such as a VP shunt or structural brain abnormality · renal failure, which can cause hypertensive encephalopathy · endocrine disease, which can disturb electrolytes.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1e51caa598d87471",
+     "n": 246,
+     "p": "Past his"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Causes that need their own emergency treatment:** hypoglycaemia · electrolyte disturbance (low sodium, calcium or magnesium) · meningitis · drug or toxin overdose, or envenomation · head trauma · stroke or intracranial haemorrhage.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8119a59603e116e5",
+     "n": 207,
+     "p": "Underlyi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Under 6 months, a treatable cause is more likely**; think of pyridoxine-dependent seizures.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "786f38ca1f4cce71",
+     "n": 96,
+     "p": "Age: tre"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**History:** a detailed timeline of what happened and how the child behaved before, during and after; hear it from the child where possible, and get a witness account, including any video.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd28fa38af52d5de",
+     "n": 92,
+     "p": "Detailed"
+    },
+    {
+     "h": "aa3478538b674987",
+     "n": 107,
+     "p": "History "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ask about:** aura or focal features · awareness · recent trauma (consider non-accidental injury) · focal limb or eye movement · the post-ictal phase or hemiparesis · timing against sleep and waking.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc7afd8b073e908c",
+     "n": 176,
+     "p": "aura, fo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Relevant background:** seizures, cardiac disorders or sudden death in the family · features of absence seizures, myoclonic jerks or night-time events · development.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c7dad2d8890e066",
+     "n": 158,
+     "p": "Family h"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Examination:** a full neurological examination for any abnormality and for signs of raised intracranial pressure or meningitis · heart and circulation, BP included · clues to a cause such as neurocutaneous stigmata or microcephaly · features of a toxidrome (fast heart or breathing, high BP, raised temperature, sweating, diarrhoea, tremor, brisk reflexes).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7aeef67472e1ec9e",
+     "n": 405,
+     "p": "Full neu"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Red flags:** a head injury followed later by a seizure · developmental delay or regression · headache before the seizure · hypertension · a bleeding disorder or anticoagulant therapy · toxidrome features · focal signs · anything in history or examination suggesting non-accidental injury · arrhythmia, which can cause or follow a seizure (think ECG).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6734734121ba634f",
+     "n": 338,
+     "p": "Head inj"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Differential diagnosis:** arrhythmia · breath-holding spell (the episode comes while crying) · vasovagal syncope with an anoxic seizure (on changing posture, after dizziness and nausea) · PNEEs, the paroxysmal non-epileptic events, such as reflux with Sandifer syndrome and gratification disorder (infantile masturbation) · PNES (psychogenic non-epileptic seizures) · benign movements of infancy (shuddering, sleep myoclonus).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "75904e0c1db081f8",
+     "n": 437,
+     "p": "Differen"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For the first 5 minutes, observe:** most seizures stop without help in that time, so unless the airway is compromised, watching without intervening is appropriate and matches seizure first aid advice.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3502bca860d21494",
+     "n": 223,
+     "p": "Most sei"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Allow for benzodiazepines given before hospital** (by parents or paramedics), and make sure no more than 2 appropriate benzodiazepine doses are given in all, pre-hospital doses counted.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ea398128bea1af7",
+     "n": 87,
+     "p": "Take int"
+    },
+    {
+     "h": "988a20aa54207425",
+     "n": 105,
+     "p": "Ensure a"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Known seizure disorder:** use the child's own seizure management plan if there is one.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4357971e115dac45",
+     "n": 105,
+     "p": "If avail"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Avoid any drug the child is allergic to, or one that has already failed to stop their seizures.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ba18dd2e1386008",
+     "n": 118,
+     "p": "Do not g"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Already taking phenytoin?** Phenobarbitone becomes the alternative second-line drug.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac960d18e0a99a59",
+     "n": 81,
+     "p": "In child"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Entry:** is there a suspected causative pathology (check the BGL), cardiorespiratory compromise, or a seizure lasting over 5 minutes or of unknown length? If none, keep the airway open, keep the child safe and watch; if still seizing at 5 minutes, start active treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "513b7b1ca48e96c9",
+     "n": 192,
+     "p": "Suspecte"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Active treatment:** continuous monitoring and oxygen · venous access · a VBG · a benzodiazepine · treat any causative pathology.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "835bd5e7c9f9719e",
+     "n": 148,
+     "p": "Commence"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hard IV access:** give midazolam IM, buccally or intranasally.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5327aee214ca53d2",
+     "n": 50,
+     "p": "If IV ac"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Still seizing 5 minutes on:** give the benzodiazepine again and call senior staff.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e0a9d1cd9034cee",
+     "n": 78,
+     "p": "5 minute"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Still seizing another 5 minutes later:** start a second-line drug, levetiracetam or phenytoin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0cd3e5f9f2e77da9",
+     "n": 75,
+     "p": "5 minute"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reassess 5 minutes after that infusion ends.** If the seizure continues, give whichever of levetiracetam or phenytoin has not yet been used (phenobarbitone if the child already takes phenytoin), and consider intubation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ef65404d7aa6191",
+     "n": 221,
+     "p": "Reassess"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Reassess again 5 minutes after the second infusion.** If still seizing, get senior help for further seizure management, with airway management if needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77410e394131dd4d",
+     "n": 145,
+     "p": "Reassess"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Once the seizure stops:** post-seizure care, go back over history and examination, and investigate as needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab082f607cd5dace",
+     "n": 101,
+     "p": "Seizure "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Seizures - acute management (active seizure flowchart)', last updated June 2025, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Midazolam (first line):** IV, IM or IO 0.15 mg/kg, up to 10 mg; buccal or intranasal 0.3 mg/kg, up to 10 mg.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "535b3be2d276b11f",
+     "n": 63,
+     "p": "0.15 mg/"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Midazolam formulations:** the injection solution can go by mouth, buccally or intranasally; an oromucosal product also exists, for buccal use only. Intranasal midazolam can sting and irritate the nose.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9809eaf69084879",
+     "n": 132,
+     "p": "Injectio"
+    },
+    {
+     "h": "78b64f71df408f59",
+     "n": 71,
+     "p": "Intranas"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diazepam (first line):** 0.3 mg/kg IV or IO, up to 10 mg; the IV route is preferred. ⚠️ Never IM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "008fbc7623737aa8",
+     "n": 61,
+     "p": "0.3 mg/k"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Phenytoin (second line):** load 20 mg/kg IV or IO, up to 2 g; give neat or diluted to no weaker than 5 mg/mL, at 1 mg/kg/minute and never faster than 50 mg/minute; needs cardiac monitoring. ⚠️ Do not use in Dravet syndrome.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e17348cf16f14b4c",
+     "n": 212,
+     "p": "Loading "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Levetiracetam (second line):** 40-60 mg/kg IV or IO, up to 4.5 g, diluted to 50 mg/mL and run in over 5 minutes.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5dda4a49981cae7d",
+     "n": 74,
+     "p": "40-60 mg"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Phenobarbitone (second line):** 20 mg/kg IV or IO, up to 1 g; at a concentration of 20 mg/mL or weaker, run it in over at least 30 minutes, no faster than 1 mg/kg/minute; needs cardiac monitoring; often used for seizures in neonates.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "782c14a79d526e57",
+     "n": 179,
+     "p": "20 mg/kg"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Valproate (second line):** 20-40 mg/kg, up to 3 g, as one infusion over 3-10 minutes. ⚠️ Avoid under 3 years (high hepatotoxicity risk). Stop at once for a skin reaction, hypersensitivity signs (rash or not), hepatotoxicity or pancreatitis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "66a2dbe7cb80378a",
+     "n": 254,
+     "p": "20-40 mg"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Pyridoxine (third line):** 100 mg IV; consider it up to 6 months of age when seizures resist standard anticonvulsants.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c56a8702035223a2",
+     "n": 98,
+     "p": "100 mg I"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Refractory seizures needing RSI and ventilation:** infusions may include midazolam, ketamine, propofol or thiopentone, and only with senior staff who are confident with the airway.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc65abed896f5ecb",
+     "n": 230,
+     "p": "For refr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Post-seizure care:** recovery position and a maintained airway, watch for further seizures, and investigate where appropriate.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06f3b5ed92fc565f",
+     "n": 128,
+     "p": "Position"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bloods:** check blood glucose. Consider electrolytes, calcium and a venous gas if a second-line drug was needed · age under 12 months · comorbidity such as a metabolic disorder, diabetes, dehydration or a toxidrome · the child is not back to baseline after the post-ictal phase and any drug effect have passed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "179b51e1167f15a0",
+     "n": 337,
+     "p": "Blood gl"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ECG** when an arrhythmia is a possibility.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69428666d3083830",
+     "n": 37,
+     "p": "Perform "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider imaging for:** trauma · a focal seizure · needing a third-line drug · age under 6 months · signs of raised ICP · new focal signs or stroke-like symptoms · a bleeding disorder or anticoagulation · failure to return to baseline, or persisting neurological signs, after the post-ictal phase and drug effects have passed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae7a148de2556f34",
+     "n": 333,
+     "p": "evidence"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No CT after a typical seizure in a child with established epilepsy**, unless something else calls for it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "612592d9f6001af7",
+     "n": 106,
+     "p": "Avoid CT"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**EEG** is seldom needed acutely and is not routine after a first seizure; consider it under 12 months of age or with a known genetic condition.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b14d3d30a5e53646",
+     "n": 152,
+     "p": "Rarely r"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The commonest causes of afebrile seizures in children** are SeLECTS (self-limited epilepsy with centrotemporal spikes, also called BFEC, CECTS or benign rolandic epilepsy) and IGE (idiopathic generalised epilepsy). An EEG confirms them, but they may need no treatment, so it is rarely urgent; an EEG is generally done after a second seizure, and a confirmed diagnosis can spare neuroimaging.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f73d7d8b6879317",
+     "n": 547,
+     "p": "Self-lim"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Discuss with the local paediatric team:** age under 12 months · possible infantile spasms · a prolonged seizure · recovery that is not complete · meningoencephalitis or other intracranial pathology · focal seizures or focal post-ictal findings · repeated seizures without an epilepsy diagnosis · frequent or uncontrolled seizures in known epilepsy · developmental delay · other comorbidities · concern about non-accidental injury.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b556df51205e3a43",
+     "n": 356,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Admit for observation** if under 12 months.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "897ae33e4b6c47d9",
+     "n": 57,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tertiary transfer** for a child expected to need ICU-level care because of cardiorespiratory compromise.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "00924c3879ae2b35",
+     "n": 77,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Discharge** an older child who is back to baseline function and has no red flags in the history or on examination.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6f85b3c9ec9d8ca",
+     "n": 106,
+     "p": "In older"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Teach every family before discharge:** the recurrence risk · seizure safety · first aid and the management plan · filming events when it is safe, and keeping a record · written information · whether emergency medication (buccal midazolam) is needed · driving advice for older children old enough to drive.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad4e2f4872eb49fa",
+     "n": 303,
+     "p": "explanat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After a first afebrile seizure, every child needs medical follow-up.** EEG is not routine but should be considered under 12 months or with a known genetic condition.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e12d9816fac0cb08",
+     "n": 76,
+     "p": "All chil"
+    },
+    {
+     "h": "675e6e9fe21ba12f",
+     "n": 138,
+     "p": "EEG is n"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PIC endorsed; last updated June 2025.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a848a41c4e4e1d21",
+     "n": 22,
+     "p": "Last upd"
+    },
+    {
+     "h": "a76135c52ac5dc90",
+     "n": 12,
+     "p": "PIC Endo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Second-line trials cited:** ConSEPT (Dalziel et al., Lancet 2019;393) and EcLiPSE (Lyttle et al., Lancet 2019;393), each testing levetiracetam against phenytoin in children with convulsive status epilepticus, and ESETT (Chamberlain et al., Lancet 2020;395), comparing levetiracetam, fosphenytoin and valproate by age group.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad15c79fb48fd4d4",
+     "n": 350,
+     "p": "Chamberl"
+    },
+    {
+     "h": "9b8b65df143fb2ea",
+     "n": 229,
+     "p": "Dalziel "
+    },
+    {
+     "h": "7a25c4b5523e6849",
+     "n": 215,
+     "p": "Lyttle M"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other references:** the AMH Children's dosing companion · APLS seventh edition (2024) · NICE NG217 (2022) · the ILAE classification of childhood-onset epilepsy syndromes (Epilepsia, 2022) · status epilepticus or seizure guidelines from Queensland (QPEC), SA Health, WA (Perth Children's Hospital), the Sydney Children's Hospitals Network and Starship (NZ).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9048dc33bb22a0b0",
+     "n": 32,
+     "p": "AMH Chil"
+    },
+    {
+     "h": "6fca30020fa4eedf",
+     "n": 149,
+     "p": "Queensla"
+    },
+    {
+     "h": "5037dd761bec0850",
+     "n": 90,
+     "p": "SA Healt"
+    },
+    {
+     "h": "e009af63b1e0a38c",
+     "n": 78,
+     "p": "Smith ed"
+    },
+    {
+     "h": "f2f69947ccc85b16",
+     "n": 236,
+     "p": "Specchio"
+    },
+    {
+     "h": "ae14e0a320495e4a",
+     "n": 72,
+     "p": "Spooner "
+    },
+    {
+     "h": "7f4f040119a072cd",
+     "n": 122,
+     "p": "The Sydn"
+    },
+    {
+     "h": "6f9cc755902465b6",
+     "n": 102,
+     "p": "Western "
+    },
+    {
+     "h": "db46450dd2373720",
+     "n": 98,
+     "p": "NICE gui"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Seizures - acute management', last updated June 2025, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/, retrieved 2026-09-24"
   }
+ ]
 }

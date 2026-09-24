@@ -1,173 +1,306 @@
 {
  "guideline": "guidelines/foreign-body-ingestion-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Foreign body ingestion' (Last updated February 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Foreign body ingestion' (Last updated February 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 22,
-  "pass": 22,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
    "claim": "**Most ingested foreign bodies are low risk** and need no imaging or intervention. ⚠️ **High-risk objects can cause significant harm or death — discuss with a senior clinician or specialist.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The majority of ingested foreign bodies (FBs) are low risk objects and can be managed without imaging or intervention High-risk foreign bodies can be associated with significant harm and even death, and require discussion with senior clinician or specialist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db2f31b0cbda9483",
+     "n": 257,
+     "p": "The majo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Oesophageal button batteries must be removed within two hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oesophageal button batteries require removal within two hours to avoid serious complications including death",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "823aac3d3ca65beb",
+     "n": 108,
+     "p": "Oesophag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Large objects, magnets and objects impacted in the oropharynx need surgical review.** Ingested objects may be toxic — consider Poisons Information (13 11 26).",
+   "claim": "**Surgical review for:** magnets · large objects · anything impacted in the oropharynx. Ingested objects may be toxic — consider Poisons Information (13 11 26).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Large sized objects, magnets and objects impacted in the oropharynx require surgical review Ingested objects may be toxic. Consider consulting Poisons Information Centre, phone 13 11 26",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98110782124763b9",
+     "n": 185,
+     "p": "Large si"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Peak incidence 6 months to 3 years**; developmental, behavioural problems and pica raise the risk. **Older children who ingest intentionally need a mental health review.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "the highest incidence is between the ages of 6 months and 3 years Children with developmental concerns, behavioural problems or Pica (eating of non-nutritive substances such as paper, wood and soil) are at increased risk of ingesting a FB Older children with underlying psychiatric problems may intentionally ingest FBs and require a mental health review",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d0b25871ae4fb4af",
+     "n": 354,
+     "p": "the high"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Ask about:** object type and timing · coughing, drooling, painful swallowing, reduced intake, abdominal pain or vomiting, melaena or GI bleeding · **choking or respiratory distress (consider inhalation).**",
+   "claim": "**Ask about:** object type and timing · coughing, drooling, painful swallowing, reduced intake, vomiting or abdominal pain, GI bleeding or melaena · **choking or respiratory distress (consider inhalation).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Clarify type of object and timing of ingestion GIT symptoms: Coughing, drooling, pain on swallowing, reduced oral intake, abdominal pain or vomiting, melaena or GI bleeding Respiratory symptoms: coughing, choking, respiratory distress, consider inhalation.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f33e66bec6009be0",
+     "n": 256,
+     "p": "Clarify "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **High-risk foreign bodies:** oesophageal button battery · a magnet plus metal, or more than 1 magnet · sharp objects in the oesophagus · lead objects that fail to leave the stomach · large objects (over 6 cm long and/or over 2 cm wide) · expandable objects (water beads) · multi-component toys.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "High-risk FBs include: Button batteries lodged in the oesophagus Magnet + a metal object or >1 magnet Sharp objects in the oesophagus eg fish bone, pins or needles Lead based objects that fail to transit through the stomach Large objects (>6 cm long and/or >2 cm wide) Expandable foreign bodies eg superabsorbent polymers (water beads) Multi-component objects eg toys with lights, motors and batteries",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f62efd2db2180cc8",
+     "n": 401,
+     "p": "High-ris"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Higher impaction risk:** pre-existing GI abnormalities or repaired/unrepaired malformations · eosinophilic oesophagitis · neuromuscular disease.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "pre-existing gastrointestinal tract abnormalities (eg strictures) or congenital malformations (repaired or unrepaired) eosinophilic oesophagitis neuromuscular disease",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8fb56840ed77d098",
+     "n": 166,
+     "p": "pre-exis"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine for** airway compromise, drooling or oropharyngeal injury, respiratory distress, and abdominal tenderness, peritonitis or obstruction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs of airway compromise, see Acute upper airway obstruction Inspection of the oropharynx for excessive drooling, abrasions, ulcers or lacerations Respiratory distress, see Foreign bodies inhaled Tender abdomen on palpation, signs of peritonitis or obstruction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "903ab5640f6655ea",
+     "n": 262,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Image:** suspected or known button battery · magnet(s) or other high-risk radio-opaque object · unknown object · high-risk or unwell child. **In smaller children, one X-ray covering neck, chest and abdomen.**",
+   "claim": "⚠️ **Image:** suspected or known button battery · magnet(s) or any radio-opaque object that is high risk · object not known · child who is unwell or high-risk. **In smaller children, one X-ray covering neck, chest and abdomen.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Imaging is required in suspected or known button battery ingestion magnet/s or other high-risk radio-opaque object unknown object high risk or unwell child In smaller children a single X-ray to include neck, chest and abdomen",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c606e607d9ba37c",
+     "n": 225,
+     "p": "Imaging "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Imaging may be skipped only if ALL apply:** asymptomatic · normal examination · no known GI abnormality · reassuring observation · eating and drinking · object under 2 cm diameter and under 6 cm long, **not a magnet or battery**, non-expandable and non-toxic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Imaging may not be required for children who meet ALL of the following criteria asymptomatic normal clinical examination no known gastrointestinal abnormalities reassuring period of observation able to eat and drink history of ingesting an object that is ALL of the following less than 2 cm diameter and less than 6 cm in length not a magnet or battery non-expandable non-toxic",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "be28a2075b6f84a2",
+     "n": 377,
+     "p": "Imaging "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Critically unwell children and high-risk objects (button battery, magnets, sharp or lead objects) need time-critical care.** The referral team (ENT, general surgery or gastroenterology) depends on local service, object and site.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Critically unwell children or certain high risk FBs (button battery, magnets, sharp or lead containing objects) require time critical care The appropriate specialist team for referral varies depending on local service and may include ENT, General Surgery or Gastroentrology services.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7fc01c3f1448beb7",
+     "n": 283,
+     "p": "Critical"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Oesophageal button battery: honey for children over 1 year, within 12 hours of ingestion, while awaiting theatre — 10 mL every 10 minutes, up to 6 doses.**",
+   "claim": "⚠️ **Oesophageal button battery: honey for children over 1 year, within 12 hours of ingestion, while awaiting theatre — up to 6 doses of 10 mL, one every 10 minutes.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Administer honey to children >1 year with an oesophageal button battery within 12 hours of ingestion whilst awaiting theatre. Dose 10 mL every 10 minutes up to 6 doses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cce1191b214db90e",
+     "n": 167,
+     "p": "Administ"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Batteries in the stomach or beyond without signs of GI injury:** discuss with the relevant specialist for a plan and timeframe.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Batteries in stomach or beyond without signs of gastrointestinal injury should be discussed with relevant specialist to determine a plan/timeframe for intervention",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07b42e10797a044e",
+     "n": 163,
+     "p": "Batterie"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **One magnet on X-ray may still be high risk** — two stuck together can look like one.",
+   "claim": "⚠️ **A single magnet seen on X-ray can still be high risk** — two stuck together can look like one.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "One magnet seen on X-ray may still be high risk, as two may have been swallowed which give the appearance of one",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a413d0e62f171001",
+     "n": 112,
+     "p": "One magn"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Water beads (superabsorbent polymers)** can pass the pylorus, then expand enough to obstruct the bowel — **discuss early with Poisons Information** about growth potential and endoscopic removal.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "May pass easily through proximal gastrointestinal tract and pylorus, then expand large enough to cause bowel obstruction Early discussion with Poisons Information Centre who can advise on growth potential of object and need for endoscopic removal by gastroenterology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f117770dd4002bd5",
+     "n": 266,
+     "p": "May pass"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Objects impacted in the oropharynx need urgent ENT evaluation**; fish bones may lodge in the tonsils.",
+   "claim": "**Objects impacted in the oropharynx need urgent ENT evaluation**; the tonsils are a place fish bones can lodge.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Objects impacted in the oropharynx Require urgent ENT evaluation Fish bones may lodge in tonsils and require removal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fe277894c946586",
+     "n": 116,
+     "p": "Objects "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Oesophageal food bolus:** ⚠️ **acutely symptomatic (drooling, neck or chest pain) → urgent endoscopy**; if managing secretions, discuss early with paediatric gastroenterology for retrieval within 12–24 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acutely symptomatic children (drooling, neck or chest pain) require urgent endoscopy Children able to manage their secretions should be discussed early with paediatric gastroenterology service regarding planning for endoscopic retrieval within 12-24 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f9e547c4c215fc7",
+     "n": 255,
+     "p": "Acutely "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Carbonated drinks may help mobilise a food bolus** (may cause vomiting). ⚠️ **Glucagon and hyoscine butylbromide are not recommended in children.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Carbonated drinks are low cost, safe and may be effective in mobilising food bolus, however can result in vomiting The use of glucagon and hyoscine butylbromide lacks evidence and is not recommended in children",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f36a2574c43e850",
+     "n": 210,
+     "p": "Carbonat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Coins and blunt objects:** symptomatic → urgent endoscopy; **asymptomatic oesophageal object → endoscopic removal within 24 hours**; over 6 cm long → gastroenterology or surgical opinion. **A diameter over 2 cm (Australian 10c, 20c, 50c, $1) is unlikely to pass a young child's pylorus.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Coins and blunt objects Acutely symptomatic children (drooling, neck or chest pain) require urgent endoscopy Asymptomatic children with an oesophageal object require endoscopic removal within 24 hours Larger objects >6 cm long require gastroenterology or surgical opinion due to increased risk of obstruction An object with a diameter >2 cm (Australian 10c, 20c, 50c and $1 coin) is unlikely to pass through the pylorus of younger children",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab5a88dd9002b93b",
+     "n": 439,
+     "p": "Coins an"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the relevant specialty when:** symptomatic · immediate removal needed · FB lodged in the oesophagus · toxicity concern · significant past history or behavioural issues.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Child is symptomatic Immediate FB removal needs to be facilitated The FB is lodged in the oesophagus Concern that the FB is toxic Child has significant past medical history and/or behavioural issues leading to ingestion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "303d6e5207e5aabf",
+     "n": 219,
+     "p": "Child is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge when** the child looks well, is pain-free, has no respiratory distress, can eat and drink, and has a reliable history of a low-risk FB.",
+   "claim": "**Discharge when** the child is well-looking and free of pain, without respiratory distress, eating and drinking, and has a reliable history of a low-risk FB.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Looks well Is pain free Has no respiratory distress Is able to eat and drink Has a reliable history and a low risk FB has been ingested",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "920748f301471622",
+     "n": 135,
+     "p": "Looks we"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Return if:** breathing problems · abdominal pain · fever · vomiting · unable to tolerate food and drink · melaena or haematemesis.",
+   "claim": "**Return if:** fever · vomiting · abdominal pain · breathing problems · food and drink not tolerated · melaena or haematemesis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "breathing problems abdominal pain fever vomiting unable to tolerate food and drink melaena or haematemesis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6428f4bf5e8cb05c",
+     "n": 106,
+     "p": "breathin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Foreign body ingestion' (Last updated February 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/, retrieved 2026-09-23"
   }
  ]

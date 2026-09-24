@@ -1,166 +1,358 @@
 {
  "guideline": "guidelines/metabolic-disorders-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Metabolic disorders' (Last updated June 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Metabolic disorders' (Last updated June 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
    "claim": "**Metabolic disorders mimic common childhood illness at any age**; a high index of suspicion is needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Metabolic disorders present at all ages with a variety of symptoms and signs that mimic common childhood illness. A high index of suspicion is needed to make a diagnosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee7bdb52c551caf4",
+     "n": 169,
+     "p": "Metaboli"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider a metabolic disorder in any newborn with unexplained encephalopathy or progressive illness**, especially after an uncomplicated pregnancy and birth — **and consult the metabolic team urgently.**",
+   "claim": "⚠️ **Any newborn with progressive illness or unexplained encephalopathy should prompt consideration of a metabolic disorder**, especially after an uncomplicated pregnancy and birth — **and consult the metabolic team urgently.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider a metabolic disorder in any newborn with unexplained encephalopathy or progressive illness, particularly following an uncomplicated pregnancy and birth … Once suspected, consult the metabolic team urgently",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "741f4f67b628599b",
+     "n": 160,
+     "p": "Consider"
+    },
+    {
+     "h": "1918e20335fc7b31",
+     "n": 51,
+     "p": "Once sus"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Blood and urine collected during the acute illness are the key to diagnosis, but must not delay management.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Collection of appropriate urine and blood samples during an acute illness is the key to diagnosis, but should not delay management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab1b8cb7450a70fb",
+     "n": 130,
+     "p": "Collecti"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Newborn screening misses some disorders**, and a newborn may become unwell before results are back.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Newborn screening will diagnose many but not all metabolic disorders. A newborn may also become unwell before results are available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f20d3d59da68f0a5",
+     "n": 131,
+     "p": "Newborn "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Acute red flags:** confusion or lethargy progressing to coma without injury, intoxication or other neurological cause · newborn with poor feeding, weak suck or hypotonia, often after a well period · recurrent seizures · **presumed sepsis responding poorly to treatment** · unexplained shock or cardiac failure · rapid deep breathing ± apnoea · BRUE (especially recurrent) · unexpected metabolic acidosis, respiratory alkalosis or hypoglycaemia · liver dysfunction or organomegaly · multisystem involvement.",
+   "claim": "⚠️ **Acute red flags:** confusion or lethargy progressing to coma without injury, intoxication or other neurological cause · newborn who, often after a well period, has poor feeding, weak suck or hypotonia · recurrent seizures · **presumed sepsis responding poorly to treatment** · rapid deep breathing ± apnoea · unexplained shock or cardiac failure · BRUE (especially recurrent) · unexpected hypoglycaemia, metabolic acidosis or respiratory alkalosis · liver dysfunction or organomegaly · multisystem involvement.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Confusion or lethargy that may progress to coma, without clear evidence of injury, intoxication or other neurological event Newborn with poor feeding, weak suck or hypotonia, often after asymptomatic period Recurrent seizures Presumed sepsis with poor response to treatment Unexplained shock or cardiac failure Rapid, deep breathing +/- progression to apnoea Infant with Brief Resolved Unexplained Event (especially if recurrent) Unexpected blood gas derangement (metabolic acidosis, respiratory alkalosis or hypoglycaemia) Liver dysfunction, hepatomegaly or splenomegaly Any acute presentation with multisystem involvement",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c44e67703632474",
+     "n": 623,
+     "p": "Confusio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Family history:** consanguinity, unexplained paediatric death (especially neonatal males), relatives with similar illness or unexplained neurodevelopmental disorders — though a known family history is uncommon.",
+   "claim": "**Family history:** consanguinity, relatives with a similar illness or unexplained neurodevelopmental disorders, unexplained paediatric death (especially of neonatal males) — though a known family history is uncommon.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Family history (a pre-existing family history is uncommon) parental consanguinity unexplained paediatric death (especially neonatal males) relatives with similar presentations or unexplained neurodevelopmental disorders",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc7bd0f745fe9a22",
+     "n": 219,
+     "p": "Family h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Pregnancy clues:** HELLP syndrome (the fetus may have a fatty acid oxidation disorder) and acute fatty liver of pregnancy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "HELLP syndrome (foetus may have a fatty acid oxidation disorder) acute fatty liver of pregnancy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec9ffa27fad7d807",
+     "n": 95,
+     "p": "HELLP sy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Across childhood:** developmental delay or regression, recurrent unexplained vomiting, **illness triggered by catabolic stress (infection, exercise, fasting) or certain foods or medicines**, aversion to protein or fruit, unexplained neurological symptoms or exercise intolerance, acquired organomegaly.",
+   "claim": "**At any age in childhood:** recurrent unexplained vomiting, developmental delay or regression, **illness triggered by catabolic stress (fasting, infection, exercise) or by certain foods or medicines**, aversion to protein or fruit, unexplained neurological symptoms or exercise intolerance, acquired organomegaly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "developmental delay or regression recurrent unexplained vomiting recurrent illness precipitated by catabolic episodes (infection, exercise, fasting) or certain foods or medicines aversion to certain foods eg protein, fruit unexplained neurological symptoms (behavioural changes, encephalopathy, seizures, ataxia) unexplained exercise intolerance (myalgia, rhabdomyolysis) acquired hepatomegaly and/or splenomegaly",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f8bbbdc56324da02",
+     "n": 413,
+     "p": "developm"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Unusual body odour** can point to a diagnosis — maple syrup in MSUD, sweaty feet in isovaleric aciduria.",
+   "claim": "**Unusual body odour** can point to a diagnosis — MSUD smells of maple syrup, isovaleric aciduria of sweaty feet.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unusual body odour eg maple syrup in MSUD, sweaty feet in isovaleric aciduria",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0bdef2df2b4632c3",
+     "n": 77,
+     "p": "Unusual "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Metabolites are best detected at the acute presentation.** Careful sampling matters but **must not delay management of the unwell child.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Metabolites indicative of metabolic disorders are best detected at time of acute presentation … Careful collection and handling of blood, urine and CSF samples is important, but should not delay management of the unwell child",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "292a52e9e01e9816",
+     "n": 93,
+     "p": "Metaboli"
+    },
+    {
+     "h": "97093dc01cae851d",
+     "n": 129,
+     "p": "Careful "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**First-line blood:** venous or capillary gas · glucose (point-of-care is fine) · venous lactate · **ammonia (transfer the sample urgently)** · FBC, UEC, LFT, CRP, cultures as indicated. **Urine:** ketones, glucose, pH, and a metabolic screen including amino and organic acids.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "venous or capillary blood gas glucose (point of care testing appropriate) serum lactate (venous sample) serum ammonia (transfer sample urgently) other tests as clinically indicated eg FBC, UEC, LFT, CRP, cultures … ketones, glucose, pH metabolic screen (including ammino acids and organic acids)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5138e9e6d41fa5f9",
+     "n": 212,
+     "p": "venous o"
+    },
+    {
+     "h": "5905a147c92342f7",
+     "n": 80,
+     "p": "ketones,"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Hyperammonaemia is a medical emergency.** Interpret results in context — unwell children without a metabolic disorder often have deranged gases — and **discuss abnormal results with the metabolic team urgently.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Interpretation must take account of the clinical context - unwell children without an underlying metabolic disorder frequently have deranged blood gas values … Consult the metabolic team urgently to discuss abnormal results … Hyperammonaemia is a medical emergency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa5b2665bd8fe5b0",
+     "n": 157,
+     "p": "Interpre"
+    },
+    {
+     "h": "0bcb8a5b612a5204",
+     "n": 63,
+     "p": "Consult "
+    },
+    {
+     "h": "1f563f2fa041d38f",
+     "n": 38,
+     "p": "Hyperamm"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Resuscitate first:** recognise and manage the unwell child; treat hypoglycaemia, seizures or altered consciousness and the precipitating illness (e.g. sepsis, gastroenteritis).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "recognition and management of the unwell child is the priority … treat hypoglycaemia, seizures and/or altered conscious state treat underlying or precipitating illness eg sepsis, gastroenteritis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c90f5b81c77f82db",
+     "n": 62,
+     "p": "recognit"
+    },
+    {
+     "h": "c3760a3b7874011c",
+     "n": 129,
+     "p": "treat hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Known disorder: use the child's emergency management plan** and contact the metabolic team as soon as a disorder is suspected.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with a known metabolic disorder will likely have their own emergency management plan … as soon as a metabolic disorder is suspected for children who present with a known metabolic condition, access the child’s emergency management plan",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dbfe1e2b32ad2b3c",
+     "n": 93,
+     "p": "Children"
+    },
+    {
+     "h": "4d529eaec860ee59",
+     "n": 148,
+     "p": "as soon "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Stop any triggering intake (e.g. stop feeds)** and correct dehydration and ongoing losses with IV or nasogastric fluids.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Stop intake of any triggering factors eg stop feeds … use intravenous or nasogastric fluids to correct dehydration and replace ongoing losses eg vomiting, diarrhoea",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a014fdf66f2bbaa",
+     "n": 51,
+     "p": "Stop int"
+    },
+    {
+     "h": "6e9c318402c3fa53",
+     "n": 110,
+     "p": "use intr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Prevent catabolism: glucose 10% with sodium chloride 0.9% IV is standard first-line — except mitochondrial conditions, which need glucose 5% with sodium chloride 0.9%.** Special formula or IV lipids only after metabolic-team discussion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "intravenous fluids such as glucose 10% with sodium chloride 0.9% is standard first-line treatment for an unwell child with a metabolic disorder, except for mitochondrial conditions (these require glucose 5% with sodium chloride 0.9%) … special metabolic formula or additional IV lipids/nutrition may be required after discussion with the metabolic team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6260b29a8aa0adb3",
+     "n": 233,
+     "p": "intraven"
+    },
+    {
+     "h": "e72882fa75889fcf",
+     "n": 116,
+     "p": "special "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Toxic metabolites:** IV chelating/diverting drugs as directed by the metabolic team; **haemofiltration in ICU** may be needed for rapid deterioration.",
+   "claim": "**Toxic metabolites:** IV chelating/diverting drugs under metabolic team direction; with rapid deterioration, **ICU haemofiltration** may be needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "intravenous medications to chelate or divert toxic metabolites, or replenish deficient metabolites, depending on metabolic disorder in consultation with the metabolic team … haemofiltration in ICU may be required if there is a rapid deterioration due to accumulation of toxic metabolites",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0330fe7c53225452",
+     "n": 171,
+     "p": "intraven"
+    },
+    {
+     "h": "d6ce600c76d565a5",
+     "n": 113,
+     "p": "haemofil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Peri-operative care: plan early with the metabolic team and avoid prolonged fasting**, giving enough calories as IV glucose-containing fluid to prevent catabolism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "always be planned early with the metabolic team generally avoid prolonged fasting with provision of sufficient calories (using IV glucose-containing solutions) to prevent catabolism",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "66d810083e36e8dc",
+     "n": 181,
+     "p": "always b"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the local paediatric team for any suspected metabolic disease**; transfer if care is beyond the hospital's comfort level; **discharge only after discussion with the metabolic service.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Any child with a suspected metabolic disease … A child requiring care beyond the comfort level of the hospital … Following discussion with local metabolic service",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b765dbd8ea8d2169",
+     "n": 44,
+     "p": "Any chil"
+    },
+    {
+     "h": "aee0261108334602",
+     "n": 63,
+     "p": "A child "
+    },
+    {
+     "h": "7d0961f4aa6e589b",
+     "n": 49,
+     "p": "Followin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
-   "claim": "**The pattern table is a guide only**, most relevant to neonates and small infants; an unwell child without a metabolic disorder may have lactic acidosis, respiratory alkalosis, hypoglycaemia and ketonaemia.",
+   "claim": "**The pattern table is a guide only**, most relevant to neonates and small infants; lactic acidosis, respiratory alkalosis, hypoglycaemia and ketonaemia can all occur in an unwell child who has no metabolic disorder.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Serves as a guide only: consult the metabolic team with abnormal results Table below is most relevant for neonates and small infants … An unwell child without a metabolic disorder may have lactic acidosis, respiratory alkalosis hypoglycaemia and ketonaemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "997630db046b2d06",
+     "n": 132,
+     "p": "Serves a"
+    },
+    {
+     "h": "cc88e5dca2ca733a",
+     "n": 121,
+     "p": "An unwel"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   },
   {
    "claim": "**Anion gap = Na − (Cl + HCO₃); normal 8 to 16 mmol/L.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Calculate by using (Na) – (Cl + HCO3). Normal 8 to 16 mmol/L",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f291aa9f2aaab81",
+     "n": 60,
+     "p": "Calculat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Metabolic disorders' (Last updated June 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/, retrieved 2026-09-23"
   }
  ]

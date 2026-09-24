@@ -1,9 +1,9 @@
 # Diabetes and surgery in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** peri-operative insulin, glucose monitoring and IV fluids for children with diabetes having surgery or a procedure that needs fasting — minor elective, major elective and emergency. Related: `diabetic-ketoacidosis-children`, `diabetes-unwell-in-hospital-children`, `diabetes-sick-day-management-children`, `hypoglycaemia-children`. No adult peri-operative diabetes counterpart in this corpus.
 
-> ✅ **OPEN AND QUOTED.** 32 of 32 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Diabetes mellitus and surgery*** (undated page); **55 fragments re-checked by machine. 18 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 32 of 32 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Diabetes mellitus and surgery*** (undated page); **55 anchors re-checkable by machine; 18 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Involve the endocrinology team in every case** — elective surgery is planned with them in advance; emergency surgery needs the endocrinologist on call. **Treat DKA before surgery.**
 
@@ -11,7 +11,7 @@
 
 ## Aims and planning
 
-- **Aims: prevent hypoglycaemia during and after surgery, and acute hyperglycaemia ± ketosis after it.** [S1]
+- **Aims: no hypoglycaemia during or after surgery, and no post-operative acute hyperglycaemia ± ketosis.** [S1]
 - **Plan elective surgery in advance with the endocrinology team**, who oversee peri-operative diabetes management during the admission. [S1]
 - **Major** = GA over 2 hours or prolonged post-operative fasting expected. **Minor** = GA under 2 hours, with oral intake expected to resume before same-day discharge. [S1]
 - **Minor surgery: aim for a morning list with the child first on it**, and preferably admit the day before. [S1]
@@ -19,18 +19,18 @@
 ## Minor elective surgery — twice-daily insulin
 
 - **Evening before: give the full usual short-acting dose and 75% of the usual long-acting dose** before the evening meal. [S1]
-- **Morning list:** check BGL 2 1/2 hours before surgery (~6.00 a.m.). **Under 8.0 mmol/L: a sugar-containing clear drink (10% sugar, e.g. lemonade) 5–10 mL/kg, max 200 mL**, and note it for the anaesthetist. [S1]
-- **Morning of surgery (~7.30–8.00am): 1/10th of the normal total daily insulin as short-acting insulin, rounded down to the nearest whole unit.** [S1]
-- ⚠️ **Any BGL under 4.0 mmol/L in the 2 hours before surgery: site an IV, give 2–5 mL/kg of 10% dextrose as a bolus, then start dextrose-containing fluids at maintenance** (e.g. Plasma-Lyte 148 + 5% glucose with 20 mmol/L KCl, or 0.9% sodium chloride + 5% glucose with 20 mmol/L KCl). [S1]
+- **Morning list:** at ~6.00 a.m. (2 1/2 hours pre-surgery), check the BGL. **BGL under 8.0 mmol/L → a sugar-containing clear drink (10% sugar, e.g. lemonade), 5–10 mL/kg to a maximum of 200 mL**, and note it for the anaesthetist. [S1]
+- **Morning of surgery (~7.30–8.00am): short-acting insulin equal to 1/10th of the usual total daily dose, rounded down to a whole unit.** [S1]
+- ⚠️ **Any BGL under 4.0 mmol/L in the 2 hours before surgery: site an IV, give 2–5 mL/kg of 10% dextrose as a bolus, then start dextrose-containing fluids at maintenance** (e.g. Plasma-Lyte 148 + 5% glucose, or 0.9% sodium chloride + 5% glucose — each with KCl 20 mmol/L). [S1]
 - **Check BGL hourly during and after surgery until tolerating oral intake**, including immediately before transfer to and from theatre. **Aim for 5–10 mmol/L.** [S1]
-- **A further short-acting dose (~15–20% of total daily dose) is needed before lunch.** If unexpectedly not tolerating oral diet, give it 4–6 hours after the morning dose and continue IV fluids. [S1]
+- **A further short-acting dose (~15–20% of total daily dose) is needed before lunch.** If oral diet is unexpectedly not tolerated, keep IV fluids going and give that dose 4–6 hours after the morning one. [S1]
 - **Usually discharged the same afternoon**, with advice to take the usual insulin dose before the evening meal. [S1]
 - **Afternoon list:** 1/10th of total daily insulin as short-acting at ~07.00am before a light breakfast of 2–3 carbohydrate serves, **then another 1/10th at ~12.00 noon without food.** [S1]
 
 ## Minor elective surgery — basal-bolus (multiple daily injections)
 
-- **Evening basal insulin: give the usual dose the night before**, cut by ~20% if there is a recent pattern of overnight or early-morning hypos. **Morning basal users: full dose the day before, 80% on the morning of surgery.** [S1]
-- **Morning list: no short- or rapid-acting insulin before surgery** — the basal dose suffices. Oral fluid only if the 06.00am BGL is under 6.0 mmol/L: **lemonade 5–10 mL/kg, max 200 mL.** [S1]
+- **Evening basal insulin: give the usual dose the night before**, cut by ~20% when hypos have recently tended to occur overnight or early in the morning. **Morning basal users: full dose the day before, 80% on the morning of surgery.** [S1]
+- **Morning list: no short- or rapid-acting insulin before surgery** — the basal dose suffices. Oral fluid only if the 06.00am BGL is under 6.0 mmol/L: **5–10 mL/kg of lemonade (max 200 mL).** [S1]
 - **Afternoon list: 80% of the usual rapid-acting dose with a usual-carbohydrate breakfast**; check BGL 2.5 hours before surgery and give clear sugar-containing fluid 5–10 mL/kg (max 200 mL) if under 6.0 mmol/L. [S1]
 - **Once tolerating oral diet**, give the usual rapid-acting dose before a usual-carbohydrate meal and stop IV fluids. [S1]
 
@@ -54,7 +54,7 @@
 
 ## Emergency surgery
 
-- ⚠️ **Contact the endocrinology team / consultant on call for every child with diabetes needing emergency surgery.** Assess first: blood gas with glucose, bedside ketones, U&E, FBE and other pre-op bloods. [S1]
+- ⚠️ **Contact the endocrinology team / consultant on call for every child with diabetes needing emergency surgery.** Assess first: bedside ketones, blood gas with glucose, plus FBE, U&E and the other pre-op bloods. [S1]
 - ⚠️ **Ketoacidosis present: start the DKA protocol immediately and stabilise circulating volume and electrolytes before surgery.** Initial insulin is 0.1 U/kg/hr, continued until ketones clear and acidosis corrects. [S1]
 - **After DKA clears**, maintenance insulin is usually 0.02–0.03 U/kg/hr, with dextrose adjusted to keep BGL 5–10 mmol/L; endocrinology advises. [S1]
 - **No ketoacidosis: fast the child and start 0.9% sodium chloride + 5% glucose with 20 mmol/L KCl plus a continuous IV insulin infusion** — same make-up, starting rate and titration as major elective surgery. [S1]
@@ -65,16 +65,16 @@
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Several thresholds lost a comparison sign in extraction** (rendered '?'): the ketone level that triggers endocrinology discussion ('ketones ?1.0'), the BGL band for starting insulin at 0.02 U/kg/hr ('?10.0'), and the age band for the reduced DKA rate ('0.05 U/kg/hr in a child ?2 years'). None was quoted. | `input_unavailable` |
+| 1 | **Several thresholds lost a comparison sign in extraction** (rendered '?'): the ketone level that triggers endocrinology discussion ('ketones ?1.0'), the BGL band for starting insulin at 0.02 U/kg/hr ('?10.0'), and the age cut-off ('?2 years') below which the DKA insulin rate is reduced to 0.05 U/kg/hr. None was quoted. | `input_unavailable` |
 | 2 | ⚠️ **Possible disagreement with `diabetic-ketoacidosis-children`:** that page (RCH DKA) says to consider 0.05 units/kg/hour for children under 5 (among others); this page reserves 0.05 U/kg/hr for a child '?2 years' (sign unreadable). The DKA guideline is the one this page defers to. | `observation` |
 | 3 | **The page carries no 'Last updated' date** and names older products (Levemir, Optium meter, Actrapid HM); its currency cannot be confirmed. | `time_sensitive` |
 | 4 | **Diabetes and endoscopy** is a separate RCH page, linked but not retrieved. | `out_of_scope` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Diabetes mellitus and surgery*. undated page. https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_mellitus_and_surgery/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Diabetes mellitus and surgery*. undated page. https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_mellitus_and_surgery/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

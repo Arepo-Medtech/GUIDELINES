@@ -1,140 +1,258 @@
 {
  "guideline": "guidelines/pyloric-stenosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Pyloric stenosis' (Last updated March 2024), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Pyloric stenosis' (Last updated March 2024), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 17,
-  "pass": 17,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 17
  },
  "claims": [
   {
    "claim": "**Hypertrophy of the pyloric muscle causes gastric outlet obstruction.** It usually presents at **2–6 weeks** with **progressive non-bilious vomiting**, is unlikely after 12 weeks, and definitive treatment is **pyloromyotomy**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pyloric stenosis is caused by hypertrophy and hyperplasia of the muscular layers of the pylorus leading to gastric outlet obstruction. It usually presents between 2 and 6 weeks of chronological age with progressive non-bilious vomiting. It is unlikely after 12 weeks of age. Definitive treatment is by pyloromyotomy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "756a801e7e0ba244",
+     "n": 315,
+     "p": "Pyloric "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Risk factors:** male · first born · parental (especially maternal) history · preterm birth · younger maternal age · **postnatal macrolide exposure** · formula feeding · maternal smoking in pregnancy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk factors include: Male First born Parental history of pyloric stenosis (especially maternal) Pre-term birth Younger maternal age Postnatal exposure to macrolide antibiotics Formula feeding Maternal smoking during pregnancy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "763a65ad6a4d5903",
+     "n": 226,
+     "p": "Risk fac"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Vomiting is recurrent and increasingly forceful**, may be projectile, often shortly after feeds; the infant may seem hungry afterwards. Non-bilious; blood-stained in under 10%.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Vomiting Recurrent and progressively more forceful. May be projectile May occur shortly after feeding Infant may appear hungry post-vomiting Non-bilious Blood-stained in less than 10%",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f703b1907df0155",
+     "n": 183,
+     "p": "Vomiting"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Pyloric mass:** olive-shaped, right upper quadrant at the lateral edge of rectus abdominis, **best felt from the left** with the infant settled and supine; may need repeated or prolonged examination.",
+   "claim": "**Pyloric mass:** olive-shaped, in the right upper quadrant along the lateral border of rectus abdominis, **best felt from the left** with the infant settled and supine; may need repeated or prolonged examination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pyloric mass Olive shaped Located in the right upper quadrant at the lateral edge of the rectus abdominis muscle Best felt from the left side with the infant settled and supine. May be difficult to palpate. May require repeated examinations or to wait for several minutes with hand on abdomen to feel",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0f227c624b53194",
+     "n": 300,
+     "p": "Pyloric "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Early presentations lack the classic signs.** Visible peristalsis and a palpable mass are often absent and **are not required to consider the diagnosis.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Classical clinical and biochemical features are unlikely in early presentations of pyloric stenosis … Visible gastric peristalsis and pyloric mass can be difficult to appreciate and are unlikely to be present in early presentations. They are not required to consider a diagnosis of pyloric stenosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1730cc4602bb6dce",
+     "n": 99,
+     "p": "Classica"
+    },
+    {
+     "h": "c5a65af6794b4512",
+     "n": 196,
+     "p": "Visible "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess the degree of dehydration, weigh, and plot against previous weights.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Assess degree of dehydration Weigh and plot on growth chart with previous weights if available",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80624f71177e84bc",
+     "n": 94,
+     "p": "Assess d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Differentials:** UTI · gastroenteritis · GOR · surgical causes such as volvulus or malrotation · congenital adrenal hyperplasia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Differential diagnoses Urinary tract infection Gastroenteritis Gastro-oesophageal reflux Surgical causes eg volvulus, malrotation Congenital adrenal hyperplasia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e30f63790443646",
+     "n": 160,
+     "p": "Differen"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Capillary or venous gas for electrolytes and glucose.** Prolonged vomiting gives a **hypochloraemic hypokalaemic metabolic alkalosis**, proportionate to symptom duration.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Capillary or venous blood gas for electrolytes and glucose … Hypochloraemic hypokalaemic metabolic alkalosis may be seen with prolonged vomiting, the degree of abnormality is proportionate to the duration of symptoms",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "57e3a66fefaa7c0b",
+     "n": 58,
+     "p": "Capillar"
+    },
+    {
+     "h": "0eb015c36f677368",
+     "n": 155,
+     "p": "Hypochlo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Abdominal ultrasound is 95% sensitive.** ⚠️ **Repeat it if suspicion persists** after an equivocal first scan.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abdominal ultrasound (95% sensitive in the diagnosis of pyloric stenosis). If ongoing clinical suspicion despite initial equivocal ultrasound, consider repeat study",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e00fe38c674da7e",
+     "n": 164,
+     "p": "Abdomina"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Gain IV access, correct fluids, electrolytes and acid-base, stop oral feeds**; pass a nasogastric tube if profuse vomiting continues despite stopping feeds.",
+   "claim": "**Gain IV access, correct fluids, electrolytes and acid-base, stop oral feeds**; if vomiting stays profuse even with feeds stopped, pass a nasogastric tube.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gain IV access Correction of dehydration, electrolyte disturbances and acid-base abnormalities Stop oral feeds Insert a nasogastric tube if profuse vomiting continues despite stopping feeds",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "604e33e64e358ca7",
+     "n": 189,
+     "p": "Gain IV "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Delay surgery until dehydration, electrolytes and acid-base are corrected — above all, until serum bicarbonate is normal**, because metabolic alkalosis risks post-operative hypoventilation/apnoea.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Surgical correction of pyloric stenosis is usually delayed until after correction of dehydration, electrolyte disturbances and acid-base abnormalities … It is particularly important to await normalisation of serum bicarbonate before surgery because of the risk of hypoventilation/apnoea post-operatively in the setting of a metabolic alkalosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fdcdee7c3da28d0f",
+     "n": 150,
+     "p": "Surgical"
+    },
+    {
+     "h": "0b2e358a7511b514",
+     "n": 190,
+     "p": "It is pa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Resuscitation fluid: 0.9% sodium chloride**, only as required — not every infant needs it.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Resuscitation 0.9% sodium chloride Fluid resuscitation as required. Not all infants will require fluid resuscitation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "448b86c7b0ca28e0",
+     "n": 116,
+     "p": "Resuscit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Deficit: 0.9% sodium chloride + 5% glucose** (volumes per the dehydration and IV fluid guidelines). ⚠️ **Add potassium once urine output is adequate (1–2 mL/kg/hr).**",
+   "claim": "**Deficit: 0.9% sodium chloride + 5% glucose** (volumes per the dehydration and IV fluid guidelines). ⚠️ **Add potassium when the infant is passing adequate urine (1–2 mL/kg/hr).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Deficit 0.9% sodium chloride + 5% glucose Refer to dehydration and IV fluids guidelines Include potassium in IV fluids once urine output is adequate (1-2 mL/kg/hr)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e2ac024bfd6d287",
+     "n": 163,
+     "p": "Deficit "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Maintenance: 0.9% sodium chloride + 5% glucose.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Maintenance (ongoing) 0.9% sodium chloride + 5% glucose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6eee1751097de499",
+     "n": 55,
+     "p": "Maintena"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Involve the paediatric team whenever pyloric stenosis is suspected.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Pyloric stenosis is suspected",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69fdcf1dbcbd4b55",
+     "n": 83,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Confirmed or strongly suspected: transfer early to a paediatric surgical centre**, once an initial management plan is in place.",
+   "claim": "⚠️ **Confirmed or strongly suspected: transfer early to a paediatric surgical centre**, after an initial management plan has been put in place.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Confirmed or high suspicion for pyloric stenosis. Transfer to a paediatric surgical centre early, once an initial management plan is in place",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d52a9dfa5a47a76b",
+     "n": 164,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge when** ultrasound is not consistent with pyloric stenosis, differentials have been considered, the infant is well and tolerating feeds, and follow-up is planned.",
+   "claim": "**Discharge when** the ultrasound does not support pyloric stenosis, differentials have been considered, the infant is well and tolerating feeds, and follow-up is planned.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Ultrasound is not consistent with pyloric stenosis Differential diagnoses have been considered Clinically well and tolerating oral feeds Follow-up plan in place",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5dcb5a0625ef0e5b",
+     "n": 184,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pyloric stenosis' (Last updated March 2024), at https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/, retrieved 2026-09-23"
   }
  ]

@@ -1,228 +1,125 @@
 # Eczema (atopic dermatitis)
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** children. Everyday skin management, flare treatment, and eczematous skin infection.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Scope:** children with atopic eczema: everyday skin care, topical steroid choice and fingertip-unit amounts, pimecrolimus, wet dressings and bleach baths, recognising and managing infected eczema, and when to involve paediatrics or dermatology. Adults are not covered. Related here: `allergic-rhinitis` (antihistamines only help eczema itch when urticaria or rhinitis coexists), `anaphylaxis-children` and `ige-mediated-food-allergy-children` (allergy testing and elimination diets are rarely needed for eczema), `febrile-child` and `sepsis-children` (fever and malaise with infected eczema), `cellulitis-and-skin-infections-children` (bacterial skin infection), `ectoparasites-scabies-and-pubic-lice` (itchy rash across a household), `topical-treatment-of-skin-conditions`.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Eczema***, Clinical Practice
-> Guideline, **last updated January 2024** [S1]. Built on the **Australasian College of Dermatologists
-> Consensus Statement on topical corticosteroids in paediatric eczema (2022)**, a **Cochrane review**, **NICE
-> CG57** and an **umbrella review of topical corticosteroid safety**.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 49 claims paraphrased from **The Royal Children's Hospital Melbourne — *Clinical Practice Guideline: Eczema*** (last updated January 2024; origin: AU). **79 anchors re-checkable by machine; 7 doses.** The source's words are not reproduced: its licence is *© The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored*.
 
-**AMH topics closed by this guideline:** *Eczema*, *Dermatitis*.
+> ⚠️ **The headline corrects common practice:** topical steroids do not need to be used sparingly or with breaks during a flare. Used as directed they are safe, and they are essential for flares.
 
-**Eczema affects 30% of children, and often develops before 12 months of age. Some children develop lifelong
-eczema** [S1].
-
-## ⚠️ The headline is a correction to common practice
-
-> **There is no requirement to use steroids 'sparingly' or for regular breaks from steroids during treatment
-> for eczema flares. Steroids should be applied generously followed by moisturiser** [S1].
-
-And the harm list that drives steroid avoidance is addressed directly:
-
-> **Topical steroids do not cause atrophy, hypopigmentation, hypertrichosis, osteoporosis, purpura or
-> telangiectasia when used as per guidelines. Rare complications such as striae, adrenal suppression and
-> ophthalmological disease have been reported with prolonged and excessive use of potent topical
-> steroids** [S1].
-
-**Topical steroids are safe and effective when used correctly, and are essential to the treatment of eczema
-flares** [S1], and — contrary to widespread caution — **they can be applied to broken and infected skin** [S1].
-
-⚠️ This is the same correction the **allergic rhinitis** guideline in this compendium carries from ASCIA:
-**topical corticosteroids such as INCS do not cause atrophy**. Two independent Australian sources, two
-different topical steroid routes, the same misconception being corrected.
-
-## The dose is a table, not a word
-
-**Steroid cream dosage for application be calculated using the "Fingertip Unit" method** [S1].
-
-**Fingertip Units per body area, by age** [S1]:
-
-| Age | Face and neck | Arm and hand | Leg and foot | Anterior chest and abdomen | Back and buttocks |
-|---|---|---|---|---|---|
-| **3–12 months** | 1 | 1 | 1 ½ | 1 | 1 ½ |
-| **>1–3 years** | 1 ½ | 1 ½ | 2 | 2 | 3 |
-| **>3–6 years** | 1 ½ | 2 | 3 | 3 | 3 ½ |
-| **>6–10 years** | 2 | 2 ½ | 4 ½ | 3 ½ | 5 |
-| **>10 years** | 2 ½ | 4 | 8 | 8 | 7 |
-
-**Topical steroids are required once or twice daily until the skin is completely clear** [S1].
-
-### Agents by site and severity [S1]
-
-| Site | Flare severity | Agent |
-|---|---|---|
-| **Sensitive — face, groin** | mild–moderate | **Hydrocortisone 1% ointment or cream** (mild potency) |
-| **Sensitive — face, groin** | severe | **Methylprednisolone aceponate 0.1%** — ⚠️ **short term use only, max 3–5 days on face/neck, 7–14 days on groin** |
-| **Body** | mild–moderate | **Methylprednisolone aceponate 0.1% fatty ointment, ointment or cream** |
-| **Body** | severe | **Mometasone furoate 0.1% ointment or cream** (potent) |
-| **Any** | — | ⚠️ **Very potent topical steroids eg Betamethasone dipropionate 0.05% should not be used without dermatological advice** |
-
-**Frequency**: **hydrocortisone — apply twice a day until symptoms resolved**; **mometasone and
-methylprednisolone — apply once a day until symptoms resolved** [S1].
-
-**Form**: **ointments are preferred to creams for their emollient effects**; **lotions are best used for hairy
-areas eg scalp** [S1].
-
-**Non-steroid alternative**: **Pimecrolimus 1% cream can be used as second-line treatment in children >3
-months** for mild–moderate flares in sensitive areas. ⚠️ **Treatment courses should be limited to 6 weeks
-(3 weeks if 3–23 months age)** [S1].
-
-**Mild to moderate facial eczema should be treated with low potency steroids to avoid chemical skin
-irritation** [S1].
-
-## Everyday skin management
-
-> **Children with eczema require optimal everyday skin management regardless of the appearance of their
-> skin** [S1].
-
-**Moisturisers** — **apply generously top-to-toe twice per day, including after bathing**; **a thick, plain
-moisturising cream, with high oil and low water content should be used** [S1]. ⚠️ **Avoid moisturisers
-containing fragrance, alcohol, sodium lauryl sulfate, plant or food products (eg cow or goat milk, vegetable,
-nut or olive oils) as these may disrupt the skin barrier and sensitise the skin** [S1].
-
-⚠️ **Avoid contaminating the moisturiser with bacteria from the hands. Use a spatula or spoon to remove cream
-from tub** [S1].
-
-**Bathing** — **daily bathing (where water quality/access allows) aids to reduce the bacterial skin load and
-reduce the risk of infection**; **baths and showers should be kept luke-warm (<31°C)** [S1]. **Do not use soap
-or shampoo** [S1]. A **capful of bath oil may be added**, with the warning that **this increases risk of child
-slipping, and direct supervision is always required** [S1].
-
-⚠️ Two named contact sensitisers: **avoid wash/cleanser products or hair washing products that contain
-methylisothiazolinone (MI) or methylchloroisothiazolinone (MCI) and nappy wipes that contain benzalkonium
-chloride, as these can cause contact dermatitis** [S1].
-
-**Moisturiser goes on top**: **apply the moisturiser on top of other topical medicines such as steroids** [S1].
-
-## What does not work
-
-⚠️ **Allergy testing is usually not required. Restrictive diets are usually not helpful, and parents should
-seek advice from a dermatologist or general paediatrician before eliminating foods from the diet** [S1].
-
-⚠️ **Non-sedating antihistamines do not improve eczema itch, but may be considered if there is concomitant
-urticaria or allergic rhinitis** [S1].
-
-### Why treatment fails
-
-**Common reasons for eczema treatments not being effective** [S1]: **inadequate education regarding eczema
-and the correct use of eczema treatments**; **inadequate application of moisturisers, topical steroids and/or
-wet dressings**; **ongoing exposure to eczema triggers**; **delayed use of eczema flare treatments**;
-**inability to identify and treat skin infections**; and **MRSA bacterial infection**.
-
-**Eczema flares are commonly due to inadequate caregiver education on eczema management, and triggers such as
-skin infection, irritant exposure and heat** [S1]. The guideline's remedy is structural, not pharmacological:
-**all children with eczema should be provided with a home eczema management plan, including steps to manage
-an eczema flare** [S1].
-
-## Wet dressings and bleach baths
-
-**Wet dressings assist to return moisture to the skin, protect from infection and further trauma, and help to
-reduce irritation and itch** [S1]. **Dressings should be applied with every flare 1–4 times daily for at least
-3 days** [S1], and **may be used in eczematous skin infections, in addition to antimicrobial treatment** [S1].
-
-**Cool compresses (cloth or towel soaked in water and/or bath oil) can used on the face to provide immediate
-relief of itch** [S1].
-
-**Bleach baths can be used daily with every flare to reduce the bacterial skin load.** ⚠️ **The child's face
-and head should be wet during the bath, but not submerged**, and **do not rinse after bathing** [S1].
-
-## Distribution, severity, and the look of infection
-
-**In infants <18 months, the cheeks, scalp and extensor surfaces are most often affected**; **in older
-children, eczema commonly presents as flexural dermatitis eg antecubital fossae, popliteal fossae, neck,
-front of ankles, periorbital area** [S1].
-
-**Severity** [S1]: **clear** — **normal skin, no evidence of active atopic eczema**; **mild** — **areas of dry
-skin, infrequent itching**; **moderate** — **areas of dry skin, frequent itching, redness**; **severe** —
-**widespread areas of dry skin, incessant itching, redness (with or without excoriation, extensive skin
-thickening, bleeding, oozing, cracking and alteration of pigmentation)**.
-
-**Infected eczema** [S1]: **cutaneous features include increasing itch, crusted, vesicular, satellite,
-pustular, erosive, tender, scabbed or weeping lesions on eczematous skin**; **systemic features include fever
-and malaise**.
-
-| Pattern | Appearance [S1] |
-|---|---|
-| **Bacterial** | **Itchy yellowish crusts, weeping, pustules, folliculitis** |
-| ⚠️ **Eczema herpeticum** | **Painful clustered blisters, punched-out erosions** |
-| **Eczema coxsackium** | **Vesiculobullous rash with brownish discolouration, satellite lesions surrounding areas of dermatitis** |
-
-⚠️ **A new itchy rash affecting multiple family members should prompt consideration of scabies** [S1].
-
-## Infection management
-
-**Broken eczematous skin has a high-risk of bacterial and/or viral skin infections** [S1]. Bacterial causes
-are **Staphylococcus aureus (consider MRSA in high-risk groups or if not responding to first-line
-antibiotics) and Streptococcus pyogenes** [S1].
-
-⚠️ Sequence matters: **remove crusted lesions by wiping them gently with a cloth whilst soaking in the bath.
-Only apply topical steroids and moisturisers after the crusts are removed** [S1].
-
-**Viral infections often co-exist with bacterial infection, consider if infected eczema is not responding to
-antibiotic management** [S1].
-
-> ⚠️ **Herpes simplex infection (eczema herpeticum) requires prompt initiation of antiviral treatment.
-> Intravenous antiviral treatment may be required in severe infections. Urgent Ophthalmology review is
-> required if the infection affects the periorbital area** [S1].
-
-**Recurrent infections**: **consider patient and family Staphylococcus aureus decolonisation**; **antiseptic
-preparations may reduce skin bacterial load eg bleach baths, triclosan skin cleanser, chlorhexidine skin
-wash** [S1].
-
-## Escalation
-
-**Consult the local paediatric team** for **eczema herpeticum or severe bacterial eczematous skin
-infections**; **moderate or severe eczema not responding to treatment despite compliance with correct
-treatment for 2 weeks or more**; ⚠️ **concern that the child's carers are not able to provide appropriate
-eczema treatments and are unable to access outpatient supports**; **severe eczema in a child <12 months old**;
-**poor feeding, poor sleep, failure to thrive**; and **suspicion of systemic disease eg immunodeficiency or
-micronutrient deficiency** [S1].
-
-**Consult dermatology** for **chronic eczema not controlled with optimised topical therapies and everyday
-skin management, for consideration of systemic therapies** [S1].
-
-**Prescribing note** [S1]: **provide children with prescriptions for multiple quantities and repeats (PBS
-authority where applicable) of each medication** — under-supply is treated as a cause of treatment failure.
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| ⚠️ **Allergic rhinitis** | the same steroid-phobia correction from an independent source — **topical corticosteroids do not cause atrophy** — and **non-sedating antihistamines may be considered if there is concomitant urticaria or allergic rhinitis** |
-| ⚠️ **Antimicrobial stewardship** | **MRSA** named as a cause of treatment failure; **S. aureus decolonisation** for recurrent infection; antivirals for eczema herpeticum |
-| **Acute anaphylaxis** · **Anaphylaxis (children)** | the atopic march; **allergy testing is usually not required** and **restrictive diets are usually not helpful** |
-| **Cataract** | **ophthalmological disease** is listed among the rare complications of **prolonged and excessive use of potent topical steroids**, and **urgent ophthalmology review** is required for periorbital eczema herpeticum |
-| **Febrile child** · **Sepsis (children)** | **systemic features include fever and malaise**; severe infection may require **admission and intravenous antibiotics** |
-| **Osteoporosis** | **osteoporosis** is explicitly named among the harms topical steroids **do not** cause when used as directed |
+> ⚠️ **No antibiotic or antiviral drug or dose is given by the source** for infected eczema or eczema herpeticum; use a dedicated infection guideline.
 
 ---
 
-## PBS listings — linked conditions (schedule 4333)
+## Key points
 
-These PBS conditions have no guideline of their own; the owner linked them to this one on 2026-09-24. Derived from PBS Public API data; the restriction criteria themselves are not reproduced.
+- **Eczema affects 30% of children** and often starts before 12 months of age; for some it lasts for life. [S1]
+- **Children with eczema need good daily skin care whatever their skin looks like.** [S1]
+- ⚠️ **Topical steroids, used properly, are both safe and effective — and flares cannot be treated without them.** [S1]
+- ⚠️ **Do not ration steroids or build in regular breaks during a flare.** Apply them generously, then moisturiser on top. [S1]
+- **Used according to guidelines, topical steroids do not cause** skin atrophy, hypopigmentation, hypertrichosis, osteoporosis, purpura or telangiectasia. Striae, adrenal suppression and eye disease are rare and reported only after long, excessive use of potent agents. [S1]
+- **Broken or infected skin can still have steroid applied.** [S1]
+- **Give every child with eczema a home management plan** that includes what to do in a flare. [S1]
+
+## How much steroid: fingertip units
+
+- **Work out how much steroid cream to apply with the Fingertip Unit method.** [S1]
+- ⚠️ **Fingertip units by area, for ages 3-12 months / over 1-3 / over 3-6 / over 6-10 / over 10 years:** face & neck 1 / 1½ / 1½ / 2 / 2½ · arm & hand 1 / 1½ / 2 / 2½ / 4 · leg & foot 1½ / 2 / 3 / 4½ / 8 · front of chest & abdomen 1 / 2 / 3 / 3½ / 8 · back & buttocks 1½ / 3 / 3½ / 5 / 7. [S1]
+- **Apply topical steroid once or twice a day until the skin is fully clear,** to settle the inflammation. [S1]
+
+## Agents by site and severity
+
+- ⚠️ **Face or groin, mild to moderate flare:** a mild-potency steroid such as hydrocortisone 1% (ointment or cream). [S1]
+- ⚠️ **Face or groin, severe flare:** a moderate-potency steroid such as methylprednisolone aceponate 0.1% (ointment or cream), short courses only — no more than 3-5 days on face and neck, 7-14 days on the groin. [S1]
+- ⚠️ **Body:** mild to moderate flare → moderate potency, e.g. methylprednisolone aceponate 0.1% (as a cream, ointment or fatty ointment) · severe flare → potent, e.g. mometasone furoate 0.1% (ointment or cream). [S1]
+- ⚠️ **Very potent steroids (such as betamethasone dipropionate 0.05%) only with dermatology advice.** [S1]
+- **How often:** hydrocortisone twice daily, mometasone or methylprednisolone once daily — in each case until symptoms clear. [S1]
+- **Form:** ointments beat creams because they moisturise better; use lotions on hairy skin such as the scalp. [S1]
+- ⚠️ **Pimecrolimus 1% cream** is a second-line option for mild to moderate flares in sensitive areas, for children over 3 months. Keep each course to 6 weeks at most (3 weeks for ages 3-23 months). [S1]
+- **Mild to moderate eczema on the face: use a low-potency steroid,** so the skin is not chemically irritated. [S1]
+
+## Everyday skin care
+
+- **Moisturise the whole body generously twice daily, and after baths,** with a thick, plain cream that is high in oil and low in water. [S1]
+- ⚠️ **Skip moisturisers with fragrance, alcohol, sodium lauryl sulfate, or plant or food ingredients** (milk from cows or goats; nut, olive or vegetable oils): they can damage the skin barrier and sensitise the skin. [S1]
+- **Keep hand bacteria out of the tub:** scoop cream out with a spoon or spatula. [S1]
+- **Bathe daily where the water supply allows,** to cut bacterial load on the skin and the chance of infection; keep water lukewarm (under 31°C). [S1]
+- **No soap and no shampoo** — use a soap-free cleanser that will not irritate. [S1]
+- ⚠️ **Bath oil (a capful) may go in the water, but it makes the child more likely to slip,** so an adult must always supervise directly. [S1]
+- ⚠️ **Contact dermatitis culprits to avoid:** washes, cleansers or hair products containing MI (methylisothiazolinone) or MCI (methylchloroisothiazolinone), and any nappy wipe with benzalkonium chloride. [S1]
+- **Layer moisturiser over steroid or other topical medicines,** not under. [S1]
+
+## What does not help
+
+- **Allergy tests are rarely needed and elimination diets rarely help;** parents should see a dermatologist or general paediatrician before cutting foods out. [S1]
+- **Non-sedating antihistamines do nothing for eczema itch;** consider them only when urticaria or allergic rhinitis is also present. [S1]
+- **Why treatment fails:** poor education about eczema and its treatments; not enough moisturiser, steroid or wet dressing applied; continued trigger exposure; skin infection missed or untreated; MRSA. [S1]
+- **Flares usually trace back to** caregivers not being taught enough about management, and to triggers — infection, irritants, heat. [S1]
+
+## Wet dressings and bleach baths
+
+- **Wet dressings** put moisture back into the skin, shield it from infection and more damage, and ease irritation and itch. Use them with every flare, 1-4 times a day for at least 3 days; they can be used on infected eczema alongside antimicrobials. [S1]
+- **For facial itch, a cool compress** (a cloth or towel soaked in water, bath oil or both) gives instant relief. [S1]
+- **Bleach baths can be used every day during a flare** to lower skin bacteria. Wet the face and head but do not put them under the water. [S1]
+
+## Distribution, severity and infection
+
+- **Where it appears:** in infants, mostly the cheeks, scalp and extensor surfaces; in older children, the flexures — elbow and knee creases, neck, front of the ankles, around the eyes. [S1]
+- **Severity:** clear — normal skin, no active eczema · mild — dry patches, itch now and then, perhaps small red areas · moderate — dry patches, frequent itch and redness, perhaps excoriation and local thickening · severe — widespread dryness, constant itch and redness, perhaps excoriation, extensive thickening, bleeding, oozing, cracking and pigment change. [S1]
+- ⚠️ **Signs of infected eczema:** in the skin — rising itch; lesions that are crusted, vesicular, satellite, pustular, eroded, tender, scabbed or weeping; systemically — fever and malaise. [S1]
+- **What each infection looks like:** bacterial — itchy yellow crusts, weeping, pustules, folliculitis · ⚠️ herpeticum — painful grouped blisters and punched-out erosions · coxsackium — vesiculobullous rash with brownish colour and satellite lesions around the eczema. [S1]
+- **A new itchy rash in several family members: think of scabies.** [S1]
+- **Discoid eczema tends to persist and resist treatment,** often needing longer courses of potent steroids. [S1]
+- **Tests are usually unnecessary.** [S1]
+
+## Managing infection
+
+- ⚠️ **Broken eczematous skin is at high risk of bacterial and viral infection.** Usual organisms: Staphylococcus aureus (think of MRSA if first-line antibiotics fail or the child is in a high-risk group) and Streptococcus pyogenes. [S1]
+- **Soak crusts off gently with a cloth in the bath first;** steroid and moisturiser go on only once the crusts are gone. [S1]
+- ⚠️ **Systemic features or severe infection may mean admission for intravenous antibiotics.** [S1]
+- **Viral infection often sits alongside bacterial infection;** suspect it when infected eczema is not improving on antibiotics. [S1]
+- ⚠️ **Eczema herpeticum (herpes simplex): start antivirals promptly;** severe cases may need them intravenously. Around the eyes → urgent ophthalmology review. [S1]
+- **Recurrent infection:** consider Staphylococcus aureus decolonisation (child and family); antiseptics such as bleach baths, triclosan cleanser or chlorhexidine wash may lower skin bacteria. [S1]
+
+## Escalation and prescribing
+
+- ⚠️ **Consider the local paediatric team for:** eczema herpeticum or severe bacterial infection; moderate or severe eczema not improving after 2 weeks or more of correctly followed treatment; carers who cannot deliver treatment and cannot reach outpatient support; severe eczema under 12 months of age; poor feeding, poor sleep or failure to thrive; suspected systemic disease (immunodeficiency, micronutrient deficiency); suspected coexisting severe allergy. [S1]
+- **Consider dermatology** for chronic eczema that stays uncontrolled despite optimised topical treatment and daily skin care, so systemic therapy can be considered. [S1]
+- **Prescribe generously:** several quantities and repeats of each medicine, with PBS authority where it applies. [S1]
+
+---
+
+## PBS listings (Australian access, schedule 4333)
+
+Derived from PBS Public API data: counts of current restrictions, access type and listed drugs. The restriction criteria themselves are not reproduced (see `docs/no-guideline-action-agenda.md`, Decision 1).
 
 | PBS condition | restrictions | authority / streamlined / restricted | drugs | PBS items |
 |---|---:|---|---|---:|
 | Corticosteroid-responsive dermatoses | 11 | 0 / 5 / 6 | Methylprednisolone, Betamethasone, Mometasone, Hydrocortisone, Clobetasol, Triamcinolone | 67 |
 
+---
+
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| ⚠️ **Antibiotic agent, dose and duration** | **input_unavailable** | **treat with antibiotics** links out; **no agent, dose or duration is stated** and none is reconstructed |
-| ⚠️ **Antiviral agent and dose** | **input_unavailable** | eczema herpeticum **requires prompt initiation of antiviral treatment** — **no agent or dose given** |
-| ⚠️ **Bleach bath concentration** | **input_unavailable** | method described (**face and head wet but not submerged**, **do not rinse**) but **no bleach concentration or volume**; the recipe sits in a linked parent resource, **not retrieved** |
-| **Fingertip unit definition** | **input_unavailable** | the table is reproduced, but **what constitutes one fingertip unit is not defined on the page** — it links to **AMH Fingertip units** |
-| **Wet dressing method** | **input_unavailable** | **parents must be educated on how to correctly make and apply wet dressings** — **the method is not given** |
-| **Decolonisation regimen** | **input_unavailable** | **consider patient and family Staphylococcus aureus decolonisation** — **no regimen** |
-| **Systemic therapies** | **out_of_scope** | dermatology referral is **for consideration of systemic therapies**; **none are named** |
-| **Discoid eczema treatment** | **input_unavailable** | described as **associated with increased persistence and treatment resistance, often requiring extended treatment courses with potent steroids** — **no course length given** |
-| **Adults** | **out_of_scope** | paediatric guideline; AMH's *Eczema* and *Dermatitis* topics are not age-restricted |
-| **Currency** | **time_sensitive** | **last updated January 2024**; the underlying ACD consensus statement is **September 2022** |
+| 1 | **Antibiotics for infected eczema:** the page links out and names no agent, dose or duration; none is supplied here. | `input_unavailable` |
+| 2 | **Antiviral for eczema herpeticum:** prompt treatment is required, but no drug or dose is named. | `input_unavailable` |
+| 3 | **Bleach bath recipe:** the method is described but not the bleach strength or volume, which sit in a linked parent resource that was not retrieved. | `input_unavailable` |
+| 4 | **Fingertip unit** is not defined on the page (it links to AMH); the table's grid alignment should be confirmed on the live page. | `input_unavailable` |
+| 5 | **How to make a wet dressing** is not described; the page says only that parents need to be taught. | `input_unavailable` |
+| 6 | **Decolonisation regimen** is not given. | `input_unavailable` |
+| 7 | **Systemic therapies** are the reason for dermatology referral but none is named. | `out_of_scope` |
+| 8 | **Discoid eczema:** longer potent-steroid courses are advised without a course length. | `input_unavailable` |
+| 9 | **Paediatric consultation list:** the fresh page also lists severe eczema under 12 months and suspected concurrent severe allergy, which edition 1.0 did not carry; both are now in the escalation claim. | `observation` |
+| 10 | **Adults** are outside this paediatric source. | `out_of_scope` |
+| 11 | **Currency:** last updated January 2024. | `time_sensitive` |
+| 12 | **Licence:** RCH terms (clause 5.2) permit personal use only, so every claim is a paraphrase backed by hash anchors; the page's words are not reproduced. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Eczema.* Last updated January 2024. https://www.rch.org.au/clinicalguide/guideline_index/Eczema/ (retrieved 2026-09-22) | clinical practice guideline (AU) |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Eczema*. last updated January 2024. https://www.rch.org.au/clinicalguide/guideline_index/Eczema/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

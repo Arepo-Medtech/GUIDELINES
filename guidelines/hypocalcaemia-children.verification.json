@@ -1,152 +1,301 @@
 {
  "guideline": "guidelines/hypocalcaemia-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Hypocalcaemia' (Last updated July 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Hypocalcaemia' (Last updated July 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 18,
-  "pass": 18,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
    "claim": "**Hypocalcaemia = total calcium under 2.2 mmol/L or ionised calcium under 1 mmol/L**; symptoms typically start below a total of 1.8 mmol/L. Not for neonates under 1 month.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "This guideline does not cover hypocalcaemia in neonates <1 month of age Hypocalcaemia is defined as a total calcium <2.2 mmol/L or an ionised calcium <1 mmol/L. The onset of symptoms in hypocalcaemia typically occurs with a total calcium <1.8 mmol/L",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f318b79e7ff017f4",
+     "n": 249,
+     "p": "This gui"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Severity by total calcium:** mild under 2.2 (asymptomatic) · moderate under 1.8 (paraesthesia, cramps, tetany) · severe under 1.6 (arrhythmia, stridor, apnoea, confusion, seizures). ⚠️ **Any severe feature = treat as severe whatever the level.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If any severe features present, treat as severe despite the calcium level Severity Total calcium (mmol/L) Common features Mild <2.2 Asymptomatic Moderate <1.8 Paraesthesia Muscle cramps Tetany Severe <1.6 Arrhythmia Stridor, apnoea Confusion, agitation, seizures",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "718f59d6df6df34c",
+     "n": 262,
+     "p": "If any s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Commonest causes: vitamin D deficiency and PTH deficiency.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The most common causes of hypocalcaemia are vitamin D deficiency and parathyroid hormone (PTH) deficiency",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "126e0b81d69f2b8a",
+     "n": 105,
+     "p": "The most"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Collect before replacing if possible:** corrected and ionised calcium, magnesium, phosphate, PTH, 25-hydroxy vitamin D, UEC, and an **ECG for QTc prolongation or arrhythmia.**",
+   "claim": "**Collect before replacing if possible:** corrected and ionised calcium, UEC, magnesium, phosphate, 25-hydroxy vitamin D, PTH, and an **ECG for QTc prolongation or arrhythmia.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If possible, collect all prior to calcium replacement … Corrected calcium (also order albumin if required by local laboratory) Ionised calcium (venous or capillary blood gas) Magnesium, phosphate PTH 25 hydroxy vitamin D UEC ECG to identify conduction abnormalities … Look for QTc prolongation, arrhythmia, atrial fibrillation, torsades de pointes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "44c1bfdcd252fb13",
+     "n": 53,
+     "p": "If possi"
+    },
+    {
+     "h": "fa536ba4811044f1",
+     "n": 209,
+     "p": "Correcte"
+    },
+    {
+     "h": "b12c2ac332f627ca",
+     "n": 79,
+     "p": "Look for"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Replace calcium if corrected calcium is under 2.0 mmol/L or ionised under 1.0 mmol/L, or there are symptoms, signs or ECG changes.** Moderate–severe hypocalcaemia needs ECG monitoring and IV access.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with moderate to severe hypocalcaemia require ECG monitoring and IV access Calcium should be replaced if corrected calcium <2.0 mmol/L or ionised calcium <1.0 mmol/L signs and symptoms of hypocalcaemia and/or ECG changes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2a292a240dbee03",
+     "n": 229,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Correct magnesium and potassium too** — untreated hypomagnesaemia can make hypocalcaemia resistant to treatment.",
+   "claim": "⚠️ **Correct magnesium and potassium too** — if hypomagnesaemia is left untreated, hypocalcaemia may not respond to treatment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Address any abnormalities of magnesium and potassium. Untreated hypomagnesaemia can make hypocalcaemia resistant to treatment.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "737b074fe20859a3",
+     "n": 126,
+     "p": "Address "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Oral/enteral is preferred, given with food.** Consider IV for severe acute hypocalcaemia or ECG changes.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oral/enteral route This is the preferred route of calcium replacement Should be given with food IV calcium should be considered if Severe acute hypocalcaemia Presence of ECG changes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0d635af7346baf33",
+     "n": 181,
+     "p": "Oral/ent"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Acute oral dose (elemental calcium):** 1 month–12 years **10–20 mg/kg orally qid**, increasing as needed (up to 120–200 mg/kg/day); 12–18 years **1–2 g daily in 3 or 4 divided doses.**",
+   "claim": "**Acute oral dose (elemental calcium):** 1 month–12 years **10–20 mg/kg orally qid**, increasing as needed (to a maximum of 120–200 mg/kg/day); ages 12–18 years **1–2 g daily in 3 or 4 divided doses.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute replacement dose 1 month-12 years, elemental calcium 10-20 mg/kg oral qid. Increase as required. May require doses up to 120-200 mg/kg/day 12-18 years, elemental calcium 1-2 g oral daily in 3 or 4 divided doses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bed5f98830165d1b",
+     "n": 216,
+     "p": "Acute re"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Add calcitriol 0.015 microg/kg (max 0.25 microg) daily**; it increases calcium absorption within 1–2 days. Monitor calcium and phosphate every few days until stable, then every 1–2 weeks.",
+   "claim": "**Also give calcitriol daily, 0.015 microg/kg (max 0.25 microg)**; it increases calcium absorption within 1–2 days. Monitor calcium and phosphate every few days until they are stable, and every 1–2 weeks after that.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Add calcitriol*: 0.015 microg/kg (max 0.25 microg) daily Clinical and biochemical monitoring of phosphate and calcium every few days until stable, then every 1-2 weeks … Calcitriol is the most active form of vitamin D and increases absorption of calcium in 1-2 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "653b3d2c79966577",
+     "n": 167,
+     "p": "Add calc"
+    },
+    {
+     "h": "9680e16f6e6a1d8b",
+     "n": 95,
+     "p": "Calcitri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Maintenance / recommended daily elemental calcium:** 1–3 years 500 mg · 4–8 years 700 mg · 9–11 years 1000 mg · 12–18 years 1300 mg orally; monitor 6-monthly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Maintenance dose/ recommended daily intake Elemental calcium: 1-3 years, 500 mg oral 4-8 years, 700 mg oral 9-11 years, 1000 mg oral 12-18 years, 1300 mg oral Clinical and biochemical monitoring 6 monthly",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1200d2423841391b",
+     "n": 204,
+     "p": "Maintena"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Tablets:** Cal-500 / Cal-Sup = 500 mg elemental calcium (1250 mg carbonate); Cal-600 = 600 mg (1500 mg carbonate). Check other products' strengths carefully.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cal-500® Cal-Sup® (chewable) 500 mg (1250 mg calcium carbonate) Cal-600® 600 mg (1500 mg calcium carbonate) Other products containing different amounts of calcium (and/or cholecalciferol) may be available. Check ingredients and strengths carefully",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "745199ef98091b87",
+     "n": 247,
+     "p": "Cal-500®"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Both calcium chloride and gluconate are vesicants** — extravasation risks necrosis; **gluconate is preferred without central access.** ⚠️ **Rapid administration can cause hypotension, bradycardia, arrhythmia and cardiac arrest.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk of necrosis if extravasation occurs. Both calcium chloride and calcium gluconate are vesicants. Calcium gluconate is less irritating to veins and preferred if central venous access is unavailable Rapid administration may cause vasodilation, hypotension, bradycardia, arrhythmias and cardiac arrest",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3783337e4d6a9c7d",
+     "n": 302,
+     "p": "Risk of "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Target a safe range: corrected calcium over 1.8 or ionised over 1.0.** Switch to oral as soon as the child is stable. Discuss with ICU/retrieval if an IV infusion is needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Switch from IV to oral route as soon as child is stable … Aim to increase and stabilise calcium levels to a safe range: corrected calcium >1.8 or ionised calcium >1.0 … Discuss with ICU or retrieval service if requiring IV infusion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed79eefc4254bf8c",
+     "n": 55,
+     "p": "Switch f"
+    },
+    {
+     "h": "b6746e54f657de66",
+     "n": 108,
+     "p": "Aim to i"
+    },
+    {
+     "h": "821ec439f69c73fd",
+     "n": 62,
+     "p": "Discuss "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Calcium gluconate (2.2 mmol/10 mL), 1 month–18 years:** large vein IV or IO, **0.07–0.14 mmol/kg (max 4.4 mmol) over 10–60 minutes**, repeated every 4–6 hours if needed until asymptomatic; may follow with an infusion of 0.44–1.76 mmol/kg/day.",
+   "claim": "**Calcium gluconate (2.2 mmol per 10 mL), ages 1 month–18 years:** large vein IV or IO, **0.07–0.14 mmol/kg given over 10–60 minutes (max 4.4 mmol)**, repeated every 4–6 hours if needed until asymptomatic; may follow with an infusion of 0.44–1.76 mmol/kg/day.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Calcium gluconate (2.2 mmol/10 mL) 1 month-18 years Give via large vein IV or intraosseous 0.07 to 0.14 mmol/kg (max 4.4 mmol) over 10-60 minutes Repeat every 4-6 hours if required until asymptomatic … May need to follow with an IV infusion at a rate of 0.44-1.76 mmol/kg/day",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef9feb861a06ddfb",
+     "n": 199,
+     "p": "Calcium "
+    },
+    {
+     "h": "f88ed785afe5f72a",
+     "n": 73,
+     "p": "May need"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Calcium chloride 10%, 1 month–18 years:** large vein IV or IO, **0.07–0.14 mmol/kg (max 6.8 mmol) over at least 6 minutes**; may follow with an infusion of 0.5–1 mmol/kg/day. Check calcium every 6–8 hours initially.",
+   "claim": "**Calcium chloride 10%, 1 month–18 years:** large vein IV or IO, **0.07–0.14 mmol/kg over at least 6 minutes (max 6.8 mmol)**; an infusion of 0.5–1 mmol/kg/day may follow. Initially, check calcium every 6–8 hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Calcium chloride 10% 1 month-18 years Give via a large vein IV or intrasosseus 0.07-0.14 mmol/kg (max 6.8 mmol) over at least 6 minutes … May need to follow with an infusion at a rate of 0.5-1 mmol/kg/day Check calcium levels every 6-8 hours initially to assess treatment efficacy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d055f28b25806b86",
+     "n": 135,
+     "p": "Calcium "
+    },
+    {
+     "h": "a7353a66355c7363",
+     "n": 142,
+     "p": "May need"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Dilution:** calcium gluconate (0.22 mmol/mL) to 0.11 mmol/mL or weaker; calcium chloride (0.68 mmol/mL) to 0.14 mmol/mL or weaker.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Calcium gluconate 93.1 mg/mL 0.22 mmol/mL Dilute to 0.11 mmol/mL or weaker using appropriate solutions* Calcium chloride 100 mg/mL 0.68 mmol/mL Dilute to 0.14 mmol/mL or weaker using appropriate solutions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad59732f86938a8e",
+     "n": 204,
+     "p": "Calcium "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Consider transfer if** ionised calcium under 1.0 or corrected under 1.8, symptomatic, significant ECG changes (prolonged QT, arrhythmia), neonate, or complex medical condition. Involve endocrinology if a cause other than vitamin D deficiency is suspected.",
+   "claim": "**Consider transfer if** ionised calcium under 1.0 or corrected under 1.8, symptomatic, significant ECG changes (prolonged QT, arrhythmia), neonate, or complex medical condition. Involve endocrinology if the suspected cause is something other than vitamin D deficiency.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider transfer when Ionised calcium <1.0 or corrected calcium <1.8 Symptomatic hypocalcaemia Significant ECG changes including prolonged QT or arrhythmia Risk of arrhythmia Neonates Child with complex medical condition … Consider consultation with endocrinology team when Child is <1 month of age Severe or symptomatic hypocalcaemia If a cause other than vitamin D deficiency is suspected",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e04960b6c1d43aeb",
+     "n": 221,
+     "p": "Consider"
+    },
+    {
+     "h": "6b726db2004eac09",
+     "n": 167,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when asymptomatic with a stable corrected calcium over 1.8 mmol/L** and a plan for monitoring and follow-up of the cause.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Asymptomatic and stable corrected calcium >1.8 mmol/L Plan for ongoing monitoring and follow-up of investigations for underlying cause",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca55761d1348a2f4",
+     "n": 158,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Hypocalcaemia' (Last updated July 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Hypocalcaemia/, retrieved 2026-09-23"
   }
  ]

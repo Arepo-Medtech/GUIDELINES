@@ -1,223 +1,427 @@
 {
  "guideline": "guidelines/diabetes-insipidus-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Diabetes insipidus' (Last updated May 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Diabetes insipidus' (Last updated May 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 28,
-  "pass": 28,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
-   "claim": "⚠️ **Always allow free access to water; never restrict fluid intake.** Urine output may not reflect hydration status.",
+   "claim": "⚠️ **Water must be freely available at all times — do not restrict fluids.** Urine output may not reflect hydration status.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with suspected or known diabetes insipidus (DI) must always have free access to water. Never restrict fluid intake Urine output may not reflect hydration status",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1169916879bd41f8",
+     "n": 169,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Inpatients need close electrolyte and fluid-balance monitoring** — most critical when the child is too young or too unwell to respond to thirst.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Close monitoring of electrolytes and fluid balance is required for inpatients with DI. This is particularly critical when children are too young or too unwell to adequately respond to thirst",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "43cd415845f1c388",
+     "n": 190,
+     "p": "Close mo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **DI is dangerous when the child cannot drink freely** (very young, altered conscious state, nil by mouth, too unwell) **or has impaired thirst** (complex midline CNS defect, hypothalamic trauma or malignancy).",
+   "claim": "⚠️ **DI is dangerous when the child cannot drink freely** (very young, altered conscious state, nil by mouth, too unwell) **or has impaired thirst** (hypothalamic trauma or malignancy, complex midline CNS defect).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "DI is dangerous when a child is unable to access water freely (eg very young child, altered conscious state, nil by mouth or too unwell) or has an impaired thirst response (eg complex midline CNS defect, hypothalamic trauma or malignancy)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef9c00451a4aa522",
+     "n": 238,
+     "p": "DI is da"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Causes — central:** head trauma, pituitary-region tumour, post-neurosurgery, genetic, meningitis, idiopathic. **Nephrogenic:** genetic or acquired concentrating defects.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "central: head trauma, brain tumour in/near the pituitary, post-neurosurgery, genetic, meningitis or idiopathic nephrogenic: genetic or acquired urinary concentrating defects",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17180b9f34e8c5ab",
+     "n": 173,
+     "p": "central:"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Polyuria = urine output >4 mL/kg/hr averaged over a 6 hour period** (may be higher in neonates — discuss with a specialist).",
+   "claim": "**Polyuria = more than 4 mL/kg/hr of urine, averaged across 6 hours** (may be higher in neonates — discuss with a specialist).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Polyuria urine output >4 mL/kg/hr (averaged over a 6 hour duration) may be higher in neonates, discuss with specialist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd28b62c8b6144ea",
+     "n": 118,
+     "p": "Polyuria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Polydipsia clues:** drinking overnight, persistent focus on drinking any fluid, drinking from unusual sources such as animal bowls. Also nocturia or new bedwetting, weight loss, constipation.",
+   "claim": "**Polydipsia clues:** drinking through the night, drinking from unusual sources such as animal bowls, a persistent preoccupation with drinking any fluid. Also nocturia or new bedwetting, weight loss, constipation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nocturia or new onset nocturnal enuresis Polydipsia drinking overnight persistent focus on drinking any fluid (which is unusual for child) drinking from unusual sources (eg animal bowls) … Loss of weight (fluid replacing food intake and dehydration) … Constipation (from dehydration)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d95be68164f33a4",
+     "n": 186,
+     "p": "Nocturia"
+    },
+    {
+     "h": "5fc66bb51d75804c",
+     "n": 60,
+     "p": "Loss of "
+    },
+    {
+     "h": "8a245ff60be842e5",
+     "n": 31,
+     "p": "Constipa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Babies present non-specifically:** irritability, poor feeding, slow growth — or excess weight gain when thirst is met with milk feeds.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms in babies can be non-specific such as irritability, poor feeding and slow growth (or excessive weight gain due to thirst managed with milk feeds)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c707e063995e950f",
+     "n": 154,
+     "p": "Symptoms"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider primary polydipsia (habitual drinking)** as an alternative diagnosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider primary polydipsia (habitual drinking) as a possible alternative diagnosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28a8603d77133c66",
+     "n": 83,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Urgent BGL to exclude diabetes mellitus**; UEC, CMP; urine dipstick for specific gravity and glucose; **paired early morning urine and serum osmolality** — in DI, serum osmolality is high with inappropriately dilute urine.",
+   "claim": "**Urgent BGL — rule out diabetes mellitus**; UEC and CMP; urine dipstick (glucose, specific gravity); **serum osmolality paired with an early morning urine osmolality** — DI shows a high serum osmolality alongside inappropriately dilute urine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urgent BGL (to exclude Diabetes mellitus) UEC, CMP Urine dipstick: check specific gravity, glucose Paired early morning urine and serum osmolality in DI serum osmolality is high with inappropriately dilute urine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca46262123bbc908",
+     "n": 211,
+     "p": "Urgent B"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Water deprivation test only under specialist guidance**; may not be appropriate for infants <12 months for safety reasons.",
+   "claim": "⚠️ **Water deprivation test only under specialist guidance**; for safety it may be unsuitable under 12 months of age.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A water deprivation test will distinguish central DI from nephrogenic DI and primary polydipsia. This test should only be performed under specialist guidance, and may not be appropriate for infants <12 months due to safety",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd5d1535489b96d8",
+     "n": 222,
+     "p": "A water "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Suspected central DI:** MRI brain and pituitary, and screen the other anterior pituitary hormones. Consider renal ultrasound if nephrogenic DI is suspected.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If concern for central DI: MRI brain and pituitary, screen other anterior pituitary hormones … Consider renal ultrasound particularly if nephrogenic DI suspected",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "566765cc31a4117c",
+     "n": 92,
+     "p": "If conce"
+    },
+    {
+     "h": "e3185c7ca1aa2c79",
+     "n": 66,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Strict fluid balance chart reviewed at least twice daily; daily weight.** ⚠️ **Excess IV fluid or excess desmopressin can rapidly cause fluid overload and life-threatening hyponatraemia.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Strict fluid balance chart with at least twice daily review Daily weight (more often may be required) Avoid excessive IV fluids and/or excessive desmopressin which can rapidly lead to fluid overload and life-threatening hyponatraemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa2cd8f91fc43008",
+     "n": 233,
+     "p": "Strict f"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If IV fluids are needed: sodium chloride 0.9% with glucose 5%; avoid hypotonic fluids.** Correct electrolytes and osmolality slowly.",
+   "claim": "**If IV fluids are needed, give glucose 5% in sodium chloride 0.9% — no hypotonic fluids.** Correct electrolytes and osmolality slowly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If IV fluids are required, use sodium chloride 0.9% with glucose 5% (avoid hypotonic fluids) Correct electrolyte imbalances and serum osmolality slowly",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35c3acde7ead2af4",
+     "n": 151,
+     "p": "If IV fl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Sodium ≥170 mmol/L: specialist advice and consider ICU. Sodium 150-169 mmol/L: replace the free water deficit slowly over 48 hours** with specialist advice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "if serum sodium ≥170 mmol/L, seek specialist advice and consider ICU if serum sodium 150-169 mmol/L replace free water deficit slowly over 48 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab3411fc392eab59",
+     "n": 147,
+     "p": "if serum"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **After neurosurgery, expect a possible triphasic response** (DI, then SIADH, then permanent DI); desmopressin is generally given as needed rather than regularly until the SIADH and sudden-hyponatraemia risk has passed.",
+   "claim": "⚠️ **After neurosurgery, expect a possible triphasic response** (DI, then SIADH, then permanent DI); desmopressin is usually given PRN, not regularly, until the SIADH and sudden-hyponatraemia risk has passed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immediately after neurosurgery, a triphasic response (immediate DI followed by a variable period of SIADH and subsequent permanent DI) may occur … Desmopressin treatment is generally given as needed rather than regularly until risk of SIADH and sudden hyponatraemia has passed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "413a44617ec18778",
+     "n": 144,
+     "p": "Immediat"
+    },
+    {
+     "h": "1ba2411b0076b009",
+     "n": 129,
+     "p": "Desmopre"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discuss every child with endocrinology before starting or changing desmopressin.** Effect is all or nothing; dose changes alter duration of action (8-24 hours), not degree of response.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children should be discussed with endocrinology before starting or modifying desmopressin treatment Desmopressin effect is all or nothing, although dose required to achieve this may vary. Subsequent changes to dose will determine the duration of action (8-24 hours) rather than the degree of response",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2839e63286d69d40",
+     "n": 304,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Routes (oral, intranasal, subcut, IM, IV) are not equivalent.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Dosing routes include oral, intranasal, subcutaneous, intramuscular and intravenous. Care should be taken as dosing routes are not equivalent",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae90417d3cc920e5",
+     "n": 141,
+     "p": "Dosing r"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Don't stop or withhold regular desmopressin without specialist discussion. Known central DI may coexist with adrenal insufficiency — consider stress-dose steroids when unwell.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Discuss with specialist before discontinuing or withholding regular desmopressin in children with known central DI Children with known central DI may also have adrenal insufficiency. If they are unwell the need for stress dose steroids must also be considered",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ef58abfbda5de7a",
+     "n": 259,
+     "p": "Discuss "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**When unwell or changing treatment:** daily UEC and osmolality with paired urine osmolality until stable; more often if correcting hypernatraemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "When a child is unwell or modifying treatment, perform daily UEC and osmolality and paired urine osmolality until stable. More frequent UEC if correcting hypernatraemia or concerns about fluid balance",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3d7a78324fb8dbbc",
+     "n": 200,
+     "p": "When a c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Before each dose:** serum sodium ≥135 mmol/L within 1-2 hours; check and document urine specific gravity (dilute <1.005); allow 1-2 hours of diuresis before further doses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ensure serum sodium result is ≥135 mmol/L (or higher threshold as directed) within 1-2 hours prior to administration of desmopressin dose Check urine specific gravity and document (dilute <1.005) prior to every dose 1-2 hours of diuresis is required prior to further doses to allow free water clearance",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d85e7f4193af90af",
+     "n": 302,
+     "p": "Ensure s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Urine output >4 mL/kg/hr for 2 consecutive hours:** may need repeat sodium and a higher or repeat dose. **No urine output for 12 hours:** may need to reduce or withhold the dose.",
+   "claim": "**More than 4 mL/kg/hr of urine for 2 hours in a row:** may need repeat sodium and a higher or repeat dose. **No urine in the previous 12 hours:** the dose may need reducing or withholding.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If urine output >4 mL/kg/hr for 2 consecutive hours, may need repeat serum sodium and consideration of higher or repeat desmopressin dosing If desmopressin due and there has been no urine output for previous 12 hours, may need to reduce or withhold the dose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6fc5fd250b7843eb",
+     "n": 257,
+     "p": "If urine"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Manage with a paediatric nephrologist and dietician.** Low-solute (low-sodium, low-protein) diet; consider thiazide diuretics; correct calcium, potassium and magnesium.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children should be managed in conjunction with a paediatric nephrologist and dietician … Low solute (low-sodium, low-protein) diet to reduce urine solute load and urine output Consider thiazide diuretics … Correct any calcium, potassium or magnesium imbalances",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e90d118d1ddff1d7",
+     "n": 90,
+     "p": "All chil"
+    },
+    {
+     "h": "0a8ddffd514ec351",
+     "n": 114,
+     "p": "Low solu"
+    },
+    {
+     "h": "b5c366a74ce4194a",
+     "n": 54,
+     "p": "Correct "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "**Desmopressin will not treat complete nephrogenic DI**; rarely considered in difficult non-genetic cases for a partial response.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Desmopressin (DDAVP) is a long-acting analogue of ADH (will not treat complete nephrogenic DI) … Rarely desmopressin may be considered in difficult, non-genetic cases as there may be a partial response",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aad500a258af2e0c",
+     "n": 94,
+     "p": "Desmopre"
+    },
+    {
+     "h": "ee7c770bb96773d6",
+     "n": 104,
+     "p": "Rarely d"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Beyond a 10 mL/kg bolus of sodium chloride 0.9% for emergency resuscitation, discuss all fluids with a nephrologist.**",
+   "claim": "⚠️ **Apart from a single 10 mL/kg sodium chloride 0.9% resuscitation bolus, every fluid decision must be discussed with a nephrologist.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Beyond a 10 mL/kg bolus of sodium chloride 0.9% for emergency resuscitation, all fluid management for children with nephrogenic DI must be discussed with a nephrologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "55519975ecf0d6ec",
+     "n": 168,
+     "p": "Beyond a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Genetic nephrogenic DI:** safest is enteral free water with careful sodium monitoring; glucose 5% if enteral fluids are contraindicated. ⚠️ **Sodium chloride fluids risk worsening hypernatraemic dehydration.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The safest option is enteral free water replacement and careful monitoring of serum sodium If enteral fluids are contraindicated, glucose 5% can be used Sodium chloride containing fluids must not be used for ongoing management without nephrology consultation due to risk of worsening hypernatraemic dehydration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce2a629fce790f13",
+     "n": 310,
+     "p": "The safe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Endocrinology or nephrology:** all children being investigated for DI or starting/changing desmopressin; known DI with impaired thirst admitted, or with reduced access to water (fasting, cast, sedated, intubated); nephrogenic DI at risk of hypernatraemic dehydration.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children requiring investigation for DI or starting or modifying desmopressin treatment All children with known central or nephrogenic DI and impaired thirst admitted to hospital or those with reduced access to free water (eg required to fast, immobilised due to a cast, sedated or intubated) Any child with nephrogenic DI at risk of/with hypernatraemic dehydration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "012abd43c85d6cad",
+     "n": 369,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Transfer: severe hypernatraemia (>170 mmol/L)** or complex fluid and electrolyte management.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Any child with severe hypernatraemia (>170 mmol/L) Any child with complex fluid balance and electrolyte management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "343a610bfda9154f",
+     "n": 114,
+     "p": "Any chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Discharge when** the family can monitor thirst and urine output and knows when to seek advice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Family able to monitor thirst and urine output, and are aware of when to seek advice as per specialist guidance",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "988af56505538dc7",
+     "n": 111,
+     "p": "Family a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Diabetes insipidus' (Last updated May 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/, retrieved 2026-09-23"
   }
  ]

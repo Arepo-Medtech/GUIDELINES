@@ -1,196 +1,422 @@
 {
  "guideline": "guidelines/pertussis-management-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Whooping cough (pertussis)' (Last updated May 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Whooping cough (pertussis)' (Last updated May 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 25,
-  "pass": 25,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 25
  },
  "claims": [
   {
    "claim": "⚠️ **Pertussis is notifiable in Australia — notify every suspected or confirmed case.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pertussis is a notifiable disease in Australia … Notify all cases (suspected or confirmed) of pertussis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42d6f435366e5879",
+     "n": 46,
+     "p": "Pertussi"
+    },
+    {
+     "h": "404b4a12990bd1cb",
+     "n": 54,
+     "p": "Notify a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Infants ≤6 months are at greatest risk** of apnoea, bradycardia, severe pneumonia, seizures and encephalopathy, and are **most often infected by family members.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infants ≤6 months of age are at greatest risk of complications (apnoea, bradycardia, severe pneumonia, seizures, encephalopathy) and are most commonly infected by spread from family members",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd488b848efef574",
+     "n": 189,
+     "p": "Infants "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Immunised children can get it, usually less severely.** Immunity wanes 4–12 years after the last dose; neither vaccine nor infection gives lifelong protection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Can occur in immunised children, but the illness is generally less severe … Immunity wanes after 4-12 years from last pertussis vaccine dose; neither vaccination nor natural disease confer complete or lifelong protective immunity",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74d83d1192e99dd0",
+     "n": 73,
+     "p": "Can occu"
+    },
+    {
+     "h": "ec7d8fa206b4d1c1",
+     "n": 153,
+     "p": "Immunity"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Incubation 4–21 days (usually 7–10).** Infectious from symptom onset until the earliest of 21 days after onset, 14 days after paroxysmal cough began, or 5 days of appropriate antibiotics.",
+   "claim": "**Incubation 4–21 days (usually 7–10).** Infectious from symptom onset until whichever comes first: 21 days from onset, 14 days from the start of paroxysmal cough, or 5 days of appropriate antibiotics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Incubation period Ranges from 4-21 days, usually 7-10 days Infectious period From onset of symptoms until the earliest of: 21 days after onset of symptoms, 14 days after onset of paroxysmal cough, or completion of 5 days of appropriate antibiotics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ea65d3659b479ca",
+     "n": 247,
+     "p": "Incubati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Phases:** catarrhal (1–2 weeks; coryza, dry cough) → paroxysmal (1–2 weeks; paroxysms peaking after about a week) → convalescent (2–6 weeks, up to 3 months).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Catarrhal phase (1-2 weeks): coryza and non-productive cough Paroxysmal phase (1-2 weeks): episodes of paroxysmal coughing which peak after about a week … Convalescent phase (2-6 weeks, may last up to 3 months): cough tapers off",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0782bfb2c2f4f97",
+     "n": 152,
+     "p": "Catarrha"
+    },
+    {
+     "h": "17f1b8e798c311f1",
+     "n": 73,
+     "p": "Convales"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Infants may have apnoea, bradycardia or cyanosis with coughing spasms.** The classic whoop and post-tussive vomiting are more common in unvaccinated children.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infants may develop apnoea, bradycardia or cyanosis with coughing spasms … Classic paroxysms of coughing with inspiratory whoop and post-tussive vomiting are more commonly seen in unvaccinated children",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "250b6c99cb7a1d58",
+     "n": 72,
+     "p": "Infants "
+    },
+    {
+     "h": "e0d4e20dacb077d0",
+     "n": 126,
+     "p": "Classic "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Clues:** other family members coughing (over 70% of household contacts are infected); fever is uncommon and clinical signs are usually absent.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Other family members frequently have a cough (>70% of household contacts are also infected) … Fever is uncommon Clinical signs usually absent",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "443aeee0bbf82539",
+     "n": 91,
+     "p": "Other fa"
+    },
+    {
+     "h": "ceb10cdadc6cd6ce",
+     "n": 47,
+     "p": "Fever is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Nasopharyngeal flocked swab for PCR is the test of choice**; it is usually negative after 21 days, or 5–7 days into effective antibiotics. **Serology is not clinically useful.**",
+   "claim": "**Nasopharyngeal flocked swab for PCR is the test of choice**; it is usually negative beyond 21 days, or once 5–7 days of effective antibiotics have been given. **Serology is not clinically useful.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A nasopharyngeal flocked swab for PCR is the investigation of choice (more sensitive than culture). The test is usually negative after 21 days, or 5-7 days after effective antibiotic therapy has been commenced … Pertussis serology is not clinically useful",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac39279ce6645881",
+     "n": 209,
+     "p": "A nasoph"
+    },
+    {
+     "h": "2e7b017726f61bd7",
+     "n": 43,
+     "p": "Pertussi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Culture** (the most specific test, allows susceptibility testing) for: catarrhal or early paroxysmal phase · severe cases needing admission · suspected treatment failure · public health request.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Culture (nasopharyngeal aspirate or swab) is the most specific test, and susceptibility testing can be done … Culture is recommended for: catarrhal phase early paroxysmal phase severe cases requiring admission suspected treatment failure request by public health unit",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8937f3bb49adc4eb",
+     "n": 107,
+     "p": "Culture "
+    },
+    {
+     "h": "375b9f9b8300c8c5",
+     "n": 157,
+     "p": "Culture "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**No routine bloods;** FBE may help as a severity marker under 3 months (thrombocytosis signals a poorer prognosis). **CXR only in unwell infants under 6 months.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "blood tests should not be routinely performed; FBE may be helpful in infants <3 months of age as a marker of severity … thrombocytosis is common and correlates with poorer prognosis in infants … CXR is only indicated in unwell infants <6 months old (rare risk of B pertussis pneumonia with associated pulmonary hypertension)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "edee6eb3b713b8c9",
+     "n": 117,
+     "p": "blood te"
+    },
+    {
+     "h": "07da993f5480636c",
+     "n": 72,
+     "p": "thromboc"
+    },
+    {
+     "h": "93f3e261e3362989",
+     "n": 129,
+     "p": "CXR is o"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Treat if:** catarrhal or early paroxysmal phase · cough under 14 days or symptoms under 21 days · admitted · severe symptoms or complications. Antibiotics started in that window reduce severity and transmission.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antibiotics reduce the severity of illness and risk of transmission if prescribed within the first 14 days of paroxysmal cough or 21 days of symptoms … Indications include diagnosis in catarrhal or early paroxysmal phase (may reduce severity) cough for <14 days or symptoms for <21 days (may reduce spread and school exclusion period) hospital admission severe symptoms or complications as above",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f53f6dd4f50c7272",
+     "n": 149,
+     "p": "Antibiot"
+    },
+    {
+     "h": "e5990088e78056a2",
+     "n": 243,
+     "p": "Indicati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Azithromycin:** under 6 months 10 mg/kg orally daily for 5 days; 6 months and over 10 mg/kg (max 500 mg) on day 1, then 5 mg/kg (max 250 mg) daily on days 2–5.",
+   "claim": "**Azithromycin:** under 6 months 10 mg/kg orally daily for 5 days; 6 months and over, day 1: 10 mg/kg (max 500 mg); days 2–5: 5 mg/kg daily (max 250 mg).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Azithromycin <6 months old: 10 mg/kg oral daily for 5 days ≥6 months old: 10 mg/kg (max 500 mg) oral daily on day 1, then 5 mg/kg (max 250 mg) daily on days 2-5",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0103059f8c0e1fc",
+     "n": 160,
+     "p": "Azithrom"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Or clarithromycin** (1 month and over): 7.5 mg/kg (max 500 mg) orally bd for 7 days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Clarithromycin ≥1 month old: 7.5 mg/kg (max 500 mg) oral bd for 7 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "91af5641ed0a121e",
+     "n": 70,
+     "p": "Clarithr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Macrolide contraindicated or resistant:** trimethoprim/sulfamethoxazole (8/40 mg/mL), over 6 weeks of age, 0.5 mL/kg (max 20 mL) orally bd for 7 days.",
+   "claim": "**Macrolide contraindicated or resistant:** trimethoprim/sulfamethoxazole (8/40 mg/mL), for children older than 6 weeks: 0.5 mL/kg orally twice a day (max 20 mL) for 7 days.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If macrolides are contraindicated, or B pertussis is resistant to macrolides: Trimethoprim/sulfamethoxazole (8/40 mg/mL) >6 weeks of age: 0.5 mL/kg (max 20 mL) oral bd for 7 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "952a5b685dc9865a",
+     "n": 178,
+     "p": "If macro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Do not use erythromycin** — risk of pyloric stenosis in infants.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Erythromycin is not recommended due to the risk of pyloric stenosis in infants",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80d6827c27cbc06c",
+     "n": 78,
+     "p": "Erythrom"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider admission for:** all infants under 6 months · respiratory distress · inability to feed · pneumonia · cyanosis or apnoea, with or without coughing · seizures. **Droplet precautions.**",
+   "claim": "⚠️ **Consider admission for:** all infants under 6 months · respiratory distress · inability to feed · pneumonia · apnoea or cyanosis, whether or not with coughing · seizures. **Droplet precautions.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider admission for: all infants <6 months given risk for rapid deterioration respiratory distress inability to feed evidence of pneumonia cyanosis or apnoea, with or without coughing seizures … Droplet precautions are required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "711608d660e3360b",
+     "n": 195,
+     "p": "Consider"
+    },
+    {
+     "h": "9f7f8deefa029225",
+     "n": 32,
+     "p": "Droplet "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Exclude cases from school, childcare and contact outside the home** (especially with infants) until the earliest of 21 days from onset, 14 days from paroxysmal cough, or 5 days of appropriate antibiotics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Exclude from school, childcare and from contact with others outside the home (especially infants and young children) until the earliest of 21 days after onset of symptoms 14 days after onset of paroxysmal cough completion of 5 days of appropriate antibiotics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4aa798374e1d6861",
+     "n": 258,
+     "p": "Exclude "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Contacts get the same antibiotic regimens as cases**; the aim is to protect infants under 6 months. Immunocompromised contacts: case by case.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antibiotic regimens are the same as for treatment of cases (see above) … Prophylactic treatment of contacts is aimed at preventing spread to infants <6 months of age … Management of immunocompromised contacts should be made on a case-by-case basis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b15775a8b45d162",
+     "n": 70,
+     "p": "Antibiot"
+    },
+    {
+     "h": "7cb22509cf38849e",
+     "n": 92,
+     "p": "Prophyla"
+    },
+    {
+     "h": "e5da98932d1293af",
+     "n": 79,
+     "p": "Manageme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Close contacts** (exposed in the first 21 days of the case's illness): household and family · anyone who stayed overnight in the same room · face-to-face within 1 metre for over 1 hour (shorter for neonates).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Close contacts are those exposed to an infectious case during the first 21 days of their illness who are: family and household members people who have stayed overnight in the same room as the case people who have had face-to face contact (within 1 metre) for >1 hour (shorter period for neonates)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39aa4f3ea71f3221",
+     "n": 296,
+     "p": "Close co"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Treat within 14 days of first contact (21 days for infants under 6 months):** any exposed infant under 6 months · any exposed woman in her last month of pregnancy — in any setting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat the following household and/or high-risk contacts within 14 days of their first contact with an infectious case (or within 21 days for infants <6 months) Any exposed infants <6 months of age, regardless of setting Any exposed pregnant woman in their last month of pregnancy, regardless of setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "485cfa40dbd3b47b",
+     "n": 302,
+     "p": "Treat th"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Also treat contacts who may pass it to an infant under 6 months:** household members where such an infant lives · healthcare staff working with infants or pregnant women · all children and staff in a childcare centre caring for such infants.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Contacts of a pertussis case who may transmit to an infant <6 months of age, including: all household members where there is an infant <6 months of age present healthcare staff who work with infants <6 months of age or with pregnant women (eg maternity ward or newborn nursery) all children and staff in a childcare that cares for infants <6 months of age",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "248f71f32e1d8e7c",
+     "n": 355,
+     "p": "Contacts"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Unimmunised or incompletely immunised (under 3 doses) contacts under 7 years: exclude for 14 days** from last exposure, or until 5 days of appropriate antibiotics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unimmunised or incompletely immunised ( <3 doses) children <7 years of age must be excluded from school or childcare for 14 days from their last exposure to infection or until they have taken 5 days of appropriate antibiotics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f70b3340d5e37c5",
+     "n": 225,
+     "p": "Unimmuni"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Vaccinate:** cases still complete the schedule; close contacts not up to date get DTPa or dTpa as soon as possible after exposure; adults without a pertussis vaccine in the last 10 years should be offered one.",
+   "claim": "**Vaccinate:** cases still complete the schedule; close contacts not up to date get DTPa or dTpa as soon as possible after exposure; offer a dose to adults not vaccinated against pertussis in the last 10 years.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unimmunised or partially immunised children diagnosed with pertussis should still complete the pertussis immunisation schedule … Close contacts who are not up to date with their pertussis immunisation should be given DTPa or dTpa as soon after exposure as possible … Adult contacts who have not had pertussis-containing vaccine in the last 10 years should be offered one",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "18e6b6b6b455f923",
+     "n": 126,
+     "p": "Unimmuni"
+    },
+    {
+     "h": "60fd83c23b6485ea",
+     "n": 135,
+     "p": "Close co"
+    },
+    {
+     "h": "55578626bbd85bdc",
+     "n": 103,
+     "p": "Adult co"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the paediatric team** for any infant ≤6 months, or severe disease with apnoea, cyanosis, pneumonia, seizures or encephalopathy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Infant ≤6 months of age Child has severe disease with complications (apnoea, cyanosis, pneumonia, seizures or encephalopathy)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9a75f2b453b5fc5",
+     "n": 179,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** coughing episodes pass without hypoxia or bradycardia and fluid intake is adequate — most admitted infants still have paroxysms after discharge.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Tolerating coughing episodes without becoming hypoxic and/or bradycardic; most infants who are admitted with pertussis continue to have coughing paroxysms after discharge Tolerating adequate fluid intake",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ef9ac4ec32186fc",
+     "n": 227,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Whooping cough (pertussis)' (Last updated May 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/, retrieved 2026-09-23"
   }
  ]

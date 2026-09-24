@@ -1,9 +1,9 @@
 # Cardiopulmonary arrest in children — hospital management
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** in-hospital CPR, defibrillation, primary resuscitation drugs, reversible causes and post-ROSC targets for infants and children, aligned with ANZCOR and APLS. Traumatic cardiac arrest is excluded. The seriously unwell child who has not arrested is `seriously-unwell-child-resuscitation`; peri-arrest adrenaline in anaphylaxis is `anaphylaxis-children`. There is no adult cardiac arrest guideline in the set.
 
-> ✅ **OPEN AND QUOTED.** 27 of 27 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Resuscitation: hospital management of cardiopulmonary arrest*** (Last updated December 2025); **46 fragments re-checked by machine. 5 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 27 of 27 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Resuscitation: hospital management of cardiopulmonary arrest*** (Last updated December 2025); **46 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Unresponsive and not breathing normally: start CPR — do not wait for a pulse check.** 15:2 at 100–120/min; shock VF/pulseless VT at 4 J/kg; adrenaline 10 microg/kg (max 1 mg).
 
@@ -11,7 +11,7 @@
 
 ## Key points
 
-- ⚠️ **Start CPR in any infant or child who is unresponsive and not breathing normally. A pulse check must not delay it.** [S1]
+- ⚠️ **Unresponsive and not breathing normally → start CPR, in infants and children alike. Never let a pulse check hold it up.** [S1]
 - **Let the rhythm direct management, and consider ECPR/ECMO early.** [S1]
 - **Most paediatric arrests are from hypoxia or hypotension**, and most initial rhythms are non-shockable (severe bradycardia, asystole, PEA). **VF and pulseless VT are about 15%.** [S1]
 - **Traumatic cardiac arrest is outside this guideline.** Cardiac surgery, drowning, sepsis, pulmonary hypertension and toxins also need a specific approach (Poisons 13 11 26). [S1]
@@ -19,7 +19,7 @@
 ## First actions
 
 - **Check for danger, send for help early** (hospital emergency team; consider early retrieval contact), and **allocate roles:** team leader · airway · circulation · compressions · defibrillator operator · scribe/timekeeper · family support. [S1]
-- **Airway:** infant neutral, child sniffing position; head-tilt chin-lift or jaw thrust; suction under direct vision; oro/nasopharyngeal airway for obstruction. [S1]
+- **Airway:** infant neutral, child sniffing position; open with jaw thrust or head-tilt chin-lift; suction under direct vision; oro/nasopharyngeal airway for obstruction. [S1]
 - ⚠️ **Not breathing: two initial breaths by bag-valve-mask with 100% oxygen**, then continue BVM ventilation — two-person technique as standard. [S1]
 - **Intubate only if proficient and without delaying other resuscitation.** If intubated, **use continuous waveform ETCO2** to confirm ventilation, detect non-tracheal placement or dislodgement, and spot ROSC. [S1]
 
@@ -40,11 +40,11 @@
 
 ## Drugs, fluids and reversible causes
 
-- ⚠️ **Adrenaline (1:10,000) 10 microg/kg = 0.1 mL/kg IV or intraosseous, max 1 mg.** (The page also lists IM here, which is not restated — see Unresolved.) [S1]
-- ⚠️ **Amiodarone 5 mg/kg IV/intraosseous, max 300 mg — rapid bolus with 5% glucose.** [S1]
+- ⚠️ **Adrenaline IV or intraosseous: 10 microg/kg of 1:10,000 (= 0.1 mL/kg), max 1 mg.** (The page also lists IM here, which is not restated — see Unresolved.) [S1]
+- ⚠️ **Amiodarone IV/intraosseous 5 mg/kg (max 300 mg), pushed as a rapid bolus with 5% glucose.** [S1]
 - **Hypovolaemia: IV/IO crystalloid bolus 10–20 mL/kg**, further boluses titrated to response. **Hypoglycaemia: IV/IO 10% glucose 2 mL/kg**, aiming for normoglycaemia. [S1]
-- **Atropine, lidocaine, sodium bicarbonate and calcium are not routine** — specific situations only. [S1]
-- **Address the 4 Hs and 4 Ts:** hypoxaemia, hypovolaemia, hypo/hyperthermia, hypo/hyperkalaemia; tension pneumothorax, tamponade, toxins, thrombosis. [S1]
+- **Not routine: calcium, sodium bicarbonate, lidocaine or atropine** — keep them for specific situations. [S1]
+- **Correct the reversible causes (4 Hs, 4 Ts):** hypovolaemia, hypoxaemia, hypo/hyperkalaemia, hypo/hyperthermia; toxins, tamponade, thrombosis, tension pneumothorax. [S1]
 
 ## ECPR and stopping
 
@@ -68,12 +68,12 @@
 | 3 | **Adrenaline route is listed as 'IV/IM/intraosseous'** for arrest; IM is unusual in cardiac arrest. Quoted as retrieved; confirm on the live page. | `observation` |
 | 4 | ⚠️ **Tenfold difference, different indications:** arrest adrenaline here is **10 microg/kg IV/IO (max 1 mg)**; `anaphylaxis-children` gives **1 microg/kg IV** for peri-arrest anaphylaxis. Do not transpose one to the other. | `observation` |
 | 5 | **Consistent with `hypoglycaemia-children`:** both give 10% glucose 2 mL/kg IV. The 10–20 mL/kg crystalloid bolus matches `seriously-unwell-child-resuscitation`; `sepsis-children` starts at 20 mL/kg. | `observation` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Resuscitation: hospital management of cardiopulmonary arrest*. Last updated December 2025. https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__hospital_management_of_cardiopulmonary_arrest/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Resuscitation: hospital management of cardiopulmonary arrest*. Last updated December 2025. https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__hospital_management_of_cardiopulmonary_arrest/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

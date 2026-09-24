@@ -1,9 +1,9 @@
 # Cerebral palsy — chest infection
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** the CP-specific adjustments to assessing and treating a chest infection in a child with cerebral palsy. Investigation, antibiotic choice and doses follow `community-acquired-pneumonia-children`, which this page defers to and this guideline does not repeat. See also `cerebral-palsy-children` (background care) and `influenza-management-children` (oseltamivir).
 
-> ✅ **OPEN AND QUOTED.** 20 of 20 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Cerebral palsy - chest infection*** (Last updated July 2023); **28 fragments re-checked by machine. 5 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 of 20 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Cerebral palsy - chest infection*** (Last updated July 2023); **28 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Children with CP can deteriorate quickly.** Lower thresholds for antibiotics and admission; call senior/ICU early for FiO2 >50% or rising non-invasive support.
 
@@ -18,9 +18,9 @@
 ## Assess
 
 - **Ask specifically about:** fever or hypothermia · apnoea · vomiting or feed intolerance · aspiration risk · change in baseline consciousness · increased oxygen or suction needs. [S1]
-- **Risk factors for severe illness:** previous ICU admission for pneumonia · pre-existing respiratory failure · home non-invasive support · scoliosis · more seizures in a known seizure disorder. [S1]
-- **Work of breathing can be exacerbated by dystonia**; look for upper airway obstruction. [S1]
-- ⚠️ **Consider severe pneumonia with rapid deterioration or any of:** severe respiratory distress · marked tachycardia · severe hypoxaemia or cyanosis · reduced consciousness from baseline · increasing respiratory support. [S1]
+- **Risk factors for severe illness:** past pneumonia needing ICU · pre-existing respiratory failure · home non-invasive support · scoliosis · more seizures in a known seizure disorder. [S1]
+- **Dystonia can worsen the work of breathing**; look for upper airway obstruction. [S1]
+- ⚠️ **Consider severe pneumonia with rapid deterioration or any of:** severe respiratory distress · marked tachycardia · cyanosis or severe hypoxaemia · reduced consciousness from baseline · increasing respiratory support. [S1]
 
 ## Manage
 
@@ -28,7 +28,7 @@
 - **Chest X-rays are hard to read with scoliosis** — compare with previous films. [S1]
 - ⚠️ **Tell a senior clinician and/or ICU early for:** acute respiratory failure · severe distress · **FiO2 >50% (>6 L/min)** or more than baseline non-invasive support · an unwell child with severe-illness risk factors. [S1]
 - **Penicillin gives adequate anaerobic cover for aspiration.** Consider **oseltamivir** for influenza. [S1]
-- **Positioning:** with significant scoliosis, sit the child up with the better-inflated lung up. Consider a **nasopharyngeal airway** in severe CP with upper airway obstruction, especially if drowsy and hypoxic. [S1]
+- **Positioning:** with significant scoliosis, sit the child upright, better-inflated lung uppermost. Consider a **nasopharyngeal airway** in severe CP with upper airway obstruction, especially if drowsy and hypoxic. [S1]
 - **Give oxygen if SpO2 is below 90% in room air**, humidified if possible. [S1]
 - **Trial salbutamol if there is bronchospasm** (wheeze, hyperinflation) and reassess. [S1]
 - **Secretions:** nebulised saline **5 mL of sodium chloride 0.9%** may help; oropharyngeal suction if the child cannot clear secretions; chest physiotherapy for large-airway secretions with a poor cough, or focal consolidation. [S1]
@@ -50,12 +50,12 @@
 | 1 | **No antibiotic, oseltamivir or salbutamol dose is on this page.** Antibiotics defer to the pneumonia guideline (`community-acquired-pneumonia-children`), whose amoxicillin dose is itself in an image; the RCH dosing table is `empiric-antimicrobials-children`. Oseltamivir: see `influenza-management-children`. | `observation` |
 | 2 | **Consistent with `community-acquired-pneumonia-children`:** both start oxygen below 90% and restrict fluids to two-thirds maintenance. | `observation` |
 | 3 | **'Penicillin' is not specified** (benzylpenicillin vs amoxicillin) on this page. | `observation` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Cerebral palsy - chest infection*. Last updated July 2023. https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_chest_infection/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Cerebral palsy - chest infection*. Last updated July 2023. https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_chest_infection/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

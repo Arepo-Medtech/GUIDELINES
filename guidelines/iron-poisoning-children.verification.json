@@ -1,191 +1,391 @@
 {
  "guideline": "guidelines/iron-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Iron poisoning' (Last updated June 2020), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Iron poisoning' (Last updated June 2020), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 24,
-  "pass": 24,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
    "claim": "⚠️ **Calculate elemental iron, not the amount of iron salt** — the elemental content varies by salt form.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In iron poisoning, the amount of elemental iron ingested determines the risk, not the amount of iron salt … The amount of elemental iron in each preparation varies depending upon the salt form.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "be7e7742bb197d89",
+     "n": 105,
+     "p": "In iron "
+    },
+    {
+     "h": "8c3221793277e88d",
+     "n": 85,
+     "p": "The amou"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Iron is also in some plant fertilisers (sulphate of iron) and snail baits (iron phosphate).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Iron is also found in some plant fertilisers, eg sulphate of iron, and in some snail baits, eg iron phosphate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b72fdf8265e17cf3",
+     "n": 109,
+     "p": "Iron is "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Elemental iron examples:** FGF 250 mg ferrous sulphate = 80 mg · Ferrogradumet/Ferrograd C 325 mg ferrous sulphate = 105 mg · Ferro-Liquid 30 mg/mL = 6 mg/mL · Maltofer tablets 370 mg iron polymaltose = 100 mg · Maltofer syrup/drops 37 mg/mL = 10 mg/mL.",
+   "claim": "**Elemental iron examples:** FGF 250 mg ferrous sulphate = 80 mg · Ferrogradumet/Ferrograd C (ferrous sulphate 325 mg) = 105 mg · Ferro-Liquid 30 mg/mL = 6 mg/mL · Maltofer tablets (iron polymaltose 370 mg) = 100 mg · Maltofer syrup/drops 37 mg/mL = 10 mg/mL.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FGF* 250 mg ferrous sulphate 80 mg … Ferrogradumet*, Ferrograd C* 325 mg ferrous sulphate 105 mg … Ferro-Liquid 30 mg/mL ferrous sulphate 6 mg/mL Maltofer tablets 370 mg iron polymaltose 100 mg Maltofer syrup or drops 37 mg/mL iron polymaltose 10 mg/mL",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4a0bc8fe68eae4f6",
+     "n": 34,
+     "p": "FGF* 250"
+    },
+    {
+     "h": "09c07498336eae87",
+     "n": 59,
+     "p": "Ferrogra"
+    },
+    {
+     "h": "645bf950288f6975",
+     "n": 153,
+     "p": "Ferro-Li"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Assess:** any ingestion over 40 mg/kg elemental iron · unknown quantity · any symptomatic child. **Calculate the maximum possible dose per kg** and consider co-ingestants such as paracetamol.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children requiring assessment Ingestion of >40 mg/kg elemental iron Ingestion of an unknown quantity Any symptomatic children … Calculate the maximum possible dose per kg Consider the possibility of co-ingestants (eg paracetamol), either accidental or deliberate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56659622cb02d3ae",
+     "n": 125,
+     "p": "Children"
+    },
+    {
+     "h": "b5c0c7bf3bb2d229",
+     "n": 134,
+     "p": "Calculat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Under 20 mg/kg:** asymptomatic. **20–40 mg/kg:** GI symptoms only, usually under 6 hours. **40–60 mg/kg:** GI symptoms, systemic toxicity not expected. ⚠️ **60–120 mg/kg: potential systemic toxicity. Over 120 mg/kg: potentially lethal.**",
+   "claim": "**Under 20 mg/kg:** no symptoms. **20–40 mg/kg:** GI symptoms only, usually under 6 hours. **40–60 mg/kg:** GI symptoms, but no systemic toxicity expected. ⚠️ **60–120 mg/kg: potential systemic toxicity. Over 120 mg/kg: potentially lethal.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "<20 mg/kg: asymptomatic 20-40 mg/kg: GI symptoms only. Symptoms usually last <6hrs 40-60 mg/kg: GI symptoms, systemic toxicity not expected. Symptoms usually last <8hrs 60-120 mg/kg: potential for systemic toxicity >120 mg/kg potentially lethal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42998ffeed9be6e5",
+     "n": 244,
+     "p": "<20 mg/k"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**No symptoms in the first 6 hours makes significant toxicity unlikely.**",
+   "claim": "**Significant toxicity is unlikely if the child stays symptom-free for the first 6 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lack of symptoms within the first 6 hours makes significant toxicity unlikely.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa0e9fb0736aeba4",
+     "n": 78,
+     "p": "Lack of "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Severe poisoning often has a 6–24 hour latent period** when GI symptoms resolve before systemic toxicity — **improvement then may precede deterioration.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In severe iron poisoning, there is often 6-24 hour latent period when initial symptoms resolve, before overt systemic toxicity manifests … Thus improvement over this time may be a result of actual improvement or be preceding deterioration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "79d8f1e51b5d01ce",
+     "n": 136,
+     "p": "In sever"
+    },
+    {
+     "h": "61a6ad091415154f",
+     "n": 99,
+     "p": "Thus imp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Later phases:** cardiogenic shock and acidosis (6–72 hours: hypotension, anion-gap metabolic acidosis, multi-organ failure, coma) · hepatic necrosis (12–96 hours: liver failure, jaundice, coagulopathy, hypoglycaemia) · bowel obstruction (2–8 weeks).",
+   "claim": "**Later phases:** cardiogenic shock and acidosis (at 6–72 hours: hypotension, coma, multi-organ failure, anion-gap metabolic acidosis) · hepatic necrosis (12–96 hours: liver failure, jaundice, coagulopathy, hypoglycaemia) · bowel obstruction (2–8 weeks).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "3: Cardiogenic shock and acidosis 6-72 hours Hypotension Anion gap metabolic acidosis Potential multi-system failure Coma 4: Hepatic necrosis 12-96 hours Acute hepatic failure Jaundice Coagulopathy Hypoglycaemia Coma 5: Bowel obstruction 2-8 weeks",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b5b67c58beed3ad",
+     "n": 247,
+     "p": "3: Cardi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Asymptomatic, tablet ingestion: abdominal X-ray — if negative, no further investigation or observation.** Liquid ingestion: AXR not indicated. **Unknown amount or over 40 mg/kg: serum iron 4-hourly until falling.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If tablet ingestion: Abdominal X-ray (AXR) - if negative, no further investigation or observation are required If liquid ingestion: Abdominal X-rays are not indicated If unknown amount or >40 mg/kg ingested: measure serum iron concentrations 4 hourly until falling or as per advice from toxicologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0ac4c9cce4297a7",
+     "n": 299,
+     "p": "If table"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Symptomatic:** AXR (tablets), blood gas, glucose, **serum iron immediately and again at 4 hours**, FBE, UEC, LFTs, clotting, group and cross-match. **Slow-release or enteric-coated: repeat at 6–8 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All symptomatic children should have the following investigations: … Serum iron concentration Immediately and repeat in 4 hours when iron concentration is expected to peak … For slow release or enteric coated tablets, concentrations should be repeated at 6-8 hours as absorption may be erratic and delayed … FBE: leukocytosis UEC LFTs Clotting: reversible early coagulopathy and late coagulopathy secondary to hepatic injury Blood group and cross-match",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "97ad59d4e1152ae5",
+     "n": 66,
+     "p": "All symp"
+    },
+    {
+     "h": "423dbaddf75ca1f0",
+     "n": 102,
+     "p": "Serum ir"
+    },
+    {
+     "h": "e7cadad120a824a3",
+     "n": 131,
+     "p": "For slow"
+    },
+    {
+     "h": "36b6f0b4a5cb9fda",
+     "n": 144,
+     "p": "FBE: leu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Levels after 4–6 hours may underestimate toxicity**, and **once desferrioxamine starts, most automated lab iron levels are inaccurate.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Concentrations taken after 4-6 hours may underestimate toxicity because the iron may have either been distributed into tissues or be bound to ferritin … Once desferrioxamine is commenced, iron concentrations are not accurate at most labs using automated methods",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed57fdec06337db3",
+     "n": 150,
+     "p": "Concentr"
+    },
+    {
+     "h": "95da654d8776acf0",
+     "n": 108,
+     "p": "Once des"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**IV fluid 20 mL/kg for hypovolaemia or hypotension**; potassium and glucose as needed.",
+   "claim": "**Hypotension or hypovolaemia: IV fluid 20 mL/kg**; give potassium and glucose as needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "IV fluid resuscitation 20 mL/kg for hypovolaemia or hypotension Potassium and glucose administration as necessary",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fbde18ccbc79cefd",
+     "n": 113,
+     "p": "IV fluid"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Activated charcoal does not bind iron and is not indicated.** **Whole bowel irrigation is the decontamination of choice** — indicated when AXR shows tablets **and** more than 60 mg/kg was ingested; discuss with a toxicologist first.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Activated charcoal does not bind to iron and is not indicated. Decontamination of choice is whole bowel irrigation (WBI): WBI is indicated if the AXR reveals tablets or capsules ingested and more than 60 mg/kg ingested Discuss with a toxicologist (13 11 26) for advice before performing WBI",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2bfae7fc70b66649",
+     "n": 290,
+     "p": "Activate"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**WBI: nasogastric colonic lavage solution 30 mL/kg/hr until rectal effluent is clear.** ⚠️ **Contraindicated with bowel obstruction or haemorrhage.**",
+   "claim": "**WBI: colonic lavage solution via nasogastric tube, 30 mL/kg/hr, until the rectal effluent runs clear.** ⚠️ **Contraindicated with bowel obstruction or haemorrhage.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Usual protocol is nasogastric colonic lavage solution 30 mL/kg/hr until rectal effluent clear WBI is contraindicated if there are signs of bowel obstruction or haemorrhage",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54614fea56df6e9f",
+     "n": 171,
+     "p": "Usual pr"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Endoscopic removal** may be indicated for a potentially lethal ingestion (over 120 mg/kg) when WBI has failed or is impractical.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Endoscopic removal may be indicated in patients with a potentially lethal iron ingestion (>120 mg/kg of elemental iron) where WBI has failed or is impractical",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fbca72ca250c2fb0",
+     "n": 158,
+     "p": "Endoscop"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consider desferrioxamine (with a toxicologist) if:** serum iron over 90 micromol/L · 60–90 micromol/L with tablets on AXR or symptoms · ⚠️ **altered conscious state, hypotension, tachycardia, tachypnoea or worsening symptoms, whatever the dose or level.**",
+   "claim": "**Consider desferrioxamine (with a toxicologist) if:** serum iron over 90 micromol/L · 60–90 micromol/L with tablets on AXR or symptoms · ⚠️ **regardless of dose or level: hypotension, tachycardia, tachypnoea, altered conscious state or symptoms getting worse.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Serum iron concentrations >90 micromol/L Concentration 60-90 micromol/L and tablets visible on AXR or symptomatic (nausea, vomiting, diarrhoea, abdominal pain, haematemesis, fever) The child has significant symptoms of altered conscious state, hypotension, tachycardia, tachypnoea, or worsening symptoms irrespective of ingested dose or serum iron concentration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c683e0ebd8629739",
+     "n": 361,
+     "p": "Serum ir"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Don't wait for a level if there is altered conscious state, shock, severe acidosis (pH under 7.1) or worsening symptoms** — start without delay. A falling bicarbonate is a reasonable surrogate when iron levels aren't available.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not wait for iron concentration if altered conscious state, shock, severe acidosis (pH <7.1), or worsening symptoms If serum iron concentration is not readily available, a fall in serum bicarbonate concentration is a reasonable surrogate marker of systemic iron poisoning Commence desferrioxamine without delay, in consultation with a toxicologist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c256cae61cc9e10",
+     "n": 350,
+     "p": "Do not w"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Desferrioxamine 15 mg/kg/hr IV**, reduced after four hours so the total **does not exceed 80 mg/kg/24 hours.**",
+   "claim": "**Desferrioxamine 15 mg/kg/hr IV**, reduced after four hours so that **no more than 80 mg/kg is given in 24 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Desferrioxamine dose 15 mg/kg/hr intravenous The rate is reduced after four hours so that the total intravenous dose does not exceed 80 mg/kg/24 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a370d35d6be0ed7f",
+     "n": 150,
+     "p": "Desferri"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Usually 12–16 hours; continue until** asymptomatic, decontamination complete, anion-gap acidosis resolved and **serum iron under 60 micromol/L.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Significant poisoning usually requires administration for 12-16 hours, however it is recommended to continue desferrioxamine until: The child is asymptomatic Decontamination complete Anion-gap acidosis resolved Serum iron concentration <60 micromol/L",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca2658a5ab9f6a2d",
+     "n": 250,
+     "p": "Signific"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Pulmonary toxicity:** use with caution beyond 24 hours, on toxicologist advice. If oliguria or anuria develop, dialysis may be needed to remove ferrioxamine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Desferrioxamine has been associated with pulmonary toxicity and should be used with caution if indications persist >24 hours and on toxicologist advice … If oliguria or anuria develop, peritoneal dialysis or haemodialysis may become necessary to remove ferrioxamine",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba0feefd84258b24",
+     "n": 151,
+     "p": "Desferri"
+    },
+    {
+     "h": "e043c78cf7281a79",
+     "n": 111,
+     "p": "If oligu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consult/admit locally:** over 40 mg/kg or unknown quantity · intentional overdose · desferrioxamine being considered or worsening symptoms.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ingestions of >40 mg/kg or unknown quantities An intentional overdose. Being considered for desferrioxamine or with worsening symptoms.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab42c314c78967d0",
+     "n": 135,
+     "p": "Ingestio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** when desferrioxamine and/or WBI is needed, conscious state is significantly decreased or not improving, or respiratory support is needed. **PIPER: 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Desferrioxamine and/or whole bowel irrigation is required Significantly decreased or non-improving conscious state Need for respiratory support … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c56d88502157e88",
+     "n": 143,
+     "p": "Desferri"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge:** under 40 mg/kg, negative AXR (tablets) and asymptomatic 6 hours after ingestion; **or** over 40 mg/kg only if still asymptomatic and serum iron is falling and under 60 micromol/L on two measurements 4 hours apart.",
+   "claim": "**Discharge:** under 40 mg/kg, negative AXR (tablets) and asymptomatic 6 hours after ingestion; **or** over 40 mg/kg only if still asymptomatic and serum iron, measured twice 4 hours apart, is falling and under 60 micromol/L.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "<40 mg/kg ingestion, negative AXR (if tablet ingestion) and asymptomatic 6 hours post ingestion Ingestion of >40 mg/kg and only if child remains asymptomatic, serum iron concentration falls and is <60 micromol/L on two measurements 4 hours apart",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "31f2a1548f367340",
+     "n": 245,
+     "p": "<40 mg/k"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Adolescents with deliberate ingestion need a self-harm risk assessment and drug and alcohol assessment before discharge.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prior to discharge, adolescents who present with deliberate ingestions need a risk assessment regarding the likelihood of further ingestions or other attempts to self-harm Assessment of other drug and alcohol use should also be undertaken",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6efc958cf3f8c79",
+     "n": 238,
+     "p": "Prior to"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Iron poisoning' (Last updated June 2020), at https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/, retrieved 2026-09-23"
   }
  ]

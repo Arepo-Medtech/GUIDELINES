@@ -1,158 +1,299 @@
 {
  "guideline": "guidelines/antibiotic-allergy-label-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 20,
-  "pass": 20,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
    "claim": "**Take a detailed drug allergy history** to guide the antibiotic choice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A detailed drug allergy history should be taken to help make appropriate antibiotic choices",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87999c3b247a83ca",
+     "n": 91,
+     "p": "A detail"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Immediate or severe reaction to either a penicillin or a cephalosporin: avoid drugs from both β-lactam classes.**",
+   "claim": "⚠️ **Avoid drugs from both β-lactam classes after an immediate or severe reaction to either one (penicillin or cephalosporin).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with a history of an immediate or severe reaction to either a penicillin or cephalosporin should avoid drugs from both β-lactam classes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ea7f6579557d408",
+     "n": 144,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Non-immediate and non-severe reaction: an antibiotic from the alternate β-lactam class can be prescribed.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with a history of non-immediate and non-severe reactions can be prescribed an antibiotic from an alternate β-lactam class",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1bd5e90d2249b5a4",
+     "n": 130,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Drug allergy testing (drug challenge or skin testing) belongs in controlled settings.**",
+   "claim": "**Test for drug allergy (by drug challenge or skin testing) only in controlled settings.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Drug allergy testing (drug challenge or skin testing) should take place in controlled settings",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22e82eb4b2ac510b",
+     "n": 94,
+     "p": "Drug all"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "Up to a quarter of children presenting to hospital report an antibiotic allergy. **More than 90% of children with non-immediate β-lactam reactions do not react again when re-challenged** with the same drug.",
+   "claim": "Up to a quarter of children presenting to hospital report an antibiotic allergy. **Over 90% of children whose β-lactam reaction was non-immediate tolerate a re-challenge** with the same drug.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Up to a quarter of all children presenting to hospital will report an antibiotic allergy … More than 90% of children with non-immediate β-lactam reactions do not have a reproducible ‘allergic’ reaction when re-challenged with the same drug",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7798caca3706ada7",
+     "n": 88,
+     "p": "Up to a "
+    },
+    {
+     "h": "cba68ff36a0f8631",
+     "n": 148,
+     "p": "More tha"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "Three quarters of children who identify as penicillin-allergic do so by 3 years of age.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Three quarters of all children who identify as “allergic” to penicillin will do so by 3 years of age",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2578eb02c4e2fb78",
+     "n": 100,
+     "p": "Three qu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Timing:** symptoms under 1 hour after ingestion = **immediate**; over 1 hour = **delayed**. Record the duration of symptoms and time to recovery.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Timing of reaction Symptoms occur <1 hour after ingestion (= immediate) Occur >1 hour after ingestion (= delayed) Duration of symptoms and time to recovery",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61185340dc4f6dcc",
+     "n": 155,
+     "p": "Timing o"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Type of reaction:** rash (non-specific, maculopapular, urticarial) · respiratory symptoms (wheeze, stridor, increased work of breathing) · dizziness or collapse · airway angioedema (mouth, eyes, lips, tongue) · mucous membrane involvement · gastrointestinal symptoms · joint and muscle pain · whether immediate treatment was needed (adrenaline auto-injector, bronchodilator) · previous anaphylaxis.",
+   "claim": "**Type of reaction:** rash (non-specific, maculopapular, urticarial) · respiratory symptoms (wheeze, stridor, increased work of breathing) · collapse or dizziness · angioedema of the airway (mouth, eyes, lips, tongue) · involvement of mucous membranes · gastrointestinal symptoms · muscle and joint pain · whether immediate treatment was needed (adrenaline auto-injector, bronchodilator) · previous anaphylaxis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Type of reaction Rash (eg non-specific, maculopapular, urticarial) Respiratory symptoms (eg wheeze, stridor or increased work of breathing) Dizziness or collapse Airway angioedema (mouth, eyes, lips, or tongue) Mucous membrane involvement Gastrointestinal symptoms Joint and muscle pain Other Required immediate treatment (eg adrenaline auto injector, bronchodilator) Previous episode of anaphylaxis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b76c65619857ab9b",
+     "n": 399,
+     "p": "Type of "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Also record:** concurrent drugs · concurrent illness (e.g. possible viral infection) · **antibiotics tolerated since, especially after the reported reaction** · other drug and non-drug allergies · atopic disease. No specific examination is required.",
+   "claim": "**Also record:** concurrent drugs · concurrent illness (e.g. possible viral infection) · **antibiotics tolerated since, especially after the reported reaction** · other allergies, drug and non-drug · atopic disease. No specific examination is required.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Concurrently administered drugs Concurrent illness (eg possible viral infection) Antibiotics previously tolerated (especially those after the reported reaction) Past history of other drug and non-drug allergies Atopic disease … No specific examination required – be guided by current presentation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16693b14ecdb558c",
+     "n": 225,
+     "p": "Concurre"
+    },
+    {
+     "h": "10ea491dcb140909",
+     "n": 68,
+     "p": "No speci"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Immediate (<1 hour), severe** (airway angioedema, bronchospasm or anaphylaxis): **avoid all drugs from the same β-lactam class and those with potential for cross-reactivity.** **Immediate, non-severe** (e.g. isolated urticaria, pruritus): may consider a non-cross-reactive drug from the alternate β-lactam class.",
+   "claim": "⚠️ **Immediate (<1 hour), severe** (anaphylaxis, bronchospasm or airway angioedema): **do not give any drug from the same β-lactam class, or any with potential for cross-reactivity.** **Immediate, non-severe** (e.g. isolated urticaria, pruritus): may consider a non-cross-reactive drug from the alternate β-lactam class.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Immediate (<1 hour) For severe reactions (airway angioedema, bronchospasm or anaphylaxis): avoid all drugs from the same β-lactam class and those with potential for cross reactivity (see table) For non-severe reactions (eg isolated urticaria, pruritus): may consider non-cross reactive drug from alternate β-lactam class",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b8e8d54860fe962",
+     "n": 320,
+     "p": "Immediat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Delayed (>1 hour), suspected severe cutaneous adverse reaction (SCAR): avoid all β-lactams.** SCARs include Stevens-Johnson syndrome, toxic epidermal necrolysis, DRESS and acute generalised exanthematous pustulosis. **Cytopenias, acute kidney or drug-induced liver injury:** discuss with the local paediatric team or drug allergy service.",
+   "claim": "⚠️ **Delayed (>1 hour) reaction with a suspected SCAR (severe cutaneous adverse reaction): avoid all β-lactams.** SCARs include Stevens-Johnson syndrome, toxic epidermal necrolysis, DRESS and acute generalised exanthematous pustulosis. **Cytopenias, or acute kidney injury or drug-induced liver injury:** discuss with the local paediatric team or drug allergy service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Delayed (>1 hour) For suspected severe cutaneous adverse reaction (SCAR)*: avoid all β-lactams For cytopenias, acute kidney or drug-induced liver injury: discuss with local paediatric team or drug allergy service … * SCARs include: Stevens-Johnson syndrome (SJS), Toxic Epidermal Necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS) and acute generalised exanthematous pustulosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e81fe602e5afc3b1",
+     "n": 212,
+     "p": "Delayed "
+    },
+    {
+     "h": "c021b48b1b95e59e",
+     "n": 191,
+     "p": "* SCARs "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Delayed reactions: all non-β-lactam antibiotics, or aztreonam, are safe to prescribe.** Non-severe delayed reactions (e.g. pruritus or isolated exanthem): **a β-lactam from the alternative class is safe.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Delayed (>1 hour) For suspected severe cutaneous adverse reaction (SCAR)*: avoid all β-lactams For cytopenias, acute kidney or drug-induced liver injury: discuss with local paediatric team or drug allergy service Safe to prescribe all non β-lactam antibiotics or aztreonam For non-severe reactions (eg pruritus or isolated exanthem), it is safe to prescribe β-lactam from alternative class",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39f5e7b139a70054",
+     "n": 389,
+     "p": "Delayed "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Timing unknown:** treat a severe reaction as immediate-severe, and a non-severe reaction as delayed-non-severe.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Timing unknown Severe reaction: treat as per immediate, severe reaction Non-severe reaction: treat as per delayed, non-severe reaction",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5462f38a0e8ad3e4",
+     "n": 134,
+     "p": "Timing u"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Refer for drug allergy assessment and document the allergy** in the medical record pending the outcome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Refer for drug allergy assessment and document allergy in the medical record pending outcome",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe2346018cefd51a",
+     "n": 92,
+     "p": "Refer fo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Unlikely allergy** — known drug side effects (e.g. nausea, headache) or a family history only: **all β-lactams are safe; remove the drug allergy label.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Timing known but unlikely allergy: Known drug side effects (eg nausea, headache) family history only Safe to administer all β-lactam drugs Remove drug allergy label",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f59850442b8ab03",
+     "n": 164,
+     "p": "Timing k"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "After an immediate reaction to a penicillin or cephalosporin, **the highest chance of cross-reactivity is with a β-lactam sharing an R1 side chain.**",
+   "claim": "When a child has reacted immediately to a cephalosporin or penicillin, **cross-reactivity is most likely with a β-lactam that shares its R1 side chain.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For children with an immediate reaction to a penicillin or cephalosporin, the highest chance of cross reactivity is with a β-lactam that shares an R1-side chain",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4eb825945be24e8",
+     "n": 160,
+     "p": "For chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Suspected amoxicillin or ampicillin allergy: avoid cefalexin and cefaclor** — except for non-immediate and non-severe reactions.",
+   "claim": "⚠️ **Suspected allergy to amoxicillin or ampicillin: do not use cefalexin or cefaclor**, unless the reaction was non-immediate and non-severe.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For suspected amoxicillin or ampicillin allergy - avoid cefalexin and cefaclor (except for non-immediate and non-severe reactions - see above)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1814ac438a4679a0",
+     "n": 142,
+     "p": "For susp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Suspected ceftriaxone allergy: avoid cefotaxime and cefepime.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Suspected ceftriaxone allergy – avoid cefotaxime and cefepime",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c16275944f9debe",
+     "n": 61,
+     "p": "Suspecte"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Penicillin–carbapenem cross-reactivity (e.g. imipenem, meropenem) is rare — around 1%.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cross reactivity between penicillin and carbapenems (eg imipenem, meropenem) is rare – around 1%",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f262cc1bd12c75ce",
+     "n": 96,
+     "p": "Cross re"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consult the local paediatric team:** any child with a clear history of immediate or severe antibiotic allergy; children with non-severe reactions who need urgent or ongoing antibiotics. **Either immediate or non-immediate reactions may be referred to an outpatient allergy clinic** for formal assessment.",
+   "claim": "**Consult the local paediatric team:** a clear history of an immediate or severe antibiotic allergy in any child; a non-severe reaction in a child who needs urgent or ongoing antibiotics. **Immediate and non-immediate reactions alike can go to an outpatient allergy clinic** for formal assessment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Any child with a clear history of immediate or severe antibiotic allergy Children with history of non-severe reactions who require urgent or ongoing antibiotic therapy … Children with either immediate or non-immediate reactions may be referred to an outpatient allergy clinic for formal drug allergy assessment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6df821f6ebe99e20",
+     "n": 221,
+     "p": "Consider"
+    },
+    {
+     "h": "b5d05cf0809fb6dc",
+     "n": 140,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Antibiotic prescribing in children with reported penicillin or cephalosporin allergy' (Last updated January 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/, retrieved 2026-09-23"
   }
  ]

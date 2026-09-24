@@ -1,116 +1,236 @@
 {
  "guideline": "guidelines/cyanotic-spells-congenital-heart-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 14,
-  "pass": 14,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 14
  },
  "claims": [
   {
    "claim": "**Most cyanotic episodes in children with CHD are self-limiting.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most cyanotic episodes in children with congenital heart disease (CHD) are self-limiting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53c4dea4efdadcb6",
+     "n": 88,
+     "p": "Most cya"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Let the parent comfort the child**; clinicians use a **minimal handling** approach with a targeted examination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The child should be comforted by the parent, clinicians should use a minimal handling approach with targeted examination",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d320863b41593790",
+     "n": 120,
+     "p": "The chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Prolonged episodes may be life-threatening** and need active treatment with **oxygen and opiates**; involve senior staff and specialists early.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prolonged episodes may be life threatening and require active treatment with oxygen and opiates … Early involvement of senior staff and specialist advice is important in prolonged episodes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b4b768c6e881e4b7",
+     "n": 95,
+     "p": "Prolonge"
+    },
+    {
+     "h": "60cfed67f75af4f5",
+     "n": 90,
+     "p": "Early in"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**A cyanotic ('tet') spell** is acute cyanosis, or cyanosis worse than the child's baseline — most often in **Tetralogy of Fallot and pulmonary atresia**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cyanotic episodes in children with congenital heart disease (also known as hypercyanotic spells, hypoxic spells or “tet spells”) are acute episodes of cyanosis or exaggerated cyanosis compared to the child’s baseline. They most often occur in children with Tetralogy of Fallot and pulmonary atresia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6df796df90841937",
+     "n": 298,
+     "p": "Cyanotic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Mechanism:** a pulmonary–systemic vascular resistance imbalance reduces pulmonary flow and increases right-to-left shunting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cyanotic episodes are due to an imbalance between pulmonary and systemic vascular resistance with decreased pulmonary flow, and increased right to left shunting of blood",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ddcea661a6939e48",
+     "n": 169,
+     "p": "Cyanotic"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Peak age 2–6 months**; usually triggered by stress — infection, being upset, or on waking.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most commonly occur between 2-6 months of age … Usually occur during times of stress, for example when unwell with an infection, when upset or upon waking",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6622e067a3f4788",
+     "n": 45,
+     "p": "Most com"
+    },
+    {
+     "h": "c819a64b81be539e",
+     "n": 106,
+     "p": "Usually "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "**History:** known structural heart disease, **severe cyanosis (more than usual), hyperpnoea**, precipitants (distress, prolonged crying, dehydration, intercurrent illness), lethargy or altered conscious state; older children may have a history of **squatting**.",
+   "claim": "**History:** known structural heart disease, **hyperpnoea, cyanosis that is severe (worse than usual)**, precipitants (distress, prolonged crying, dehydration, intercurrent illness), lethargy or altered conscious state; older children may have a history of **squatting**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Known history or evidence of structural heart disease Severe cyanosis (more than usual) Hyperpnoea Precipitating factors eg distress, prolonged crying, dehydration, intercurrent illness Lethargy, altered conscious state In older children, there may be a history of squatting episodes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83452631ef99cff6",
+     "n": 283,
+     "p": "Known hi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Examine gently and briefly** so as not to distress the child: compare cyanosis with baseline on **oxygen saturation monitoring**, assess hydration and perfusion, auscultate for a murmur if able.",
+   "claim": "**Examine gently and briefly** so as not to distress the child: compare cyanosis with baseline on **oxygen saturation monitoring**, check perfusion and hydration, and listen for a murmur if possible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Minimal handling approach with limited and gentle examination to avoid distressing child Degree of cyanosis compared to baseline – apply oxygen saturation monitoring Assess hydration and perfusion Auscultate for murmur if able",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6fcc15c9de718e1",
+     "n": 226,
+     "p": "Minimal "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Calm the child — distress can worsen or prolong the spell.** Keep handling minimal and the child with the parent as much as possible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aim to calm the child because distress can worsen or prolong cyanotic episodes … Minimal handling approach, child remaining with parent as much as possible",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a8ccf05716fee93a",
+     "n": 78,
+     "p": "Aim to c"
+    },
+    {
+     "h": "9a643c13ee865b57",
+     "n": 74,
+     "p": "Minimal "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Place the child in the knee-to-chest position** (lying supine or held upright) to increase systemic vascular resistance.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Place child in knee to chest position to increase systemic vascular resistance … Knee to chest position lying supine Knee to chest position held upright",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f146b10e26a88951",
+     "n": 78,
+     "p": "Place ch"
+    },
+    {
+     "h": "59cffc411a127d58",
+     "n": 71,
+     "p": "Knee to "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Investigate after the spell has resolved**, guided by likely precipitants; an **ECG helps exclude an arrhythmia**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider performing after episode has resolved to avoid distressing child Guided by possible precipitating factors … An ECG is also helpful in excluding an arrhythmia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0551b6681c43ad7a",
+     "n": 114,
+     "p": "Consider"
+    },
+    {
+     "h": "847df8d79580fa4d",
+     "n": 49,
+     "p": "An ECG i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Monitor until the spells have resolved and the child is not sedated from opiates.** Discuss ongoing observation and management with Cardiology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Monitor to ensure resolution of cyanotic episodes, and that child is not sedated due to opiate administration … Discuss with Cardiology regarding ongoing observation and management",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a679e5598df03170",
+     "n": 109,
+     "p": "Monitor "
+    },
+    {
+     "h": "543abe4aff904ba6",
+     "n": 68,
+     "p": "Discuss "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consult the local paediatric team** for any spell needing treatment; **consider transfer** if ICU admission or Cardiology review is needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when Child present with cyanotic spells requiring treatment … Consider transfer when Child requiring ICU admission or review by Cardiology",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62f754dbe9c5ce8c",
+     "n": 108,
+     "p": "Consider"
+    },
+    {
+     "h": "0f7992f59c5bef15",
+     "n": 76,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consider discharge when** the child is back to baseline, not sedated, and Cardiology has been consulted.",
+   "claim": "**Discharge may be considered once** Cardiology has been consulted and the child is unsedated and at baseline.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when The child is back to baseline, not sedated and consultation with Cardiology has occurred",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c8359b115ab0a09",
+     "n": 112,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Cyanotic episodes in congenital heart disease' (Last updated November 2022), at https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/, retrieved 2026-09-23"
   }
  ]

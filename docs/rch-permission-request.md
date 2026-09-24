@@ -1,5 +1,12 @@
 # RCH Melbourne: permission request (draft, NOT sent)
 
+> **Update 2026-09-24 (owner decision): RCH content is now paraphrased, not quoted.** All 216 RCH-based guidelines
+> (202 generated from specs, 14 hand-built in Wave 1 and rebuilt) store **no RCH text**. Each claim is reworded so it
+> shares no run of 8+ words with the RCH page, and it rests on hash anchors (`scripts/anchor.py`). `verify.py --source`
+> re-proves them against a fresh copy of the page, and `scripts/copy_scan.py` scans each whole page. This consent request is
+> therefore **no longer needed for current pages**. It would only be needed to quote RCH verbatim again. Earlier commits in
+> git history still contain the verbatim editions.
+
 **Status:** drafted 2026-09-23 for the repository owner to send. Claude has not sent it.
 
 ## Why

@@ -1,228 +1,114 @@
 # Rhinitis and rhinosinusitis
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** children. Acute, recurrent, subacute and chronic rhinosinusitis; allergic, non-allergic and
-neonatal rhinitis.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Scope:** children with acute, recurrent acute, subacute or chronic rhinosinusitis, and allergic, non-allergic or neonatal rhinitis: examination, when to test, antibiotics, the stepped allergic rhinitis regimen with paediatric doses, and escalation. Orbital spread is managed under `periorbital-and-orbital-cellulitis-children`; adult allergic rhinitis is in `allergic-rhinitis`.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Rhinitis and rhinosinusitis***,
-> Clinical Practice Guideline, **last updated October 2025** [S1].
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 45 claims paraphrased from **The Royal Children's Hospital Melbourne — *Clinical Practice Guidelines: Rhinitis and rhinosinusitis*** (last updated October 2025, PIC endorsed; origin: AU). **70 anchors re-checkable by machine; 7 doses.** The source's words are not reproduced: its licence is *© The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored*.
 
-**AMH topics closed by this guideline:** *Rhinosinusitis*, *Acute rhinosinusitis*, *Chronic rhinosinusitis*.
+> ⚠️ **Dose companion to `allergic-rhinitis`:** that page (ASCIA) sets out the adult approach by drug class without doses; this one names paediatric agents and doses for the same stepwise plan. Both hold that a positive allergy test shows sensitisation, not disease.
 
-> ⚠️ **This is the dose companion to [`allergic-rhinitis.md`](allergic-rhinitis.md).** ASCIA gives the adult
-> framework in classes — **no drug dose appears anywhere in it**. This guideline gives named agents with
-> **paediatric doses** for the same stepped approach. Read together they are one therapy with two halves;
-> read separately, one has no numbers and the other has no adult scope.
+> 🔗 **Links in this set:** allergic rhinitis raises the risk of asthma and worsens its control (`asthma`, `acute-asthma-children`), and montelukast is added when the two coexist · three brakes on antibiotics here (wait 3 days, no nasal swabs, purulence means little) serve `antimicrobial-stewardship` · otitis media often travels with sinusitis (`otitis-media`) · asthma, allergic conjunctivitis and eczema cluster together (`eczema`) · intracranial complications overlap `meningitis-and-encephalitis-children`, `sepsis-children` and `febrile-child` · the ASCIA caution about intranasal steroids in glaucoma or cataract applies to the mometasone doses here (`cataract`, `glaucoma-and-ocular-hypertension`).
 
-## Classification, which sets the clock
+> ⚠️ **The antibiotic and allergic-rhinitis dose schedules come from tables flattened to text.** Check them against the RCH page before prescribing.
 
-**Rhinitis and rhinosinusitis are characterised by inflammation of the nasal mucosa and paranasal sinuses,
-respectively (often co-exist)** [S1]. **Rhinitis is classified as allergic (perennial or seasonal) or
-non-allergic** [S1].
+---
 
-| Rhinosinusitis | Definition [S1] |
-|---|---|
-| **Acute** | **<4 weeks (usually infectious)** |
-| **Recurrent acute** | **At least 3 acute episodes with at least 10 days or more with no symptoms in 6 months, or at least 4 episodes in 12 months** |
-| **Subacute** | **4-12 weeks** |
-| **Chronic** | **>12 weeks** |
+## Key points
 
-**Acute rhinosinusitis is most commonly caused by viral infections, but secondary acute bacterial
-rhinosinusitis may develop, particularly if symptoms persist beyond 10 days** [S1]. **Viral: Rhinovirus, RSV,
-influenza, adenovirus.** **Bacterial: Streptococcus pneumoniae, Haemophilus influenzae (non-typeable),
-Moraxella catarrhalis** [S1].
+- ⚠️ **Orbital or intracranial spread from infective rhinosinusitis is uncommon**, but it is the complication to look for. [S1]
+- **Allergic rhinitis:** reduce allergen exposure, give antihistamines, and add a nasal steroid where needed. [S1]
+- **Neonatal rhinitis is common** and usually settles untreated. [S1]
 
-## Examination — the 'pig nose' manoeuvre
+## Background and classification
 
-> **Use the 'pig nose' manoeuvre to examine the nasal mucosa (tilt child's head back, elevate the nasal tip
-> with your thumb, and illuminate the orifice with light/otoscope)** [S1].
+- **Rhinitis** is inflammation of the nasal lining and **rhinosinusitis** of the paranasal sinuses; the two often occur together. Rhinitis is either allergic (seasonal or perennial) or non-allergic. [S1]
+- **Rhinosinusitis by duration:** acute: under 4 weeks, usually infective · recurrent acute: 3 or more episodes in 6 months with symptom-free gaps of 10 days or longer, or 4 or more per 12 months · subacute: 4 to 12 weeks · chronic: beyond 12 weeks. [S1]
+- **Acute rhinosinusitis is mostly viral.** A secondary bacterial infection can follow, especially when symptoms last beyond 10 days. [S1]
+- **Organisms:** viral — rhinovirus, RSV, influenza, adenovirus, often with wider viral symptoms; bacterial — *Streptococcus pneumoniae*, non-typeable *Haemophilus influenzae*, *Moraxella catarrhalis*. [S1]
+- ⚠️ **Allergic rhinitis matters for asthma:** it raises the chance of developing asthma, worsens control, and shapes how asthma progresses into adult life. [S1]
 
-**Examine mucosal surfaces, colour and calibre of turbinates, and position of septum** [S1]:
+## Examination
 
-- ⚠️ **Pale, boggy mucosa of inferior turbinates is in keeping with allergic rhinitis**
-- ⚠️ **Red and oedematous mucosa is seen more commonly in infective or medication induced rhinitis**
-
-**Allergic facies**: **Dennie-Morgan lines, allergic salute, allergic shiners, transverse nasal crease and
-mouth breathing** [S1].
+- **The 'pig nose' manoeuvre:** tip the head back, lift the nasal tip with a thumb and shine a light or otoscope in. Look at the mucosa, the colour and size of the turbinates, and where the septum sits. [S1]
+- **Reading the mucosa:** pale, boggy inferior turbinates fit allergic rhinitis; red, swollen mucosa points more to infection or a medication cause. [S1]
+- **Allergic facies:** Dennie-Morgan lines, the allergic salute, allergic shiners, a transverse crease across the nose, mouth breathing. [S1]
 
 ## Acute bacterial sinusitis
 
-**History** [S1]: **preceding viral illness is common**; ⚠️ **persistent nasal discharge >10 days (purulence
-is of little significance)**; **nasal obstruction**; **maxillary toothache**; **unilateral facial pain**;
-**headache**; **fever**.
-
-**Signs of acute otitis media are commonly seen, reflecting a shared aetiology** [S1].
-
-⚠️ **Complications** [S1]: **periorbital and orbital cellulitis** · **cerebral abscess** · **cavernous sinus
-thrombosis** · **meningitis** · **encephalitis** · **subdural and epidural empyema**. But the first key point
-puts this in proportion: **infective rhinosinusitis rarely leads to orbital or intracranial
-complications** [S1].
-
-### Watchful waiting, then antibiotics
-
-> **Consider watchful waiting for 3 days to assess for spontaneous resolution as acute viral sinusitis is the
-> most likely cause with similar signs and symptoms. Antibiotics can be commenced if there is no improvement
-> at this time or if there is clinical worsening** [S1].
-
-⚠️ **Doses below are transcribed from a table — confirm against the source page before prescribing.**
-
-| Situation | Regimen [S1] |
-|---|---|
-| **1st line** | **Amoxicillin 15 mg/kg (max 500 mg) oral tds for 5 days** · **(Cefalexin if penicillin allergy)** |
-| **If not improving** | **Amoxicillin/clavulanic acid 22.5 mg/kg (max 875 mg) oral 12 hourly for another 5 days** |
-| **Systemically unwell or unable to tolerate oral** | **Amoxicillin/clavulanic acid 25 mg/kg (max 1 g) IV 6 hourly** · **(Ceftriaxone and metronidazole if penicillin allergy)** |
-| **Orbital or intracranial complications** | **Local antimicrobial guidelines** |
-
-⚠️ **Nasal swabs should not be taken. Culture is not indicative of sinus pathogens and is therefore not
-helpful** [S1].
-
-⚠️ **Steroid sprays, decongestants, or antihistamines has been shown to have no benefit in acute
-sinusitis** [S1]. **Surgery is very rarely needed for acute bacterial sinusitis (in the absence of orbital or
-intracranial complications)** [S1].
-
-**CT is the imaging modality of choice**, considered only if **failed medical management**, **possible orbital
-or intracranial complication**, or **surgery is being considered** [S1].
+- **History:** often a viral illness first · nasal discharge lasting over 10 days (whether it is purulent matters little) · pain in the maxillary teeth · facial pain on one side. [S1]
+- **Acute otitis media is often found as well**, because the two share a cause. [S1]
+- ⚠️ **Complications:** meningitis or encephalitis · cerebral abscess · subdural or epidural empyema · cavernous sinus thrombosis · periorbital and orbital cellulitis. [S1]
+- **Wait 3 days first:** a viral sinusitis looks the same and is the likelier cause, so allow time for it to settle. Start antibiotics if there is no improvement by then, or sooner if the child gets worse. [S1]
+- **Antibiotics:** first line oral amoxicillin 15 mg/kg, up to 500 mg, three times daily × 5 days (cefalexin if penicillin-allergic). Not improving: switch to oral amoxicillin/clavulanic acid 22.5 mg/kg, up to 875 mg, every 12 hours × a further 5 days. Systemically unwell or cannot take oral: IV amoxicillin/clavulanic acid 25 mg/kg, up to 1 g, every 6 hours (ceftriaxone plus metronidazole if penicillin-allergic). [S1]
+- ⚠️ **Do not take nasal swabs:** a nasal culture does not reflect the sinus organisms, so it does not help. [S1]
+- **No benefit in acute sinusitis** from steroid sprays, decongestants or antihistamines. [S1]
+- **Surgery is very seldom needed** for acute bacterial sinusitis unless there is an orbital or intracranial complication. [S1]
+- **CT is the preferred imaging**, and is considered when medical treatment has failed, an orbital or intracranial complication is possible, or surgery is being weighed. [S1]
 
 ## Chronic rhinosinusitis
 
-⚠️ **Uncommon <12 years** [S1]. **Symptoms occur for 12 weeks or more**: **nasal obstruction/congestion**,
-**nasal discharge**, **facial pain**, **postnasal drip**, **loss of smell**, **cough**, **halitosis** [S1].
+- **Uncommon under 12 years.** Defined by 12 weeks or more of symptoms: nasal obstruction or congestion, discharge, facial pain, postnasal drip, cough, reduced smell, halitosis. [S1]
+- **Risk factors:** cigarette smoke exposure · adenoid hypertrophy · allergy · asthma · reflux · cystic fibrosis · physical obstruction · impaired mucociliary clearance · immune deficiency · long-term intranasal decongestant use. [S1]
+- **Treat for at least 6 weeks:** saline spray or irrigation (sodium chloride, 2 sprays or irrigations each nostril twice daily and when needed, before the steroid) plus an intranasal corticosteroid, eg mometasone 50 microg spray — 2-12 y: 1 spray per nostril once a day · 12-18 y: 2 sprays per nostril once a day, stepping down to 1 per side when controlled. [S1]
+- **Decongestants, oral or intranasal, have no place.** [S1]
+- **If symptoms persist:** check adherence and spray technique, then refer to ENT if still not relieved. [S1]
 
-**Risk factors** [S1]: **exposure to cigarette smoke** · **adenoid hypertrophy** · **allergy** · **asthma** ·
-**reflux disease** · **cystic fibrosis** · **physical obstruction** · **mucociliary impairment** · **immune
-deficiency** · ⚠️ **prolonged use of intranasal decongestants**.
+## Allergic rhinitis — stepped treatment
 
-**Treatment** [S1] — both for a **minimum 6 weeks**:
+- **Principles:** always alongside minimising common allergens (house dust mite, pollens, pet dander, mould) · give each step about 4 weeks before judging it · check adherence and spray technique before stepping up · use the least treatment that works. [S1]
+- **Step 1 (mild):** one antihistamine, oral or intranasal; combining them adds nothing. Use it when needed for intermittent symptoms, or regularly for persistent ones. [S1]
+- **Oral vs intranasal antihistamine:** oral works better on itch away from the nose, suits younger children better, and a less sedating agent is preferred; intranasal works better on nasal symptoms, acts faster, and needs good technique. [S1]
+- **Cetirizine, for example:** 1-2 y: 2.5 mg as oral drops (5 drops) twice a day · 2-6 y: 5 mg once a day, or 2.5 mg twice a day · 6-12 y: 10 mg once a day, or 5 mg twice a day · 12-18 y: 10 mg. [S1]
+- **Azelastine nasal spray (1 mg/mL), for example:** over 5 years, 1 spray each nostril twice daily. [S1]
+- **Step 2 (moderate-severe): add an intranasal corticosteroid.** Particularly good for blockage and also eases eye symptoms. Relief often begins within days, but judge it only after at least 4 weeks of steady use. Eg mometasone 50 microg spray — 2-12 y: 1 spray per nostril once a day · 12-18 y: 2 sprays per nostril once a day, then 1 per side when controlled. [S1]
+- **Step 3:** where nasal symptoms dominate, consider switching to a combined antihistamine-corticosteroid nasal spray and stop any oral antihistamine. For example a fluticasone propionate + azelastine spray (125/50 microg), 6-18 y: 1 spray per nostril twice a day. [S1]
+- **Step 4 (site-specific):** eye symptoms — ketotifen 0.025% drops, 3-18 years, 1 drop twice daily; for prevention of recurrent eye flares, olopatadine 0.1% drops, 3-18 years, 1 drop twice daily for up to 14 weeks. Intermittent allergic rhinitis with asthma: consider montelukast. [S1]
+- ⚠️ **Allergen immunotherapy:** for moderate-severe symptoms that fail treatment including allergen minimisation; refer to immunology/allergy; subcutaneous (SCIT) or sublingual (SLIT) for 3 years or more. **It is not PBS-subsidised and the yearly cost can be substantial.** [S1]
 
-- **Intranasal saline spray or irrigation**: **sodium chloride, 2 sprays or irrigations into each nostril twice daily and as required**. ⚠️ **Use prior to steroid spray**
-- **Intranasal corticosteroid**: **eg mometasone 50 microg nasal spray** — **2-12 years: 1 spray into each nostril daily**; **12-18 years: 2 sprays into each nostril daily. Reduce to 1 spray into each nostril daily when symptoms controlled**
+## Neonatal rhinitis
 
-⚠️ **There is no role for oral or intranasal decongestants** [S1].
+- ⚠️ **Newborns: no nasal antihistamines, decongestants, steroids or humidifiers.** Saline drops before feeds are fine; seek specialist review if breathing or feeding is affected. [S1]
 
-**Assess treatment adherence and nasal spray technique** [S1]. **Referral to ENT is recommended if the above
-are unsuccessful in relieving symptoms** [S1].
+## Other causes
 
-## Allergic rhinitis — the stepped regimen, with doses
-
-**To be used in conjunction with allergen minimisation for common allergens eg house dust mite, pollens, pet
-dander and mould** [S1]. ⚠️ **Trial each step for around 4 weeks before assessing response.** **Assess
-treatment adherence and nasal spray technique before escalating.** **Use minimal effective regimen** [S1].
-
-### Step 1 — mild: oral **or** intranasal antihistamine
-
-⚠️ **Using both is not of additional benefit** [S1]. **Can be used as required for intermittent symptoms or
-regularly for persistent symptoms** [S1].
-
-| | Oral | Intranasal |
-|---|---|---|
-| **When** | **More effective than intranasal for symptoms such as itch at non nasal sites**; **typically better tolerated in younger children** | **More effective than oral for local nasal symptoms**; **faster onset of action**; **require good technique** |
-| **Agent** | **Less sedating antihistamines recommended. Eg cetirizine** | **Eg azelastine (1mg/mL nasal spray)** |
-| **Dose** | **1-2 years, oral drops, 2.5 mg (5 drops) twice daily** · **2-6 years, oral 5 mg once daily or 2.5 mg twice daily** · **6-12 years, oral 10 mg once daily or 5 mg twice daily** · **12-18 years, oral 10 mg** | **>5 years, 1 spray into each nostril twice daily** |
-
-### Step 2 — moderate–severe: add intranasal corticosteroid
-
-**Especially effective for nasal obstruction and reduces ocular symptoms** [S1]. **Require good technique and
-adherence to be effective** [S1]. ⚠️ **Symptom relief usually starts within a few days but a minimum trial of
-4 weeks of consistent use is required to establish efficacy** [S1].
-
-**Eg mometasone 50 microg nasal spray** — **2-12 years, 1 spray into each nostril daily**; **12-18 years, 2
-sprays into each nostril daily. Reduce to 1 spray into each nostril daily when symptoms controlled** [S1].
-
-### Step 3 — combination spray
-
-**Consider change to combination intranasal antihistamine and corticosteroid if predominant nasal
-symptoms** [S1]. ⚠️ **Cease any oral antihistamine if taking** [S1].
-
-**Eg azelastine with fluticasone propionate 125/50 microg nasal spray** — **6-18 years, 1 spray into each
-nostril twice daily** [S1].
-
-### Step 4 — site-specific
-
-**Ocular symptoms: add eye drops** [S1]:
-
-- **Ketotifen 0.025% eye drops — 3-18 years, 1 eye drop twice daily**
-- **Olopatadine 0.1% eye drops — 3-18 years, 1 eye drop twice daily up to 14 weeks** — **prophylaxis against recurrent ocular flares**
-
-**Intermittent allergic rhinitis and co-existing asthma, consider adding montelukast** [S1].
-
-### Immunotherapy
-
-**For moderate to severe symptoms not responding to treatment (including allergen minimisation)** — **referral
-to immunology/allergy specialist**, **subcutaneous (SCIT) or sublingual (SLIT) for at least 3 years** [S1].
-
-> ⚠️ **Not covered by PBS and there may be a significant yearly cost** [S1].
-
-## ⚠️ Neonatal rhinitis
-
-> **Neonatal rhinitis or nasal congestion in newborns is common and often resolves without treatment** [S1].
-
-**Nasal antihistamines, decongestants, steroids and humidifiers are not recommended** [S1]. **Saline drops can
-be used prior to feeding** [S1]. **Specialist review if impacting breathing or feeding** [S1].
-
-## Other causes not to miss
-
-| Category | Features [S1] |
-|---|---|
-| ⚠️ **Obstructive** | **Foreign body: Unilateral symptoms, brown discharge, foreign body may be visible, foul odour common from the affected nostril**; **adenoidal hypertrophy: mouth breathing and snoring** |
-| **Hormonal** | **Association with menstrual cycle, pregnancy**; **subclinical hypothyroidism in older children** |
-| **Drug induced** | **Typically aspirin and other NSAIDS**; ⚠️ **consider 'rebound congestion' … caused by overuse of topical nasal decongestants** |
-| **Environmental** | **Cigarette smoke, environmental pollutants** |
-| **Granulomatous** | **External nasal swelling, sinusitis, nose bleeds** |
-| **Idiopathic/vasomotor** | **Sudden onset and offset of watery nasal discharge. Can be triggered by strong smells or changes in environmental temperature** |
-
-**If recurrent or severe, consider rarer causes**: **anatomical anomalies**, **immunodeficiency**, **ciliary
-dysfunction**, **cystic fibrosis** [S1].
+- **Other causes to consider:** a foreign body (one-sided symptoms, brown discharge, sometimes visible, often a foul smell from that nostril) · hormonal (pregnancy or the menstrual cycle; in older children, subclinical hypothyroidism) · drugs, typically aspirin and other NSAIDs · rebound congestion, where overuse of topical decongestants inflames the nasal lining. [S1]
+- **Idiopathic (vasomotor) rhinitis:** watery discharge that switches on and off abruptly, set off by strong smells or temperature changes. [S1]
+- **Recurrent or severe? Think of rarer causes:** cystic fibrosis, ciliary dysfunction, immunodeficiency, anatomical anomalies. [S1]
 
 ## Testing
 
-**In most instances the diagnosis is made clinically and no investigations are required** [S1].
-
-⚠️ **Further testing is not diagnostic and needs to be correlated with clinical history. Positive results only
-confirm sensitisation to allergens** [S1] — the same caution ASCIA gives. **Testing may assist with allergen
-minimisation** [S1].
-
-**Serum specific IgE (previously known as RAST) to environmental allergens. Not affected by anti-allergy
-medications.** **Skin prick testing. Affected by anti-allergy medications** [S1].
+- **Diagnosis is usually clinical, with no tests.** In allergic rhinitis, testing does not make the diagnosis and must be read against the history: a positive result shows sensitisation only. It can guide allergen minimisation. [S1]
+- **Serum specific IgE vs skin prick:** serum specific IgE to environmental allergens (formerly RAST) is unaffected by anti-allergy medicines; skin prick testing is affected by them. [S1]
 
 ## Escalation
 
-**Consult the local paediatric team** for **all systemically unwell children** and **suspected orbital or
-intracranial complication** [S1].
+- **Paediatric team** for any systemically unwell child or suspected orbital/intracranial complication. **ENT** for suppurative complications or possible surgery, and for nasal obstruction that medical treatment has not fixed. [S1]
+- **Immunology/allergy referral:** more allergy testing and interpretation to guide allergen minimisation · severe or poorly controlled allergic rhinitis despite treatment · assessment for immunotherapy. [S1]
+- ⚠️ **Transfer** if intracranial involvement is suspected, with altered consciousness, seizures or focal neurological signs. [S1]
 
-**Refer to ENT** for **suppurative complications … or surgical intervention**, **medically refractory nasal
-obstruction**, or **symptoms persist or fail to resolve with recommended management** [S1].
+## Practical notes
 
-⚠️ **Consider transfer** for **suspected intracranial involvement with altered conscious state, seizures or
-focal neurological signs** [S1].
+- **Many brands exist**, and their price and access (over the counter or on prescription) vary. [S1]
+- **The page was last updated October 2025.** [S1]
 
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| ⚠️ **Allergic rhinitis** | the pair. ASCIA gives the adult framework in **classes with no doses**; this gives **named agents with paediatric doses** for the same stepped approach. Both state that **positive allergy tests only confirm sensitisation** |
-| ⚠️ **Asthma** · **Acute asthma (children)** | allergic rhinitis is **a risk factor for the development of asthma**, **affects asthma control**, and **impacts the prognosis and progression of asthma into adulthood**; **montelukast** is added where asthma co-exists |
-| ⚠️ **Antimicrobial stewardship** | **watchful waiting for 3 days**, **nasal swabs should not be taken**, and **purulence is of little significance** — three separate brakes on prescribing |
-| **Otitis media** | **signs of acute otitis media are commonly seen, reflecting a shared aetiology** |
-| **Eczema** | **comorbidities such as asthma, allergic conjunctivitis or eczema**; the atopic march |
-| **Sepsis (children)** · **Febrile child** | **meningitis, encephalitis, cerebral abscess** and **cavernous sinus thrombosis** as the complication set |
-| **Cataract** | ASCIA's caution on INCS in glaucoma and cataract applies to the **mometasone** regimens dosed here |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| ⚠️ **Dose tables transcribed from grids** | **observation** | the antibiotic table and the stepped allergic rhinitis regimens are **tables rendered as text**; values are verbatim and quoted as contiguous blocks, but **column alignment is a transcription risk**. Confirm against the page before prescribing |
-| **Cefalexin and ceftriaxone/metronidazole doses** | **input_unavailable** | named as penicillin-allergy alternatives with **no dose** |
-| **Montelukast dose** | **input_unavailable** | **consider adding montelukast** — **no dose, age range or duration** |
-| **Antibiotic choice defers to local patterns** | **observation** | **antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please refer to local guidelines**, stated alongside a specific first-line regimen |
-| ⚠️ **Immunotherapy is unsubsidised** | **observation** | **not covered by PBS and there may be a significant yearly cost** — an access barrier stated in the guideline itself, for a therapy requiring **at least 3 years** |
-| **Cost and accessibility of sprays** | **observation** | **there are many different brands of pharmacotherapy treatments available with varying cost and accessibility (over the counter or script)** — stated twice, with no comparison |
-| **Adults** | **out_of_scope** | paediatric guideline; the adult framework is in the paired ASCIA guideline, which has no doses |
-| **Chronic rhinosinusitis with nasal polyps** | **out_of_scope** | not addressed here; ASCIA's CRSwNP position paper is referenced in the paired guideline and **was not retrieved** |
-| **Currency** | **time_sensitive** | **last updated October 2025**, eleven months before retrieval |
+| 1 | **Penicillin-allergy alternatives** (cefalexin; ceftriaxone with metronidazole) are named with no dose. | `input_unavailable` |
+| 2 | **Montelukast** is suggested with no dose, age range or duration. | `input_unavailable` |
+| 3 | **Local susceptibility:** the page asks readers to follow local antimicrobial guidance even while giving a specific first-line regimen; orbital or intracranial complications defer entirely to local guidelines. | `observation` |
+| 4 | **Cost of sprays** is flagged twice on the page, with no comparison of brands. | `observation` |
+| 5 | **Adults** are outside this paediatric page; see `allergic-rhinitis` (ASCIA, no doses). | `out_of_scope` |
+| 6 | **Chronic rhinosinusitis with nasal polyps** is not covered; the ASCIA position paper on it is in the reference list but was not retrieved. | `out_of_scope` |
+| 7 | **Currency:** updated October 2025, eleven months before this retrieval. | `time_sensitive` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Rhinitis and rhinosinusitis.* Last updated October 2025. https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/ (retrieved 2026-09-22) | clinical practice guideline (AU) |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Rhinitis and rhinosinusitis*. last updated October 2025, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/Rhinitis_and_rhinosinusitis/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

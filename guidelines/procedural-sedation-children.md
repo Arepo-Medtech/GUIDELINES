@@ -1,9 +1,9 @@
 # Procedural sedation in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** pre-sedation assessment, high-risk children, choice of agent, monitoring and discharge for procedural sedation in children. No adult procedural-sedation guideline exists in this corpus. Agent doses are on separate RCH pages (ketamine, nitrous oxide) not written up here.
 
-> ✅ **OPEN AND QUOTED.** 20 of 20 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Procedural sedation*** (Last updated December 2021); **34 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 of 20 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Procedural sedation*** (Last updated December 2021); **34 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Sedation only by clinicians trained and approved in its use in children, with paediatric resuscitation, airway and monitoring experience — and resuscitation equipment ready before starting.**
 
@@ -19,7 +19,7 @@
 ## Before sedation
 
 - **Pre-sedation:** review need and urgency, risk factors and contraindications · consent from the child (if appropriate) and parents · **fasting per local guidelines** · analgesia for painful procedures · **sedation checklist with role assignment** · prepare equipment · **agree a plan B for sedation failure.** [S1]
-- ⚠️ **Resuscitation equipment and staff competent in paediatric resuscitation and airway management must be readily available before starting.** [S1]
+- ⚠️ **Before starting, have resuscitation equipment at hand, plus staff skilled in airway management and in paediatric resuscitation.** [S1]
 - **Do not proceed** if child, clinician or environment factors make sedation or the procedure unsafe. [S1]
 
 ## High-risk children — get senior or specialist advice first
@@ -32,7 +32,7 @@
 
 - **Choice depends on the aim** (less movement, analgesia, anxiolysis, amnesia), the child (age, compliance, development), the setting (time, staffing, load, GA availability) and the procedure (emergency vs planned, length, intensity). [S1]
 - **Chloral hydrate:** oral, but **narrow therapeutic index** and no analgesia. [S1]
-- **Midazolam:** oral, intranasal, buccal, IM or IV; amnestic, anxiolytic, quick and short acting — but **can cause a paradoxical effect after discharge**, may fail, and gives no analgesia. [S1]
+- **Midazolam:** given by oral, intranasal, buccal, IM or IV route; amnestic, anxiolytic, quick and short acting — but **can cause a paradoxical effect after discharge**, may fail, and gives no analgesia. [S1]
 - **Intranasal fentanyl:** synergistic with nitrous oxide and avoids IV access, but no sedative effect. **Nitrous oxide:** quick on and off, anxiolysis and amnesia; vomiting is common and analgesia limited. [S1]
 - **Ketamine:** airway reflexes kept, cardiovascular stability, IM or IV, excellent analgesia and sedation — **can be a sole agent**; agitation and emesis in recovery, rarely laryngospasm. [S1]
 - **Propofol:** ultrashort-acting, good muscle relaxation (eg ankle dislocation) — but ⚠️ **narrow therapeutic window, respiratory and cardiovascular depression, and no analgesia.** [S1]
@@ -51,15 +51,15 @@
 | # | Item | Class |
 |---|---|---|
 | 1 | ⚠️ **Page last updated December 2021** — review against the live page and the current ANZCA paediatric sedation guideline. | `time_sensitive` |
-| 2 | **No doses are given on this page.** Ketamine and nitrous oxide dosing sit on separate RCH pages (*Ketamine use for procedural sedation*, *Nitrous Oxide – oxygen mix*) that were not retrieved; nothing supplied from memory. | `input_unavailable` |
+| 2 | **No doses are given on this page.** Ketamine and nitrous oxide dosing sit on separate RCH pages (the ketamine procedural-sedation page and the nitrous oxide–oxygen page) that were not retrieved; nothing supplied from memory. | `input_unavailable` |
 | 3 | **The 'Sedation choice by procedure type' table** flattens ambiguously (agent of choice vs alternatives, and a merged therapeutic row), so no agent-by-procedure recommendation is quoted. | `input_unavailable` |
 | 4 | **Fasting times** are deferred to local fasting guidelines. | `observation` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Procedural sedation*. Last updated December 2021. https://www.rch.org.au/clinicalguide/guideline_index/Procedural_sedation/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Procedural sedation*. Last updated December 2021. https://www.rch.org.au/clinicalguide/guideline_index/Procedural_sedation/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

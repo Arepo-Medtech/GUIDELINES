@@ -1,191 +1,420 @@
 {
  "guideline": "guidelines/neonatal-intravenous-fluids.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Neonatal intravenous fluids' (Last updated March 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Neonatal intravenous fluids' (Last updated March 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 23,
-  "pass": 23,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
    "claim": "**For neonates born after 32 weeks, outside neonatal intensive care.** Use the enteral route whenever possible and start enteral feeds as soon as possible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "This guideline provides advice for neonates born after 32 weeks and outside of a neonatal intensive care setting … Whenever possible, the enteral route should be used … For all neonates, start enteral feeds as soon as possible",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa2fa19e2fd52901",
+     "n": 112,
+     "p": "This gui"
+    },
+    {
+     "h": "a2d031c3e30f70bb",
+     "n": 51,
+     "p": "Whenever"
+    },
+    {
+     "h": "a8b7668763c6f2aa",
+     "n": 57,
+     "p": "For all "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Over 32 weeks and over 1500 g on short-term IV: glucose 10% for the first 24–48 hours of life**, then fluids containing sodium and potassium. **Parenteral nutrition for anyone needing IV fluids beyond 5 days.**",
+   "claim": "**Over 32 weeks and over 1500 g on short-term IV: glucose 10% during the first 24–48 hours of life**, then fluids containing sodium and potassium. **Parenteral nutrition for anyone needing IV fluids beyond 5 days.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For neonates born after 32 weeks and >1500g requiring short term intravenous (IV) therapy, the preferred fluid type is glucose 10% in the first 24-48 hours of life, followed by fluids that contain sodium and potassium … Parenteral nutrition is preferred for any neonate needing IV fluids >5 days",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb496cbc657e77e9",
+     "n": 217,
+     "p": "For neon"
+    },
+    {
+     "h": "81327f905f826934",
+     "n": 75,
+     "p": "Parenter"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **Below birth weight? Use birth weight in all fluid calculations** unless specified. Expect up to 10% weight loss in the first week in a term neonate.",
+   "claim": "⚠️ **Below birth weight? Base every fluid calculation on birth weight** unless stated otherwise. Expect up to 10% weight loss in the first week in a term neonate.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If a neonate weighs less than birth weight, utilise birth weight in all fluid calculations, unless specified … TBW reduces in the first week of life, resulting in an expected weight loss of up to 10% in a term neonate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b9b74ae0aceb04a6",
+     "n": 108,
+     "p": "If a neo"
+    },
+    {
+     "h": "758ea8d569fbdfc6",
+     "n": 106,
+     "p": "TBW redu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "**Goal: maintain hydration and biochemical balance — particularly avoid hypoglycaemia and hyponatraemia.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The goal of fluid administration is to maintain hydration and achieve biochemical balance, particularly to avoid hypoglycaemia and hyponatraemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "abe7737a08002365",
+     "n": 144,
+     "p": "The goal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Notify a senior clinician:** sodium under 135 or over 145 mmol/L, or changing by more than 0.5 mmol/L/hr · short gut or major GI pathology · polyuria (over 6 mL/kg/hr prompts assessment, especially preterm) · **fluid resuscitation over 20 mL/kg.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abnormal serum sodium <135 mmol/L or >145 mmol/L (or significant change of >0.5 mmol/L/hr on a repeat measure) … hypernatraemia and notify senior clinician Short gut or other significant gastrointestinal pathology Polyuriaespecially in the pre-term neonate (>6 mL/kg/hr is generally considered an indication to assess for polyuria in neonates, discuss with specialist) Fluid resuscitation >20 mL/kg required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "48f6829cca8a0fce",
+     "n": 110,
+     "p": "Abnormal"
+    },
+    {
+     "h": "db5e839d5e1aea18",
+     "n": 294,
+     "p": "hypernat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Shock: sodium chloride 0.9% 10 mL/kg as fast as possible, then reassess** for further fluid. **Do not count the bolus in later calculations.** Packed red cells or albumin only on senior advice.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Give a bolus of 10 mL/kg of sodium chloride 0.9% as fast as possible, and reassess to determine if additional IV fluid is required … Do not include this fluid volume in subsequent calculations … Alternative resuscitation fluids such as packed red blood cells or albumin may sometimes be used on senior advice",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b65ab0e3981f79a",
+     "n": 130,
+     "p": "Give a b"
+    },
+    {
+     "h": "c43b4a9a3369c0de",
+     "n": 59,
+     "p": "Do not i"
+    },
+    {
+     "h": "c5aa4e36fcc666ed",
+     "n": 113,
+     "p": "Alternat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Over 32 weeks and over 1500 g: glucose 10% for the first 24–48 hours; then consider adding sodium and potassium.** Prefer premade bags to cut mixing errors and infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For neonates >32 weeks and >1500 g 10% glucose for the first 24 - 48 hours of life After 24 - 48 hours, the addition of sodium and potassium should be considered … Premade bags are preferable to reduce dose error or infection during mixing or dilution",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e01a12dfe5532ac8",
+     "n": 161,
+     "p": "For neon"
+    },
+    {
+     "h": "ba6193d83e2ae362",
+     "n": 87,
+     "p": "Premade "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consider parenteral nutrition** if enteral feeding will not be established by day 5, or with HIE, NEC or congenital GI conditions.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider Parenteral Nutrition (PN) if it is anticipated that enteral feeding will not be able to be established by Day 5 or with other risk factors such as HIE, necrotising enterocolitis (NEC), or congenital gastrointestinal conditions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6be2d6ed68c5353d",
+     "n": 235,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Special care nursery:** day 1 **10% glucose**; day 2 onwards **0.22% sodium chloride + 10% glucose ± potassium chloride 10 mmol/500 mL.**",
+   "claim": "**Special care nursery:** **10% glucose** on day 1; from day 2, **10% glucose with 0.22% sodium chloride, ± potassium chloride 10 mmol/500 mL.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Special care nurseries Day 1 10% glucose Day 2 onwards †0.22% sodium chloride + 10% glucose +/- potassium chloride 10 mmol/500mL",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d8eb5cf24e25396a",
+     "n": 128,
+     "p": "Special "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Emergency department, day 2 onwards: 0.9% sodium chloride + 10% glucose.** **Paediatric ward, day 2 onwards: 0.9% sodium chloride + 10% glucose ± potassium chloride 10 mmol/500 mL.**",
+   "claim": "**From day 2 — emergency department: 10% glucose with 0.9% sodium chloride.** **Paediatric ward: the same, ± potassium chloride 10 mmol/500 mL.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Emergency departments Day 2 onwards *0.9% sodium chloride + 10% glucose Paediatric wards Day 2 onwards *0.9% sodium chloride + 10% glucose +/- potassium chloride 10 mmol/500mL",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "388371c38a5ced26",
+     "n": 175,
+     "p": "Emergenc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Alternative, with a senior clinician:** sodium chloride 0.45% + glucose 10% ± potassium chloride 10 mmol/500 mL — **consider the risk of hyponatraemia.** 0.22% and 0.225% sodium chloride are interchangeable.",
+   "claim": "**Alternative, with a senior clinician:** glucose 10% with sodium chloride 0.45%, ± potassium chloride 10 mmol/500 mL — **weigh the hyponatraemia risk.** 0.22% and 0.225% sodium chloride are interchangeable.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "*Alternatively, sodium chloride 0.45% + glucose 10% +/- potassium chloride 10 mmol/500 mL could be used in consultation with senior clinician. Consider risk of hyponatraemia … †0.22% sodium chloride and 0.225% sodium chloride can be used interchangeably",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "336be011c5d1bc5f",
+     "n": 173,
+     "p": "*Alterna"
+    },
+    {
+     "h": "3d64096221731e50",
+     "n": 77,
+     "p": "†0.22% s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Glucose 10% can run peripherally; above 12.5% glucose or osmolality ≥1000 mOsmol/L needs a central line** (umbilical catheter or PICC).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Glucose 10% solutions can be administered via peripheral IV cannula … Fluids with glucose concentration above 12.5% or osmolality ≥1000 mOsmol/L should be administered through a central venous line (either an umbilical catheter or peripherally inserted central catheter)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1658c1c41d94ceb3",
+     "n": 67,
+     "p": "Glucose "
+    },
+    {
+     "h": "aea550bd3b15d010",
+     "n": 200,
+     "p": "Fluids w"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Total fluid intake by day of life (mL/kg/day), preterm 32–36 weeks / term over 36 weeks:** day 1 **60 / 60** · day 2 **80 / 90** · day 3 **100 / 100–120** · day 4+ **120 / 100–120.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Day Pre-Term: 32 to 36 weeks Term: >36 weeks 1 60 mL/kg/day 60 mL/kg/day 2 80 90 3 100 100-120 4+ 120 100-120",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fc798f9323e2bb5a",
+     "n": 109,
+     "p": "Day Pre-"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Consider fluid restriction** in meningitis, congenital cardiac lesions, HIE and renal impairment (seek senior advice). **Higher needs** with high insensible losses, phototherapy, or renal concentrating defects.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fluid restriction should be considered in, but not limited to, the following conditions: meningitis congenital cardiac lesions HIE renal impairment. Seek senior advice … high insensible losses, such as in extreme prematurity neonate receiving phototherapy … renal impairment with concentrating defects",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "331ab730a0974ee8",
+     "n": 167,
+     "p": "Fluid re"
+    },
+    {
+     "h": "194e23e424162270",
+     "n": 85,
+     "p": "high ins"
+    },
+    {
+     "h": "b8e6cab1f4ab354a",
+     "n": 43,
+     "p": "renal im"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Replace NG or stoma losses over 20 mL/kg/day mL for mL with sodium chloride 0.9% + potassium chloride 10 mmol/L over 24 hours.**",
+   "claim": "**NG or stoma losses above 20 mL/kg/day: replace volume for volume over 24 hours, using 0.9% sodium chloride with 10 mmol/L potassium chloride.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gastrointestinal tract losses via nasogastric tube or stoma of more than 20 mL/kg/day should be replaced mL for mL with sodium chloride 0.9% + potassium chloride 10 mmol/L over a 24-hour period",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ebf069bac108095d",
+     "n": 193,
+     "p": "Gastroin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Oliguria:** under 1 mL/kg/hour; in preterm neonates under 24 hours old, under 0.5 mL/kg/hour. A term neonate may take up to 24 hours to first pass urine.",
+   "claim": "**Oliguria:** under 1 mL/kg/hour; in preterm neonates under 24 hours old, under 0.5 mL/kg/hour. The first urine of a term neonate can take as long as 24 hours to appear.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A term neonate may take up to 24 hours to first pass urine … Oliguria is usually defined as <1 mL/kg/hour In preterm neonates <24 hours old: <0.5 mL/kg/hour",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "013b16430e4cfbb2",
+     "n": 58,
+     "p": "A term n"
+    },
+    {
+     "h": "1199d8563201ca0a",
+     "n": 95,
+     "p": "Oliguria"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "**Weigh at birth or admission and daily while on IV fluids.** Watch for oedema (periorbital, genital, sacral, peripheral) as a sign of overload.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All neonates should have a baseline weight at birth or admission, and should be weighed daily if receiving intravenous fluids … Signs of fluid overload including oedema (eg periorbital, genital, sacral, peripheral) should also be evaluated, especially in neonates already receiving IV fluid treatment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "75d78c17b29094c7",
+     "n": 125,
+     "p": "All neon"
+    },
+    {
+     "h": "c7f26c49f70c6ffa",
+     "n": 172,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "**Electrolytes before starting IV fluids (where possible), again at 24 hours, then every 24–48 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All neonates requiring fluids for acute conditions should have electrolytes checked prior to commencement of IV fluids (where possible) and again in 24 hours … Thereafter, these should be checked every 24-48 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "715814d961ace9c7",
+     "n": 157,
+     "p": "All neon"
+    },
+    {
+     "h": "7dc73b3daebebd99",
+     "n": 53,
+     "p": "Thereaft"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "**Hypernatraemia usually means more fluid is needed; hyponatraemia may mean less fluid, sodium losses, or dilution** from excess volume or poor urine output. High-volume sodium chloride can cause hyperchloraemic acidosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hypernatraemia usually indicates that the neonate requires more fluid … Hyponatraemia may indicate that the neonate requires less fluid, or has high sodium losses … Hyponatraemia may also be dilutional, indicating the neonate is receiving excessive fluid volumes or has inadequate urine output … Hyperchloraemic metabolic acidosis may occur with higher concentrations or higher volumes of fluids containing sodium chloride",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b008cb1f80c21f78",
+     "n": 69,
+     "p": "Hypernat"
+    },
+    {
+     "h": "c27eda4d0322f1d8",
+     "n": 90,
+     "p": "Hyponatr"
+    },
+    {
+     "h": "f312efbca8fc398f",
+     "n": 128,
+     "p": "Hyponatr"
+    },
+    {
+     "h": "91900ed3b9c9432d",
+     "n": 126,
+     "p": "Hyperchl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   },
   {
    "claim": "**Reduce IV fluids as enteral intake rises; the infusion can usually stop once enteral intake exceeds 90 mL/kg/day.** If at risk of hypoglycaemia, check BGL before the second enteral feed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "IV fluids should be reduced as enteral intake increases, to achieve a target daily TFI IV infusion can usually cease when > 90 mL/kg/day enteral intake achieved If at risk for hypoglycaemia, a blood sugar level should be obtained before the second enteral feed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f98943c664279d7d",
+     "n": 260,
+     "p": "IV fluid"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Well term neonates: halve the IV rate and offer suck feeds on demand or at least 4-hourly**; stop IV after 2 or 3 adequate feeds.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Halve IV infusion rate and offer suck feeds (bottle or breast) on demand or at least 4 hourly After 2 or 3 adequate suck feeds, IV infusion may be ceased and feeding performance assessed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6af46fcd095b92a8",
+     "n": 186,
+     "p": "Halve IV"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Preterm over 32 weeks and over 1500 g: feeds every 2–3 hours, starting at 30 mL/kg/day** and cutting IV to meet the target TFI; **increase by 30–40 mL/kg/day**, more slowly with feed intolerance or worsening breathing.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pre-term neonates >32 weeks and >1500 g When introducing enteral feeds for pre-term neonates: Consider commencing enteral feeds every 2 - 3 hours Start slowly, commencing at 30 mL/kg/day and decrease rate of IV fluids to meet target daily TFI Increase enteral intake by 30-40 mL/kg/day. A slower grade up may be required in certain circumstances, eg in the setting of feed intolerance or worsening respiratory status",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6291f5c41e15e47",
+     "n": 416,
+     "p": "Pre-term"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Involve the paediatric or neonatal team** if unsure which or how much fluid, with electrolyte abnormalities, significant comorbidity, or **resuscitation over 20 mL/kg.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Unsure of which/how much fluid to use Electrolyte abnormalities Significant co-morbidities are present Fluid resuscitation >20 mL/kg is required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8354f2cad788c67a",
+     "n": 144,
+     "p": "Unsure o"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Neonatal intravenous fluids' (Last updated March 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/, retrieved 2026-09-23"
   }
  ]

@@ -1,9 +1,9 @@
 # Hypertension in children and adolescents
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** BP measurement, classification, emergency management of severe hypertension, investigation and first-line treatment for children aged 1–17 years (not infants). The adult counterpart is `hypertension`; pregnancy is `hypertensive-disorders-of-pregnancy`; PSGN-specific BP management is `post-streptococcal-glomerulonephritis`.
 
-> ✅ **OPEN AND QUOTED.** 23 of 23 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Hypertension in children and adolescents*** (Last updated June 2021); **31 fragments re-checked by machine. 2 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 23 of 23 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Hypertension in children and adolescents*** (Last updated June 2021); **31 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Hypertension with encephalopathy is a medical emergency.** Severe hypertension needs urgent discussion with the renal and retrieval/ICU teams; lower BP gradually, by 25% per 24 hours.
 
@@ -20,7 +20,7 @@
 
 ## Assessment
 
-- **Risk factors:** overweight/obesity · male sex · family history · low birth weight/IUGR · prematurity · excess salt · inactivity · chronic disease such as CKD or diabetes. [S1]
+- **Risk factors:** male sex · overweight/obesity · family history · low birth weight/IUGR · prematurity · excess salt · inactivity · chronic disease such as CKD or diabetes. [S1]
 - ⚠️ **Red-flag history:** headache/vomiting · blurred vision · altered mental state · seizures · chest pain/palpitations · breathlessness · cardiac failure · past AKI. [S1]
 - **Examine:** confirm the BP · tachycardia and **four-limb BP** for upper/lower discrepancy · height and weight · end-organ damage (retinopathy, apical heave, hepatomegaly, oedema, palpable kidneys, facial nerve palsy). [S1]
 
@@ -40,13 +40,13 @@
 ## Emergency management
 
 - ⚠️ **Severe hypertension: discuss with the renal team and retrieval/ICU team.** [S1]
-- **Urgency, if medically stable:** a short-acting oral agent while investigating — **nifedipine 0.25–0.5 mg/kg/day (max 20 mg), titrated to a maximum of 3 mg/kg/day (max 120 mg).** [S1]
-- ⚠️ **Emergency: IV therapy with renal and retrieval/ICU input. Lower BP gradually — by 25% of the original value every 24 hours** — towards the estimated 95th centile; slow down if symptoms develop. [S1]
+- **Urgency, if medically stable:** a short-acting oral agent while investigating — **nifedipine, starting at 0.25–0.5 mg/kg per day (max 20 mg) and titrated up to 3 mg/kg per day at most (max 120 mg).** [S1]
+- ⚠️ **Emergency: IV therapy with renal and retrieval/ICU input. Bring BP down gradually — each 24 hours, by 25% of the starting value** — towards the estimated 95th centile; slow down if symptoms develop. [S1]
 
 ## Without severe features: investigate
 
 - **First-line:** UEC, CMP, urinalysis ± renal ultrasound. **Consider** LFT, HbA1c and fasting lipids, especially if BMI is over the 95th centile. [S1]
-- **Further tests only with a general or renal paediatrician**, if under 6 years, secondary cause suspected, or first-line tests abnormal: FBE, bicarbonate, renin/aldosterone, TFT, metanephrines, cortisol, fasting glucose; urine microscopy, protein/creatinine ratio, catecholamines, drug screen; renal Doppler, DMSA, CTA/MRA; echo, sleep study. [S1]
+- **Further tests only with a general or renal paediatrician**, if under 6 years, secondary cause suspected, or first-line tests abnormal: FBE, bicarbonate, renin/aldosterone, TFT, metanephrines, fasting glucose, cortisol; urine protein/creatinine ratio, microscopy, catecholamines, drug screen; renal Doppler, DMSA, CTA/MRA; echo, sleep study. [S1]
 
 ## Without severe features: treat
 
@@ -66,15 +66,15 @@
 |---|---|---|
 | 1 | ⚠️ **Page last updated June 2021** — more than five years old at retrieval. | `time_sensitive` |
 | 2 | **No IV agent or dose for hypertensive emergency**, and **no amlodipine dose**, are on this page. PSGN-specific amlodipine (0.1 mg/kg/day, up to 0.6 mg/kg/day, max 10 mg) is in `post-streptococcal-glomerulonephritis`. | `input_unavailable` |
-| 3 | ⚠️ **Nifedipine dose differs between two RCH pages:** this page starts at **0.25–0.5 mg/kg/day (max 20 mg)**; the newer RCH PSGN page (June 2025) gives **0.25 mg/kg (max 20 mg) per PRN dose, 6-hourly**. No dosing interval is given here. See `post-streptococcal-glomerulonephritis`. | `observation` |
+| 3 | ⚠️ **Nifedipine dose differs between two RCH pages:** this page gives a starting dose per day of **0.25–0.5 mg/kg (max 20 mg)**; the newer RCH PSGN page (June 2025) gives **0.25 mg/kg (max 20 mg) per PRN dose, 6-hourly**. No dosing interval is given here. See `post-streptococcal-glomerulonephritis`. | `observation` |
 | 4 | **The screening BP table** (90th centile by age and sex, average height) **was not quoted**: its boys/girls × systolic/diastolic columns flatten into a bare run of numbers. The discharge **flowchart** is an image. Use the linked centile tables or calculator. | `input_unavailable` |
 | 5 | **Adult thresholds differ** (`hypertension`); adolescents 13–17 years here are classified by fixed mmHg cut-offs rather than centiles. RCH sets no cut-over age to adult care. | `observation` |
-| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 6 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Hypertension in children and adolescents*. Last updated June 2021. https://www.rch.org.au/clinicalguide/guideline_index/Hypertension_in_children_and_adolescents/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Hypertension in children and adolescents*. Last updated June 2021. https://www.rch.org.au/clinicalguide/guideline_index/Hypertension_in_children_and_adolescents/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,173 +1,386 @@
 {
  "guideline": "guidelines/eating-disorders-emergency-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 22,
-  "pass": 22,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
    "claim": "⚠️ **Children and adolescents with eating disorders can appear well despite being medically unstable** — cardiovascular complications, electrolyte imbalance, dehydration.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children and adolescents with eating disorders (EDs) can appear well despite being medically unstable with cardiovascular complications, electrolyte imbalances and dehydration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f90fa5d5ad36d92",
+     "n": 175,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **They may present with suicidal ideation, escalating compensatory behaviours or comorbid psychiatric disorders needing urgent mental health assessment.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children and adolescents with EDs can present with suicidal ideation, escalating ED compensatory behaviours or comorbid psychiatric disorders requiring urgent mental health assessment",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f4513fb6a4c7d91",
+     "n": 183,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Anorexia nervosa has the highest mortality of any psychiatric disorder.** ARFID can also cause medical instability; seek specialist input, but admission criteria are similar.",
+   "claim": "**No psychiatric disorder has a higher mortality than anorexia nervosa.** ARFID can also cause medical instability; seek specialist input, but admission criteria are similar.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Anorexia nervosa (AN) has the highest mortality of any psychiatric disorder … Avoidant/restrictive food intake disorder (ARFID) also has the potential to lead to medical instability. Its assessment is complex and specialist input should be sought, however criteria for admission are similar to other EDs",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c1677ae6660a797",
+     "n": 75,
+     "p": "Anorexia"
+    },
+    {
+     "h": "bff2661c9b40abc1",
+     "n": 225,
+     "p": "Avoidant"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**Applies up to 18 years**; age limits for specialist services vary by location.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "This guideline can be used for children and adolescents up to 18 years of age, though age-related eligibility criteria for specialised services will differ by location and may dictate disposition",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "899ab780c686b2fd",
+     "n": 195,
+     "p": "This gui"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**History in all patients:** current, pre-morbid and highest weight and speed of loss · fainting, dizziness, palpitations, cold intolerance, constipation, abdominal symptoms · menstrual history · **mood, suicide and self-harm risk** · HEEADSSS.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Reported current weight, pre-morbid and highest weight, and rapidity of weight loss Fainting, dizziness, palpitations, cold intolerance, constipation and abdominal symptoms Menstrual history including menarche, amenorrhoea, and regularity of cycles Mood, risk of suicide and self-harm. … Psychosocial assessment including HEEADSSS screen.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77c257bdc53269d7",
+     "n": 285,
+     "p": "Reported"
+    },
+    {
+     "h": "d65a7b88169fc578",
+     "n": 50,
+     "p": "Psychoso"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**Examine:** weight, height, BMI, temperature, and **postural HR and BP lying to standing, 2–3 minutes apart**; look for undernutrition, purging signs (enamel erosion, Russell's sign, enlarged salivary glands) and acrocyanosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Weight, height and body mass index (BMI) Temperature Postural HR and BP. Ensure measurements are 2-3 minute apart, lying to standing … Signs of self-purging: Dental enamel erosion, Russell's sign (abrasions/calluses on back of interphalangeal and metacarpophalangeal joints from purging), enlarged salivary glands Acrocyanosis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d71b920b27b70db",
+     "n": 132,
+     "p": "Weight, "
+    },
+    {
+     "h": "4f311967810a885a",
+     "n": 191,
+     "p": "Signs of"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Bloods:** glucose, VBG, UEC, Ca, Mg, PO4, FBE, LFTs, ketones; **if new diagnosis** add ESR, thyroid function, coeliac screen. **12-lead ECG**; urinalysis; βhCG if amenorrhoeic.",
+   "claim": "**Bloods:** FBE, UEC, Ca, Mg, PO4, LFTs, glucose, ketones, VBG; **if new diagnosis** add ESR, thyroid function, coeliac screen. **12-lead ECG**; urinalysis; βhCG if amenorrhoeic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Glucose, venous blood gas, UEC, Ca, Mg, PO4, FBE, LFTs, ketones If new diagnosis: ESR, thyroid function, coeliac screen … Urinalysis (if concern for T1DM, specific gravity, ketosis), βhCG if amenorrhoeic 12-lead ECG",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eaf0b5ae75226066",
+     "n": 119,
+     "p": "Glucose,"
+    },
+    {
+     "h": "276dcdcc03f5e66e",
+     "n": 93,
+     "p": "Urinalys"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Strongly consider admission for medical instability: any red-flag feature or multiple amber-flag features.** Discuss with the paediatric or adolescent medicine on-call clinician for unit placement or if unsure.",
+   "claim": "⚠️ **Strongly consider admission for medical instability: any red-flag feature or multiple amber-flag features.** Talk to the on-call paediatric or adolescent medicine clinician about unit placement, or if unsure.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be strongly considered for children or adolescents who demonstrate medical instability, ie any \"Red flag\" features or multiple \"Amber flag\" features, … Discuss with the Paediatric or Adolescent Medicine on-call clinician: For navigation to the appropriate inpatient unit … If you are unclear whether the child/adolescent adequately meets criteria for admission",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c7b8cdc1b0b3b2b",
+     "n": 166,
+     "p": "Admissio"
+    },
+    {
+     "h": "751b30069a518516",
+     "n": 118,
+     "p": "Discuss "
+    },
+    {
+     "h": "f462f90567b6b8ff",
+     "n": 87,
+     "p": "If you a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Heart rate awake — consider admission:** under 50 bpm or postural rise over 50 bpm · **concern:** 50–60 bpm or postural rise over 20 bpm · **moderate risk:** over 60 bpm with normal postural change.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk Stratification for Admission Consider admission Discuss with on-call consultant Concern Discuss with on-call consultant Moderate risk Weekly review … HR Awake and Postural change <50 bpm Increase in postural HR of >50 bpm 50-60 bpm Increase in postural HR of >20 bpm >60 bpm Normal postural change",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62b19a67a082c155",
+     "n": 152,
+     "p": "Risk Str"
+    },
+    {
+     "h": "75245ca25f19eb4e",
+     "n": 147,
+     "p": "HR Awake"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Blood pressure — consider admission:** SBP under 80 or postural drop over 20 mmHg · **concern:** SBP under 90 or postural drop over 15 mmHg · **moderate risk:** normal resting SBP and postural drop under 15 mmHg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk Stratification for Admission Consider admission Discuss with on-call consultant Concern Discuss with on-call consultant Moderate risk Weekly review … BP normal and postural SBP <80 or postural SBP drop of >20 mmHg SBP <90 or postural SBP drop of>15 mmHg Normal resting SBP for age and gender and postural SBP drop of <15 mmHg",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62b19a67a082c155",
+     "n": 152,
+     "p": "Risk Str"
+    },
+    {
+     "h": "acba484e83ea30e9",
+     "n": 175,
+     "p": "BP norma"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Temperature — consider admission:** under 35.5°C · **concern:** under 36.0°C · **moderate risk:** over 36.0°C. **Syncope:** recurrent · occasional · none or pre-syncope.",
+   "claim": "⚠️ **Temperature — consider admission:** under 35.5°C · **concern:** under 36.0°C · **moderate risk:** over 36.0°C. **Syncope** — consider admission: recurrent; concern: occasional; moderate risk: none, or pre-syncope only.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk Stratification for Admission Consider admission Discuss with on-call consultant Concern Discuss with on-call consultant Moderate risk Weekly review … Temperature <35.5°C <36.0°C >36.0°C Syncope Recurrent Occasional None or pre-syncope",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62b19a67a082c155",
+     "n": 152,
+     "p": "Risk Str"
+    },
+    {
+     "h": "c9734aa73f36462e",
+     "n": 84,
+     "p": "Temperat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Hydration — consider admission:** fluid refusal over 48 hours or severe dehydration (over 10%) · **concern:** severe fluid restriction or moderate dehydration (5–9%) · **moderate risk:** minimal restriction, no more than mild dehydration (under 5%).",
+   "claim": "⚠️ **Hydration — consider admission:** fluid refusal over 48 hours or severe dehydration (over 10%) · **concern:** moderate dehydration (5–9%) or severe fluid restriction · **moderate risk:** minimal restriction, no more than mild dehydration (under 5%).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk Stratification for Admission Consider admission Discuss with on-call consultant Concern Discuss with on-call consultant Moderate risk Weekly review … Hydration Fluid refusal >48 hours or severe dehydration (>10%) Severe fluid restriction or moderate dehydration (5-9%) Minimal fluid restriction or no more than mild dehydration ( <5%)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62b19a67a082c155",
+     "n": 152,
+     "p": "Risk Str"
+    },
+    {
+     "h": "615750af8ae6f7e2",
+     "n": 184,
+     "p": "Hydratio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Weight loss — consider admission:** over 1 kg/week or over 15% in 3–6 months · **concern:** 0.5 to 1 kg/week · **moderate risk:** under 0.5 kg/week or fluctuating. **Percent of median BMI:** under 70% · 70–80% · over 80%.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Risk Stratification for Admission Consider admission Discuss with on-call consultant Concern Discuss with on-call consultant Moderate risk Weekly review … Weight loss Weight Loss >1 kg/week OR >15% in 3-6 months 0.5 to 1 kg/week <0.5 kg/week or fluctuating weight … See Median BMI tables for calculated values <70% 70-80% >80%",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62b19a67a082c155",
+     "n": 152,
+     "p": "Risk Str"
+    },
+    {
+     "h": "2594e29faf063a93",
+     "n": 108,
+     "p": "Weight l"
+    },
+    {
+     "h": "61ab3603118884d8",
+     "n": 60,
+     "p": "See Medi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Also listed as signs of medical instability** (column not recoverable): **QTc over 450 msec or other significant ECG abnormality**; hypophosphataemia under 0.9 mmol/L, hypokalaemia under 3.0 mmol/L, hypoglycaemia under 3.0 mmol/L, hyponatraemia under 130 mmol/L; transaminases over 3 times normal; Hb under 100 g/L.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Signs of Medical Instability … ECG QTc >450 msec or other significant ECG abnormality … Hypophosphataemia ( <0.9 mmol/L) Hypokalaemia ( <3.0 mmol/L) Hypoalbuminaemia Hypomagnesaemia Hypoglycaemia ( <3.0 mmol/L) Hyponatraemia ( <130 mmol/L) Hypocalcaemia Transaminases >3x normal … Hb <100 g/L",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "caae329d7e9103e8",
+     "n": 28,
+     "p": "Signs of"
+    },
+    {
+     "h": "3050114f457070c7",
+     "n": 54,
+     "p": "ECG QTc "
+    },
+    {
+     "h": "c42c87c29823f9e7",
+     "n": 190,
+     "p": "Hypophos"
+    },
+    {
+     "h": "87e18e2f3c173d9c",
+     "n": 11,
+     "p": "Hb <100 "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Refeeding syndrome:** potentially fatal fluid and electrolyte shifts on re-feeding an undernourished child; **its hallmark is hypophosphataemia.** Large oral or IV fluid volumes risk fluid overload and cardiac compromise.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Refeeding syndrome: potentially fatal shifts in fluids and electrolytes that may occur in undernourished children/adolescents being re-fed. The hallmark biochemical feature of refeeding syndrome is hypophosphataemia Fluid overload and cardiac compromise with significant oral or IV fluid administration",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7af0e8371ec10510",
+     "n": 302,
+     "p": "Refeedin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Start nutrition and hydration only after investigations are reviewed and a plan is agreed with the admitting team** — then as soon as possible, ideally in the ED.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nutrition and hydration should only commence after initial investigations have been reviewed and a nutrition/hydration plan is discussed with the admitting team The agreed plan should commence as soon as possible, ideally in the emergency department",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9517e8e74bf47197",
+     "n": 249,
+     "p": "Nutritio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**If feeding starts in the ED, consider first: thiamine 100 mg orally and phosphate 500 mg (elemental) orally.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If feeding/nutrition commences in the emergency department, consider initial supplements prior to starting: Thiamine 100 mg orally Phosphate 500 mg (elemental) orally",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a5ba54d2408a61af",
+     "n": 166,
+     "p": "If feedi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "⚠️ **Consider ongoing cardiac monitoring** (after discussing with the admitting consultant) for severe electrolyte disturbance such as K under 2.5 mmol/L, **HR under 45 bpm, or HR under 40 bpm asleep.**",
+   "claim": "⚠️ **Consider ongoing cardiac monitoring** (discuss first with the admitting consultant) when there is severe electrolyte disturbance such as K under 2.5 mmol/L, **HR under 45 bpm, or HR under 40 bpm asleep.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider ongoing cardiac monitoring after discussion with the admitting consultant for Severe electrolyte disturbance eg K <2.5 mmol/L HR <45 bpm HR <40 bpm asleep",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1dff874b62f5aba8",
+     "n": 163,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**Medically stable, no urgent mental health need:** new diagnosis — discuss outpatient management with the on-call consultant; known diagnosis — refer to the local service or the patient's known ED clinician.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "New diagnosis of ED: discuss with the on-call consultant regarding outpatient management Known ED diagnosis: refer to the appropriate local mental health/ED service or contact child/adolescent's known ED clinician",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2f0562480a96f8d4",
+     "n": 213,
+     "p": "New diag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**If there are mental health concerns, discuss with the local mental health team** — urgent assessment may be needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urgent mental health team assessment may be required. If there are concerns about mental health, discuss with local mental health team",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72d5aa9cbcc7ae7d",
+     "n": 134,
+     "p": "Urgent m"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the paediatric or adolescent team** if medically unstable or needing admission, at first presentation, or to plan follow-up. **Transfer** if care exceeds the local facility.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The child or adolescent is medically unstable (as above) or requires admission First presentation of ED To discuss appropriate outpatient follow up after discharge from the emergency department … For medically unstable children/adolescents who require escalation of care beyond capacity/comfort of the local team/facility",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a18b828ea79fde14",
+     "n": 193,
+     "p": "The chil"
+    },
+    {
+     "h": "2bddc9577c21aa7d",
+     "n": 125,
+     "p": "For medi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge only when medically stable, mental health assessment is complete, and follow-up is arranged.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Medically stable Mental health assessment completed Appropriate medical and/or mental health follow up arranged",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f74b6678a6327543",
+     "n": 135,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Management of Eating Disorders in the Emergency Department' (Last updated October 2025), at https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/, retrieved 2026-09-23"
   }
  ]

@@ -1,200 +1,417 @@
 {
  "guideline": "guidelines/poisoning-initial-management-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 26,
-  "pass": 26,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
-   "claim": "**Most toddler ingestions are insignificant**, but ⚠️ **some agents are highly toxic in a dose of 1–2 tablets** in this age group.",
+   "claim": "**Most toddler ingestions are insignificant**, but ⚠️ **at this age, just 1–2 tablets of certain agents can be highly toxic.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most toddler ingestions are insignificant, however a number of agents are highly toxic in a dose of 1-2 tablets in this age group",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb6aa01fa441cc99",
+     "n": 129,
+     "p": "Most tod"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Resuscitation and risk assessment may need to run concurrently; most treatment is supportive.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Resuscitation and risk assessment are described below, and may need to be performed concurrently. Most treatment is supportive",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "97e7d02e4e93057f",
+     "n": 126,
+     "p": "Resuscit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **All intentional self-poisonings in adolescents need a paracetamol screen and admission.** Take every act of deliberate self-harm extremely seriously.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All acts of deliberate self-harm must be taken extremely seriously. All intentional self-poisonings in adolescents require screening for paracetamol ingestion and admission",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ff1276825772be1",
+     "n": 172,
+     "p": "All acts"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consider non-accidental injury or neglect** when the poisoning doesn't fit the child's developmental age, the history is inconsistent, or there is past poisoning, illicit drugs or unusual household-substance poisoning. **Infants under 1 do not self-administer medicines.**",
+   "claim": "⚠️ **Consider non-accidental injury or neglect** when the poisoning doesn't fit the child's developmental age, the history is inconsistent, or there is past poisoning, illicit drugs or unusual household-substance poisoning. **An infant under 1 cannot take medicines by themselves.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "NAI or neglect should be considered particularly where accidental poisoning is not consistent with the developmental age of the child, the history is inconsistent, there is a past history of poisoning, illicit drugs or unusual poisoning from household substances. Infants under 1 do not self-administer medicines.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "000afbfa31e8f260",
+     "n": 313,
+     "p": "NAI or n"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Check any unconscious patient for a Medicalert bracelet** or other signs of an underlying condition.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Always check for Medicalert bracelet in any unconscious patient, or any other signs of underlying medical condition (fingerprick marks etc)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "caefc8d63a68ea3e",
+     "n": 139,
+     "p": "Always c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Potentially lethal in 1–3 tablets:** beta blockers · calcium channel blockers (delayed bradycardia, hypotension) · chloroquine/hydroxychloroquine · ecstasy and other amphetamines · sulphonylureas (**hypoglycaemia may be delayed 8 hours**) · tricyclic antidepressants · theophylline.",
+   "claim": "⚠️ **Potentially lethal in 1–3 tablets:** tricyclic antidepressants · theophylline · beta blockers · sulphonylureas (**onset of hypoglycaemia may be delayed by 8 hours**) · calcium channel blockers (delayed bradycardia, hypotension) · ecstasy and other amphetamines · chloroquine/hydroxychloroquine.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Potentially lethal 1-3 tablet ingestions Beta blockers eg propranolol - coma, seizures, Ventricular Tachycardia, hypoglycaemia Calcium channel blockers - delayed onset bradycardia, hypotension, conduction defects Chloroquine / hydroxychloroquine - rapid onset coma, seizures, cardiovascular collapse Ecstasy and other amphetamines - agitation, hypertension, hyperthermia Oral hypoglycaemics eg sulphonylureas - hypoglycaemia may be delayed 8 hours Tricyclic antidepressants - coma, seizures, hypotension, VT Theophylline - seizures, Supraventricular Tachycardia, tachycardia, vomiting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5288a36603381c6b",
+     "n": 584,
+     "p": "Potentia"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Potentially harmful in 1–3 tablets or small exposures (selected):** baclofen 25 mg (coma) · camphor · carbamazepine 400 mg (coma) · clonidine · clozapine · corrosives · hydrocarbons and essential oils · paraquat · venlafaxine 150 mg (seizures).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Potentially harmful 1-3 tablet ingestions/ small exposures … Baclofen (25 mg) - coma Camphor - rapid decrease in conscious state, seizures, hypotension Carbamazepine (400 mg) - coma Centrally acting alpha adrenergic agonists eg clonidine - like opiate but more hypotension and bradycardia Clozapine 100mg/ 200 mg - coma … Corrosives - strong alkali or acid - Gastroesophageal injury … Hydrocarbon solvents/ kerosene / essential oils - decreased level of consciousness, seizures, aspiration pneumonia … Paraquat - oesophageal burns, multi-organ failure … Venlafaxine 150 mg - seizures.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "64f124f51d03cebb",
+     "n": 58,
+     "p": "Potentia"
+    },
+    {
+     "h": "ea28d9c3b5f31f10",
+     "n": 258,
+     "p": "Baclofen"
+    },
+    {
+     "h": "44a7d0c067abeb1a",
+     "n": 60,
+     "p": "Corrosiv"
+    },
+    {
+     "h": "9985e6ba6b690c39",
+     "n": 114,
+     "p": "Hydrocar"
+    },
+    {
+     "h": "81701d692e915361",
+     "n": 49,
+     "p": "Paraquat"
+    },
+    {
+     "h": "ab73fc3a95a141d7",
+     "n": 30,
+     "p": "Venlafax"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Ring Poisons Information (13 11 26)** with: agent and formulation (immediate or modified release) · route · time · **dose per kg, counting everything that could have been in the pack** · weight · symptoms and signs. **Beware mixed overdose and inaccurate dose reporting.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The Poisons Information Centre may provide useful information about product ingredients and potential toxicity. Phone 13 11 26. … Agent: (drug / substance, name and formulation - immediate or modified release) Beware of the possibility of mixed overdose Route - ingested, inhaled, topical exposure Time of incident Dose/ kg Maximum amount of ingestion (include all medication that was potentially in the bottle or packet when calculating). Beware of the possibility of inaccurate dose reporting on history taking. Weight of child Symptoms Signs",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "128c2c465ff558c9",
+     "n": 127,
+     "p": "The Pois"
+    },
+    {
+     "h": "5e53ab4266a05770",
+     "n": 414,
+     "p": "Agent: ("
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Mixed or unknown ingestion: check a paracetamol level.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If mixed or undetermined ingestion paracetamol level should be done.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0234002a000a52f0",
+     "n": 68,
+     "p": "If mixed"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **A poisoned child may be unable to protect the airway even at >GCS8**; AVPU may describe conscious state better.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Inability to protect airway may be with >GCS8 in poisonings. AVPU may be a more useful descriptor of conscious state.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2dd43ce161b7e218",
+     "n": 117,
+     "p": "Inabilit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Dysrhythmias:** sodium-channel blockade → **sodium bicarbonate**; potassium-channel blockade → **magnesium sulphate**.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Dysrhythmias are frequently due to sodium channel blockade and may be treated with Sodium Bicarbonate. Alternately they may be caused by potassium channel blockade - treated with magnesium sulphate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f73cc617ebce3563",
+     "n": 197,
+     "p": "Dysrhyth"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Poisoning seizures: benzodiazepines first, barbiturates second.** ⚠️ **Phenytoin is not recommended** (usually ineffective).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Seizures - those due to poisoning are always generalized. Usually respond to benzodiazepines with barbiturates second line. Phenytoin is not recommended (as this is usually ineffective).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "600ae1ad6d5bb1eb",
+     "n": 186,
+     "p": "Seizures"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Check glucose; treat if under 4 mmol/L.** Consider malignant hyperthermia, serotonin syndrome and neuroleptic malignant syndrome.",
+   "claim": "**Check glucose; treat if under 4 mmol/L.** Think of drug-induced syndromes: neuroleptic malignant syndrome, serotonin syndrome, malignant hyperthermia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consideration should be given to drug induced syndromes - malignant hyperthermia, serotonin syndrome and neuroleptic malignant syndrome Check glucose level: treat if glucose <4 mmol/L",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dfdec384a87ed618",
+     "n": 183,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Temperature above 38.5 °C needs urgent cooling.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hyper/ hypothermia - >38.5°C requires urgent cooling",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c50fa1639fe4fcab",
+     "n": 52,
+     "p": "Hyper/ h"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Eye:** copious saline irrigation (local anaesthetic drops and sedation may be needed). **Skin:** remove clothes, rinse with copious water, then soap and water.",
+   "claim": "**Eye:** copious saline irrigation (local anaesthetic drops and sedation may be needed). **Skin:** take the clothes off, rinse with plenty of water, then wash with soap and water.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Copious irrigation with saline. Instillation of local anaesthetic eye drops and sedation may be required Skin Remove clothes, rinse with copious water, then soap and water",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "861ef8d067282c1e",
+     "n": 171,
+     "p": "Copious "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Discuss every gut-decontamination method with a toxicologist first** — **paediatric deaths have occurred from activated charcoal.** **Emesis has no role in hospital.**",
+   "claim": "⚠️ **Discuss every gut-decontamination method with a toxicologist first** — **activated charcoal has killed children.** **In hospital, emesis has no place.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A variety of methods may be considered and should be discussed with a toxicologist before commencement as all require a risk / benefit analysis. Paediatric deaths have occurred from activated charcoal. Emesis has no role in the hospital setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37c0c5d4ff0eb39d",
+     "n": 244,
+     "p": "A variet"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Activated charcoal has a very limited role:** not without a toxicologist, **unless the child presents less than 1 hour after a potentially toxic ingestion with a normal conscious state.**",
+   "claim": "**Activated charcoal has a very limited role:** not without a toxicologist, **unless the child arrives within 1 hour of a potentially toxic ingestion and is fully conscious.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Charcoal has a very limited role in treatment and should not be used without consultation with a toxicologist, unless presents less than 1 hour after a potentially toxic ingestion with normal conscious state.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d23204f7fc9bd6b6",
+     "n": 208,
+     "p": "Charcoal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Charcoal contraindications:** altered conscious state · ethanol/glycols · alkalis/corrosives · metals including lithium, iron and potassium · fluoride · cyanide · hydrocarbons · mineral acids (boric acid).",
+   "claim": "⚠️ **Charcoal contraindications:** altered conscious state · cyanide · fluoride · hydrocarbons · alkalis/corrosives · mineral acids (boric acid) · ethanol/glycols · metals including lithium, iron and potassium.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Contraindications: Patients with altered conscious state Ethanol/glycols Alkalis / corrosives Metals - including Lithium, Iron compounds, potassium Fluoride Cyanide Hydrocarbons Mineral acids - Boric acid",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "60e2bd109a7bfced",
+     "n": 204,
+     "p": "Contrain"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Gastric lavage:** very limited role, needs intubation, only after consultation. **Whole bowel irrigation:** limited role in life-threatening ingestions of some slow-release preparations and agents charcoal doesn't bind.",
+   "claim": "**Gastric lavage:** very limited role, needs intubation, only after consultation. **Whole bowel irrigation:** a limited role when a life-threatening ingestion involves certain slow-release preparations or agents charcoal doesn't bind.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lavage has a very limited role in treatment. It requires intubation for airway protection and should not be used without consultation. … Bowel Irrigation has a limited role in treatment of life-threatening ingestions of some slow release preparations and agents that do not bind to activated charcoal.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "634ff089d439c0bc",
+     "n": 134,
+     "p": "Lavage h"
+    },
+    {
+     "h": "0383915cc86975ee",
+     "n": 164,
+     "p": "Bowel Ir"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Antidote pairings (selected):** benzodiazepines → flumazenil · beta blocker → glucagon · digoxin → digoxin immune Fab · iron → desferrioxamine · isoniazid → pyridoxine · local anaesthetics → Intralipid · methaemoglobinaemia → methylene blue · opiates → naloxone · oral hypoglycaemics → octreotide · paracetamol → N-acetylcysteine · tricyclic antidepressants → sodium bicarbonate · warfarin/long-acting rodenticide → vitamin K.",
+   "claim": "**Antidote pairings (selected):** flumazenil for benzodiazepines · glucagon for beta blocker · digoxin immune Fab for digoxin · desferrioxamine for iron · pyridoxine for isoniazid · Intralipid for local anaesthetics · methylene blue for methaemoglobinaemia · naloxone for opiates · octreotide for oral hypoglycaemics · N-acetylcysteine for paracetamol · sodium bicarbonate for tricyclic antidepressants · vitamin K for warfarin/long-acting rodenticide.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Benzodiazepines Flumazenil Beta Blocker Glucagon … Digoxin Digoxin immune Fab (Digibind) … Iron Desferrioxamine Isoniazid Pyridoxine Local anaesthetics Intralipid® Methaemoglobinaemia Methylene Blue … Opiates Naloxone Oral hypoglycaemics Octreotide … Paracetamol N-Acetyl Cysteine … Tricyclic antidepressants Sodium bicarbonate Warfarin, long acting rodenticide anticoagulant Vitamin K",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "12cf8184034cc18d",
+     "n": 48,
+     "p": "Benzodia"
+    },
+    {
+     "h": "0e30b89d3303f88d",
+     "n": 37,
+     "p": "Digoxin "
+    },
+    {
+     "h": "25d1ead666f3063b",
+     "n": 107,
+     "p": "Iron Des"
+    },
+    {
+     "h": "f8fcf32249fb9822",
+     "n": 47,
+     "p": "Opiates "
+    },
+    {
+     "h": "707fb77eec9994fa",
+     "n": 29,
+     "p": "Paraceta"
+    },
+    {
+     "h": "c7e175884abc0094",
+     "n": 102,
+     "p": "Tricycli"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Calcium channel blocker:** calcium, insulin/glucose, Intralipid. **Cyanide:** hydroxocobalamin, dicobalt edetate, sodium thiosulphate.",
+   "claim": "**Calcium channel blocker:** Intralipid, insulin/glucose, calcium. **Cyanide:** sodium thiosulphate, dicobalt edetate, hydroxocobalamin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Calcium channel blocker Calcium Insulin/ glucose Intralipid® Cyanide Hydroxocobalamin Dicobalt edetate Sodium thiosulphate",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ba95dc9a52507f9",
+     "n": 122,
+     "p": "Calcium "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Urinary alkalinisation helps salicylate toxicity if done meticulously.** **Multi-dose charcoal** has a pharmacokinetic effect but no evident improvement in clinical outcome.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Urinary alkalization Useful for salicylate toxicity if performed meticulously Multi dose activated charcoal Whilst there is evidence of a pharmacokinetic effect, it is not evident that it improves clinical outcome",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d0e4a89a182e5795",
+     "n": 213,
+     "p": "Urinary "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Intermittent high-flux haemodialysis** removes small water-soluble toxins: salicylate, toxic alcohols, lithium, theophylline, valproate, barbiturates, methotrexate. CVVH is only for patients who can't tolerate haemodialysis.",
+   "claim": "**Small water-soluble toxins are cleared by intermittent high-flux haemodialysis**: lithium, salicylate, valproate, theophylline, methotrexate, barbiturates, toxic alcohols. CVVH is only for patients who can't tolerate haemodialysis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intermittent High flux haemodialysis removes small water-soluble toxins salicylate, toxic alcohols lithium theophylline valproate barbiturates methotrexate Continuous renal replacement such as veno-veno haemofiltration has a low clearance rate and is only suitable where haemodialysis is not tolerated.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f96642a67d25ac18",
+     "n": 302,
+     "p": "Intermit"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider admission for every adolescent with an intentional overdose.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission should be considered for all adolescent patients with an intentional overdose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6e8aa23e11c05633",
+     "n": 87,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** when care is needed beyond the local hospital and paediatric team. **PIPER (Victoria): 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Patients requiring escalation of care beyond the comfort of the hospital and local paediatric team. For emergency advice and paediatric or neonatal ICU transfers, call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87cf17bff332d08d",
+     "n": 250,
+     "p": "Patients"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   },
   {
    "claim": "**Intentional self-harm → local mental health services** (e.g. Orygen 1800 888 320). **Recreational poisoning → YoDAA** (1800 458 685).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intentional self –harm: Referral to local mental health services eg Orygen Youth Health: 1800 888 320 Recreational poisoning: Referral to YoDAA, Victoria's Youth Drug and Alcohol Advice service: 1800 458 685",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "38db6c772cb3fbcd",
+     "n": 207,
+     "p": "Intentio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Poisoning - Acute Guidelines For Initial Management' (Last updated August 2017), at https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/, retrieved 2026-09-23"
   }
  ]

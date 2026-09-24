@@ -1,153 +1,283 @@
 {
  "guideline": "guidelines/facial-weakness-and-bell-palsy-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Facial weakness and Bell palsy' (Last updated February 2023), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Facial weakness and Bell palsy' (Last updated February 2023), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 19,
-  "pass": 19,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 19
  },
  "claims": [
   {
-   "claim": "**Bell palsy is an idiopathic, unilateral lower motor neuron facial nerve palsy. Exclude other causes before making the diagnosis.**",
+   "claim": "**Bell palsy = a one-sided, idiopathic facial nerve palsy of lower motor neuron type. Rule out other causes before diagnosing it.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bell palsy is an idiopathic unilateral lower motor neuron facial nerve palsy … Other causes of facial weakness should be excluded before making a diagnosis of Bell palsy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "630de5f4021f61ca",
+     "n": 76,
+     "p": "Bell pal"
+    },
+    {
+     "h": "230238590a77f926",
+     "n": 90,
+     "p": "Other ca"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Other causes include infection, inflammation, trauma, tumour and vascular events.** Idiopathic or post-viral facial palsy is uncommon under 2 years.",
+   "claim": "**Other causes include infection, inflammation, trauma, tumour and vascular events.** Facial palsy that is idiopathic or post-viral is uncommon under 2 years.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Facial nerve palsy in children may be idiopathic or caused by infection, inflammation, trauma, tumour or a vascular event … Idiopathic or post-viral facial palsy is uncommon in children less than 2 years",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "00880428c983cd3e",
+     "n": 121,
+     "p": "Facial n"
+    },
+    {
+     "h": "2b4887acd2df28ad",
+     "n": 79,
+     "p": "Idiopath"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Typical Bell palsy:** rapid onset over hours or no more than 1–2 days; usually mild pain in the face or behind the ear; dry eyes and poor tear clearance.",
+   "claim": "**Typical Bell palsy:** comes on quickly, over hours or at most 1–2 days; usually mild pain behind the ear or in the face; dry eyes and poor tear clearance.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Onset: Bell palsy usually occurs very quickly (over hours or no more than 1-2 days) Facial pain: usually mild pain in the face or behind the ear (common in Bell palsy) Dry eyes and poor tear clearance from the eyes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5e4a53b4268c811",
+     "n": 214,
+     "p": "Onset: B"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Bell palsy involves all facial nerve branches on the affected side**; forehead weakness (and ptosis, as the page puts it) may be evident, and **these are absent in upper motor neuron lesions.**",
+   "claim": "**In Bell palsy every branch of the facial nerve on the affected side is involved**; forehead weakness (and ptosis, as the page puts it) may be evident, and **these are absent in upper motor neuron lesions.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bell palsy involves all facial nerve branches on the affected side. Ptosis and forehead muscle weakness may be evident. These features are absent in upper motor neuron lesions",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7521a794084a5f4",
+     "n": 175,
+     "p": "Bell pal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Other neurological features** — severe headache, blurred or double vision, limb weakness or numbness, ataxia — **consider stroke.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Other neurological features such as severe headache, blurred vision, double vision, weakness/numbness in arms or extremities, ataxia (consider Stroke)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ef979a863c9c30d",
+     "n": 150,
+     "p": "Other ne"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Also against Bell palsy:** hyperacusis and altered taste (both uncommon in it), preceding viral infection or head/face trauma, and **severe pain (mastoiditis, VZV).**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Hyperacusis (increased sensitivity to sound) and altered taste (both uncommon in Bell palsy) Preceding viral infections or trauma to the head or face Severe pain (may indicate mastoiditis, VZV)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "34c2e43397e8c7e6",
+     "n": 193,
+     "p": "Hyperacu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "**A full cranial and peripheral neurological examination is essential**, plus an eye examination for corneal abrasions.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Full neurological examination (cranial and peripheral) is essential … Eye examination (to look for corneal abrasions)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ea8fd71ebcadab8",
+     "n": 67,
+     "p": "Full neu"
+    },
+    {
+     "h": "33dbf1f60a0945c4",
+     "n": 47,
+     "p": "Eye exam"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Look for:** vesicles on the face or in the ear canal (Ramsay Hunt syndrome); pallor, hepatosplenomegaly or lymphadenopathy (malignancy); otitis media, mastoiditis or parotitis; and **check blood pressure** — hypertension is a rare association — and temperature.",
+   "claim": "⚠️ **Look for:** vesicles in the ear canal or on the face (Ramsay Hunt syndrome); pallor, hepatosplenomegaly or lymphadenopathy (malignancy); otitis media, mastoiditis or parotitis; and **check blood pressure** — hypertension is a rare association — and temperature.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Skin lesions or vesicles on the face or in the ear canal (Ramsay Hunt Syndrome) Signs of malignancy (pallor, hepatosplenomegaly, lymphadenopathy) Signs of otitis media, mastoiditis or parotitis Blood pressure and temperature (hypertension may rarely be associated with facial nerve palsy)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b08ae205f044c227",
+     "n": 288,
+     "p": "Skin les"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "**The House Brackmann scale grades severity** and is useful to monitor progress.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Severity can be measured using the House Brackmann grading scale (see Additional notes). This can be useful to monitor progress",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "110e14254787f09d",
+     "n": 127,
+     "p": "Severity"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "**The diagnosis is clinical; investigations are not usually required.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The diagnosis of Bell palsy is made on clinical history and examination. Investigations are not usually required",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6865511d2a391d4c",
+     "n": 112,
+     "p": "The diag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "**FBE (to exclude haematological malignancy)** if there are features of an alternative cause, particularly malignancy, **or if starting steroids.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "FBE (to exclude haematological malignancy) If features of an alternative cause of facial weakness, particularly malignancy If commencing steroids",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf66b59db78f50bb",
+     "n": 145,
+     "p": "FBE (to "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**If an alternative cause is suspected:** swab for HSV and VZV if vesicles are present; neuroimaging in consultation with neurology.",
+   "claim": "**If an alternative cause is suspected:** if there are vesicles, swab them for HSV and VZV; neuroimaging in consultation with neurology.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If features of an alternative cause of facial weakness, consider Swab for HSV and VZV (if vesicles are present) Neuroimaging (in consultation with neurology)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69b7d14e08e66ad9",
+     "n": 157,
+     "p": "If featu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Almost all children recover within 12 months without treatment, most within 6 weeks** — but some have prolonged functional impairment, facial asymmetry and emotional distress. Give the parent handout.",
+   "claim": "**Untreated, nearly every child recovers by 12 months, and most by 6 weeks** — but some have prolonged functional impairment, facial asymmetry and emotional distress. Give the parent handout.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Almost all children recover within 12 months without treatment (most within 6 weeks of onset). However some children may have a prolonged period of functional impairment, facial asymmetry and emotional distress. Provide Bell palsy parent handout",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c5829444651cccd",
+     "n": 245,
+     "p": "Almost a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Any child who cannot close the eye needs eye care** to prevent corneal abrasions: **hypromellose lubricating drops at least three times during the day**, and **pad the eye shut after lubricating ointment at night.**",
+   "claim": "⚠️ **Any child who cannot close the eye needs eye care** to prevent corneal abrasions: **hypromellose lubricating drops a minimum of three times through the day**, and **pad the eye shut after lubricating ointment at night.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All children with an inability to close their eye should have eye care to prevent corneal abrasions (dry eye syndrome) Lubricating (Hypromellose) ocular drops at least three times during the day Pad eye shut after application of lubricating ocular ointment at night",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2f27fa5e79a7103",
+     "n": 265,
+     "p": "All chil"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Steroids: not enough evidence in children** that early prednisolone improves complete recovery; most recover untreated.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The vast majority of children with Bell palsy recover without treatment. There is not enough evidence that early treatment with prednisolone improves complete recovery in children",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae1fde621eec8b44",
+     "n": 179,
+     "p": "The vast"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
-   "claim": "**In adults, steroids 1 mg/kg/day (max 50 mg) orally daily for 10 days improve recovery, particularly within 72 hours of onset.** The age at which adult evidence applies is unknown.",
+   "claim": "**In adults, oral steroids improve recovery — 1 mg/kg/day (max 50 mg) once daily for 10 days — especially if started within 72 hours of onset.** The age at which adult evidence applies is unknown.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In adults there is good evidence that steroids (1 mg/kg/day (max 50 mg) oral daily for 10 days) improve recovery, particularly within 72 hours of onset. The age of transition to adult evidence is unknown",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "50c325183e2b2201",
+     "n": 203,
+     "p": "In adult"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Aciclovir may be considered if a vesicular rash is present.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aciclovir may be considered if vesicular rash present",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8011f1b6469b868c",
+     "n": 53,
+     "p": "Aciclovi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Consult Neurology if under 2 years or atypical on history or examination; consult ENT** for otitis media, mastoiditis or parotitis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "<2 years of age or atypical features on history or examination (consult Neurology) Child with evidence of otitis media, mastoiditis or parotitis (consult ENT)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f72f574a58bd938d",
+     "n": 158,
+     "p": "<2 years"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when there are no signs of complications and GP or paediatrician follow-up within 1–2 weeks is arranged.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "No signs of complications Follow up with health professional (eg GP, paediatrician) within 1-2 weeks is arranged",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5e2c4ac66f0bdf01",
+     "n": 112,
+     "p": "No signs"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Facial weakness and Bell palsy' (Last updated February 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/, retrieved 2026-09-23"
   }
  ]

@@ -1,9 +1,9 @@
 # Antihistamine poisoning in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, ECG monitoring, decontamination and disposition for H1-antihistamine overdose (sedating and lesser-sedating) in children. H2 antagonists are excluded. Anticholinergic features are covered in `anticholinergic-syndrome-children`; general principles in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`. Therapeutic antihistamine use is in `allergic-rhinitis` and `urticaria-children`.
 
-> ✅ **OPEN AND QUOTED.** 14 of 14 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Antihistamine poisoning*** (Last updated August 2017); **20 fragments re-checked by machine. 2 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 14 of 14 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Antihistamine poisoning*** (Last updated August 2017); **20 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Most need supportive care only, but large overdoses of sedating antihistamines can cause QT prolongation and Torsades de Pointes.** ECG every patient who needs assessment. ☎️ **Victorian Poisons Information Centre 13 11 26.**
 
@@ -22,7 +22,7 @@
 
 ## Who needs assessment
 
-- **Assess:** acute ingestion of **more than 3 times the maximum daily dose** · any intentional self-poisoning or significant accidental ingestion · any symptomatic child. ⚠️ **Consider non-accidental poisoning** if the developmental age doesn't fit. [S1]
+- **Assess:** acute ingestion **above 3 times the maximum daily dose** · any symptomatic child · any significant accidental ingestion or intentional self-poisoning. ⚠️ **Consider non-accidental poisoning** if the developmental age doesn't fit. [S1]
 - **Establish the formulation** (syrup, immediate or modified release), exact name and tablet size, and **calculate the maximum possible dose per kg.** [S1]
 - **Investigations:** ECG at presentation and **repeated 4–6 hourly until normal**; **paracetamol level in all intentional overdoses.** [S1]
 
@@ -34,7 +34,7 @@
 
 ## Management — lesser-sedating antihistamines
 
-- **12-lead ECG for long QT and arrhythmias**; cardiac monitoring may be needed after large overdoses. Otherwise treat symptoms. [S1]
+- **Do a 12-lead ECG, looking for arrhythmias and long QT**; large overdoses may need cardiac monitoring. Otherwise manage symptomatically. [S1]
 
 ## Disposition
 
@@ -51,12 +51,12 @@
 | 2 | **Internal ECG inconsistency:** the Investigations section says repeat the ECG **4–6 hourly until normal**; the sedating-antihistamine management section says **consider a repeat at 6 hours if symptomatic**. Both are quoted; the stricter one is the safer default. | `observation` |
 | 3 | **Charcoal window:** this page says **within 1 hour** (or after airway protection) for massive sedating-antihistamine ingestion; the RCH charcoal page (`activated-charcoal-children`) says **usually within 1 to 2 hours**; AMH (`gastrointestinal-decontamination`) says decontamination is rarely indicated **after 2 hours**. No charcoal dose is given here; AMH gives 1 g/kg (max 50 g) in children. | `observation` |
 | 4 | **No benzodiazepine or anticholinesterase dose is given** on this page. The RCH anticholinergic page (`anticholinergic-syndrome-children`) doses diazepam for delirium. | `observation` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Antihistamine poisoning*. Last updated August 2017. https://www.rch.org.au/clinicalguide/guideline_index/Antihistamine_poisoning/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Antihistamine poisoning*. Last updated August 2017. https://www.rch.org.au/clinicalguide/guideline_index/Antihistamine_poisoning/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

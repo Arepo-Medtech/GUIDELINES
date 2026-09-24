@@ -1,167 +1,344 @@
 {
  "guideline": "guidelines/epistaxis-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Epistaxis' (Last updated April 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Epistaxis' (Last updated April 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
    "claim": "**Usually minor trauma (e.g. nose picking) or friable mucosa**, from Little's area on the anterior septum; usually venous, brief and often recurrent.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Usually due to minor trauma (eg nose picking) or friable nasal mucosa … Epistaxis in children is usually from Little's area (see diagram), located on the anterior septal wall. The bleeding is usually venous, of brief duration, and often recurrent",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef2f81908818825d",
+     "n": 69,
+     "p": "Usually "
+    },
+    {
+     "h": "e0efa4f45755296c",
+     "n": 174,
+     "p": "Epistaxi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Medicines that can cause it:** topical nasal steroids, NSAIDs, fluvoxamine, chemotherapy.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Medications: topical nasal steroids, NSAIDs, fluvoxamine, chemotherapy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29a7bc8d02798744",
+     "n": 70,
+     "p": "Medicati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **A unilateral foul discharge suggests a foreign body. Button batteries need urgent removal.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Foreign bodies: suspect with unilateral foul discharge. Button batteries require urgent removal",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0083a44f9cc9a5b9",
+     "n": 95,
+     "p": "Foreign "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Rarer causes:** bleeding disorders (von Willebrand disease, ITP, haematological malignancy), and juvenile angiofibroma in adolescent males.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bleeding diatheses: von Willebrand disease, ITP, haematological malignancies … Nasopharyngeal tumors: juvenile angiofibroma in adolescent males",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cfc2bbe54bbaffcd",
+     "n": 76,
+     "p": "Bleeding"
+    },
+    {
+     "h": "0da253255105a4a9",
+     "n": 64,
+     "p": "Nasophar"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Red flags:** age under 2 years · bleeding over 30 minutes despite adequate pressure · bilateral bleeding · syncope, haematemesis, melaena or haemodynamic instability.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red flags Age <2 years: high association with trauma, child abuse or underlying illness Bleeding >30 minutes despite adequate pressure Bilateral bleeding suggests a systemic cause or significant trauma History of syncopal episode, haematemesis, melaena or haemodynamic instability",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c07e02448e7db1b",
+     "n": 280,
+     "p": "Red flag"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Look for an underlying cause if:** frequent recurrences, easy bruising or gum bleeding, a family history of bleeding disorders, bleeding after surgery or dental extraction, or a relevant medication history.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider underlying diagnosis/cause if: recurrent, frequent episodes easy bruising, gum bleeding, prolonged bleeding after minor cuts family history of bleeding disorders history of bleeding after surgical challenges eg dental extractions, tonsillectomy, circumcision medication history",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c23518a0d446adf",
+     "n": 286,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Usually none for a single self-limiting episode.** Consider FBE, coagulation screen and group and hold/cross-match for severe or recurrent bleeding, a suspected bleeding disorder, or haemodynamic compromise.",
+   "claim": "**Usually none for a single self-limiting episode.** With severe or recurrent bleeding, a suspected bleeding disorder, or haemodynamic compromise, consider FBE, a coagulation screen and group and hold/cross-match.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Often not indicated for single, self-limiting episodes … Consider FBE, coagulation screen and group and hold/crossmatch in severe/recurrent bleeding, a history suggestive of bleeding disorder or signs of haemodynamic compromise",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41efb4058eb142d4",
+     "n": 54,
+     "p": "Often no"
+    },
+    {
+     "h": "4979ee61fac75043",
+     "n": 170,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **If shocked:** fluid resuscitation, tranexamic acid, and consider activating the massive transfusion protocol.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If signs of shock Fluid resuscitation Tranexamic acid (TXA) Consider activation of massive transfusion protocol (MTP)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "18cfd14264e3a9c0",
+     "n": 117,
+     "p": "If signs"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Sit the child up, tilt the head forward, and pinch the soft cartilage against the septum.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Position child sitting up in a comfortable position eg on parent's lap Tilt head forward to prevent swallowing blood Apply firm pressure to the anterior portion (cartilage) of the nose against the septum with thumb and forefinger",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36866b49bcff56cf",
+     "n": 229,
+     "p": "Position"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Hold continuous pressure for 10 minutes; if still bleeding, another 10 minutes.** A cool towel or covered ice pack on the neck may help.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aim to hold continuous pressure for 10 minutes. If the nosebleed continues, continue pressure for another 10 minutes … Consider placing a cool towel or covered icepack on the back of their neck",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "faef504508a50963",
+     "n": 116,
+     "p": "Aim to h"
+    },
+    {
+     "h": "641e6e15b9d11eed",
+     "n": 74,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Persistent bleeding is often inadequate pressure**; cautery or packing may be needed. Consider **oxymetazoline 0.05%, 1–2 sprays.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If persistent bleeding often due to inadequate treatment / pressure cautery or packing may be required consider application of topical vasoconstrictor eg 1-2 sprays of oxymetazoline 0.05%",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b5d09bd9ba70b81",
+     "n": 187,
+     "p": "If persi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Cauterise if simple measures fail and a visible vessel is on the anterior septum.** Get senior help; consider procedural sedation if the child is unlikely to tolerate it.",
+   "claim": "**Cautery: when simple measures have failed and a vessel can be seen on the anterior septum.** Get senior help; if the child is unlikely to cope, consider procedural sedation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Cautery is indicated if simple measures fail, and a visible vessel is identified on the anterior septum. Seek senior assistance if cautery is required. Consider procedural sedation if the child is unlikely to tolerate procedure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "73594e88580045ba",
+     "n": 227,
+     "p": "Cautery "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**First apply gauze soaked in Co-Phenylcaine, or topical lignocaine 1% with adrenaline 1:100,000, for 10–15 minutes**, keeping pressure on. ⚠️ The page's lignocaine dose figure is ambiguous and is not restated here — see Unresolved.",
+   "claim": "**First hold gauze on the site for 10–15 minutes, soaked in Co-Phenylcaine or in topical 1% lignocaine with 1:100,000 adrenaline**, keeping pressure on. ⚠️ The page's lignocaine dose figure is ambiguous and is not restated here — see Unresolved.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Achieve haemostasis by applying gauze soaked in Co-Phenylcaine or topical lignocaine 1% with adrenaline 1:100,000 (0.3mL/kg, max 3mg) to the site for 10-15 minutes and continue to apply pressure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab482a9f5751e7da",
+     "n": 194,
+     "p": "Achieve "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Silver nitrate: treat the area around the bleeding point first, then the vessel, for a few seconds until a white eschar forms.** Cauterising both sides of the septum may be needed and is not thought to raise the risk of perforation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Apply a silver nitrate stick to the area surrounding the bleeding point first, then the vessel itself. Keep contact for only a few seconds until a white eschar appears … Simultaneously cauterising both sides of the nasal septum with silver nitrate may be required and is not thought to increase the risk of septal perforation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6b4a0d3642cdb5a0",
+     "n": 167,
+     "p": "Apply a "
+    },
+    {
+     "h": "ba81e303fbb70ad7",
+     "n": 155,
+     "p": "Simultan"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Young children rarely tolerate packing**, which may need to stay in for 48 hours. If the site is known, use a **unilateral anterior pack.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Any nasal packing is unlikely to be tolerated in the young child, especially given it may be required to remain in situ for 48 hours … If site of bleeding known, insert unilateral anterior nasal pack",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fc6f113895c445e2",
+     "n": 132,
+     "p": "Any nasa"
+    },
+    {
+     "h": "233e2c78fc86bba2",
+     "n": 64,
+     "p": "If site "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Prefer resorbable tampons for young children or bleeding disorders**, to avoid traumatic removal. **Discharge home and review in 48 hours if tolerated.**",
+   "claim": "**Prefer resorbable tampons for young children or bleeding disorders**, to avoid traumatic removal. **If tolerated, send home with review at 48 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Resorbable tampons (eg Surgicel™, Floseal™) are preferred for young children or those with bleeding disorders to avoid the trauma of removal … Discharge home and review in 48 hours if tolerated",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a57a351c9f197b67",
+     "n": 140,
+     "p": "Resorbab"
+    },
+    {
+     "h": "1c45d75a4212f8fc",
+     "n": 50,
+     "p": "Discharg"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Site not visible (profuse or posterior), or bilateral packing needed: consult ENT.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If the bleeding site cannot be visualised (profuse/posterior), or bilateral packing is required, consult ENT",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33a047d447b00383",
+     "n": 108,
+     "p": "If the b"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**ENT for:** severe or persistent bleeding · bilateral anterior or posterior packing · age under 2 years or unable to tolerate packing.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with ENT when severe or persistent bleeding bilateral anterior packing or posterior packing is required age <2 years old or unable to tolerate packing",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77ed202d8fe6fa9e",
+     "n": 172,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge once bleeding has stopped** and the parents are educated. Advise no nose blowing for one week, no picking, and sneezing with the mouth open; a smaller bleed may occur when the scab falls off.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Bleeding has stopped Parents education provided … Preventative measures eg no nose blowing for one week, no nose picking, sneeze with an open mouth … Advise that a smaller nosebleed may occur when the scab falls away",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "deb7b79d3b27ff36",
+     "n": 71,
+     "p": "Consider"
+    },
+    {
+     "h": "0c493632ee92d3ab",
+     "n": 97,
+     "p": "Preventa"
+    },
+    {
+     "h": "63daf69b67a83c2d",
+     "n": 66,
+     "p": "Advise t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   },
   {
    "claim": "**Dry, cracked mucosa: petroleum gel every morning until healed; twice daily for one week after cautery or packing.** Crusted, infected-looking mucosa: consider a topical antibiotic ointment such as mupirocin.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If dry cracked mucosa contributing, petroleum-based gel (eg Vaseline™) should be applied daily in the morning until healing. Use twice daily for one week if cautery or packing was required … If there is crusting and the mucosa appears infected, consider treatment with a topical antibiotic ointment (eg mupirocin)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e599c7a50ed1cb15",
+     "n": 188,
+     "p": "If dry c"
+    },
+    {
+     "h": "0ceefc97aa84b245",
+     "n": 122,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Frequent recurrences: outpatient ENT review.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "For frequent recurrences, consider ENT review as an outpatient",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "50e3557776412fc2",
+     "n": 62,
+     "p": "For freq"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Epistaxis' (Last updated April 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/, retrieved 2026-09-23"
   }
  ]

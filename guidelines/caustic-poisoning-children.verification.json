@@ -1,169 +1,326 @@
 {
  "guideline": "guidelines/caustic-poisoning-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Corrosives - Caustic Poisoning' (Last updated January 2019), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Corrosives - Caustic Poisoning' (Last updated January 2019), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 21,
-  "pass": 21,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
    "claim": "⚠️ **Alkali ingestion is often asymptomatic early — that does not exclude serious injury**, and no mouth or pharyngeal ulcers does not rule out a gastro-oesophageal lesion.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Alkali ingestion can often be asymptomatic early and this does not exclude serious injury Absence of mouth or pharyngeal ulcers does not preclude gastro-oesophageal lesion",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a80f8ca159eccded",
+     "n": 171,
+     "p": "Alkali i"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Only an endoscopist should pass a nasogastric tube.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Nasogastric insertion should only be performed by an endoscopist",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d345dbf198934200",
+     "n": 64,
+     "p": "Nasogast"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Threatened airway: consider early intubation.** After inhalation, respiratory symptoms can be delayed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If threatened airway, consider early intubation If inhalational exposure, respiratory symptoms can be delayed",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "149edf7289bd8d32",
+     "n": 109,
+     "p": "If threa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Exposure** may be by inhalation, ingestion or topical (skin/eye). ⚠️ **pH over 11 or under 2 is likely to cause significant GI ulceration**; liquids can travel further than powders.",
+   "claim": "**Exposure** may be by inhalation, ingestion or topical (skin/eye). ⚠️ **Significant GI ulceration is likely when pH is over 11 or under 2**; liquids can travel further than powders.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Inhalation, ingestion and / or topical injury (skin/eye involvement) … pH of >11 or <2 is likely to cause significant GI ulceration … liquid preparations can travel further than powders",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ce73f692fe4c037",
+     "n": 68,
+     "p": "Inhalati"
+    },
+    {
+     "h": "b806a1165165a505",
+     "n": 60,
+     "p": "pH of >1"
+    },
+    {
+     "h": "7f2989d7ab3e03df",
+     "n": 51,
+     "p": "liquid p"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Two injury patterns:** liquefactive necrosis penetrates tissue deeply over hours to days; coagulative necrosis limits burn depth by scar/eschar formation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Liquefactive necrosis – deep penetration of tissues (hours to days) … Coagulative necrosis – depth of burn is limited by scar / eschar formation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "465139070cc9ec36",
+     "n": 67,
+     "p": "Liquefac"
+    },
+    {
+     "h": "6d54f6cab21b10a6",
+     "n": 74,
+     "p": "Coagulat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Assess:** all deliberate self-poisoning or significant accidental ingestion · any symptomatic child · any child whose developmental age does not fit accidental poisoning (consider non-accidental poisoning).",
+   "claim": "**Assess:** every deliberate self-poisoning · every significant accidental ingestion · every symptomatic child · any child whose developmental age does not fit accidental poisoning (consider non-accidental poisoning).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All patients with deliberate self-poisoning or significant accidental ingestion Any symptomatic patient Any patient whose developmental age is inconsistent with accidental poisoning as non-accidental poisoning should be considered.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8235f48cc62013fe",
+     "n": 231,
+     "p": "All pati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Get the container or photos** and check the product's corrosive potential with the **Victorian Poisons Information Centre (13 11 26)**. Consider co-ingestants such as paracetamol.",
+   "claim": "**Get the container or photos** and ask the **Victorian Poisons Information Centre (tel. 13 11 26)** how corrosive the product is. Consider co-ingestants such as paracetamol.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Obtain container to check contents and strength of substance/photos Check preparations with the Victorian Poisons Information Centre (13 11 26) to determine the corrosive potential of the product with severe toxicity. … Co-ingestants eg paracetamol",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa4fb02be4f1eae6",
+     "n": 217,
+     "p": "Obtain c"
+    },
+    {
+     "h": "49203cff791a2f54",
+     "n": 28,
+     "p": "Co-inges"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Symptoms may be minimal and/or delayed:** pain, nausea and vomiting, drooling or refusing to eat and drink · ⚠️ stridor, respiratory distress · splash burns of skin or eyes · systemic circulatory collapse and/or multi-organ failure.",
+   "claim": "**Symptoms can be delayed and/or minimal:** pain, nausea and vomiting, drooling, or refusal of food and drink · ⚠️ stridor, respiratory distress · splash burns of skin or eyes · systemic circulatory collapse and/or multi-organ failure.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "May be minimal and / or delayed Pain, nausea & vomiting, drooling or refusing to eat and drink Stridor, respiratory distress Splash burns (skin / eyes) Systemic features – circulatory collapse and / or multi-organ failure",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70d0d038e6a4ae9b",
+     "n": 221,
+     "p": "May be m"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Endoscopy is the best way to assess GI injury (within 12–24 hours) in symptomatic children, and is needed even when the chest X-ray and bloods are normal.** Bloods if systemic features; CXR; paracetamol level in all intentional overdoses.",
+   "claim": "⚠️ **In symptomatic children, endoscopy (within 12–24 hours) is the best way to assess GI injury, and is needed even when the chest X-ray and bloods are normal.** Bloods if systemic features; CXR; paracetamol level in all intentional overdoses.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Blood tests may be required if systemic features CXR Endoscopy (best method for assessing GI injury within 12 - 24 hours) in symptomatic patients and is required in spite of a normal chest x-ray and lab investigations … Paracetamol concentration in all intentional overdoses",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e56255fcc350a24e",
+     "n": 217,
+     "p": "Blood te"
+    },
+    {
+     "h": "efa5d8f78f0346f1",
+     "n": 54,
+     "p": "Paraceta"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Activated charcoal, GI decontamination and neutralisation are all contraindicated.** Severe poisoning may need standard resuscitation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Decontamination: Activated charcoal / GI decontamination / neutralisation procedures are contraindicated Standard resuscitation may be required in severe poisoning",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca63b31a08c5a995",
+     "n": 163,
+     "p": "Decontam"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Asymptomatic: observe and trial oral intake at 4 hours** after exposure — earlier if suspicion is low or the ingestion likely benign, after discussion with Poisons Information.",
+   "claim": "**Asymptomatic: observe, then trial oral intake 4 hours** post-exposure — or earlier if suspicion is low or the ingestion likely benign, after discussion with Poisons Information.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If asymptomatic – observe, trial of oral intake at 4 hours after exposure, earlier if low suspicion or likely benign ingestion after discussion with Poisons Information Centre",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05d131a347c0276b",
+     "n": 175,
+     "p": "If asymp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Any symptoms: admit for oesophagoscopy within 24 hours** (PIPER, local paediatric surgery). **Keep nil by mouth and start an intravenous PPI.**",
+   "claim": "⚠️ **Any symptoms: admit; oesophagoscopy within 24 hours** (PIPER, local paediatric surgery). **Keep nil by mouth and start an intravenous PPI.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If any symptoms admit for oesophagoscopy (within 24 hours) (PIPER, local paed surg) Keep NBM Commence intravenous PPI",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ebbfa894f576172a",
+     "n": 117,
+     "p": "If any s"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "**Analgesia:** if opiate or parenteral analgesia is needed, consult the local pain management service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If opiate or parenteral analgesia required, please consult local pain management service.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "521aff57362820ee",
+     "n": 89,
+     "p": "If opiat"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Remove clothing and particulate matter; irrigate with copious low-pressure water for at least 10–15 minutes**, or until skin pH is normal (pH 6–7 in children).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Remove clothing / particulate matter. Copious low pressure water for minimum 10-15 minutes, or until pH of skin is normal (pH 6 – 7 in children).",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df090796bfe7daa2",
+     "n": 145,
+     "p": "Remove c"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Recheck pH after 15–20 minutes and repeat irrigation if abnormal** — several hours may be needed. Then treat as a thermal burn.",
+   "claim": "**Recheck the pH 15–20 minutes later; if still abnormal, irrigate again** — several hours may be needed. Then treat as a thermal burn.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Recheck pH of affected areas after a period of 15-20 minutes and repeat irrigation if abnormal (several hours may be required). Then treat as per thermal injury (see Burns CPG)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d348e7932f5742f",
+     "n": 176,
+     "p": "Recheck "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
    "claim": "⚠️ **Alkali in the eye is an ophthalmic emergency.** Remove contact lenses, give topical anaesthetic if available, and **irrigate immediately with 1 L normal saline via a giving set for at least 10–15 minutes regardless of pH.** Sedation may be needed to do this promptly.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Alkaline exposure is an ophthalmic emergency. Remove contact lenses if present. Use topical anaesthetic (if available), immediate irrigation with 1L normal saline (via a giving set) for minimum 10-15 minutes regardless of pH. This procedure may require sedation to ensure prompt management.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2c8f0a75fd374c7",
+     "n": 290,
+     "p": "Alkaline"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23",
    "dose": true
   },
   {
-   "claim": "**Target a final conjunctival pH of 7.5–8.0** (or that of an unaffected other eye), tested with indicator paper. **Retest 20 minutes after irrigation**; repeat irrigation may be necessary.",
+   "claim": "**Aim for a conjunctival pH at the end of 7.5–8.0** (or that of an unaffected other eye), checked with indicator paper. **Test again 20 minutes after irrigating**; repeat irrigation may be necessary.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Aim for a final conjunctival pH of 7.5 - 8.0; or similar to other eye if unaffected. The conjunctivae may be tested with indicator paper. Retest 20 minutes after irrigation; repetitive irrigation may be necessary.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62113e17672d41e8",
+     "n": 213,
+     "p": "Aim for "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Record visual acuity if possible, check for corneal damage with fluorescein, and refer promptly to ophthalmology.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Record Visual Acuity (if possible) and assess presence of corneal damage with fluorescein uptake. Prompt referral to ophthalmology services.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c74e0789f6375662",
+     "n": 140,
+     "p": "Record V"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Consult the local paediatric team for all symptomatic children**; consider admission for all children and young people with an intentional overdose.",
+   "claim": "**Consult the local paediatric team for all symptomatic children**; consider admitting every child or young person who has taken an intentional overdose.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All symptomatic patients Admission should be considered for all children and young people with an intentional overdose",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bef2764dac3bebf7",
+     "n": 118,
+     "p": "All symp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
    "claim": "**Transfer** anyone needing care beyond the local hospital's comfort or needing intensive care. **PIPER: 1300 137 650.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Patients requiring escalation of care beyond the comfort of the hospital and local paediatric team. Any patient requiring intensive care … call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "76aa4f30c51df3f0",
+     "n": 136,
+     "p": "Patients"
+    },
+    {
+     "h": "8a9622b9282ae6ca",
+     "n": 87,
+     "p": "call the"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Discharge** if asymptomatic after 4 hours and able to eat and drink. Suspected non-accidental injury or mental health concerns may warrant admission on their own; after deliberate ingestion, a risk assessment must show low risk of further self-harm.",
+   "claim": "**Discharge** once eating and drinking and still asymptomatic after 4 hours. Suspected non-accidental injury or mental health concerns may warrant admission on their own; after deliberate ingestion, a risk assessment must show low risk of further self-harm.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If asymptomatic after 4 hours and able to eat and drink the patient can be safely discharged. Suspected non-accidental injury / mental health concerns may independently warrant admission and need to be addressed. For deliberate ingestion a risk assessment should indicate that the patient is at low risk of further self-harm in the discharge setting.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2c6d31e65768dee",
+     "n": 350,
+     "p": "If asymp"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Corrosives - Caustic Poisoning' (Last updated January 2019), at https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/, retrieved 2026-09-23"
   }
  ]

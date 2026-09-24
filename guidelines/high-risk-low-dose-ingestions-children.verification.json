@@ -1,123 +1,214 @@
 {
  "guideline": "guidelines/high-risk-low-dose-ingestions-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'High risk - low dose paediatric ingestions' (undated page), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'High risk - low dose paediatric ingestions' (undated page), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 15,
-  "pass": 15,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 15
  },
  "claims": [
   {
    "claim": "**Most accidental paediatric ingestions are well below a toxic dose**, but ⚠️ **a handful of agents are dangerous after 1 or 2 dose units or a mouthful** and demand a cautious risk assessment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most accidental paediatric drug ingestions involve doses that fall well below what would be considered a toxic ingestion. There are a handful of drugs and chemicals that are dangerous after relatively small paediatric ingestions involving 1 or 2 dose units of an available preparation or a mouthful. These agents demand a cautious approach to risk assessment.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61daa5b2c48b3b2f",
+     "n": 359,
+     "p": "Most acc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Admit for observation if there is any concern that a small child may have ingested one of these.** **Discuss all cases** with a senior clinician, Poisons Information or a clinical toxicologist. PIPER: 1300 137 650.",
+   "claim": "⚠️ **Admit for observation whenever a small child might have ingested one of these — any concern is enough.** **Discuss all cases** with a senior clinician, Poisons Information or a clinical toxicologist. PIPER: 1300 137 650.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Admission for observation is mandated if there is any concern that a small child may have ingested one of these drugs or chemicals. All cases should be discussed with a senior clinician / Poisons Information / clinical toxicologist. For emergency advice and paediatric or neonatal ICU transfers, call the Paediatric Infant Perinatal Emergency Retrieval (PIPER) Service: 1300 137 650.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e1eec11505dd44ad",
+     "n": 383,
+     "p": "Admissio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "**Amphetamines:** agitation, hypertension, hyperthermia, seizures.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prescription Drug Features of toxicity Amphetamines Agitation Hypertension Hyperthermia Seizures",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fed30ef9aa6d187a",
+     "n": 96,
+     "p": "Prescrip"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Calcium channel blockers:** bradycardia, hypotension, refractory shock — **toxicity may be delayed beyond 12 hours with sustained-release preparations.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Calcium channel blockers Bradycardia Hypotension Refractory shock ** Delayed toxicity (beyond 12 hours) may occur after sustained release preparation.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4271c083811c7cf",
+     "n": 150,
+     "p": "Calcium "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Chloroquine and hydroxychloroquine:** rapid-onset coma, seizures, cardiovascular collapse.",
+   "claim": "⚠️ **Chloroquine and hydroxychloroquine:** coma of rapid onset, seizures, cardiovascular collapse.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Chloroquine and hydroxychloroquine Rapid onset coma Seizures Cardiovascular collapse",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad5ffb9473137176",
+     "n": 84,
+     "p": "Chloroqu"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "**Opioids (methadone most toxic):** coma, respiratory depression.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Opioids (methadone most toxic) Coma Respiratory depression",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e69c5f04b363e3db",
+     "n": 58,
+     "p": "Opioids "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Propranolol and sotalol** (other beta blockers are better tolerated): coma, seizures, ventricular dysrhythmias, hypoglycaemia.",
+   "claim": "**Propranolol and sotalol** (tolerated worse than other beta blockers): seizures, coma, ventricular dysrhythmias, hypoglycaemia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Propranolol and sotolol (other beta blockers are better tolerated) Coma Seizures Ventricular dysrhythmias Hypoglycaemia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da179bf56654d727",
+     "n": 119,
+     "p": "Proprano"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Sulfonylureas: hypoglycaemia, which may be delayed 8 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Sulfonylureas Hypoglycaemia (may be delayed 8 hours)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5393198fd48846d8",
+     "n": 52,
+     "p": "Sulfonyl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "**Theophylline:** seizures, SVT. **Tricyclic antidepressants:** coma, seizures, hypotension, ventricular tachycardia.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Theophylline Seizures SVT TCA Coma Seizures Hypotension Ventricular tachycardia",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b7541f5e0eee36c",
+     "n": 79,
+     "p": "Theophyl"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "**Amphetamines (ice, speed, ecstasy):** as for prescription amphetamines, plus **hyponatraemia with ecstasy.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Amphetamines (including ice, speed, ecstasy) As above for prescription amphetamines Hyponatraemia with ecstasy",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87082d15b0ffe58f",
+     "n": 110,
+     "p": "Amphetam"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "**GHB:** rapid-onset respiratory depression and coma, recovering within a few hours.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Gamma-hydroxybutyrate (GHB) Rapid onset respiratory depression and coma with recovery in a few hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ee9c817004d0ac3",
+     "n": 100,
+     "p": "Gamma-hy"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Camphor:** rapid-onset coma, seizures, hypotension. **Hydrocarbons, solvents and eucalyptus oil:** rapid-onset coma, seizures and aspiration.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Camphor Coma Seizures Hypotension (rapid onset) Hydrocarbons, solvents, eucalyptus oil Coma Seizures Aspiration (rapid onset)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e73ac0849b3d5e05",
+     "n": 125,
+     "p": "Camphor "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Lead foreign body (eg fishing sinker):** abdominal pain, nausea, **delayed encephalopathy**, seizures.",
+   "claim": "**Lead foreign body such as a fishing sinker:** nausea, abdominal pain, **delayed encephalopathy**, seizures.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lead foreign body (eg fishing sinker) Abdominal pain Nausea Delayed encephalopathy Seizures.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb62ff1a3c7a1eb2",
+     "n": 92,
+     "p": "Lead for"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Naphthalene moth balls:** methaemoglobinaemia, haemolysis. Most moth balls now contain less toxic paradichlorbenzene.",
+   "claim": "**Naphthalene moth balls:** methaemoglobinaemia, haemolysis. Today most moth balls use paradichlorbenzene, which is less toxic.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Naphthalene moth ball (Most moth balls now contain less toxic paradichlorbenzene) Methaemoglobinaemia, Haemolysis",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e82d94716104b138",
+     "n": 113,
+     "p": "Naphthal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Organophosphate and carbamate insecticides:** cholinergic syndrome, seizures, coma. ⚠️ **Paraquat herbicide:** oropharyngeal burns, multi-organ failure, pulmonary fibrosis.",
+   "claim": "**Carbamate and organophosphate insecticides:** cholinergic syndrome, coma, seizures. ⚠️ **Paraquat herbicide:** oropharyngeal burns, multi-organ failure, pulmonary fibrosis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Organophosphate and carbamate insecticides Cholinergic syndrome Seizures Coma Paraquat herbicide Oro-pharyngeal burns Multi organ failure Pulmonary fibrosis.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a4223805d44900db",
+     "n": 157,
+     "p": "Organoph"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'High risk - low dose paediatric ingestions' (undated page), at https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/, retrieved 2026-09-23"
   }
  ]

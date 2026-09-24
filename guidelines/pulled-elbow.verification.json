@@ -1,123 +1,229 @@
 {
  "guideline": "guidelines/pulled-elbow.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Pulled elbow' (Last updated May 2023), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Pulled elbow' (Last updated May 2023), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 15,
-  "pass": 15,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 15
  },
  "claims": [
   {
    "claim": "**Diagnosed clinically** from history and examination; **common in toddlers aged 1–4 years**, and treated with a reduction manoeuvre.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Diagnosis of pulled elbow is made clinically with a supporting history and examination … It is a common injury in toddlers (1-4 years) … Reduction manoeuvres are used to treat a pulled elbow",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8f92c57ede7c2565",
+     "n": 86,
+     "p": "Diagnosi"
+    },
+    {
+     "h": "1d772b8b4ed3505d",
+     "n": 45,
+     "p": "It is a "
+    },
+    {
+     "h": "a1c8d304ab1979b0",
+     "n": 53,
+     "p": "Reductio"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Half have no history of a pull** on the arm (50%).",
+   "claim": "**No pull on the arm is reported in half of cases** (50%).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In 50% there is no history of a \"pull\" on the arm",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c906b7e88f53571",
+     "n": 49,
+     "p": "In 50% t"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**Typical posture:** the child is not using the arm, which is held with the elbow extended and the forearm pronated.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Not using the affected limb Elbow in extension and the forearm in pronation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bab41ed4ec58afcc",
+     "n": 75,
+     "p": "Not usin"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**On examination:** distressed only on moving the elbow, **no swelling, deformity or bruising** of elbow or wrist, usually no tenderness (check the clavicle), and marked resistance and pain on supination.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Distressed only on elbow movement, especially pronation or supination No swelling, deformity or bruising of the elbow or wrist On palpation tenderness is usually absent (remember the clavicle) Marked resistance and pain with supination of the forearm",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "654120e8a83a4e49",
+     "n": 250,
+     "p": "Distress"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **X-ray when another diagnosis is suspected:** significant tenderness, swelling, bruising or deformity, or failed reduction.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Plain radiographs are indicated when a differential diagnosis (see upper limb non-use) is suspected, including: if significant tenderness, swelling, bruising or deformity are present if reduction fails",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9d156ba33eff4ed",
+     "n": 201,
+     "p": "Plain ra"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Give analgesia** — especially if assessment or management is delayed or the diagnosis is unclear — but **reduce promptly**, as that usually relieves the pain.",
+   "claim": "**Give analgesia**, particularly when the diagnosis is uncertain or assessment/management will be delayed — yet **don't hold up the reduction**: doing it promptly usually eases the pain itself.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Provide analgesia Especially if assessment or management is delayed or the diagnosis unclear Proceed with reduction promptly as this usually provides pain relief",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8158414f3607734e",
+     "n": 161,
+     "p": "Provide "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Perform a reduction manoeuvre once the clinical diagnosis is made.** Expect distress and pain; a click may be felt over the radial head.",
+   "claim": "**Once the diagnosis is made clinically, do a reduction manoeuvre.** The child will be distressed and in pain during it; you may feel a click over the radial head.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Perform a reduction manoeuvre (see below) if clinical diagnosis made Expect distress and pain with the manoeuvre A click may be felt over the radial head",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4340f3f2e554f80",
+     "n": 153,
+     "p": "Perform "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Either manoeuvre may work.** **Hyperpronation:** child on the parent's lap, support the elbow with your thumb over the radial head, **fully pronate the forearm.**",
+   "claim": "**Either manoeuvre may work.** **Hyperpronation:** with the child sitting on a parent's lap, hold the elbow, thumb resting over the radial head, and **pronate the forearm fully.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Either of the following methods may be effective … Hyperpronation manoeuvre Sit the child on the parent's lap Support the elbow with one hand with gentle pressure from your thumb over the radial head (to palpate a ‘click’ on successful reduction) Fully pronate forearm",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcce41bf72012dfe",
+     "n": 48,
+     "p": "Either o"
+    },
+    {
+     "h": "f4c2d047d177db1e",
+     "n": 217,
+     "p": "Hyperpro"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**Supination/flexion:** child on the parent's lap, thumb over the radial head, **supinate the forearm, then flex the elbow.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Supination/flexion manoeuvre Sit the child on the parent's lap Support the elbow with one hand with gentle pressure from your thumb over the radial head (to palpate a ‘click’ on successful reduction) Supinate the forearm Flex the elbow",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8e84dac200b05cb",
+     "n": 235,
+     "p": "Supinati"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Review after ten minutes** — most children will be using the arm again.",
+   "claim": "**Reassess at ten minutes**: by then most children are using the arm again.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Review after ten minutes, most children will be using the arm again",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6b3afb6ba60e2070",
+     "n": 67,
+     "p": "Review a"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**Success = pain-free, normal arm use within 5 to 30 minutes**, including reaching for an object above the head.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If the reduction is successful, the child should be pain free and able to move the arm normally in 5 to 30 minutes, including being able to reach for an object above the head",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d6cc5d1f05cb9a3",
+     "n": 174,
+     "p": "If the r"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**Failed first attempt:** consult senior staff and consider a repeat after 15 minutes. **Still unreduced after two attempts → consider X-ray.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If reduction fails after the initial attempt Consult with senior medical staff and consider repeat reduction again after 15 minutes If unreduced after two attempts, consider X-ray",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ab1ba3367d61d19",
+     "n": 179,
+     "p": "If reduc"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Injury more than 12 hours old:** even after an apparently successful reduction, the child may take 1–2 days to use the arm; the child can be discharged with a **broad arm sling and ED review in 48 hours.**",
+   "claim": "**Injury more than 12 hours old:** even when reduction seems to have worked, arm use may not return for 1–2 days; discharge is fine with a **broad arm sling and ED review in 48 hours.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In cases where reduction is felt to be successful, but the injury is greater than 12 hours old, the child may take 1-2 days to use the arm again The child can be discharged, with a broad arm sling and Emergency Department review in 48 hours",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e92002a98e7e38ca",
+     "n": 240,
+     "p": "In cases"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**Involve the local paediatric team if the pulled elbow can't be reduced in the acute care setting.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local paediatric team when A pulled elbow is unable to be reduced in the acute care setting",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2e778c1de8a39531",
+     "n": 118,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge once the pulled elbow is successfully reduced.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when A pulled elbow is successfully reduced",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a8dec4efd917a2b",
+     "n": 62,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Pulled elbow' (Last updated May 2023), at https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/, retrieved 2026-09-23"
   }
  ]

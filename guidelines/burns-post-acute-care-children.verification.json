@@ -1,172 +1,375 @@
 {
  "guideline": "guidelines/burns-post-acute-care-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/"
  ],
  "retrieved_utc": "2026-09-23",
- "method": "OPEN AND QUOTED, from the RCH Melbourne Clinical Practice Guideline 'Burns - post acute care and dressings' (Last updated May 2026), retrieved 2026-09-23. Every pass claim is machine re-checkable. LICENCE: Free to read but NOT openly licensed -- each page carries '(c) 2026 The Royal Children's Hospital'. Quoted with attribution on the same footing as the 14 RCH guidelines and the Immunisation Handbook guidelines already in this compendium. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from the RCH Melbourne Clinical Practice Guideline 'Burns - post acute care and dressings' (Last updated May 2026), retrieved 2026-09-23. LICENCE: (c) The Royal Children's Hospital Melbourne. The RCH Terms and Conditions (clause 5.2) licence download, copying and printing for personal use only and bar reproduction or distribution without prior written consent, so the RCH text is NOT reproduced here: each claim is a paraphrase backed by hash anchors (scripts/anchor.py); verify.py --source re-finds each anchored span in a fresh copy of the page, checks the claim's numbers and rejects copying. Converted from the verbatim edition on 2026-09-24 by owner decision. ",
  "summary": {
   "total": 22,
-  "pass": 22,
-  "fail": 0
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
    "claim": "**Multimodal analgesia**, with extra analgesia and sedation before dressing care. Anxiety and distress increase analgesic need — use distraction and therapeutic play.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Manage pain using multimodal analgesia … Anxiety and distress increase a child's analgesia requirements and reduce compliance with care … Mitigate stress and anxiety with techniques and devices for distraction and therapeutic play … Provide additional analgesia and sedation prior to dressing care",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0184b2916cd45df6",
+     "n": 38,
+     "p": "Manage p"
+    },
+    {
+     "h": "a76c6fc2f33735b1",
+     "n": 94,
+     "p": "Anxiety "
+    },
+    {
+     "h": "7c9264ee63a0b993",
+     "n": 92,
+     "p": "Mitigate"
+    },
+    {
+     "h": "03563f9acedf0d33",
+     "n": 64,
+     "p": "Provide "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Itch:** emollients, cool compress and non-sedating antihistamines.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Control itch with emollients, cool compress, and non-sedating antihistamines",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f52e5a1f93574031",
+     "n": 76,
+     "p": "Control "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Most epidermal burns need no dressing** — protect healing skin with white soft paraffin cream.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most epidermal burns do not require dressings, use white soft paraffin cream to protect healing skin",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6b8fd0dd70cf4d01",
+     "n": 100,
+     "p": "Most epi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **No evidence supports aloe vera or honey**; some alternatives cause harm and should be counselled against, e.g. toothpaste.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is no evidence to support alternative or traditional methods of managing burns eg aloe vera cream or honey … There is some evidence of harm with some alternative managements, and these should be counselled against eg toothpaste.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fee1df7d48597708",
+     "n": 112,
+     "p": "There is"
+    },
+    {
+     "h": "6b9d7543999743ac",
+     "n": 119,
+     "p": "There is"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Choose the dressing by size, depth, area and moisture needed**, and by the time to the next review; follow local state guidelines where possible.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Where possible refer to local state guidelines for dressings … Consider the size, depth, area of the burn and amount of moisture required for optimal healing when selecting a dressing type … Consider timeframe to wound review when selecting dressing",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e627bfa10c5ae75",
+     "n": 60,
+     "p": "Where po"
+    },
+    {
+     "h": "aea29a01d2e22f47",
+     "n": 125,
+     "p": "Consider"
+    },
+    {
+     "h": "eaf91e0c0356be90",
+     "n": 58,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Face, epidermal or superficial dermal:** white soft paraffin several times a day after gentle cleaning without soap; consider chloramphenicol ointment to eye and ear burns.",
+   "claim": "**Face, epidermal or superficial dermal:** white soft paraffin several times a day after gentle soap-free cleaning; for burns to the ear or eye, consider chloramphenicol ointment.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Facial burns Epidermal or superficial dermal Apply white soft paraffin multiple times per day after cleaning face gently without soap Consider chloramphenicol ointment to eye and ear burns",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0f2c89aa0e90ee7",
+     "n": 188,
+     "p": "Facial b"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Face, mid or deep dermal:** follow the local burns guideline or discuss with the burns service. **Do not use silver dressings near the eyes.**",
+   "claim": "⚠️ **Face, mid or deep dermal:** follow the local burns guideline or discuss with the burns service. **Keep silver dressings away from the eyes.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Facial burns Epidermal or superficial dermal Apply white soft paraffin multiple times per day after cleaning face gently without soap Consider chloramphenicol ointment to eye and ear burns Mid or deep dermal Refer to local burns guideline or discuss with local burns service Do not use silver dressings near eyes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa2c776911d60fec",
+     "n": 312,
+     "p": "Facial b"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Perineum, epidermal or superficial dermal:** white soft paraffin several times a day. **Contamination risk** — clean with soapy solution after bowel actions; consider catheterisation.",
+   "claim": "**Perineum, epidermal or superficial dermal:** white soft paraffin several times a day. **Contamination risk** — after each bowel action, clean with a soapy solution; catheterisation may be considered.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Perineal burns Epidermal or superficial dermal Apply white soft paraffin multiple times per day Perineal burns are at risk of contamination: clean region with soapy solution after bowel actions, consider catheterisation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1741795c7d6f83ea",
+     "n": 219,
+     "p": "Perineal"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Other regions, epidermal:** generally no dressing; white soft paraffin, with a low-adherent dressing for comfort if needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "All other body regions Epidermal Generally does not require a dressing Apply white soft paraffin cream Consider covering with protective, low-adherent dressing for comfort",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eef93ceee13630c6",
+     "n": 171,
+     "p": "All othe"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Other regions, mid or deep dermal:** local burns guideline. Layers: primary silver-impregnated (e.g. Mepilex Ag) or medicated paraffin; a secondary layer to absorb moisture and secure; then a crepe bandage securement layer.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Mid or deep dermal Refer to local burns guideline Consider timeframe to wound review … Primary layer (against wound): eg silver impregnated … Mepilex® Ag) or medicated paraffin … Secondary layer (to absorb moisture and secure) … Securement layer: eg crepe bandage",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d90b2c4e20278087",
+     "n": 84,
+     "p": "Mid or d"
+    },
+    {
+     "h": "249529e5e078632a",
+     "n": 52,
+     "p": "Primary "
+    },
+    {
+     "h": "0c6e5b8dc78da95b",
+     "n": 34,
+     "p": "Mepilex®"
+    },
+    {
+     "h": "454344a27e0a73a6",
+     "n": 47,
+     "p": "Secondar"
+    },
+    {
+     "h": "ec391db3ade07f3b",
+     "n": 34,
+     "p": "Secureme"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Daily changes are not generally needed** — timing depends on the product. Ensure analgesia and check for healing and infection at each change; wear gloves.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ensure adequate analgesia Daily dressing changes are not generally required, the timing of dressing change relates to the product applied Monitor for wound healing and signs of infection at time of dressing change … Wear gloves for dressing changes",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "43e8196dd8f133a9",
+     "n": 213,
+     "p": "Ensure a"
+    },
+    {
+     "h": "5f265f82df5d10a5",
+     "n": 32,
+     "p": "Wear glo"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Rapid burns-service review for poor healing or infection:** warmth · new slough or necrosis · more pain, exudate or odour · friable granulation · surrounding erythema · non-advancing edges.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Refer paediatric burn service for rapid review if there are concerns regarding poor wound healing or wound infection including warmth wound bed deterioration (new slough or necrosis) increased pain increased exudate increased odour friable granulation tissue erythema in surrounding skin non-advancing wound edges noted on serial review",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3da8bdbbd5a8a330",
+     "n": 336,
+     "p": "Refer pa"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **No prophylactic antibiotics.** Suspected wound infection: **swab for MCS and treat as cellulitis** with empiric antibiotics.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Prophylactic antibiotics are not recommended in burns … If there is concern the burn wound is infected send a swab for MCS and treat as per cellulitis with empiric antibiotics",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1fabd266a83df553",
+     "n": 53,
+     "p": "Prophyla"
+    },
+    {
+     "h": "a88f1cb075a3ed66",
+     "n": 119,
+     "p": "If there"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Fever is common** from the hypermetabolic and immune response — look for other causes. **TBSA over 5% may need extra infection control, including isolation.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fever is a common reaction to the hypermetabolic state and immune response following a burn. Assess child for other causes … Burns TBSA >5% may require additional infection control measures including isolation",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e6662811dba4b12c",
+     "n": 122,
+     "p": "Fever is"
+    },
+    {
+     "h": "ea28016cd8e2f7df",
+     "n": 84,
+     "p": "Burns TB"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Consider toxic shock syndrome** with fever, spreading erythema, haemodynamic instability or systemic symptoms such as diarrhoea — **even in burns under 10% TBSA.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider toxic shock syndrome in any child with fever, spreading erythema, haemodynamic instability and/or systemic symptoms eg diarrhoea This may develop even in small burns (<10% TBSA)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "32be3ed1a8a72a12",
+     "n": 186,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
-   "claim": "**Burns raise metabolic and nutritional needs:** consult a dietitian, weigh regularly, consider checking and supplementing vitamin A, vitamin C and zinc.",
+   "claim": "**Burns raise metabolic and nutritional needs:** consult a dietitian, weigh regularly, consider measuring zinc, vitamin C and vitamin A levels and supplementing them.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with burns have increased metabolic and nutritional requirements Consult a dietitian to ensure nutritional needs are met Consider assessing and supplementing vitamin A, vitamin C and zinc levels to promote wound healing Regular weight measurements aid assessment of adequate nutrition",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a4db15c7170ada33",
+     "n": 293,
+     "p": "Children"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Start nasogastric feeding early** if facial burns, injuries or comorbidities prevent adequate oral intake.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Start nasogastric feeding early in children with facial burns, injuries or comorbidities that prevent adequate oral intake",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c8abeae80d80ac64",
+     "n": 122,
+     "p": "Start na"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Elevate burnt areas** and watch peripheral circulation; splint to prevent contractures. **OT/physio for deep burns crossing flexor surfaces and circumferential burns.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Elevate burn areas to limit oedema and monitored for compromise of peripheral circulation Splinting may be needed to prevent contractures and maintain range of movement Consult an occupational therapist and/or physiotherapist for Deep dermal or full thickness burns crossing flexor surfaces of a joint Circumferential burns",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "75c00256620132a9",
+     "n": 323,
+     "p": "Elevate "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
-   "claim": "⚠️ **Consult the burns service for oedema limiting limb function or vascular integrity** (poor capillary return, cool distal to the burn).",
+   "claim": "⚠️ **Consult the burns service if oedema compromises vascular integrity or limb function** (limb cool distal to the burn, poor capillary return).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consult local burns service if significant oedema limiting limb function or vascular integrity (poor capillary return, cool distal to burn)",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "30a594cb63d0596a",
+     "n": 139,
+     "p": "Consult "
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Sun safety once healed** — hat, protective clothing, sun barrier cream. **Keloid:** emollient and compression; refer to the burns service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Once burns have fully healed be sure to use adequate sun safety including hat, protective clothing and sun barrier cream on the skin when going outside … If keloid scar (excessive scar) formation occurs, consider emollient cream and compression with tubigrip/adhesive tape/garments. Recommend referral to local burns service.",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fe6a1b477cfca4c",
+     "n": 151,
+     "p": "Once bur"
+    },
+    {
+     "h": "6ce96e385fb68dc1",
+     "n": 171,
+     "p": "If keloi"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Consult the state paediatric burns service for:** concern about home care · suspected abuse or self-inflicted burn · dressing advice not covered · infection or poor healing · limb-threatening oedema · care beyond local comfort.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider consultation with local state paediatric burns service when Concern regarding ability to care for burns at home Suspected child abuse or self-inflicted burn Additional or specific dressings advice not covered above If there are concerns for wound infection or poor wound healing Significant oedema limiting limb function or vascular integrity Child requiring care beyond the comfort level of the hospital",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e12f6614a1535653",
+     "n": 413,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   },
   {
    "claim": "**Discharge when** the carer can care for the burn, follow-up is assured and dressing-change follow-up is arranged (consider an outpatient burn service).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider discharge when Carer able to provide adequate care for child's burn and follow-up assured Appropriate follow-up for burns dressing changes has been arranged, consider referral to an outpatient burn service",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "14338b3813d86651",
+     "n": 214,
+     "p": "Consider"
+    }
+   ],
    "locator": "The Royal Children's Hospital Melbourne, Clinical Practice Guidelines: 'Burns - post acute care and dressings' (Last updated May 2026), at https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/, retrieved 2026-09-23"
   }
  ]

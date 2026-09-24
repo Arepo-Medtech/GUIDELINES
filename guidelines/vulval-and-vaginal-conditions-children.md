@@ -1,18 +1,18 @@
 # Vulval and vaginal conditions in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** assessment and management of vulval and vaginal pain, itch, discharge and bleeding in prepubertal children: vulvovaginitis, pinworms, bacterial overgrowth, labial adhesions, lichen sclerosus, vulvodynia and urethral prolapse. Related corpus pages: `vulval-ulcers-children`, `sti-adolescents`, `worm-infections` (threadworm), `urinary-tract-infection-children`, `heavy-menstrual-bleeding-adolescents`; adult counterparts are `candidiasis` and `bacterial-vaginosis`.
 
-> ✅ **OPEN AND QUOTED.** 24 of 24 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Vulval and vaginal conditions*** (Last updated November 2022); **37 fragments re-checked by machine. 1 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 of 24 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Vulval and vaginal conditions*** (Last updated November 2022); **37 anchors re-checkable by machine; 1 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
-> ⚠️ **Do not perform an internal vaginal examination or take internal vaginal swabs in prepubescent children.** Be alert to signs of sexual abuse.
+> ⚠️ **In prepubescent children, never examine internally or take swabs from inside the vagina.** Be alert to signs of sexual abuse.
 
 ---
 
 ## Key points
 
 - **Vulvovaginitis is common and usually resolves with simple measures.** [S1]
-- **Consider pinworms** when a prepubertal child has distressing nocturnal vaginal or perineal pain and/or itch. [S1]
+- **Consider pinworms** when a prepubertal child has distressing vaginal or perineal itch and/or pain at night. [S1]
 - **Recurrent UTI symptoms with negative cultures: assess for vulvodynia.** [S1]
 - **Newborns** commonly have breast buds, white mucoid discharge, small vaginal blood loss and hymenal tags from maternal oestrogen; **bleeding in the first week of life needs no investigation or treatment.** [S1]
 - ⚠️ **Abnormal vaginal bleeding:** foreign body, excoriation (vulvovaginitis, lichen sclerosus, pinworms), trauma including straddle injury or **sexual abuse**, **precocious puberty** (secondary sexual characteristics under 8 years), urethral prolapse, rarely tumour. [S1]
@@ -64,12 +64,12 @@
 | 2 | ⚠️ **Pinworm repeat dose differs:** this page repeats mebendazole **routinely after 2 weeks**; `worm-infections` repeats treatment after 2 weeks **only if infection is not eradicated**. | `observation` |
 | 3 | **Steroid potency, product and duration** for vulvovaginitis and lichen sclerosus are not specified; the page recommends specialist consultation. | `observation` |
 | 4 | **Examination figures** (clock-face diagram; images of labial adhesion, urethral prolapse, lichen sclerosus) are images and were not captured. | `input_unavailable` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Vulval and vaginal conditions*. Last updated November 2022. https://www.rch.org.au/clinicalguide/guideline_index/Vulval_and_vaginal_conditions/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Vulval and vaginal conditions*. Last updated November 2022. https://www.rch.org.au/clinicalguide/guideline_index/Vulval_and_vaginal_conditions/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,9 +1,9 @@
 # Phenobarbitone poisoning in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, serum concentrations, multidose charcoal and disposition for acute phenobarbitone (phenobarbital) poisoning in children. General principles are in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`.
 
-> ✅ **OPEN AND QUOTED.** 16 of 16 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Phenobarbitone poisoning*** (Last Updated December 2017); **21 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 16 of 16 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Phenobarbitone poisoning*** (Last Updated December 2017); **21 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **CNS and cardiovascular depression, usually within an hour and possibly profound and prolonged — large ingestions can mimic brain death.** Management is supportive; multidose charcoal after intubation can speed elimination.
 
@@ -22,23 +22,23 @@
 
 ## Investigations
 
-- **ECG at presentation and repeat at 6 hours until normal.** Paracetamol level in all intentional overdoses. [S1]
-- **Levels:** over 172–258 micromol/L may be expected to cause toxic effects; ⚠️ **over 345–650 micromol/L is potentially lethal.** [S1]
+- **ECG on arrival, repeated at 6 hours until normal.** Paracetamol level in all intentional overdoses. [S1]
+- **Levels:** toxic effects can be expected above 172–258 micromol/L; ⚠️ **over 345–650 micromol/L is potentially lethal.** [S1]
 
 ## Treatment
 
 - **Treat:** all symptomatic children · unknown quantity · over 5 mg/kg, or over 10 mg/kg above the normal dose if on maintenance phenobarbitone. [S1]
 - **Resuscitation: standard procedures and supportive care.** [S1]
-- **Multidose activated charcoal via NGT after intubation increases elimination and may shorten coma** in large ingestions, provided bowel sounds are present — discuss with a toxicologist (13 11 26). [S1]
+- **After intubation, multidose activated charcoal by NGT enhances elimination and may shorten coma** in large ingestions, as long as bowel sounds are present — seek toxicologist advice (13 11 26). [S1]
 
 ## Observation and disposition
 
-- **Mild symptoms (ataxia, blurred vision): observe 6 hours;** discharge once symptom-free. [S1]
+- **Mild symptoms (ataxia, blurred vision): 6 hours of observation;** discharge once symptom-free. [S1]
 - **Moderate–severe or persisting after 6 hours: admit.** Take a level at 6 hours if still symptomatic; if rising or above range, admit for serial levels with a toxicologist. Discuss severe cases with PICU. [S1]
 - **Consider admission for every intentional overdose** and any child still symptomatic after 6 hours. [S1]
 - **Transfer to a tertiary centre** for severe symptoms or potential need for intensive care. **PIPER: 1300 137 650.** [S1]
 - **Discharge when:** normal GCS, normal ECG, observation period complete, and — after deliberate ingestion — a risk assessment shows low risk of further self-harm. [S1]
-- **Refer** intentional self-harm to local mental health services (e.g. Orygen Youth Health 1800 888 320) and recreational use to YoDAA (1800 458 685). [S1]
+- **Refer** intentional self-harm to the local mental health service (for example Orygen Youth Health, 1800 888 320) and recreational use to YoDAA (1800 458 685). [S1]
 
 ---
 
@@ -49,12 +49,12 @@
 | 1 | ⚠️ **Page last updated December 2017.** Thresholds, concentration bands and referral services should be re-checked against the current RCH page. | `time_sensitive` |
 | 2 | **Haemodialysis is not mentioned on this page**, although `poisoning-initial-management-children` lists barbiturates among toxins intermittent high-flux haemodialysis removes. | `observation` |
 | 3 | **Consistent with AMH** (`gastrointestinal-decontamination`), which lists phenobarbital among drugs for multiple-dose activated charcoal. | `observation` |
-| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 4 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Phenobarbitone poisoning*. Last Updated December 2017. https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Phenobarbitone poisoning*. Last Updated December 2017. https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

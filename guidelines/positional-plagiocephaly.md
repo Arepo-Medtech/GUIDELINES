@@ -1,9 +1,9 @@
 # Positional plagiocephaly in infants
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** diagnosis, exclusion of craniosynostosis, counterpositioning, physiotherapy, helmet therapy and referral for positional head-shape deformity in infants. Infant-only; no adult counterpart. Related: `gord-in-infants` (safe sleep), `acquired-torticollis-children` (acquired, not congenital, torticollis).
 
-> ✅ **OPEN AND QUOTED.** 27 of 27 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Positional plagiocephaly*** (Last updated January 2024); **38 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 27 of 27 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Positional plagiocephaly*** (Last updated January 2024); **38 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Suspected craniosynostosis → urgent craniofacial referral.** **Never use a pillow** to treat flattening — SIDS risk. Otherwise no imaging is needed.
 
@@ -19,8 +19,8 @@
 ## Types, causes and natural history
 
 - **Positional plagiocephaly** = posterior flattening on one side, possibly with ear misalignment and facial asymmetry. **Brachycephaly** = symmetrical occipital flattening and widening, often co-existing. **Scaphocephaly** = long narrow skull flattened on both sides. [S1]
-- **Caused by external moulding** from lying on the back or a one-sided posture preference. **Risk factors:** low tone, delayed gross motor development, minimal tummy time, tight SCM, developmental dysplasia of the hip. [S1]
-- **Over one third of infants** have plagiocephaly in the first few months; most **self-correct by the time they can sit unsupported**, driven by rapid cranial growth in the first 4–6 months (corrected age if premature). [S1]
+- **Caused by external moulding** from lying on the back or a one-sided posture preference. **Risk factors:** little tummy time, low tone, tight SCM, delayed gross motor development, developmental dysplasia of the hip. [S1]
+- **More than a third of infants** develop plagiocephaly during their first months; most **self-correct by the time they can sit unsupported**, thanks to fast cranial growth over the first 4–6 months (corrected age if premature). [S1]
 - **Plagiocephaly and brachycephaly persist in around 1% of teenagers.** [S1]
 
 ## Differential diagnosis
@@ -36,15 +36,15 @@
 - **History:** birth (breech, multiple) and gestation; one-sided looking preference awake and asleep; gross motor development and tolerance of tummy time; handling, sleeping, feeding and carrying positions; change in head shape over time. [S1]
 - **Examine from above**, infant on the parent's lap: a **parallelogram-shaped head**, frontal protuberance and forward ear on the side of the flattening, and a posterior bump on the opposite side support plagiocephaly. [S1]
 - **Palpate the anterior fontanelle:** closed in 1% at 3 months, 38% at 12 months and 96% at 24 months. **An open fontanelle predicts better response** to physiotherapy or helmet therapy. [S1]
-- ⚠️ **Feel for ridging of the coronal or sagittal sutures** (craniosynostosis), and check head circumference, eye movements, back and spine, and neurology. [S1]
+- ⚠️ **Feel for ridging of the coronal or sagittal sutures** (craniosynostosis), and examine the back and spine, eye movements, head circumference and neurology. [S1]
 
 ## Manage
 
-- ⚠️ **If craniosynostosis is suspected, refer urgently to a craniofacial service**, which decides on imaging. [S1]
-- ⚠️ **Do not use any pillow during sleep** to prevent or treat flattening — **risk of sudden infant death syndrome.** [S1]
+- ⚠️ **Suspected craniosynostosis → urgent referral to a craniofacial service**, which decides on imaging. [S1]
+- ⚠️ **No pillow of any kind in sleep**, whether to prevent or to treat flattening — **risk of sudden infant death syndrome.** [S1]
 - **Counterpositioning:** reduce time on the flat side by arranging the environment so the infant turns toward the opposite side. [S1]
 - **Example, right-sided plagiocephaly:** move the cot so the infant looks left when a carer enters; lay on the left side or back with toys on the left; carry to encourage turning left. **Regular tummy time** builds neck strength and head control. [S1]
-- **Physiotherapy:** parent education, handling and counterpositioning advice, and — for congenital muscular torticollis — passive stretching and strengthening of the opposite SCM; the physiotherapist also monitors progress and advises on specialist referral. [S1]
+- **Physiotherapy:** parent education, handling and counterpositioning advice, and — for congenital muscular torticollis — passive stretches of the opposite SCM plus strengthening of it; the physiotherapist also monitors progress and advises on specialist referral. [S1]
 
 ## Helmets
 
@@ -65,12 +65,12 @@
 |---|---|---|
 | 1 | **The full severity-assessment scale** (per-feature scoring for plagiocephaly, brachycephaly or scaphocephaly) is referenced but not reproduced in the extracted text; no helmet threshold is given. | `input_unavailable` |
 | 2 | **Congenital muscular torticollis** is covered only as an association here; the corpus's `acquired-torticollis-children` covers acquired torticollis and does not overlap. | `observation` |
-| 3 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 3 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Positional plagiocephaly*. Last updated January 2024. https://www.rch.org.au/clinicalguide/guideline_index/Positional_plagiocephaly/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Positional plagiocephaly*. Last updated January 2024. https://www.rch.org.au/clinicalguide/guideline_index/Positional_plagiocephaly/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,9 +1,9 @@
 # Slow weight gain in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** definition, growth-chart interpretation, targeted investigation, causes, escalation and follow-up for slow weight gain (faltering growth) in infants and children. No adult counterpart. Related: `unsettled-crying-baby`, `non-ige-food-allergy-children`, `iron-deficiency-children`, `urinary-tract-infection-children`, `refugee-immigrant-health-acute-children`.
 
-> ✅ **OPEN AND QUOTED.** 23 of 23 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Slow weight gain*** (Last updated March 2021); **29 fragments re-checked by machine. 0 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 23 of 23 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Slow weight gain*** (Last updated March 2021); **29 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > **Most slow weight gain is inadequate caloric intake, often with psychosocial contributors.** A well, normally developing child with no suggestive features needs no investigations at first — plot serial measurements and follow up.
 
@@ -11,7 +11,7 @@
 
 ## Recognise it
 
-- **Definition:** current weight or rate of gain significantly below that expected for age and sex, **or weight has dropped 2 or more major percentile lines.** [S1]
+- **Definition:** for age and sex, the current weight or the rate of gain is well below what is expected, **or weight has dropped 2 or more major percentile lines.** [S1]
 - **Nutrition is the main driver of growth under 2 years; most cases are inadequate caloric intake.** Causes are commonly multifactorial, with psychosocial stressors often significant, and there is not always a pathological cause. [S1]
 - **Length and head circumference are often preserved initially**, but may be affected if undernutrition is severe or prolonged. [S1]
 - **Expected average weight gain (a guide, not the minimum acceptable):** 0–3 months 150–200 g/week; 3–6 months 100–150 g/week; 6–12 months 70–90 g/week. [S1]
@@ -25,13 +25,13 @@
 
 ## Assess
 
-- **Intake history:** breast or bottle, number and volume/duration of feeds per 24 hours, breast milk supply, **formula preparation**; milk intake per 24 hours in toddlers. [S1]
-- **Examine** muscle bulk (buttocks), fat stores (thighs), skin, hair, gums, eyes and nails; development, caregiver–child interaction and **signs of abuse or neglect**; **observe a feed if able.** [S1]
+- **Intake history:** breast or bottle, how many feeds per 24 hours and their volume/duration, breast milk supply, **formula preparation**; milk intake per 24 hours in toddlers. [S1]
+- **Examine** muscle bulk (buttocks), fat stores (thighs), and the eyes, gums, nails, hair and skin; development, caregiver–child interaction and **signs of abuse or neglect**; **observe a feed if able.** [S1]
 
 ## Investigate — only if indicated
 
 - **An otherwise healthy, normally developing child with no suggestive features needs no investigations at first.** Otherwise investigate according to the features elicited. [S1]
-- ⚠️ **Urine microscopy and culture — especially under 12 months, as occult UTI can present with slow weight gain.** [S1]
+- ⚠️ **Urine microscopy and culture — especially under 12 months, where slow weight gain may be the only sign of an occult UTI.** [S1]
 - **Bloods to consider:** FBE, ferritin, UEC, TSH, glucose, LFT; **coeliac serology and total IgA** if eating gluten; micronutrients, especially active B12 if malabsorption or restricted diet is suspected. [S1]
 - **Stool:** microscopy, fat globules, fatty acid crystals. **Over 12 months:** add ESR and faecal calprotectin. [S1]
 
@@ -44,7 +44,7 @@
 ## Manage, escalate and follow up
 
 - **Use a multidisciplinary team.** Management is guided by the contributing factors; **most children are managed as outpatients — consider admission if red flags are present.** [S1]
-- **Consult the paediatric team** for significant malnutrition, illness or dehydration; failed outpatient management; **concern about abuse or neglect**; significant parental mental health concern. [S1]
+- **Consult the paediatric team** for significant dehydration, illness or malnutrition; outpatient management that has failed; **concern about abuse or neglect**; significant parental mental health concern. [S1]
 - **Consider transfer** for severe malnutrition, or an underlying cause needing specialist input. [S1]
 - **Discharge with a clear individualised plan:** feeding plan, and follow-up including outstanding investigations. [S1]
 - **Weigh infants every 1–4 weeks**, depending on concern. **One clinician (often the child health nurse or GP) owns follow-up** and ensures appointments are attended. [S1]
@@ -58,12 +58,12 @@
 |---|---|---|
 | 1 | **Page last updated March 2021** — due for review; check the live page before relying on it. | `time_sensitive` |
 | 2 | **'Red flag features' prompting admission are not listed on this page**; only the consultation and transfer criteria are. | `observation` |
-| 3 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 3 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Slow weight gain*. Last updated March 2021. https://www.rch.org.au/clinicalguide/guideline_index/Slow_weight_gain/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Slow weight gain*. Last updated March 2021. https://www.rch.org.au/clinicalguide/guideline_index/Slow_weight_gain/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

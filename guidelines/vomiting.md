@@ -1,165 +1,91 @@
 # Vomiting
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** children. Assessment of the vomiting child, differential diagnosis, antiemetics and rehydration.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Scope:** children: assessing a vomiting child, what the vomit and the accompanying features point to, red flags, first investigations, ondansetron and rehydration, and when to consult or send home. Linked topics elsewhere in this set: `sepsis-children` and `febrile-child` (fever or systemic illness with vomiting), `anaphylaxis-children` (vomiting with wheeze, stridor or rash), `constipation` (persistent vomiting is a red flag there too), `seizures-acute-management-children` and `febrile-seizure` (raised ICP and intracranial bleeding).
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Vomiting***, Clinical Practice
-> Guideline, **last updated September 2025** [S1]. Its own reference list cites the **Australian Medicines
-> Handbook Children's Dosing Companion**.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 28 claims paraphrased from **The Royal Children's Hospital Melbourne — *Clinical Practice Guideline: Vomiting*** (last updated September 2025; origin: AU). **67 anchors re-checkable by machine; 2 doses.** The source's words are not reproduced: its licence is *© The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored*.
 
-**AMH topics closed by this guideline:** *Vomiting*, *Nausea and vomiting*.
+> ⚠️ **Stopping the vomiting does not rule out the cause.** Ondansetron relieves the symptom, so a settled child can still have obstruction, raised ICP or inflicted injury behind it.
 
-## ⚠️ The four key points are all about what vomiting is hiding
+> 🇦🇺 Australian paediatric source. Its reference list includes the Australian Medicines Handbook Children's Dosing Companion; the ondansetron doses below are the page's suggested starting doses only.
 
-> **Bilious (green) vomiting is due to a gastrointestinal obstruction until proven otherwise, and requires
-> urgent surgical referral** [S1]
+---
 
-> **In a vomiting child without diarrhoea, always consider causes other than gastroenteritis** [S1]
+## Key points
 
-> **Intracranial causes, including raised intracranial pressure (ICP) and inflicted injury, should always be
-> considered** [S1]
-
-> ⚠️ **Ondansetron can be used for symptomatic relief; however, cessation of vomiting does not exclude a
-> serious cause** [S1]
-
-That fourth point is the one that makes this guideline worth holding: **the effective treatment removes the
-sign** without removing the cause, so the guideline states the trap explicitly rather than leaving it to be
-inferred.
-
-**Vomiting is a common and non-specific symptom, not a diagnosis** [S1]. **Infection is the most common cause
-of acute vomiting** [S1].
-
-⚠️ **Bile is dark green rather than yellow. Using a visual aid to clarify vomitus colour with families is
-helpful** [S1] — the distinction that triggers a surgical referral is a colour a parent has to report
-accurately over the phone.
-
-**Early morning vomiting and headache may be due to raised ICP** [S1].
+- ⚠️ **Green (bilious) vomit means gut obstruction until shown otherwise** → refer to surgeons urgently. [S1]
+- **No diarrhoea? Look beyond gastroenteritis** for another cause of the vomiting. [S1]
+- ⚠️ **Always think intracranial:** raised intracranial pressure (ICP) and inflicted injury are both on the list. [S1]
+- ⚠️ **Ondansetron may be used to relieve symptoms, but a child who stops vomiting may still have a serious cause.** [S1]
+- **Vomiting is a symptom — common and non-specific — rather than a diagnosis.** Acute vomiting is most often caused by infection. [S1]
+- ⚠️ **Bile looks dark green, not yellow.** Showing families a colour chart or picture helps them describe the vomit accurately. [S1]
+- **Headache with vomiting early in the morning can signal raised ICP.** [S1]
 
 ## Differential by the nature of the vomit
 
-| Nature | Consider [S1] |
-|---|---|
-| ⚠️ **Bilious (dark green)** | **GIT obstruction** |
-| **Blood** | **Swallowed blood eg epistaxis, or in neonate from maternal blood due to delivery or nipple trauma**; **upper GI haemorrhage** |
-| **Projectile** | **Pyloric stenosis** |
-| **Early morning vomiting** | **Raised ICP** |
+- **What the vomit looks like:** dark green (bilious) → GIT obstruction · blood → swallowed blood (e.g. a nosebleed, or in a newborn maternal blood from delivery or nipple trauma) · projectile → pyloric stenosis · early in the morning → raised ICP. [S1]
 
 ## Differential by associated feature
 
-| Feature [S1] | Consider [S1] |
-|---|---|
-| **Wheeze, stridor, rash, cough, chest pain** | **Anaphylaxis**, viral illness, **pneumonia** |
-| **Abdominal distension and tenderness, "tinkling"/absence of bowel sounds**; **history of previous GIT obstruction or surgery** | **GIT obstruction** |
-| **Abdominal tenderness and fever** | **Appendicitis**, **UTI** |
-| ⚠️ **Lower abdominal/pelvic pain or testicular pain** | **Testicular torsion**, **ovarian torsion** |
-| **Diarrhoea** | **Gastroenteritis** |
-| **Associated with certain food ingestion** | **Non-IgE mediated food allergy** |
-| **Rectal bleeding** | **Gastroenteritis**, **colitis**, **intussusception**, **Meckel's diverticulum** |
-| **Fever or systemic illness** | **Sepsis**, **UTI**, **meningitis** |
-| **Headache** | **Migraine**, **intracranial pathology ie raised ICP**, infection |
-| ⚠️ **History of head injury/concern for NAI** | **Intracranial bleed** |
-| **Abdominal pain, polyuria, polydipsia** | **DKA** |
-| **Toxidromes, possible toxin ingestion, drug use** | **Poisoning**, **alcohol**, **cannabis hyperemesis** |
-| **Neonate/infant** | **Inborn errors of metabolism** |
-| **Specific pattern of vomiting** | **Cyclical vomiting syndrome** |
-| **Urinary frequency, body changes, sexually active** | **Pregnancy** |
-| **Induced vomiting/purging, signs of disordered eating** | **Eating disorders** |
+- **Respiratory and abdominal clues:** wheeze, stridor, rash, cough or chest pain (think anaphylaxis, viral illness, pneumonia); a distended, tender abdomen with 'tinkling' or absent bowel sounds (think obstruction); a tender abdomen with fever (think appendicitis or UTI). [S1]
+- ⚠️ **Pain in the lower abdomen, pelvis or testis → consider torsion** of the testis or ovary. [S1]
+- **Gut clues:** vomiting tied to particular foods suggests non-IgE-mediated food allergy; rectal bleeding widens the list to include intussusception. [S1]
+- ⚠️ **Infective and neurological clues:** fever or a systemically unwell child raises meningitis among the causes; a head injury or concern about non-accidental injury raises intracranial bleeding. [S1]
+- **Metabolic and toxic clues:** abdominal pain with polyuria and polydipsia (DKA); a toxidrome, possible toxin ingestion or drug use (including cannabis hyperemesis); in a neonate or infant, think of inborn errors of metabolism. [S1]
+- **Other patterns:** a recognisable recurring pattern (cyclical vomiting syndrome); urinary frequency, bodily changes or sexual activity (pregnancy); self-induced vomiting, purging or disordered eating (eating disorders). [S1]
 
 ## Examination
 
-**Abdominal distension could suggest acute abdomen or bowel obstruction (ask parent if abdomen changed in
-appearance)** [S1]. **'Tinkling' high-pitched or absent of bowel sounds may suggest gastrointestinal
-obstruction** [S1]. ⚠️ **Examine testes for torsion, particularly in adolescent boys** [S1].
+- **Abdomen:** distension may point to an acute abdomen or bowel obstruction — ask the parent whether the belly looks different; high-pitched 'tinkling' or absent bowel sounds suggest obstruction. ⚠️ **Check the testes for torsion, above all in adolescent boys.** [S1]
+- ⚠️ **Neurology:** an altered conscious state or abnormal neurological signs (such as Cushing's triad) may mean intracranial pathology; in infants a bulging fontanelle can indicate raised ICP. [S1]
+- ⚠️ **Red flags:** bilious vomit · lethargy or listlessness · an infant who cannot be settled, with or without a bulging fontanelle · fever with neck stiffness and photophobia in an older child · peritonism · ongoing vomiting with poor growth or abnormal development. [S1]
 
-**Altered conscious state and/or abnormal neurology (eg Cushing's triad) may suggest intracranial
-pathology**; **bulging fontanelle may be a sign of raised ICP** [S1].
+## Investigations
 
-### Red flags
+- **A well child who is only vomiting usually needs no further tests;** when tests are done, pick them from the likely differentials. [S1]
+- **Check ketones along with the BGL when the BGL is below 3 mmol/L or above 11 mmol/L.** Vomiting can lead to ketotic hypoglycaemia, especially in younger children. [S1]
 
-**Bilious vomiting** · **lethargy or listlessness** · **inconsolable +/- bulging fontanelle in infant** ·
-**neck stiffness, photophobia and fever in older child** · **signs of peritonitis** · **persistent vomiting
-with poor growth or abnormal development** [S1].
+## Treatment
 
-## Investigation and treatment
+- ⚠️ **Shock → sodium chloride 0.9% bolus, 10-20 mL/kg.** BGL under 2.6 mmol/L → manage as hypoglycaemia. Ketones present → think about giving carbohydrate to correct them (apple juice, for example). [S1]
+- **Involve the local surgeons when a surgical cause appears likely** — bowel obstruction, torsion of the testis or ovary, or appendicitis. [S1]
 
-**Most well children with isolated vomiting do not require any other investigations** [S1]. **Targeted
-investigation is directed by likely differential diagnoses** [S1].
+## Ondansetron
 
-**Consider BGL and ketones if BGL <3 mmol/L or >11 mmol/L. Ketotic hypoglycaemia can be a consequence of
-vomiting, more commonly in younger children** [S1].
+- **Purpose: helping children older than 6 months keep up their hydration.** [S1]
+- ⚠️ **Suggested starting dose by weight:** 2 mg for 8-15 kg; 4 mg for 15-30 kg; 8 mg above 30 kg. [S1]
+- ⚠️ **Usable when vomiting follows a head injury,** as long as conscious state and the other signs are watched closely. [S1]
+- ⚠️ **If ondansetron does not work, get senior advice before any other antiemetic,** because of their side effects. [S1]
 
-**Treat shock with a bolus of 10-20 mL/kg sodium chloride 0.9%** [S1]. **If BGL <2.6 mmol/L, treat as per
-hypoglycaemia** [S1]. **If ketones present, consider carbohydrate source to correct (eg apple juice)** [S1].
+## Hydration
 
-**Consult local surgical team if there is evidence of a surgical cause of vomiting eg bowel obstruction,
-testicular or ovarian torsion and appendicitis** [S1].
+- **Start with oral fluids:** oral rehydration solution, or apple juice diluted half-and-half with water (1:1). [S1]
 
-### Ondansetron
+## Consult and discharge
 
-**To assist with maintaining hydration in children >6 months of age** [S1].
+- **Consider calling the local paediatric team** for advice on escalating care, for an acutely sick child whom fluid resuscitation is not improving, for severe metabolic derangement, or when the diagnosis is uncertain. [S1]
+- **Send home when** the child is alert, keeping down small amounts orally and has normal vital signs, **and either** the cause has been found and dealt with, **or** ⚠️ high-risk diagnoses have been thought through and a follow-up plan is in place with clear advice on when to come back sooner. [S1]
 
-**Suggested initial dosage** [S1]:
-
-| Weight | Dose |
-|---|---|
-| **8-15 kg** | **2 mg** |
-| **15-30 kg** | **4 mg** |
-| **>30 kg** | **8 mg** |
-
-⚠️ **Can be given with vomiting due to head injury provided other signs such as conscious state are carefully
-monitored** [S1].
-
-⚠️ **If ondansetron is ineffective, consult senior advice before prescribing other anti-emetics due to side
-effects** [S1] — a single named antiemetic, with escalation gated behind senior advice rather than a second
-agent.
-
-### Hydration
-
-**Encourage oral fluids as a first line option eg oral rehydration solution or diluted apple juice (1:1 apple
-juice to water)** [S1]. Nasogastric fluids where **additional enteral fluids are required**; intravenous
-**for children not tolerating adequate enteral fluids** [S1].
-
-## Disposition
-
-**Consult the local paediatric team** for **advice regarding escalation of care**, when the **patient is
-acutely unwell and not responding to fluid resuscitation**, for **severe metabolic derangement**, or for
-**diagnostic uncertainty** [S1].
-
-**Discharge when** the child is **alert and able to tolerate small amounts of oral intake** with **normal
-vital signs**, and either **the cause of vomiting has been identified and adequately managed** **or** ⚠️
-**high risk diagnoses have been considered and there is an adequate follow up plan in place with clear
-instructions on when to seek earlier review** [S1].
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| ⚠️ **Sepsis (children)** · **Febrile child** | **fever or systemic illness** with vomiting → **sepsis, UTI, meningitis** |
-| **Acute anaphylaxis** · **Anaphylaxis (children)** | vomiting with **wheeze, stridor, rash** is an anaphylaxis presentation |
-| **Type 2 diabetes** | **abdominal pain, polyuria, polydipsia** → **DKA**; BGL and ketones are the first investigation |
-| **Constipation** | ⚠️ **persistent vomiting** is a red flag in both guidelines |
-| **Migraine** | **headache** with vomiting, against **raised ICP** as the alternative |
-| **Seizures — acute management (children)** · **Febrile seizure** | raised ICP and intracranial bleed as shared territory |
-| **Alcohol problems** | **alcohol** and **cannabis hyperemesis** named among toxic causes |
-| **Colonoscopy** | **bowel obstruction** is a contraindication shared with bowel preparation |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| ⚠️ **Ondansetron route and frequency** | **input_unavailable** | a **suggested initial dosage** by weight band is given; **route, frequency, maximum and repeat interval are not stated** on the page |
-| ⚠️ **Other antiemetics** | **input_unavailable** | **consult senior advice before prescribing other anti-emetics due to side effects** — **no agent named and no side effect specified** |
-| **Under 6 months** | **out_of_scope** | ondansetron is **for children >6 months of age**; **no antiemetic option is given below that age** |
-| **Dose table transcribed from a grid** | **observation** | the weight-band table is **rendered as text**; values verified as a contiguous block, **column alignment is a transcription risk** |
-| **Dehydration assessment** | **input_unavailable** | **assess hydration** links to a separate guideline, **not retrieved** |
-| **Nasogastric and intravenous fluids** | **input_unavailable** | both are **linked guidelines, not retrieved**; no rates or compositions here |
-| **Metabolic disorders** | **input_unavailable** | **consider inborn errors of metabolism** in neonates/infants links out, **not retrieved** |
-| **Cyclical vomiting syndrome** | **out_of_scope** | named as a differential with **no management given** |
-| **Adults** | **out_of_scope** | paediatric guideline; AMH's *Nausea and vomiting* topic is not age-restricted and covers chemotherapy and postoperative settings this source does not |
-| **Pregnancy** | **out_of_scope** | listed as a differential in adolescents; **hyperemesis is not covered** |
+| 1 | **Ondansetron route, frequency, maximum and repeat interval** are not given; only weight-band starting doses are. | `input_unavailable` |
+| 2 | **Other antiemetics:** the page asks for senior advice before using them but names no drug and no specific side effect. | `input_unavailable` |
+| 3 | **Under 6 months:** ondansetron is for older children and no antiemetic is offered for younger infants. | `out_of_scope` |
+| 4 | **Dose table:** the weight bands were read from a grid rendered as text; confirm column alignment against the live page before prescribing. | `observation` |
+| 5 | **Dehydration assessment, nasogastric and intravenous fluids, metabolic disorders** are separate RCH guidelines the page links to; they were not retrieved, so no rates or regimens appear here. | `input_unavailable` |
+| 6 | **Transfer:** the page adds a consider-transfer prompt (care beyond the local hospital's comfort level; retrieval services) that edition 1.0 did not carry; not added as a claim. | `observation` |
+| 7 | **Cyclical vomiting syndrome and pregnancy** are listed as differentials only; no management (including hyperemesis) is given. | `out_of_scope` |
+| 8 | **Adults, chemotherapy-related and postoperative nausea** are outside this paediatric source. | `out_of_scope` |
+| 9 | **Licence:** RCH terms (clause 5.2) permit personal use only, so every claim is a paraphrase backed by hash anchors; the page's words are not reproduced. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Vomiting.* Last updated September 2025. https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/ (retrieved 2026-09-22) | clinical practice guideline (AU) |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Vomiting*. last updated September 2025. https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

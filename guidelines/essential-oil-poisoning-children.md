@@ -1,9 +1,9 @@
 # Essential oil poisoning in children
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-verified; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** ingestion, skin and eye exposure to essential oils in children (PIC endorsed): dose thresholds, oil-specific toxicity (clove, pennyroyal, wintergreen and others), aspiration pneumonitis, decontamination and disposition. Eucalyptus oil has its own page, `eucalyptus-oil-poisoning-children`; related RCH pages are `hydrocarbon-poisoning-children`, `camphor-poisoning-children` and `salicylate-poisoning-children` (wintergreen). General principles: `poisoning-initial-management-children`; AMH decontamination counterpart: `gastrointestinal-decontamination`.
 
-> ✅ **OPEN AND QUOTED.** 22 of 22 claims quoted verbatim from the **RCH Melbourne Clinical Practice Guideline *Essential Oil Poisoning*** (Last Updated July 2021); **28 fragments re-checked by machine. 3 quoted doses.**
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Essential Oil Poisoning*** (Last Updated July 2021); **28 anchors re-checkable by machine; 3 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **2–3 mL of some oils has been toxic in children. No charcoal** (aspiration risk, rapid absorption). **Clove and pennyroyal need urgent toxicologist discussion** (paracetamol-like hepatotoxicity).
 
@@ -13,12 +13,12 @@
 
 - **Mucous membrane irritation and GI symptoms usually come first, then CNS depression**, which raises the risk of aspiration pneumonitis. [S1]
 - **Aspiration risk comes from the oil and from added hydrocarbons or emulsifiers.** Symptoms are oil-specific — **call Poisons Information if the oil is known (13 11 26).** [S1]
-- **Symptoms (including rapid CNS effects) usually start within one hour.** ⚠️ Aspiration signs are usually immediate but **can be delayed up to 6 hours**; biochemical changes after large ingestions may take 10 hours. [S1]
+- **Symptoms (including rapid CNS effects) usually start within one hour.** ⚠️ Aspiration signs usually appear straight away yet **may take up to 6 hours**; after large ingestions, biochemical changes may take 10 hours. [S1]
 
 ## Dose and assessment
 
 - **Concentrations range 1–20%.** 5–15 mL is likely toxic in adults; ⚠️ **2–3 mL of some oils has been associated with toxicity in children.** [S1]
-- **Assess:** all deliberate self-poisoning or significant accidental ingestion · any symptomatic child · **ingested dose over 5 mL** · any child whose developmental age does not fit accidental poisoning. [S1]
+- **Assess:** every case of deliberate self-poisoning or of significant accidental ingestion · a child with any symptoms · **ingested dose over 5 mL** · any child whose developmental age does not fit accidental poisoning. [S1]
 - **History:** the exact oil name and volume, the preparation type and % concentration, and co-ingestants such as paracetamol. [S1]
 - ⚠️ **Any change in mental state is significant.** CNS depression, vertigo, dizziness, ataxia, seizures · bradycardia, hypotension · aspiration (gagging, choking, persistent coughing). [S1]
 
@@ -36,9 +36,9 @@
 
 ## Management
 
-- **Aspiration pneumonitis is managed supportively** (oxygen, bronchodilators, NIV or intubation if severe). Fever is common — **withhold antibiotics until there is objective evidence of bacterial infection**; no corticosteroids or prophylactic antibiotics. [S1]
+- **Aspiration pneumonitis is managed supportively** (oxygen, bronchodilators, NIV or intubation if severe). Fever is common — **give antibiotics only once bacterial infection is objectively evident**; no corticosteroids or prophylactic antibiotics. [S1]
 - ⚠️ **Charcoal is contraindicated** — aspiration risk, and essential oils are absorbed rapidly. [S1]
-- **Consider NAC for significant clove oil, pennyroyal or halogenated hydrocarbon poisoning** — discuss with Poisons Information or a toxicologist. [S1]
+- **In significant poisoning with clove oil, pennyroyal or a halogenated hydrocarbon, consider NAC** — talk it through with Poisons Information or a toxicologist. [S1]
 - **Eyes:** routine irrigation, possibly longer for oily substances; ophthalmology review for persistent symptoms. **Skin:** wash with soapy water and treat any dermatitis. [S1]
 - **Enhanced elimination is ineffective; there is no antidote.** [S1]
 
@@ -59,12 +59,12 @@
 | 2 | **No NAC regimen is given** for clove oil or pennyroyal; the page defers to Poisons Information/toxicologist. The paracetamol NAC regimen is in `paracetamol-poisoning-children` but this page does not say to use it. | `observation` |
 | 3 | **Thresholds sit awkwardly:** assessment and the 4-hour observation apply at **over 5 mL**, yet the page says 2–3 mL of some oils has been toxic in children, and `hydrocarbon-poisoning-children` (June 2017) says **less than 5 mL** of pure oil can cause significant CNS toxicity and observes for **6 hours**. The oil type and concentration (PIC advice) decide. | `observation` |
 | 4 | **The background list names 'woodworm'**, which appears to mean wormwood (listed in the table); not quoted. | `observation` |
-| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, not openly licensed; quoted with attribution. | `observation` |
+| 5 | **Licence:** RCH guidelines are free to read but **© The Royal Children's Hospital**, licensed for personal use only (Terms and Conditions clause 5.2); paraphrased and hash-anchored, not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Treatment |
 |---|---|---|
-| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Essential Oil Poisoning*. Last Updated July 2021. https://www.rch.org.au/clinicalguide/guideline_index/Essential_Oil_Poisoning/ — retrieved 2026-09-23. | **quoted, re-checkable** |
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Essential Oil Poisoning*. Last Updated July 2021. https://www.rch.org.au/clinicalguide/guideline_index/Essential_Oil_Poisoning/ — retrieved 2026-09-23. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
