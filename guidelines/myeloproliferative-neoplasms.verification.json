@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/myeloproliferative-neoplasms.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13432566/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13432566/",
+  "https://www.eviq.org.au/p/4540"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from DGHO MPN expert panel (Griesshammer M, Al-Ali HK, Baerlocher GM, et al.), International Journal of Cancer (Wiley/UICC) 'The German ONKOPEDIA Guideline for Myelofibrosis in 2025 — Recommendations of an MPN Expert Panel of the German Society for Hematology and Oncology (DGHO)' (published 21 June 2026). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13432566). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from DGHO MPN expert panel (Griesshammer M, Al-Ali HK, Baerlocher GM, et al.), International Journal of Cancer (Wiley/UICC) 'The German ONKOPEDIA Guideline for Myelofibrosis in 2025 — Recommendations of an MPN Expert Panel of the German Society for Hematology and Oncology (DGHO)' (published 21 June 2026), 22 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13432566). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)' (first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027), 10 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the eviQ momelotinib protocol (ID 4540, Cancer Institute NSW, approved August 2026), as the Australian source for momelotinib dosing, dose changes, monitoring and trial evidence. The S1 claims are unchanged. eviQ has no ruxolitinib or fedratinib myelofibrosis protocol in its current sitemap, and no Australian or NZ society guideline for myelofibrosis was found.",
  "summary": {
-  "total": 22,
+  "total": 32,
   "pass": 22,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -171,6 +173,201 @@
    "verdict": "pass",
    "source_text": "Patients should be considered for clinical trial enrollment whenever possible, both to access these novel agents and to contribute to the rapidly expanding body of evidence guiding future practice.",
    "locator": "DGHO MPN expert panel (Griesshammer M, Al-Ali HK, Baerlocher GM, et al.), International Journal of Cancer (Wiley/UICC), 'The German ONKOPEDIA Guideline for Myelofibrosis in 2025 — Recommendations of an MPN Expert Panel of the German Society for Hematology and Oncology (DGHO)', published 21 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13432566/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**eviQ indication:** adults with primary, post-PV or post-ET myelofibrosis who have moderate to severe anaemia and a spleen or symptom burden from the disease, whether JAK-inhibitor naive or previously on ruxolitinib.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe5f6d10be29c666",
+     "n": 313,
+     "p": "Myelofib"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Dose: momelotinib 200 mg by mouth once a day, continued until progression or unacceptable toxicity.** It is a PBS Authority item, and tablets come in 100 mg, 150 mg and 200 mg strengths.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b254f63b9d298c78",
+     "n": 94,
+     "p": "Momeloti"
+    },
+    {
+     "h": "a0a21c09f143a86f",
+     "n": 90,
+     "p": "Momeloti"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Review at 24 weeks:** think about stopping if neither the spleen, the symptoms nor the anaemia has improved. When stopping from 200 mg or 150 mg, step down to 100 mg daily for a week first; 100 mg can be stopped outright.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "742fc3a66422e42e",
+     "n": 146,
+     "p": "Consider"
+    },
+    {
+     "h": "a33b10c1425c67e3",
+     "n": 242,
+     "p": "Disconti"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Cytopenias:** if the neutrophil count drops under 0.5, pause until it is back to 0.75 or more, then resume 50 mg/day lower. Platelets under 20 also mean a pause until recovery (to 50 for most starting counts), then a 50 mg/day reduction. Anyone who cannot tolerate 100 mg daily should come off the drug.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5bfadea01f7008f0",
+     "n": 148,
+     "p": "less tha"
+    },
+    {
+     "h": "2cf3e56af0fea6a5",
+     "n": 622,
+     "p": "Platelet"
+    },
+    {
+     "h": "8e21e467086c2dbd",
+     "n": 88,
+     "p": "Note: Tr"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Liver and kidney:** kidney impairment needs no dose change (dialysis is unstudied). Severe hepatic impairment (Child-Pugh C) starts at 150 mg daily. If ALT or AST climb past 5 × ULN or bilirubin past 2 × ULN, pause, restart 50 mg lower once settled, and stop for good if the transaminase rise recurs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed631c4deed8ec17",
+     "n": 116,
+     "p": "No dose "
+    },
+    {
+     "h": "e03f290c77add461",
+     "n": 529,
+     "p": "Severe ("
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Infection screening before starting:** JAK inhibition raises infection risk, and latent tuberculosis, Mycobacterium avium complex and varicella zoster have reactivated on JAK inhibitors, so screen and give prophylaxis to those at risk. Check hepatitis B serology (HBsAg, anti-HBc, anti-HBs) first.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02957227146b3b5d",
+     "n": 331,
+     "p": "Inhibiti"
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Heart and clots:** get a baseline ECG and blood tests where indicated, particularly with existing heart disease, and consider an echo in high-risk people. Venous thromboembolism has occurred on this treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "30c5f58b47fc7dbe",
+     "n": 305,
+     "p": "Patients"
+    },
+    {
+     "h": "0334bdabd3a4c3cf",
+     "n": 80,
+     "p": "Venous t"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Interactions:** strong CYP3A4 inducers (carbamazepine, phenytoin) may blunt momelotinib, and OATP1B1/1B3 inhibitors (rifampicin, ciclosporin) may raise its toxicity. As a BCRP inhibitor it raises rosuvastatin levels: begin rosuvastatin at 5 mg daily and keep it at or below 10 mg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2f2494af1e90e8cf",
+     "n": 205,
+     "p": "Strong C"
+    },
+    {
+     "h": "cefa975274f72faf",
+     "n": 258,
+     "p": "OATP1B1/"
+    },
+    {
+     "h": "2abdf9edfe652152",
+     "n": 103,
+     "p": "Rosuvast"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Trial evidence behind the protocol:** in JAK-inhibitor-naive patients, compared head to head with ruxolitinib, spleen response matched ruxolitinib (26.5% v 29%), but symptom response did not reach non-inferiority (28.4% v 42.2%), while transfusion independence favoured momelotinib (66.5% v 49.3%). After prior JAK inhibitor (MOMENTUM), symptom response beat danazol (25% v 9%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf9b00bca4d10a1f",
+     "n": 288,
+     "p": "Primary:"
+    },
+    {
+     "h": "f99ffce8f7aadf92",
+     "n": 42,
+     "p": "Transfus"
+    },
+    {
+     "h": "8a920305d86f3a24",
+     "n": 67,
+     "p": "Primary:"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Side effects to watch:** transaminase rises in about 20% (grade 3 in 1.1%, grade 4 in 0.2%) and mostly mild, sensory peripheral neuropathy in about 11%, leading 3% to stop in SIMPLIFY-2.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39a572c96207d69d",
+     "n": 189,
+     "p": "New or w"
+    },
+    {
+     "h": "c93fd3c94dfcb853",
+     "n": 255,
+     "p": "Peripher"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)', first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027, https://www.eviq.org.au/p/4540, retrieved 2026-09-24"
   }
  ]
 }

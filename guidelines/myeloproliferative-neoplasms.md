@@ -1,13 +1,15 @@
 # Myeloproliferative neoplasms — myelofibrosis (primary, pre-fibrotic and post-PV/ET)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** symptom assessment, pre-fibrotic primary myelofibrosis, molecular risk scoring, JAK-inhibitor choice and sequencing, recognising ruxolitinib failure (RR6), and transplant referral for primary and secondary (post-PV/ET) myelofibrosis in adults. Polycythaemia vera and essential thrombocythaemia outside myelofibrosis are not covered (see Unresolved). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 22 claims quoted verbatim from **DGHO MPN expert panel (Griesshammer M, Al-Ali HK, Baerlocher GM, et al.), International Journal of Cancer (Wiley/UICC) — *The German ONKOPEDIA Guideline for Myelofibrosis in 2025 — Recommendations of an MPN Expert Panel of the German Society for Hematology and Oncology (DGHO)*** (published 21 June 2026; origin: international); **29 fragments re-checked by machine; 2 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **51 fragments or anchors re-checkable by machine; 7 doses.** **S1** DGHO MPN expert panel (Griesshammer M (published 21 June 2026; international): 22 claims, quoted · **S2** eviQ Cancer Treatments Online (first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027; AU): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (DGHO ONKOPEDIA, 2025). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **The source's drug set matches the PBS.** ONKOPEDIA reflects EU/German approvals: ruxolitinib, fedratinib and momelotinib, with no pacritinib. The PBS listing data for myelofibrosis list the same three JAK inhibitors. Pacritinib, which the US NCCN pathway prefers for platelets below 50 × 10^9/L, is not among the PBS-listed drugs.
+
+> 🇦🇺 **S2 is Australian (eviQ momelotinib protocol, 2026).** It adds momelotinib dosing, dose changes, monitoring and interactions for Australian use. S1 (DGHO) remains the source for risk scoring, JAK-inhibitor choice and transplant.
 
 ---
 
@@ -45,6 +47,19 @@
 - **Splenic irradiation or splenectomy for marked splenomegaly is an individual decision.** Irradiation is less invasive and can bridge to transplant. Splenectomy reduces spleen burden more but carries considerable perioperative morbidity and mortality. [S1]
 - **Offer clinical trial enrolment whenever possible.** [S1]
 
+## Momelotinib in Australia (eviQ)
+
+- **eviQ indication:** adults with primary, post-PV or post-ET myelofibrosis who have moderate to severe anaemia and a spleen or symptom burden from the disease, whether JAK-inhibitor naive or previously on ruxolitinib. [S2]
+- ⚠️ **Dose: momelotinib 200 mg by mouth once a day, continued until progression or unacceptable toxicity.** It is a PBS Authority item, and tablets come in 100 mg, 150 mg and 200 mg strengths. [S2]
+- **Review at 24 weeks:** think about stopping if neither the spleen, the symptoms nor the anaemia has improved. When stopping from 200 mg or 150 mg, step down to 100 mg daily for a week first; 100 mg can be stopped outright. [S2]
+- **Cytopenias:** if the neutrophil count drops under 0.5, pause until it is back to 0.75 or more, then resume 50 mg/day lower. Platelets under 20 also mean a pause until recovery (to 50 for most starting counts), then a 50 mg/day reduction. Anyone who cannot tolerate 100 mg daily should come off the drug. [S2]
+- **Liver and kidney:** kidney impairment needs no dose change (dialysis is unstudied). Severe hepatic impairment (Child-Pugh C) starts at 150 mg daily. If ALT or AST climb past 5 × ULN or bilirubin past 2 × ULN, pause, restart 50 mg lower once settled, and stop for good if the transaminase rise recurs. [S2]
+- ⚠️ **Infection screening before starting:** JAK inhibition raises infection risk, and latent tuberculosis, Mycobacterium avium complex and varicella zoster have reactivated on JAK inhibitors, so screen and give prophylaxis to those at risk. Check hepatitis B serology (HBsAg, anti-HBc, anti-HBs) first. [S2]
+- **Heart and clots:** get a baseline ECG and blood tests where indicated, particularly with existing heart disease, and consider an echo in high-risk people. Venous thromboembolism has occurred on this treatment. [S2]
+- **Interactions:** strong CYP3A4 inducers (carbamazepine, phenytoin) may blunt momelotinib, and OATP1B1/1B3 inhibitors (rifampicin, ciclosporin) may raise its toxicity. As a BCRP inhibitor it raises rosuvastatin levels: begin rosuvastatin at 5 mg daily and keep it at or below 10 mg. [S2]
+- **Trial evidence behind the protocol:** in JAK-inhibitor-naive patients, compared head to head with ruxolitinib, spleen response matched ruxolitinib (26.5% v 29%), but symptom response did not reach non-inferiority (28.4% v 42.2%), while transfusion independence favoured momelotinib (66.5% v 49.3%). After prior JAK inhibitor (MOMENTUM), symptom response beat danazol (25% v 9%). [S2]
+- **Side effects to watch:** transaminase rises in about 20% (grade 3 in 1.1%, grade 4 in 0.2%) and mostly mild, sensory peripheral neuropathy in about 11%, leading 3% to stop in SIMPLIFY-2. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -65,13 +80,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Polycythaemia vera (PBS row: ruxolitinib, 4 restrictions) has no open-licence current guideline.** The Italian Delphi consensus (Leuk Lymphoma 2025) is not open access. The ELN 2021 PV cytoreduction recommendations (Lancet Haematol) are paywalled. The only open options found were the Chinese-language 2022 PV guideline and the 2020/21 Korean MPN guideline, which is more than 5 years old. PV is therefore not covered here. | `input_unavailable` |
 | 2 | **Essential thrombocythaemia** has no PBS row in the no-guideline data, so it was not sought. | `out_of_scope` |
 | 3 | **Imatinib rows** ('Myeloproliferative disorder', 'Myelodysplastic or myeloproliferative disorder') are for PDGFR-rearranged disease and belong with the French hypereosinophilia guideline, not this one. | `out_of_scope` |
-| 4 | **The ONKOPEDIA versus NCCN comparison table** (Table 1) was stripped. Starting doses of fedratinib and momelotinib are not given in the text. | `input_unavailable` |
-| 5 | **Source limitation, stated by the authors:** the recommendations reflect the German regulatory and reimbursement framework. Evidence is weaker for pre-PMF and combination strategies. | `observation` |
+| 4 | **The ONKOPEDIA versus NCCN comparison table** (Table 1) was stripped. Momelotinib dosing now comes from S2 (eviQ); starting doses of ruxolitinib and fedratinib are still in neither source's text (eviQ has no protocol for either in myelofibrosis). | `input_unavailable` |
+| 5 | **Momelotinib's place differs in emphasis:** S1 (DGHO) positions it for anaemia and possibly first line when anaemia is clinically relevant; S2 (eviQ) restricts its indication to moderate to severe anaemia and records that it did not match ruxolitinib for symptom response in the head-to-head trial. Both are shown. | `observation` |
+| 6 | **eviQ platelet table:** the dose-change table for platelets by baseline count was flattened by extraction; the claim gives only the common thresholds (under 20, recovery to 50). Check the eviQ page for the full grid. | `observation` |
+| 7 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial entities to seek permission and says its content should not be hosted on external sites. | `observation` |
+| 8 | **Source limitation, stated by the authors:** the recommendations reflect the German regulatory and reimbursement framework. Evidence is weaker for pre-PMF and combination strategies. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | DGHO MPN expert panel (Griesshammer M, Al-Ali HK, Baerlocher GM, et al.), International Journal of Cancer (Wiley/UICC). *The German ONKOPEDIA Guideline for Myelofibrosis in 2025 — Recommendations of an MPN Expert Panel of the German Society for Hematology and Oncology (DGHO)*. published 21 June 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13432566/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW. *4540 Myelofibrosis momelotinib (eviQ ID 4540, version 1)*. first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027. https://www.eviq.org.au/p/4540 — retrieved 2026-09-24. | CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

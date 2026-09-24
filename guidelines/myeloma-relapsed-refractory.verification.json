@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/myeloma-relapsed-refractory.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://myeloma.org.au/wp-content/uploads/2026/01/Treatment-of-patients-with-relapsed-refractory-multiple-myeloma.pdf"
+  "https://myeloma.org.au/wp-content/uploads/2026/01/Treatment-of-patients-with-relapsed-refractory-multiple-myeloma.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Quach H) 'Clinical practice guideline: Treatment of patients with relapsed refractory multiple myeloma' (2026 (evidence current to January 2026)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: Copyright © 2026 Myeloma Foundation of Australia Inc. All Rights Reserved. (site-wide footer; the PDF itself carries no reuse statement) (read at https://myeloma.org.au/health-professionals/guidelines-education/clinical-practice-guidelines/ (page footer)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Quach H) 'Clinical practice guideline: Treatment of patients with relapsed refractory multiple myeloma' (2026 (evidence current to January 2026)), 22 claims; LICENCE: Copyright © 2026 Myeloma Foundation of Australia Inc. All Rights Reserved. (site-wide footer; the PDF itself carries no reuse statement) (read at https://myeloma.org.au/health-professionals/guidelines-education/clinical-practice-guidelines/ (page footer)). S2: QUOTED from Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401) 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group' (2025 (Delphi voting March-May 2025)), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12335847). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2025 Pan-Pacific Multiple Myeloma Working Group modified-Delphi consensus on CD38-antibody therapy in relapsed myeloma (17 Asia-Pacific experts, GRADE-rated; several panellists declare industry honoraria), as the international source for the CD38-antibody regimens that are standard overseas but not PBS-funded here. The S1 claims are unchanged. Searched and not usable: EHA-EMN 2025 (Nat Rev Clin Oncol, paywalled), IMWG 2024 bispecific-antibody guidance (Lancet Oncol, paywalled), ASCO 2026 living guideline (bot challenge, not bypassed).",
  "summary": {
-  "total": 22,
-  "pass": 0,
+  "total": 34,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 22
  },
@@ -358,6 +359,91 @@
     }
    ],
    "locator": "Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Quach H), 'Clinical practice guideline: Treatment of patients with relapsed refractory multiple myeloma', 2026 (evidence current to January 2026), https://myeloma.org.au/wp-content/uploads/2026/01/Treatment-of-patients-with-relapsed-refractory-multiple-myeloma.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **International consensus: use a CD38-antibody regimen at first relapse unless the disease is already refractory to a CD38 antibody** (evidence A, strong; all 17 panellists agreed). In Australia only Dara-Vd is PBS-funded for this, and only after one prior line (S1).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Anti-CD38-based therapy should be used for patients with first-relapse RRMM without refractory to anti-CD38 mAbs. … 100% (17) agree.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why refractoriness matters:** across 24 trials and 19 real-world studies, lenalidomide-refractory patients had median PFS of 8.8 v 13.8 months and overall survival of 21.7 v 35.9 months against the whole population; double-refractory (lenalidomide and bortezomib) patients had PFS of only 5.5 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A pooled analysis of 24 clinical trials and 19 real-world studies demonstrated that lenalidomide-refractory patients had markedly shorter survival compared to the intent-to-treat population, with a median PFS of 8.8 months vs. 13.8 months, and overall survival (OS) of 21.7 months vs. 35.9 months, respectively. Double refractory patients (to both lenalidomide and bortezomib) had even shorter PFS (5.5 months)",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Carfilzomib-based triplets:** Dara-Kd (CANDOR) lengthened PFS to 28.4 v 15.2 months with Kd (HR 0.64); Isa-Kd (IKEMA) to 35.7 v 19.2 months (HR 0.58), with MRD negativity 33.5% v 15.4%. Neither is PBS-funded (S1).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In phase III CANDOR trial, Dara-Kd significantly improved PFS(28.4 vs. 15.2 months; hazard ratio [HR], 0.64) … the IKEMA trial showed that Isa-Kd prolonged PFS (35.7 vs. 19.2 months; HR, 0.58), improved MRD negativity (33.5% vs. 15.4%)",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pomalidomide-based triplets:** Isa-Pd (ICARIA-MM) improved PFS (11.5 v 6.5 months, HR 0.60) and overall survival (24.6 v 17.7 months) over Pd, with benefit in lenalidomide-, PI- and double-refractory patients. Subcutaneous Dara-Pd (APOLLO, 79.6% lenalidomide-refractory) also beat Pd, with more neutropenia (69% v 51%). Neither is PBS-funded (S1).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The ICARIA-MM trial demonstrated that Isa-Pd significantly improved PFS (11.5 vs. 6.5 months; HR 0.60) and OS (24.6 vs. 17.7 months … Subgroup analyses confirmed consistent benefit across lenalidomide-, PI-, and double-refractory populations … The APOLLO trial demonstrated that subcutaneous (SC) daratumumab plus pomalidomide and dexamethasone (Pd) significantly improved PFS compared to Pd alone … Notably, most patients were lenalidomide-refractory (79.6%) … Despite with higher neutropenia rates (69% vs. 51%)",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Quadruplets are only suggested (evidence B, weak; 76% agreed),** on phase I/II data such as Dara-KPd (response rate 89%, MRD negativity 65% in a mostly lenalidomide-refractory group), whose maximum tolerated dose was carfilzomib 20/27 mg/m² with pomalidomide 4 mg.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Anti-CD38-based quadruplet regimens are suggested for patients with RRMM (B2). … 76% (13) agree … Among patients in the Dara-KPd cohort (82% lenalidomide-refractory; 25% PI-refractory; 64% with high-risk cytogenetics), the ORR was 89%, and PFS and OS were not reached at a 26-month median follow-up. The rate of MRD negativity (sensitivity threshold 10⁻⁵) was 65% … the maximum tolerated dose was established as carfilzomib 20/27 mg/m² plus pomalidomide 4 mg",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Retreating with a CD38 antibody:** a different CD38-antibody regimen is reasonable if the antibody was given only in induction without maintenance (evidence B, weak; 70% agreed), ideally after a washout of about 6–12 months from the last dose (76% agreed), since CD38 re-expresses over that time. S2 sees retreatment mainly as a bridge to CAR-T or bispecific antibodies.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Different anti-CD38-based regimens are suitable for rechallenging patients who received CD38-based treatment only during induction therapy and without maintenance (B2). … In addition, the reintroduction of different anti-CD38 mAbs preferable only after a substantial washout period of approximately 6 to 12 months from the last anti-CD38 mAb dose (B2). … 70% (12) agree … 76% (13) agree … Anti-CD38 mAb rechallenge should be approached cautiously and is best considered as a bridge strategy to definitive therapies such as CAR-T or BsAbs in patients with limited options.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Renal impairment (eGFR 30–60):** CD38-antibody regimens are preferred (evidence A, strong; all agreed), Isa-Pd or Dara-Pd first and Isa-Kd or Dara-Kd when a proteasome inhibitor is needed, with monitoring; the CD38 antibody needs no dose change.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Anti-CD38-based therapies are preferred for RRMM patients with impaired renal function (e.g., eGFR between 30 and 60 mL/min/1.73 m²) (A1). … Given the clinical data supporting anti-CD38-based regimens, the consensus recommends Isa-Pd or Dara-Pd as preferred choices for RRMM patients with renal impairment, due to their renal safety profile and efficacy. For patients requiring a PI-based regimen, Isa-Kd or Dara-Kd are viable options for patients requiring a PI-based regimen, with appropriate monitoring. … without requiring dose adjustments of the anti-CD38 mAb",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Frail or over 75:** CD38-antibody regimens are appropriate (evidence A, strong). In patients 75 or older, Dara-Rd gave PFS of 28.9 v 11.4 months and Dara-Vd 17.9 v 8.1 months, with about 50% grade 3–4 neutropenia. With COPD, daratumumab needs bronchodilator prophylaxis; daratumumab trials excluded FEV1 below 50%, isatuximab trials did not.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Anti-CD38-based therapies are appropriate for RRMM patients who are frail or over 75 years old (A1). … patients aged ≥75 years experienced significantly prolonged PFS with Dara-Rd (28.9 vs. 11.4 months; HR, 0.27; P = 0.0042) and daratumumab plus bortezomib and dexamethasone (Dara-Vd) (17.9 vs. 8.1 months … with grade 3-4 neutropenia occurring in about 50% of patients receiving daratumumab-based therapy … daratumumab trials (EQUULEUS, APOLLO, and CANDOR) excluded patients with COPD and forced expiratory volume in 1 second (FEV1) <50% or moderate to severe persistent asthma, whereas isatuximab trials (ICARIA-MM and IKEMA) included those with respiratory comorbidities. These differences may influence the generalizability of results. In clinical practice, it is important to recognize that patients with severe respiratory or cardiac conditions should only receive anti-CD38-based therapies with appropriate monitoring supportive measures, such as bronchodilator prophylaxis in patients with COPD receiving daratumumab.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gain or amplification of 1q21:** CD38-antibody regimens are appropriate (evidence A, strong). Isa-Pd improved PFS to 9.5 v 3.8 months (HR 0.40) and Isa-Kd to 25.8 v 16.2 months (HR 0.58) in 1q21+ disease; S2 suggests isatuximab may control 1q21 amplification better than daratumumab, but this is unproven.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Anti-CD38-based therapies are appropriate for RRMM patients with 1q21+ cytogenetic abnormalities (A1). … In the ICARIA-MM trial, Isa-Pd significantly improved PFS (9.5 months vs. 3.8 months; HR = 0.40, 95% CI: 0.25-0.63) and OS (21.3 months vs. 13.9 months) compared to Pd in patients with 1q21+. The IKEMA trial further confirmed the benefit, with Isa-Kd extending PFS to 25.8 months vs. 16.2 months (HR, 0.58 … it has been speculated that isatuximab-based combinations may offer stronger disease control in patients with 1q21+ RRMM, particularly those with amplification (≥4 copies), although further studies are needed to validate this observation.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Blood counts on CD38-antibody combinations:** check the blood count at least weekly for platelets. Hold treatment if neutrophils fall below 0.5 × 10⁹/L or febrile neutropenia occurs and restart at 1 × 10⁹/L; hold or adjust if platelets fall below 10 × 10⁹/L or there is bleeding. Give G-CSF for grade 3 or worse neutropenia, and reduce the IMiD rather than stop the antibody.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "treatment should be withheld or delayed if absolute neutrophil count falls below 0.5 × 10⁹/L or febrile neutropenia is present, and resumed when neutrophil recovers to 1 × 10⁹/L. IMiDs dose reductions are recommended for recurrent events. … At least weekly CBC monitoring enables early detection and intervention. According to FDA labels for PIs and IMiDs, treatment should be withheld or adjusted if platelet counts fall below 10 × 10⁹/L or bleeding occurs. … G-CSF is the standard management approach and should be considered for grade ≥ 3 neutropenia to prevent febrile neutropenia. … dose modifications of IMiDs or PIs rather than discontinuation of the anti-CD38 mAb",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Infection prevention (evidence A, strong):** aciclovir or valaciclovir for everyone; trimethoprim-sulfamethoxazole for Pneumocystis with high-dose dexamethasone or prolonged severe neutropenia; levofloxacin in high-risk severe neutropenia; fluconazole, escalating to posaconazole for prolonged neutropenia; inactivated influenza, pneumococcal (PCV13 and PPSV23) and recombinant zoster vaccines before starting. Monitor IgG: consider antibiotics below 400 mg/dL, and immunoglobulin replacement below 200 mg/dL or with recurrent or severe infection.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Acyclovir or valacyclovir is standard for all patients to prevent herpes zoster and simplex virus reactivation. Trimethoprim-sulfamethoxazole prophylaxis is recommended for Pneumocystis jirovecii pneumonia (PJP) prevention in patients receiving high-dose dexamethasone or with severe, prolonged neutropenia. In high-risk patients with severe neutropenia, levofloxacin prophylaxis may be used. Inactivated influenza, pneumococcal (PCV13 and PPSV23), and recombinant zoster vaccines are recommended before starting therapy. Antifungal prophylaxis with fluconazole is advised, escalating to agents like posaconazole during prolonged neutropenia. … Regular serum IgG monitoring is recommended, with prophylactic antibiotics considered when IgG levels fall below 400 mg/dL. For IgG less than 200 mg/dL, or with recurrent or severe infections, immunoglobulin replacement therapy, either intravenous or subcutaneous, is recommended.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After triple-class exposure:** S2 prefers BCMA CAR-T (cilta-cel, ide-cel) for fit patients with access to a specialised centre, which beat standard regimens including Dara-Pd in CARTITUDE-4 and KarMMa-3; bispecific antibodies are the off-the-shelf alternative (teclistamab median PFS 11.3 months; elranatamab response rate 61%, 15-month PFS 50.9%), with infection monitoring. Australian access to these is set out in S1.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For triple-class-refractory patients, CAR-T therapies (clita-cel, ide-cel), offer the deepest and most durable responses and are preferred for fit patients with access to specialized centers. BsAbs serve as effective \"off-the-shelf\" options for patients ineligible for or awaiting CAR-T therapy but require careful infection monitoring. … The CARTITUDE-4 and KarMMa-3 trials demonstrated superior PFS with CAR-T compared to standard regimens, including those containing anti-CD38 mAbs (e.g., Dara-Pd). … Teclistamab achieved a median PFS of 11.3 months in adults with triple-class-exposed RRMM, who have received ≥ 3 prior lines of therapy; talquetamab reported ORRs of 64-70%, and elranatamab demonstrated a 61% ORR with a 15-month PFS rate of 50.9%.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7 (doi 10.46989/001c.141401), 'Consensus Guidelines and Recommendations for the anti-CD38-based Therapy in Clinical Practice for Relapsed/Refractory Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', 2025 (Delphi voting March-May 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12335847/, retrieved 2026-09-24"
   }
  ]
 }

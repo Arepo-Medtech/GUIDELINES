@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/graft-versus-host-disease-acute.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3815"
+  "https://www.eviq.org.au/p/3815",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '3815 Acute graft versus host disease (aGVHD) (eviQ ID 3815, version 2)' (first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '3815 Acute graft versus host disease (aGVHD) (eviQ ID 3815, version 2)' (first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026), 23 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: QUOTED from ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494) 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)' (July-September 2026), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13382006). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2026 Brazilian ABHH/SBTMO systematic, GRADE-based recommendations on GVHD prophylaxis, as the international source; it covers prophylaxis only, not treatment. The S1 claims are unchanged. Searched and not usable: the EBMT 2024 consensus (Lancet Haematol, paywalled), the ASTCT 2026 acute GVHD review (Transplant Cell Ther, CC BY-NC-ND but behind a bot challenge at both publisher sites, not bypassed), the ANZTCT 2023 ruxolitinib position statement (Intern Med J, paywalled) and the 2024 Chinese acute GVHD consensus (Chinese language).",
  "summary": {
-  "total": 23,
-  "pass": 0,
+  "total": 34,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 23
  },
@@ -379,6 +380,84 @@
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '3815 Acute graft versus host disease (aGVHD) (eviQ ID 3815, version 2)', first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026, https://www.eviq.org.au/p/3815, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**How often and why (S2):** despite prophylaxis, acute GVHD affects 20%–80% of allogeneic transplant recipients. Main risks: HLA mismatch, an unrelated donor, a female donor for a male recipient, myeloablative or TBI-based conditioning, a peripheral blood graft rather than marrow, and an older donor.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Despite prophylactic treatment with immunosuppressive agents, 20%-80% of allo-HCT recipients develop aGvHD []. The main risk factors for aGvHD are human leukocyte antigen (HLA)-mismatching between donor and recipient, use of an unrelated donor, gender disparity (specifically female donor to male recipient), myeloablative conditioning, total-body-irradiation-based conditioning, progenitor stem cell source (peripheral blood > bone marrow), and older donor age",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Choose prophylaxis by donor type (matched sibling, matched unrelated or haploidentical), conditioning intensity and graft source.**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The choice of GvHD prophylaxis should therefore be guided by donor type (matched sibling, matched unrelated, or haploidentical), conditioning regimen (myeloablative versus non-myeloablative/reduced intensity), and graft source (peripheral blood or bone marrow).",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Myeloablative, matched donors, calcineurin inhibitor partner:** tacrolimus with methotrexate prevented grade II–IV acute GVHD better than ciclosporin with methotrexate, without a survival difference. MMF matched methotrexate on GVHD, survival, relapse and infection, and is recommended for less toxicity: mucositis fell by 30% (NNT 3), and nephrotoxicity or respiratory failure by 20% with tacrolimus.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Tacrolimus plus methotrexate showed superiority over cyclosporine plus methotrexate in the prophylaxis of Grade II-IV aGvHD with no significant difference in the DFS or OS in patients with non-advanced disease … There was a 30% reduction in the risk of mucositis (95% CI: 15%-45%) with the use of CNI plus MMF compared to the methotrexate combination (Supplementary Figure 5). The number needed to treat to prevent one case of mucositis was 3 (NNT: 3) … There was a 20% reduction in the risk of toxicity, specifically nephrotoxicity and respiratory failure (95% CI: 4%-36%) with the use of tacrolimus plus MMF compared to tacrolimus plus methotrexate (Supplementary Figure 7). The number needed to treat to prevent one toxicity event was 5 (NNT: 5) … In patients undergoing myeloablative allo-HCT with related or unrelated matched donors, the efficacy of GvHD prophylaxis using a regimen containing CNI (cyclosporine or tacrolimus) plus MMF is comparable to the combination with methotrexate in respect to aGvHD, cGvHD, mortality, relapse, and infection rate. However, the combination with MMF can be recommended due to lower toxicity (nephrotoxicity and respiratory failure), particularly with tacrolimus and the lower incidence of mucositis (regardless of cyclosporine and tacrolimus), when compared to the combination with methotrexate.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rabbit ATG with standard prophylaxis is recommended** for peripheral-blood sibling and unrelated donors: acute GVHD fell by 15% at any dose and relapse by 6%, with no survival difference. The high dose (6 mg/kg or more) added about 2% more EBV reactivation.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In patients undergoing allo-HCT, the use of rATG (regardless of dose) in combination with standard GvHD prophylaxis, compared with standard prophylaxis alone, was associated with a 15% reduction in the risk of aGvHD (95% CI: 10%-20%). In the subgroup analysis, the reduction risk ranged from 13% (low-dose) to 17% (high-dose) … In patients undergoing allo-HCT, the use of rATG in combination with standard GvHD prophylaxis, compared with standard prophylaxis alone, showed an 8% reduction in relapse risk (95% CI: 1%-15%) in the high-dose subgroup, and a 6% reduction (95% CI: 1%-10%) in the overall analysis (low- and high-risk). … was associated with a 2% increased risk of EBV reactivation (95% CI: 0%-4%) in the high-dose subgroup … In patients undergoing allo-HCT, the use of rATG in combination with standard GvHD prophylaxis is recommended over standard prophylaxis alone.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reduced-intensity or non-myeloablative conditioning:** a calcineurin inhibitor with MMF is recommended over a calcineurin inhibitor alone or with methotrexate. It brings more acute (8%) and chronic (12%) GVHD but 17% lower mortality and no rise in relapse. Adding sirolimus to ciclosporin and MMF lowered grade II–IV acute GVHD and improved two-year survival.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There was an 8% increase (95% CI: 5%-11%) in aGvHD with the use of CNI plus MMF compared with the control groups (CNI alone or CNI plus methotrexate) … There was a 12% increase (range: 8%-16%) in cGvHD risk with the use of CNI plus MMF when compared with the control groups (CNI alone or CNI plus methotrexate) … There was a 17% reduction (range: 6%-29%) in mortality risk with the use of CNI plus MMF when compared to the control groups (CNI alone or CNI plus methotrexate) … In patients undergoing reduced intensity or non-myeloablative allo-HCT with related or unrelated matched or mismatched donors, cyclosporine plus MMF and sirolimus led to a reduction in the incidence of Grade II-IV aGvHD and an improved two-year OS.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Haploidentical:** with post-transplant cyclophosphamide (50 mg/kg on days +3 and +4), pairing it with a calcineurin inhibitor (with or without MMF) rather than sirolimus plus MMF cut haemorrhagic cystitis by 21% and sinusoidal obstruction syndrome by 11%, with no difference in GVHD or survival.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "post-transplant cyclophosphamide (PTCy) regimen (50 mg/kg on Day +3 and Day +4) … There was a 21% reduction (95% CI: 12%-31%) in hemorrhagic cystitis risk with the use of high-dose PTCy plus CNI with or without MMF compared with high-dose PTCy plus sirolimus and MMF … There was a 11% reduction (95% CI: 5%-17%) of sinusoidal obstructive syndrome risk with the use high-dose PTCy plus a CNI with or without MMF compared with high-dose PTCy plus sirolimus and MMF … In patients undergoing haploidentical allo-HCT for malignant diseases, using either myeloablative or non-myeloablative conditioning and bone marrow or peripheral blood grafts, a regimen with high-dose PTCy plus CNI with or without MMF, compared with high-dose PTCy plus sirolimus and MMF, reduces hemorrhagic cystitis and sinusoidal obstructive syndrome risks, despite showing no significant differences in the risk of Grade II-IV or III-IV aGvHD, cGvHD, NRM, OS, or EFS.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Matched related or unrelated donors: S2 now supports post-transplant cyclophosphamide beyond haploidentical transplants.** In randomised trials it did not change grade II–IV acute GVHD but cut chronic GVHD by 11%; in cohorts, grade II–IV acute GVHD fell by 22% and overall survival rose, at the cost of 16% more haemorrhagic cystitis.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There was an 11% reduction (95% CI: 3%-18%) in cGvHD risk using regimens involving high-dose PTCy compared with regimens without high-dose PTCy in randomized controlled trials … There was a 22% reduction (95% CI: 12%-31%) in the risk of Grade II-IV aGvHD when using PTCy regimens, compared with regimens without PTCy … In cohorts, there was a 16% (95% CI: 8%-25%) increase in hemorrhagic cystitis risk when using PTCy regimens compared with regimens without PTCy … In patients undergoing allo-HCT with related and unrelated matched donors, the use of high-dose PTCy, either alone or combined with a CNI (with or without MMF), compared with regimens without high-doses of PTCy is associated with reduced risks of cGvHD, Grade II-IV aGvHD, Grade III-IV aGvHD, and NRM compared with regimens that do not include high-dose PTCy. In addition, PTCy- based regimens improve OS, EFS, GRFS, and increase the risk of hemorrhagic cystitis.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mismatched unrelated donors:** post-transplant cyclophosphamide with a calcineurin inhibitor and MMF or sirolimus reduced grade III–IV acute GVHD (by 10% in randomised trials) and chronic GVHD (by 22%), and was linked to better survival.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There was a 10% reduction (95% CI: 6%-14%) in Grade III-IV aGvHD risk when using regimens with PTCy compared with regimens without PTCy … There was a 22% reduction (95% CI: 4%-40%) in cGvHD risk, when using PTCy-based regimens compared with regimens without PTCy … In unrelated mismatched donor transplants, regimens utilizing high-dose PTCy plus a CNI and MMF (or sirolimus) are associated with a reduced risk of Grade III-IV aGvHD, cGvHD, hemorrhagic cystitis, and CMV reactivation compared to regimens without PTCy. Furthermore, these regimens are associated with improved OS, with no significant differences observed in Grade II-IV aGvHD, NRM, or EFS.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Post-transplant cyclophosphamide plus ATG** reduced grade II–IV acute and chronic GVHD but raised EBV reactivation substantially (by 24% overall, 42% in haploidentical transplants), without a survival difference.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There was an increase in the EBV reactivation risk in patients treated with PTCy plus ATG compared with other regimes. The estimated risks were 24% (95% CI: 10%-37%), 42% (95% CI: 23%-61%), and 18% (95% CI: 10%-26%), in the overall analysis (combining haploidentical and non-haploidentical subgroups), the haploidentical subgroup, and the -non-haploidentical subgroup, respectively … In patients undergoing allo-HCT with haploidentical, related or unrelated matched donors or unrelated mismatched donors, the regimen combining high-dose PTCy plus ATG is associated with reduced risks of Grade II-IV aGvHD, and cGvHD, as well an increased risk of EBV reactivation when compared with other regimens lacking this combination. Despite these differences, the two regimens show no significant difference in terms of Grade III-IV aGvHD, OS, EFS, NRM, GRFS, CMV reactivation and hemorrhagic cystitis.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Sirolimus with tacrolimus after myeloablative conditioning** gave no advantage over methotrexate with tacrolimus or ciclosporin for acute or chronic GVHD or mortality.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In patients undergoing myeloablative allo-HCT with related or unrelated matched donors, GvHD prophylaxis with sirolimus plus tacrolimus does not demonstrate greater benefit than tacrolimus plus methotrexate or cyclosporine plus methotrexate in terms of aGvHD, cGvHD, or mortality.",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Abatacept added to a calcineurin inhibitor and methotrexate** (unrelated matched or mismatched donors) lowered grade III–IV acute GVHD by 28% at three months and relapse by 12% at 24 months, with no effect on chronic GVHD or survival; the evidence is very low quality.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In randomized clinical trials, the use of this regimen was associated with a lower risk of Grade III-IV aGvHD (28% risk reduction) at three months of follow-up and a lower risk of relapse (12% risk reduction) at 24 months of follow-up, with no significant difference in the cGvHD risk and OS compared with a methotrexate plus CNI regimen … with no significant difference in the cGvHD risk and OS compared with a methotrexate plus CNI regimen [,]. Recommendations In patients undergoing non-myeloablative or myeloablative allo-HCT with matched and mismatched unrelated donors, bone marrow or peripheral blood, the abatacept plus CNI and methotrexate regimen produces lower risk of aGvHD III-IV and relapse, with no significant difference in the risk of cGvHD and OS, when compared to methotrexate combined with a CNI. Quality of evidence: very low",
+   "locator": "ABHH and SBTMO (Vigorito AC and others), Hematology, Transfusion and Cell Therapy 48(3):106494 (doi 10.1016/j.htct.2026.106494), 'Prophylaxis of graft-versus-host-disease: Systematic evidence-based recommendations of the Brazilian association of hematology, hemotherapy, and cell therapy (ABHH) and the Brazilian society of cellular therapy and bone marrow transplantation (SBTMO)', July-September 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13382006/, retrieved 2026-09-24"
   }
  ]
 }
