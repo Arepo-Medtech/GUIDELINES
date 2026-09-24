@@ -5,12 +5,14 @@
  "verifier": "claude-opus-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://amhonline.amh.net.au/chapters/blood-electrolytes/drugs-electrolyte-imbalance/drugs-potassium-imbalance/potassium-disturbances"
+  "https://amhonline.amh.net.au/chapters/blood-electrolytes/drugs-electrolyte-imbalance/drugs-potassium-imbalance/potassium-disturbances",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hyperkalaemia-in-adults_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hypokalaemia-in-adults_topic_2"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "ENTIRELY from ONE AMH page, read under subscription and PARAPHRASED. No passage reproduced, no source_text stored, so NOTHING here is machine re-checkable and every statement must be verified by a person against a current subscription. ⚠️ AMH states MANY INSTITUTIONS HAVE SPECIFIC PROTOCOLS FOR TREATING HYPERKALAEMIA AND HYPOKALAEMIA AND THAT ITS INFORMATION IS A GUIDE ONLY. That caveat is carried as the guideline's first line. ⚠️ NO mg OR mmol DOSE OF ANY TREATMENT DRUG APPEARS ON THE PAGE -- for calcium it says CHECK LOCAL PROTOCOLS TO GUIDE DOSAGE AND ADMINISTRATION. The serum-concentration THRESHOLDS are given and are recorded as dose claims because they set treatment decisions.",
+ "method": "ENTIRELY from ONE AMH page, read under subscription and PARAPHRASED. No passage reproduced, no source_text stored, so NOTHING here is machine re-checkable and every statement must be verified by a person against a current subscription. ⚠️ AMH states MANY INSTITUTIONS HAVE SPECIFIC PROTOCOLS FOR TREATING HYPERKALAEMIA AND HYPOKALAEMIA AND THAT ITS INFORMATION IS A GUIDE ONLY. That caveat is carried as the guideline's first line. ⚠️ NO mg OR mmol DOSE OF ANY TREATMENT DRUG APPEARS ON THE PAGE -- for calcium it says CHECK LOCAL PROTOCOLS TO GUIDE DOSAGE AND ADMINISTRATION. The serum-concentration THRESHOLDS are given and are recorded as dose claims because they set treatment decisions. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "summary": {
-  "total": 17,
+  "total": 23,
   "pass": 0,
   "fail": 0
  },
@@ -123,6 +125,54 @@
    "source": "M1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, 'Potassium disturbances' at https://amhonline.amh.net.au/chapters/blood-electrolytes/drugs-electrolyte-imbalance/drugs-potassium-imbalance/potassium-disturbances, July 2026 release ('Last modified by AMH: July 2026'), read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Oral potassium for mild-moderate hypokalaemia: potassium chloride modified-release 1200 mg (16 mmol) daily, usual range 600 to 3600 mg (8 to 48 mmol) daily in divided doses; or effervescent potassium 548 to 1096 mg (14 to 28 mmol) 2 or 3 times daily.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Hypokalaemia in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hypokalaemia-in-adults_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Oral potassium for hypokalaemia in adults'"
+  },
+  {
+   "claim": "Chronic hypokalaemia (eg diuretic-induced) where oral replacement is unsuitable: spironolactone 12.5 mg daily, titrating to up to 100 mg daily, reviewing every 1 to 2 weeks.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Hypokalaemia in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hypokalaemia-in-adults_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Potassium-sparing drugs for chronic hypokalaemia in adults'"
+  },
+  {
+   "claim": "Nonurgent hyperkalaemia with adequate volume: furosemide 20 to 40 mg orally or IV single dose to increase renal potassium loss.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Hyperkalaemia in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hyperkalaemia-in-adults_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Diuretic therapy for nonurgent lowering of potassium'"
+  },
+  {
+   "claim": "Chronic hyperkalaemia (especially with hypotension): fludrocortisone 100 micrograms orally daily.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Hyperkalaemia in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hyperkalaemia-in-adults_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of chronic hyperkalaemia in adults'"
+  },
+  {
+   "claim": "Sodium zirconium cyclosilicate 10 g orally 3 times daily for up to 3 days, then 5 or 10 g daily or every second day for maintenance.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Hyperkalaemia in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hyperkalaemia-in-adults_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of chronic hyperkalaemia in adults'"
+  },
+  {
+   "claim": "Recheck potassium within 1 hour of urgent treatment and at 2, 4, 6 and 24 hours; continuous cardiac monitoring for severe hyperkalaemia; dialysis for extreme or refractory cases.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Kidney and Urinary guideline: 'Hyperkalaemia in adults' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Hyperkalaemia-in-adults_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Urgent lowering of potassium in acute hyperkalaemia in adults'"
   }
  ]
 }

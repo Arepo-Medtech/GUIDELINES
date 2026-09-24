@@ -204,6 +204,31 @@ priapism** [A1]. **Regular medical review during the treatment course is necessa
 | ⚠️ **Glaucoma / dry eye** | ⚠️ **NAION risk factors resemble ED risk factors**, and the drug is contraindicated after NAION or with vision loss in one eye |
 | **Type 2 diabetes / hypertension** | ⚠️ **ED is a marker of unrecognised disease** and its severity tracks cardiovascular risk |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 2 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Erectile dysfunction (Sexual and Reproductive Health).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH states that if a nitrate is required after a PDE5 inhibitor has been taken, wait at least 24 hours with sildenafil, 12 hours with avanafil and 48 hours with tadalafil before giving the nitrate, that a longer period may be required if elimination is delayed, and to monitor response carefully `erectile-dysfunction#30` | Do not take short- or long-acting nitrates for at least 24 hours after sildenafil or vardenafil, or 5 days after tadalafil or avanafil (avanafil half-life up to 17 hours); PDE5 inhibitors are absolutely contraindicated with nitrates or amyl nitrite. [T1] | eTG intervals are much longer for tadalafil (5 days vs 48 h) and avanafil (5 days vs 12 h) - a safety-relevant difference. |
+| AMH states that in erectile dysfunction PDE5 inhibitor onset is about 30 minutes to 1 hour with avanafil possibly effective within 15 minutes, that avanafil and sildenafil are short-acting being effective for about 6 to 8 hours, and that tadalafil is long-acting for up to 36 hours `erectile-dysfunction#38` | Peak effect: avanafil 30-45 min, sildenafil 1 h, vardenafil 1 h, tadalafil 2 h. Duration: avanafil up to 6 h, sildenafil up to 12 h, vardenafil up to 10 h, tadalafil up to 36 h. Avanafil taken 15-30 min before activity. [T1] | eTG gives sildenafil duration up to 12 h (not 6-8 h) and tadalafil peak at 2 h. |
+
+### Additional therapies in eTG
+
+- PDE5 inhibitor dosing (max one dose per 24 h): sildenafil 50 mg 1 hour before (range 25-100 mg); avanafil 100 mg 15-30 min before (50-200 mg); tadalafil 10 mg at patient-determined time (5-20 mg); vardenafil 10 mg 30-60 min before (5-20 mg); fatty meals reduce sildenafil and vardenafil efficacy. [T1]
+- Daily tadalafil 2.5-5 mg once daily if use at least twice weekly is expected (5 mg if coexisting BPH symptoms); not if creatinine clearance under 30 mL/min. [T1]
+- Intracavernosal alprostadil: start 2.5 micrograms (idiopathic/neurogenic/psychogenic) or 5 micrograms (vascular/organic), increasing by the same step to a maximum of 60 micrograms; no more than once in 24 hours or 3 times a week; first dose supervised. [T1]
+- Assess cardiac risk of sexual exertion before treatment (low risk: no uncontrolled hypertension, no MI within 8 weeks, can climb two flights of stairs in 10 seconds); high-risk patients need cardiology assessment. [T1]
+- PDE5 renal/hepatic adjustments: e.g. avanafil avoid if GFR under 30; sildenafil start 25 mg if GFR under 30; tadalafil max 10 mg per 72 h if GFR under 30; vardenafil start 5 mg and avoid on dialysis. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Erectile dysfunction* (Sexual and Reproductive Health). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=erectile-dysfunction — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

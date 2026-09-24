@@ -19,10 +19,11 @@
   "https://amhonline.amh.net.au/chapters/dermatological-drugs/drugs-acne/retinoids-skin/clindamycin-tretinoin",
   "https://amhonline.amh.net.au/chapters/dermatological-drugs/drugs-acne/retinoids-skin/tretinoin-skin",
   "https://amhonline.amh.net.au/chapters/dermatological-drugs/drugs-acne/retinoids-skin/trifarotene",
-  "https://www1.racgp.org.au/ajgp/2023/october/unique-considerations-in-skin-of-colour"
+  "https://www1.racgp.org.au/ajgp/2023/october/unique-considerations-in-skin-of-colour",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "TWO SOURCES OF DIFFERENT KIND. A1 is the Australian Medicines Handbook therapeutic topic 'Acne' (July 2026 release), read under the subscription on this machine and PARAPHRASED. No AMH passage is reproduced and no source_text is stored, because storing it would redistribute licensed content; each A1 claim carries a locator naming the topic and retrieval date and has verdict licensed_source_not_quoted. Those claims CANNOT be machine re-checked from this repository and must be verified against a subscription. No citation has been attached to an A1 claim from any other work: a claim read in AMH and cited to a paper located afterwards would record a provenance that did not happen, and the verbatim check would pass while the attribution was false. S2 is open access, fetched with curl, and every S2 claim is verbatim-checked with scripts/verify.py. AMH drug monograph doses were deliberately not transcribed. DOSES IMPORTED 2026-09-22 on the operator's instruction: a dose is a fact, not expression, and a treatment guideline without doses is a summary. They are paraphrased from AMH drug monographs, carry no stored quote, and are flagged dose:true so they can be filtered into an attestation queue. Doses are the highest-consequence content in this corpus and the least verifiable from it -- each must be checked against AMH before use. Cyproterone and spironolactone were checked and carry NO acne dose line in AMH; nothing was reconstructed for them.",
+ "method": "TWO SOURCES OF DIFFERENT KIND. A1 is the Australian Medicines Handbook therapeutic topic 'Acne' (July 2026 release), read under the subscription on this machine and PARAPHRASED. No AMH passage is reproduced and no source_text is stored, because storing it would redistribute licensed content; each A1 claim carries a locator naming the topic and retrieval date and has verdict licensed_source_not_quoted. Those claims CANNOT be machine re-checked from this repository and must be verified against a subscription. No citation has been attached to an A1 claim from any other work: a claim read in AMH and cited to a paper located afterwards would record a provenance that did not happen, and the verbatim check would pass while the attribution was false. S2 is open access, fetched with curl, and every S2 claim is verbatim-checked with scripts/verify.py. AMH drug monograph doses were deliberately not transcribed. DOSES IMPORTED 2026-09-22 on the operator's instruction: a dose is a fact, not expression, and a treatment guideline without doses is a summary. They are paraphrased from AMH drug monographs, carry no stored quote, and are flagged dose:true so they can be filtered into an attestation queue. Doses are the highest-consequence content in this corpus and the least verifiable from it -- each must be checked against AMH before use. Cyproterone and spironolactone were checked and carry NO acne dose line in AMH; nothing was reconstructed for them. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Acne vulgaris arises from increased sebum production, abnormal follicular keratinisation, proliferation of Cutibacterium acnes and inflammation, and management is directed at these factors",
@@ -436,10 +437,58 @@
    "source": "A1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, drug monograph 'Isotretinoin' at https://amhonline.amh.net.au/chapters/dermatological-drugs/drugs-acne/retinoids-oral/isotretinoin, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Spironolactone 25 to 50 mg orally once daily, increasing gradually to 50 to 100 mg once daily, for moderate to severe acne in females when a COCP is unsuitable or insufficient; review after 6 months; contraindicated in pregnancy.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Acne' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology, accessed 2026-09-24 through the owner's subscription, section 'Antiandrogen treatments for moderate to severe acne'"
+  },
+  {
+   "claim": "COCP (antiandrogenic or less androgenic progestogen) as an alternative or addition to oral antibiotics in females with moderate to severe acne; trial for 6 months.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Acne' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology, accessed 2026-09-24 through the owner's subscription, section 'Combined oral contraceptive pill'"
+  },
+  {
+   "claim": "Erythromycin ethyl succinate 400 to 800 mg orally twice daily until inflammation resolves when tetracyclines are unsuitable.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Acne' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology, accessed 2026-09-24 through the owner's subscription, section 'Treatment of moderate to severe acne'"
+  },
+  {
+   "claim": "Benzoyl peroxide+adapalene 2.5%+0.3% gel once daily for 6 weeks if the 0.1% combination is tolerated but insufficient.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Acne' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology, accessed 2026-09-24 through the owner's subscription, section 'Treatment of mild acne'"
+  },
+  {
+   "claim": "Acne in pregnancy: benzoyl peroxide and topical clindamycin (including the combination); oral erythromycin for moderate to severe acne; avoid retinoids and spironolactone.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Acne' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology, accessed 2026-09-24 through the owner's subscription, section 'Treatment of acne in pregnancy'"
+  },
+  {
+   "claim": "Infantile acne: benzoyl peroxide 5% (or 2.5%) once daily spot treatment; adapalene 0.1% or tretinoin 0.025% cream nightly for numerous comedones; benzoyl peroxide+adapalene 2.5%+0.1% gel nightly for mixed lesions.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Acne' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology, accessed 2026-09-24 through the owner's subscription, section 'Infantile acne'"
   }
  ],
  "summary": {
-  "total": 67,
+  "total": 73,
   "pass": 9,
   "fail": 0
  }

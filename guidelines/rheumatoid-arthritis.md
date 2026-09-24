@@ -188,6 +188,29 @@ inflammatory arthritis at livingguidelines.org** [R1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **7 match · 1 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Rheumatoid arthritis (Rheumatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| INTRA-ARTICULAR corticosteroids can be used for symptomatic joints with synovitis AT ANY STAGE of the disease; PULSE, higher-dose, oral, IM or IV corticosteroids can bring the disease under control rapidly BUT THEIR USE IS CONTROVERSIAL `rheumatoid-arthritis#14` | Intra-articular injections help when few accessible joints are involved and reduce systemic steroid need. IM methylprednisolone acetate 80-120 mg single dose may act for up to 8 weeks and repeat doses are often unnecessary. [T1] | eTG presents single-dose IM corticosteroid as an accepted option with a specific dose rather than calling parenteral pulses controversial. |
+
+### Additional therapies in eTG
+
+- First-line methotrexate 10-25 mg once weekly orally or SC (switch to SC if oral doses above 15 mg ineffective or not tolerated) with folic acid 5-10 mg weekly; triple therapy (methotrexate + sulfasalazine + hydroxychloroquine) for active or poor-prognosis disease; expect response within 12 weeks; leflunomide substitutes if methotrexate unsuitable. [T1]
+- Severe symptoms awaiting specialist: prednisolone 5-15 mg orally daily, or methylprednisolone acetate 80-120 mg IM single dose. [T1]
+- Noninflammatory residual pain: an NSAID such as celecoxib 100-200 mg daily, etoricoxib 30-60 mg daily, ibuprofen 200-400 mg 3-4 times daily, meloxicam 7.5-15 mg daily or naproxen 250-500 mg twice daily until symptoms subside; avoid systemic steroids when no inflammation. [T1]
+- Do not routinely pause csDMARDs or bDMARDs for surgery; consider pausing tsDMARDs around major surgery; b/tsDMARD dose reduction only after at least 6 months of sustained remission, never abrupt cessation. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Rheumatoid arthritis* (Rheumatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Rheumatology&topicfile=gout&guidelinename=auto&sectionId=c_RHG_Rheumatoid-arthritis_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

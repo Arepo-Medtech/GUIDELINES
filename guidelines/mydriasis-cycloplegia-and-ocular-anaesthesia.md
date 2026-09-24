@@ -148,6 +148,16 @@ culture** [A1].
 | **Stroke and TIA / head injury** | ⚠️ **dilating the pupils may reduce ability to assess head injury**, and **a note must always be made that pupils were dilated intentionally** |
 | **Acute anaphylaxis / local anaesthetic toxicity** | the ocular anaesthetics are the same amide and ester classes used elsewhere |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 0 differ · 8 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Search results for 'dry eye' / 'tropicamide' / 'eye drops' (no eTG ophthalmology topic found; eye content limited to infections in Antibiotic) (Multiple).
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Search results for 'dry eye' / 'tropicamide' / 'eye drops' (no eTG ophthalmology topic found; eye content limited to infections in Antibiotic)* (Multiple). https://app.tg.org.au/searchAction/?appendedinputbuttons=dry%20eye — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

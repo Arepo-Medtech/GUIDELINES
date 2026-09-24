@@ -177,6 +177,21 @@ influenza** [M1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 0 differ · 15 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Management of traumatic wounds (Antibiotic); **T2** Search: live vaccines / vaccination topics (eTG defers schedules to the Australian Immunisation Handbook) (Multiple).
+
+### Additional therapies in eTG
+
+- Tetanus-prone wounds in people with humoral immune deficiency or HIV (any CD4 count): give tetanus immunoglobulin even if fully vaccinated. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Management of traumatic wounds* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Management-of-traumatic-wounds_topic_3 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Search: live vaccines / vaccination topics (eTG defers schedules to the Australian Immunisation Handbook)* (Multiple). https://app.tg.org.au/searchAction/?appendedinputbuttons=live%20vaccines%20corticosteroids — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

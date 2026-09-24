@@ -59,6 +59,23 @@
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 0 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Hypoglycaemia in patients with diabetes (Diabetes).
+
+### Additional therapies in eTG
+
+- Nonsevere hypoglycaemia in a conscious adult: glucose 15 g orally (about 20 g if glucose under 3 mmol/L), recheck after 10-15 minutes and repeat if still under 4 mmol/L; seek advice if 3 or more portions needed; then a longer-acting carbohydrate. Children: 5 g (5 years or younger/up to 25 kg) or 10 g (6 years+/over 25 kg). Patients on acarbose must use glucose, not sucrose. [T1]
+- Minidose glucagon for children with type 1 diabetes when oral glucose impractical: 20 micrograms SC/IM if 2 years or younger; 10 micrograms per year of age up to 150 micrograms for 3-15 years; double if no rise at 30 minutes; may repeat after 2-3 hours. [T1]
+- After severe hypoglycaemia in adults: check glucose every 1-2 hours for 4 hours; warn of recurrence risk within 24-48 hours; no driving until cleared by a diabetes specialist. [T1]
+- Nonsevere hypoglycaemia does not justify withholding insulin; never stop insulin in type 1 diabetes, but review dose. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Hypoglycaemia in patients with diabetes* (Diabetes). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Diabetes&topicfile=hypoglycaemia-in-patients-with-diabetes — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

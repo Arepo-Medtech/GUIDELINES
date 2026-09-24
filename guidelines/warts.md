@@ -164,6 +164,29 @@ assume otherwise.**
 | **Tinea and nail infections** | ⚠️ **plantar warts and plantar tinea share a site and a podiatry referral** |
 | **Immunisation** | **HPV vaccination reduces anogenital wart incidence** [A1] |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **3 match · 1 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Human papillomavirus (warts) (Dermatology); **T2** Genital warts (human papillomavirus infection) (Antibiotic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH gives the podophyllotoxin regimen for adults and children over 2 years as a 7-day treatment cycle applying the liquid twice a day for 3 days followed by no treatment for 4 days, with the cycle repeated as necessary for up to 4 or 5 cycles `warts#27` | Podophyllotoxin 0.5% paint topically twice daily for 3 days then 4 days off, repeated weekly for 4-6 cycles until warts resolve. [T2] | eTG allows up to 6 cycles (AMH 4 or 5); eTG does not state the over-2-years age limit. |
+
+### Additional therapies in eTG
+
+- Plane warts on the face: tretinoin 0.05% cream topically once daily for at least 3 months (avoid if pregnant or planning pregnancy). [T1]
+- Plantar warts may need higher-strength salicylic acid (eg 60% paste) and more aggressive treatment; refer persistent or numerous warts to a dermatologist. [T1]
+- Genital warts: cryotherapy for a few accessible lesions, repeated every 1-2 weeks, or as adjunct for refractory lesions; test for other STIs (HIV, syphilis, gonorrhoea, chlamydia); offer HPV vaccination to unvaccinated partners. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Human papillomavirus (warts)* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=human-papillomavirus-warts&guidelinename=Dermatology — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Genital warts (human papillomavirus infection)* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=genital-warts-human-papillomavirus&guidelinename=Antibiotic — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

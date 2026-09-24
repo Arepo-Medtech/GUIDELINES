@@ -219,6 +219,24 @@ INCLUDING OVER-THE-COUNTER, COMPLEMENTARY OR ALTERNATIVE MEDICINES."** **Cancer 
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **2 match · 0 differ · 20 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Hepatitis B (Hepatitis B and patients undergoing cancer chemotherapy or immunosuppression) (Liver Disorders); **T2** Nausea and vomiting in palliative care (Palliative Care); **T3** Prevention of infection in patients with immune compromise (Antibiotic).
+
+### Additional therapies in eTG
+
+- Hepatitis B antiviral prophylaxis for at-risk patients receiving chemotherapy uses treatment regimens: entecavir 0.5 mg orally daily or tenofovir disoproxil 300 mg (fumarate/maleate; phosphate 291 mg) orally daily, continued generally for at least 12 months after chemotherapy/immunosuppression stops; low-risk patients are monitored with 3-monthly liver biochemistry and treated if viral load rises. [T1]
+- Chemotherapy/radiotherapy-induced nausea in palliative care: ondansetron 4 to 8 mg orally 8- to 12-hourly for up to 5 days plus dexamethasone 4 mg orally daily (review within 2-3 days, stop if no benefit); anticipate constipation. [T2]
+- Prevent anticipatory nausea by giving adequate prophylactic antiemetics before the first dose of emetogenic treatment. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Hepatitis B (Hepatitis B and patients undergoing cancer chemotherapy or immunosuppression)* (Liver Disorders). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Liver%20Disorders&topicfile=hepatitis-b&guidelinename=Liver%20Disorders — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Nausea and vomiting in palliative care* (Palliative Care). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Palliative%20Care&topicfile=palliative-care-overview&guidelinename=auto&sectionId=c_PCG_Nausea-and-vomiting-in-palliative-care_topic_10 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Prevention of infection in patients with immune compromise* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Assessing-the-need-for-antimicrobial-prophylaxis-in-patients-with-immune-compromise_topic_19 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

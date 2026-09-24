@@ -243,6 +243,29 @@ hypertension — but secondary causes need to be considered** [S1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 1 differ · 10 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Urgent control of elevated blood pressure (Pregnancy and severely elevated blood pressure) (Cardiovascular); **T2** Hypertension and blood pressure reduction (Cardiovascular); **T3** Acute management of seizures and status epilepticus (Neurology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| For severe hypertension in pregnancy, systolic above 160 or diastolic above 110 mmHg, oral nifedipine as a CONVENTIONAL TABLET AVAILABLE THROUGH THE SAS, and parenteral labetalol and hydralazine, are used for urgent BP reduction following local protocols `hypertensive-disorders-of-pregnancy#50` | eTG: urgent treatment in pregnancy is recommended when systolic BP is 170 mmHg or higher (with or without diastolic 110 or higher), with specialist obstetric input; drugs commonly used are IV labetalol, hydralazine or diazoxide. [T1] | eTG's urgent-treatment threshold is systolic 170 (not 160) mmHg, and it lists IV diazoxide as well as labetalol and hydralazine; oral nifedipine is not mentioned for pregnancy. |
+
+### Additional therapies in eTG
+
+- Severely elevated BP in pregnancy (systolic 170 mmHg or more): urgent treatment with IV labetalol, hydralazine or diazoxide under specialist obstetric care; avoid sodium nitroprusside in pregnancy. [T1]
+- Methyldopa 125 mg orally twice daily, increasing as required to 500 mg 3 times daily, for elevated BP in pregnancy (clonidine 50 micrograms twice daily up to 300 micrograms twice daily as an alternative). [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Urgent control of elevated blood pressure (Pregnancy and severely elevated blood pressure)* (Cardiovascular). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Cardiovascular&topicfile=cardiovascular-disease-risk-stratification&guidelinename=auto&sectionId=c_CVG_Urgent-control-of-elevated-blood-pressuretopic_13 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Hypertension and blood pressure reduction* (Cardiovascular). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Cardiovascular&topicfile=cardiovascular-disease-risk-stratification&guidelinename=auto&sectionId=c_CVG_Hypertension-and-blood-pressure-reductiontopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Acute management of seizures and status epilepticus* (Neurology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Acute-management-of-seizures-and-status-epilepticus_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

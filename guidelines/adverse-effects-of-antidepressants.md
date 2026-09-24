@@ -247,6 +247,31 @@ its levels in breast milk are low. Drowsiness and irritability occasionally occu
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **8 match · 1 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Antidepressant adverse effects (Psychotropic); **T2** Stopping an antidepressant (Psychotropic); **T3** Switching antidepressants (Psychotropic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| The interval between STOPPING AN SSRI and starting moclobemide or a MAOI is 2 TO 4 DAYS -- EXCEPT FOR FLUOXETINE, WHERE IT IS AT LEAST 14 DAYS `adverse-effects-of-antidepressants#24` | Short-acting SSRI (citalopram, escitalopram, paroxetine, sertraline) to moclobemide: 2-4 days (moclobemide max 300 mg/day in week 1); to an irreversible MAOI: 1 week. Fluvoxamine to moclobemide or MAOI: 1 week. Fluoxetine to moclobemide: 1 week; fluoxetine to an irreversible MAOI: 5 weeks. [T3] | eTG requires 1 week (not 2-4 days) before an irreversible MAOI after a short-acting SSRI, and 5 weeks (not 14 days) after fluoxetine before an irreversible MAOI; fluoxetine to moclobemide is 1 week. |
+
+### Additional therapies in eTG
+
+- Baseline ECG before citalopram, escitalopram or a TCA, and before any antidepressant in patients with QT risk factors; avoid QT-prolonging antidepressants if QT is prolonged and monitor ECG/electrolytes. [T1]
+- Consider checking serum sodium 3-4 weeks after starting an antidepressant in patients at high risk of hyponatraemia (older, female, low weight, diuretics, etc). [T1]
+- Warn about transient increased suicidality in the first 7-10 days, especially in people up to age 30; plan and monitor closely. [T1]
+- When switching to duloxetine from another SNRI by cross-taper or rapid switch, start duloxetine at 30 mg daily and increase slowly; fluoxetine to a TCA needs 2 weeks and SSRIs can raise TCA levels for weeks. [T3]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Antidepressant adverse effects* (Psychotropic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=antidepressant-adverse-effects — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Stopping an antidepressant* (Psychotropic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=stopping-antidepressants — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Switching antidepressants* (Psychotropic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=switching-antidepressants — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |
