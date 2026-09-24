@@ -1,13 +1,13 @@
-# Hypercalcaemia in neonates and infants (non-malignant causes)
+# Hypercalcaemia in neonates and infants (non-malignant causes), with adult emergency management
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** recognising, investigating and treating non-malignant hypercalcaemia in neonates and young infants: high-PTH causes (neonatal severe hyperparathyroidism, familial hypocalciuric hypercalcaemia), low-PTH causes (nutritional, vitamin D excess, idiopathic infantile hypercalcaemia, Williams syndrome, subcutaneous fat necrosis) and acute and longer-term treatment. **Adults and older children are not covered.** Hypercalcaemia with cancer: see `hypercalcaemia-of-malignancy`. Low calcium in children: see `hypocalcaemia-children`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** recognising, investigating and treating non-malignant hypercalcaemia in neonates and young infants: high-PTH causes (neonatal severe hyperparathyroidism, familial hypocalciuric hypercalcaemia), low-PTH causes (nutritional, vitamin D excess, idiopathic infantile hypercalcaemia, Williams syndrome, subcutaneous fat necrosis) and acute and longer-term treatment. **Adults: first-line emergency assessment and treatment only (S2, a UK society guideline); older children are not covered.** Hypercalcaemia with cancer: see `hypercalcaemia-of-malignancy`. Low calcium in children: see `hypocalcaemia-children`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 24 claims quoted verbatim from **Gorvin CM, et al. Pediatric Nephrology 37(2), Springer; doi:10.1007/s00467-021-05082-z — *Genetic causes of neonatal and infantile hypercalcaemia (educational review)*** (published online 14 May 2021; origin: international); **27 fragments re-checked by machine; 0 doses.** Licence: *CC BY 4.0 ('This article is licensed under a Creative Commons Attribution 4.0 International License'); © The Author(s) 2021*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **39 fragments or anchors re-checkable by machine; 3 doses.** **S1** Gorvin CM (published online 14 May 2021; international): 24 claims, quoted · **S2** Walsh J (published 5 October 2016; international): 11 claims, paraphrased, hash-anchored
 
-> ⚠️ International educational review (Pediatric Nephrology, 2021), not a guideline. Australian practice follows the PBS listings below and may differ.
+> ⚠️ International sources: S1 is an educational review (Pediatric Nephrology, 2021), not a guideline; S2 is a UK society guideline (Society for Endocrinology, 2016). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **Neonates and infants only.** The PBS row 'Hypercalcaemia' is not age-limited, but no open source was found that covers non-malignant hypercalcaemia in adults and also supports the row's drugs.
+> ⚠️ **Two age groups, two sources.** Everything on neonates and infants rests on S1. The **Adults: emergency management** section rests on S2 and covers first-line assessment and treatment in adults of any cause, including malignancy (for cancer-specific care see `hypercalcaemia-of-malignancy`). Older children are covered by neither. The PBS row 'Hypercalcaemia' is not age-limited; S2 mentions calcitonin only as a specialist second-line option.
 
 ---
 
@@ -50,6 +50,20 @@
 - **Calcitonin has worked (alongside thiazides for hypercalciuria), but tachyphylaxis within 48 h limits it to short-term use.** [S1]
 - **Cellulose phosphate, which binds dietary calcium, has resolved IIH hypercalcaemia** but is unavailable in some countries. [S1]
 
+## Adults: emergency management (Society for Endocrinology)
+
+- **Grade by albumin-adjusted calcium:** below 3.0 mmol/L is often symptom-free and usually needs no urgent correction; 3.0–3.5 may be tolerated if it rose slowly but usually warrants prompt treatment; above 3.5 needs urgent correction because of the risk of arrhythmia and coma. [S2]
+- **Features to look for:** thirst and polyuria; anorexia, nausea and constipation; low mood, cognitive change, confusion or coma; renal impairment; a short QT and arrhythmias; kidney stones or nephrocalcinosis; pancreatitis; peptic ulcer; hypertension or cardiomyopathy; muscle weakness; band keratopathy. [S2]
+- **Causes:** primary hyperparathyroidism or cancer account for ninety percent. Rarer causes include thiazides, familial hypocalciuric hypercalcaemia, granulomatous disease, thyrotoxicosis, tertiary hyperparathyroidism, vitamin D or A excess, lithium, immobilisation, adrenal insufficiency, milk-alkali syndrome, rhabdomyolysis, theophylline toxicity and phaeochromocytoma. [S2]
+- **Assess:** how long symptoms have been present, clues to a cause (weight loss, night sweats, cough), family history and all medicines including supplements and over-the-counter products; examine cognition, fluid status and neck, chest, abdomen, breasts and lymph nodes; do an ECG for a short QT; send adjusted calcium, phosphate, PTH, urea and electrolytes. [S2]
+- **Read the PTH:** high calcium with high PTH means primary or tertiary hyperparathyroidism; with low PTH, think malignancy or a rarer cause. Familial hypocalciuric hypercalcaemia can look like primary hyperparathyroidism, but it is rarely severe or an emergency. [S2]
+- ⚠️ **Rehydrate first: IV 0.9% saline, 4–6 L over 24 h,** watching for fluid overload in the elderly or with renal impairment; severe renal failure may need dialysis. [S2]
+- **Loop diuretics are seldom used in adults** (S2): only if fluid overload develops, since they do not lower calcium effectively. [S2]
+- ⚠️ **If saline is not enough, give an IV bisphosphonate:** a 15-minute infusion of zoledronic acid 4 mg; ibandronic acid 2–4 mg; or pamidronate 30–90 mg, chosen by severity, infused at 20 mg/h. Infuse more slowly and consider a lower dose in renal impairment. Calcium bottoms out at 2–4 days; hypocalcaemia can follow if vitamin D is low or PTH is suppressed. [S2]
+- **Second line: glucocorticoids (they reduce 1,25-dihydroxyvitamin D production)** for lymphoma, other granulomatous disease or 25-hydroxyvitamin D poisoning: prednisolone 40 mg daily, usually working within 2–4 days. [S2]
+- **Calcimimetics, denosumab and calcitonin are specialist options** when the response to other measures is poor. [S2]
+- **Parathyroidectomy** can be considered when primary hyperparathyroidism presents acutely with severe hypercalcaemia that responds poorly to other treatment. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -66,16 +80,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **PBS drug support is partial.** The source supports calcitonin (short-term only) and a low-calcium diet; the PBS 'synthetic milk powder' item is presumably a low-calcium formula, but the source names no product. **Sodium acid phosphate** is supported only indirectly: the source mentions phosphate supplementation for hypophosphataemia in formula-fed infants, not as a treatment for hypercalcaemia itself. | `observation` |
-| 2 | **Doses** (calcitonin, bisphosphonates, furosemide, phosphate, corticosteroids) are not given in the source. | `input_unavailable` |
-| 3 | **Adult non-malignant hypercalcaemia** (primary hyperparathyroidism, granulomatous disease, vitamin D toxicity) and its acute management are not covered; the SfE adult emergency guidance (2016, CC BY-NC-ND) was checked but does not support the PBS row's drugs. | `out_of_scope` |
-| 4 | **Age-specific calcium reference ranges (Table 2) and the cause list (Table 1)** are in tables, which were stripped. | `input_unavailable` |
-| 5 | **Counterparts checked:** `hypercalcaemia-of-malignancy` (adults with cancer; it explicitly leaves this PBS row unlinked), `hypoparathyroidism` (low calcium in adults) and `hypocalcaemia-children`. No duplication. | `observation` |
+| 1 | **Licences:** S1 is CC BY 4.0 and quoted; S2 is CC BY-NC-ND 4.0, so it is paraphrased and hash-anchored. | `observation` |
+| 2 | **PBS drug support is partial.** The source supports calcitonin (short-term only) and a low-calcium diet; the PBS 'synthetic milk powder' item is presumably a low-calcium formula, but the source names no product. **Sodium acid phosphate** is supported only indirectly: the source mentions phosphate supplementation for hypophosphataemia in formula-fed infants, not as a treatment for hypercalcaemia itself. | `observation` |
+| 3 | **Infant doses** (calcitonin, bisphosphonates, furosemide, phosphate, corticosteroids) are not given in S1. S2 gives adult saline, bisphosphonate and prednisolone doses only; no calcitonin dose. | `input_unavailable` |
+| 4 | **Adults:** only the acute emergency phase is covered (S2). Long-term management of primary hyperparathyroidism, granulomatous disease and vitamin D toxicity in adults, and hypercalcaemia in older children, are not covered. S2 does not mention oral phosphate or low-calcium milk. | `out_of_scope` |
+| 5 | **Furosemide differs by age and source:** S1 reports rehydration with furosemide usually corrects vitamin D excess in infants and helps in Williams syndrome and fat necrosis; S2 says loop diuretics are rarely used in adults and do not effectively lower calcium. Both are shown. | `observation` |
+| 6 | **Bisphosphonates:** S1 reports their use in infants (NSHPT, vitamin D excess, Williams syndrome, fat necrosis) without doses; the adult doses in S2 do not apply to infants. | `observation` |
+| 7 | **Age-specific calcium reference ranges (Table 2) and the cause list (Table 1)** are in tables, which were stripped. | `input_unavailable` |
+| 8 | **Counterparts checked:** `hypercalcaemia-of-malignancy` (adults with cancer; it explicitly leaves this PBS row unlinked), `hypoparathyroidism` (low calcium in adults) and `hypocalcaemia-children`. No duplication. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Gorvin CM, et al. Pediatric Nephrology 37(2), Springer; doi:10.1007/s00467-021-05082-z. *Genetic causes of neonatal and infantile hypercalcaemia (educational review)*. published online 14 May 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8816529/ — retrieved 2026-09-23. | CC BY 4.0 ('This article is licensed under a Creative Commons Attribution 4.0 International License'); © The Author(s) 2021 | **quoted, re-checkable** |
+| **S2** | Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055). *Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients*. published 5 October 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 (© 2016 The authors) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

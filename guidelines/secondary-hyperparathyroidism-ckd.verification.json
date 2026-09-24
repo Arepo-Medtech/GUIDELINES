@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/secondary-hyperparathyroidism-ckd.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/",
+  "https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Update Work Group, Kidney International Supplements 'KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral and Bone Disorder (CKD-MBD)' (2017). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at PMC JATS XML <license> element for PMC6340919 (NCBI efetch; Europe PMC returned 503)). The source's words are NOT reproduced here. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). The recommendation statements appear both in the summary and in each chapter; spans take the first occurrence.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Update Work Group, Kidney International Supplements 'KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral and Bone Disorder (CKD-MBD)' (2017), 17 claims; LICENCE: CC BY-NC-ND 4.0 (read at PMC JATS XML <license> element for PMC6340919 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia) 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition' (2024 (PDF dated July 2024)), 6 claims; LICENCE: © Kidney Health Australia ('no part may be reproduced without written permission') (read at the handbook's imprint page). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). The recommendation statements appear both in the summary and in each chapter; spans take the first occurrence. Edition 2.0 adds S2, the Kidney Health Australia CKD handbook (5th edition, 2024), for the Australian primary-care position on mineral and bone disorder; its PDF was converted with pdftotext. No current KHA-CARI CKD-MBD guideline exists (the CARI bone guideline of 2006 is closed and superseded). All S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 17,
+  "total": 23,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
@@ -85,6 +86,70 @@
    "locator": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Update Work Group, Kidney International Supplements, 'KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral and Bone Disorder (CKD-MBD)', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **Australian primary care (S2):** calcium, phosphate, PTH and vitamin D metabolism usually start to change once GFR is 60 or below, and the changes are linked to fracture and cardiovascular death, possibly through vascular calcification. Managing CKD-MBD is complex and usually runs through a nephrologist.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fcd312cd6352f19",
+     "n": 135,
+     "p": "Changes "
+    },
+    {
+     "h": "429661598b1d62be",
+     "n": 149,
+     "p": "These ch"
+    },
+    {
+     "h": "b35c1a77976b968c",
+     "n": 103,
+     "p": "The mana"
+    }
+   ],
+   "locator": "Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia), 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition', 2024 (PDF dated July 2024), https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **When a GP tests (S2):** CKD-MBD usually does not need testing or treatment in stages 1–3. In the action plans for eGFR 30–59 with microalbuminuria (or 30–44 without) and for eGFR below 30, consider calcium and phosphate, and PTH every 6–12 months once eGFR is below 45.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5ed435b53b646a0",
+     "n": 77,
+     "p": "CKD-BMD "
+    },
+    {
+     "h": "4386c02e5b1bc1c1",
+     "n": 25810,
+     "p": "Orange c"
+    },
+    {
+     "h": "ac2a9b1b6b662dc7",
+     "n": 27908,
+     "p": "Red clin"
+    },
+    {
+     "h": "01c190d79e728d5e",
+     "n": 83,
+     "p": "Calcium "
+    }
+   ],
+   "locator": "Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia), 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition', 2024 (PDF dated July 2024), https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Bone density (S2):** in stages 3–5 with CKD-MBD or osteoporosis risk factors, BMD testing is suggested when the result would change treatment; low DXA BMD predicts fracture, and no one anti-resorptive is favoured.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05f059bfdc4ccebd",
+     "n": 53925,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia), 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition', 2024 (PDF dated July 2024), https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Base treatment on serial phosphate, calcium and PTH taken together.** Bring high phosphate down toward normal, and avoid hypercalcaemia in adults (keep calcium in the age-appropriate range in children). (2C)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -150,6 +215,24 @@
    "dose": true
   },
   {
+   "claim": "🇦🇺 **S2:** bring phosphate toward the normal range (a kidney dietitian can help cut dietary phosphate) and avoid hypercalcaemia; do not overload with calcium supplements, because CKD brings vascular calcification.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "81ef307593f47cdd",
+     "n": 142,
+     "p": "Aim for "
+    },
+    {
+     "h": "3c9d74300ea6bbc4",
+     "n": 112,
+     "p": "As CKD i"
+    }
+   ],
+   "locator": "Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia), 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition', 2024 (PDF dated July 2024), https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The ideal PTH before dialysis is unknown.** If intact PTH keeps rising or stays above the assay's upper limit, look for correctable causes such as raised serum phosphate, low calcium, a diet high in phosphate, or low vitamin D. (2C)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -210,6 +293,42 @@
     }
    ],
    "locator": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Update Work Group, Kidney International Supplements, 'KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral and Bone Disorder (CKD-MBD)', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Vitamin D (S2):** in early CKD, vitamin D can be checked and topped up if low; in more advanced CKD with hypocalcaemia, calcitriol is preferred because the kidney can no longer hydroxylate 25-hydroxyvitamin D. S2 also says the optimal PTH in CKD is not known.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e478fb19c9e2de07",
+     "n": 218,
+     "p": "In early"
+    },
+    {
+     "h": "dcad6161f76cb8af",
+     "n": 61,
+     "p": "The opti"
+    }
+   ],
+   "locator": "Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia), 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition', 2024 (PDF dated July 2024), https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️🇦🇺 **Denosumab and other CKD-MBD treatments in stages 3–5: talk to a nephrologist before starting** (S2). Serial calcium, phosphate and PTH guide treatment, and the risk of hypocalcaemia after denosumab climbs as CKD advances, so watch calcium closely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa3386b02d1db295",
+     "n": 54140,
+     "p": "In patie"
+    },
+    {
+     "h": "4fa1bd10aa90fc93",
+     "n": 125,
+     "p": "The risk"
+    }
+   ],
+   "locator": "Kidney Health Australia (RACGP Accepted Clinical Resource; endorsed by ANZSN, APNA and the Renal Society of Australasia), 'Chronic Kidney Disease (CKD) Management in Primary Care, 5th edition', 2024 (PDF dated July 2024), https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Target:** keep intact PTH at roughly 2 to 9 times the assay's upper normal limit (2C). A marked change in either direction within that range should prompt starting or adjusting treatment.",

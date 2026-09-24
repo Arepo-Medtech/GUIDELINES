@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/hypercalcaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8816529/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8816529/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Gorvin CM, et al. Pediatric Nephrology 37(2), Springer; doi:10.1007/s00467-021-05082-z 'Genetic causes of neonatal and infantile hypercalcaemia (educational review)' (published online 14 May 2021). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 ('This article is licensed under a Creative Commons Attribution 4.0 International License'); © The Author(s) 2021 (read at Europe PMC fullTextXML <license> element for PMC8816529). Chosen because it is the only open source found that supports the PBS row's items (calcitonin, a low-calcium diet, phosphate supplementation). The Society for Endocrinology adult emergency guidance (Endocr Connect 2016, PMC5314807, CC BY-NC-ND) was fetched but mentions calcitonin only in a table and neither oral phosphate nor low-calcium milk, so it was not used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Gorvin CM, et al. Pediatric Nephrology 37(2), Springer; doi:10.1007/s00467-021-05082-z 'Genetic causes of neonatal and infantile hypercalcaemia (educational review)' (published online 14 May 2021), 24 claims; LICENCE: CC BY 4.0 ('This article is licensed under a Creative Commons Attribution 4.0 International License'); © The Author(s) 2021 (read at Europe PMC fullTextXML <license> element for PMC8816529). S2: PARAPHRASED AND HASH-ANCHORED from Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055) 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients' (published 5 October 2016), 11 claims; LICENCE: CC BY-NC-ND 4.0 (© 2016 The authors) (read at PMC JATS XML <license> element for PMC5314807 (copy fetched in Wave 6, src/para/hypercalcaemia_sfe.xml)). Verify each source separately: verify.py --source <file> --only-source S<n>. S1 was chosen because it is the only open source found that supports the PBS row's items (calcitonin, a low-calcium diet, phosphate supplementation). Edition 2.0 adds S2, the Society for Endocrinology adult emergency guidance (Endocr Connect 2016, PMC5314807, CC BY-NC-ND), to cover adults; it was set aside in Wave 6 because it does not support those PBS items, but it is a society guideline for the same condition. Its box-format text survived extraction (0 tables stripped). S2 is paraphrased and hash-anchored; all S1 claims are unchanged.",
  "summary": {
-  "total": 24,
+  "total": 35,
   "pass": 24,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -183,6 +185,157 @@
    "verdict": "pass",
    "source_text": "The administration of cellulose phosphate, which binds calcium with high affinity thereby inhibiting intestinal absorption, has also been described to successfully resolve hypercalcaemia in IIH, although this treatment is not available in some countries",
    "locator": "Gorvin CM, et al. Pediatric Nephrology 37(2), Springer; doi:10.1007/s00467-021-05082-z, 'Genetic causes of neonatal and infantile hypercalcaemia (educational review)', published online 14 May 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8816529/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Grade by albumin-adjusted calcium:** below 3.0 mmol/L is often symptom-free and usually needs no urgent correction; 3.0–3.5 may be tolerated if it rose slowly but usually warrants prompt treatment; above 3.5 needs urgent correction because of the risk of arrhythmia and coma.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "21224367658c67a0",
+     "n": 89,
+     "p": "Serum ca"
+    },
+    {
+     "h": "7e9cd98fc70aeb13",
+     "n": 285,
+     "p": "<3.0 mmo"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Features to look for:** thirst and polyuria; anorexia, nausea and constipation; low mood, cognitive change, confusion or coma; renal impairment; a short QT and arrhythmias; kidney stones or nephrocalcinosis; pancreatitis; peptic ulcer; hypertension or cardiomyopathy; muscle weakness; band keratopathy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4aca079182320ff6",
+     "n": 332,
+     "p": "Clinical"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Causes:** primary hyperparathyroidism or cancer account for ninety percent. Rarer causes include thiazides, familial hypocalciuric hypercalcaemia, granulomatous disease, thyrotoxicosis, tertiary hyperparathyroidism, vitamin D or A excess, lithium, immobilisation, adrenal insufficiency, milk-alkali syndrome, rhabdomyolysis, theophylline toxicity and phaeochromocytoma.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c1f594fdc3cf073",
+     "n": 407,
+     "p": "Ninety p"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Assess:** how long symptoms have been present, clues to a cause (weight loss, night sweats, cough), family history and all medicines including supplements and over-the-counter products; examine cognition, fluid status and neck, chest, abdomen, breasts and lymph nodes; do an ECG for a short QT; send adjusted calcium, phosphate, PTH, urea and electrolytes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "482fa19218f97b6b",
+     "n": 473,
+     "p": "Symptoms"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Read the PTH:** high calcium with high PTH means primary or tertiary hyperparathyroidism; with low PTH, think malignancy or a rarer cause. Familial hypocalciuric hypercalcaemia can look like primary hyperparathyroidism, but it is rarely severe or an emergency.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d6093ee70b40af4",
+     "n": 390,
+     "p": "High cal"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Rehydrate first: IV 0.9% saline, 4–6 L over 24 h,** watching for fluid overload in the elderly or with renal impairment; severe renal failure may need dialysis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d22401efb1d1da40",
+     "n": 254,
+     "p": "Intraven"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Loop diuretics are seldom used in adults** (S2): only if fluid overload develops, since they do not lower calcium effectively.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df9e2bbd56950665",
+     "n": 104,
+     "p": "Loop diu"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **If saline is not enough, give an IV bisphosphonate:** a 15-minute infusion of zoledronic acid 4 mg; ibandronic acid 2–4 mg; or pamidronate 30–90 mg, chosen by severity, infused at 20 mg/h. Infuse more slowly and consider a lower dose in renal impairment. Calcium bottoms out at 2–4 days; hypocalcaemia can follow if vitamin D is low or PTH is suppressed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e155b9cdbf3e3bec",
+     "n": 420,
+     "p": "If furth"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Second line: glucocorticoids (they reduce 1,25-dihydroxyvitamin D production)** for lymphoma, other granulomatous disease or 25-hydroxyvitamin D poisoning: prednisolone 40 mg daily, usually working within 2–4 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54141d6055ebb42c",
+     "n": 160,
+     "p": "Glucocor"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Calcimimetics, denosumab and calcitonin are specialist options** when the response to other measures is poor.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "edd30b5911f9e6ea",
+     "n": 118,
+     "p": "Calcimim"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Parathyroidectomy** can be considered when primary hyperparathyroidism presents acutely with severe hypercalcaemia that responds poorly to other treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6930fa4825ef9ead",
+     "n": 131,
+     "p": "Can be c"
+    }
+   ],
+   "locator": "Walsh J, Gittoes N, Selby P, for the Society for Endocrinology Clinical Committee, Endocrine Connections 5(5):G9 (doi 10.1530/EC-16-0055), 'Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypercalcaemia in adult patients', published 5 October 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5314807/, retrieved 2026-09-24"
   }
  ]
 }

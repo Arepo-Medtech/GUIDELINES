@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/isovaleric-acidaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.3390/ijns11040092"
+  "https://doi.org/10.3390/ijns11040092",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Thimm E, Riederer A, Vockley J, Dobbelaere D, Williams M, MacDonald A, Dokoupil K, Schatz UA, Ensenauer R, International Journal of Neonatal Screening (MDPI, for the International Society for Neonatal Screening) 11(4):92 'Practical Considerations for the Diagnosis and Management of Isovaleryl-CoA-Dehydrogenase Deficiency (Isovaleric Acidemia): Systematic Search and Review and Expert Opinions' (published 10 October 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12551068). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Thimm E, Riederer A, Vockley J, Dobbelaere D, Williams M, MacDonald A, Dokoupil K, Schatz UA, Ensenauer R, International Journal of Neonatal Screening (MDPI, for the International Society for Neonatal Screening) 11(4):92 'Practical Considerations for the Diagnosis and Management of Isovaleryl-CoA-Dehydrogenase Deficiency (Isovaleric Acidemia): Systematic Search and Review and Expert Opinions' (published 10 October 2025), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12551068). S2: QUOTED from Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090) 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis' (published 25 September 2025), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12464466). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 systematic review and meta-analysis of newborn-screening outcomes in classic IVA. It is a stronger review, not a guideline: no society guideline for IVA exists, the MMA/PA guideline family does not cover IVA, and the GeneReviews chapter 'Classic Isovaleric Acidemia' (2024, NBK601614) was behind a reCAPTCHA challenge and was not read. All S1 claims are unchanged.",
  "summary": {
-  "total": 18,
-  "pass": 18,
+  "total": 24,
+  "pass": 24,
   "fail": 0
  },
  "claims": [
@@ -36,6 +37,48 @@
    "verdict": "pass",
    "source_text": "As a preventive measure, NBS reduces neonatal mortality in patients with classic IVA. At present, it is doubtful that identification of metabolically mild forms by NBS is of any clinical relevance.",
    "locator": "Thimm E, Riederer A, Vockley J, Dobbelaere D, Williams M, MacDonald A, Dokoupil K, Schatz UA, Ensenauer R, International Journal of Neonatal Screening (MDPI, for the International Society for Neonatal Screening) 11(4):92, 'Practical Considerations for the Diagnosis and Management of Isovaleryl-CoA-Dehydrogenase Deficiency (Isovaleric Acidemia): Systematic Search and Review and Expert Opinions', published 10 October 2025, https://doi.org/10.3390/ijns11040092, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Evidence base:** 20 publications from 23 countries covering 240 people with classic IVA, 60 identified by newborn screening and 180 diagnosed after symptoms.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Ultimately, 20 publications from 23 countries [, ], reporting on individuals with cIVA identified either by NBS (cIVA‐NBS, N = 60; 9 publications [, ]) or following the onset of symptoms (cIVA‐Sympt; N = 180; 17 publications [, ]), were included in the quantitative synthesis (Figure 1; Table S2), overall, 240 patients with cIVA.",
+   "locator": "Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090), 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis', published 25 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Screening lowers mortality:** adjusted mortality 1.1% in the screened group versus 10.9% in those diagnosed after symptoms.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "an adjusted mortality rate of 1.1% (95% CI 0-0.06) was calculated for the cIVA‐NBS group, highlighting a lower mortality rate compared to the cIVA‐Sympt group (10.9%; 95% CI 0.03-0.19;",
+   "locator": "Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090), 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis', published 25 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Screening improves development:** neurological disease 13.0% versus 44.9%, developmental delay 6.1% versus 51.2%; IQ scores showed no measurable difference (90.7 versus 87.4).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "individuals of the cIVA‐NBS group exhibited in a lower frequency of neurological disease manifestation (13.0%; 95% CI 0-0.27) compared to the cIVA‐Sympt group (44.9%; … individuals of the cIVA‐NBS group presented less often with developmental delay (cIVA‐NBS: 6.1%; 95% CI 0-0.19; cIVA‐Sympt: 51.2%; … but the IQ scores did not show a measurable difference between the diagnostic modes (cIVA‐NBS: 90.7; 95% CI 78.2-103.2; cIVA‐Sympt: 87.4,",
+   "locator": "Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090), 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis', published 25 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Screening does not reliably prevent neonatal crises:** 62% of screened infants with classic IVA had at least one decompensation, 70% of them in the newborn period, and in 40%–46% the crisis came within hours to a few days of birth, before results were available. Do not wait for the screen in a sick neonate.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Overall, 62% (N = 37) of the cIVA‐NBS group presented with at least one metabolic decompensation at a weighted mean age of 150 days (range 8-175 days) (EO group: weighted mean age of 5 days; LO group: weighted mean age of 731 days) or disease‐specific symptoms, the majority of them (70%; N = 26) already neonatally. … In a relevant number of individuals with cIVA (40%-46% [, ]), acute metabolic decompensations occurred within hours to a few days after birth and, therefore, already before NBS results were available",
+   "locator": "Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090), 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis', published 25 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fast reporting matters:** timely NBS reporting is a major prerequisite to prevent severe neonatal decompensation, and the severity of the first crisis remains a determinant of long-term cognition. The authors doubt rapid exome or genome sequencing can beat NBS for speed.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "it seems unlikely that exome and genome sequencing programs can provide faster results and protect affected individuals with cIVA better than NBS against irreversible harm. Regardless of the applied technologies, all efforts should be taken to optimize NBS processes and diagnostic work‐up as occurrence of EO decompensation was shown to have major impact on cognitive outcome in cIVA [], while timely NBS reporting is a major prerequisite to prevent severe neonatal decompensations and harm in affected individuals with IVA … the severity of initial metabolic crises remains a determinant of long‐term cognitive function.",
+   "locator": "Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090), 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis', published 25 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Attenuated IVA** (found only by screening) was defined as c.932C>T homozygosity or compound heterozygosity, C5 below 6 μmol/L in the first NBS sample, and no neonatal decompensation; screening raised the estimated birth prevalence from 1 in 280 000 to about 1 in 100 000.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Screened individuals with IVA were classified as aIVA if at least one of the following criteria was met, as previously described []: homozygosity or compound heterozygosity for the IVD gene variant c.932C>T (transcript NM_002225.5), C5 < 6 μmol/L in the first NBS sample and absence of neonatal metabolic decompensation. … the estimated birth prevalence for IVA increased from 1 in 280 000 in pre‐NBS cohorts to about 1 in 100 000 newborns in NBS cohorts",
+   "locator": "Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090), 'Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis', published 25 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/, retrieved 2026-09-24"
   },
   {
    "claim": "**If an organic acidaemia is suspected, measure blood gases, lactate, ammonia and ketones,** plus urine organic acids and a blood acylcarnitine profile.",
