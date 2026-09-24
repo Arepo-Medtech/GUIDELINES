@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/cystic-fibrosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.cysticfibrosis.org.au/wp-content/uploads/2026/07/CFA_Standard-of-Care_Design_Refresh_2026.07.28.pdf"
+  "https://www.cysticfibrosis.org.au/wp-content/uploads/2026/07/CFA_Standard-of-Care_Design_Refresh_2026.07.28.pdf",
+  "https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Cystic Fibrosis Australia (endorsed by TSANZ) 'Standards of Care for Cystic Fibrosis, Australia 2023 (2026 design refresh)' (2023 content; PDF refreshed 28 July 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2023 Cystic Fibrosis Australia (page footer 'Standard of Care for Cystic Fibrosis © 2023'; no reuse terms stated) (read at footer of every page of the PDF). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Cystic Fibrosis Australia (endorsed by TSANZ) 'Standards of Care for Cystic Fibrosis, Australia 2023 (2026 design refresh)' (2023 content; PDF refreshed 28 July 2026), 24 claims; LICENCE: © 2023 Cystic Fibrosis Australia (page footer 'Standard of Care for Cystic Fibrosis © 2023'; no reuse terms stated) (read at footer of every page of the PDF). S2: QUOTED from Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002) 'Standards for the care of people with cystic fibrosis; establishing and maintaining health' (published online 21 December 2023 (2024 issue)), 11 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license', article first page) (read at first page of the PDF; Unpaywall lists the publisher version and the UCL repository copy as cc-by). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ECFS 2024 standard on establishing and maintaining health (CC BY, quoted), for CFTR modulator dosing, dose adjustment, adverse-effect monitoring and stopping inhaled therapies, which S1 does not cover. It was read from the UCL repository copy (the Europe PMC record has no full text). The companion ECFS 2023 standard on variant-specific therapy and the 2024 standard on CF health issues were not added. The S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 24,
-  "pass": 0,
+  "total": 35,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -236,6 +237,58 @@
    "locator": "Cystic Fibrosis Australia (endorsed by TSANZ), 'Standards of Care for Cystic Fibrosis, Australia 2023 (2026 design refresh)', 2023 content; PDF refreshed 28 July 2026, https://www.cysticfibrosis.org.au/wp-content/uploads/2026/07/CFA_Standard-of-Care_Design_Refresh_2026.07.28.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Offer a modulator to everyone with an eligible CFTR variant.** Evidence is strong for ivacaftor (variants carried by under 5% of people with CF) and for elexacaftor/tezacaftor/ivacaftor (ETI, which needs only one F508del copy); dual therapy is less effective and is an individual decision. Check an independent list of eligible variants regularly; n-of-1 trials suit rare uncharacterised variants.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "People with CF with eligible CFTR gene variants should be offered CFTR modulator therapy. … The first CFTR modulator, ivacaftor, is licensed for a limited range of responsive CFTR gene variants, which are carried by <5 % of people … The triple combination therapy ETI has better efficacy than dual modulator therapies and has been licensed for people with just one F508del variant, increasing the pool of eligible people with CF. … There is strong evidence to support the use of ivacaftor or ETI for people with CF who have eligible CFTR variants. The evidence for dual therapy is less robust [179] and this treatment should be considered on an individual basis. … Independent lists of eligible variants are available and should be checked regularly for updates [3,180]. For people with rare uncharacterised CFTR variants, n-of-1 trials are appropriate to assess efficacy",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **ETI standard dose:** two elexacaftor/tezacaftor/ivacaftor tablets in the morning and one ivacaftor tablet in the evening, with three age- and weight-based strengths.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Currently three different age and weight based dosage formulations are available for modulator treatment [184]. All are based on the following Standard Dose Regimen: 2 tablets each of elexacaftor, tezacaftor and ivacaftor in the morning and one tablet of ivacaftor in the evening.",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Expected side effects** are mostly transient (more airway secretions, abdominal pain, runny nose in young children, sinusitis, testicular pain). Idiosyncratic ones include rash, headache, acne, mastitis, raised liver enzymes (up to 25% on ETI), muscle pain, raised creatine kinase and raised blood pressure. Neuropsychiatric effects occur with every modulator; the EU regulator judged a causal link between ETI and depression at least reasonably possible.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Side effects related to the physiological changes associated with the therapy include increased airway secretions, abdominal pain, rhinorrhoea (especially in younger children), sinusitis, and testicular pain [3]. Adverse reactions relating to the mechanism of action are generally transient and resolve in days or weeks. Idiosyncratic side effects include skin rash, headache, drug-induced acne [181], mastitis, transaminitis (raised liver enzymes), muscle pain, creatinine kinase elevation and raised blood pressure. … Elevated liver transaminases have been reported in up 25 % of people with CF taking ETI and the summary of product characteristics recommends routine monitoring, with more frequent evaluation if there is evidence of liver disease … Neuropsychiatric side effects have been reported for all available CFTR modulator therapies … The Pharmacovigilance Risk Assessment Committee (PRAC) for the European Commission recently determined that there is at least a reasonable possibility of a causal relationship between ETI and depression",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Monitor on modulators:** eye examination and liver enzymes, and blood pressure at every clinic visit; screen for depression and anxiety before starting and within 3 months after. Raised intracranial pressure has been reported in young children on ETI (papilloedema, sixth nerve palsy), sometimes with excess vitamin A: vitamin levels can rise above normal and supplements may need cutting.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "surveillance is required based on the above events, including eye examination, measurement of liver transaminases [194] and blood pressure. Mental health should be monitored in accordance with CFF/ECFS guidelines, including screening for depression and anxiety before and no later than 3 months after initiating VST … Blood pressure should also be recorded at each clinic visit for people on CFTR modulator therapy … reports of five cases of raised intracranial pressure in younger children on ETI [195,196]. In three children, this was identified from papilloedema seen on routine eye examination, and in two children because of sixth nerve palsy. … associated with hypervitaminosis A. Dose interruption was needed for some people, whereas in others symptoms resolved with reduction of vitamin supplementation … vitamin levels (especially vitamin A) can sometimes rise above the normal reference range, requiring adjustment of supplementation",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **ETI dose adjustment for liver enzymes (ECFS table; some countries are stricter):** over 3 times the upper limit, continue and repeat LFTs monthly; over 5 times, reduce the dose and repeat LFTs in 2 weeks; over 8 times, stop, then reintroduce at a reduced dose titrated to response (± sweat chloride). The reduced dose is one ETI tablet in the morning plus one ivacaftor tablet in the evening, or one ETI tablet in the morning three times a week.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Note: some countries may apply stricter criteria for discontinuation, especially with transaminitis. Event Severity Dose adjustment Re-introduction Other actions Rash Mild Continue standard dose1 [197] N/A Treat with antihistamines, topical steroids Severe Stop Once symptoms resolve, restart at full dose, or start desensitisation process [198-200] Treat with antihistamines, topical steroids Transaminitis >3 X ULN Continue standard dose N/A Repeat LFTs monthly >5 X ULN Dose reduction2 [211] Re-introduce at reduced dose. Titrate dose with clinical response ± sweat chloride Repeat LFTs after 2 weeks … >8 X ULN Stop [211] Re-introduce at reduced dose. … Dose reduction to: 1 tablet each of elexacaftor, tezacaftor and ivacaftor in the morning and one tablet of ivacaftor in the evening, OR 1 tablet each of elexacaftor, tezacaftor and ivacaftor in the morning 3 times a week.",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Other adverse reactions:** mild rash, continue and treat with antihistamines or topical steroids; severe rash, stop, then restart at full dose or desensitise. Insomnia or daytime fatigue, try swapping morning and evening doses. Moderate mood or anxiety symptoms, reduce the dose and raise it again 12 weeks after they resolve; severe, stop, then consider a reduced dose or a different modulator.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Rash Mild Continue standard dose1 [197] N/A Treat with antihistamines, topical steroids … Severe Stop Once symptoms resolve, restart at full dose, or start desensitisation process … Insomnia / daytime fatigue Standard dose Consider switching am/pm dosing times … symptoms Moderate Dose reduction3 12 weeks after4 symptoms resolve, increase dose … Severe Stop Once symptoms resolve, consider re- introduction with a reduced dose3 or alternate drug5",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Pregnancy on ETI:** pregnancies have tripled. Stopping has been linked to deterioration; decide with the obstetrician, weighing mother and baby. Exposure in the womb may lower the newborn's immunoreactive trypsinogen and give a false-negative newborn screen.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The number of pregnancies has tripled for women with CF estab­ lished on ETI therapy [8]. Interrupting CFTR modulator therapy during or before pregnancy is an option but has been associated with clinical deterioration in pregnant and non-pregnant women [3]. Real world safety data are emerging [208] and clearly many women with CF are choosing to continue ETI throughout pregnancy [209], however some may choose to interrupt medication throughout pregnancy. In certain jurisdictions access to CFTR modulator therapy is denied for pregnant women with CF. The decision to continue or stop CFTR modulator therapy during pregnancy and breastfeeding should be made considering the risks for the mother and the baby … Pregnancy Standard dose [3] or stop VST to 2nd trimester Review with obstetrician CF clinic6 … In utero VST exposure may reduce neonatal serum immunoreactive trypsinogen and result in a false negative newborn screening result.",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Involve a physiotherapist from diagnosis** to teach airway clearance suited to age and development, nebulised medicines and sputum collection, and to build self-management as the child grows.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -357,6 +410,27 @@
    "locator": "Cystic Fibrosis Australia (endorsed by TSANZ), 'Standards of Care for Cystic Fibrosis, Australia 2023 (2026 design refresh)', 2023 content; PDF refreshed 28 July 2026, https://www.cysticfibrosis.org.au/wp-content/uploads/2026/07/CFA_Standard-of-Care_Design_Refresh_2026.07.28.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Stopping long-term treatments on ETI is a shared decision,** documented and reviewed at least yearly. In SIMPLIFY, people on ETI who stopped inhaled mucoactive therapy (hypertonic saline or dornase alfa) kept their lung function, but they mostly had mild disease and follow-up was only 6 weeks. There is no evidence for children under 12 years or for ppFEV1 below 60%.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Decision making for starting and stopping chronic medicines should be shared between the person with CF/their caregivers and a clinician with expertise in CF (Statement 24), with rationale documented and reviewed at least annually. … In SIMPLIFY, people with CF on ETI who discontinued inhaled mucoactive therapies did not have a drop in lung function. However, the study participants had predominantly mild to normal lung function and the 6-week study period was short … There is no evidence to support or refute stopping medicines in young children (<12 years) on CFTR modulators, and at present there is inconclusive evidence to guide decision making in individuals with moderate to severe CF lung disease (ppFEV1<60 %).",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Keep up airway clearance on modulators:** many people stop producing sputum, but the long-term effect on infection and exacerbations is unknown. Active techniques such as positive expiratory pressure (PEP) cut exacerbations compared with chest-wall oscillation vests.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "more active techniques such as Positive Expiratory Pressure (PEP) reduce the frequency of pulmonary exacerbations (PEx) compared to more passive techniques such as high frequency chest wall oscillation … with many becoming unproductive. The longer-term effects of VST on chronic airway infection and PEx are relatively unknown, and people with CF should remain engaged with ACT approaches",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check regularly for chronic rhinosinusitis** (SNOT-20/22). Use isotonic saline irrigation (0.9%) and consider topical steroids; sinus-nebulised tobramycin or colistin may reduce *Pseudomonas*, and nasal dornase alfa may ease symptoms. Sinus surgery helps non-responders, though nasal polyps recur in about 80% after polypectomy.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The validated SNOT-20/22 score is a generic tool to recognise CRS and upper airway disease, guide severity, prompt referral to otolaryn­ gology, and assess treatment response … There is evidence to support nasal irrigation (douche) and topical steroids to relieve symptoms [88,95]. Isotonic irrigation solutions are preferred, with evidence of effectiveness for 0.9 % sodium chloride … Tobramycin or colistin delivered topically to the sinuses may reduce Pseudomonas aeruginosa infection [100,101]. Nasal nebulisation of dornase alfa may reduce CRS symptoms and improve quality of life … Surgical intervention such as functional endoscopic sinus surgery (FESS) can be effective for people with CF not responding to medical management of CRS. Nasal polyps recur in approximately 80 % of people following polypectomy",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Dietitian review at every visit** follows the Australian CF nutrition guidelines: growth on charts (head circumference up to age 2), diet, glucose control, salt, pancreatic enzyme dosing and micronutrients.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -373,6 +447,13 @@
     }
    ],
    "locator": "Cystic Fibrosis Australia (endorsed by TSANZ), 'Standards of Care for Cystic Fibrosis, Australia 2023 (2026 design refresh)', 2023 content; PDF refreshed 28 July 2026, https://www.cysticfibrosis.org.au/wp-content/uploads/2026/07/CFA_Standard-of-Care_Design_Refresh_2026.07.28.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Pancreatic enzymes:** over 80% of people with CF need them. Faecal elastase-1 of 100 µg/g or less indicates pancreatic insufficiency; 100–200 µg/g makes it likely and justifies a trial. Take enzymes with all food containing fat, protein or complex carbohydrate; switching formulations can upset the gut until the dose is adjusted.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Over 80 % of people with CF have exocrine pancreatic insufficiency and require PERT [38]. CF pancreatic disease obstructs exocrine enzyme delivery and causes a reduced bicarbonate secretion with prolonged acidity in the proximal duodenum [14]. Clinical features indicating pancreatic insufficiency include poor weight gain and loose frequent stools despite a good appetite (Statement 5). Low faecal elastase-1 (FE-1) levels in stool indicate pancreatic insufficiency (≤100 µg/g stool) and supports the use of PERT [39]. For people with CF with an intermediate FE-1 measurement (100-200 µg/g stool), a diagnosis of pancreatic insufficiency is likely, and a trial of PERT is appropriate if … PERT should be taken with all food containing fats, proteins, and complex carbohydrates. … switching between PERT formulations may initially lead to gastrointestinal prob­ lems that can be overcome by adjustment of dosing.",
+   "locator": "Southern KW, Addy C, Bell SC, et al., European Cystic Fibrosis Society (ECFS) Standards of Care, Journal of Cystic Fibrosis 23(1):12-28 (doi 10.1016/j.jcf.2023.12.002), 'Standards for the care of people with cystic fibrosis; establishing and maintaining health', published online 21 December 2023 (2024 issue), https://discovery.ucl.ac.uk/10184881/1/1-s2.0-S1569199323017277-main.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Modulators bring a new risk of excess weight gain and obesity** in children; advice has shifted toward healthy, nutrient-dense eating tailored to the child.",

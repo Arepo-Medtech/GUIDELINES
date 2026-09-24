@@ -1,21 +1,72 @@
 {
  "guideline": "guidelines/idiopathic-pulmonary-fibrosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision' (published online 11 January 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10952210). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision' (published online 11 January 2024), 23 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10952210). S2: PARAPHRASED AND HASH-ANCHORED from Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST) 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline' (published 1 May 2022), 9 claims; LICENCE: CC BY-NC-ND 4.0; Copyright © 2022 by the American Thoracic Society ('You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.') (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC9851481). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS/ERS/JRS/ALAT 2022 guideline, paraphrased because it is CC BY-NC-ND, mainly for diagnosis (outside S1's scope) and the international management pathway. It is the most recent open international IPF/PPF guideline found (the German S2k 2024 and Korean 2026 guidelines are paywalled); it predates nerandomilast, as does S1. The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 23,
+  "total": 32,
   "pass": 23,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
+  {
+   "claim": "**Suspect IPF** when there is unexplained bilateral fibrosis on chest X-ray or CT with bibasilar inspiratory crackles in someone over 60 years; people aged 40 to 60 occasionally present the same way, especially with features of familial pulmonary fibrosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e246ce76b80a66e",
+     "n": 384,
+     "p": "\"Clinica"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A probable UIP pattern on HRCT is now handled like a definite UIP pattern:** in the right clinical setting (for example a 60-year-old male smoker), multidisciplinary discussion can diagnose IPF without a lung biopsy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad9fc38106c3a98a",
+     "n": 221,
+     "p": "The prim"
+    },
+    {
+     "h": "432b9dab14044a45",
+     "n": 260,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**When tissue is needed, transbronchial lung cryobiopsy is an acceptable alternative to surgical lung biopsy in centres experienced with it** (conditional recommendation, very low-quality evidence). The panel could not agree for or against genomic classifier testing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1b2c6d6ec9df7ff8",
+     "n": 276,
+     "p": "We sugge"
+    },
+    {
+     "h": "dd34373c1fdd6969",
+     "n": 272,
+     "p": "We make "
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
   {
    "claim": "**Nintedanib and pirfenidone both slow lung-function decline in IPF**, roughly halving the rate of FVC decline, and are licensed in Australia for mild to moderate disease. Efficacy looks similar for the two.",
    "source": "S1",
@@ -64,6 +115,32 @@
    "verdict": "pass",
    "source_text": "Combination anti‐fibrotic therapy is not currently recommended outside of clinical trials, nor is it subsidized in Australia or New Zealand.",
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Management pathway (S2):** consider antifibrotics (nintedanib, pirfenidone) together with oxygen and pulmonary rehabilitation; look for and treat pulmonary hypertension, reflux, obstructive sleep apnoea and lung cancer; involve palliative care for cough, breathlessness or anxiety; refer those at higher risk of death for transplant at diagnosis; and review for progression every 3–6 months or sooner.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d9f862fd53b0f933",
+     "n": 707,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Acute exacerbation and respiratory failure (S2):** exacerbations may be treated with corticosteroids, and mechanical ventilation is not recommended for most patients with respiratory failure from IPF.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ee382ec42563e83",
+     "n": 153,
+     "p": "Acute ex"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
   },
   {
    "claim": "**Pirfenidone:** nausea (37.6%), diarrhoea (28.1%), dyspepsia, vomiting and photosensitive rash (25%) are the common effects. Counsel every patient on avoiding direct sun: broad-brimmed hat, long sleeves and 50+ sunscreen.",
@@ -129,6 +206,75 @@
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Measure decline as absolute, not relative, change** (S2): from an FVC of 60% predicted, progression is reached at 55%, not 57%; DLCO needs an absolute fall of 10% or more. Exclude other explanations first, particularly for worsening symptoms or DLCO. PPF is a disease behaviour, not a diagnosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7dcca626009746b4",
+     "n": 381,
+     "p": "It is im"
+    },
+    {
+     "h": "ba15916168310512",
+     "n": 310,
+     "p": "The comm"
+    },
+    {
+     "h": "fa9e3fd1880ad00d",
+     "n": 314,
+     "p": "Although"
+    },
+    {
+     "h": "74b0e33c318e32f0",
+     "n": 98,
+     "p": "Second, "
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2's treatment recommendations for PPF:** nintedanib is suggested once standard management of the underlying fibrotic ILD has failed (conditional, low-quality evidence); for pirfenidone it made only a research recommendation, because about a third of the panel abstained.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "549e5e409d40fc27",
+     "n": 179,
+     "p": "We sugge"
+    },
+    {
+     "h": "667a0062b65be5d6",
+     "n": 193,
+     "p": "We recom"
+    },
+    {
+     "h": "538331fe817396ff",
+     "n": 195,
+     "p": "Approxim"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Repeat HRCT when fibrosis seems to be worsening;** the best interval is unknown. A yearly HRCT can be considered to screen for complications, especially lung cancer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07ad343af57c97a3",
+     "n": 168,
+     "p": "Follow-u"
+    },
+    {
+     "h": "5d76dd6fd49d135a",
+     "n": 89,
+     "p": "Annual H"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Acute exacerbation of IPF has no proven therapy** and a poor prognosis: supportive care, oxygen, and cover for possible infection. High-dose corticosteroids are common but unproven, and anti-fibrotics have no proven role for starting in the acute setting.",
    "source": "S1",
    "verdict": "pass",
@@ -141,6 +287,34 @@
    "verdict": "pass",
    "source_text": "There is insufficient evidence to support a beneficial role of anti‐acid pharmacotherapy or surgery for respiratory outcomes in patients with IPF. … Symptomatic gastro‐oesophageal reflux should be approached per clinical guidelines for the general population.",
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 agrees and goes further:** it suggests against antacid medicines and against antireflux surgery (complications in up to 15%) when the only aim is better respiratory outcomes (both conditional, very low-quality evidence); surgery may still suit reflux-related problems.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "93a27a24ab56d05b",
+     "n": 172,
+     "p": "We sugge"
+    },
+    {
+     "h": "c3a37a6c42a3913f",
+     "n": 172,
+     "p": "We sugge"
+    },
+    {
+     "h": "13c0d816d4cf13fc",
+     "n": 281,
+     "p": "In the a"
+    },
+    {
+     "h": "d346c193ca93deaf",
+     "n": 171,
+     "p": "is not i"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Ambrisentan, bosentan and riociguat are contraindicated in pulmonary hypertension with IPF.**",

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/palliative-care-terminal-phase-medicines.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf"
+  "https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf",
+  "https://www.nice.org.uk/guidance/ng31/chapter/Recommendations"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing 'Medicines from the PBS Prescriber bag for terminal phase symptoms' (© 2025 (PDF modified 3 June 2025; uploaded April 2026)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2025 CareSearch. Site terms: 'We do not give permission for any use of the Information for commercial purposes. No Information authored by or on behalf of us may be copied, modified or reproduced in any way without our written permission.' (read at https://www.caresearch.com.au/about-us/contact/terms-and-conditions/ (Copyright section)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing 'Medicines from the PBS Prescriber bag for terminal phase symptoms' (© 2025 (PDF modified 3 June 2025; uploaded April 2026)), 15 claims; LICENCE: © 2025 CareSearch. Site terms: 'We do not give permission for any use of the Information for commercial purposes. No Information authored by or on behalf of us may be copied, modified or reproduced in any way without our written permission.' (read at https://www.caresearch.com.au/about-us/contact/terms-and-conditions/ (Copyright section)). S2: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing' (published 16 December 2015), 10 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, NICE NG31 (care of dying adults), for prescribing principles, symptom-by-symptom drug choice and anticipatory prescribing, which S1 (a medicine list) does not cover. NG31 is older than S1; Europe PMC searches (2026-09-24) found no newer open international end-of-life prescribing guideline. Like S1, it gives no doses. The S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 15,
+  "total": 25,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 15
+  "pass_paraphrase_anchored": 25
  },
  "claims": [
   {
@@ -31,6 +32,42 @@
    "locator": "CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing, 'Medicines from the PBS Prescriber bag for terminal phase symptoms', © 2025 (PDF modified 3 June 2025; uploaded April 2026), https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Prescribe anticipatory medicines early and individually,** stating the indication and dose for each. Cover the symptoms likely in the last days (agitation, anxiety, breathlessness, nausea and vomiting, noisy secretions, pain), and weigh the chance of sudden events such as catastrophic bleeding or seizures, the place of care and how long medicines take to arrive.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65c3f766bb7967bb",
+     "n": 220,
+     "p": "Use an i"
+    },
+    {
+     "h": "6b30362a1a3f776a",
+     "n": 215,
+     "p": "Assess w"
+    },
+    {
+     "h": "7f94f306cf032e8f",
+     "n": 219,
+     "p": "the poss"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Once anticipatory medicines are given, review benefit and side effects at least daily** and adjust the plan and prescriptions.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f0ed64d885fa9873",
+     "n": 223,
+     "p": "If antic"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Prescriber Bag medicines cost the prescriber nothing** and can be handed to the patient free on a home visit, for an emergency or to cover the gap until a prescription is filled.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -42,6 +79,50 @@
     }
    ],
    "locator": "CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing, 'Medicines from the PBS Prescriber bag for terminal phase symptoms', © 2025 (PDF modified 3 June 2025; uploaded April 2026), https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Review the medicine list when dying is recognised:** after discussion with the person and those close to them, stop drugs that no longer relieve symptoms or may harm.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9289455f71af23f",
+     "n": 317,
+     "p": "When it "
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Route:** when oral medicines can no longer be taken, use subcutaneous or intravenous injections, not intramuscular. **Consider a syringe driver** once more than 2 or 3 as-needed doses of any medicine have been needed in 24 hours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "130d9dd57cff4fe6",
+     "n": 223,
+     "p": "Consider"
+    },
+    {
+     "h": "9e1e1ebd3dde9db8",
+     "n": 171,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In people new to symptom medicines, start at the lowest effective dose and titrate;** reassess symptoms at least daily, and seek specialist palliative care advice if symptoms do not settle promptly or side effects such as unwanted sedation appear.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08eca408bb9ea1f4",
+     "n": 488,
+     "p": "For peop"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Distressing breathlessness: morphine is first line** (it also treats pain). Avoid repeated morphine doses in serious kidney failure.",
@@ -60,6 +141,29 @@
     }
    ],
    "locator": "CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing, 'Medicines from the PBS Prescriber bag for terminal phase symptoms', © 2025 (PDF modified 3 June 2025; uploaded April 2026), https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Breathlessness (S2):** treat reversible causes such as pulmonary oedema or pleural effusion; use an opioid, a benzodiazepine or both. Do not start oxygen routinely: offer it only for known or suspected symptomatic hypoxaemia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eac1e9190d5875b1",
+     "n": 125,
+     "p": "Identify"
+    },
+    {
+     "h": "2254d840f8299a26",
+     "n": 153,
+     "p": "Do not r"
+    },
+    {
+     "h": "6cee87de049264ce",
+     "n": 118,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "**Clonazepam (2.5 mg/mL oral drops):** agitation, anxiety, distressing breathlessness, refractory distress and seizures.",
@@ -117,6 +221,47 @@
    "dose": true
   },
   {
+   "claim": "**Agitation, anxiety and delirium (S2):** look first for unrelieved pain, a full bladder or rectum, and reversible causes such as kidney failure or hyponatraemia. Then consider a benzodiazepine trial for anxiety or agitation, or an antipsychotic trial for delirium or agitation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "931da049b347fc91",
+     "n": 165,
+     "p": "Be aware"
+    },
+    {
+     "h": "62ab60778761f0a0",
+     "n": 173,
+     "p": "Treat an"
+    },
+    {
+     "h": "d51782d58819c1cf",
+     "n": 154,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Nausea and vomiting with bowel obstruction (S2):** hyoscine butylbromide first; add octreotide if symptoms have not improved within 24 hours. Remember cyclizine can worsen heart failure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6f80b3e9ebbb9cb",
+     "n": 281,
+     "p": "For peop"
+    },
+    {
+     "h": "348d970a5a79bb09",
+     "n": 80,
+     "p": "prescrib"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Hyoscine butylbromide (20 mg/mL injection):** respiratory tract secretions and noisy breathing, and cramping pain from bowel obstruction.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -129,6 +274,34 @@
    ],
    "locator": "CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing, 'Medicines from the PBS Prescriber bag for terminal phase symptoms', © 2025 (PDF modified 3 June 2025; uploaded April 2026), https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Noisy secretions (S2):** explain that the noise, though distressing to hear, is unlikely to cause the person discomfort. If it distresses the person, try one antisecretory drug (atropine, glycopyrronium, hyoscine butylbromide or hyoscine hydrobromide). Check effect every 4 hours if possible and at least every 12 hours; change or stop the drug if distress persists after 12 hours or side effects are unacceptable. Atropine and hyoscine hydrobromide are the ones most likely to cause delirium, agitation or oversedation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "441bad20ec9fba48",
+     "n": 94,
+     "p": "Reassure"
+    },
+    {
+     "h": "10b8fa72b33cfbca",
+     "n": 308,
+     "p": "Consider"
+    },
+    {
+     "h": "6d09206a0f4a582b",
+     "n": 217,
+     "p": "Monitor "
+    },
+    {
+     "h": "e5dd045a75bfc5f4",
+     "n": 360,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "**Metoclopramide (10 mg/2 mL injection):** nausea and vomiting.",
@@ -192,6 +365,34 @@
     }
    ],
    "locator": "CareSearch (including palliAGED), Flinders University; funded by the Department of Health, Disability and Ageing, 'Medicines from the PBS Prescriber bag for terminal phase symptoms', © 2025 (PDF modified 3 June 2025; uploaded April 2026), https://www.caresearch.com.au/app/uploads/2026/04/PBS_Prescriber_Bag_Final_CS.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Support drinking and mouth care while the person can manage it,** checking for swallowing problems or aspiration risk; assess hydration, preferably daily. A trial of clinically assisted hydration can be considered for distressing thirst or delirium when drinking is not enough: it may relieve symptoms but may cause others, and whether it lengthens or shortens life is uncertain. Monitor it at least every 12 hours and stop it if there is harm such as fluid overload.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a36e0aca76e53ab",
+     "n": 145,
+     "p": "Support "
+    },
+    {
+     "h": "4f2508bd88415279",
+     "n": 183,
+     "p": "Assess, "
+    },
+    {
+     "h": "80193b7ebe4623ea",
+     "n": 332,
+     "p": "clinical"
+    },
+    {
+     "h": "c398a4106307b373",
+     "n": 645,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Care of dying adults in the last days of life (NG31), sections 1.5 Pharmacological interventions and 1.6 Anticipatory prescribing', published 16 December 2015, https://www.nice.org.uk/guidance/ng31/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "**For doses, use a palliative-care reference:** the CareSearchgp or palliMEDS apps, Therapeutic Guidelines: Palliative Care, or the Australian Medicines Handbook, or ask a local pharmacist.",

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/schizophrenia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1177/00048674251406058"
+  "https://doi.org/10.1177/00048674251406058",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel) 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia' (published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13000005). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel) 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia' (published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404)), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13000005). S2: QUOTED from Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89) 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis' (published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list)), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13051212). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an international Delphi consensus (2025/2026) on clozapine-associated myocarditis, because S1 leaves clozapine safety monitoring to other documents. S2 is a formal expert consensus, not a society guideline; no international schizophrenia guideline newer than S1 (January 2026) was found that adds more. The S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 24,
-  "pass": 0,
+  "total": 34,
+  "pass": 10,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -249,6 +250,78 @@
     }
    ],
    "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Clozapine-associated myocarditis (CAM) usually appears in the first month.** Risk rises with sodium valproate, fast up-titration, slow clozapine metabolism (for example Asian or Indigenous American ancestry, or interacting drugs), recent infection, and a history of myocardial infarction, pericarditis, cardiomyopathy or heart failure. Early symptoms are vague: flu-like illness, fever, fatigue, chest pain or breathlessness.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "CAM typically occurs within the first month of antipsychotic treatment. Important risk factors for the development of CAM include concurrent treatment with sodium valproate; rapid up-titration of clozapine, potentially inducing inflammation; and altered clozapine metabolism (such as in individuals or Asian or Indigenous American ethnicity or those undergoing concomitant treatment with inhibitors of clozapine metabolism). Other risk factors include recent infections, history of myocardial infarction, pericarditis, cardiomyopathy and heart failure. … Patients may present with non-specific symptoms such as flu-like symptoms, fever, fatigue, chest pain or dyspnoea.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**How common:** a meta-analysis found 0.7%, but 8.5% in part of Australia with mandatory screening; reported mortality after CAM is 21–50%.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a meta-analysis by Siskind et al, an event rate of 0.7% was reported for CAM. Recently an incidence of 8.5% CAM risk was reported in a part of Australia employing a mandatory screening programme for CAM. Reported mortality rates after CAM vary between 21 and 50%.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Titrate more slowly than the product information.** The week-1 target is 100 mg under Australian national and manufacturer guidance (150 mg in the EU). The consensus starts at 12.5 mg a day and prefers 50 mg by day 7 and 100–125 mg by day 14.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "This suggests that the titration scheme proposed by the clozapine manufacturer may be too rapid. … The target dose after 1 week of clozapine titration varies between 100 mg (Australian national and manufacturing guidelines) and 150 mg (European Summary of Product Characteristics (SmPC) for clozapine), whereas UK community titration schemes suggest a daily dose of 50 mg at day 7 to reduce both side-effect burden and myocarditis risk. … The starting dose of clozapine was set to 12.5 mg per day. … To minimise CAM risk, the preferred dose ranges were 50 mg at day 7 (64.5%, N = 62), and 100-125 mg at day 14",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Delay the start** for at least 4 weeks after an mRNA vaccine and 2–3 weeks after a viral or bacterial infection (once the fever has settled).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the second round, a majority recommended a waiting period of at least 4 weeks after a mRNA vaccination (78%, N = 50) and at least 2-3 weeks (89.3%, N = 56) after a viral or bacterial infection (after resolution of the fever) to minimise additive CAM risks.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Minimum monitoring:** before the first dose, hs-troponin, CRP, full blood count, vital signs and an ECG. For the first 4 weeks, hs-troponin, CRP and full blood count weekly; ECG every 2 weeks; oxygen saturation and postural blood pressure weekly; heart rate and temperature twice a week. A clozapine level at day 14 can flag slow metabolisers. Baseline echocardiography is only in the enhanced scheme.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Pre-exposure minimum parameters included hs-troponin, C-reactive protein (CRP), full blood count (FBC), vital parameters and an electrocardiogram (ECG). The starting dose of clozapine was set to 12.5 mg per day. As a minimum requirement, weekly monitoring of hs-troponin, CRP and FBC was recommended in the first 4 weeks. ECG was to be performed every 2 weeks, oxygen saturation (SpO2) and postural blood pressure weekly, and heart rate and temperature twice weekly. The majority agreed that additional therapeutic drug monitoring in week 2 (day 14) could help to guide understanding of potential slow clozapine metabolisers (76.9%, N = 39). … and so baseline echocardiography was only recommended in the enhanced monitoring investigations.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Australian, New Zealand and German guidelines require weekly CRP and troponin for the first 4–6 weeks.** The consensus core is 4–8 weeks; if monitoring continues past 4 weeks, vitals weekly, CRP, hs-troponin and full blood count every 2 weeks, and one ECG after 4 weeks.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Guidelines in Australia, New Zealand and Germany require mandatory weekly CRP and troponin assessments during the first 4-6 weeks. One previously published protocol suggested weekly monitoring of cardiac troponin, NT-proBNP and CRP for a total duration of 8 weeks, whereas our core recommendation is for 4-8 weeks with reduced monitoring frequency in the last 4 weeks … If monitoring was continued, vitals (heart rate, oxygen saturation, postural blood pressure and temperature) were to be checked once weekly; and CRP, hs-troponin and FBC (for monitoring of eosinophils) every 2 weeks, with one ECG performed after 4 weeks",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Get a cardiac MRI** if hs-troponin is above the 99th percentile, NT-proBNP is 125 pg/mL or more, or there is a significant new rise from baseline. Consider false-positive troponin (heterophile antibodies in glandular fever, fibrin clots, kidney dysfunction, pulmonary embolism, rheumatoid factor).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "b. Cardiac magnetic resonance imaging (MRI) shall be performed in cases where hs-troponin I/T > 99th percentile, NT-proBNP ≥ 125 pg/mL, or there is a new significant rise from baseline beyond the biological and analytical variation of the assay used. … It is also important to consider potential false-positive elevations in troponin levels, such as those caused by heterophile antibodies in infectious mononucleosis, fibrin clots, renal dysfunction, pulmonary embolism or rheumatoid factor.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rechallenge after CAM is off-label** and needs informed consent and a joint psychiatry, cardiology and pharmacy decision with the patient and family. It is not recommended after cardiogenic shock or ventricular arrhythmia, or if the heart has not returned to its pre-CAM baseline.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "although this perspective does not fully account for complex clinical scenarios, such as cases where patients develop cardiogenic shock or experience ventricular arrhythmias. In such severe presentations, or in situations where cardiac status has not returned to the pre-CAM baseline, rechallenge is not recommended by the core group. … The core group agreed that for rechallenge, an informed consent process for off-label use of clozapine should be recommended. … It is important to caution that clozapine rechallenge after CAM is a multiprofessional clinical decision involving psychiatry, cardiology and pharmacy that has to be carefully considered in terms of risks versus benefits together with the patient and their family.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Before rechallenge:** normal hs-troponin, CRP, full blood count, vital signs and ECG, and an echocardiogram with LVEF of at least 50%; stop valproate if justified; wait at least 8 weeks after the myocarditis resolves (often 6 months or more after a severe episode).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Before clozapine rechallenge, recommended minimum investigations included hs-troponin, CRP, FBC, vital parameters, ECG and transthoracic echocardiography with a left ventricular ejection fraction of at least 50%. Enhanced investigations included additional testing for NT-proBNP. All minimum requirement parameters were to be within range before rechallenge, and sodium valproate was to be ceased if clinically justifiable before the rechallenge trial. A minimum waiting period of 8 weeks after resolution of myocarditis, where possible, was recommended. … whereas those with more severe CAM may require a longer waiting period, often at least 6 months, as proposed by Griffin et al.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Rechallenge titration and monitoring:** 6.25 mg on day 1, 25 mg by day 7, 50 mg by day 14 and 100 mg by the end of week 4. Check hs-troponin and CRP twice a week, full blood count and ECG weekly, oxygen saturation and postural blood pressure twice a week, and heart rate and temperature daily; if uncomplicated, step down in weeks 5–8.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "As a minimum requirement, twice-weekly monitoring of hs-troponin and CRP and weekly monitoring of FBC was recommended. ECG was to be performed weekly, oxygen saturation and postural BP measured twice weekly, and heart rate and temperature measured daily. … To minimise recurrence of myocarditis, the preferred doses were a 6.25 mg starting dose at day 1 (94.7%, N = 57), 25 mg at day 7 (91.1%, N = 56), 50 mg at day 14 (90.7%, N = 54) and 100 mg at the end of week 4 (88.7%, N = 53). In the absence of complications, the protocol could be stepped down to weekly biomarker and twice weekly vital monitoring in weeks 5-8 (91.4%, N = 58).",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Screen metabolic health at baseline and then every 6–12 months** from the start of antipsychotic treatment.",
