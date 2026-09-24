@@ -4,6 +4,7 @@ Standing decisions that shape how guidelines in this repository are sourced and 
 
 | Date | Decision |
 |---|---|
+| 2026-09-24 | **All 621 licensed-source (AMH) doses are owner-accepted, not individually checked** (`~ owner 2026-09-24` in `docs/attestation-queue.md`). Reported separately from ATTESTED; a dose becomes CONFIRMED only when a person reads it against the subscription and replaces the mark with initials and a date. See `docs/attestation-loop.md`. |
 | 2026-09-24 | **Git history is left as is.** Earlier commits still hold verbatim RCH text; the repository is private and no current page reproduces it. |
 | 2026-09-24 | **ASIEM (Australasian Society for Inborn Errors of Metabolism) sources are kept, paraphrased and hash-anchored**, on the same footing as RCH (personal, non-commercial use terms). |
 | 2026-09-24 | **Table rows may be anchored.** Clean tables in PMC sources are appended to the source text by `scripts/pmc_text.py --append-tables`, one self-describing line per row, so doses and thresholds that live only in tables can be cited and re-checked. |
