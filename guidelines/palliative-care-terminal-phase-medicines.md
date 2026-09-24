@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** the symptoms each medicine in the PBS Prescriber Bag is used for in the terminal phase of a life-limiting illness, anticipatory prescribing, and practical points for home visits (ordering, storage, subcutaneous use). The source gives no doses. Cancer pain: see `cancer-pain-adults`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 25 claims; **43 fragments or anchors re-checkable by machine; 5 doses.** **S1** CareSearch (including palliAGED) (© 2025 (PDF modified 3 June 2025; uploaded April 2026); AU): 15 claims, paraphrased, hash-anchored · **S2** National Institute for Health and Care Excellence (NICE) (published 16 December 2015; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 25 claims; **43 fragments or anchors re-checkable by machine; 6 doses.** **S1** CareSearch (including palliAGED) (© 2025 (PDF modified 3 June 2025; uploaded April 2026); AU): 15 claims, paraphrased, hash-anchored · **S2** National Institute for Health and Care Excellence (NICE) (published 16 December 2015; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **No doses here.** The source deliberately gives indications and product strengths only, and sends prescribers to the CareSearchgp or palliMEDS apps, Therapeutic Guidelines: Palliative Care, the Australian Medicines Handbook or a pharmacist for dosing.
 

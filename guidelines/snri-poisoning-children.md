@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** venlafaxine-led dose bands, delayed seizures, ECG monitoring, decontamination and observation periods after SNRI overdose in children and young people. SSRIs are `ssri-poisoning-children`; serotonin syndrome itself is `serotonin-toxicity-children`; antidepressant adverse effects at therapeutic doses are in `adverse-effects-of-antidepressants`; general steps are in `poisoning-initial-management-children`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 of 20 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Serotonin and noradrenaline re-uptake inhibitors SNRIs poisoning*** (Last updated December 2020); **32 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 of 20 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Serotonin and noradrenaline re-uptake inhibitors SNRIs poisoning*** (Last updated December 2020); **32 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **SNRI overdose is potentially life-threatening: seizures can be delayed up to 16 hours with extended-release products.** Observe for at least 16 hours, and at least 24 hours after more than 5 g of venlafaxine.
 

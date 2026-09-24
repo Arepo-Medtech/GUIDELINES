@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, serum concentration bands and disposition for acute phenytoin poisoning (oral or IV) in children. General principles are in `poisoning-initial-management-children`; therapeutic phenytoin for seizures is in `seizures-acute-management-children`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 17 of 17 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Phenytoin poisoning*** (Last updated January 2018); **20 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 17 of 17 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Phenytoin poisoning*** (Last updated January 2018); **20 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Usually benign and dose-related — but rapid IV administration can cause arrhythmias** (from the propylene glycol vehicle). Maximal effect after oral ingestion can be delayed up to five days.
 

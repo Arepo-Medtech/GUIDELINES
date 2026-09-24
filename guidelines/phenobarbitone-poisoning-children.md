@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, serum concentrations, multidose charcoal and disposition for acute phenobarbitone (phenobarbital) poisoning in children. General principles are in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 16 of 16 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Phenobarbitone poisoning*** (Last Updated December 2017); **21 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 16 of 16 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Phenobarbitone poisoning*** (Last Updated December 2017); **21 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **CNS and cardiovascular depression, usually within an hour and possibly profound and prolonged — large ingestions can mimic brain death.** Management is supportive; multidose charcoal after intubation can speed elimination.
 

@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, investigations, charcoal, fluid and electrolyte correction, urinary alkalinisation, haemodialysis criteria and disposition for acute salicylate poisoning in children. General principles are in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`. (The RCH page address spells the chapter 'Salicylates_Posioning'.)
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 19 of 19 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Salicylates poisoning*** (Last updated June 2017); **22 anchors re-checkable by machine; 3 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 19 of 19 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Salicylates poisoning*** (Last updated June 2017); **22 anchors re-checkable by machine; 6 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Severe toxicity may not show for 6–12 hours, and levels correlate poorly with toxicity — a child can deteriorate while the serum level falls.** Treat every ingestion of 150 mg/kg or more, any symptomatic child and any unknown quantity.
 

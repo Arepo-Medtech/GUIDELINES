@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** dose limits, toxicity thresholds, arrhythmia and hypotension management, decontamination and disposition for chloral hydrate overdose or excess sedation dosing in children. General principles are in `poisoning-initial-management-children`; therapeutic use for sedation is in `procedural-sedation-children` (which gives no dose) and `bronchiolitis`; the AMH decontamination counterpart is `gastrointestinal-decontamination`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Chloral hydrate poisoning*** (Last Updated August 2018); **17 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Chloral hydrate poisoning*** (Last Updated August 2018); **17 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Narrow therapeutic index: recommended 10–50 mg/kg (max 2 g); severe toxicity over 100 mg/kg.** Toxicity starts within 30 minutes. ⚠️ **Treat arrhythmias with a beta blocker — catecholamine inotropes are contraindicated.**
 

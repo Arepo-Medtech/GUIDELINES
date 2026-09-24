@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** recognition, resuscitation, antidotes (sodium bicarbonate, methylene blue, 20% lipid emulsion) and disposition for local anaesthetic systemic toxicity and ingestion in children. The general counterpart on agents, maximum doses and vasoconstrictors is `local-anaesthesia`; general poisoning principles are in `poisoning-initial-management-children`; anaphylaxis is in `anaphylaxis-children`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 of 24 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Local anaesthetic poisoning*** (Last Updated October 2018); **29 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 of 24 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Local anaesthetic poisoning*** (Last Updated October 2018); **29 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Stop the local anaesthetic and call for help. Cardiac arrest can be the first sign after massive IV overdose.** Severe cardiovascular toxicity: 20% lipid emulsion 1.5 mL/kg bolus then 0.25 mL/kg/minute (max cumulative 12 mL/kg).
 

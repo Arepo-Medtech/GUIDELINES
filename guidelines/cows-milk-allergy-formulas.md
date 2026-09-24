@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** choosing and substituting specialised infant formula and plant-based milks for infants and young children with cow's milk allergy (CMA). Diagnosis and acute care: see `non-ige-food-allergy-children` (proctocolitis, enteropathy, FPIES) and `ige-mediated-food-allergy-children`. PBS access for each formula is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 22 claims; **34 fragments or anchors re-checkable by machine; 0 doses.** **S1** Australasian Society of Clinical Immunology and Allergy (ASCIA) (content updated June 2026 (supersedes the December 2025 edition); AU): 13 claims, paraphrased, hash-anchored · **S2** World Allergy Organization (Bognanni A (published April 2024; international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 22 claims; **34 fragments or anchors re-checkable by machine; 1 doses.** **S1** Australasian Society of Clinical Immunology and Allergy (ASCIA) (content updated June 2026 (supersedes the December 2025 edition); AU): 13 claims, paraphrased, hash-anchored · **S2** World Allergy Organization (Bognanni A (published April 2024; international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ **ASCIA's own formula-by-phenotype table is still not reproduced here.** ASCIA's first-, second- and third-choice formula for each type of CMA (IgE-mediated, anaphylaxis, FPIES, enteropathy/proctocolitis, EoE) lives only in a table, which was stripped. The international order from **S2 (WAO DRACMA 2024)** is shown instead; check it against the ASCIA table before applying it in Australia (Unresolved item 1).
 

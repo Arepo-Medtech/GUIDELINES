@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** biochemical, imaging and clinical treatment goals after surgery, and the choice, sequence and monitoring of somatostatin receptor ligands, pegvisomant, cabergoline and combinations for adults with acromegaly. Diagnosis (OGTT GH suppression testing) and acromegaly complications are outside this source's scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. Edition 2.0 adds diagnosis (IGF-I, OGTT, pituitary MRI, earlier detection) and remission and follow-up criteria from S2.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **60 fragments or anchors re-checkable by machine; 1 doses.** **S1** Acromegaly Consensus Group (Melmed S (published online 13 August 2025; international): 19 claims, paraphrased, hash-anchored · **S2** Acromegaly Consensus Group (Giustina A (published 3 November 2023 (issue 2024; funding-statement correction PMC10837242); international): 14 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **60 fragments or anchors re-checkable by machine; 2 doses.** **S1** Acromegaly Consensus Group (Melmed S (published online 13 August 2025; international): 19 claims, paraphrased, hash-anchored · **S2** Acromegaly Consensus Group (Giustina A (published 3 November 2023 (issue 2024; funding-statement correction PMC10837242); international): 14 claims, quoted
 
 > **Two sources from the same international Acromegaly Consensus Group:** S1 (2025) sets treatment goals, drug choice and monitoring; S2 (2024) sets diagnostic tests, remission criteria and follow-up. No Australian acromegaly guideline was found. Where they differ, both are shown.
 

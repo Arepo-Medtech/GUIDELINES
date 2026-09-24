@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** children with epilepsy treated with ketogenic diet therapies (classic, MCT, modified Atkins, low glycaemic index): who should be offered one, screening beforehand, choosing and starting a diet, antiseizure drugs, vitamin and mineral supplementation, monitoring, adverse effects and stopping. Epilepsy in general: see `epilepsy`. Glut1 deficiency: see `glut1-deficiency-syndrome`. Adults are outside S1's scope; S2 adds transition and adults in outline.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **68 fragments or anchors re-checkable by machine; 2 doses.** **S1** International Ketogenic Diet Study Group (Kossoff EH et al.) (published 21 May 2018; international): 30 claims, paraphrased, hash-anchored · **S2** Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G (published 10 July 2023; international): 9 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **68 fragments or anchors re-checkable by machine; 4 doses.** **S1** International Ketogenic Diet Study Group (Kossoff EH et al.) (published 21 May 2018; international): 30 claims, paraphrased, hash-anchored · **S2** Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G (published 10 July 2023; international): 9 claims, quoted
 
 > ⚠️ International guideline (International Ketogenic Diet Study Group, 2018). Australian practice follows the PBS listings below and may differ.
 

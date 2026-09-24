@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** screening, diagnosis, Kasai portoenterostomy (KPE), post-operative medical care, nutrition (including MCT-enriched and hydrolysed formulas), liver transplant timing, follow-up, cholangitis and portal hypertension in infants and children with biliary atresia. First assessment of the jaundiced infant: see `jaundice-in-early-infancy`. Other cholestatic causes: see `progressive-familial-intrahepatic-cholestasis`. PBS access (protein hydrolysate formula with MCT) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **60 fragments or anchors re-checkable by machine; 3 doses.** **S1** Ge L (published 4 September 2025; international): 24 claims, paraphrased, hash-anchored · **S2** Davenport M (published 7 November 2022; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **60 fragments or anchors re-checkable by machine; 4 doses.** **S1** Ge L (published 4 September 2025; international): 24 claims, paraphrased, hash-anchored · **S2** Davenport M (published 7 November 2022; international): 11 claims, quoted
 
 > 🌐 **Two sources.** S1 (Chinese Medical Association with international experts, 2025) is the main guideline. **S2** (European RARE-LIVER and BARD networks, 2022) is a position paper built on a 43-respondent practice survey, so it reports expert opinion and current European and North American practice, not graded recommendations. Where they differ, both are shown.
 

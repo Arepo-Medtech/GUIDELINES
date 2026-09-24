@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with phaeochromocytoma and paraganglioma (PPGL): biochemical and imaging diagnosis, preoperative alpha-blockade and volume repletion, surgery and postoperative care, hypertensive crisis, pregnancy, genetic testing and long-term surveillance. Neuroendocrine neoplasms generally, including MEN syndromes, are in `neuroendocrine-neoplasms`; orthostatic hypotension in `orthostatic-hypotension-and-pots`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **76 fragments or anchors re-checkable by machine; 3 doses.** **S1** Japan Endocrine Society (published online 10 October 2025 (issue 6 January 2026); international): 24 claims, paraphrased, hash-anchored · **S2** Lenders JWM (published August 2020; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **76 fragments or anchors re-checkable by machine; 4 doses.** **S1** Japan Endocrine Society (published online 10 October 2025 (issue 6 January 2026); international): 24 claims, paraphrased, hash-anchored · **S2** Lenders JWM (published August 2020; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Japan Endocrine Society, 2025). Australian practice follows the PBS listings below and may differ.
 

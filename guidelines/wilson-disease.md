@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** when to suspect Wilson disease, the diagnostic work-up (ceruloplasmin, 24-hour urinary copper, Kayser–Fleischer rings, ATP7B genetics), acute liver failure, initial chelation (D-penicillamine or trientine), zinc, diet, pregnancy, treatment monitoring, overtreatment and maintenance. Liver transplantation is only mentioned. Other chelation: `iron-overload-and-chelation`. Acute liver failure and cirrhosis care generally: `hepatic-encephalopathy`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **51 fragments or anchors re-checkable by machine; 5 doses.** **S1** Alkhouri N (vol. 7, article e0150, published June 2023; international): 20 claims, paraphrased, hash-anchored · **S2** Yang RM (published 7 April 2025; international): 14 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **51 fragments or anchors re-checkable by machine; 6 doses.** **S1** Alkhouri N (vol. 7, article e0150, published June 2023; international): 20 claims, paraphrased, hash-anchored · **S2** Yang RM (published 7 April 2025; international): 14 claims, quoted
 
 > ⚠️ International guidance, and a **summary article**: this is an expert review summarising the 2022 AASLD Practice Guidance (Hepatology Communications, 2023). The full AASLD guidance and the 2025 EASL-ERN guideline are closed access and were not read. Australian practice follows the PBS listings below and may differ.
 

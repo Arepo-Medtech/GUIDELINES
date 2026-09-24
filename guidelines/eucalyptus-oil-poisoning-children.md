@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** eucalyptus oil ingestion and other exposure in children (PIC endorsed): dose thresholds, CNS and respiratory toxicity, aspiration pneumonitis, decontamination and disposition. Other essential oils: `essential-oil-poisoning-children`; related RCH pages `hydrocarbon-poisoning-children` and `camphor-poisoning-children`. General principles: `poisoning-initial-management-children`; AMH decontamination counterpart: `gastrointestinal-decontamination`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Eucalyptus Oil Poisoning*** (Last Updated July 2021); **18 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Eucalyptus Oil Poisoning*** (Last Updated July 2021); **18 anchors re-checkable by machine; 6 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Eucalyptus oil is highly toxic: 5 mL or more of pure oil can cause coma.** Onset is usually within 30 minutes but can be delayed to 4 hours. **No charcoal.**
 

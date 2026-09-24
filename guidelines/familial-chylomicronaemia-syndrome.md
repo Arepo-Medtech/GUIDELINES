@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspecting and confirming familial chylomicronaemia syndrome (FCS; PBS 'hyperlipoproteinaemia type 1') in children and adults, and telling it apart from multifactorial chylomicronaemia (S1); the very-low-fat diet, MCT, triglyceride-lowering and APOC3-targeted drugs, acute pancreatitis and monitoring (S2, S3). Cardiovascular lipid management: see `cardiovascular-disease-risk`; children with high cholesterol: `hypercholesterolaemia-children`.
 
-> ✅ **COMPILED FROM 3 SOURCES.** 36 claims; **62 fragments or anchors re-checkable by machine; 1 doses.** **S1** Latin American lipid and endocrine societies (Delphi panel) (2025; international): 18 claims, quoted · **S2** Lan NSR (November 2025; AU): 7 claims, paraphrased, hash-anchored · **S3** Bajaj A (published 16 November 2025; international): 11 claims, quoted
+> ✅ **COMPILED FROM 3 SOURCES.** 36 claims; **62 fragments or anchors re-checkable by machine; 4 doses.** **S1** Latin American lipid and endocrine societies (Delphi panel) (2025; international): 18 claims, quoted · **S2** Lan NSR (November 2025; AU): 7 claims, paraphrased, hash-anchored · **S3** Bajaj A (published 16 November 2025; international): 11 claims, quoted
 
 > ⚠️ International guideline (Latin American multi-society Delphi consensus, 2025). Australian practice follows the PBS listings below and may differ.
 

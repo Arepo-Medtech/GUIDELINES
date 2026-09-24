@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, resuscitation, decontamination, antidote choice, enhanced elimination and disposition for acute poisoning in children and adolescents. Agent-specific pages: `paracetamol-poisoning-children`, `iron-poisoning-children`, `tricyclic-antidepressant-poisoning-children`, `salicylate-poisoning-children`, `serotonin-toxicity-children`. The general (AMH) decontamination counterpart is `gastrointestinal-decontamination`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 26 of 26 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Poisoning - Acute Guidelines For Initial Management*** (Last updated August 2017); **38 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 26 of 26 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Poisoning - Acute Guidelines For Initial Management*** (Last updated August 2017); **38 anchors re-checkable by machine; 1 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ☎️ **Victorian Poisons Information Centre: 13 11 26, 24 hours.** ⚠️ **Some agents are highly toxic to a toddler in a dose of 1–2 tablets.**
 

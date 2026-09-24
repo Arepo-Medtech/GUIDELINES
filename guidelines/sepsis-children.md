@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising sepsis and septic shock in children and the first hour of care: who is at risk, likely organisms, warning features, the timed resuscitation flowchart with empiric antibiotic, fluid and adrenaline doses, and when to escalate to intensive care. Sick neonates are also covered by `seriously-unwell-neonate`; state pathways are in `sepsis-children-nsw-pathway`, `sepsis-children-qld` and `sepsis-children-wa`; the adult standard is `sepsis`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 54 claims; **65 fragments or anchors re-checkable by machine; 13 doses.** **S1** The Royal Children's Hospital Melbourne (last updated March 2020, PIC endorsed; AU): 26 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (last updated March 2020; AU): 28 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 54 claims; **65 fragments or anchors re-checkable by machine; 15 doses.** **S1** The Royal Children's Hospital Melbourne (last updated March 2020, PIC endorsed; AU): 26 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (last updated March 2020; AU): 28 claims, paraphrased, hash-anchored
 
 > ⚠️ **Oldest source in this set:** last updated March 2020, and the newest reference is from 2018. The adult ACSQHC standard (`sepsis`) is more recent.
 

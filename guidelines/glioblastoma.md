@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** imaging, classification and molecular testing, surgery, chemoradiation with temozolomide, tumour-treating fields, response monitoring, recurrence and supportive care for adults with glioblastoma (IDH-wildtype, WHO grade 4). IDH-mutant astrocytoma and oligodendroglioma: see `idh-mutant-glioma`. Paediatric high- and low-grade glioma (dabrafenib/trametinib) are not covered. NTRK-fusion gliomas: see `ntrk-fusion-solid-tumours`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **54 fragments or anchors re-checkable by machine; 7 doses.** **S1** Canadian multidisciplinary expert panel (published 1 April 2025; international): 21 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **54 fragments or anchors re-checkable by machine; 8 doses.** **S1** Canadian multidisciplinary expert panel (published 1 April 2025; international): 21 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Canadian expert Delphi consensus, 2025) for S1. Australian practice follows the PBS listings below and may differ.
 
