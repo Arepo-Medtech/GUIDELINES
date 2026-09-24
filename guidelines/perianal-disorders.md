@@ -227,6 +227,32 @@ and should be **used according to product information** [A1].
 | ⚠️ **Angina / erectile dysfunction** | ⚠️ **rectal GTN is contraindicated with avanafil, sildenafil or tadalafil** [A1] — the nitrate/PDE5 interaction, in an unexpected place |
 | **Inflammatory bowel disease** | ⚠️ **multiple or off-midline fissures point to Crohn's** [S1], and **botulinum toxin is strongly recommended over surgery in Crohn's** [S1] |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 2 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Pruritus ani (Dermatology); **T2** Haemorrhoids (Gastrointestinal); **T3** Anal fissure (Gastrointestinal).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Simple emollients such as sorbolene cream or zinc oxide ointment applied after cleansing may help pruritus ani, and a short course of 5 to 7 days of hydrocortisone ointment may relieve any inflammation `perianal-disorders#35` | General measures (gentle cleaning, soap substitute, greasy emollient barrier, bulk-forming laxative for loose stools, cotton underwear); if no treatable cause and itch persists, methylprednisolone aceponate 0.1% fatty ointment once daily until clear or up to 4 weeks; lichenified skin: betamethasone dipropionate 0.05% ointment daily then methylprednisolone aceponate for 4 weeks; restart steroid at first sign of recurrence. [T1] | eTG uses a more potent corticosteroid for up to 4 weeks rather than 5-7 days of hydrocortisone; it treats pruritus ani as often chronic needing repeat courses. |
+| Use of topical anaesthetics and corticosteroids in perianal disorders should be limited to under 7 days, as local anaesthetics may sensitise perianal skin and topical corticosteroids may exacerbate local infection and cause skin atrophy `perianal-disorders#44` | Avoid prolonged local anaesthetic preparations (sensitisation, dermatitis); topical corticosteroids for haemorrhoids only short term as they can worsen candidiasis and other local infection. [T2] | eTG gives no fixed 7-day limit, and for pruritus ani recommends corticosteroid use for up to 4 weeks (topic 0); it does not cite skin atrophy here. |
+
+### Additional therapies in eTG
+
+- Anal fissure alternative to GTN: compounded diltiazem 2% or nifedipine 0.5% topical; chronic fissure (over 8-12 weeks) needs specialist advice (botulinum toxin or lateral sphincterotomy) and exclusion of Crohn disease, infection or carcinoma. [T3]
+- Acute anal fissure first line: stool softeners or bulk-forming laxatives and warm salt baths after bowel actions. [T3]
+- Internal haemorrhoids: fibre and fluids, avoid straining; refer if lifestyle and OTC measures fail for rubber-band ligation (preferred), sclerotherapy or infrared coagulation. [T2]
+- Thrombosed external haemorrhoid presenting within 72 hours: complete excision under local anaesthetic (not simple incision); otherwise pain settles in 1-2 weeks. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Pruritus ani* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Pruritus-ani_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Haemorrhoids* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Haemorrhoidstopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Anal fissure* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Anal-fissuretopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

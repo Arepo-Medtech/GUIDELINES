@@ -213,6 +213,29 @@ patient completes the diary** [A1].
 | **Depression and anxiety** | ⚠️ **if symptoms are not clearly cyclic, consider other causes, eg depression** [A1]; and SSRIs are reserved for diary-confirmed PMDD |
 | **Eating disorders** | **low or high BMI is a risk factor for primary dysmenorrhoea** [S1] |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **2 match · 1 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Premenstrual syndrome and premenstrual dysphoric disorder (Sexual and Reproductive Health).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH states that calcium may be effective in premenstrual syndrome and advises increasing calcium intake to 1200 to 1500 mg daily via dietary intake and supplements `dysmenorrhoea-and-premenstrual-syndrome#42` | Evidence for complementary medicines including calcium for PMS is limited. [T1] | eTG does not recommend increasing calcium to 1200-1500 mg daily; it classes calcium as having limited evidence. |
+
+### Additional therapies in eTG
+
+- SSRIs or SNRIs (fluoxetine and sertraline most used; doses as for major depression) are effective for physical and psychological PMS symptoms, taken continuously or in the luteal phase only (2 weeks before menses); use continuously if comorbid depression/anxiety; review after 1 cycle and at 12 months. [T1]
+- Nondrug therapy (lifestyle change, exercise, relaxation, CBT) helps PMS/PMDD, alone or with drugs. [T1]
+- Spironolactone may relieve bloating, breast discomfort and mood symptoms of PMS (limited evidence), only with effective contraception. [T1]
+- Refer severe (eg suicidal thoughts) or refractory PMS/PMDD to a specialist, who may use a GnRH agonist. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Premenstrual syndrome and premenstrual dysphoric disorder* (Sexual and Reproductive Health). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=PMS-PMDD&guidelinename=Sexual%20and%20Reproductive%20Health — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |
