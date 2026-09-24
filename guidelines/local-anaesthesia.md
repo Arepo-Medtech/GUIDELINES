@@ -226,6 +226,32 @@ contributor to wound healing, and wound healing research is INCONCLUSIVE about l
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **10 match · 2 differ · 6 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Local anaesthetics for acute pain management (Pain and Analgesia).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Dilute local anaesthetics with sodium chloride 0.9% injection when lower concentrations than those commercially available are required; MOST HAVE LIMITED SOLUBILITY IF pH IS ABOVE 6, so adding alkaline solutions such as sodium bicarbonate to increase speed of onset MAY RESULT IN PRECIPITATION `local-anaesthesia#7` | Buffering lidocaine reduces injection pain (eg 1 mL sodium bicarbonate 8.4% added to 9 mL lidocaine 1%), though precipitation may occur. [T1] | eTG presents bicarbonate buffering as a pain-reducing option with a recipe, whereas AMH cautions that alkalinisation may cause precipitation. |
+| HIGH PLASMA CONCENTRATIONS may result from accidental intravascular injection, rapid absorption or rate of administration, excessive dosage or delayed elimination; systemic toxicity affects the CNS and cardiovascular systems, with LOWER concentrations producing CNS symptoms FIRST and cardiovascular effects at higher concentrations `local-anaesthesia#29` | For bupivacaine, cardiotoxicity may appear before neurotoxicity. [T1] | eTG notes the usual CNS-before-cardiovascular sequence may not hold for bupivacaine. |
+
+### Additional therapies in eTG
+
+- Topical lidocaine+prilocaine 2.5%+2.5% cream by age: under 3 months up to 1 g for 1 hour; 3-12 months up to 2 g; 1-6 years up to 10 g; 6-12 years up to 20 g; over 12 years up to 60 g intact skin or 10 g on leg ulcers, for 1-4 hours under occlusion. Patches: under 3 months 1 patch max 1 h; 3-12 months up to 2; older up to 5 for up to 4 h. [T1]
+- Lidocaine 4% liposomal cream: 1-3 months up to 1 g for no more than 60 min; 3-12 months up to 1 g for up to 4 h; over 1 year up to 2.5 g for up to 5 h (do not clean skin with alcohol first). [T1]
+- Lidocaine 2% viscous: under 3 years up to 0.2 mL/kg (max 1.25 mL), 3-12 years up to 0.2 mL/kg (max 5 mL), both max 4 doses/24 h; over 12 years up to 15 mL, max 8 doses/24 h; every 3 hours as needed, nil by mouth for 1 hour. [T1]
+- Lidocaine+tetracaine+adrenaline 4%+0.5%+0.1% solution for lacerations under 7 cm (age 1 year+): 0.1 mL/kg or 1 mL/cm (smaller), max 5 mL, for 20-30 min (max 60), max 4 doses/24 h; tetracaine 4% gel 0.5 g up to 1 h; tetracaine eye drops 1 drop, repeat after 5 min, never for home use. [T1]
+- Avoid adrenaline-containing preparations in end-artery regions without specialist advice; vasoconstrictors are contraindicated in IV regional (Bier) blocks. [T1]
+- After neuraxial block, new neck or back pain is an emergency (haematoma/abscess); avoid neuraxial blocks with coagulopathy or anticoagulant/antiplatelet use. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Local anaesthetics for acute pain management* (Pain and Analgesia). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=local-anaesthetics-acute-pain-management — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

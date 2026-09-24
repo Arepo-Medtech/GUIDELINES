@@ -154,6 +154,33 @@ GI adverse effects and SUPER-INFECTION WITH RESISTANT ORGANISMS** [N1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **6 match · 2 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Principles of surgical antibiotic prophylaxis (Antibiotic); **T2** Principles of appropriate antimicrobial prescribing (Antibiotic); **T3** Ambulatory antimicrobial therapy (Antibiotic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| USUAL DOSE SCHEDULES ARE ADEQUATE FOR MOST INFECTIONS, AND IN GENERAL SICKER PEOPLE DO NOT REQUIRE HIGHER DOSES THAN PEOPLE WITH LESS SEVERE INFECTION `anti-infectives-general-principles#16` | Patients with septic shock or needing intensive care, severe burns, third-space fluid shifts, cystic fibrosis, obesity, pregnancy or age 3 months or under may have altered pharmacokinetics needing dose adjustment; extended or continuous infusions may be appropriate in septic shock/ICU. [T2] | eTG explicitly flags critically ill patients as possibly needing altered dosing, which runs against AMH's statement that sicker patients do not need higher doses. |
+| AMH's duration bands: SINGLE DOSE for candidal vulvovaginitis, intestinal worms and uncomplicated gonorrhoea; SHORT COURSE under 5 days for bacterial gastroenteritis, malaria and uncomplicated UTIs; LONGER COURSE 5 to 10 days for bacteraemia, cellulitis, chlamydial infection, intestinal amoebiasis, meningitis, peritonitis, Gram-negative, pneumococcal and Mycoplasma pneumonia, sinusitis, streptococcal pharyngitis and tonsillitis `anti-infectives-general-principles#20` | Courses under 7 days are often appropriate for intra-abdominal infection after definitive surgery, uncomplicated lower UTI, biliary infection after obstruction relief, acute bacterial rhinosinusitis, infective COPD exacerbations, community-acquired pneumonia and uncomplicated skin and soft tissue infection. [T2] | AMH places cellulitis, pneumococcal pneumonia, sinusitis and peritonitis in a 5-10 day band; eTG supports under 7 days for CAP, uncomplicated SSTI, sinusitis and source-controlled intra-abdominal infection. eTG gives no single-dose/short/longer banding. |
+
+### Additional therapies in eTG
+
+- Surgical prophylaxis in obesity: cefazolin 3 g IV if weight over 120 kg and GFR 40 mL/min or more. [T1]
+- Penicillin hypersensitivity: use cefazolin for nonsevere reactions and (in hospital) even for severe immediate reactions; use a non-beta-lactam (eg vancomycin 15 mg/kg up to 2 g, or teicoplanin 15 mg/kg up to 800 mg IV within 120 minutes pre-incision) only after severe delayed reactions. [T1]
+- Gentamicin or tobramycin prophylaxis (adults, lean body weight): 3 mg/kg up to 280 mg for procedures of 4 hours or less (CrCl 20 or more); 5 mg/kg up to 480 mg for 4-6 hour procedures (CrCl 40 or more); avoid if CrCl below 20 mL/min. [T1]
+- S. aureus decolonisation before arthroplasty or sternotomy: mupirocin 2% nasal ointment twice daily for 5 days, with or without daily chlorhexidine 2-4% washes or dilute bleach baths for 5 days; add vancomycin or teicoplanin if MRSA-colonised. [T1]
+- Switch IV to oral once clinically stable with functioning gut, improving fever, no unexplained haemodynamic instability and a suitable oral agent (not for meningitis-type infections); review empirical therapy daily in hospital. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Principles of surgical antibiotic prophylaxis* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=surgical-antibiotic-prophylaxis-principles&guidelinename=Antibiotic — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Principles of appropriate antimicrobial prescribing* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Principles-of-appropriate-antimicrobial-prescribing_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Ambulatory antimicrobial therapy* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Ambulatory-antimicrobial-therapy_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

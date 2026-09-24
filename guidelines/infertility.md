@@ -108,6 +108,30 @@ These PBS conditions have no guideline of their own; the owner linked them to th
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 1 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Infertility (Sexual and Reproductive Health).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| ⚠️ PRODUCT STRENGTHS ARE NOT DOSES. AMH's table lists, for example, follitropin alfa pens at 75, 150, 225, 300, 450 and 900 IU; follitropin beta at 300, 600 and 900 IU; follitropin delta at 12, 36 and 72 microgram; corifollitropin alfa at 100 and 150 microgram; choriogonadotropin alfa at 250 microgram; lutropin alfa at 75 IU; cetrorelix at 250 microgram; ganirelix at 500 microgram/mL; goserelin implant 3.6 mg; nafarelin nasal spray 200 microgram/dose; triptorelin 100 microgram/mL; clomifene 50 mg scored tablets; letrozole 2.5 mg; metformin 500 mg, 850 mg and 1 g; and progesterone pessaries at 100, 200, 300 and 400 mg with an 8% vaginal gel and a 25 mg injection. ⚠️ NO REGIMEN, FREQUENCY OR DURATION IS GIVEN FOR ANY OF THEM `infertility#13` | eTG does give specialist regimens: letrozole 2.5-5 mg daily for 5 days from cycle day 2-5; clomifene 50 mg daily for 5 days from day 2-5 (dose increased over the next 2 cycles if no ovulation); hCG trigger 5000-10 000 units; male hypogonadotrophic hypogonadism hCG 1500 units SC 2-3 times weekly, adding follitropin alfa or beta 50-150 units SC 3 times weekly after about 6 months if needed; progestogen pretreatment medroxyprogesterone 10 mg or norethisterone 5 mg daily for 10 days. [T1] | AMH lists strengths only; eTG supplies regimens for letrozole, clomifene, hCG, follitropin and progestogen withdrawal that could fill this gap (all specialist-supervised). |
+
+### Additional therapies in eTG
+
+- Folate for all females at least 1 month before and 3 months into pregnancy; iodine 150 micrograms daily before and during pregnancy. [T1]
+- Ovulation induction (specialist): letrozole 2.5-5 mg once daily for 5 days starting day 2-5 (more effective than clomifene, off-label); clomifene 50 mg once daily for 5 days starting day 2-5, limit use to under 12 months and stop if visual disturbance; confirm ovulation with midluteal progesterone; monitor for multiple follicles. [T1]
+- PMOS subfertility: lifestyle first (5% weight loss); metformin can be trialled alone up to 1 year (review at 3 months), most useful if BMI over 30; clomifene plus metformin may improve pregnancy rates; gonadotrophins if no ovulation after 3 cycles of oral agents. [T1]
+- Male hypogonadotrophic hypogonadism (specialist): hCG 1500 units SC 2-3 times weekly for up to 6 months, then add follitropin alfa or beta 50-150 units SC 3 times weekly; defer testosterone replacement until after fertility treatment. [T1]
+- Stop GLP-1 receptor agonists weeks before planned pregnancy; weight-loss drugs not recommended while trying to conceive; wait at least 1 year after bariatric surgery. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Infertility* (Sexual and Reproductive Health). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=infertility&guidelinename=Sexual%20and%20Reproductive%20Health — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

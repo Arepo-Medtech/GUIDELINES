@@ -185,6 +185,28 @@ and lactation**, per a systematic review [S1].
 | **Glaucoma** | ⚠️ **cataract and glaucoma are named systemic risks of prolonged potent TCS misuse** [S1] |
 | **Dry eye / conjunctivitis** | the same preservative-sensitisation problem in a different tissue |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 1 differ · 3 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Considerations in the use of topical corticosteroids (Dermatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH states that for corticosteroids, calcipotriol and pimecrolimus the suggested weekly quantities should not be exceeded without specialist recommendation `topical-treatment-of-skin-conditions#31` | Apply corticosteroids liberally to all inflamed areas and prescribe enough to cover the whole affected area (PBS authority may be needed); underuse from steroid fear causes treatment failure; systemic effects (Cushing syndrome) are rare and linked to very large weekly amounts (eg over 50 g clobetasol or over 500 g hydrocortisone). [T1] | eTG frames quantity advice around avoiding underuse rather than a weekly ceiling needing specialist approval; calcipotriol and pimecrolimus ceilings not addressed. |
+
+### Additional therapies in eTG
+
+- Choose potency by site: mild corticosteroid on face, axillae, groin and nappy area (stronger only briefly, up to 2 weeks, usually with specialist input); moderate on limbs and trunk; potent or very potent on palms, soles and lichenified skin. [T1]
+- Formulation: creams/lotions for wet or oozy skin and skin folds; ointments for dry scaly skin (more potent, fewer preservatives); lotions/gels for hairy areas. [T1]
+- Reassure patients and parents that correctly used topical corticosteroids are safe long term; minimise use around the eyes. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Considerations in the use of topical corticosteroids* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

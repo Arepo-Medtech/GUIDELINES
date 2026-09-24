@@ -7,10 +7,15 @@
  "retrieved_from": [
   "https://www1.racgp.org.au/ajgp/2020/september/common-benign-and-malignant-oral-mucosal-disease",
   "https://www1.racgp.org.au/ajgp/2020/september/dental-abscess-death-and-morbidity",
-  "https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-mouth-throat-conditions/mouth-throat-conditions"
+  "https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-mouth-throat-conditions/mouth-throat-conditions",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=dry-mouth&guidelinename=Oral%20and%20Dental",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=necrotising-periodontal-diseases&guidelinename=Oral%20and%20Dental",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Oral-and-oropharyngeal-infection-caused-by-Candida-and-related-species_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=dental-caries&guidelinename=auto&sectionId=c_DTG_Oral-ulcers_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Sore_throat_topic_2"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "S1 and S2 are open RACGP AJGP articles from September 2020, fetched and checked verbatim (20 claims). A1 is AMH, paraphrased, no passage reproduced and no source_text stored (21 claims, 6 doses). THE SOURCES GIVE DIFFERENT REFERRAL THRESHOLDS FOR A NON-HEALING ORAL ULCER: S1 says 2 weeks or more, A1 says consider neoplasia beyond 3 weeks. Both are stated with attribution and the guideline does not split the difference, because the shorter threshold is the safer one for a cancer referral and saying so is a judgement the reader should make with both numbers in front of them. AMH's artificial saliva product table lists branded products with pH values; NO product row is reproduced, and only the clinically actionable rule -- neutral pH for patients with their own teeth -- is carried.",
+ "method": "S1 and S2 are open RACGP AJGP articles from September 2020, fetched and checked verbatim (20 claims). A1 is AMH, paraphrased, no passage reproduced and no source_text stored (21 claims, 6 doses). THE SOURCES GIVE DIFFERENT REFERRAL THRESHOLDS FOR A NON-HEALING ORAL ULCER: S1 says 2 weeks or more, A1 says consider neoplasia beyond 3 weeks. Both are stated with attribution and the guideline does not split the difference, because the shorter threshold is the safer one for a cancer referral and saying so is a judgement the reader should make with both numbers in front of them. AMH's artificial saliva product table lists branded products with pH values; NO product row is reproduced, and only the clinically actionable rule -- neutral pH for patients with their own teeth -- is carried. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "S1 states that mucosal turnover should occur in under 10 days and therefore any persistent ulcer that has been present for 2 weeks or more should be referred to an oral and maxillofacial surgeon or oral medicine specialist for biopsy",
@@ -263,10 +268,50 @@
    "source": "A1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, therapeutic topic 'Mouth and throat conditions' (Ear, nose and throat drugs > Drugs for mouth and throat conditions), including the 'Artificial saliva products' table, at https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-mouth-throat-conditions/mouth-throat-conditions, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Streptococcal pharyngitis in patients at high risk of acute rheumatic fever (under 40 with specified risk factors): empirical antibiotics for all, even if viral features, after a throat swab if possible.",
+   "source": "T5",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Sore throat' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Sore_throat_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Approach to managing pharyngitis and tonsillitis in patients at high risk of acute rheumatic fever'"
+  },
+  {
+   "claim": "Severe penicillin allergy with streptococcal pharyngitis: azithromycin 500 mg (child 12 mg/kg) orally daily for 5 days.",
+   "source": "T5",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Sore throat' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Sore_throat_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Antibiotic therapy for streptococcal pharyngitis and tonsillitis'"
+  },
+  {
+   "claim": "Oral candidiasis in neonates: nystatin 100 000 units/mL 1 mL 4 times daily after feeds for about 7 days (continue 2 days after resolution), or miconazole 2% gel 1 mL 2-4 times daily for 7-14 days; children: miconazole gel 1.25 mL or nystatin 1 mL 4 times daily.",
+   "source": "T3",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Oral and oropharyngeal infection caused by Candida and related species' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Oral-and-oropharyngeal-infection-caused-by-Candida-and-related-species_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of oral and oropharyngeal candidiasis in neonates and children'"
+  },
+  {
+   "claim": "Oral ulcer pain: benzydamine 1% gel to the ulcer 2- to 3-hourly as needed (age 6 or older); lidocaine 2% viscous up to 15 mL rinse 3-hourly (max 8 doses/day) in adults; avoid salicylate gels.",
+   "source": "T4",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Oral and Dental guideline: 'Oral ulcers' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=dental-caries&guidelinename=auto&sectionId=c_DTG_Oral-ulcers_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Symptom management for oral ulcers'"
+  },
+  {
+   "claim": "Necrotising gingivitis mouthwashes: hydrogen peroxide 3% 5 mL diluted with 5 mL water (or 1.5% 10 mL) 12-hourly, or chlorhexidine 0.2% 10 mL 8- to 12-hourly, until pain eases.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Oral and Dental guideline: 'Necrotising periodontal disease' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=necrotising-periodontal-diseases&guidelinename=Oral%20and%20Dental, accessed 2026-09-24 through the owner's subscription, section 'Management of necrotising gingivitis'"
   }
  ],
  "summary": {
-  "total": 41,
+  "total": 46,
   "pass": 20,
   "fail": 0
  }

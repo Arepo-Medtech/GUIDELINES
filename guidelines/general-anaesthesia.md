@@ -110,6 +110,21 @@ drugs** [G1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 0 differ · 4 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Procedural sedation and analgesia (Pain and Analgesia).
+
+### Additional therapies in eTG
+
+- Manage aspiration risk specifically when fasting is impossible (emergencies), when gastric emptying is delayed (eg after opioids or severe pain) or for high-risk procedures such as upper GI endoscopy. [T1]
+- Procedural analgesia without deep sedation (adults): intranasal fentanyl up to 100 micrograms (repeat 50 micrograms once after 5 minutes) or IV fentanyl 50 micrograms (repeat 25 micrograms once), or IV morphine 5 mg (repeat 2.5 mg once); inhaled methoxyflurane max 6 mL/24 hours or nitrous oxide 50%. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Procedural sedation and analgesia* (Pain and Analgesia). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=procedural-sedation-analgesia — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

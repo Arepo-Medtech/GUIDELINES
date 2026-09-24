@@ -5,12 +5,15 @@
  "verifier": "claude-opus-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://amhonline.amh.net.au/chapters/anti-infectives/general-principles-anti-infectives"
+  "https://amhonline.amh.net.au/chapters/anti-infectives/general-principles-anti-infectives",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=surgical-antibiotic-prophylaxis-principles&guidelinename=Antibiotic",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Principles-of-appropriate-antimicrobial-prescribing_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Ambulatory-antimicrobial-therapy_topic_2"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "ENTIRELY from AMH's General principles: anti-infectives page, read under subscription and PARAPHRASED: no passage reproduced, no source_text stored, so NOTHING here is machine re-checkable. This is a PRINCIPLES page: it names no organism-drug pairing and sets no specific regimen, and this guideline does not invent either. ⚠️ AMH's own Drug choice for selected infections page and its nine organism-susceptibility tables were NOT retrieved, and Therapeutic Guidelines -- the Australian source that would answer 'which drug for which bug' -- is licensed and not held in this compendium. What this guideline carries is the stewardship framework: when not to prescribe, how long, and which drugs to leave alone.",
+ "method": "ENTIRELY from AMH's General principles: anti-infectives page, read under subscription and PARAPHRASED: no passage reproduced, no source_text stored, so NOTHING here is machine re-checkable. This is a PRINCIPLES page: it names no organism-drug pairing and sets no specific regimen, and this guideline does not invent either. ⚠️ AMH's own Drug choice for selected infections page and its nine organism-susceptibility tables were NOT retrieved, and Therapeutic Guidelines -- the Australian source that would answer 'which drug for which bug' -- is licensed and not held in this compendium. What this guideline carries is the stewardship framework: when not to prescribe, how long, and which drugs to leave alone. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "summary": {
-  "total": 24,
+  "total": 29,
   "pass": 0,
   "fail": 0
  },
@@ -166,6 +169,46 @@
    "source": "N1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, 'General principles: anti-infectives' at https://amhonline.amh.net.au/chapters/anti-infectives/general-principles-anti-infectives, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Surgical prophylaxis in obesity: cefazolin 3 g IV if weight over 120 kg and GFR 40 mL/min or more.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Principles of surgical antibiotic prophylaxis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=surgical-antibiotic-prophylaxis-principles&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Surgical antibiotic prophylaxis for patients with obesity'"
+  },
+  {
+   "claim": "Penicillin hypersensitivity: use cefazolin for nonsevere reactions and (in hospital) even for severe immediate reactions; use a non-beta-lactam (eg vancomycin 15 mg/kg up to 2 g, or teicoplanin 15 mg/kg up to 800 mg IV within 120 minutes pre-incision) only after severe delayed reactions.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Principles of surgical antibiotic prophylaxis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=surgical-antibiotic-prophylaxis-principles&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Surgical antibiotic prophylaxis for patients with a penicillin hypersensitivity / Glycopeptide dosing'"
+  },
+  {
+   "claim": "Gentamicin or tobramycin prophylaxis (adults, lean body weight): 3 mg/kg up to 280 mg for procedures of 4 hours or less (CrCl 20 or more); 5 mg/kg up to 480 mg for 4-6 hour procedures (CrCl 40 or more); avoid if CrCl below 20 mL/min.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Principles of surgical antibiotic prophylaxis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=surgical-antibiotic-prophylaxis-principles&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Aminoglycoside dosing for surgical prophylaxis in adults'"
+  },
+  {
+   "claim": "S. aureus decolonisation before arthroplasty or sternotomy: mupirocin 2% nasal ointment twice daily for 5 days, with or without daily chlorhexidine 2-4% washes or dilute bleach baths for 5 days; add vancomycin or teicoplanin if MRSA-colonised.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Principles of surgical antibiotic prophylaxis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=surgical-antibiotic-prophylaxis-principles&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Preventing postoperative Staphylococcus aureus infections'"
+  },
+  {
+   "claim": "Switch IV to oral once clinically stable with functioning gut, improving fever, no unexplained haemodynamic instability and a suitable oral agent (not for meningitis-type infections); review empirical therapy daily in hospital.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Principles of appropriate antimicrobial prescribing' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Principles-of-appropriate-antimicrobial-prescribing_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Guidance for antimicrobial intravenous to oral switch'"
   }
  ]
 }

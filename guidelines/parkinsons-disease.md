@@ -174,6 +174,31 @@ trials directly compare the different classes used as adjuncts** [A1].
 | **Chronic kidney disease** | ⚠️ pramipexole carries **CrCl-banded dose caps** — one of the few renally adjusted regimens in this compendium |
 | **Vomiting** | ⚠️ **metoclopramide is to be avoided** here, while it is the named antiemetic in the paediatric vomiting guideline — the same drug, opposite advice, for a different population |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **6 match · 1 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Parkinson disease (Neurology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Pramipexole conventional tablets start at 125 micrograms 3 times daily for a week, then 250 micrograms 3 times daily for a week, then 500 micrograms 3 times daily, increasing weekly if needed by 250 micrograms 3 times daily to a maximum of 1.5 mg 3 times daily `parkinsons-disease#34` | Pramipexole 0.125 mg orally 3 times daily, titrated slowly to effect, maximum 3.5 mg daily (MR 0.375 mg daily, max 3.5 mg). [T1] | eTG maximum 3.5 mg/day vs AMH 1.5 mg 3 times daily (4.5 mg/day). eTG warns against dopamine agonists with history of impulse control or substance use disorders. |
+
+### Additional therapies in eTG
+
+- Other add-on options for motor fluctuations (neurologist-directed): opicapone 50 mg orally at bedtime; safinamide 50 mg daily, 100 mg after 2 weeks if needed; selegiline 2.5 mg daily up to 5 mg twice daily (morning and midday); pramipexole MR 0.375 mg daily. [T1]
+- Wearing off: more frequent evenly spaced levodopa doses or MR levodopa; take levodopa about 1 hour before meals, as high-protein meals impair absorption. [T1]
+- Orthostatic hypotension in Parkinson disease: nondrug measures, then fludrocortisone 0.1 mg orally daily, up to 0.2 mg daily. [T1]
+- Parkinson psychosis: withdraw anticholinergics, amantadine and dopamine agonists first; if needed low-dose clozapine or quetiapine, or a cholinesterase inhibitor; avoid olanzapine, risperidone, aripiprazole and first-generation antipsychotics. [T1]
+- Sialorrhoea awaiting botulinum toxin: amitriptyline 5 mg at night, increasing weekly to max 25 mg. [T1]
+- Nil-by-mouth: well-controlled patients can miss 2-3 oral doses; otherwise switch to a nonoral route (eg rotigotine patch applied the night before surgery) using a levodopa-equivalent calculator and neurologist advice; never stop abruptly. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Parkinson disease* (Neurology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=parkinson-disease&guidelinename=Neurology — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

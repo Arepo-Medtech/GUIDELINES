@@ -181,6 +181,31 @@ unknown** [A1].
 | **Depression and anxiety** | ⚠️ **the finasteride–depression signal, and its confounding**, and **the social anxiety that drives presentation** |
 | **Tinea and nail infections** | ⚠️ **tinea capitis is a hair-loss differential not in S1's table** — see *Unresolved* |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 3 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Androgenetic alopecia (Dermatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH states noticeable hair growth occurs by 3 to 4 months with maximal response after 12 months of continuous treatment, and that benefit of treatment is lost within 6 to 12 months of stopping `androgenetic-alopecia#16` | Visible effect takes 3 to 6 months with topical minoxidil and 6 to 12 months with oral finasteride or spironolactone; refer to a dermatologist if no clear benefit after 6-12 months. [T1] | eTG does not state benefit is lost within 6-12 months of stopping; its onset timing for finasteride (6-12 months) is later than AMH's 3-4 months. |
+| AMH gives topical minoxidil dosage as applied to the area where hair regrowth or stabilisation is required, with liquid 1 mL applied twice a day, and foam approximately half a capful being 1 g applied twice a day for men or once a day for women `androgenetic-alopecia#25` | Minoxidil 5% foam 1 g (about half a capful) or 5% lotion 1 mL to sparse scalp areas once or twice daily for at least 6 to 12 months, for both sexes. [T1] | eTG does not restrict women to once-daily foam; it specifies 5% strength for both forms. |
+| AMH states hair regrowth with minoxidil is usually seen after 3 to 4 months of continuous use and treatment should stop if there is no benefit after 6 months, that the higher concentration is slightly more effective in men but there is no difference in women, and that increasing the dose volume does not provide additional benefit `androgenetic-alopecia#30` | Assess minoxidil efficacy after 6 to 12 months (visible effect by 3-6 months). [T1] | eTG assessment window is 6 to 12 months rather than stopping at 6 months; eTG does not compare 2% vs 5% or dose volume. |
+
+### Additional therapies in eTG
+
+- Female pattern hair loss: spironolactone 50 to 100 mg orally once daily, increasing to 200 mg daily if no benefit after 6-12 months; exclude pregnancy and use contraception; check BP, kidney function and liver biochemistry at baseline then every 6-12 months. [T1]
+- Severe androgenetic alopecia: combine topical minoxidil with oral finasteride (males) or spironolactone (females); combination also reasonable initially for mild-moderate disease. [T1]
+- Treat scalp eczema, seborrhoeic dermatitis and dandruff before starting minoxidil; foam is less irritating than lotion. [T1]
+- No response after 6-12 months: refer to a dermatologist (who may use dutasteride, oral minoxidil or other antiandrogens). [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Androgenetic alopecia* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Androgenetic-alopecia_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |
