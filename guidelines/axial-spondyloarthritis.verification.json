@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/axial-spondyloarthritis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian expert panel, Rheumatology and Therapy (Springer) 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis' (published 28 December 2021), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8814294). S2: QUOTED from British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089) 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs' (published online 9 April 2025), 11 claims; LICENCE: CC BY 4.0 (© The Author(s) 2025, published by Oxford University Press on behalf of the BSR) (read at Europe PMC fullTextXML <license> element for PMC12107049). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the BSR 2025 guideline on biologic and targeted synthetic DMARDs in axSpA (CC BY 4.0, quoted), for JAK inhibitors, bimekizumab, response assessment, switching, extra-musculoskeletal disease and tapering. ASAS-EULAR 2022 was retried (Unpaywall PDF at ard.bmj.com) and returned a Cloudflare challenge (HTTP 403), which was not bypassed. S1's claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian expert panel, Rheumatology and Therapy (Springer) 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis' (published 28 December 2021), 28 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8814294). S2: QUOTED from British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089) 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs' (published online 9 April 2025), 11 claims; LICENCE: CC BY 4.0 (© The Author(s) 2025, published by Oxford University Press on behalf of the BSR) (read at Europe PMC fullTextXML <license> element for PMC12107049). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the BSR 2025 guideline on biologic and targeted synthetic DMARDs in axSpA (CC BY 4.0, quoted), for JAK inhibitors, bimekizumab, response assessment, switching, extra-musculoskeletal disease and tapering. ASAS-EULAR 2022 was retried (Unpaywall PDF at ard.bmj.com) and returned a Cloudflare challenge (HTTP 403), which was not bypassed. S1's claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (GRADE certainty, strength and agreement for the 22 statements). S2 Tables 1 and 2 have merged cells and were not extracted.",
  "summary": {
-  "total": 35,
+  "total": 39,
   "pass": 11,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -491,6 +491,163 @@
    "verdict": "pass",
    "source_text": "Tapering of targeted therapies should be considered for individuals who have achieved sustained remission (1A, SoA 98%). Withdrawal of targeted therapies in the context of sustained remission is not recommended (1A, SoA 99%) … 'Sustained remission' lacks formal definition but can be operationalized as low disease activity or remission for at least 6 months. Tapering is typically implemented by increasing dosing intervals, which (with the exception of certolizumab pegol) is an off-licence use of therapy. … For example, 80% of participants who discontinued certolizumab pegol flared during the trial period, and not all were able to regain control []",
    "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**High-certainty, strong statements:** a normal X-ray does not rule nr-axSpA out; classification criteria guide but must not be applied as diagnostic criteria to one patient; TNF and IL-17 inhibitors are effective; and cutting a TNF inhibitor dose raises flare risk, while stopping it carries a significant risk of flare.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "356b9cd3c3313f15",
+     "n": 156,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d2aeb6341183d574",
+     "n": 276,
+     "p": "[Table 1"
+    },
+    {
+     "h": "cad23285a79b9f52",
+     "n": 184,
+     "p": "[Table 1"
+    },
+    {
+     "h": "67c305c105ff4e8b",
+     "n": 257,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australian expert panel, Rheumatology and Therapy (Springer), 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis', published 28 December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Moderate-certainty, strong statements:** full history and examination; HLA-B27 testing; a plain pelvic film for back pain with spondyloarthritis features, read in context; no CT; sacroiliac MRI (non-contrast T1 plus STIR) when nr-axSpA is suspected; and bone marrow oedema read in context, since it occurs in healthy people, athletes and women after childbirth.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d191119eae6fd411",
+     "n": 226,
+     "p": "[Table 1"
+    },
+    {
+     "h": "0369f50115452ef5",
+     "n": 196,
+     "p": "[Table 1"
+    },
+    {
+     "h": "7c5f0ee8321665cd",
+     "n": 229,
+     "p": "[Table 1"
+    },
+    {
+     "h": "fb9af7a8b3f077fa",
+     "n": 255,
+     "p": "[Table 1"
+    },
+    {
+     "h": "70d8744f48bc53ea",
+     "n": 200,
+     "p": "[Table 1"
+    },
+    {
+     "h": "11b799731177c75a",
+     "n": 269,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d9375893e55e4733",
+     "n": 229,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a48c5618117082b9",
+     "n": 270,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australian expert panel, Rheumatology and Therapy (Springer), 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis', published 28 December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Strong, but on low or very low certainty:** patient-centred shared care and education, CRP testing, long-term exercise, physiotherapy, no DMARD for axial disease, and an NSAID as the first drug.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "742e142ade05eb52",
+     "n": 248,
+     "p": "[Table 1"
+    },
+    {
+     "h": "13b54dcd103546f7",
+     "n": 174,
+     "p": "[Table 1"
+    },
+    {
+     "h": "5ed9c0dc55dd2797",
+     "n": 178,
+     "p": "[Table 1"
+    },
+    {
+     "h": "11dbf17d56a0767f",
+     "n": 178,
+     "p": "[Table 1"
+    },
+    {
+     "h": "912ed29575364d6e",
+     "n": 176,
+     "p": "[Table 1"
+    },
+    {
+     "h": "db28fb5ce4561234",
+     "n": 200,
+     "p": "[Table 1"
+    },
+    {
+     "h": "c567ae8ee7201f16",
+     "n": 234,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australian expert panel, Rheumatology and Therapy (Springer), 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis', published 28 December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Only conditional, on very low certainty:** sulfasalazine for peripheral disease, sacroiliac steroid injection, and systemic steroids. Panel agreement (out of 10) was lowest for steroid injection (8.3), physiotherapy (8.4), TNF-inhibitor dose reduction (8.7) and systemic steroids (8.9); every other statement scored 9.1 or above.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b82bc265ebd0cc14",
+     "n": 208,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a24301374b590284",
+     "n": 213,
+     "p": "[Table 1"
+    },
+    {
+     "h": "1c8060bcb91dca66",
+     "n": 199,
+     "p": "[Table 1"
+    },
+    {
+     "h": "912ed29575364d6e",
+     "n": 176,
+     "p": "[Table 1"
+    },
+    {
+     "h": "67c305c105ff4e8b",
+     "n": 257,
+     "p": "[Table 1"
+    },
+    {
+     "h": "11b799731177c75a",
+     "n": 269,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australian expert panel, Rheumatology and Therapy (Springer), 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis', published 28 December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/, retrieved 2026-09-23"
   }
  ]
 }

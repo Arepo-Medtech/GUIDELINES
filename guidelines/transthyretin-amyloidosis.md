@@ -1,9 +1,9 @@
 # Transthyretin (ATTR) amyloidosis: polyneuropathy and cardiomyopathy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with hereditary transthyretin amyloidosis with polyneuropathy (ATTRv-PN), and the cardiomyopathy (ATTR-CM, wild-type or variant) that often accompanies it: red flags, choosing and switching disease-modifying therapy (stabilisers and gene silencers), organ involvement and practical issues. AL amyloidosis is in `al-amyloidosis`; HCM and its phenocopies in `hypertrophic-cardiomyopathy`; heart failure care in `heart-failure`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **53 fragments or anchors re-checkable by machine; 3 doses.** **S1** DGAK and DGN (published 11 August 2026; international): 19 claims, quoted · **S2** Brito D (published 26 October 2023; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **55 fragments or anchors re-checkable by machine; 4 doses.** **S1** DGAK and DGN (published 11 August 2026; international): 21 claims, quoted · **S2** Brito D (published 26 October 2023; international): 12 claims, quoted
 
 > ⚠️ International guideline (DGAK/DGN, Germany, 2026). Australian practice follows the PBS listings below and may differ.
 
@@ -43,6 +43,8 @@
 - **Tafamidis (20 mg, or 61 mg with mixed phenotype) is first choice if the patient wants oral therapy,** and first line for very early FAP1 disease with p.(Val50Met), but it is a bridge: switch to a silencer at any sign of progression. It is not approved in stage 2. [S1]
 - **Diflunisal** may work as well as tafamidis but carries gastrointestinal, cardiac and renal toxicity. **Acoramidis** is approved only for ATTR-CM. [S1]
 - **Dosing burden:** vutrisiran is subcutaneous every three months; eplontersen monthly by autoinjector at home; patisiran IV every three weeks with premedication; inotersen weekly subcutaneous with monitoring for thrombocytopenia and kidney harm. [S1]
+- ⚠️ **Approved ATTRv-PN therapies and doses in Germany (S1 Table 1):** tafamidis 20 mg orally once daily (61 mg once daily for ATTR-CM), stage 1; diflunisal 250 mg orally twice daily, stages 1–2 (monitor kidney function, GI tolerance and cardiovascular risk); inotersen 284 mg subcutaneously once weekly, stages 1–2 (platelets, UPCR and eGFR, vitamin A supplementation); patisiran 0.3 mg/kg IV every 3 weeks with premedication, stages 1–2 (infusion reactions, vitamin A); vutrisiran 25 mg subcutaneously every 3 months, stages 1–2 (vitamin A); eplontersen 45 mg subcutaneously every 4 weeks by autoinjector, stages 1–2 (vitamin A). Coutinho stage 1 walks unaided, stage 2 walks with help, stage 3 is wheelchair-bound or bedridden; gene silencing started earlier may be continued in individual patients who reach stage 3. [S1]
+- **Practical choice (S1 Table 2):** vutrisiran is often preferred in stage 1–2 PN for convenience (quarterly injection, no premedication), and eplontersen is a monthly home autoinjector option; inotersen and patisiran are not recommended now that second-generation silencers are available. Tafamidis and diflunisal are not recommended when large-fibre neuropathy is present; tafamidis is most relevant when the cardiac phenotype is prominent. Diflunisal carries NSAID risks: avoid or limit it in kidney disease, significant heart failure or high GI bleeding risk. Acoramidis (oral, twice daily) has no PN approval and is recommended for ATTRv-CM only. [S1]
 
 ## Monitor and switch
 
@@ -78,11 +80,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Choice-of-treatment table (Table 1) and the drug comparison table (Table 2)** were stripped; doses beyond tafamidis strength and dosing intervals are not stated. | `input_unavailable` |
-| 2 | **ATTR-CM diagnosis in detail** (non-biopsy scintigraphy criteria, staging) was outside S1; it is now taken from S2, the World Heart Federation ATTR-CM consensus (Glob Heart 2023, CC BY, PMC10607607). S2's diagnostic criteria and algorithm figures (Figures 11–12) and its treatment table were not machine-read; the text version of each step is used. | `input_unavailable` |
-| 3 | **Drug approvals: the sources disagree because of their dates.** S2 (October 2023) calls tafamidis the only approved ATTR-CM therapy, with acoramidis still in a phase 3 trial; S1 (August 2026) lists three approved drugs (tafamidis 61 mg, acoramidis, vutrisiran). Both are shown; S1 is current. On the PBS, only tafamidis is listed for ATTR cardiomyopathy. | `observation` |
-| 4 | **Skipped source:** the 2024 ANZ Expert Consensus Statement on Cardiac Amyloidosis (HLC 33(4):420–442, CC BY) — ScienceDirect and heartlungcirc.org both returned a Cloudflare challenge. | `observation` |
-| 5 | **Licences:** S1 and S2 are both CC BY 4.0. The anchored source text is quoted verbatim in the verification file. | `observation` |
+| 1 | **S1's therapy table (Table 1) and practical-considerations table (Table 2)** are now read from the appended row lines: doses, dosing intervals, approved stages and monitoring for all six ATTRv-PN drugs are added. | `observation` |
+| 2 | **Place of patisiran and inotersen differs within S1:** its text calls them second line (patients stable on patisiran may stay on it); its Table 2 says neither is recommended now that second-generation silencers are available. Both are shown. | `observation` |
+| 3 | **ATTR-CM diagnosis in detail** (non-biopsy scintigraphy criteria, staging) was outside S1; it is now taken from S2, the World Heart Federation ATTR-CM consensus (Glob Heart 2023, CC BY, PMC10607607). S2's diagnostic criteria and algorithm figures (Figures 11–12) were not machine-read; the text version of each step is used. Its treatment table (Table 2) is now read but lists headings only, so it adds nothing. | `input_unavailable` |
+| 4 | **Drug approvals: the sources disagree because of their dates.** S2 (October 2023) calls tafamidis the only approved ATTR-CM therapy, with acoramidis still in a phase 3 trial; S1 (August 2026) lists three approved drugs (tafamidis 61 mg, acoramidis, vutrisiran). Both are shown; S1 is current. On the PBS, only tafamidis is listed for ATTR cardiomyopathy. | `observation` |
+| 5 | **Skipped source:** the 2024 ANZ Expert Consensus Statement on Cardiac Amyloidosis (HLC 33(4):420–442, CC BY) — ScienceDirect and heartlungcirc.org both returned a Cloudflare challenge. | `observation` |
+| 6 | **Licences:** S1 and S2 are both CC BY 4.0. The anchored source text is quoted verbatim in the verification file. | `observation` |
 
 ## Sources
 

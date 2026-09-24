@@ -1,9 +1,9 @@
 # Radioactive iodine-refractory differentiated thyroid cancer: local and systemic therapy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising radioactive iodine-refractory (RAI-refractory) differentiated thyroid cancer, referral, molecular testing, re-operation, radiotherapy and ablation, and choice of multikinase inhibitor, genotype-directed drug, immunotherapy or chemotherapy. Initial thyroid cancer surgery, RAI dosing, TSH suppression, medullary and anaplastic thyroid cancer are out of scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **67 fragments or anchors re-checkable by machine; 3 doses.** **S1** Canadian multidisciplinary consensus panel (published 4 November 2024; international): 20 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 43 claims; **100 fragments or anchors re-checkable by machine; 3 doses.** **S1** Canadian multidisciplinary consensus panel (published 4 November 2024; international): 32 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Canadian multidisciplinary consensus, 2024) for S1. Australian practice follows the PBS listings below and may differ.
 
@@ -47,6 +47,24 @@
 - **Cytotoxic chemotherapy is a last resort:** doxorubicin-based regimens give responses of around 20%. [S1]
 - **RAI resensitisation (for example BRAF/MEK inhibition) only within a clinical trial**; adding selumetinib to adjuvant RAI did not improve complete remission in a phase 3 trial. [S1]
 
+## The graded consensus recommendations (S1 tables)
+
+- **Rec 3.1 (weak; low-quality evidence): treat follicular cell-derived non-anaplastic carcinoma as at high risk of becoming RAI-refractory** with any of: FDG-PET positivity; poorly differentiated carcinoma; high-grade DTC (papillary, follicular or oncocytic); or DTC without high-grade features but with histologic or molecular adverse features strongly linked to refractoriness. [S1]
+- ⚠️ **Rec 3.2a (strong; expert opinion): refer anyone with structural progression within 12 months of RAI** to a medical or endocrine oncologist or a multidisciplinary tumour board. Consider referral for high risk of refractoriness, incurable locally advanced or metastatic structural disease, a disease-free interval under 12 months after RAI, FDG-avid disease, or concerning histopathology. [S1]
+- ⚠️ **Rec 3.2b–c (strong; expert opinion): expedite referral** for rapidly growing neck masses; symptomatic or rapidly progressing disease (RAI-naïve or refractory); disease not amenable to local therapy, inoperable or borderline resectable; high-grade carcinoma (PDTC, high-grade DTC); bulky or higher-stage disease; or disease threatening morbidity or death, such as impending structural or organ complications. The thyroid-cancer clinician who follows the patient after RAI is the most responsible physician for spotting and referring refractory disease. [S1]
+- **Rec 3.3 (weak; low): consider germline testing** (for example PTEN, DICER1, SDHx, TP53) in selected patients: tumours with distinctive histomorphological or immunohistochemical features suggesting inherited disease, or a hereditary cancer syndrome. [S1]
+- **Rec 3.4a–b (strong; expert opinion): order molecular testing when it is clinically relevant and actionable.** Triggers: before surgery, adverse histology (angioinvasion, high-grade features, dedifferentiation, adverse subtypes), distant metastases at diagnosis, or unresectable or borderline disease being considered for neoadjuvant therapy; after surgery, the first palliative (non-adjuvant) RAI; and at recurrence or progression, distant metastases or a patient judged inoperable or borderline inoperable. [S1]
+- **Rec 3.6a–b: essential biomarkers in RAI-refractory disease (strong; expert opinion)** are BRAF p.V600E immunohistochemistry, BRAF molecular testing, RET fusion and NTRK fusions (NTRK1, NTRK2, NTRK3). **Desirable where sample and access allow (weak; expert opinion):** NRAS, HRAS, KRAS, ALK fusion (and ALK immunohistochemistry), PPARG fusion, TERT promoter, NUTM1, and PTEN, SDHB, pan-RAS Q61R and 5-hmC immunohistochemistry. [S1]
+- **Rec 3.7a–c (local disease):** active surveillance for small-volume neck disease, especially in an operated field (weak; low). Consider resection (weak; expert opinion) for oligometastases, when quality of life would not be badly harmed, for new neck metastases in unoperated areas, or for growing recurrent neck disease confined to one region or near a major structure it may invade. **Borderline resectable** means large-volume neck disease unlikely to allow R0 resection because of bulky or widespread nodes (e.g. level VII, retropharyngeal) or invasion of the larynx, major vessels or a long segment of trachea. [S1]
+- ⚠️ **Rec 3.8a–c (airway; all weak, expert opinion):** before starting a TKI in unresectable or borderline disease, weigh quality of life and end-of-life wishes before a tracheostomy; a TKI may be tried before tracheostomy in selected patients after discussing risk and benefit; and do not delay a multikinase inhibitor in selected cases for fear of complications such as tracheal fistula. [S1]
+- **Rec 3.9a–3.11 (radiotherapy, ablation, neoadjuvant TKI):** consider EBRT for unresectable gross residual disease, very high neck-recurrence risk despite full gross resection, metastases where surgery is not advised or wanted, or after metastasectomy when recurrence would be risky or morbid (e.g. brain or spine) (weak; low). Offer SRS/SRT for brain metastases after neurosurgical review, and consider SABR for up to 5 extracranial oligometastases (both weak; low). Ethanol or radiofrequency ablation may suit growing neck metastases in operated fields away from critical structures (weak; low). Neoadjuvant TKI should be considered for unresectable or borderline locally advanced disease that may not have had RAI (strong; low). [S1]
+- **Rec 3.12–3.14 (systemic):** targeted therapy for confirmed actionable alterations (strong; low); immune checkpoint inhibitors once other options are exhausted and no actionable target exists (weak; low); chemotherapy in select cases with no other option (weak; low); RAI resensitisation ideally within a clinical trial (weak; low). [S1]
+
+## Targeted-drug results (S1 efficacy table)
+
+- **Multikinase and BRAF inhibitors:** lenvatinib (n=261) response rate 64.8%, grade ≥3 treatment-related adverse events 76%; dabrafenib (n=26) objective response 42%, grade ≥3 events 58%; dabrafenib plus trametinib (n=27) 48% and 48%; vemurafenib in papillary cancer, best overall response 38.5% without a prior VEGFR TKI (n=26) and 27.3% after one (n=22), with no complete responses, grade ≥3 events 65% and 68%. [S1]
+- **RET and NTRK inhibitors:** selpercatinib (n=19, non-medullary) objective response 58%, grade ≥3 events 30% (in 162 patients including medullary cancer); larotrectinib (pooled, n=21) 86% in DTC with grade ≥3 events 7%; entrectinib (n=13) 53.8% in thyroid cancer, grade ≥3 events 38.9% (in 193 NTRK-fusion patients). Response definitions differ between trials, so compare with care. [S1]
+
 ## Lenvatinib: dose and monitoring (eviQ)
 
 - **Lenvatinib (PBS authority) is for progressive, locally advanced or metastatic RAI-refractory differentiated thyroid cancer.** [S2]
@@ -80,7 +98,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The consensus recommendation tables and the management algorithm (Figure 2)** were stripped from the text; claims come from the narrative only. | `input_unavailable` |
+| 1 | **The consensus recommendation tables and the efficacy table** are now extracted and used, with their strength and evidence grades; **the management algorithm (Figure 2)** is a figure and is still missing. | `input_unavailable` |
 | 2 | **Drug doses:** lenvatinib and cabozantinib doses now come from S2 (eviQ 1919 and 4483). Doses of the genotype-directed drugs (RET, NTRK and BRAF inhibitors) are in neither source. | `input_unavailable` |
 | 3 | **Sorafenib:** S1 lists it with lenvatinib and cabozantinib as a multikinase option; the eviQ lenvatinib protocol (S2) links its thyroid sorafenib protocol only as discontinued. Both are shown; see the PBS banner. | `observation` |
 | 4 | **Starting dose of lenvatinib:** the SELECT trial and S2 use 24 mg daily, but S2's committee advises considering 14 mg for older or comorbid patients, a consensus position rather than trial evidence. S1 gives no dose. | `observation` |

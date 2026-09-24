@@ -1,18 +1,18 @@
 {
  "guideline": "guidelines/acute-hepatic-porphyria.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review' (2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC10335308 (NCBI efetch; Europe PMC returned 503)). Source text: NCBI efetch JATS XML of the PMC author manuscript (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23).",
+ "method": "OPEN AND QUOTED from American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review' (2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC10335308 (NCBI efetch; Europe PMC returned 503)). Source text: NCBI efetch JATS XML of the PMC author manuscript (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from Table 1 (the four types) and Table 2 (testing and monitoring, with its footnotes).",
  "summary": {
-  "total": 23,
-  "pass": 23,
+  "total": 27,
+  "pass": 27,
   "fail": 0
  },
  "claims": [
@@ -38,10 +38,24 @@
    "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
   },
   {
+   "claim": "**The four types (Table 1):** AIP, HCP and VP are autosomal dominant, present at 15–50 years and are commoner in women; HCP and VP can also affect the skin. ALAD porphyria is autosomal recessive, presents from childhood to adulthood and is commoner in men.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1. row 1] AHP type: AIP · Inheritance: AD · Age at presentation: 15-50 y · Gender predominance: F > M · Symptoms and signs: Acute … [Table 1. row 2] AHP type: HCP · Inheritance: AD · Age at presentation: 15-50 y · Gender predominance: F > M · Symptoms and signs: Acute, cutaneous … [Table 1. row 3] AHP type: VP · Inheritance: AD · Age at presentation: 15-50 y · Gender predominance: F > M · Symptoms and signs: Acute, cutaneous … [Table 1. row 4] AHP type: ALAD · Inheritance: AR · Age at presentation: Childhood-adulthood · Gender predominance: M > F · Symptoms and signs: Acute … [Table 1. footnote] AD, autosomal dominant; AR, autosomal recessive; F, female; M, male.",
+   "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
+  },
+  {
    "claim": "⚠️ **First test: a random (spot) urine for ALA, PBG, porphyrins and creatinine.** In an attack, ALA and PBG are at least 5 times the upper limit of normal, so a 24-hour collection is not needed.",
    "source": "S1",
    "verdict": "pass",
    "source_text": "Best Practice Advice 2: Initial diagnosis of AHP should be made by biochemical testing measuring ALA, PBG, porphyrins, and creatinine in a random urine sample. … During acute attacks, both ALA and PBG are elevated at least 5-fold the upper limit of normal. The levels are high enough that a random urine sample is sufficient and a 24-hour urine collection is not recommended.",
+   "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Normalise the spot urine ALA and PBG to creatinine; above 5 times the upper limit of normal is diagnostic. In ALAD porphyria only ALA is raised.**",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 2. row 1] Diagnostic biochemical testing: Random urine PBG, ALA, and creatinine c … c Sample should be normalized to creatinine, levels should be >5-fold the upper limit of normal for diagnosis. In 5-aminolevulinic acid dehydratase only ALA is elevated.",
    "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
   },
   {
@@ -131,6 +145,13 @@
    "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Givosiran laboratory panel (from the testing table):** comprehensive metabolic panel, plasma homocysteine, urinalysis, urine protein-to-creatinine ratio, B12 and folate, amylase and lipase. Do it before the first dose and before each of the first 3 monthly injections; if stable and tolerated, every 3 months for the next year, then at least every 6 months.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Monitoring on givosiran a , b: Comprehensive metabolic panel, plasma homocysteine urinalysis; urinary protein to creatinine ratio, B12/folate, amylase/lipase … b We recommend that the listed tests be performed before the start of givosiran and again just before each monthly injection of givosiran for 3 months. If the laboratory test results are stable and the drug is being well-tolerated, we recommend that laboratory monitoring be repeated once every 3 months for the next year and at least once every 6 months thereafter.",
+   "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Menstrual-cycle attacks** can be treated with hormonal suppression such as a GnRH agonist, with limited success.",
    "source": "S1",
    "verdict": "pass",
@@ -149,6 +170,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Liver enzymes should be monitored at least annually in AHP patients actively undergoing treatment. … abnormal liver enzymes should prompt diagnostic investigation for alternative etiologies.",
+   "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Annual monitoring list (from the testing table):** liver enzymes, creatinine and eGFR, and, from age 50, liver ultrasound with α-fetoprotein every 6 months.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Annual Monitoring: Liver enzymes, creatinine and eGFR, liver ultrasound, and α -fetoprotein every 6 mo after age 50 y",
    "locator": "American Gastroenterological Association (Wang B, Bonkovsky HL, Lim JK, Balwani M), Gastroenterology, 'AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review', 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/, retrieved 2026-09-23"
   },
   {

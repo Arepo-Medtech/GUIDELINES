@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/wilson-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer) 'Wilson disease: a summary of the updated AASLD Practice Guidance' (vol. 7, article e0150, published June 2023), 18 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10187853 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)')). S2: QUOTED from Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553) 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration' (published 7 April 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12645139). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a GRADE-graded Chinese multidisciplinary consensus (2025, CC BY, quoted), chosen because it states D-penicillamine and zinc doses in its text, which S1 lacks (S1's dose table was stripped). No Australian Wilson disease guideline was found (Europe PMC search for Australian authors or MJA/IMJ/JPCH, 2015-2026). Still not readable: EASL-ERN 2025 (Unpaywall: closed) and the ESPGHAN 2018 paediatric position paper (the University of Groningen repository copy returned a Cloudflare challenge). The S1 claims are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer) 'Wilson disease: a summary of the updated AASLD Practice Guidance' (vol. 7, article e0150, published June 2023), 20 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10187853 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)')). S2: QUOTED from Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553) 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration' (published 7 April 2025), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12645139). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a GRADE-graded Chinese multidisciplinary consensus (2025, CC BY, quoted), chosen because it states D-penicillamine and zinc doses in its text, which S1 lacks (S1's dose table was stripped). No Australian Wilson disease guideline was found (Europe PMC search for Australian authors or MJA/IMJ/JPCH, 2015-2026). Still not readable: EASL-ERN 2025 (Unpaywall: closed) and the ESPGHAN 2018 paediatric position paper (the University of Groningen repository copy returned a Cloudflare challenge). The S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (diagnostic findings by presentation) and S2 Table 1 (penicillamine, trientine tetrahydrochloride and zinc dosing and adverse effects; its DMSA, DMPS and Gandou rows are not carried). S1 Tables 1 (sex differences) and 3 (oral pharmacotherapy) have ragged rows and were not extracted.",
  "summary": {
-  "total": 29,
-  "pass": 11,
+  "total": 34,
+  "pass": 14,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
@@ -138,6 +138,32 @@
    "verdict": "pass",
    "source_text": "The Leipzig scoring system is recommended for the diagnosis of WD. Leipzig score can be calculated in a stepwise manner according to the order of the tests, including clinical manifestations, biochemical, genetic testing, and histological examination of liver biopsy. Once a total score of ≥ 4 is obtained, the diagnosis can be confirmed and treatment can be initiated (1A).",
    "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Copper findings by presentation (S1 table):** with no symptoms or organ damage, ceruloplasmin is low or mildly low (14–20 mg/dL), 24-hour urine copper mildly raised (above 40 μg), non-ceruloplasmin copper raised and liver copper above 75 μg/g, with normal histology. With hepatitis, steatosis or cirrhosis, urine copper is above 100 μg/24 h and liver copper above 250 μg/g; ceruloplasmin may be normal in hepatitis, is below 14 mg/dL in steatosis and can be below 5 mg/dL in cirrhosis. Alternatives to weigh are viral, autoimmune and drug-induced hepatitis, fatty liver from metabolic or alcohol causes, and cholestatic liver disease.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1577ba42a87919ff",
+     "n": 1510,
+     "p": "[TABLE 2"
+    }
+   ],
+   "locator": "Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer), 'Wilson disease: a summary of the updated AASLD Practice Guidance', vol. 7, article e0150, published June 2023, https://doi.org/10.1097/HC9.0000000000000150, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Acute liver failure pattern (S1 table):** an ALP-to-total-bilirubin ratio below 4 and AST-to-ALT above 2.2; ceruloplasmin may be low or high; urine copper above 100 μg/24 h and liver copper above 250 μg/g; Coombs-negative haemolysis (low haptoglobin, high reticulocytes and MCV); a raised INR; and low white cells and platelets where portal hypertension has caused hypersplenism. Biopsy shows hepatocyte necrosis with acute inflammation; the main alternatives are drug-induced liver injury and autoimmune hepatitis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59a02e8e78f62092",
+     "n": 671,
+     "p": "[TABLE 2"
+    }
+   ],
+   "locator": "Alkhouri N, Gonzalez-Peralta RP, Medici V, Hepatology Communications (AASLD/Wolters Kluwer), 'Wilson disease: a summary of the updated AASLD Practice Guidance', vol. 7, article e0150, published June 2023, https://doi.org/10.1097/HC9.0000000000000150, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Every newly diagnosed patient starts lifelong treatment;** stopping it leads to relapse, liver failure, transplant or neuropsychiatric deterioration.",
@@ -291,6 +317,30 @@
    "verdict": "pass",
    "source_text": "Trientine can be used in patients with all clinical forms of WD, especially those with neuropsychiatric symptoms and those who are allergic or intolerant to D-penicillamine. Iron supplementation should be avoided during trientine treatment as copper-iron chelates can produce toxic complexes … It is initially believed that the adverse effects of trientine are rare. However, with its widespread use, it has been found that the occurrence and incidence of adverse reactions after trientine treatment were comparable to those observed after D-penicillamine treatment, which requires further investigation. Potential adverse effects during trientine treatment include pancytopenia, hemorrhagic gastritis, loss of taste, systemic lupus erythematosus, and worsening of neurological symptoms. About 26% of patients with WD experience those corresponding symptoms during initial treatment",
    "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Trientine tetrahydrochloride (Cuprior) doses, S2 drug table (from the product information, in mg of trientine base):** adults, with or without neurological or psychiatric symptoms, 450–975 mg/day in two divided doses, and the same range for maintenance (typically after two years). Children start at 150–200 mg/day and increase slowly (the table's increment, printed as 225-600 mg/day, is unclear). Adverse effects: urticaria or rash, joint or muscle pain, proteinuria, haematuria, sideroblastic anaemia and paradoxical neurological worsening.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 4] -: Trientine (tetrahydrochloride) · Dosing: Children: 150-200 mg/day, slowly increasing by 225-600 mg/day for trientine tetrahydrochloride (Cuprior) in two divided doses. Adults without neurological or psychiatric symptoms: 450-975 mg/day for trientine tetrahydrochloride (Cuprior) in two divided doses. Adults with neurological or psychiatric symptoms: 450-975 mg /day for trientine tetrahydrochloride (Cuprior) in two divided doses. Maintenance dose (typically after two years): 450-975 mg /day for trientine tetrahydrochloride (Cuprior). · Adverse Effects: Rticaria/rash, arthralgia/myalgia, proteinuria, haematuria, sideroblastic anaemia, and paradoxical worsening of neurological symptoms. … [Table 1 footnote] Note : The doses of penicillamine and zinc salts are based on experience, while the doses of trientine dihydrochloride and tetrahydrochloride are based on summary of product characteristics. The recommended dosage of trientine dihydrochloride and tetrahydrochloride is expressed in mg of trientine base, not in mg of trientine salt.",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Penicillamine in S2's drug table (doses based on experience):** children start at 125–250 mg/day and increase by 125–250 mg a week to 20 mg/kg/day in two doses (maximum 1500 mg/day). Adults without neurological or psychiatric symptoms aim for 1000–1500 mg/day in two doses; those with such symptoms start at 125–250 mg/day and increase by 125–250 mg a week to 1000–1500 mg/day. Maintenance, typically after 2 years, is 10–20 mg/kg/day in two doses. Besides early allergic, kidney, marrow and neurological reactions it can impair smell and taste, and late reactions include a lupus-like syndrome, Goodpasture's syndrome, elastosis perforans serpiginosa and poor wound healing.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 1] -: Penicillamine · Dosing: Children: 125-250 mg/day, increased slowly by dose increments of 125-250 mg/week to an initial target dose of 20 mg/kg/day in two divided doses (maximum 1500 mg/day). Adults without neurologic or psychiatric symptoms: Initial target dose of 1000-1500 mg/day in two divided doses. Adults with neurological or psychiatric symptoms: 125-250 mg/day, increased slowly by dose increments of 125-250 mg/week to an initial target dose of 1000-1500 mg/day. Maintenance dose (typically after 2 years): 10-20 mg/kg/day in two divided doses. · Adverse Effects: Early reactions: allergic reactions (such as fever, rash), proteinuria, myelosuppression (neutropenia, thrombocytopenia), smell and taste disorders, paradoxical neurological worsening. Later reactions: lupus-like syndrome, Goodpasture's syndrome, elastosis perforans serpiginosa, and poor wound/surgical incision healing. … [Table 1 footnote] Note : The doses of penicillamine and zinc salts are based on experience",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Zinc salts in S2's drug table:** under 6 years, 25 mg twice daily; 6–16 years or under 50 kg, 25 mg three times daily; over 16 years or over 50 kg, 50 mg three times daily. Adverse effects: nausea, abdominal pain, gastritis and gastric ulcers, and paradoxical neurological worsening.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 6] -: Zinc salts · Dosing: < 6 years of age: 25 mg twice daily. 6-16 years of age or < 50 kg of body weight: 25 mg three time daily. >16 years of age or >50 kg of body weight: 50 mg three times daily. · Adverse Effects: Nausea, abdominal pain, gastritis and gastric ulcers, and paradoxical worsening of neurological symptoms.",
+   "locator": "Yang RM, Feng T, Cai W, Yu XE, Wang G, Han YZ, Fan CX, Xia Q, Chen HB, Wang XP et al., Current Neuropharmacology (doi 10.2174/011570159X349587250311072553), 'Chinese Multidisciplinary Expert Consensus on Orphan/Anticopper Drugs and Other Non-drug Management of Hepatolenticular Degeneration', published 7 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12645139/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Zinc dosing (S2):** adults and older children 150–220 mg/day of elemental zinc in 3 divided doses; children aged 5–15 years under 50 kg 75 mg/day in 3 doses; under 5 years 50 mg/day in 2 doses. Take on an empty stomach, at least 2 hours apart from a chelator. Do not use zinc alone for a severe acute presentation.",

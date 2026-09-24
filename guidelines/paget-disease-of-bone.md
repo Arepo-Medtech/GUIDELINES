@@ -1,15 +1,15 @@
 # Paget disease of bone in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with classical Paget disease of bone: who to test, confirming extent, when and what to treat, adverse effects of bisphosphonates, and orthopaedic surgery. Rare Paget-like syndromes are out of scope. Osteoporosis and fracture prevention in general: see `osteoporosis`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **44 fragments or anchors re-checkable by machine; 4 doses.** **S1** Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.) (published 25 February 2019 (vol 34, issue 4); international): 19 claims, quoted · **S2** Britton C (March 2012; AU): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 38 claims; **92 fragments or anchors re-checkable by machine; 4 doses.** **S1** Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.) (published 25 February 2019 (vol 34, issue 4); international): 29 claims, quoted · **S2** Britton C (March 2012; AU): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Paget's Association UK, 2019; endorsed by ASBMR, the European Calcified Tissue Society, the International Osteoporosis Foundation, the Bone Research Society and the British Geriatrics Society). Australian practice follows the PBS listings below and may differ.
 
 > 🇦🇺 **S2 is an Australian review, not a guideline** (Australian Family Physician, 2012; author a zoledronic acid trial investigator). It gives Australian doses and PBS context and **disagrees with S1 on treating asymptomatic disease**; both are shown. It predates S1 by seven years.
 
-> The guideline's graded recommendations sit in tables, which were stripped. The claims below come from the abstract, which states the five most important recommendations, and from the evidence narrative.
+> The guideline's graded recommendations sit in tables. Tables 1–27 (one per clinical question, with evidence quality and recommendation) are now appended row by row and used below alongside the abstract's five key recommendations and the evidence narrative; the summary table (Table 28) and research-questions table (Table 29) were not extracted.
 
 ---
 
@@ -23,8 +23,10 @@
 - **Screen with serum total alkaline phosphatase (ALP) plus liver function tests** to look for metabolically active disease. [S1]
 - ⚠️ **A normal ALP does not exclude Paget disease.** In the only population study, total ALP had a sensitivity of 57.7%; only 11 of 26 people (42%) with radiological Paget disease had a raised ALP. [S1]
 - **Bone turnover markers rise in many diseases**, so they cannot diagnose Paget disease on their own. [S1]
+- **If total ALP is normal but suspicion of active disease is high, bone-specific ALP, PINP or urinary NTX may be considered** (S1 Table 6; evidence very low). [S1]
 - **Use a radionuclide bone scan as well as targeted X-rays** to fully and accurately map metabolically active disease. [S1]
 - **X-ray features are non-specific one by one but usually diagnostic in combination.** [S1]
+- **Initial X-rays (S1 Table 3): abdomen, both tibias, skull and facial bones,** which detect about 93% of Pagetic lesions against 79% for an abdominal film alone (evidence very low). Features to look for (S1 Table 2): osteolytic areas, cortical and trabecular thickening, loss of the cortex–medulla distinction, osteosclerosis, bone expansion and deformity. [S1]
 - **MRI and CT are not usually needed for diagnosis** but are very useful for complications: basilar invagination, spinal stenosis and osteosarcoma. [S1]
 - 🇦🇺 **Common in Australia:** Paget disease affects 2–4% of adults over 55 and is common in countries with much British ancestry, including Australia; no recent Australian prevalence study exists. It is now usually found by chance (raised ALP or an X-ray); lifetime osteosarcoma risk is under 1%. [S2]
 - ⚠️ 🇦🇺 **Check 25-hydroxyvitamin D:** osteomalacia can also cause bone pain with a raised ALP, and vitamin D deficiency must be corrected before a bisphosphonate to avoid hypocalcaemia. In liver disease, ALP isoenzymes or bone resorption markers help. [S2]
@@ -35,9 +37,14 @@
 - **In a double-blind trial of 357 patients, one 5 mg IV dose of zoledronic acid relieved pain more often than oral risedronate 30 mg daily for 2 months** (RR = 1.36). [S1]
 - **The effect lasts:** 5 years after a single 5 mg zoledronic acid dose, 88% still had a normal total ALP, against 47% after oral risedronate (extension study, high attrition). [S1]
 - ⚠️ **Treat symptoms, not the ALP number.** A symptom-directed strategy is recommended over treat-to-target ALP normalisation; in PRISM, clinical fractures were similar in both arms. [S1]
+- **Asymptomatic, metabolically active disease (S1 Table 15):** a bisphosphonate may be considered to suppress activity, but the clinical benefit is uncertain (a conditional recommendation, high-quality evidence for the effect on bone turnover). Nitrogen-containing bisphosphonates work better than non-nitrogen ones, and zoledronic acid is the most effective. [S1]
 - **No trial or observational study shows that treating asymptomatic, metabolically active disease prevents complications.** [S1]
 - **Calcitonin has no randomised evidence against placebo or other osteoclast inhibitors,** and long-term calcitonin for osteoporosis has been linked to a higher risk of some cancers. [S1]
+- **Calcitonin may be considered for short-term treatment of bone pain when bisphosphonates are contraindicated** (S1 Table 20; evidence very low). It lowers pain and ALP, but costs much more than bisphosphonates and long-term use has been linked to cancer. [S1]
 - **Denosumab 60 mg subcutaneously every 6 months rests only on two case reports,** in patients who could not take bisphosphonates; ALP and bone pain improved. [S1]
+- **Denosumab is not recommended for Paget disease itself,** but may be considered for a giant cell tumour complicating it when the tumour cannot be resected (S1 Table 21; evidence very low). [S1]
+- **Neurological dysfunction (such as spinal cord involvement):** a trial of calcitonin may be considered as part of treatment, and a bisphosphonate may also be considered though few studies support it (S1 Table 14; evidence very low). [S1]
+- ⚠️ **Not recommended, for lack of evidence (S1 Tables 8–13 and 16; all very low quality):** bisphosphonates to improve quality of life, to prevent fractures, to slow osteoarthritis or hearing loss, to reduce blood loss at elective orthopaedic surgery, to prevent or treat deformity, or to prevent neoplastic transformation. S1 words insufficient evidence as 'not recommended'. [S1]
 - 🇦🇺 **Who to treat (S2):** symptomatic disease (PBS-subsidised); a trial of therapy when pain localises to pagetic bone. S2 also argues for treating **asymptomatic** disease in the long bones, vertebrae or skull base, and younger patients with joint involvement such as the hip, to prevent complications. ⚠️ S1 found no evidence that this prevents complications. [S2]
 - 🇦🇺 **Give a bisphosphonate before elective surgery** (such as joint replacement) on metabolically active pagetic bone, to reduce bleeding. (S2) [S2]
 - 🇦🇺 **Australian regimens (S2):** zoledronic acid 5 mg IV once, infused over at least 15 minutes; or oral alendronate 40 mg daily for 3–6 months; or oral risedronate 30 mg daily for 2 months. Oral courses are stopped at remission, not continued long term. Pamidronate has largely been replaced by zoledronic acid; etidronate, tiludronate and calcitonin are largely obsolete. [S2]
@@ -52,11 +59,14 @@
 ## Follow-up
 
 - 🇦🇺 **Monitor ALP every 3–6 months until normal, then yearly once treatment stops (S2).** Relapse is common, can come years later and merits re-treatment; recurrent pain or progressing lytic lesions may precede a rise in ALP. (S1 favours treating symptoms over an ALP target.) [S2]
+- **Bone markers after treatment (S1 Tables 22–23; evidence very low):** measure PINP to predict lesion extent on scintigraphy after a bisphosphonate (it outperformed total ALP, but is dearer and less available); do not use bone turnover markers to predict whether bone pain will respond. [S1]
 - 🇦🇺 **Do not neglect non-drug measures:** shoe raises or orthotics for leg shortening from deformity can help pain and gait. (S2) [S2]
 
 ## Surgery
 
 - **Offer total hip or knee replacement for osteoarthritis when medical treatment is not enough.** No surgical approach is favoured over another. [S1]
+- **Joint replacement in Paget disease (S1 Table 25):** results are good in many patients, with more data for hip than knee; heterotopic calcification is common after hip replacement and aseptic loosening may be slightly more likely. **Osteotomy** may be considered for osteoarthritis when medical treatment is inadequate, and **spinal surgery** for spinal stenosis or cord compression (S1 Tables 26–27; evidence very low). [S1]
+- **Fix fractures through Pagetic bone surgically** (most often femur and tibia); outcomes in femoral neck and subtrochanteric fractures are poor, and no technique is favoured (S1 Table 24; evidence very low). [S1]
 - ⚠️ **Femoral neck fractures through Pagetic bone often fail to unite:** non-union in 8 of 11 in one UK series and 11 of 11 in another. [S1]
 
 ---
@@ -75,12 +85,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The graded recommendation tables** (Tables 3–28, including recommendation strength, regimens for pamidronate and risedronate, and the summary table) were stripped; only the abstract's five key recommendations and the narrative are used. | `input_unavailable` |
-| 2 | **Neurological complications, hearing loss, deformity and pre-operative treatment**: the source found insufficient evidence and its tables hold the statements; not claimed. | `input_unavailable` |
-| 3 | **Prophylactic zoledronic acid for gene carriers (ZiPP trial)** was pending when the guideline was written and is not covered. | `observation` |
-| 4 | **Australia:** the PBS row lists calcitonin salmon, pamidronic acid, risedronic acid and zoledronic acid. The guideline favours zoledronic acid and does not recommend calcitonin on its evidence; PBS access for each drug is in the table above. | `observation` |
-| 5 | **S1 and S2 disagree on asymptomatic disease and on ALP monitoring.** S1 (UK 2019) found no evidence that treating asymptomatic, metabolically active disease prevents complications and recommends symptom-directed treatment over ALP normalisation; S2 (Australia 2012) supports treating asymptomatic disease at high-risk sites and follows ALP to remission and relapse. S1 is newer and evidence-graded; both are shown. | `observation` |
-| 6 | **Counterpart:** general osteoporosis and fracture prevention is in `osteoporosis`, which does not cover Paget disease. | `observation` |
+| 1 | **S1's per-question tables (Tables 1–27)** are now appended row by row and used above. **The summary of recommendations (Table 28, ragged rows) and the research-questions table (Table 29, no header row) were not extracted.** Pamidronate and risedronate regimens are not in the clean tables; S2 gives the Australian regimens. | `input_unavailable` |
+| 2 | **Neurological complications, hearing loss, deformity and pre-operative treatment** are now covered from S1's tables (Tables 11–14): insufficient evidence for bisphosphonates in hearing loss, deformity and perioperative blood loss, and a conditional trial of calcitonin or bisphosphonate for neurological dysfunction. | `observation` |
+| 3 | **S1 and S2 disagree on pre-operative bisphosphonate:** S2 recommends one before elective surgery on active Pagetic bone to reduce bleeding; S1 (Table 12) finds the blood-loss data conflicting and does not recommend bisphosphonates for this. Both are shown. | `observation` |
+| 4 | **Prophylactic zoledronic acid for gene carriers (ZiPP trial)** was pending when the guideline was written and is not covered. | `observation` |
+| 5 | **Australia:** the PBS row lists calcitonin salmon, pamidronic acid, risedronic acid and zoledronic acid. The guideline favours zoledronic acid and does not recommend calcitonin on its evidence; PBS access for each drug is in the table above. | `observation` |
+| 6 | **S1 and S2 disagree on asymptomatic disease and on ALP monitoring.** S1 (UK 2019) found no evidence that treating asymptomatic, metabolically active disease prevents complications and recommends symptom-directed treatment over ALP normalisation; S2 (Australia 2012) supports treating asymptomatic disease at high-risk sites and follows ALP to remission and relapse. S1 is newer and evidence-graded; both are shown. | `observation` |
+| 7 | **Counterpart:** general osteoporosis and fracture prevention is in `osteoporosis`, which does not cover Paget disease. | `observation` |
 
 ## Sources
 

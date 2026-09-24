@@ -1,9 +1,9 @@
 # Gyrate atrophy of the choroid and retina (ornithine aminotransferase deficiency)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, diagnosis, metabolic treatment (arginine-restricted diet with low-protein formula, pyridoxine, creatine, lysine) and ophthalmic management of cystoid macular oedema in gyrate atrophy of the choroid and retina (GACR). Other inherited retinal dystrophies are out of scope. Urea cycle and hyperammonaemia emergencies: see `metabolic-disorders-children`. PBS access (essential amino acid formulas) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 25 claims; **48 fragments or anchors re-checkable by machine; 2 doses.** **S1** Aktaşoğlu EÖ (published 16 February 2026; international): 13 claims, quoted · **S2** Balfoort BM (published 6 January 2025; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **54 fragments or anchors re-checkable by machine; 2 doses.** **S1** Aktaşoğlu EÖ (published 16 February 2026; international): 14 claims, quoted · **S2** Balfoort BM (published 6 January 2025; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International sources: S1 is a single-centre case series of 7 patients (Turkey, 2026) and S2 a registry cohort of 27 patients (Netherlands, 2025). **Neither is a guideline:** no consensus on treatment exists anywhere. Australian practice follows the PBS listings below and may differ.
 
@@ -43,6 +43,7 @@
 ## Eye treatment
 
 - **Cystoid macular oedema is treated with topical NSAIDs (e.g. nepafenac), often with a carbonic anhydrase inhibitor (acetazolamide, brinzolamide);** responses in GACR are inconsistent and were mostly unsatisfactory here. [S1]
+- **Per-patient eye findings (S1 Table 2):** cystoid macular oedema in five of the six patients with data; on treatment it partly resolved in two (patients 1 and 4), stayed stable in two (2 and 3) and worsened in one (5). Two patients (1 and 2) had posterior subcapsular cataract. [S1]
 - **Subtenon platelet-rich plasma and topical CoQ10/vitamin E TPGS are experimental** and cannot be recommended; neither gave a lasting benefit. [S1]
 
 ## Follow up
@@ -67,7 +68,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Doses** of creatine and the arginine or protein allowance are in neither source's text (the patient tables were stripped). S2 reports the pyridoxine (mean 260 mg a day) and L-lysine (2 to 15 g a day) doses its patients used, not recommended doses. | `input_unavailable` |
+| 1 | **Doses** of creatine and the arginine or protein allowance are in neither source's text. S1's patient table of clinical characteristics and treatment (Table 1) has merged cells and was not extracted; its eye-findings table (Table 2) is now used above but holds no doses. S2 reports the pyridoxine (mean 260 mg a day) and L-lysine (2 to 15 g a day) doses its patients used, not recommended doses. | `input_unavailable` |
 | 2 | **L-lysine:** S1 cites a report that it lowered plasma ornithine in 5 pyridoxine-unresponsive patients; in S2's cohort it had no clear effect and caused gastrointestinal side effects. Both are shown. | `observation` |
 | 3 | **Evidence:** a 7-patient retrospective case series (S1) and a 27-patient registry cohort (S2). No guideline, consensus statement or GeneReviews chapter for GACR was found (Europe PMC and PubMed searches, September 2026); the AAO EyeWiki page is an education resource, not a guideline, and was not used. | `observation` |
 | 4 | **Proline** is named as a possible supplement but no use or dose is described. | `input_unavailable` |

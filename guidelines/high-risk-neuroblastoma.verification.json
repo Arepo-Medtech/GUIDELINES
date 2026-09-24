@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/high-risk-neuroblastoma.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber, Aust Prescr 2026;49(3):112 'Eflornithine for neuroblastoma (new drug comment)' (published 2 June 2026 (finalised 13 April 2026)), 14 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13268836). S2: PARAPHRASED AND HASH-ANCHORED from Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9) 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance' (published 20 September 2021), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8563639). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, European expert practical guidance (consensus of 11 European authors reached at a virtual advisory-board meeting funded by EUSA Pharma, the maker of dinutuximab beta) on the SIOPEN dinutuximab beta regimen and its toxicities; S1 claims and anchors are unchanged. Searches (Europe PMC, 2026-09-24): neuroblastoma guideline/consensus/recommendation titles 2016-2026 and SIOPEN/COG treatment guidance. Found and not usable: NCCN Neuroblastoma 2.2024 (unusable terms), ICMR 2017 consensus and the French SFCE relapse guidelines (closed access), the 2025 Latin American anti-GD2 consensus (JCO Global Oncology, CC BY-NC-ND; ascopubs.org returned a Cloudflare 403, not bypassed), SIOPEN 2026 imaging recommendations (imaging only). No open SIOPEN or COG whole-pathway treatment guideline was found.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber, Aust Prescr 2026;49(3):112 'Eflornithine for neuroblastoma (new drug comment)' (published 2 June 2026 (finalised 13 April 2026)), 15 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13268836). S2: PARAPHRASED AND HASH-ANCHORED from Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9) 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance' (published 20 September 2021), 17 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8563639). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, European expert practical guidance (consensus of 11 European authors reached at a virtual advisory-board meeting funded by EUSA Pharma, the maker of dinutuximab beta) on the SIOPEN dinutuximab beta regimen and its toxicities; S1 claims and anchors are unchanged. Searches (Europe PMC, 2026-09-24): neuroblastoma guideline/consensus/recommendation titles 2016-2026 and SIOPEN/COG treatment guidance. Found and not usable: NCCN Neuroblastoma 2.2024 (unusable terms), ICMR 2017 consensus and the French SFCE relapse guidelines (closed access), the 2025 Latin American anti-GD2 consensus (JCO Global Oncology, CC BY-NC-ND; ascopubs.org returned a Cloudflare 403, not bypassed), SIOPEN 2026 imaging recommendations (imaging only). No open SIOPEN or COG whole-pathway treatment guideline was found. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 2 (management of dinutuximab beta adverse events) and S1 Table 1 (product summary) are paraphrased from the row lines. S2 Table 1 (key points box) was not extracted (merged cells).",
  "summary": {
-  "total": 26,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 26
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -258,6 +258,87 @@
    "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
   },
   {
+   "claim": "⚠️ **Pain, further detail (S2 Table 2):** paracetamol or ibuprofen are advised for the first cycle or cycles and may be dropped in later cycles that are painless. Gabapentin may be paused between courses or given without a break, and is tapered off when dinutuximab beta ends. With daily infusions, morphine can continue for 4 h after each infusion finishes at a lower rate (for example 0.01 mg/kg/h). Hyoscine butylbromide can help abdominal pain; if pain stays uncontrolled, add IV ketamine and consider changing the antibody's rate and dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ffc2c658e9d96ff0",
+     "n": 1437,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Fever (S2 Table 2):** paracetamol, ibuprofen or metamizole (where licensed) can prevent or treat it. Treat febrile neutropenia with antibiotics under local guidelines at least until cultures are negative and nothing else suggests bacterial infection; fever lasting beyond 48–72 h despite adequate care should prompt a search for other causes, such as fungal or viral infection. A well-tolerated fever that is not very high may need no supportive treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d916071211a10f5",
+     "n": 777,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Hypersensitivity by grade (S2 Table 2):** grade 1–2, the infusion may be paused or slowed while symptoms are treated; grade 3 or above, interrupt at once and treat; severe, life-threatening reactions, stop and discontinue for good, with IV antihistamine, adrenaline and steroids (adrenaline may be intramuscular or slow IV in anaphylaxis). Keep steroids for severe and life-threatening reactions.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "475e9bec493e484d",
+     "n": 916,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Capillary leak and eyes (S2 Table 2):** severe leak calls for fluid restriction, human albumin solution when albumin is low, oxygen for hypoxaemia and, very rarely, slowing or pausing the infusion. For visual effects, arrange a full eye examination with follow-up; corrective glasses for pupillary palsy, sunglasses when sunlight worsens symptoms, and 1% pilocarpine can help.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39b82ca1dfabec98",
+     "n": 691,
+     "p": "[Table 2"
+    },
+    {
+     "h": "c9adbaf88a81f083",
+     "n": 362,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other effects (S2 Table 2):** mild diarrhoea needs fluids, severe diarrhoea loperamide or racecadotril. Moderate neuropathy: pause dinutuximab beta and restart once symptoms have gone. Blood-count falls usually need only blood-product support under local practice; check electrolytes often and correct fluids as needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf3eb74d90b727b5",
+     "n": 181,
+     "p": "[Table 2"
+    },
+    {
+     "h": "8496d542a0a59858",
+     "n": 184,
+     "p": "[Table 2"
+    },
+    {
+     "h": "c768bd651d54d028",
+     "n": 395,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Eflornithine is an oral maintenance drug to lower relapse risk** for patients whose disease has at least partly responded to earlier multiagent, multimodality treatment.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -369,6 +450,19 @@
      "h": "d488361259f2b91a",
      "n": 131,
      "p": "For peop"
+    }
+   ],
+   "locator": "Australian Prescriber, Aust Prescr 2026;49(3):112, 'Eflornithine for neuroblastoma (new drug comment)', published 2 June 2026 (finalised 13 April 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC13268836/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Product:** eflornithine is marketed as Ifinwil (Norgine), 192 mg oral tablets, approved for adults and children with high-risk neuroblastoma that has responded to earlier multiagent, multimodality treatment.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "201bafa024f90205",
+     "n": 481,
+     "p": "[Table 1"
     }
    ],
    "locator": "Australian Prescriber, Aust Prescr 2026;49(3):112, 'Eflornithine for neuroblastoma (new drug comment)', published 2 June 2026 (finalised 13 April 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC13268836/, retrieved 2026-09-23"

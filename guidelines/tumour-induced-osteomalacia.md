@@ -1,9 +1,9 @@
 # Tumour-induced osteomalacia: recognition, diagnosis and management
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults (and the rare child) with suspected or confirmed tumour-induced osteomalacia (FGF23-secreting phosphaturic mesenchymal tumour): who to test, biochemical work-up, referral, tumour localisation, surgery, follow-up and medical therapy including burosumab. X-linked hypophosphataemia: see `x-linked-hypophosphataemia`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **48 fragments or anchors re-checkable by machine; 2 doses.** **S1** Jan de Beur SM (2023 (vol 293, pp 309–328); international): 21 claims, quoted · **S2** Jiang Y (published 2021; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **66 fragments or anchors re-checkable by machine; 2 doses.** **S1** Jan de Beur SM (2023 (vol 293, pp 309–328); international): 26 claims, quoted · **S2** Jiang Y (published 2021; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (expert Delphi consensus, Journal of Internal Medicine 2023; endorsed by ASBMR, the European Calcified Tissue Society and the IOF after review by societies including the Australian and New Zealand Bone and Mineral Society). Australian practice follows the PBS listings below and may differ.
 
@@ -28,9 +28,14 @@
 - **Confirm renal phosphate wasting:** collect fasting serum and second-morning-void urine phosphate and creatinine together, and calculate TRP and TmP/GFR. A low TmP/GFR or %TRP raises suspicion of TIO. [S1]
 - **Vitamin D deficiency does not rule TIO out.** Hypophosphataemia that persists after vitamin D is corrected should prompt consideration of TIO. [S1]
 - **1,25(OH)2D is typically low or inappropriately normal.** Interpret FGF23 with caution (assays are not standardised); a low or low-normal FGF23 points away from TIO. [S1]
+- **Typical TIO biochemistry against adult reference ranges (S1 Table 3; assays and ranges vary by laboratory):** low serum phosphate (range 0.81–1.45 mmol/L), low TmP/GFR (0.80–1.35 mmol/L) and low %TRP (85–95); raised ALP; calcium slightly low or normal; PTH raised or normal; 1,25(OH)2D low or inappropriately normal; 25(OH)D normal, though deficiency is common and can coexist; intact FGF23 raised or inappropriately normal; C-terminal FGF23 raised. [S1]
+- **An intact FGF23 above 30 pg/mL is a sensitive cut-off for FGF23-mediated hypophosphataemia;** results depend on the assay (four intact and one C-terminal FGF23 assays exist). Plasma phosphate runs 0.06–0.1 mM below serum phosphate, and normal phosphate, ALP and TmP/GFR are all higher in children than in adults. [S1]
+- ⚠️ **Other FGF23-mediated causes to exclude (S1 Table 1):** inherited (XLH/PHEX, ADHR/FGF23, ARHR/DMP1, ENPP1 or FAM20C, cutaneous skeletal hypophosphataemia syndrome/RAS, fibrous dysplasia/GNAS, Jansen metaphyseal chondrodysplasia/PTH1R, NF1, osteoglophonic dysplasia/FGFR1) and acquired: chronic alcohol use and iron infusions (iron polymaltose, ferric carboxymaltose, saccharated ferric oxide). [S1]
+- **Causes not driven by FGF23:** renal (HHRH, hyperparathyroidism, idiopathic infantile hypercalcaemia, Fanconi syndrome); vitamin D deficiency or metabolism defects; poor intake or absorption (coeliac disease, gastric bypass, IBD), phosphate binders and antacids, alcoholism, prematurity; transcellular shifts (diabetic ketoacidosis, hyperventilation, refeeding, respiratory alkalosis); and drugs: aminoglycosides, tenofovir, adefovir, bisphosphonates, catecholamines, cisplatin, ifosfamide, streptozocin, acetazolamide, thiazide and loop diuretics, glucose or insulin infusion, imatinib, mannitol, salicylate, sirolimus and tetracyclines. [S1]
 
 ## Refer, test genes, localise
 
+- **Gene panel to exclude inherited hypophosphataemia (S1 Table 4):** DMP1, ENPP1 and FAM20C (autosomal recessive rickets), FGF23 (autosomal dominant rickets), FGFR1 (osteoglophonic dysplasia), GNAS (fibrous dysplasia/McCune-Albright), NF1, PHEX (XLH), PTH1R (Jansen), HRAS and NRAS (cutaneous skeletal hypophosphataemia syndrome), SLC34A1 (hypophosphataemia with nephrocalcinosis) and SLC34A3 (HHRH). [S1]
 - **Refer once renal phosphate wasting and TIO are suspected** to a metabolic bone specialist or endocrinologist at a centre experienced in TIO. [S1]
 - **Genetic testing:** ideally in all children and young adults suspected of TIO, and strongly considered in adults with renal phosphate wasting, especially when no tumour is found. [S1]
 - **Localise with functional imaging first** (somatostatin-receptor imaging such as 68Ga-DOTATATE, or FDG-PET, usually whole-body), then MRI or CT to pinpoint the lesion and plan surgery. [S1]
@@ -75,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The graded recommendation statements** (Table 2), the list of other causes of hypophosphataemia (Table 1), the laboratory table and imaging sensitivities were stripped with the tables. | `input_unavailable` |
+| 1 | **The graded recommendation statements** (Table 2, merged cells) and **imaging sensitivities** (Table 5, ragged rows) could not be extracted and are still missing. The list of other causes of hypophosphataemia (Table 1), the laboratory table (Table 3) and the gene panel (Table 4) are now used. | `input_unavailable` |
 | 2 | **Burosumab dosing** is not in S1's narrative (it refers to the Jan de Beur protocol); S2 now gives a TIO starting dose (0.5 mg/kg every 4 weeks). Check the Australian product information, which may differ. | `observation` |
 | 3 | **S1 and S2 differ on post-operative follow-up and on first-line medical therapy.** S1 measures phosphate frequently until normal, then yearly, and reserves burosumab for severe, unresectable or non-localisable disease; S2 checks every 6 months then yearly with DXA, and treats burosumab and conventional therapy as equal first options for inoperable disease. Both are shown. | `observation` |
 | 4 | **Approval status:** the source lists burosumab approval for non-resectable or non-localisable TIO in the EU, USA, Japan and China; it does not mention Australia. PBS access (authority) is in the table above. | `observation` |

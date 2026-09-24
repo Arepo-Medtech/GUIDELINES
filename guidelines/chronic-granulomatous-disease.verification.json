@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/chronic-granulomatous-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -11,10 +11,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Leiding JW et al., Journal of Human Immunity 'How I Treat: Chronic granulomatous disease' (published online 16 April 2026), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13177424). S2: QUOTED from Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250) 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis' (published 16 June 2026), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13271007). S3: QUOTED from Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0) 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism' (published 22 May 2026), 5 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13349871). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2 (ASCIA consensus on IEI molecular diagnosis) and S3 (EBMT/ESID 2026 HSCT guidelines), both from Europe PMC JATS XML through pmc_text.py with tables stripped, quoted under CC BY 4.0. The S1 claims are unchanged.",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Leiding JW et al., Journal of Human Immunity 'How I Treat: Chronic granulomatous disease' (published online 16 April 2026), 28 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13177424). S2: QUOTED from Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250) 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis' (published 16 June 2026), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13271007). S3: QUOTED from Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0) 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism' (published 22 May 2026), 5 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13349871). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2 (ASCIA consensus on IEI molecular diagnosis) and S3 (EBMT/ESID 2026 HSCT guidelines), both from Europe PMC JATS XML through pmc_text.py with tables stripped, quoted under CC BY 4.0. The S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (CGD-associated pathogens by site of infection) added; S1 Table 2 (prophylaxis) and S3 Tables 1-3 have merged cells or ragged rows and were not extracted; S2 Table 1 and S3 Table 4 (SCID) add nothing for CGD.",
  "summary": {
-  "total": 35,
-  "pass": 35,
+  "total": 39,
+  "pass": 39,
   "fail": 0
  },
  "claims": [
@@ -159,6 +159,34 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "We suggest the following laboratory studies be obtained for evaluation of possible infection in an individual with CGD: complete blood count (CBC) with differential, C-reactive protein (CRP) or pro-calcitonin, respiratory pathogen PCR panel (if respiratory symptoms are present), liver function tests, aerobic and anaerobic blood cultures, and a methicillin resistant Staphylococcus aureus (MRSA) PCR of nares to evaluate for MRSA colonization. … However, sensitivities of these tests are lower in people with CGD than in neutropenic patients, so they have limited diagnostic utility … Whenever possible based on patient acuity, cultures should be obtained prior to initiation of antimicrobial therapy.",
+   "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Organisms to expect by site (S1 Table 1; † marks those the source calls pathognomonic for CGD) — lung:** pneumonia: *Aspergillus*†, *Nocardia*†, *Paecilomyces*†, phaeohyphomycetes†, *Penicillium*†, *S. marcescens*†, also *Actinomyces*, *B. cepacia* complex, *Klebsiella*, mycobacteria, *Pseudomonas*, *S. aureus*. Lung abscess: *Aspergillus*†, *Nocardia*†, *S. aureus*, *Actinomyces*, *B. cepacia* complex.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1. row 1] Site of infection: Pneumonia · CGD-associated pathogen: Aspergillus species a Nocardia species a Paecilomyces species a Phaeohyphomycete species a Penicillium species a S. marcescens a Actinomyces species B. cepacia complex Klebsiella species Mycobacterium species Pseudomonas species S. aureus … [Table 1. row 5] Site of infection: Lung abscess · CGD-associated pathogen: Aspergillus species a Nocardia species a S. aureus Actinomyces species B. cepacia complex … [Table 1. footnote] a Pathogens that are pathognomonic for CGD.",
+   "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Abscesses of liver and brain (S1 Table 1):** liver: *Aspergillus*†, *Nocardia*†, *S. marcescens*†, *S. aureus*†, also *Actinomyces*, *Candida*, streptococci. Brain: *Aspergillus*†, *Nocardia*†, also *S. aureus*, *Salmonella*, *Exophiala*.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1. row 3] Site of infection: Liver abscess · CGD-associated pathogen: Aspergillus species a Nocardia species a S. marcescens a S. aureus a Actinomyces species Candida species Streptococcus species … [Table 1. row 4] Site of infection: Brain abscess · CGD-associated pathogen: Aspergillus species a Nocardia species a S. aureus Salmonella species Exophiala species … [Table 1. footnote] a Pathogens that are pathognomonic for CGD.",
+   "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Nodes, skin, perirectal and bone (S1 Table 1):** lymphadenitis: *Aspergillus*†, *Granulibacter bethesdensis*†, *Nocardia*†, *S. marcescens*†, also *Actinomyces*, *Candida*, *E. coli*, *Klebsiella*, mycobacteria, *S. aureus*. Skin and soft tissue: *Aspergillus*†, *Chromobacterium violaceum*†, *Paecilomyces*†, phaeohyphomycetes†, also *Penicillium*, *Candida*, *Klebsiella*, *S. marcescens*, *S. aureus*. Perirectal abscess: *S. aureus*, *Klebsiella*, *E. coli*. Osteomyelitis: *S. marcescens*†, *Paecilomyces*†, also *Aspergillus*, *B. cepacia* complex, *S. aureus*, *M. tuberculosis*, *Nocardia*.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1. row 2] Site of infection: Lymphadenitis · CGD-associated pathogen: Aspergillus species a Granulibacter bethesdensis a Nocardia species a S. marcescens a Actinomyces species Candida species Escherichia coli Klebsiella species Mycobacterium species S. aureus … [Table 1. row 7] Site of infection: Skin/soft tissue infection and abscess · CGD-associated pathogen: Aspergillus species a Chromobacterium violaceum a Paecilomyces species a Phaeohyphomycete species a Penicillium species Candida species Klebsiella species S. marcescens S. aureus … [Table 1. row 6] Site of infection: Perirectal abscess · CGD-associated pathogen: S. aureus Klebsiella species E. coli … [Table 1. row 8] Site of infection: Osteomyelitis · CGD-associated pathogen: S. marcescens a Paecilomyces species a Aspergillus species B. cepacia complex Staphylococcus aureus M. tuberculosis Nocardia species … [Table 1. footnote] a Pathogens that are pathognomonic for CGD.",
+   "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Bloodstream and meninges (S1 Table 1):** bacteraemia, fungaemia or sepsis: *B. cepacia* complex†, *C. violaceum*†, *G. bethesdensis*†, also *Klebsiella*, *Pseudomonas*, *Salmonella*, staphylococci. Meningitis: *B. cepacia* complex†, *G. bethesdensis*†, also *Candida*, *Haemophilus influenzae*, *Klebsiella*.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1. row 9] Site of infection: Bacteremia/fungemia/sepsis · CGD-associated pathogen: B. cepacia complex a C. violaceum a G. bethesdensis a Klebsiella species Pseudomonas species Salmonella species Staphylococcus species … [Table 1. row 10] Site of infection: Meningitis · CGD-associated pathogen: B. cepacia complex a G. bethesdensis a Candida species Haemophilus influenzae Klebsiella species … [Table 1. footnote] a Pathogens that are pathognomonic for CGD.",
    "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
   },
   {

@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/bacterial-keratitis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology PPP Cornea/External Disease Committee (Rhee MK et al.) 'Bacterial Keratitis Preferred Practice Pattern (2023)' (approved 22 September 2023; published February 2024), 24 claims; LICENCE: © 2023 American Academy of Ophthalmology, all rights reserved; AAO terms bar reproduction or loading into AI programs without permission (read at the PPP PDF front matter and https://www.aao.org/terms-of-service). S2: QUOTED from Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113) 'Infectious keratitis: A review' (published 2022), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9542356). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian narrative review (Cabrera-Aguas, Khoo and Watson, Clin Exp Ophthalmol 2022, CC BY 4.0, quoted), for Australian incidence, severity grading, culture practice, the Australian empiric regimen, Australian resistance data and surgical complications. S1 claims and anchors are unchanged. S2 is a review, not a guideline; its Australian regimen is cited by it from the Australian Therapeutic Guidelines, which were not read directly (licensed).",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology PPP Cornea/External Disease Committee (Rhee MK et al.) 'Bacterial Keratitis Preferred Practice Pattern (2023)' (approved 22 September 2023; published February 2024), 24 claims; LICENCE: © 2023 American Academy of Ophthalmology, all rights reserved; AAO terms bar reproduction or loading into AI programs without permission (read at the PPP PDF front matter and https://www.aao.org/terms-of-service). S2: QUOTED from Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113) 'Infectious keratitis: A review' (published 2022), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9542356). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian narrative review (Cabrera-Aguas, Khoo and Watson, Clin Exp Ophthalmol 2022, CC BY 4.0, quoted), for Australian incidence, severity grading, culture practice, the Australian empiric regimen, Australian resistance data and surgical complications. S1 claims and anchors are unchanged. S2 is a review, not a guideline; its Australian regimen is cited by it from the Australian Therapeutic Guidelines, which were not read directly (licensed). Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 row 1 (gram-positive vs gram-negative features, PCR sensitivity, fluoroquinolone monotherapy concentrations). S1 is not a PMC source and has no appended tables.",
  "summary": {
-  "total": 33,
-  "pass": 9,
+  "total": 36,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -69,6 +69,13 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "Mild corneal ulcers are those <2 mm in size with the depth of the ulcer <20% or 100 μm corneal thickness. Superficial infiltrates near the ulcer may also be seen. Moderate corneal ulcers range between 2 and 5 mm in size, depth of 20%-50% (100-275 μm) of the cornea, with dense infiltrates extending to the mid stroma. Severe ulcers are ≥5 mm, with a depth of more than 50% (>275 μm) and dense infiltrates reaching the deep layers of the corneal stroma. Poor patient outcomes have been associated with increased severity.",
+   "locator": "Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113), 'Infectious keratitis: A review', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9542356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Gram-positive or gram-negative? (S2 table):** gram-positive cocci give a localised round or oval ulcer with greyish-white stromal infiltrate, distinct borders and little surrounding haze; gram-negative bacilli run a rapid, inflammatory course with dense stromal suppuration, a hazy surrounding cornea and an immune ring.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Gram‐positive cocci : localised round or oval corneal ulceration, greyish/white stromal infiltrates, distinct borders, minimal surrounding stromal haze. Gram‐negative bacilli : rapid, inflammatory course, dense stromal suppuration, hazy surrounding cornea, immune ring",
    "locator": "Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113), 'Infectious keratitis: A review', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9542356/, retrieved 2026-09-24"
   },
   {
@@ -178,6 +185,13 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "Gram staining detects the type of organism in 60%-75% of bacterial cases. … The positive culture rate from corneal scrapes ranges from 38% to 66%, from different studies worldwide., In cases of progressive BK or where a negative result has been obtained from corneal scrapes or the organism identified does not match the clinical picture, a corneal biopsy can be performed.",
+   "locator": "Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113), 'Infectious keratitis: A review', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9542356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PCR sensitivity for bacterial keratitis is 25%–88%** (S2 table), against 60%–75% for Gram staining and 38%–66% for culture.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Gram staining : Sensitivity:60%-75% Culture : Sensitivity:38%-66% PCR : Sensitivity:25%-88%",
    "locator": "Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113), 'Infectious keratitis: A review', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9542356/, retrieved 2026-09-24"
   },
   {
@@ -319,6 +333,14 @@
    "verdict": "pass",
    "source_text": "The Antibiotic Resistance Monitoring in Ocular Microorganisms (ARMOUR) cumulative report from 2009 to 2018 reported that 34.9% of S. aureus were methicillin‐resistant S. aureus (MRSA). Resistance to ciprofloxacin was 32.2% among all S. aureus (10.4% for Methicillin‐sensitive S. aureus and 72.7% for MRSA) and 32.2% for CoNS. … On the other hand, in Australia, the Bacterial Ocular Surveillance System reported lower rates of resistance to ciprofloxacin with 16% among all isolates of S. aureus and 6% of CoNS.",
    "locator": "Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113), 'Infectious keratitis: A review', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9542356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fluoroquinolone monotherapy options (S2 table):** ofloxacin 0.3%, ciprofloxacin 0.3%, moxifloxacin 5 mg/ml or levofloxacin 15 mg/ml, chosen by local availability and surveillance data.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Monotherapy with fluoroquinolones a … a Ofloxacin 0.3%, ciprofloxacin 0.3%, moxifloxacin 5 mg/ml or levofloxacin 15 mg/ml depending on local availability and surveillance data.",
+   "locator": "Cabrera-Aguas M, Khoo P, Watson SL (Save Sight Institute, University of Sydney / Sydney Eye Hospital), Clinical & Experimental Ophthalmology 50(5):543 (doi 10.1111/ceo.14113), 'Infectious keratitis: A review', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9542356/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Adjunctive steroid is optional, not routine.** SCUT found no overall benefit from prednisolone phosphate 1% with antibiotics (and no extra harm); subgroups hinted at benefit for Pseudomonas, severe ulcers, and when started within 2 to 3 days of antibiotics.",

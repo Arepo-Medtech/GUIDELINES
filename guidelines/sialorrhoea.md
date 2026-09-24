@@ -1,9 +1,9 @@
 # Chronic sialorrhoea (drooling) — botulinum toxin therapy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** patient selection, swallowing and dental assessment, dosing, ultrasound-guided injection, goals, follow-up, side effects and alternatives for intraglandular botulinum toxin A (incobotulinumtoxinA) in chronic sialorrhoea of neurological cause in adults and children aged 2 years and over. Drooling in specific conditions: see `motor-neurone-disease`, `cerebral-palsy-children`, `parkinsons-disease` and `huntington-disease`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 25 claims; **35 fragments or anchors re-checkable by machine; 3 doses.** **S1** German interdisciplinary expert group (Jost WH (published 13 December 2023; international): 18 claims, quoted · **S2** National Institute for Health and Care Excellence (NICE) (published 25 January 2017; section 1.11 prescribing notes dated September 2024; international): 7 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **36 fragments or anchors re-checkable by machine; 3 doses.** **S1** German interdisciplinary expert group (Jost WH (published 13 December 2023; international): 19 claims, quoted · **S2** National Institute for Health and Care Excellence (NICE) (published 25 January 2017; section 1.11 prescribing notes dated September 2024; international): 7 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (German interdisciplinary expert recommendations, Frontiers in Neurology 2023). Australian practice follows the PBS listings below and may differ.
 
@@ -23,6 +23,7 @@
 
 - **Candidates are adults and children aged 2 years or older (≥12 kg) with troublesome sialorrhoea;** the patient's own experience of severity and quality of life drives the decision. [S1]
 - ⚠️ **Assess swallowing before treating:** dysphagia is the commonest cause, and BoNT/A can rarely worsen it. Investigate suspected aspiration, breathing trouble with eating, very long meals or repeated pneumonia (FEES or videofluoroscopy). [S1]
+- **Ask actively about swallowing (S1 checklist).** Direct signs: trouble swallowing saliva or while eating and drinking, frequent coughing or throat-clearing during or after meals, and a gurgling ('wet') voice. Indirect signs: recurrent pneumonia or bronchitis or unexplained fever, unintended weight loss, food that 'does not go down', food left in the mouth or throat, and chest pain when eating. [S1]
 - **Treat caries or gingivitis first and keep up dental review,** since less saliva raises dental risk. In drug-induced sialorrhoea, reduce, stop or replace the drug first. [S1]
 - **Anticoagulants:** pause if possible; otherwise observe for about 30 min after injection for floor-of-mouth haematoma. Avoid combining with head and neck irradiation or anticholinergics, and do not use in pregnancy or lactation. [S1]
 
@@ -72,7 +73,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Paediatric weight-band doses and the swallowing checklist** are in the source's Tables 1 and 2, which were stripped. | `input_unavailable` |
+| 1 | **Paediatric weight-band doses** are in S1's Table 1, which has merged cells and was not extracted by the 2026-09-24 table pass, so only the approximate 2 U/kg total is given. The swallowing checklist (Table 2) is now shown. | `input_unavailable` |
 | 2 | **Other botulinum toxins:** the source recommends incobotulinumtoxinA as the only product approved for sialorrhoea in the EU/US, which matches the single PBS drug for *Chronic sialorrhea*. It was written with Merz funding. | `observation` |
 | 3 | **Which anticholinergic, and in what order,** now comes from S2 (NICE NG62) for children and young people with cerebral palsy; **anticholinergic doses** (glycopyrrolate, atropine, hyoscine) are in neither source. Drooling in motor neurone disease and cerebral palsy is covered in `motor-neurone-disease` and `cerebral-palsy-children`. | `out_of_scope` |
 | 4 | **No Australian sialorrhoea guideline was found** (research, 2026-09-23). | `observation` |

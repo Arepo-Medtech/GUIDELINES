@@ -1,9 +1,9 @@
 # Hairy cell leukaemia (HCL) in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, treatment indications, first-line purine-analogue therapy, relapsed/refractory options and supportive care for classic hairy cell leukaemia in adults. HCL-like disorders (HCL variant, splenic diffuse red pulp lymphoma) are noted in Unresolved. Related: `chronic-lymphocytic-leukaemia` (other indolent B-cell disease).
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **60 fragments or anchors re-checkable by machine; 10 doses.** **S1** French Innovative Leukemia Organization (FILO) and French-speaking experts (Troussard X (published 10 June 2024; international): 21 claims, quoted · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026); AU): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **81 fragments or anchors re-checkable by machine; 11 doses.** **S1** French Innovative Leukemia Organization (FILO) and French-speaking experts (Troussard X (published 10 June 2024; international): 26 claims, quoted · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026); AU): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (French FILO group, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -24,6 +24,9 @@
 - **Diagnosis rests on four tests:** blood count with film review, trephine marrow biopsy (aspirates are often dry), multiparameter flow cytometry, and BRAF V600E testing. [S1]
 - **Flow cytometry score:** one point each for CD11c, CD25, CD103 and CD123; HCL scores 3 or more in 98% of cases, look-alikes score below 3. [S1]
 - **Test for BRAF V600E at diagnosis** (preferably on marrow aspirate): it is present in over 90% of HCL and usually absent in look-alikes. A karyotype is not recommended because it does not change treatment. [S1]
+- **Extra molecular tests (S1 Table 1):** IGHV repertoire and mutation status if BRAF is wild-type or at relapse; an extended panel (BRAF exons 11 and 15, MAP2K1, KRAS, NRAS, HRAS) if BRAF is wild-type; TP53 at relapse or refractory disease. [S1]
+- **Pretreatment work-up for everyone (S1 Table 1):** history and examination with performance status, creatinine clearance, direct antiglobulin test, haptoglobin, unconjugated bilirubin and LDH, transaminases, and hepatitis B and C serology. A chest radiograph or CT (chest, abdomen, pelvis), stored cells and serum, and MRD assessment are recommended; keep MRI or PET-CT for symptomatic patients with unusual extramedullary sites. [S1]
+- **Telling HCL from look-alikes (S1 Table 3):** only HCL has low monocytes, bright CD25 and CD200, and annexin A1 and VE1 (BRAF V600E) staining. HCL variant has constant prominent nucleoli, marked lymphocytosis (90% or more), is CD25-negative in over 90%, and has no BRAF V600E (0%); splenic diffuse red pulp lymphoma and splenic marginal zone lymphoma are also almost always BRAF V600E-negative (0–2%). [S1]
 
 ## When to treat
 
@@ -50,6 +53,8 @@
 - **Choice by length of first response:** more than five years and fit, repeat cladribine plus rituximab; two to five years, choose between cladribine plus rituximab and vemurafenib plus rituximab; primary refractory or under two years, vemurafenib plus rituximab. [S1]
 - **Vemurafenib plus rituximab** (off-label; in a single-centre trial, vemurafenib 960 mg twice daily for 8 weeks, rituximab 375 mg/m² for eight infusions over 18 weeks) gave response and CR of 87%. Watch for skin cancers, joint, eye, pancreatic and liver toxicity, and monitor the ECG for QT prolongation. [S1]
 - **Other relapse options:** dabrafenib 150 mg twice daily with trametinib 2 mg daily; moxetumomab where still available. Beyond the third line, avoid further purine analogue, and use ibrutinib or venetoclax (with or without rituximab) after BRAF-inhibitor exposure. [S1]
+- ⚠️ **Other regimen doses (S1 Table 4):** vemurafenib alone 960 mg twice daily for 16–18 weeks; trametinib alone 2 mg once daily until progression or unacceptable toxicity; moxetumomab pasudotox 40 µg/kg IV on days 1, 3 and 5, up to six 28-day cycles; ibrutinib 420 mg/d or 840 mg/d until progression or toxicity; venetoclax 400 mg/d after a ramp-up, for at most 12 28-day cycles; bendamustine 90 mg/m² IV on days 1 and 2 with rituximab 375 mg/m² on day 1, for 6 28-day cycles. [S1]
+- **Response criteria (S1 Table 2):** complete response needs the spleen to regress on examination, near-normal counts without transfusion (Hb above 11 g/dL, platelets above 100 G/L, neutrophils above 1.5 G/L) and no hairy cells in blood or marrow; partial response needs at least 50% regression of spleen size and of marrow infiltration with the same counts. Progression is a rise of at least 25% in spleen size and/or a fall of at least 25% in blood counts, and/or worsening symptoms. [S1]
 
 ## Supportive care and follow-up
 
@@ -77,16 +82,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Table 4 (treatment regimens) and the algorithm figures were stripped;** doses given here are only those stated in the text. | `input_unavailable` |
-| 2 | **HCL-like disorders** (HCL variant, splenic diffuse red pulp lymphoma) are covered by the source but not summarised here; they carry no separate PBS row. | `out_of_scope` |
-| 3 | **Skipped source:** BSH 2020 HCL guideline (Br J Haematol) is not open access and more than 5 years old. eviQ has no HCL guideline text, so its two treatment protocols (CC BY-NC 4.0) are used as S2 for doses and supportive care. | `observation` |
-| 4 | **Cladribine route differs:** S1 prefers subcutaneous cladribine for 5 days over the 7-day continuous IV infusion; S2's protocols give 0.14 mg/kg IV over 2 hours for 5 days (chosen for outpatient feasibility) and accept the subcutaneous and other schedules. Both are shown. | `observation` |
-| 5 | **Kidney threshold differs:** S1 says cladribine is contraindicated at creatinine clearance of 50 mL/min or less; S2 finds too few data to set a dose change and advises cautious use with monitoring. Both are shown. | `observation` |
-| 6 | **Prophylaxis differs:** S1 recommends Pneumocystis and zoster prophylaxis for at least six months and until CD4 exceeds 0.2 G/L; S2 recommends antimicrobial prophylaxis in general but leaves Pneumocystis prophylaxis to the clinician and says to consider antivirals. Both are shown. | `observation` |
-| 7 | **Rituximab funding:** S2 lists rituximab on the PBS general schedule within its HCL protocol, while the PBS 'Hairy cell leukaemia' row lists cladribine only. Check current PBS rituximab criteria before relying on either. | `observation` |
-| 8 | **Currency:** eviQ protocol 4383 was due for review on 30 June 2026 and had not been re-reviewed when read (24 September 2026). | `time_sensitive` |
-| 9 | **Licence:** CC BY 4.0; claims are backed by verbatim quotes. | `observation` |
-| 10 | **Licence (S2):** eviQ is CC BY-NC 4.0; S2 claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. | `observation` |
+| 1 | **Tables now covered:** S1's Tables 1–4 (work-up, response criteria, HCL vs look-alikes, treatment regimens) were appended row by row and are used above; Table 4 adds the vemurafenib-alone, trametinib-alone, moxetumomab, ibrutinib, venetoclax and bendamustine-rituximab doses. **The algorithm figures** are images and stay a gap. | `input_unavailable` |
+| 2 | **Epidemiology differs within S1:** its text gives a 5:1 male excess and median age 63 (men) and 59 (women), and BRAF V600E in over 90%; its Table 3 gives a sex ratio of 4, median age 55 and BRAF V600E in 70–100%. The text figures are shown above; the table figures are noted here. | `observation` |
+| 3 | **HCL-like disorders** (HCL variant, splenic diffuse red pulp lymphoma) are covered by the source but not summarised here; they carry no separate PBS row. | `out_of_scope` |
+| 4 | **Skipped source:** BSH 2020 HCL guideline (Br J Haematol) is not open access and more than 5 years old. eviQ has no HCL guideline text, so its two treatment protocols (CC BY-NC 4.0) are used as S2 for doses and supportive care. | `observation` |
+| 5 | **Cladribine route differs:** S1 prefers subcutaneous cladribine for 5 days over the 7-day continuous IV infusion; S2's protocols give 0.14 mg/kg IV over 2 hours for 5 days (chosen for outpatient feasibility) and accept the subcutaneous and other schedules. Both are shown. | `observation` |
+| 6 | **Kidney threshold differs:** S1 says cladribine is contraindicated at creatinine clearance of 50 mL/min or less; S2 finds too few data to set a dose change and advises cautious use with monitoring. Both are shown. | `observation` |
+| 7 | **Prophylaxis differs:** S1 recommends Pneumocystis and zoster prophylaxis for at least six months and until CD4 exceeds 0.2 G/L; S2 recommends antimicrobial prophylaxis in general but leaves Pneumocystis prophylaxis to the clinician and says to consider antivirals. Both are shown. | `observation` |
+| 8 | **Rituximab funding:** S2 lists rituximab on the PBS general schedule within its HCL protocol, while the PBS 'Hairy cell leukaemia' row lists cladribine only. Check current PBS rituximab criteria before relying on either. | `observation` |
+| 9 | **Currency:** eviQ protocol 4383 was due for review on 30 June 2026 and had not been re-reviewed when read (24 September 2026). | `time_sensitive` |
+| 10 | **Licence:** CC BY 4.0; claims are backed by verbatim quotes. | `observation` |
+| 11 | **Licence (S2):** eviQ is CC BY-NC 4.0; S2 claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. | `observation` |
 
 ## Sources
 

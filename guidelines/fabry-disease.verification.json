@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/fabry-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021' (published 2022), 16 claims; LICENCE: CC BY (read at Europe PMC fullTextXML <license> element for PMC9269181). S2: PARAPHRASED AND HASH-ANCHORED from Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327) 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices' (published June 2024), 10 claims; LICENCE: CC BY-NC 4.0 (read at University of Melbourne Minerva Access record (dc.rights.license 'CC BY-NC') and the article's own statement: 'open access article under the terms of the Creative Commons Attribution-NonCommercial License'). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian modified-Delphi consensus (17 clinical statements, Fabry Australia medical advisory committee, IMJ 2024), read from the University of Melbourne repository copy of the published PDF. S2 is non-commercial, so it is paraphrased and hash-anchored; its tables survived PDF extraction and are anchored directly. The Wave 3 S1 claims are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021' (published 2022), 20 claims; LICENCE: CC BY (read at Europe PMC fullTextXML <license> element for PMC9269181). S2: PARAPHRASED AND HASH-ANCHORED from Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327) 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices' (published June 2024), 10 claims; LICENCE: CC BY-NC 4.0 (read at University of Melbourne Minerva Access record (dc.rights.license 'CC BY-NC') and the article's own statement: 'open access article under the terms of the Creative Commons Attribution-NonCommercial License'). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian modified-Delphi consensus (17 clinical statements, Fabry Australia medical advisory committee, IMJ 2024), read from the University of Melbourne repository copy of the published PDF. S2 is non-commercial, so it is paraphrased and hash-anchored; its tables survived PDF extraction and are anchored directly. The Wave 3 S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 3 (screening), Table 6 (start criteria) and Table 7 (contraindications with recommendation classes). S1 Tables 1, 2, 4, 5, 8 and 9 have merged cells or ragged rows and were not extracted.",
  "summary": {
-  "total": 26,
-  "pass": 16,
+  "total": 30,
+  "pass": 20,
   "fail": 0,
   "pass_paraphrase_anchored": 10
  },
@@ -81,10 +81,24 @@
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Screening indications (S1 Table 3): not the general population.** Screen families from an index case, and people of any age, females included, with kidney, heart or neurological disease or symptoms suggesting Fabry disease without a defined cause. Get consent on a proper form first, and involve a Fabry specialist when genetic-test questions arise.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 1] Screening of the general population is not recommended at the moment.: We recommend screening families from an index case. … [Table 3 row 2] Screening of the general population is not recommended at the moment.: We recommend obtaining patient consent using a properly designed form before screening. … [Table 3 row 3] Screening of the general population is not recommended at the moment.: We recommend screening individuals of all ages with kidney, heart, or neurological disorders or clinical signs or symptoms suggestive of FD without a defined etiology. … [Table 3 row 4] Screening of the general population is not recommended at the moment.: We recommend screening females of all ages with kidney, heart, or neurological alterations of undefined etiology or with symptoms potentially attributable to FD. … [Table 3 row 5] Screening of the general population is not recommended at the moment.: We recommend discussing the implications of a diagnosis of FD with the patient and involve a specialist on FD if questions about the genetic tests are asked.",
+   "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Classic disease (males and females): treat as soon as there are early signs of Fabry-related organ involvement.** (Class I) ERT should be offered to classic males from age seven even without symptoms. (Class IIa)",
    "source": "S1",
    "verdict": "pass",
    "source_text": "Males and females with classic phenotype disease must be treated as soon as early signs of FD-related target organ involvement are present (CLASS I RECOMMENDATION). … we recommend that ERT should be offered to males with classic FD from the age of seven years, even in the absence of signs or symptoms (CLASS IIA RECOMMENDATION).",
+   "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **S1's start table (Table 6) puts it differently for classic males:** therapy must be considered for all, symptomatic or not, at any age of presentation (the text above says from age seven; see Unresolved).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 6 row 1] Classic Variants: Male patient, symptomatic or asymptomatic Therapy must be considered and applies to all patients at any age of presentation.",
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
   },
   {
@@ -189,6 +203,13 @@
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Late-onset disease or VUS (S1 Table 6):** therapy is appropriate with workup, histology or imaging evidence of kidney injury linked to Fabry disease, even without typical symptoms. Do not treat well-characterised benign polymorphisms; without tissue involvement or symptoms, therapy may not be appropriate, especially in females.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 6 row 5] Classic Variants: Late-onset disease or VUS … [Table 6 row 7] Classic Variants: - Therapy must be considered and is adequate if workup, histology, or kidney injury imaging evidence is available, even in the absence of typical symptoms of FD. Anomalous findings must be associated with FD, which might require histology testing or the assessment of biochemical evidence of GL3 accumulation. - Advice from a geneticist or a specialist in FD may help interpret the pathogenicity of a VUS. - Individuals with well-characterized benign polymorphisms should not be treated. - If tissue involvement or clinical symptoms linked to FD are absent, therapy may not be adequate, particularly for females.",
+   "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Patients who do not meet criteria yet** need periodic review for organ involvement and treatment once it appears.",
    "source": "S1",
    "verdict": "pass",
@@ -264,6 +285,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Treatment is not recommended for patients with CKD stages 4 or 5 ineligible for kidney transplantation with NYHA class IV HF or any advanced disease leading to a life expectancy of less than a year. … The presence of anti-IgE antibodies against agalsidase is generally considered an absolute contraindication given the risk of anaphylactic reaction.",
+   "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Contraindications with their classes (S1 Table 7):** CKD not eligible for transplant with NYHA class IV heart failure (IIa); stage 5 CKD where the kidney is the main indication (IIa); life expectancy under a year from advanced Fabry disease or other illness (IIb); severe cognitive decline of any cause (IIb); other situations where benefit does not outweigh burden (III); and IgE-associated anaphylaxis to ERT (III).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 7 row 1] When NOT to indicate treatment/recommendation classes (Males and Females): Patients with CKD ineligible to kidney transplantation with advanced HF - NYHA class IV (CLASS IIA) … [Table 7 row 2] When NOT to indicate treatment/recommendation classes (Males and Females): Primary renal indication: Stage 5 CKD (CLASS IIA) … [Table 7 row 3] When NOT to indicate treatment/recommendation classes (Males and Females): Advanced FD or other comorbidities leading to a life expectancy of less than a year (CLASS IIB) … [Table 7 row 4] When NOT to indicate treatment/recommendation classes (Males and Females): Severe cognitive decline for any cause (CLASS IIB) … [Table 7 row 5] When NOT to indicate treatment/recommendation classes (Males and Females): Other conditions in which the benefits from therapy do not pay off (CLASS III) … [Table 7 row 6] When NOT to indicate treatment/recommendation classes (Males and Females): Anaphylactic reactions from use of ERT associated with the presence of IgE (CLASS III)",
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
   },
   {

@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/polycystic-ovary-syndrome.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447 'Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome' (published 15 August 2023), 17 claims; LICENCE: CC BY-NC 4.0 (the article also states the guideline recommendations are protected under copyright) (read at Europe PMC fullTextXML <license> element for PMC10505534). S2: QUOTED from Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective' (7 October 2024), 12 claims; LICENCE: CC BY 4.0 (figshare record licence; the article's own footer reads '© 2024 The Author(s). Medical Journal of Australia published by John Wiley & Sons Australia') (read at figshare API record 27199074 (license: CC BY 4.0) and the Unpaywall record for 10.5694/mja2.52432 (publisher licence cc-by)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the MJA 2024 Australian summary of the same 2023 guideline. It was blocked at Wiley (HTTP 403) in edition 1.0; this time the published PDF was read from the open figshare repository copy (CC BY 4.0) and converted with plain pdftotext (two-column). It adds the evidence grades (EBR, CR, PP), the Australian context (Medicare Better Access, PBS, off-label use) and treatment detail the JCEM summary lacks. S2 is CC BY and is quoted; S1 remains paraphrased. The full guideline on monash.edu is still behind a bot challenge and was not read. S1's claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447 'Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome' (published 15 August 2023), 18 claims; LICENCE: CC BY-NC 4.0 (the article also states the guideline recommendations are protected under copyright) (read at Europe PMC fullTextXML <license> element for PMC10505534). S2: QUOTED from Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective' (7 October 2024), 12 claims; LICENCE: CC BY 4.0 (figshare record licence; the article's own footer reads '© 2024 The Author(s). Medical Journal of Australia published by John Wiley & Sons Australia') (read at figshare API record 27199074 (license: CC BY 4.0) and the Unpaywall record for 10.5694/mja2.52432 (publisher licence cc-by)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the MJA 2024 Australian summary of the same 2023 guideline. It was blocked at Wiley (HTTP 403) in edition 1.0; this time the published PDF was read from the open figshare repository copy (CC BY 4.0) and converted with plain pdftotext (two-column). It adds the evidence grades (EBR, CR, PP), the Australian context (Medicare Better Access, PBS, off-label use) and treatment detail the JCEM summary lacks. S2 is CC BY and is quoted; S1 remains paraphrased. The full guideline on monash.edu is still behind a bot challenge and was not read. S1's claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); a claim from S1 Table 1 (recommendation categories). S1 Tables 2 and 3 (GRADE certainty and strength symbols) add nothing the page uses; Table 4 (the recommendations) has ragged rows and was not extracted.",
  "summary": {
-  "total": 29,
+  "total": 30,
   "pass": 12,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
@@ -245,6 +245,24 @@
    "verdict": "pass",
    "source_text": "Use of ovulation induction agents is off-label in Australia but allowed, and health care professionals need to inform women and discuss evidence, concerns and side effects (PP).",
    "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What EBR, CR and PP mean (S1 Table 1):** an evidence-based recommendation (EBR) is made where the evidence was enough for the guideline group to recommend; a consensus recommendation (CR) is made where evidence was inadequate, also drawing on general-population evidence; a practice point (PP) was made without searching for evidence, where important issues came up while the group discussed the other recommendations.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d584b92babb157dd",
+     "n": 343,
+     "p": "[Table 1"
+    },
+    {
+     "h": "234a5995d7179596",
+     "n": 344,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447, 'Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome', published 15 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/, retrieved 2026-09-23"
   },
   {
    "claim": "**Diagnosis in adults with only one of irregular cycles or hyperandrogenism:** use either pelvic ultrasound or AMH, not both (PP). Test androgens biochemically only when there is no clinical hyperandrogenism (PP).",

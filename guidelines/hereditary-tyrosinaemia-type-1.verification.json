@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/hereditary-tyrosinaemia-type-1.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations' (2017), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at PMC JATS XML <license> element for PMC5729346 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries' (2025 (published online December 2024)), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11647197). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Edition 2.0 adds S2, the German-speaking countries' consensus recommendations (2025), from Europe PMC fullTextXML via pmc_text.py. No Australian HT-1 guideline was found (Europe PMC and PubMed searched); the ASIEM tyrosinaemia handbook (©HGSA 2007) is a family diet handbook and was not used. The S1 claims and fragments are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations' (2017), 26 claims; LICENCE: CC BY-NC-ND 4.0 (read at PMC JATS XML <license> element for PMC5729346 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries' (2025 (published online December 2024)), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11647197). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Edition 2.0 adds S2, the German-speaking countries' consensus recommendations (2025), from Europe PMC fullTextXML via pmc_text.py. No Australian HT-1 guideline was found (Europe PMC and PubMed searched); the ASIEM tyrosinaemia handbook (©HGSA 2007) is a family diet handbook and was not used. The S1 claims and fragments are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (common FAH variants by region). S1 Tables 1 and 3 could not be extracted (merged cells); S2 has no tables.",
  "summary": {
-  "total": 35,
+  "total": 36,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 35
+  "pass_paraphrase_anchored": 36
  },
  "claims": [
   {
@@ -114,6 +114,59 @@
      "h": "6f7efb29bb5e587d",
      "n": 585,
      "p": "Genetic "
+    }
+   ],
+   "locator": "US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine, 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Common FAH variants by region (S1 Table 2), useful when reading a genetic result:** c.1062+5G>A (IVS12+5G>A) at 86% in French Canada, with the next row (northern Europe, 46%) left blank for the variant and apparently continuing it; p.W262X at 80% in Finland; c.554-1G>T (IVS6-1G>T) at 64% in southern Europe; p.G337S at 58% in Norway; p.Q64H at 92% in Pakistan; and p.D233V at 94% in Turkey. The two most common in the United States are c.1062+5G>A and c.554-1G>T.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c0942645433cc9fe",
+     "n": 50,
+     "p": "[Table 2"
+    },
+    {
+     "h": "4d83c57e0231a6b3",
+     "n": 121,
+     "p": "[Table 2"
+    },
+    {
+     "h": "a6ccf2434809cb34",
+     "n": 83,
+     "p": "[Table 2"
+    },
+    {
+     "h": "cb449042c8b554c6",
+     "n": 96,
+     "p": "[Table 2"
+    },
+    {
+     "h": "75f3a2217699090a",
+     "n": 121,
+     "p": "[Table 2"
+    },
+    {
+     "h": "ab5b28d54a9fac6d",
+     "n": 95,
+     "p": "[Table 2"
+    },
+    {
+     "h": "1116e477bbc36f9b",
+     "n": 96,
+     "p": "[Table 2"
+    },
+    {
+     "h": "cac917eef4ddef68",
+     "n": 95,
+     "p": "[Table 2"
+    },
+    {
+     "h": "508cc10f9523dace",
+     "n": 72,
+     "p": "[Table 2"
     }
    ],
    "locator": "US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine, 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/, retrieved 2026-09-23"

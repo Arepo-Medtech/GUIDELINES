@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/neovascular-age-related-macular-degeneration.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Optometry Australia '2019 Clinical Practice Guide for the diagnosis, treatment and management of age-related macular degeneration' (approved 8 February 2019 (due for revision 2022)), 20 claims; LICENCE: No licence or copyright statement in the PDF or on the Optometry Australia site; treated as all rights reserved (read at the PDF itself (no statement found) and https://www.optometry.org.au/). S2: QUOTED from Iida T, Gomi F, Yasukawa T, Yamashiro K, et al. (working group supported by the Japanese Retina and Vitreous Society), Japanese Journal of Ophthalmology 69:639 (doi 10.1007/s10384-025-01240-0) 'Japanese clinical guidelines for neovascular age-related macular degeneration' (published 14 July 2025), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12339655). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Japanese Retina and Vitreous Society-supported clinical guidelines for neovascular AMD (2025, CC BY 4.0, quoted), for the newer agents S1 predates (faricimab, brolucizumab, aflibercept 8 mg), loading and maintenance regimens, switching, PDT, submacular haemorrhage and long-term management. S1 claims and anchors are unchanged. S2's drug table (Table 4, doses and intervals) was stripped with the other tables.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Optometry Australia '2019 Clinical Practice Guide for the diagnosis, treatment and management of age-related macular degeneration' (approved 8 February 2019 (due for revision 2022)), 20 claims; LICENCE: No licence or copyright statement in the PDF or on the Optometry Australia site; treated as all rights reserved (read at the PDF itself (no statement found) and https://www.optometry.org.au/). S2: QUOTED from Iida T, Gomi F, Yasukawa T, Yamashiro K, et al. (working group supported by the Japanese Retina and Vitreous Society), Japanese Journal of Ophthalmology 69:639 (doi 10.1007/s10384-025-01240-0) 'Japanese clinical guidelines for neovascular age-related macular degeneration' (published 14 July 2025), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12339655). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Japanese Retina and Vitreous Society-supported clinical guidelines for neovascular AMD (2025, CC BY 4.0, quoted), for the newer agents S1 predates (faricimab, brolucizumab, aflibercept 8 mg), loading and maintenance regimens, switching, PDT, submacular haemorrhage and long-term management. S1 claims and anchors are unchanged. S2's drug table (Table 4, doses and intervals) was stripped with the other tables. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (MNV classification) and Table 3 (AREDS2 supplement doses) added; S2 Tables 2 and 4 (including the drug table) have merged cells and were not extracted. S1 is a PDF with no appended tables.",
  "summary": {
-  "total": 32,
-  "pass": 12,
+  "total": 34,
+  "pass": 14,
   "fail": 0,
   "pass_paraphrase_anchored": 20
  },
@@ -93,6 +93,13 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "Importantly, AMD are sometimes seen even in patients under 50 years of age, and thus, age was removed from the updated diagnostic criteria.",
+   "locator": "Iida T, Gomi F, Yasukawa T, Yamashiro K, et al. (working group supported by the Japanese Retina and Vitreous Society), Japanese Journal of Ophthalmology 69:639 (doi 10.1007/s10384-025-01240-0), 'Japanese clinical guidelines for neovascular age-related macular degeneration', published 14 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12339655/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Types of macular neovascularisation (S2 Table 1):** type 1 without a polypoidal lesion, type 1 with a polypoidal lesion (PCV), type 2, mixed type 1 and 2, and type 3 (retinal angiomatous proliferation, RAP).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 1] Type 1 MNV without polypoidal lesion: Type 1 MNV with polypoidal lesion (PCV) … [Table 1 row 2] Type 1 MNV without polypoidal lesion: Type 2 MNV Mixed type 1 and type 2 MNV … [Table 1 row 3] Type 1 MNV without polypoidal lesion: Type 3 MNV(RAP) … [Table 1 footnote] MNV macular neovascularization, PCV polypoidal choroidal vasculopathy, RAP retinal angiomatous proliferation",
    "locator": "Iida T, Gomi F, Yasukawa T, Yamashiro K, et al. (working group supported by the Japanese Retina and Vitreous Society), Japanese Journal of Ophthalmology 69:639 (doi 10.1007/s10384-025-01240-0), 'Japanese clinical guidelines for neovascular age-related macular degeneration', published 14 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12339655/, retrieved 2026-09-24"
   },
   {
@@ -325,6 +332,14 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "As beta-carotene intake in smokers is associated with an increased risk of lung cancer, AREDS2 recommends replacing beta-carotene with lutein/zeaxanthin and reducing zinc intake from 80 mg to 25 mg. Moreover, AREDS2 demonstrates no difference in preventive efficacy following these alterations (Table 3) [, ]. Current evidence does not support the hypothesis that supplements can prevent the progression from early to intermediate AMD. Furthermore, the excessive intake of vitamins and zinc may have side effects; therefore, caution is necessary when using these supplements.",
+   "locator": "Iida T, Gomi F, Yasukawa T, Yamashiro K, et al. (working group supported by the Japanese Retina and Vitreous Society), Japanese Journal of Ophthalmology 69:639 (doi 10.1007/s10384-025-01240-0), 'Japanese clinical guidelines for neovascular age-related macular degeneration', published 14 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12339655/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2's AREDS2 table (daily doses):** vitamin C 500 mg, vitamin E 400 IU, lutein/zeaxanthin 10 mg/2 mg, zinc (as zinc oxide) 25 mg and copper (as cupric oxide) 2 mg.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 1] Components: Vitamin C Vitamin E Lutein/zeaxanthin Zinc oxide Cupric oxide · Daily intake: 500 mg 400 IU 10 mg/2 mg 25 mg 2 mg",
    "locator": "Iida T, Gomi F, Yasukawa T, Yamashiro K, et al. (working group supported by the Japanese Retina and Vitreous Society), Japanese Journal of Ophthalmology 69:639 (doi 10.1007/s10384-025-01240-0), 'Japanese clinical guidelines for neovascular age-related macular degeneration', published 14 July 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12339655/, retrieved 2026-09-24",
    "dose": true
   },

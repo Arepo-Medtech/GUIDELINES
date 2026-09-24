@@ -1,9 +1,9 @@
 # Atypical haemolytic uraemic syndrome
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising thrombotic microangiopathy (TMA), excluding TTP, STEC-HUS and secondary causes, genetic testing, supportive care, C5-inhibitor treatment and vaccination, monitoring, dose spacing and discontinuation, and aHUS in children, pregnancy and kidney transplantation. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **59 fragments or anchors re-checkable by machine; 2 doses.** **S1** Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH (published 7 February 2025; international): 24 claims, quoted · **S2** Asia-Pacific expert panel (Kang HG et al.) (published 12 September 2025; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 41 claims; **69 fragments or anchors re-checkable by machine; 4 doses.** **S1** Rare Diseases Committee of the Brazilian Society of Nephrology (COMDORA-SBN) (Vaisbich MH (published 7 February 2025; international): 27 claims, quoted · **S2** Asia-Pacific expert panel (Kang HG et al.) (published 12 September 2025; international): 14 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Brazilian Society of Nephrology COMDORA-SBN, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -26,6 +26,8 @@
 - **aHUS is a clinical diagnosis of exclusion:** first rule out TTP, STEC-HUS and secondary TMA. [S1]
 - **ADAMTS13 activity above 10% rules out TTP;** with negative STEC tests, suspect aHUS. Plasma C3 is low in fewer than 20% of patients, so a normal C3 does not exclude aHUS. (Grade 1B) [S1]
 - ⚠️ **If ADAMTS13 is unavailable or pending, use the PLASMIC score** so that TTP can be treated early. A score of 6 or 7 means a high risk of severe ADAMTS13 deficiency. [S1]
+- **PLASMIC score items (S1 Table 1), 1 point each:** platelets <30 × 10⁹/L; haemolysis (reticulocytes >2.5%, undetectable haptoglobin or indirect bilirubin >2 mg/dL); no active cancer; no solid-organ or stem-cell transplant history; MCV <90 fL; INR <1.5; creatinine <2 mg/dL. [S1]
+- **Australian test access (S2 Table 3):** ADAMTS13 activity and Shiga toxin testing are widely available, with results in under 1–3 days; the aHUS gene panel runs only at selected sites and takes more than 3 months. C5-inhibitor therapy is reimbursed for an initial 6 months, under set criteria that exclude TTP and STEC-HUS. [S2]
 - **Kidney biopsy is not mandatory** when the clinical triad is present. It is recommended in special situations, such as kidney-graft dysfunction (TMA versus rejection), suspected underlying glomerulonephritis, or to gauge chronicity. (Grade 1B) [S1]
 - **Genetic testing informs but does not decide the diagnosis:** a genetic basis is known for nearly two-thirds of cases, but a negative result does not rule out aHUS. [S1]
 - **If a secondary TMA persists after the cause is treated, look for concurrent aHUS or TTP**, because this changes treatment and prognosis. [S1]
@@ -40,6 +42,8 @@
 - ⚠️ **Start the C5 inhibitor within 3–5 days, or sooner, once aHUS is suspected, and at once on a clinical diagnosis** (S2): kidney recovery is better the shorter the delay. Treat for 6 months initially, aiming for a stable blood and kidney response, then base continuation on the individual risk profile. [S2]
 - ⚠️ **S2 vaccination schedule:** vaccinate at least 2 weeks before the first C5-inhibitor dose (MenACWY, plus MenB where available). If treatment starts less than 2 weeks after vaccination, cover with prophylactic antibiotics (usually penicillin) for at least 2 weeks after it; continuing prophylaxis may be advised. Consider boosters every 3–5 years during long-term treatment. [S2]
 - **Ravulizumab** has a longer half-life, so maintenance is every 4 weeks (under 20 kg) or every 8 weeks (over 20 kg). When switching from eculizumab, give the ravulizumab loading dose 2 weeks after the last eculizumab dose. [S1]
+- ⚠️ **Eculizumab by weight (S1 Table 2), induction then maintenance:** ≥40 kg: 900 mg weekly for 4 weeks, 1200 mg in week 5, then 1200 mg every 2 weeks. 30 to <40 kg: 600 mg weekly for 2 weeks, 900 mg in week 3, then 900 mg every 2 weeks. 20 to <30 kg: 600 mg weekly for 2 weeks, 600 mg in week 3, then 600 mg every 2 weeks. 10 to <20 kg: 600 mg weekly for 2 weeks, 300 mg in week 3, then 300 mg every 2 weeks. 5 to <10 kg: 300 mg for one week, 300 mg in week 2, then 300 mg every 3 weeks. [S1]
+- ⚠️ **Ravulizumab by weight (S1 Table 3): a loading dose, then maintenance from 2 weeks later.** ≥100 kg: 3000 mg, then 3600 mg; 60 to <100 kg: 2700 mg, then 3300 mg; 40 to <60 kg: 2400 mg, then 3000 mg; 30 to <40 kg: 1200 mg, then 2700 mg; 20 to <30 kg: 900 mg, then 2100 mg (all every 8 weeks). 10 to <20 kg: 600 mg, then 600 mg every 4 weeks. [S1]
 - **If a C5 inhibitor is not immediately available** (for example in a child in the emergency department), start plasma therapy (plasma exchange or infusion). (Grade 1B) [S1]
 - **Use the reference C5 inhibitors (eculizumab or ravulizumab) rather than eculizumab biosimilars**, because experience with the biosimilar is limited. [S1]
 - **Proximal complement inhibitors are not yet proven in aHUS:** there are no pegcetacoplan studies, and the iptacopan phase II trial has no results yet. [S1]
@@ -55,6 +59,7 @@
 
 ## TMA with other triggers (Asia–Pacific algorithms)
 
+- **Gene-variant yield and C5-inhibitor response by trigger (S2 Table 4):** pathogenic variants in 41–56% with pregnancy (complete kidney recovery in up to 88% if treated early), 35–56% with hypertension (up to 100% five-year survival) and 60–80% in kidney transplant recipients (65–100% graft survival when used for recurrence). In autoimmune TMA, 6 of 10 and 1 of 4 tested patients carried a variant, and kidney recovery exceeded 70%. Drug- and infection-triggered cases are often untested and their kidney outcomes vary: full recovery in 5 of 17 drug cases and 3 of 10 infection cases. [S2]
 - **Hypertension-associated TMA: control the blood pressure first.** Suspect aHUS if hypertension is refractory, or if TMA persists once pressure is controlled. In a hypertensive emergency that is hard to control, especially with severe organ damage, a C5 inhibitor can be given alongside stepped-up antihypertensives. [S2]
 - **Autoimmune-associated TMA:** consider aHUS when TMA persists despite standard treatment of the autoimmune disease; the C5 inhibitor usually starts within a week of presentation. Examples: catastrophic APS not responding to plasma exchange and immunosuppression; SLE or lupus nephritis not responding after 72–120 hours, especially with brain or heart involvement; scleroderma failing an ACE inhibitor with progressive kidney failure. Continue at least until TMA has resolved. [S2]
 - **Drug- and infection-triggered TMA:** stop the suspected drug (calcineurin or mTOR inhibitors, or cancer drugs such as carfilzomib, gemcitabine, mitomycin or bevacizumab) and consider aHUS and a C5 inhibitor only if TMA persists 1–2 weeks (or 3–5 half-lives) after withdrawal. With infection, treat it, rule out DIC in severe sepsis, and reserve a C5 inhibitor for TMA that persists or recurs after the infection has resolved. [S2]
@@ -83,14 +88,15 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Eculizumab and ravulizumab dosing schedules** (Tables 2 and 3), the recommended diagnostic tests (Chart 2), diagnostic criteria (Chart 3), dose-spacing criteria (Chart 4) and transplant risk groups (Chart 5) are in tables, which were stripped. | `input_unavailable` |
+| 1 | **Eculizumab and ravulizumab dosing schedules** (Tables 2 and 3) and the PLASMIC items (Table 1) are now covered from the appended table rows. The recommended diagnostic tests (Chart 2), diagnostic criteria (Chart 3), dose-spacing criteria (Chart 4) and transplant risk groups (Chart 5) have merged cells and were not extracted. | `input_unavailable` |
 | 2 | **Pregnancy platelet threshold:** the source's platelet figures lost their units in extraction ('/mm'), so they were not anchored. | `input_unavailable` |
-| 3 | **Asia–Pacific aHUS-with-triggers algorithms** (Nephrology 2025, PMC12429023; the panel includes Australian clinicians) are now S2. They are CC BY-NC and cover only aHUS with triggers, so they are paraphrased and add to S1 rather than replace it. S2's definitions, modified French/PLASMIC scores, APAC access and reimbursement table and outcomes table (Tables 1–4), and its five algorithms (Figures 1–5), were not machine-read. | `observation` |
-| 4 | **The ANZ TMA consensus** (Fox et al., Nephrology/IMJ 2018) is paywalled and predates ravulizumab, so it was not used. | `observation` |
-| 5 | **Brazil-specific content** (MLPA for CFHR1–3 deletions, the Russian eculizumab biosimilar, belatacept access) was not carried over, except for the biosimilar caution. | `observation` |
-| 6 | **Meningococcal cover differs:** S1 vaccinates at least 15 days before starting and, if that was not possible, keeps antibiotic prophylaxis going for the whole C5-inhibitor course; S2 vaccinates at least 2 weeks before, gives antibiotics for at least 2 weeks after vaccination if treatment starts sooner, and says ongoing prophylaxis may be advised. Both are shown. | `observation` |
-| 7 | **Living related donors:** S1 advises against them but allows one after genetic testing shows no complement-gene variant; S2 says they are typically not considered whatever the genetic result. Both are shown. | `observation` |
-| 8 | **Genetic yield:** S1 gives a variant or CFH autoantibody in 60–70% (a genetic basis for nearly two-thirds); S2 says up to half have no identifiable causative variant. Both are shown. | `observation` |
+| 3 | **Asia–Pacific aHUS-with-triggers algorithms** (Nephrology 2025, PMC12429023; the panel includes Australian clinicians) are now S2. They are CC BY-NC and cover only aHUS with triggers, so they are paraphrased and add to S1 rather than replace it. S2's APAC access and reimbursement table (Table 3) and outcomes table (Table 4) are now covered from the appended table rows; its definitions and modified French/PLASMIC scores (Tables 1–2: no header row, merged cells) were not extracted, and its five algorithms (Figures 1–5) were not machine-read. | `observation` |
+| 4 | **Genetic turnaround differs within S2:** its text says results take 1–3 months; its Table 3 gives more than 3 months for the aHUS panel in Australia. Both are shown. | `observation` |
+| 5 | **The ANZ TMA consensus** (Fox et al., Nephrology/IMJ 2018) is paywalled and predates ravulizumab, so it was not used. | `observation` |
+| 6 | **Brazil-specific content** (MLPA for CFHR1–3 deletions, the Russian eculizumab biosimilar, belatacept access) was not carried over, except for the biosimilar caution. | `observation` |
+| 7 | **Meningococcal cover differs:** S1 vaccinates at least 15 days before starting and, if that was not possible, keeps antibiotic prophylaxis going for the whole C5-inhibitor course; S2 vaccinates at least 2 weeks before, gives antibiotics for at least 2 weeks after vaccination if treatment starts sooner, and says ongoing prophylaxis may be advised. Both are shown. | `observation` |
+| 8 | **Living related donors:** S1 advises against them but allows one after genetic testing shows no complement-gene variant; S2 says they are typically not considered whatever the genetic result. Both are shown. | `observation` |
+| 9 | **Genetic yield:** S1 gives a variant or CFH autoantibody in 60–70% (a genetic basis for nearly two-thirds); S2 says up to half have no identifiable causative variant. Both are shown. | `observation` |
 
 ## Sources
 

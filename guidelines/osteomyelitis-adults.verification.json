@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/osteomyelitis-adults.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement' (published 11 May 2022 (evidence to 1 March 2022)), 17 claims; LICENCE: CC BY (open access; 'distributed under the terms of the CC-BY License') (read at Europe PMC fullTextXML <license> element for PMC9092201). S2: QUOTED from Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society) 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease' (published 9 June 2022 (adapts the 2019 IWGDF infection guideline)), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9178854). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Australian diabetes-related foot infection guideline (Diabetes Feet Australia 2021, published 2022), for diabetic foot osteomyelitis; every S1 claim is unchanged. S2's Tables 1-3 and supplementary tables were stripped and not used. The consensus statement's Tables 1–4 (diagnostic accuracy, empirical regimens, oral drug options and doses, durations) and Supplement 2 were not used: tables were stripped and the supplement was not retrieved.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement' (published 11 May 2022 (evidence to 1 March 2022)), 20 claims; LICENCE: CC BY (open access; 'distributed under the terms of the CC-BY License') (read at Europe PMC fullTextXML <license> element for PMC9092201). S2: QUOTED from Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society) 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease' (published 9 June 2022 (adapts the 2019 IWGDF infection guideline)), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9178854). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Australian diabetes-related foot infection guideline (Diabetes Feet Australia 2021, published 2022), for diabetic foot osteomyelitis; every S1 claim is unchanged. S2's Tables 1-3 and supplementary tables were stripped and not used. The consensus statement's Tables 1–4 (diagnostic accuracy, empirical regimens, oral drug options and doses, durations) and Supplement 2 were not used: tables were stripped and the supplement was not retrieved. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 3 (oral antibiotic doses used in published studies) and Table 4 (durations) added; S1 Tables 1-2 and S2 Tables 1 and 3 have ragged rows or merged cells and were not extracted; S2 Table 2 (panel judgements against IWGDF) adds nothing beyond the text.",
  "summary": {
-  "total": 27,
-  "pass": 27,
+  "total": 30,
+  "pass": 30,
   "fail": 0
  },
  "claims": [
@@ -96,6 +96,22 @@
    "locator": "WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321, 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement', published 11 May 2022 (evidence to 1 March 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Oral doses used in the published osteomyelitis studies (S1 Table 3):** ciprofloxacin 500–750 mg twice daily (the higher dose for Pseudomonas); levofloxacin 750 mg once daily; trimethoprim-sulfamethoxazole 7.5–10 mg/kg/day of trimethoprim in 2 or 3 doses (e.g. 2 double-strength tablets twice daily for a 70 kg adult; 2 studies used 4–6 mg/kg/day, with lower cure in 1); clindamycin 600 mg 3 times a day, or 900 mg 3 times or 600 mg 4 times a day for larger patients (450 mg 4 times a day was not favoured).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3. row 1] Drug: Ciprofloxacin · Dose: 500-750 mg twice daily · Comments: Higher dose for pseudomonas … [Table 3. row 2] Drug: Levofloxacin · Dose: 750 mg once daily · Comments: L-enantiomer of ofloxacin, the latter of which was widely studied for osteomyelitis … [Table 3. row 3] Drug: TMP-SMX · Dose: 7.5-10 trimethoprim mg/kg/d divided twice or thrice daily (eg, 2 DS tablets twice daily for a 70 kg adult) · Comments: Most studies used 7.5-10 mg/kg/d, 2 studies used 4-6 mg/kg/d, with lower cure rates in 1 of them … [Table 3. row 4] Drug: Clindamycin · Dose: 600 mg 3 times/d; 900 mg 3 times/d or 600 mg 4 times/d for larger patients · Comments: 450 mg 4 times/d may be used but was not favored in published studies",
+   "locator": "WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321, 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement', published 11 May 2022 (evidence to 1 March 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **More oral doses (S1 Table 3):** linezolid 600 mg twice daily (watch for reversible blood toxicity after 2 weeks and irreversible neurotoxicity after 4 weeks); amoxicillin-clavulanate 500 mg 3 times a day or 875 mg twice daily, specifically for diabetic foot osteomyelitis; rifampicin 600 mg once daily (900 mg once daily and 600 mg twice daily were also studied; 300 mg doses may be less desirable); fosfomycin 4–16 g a day, in formulations available outside the US.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3. row 5] Drug: Linezolid · Dose: 600 mg twice daily · Comments: Standard dosing, monitor for reversible hematotoxicity after 2 weeks, and irreversible neurotoxicity after 4 wks … [Table 3. row 6] Drug: Amoxicillin/ clavulanate · Dose: 500 mg 3 times/d or 875 mg twice daily · Comments: Specifically for DFO … [Table 3. row 7] Drug: Rifampin · Dose: 600 mg once daily · Comments: Doses studied include 600 once daily, 900 mg once daily or 600 mg twice daily, unclear if efficacy or toxicity differs; 300 mg doses may be less desirable due to lower AUC levels and less convenience for patients … [Table 3. row 8] Drug: Fosfomycin a · Dose: 4-16 g per day · Comments: Various doses studied with formulations available outside the US, not studied with the sachet powder formulation in the US … [Table 3. footnote] Abbreviations: DFO, diabetic foot osteomyelitis; TMP-SMX, trimethoprim-sulfamethoxazole. a There are no published data for the treatment of osteomyelitis with the sachet powder oral formulation of fosfomycin available in the US.",
+   "locator": "WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321, 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement', published 11 May 2022 (evidence to 1 March 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
    "claim": "**No minimum IV lead-in is needed:** switch to oral as soon as all the criteria are met, even during empirical therapy.",
    "source": "S1",
    "verdict": "pass",
@@ -121,6 +137,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "participating experts unanimously agree that 12 is preferred to 6 weeks of antibiotics for PJI treated with debridement, antibiotics, and implant retention (DAIR). Some experts also clearly preferred 12 weeks of antibiotics for PJI treated with prosthetic exchanges. However, others believed that equipoise remains between 6 vs 12 weeks for these patients, particularly if S aureus is not the etiologic pathogen, or for 1-stage exchanges or 2-stage revisions with negative cultures prior to implantation.",
+   "locator": "WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321, 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement', published 11 May 2022 (evidence to 1 March 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**PJI after prosthesis exchange (S1 Table 4):** 6 weeks may be reasonable for pathogens other than S. aureus, particularly after a 1-stage exchange, and may be reasonable after a 2-stage exchange, where the need for more antibiotics after reimplantation is disputed. After total resection of infected bone, the table advises not going beyond 5 days.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4. row 4] Condition: PJI with exchange · Clear recommendation: None · Clinical review: 12 wks favored by some experts Other experts believed equipoise remains for 6 vs 12 wks 6 wks may be reasonable for non- S aureus pathogens, particularly for 1-stage exchanges 6 wks may be reasonable for 2-stage exchange, although there is controversy about the need for further antibiotics after the second stage (reimplantation) … [Table 4. row 2] Condition: Osteomyelitis with total resection of infected bone · Clear recommendation: None · Clinical review: No antibiotics is a reasonable option; not recommended for use exceeding 5 d",
    "locator": "WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321, 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement', published 11 May 2022 (evidence to 1 March 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/, retrieved 2026-09-23"
   },
   {

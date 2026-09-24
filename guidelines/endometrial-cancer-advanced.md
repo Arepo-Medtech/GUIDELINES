@@ -1,9 +1,9 @@
 # Advanced or recurrent dMMR endometrial cancer: carboplatin, paclitaxel and dostarlimab
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** first-line carboplatin, paclitaxel and dostarlimab, then dostarlimab maintenance, for adults with advanced, metastatic or recurrent mismatch repair deficient (dMMR) endometrial cancer: eligibility, PBS status, dosing, immune-related and chemotherapy toxicity, monitoring, dose changes and the RUBY trial. The durvalumab-based first-line regimen (eviQ ID 4592), lenvatinib with pembrolizumab (ID 4322), chemotherapy alone and hormonal therapy are separate eviQ protocols and are not covered. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. Edition 2.0 adds, from S2 (SEOM-GEICO 2025), the wider pathway for advanced and recurrent disease (dMMR and pMMR first line, hormonal therapy, later lines, HER2 testing and follow-up); the other regimens' Australian doses are still not covered.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **40 fragments or anchors re-checkable by machine; 6 doses.** **S1** eviQ Cancer Treatments Online (first approved 21 August 2024; last reviewed 15 December 2025; review due 31 December 2027; AU): 19 claims, paraphrased, hash-anchored · **S2** Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al. (published online 23 September 2025; international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **60 fragments or anchors re-checkable by machine; 6 doses.** **S1** eviQ Cancer Treatments Online (first approved 21 August 2024; last reviewed 15 December 2025; review due 31 December 2027; AU): 19 claims, paraphrased, hash-anchored · **S2** Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al. (published online 23 September 2025; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ **This guideline follows a single eviQ protocol (carboplatin, paclitaxel and dostarlimab).** It is regimen-level, not a full endometrial cancer pathway, and applies to dMMR disease only.
 
@@ -43,6 +43,9 @@
 
 ## The wider pathway for advanced and recurrent disease (S2)
 
+- **Classify every endometrial cancer molecularly** for sharper risk grouping and treatment choice [III, A], and assess for hereditary syndromes, offering genetic counselling to those who test positive [III, A] (S2 summary table). [S2]
+- **Stage III under FIGO 2023 (S2 Table 3)** is regional spread of any histology: IIIA1 ovary or fallopian tube (unless it meets IA3), IIIA2 uterine subserosa or through the serosa, IIIB1 parametria and/or vagina, IIIB2 pelvic peritoneum, IIIC1 pelvic nodes and IIIC2 para-aortic nodes up to the renal vessels, each nodal stage split into micro- and macrometastasis. [S2]
+- **Stage IV under FIGO 2023:** IVA bladder or bowel mucosa, IVB peritoneal spread beyond the pelvis, IVC distant metastasis including nodes above the renal vessels. Molecular class (POLEmut or p53abn) changes the stage only in stages I and II, not III or IV, but should still be recorded. Macrometastases are over 2 mm; micrometastases 0.2–2 mm and/or over 200 cells. [S2]
 - **Test every endometrial cancer for mismatch repair deficiency by immunohistochemistry** (Lynch syndrome screening, whatever the age or histology) [II, A]; MLH1 loss needs MLH1 promoter methylation (or BRAF) testing before germline analysis. Also assess ER at diagnosis [IV, A], because it predicts response to hormonal treatment in advanced disease. [S2]
 - **Isolated pelvic recurrence or a single metastatic site:** consider surgery, radiotherapy or ablation [IV, A], followed by systemic treatment of uncertain benefit [IV, B]. Unresectable or metastatic disease is treated with chemotherapy, immunotherapy or hormonal therapy, and trial enrolment is strongly encouraged [V, B]. [S2]
 - **The chemotherapy backbone is carboplatin AUC 5–6 with paclitaxel 175 mg/m² every three weeks** [I, A]: in GOG 209 it was non-inferior to the three-drug TAP regimen (PFS 12–14 months, OS 32 months) and less toxic. [S2]
@@ -79,7 +82,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **pMMR disease:** dostarlimab is registered but not PBS-funded for pMMR endometrial cancer. S2 (SEOM 2025) now outlines pMMR choices (chemotherapy with immunotherapy as standard [I, B], PARP inhibitor combinations, lenvatinib with pembrolizumab), but their Australian doses and funding are not covered. | `out_of_scope` |
 | 3 | **pMMR first line: the sources differ.** S2 calls chemotherapy plus immunotherapy the standard for pMMR disease; in Australia S1 notes that dostarlimab is not PBS-funded for pMMR. Both are shown; check the PBS table for other agents. | `observation` |
 | 4 | **RUBY dMMR PFS hazard ratio differs between sources:** S1 (eviQ) gives HR 0.28 (24-month PFS 61.4% vs 15.7%); S2 (SEOM 2025) gives HR 0.23. Both report OS HR 0.32. The figures probably come from different analyses; both are shown. | `observation` |
-| 5 | **S2's tables and treatment algorithm (Figure 1)** were stripped; only running text is used. | `input_unavailable` |
+| 5 | **S2's tables:** Table 1 (diagnosis and staging recommendations) and Table 3 (FIGO 2023 staging) are now appended (pmc_text.py --append-tables, 2026-09-24) and used for molecular classification and stage III–IV definitions. Table 2 (ragged rows) and Table 4 (merged cells) could not be extracted, and the treatment algorithm (Figure 1) is an image; they stay gaps. | `input_unavailable` |
 | 6 | **Premedication and antiemetic doses** are in the treatment schedule detail and are left to local policy. | `observation` |
 | 7 | **Currency:** version 2, last reviewed 15 December 2025; review due 31 December 2027. | `time_sensitive` |
 | 8 | **Licence:** CC BY-NC 4.0 (eviQ). The claims are paraphrased and hash-anchored; eviQ's words are not reproduced. eviQ asks commercial entities to seek permission and says its content should not be hosted on external sites. | `observation` |

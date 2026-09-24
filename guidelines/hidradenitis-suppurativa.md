@@ -1,9 +1,9 @@
 # Hidradenitis suppurativa
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults and adolescents with hidradenitis suppurativa: diagnosis, severity scoring, comorbidity screening, mild–moderate and moderate–severe treatment, flares, loss of response, and pregnancy. This is a 13-expert Delphi consensus, not a systematic GRADE guideline. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **60 fragments or anchors re-checkable by machine; 8 doses.** **S1** Frew J (published online 22 November 2024; AU): 25 claims, quoted · **S2** Zouboulis CC (published online 19 December 2024 (corrected 21 January 2025); international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **65 fragments or anchors re-checkable by machine; 8 doses.** **S1** Frew J (published online 22 November 2024; AU): 26 claims, quoted · **S2** Zouboulis CC (published online 19 December 2024 (corrected 21 January 2025); international): 13 claims, paraphrased, hash-anchored
 
 > ⚠️ **The source predates a PBS change.** It says only adalimumab and secukinumab are PBS-reimbursed for HS; the current PBS schedule also lists **bimekizumab** (see the PBS table below). PBS applications still require Hurley staging, although the guideline no longer recommends it for clinical assessment.
 
@@ -20,6 +20,7 @@
 - **Score severity with the modified Hurley stage or IHS4.** Original Hurley staging and the Sartorius score are no longer recommended for routine use. [S1]
 - **Judge response with HiSCR75 or HiSCR90** (lower placebo response than HiSCR50). Allow up to 24 weeks of therapy before stopping for non-response. [S1]
 - **Screen for comorbidities when signs suggest them**, including metabolic syndrome. Investigate suspected IBD endoscopically: faecal calprotectin and ASCA can be raised by HS itself. [S1]
+- **Comorbidities recommended for screening (S1 Table 2; all level II evidence, grade B), with prevalence in HS and, where given, number needed to screen:** acne vulgaris or conglobata 4.5%, dissecting cellulitis of the scalp 9.2%, pilonidal cyst 32.6%, pyoderma gangrenosum 0.18%; depression 26.5% (NNS 108), anxiety 18.1% (NNS 2169); polycystic ovary syndrome 9%, obesity 41.3%, dyslipidaemia 48.9% (NNS 12), diabetes 10.6% (NNS 49), metabolic syndrome 40%, hypertension 24.4% (NNS 11), cardiovascular disease 2.8% (NNS 18); inflammatory bowel disease 1.8% and spondyloarthritis 0.9%. [S1]
 - **Scoring IHS4 (S2):** count nodules once, abscesses twice and draining tunnels four times; 3 or less is mild, 4–10 moderate and 11 or more severe. [S2]
 - **HiSCR (S2)** counts a responder as a fall of at least 50% in abscesses plus nodules with no increase in abscesses or draining tunnels; it is unreliable when the starting count is under 3. [S2]
 
@@ -43,6 +44,7 @@
 ## Moderate to severe disease
 
 - **Moderate–severe disease is Hurley 2B or above, or any tunnels.** Start a biologic and manage comorbidities such as PCOS and insulin resistance. [S1]
+- **When S2 considers a biologic or other advanced drug justified (S2 Table 2):** objectively moderate-to-severe disease (IHS4 of 4 or more, HS-PGA of 3 or more, refined Hurley IC, IIB, IIC or III, or a rising Hurley stage); quality of life markedly reduced (DLQI over 10 or HS-QoL over 20); unstable or progressive disease (several flares a year, rapid progression or widespread disease); or special situations, namely genital, facial, scalp or neck involvement, or lymphoedema. [S2]
 - ⚠️ **First-line biologics: adalimumab, secukinumab or bimekizumab.** Choose by comorbidity: IBD is a relative contraindication to IL-17 inhibitors; psoriasis or axial spondyloarthritis favours them. [S1]
 - **Primary non-response after 24 weeks:** escalate the dose (adalimumab 80 mg weekly, secukinumab 300 mg fortnightly, bimekizumab 320 mg 4-weekly), add intralesional steroid or deroofing, and optimise comorbidities. [S1]
 - **Second line (phase 2 evidence):** infliximab, upadacitinib, anakinra, and IL-23 inhibitors (risankizumab, guselkumab), though the IL-23 inhibitors missed their primary endpoint. [S1]
@@ -87,12 +89,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The Dessau criteria table, the comorbidity screening list and the per-therapy evidence table** (Tables 1–3) were stripped, so the exact screening list is not stated here. | `input_unavailable` |
-| 2 | **Anti-drug antibody management table** is in the online Data S1, which was not retrieved. | `input_unavailable` |
-| 3 | **Hurley 2b is in both severity bands** as written (mild–moderate 'Hurley 1, 2a/2b'; moderate–severe '2B or above or tunnels'). Tunnels decide escalation in practice. | `observation` |
-| 4 | **Stopping for non-response differs:** S1 allows up to 24 weeks of therapy before stopping; S2 stops adalimumab below a 25% improvement at 12 weeks (and extends partial responders by 3 months). Both are shown. | `observation` |
-| 5 | **Clindamycin plus rifampicin:** S1 lists it for mild–moderate disease; S2 reserves it for selected moderate-to-severe disease and finds it no better than tetracyclines. Both are shown. | `observation` |
-| 6 | **International counterpart:** the European S2k HS treatment guideline (2024) is now S2. Its licence is CC BY-NC-ND 4.0, so its claims are paraphrased and hash-anchored rather than quoted; S1 remains quoted (CC BY 4.0). | `observation` |
+| 1 | **S1 tables:** the comorbidity screening list (Table 2) is now appended row by row and stated above. **The Dessau criteria table and the per-therapy evidence table (S1 Tables 1 and 3)** have merged cells and were not extracted; they stay gaps. S2's biologic eligibility table (Table 2) is used; S2 Tables 1 and 3 were not extracted. | `input_unavailable` |
+| 2 | **Biologic threshold differs:** S1 defines moderate–severe disease (where biologics start) as Hurley 2B or above or any tunnels; S2's eligibility table also admits IHS4 of 4 or more, refined Hurley IC, poor quality of life, unstable disease or special sites. Both are shown; PBS criteria still use Hurley staging. | `observation` |
+| 3 | **Anti-drug antibody management table** is in the online Data S1, which was not retrieved. | `input_unavailable` |
+| 4 | **Hurley 2b is in both severity bands** as written (mild–moderate 'Hurley 1, 2a/2b'; moderate–severe '2B or above or tunnels'). Tunnels decide escalation in practice. | `observation` |
+| 5 | **Stopping for non-response differs:** S1 allows up to 24 weeks of therapy before stopping; S2 stops adalimumab below a 25% improvement at 12 weeks (and extends partial responders by 3 months). Both are shown. | `observation` |
+| 6 | **Clindamycin plus rifampicin:** S1 lists it for mild–moderate disease; S2 reserves it for selected moderate-to-severe disease and finds it no better than tetracyclines. Both are shown. | `observation` |
+| 7 | **International counterpart:** the European S2k HS treatment guideline (2024) is now S2. Its licence is CC BY-NC-ND 4.0, so its claims are paraphrased and hash-anchored rather than quoted; S1 remains quoted (CC BY 4.0). | `observation` |
 
 ## Sources
 

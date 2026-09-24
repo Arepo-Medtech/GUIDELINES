@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/paediatric-glioma.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)' (published 2 March 2026), 16 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12969682). S2: QUOTED from Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952) 'Advances in the management of pediatric low-grade glioma' (published 24 June 2026), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13320482). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every SOBOPE 2026 consensus claim (S1, paraphrased) unchanged and adds S2, a 2026 CC BY narrative review of paediatric low-grade glioma, quoted, for chemotherapy and radiotherapy position, trial results for targeted drugs, treatment duration, toxicity and cancer predisposition. S2 covers low-grade glioma only; its Tables 1-3 were stripped.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)' (published 2 March 2026), 18 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12969682). S2: QUOTED from Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952) 'Advances in the management of pediatric low-grade glioma' (published 24 June 2026), 15 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13320482). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every SOBOPE 2026 consensus claim (S1, paraphrased) unchanged and adds S2, a 2026 CC BY narrative review of paediatric low-grade glioma, quoted, for chemotherapy and radiotherapy position, trial results for targeted drugs, treatment duration, toxicity and cancer predisposition. S2 covers low-grade glioma only; its Tables 1-3 were stripped. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (tissue-agnostic testing) and Table 3 (graded LGG recommendations not already in the text), and S2 Table 1 (molecular classes) and Table 2 (targeted therapies and adverse effects). S1 Table 1 (applicability framework) and Table 4 (medulloblastoma) and S2 Table 3 (trial list) are not used as claims. All seven tables were clean.",
  "summary": {
-  "total": 28,
-  "pass": 12,
+  "total": 33,
+  "pass": 15,
   "fail": 0,
-  "pass_paraphrase_anchored": 16
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
@@ -40,6 +40,44 @@
      "h": "4af9f8ad49c3291c",
      "n": 345,
      "p": "DNA meth"
+    }
+   ],
+   "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Tissue-agnostic testing (S1 Table 2)** for a CNS tumour that is refractory or has relapsed, with no curative option left and the child still in good performance status: NTRK1, NTRK2 or NTRK3 fusions (RNA-NGS preferred; 100% panel agreement), BRAF V600E (100%), microsatellite instability (PCR preferred; 85%), tumour mutational burden by NGS (93%) and RET fusions (93%). DNA methylation profiling is advised for tumours with unusual histology, epidemiology, imaging or genomics (80%).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "599f765d97d3738d",
+     "n": 483,
+     "p": "[Table 2"
+    },
+    {
+     "h": "bc33cf4419629a7f",
+     "n": 452,
+     "p": "[Table 2"
+    },
+    {
+     "h": "03a6364f9e2156e9",
+     "n": 404,
+     "p": "[Table 2"
+    },
+    {
+     "h": "e3eca77a9f20a824",
+     "n": 417,
+     "p": "[Table 2"
+    },
+    {
+     "h": "2bbb71f7bee6b6e5",
+     "n": 349,
+     "p": "[Table 2"
+    },
+    {
+     "h": "29a204c10a062bca",
+     "n": 302,
+     "p": "[Table 2"
     }
    ],
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
@@ -218,6 +256,43 @@
    "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
   },
   {
+   "claim": "**More from S1's graded LGG table (Table 3):** in refractory or metastatic LGG, also test for CDKN2A mutation or deletion (87% agreement) and NF1 mutation or deletion (80%), both rated as prognostic markers on limited evidence; and for a tumour carrying the KIAA1549-BRAF fusion, tovorafenib is an option to consider (85%).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f95cd294e48c6376",
+     "n": 439,
+     "p": "[Table 3"
+    },
+    {
+     "h": "4b28c33897e3ae57",
+     "n": 395,
+     "p": "[Table 3"
+    },
+    {
+     "h": "99f6d1b830a3f81d",
+     "n": 237,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "Brazilian Committee of Precision Medicine in Pediatric Oncology, Brazilian Society of Pediatric Oncology (SOBOPE), The Lancet Regional Health - Americas 57:101422, 'Precision diagnosis and therapy for pediatric central nervous system tumors: consensus from the Brazilian Society of Pediatric Oncology (SOBOPE)', published 2 March 2026, https://doi.org/10.1016/j.lana.2026.101422, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Molecular classes of pLGG (S2 Table 1):** BRAF fusion (KIAA1549::BRAF), mostly pilocytic astrocytoma of the posterior fossa or optic pathway, indolent, MEK-inhibitor sensitive but resistant to type I BRAF inhibitors, and needing a fusion-sensitive assay; BRAF V600E, supratentorial, with higher progression risk that is worse with CDKN2A loss (IHC is reliable; assess CDKN2A); NF1-driven, optic pathway or brainstem, usually indolent (germline testing important); MYB/MYBL1-altered, excellent prognosis and not MAPK-targetable; IDH-mutant, mostly supratentorial and hemispheric.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 1] Molecular class: BRAF fusion-driven · Representative alterations: KIAA1549::BRAF · Mechanism of MAPK activation: Constitutive dimer-dependent RAF signaling · Common histologies: Pilocytic astrocytoma · Typical locations: Posterior fossa, optic pathway · Prognostic features: Indolent course, prolonged survival · Therapeutic relevance: MEK inhibition; resistance to type I BRAF inhibitors · Molecular class: Requires fusion-sensitive assays … [Table 1 row 2] Molecular class: BRAF V600E-driven · Representative alterations: BRAF V600E ± CDKN2A loss · Mechanism of MAPK activation: Constitutive monomeric RAF activation · Common histologies: PXA, ganglioglioma, diffuse LGG · Typical locations: Supratentorial · Prognostic features: Higher progression risk; adverse with CDKN2A loss · Therapeutic relevance: BRAF + MEK inhibition · Molecular class: IHC reliable; assess CDKN2A status … [Table 1 row 4] Molecular class: NF1-driven · Representative alterations: NF1 loss · Mechanism of MAPK activation: Loss of RAS-GAP activity · Common histologies: NF1-associated LGG, optic pathway glioma · Typical locations: Optic pathway, brainstem · Prognostic features: Typically indolent; context-dependent · Therapeutic relevance: MEK inhibition · Molecular class: Germline testing important … [Table 1 row 5] Molecular class: MYB/MYBL1-driven · Representative alterations: MYB/MYBL1 fusions/truncations · Mechanism of MAPK activation: Distinct transcriptional programs (non-MAPK) · Common histologies: Diffuse astrocytoma MYB/MYBL1-altered, angiocentric glioma · Typical locations: Cerebral hemispheres (frontal, temporal, parietal); rare brainstem · Prognostic features: Excellent prognosis; rare malignant transformation · Therapeutic relevance: Not MAPK-targetable … [Table 1 row 6] Molecular class: IDH-mutant · Representative alterations: IDH1/2 mutations ± ATRX/TP53 loss or 1p/19q codeletion · Mechanism of MAPK activation: Neomorphic IDH activity leading to altered cellular metabolism and epigenetic dysregulation (non-MAPK) · Common histologies: Astrocytoma IDH-mutant; oligodendroglioma IDH-mutant 1p/19q-codeleted · Typical locations: Predominantly supratentorial, hemispheric",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other targeted options and their status (S2 Table 2):** trametinib alone as a second-line option for BRAF-fusion tumours that need treatment (not yet approved first line); repotrectinib after TRK-inhibitor resistance (response 50% in pretreated patients; FDA accelerated approval from 12 years, June 2024); vorasidenib for IDH1/2-mutant tumours after resection or with residual disease (FDA approval from 12 years, August 2024; paediatric data limited). Selumetinib is approved only for NF1 plexiform neurofibroma, so its use in NF1-associated pLGG is off-label.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 2 row 2] Molecular Target: BRAF fusion · Drug: Trametinib · Regulatory Status: Not pLGG-specific (FDA/EMA/Canada) · Key Considerations: Second-line option when treatment required; avoids paradoxical MAPK activation; not yet approved as a first line … [Table 2 row 7] Molecular Target: NTRK fusion (post-TRK) · Drug: Repotrectinib · Regulatory Status: FDA: Accelerated approval ≥12 years (June 2024); EMA/Canada: Under review · Key Considerations: Option after TRK inhibitor resistance; ORR 50% in TKI-pretreated; limited pediatric pLGG data … [Table 2 row 10] Molecular Target: IDH1/2 mutation · Drug: Vorasidenib · Regulatory Status: FDA: Approved ≥12 years (Aug 2024); EMA/Canada: Under review · Key Considerations: Post-resection or residual disease; pediatric data limited … [Table 2 row 4] Molecular Target: NF1-associated pLGG · Drug: Selumetinib · Regulatory Status: FDA/EMA/Canada: Approved for NF1 PN only (off-label for pLGG)",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The best length of targeted therapy is not known,** and tumours often regrow when it stops. Canadian consensus suggests about 36 months for BRAF V600E pLGG with a gradual taper, usually the MEK inhibitor first and then the BRAF inhibitor, with close MRI surveillance while reducing.",
    "source": "S2",
    "verdict": "pass",
@@ -229,6 +304,13 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "Toxicities require proactive management. Pyrexia is common with dabrafenib-trametinib combination therapy, while cutaneous toxicities occur frequently with MEK and RAF inhibitors. Tovorafenib is associated with frequent but generally low-grade rash and growth suppression with recovery after treatment interruption for most patients []. Long-term effects on growth and cardiovascular health remain under investigation [,].",
+   "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Adverse effects by drug (S2 Table 2):** dabrafenib-trametinib, pyrexia (68%), headache, rash, weight gain; trametinib alone, acneiform rash, GI symptoms, raised CPK and rebound on stopping; tovorafenib, rash (93%), hair colour change, fatigue, haemorrhage and slower growth; selumetinib, GI symptoms, raised CPK, rash and paronychia, with cardiac and eye monitoring required; larotrectinib, raised transaminases, anaemia and fatigue; entrectinib, weight gain (35%), pathological fractures, anaemia, dizziness or ataxia and neurocognitive effects; erdafitinib, slipped capital femoral epiphysis, accelerated linear growth and hyperphosphataemia; everolimus, stomatitis, infections and hyperlipidaemia.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 2 row 1] Molecular Target: BRAF V600E · Drug: Dabrafenib + trametinib · Regulatory Status: Approved (FDA/EMA/Canada) · Key Considerations: First-line pLGG; superior to chemotherapy (ORR 47% vs 11%); AEs: Pyrexia (68%), headache, rash, weight gain; optimal duration unknown … [Table 2 row 2] Molecular Target: BRAF fusion · Drug: Trametinib · Regulatory Status: Not pLGG-specific (FDA/EMA/Canada) · Key Considerations: Second-line option when treatment required; avoids paradoxical MAPK activation; not yet approved as a first line AEs: Acneiform rash, GI symptoms, elevated CPK; rebound risk on discontinuation … [Table 2 row 3] Molecular Target: BRAF fusion or V600E · Drug: Tovorafenib · Regulatory Status: FDA: Accelerated approval (April 2024); EMA/Canada: Under review · Key Considerations: Active in fusion and V600E tumors; CNS-penetrant; ORR 51% AEs: Rash (93%), hair color changes, fatigue, hemorrhage, reduced growth velocity … [Table 2 row 4] Molecular Target: NF1-associated pLGG · Drug: Selumetinib · Regulatory Status: FDA/EMA/Canada: Approved for NF1 PN only (off-label for pLGG) · Key Considerations: Could be used off-label for NF1-associated pLGG but access remains difficult off study. AEs: GI symptoms, elevated CPK, acneiform rash, paronychia; cardiac and ocular monitoring required … [Table 2 row 5] Molecular Target: NTRK fusion · Drug: Larotrectinib · Regulatory Status: Approved (FDA/EMA/Canada) - tumor-agnostic · Key Considerations: Rapid and durable responses in pLGG; AEs: Elevated transaminases, anemia, fatigue … [Table 2 row 6] Molecular Target: NTRK fusion · Drug: Entrectinib · Regulatory Status: FDA: Tumor-agnostic (>1 month, Oct 2023); EMA: ≥12 years; Canada: Approved · Key Considerations: Rapid and durable responses; AEs: Weight gain (35%), pathological fractures, anemia, dizziness/ataxia, neurocognitive effects … [Table 2 row 8] Molecular Target: FGFR alteration · Drug: Erdafitinib · Regulatory Status: Not pLGG-specific (FDA/EMA/Canada) · Key Considerations: Investigational; modest activity; AEs: SCFE and accelerated linear growth are major pediatric toxicities; hyperphosphatemia … [Table 2 row 9] Molecular Target: mTOR pathway (TSC-SEGA) · Drug: Everolimus · Regulatory Status: Approved (FDA/EMA/Canada) for TSC-associated SEGA · Key Considerations: Standard of care for TSC-associated SEGA specifically; AEs: Stomatitis, infections, hyperlipidemia",
    "locator": "Brizini M, Perreault S, Hassan H, et al. (invited review), Neurotherapeutics 23:e00952 (doi 10.1016/j.neurot.2026.e00952), 'Advances in the management of pediatric low-grade glioma', published 24 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13320482/, retrieved 2026-09-24"
   },
   {

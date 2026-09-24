@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/achondroplasia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia' (published 28 June 2024), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11274906). S2: PARAPHRASED AND HASH-ANCHORED from Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x) 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia' (published March 2022), 13 claims; LICENCE: © Springer Nature Limited 2021 (free to read at nature.com; no open licence) (read at the copyright line in the article PDF downloaded from nature.com (Unpaywall: free to read, no licence)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2022 International Consensus Statement (modified Delphi, 160 statements; led from Melbourne), for general lifelong care, which S1 does not cover. S2 is © Springer Nature and free to read, so it is paraphrased and hash-anchored; text is from pdftotext of the published PDF, whose citation superscripts run into the words. The meeting was sponsored by BioMarin (maker of vosoritide), which the authors say had no input into content. The S1 claims are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia' (published 28 June 2024), 22 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11274906). S2: PARAPHRASED AND HASH-ANCHORED from Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x) 'International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia' (published March 2022), 13 claims; LICENCE: © Springer Nature Limited 2021 (free to read at nature.com; no open licence) (read at the copyright line in the article PDF downloaded from nature.com (Unpaywall: free to read, no licence)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2022 International Consensus Statement (modified Delphi, 160 statements; led from Melbourne), for general lifelong care, which S1 does not cover. S2 is © Springer Nature and free to read, so it is paraphrased and hash-anchored; text is from pdftotext of the published PDF, whose citation superscripts run into the words. The meeting was sponsored by BioMarin (maker of vosoritide), which the authors say had no input into content. The S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from Table 3 (developmental checklist). Table 1 (PBS criteria) is extracted but not reproduced; Table 2 (assessment schedule) has merged cells and was not extracted.",
  "summary": {
-  "total": 33,
-  "pass": 20,
+  "total": 35,
+  "pass": 22,
   "fail": 0,
   "pass_paraphrase_anchored": 13
  },
@@ -129,6 +129,20 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "If a child's growth slows to less than 1.5 cm/year before late puberty, urgent investigations into the causes of growth failure are required. … The typical growth velocity in children with achondroplasia is around 4 cm/year … Patients who are not responding to vosoritide despite open growth plates should be assessed for conditions like significant scoliosis and knee varus deformities that can result in reduced standing height. Rare unrelated conditions such as growth hormone deficiency may need to be excluded.",
+   "locator": "Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789, 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia', published 28 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Check development at every age against the achondroplasia-specific developmental checklist** (Table 3, ages 3 and under).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "The developmental progress of patients, based on age, should be assessed on a regular basis (Figure 1) using the developmental checklist (Table 3). … [Table 3] Developmental checklist for children with achondroplasia aged 3 years and under.",
+   "locator": "Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789, 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia', published 28 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Motor milestones on the checklist:** rolls over at 4–8 months; commando crawls, snow-ploughs and bear-walks at 8–12 months (snow plough and traditional crawling are not always present); stands and cruises holding on at 12–16 months; stands unsupported and walks independently at 16–20 months, confirmed at 20–24 months; climbs or crawls up two steps at 24–28 months.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 8] 4-8 months [Table 3 row 9] Rolls over … [Table 3 row 20] 8-12 months [Table 3 row 21] Commando crawls [Table 3 row 22] Snow plough a [Table 3 row 23] Bear walking [Table 3 row 24] Traditional crawling a … [Table 3 row 31] 12-16 months [Table 3 row 32] Transitions from lying to sitting [Table 3 row 33] Transitions from sitting to standing [Table 3 row 34] Transitions from standing to sitting [Table 3 row 35] Stands holding on [Table 3 row 36] Walks holding on/cruising … [Table 3 row 42] 16-20 months [Table 3 row 43] Stands unsupported [Table 3 row 44] Walks independently … [Table 3 row 51] 20-24 months [Table 3 row 52] Unscrews lid from jar [Table 3 row 53] Builds tower with eight blocks [Table 3 row 54] Combines two words [Table 3 row 55] (Confirm) Walks independently … [Table 3 row 58] 24-28 months [Table 3 row 59] Draws circle [Table 3 row 60] Makes short sentences [Table 3 row 61] Climbs or crawls up two steps … [Table 3 footnote] The parameters in italics represent consensus-based items. a Not always present.",
    "locator": "Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789, 'Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia', published 28 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/, retrieved 2026-09-23"
   },
   {

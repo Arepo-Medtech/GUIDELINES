@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/constitutional-delay-of-growth-and-puberty.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Rey RA, Grinspon RP, Castro S et al., Archives of Endocrinology and Metabolism 70(spe1), doi:10.20945/2359-4292-2025-0428 'Clinical approach to the male with delayed puberty' (published 24 November 2025), 18 claims; LICENCE: CC BY ('distributed under the terms of the Creative Commons Attribution License') (read at Europe PMC fullTextXML <license> element for PMC12668195). S2: QUOTED from Gaudino R, De Filippo G, Bozzola E, et al., Italian Journal of Pediatrics 48:45 (doi 10.1186/s13052-022-01242-5) 'Current clinical management of constitutional delay of growth and puberty' (published 24 March 2022), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8944060). Verify each source separately: verify.py --source <file> --only-source S<n>. Tables 1 and 2 (aetiologies; CHH genes) were stripped. An Italian review (Current clinical management of constitutional delay of growth and puberty, Ital J Pediatr 2022, PMC8944060, CC BY 4.0) was read and not used as S1: it is shorter and one oestrogen dose it gives ('5-10 μg/Kg per day') looks mis-stated. Edition 2.0 adds that review as S2 for boys only (natural history, when to treat, a shorter testosterone course, transdermal testosterone and outcomes); none of its oestrogen doses is used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Rey RA, Grinspon RP, Castro S et al., Archives of Endocrinology and Metabolism 70(spe1), doi:10.20945/2359-4292-2025-0428 'Clinical approach to the male with delayed puberty' (published 24 November 2025), 19 claims; LICENCE: CC BY ('distributed under the terms of the Creative Commons Attribution License') (read at Europe PMC fullTextXML <license> element for PMC12668195). S2: QUOTED from Gaudino R, De Filippo G, Bozzola E, et al., Italian Journal of Pediatrics 48:45 (doi 10.1186/s13052-022-01242-5) 'Current clinical management of constitutional delay of growth and puberty' (published 24 March 2022), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8944060). Verify each source separately: verify.py --source <file> --only-source S<n>. Tables 1 and 2 (aetiologies; CHH genes) were stripped. An Italian review (Current clinical management of constitutional delay of growth and puberty, Ital J Pediatr 2022, PMC8944060, CC BY 4.0) was read and not used as S1: it is shorter and one oestrogen dose it gives ('5-10 μg/Kg per day') looks mis-stated. Edition 2.0 adds that review as S2 for boys only (natural history, when to treat, a shorter testosterone course, transdermal testosterone and outcomes); none of its oestrogen doses is used. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (aetiologies of pubertal delay in males). S1 Table 2 (merged cells) and S2 Table 1 (ragged rows) were not extracted.",
  "summary": {
-  "total": 27,
-  "pass": 27,
+  "total": 28,
+  "pass": 28,
   "fail": 0
  },
  "claims": [
@@ -43,6 +43,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Another transient condition is functional central (or hypogonadotropic) hypogonadism, responsible for 10%-20% of the cases in males. It is associated with a wide variety of chronic or acute diseases, such as malnutrition, coeliac disease, cystic fibrosis, chronic kidney or liver disease, juvenile idiopathic arthritis and many others with chronic inflammation, Cushing syndrome, diabetes mellitus, etc. When the underlying disease is adequately managed, the function of the hypothalamic-pituitary-gonadal axis is reestablished, and puberty progresses. … permanent central (or hypogonadotropic) hypogonadism (HH), which represents 8%-10% of the boys with delayed puberty, can be acquired or congenital. … This is rare in males (4%-5%) and is most often associated with anorchia (congenital or acquired)",
+   "locator": "Rey RA, Grinspon RP, Castro S et al., Archives of Endocrinology and Metabolism 70(spe1), doi:10.20945/2359-4292-2025-0428, 'Clinical approach to the male with delayed puberty', published 24 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12668195/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The source's aetiology table gives somewhat different shares:** constitutional delay 60%–70%; functional central hypogonadism 16%–20% (systemic disease such as coeliac or inflammatory bowel disease, diabetes, malnourishment or hypothyroidism, or emotional stress); acquired central hypogonadism 4%–6% (sellar or suprasellar surgery, pituitary tumours, head injury, high-dose cranial radiotherapy); primary hypogonadism 2%–7% (anorchia or testicular regression, mild testicular dysgenesis, Klinefelter syndrome, orchitis or chemotherapy); congenital hypogonadotropic hypogonadism 2% (isolated, with or without anosmia, or with multiple pituitary hormone deficiency).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1] Aetiologies of pubertal delay in males [Table 1 row 1] Aetiology: Constitutional delay of growth and puberty (CDGP) · Relative frequency: 60%-70% [Table 1 row 2] Aetiology: Primary hypogonadism · Relative frequency: 2%-7% · Examples: Bilateral anorchia/Testicular regression syndrome Mild testicular dysgenesis Klinefelter syndrome (47,XXY and variants) Bilateral orchitis/chemotherapy [Table 1 row 3] Aetiology: Congenital hypogonadotropic hypogonadism (genetic) · Relative frequency: 2% · Examples: Isolated CHH (with or without anosmia) Multiple pituitary hormone deficiency [Table 1 row 4] Aetiology: Acquired central hypogonadism · Relative frequency: 4%-6% · Examples: Surgery of the sellar/suprasellar region Pituitary tumours Cranial trauma High dose cranial radiotherapy [Table 1 row 5] … [Table 1 row 5] Aetiology: Functional central hypogonadism · Relative frequency: 16%-20% · Examples: Systemic diseases (coeliac or inflammatory bowel disease, diabetes, malnourishment, hypothyroidism, etc), emotional stress",
    "locator": "Rey RA, Grinspon RP, Castro S et al., Archives of Endocrinology and Metabolism 70(spe1), doi:10.20945/2359-4292-2025-0428, 'Clinical approach to the male with delayed puberty', published 24 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12668195/, retrieved 2026-09-23"
   },
   {

@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/dry-eye-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts' (online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481)), 20 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10152565). S2: QUOTED from Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437) 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method' (published 30 October 2022), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9656447). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Wave 7 claim from S1 (European panel 2023) unchanged and adds S2, the Italian Dry Eye Consensus Group Delphi statements (2022, CC BY 4.0, quoted), for patient education and dosing schedules, lid-margin disease and the ocular surface around eye surgery. The TFOS management summary (© Alcon/TFOS) was again not used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts' (online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481)), 21 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10152565). S2: QUOTED from Aragona P, Giannaccare G, Mencucci R, Rubino P, Cantera E, Rolando M et al. (Italian Dry Eye Consensus Group), Journal of Clinical Medicine 11(21):6437 (doi 10.3390/jcm11216437) 'The Management of Dry Eye Disease: Proceedings of Italian Dry Eye Consensus Group Using the Delphi Method' (published 30 October 2022), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9656447). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Wave 7 claim from S1 (European panel 2023) unchanged and adds S2, the Italian Dry Eye Consensus Group Delphi statements (2022, CC BY 4.0, quoted), for patient education and dosing schedules, lid-margin disease and the ocular surface around eye surgery. The TFOS management summary (© Alcon/TFOS) was again not used. Table rows appended with pmc_text.py --append-tables (2026-09-24); a claim from S1 Table 6 (reasons for stopping ciclosporin) added; S1 Tables 1-5 have merged cells or ragged rows and were not extracted. S2 has no tables.",
  "summary": {
-  "total": 29,
+  "total": 30,
   "pass": 9,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
@@ -293,6 +293,19 @@
      "h": "d1e994b3870e6d93",
      "n": 101,
      "p": "therefor"
+    }
+   ],
+   "locator": "Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology, 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts', online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481), https://pmc.ncbi.nlm.nih.gov/articles/PMC10152565/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Why patients stop ciclosporin (S1 Table 6):** intolerance (mainly burning and pain on instillation), no perceived benefit, the delay before it works, the need for long-term use, the doctor's own instruction, physical difficulty with drops, forgetting, and cost. Address each when counselling.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6e867c8d2286f3b",
+     "n": 398,
+     "p": "[Table 6"
     }
    ],
    "locator": "Messmer EM, Ahmad S, Benitez del Castillo JM et al. (European DED expert panel), European Journal of Ophthalmology, 'Management of inflammation in dry eye disease: Recommendations from a European panel of experts', online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481), https://pmc.ncbi.nlm.nih.gov/articles/PMC10152565/, retrieved 2026-09-23"

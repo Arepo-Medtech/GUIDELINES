@@ -11,6 +11,9 @@
 self-describing line, "[Table 2 row 3] Drug: imatinib · Dose: 400 mg daily", so a claim can anchor to a single row with its
 column headings. A table is CLEAN only if no cell spans rows or columns, and every body row has as many cells as the header;
 anything else is listed as '[Table N not extracted: ...]' and stays an input_unavailable gap.
+Known limit: an unlabelled table is named by its position ('Table 3'), which can repeat a real label; cite such rows by
+their text, not the label. A table with no header row has its first data row read as headings; cite such rows by the cell
+text. Both are left as they are so that existing anchors stay reproducible.
 """
 import html, re, sys
 
@@ -57,7 +60,7 @@ def jats_tables(x):
         out.append(f"[{label}] {cap}".rstrip())
         for i, r in enumerate(body, 1):
             out.append(f"[{label} row {i}] " + " · ".join(f"{h}: {c}" if h else c for h, c in zip(head, r) if c))
-        for foot in re.findall(r"<table-wrap-foot>(.*?)</table-wrap-foot>", tw, flags=re.S):
+        for foot in re.findall(r"<table-wrap-foot\b[^>]*>(.*?)</table-wrap-foot>", tw, flags=re.S):
             if _txt(foot):
                 out.append(f"[{label} footnote] {_txt(foot)}")
     return "\n".join(out)

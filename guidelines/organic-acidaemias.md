@@ -1,9 +1,9 @@
 # Methylmalonic and propionic acidaemia (MMA and PA)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** isolated methylmalonic acidaemia (MMA) and propionic acidaemia (PA): when to suspect them, diagnosis, first treatment, avoiding catabolism, the low-natural-protein diet and precursor-free amino acid mixtures, levocarnitine, vitamin B12 responsiveness, metronidazole, liver and kidney transplantation, and surveillance for neurological, renal, cardiac, haematological, bone, growth and pancreatic complications. Isovaleric acidaemia is not covered by this source. First steps for any suspected inborn error in an unwell child: `metabolic-disorders-children`. Hyperammonaemia management detail: `urea-cycle-disorders`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **68 fragments or anchors re-checkable by machine; 5 doses.** **S1** Forny P (vol. 44, pp. 566–592, published 9 March 2021; international): 17 claims, paraphrased, hash-anchored · **S2** Servais A (published 6 September 2024; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **70 fragments or anchors re-checkable by machine; 6 doses.** **S1** Forny P (vol. 44, pp. 566–592, published 9 March 2021; international): 18 claims, paraphrased, hash-anchored · **S2** Servais A (published 6 September 2024; international): 13 claims, quoted
 
 > 🌐 **Two sources.** S1 (European MMA/PA guideline, 2021) covers both disorders. **S2** (ERKNet and MetabERN kidney consensus, 2024) covers **MMA only**: chronic kidney disease, dialysis and transplantation. Its points are graded B, C or X by the American Academy of Pediatrics scheme. Where they differ, both are shown.
 
@@ -24,6 +24,7 @@
 - **A decompensation with severe acidosis may need intensive care, whether or not ammonia or lactate is also high.** The acute approach rests on expert opinion rather than trials. [S1]
 - ⚠️ **Avoid sodium phenylbutyrate as the first-line ammonia scavenger in MMA and PA:** it can lower glutamine and impair Krebs-cycle replenishment. Large IV glucose loads can also cause lactic acidosis. [S1]
 - **Mild intercurrent illness:** a time-limited oral or enteral glucose-polymer emergency feed, if tolerated without vomiting or diarrhoea, while protein (including the amino acid mixture) is stopped or reduced, for example to 50%. [S1]
+- ⚠️ **Emergency feed strength by age (S1 Table 4):** up to 1 year, glucose polymer at 10% carbohydrate with 3.5% fat emulsion, giving about 71.5 kcal per 100 mL; 1–2 years, 15% with 5% fat (105 kcal); 2–9 years, 20% with 5% fat (125 kcal); over 10 years, 25% with 5% fat (145 kcal). The table gives no volumes or feeding intervals. [S1]
 
 ## Long-term treatment
 
@@ -41,6 +42,7 @@
 - ⚠️ **Kidney and heart:** monitor kidney function (chronic kidney disease), and examine the heart regularly: cardiomyopathy occurs in both, and **long QT in PA** can cause sudden cardiac arrest. (very strong) [S1]
 - **Blood, bone and growth:** full blood count at follow-up and during decompensation (anaemia, neutropenia, thrombocytopenia), bone health assessment, and regular growth measurements. [S1]
 - ⚠️ **Evaluate promptly for pancreatitis when it is suspected;** both acute and chronic forms occur. Treat health-related quality of life as an outcome that matters. [S1]
+- **Checks at stable MMA follow-up (S2 Table 1):** ammonia and lactate; quantitative plasma amino acids after 3–4 hours' fasting; plasma (and, depending on kidney function, urine) MMA; acylcarnitine profile; diet history; growth including head circumference; full clinical and neurological examination with developmental milestones; albumin, prealbumin and total protein; bone health (Ca, P, ALP, Mg, PTH and 25-OH vitamin D, urine Ca and P); FBC, ferritin, folate and B12; kidney function including cystatin C and urinary protein loss, with iohexol GFR for important decisions; lipase and pancreatic amylase; ECG and echocardiography; formal developmental or cognitive testing; brain MRI (EEG, EMG if indicated); eye assessment and a formal hearing test. The published table carries no visit frequencies. [S2]
 
 ## MMA: kidney disease, dialysis and transplantation (S2)
 
@@ -74,10 +76,10 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Emergency regimen and acute treatment detail** (Table 4 age-based glucose-polymer regimens; Figure 3 acute decompensation algorithm; Figure 4 anaesthesia flowchart) were stripped or are figures; their doses are not stated here. | `input_unavailable` |
+| 1 | **Acute treatment detail:** S1 Table 4 (age-based glucose-polymer and fat concentrations of the emergency feed) is now extracted and on the page, but it gives no volumes or intervals. Figure 3 (acute decompensation algorithm) and Figure 4 (anaesthesia flowchart) are figures, and S1 Tables 2, 3 and 5 have merged cells and were not extracted; their doses are not stated here. | `input_unavailable` |
 | 2 | **Isovaleric acidaemia** (PBS row, glycine with carbohydrate) is not covered here; it has its own page, `isovaleric-acidaemia`, built on the CC BY review 'Practical considerations for the diagnosis and management of isovaleryl-CoA-dehydrogenase deficiency' (Int J Neonatal Screen 2025, PMC12551068). That review was assessed for this page on 2026-09-24: its MMA and PA statements only restate S1, so it was not added. | `out_of_scope` |
 | 3 | **Carnitine dose differs:** S1 gives levocarnitine usually at about 100 mg/kg/day; S2 (MMA) gives oral L-carnitine 100–200 mg/kg/d in 2–4 doses. Both are shown. | `observation` |
-| 4 | **S2 covers MMA only.** Kidney, dialysis and transplant advice for propionic acidaemia is limited to S1. S2's monitoring-frequency table (Table 1) and summary table were stripped. | `input_unavailable` |
+| 4 | **S2 covers MMA only.** Kidney, dialysis and transplant advice for propionic acidaemia is limited to S1. S2's monitoring table (Table 1) is now extracted and its checklist is on the page; the XML carries no visit frequencies. S2's summary table (Table 2, merged cells) was not extracted. | `input_unavailable` |
 | 5 | **Australian guidance:** the ASIEM low-protein handbook for organic acidurias (2007) exists but HGSA's terms prohibit reproduction, so it was not used. | `observation` |
 | 6 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 

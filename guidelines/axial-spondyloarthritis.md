@@ -1,9 +1,9 @@
 # Axial spondyloarthritis (ankylosing spondylitis and non-radiographic axSpA)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with suspected or established axial spondyloarthritis: assessment, imaging, exercise, NSAIDs, conventional drugs, corticosteroids and biologics. The source is written for **non-radiographic** axSpA; where it draws on AS or whole-axSpA evidence it says so, and those claims carry over to ankylosing spondylitis. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **70 fragments or anchors re-checkable by machine; 0 doses.** **S1** Australian expert panel (published 28 December 2021; AU): 24 claims, paraphrased, hash-anchored · **S2** British Society for Rheumatology guideline working group (Zhao SS (published online 9 April 2025; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **95 fragments or anchors re-checkable by machine; 0 doses.** **S1** Australian expert panel (published 28 December 2021; AU): 28 claims, paraphrased, hash-anchored · **S2** British Society for Rheumatology guideline working group (Zhao SS (published online 9 April 2025; international): 11 claims, quoted
 
 > ⚠️ **S1 is from 2021.** It covers TNF and IL-17A inhibitors only. The PBS now also lists **upadacitinib** (JAK inhibitor) and **bimekizumab** (IL-17A/F) for nr-axSpA, which S1 does not assess; **S2 (BSR 2025)** covers both, plus response assessment, switching, uveitis, psoriasis, IBD and tapering.
 
@@ -67,6 +67,13 @@
 - **Agree individual treatment targets with the patient;** evidence is insufficient to treat to an index-based target such as ASDAS < 2.1 (the TICOSPA trial missed its primary outcome). [S2]
 - ⚠️ **Sustained remission (low activity or remission for at least 6 months): offer tapering, usually by lengthening the dosing interval, but do not withdraw targeted therapy.** In trials, flares were much more common after withdrawal: 80% flared after stopping certolizumab pegol, and not all regained control. [S2]
 
+## How strong is each Australian statement (S1, Table 1)
+
+- **High-certainty, strong statements:** a normal X-ray does not rule nr-axSpA out; classification criteria guide but must not be applied as diagnostic criteria to one patient; TNF and IL-17 inhibitors are effective; and cutting a TNF inhibitor dose raises flare risk, while stopping it carries a significant risk of flare. [S1]
+- **Moderate-certainty, strong statements:** full history and examination; HLA-B27 testing; a plain pelvic film for back pain with spondyloarthritis features, read in context; no CT; sacroiliac MRI (non-contrast T1 plus STIR) when nr-axSpA is suspected; and bone marrow oedema read in context, since it occurs in healthy people, athletes and women after childbirth. [S1]
+- **Strong, but on low or very low certainty:** patient-centred shared care and education, CRP testing, long-term exercise, physiotherapy, no DMARD for axial disease, and an NSAID as the first drug. [S1]
+- **Only conditional, on very low certainty:** sulfasalazine for peripheral disease, sacroiliac steroid injection, and systemic steroids. Panel agreement (out of 10) was lowest for steroid injection (8.3), physiotherapy (8.4), TNF-inhibitor dose reduction (8.7) and systemic steroids (8.9); every other statement scored 9.1 or above. [S1]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -84,12 +91,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The 22 statements with their agreement scores** are in Table 1, which was stripped; the claims above come from the statement headings and text. | `input_unavailable` |
+| 1 | **The 22 statements with their GRADE certainty, strength and agreement scores** (S1 Table 1) are now extracted and summarised under 'How strong is each Australian statement'; the other claims come from the statement headings and text. | `observation` |
 | 2 | **JAK inhibitors (upadacitinib, tofacitinib) and bimekizumab** are not covered by the 2021 Australian source (S1); they now come from BSR 2025 (S2). An Australian source covering them was not found. The ASAS-EULAR 2022 update is still not readable (Cloudflare challenge, HTTP 403, 2026-09-24). | `observation` |
-| 3 | **Ankylosing spondylitis-specific imaging** has a separate 2017 ANZ imaging consensus (licence not read), not used here. | `observation` |
-| 4 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
-| 5 | **IL-17 inhibitors and uveitis:** S1 says there is no evidence for IL-17 blockade in anterior uveitis; S2 says trial data do not suggest harm, that IL-17A inhibitors may be less effective than monoclonal TNF inhibitors, and that post hoc data suggest bimekizumab may prevent flares. Both prefer a monoclonal TNF inhibitor when uveitis is recurrent. | `observation` |
-| 6 | **S2's tables** (drug choice by extra-musculoskeletal manifestation, ASDAS calculation) were stripped. S2 does not cover NSAIDs, glucocorticoids, conventional DMARDs or drug safety, and gives no doses. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
+| 3 | **Tapering:** S1 Table 1 grades as high-certainty that reducing a TNF-inhibitor dose raises flare risk; S2 still offers tapering (usually by lengthening the interval) in sustained remission. Both are shown. | `observation` |
+| 4 | **Ankylosing spondylitis-specific imaging** has a separate 2017 ANZ imaging consensus (licence not read), not used here. | `observation` |
+| 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 6 | **IL-17 inhibitors and uveitis:** S1 says there is no evidence for IL-17 blockade in anterior uveitis; S2 says trial data do not suggest harm, that IL-17A inhibitors may be less effective than monoclonal TNF inhibitors, and that post hoc data suggest bimekizumab may prevent flares. Both prefer a monoclonal TNF inhibitor when uveitis is recurrent. | `observation` |
+| 7 | **S2's tables** (drug choice by extra-musculoskeletal manifestation, ASDAS calculation) have merged cells and could not be extracted, so they remain gaps. S2 does not cover NSAIDs, glucocorticoids, conventional DMARDs or drug safety, and gives no doses. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
 
 ## Sources
 

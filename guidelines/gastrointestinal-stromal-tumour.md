@@ -73,7 +73,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Evidence-grading table (Table 1) and the molecular-testing algorithm (Fig. 1)** are a table and an image and were not extracted. | `input_unavailable` |
+| 1 | **Evidence-grading table (Table 1)** is now appended to the source text (2026-09-24) but is only the grade key, so it adds no claims; **the molecular-testing algorithm (Fig. 1)** is an image and was not extracted. | `input_unavailable` |
 | 2 | **Australian later-line sequencing:** S2 (eviQ 4112) places ripretinib after imatinib and sunitinib (third line), whereas S1 (UK) uses regorafenib third line and ripretinib after 3 or more TKIs. eviQ's regorafenib protocol is superseded; avapritinib has no eviQ GIST protocol in S2 and is not among the PBS GIST drugs. Confirm against the current PBS restriction. | `observation` |
 | 3 | **NICE funding statements** (for imatinib 800 mg, avapritinib, ripretinib) describe UK access only and are not carried over. | `out_of_scope` |
 | 4 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |

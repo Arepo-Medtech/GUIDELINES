@@ -1,9 +1,9 @@
 # Myeloproliferative neoplasms — myelofibrosis (primary, pre-fibrotic and post-PV/ET)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** symptom assessment, pre-fibrotic primary myelofibrosis, molecular risk scoring, JAK-inhibitor choice and sequencing, recognising ruxolitinib failure (RR6), and transplant referral for primary and secondary (post-PV/ET) myelofibrosis in adults. Polycythaemia vera and essential thrombocythaemia outside myelofibrosis are not covered (see Unresolved). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **51 fragments or anchors re-checkable by machine; 7 doses.** **S1** DGHO MPN expert panel (Griesshammer M (published 21 June 2026; international): 22 claims, quoted · **S2** eviQ Cancer Treatments Online (first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027; AU): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **55 fragments or anchors re-checkable by machine; 7 doses.** **S1** DGHO MPN expert panel (Griesshammer M (published 21 June 2026; international): 26 claims, quoted · **S2** eviQ Cancer Treatments Online (first approved 6 August 2026; last reviewed 6 August 2026; review due 6 August 2027; AU): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (DGHO ONKOPEDIA, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -47,6 +47,13 @@
 - **Splenic irradiation or splenectomy for marked splenomegaly is an individual decision.** Irradiation is less invasive and can bridge to transplant. Splenectomy reduces spleen burden more but carries considerable perioperative morbidity and mortality. [S1]
 - **Offer clinical trial enrolment whenever possible.** [S1]
 
+## ONKOPEDIA compared with NCCN (S1 Table 1)
+
+- **Risk models:** ONKOPEDIA makes MIPSS70+ v2.0 the default for primary MF and MYSEC-PM for secondary MF (MIPSS-70 if cytogenetics are unavailable); NCCN v1.2026 accepts MIPSS-70, MIPSS-70+ v2.0, DIPSS or DIPSS-Plus for primary MF, and MIPSS-70+ v2.0, DIPSS-Plus or MYSEC-PM after PV or ET. Both ask for multigene molecular testing and marrow cytogenetics. [S1]
+- **JAK inhibitors:** NCCN lists ruxolitinib and fedratinib as category 1 options for higher-risk MF with platelets ≥ 50 × 10^9/L and pacritinib as the category 1 preferred option below 50 × 10^9/L when transplant is not feasible; in German practice pacritinib is not routinely available, and ONKOPEDIA applies RR6 more strictly to trigger a switch after ruxolitinib. [S1]
+- ⚠️ **Anaemia and erythropoietin thresholds differ:** ONKOPEDIA considers an ESA when serum EPO is low, citing better responses particularly below 125 U/L, is cautious about combining it with ruxolitinib, and treats luspatercept mainly as investigational or off-label. NCCN has a dedicated anaemia pathway with momelotinib preferred and options including pacritinib, danazol, luspatercept and ESAs if EPO is below 500 mU/mL, alone or added to a JAK inhibitor. [S1]
+- **Transplant thresholds:** ONKOPEDIA indicates allogeneic transplant in fit patients at high or very high MIPSS70+ v2.0 risk, up to a biological age of about 75, with RR6 review after 6 months on a JAK inhibitor. NCCN refers to transplant experts at DIPSS-Plus Int-1 or MIPSS intermediate risk or higher, and recommends transplant at DIPSS-Plus/MYSEC Int-2 or high risk and MIPSS70/MIPSS-70+ high risk. [S1]
+
 ## Momelotinib in Australia (eviQ)
 
 - **eviQ indication:** adults with primary, post-PV or post-ET myelofibrosis who have moderate to severe anaemia and a spleen or symptom burden from the disease, whether JAK-inhibitor naive or previously on ruxolitinib. [S2]
@@ -80,7 +87,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Polycythaemia vera (PBS row: ruxolitinib, 4 restrictions) has no open-licence current guideline.** The Italian Delphi consensus (Leuk Lymphoma 2025) is not open access. The ELN 2021 PV cytoreduction recommendations (Lancet Haematol) are paywalled. The only open options found were the Chinese-language 2022 PV guideline and the 2020/21 Korean MPN guideline, which is more than 5 years old. PV is therefore not covered here. | `input_unavailable` |
 | 2 | **Essential thrombocythaemia** has no PBS row in the no-guideline data, so it was not sought. | `out_of_scope` |
 | 3 | **Imatinib rows** ('Myeloproliferative disorder', 'Myelodysplastic or myeloproliferative disorder') are for PDGFR-rearranged disease and belong with the French hypereosinophilia guideline, not this one. | `out_of_scope` |
-| 4 | **The ONKOPEDIA versus NCCN comparison table** (Table 1) was stripped. Momelotinib dosing now comes from S2 (eviQ); starting doses of ruxolitinib and fedratinib are still in neither source's text (eviQ has no protocol for either in myelofibrosis). | `input_unavailable` |
+| 4 | **The ONKOPEDIA versus NCCN comparison table** (Table 1) is now covered from the appended rows. Momelotinib dosing now comes from S2 (eviQ); starting doses of ruxolitinib and fedratinib are still in neither source's text (eviQ has no protocol for either in myelofibrosis). | `input_unavailable` |
 | 5 | **Momelotinib's place differs in emphasis:** S1 (DGHO) positions it for anaemia and possibly first line when anaemia is clinically relevant; S2 (eviQ) restricts its indication to moderate to severe anaemia and records that it did not match ruxolitinib for symptom response in the head-to-head trial. Both are shown. | `observation` |
 | 6 | **eviQ platelet table:** the dose-change table for platelets by baseline count was flattened by extraction; the claim gives only the common thresholds (under 20, recovery to 50). Check the eviQ page for the full grid. | `observation` |
 | 7 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial entities to seek permission and says its content should not be hosted on external sites. | `observation` |

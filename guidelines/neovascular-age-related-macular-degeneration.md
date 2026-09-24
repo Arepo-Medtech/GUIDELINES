@@ -1,11 +1,11 @@
 # Neovascular (wet) age-related macular degeneration: recognition, urgent referral and anti-VEGF care
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising neovascular AMD, the urgent-referral trigger, the anti-VEGF treatment approach, and the early/intermediate AMD care (supplements, self-monitoring, review) that decides who gets referred, in adults. Written for optometrists, so injection technique and drug choice are covered only in outline. Other anti-VEGF indications: see `diabetic-macular-oedema` and `retinal-vein-occlusion`. Cataract in the same age group: see `cataract`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **42 fragments or anchors re-checkable by machine; 3 doses.** **S1** Optometry Australia (approved 8 February 2019 (due for revision 2022); AU): 20 claims, paraphrased, hash-anchored · **S2** Iida T (published 14 July 2025; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **47 fragments or anchors re-checkable by machine; 4 doses.** **S1** Optometry Australia (approved 8 February 2019 (due for revision 2022); AU): 20 claims, paraphrased, hash-anchored · **S2** Iida T (published 14 July 2025; international): 14 claims, quoted
 
-> ⚠️ **S1 is a 2019 guide, past its 2022 revision date.** It names only ranibizumab, aflibercept and off-label bevacizumab. The PBS now also lists **faricimab and brolucizumab** for subfoveal choroidal neovascularisation (see the table below), and **bevacizumab is not PBS-listed** for this. S2 (2025) names faricimab, brolucizumab and aflibercept 8 mg and sets out current regimens, but its dose table was not captured.
+> ⚠️ **S1 is a 2019 guide, past its 2022 revision date.** It names only ranibizumab, aflibercept and off-label bevacizumab. The PBS now also lists **faricimab and brolucizumab** for subfoveal choroidal neovascularisation (see the table below), and **bevacizumab is not PBS-listed** for this. S2 (2025) names faricimab, brolucizumab and aflibercept 8 mg and sets out current regimens, but its dose table (Table 4) has merged cells and could not be extracted.
 
 > ⚠️ International guideline (S2: Japanese clinical guidelines, 2025, written for Asian including Japanese patients). Australian practice follows the PBS listings below and may differ.
 
@@ -19,6 +19,7 @@
 - **Differentials in which neovascularisation forms without drusen:** polypoidal choroidal vasculopathy, ocular histoplasmosis, pathological myopia, choroidal rupture, angioid streaks and idiopathic CNV. Consider diabetic macular oedema when the macula shows blood, lipid, exudate or fluid. [S1]
 - **Warn about Charles Bonnet syndrome:** people with late AMD and poor sight in both eyes can get visual hallucinations, which are distressing and often need counselling. [S1]
 - **AMD can present before 50:** S2 removed age from its diagnostic criteria for this reason. [S2]
+- **Types of macular neovascularisation (S2 Table 1):** type 1 without a polypoidal lesion, type 1 with a polypoidal lesion (PCV), type 2, mixed type 1 and 2, and type 3 (retinal angiomatous proliferation, RAP). [S2]
 - **Polypoidal choroidal vasculopathy (PCV) is a major neovascular AMD subtype in Asian populations;** its first-line treatment has moved to anti-VEGF monotherapy rather than photodynamic therapy alone or in combination. [S2]
 
 ## Refer urgently
@@ -53,6 +54,7 @@
 
 - **For intermediate AMD, the AREDS2 formula may help:** vitamin C 500 mg, vitamin E 400 IU, zinc 80 mg (as zinc oxide), copper 2 mg (as cupric oxide), lutein 10 mg and zeaxanthin 2 mg. ⚠️ That zinc dose is above the Australian and New Zealand upper intake limit, so discuss it with the GP. [S1]
 - **S2 describes AREDS2 differently:** lutein/zeaxanthin in place of beta-carotene (which raises lung-cancer risk in smokers) and zinc cut from 80 mg to 25 mg, with no loss of benefit. Supplements do not stop early AMD becoming intermediate, and excess vitamins and zinc can cause harm. [S2]
+- **S2's AREDS2 table (daily doses):** vitamin C 500 mg, vitamin E 400 IU, lutein/zeaxanthin 10 mg/2 mg, zinc (as zinc oxide) 25 mg and copper (as cupric oxide) 2 mg. [S2]
 - **Supplements are not advised** for early AMD, for normal age-related changes only, when both eyes already have late AMD, or for at-risk people without any AMD signs. [S1]
 - ⚠️ **Teach home Amsler-grid monitoring at every visit,** and tell the patient to come in at once for distortion, central blur or vision loss. [S1]
 - **Review without new symptoms:** early AMD at least every 12 months; intermediate AMD every 6 to 12 months (per the guide's review table). [S1]
@@ -74,7 +76,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Faricimab and brolucizumab**, both PBS-listed for this condition, post-date S1. S2 names them (and aflibercept 8 mg) and flags brolucizumab's vasculitis and occlusion risk, but their doses and intervals are in S2's Table 4, which was stripped; nothing here states them. | `input_unavailable` |
+| 1 | **Faricimab and brolucizumab**, both PBS-listed for this condition, post-date S1. S2 names them (and aflibercept 8 mg) and flags brolucizumab's vasculitis and occlusion risk, but their doses and intervals are in S2's Table 4, which has merged cells and could not be extracted (pmc_text.py --append-tables, 2026-09-24); nothing here states them. S2 Tables 1 and 3 (MNV types, AREDS2 doses) are now covered. | `input_unavailable` |
 | 2 | **Anti-VEGF doses and the maximum treat-and-extend interval** are not stated by either source's text; S2 gives the loading phase (three or four monthly injections). | `input_unavailable` |
 | 3 | **AREDS2 zinc dose differs between sources:** S1 gives the AREDS2 formula with zinc 80 mg; S2 says AREDS2 recommends cutting zinc to 25 mg. Both are shown; check the formulation the patient is taking against the product and the GP's advice. | `observation` |
 | 4 | **Population:** S2 was written for Asian, including Japanese, patients (PCV and pachychoroid are more common); its drug list is Japan's, not Australia's. | `observation` |

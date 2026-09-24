@@ -1,9 +1,9 @@
 # Endogenous Cushing's syndrome: medical treatment
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with endogenous Cushing's syndrome (pituitary, ectopic or adrenal) who need cortisol-lowering drugs: when medical therapy is used, osilodrostat and other steroidogenesis inhibitors, titration versus block-and-replace, monitoring, the adrenal-insufficiency risk, thromboprophylaxis and pregnancy, with a short note on children from S2. Diagnosis and surgery are not covered. Adrenal crisis in children: `adrenal-crisis-children`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **56 fragments or anchors re-checkable by machine; 6 doses.** **S1** Araujo-Castro M (published 5 January 2026; international): 25 claims, quoted · **S2** Fleseriu M (published December 2021; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 48 claims; **83 fragments or anchors re-checkable by machine; 6 doses.** **S1** Araujo-Castro M (published 5 January 2026; international): 30 claims, quoted · **S2** Fleseriu M (published December 2021; international): 18 claims, paraphrased, hash-anchored
 
 > ⚠️ International sources (Endocrine Reviews, 2026; Pituitary Society, 2021). Australian practice follows the PBS listings below and may differ.
 
@@ -70,6 +70,23 @@
 - **Pituitary Society on pregnancy:** metyrapone may be considered with precautions; because normal cortisol is higher in pregnancy, a higher cortisol target such as 1.5 × ULN is used. [S2]
 - **Pituitary Society on thrombosis:** venous thromboembolism risk is more than 10-fold higher than in surgery for non-functioning adenomas and persists for months after surgery; retrospective data suggest postoperative thromboprophylaxis helps, especially when extended to 30 days, but who benefits most is still being worked out. [S2]
 
+## Interactions and comorbidities (S1 tables)
+
+- ⚠️ **Steroidogenesis-inhibitor interactions:** CYP3A4 inducers (rifampin, carbamazepine, phenytoin) and CYP3A4 inhibitors both interact with ketoconazole, levoketoconazole, osilodrostat (also CYP2B6 inducers) and mitotane. Avoid gastric acid suppressants (H2-receptor antagonists, proton pump inhibitors) with ketoconazole or levoketoconazole. Metyrapone rarely interacts. [S1]
+- **Hypertension (50% to 95% in Cushing's disease):** an ACE inhibitor or ARB first, adding spironolactone or a calcium channel blocker if needed. Loss of the normal night-time fall in blood pressure is an early sign. [S1]
+- **Diabetes (20% to 45%):** treat as type 2 diabetes; a DPP-4 inhibitor or GLP-1 receptor agonist and insulin are especially useful for pasireotide-induced hyperglycaemia. **Obesity (25% to 100%, mainly visceral):** diet and exercise as able; consider a GLP-1 receptor agonist or tirzepatide, especially with diabetes. [S1]
+- **Dyslipidaemia (16% to 60%):** treat as in the general population, but allow for interactions with cortisol-lowering drugs. **Osteoporosis (28% to 50%) and fractures (15% to 50%):** vitamin D and calcium; oral bisphosphonates first when drug treatment is indicated. [S1]
+- ⚠️ **Thromboembolism (15% to 18%):** perioperative thromboprophylaxis for patients at high VTE risk; enoxaparin is the agent most often used in active disease and after surgery. **Infections (about 20%, including opportunistic):** pneumococcal and influenza vaccination, strict hygiene and, in some cases, antimicrobial prophylaxis. [S1]
+
+## Complications and drug choice (S2 panels)
+
+- ⚠️ **Venous thromboembolism:** get every patient walking early after surgery and use compression stockings. Consider prophylactic anticoagulation with a past embolism or abnormal clotting tests, severe hypercortisolism before surgery, oestrogen or oral contraceptive use, poor mobility, a long hospital stay, or high cortisol (or over-replacement) after surgery. If used, low-molecular-weight heparin is preferred to oral anticoagulants, which last long and are hard to reverse. [S2]
+- **Duration of anticoagulation is not settled:** before surgery, panel members suggested anywhere between 2–4 days and 1–2 weeks; after it, between 1–2 days in hospital and 2–4 weeks, or even 2–3 months. [S2]
+- **Bone:** assess bone loss and fracture risk in everyone. DXA alone can miss the risk, so use trabecular bone score, a microscanner or vertebral morphometry where available; FRAX is not validated in Cushing's disease. Consider a bisphosphonate in persistent disease even when BMD is normal. [S2]
+- **Growth hormone deficiency after surgery:** wait at least 6–12 months before testing, as axis recovery is slow. With 3 or more other pituitary deficits it is likely enough that dynamic tests are unnecessary; IGF-I alone is unreliable. If GH is started within 2 years of surgery, retest periodically. In children, test 3–6 months after surgery and start GH promptly if needed. [S2]
+- **Steroid myopathy persists in remission, so offer physical rehabilitation to all.** [S2]
+- ⚠️ **Drug-choice cautions:** avoid cabergoline after bipolar or impulse-control disorder. Ketoconazole may be under-dosed from fear of liver toxicity and can cause hypogonadism in men; metyrapone and osilodrostat do not. Use mifepristone cautiously without an expert pituitary endocrinologist to monitor it. UFC is unhelpful when adrenal insufficiency is the worry. [S2]
+
 ## Children (Pituitary Society)
 
 - **Children:** surgery is still first line. Unlike in adults, thromboprophylaxis is not routine (bleeding risk) and is kept for selected patients. When drugs are needed, ketoconazole or metyrapone is usual, with morning cortisol to track response; pasireotide is not recommended, and osilodrostat trials in children are under way. [S2]
@@ -91,13 +108,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Pasireotide starting dose** reads '10 mg once every 28 months' in the source (almost certainly 28 days); it is left out of the claim. | `observation` |
-| 2 | **Drug comparison and adrenal-insufficiency case tables** (Tables 1 to 5) were stripped. | `input_unavailable` |
+| 2 | **S1's drug comparison and adrenal-insufficiency case tables** (Tables 1, 4 and 5) are still missing: they have ragged rows or merged cells, so they could not be extracted. Tables 2 (interactions) and 3 (comorbidities) are now used. | `input_unavailable` |
 | 3 | **Diagnosis of Cushing's syndrome and surgical management** are outside this medical-treatment source. | `out_of_scope` |
 | 4 | **Australian availability:** only osilodrostat is PBS-listed for this condition; the source's other agents may need non-PBS supply. Check local access. | `observation` |
 | 5 | **Thromboprophylaxis differs between sources:** S1 (citing a 2025 Delphi consensus) advises considering it for every patient from diagnosis until 3 months after remission; S2 (2021) supports postoperative prophylaxis, especially for 30 days, and says selection criteria are still being developed, and in children advises against routine use. Both are shown; the newer position is S1's. | `observation` |
 | 6 | **Choosing by sex:** S1 suggests ketoconazole may suit women and metyrapone or osilodrostat men (androgen effects); S2 says it is not yet known whether sex should drive long-term drug choice. | `observation` |
-| 7 | **S2 scope and tables:** S2 is about Cushing's disease (pituitary); its treatment summary panel and tables were not machine-read, and its ketoconazole, metyrapone, cabergoline and pasireotide starting doses are not stated in its prose. | `input_unavailable` |
-| 8 | **Licences:** S1 is CC BY 4.0 and quoted; S2 is an NIH author manuscript (© Elsevier, text-mining and fair-use notice), so it is paraphrased and hash-anchored. | `observation` |
+| 7 | **S2 scope and tables:** S2 is about Cushing's disease (pituitary); its summary Panels 1 and 2 are now used, but its Tables 1 and 2 (tests and drugs) have merged cells and could not be extracted, and its ketoconazole, metyrapone, cabergoline and pasireotide starting doses are not stated in its prose or panels. | `input_unavailable` |
+| 8 | **S1 Table 2's column headings look reversed:** it lists CYP3A4 inducers under 'increase drug effect' and CYP3A4 inhibitors under 'reduce drug effect', the opposite of the expected effect on ketoconazole levels. The page says only that they interact; check the product information. | `observation` |
+| 9 | **Licences:** S1 is CC BY 4.0 and quoted; S2 is an NIH author manuscript (© Elsevier, text-mining and fair-use notice), so it is paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 

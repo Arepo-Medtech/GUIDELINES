@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/autosomal-dominant-polycystic-kidney-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Internal Medicine Journal (RACP) 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease' (published 21 April 2026), 20 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13288312). S2: PARAPHRASED AND HASH-ANCHORED from ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312) 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International' (published online 19 November 2021), 9 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9035348). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ERA/ERKNet/PKD International tolvaptan consensus update (Europe PMC JATS XML, tables stripped), paraphrased and hash-anchored; it is the ERA algorithm S1 refers to. The S1 claims and anchors are unchanged from edition 1.0.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Internal Medicine Journal (RACP) 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease' (published 21 April 2026), 25 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13288312). S2: PARAPHRASED AND HASH-ANCHORED from ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312) 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International' (published online 19 November 2021), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9035348). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ERA/ERKNet/PKD International tolvaptan consensus update (Europe PMC JATS XML, tables stripped), paraphrased and hash-anchored; it is the ERA algorithm S1 refers to. The S1 claims and anchors are unchanged from edition 1.0. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 1–4 (genetic-testing scenarios, ADPKD BP targets, KDIGO vs PBS vs Pharmac tolvaptan criteria, ERA-EDTA algorithm) and S2 Table 1 (core progression parameters); S2 Tables 2 and 3 have merged cells and were not extracted.",
  "summary": {
-  "total": 29,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 29
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -78,6 +78,19 @@
    "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
   },
   {
+   "claim": "**When genetic testing is advised to clarify the diagnosis (CARI table):** no family history; only a few cysts, or cysts on one side or unevenly spread (an atypical picture); disease starting very early; family planning; and working out prognosis, including the PRO-PKD score.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "223a735581f3d943",
+     "n": 334,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Blood pressure follows the KDIGO 2021 BP-in-CKD guideline**, though the ADPKD targets differ. Home BP monitoring is a practical substitute for ambulatory monitoring, notably by telehealth in rural and remote areas.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -91,6 +104,29 @@
      "h": "49545a53fba9d16f",
      "n": 119,
      "p": "Home BP "
+    }
+   ],
+   "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **ADPKD BP targets (CARI table):** at 18–49 years with CKD G1–G2 and BP above 130/85 mmHg, aim for 110/75 mmHg or less; at 18–49 with BP between 110/75 and 130/85 mmHg, set the target case by case; from 50 years at any CKD stage (G1–G5), aim for systolic BP under 120 mmHg.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fecf625785f266e3",
+     "n": 111,
+     "p": "[Table 2"
+    },
+    {
+     "h": "fcf1fc59c1433327",
+     "n": 153,
+     "p": "[Table 2"
+    },
+    {
+     "h": "d37c8cd695211b59",
+     "n": 93,
+     "p": "[Table 2"
     }
    ],
    "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
@@ -202,6 +238,32 @@
      "h": "187df4922d4c9779",
      "n": 173,
      "p": "CARI gui"
+    }
+   ],
+   "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **PBS criteria for tolvaptan in Australia (as tabulated by CARI):** eGFR of 30 to 89 mL/min/1.73 m2 plus rapidly progressive disease, meaning eGFR falls by 5 or more mL/min/1.73 m2 within a year, or by an average of 2.5 or more a year across 5 years. No imaging class is listed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e538932c3881c2f9",
+     "n": 257,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**New Zealand (Pharmac):** the same two rates of eGFR decline, but from an eGFR of 25 mL/min/1.73 m2 upwards with no upper limit listed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35c752027df9372e",
+     "n": 251,
+     "p": "[Table 3"
     }
    ],
    "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
@@ -347,6 +409,52 @@
     }
    ],
    "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ERA core parameters, in table form:** if Mayo classification is not possible, a kidney length on ultrasound above 16.5 cm at age 46 or younger indicates rapid progression. Urological symptoms (visible haematuria, cyst bleeding or infection, flank pain) or high blood pressure starting before 35, and affected relatives mostly reaching kidney failure before 58, also weigh towards it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1e38fe0d62091ca4",
+     "n": 230,
+     "p": "[Table 1"
+    },
+    {
+     "h": "ca69f3b44a8faff0",
+     "n": 184,
+     "p": "[Table 1"
+    },
+    {
+     "h": "e215dad04dac1e56",
+     "n": 126,
+     "p": "[Table 1"
+    },
+    {
+     "h": "fd047d8b393f2e50",
+     "n": 153,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**CARI's version of the ERA-EDTA algorithm** keeps the same steps and adds numbers to the age-adjusted eGFR test: eGFR is unexpectedly low if under 90 at 40–44 years, under 75 at 45–49 and under 60 at 50–55 mL/min/1.73 m2 (any eGFR at 18–39), with a fall of 3.0 or more a year over 4 years. It gives family history as kidney failure before 58.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d105261201157584",
+     "n": 298,
+     "p": "[Table 4"
+    },
+    {
+     "h": "eb779f43bf9a660a",
+     "n": 127,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Reconsider tolvaptan when something else could explain the eGFR loss:** proteinuria of 1 g/day or more, vascular disease such as coronary disease or stroke, uncontrolled severe hypertension, or diabetes. Gather more information, including MRI or CT if not yet done, to confirm ADPKD is the main cause.",

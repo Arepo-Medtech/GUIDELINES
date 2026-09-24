@@ -1,13 +1,13 @@
 # Narcolepsy and cataplexy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising narcolepsy type 1 (with cataplexy or low CSF orexin) and type 2 in adults, the ICSD-3-TR diagnostic pathway and its Australian testing constraints, non-drug measures, drug choice as the PBS shapes it, cataplexy treatment, pregnancy, and emerging orexin-agonist therapy. Idiopathic hypersomnia is mentioned only in passing. The source is a narrative review, not a graded guideline. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **64 fragments or anchors re-checkable by machine; 0 doses.** **S1** Lin (published 27 August 2025; AU): 21 claims, paraphrased, hash-anchored · **S2** American Academy of Sleep Medicine (published 1 September 2021; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **67 fragments or anchors re-checkable by machine; 0 doses.** **S1** Lin (published 27 August 2025; AU): 24 claims, paraphrased, hash-anchored · **S2** American Academy of Sleep Medicine (published 1 September 2021; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **The PBS, not the evidence, sets the first-line drug here.** European and AASM guidelines put modafinil first for sleepiness, but PBS access to modafinil or armodafinil needs a contraindication to dexamfetamine, so dexamfetamine is in effect the first subsidised drug. Sodium oxybate, the international first choice for cataplexy, is not on the PBS; clomipramine is the only PBS-listed anticataplectic.
 
-> ℹ️ **S1 is a narrative review, not a guideline:** its claims are ungraded, and its treatment and pregnancy-category table was stripped. **S2 is the AASM 2021 GRADE guideline:** the strong and conditional drug recommendations, evidence certainty, boxed warnings and paediatric recommendations rest on S2. Neither source gives doses.
+> ℹ️ **S1 is a narrative review, not a guideline:** its claims are ungraded; its treatment and pregnancy-category table is now read from the appended table rows (it gives no doses). **S2 is the AASM 2021 GRADE guideline:** the strong and conditional drug recommendations, evidence certainty, boxed warnings and paediatric recommendations rest on S2. Neither source gives doses.
 
 > ⚠️ International guideline (AASM, 2021) for S2, which reviewed only US FDA-approved drugs. Australian practice follows the PBS listings below and may differ: per S1, pitolisant and solriamfetol are not available here and sodium oxybate is not on the PBS.
 
@@ -24,6 +24,8 @@
 
 ## Diagnose
 
+- **The five classic features (S1 Table 1):** excessive daytime sleepiness, usually the first and most disabling symptom, with short, dream-filled naps after which the person may feel refreshed, and automatic behaviour they cannot recall; cataplexy, specific to type 1; sleep paralysis and hypnagogic or hypnopompic hallucinations (usually visual, commoner in type 1, and also seen in the general population); and fragmented, unstable night sleep with frequent awakenings. [S1]
+- ⚠️ **Cataplexy in detail (S1 Table 1):** a brief, usually bilateral loss of muscle tone with consciousness kept, set off by emotion (mostly laughter or sudden positive feelings), sometimes only as a sagging jaw, slurred speech or tongue protrusion. Stopping anticataplectic drugs abruptly can bring on status cataplecticus, with prolonged, near-continuous attacks. Doubt the label when atypical features dominate: attacks that are only generalised or only one-sided, triggered only by negative emotion, with slow recovery, uncertain consciousness or injury from abrupt weakness. [S1]
 - **ICSD-3-TR criteria:** ongoing EDS plus either a multiple sleep latency test (MSLT) that meets the diagnostic threshold, or a qualifying CSF orexin level. An MSLT is an overnight polysomnogram followed by, usually, five daytime nap opportunities. [S1]
 - **Separate NT1 from NT2:** NT1 needs cataplexy or a low CSF orexin. The distinction matters because NT1 is lifelong, while narcolepsy without cataplexy can remit. [S1]
 - **Clear cataplexy plus a sleep-onset REM period on the overnight study is now enough for NT1**, without also needing a mean MSLT sleep latency of 8 min or less. [S1]
@@ -47,6 +49,7 @@
 
 ## Safety and adverse effects
 
+- ⚠️ **Drug options in Australia (S1 Table 3: use; pregnancy category; PBS for narcolepsy):** modafinil or armodafinil, sleepiness (D; PBS; may make the contraceptive pill less effective); dexamfetamine, sleepiness and possibly cataplexy (B3; PBS); methylphenidate, sleepiness (D; not PBS); clomipramine, cataplexy (C; PBS; avoid after a recent myocardial infarction, with long QT or with an MAOI); venlafaxine, cataplexy (B2; off-label, not PBS); sodium oxybate, sleepiness, cataplexy and disturbed night sleep (not classified; not PBS; the twice-nightly form through the Special Access Scheme); pitolisant, sleepiness and cataplexy (not classified; not PBS; caution in liver impairment); solriamfetol, sleepiness (not classified; not PBS). Dexamfetamine and methylphenidate are cautioned in heart disease, hypertension, glaucoma, substance use, psychiatric illness and with MAOIs. [S1]
 - **Common adverse effects:** modafinil, headache, insomnia, nausea, diarrhoea and dry mouth; pitolisant, headache, weight gain, insomnia and nausea (none led to stopping); sodium oxybate, nausea, headache, dizziness, bedwetting, chest discomfort, disturbed sleep and sleep-disordered breathing; solriamfetol, headache, nausea, insomnia, reduced appetite and chest discomfort, mostly mild or moderate. [S2]
 - ⚠️ **Sodium oxybate** has an FDA boxed warning as a central nervous system depressant that can depress breathing; it is the sodium salt of GHB, whose misuse, especially with alcohol or sedating drugs, can cause seizures, coma and death. **Dexamfetamine and methylphenidate** are Schedule II drugs with boxed warnings about misuse and dependence. [S2]
 
@@ -82,11 +85,11 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Drug doses and Australian pregnancy categories** are in S1's Table 3, which was stripped, and are not stated here. S2 gives no doses either. | `input_unavailable` |
+| 1 | **Drug doses:** S1's Table 3 is now read and its Australian pregnancy categories, precautions and PBS availability are added, but it has no dose column. Neither S1 nor S2 gives doses. | `input_unavailable` |
 | 2 | **The European EAN/ESRS/EU-NN 2021 narcolepsy guideline** could not be read: the publisher and all six open repository copies returned bot challenges or access blocks (2026-09-24), which were not bypassed. S1 cites its first-line modafinil position. | `input_unavailable` |
 | 3 | **Naps and antidepressants: sources differ.** S1 advises planned short daytime naps and names clomipramine as the only PBS-listed anticataplectic; S2 found insufficient evidence to recommend scheduled naps or SSRIs/SNRIs (not a recommendation against). Both are shown. | `observation` |
 | 4 | **S2 reviewed only US FDA-approved drugs,** so its strongly recommended pitolisant and solriamfetol are unavailable in Australia (S1) and sodium oxybate is not PBS-listed; dexamfetamine, the effective first subsidised drug here, is only a conditional, very-low-certainty recommendation in S2. | `observation` |
-| 5 | **The symptom pentad (Table 1) and ICSD-3-TR criteria (Table 2)** were tables and were stripped; only the prose summary is used. | `input_unavailable` |
+| 5 | **The symptom pentad (Table 1)** is now read from its row lines and added. **The ICSD-3-TR criteria (Table 2)** have ragged rows, were not extracted and remain a gap; only the prose summary is used. | `input_unavailable` |
 | 6 | **The only Australasian Sleep Association narcolepsy document found** covers sodium oxybate (2013), is more than five years old and concerns a drug not on the PBS; it was not used. | `observation` |
 | 7 | **Idiopathic hypersomnia** is outside this guideline's scope. | `out_of_scope` |
 | 8 | **Licences:** S1 is CC BY-NC 4.0 and S2 is © 2021 American Academy of Sleep Medicine. Both are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |

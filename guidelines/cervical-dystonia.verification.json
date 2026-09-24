@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/cervical-dystonia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors' (published 30 June 2026), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13418215). S2: QUOTED from Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin' (published 24 February 2017), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC5323428). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, evidence-based recommendations from a European expert group (COST Action BM1101) built on a structured literature review (Medline, Embase, Cochrane) and graded with the American Academy of Neurology evidence and recommendation scheme. S1 claims are unchanged. Searches for a newer society guideline (Europe PMC: cervical dystonia AND guideline/consensus/recommendations 2015-2026; botulinum AND guideline/consensus AND dystonia, open access 2018-2026) found the retired AAN 2016 guideline, the Dressler 2021 IAB consensus (dosing only in tables) and a 2026 Italian Delphi consensus whose statements are in tables; S2 was the strongest open graded source. S2's starting doses cite European summaries of product characteristics from 2012-2015.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors' (published 30 June 2026), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13418215). S2: QUOTED from Contarino MF, Van Den Dool J, Balash Y, et al. (European expert group, COST Action BM1101), Frontiers in Neurology 8:35, doi 10.3389/fneur.2017.00035 'Clinical Practice: Evidence-Based Recommendations for the Treatment of Cervical Dystonia with Botulinum Toxin' (published 24 February 2017), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC5323428). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, evidence-based recommendations from a European expert group (COST Action BM1101) built on a structured literature review (Medline, Embase, Cochrane) and graded with the American Academy of Neurology evidence and recommendation scheme. S1 claims are unchanged. Searches for a newer society guideline (Europe PMC: cervical dystonia AND guideline/consensus/recommendations 2015-2026; botulinum AND guideline/consensus AND dystonia, open access 2018-2026) found the retired AAN 2016 guideline, the Dressler 2021 IAB consensus (dosing only in tables) and a 2026 Italian Delphi consensus whose statements are in tables; S2 was the strongest open graded source. S2's starting doses cite European summaries of product characteristics from 2012-2015. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table A7 (reference per-muscle doses) and S1 Table 1 (summary practice statements) added; S1 Tables A1-A6 and S2 Tables 1-4 have merged cells and were not extracted.",
  "summary": {
-  "total": 32,
-  "pass": 32,
+  "total": 36,
+  "pass": 36,
   "fail": 0
  },
  "claims": [
@@ -136,6 +136,37 @@
    "verdict": "pass",
    "source_text": "The typical retreatment interval is approximately 12-16 weeks, corresponding to the expected duration of clinical benefit [,]. A flexible 8-12-week interval is acceptable only for incobotulinumtoxinA",
    "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Do not reinject earlier than 12 weeks without a compelling indication** (S1 summary of practice statements).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Reinjection earlier than 12 weeks is not recommended without compelling indications.",
+   "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Reference average dose per muscle (S1 Table A7), units of onabotulinumtoxinA / incobotulinumtoxinA / abobotulinumtoxinA — rotators and tilters:** sternocleidomastoid 20–75 / 20–100 / 50–150; splenius capitis 20–75 / 20–100 / 40–150; splenius cervicis 15–80 / 15–80 / 25–200; levator scapulae 15–75 / 15–75 / 25–200; trapezius 25–100 / 25–100 / 50–200.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table A7 row 1] Muscle: Sternocleidomastoids · OnabotulinumtoxinA (U): 20-75 · IncobotulinumtoxinA (U): 20-100 · AbobotulinumtoxinA (U): 50-150 … [Table A7 row 6] Muscle: Splenius capitis · OnabotulinumtoxinA (U): 20-75 · IncobotulinumtoxinA (U): 20-100 · AbobotulinumtoxinA (U): 40-150 … [Table A7 row 7] Muscle: Splenius cervicis · OnabotulinumtoxinA (U): 15-80 · IncobotulinumtoxinA (U): 15-80 · AbobotulinumtoxinA (U): 25-200 … [Table A7 row 2] Muscle: Levator scapulae · OnabotulinumtoxinA (U): 15-75 · IncobotulinumtoxinA (U): 15-75 · AbobotulinumtoxinA (U): 25-200 … [Table A7 row 5] Muscle: Trapezius · OnabotulinumtoxinA (U): 25-100 · IncobotulinumtoxinA (U): 25-100 · AbobotulinumtoxinA (U): 50-200",
+   "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Reference average dose per muscle, continued (same units) — extensors and suboccipital muscles:** semispinalis capitis 15–80 / 15–100 / 25–200; semispinalis cervicis 15–80 / 15–80 / 25–150; longissimus capitis 15–50 / 15–75 / 25–100; obliquus capitis inferior 10–50 / 10–50 / 20–150; obliquus capitis superior 10–30 / 10–30 / 20–50; rectus capitis major and minor 10–50 / 10–50 / 20–80.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table A7 row 8] Muscle: Semispinalis capitis · OnabotulinumtoxinA (U): 15-80 · IncobotulinumtoxinA (U): 15-100 · AbobotulinumtoxinA (U): 25-200 … [Table A7 row 9] Muscle: Semispinalis cervicis · OnabotulinumtoxinA (U): 15-80 · IncobotulinumtoxinA (U): 15-80 · AbobotulinumtoxinA (U): 25-150 … [Table A7 row 10] Muscle: Longissimus capitis · OnabotulinumtoxinA (U): 15-50 · IncobotulinumtoxinA (U): 15-75 · AbobotulinumtoxinA (U): 25-100 … [Table A7 row 11] Muscle: Obliquus capitis inferior · OnabotulinumtoxinA (U): 10-50 · IncobotulinumtoxinA (U): 10-50 · AbobotulinumtoxinA (U): 20-150 … [Table A7 row 12] Muscle: Obliquus capitis superior · OnabotulinumtoxinA (U): 10-30 · IncobotulinumtoxinA (U): 10-30 · AbobotulinumtoxinA (U): 20-50 … [Table A7 row 13] Muscle: Rectus capitis major and minor · OnabotulinumtoxinA (U): 10-50 · IncobotulinumtoxinA (U): 10-50 · AbobotulinumtoxinA (U): 20-80",
+   "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Reference average dose per muscle, continued (same units) — scalenes and anterior neck:** middle scalene 15–50 / 15–50 / 25–100; posterior scalene 15–50 / 15–50 / 20–100; anterior scalene 10–30 / 10–30 / 25–56; longus colli 10–50 / 10–50 / 20–80; submental complex 10–50 / 10–50 / 20–150.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table A7 row 3] Muscle: Middle scalene · OnabotulinumtoxinA (U): 15-50 · IncobotulinumtoxinA (U): 15-50 · AbobotulinumtoxinA (U): 25-100 … [Table A7 row 4] Muscle: Posterior scalene · OnabotulinumtoxinA (U): 15-50 · IncobotulinumtoxinA (U): 15-50 · AbobotulinumtoxinA (U): 20-100 … [Table A7 row 14] Muscle: Anterior scalene · OnabotulinumtoxinA (U): 10-30 · IncobotulinumtoxinA (U): 10-30 · AbobotulinumtoxinA (U): 25-56 … [Table A7 row 15] Muscle: Longus colli · OnabotulinumtoxinA (U): 10-50 · IncobotulinumtoxinA (U): 10-50 · AbobotulinumtoxinA (U): 20-80 … [Table A7 row 16] Muscle: Submental complex · OnabotulinumtoxinA (U): 10-50 · IncobotulinumtoxinA (U): 10-50 · AbobotulinumtoxinA (U): 20-150",
+   "locator": "Mexican multidisciplinary panel of 15 specialist injectors, endorsed by COMEFYR (Hernández Franco J, Santamaría Molina, et al.), Toxins vol 18, article 287, doi 10.3390/toxins18070287, 'Botulinum Toxin Type A in Spasticity and Cervical Dystonia: Practical Clinical Recommendations from a Mexican Multidisciplinary Panel of Specialist Injectors', published 30 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13418215/, retrieved 2026-09-23",
+   "dose": true
   },
   {
    "claim": "⚠️ **Starting total dose per session:** abobotulinumtoxinA 500 IU (level A; an average 200–400 IU under EMG guidance also worked, with fewer side effects); incobotulinumtoxinA 120 IU (level B); rimabotulinumtoxinB 2,500 or 5,000 IU (level B) or 10,000 IU (level A). No optimal onabotulinumtoxinA starting dose can be recommended (level U); studies used 60 to 374 IU in total.",

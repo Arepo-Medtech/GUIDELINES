@@ -1,9 +1,9 @@
 # Polycystic ovary syndrome
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adolescents and women with PCOS: diagnosis, long-term risk assessment, psychological health, lifestyle, and drug treatment of irregular cycles and hyperandrogenism (hirsutism, androgenisation). Ovulation induction and assisted reproduction are summarised only; see `infertility` for those drugs. Acne with androgen excess is also in `acne`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **36 fragments or anchors re-checkable by machine; 1 doses.** **S1** Teede HJ et al. for the International PCOS Network (Monash University-led (published 15 August 2023; AU): 17 claims, paraphrased, hash-anchored · **S2** Teede HJ (7 October 2024; AU): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **38 fragments or anchors re-checkable by machine; 1 doses.** **S1** Teede HJ et al. for the International PCOS Network (Monash University-led (published 15 August 2023; AU): 18 claims, paraphrased, hash-anchored · **S2** Teede HJ (7 October 2024; AU): 12 claims, quoted
 
 > ⚠️ **This is the summary article, and its recommendation table (Table 4) was stripped.** What follows is drawn from the prose overview of the key recommendations only: no doses, grades or practice points are stated.
 
@@ -46,6 +46,10 @@
 - **Letrozole is the preferred first-line drug for anovulatory infertility,** alongside clomiphene combined with metformin. Gonadotrophins or ovarian surgery are mainly second line; IVF, possibly with in vitro maturation, is third line once ovulation induction has failed. Prefer single embryo transfer. [S1]
 - **Ovulation induction drugs are used off-label in Australia, which is allowed;** discuss the evidence, concerns and side effects with the woman (PP). [S2]
 
+## How to read the labels
+
+- **What EBR, CR and PP mean (S1 Table 1):** an evidence-based recommendation (EBR) is made where the evidence was enough for the guideline group to recommend; a consensus recommendation (CR) is made where evidence was inadequate, also drawing on general-population evidence; a practice point (PP) was made without searching for evidence, where important issues came up while the group discussed the other recommendations. [S1]
+
 ## Australian detail (MJA 2024 summary)
 
 - **Diagnosis in adults with only one of irregular cycles or hyperandrogenism:** use either pelvic ultrasound or AMH, not both (PP). Test androgens biochemically only when there is no clinical hyperandrogenism (PP). [S2]
@@ -76,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The 77 evidence-based and 54 consensus recommendations and 123 practice points** are in the article's Table 4, which was stripped; the diagnostic thresholds (cycle length, hirsutism scoring, androgen assays, follicle count, AMH cut-offs) and any drug doses are therefore not stated here. | `input_unavailable` |
+| 1 | **The 77 evidence-based and 54 consensus recommendations and 123 practice points** are in the article's Table 4, which has ragged rows and could not be extracted; the diagnostic thresholds (cycle length, hirsutism scoring, androgen assays, follicle count, AMH cut-offs) and any drug doses are therefore not stated here. | `input_unavailable` |
 | 2 | **The diagnostic and infertility algorithms** (Figures 1 and 2) are © Monash University and excluded from the article's Creative Commons licence; they were not used. | `input_unavailable` |
 | 3 | **The full guideline** (monash.edu/medicine/mchri/pcos) is still behind a bot challenge and was not read. The MJA 2024 Australian summary (doi 10.5694/mja2.52432, CC BY), blocked at Wiley in edition 1.0, was read from its open figshare copy and is now S2. | `observation` |
 | 4 | **Cyproterone (the PBS drug for androgenisation)** is not named in S1's prose. S2 names cyproterone acetate-containing COCPs as second line because of side effects, and allows anti-androgens after six months of COCP and/or cosmetic therapy; no source gives a cyproterone dose. | `observation` |

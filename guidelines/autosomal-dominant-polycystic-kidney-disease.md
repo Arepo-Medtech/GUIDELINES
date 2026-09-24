@@ -1,11 +1,11 @@
 # Autosomal dominant polycystic kidney disease (ADPKD)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, genetic testing, kidney and extra-kidney manifestations, tolvaptan, lifestyle, pregnancy and children with ADPKD, as adapted for Australia and New Zealand by CARI from KDIGO 2025. General CKD care: see `chronic-kidney-disease`. Edition 2.0 adds S2 (ERA tolvaptan consensus, 2022) on patient selection, dosing and safety.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **60 fragments or anchors re-checkable by machine; 6 doses.** **S1** CARI Guidelines (published 21 April 2026; AU): 20 claims, paraphrased, hash-anchored · **S2** ERA Working Group on Inherited Kidney Disorders (published online 19 November 2021; international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **72 fragments or anchors re-checkable by machine; 6 doses.** **S1** CARI Guidelines (published 21 April 2026; AU): 25 claims, paraphrased, hash-anchored · **S2** ERA Working Group on Inherited Kidney Disorders (published online 19 November 2021; international): 10 claims, paraphrased, hash-anchored
 
-> ⚠️ **Tolvaptan eligibility in Australia is not the KDIGO rule.** KDIGO uses Mayo imaging class or eGFR slope; the PBS criteria differ, exclude imaging, and there is no MBS item for the MRI that Mayo classification needs. The subsidy criteria are in a table that was stripped (see Unresolved).
+> ⚠️ **Tolvaptan eligibility in Australia is not the KDIGO rule.** KDIGO uses Mayo imaging class or eGFR slope; the PBS criteria differ, exclude imaging, and there is no MBS item for the MRI that Mayo classification needs. The PBS criteria, as tabulated by CARI (S1), are under Tolvaptan below; check the current PBS listing.
 
 > 🇦🇺 **S1 is the Australian and New Zealand reference (CARI 2026 commentary on KDIGO 2025).** **S2** (ERA/ERKNet tolvaptan consensus, 2022) is the ERA rapid-progressor algorithm S1 endorses: it adds age and eGFR limits, dosing, and polyuria and liver-safety advice. Where they differ, both are shown.
 
@@ -18,10 +18,12 @@
 - **Diagnose clinically or genetically.** Screen at-risk adults with ultrasound; use CT or MRI when the result is unclear or for prognosis. Counsel people before screening about what it may show. [S1]
 - **Genomic testing is publicly funded in Australia** (MBS item 74 301, for suspected monogenic cystic kidney disease) but only a nephrologist or clinical geneticist can request it, and genetic counselling comes first. New Zealand has no public subsidy. [S1]
 - **A negative genetic test does not exclude a genetic cause:** PKD1 pseudogenes and exome-based panels can miss the variant. If suspicion stays high, consider further testing such as whole-genome sequencing. [S1]
+- **When genetic testing is advised to clarify the diagnosis (CARI table):** no family history; only a few cysts, or cysts on one side or unevenly spread (an atypical picture); disease starting very early; family planning; and working out prognosis, including the PRO-PKD score. [S1]
 
 ## Kidney manifestations
 
 - **Blood pressure follows the KDIGO 2021 BP-in-CKD guideline**, though the ADPKD targets differ. Home BP monitoring is a practical substitute for ambulatory monitoring, notably by telehealth in rural and remote areas. [S1]
+- ⚠️ **ADPKD BP targets (CARI table):** at 18–49 years with CKD G1–G2 and BP above 130/85 mmHg, aim for 110/75 mmHg or less; at 18–49 with BP between 110/75 and 130/85 mmHg, set the target case by case; from 50 years at any CKD stage (G1–G5), aim for systolic BP under 120 mmHg. [S1]
 - **Chronic kidney pain (over 3 months):** first rule out other causes and acute events such as cyst rupture. Step up from paracetamol and heat, to TENS or acupuncture, to spinal cord stimulation, to nephrectomy; refractory pain needs a multidisciplinary team. [S1]
 - **Look for UTI when there is fever, flank or acute abdominal pain, a raised white count or raised CRP.** Australian guidance gives nitrofurantoin for 5 days, but not in CKD G3–G5. Infected kidney cysts need a lipid-soluble antibiotic given for longer. [S1]
 - **Standard CKD care applies, with two exceptions:** SGLT2 inhibitors are not advised for now, and HIF-PHIs are not recommended for anaemia, because trials excluded people with ADPKD. [S1]
@@ -35,6 +37,8 @@
 ## Tolvaptan
 
 - ⚠️ **KDIGO: start tolvaptan in adults with eGFR ≥ 25 mL/min/1.73m2 who are at risk of rapid progression** (Mayo class 1C–1E, or eGFR falling by ≥3 mL/min per 1.73 m2 a year). CARI endorses this plus the more detailed ERA-EDTA algorithm for identifying rapid progressors for subsidy. [S1]
+- ⚠️ **PBS criteria for tolvaptan in Australia (as tabulated by CARI):** eGFR of 30 to 89 mL/min/1.73 m2 plus rapidly progressive disease, meaning eGFR falls by 5 or more mL/min/1.73 m2 within a year, or by an average of 2.5 or more a year across 5 years. No imaging class is listed. [S1]
+- **New Zealand (Pharmac):** the same two rates of eGFR decline, but from an eGFR of 25 mL/min/1.73 m2 upwards with no upper limit listed. [S1]
 - **Use shared decision-making, especially over age 55,** where there is no trial evidence. Start at the lowest split dose and titrate under physician supervision with nephrologist input. [S1]
 - ⚠️ **Liver injury is a serious risk: test LFTs monthly for 18 months, then quarterly.** Expect thirst, polyuria and nocturia; make sure fluid intake is enough, especially in hot weather. [S1]
 - **No other drug is recommended to slow ADPKD:** not mTOR inhibitors, statins, somatostatin analogues, metformin or complementary medicines, because the evidence is insufficient. [S1]
@@ -45,6 +49,8 @@
 - **Why ERA uses 55:** a REPRISE subgroup showed no benefit over 55, and most rapid progressors reach kidney failure before then (average age at kidney replacement 58). The limit is not absolute. ERA does not advise starting before 18, and suggests stopping as kidney failure nears (for example eGFR below 15). [S2]
 - **Proving rapid progression (ERA):** a confirmed eGFR fall of 3 mL/min/1.73 m2 or more a year, based on at least five creatinine values over 4 years or more (CKD-EPI equation), with other causes excluded, especially with non-linear decline, older age or several comorbidities. [S2]
 - **Predicting it (ERA): use the Mayo imaging class as the main tool,** with scans read by radiologists or nephrologists experienced in ADPKD. Classes 1D and 1E mean rapid progression. Class 1C overlaps with slow disease, so look for more evidence (a PROPKD score above 6, a truncating PKD1 variant, early hypertension or urological symptoms, or dialysis before 60 in two or more first-degree relatives). Atypical kidneys or classes 1A and 1B make rapid progression unlikely. [S2]
+- **ERA core parameters, in table form:** if Mayo classification is not possible, a kidney length on ultrasound above 16.5 cm at age 46 or younger indicates rapid progression. Urological symptoms (visible haematuria, cyst bleeding or infection, flank pain) or high blood pressure starting before 35, and affected relatives mostly reaching kidney failure before 58, also weigh towards it. [S2]
+- **CARI's version of the ERA-EDTA algorithm** keeps the same steps and adds numbers to the age-adjusted eGFR test: eGFR is unexpectedly low if under 90 at 40–44 years, under 75 at 45–49 and under 60 at 50–55 mL/min/1.73 m2 (any eGFR at 18–39), with a fall of 3.0 or more a year over 4 years. It gives family history as kidney failure before 58. [S1]
 - ⚠️ **Reconsider tolvaptan when something else could explain the eGFR loss:** proteinuria of 1 g/day or more, vascular disease such as coronary disease or stroke, uncontrolled severe hypertension, or diabetes. Gather more information, including MRI or CT if not yet done, to confirm ADPKD is the main cause. [S2]
 
 ## Tolvaptan: dosing and safety (ERA)
@@ -82,14 +88,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **PBS/Australian tolvaptan subsidy criteria, the ADPKD BP targets and the genetic-testing indications** are in S1's tables, which were stripped, and are not stated here. The ERA rapid-progressor algorithm now comes from S2's text and figure legend; S2's Table 1 was stripped. | `input_unavailable` |
-| 2 | **Tolvaptan dose steps:** S1 gives none (only 'lowest split dose, titrate'); S2 gives the 45/15, 60/30 and 90/30 mg regimens. Check the Australian product information. | `observation` |
-| 3 | **The KHA-CARI ADPKD living guideline on MAGICapp** (tolvaptan, fluid intake) could not be read: it is a JavaScript app with no retrievable text, and its licence was not seen. This IMJ commentary was used instead. | `observation` |
-| 4 | **Sources differ on age:** S2 (ERA) evaluates patients up to 55 for tolvaptan; S1 (KDIGO 2025, via CARI) sets no upper age and asks for shared decision-making over 55. Both are shown. | `observation` |
-| 5 | **Sources differ on Mayo class 1C:** S1 (KDIGO) counts class 1C–1E as rapid progression; S2 (ERA) treats 1D–1E as rapid but asks for more evidence in 1C. | `observation` |
-| 6 | **Sources differ on fluid and salt:** S1 advises 2–3 L/day of fluid (eGFR ≥30) and sodium under 2 g/day; S2 (for people not on tolvaptan) suggests 3–4 L/day of water and 3–5 g/day of salt. Both are shown. | `observation` |
-| 7 | **S2 licence:** CC BY-NC 4.0. The S2 claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
-| 8 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Tables now covered:** S1's Tables 1–4 (genetic-testing indications, ADPKD BP targets, the KDIGO, PBS and Pharmac tolvaptan criteria, and the ERA-EDTA algorithm) and S2's Table 1 (core progression parameters) were appended row by row and are used above. **S2's Tables 2 and 3 have merged cells and were not extracted**; they stay gaps. The PBS criteria are CARI's summary: check the current PBS listing. | `input_unavailable` |
+| 2 | **Family-history cut-off differs within the ERA material:** S2's text asks for dialysis before 60 in two or more first-degree relatives in Mayo class 1C; S2's Table 1 and S1's Table 4 give kidney failure before 58. Both are shown. | `observation` |
+| 3 | **Three tolvaptan eGFR floors:** KDIGO and Pharmac start at 25 mL/min/1.73 m2, the PBS at 30 (and caps at 89), and the PBS and Pharmac decline rates (5 in a year, or 2.5 a year over 5 years) differ from the KDIGO and ERA rate (3 a year). All are shown. | `observation` |
+| 4 | **Tolvaptan dose steps:** S1 gives none (only 'lowest split dose, titrate'); S2 gives the 45/15, 60/30 and 90/30 mg regimens. Check the Australian product information. | `observation` |
+| 5 | **The KHA-CARI ADPKD living guideline on MAGICapp** (tolvaptan, fluid intake) could not be read: it is a JavaScript app with no retrievable text, and its licence was not seen. This IMJ commentary was used instead. | `observation` |
+| 6 | **Sources differ on age:** S2 (ERA) evaluates patients up to 55 for tolvaptan; S1 (KDIGO 2025, via CARI) sets no upper age and asks for shared decision-making over 55. Both are shown. | `observation` |
+| 7 | **Sources differ on Mayo class 1C:** S1 (KDIGO) counts class 1C–1E as rapid progression; S2 (ERA) treats 1D–1E as rapid but asks for more evidence in 1C. | `observation` |
+| 8 | **Sources differ on fluid and salt:** S1 advises 2–3 L/day of fluid (eGFR ≥30) and sodium under 2 g/day; S2 (for people not on tolvaptan) suggests 3–4 L/day of water and 3–5 g/day of salt. Both are shown. | `observation` |
+| 9 | **S2 licence:** CC BY-NC 4.0. The S2 claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 10 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 

@@ -1,9 +1,9 @@
 # Heart transplant immunosuppression and rejection
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adult heart transplant recipients: induction, maintenance with a calcineurin inhibitor plus mycophenolate or a proliferation signal inhibitor (everolimus, sirolimus), renal-sparing conversion, steroid weaning, infection prophylaxis, rejection surveillance, and treatment of rejection, including antibody-mediated rejection (S2). Specialist transplant-unit care; primary care supports monitoring and adherence. Desensitisation protocols are summarised only in Unresolved. Kidney transplant: `kidney-transplant-immunosuppression-and-rejection`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **44 fragments or anchors re-checkable by machine; 11 doses.** **S1** Youn JC (published 29 September 2020; international): 25 claims, paraphrased, hash-anchored · **S2** Mehta A (published 22 August 2025; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **49 fragments or anchors re-checkable by machine; 11 doses.** **S1** Youn JC (published 29 September 2020; international): 25 claims, paraphrased, hash-anchored · **S2** Mehta A (published 22 August 2025; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (Cedars-Sinai, USA, 2020). Australian practice follows the PBS listings below and may differ.
 
@@ -67,6 +67,7 @@
 - ⚠️ **Eculizumab (C5 complement inhibitor)** for severe, complement-active (C4d-positive) AMR: typically 900 mg weekly for at most 8 weeks, supported only by case series. Meningococcal vaccination before treatment and penicillin VK prophylaxis are mandatory. [S2]
 - **Preventing antibody rebound:** rituximab clears circulating B cells for 6–12 months but leaves plasma cells producing DSA; bortezomib and carfilzomib deplete plasma cells. Bortezomib's main harm is peripheral neuropathy; carfilzomib has been linked to acute kidney injury and heart failure, reported in 67%. [S2]
 - **Strengthen maintenance after AMR:** move ciclosporin to tacrolimus and azathioprine to mycophenolate, raise doses or trough targets, restart low-dose prednisone if it was weaned, or switch mycophenolate to an mTOR inhibitor. [S2]
+- **What S2 lists as still unsettled (Table 3):** whether to treat isolated pAMR1 or pAMR2 with normal graft function; whether new or rising DSA need treatment when function and biopsy are normal, and which assay (C1q, titres, serial dilution, endothelial crossmatch) should decide; whether raised dd-cfDNA with DSA and dysfunction but a negative biopsy counts as AMR, and how to handle biopsy–molecular discordance; whether non-HLA antibodies are actionable or worth routine testing; and whether AMR needs both a B-cell and a plasma-cell agent, treatment when the biopsy is negative, or long-term maintenance (including mTOR inhibitors, co-stimulation blockade or IL-6 blockade) to prevent recurrence. [S2]
 - **About 1 in 3 have chronic or recurrent AMR,** with more allograft vasculopathy and lower survival. Through the first year after treatment, monitor at set intervals with dd-cfDNA (with or without biopsy), echocardiography, DSA testing and/or intragraft gene expression. [S2]
 
 ---
@@ -85,13 +86,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Trough-level table** (Table 1) and centre-volume table were stripped; the text's tacrolimus, sirolimus and everolimus targets are given above, but everolimus dosing itself is not stated in the source. | `input_unavailable` |
+| 1 | **Trough-level table** (Table 1) has merged cells and was not extracted; the centre-volume table (Table 2, US case numbers) is now appended but adds no clinical content; the text's tacrolimus, sirolimus and everolimus targets are given above, but everolimus dosing itself is not stated in the source. | `input_unavailable` |
 | 2 | **Desensitisation protocols** (IVIG/rituximab, plasmapheresis/bortezomib, eculizumab) for sensitised candidates are specialist-only and are not summarised here. | `out_of_scope` |
 | 3 | **Society guideline:** ISHLT 2022 (free to read at the publisher but behind a Cloudflare challenge, retried 2026-09-24) and the ESC-HFA 2026 consensus (OUP, no open copy) could not be used. S2 covers antibody-mediated rejection only. Australian units follow their own protocols. | `observation` |
 | 4 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 | 5 | **DSA screening schedule differs:** S1 (Cedars-Sinai) tests at months 1, 3 and 6, then every 6 months; S2 recommends 1, 3, 6 and 12 months, then yearly. Both are shown. | `observation` |
 | 6 | **Rejection doses differ:** S1 gives IVIG 1 g/kg daily for 2 days (maximum 140 g) and rATG for 3 to 7 days; S2 gives IVIG 2 g/kg in total split across plasmapheresis sessions and ATG 1.5 mg/kg for 3–5 doses. Both are shown; follow the transplant unit's protocol. | `observation` |
-| 7 | **S2 Table 1 (AMR definitions) and Table 2 (full dosing, side effects, monitoring and contraindications)** were not in the machine-readable text; only doses stated in the prose are shown. | `input_unavailable` |
+| 7 | **S2 Table 1 (AMR definitions) and Table 2 (full dosing, side effects, monitoring and contraindications)** were not in the machine-readable text (both have merged cells and were not extracted); only doses stated in the prose are shown. S2 Table 3 (unresolved questions) is now covered. | `input_unavailable` |
 | 8 | **S2 licence:** the PMC author manuscript is paraphrased and hash-anchored (NIH fair-use statement), although the publisher version is CC BY 4.0. | `observation` |
 
 ## Sources

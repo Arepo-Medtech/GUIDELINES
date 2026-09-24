@@ -1,9 +1,9 @@
 # Systemic sclerosis — gastrointestinal involvement (including scleroderma oesophagus)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults and children with systemic sclerosis (SSc) and gastrointestinal involvement: reflux and dysphagia from scleroderma oesophagus, refractory reflux, small intestinal bacterial overgrowth, diarrhoea and constipation, malnutrition, faecal incontinence, surgery and Barrett's surveillance. Skin, lung, heart, kidney and vascular SSc are out of scope. General reflux care: see `gord-and-dyspepsia`. Edition 2.0 adds S2 (World Scleroderma Foundation, 2026) on refractory reflux.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **51 fragments or anchors re-checkable by machine; 2 doses.** **S1** British Society for Rheumatology (Denton CP et al.) (published 11 September 2024; international): 16 claims, paraphrased, hash-anchored · **S2** World Scleroderma Foundation GI ad hoc committee (Hughes M (published 1 January 2026; international): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **54 fragments or anchors re-checkable by machine; 2 doses.** **S1** British Society for Rheumatology (Denton CP et al.) (published 11 September 2024; international): 16 claims, paraphrased, hash-anchored · **S2** World Scleroderma Foundation GI ad hoc committee (Hughes M (published 1 January 2026; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (BSR, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -32,6 +32,7 @@
 
 - **Refractory reflux in SSc (WSF):** symptoms, or new or continuing mucosal disease (Barrett's, oesophagitis, strictures, ulcers, even without symptoms), despite optimal acid suppression. Optimal means a high-dose PPI (omeprazole 40 mg or more a day or equivalent, for example twice daily) or a combination such as PPI plus H2 blocker or standard-dose PPI plus a promotility drug; standard dose is omeprazole 20 mg a day. [S2]
 - ⚠️ **Look for red flags** (iron-deficiency anaemia, unintended weight loss, night sweats, fever) that need urgent tests for cancer, infection or bleeding. In early diffuse or anti-RNA polymerase III-positive disease, remember gastric antral vascular ectasia ('watermelon stomach') as a bleeding source. Finish the work-up before blaming SSc for GI symptoms. [S2]
+- **Organise care (S2 Table 1):** severe or refractory SSc reflux belongs with a dedicated multidisciplinary team that includes gastroenterologists experienced in SSc gut disease and nutrition support (92.9% approval). Agree with gastroenterology when to repeat tests such as gastroscopy or pH monitoring. Symptoms alone cannot tell whether dysmotility or an incompetent lower oesophageal sphincter is driving refractory reflux (100%). [S2]
 - **Review other drugs:** calcium channel blockers and other vasodilators for Raynaud's can worsen reflux by lowering lower oesophageal sphincter tone. Check that PPIs are taken about 30 minutes before meals. [S2]
 - **Test objectively:** examine the mucosa in everyone with refractory symptoms, and strongly consider high-resolution manometry (particularly with dysphagia) and pH-impedance monitoring on a PPI to link symptoms to acid exposure. If manometry is not tolerated, scintigraphy or a timed barium swallow can screen for dysmotility. [S2]
 - **Test for Helicobacter pylori and eradicate it if present.** It does not cause reflux, but long-term acid suppression in people carrying it raises the risk of gastric atrophy. [S2]
@@ -78,7 +79,8 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 | 6 | **Sources differ on first-line acid suppression:** S1 recommends a PPI and/or an H2-receptor antagonist for symptomatic reflux; S2 makes high-dose PPI first line for refractory reflux, calls past reliance on H2 blockers often inadequate, and keeps them as add-ons. Both are shown. | `observation` |
 | 7 | **S2's peri-lung-transplant recommendations and its overview figure** are not stated here. | `input_unavailable` |
-| 8 | **S2 licence:** CC BY-NC per Europe PMC; the PMC copy is the NIH author manuscript. The S2 claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 8 | **S2 Tables 3 and 5** have merged cells and were not extracted; the S2 drug recommendations on this page come from its text. Its Tables 1, 2 and 4 were appended; Tables 2 and 4 repeat recommendations already shown. | `input_unavailable` |
+| 9 | **S2 licence:** CC BY-NC per Europe PMC; the PMC copy is the NIH author manuscript. The S2 claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 

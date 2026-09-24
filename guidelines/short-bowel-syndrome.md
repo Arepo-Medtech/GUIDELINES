@@ -1,9 +1,9 @@
 # Short bowel syndrome and chronic intestinal failure in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with short bowel syndrome (SBS), including SBS with chronic (type III) intestinal failure: classification, referral, diet, oral fluids and rehydration solutions, antisecretory and antidiarrhoeal drugs, GLP-2 analogue (teduglutide) treatment and non-transplant surgery. Home parenteral nutrition technique, catheter care and intestinal transplantation are summarised only. Children are out of scope (see `slow-weight-gain-children`, `cows-milk-allergy-formulas`). Non-specific diarrhoea: see `diarrhoea`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **46 fragments or anchors re-checkable by machine; 0 doses.** **S1** European Society for Clinical Nutrition and Metabolism (ESPEN) (2023; international): 25 claims, paraphrased, hash-anchored · **S2** Chapman B (published 7 May 2026; AU): 8 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **49 fragments or anchors re-checkable by machine; 0 doses.** **S1** European Society for Clinical Nutrition and Metabolism (ESPEN) (2023; international): 25 claims, paraphrased, hash-anchored · **S2** Chapman B (published 7 May 2026; AU): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (ESPEN, 2023). Australian practice follows the PBS listings below and may differ.
 
@@ -30,11 +30,13 @@
 
 - **Australia has a single intestinal transplant service** for adults and children: a joint Royal Children's Hospital and Austin Health program in Melbourne, running since 2010 and now also accepting New Zealand patients. [S2]
 - ⚠️ **Refer early for transplant assessment when the risk of complications is highest:** radiation enteritis, microvillous inclusion disease, several enterocutaneous fistulae, an ultrashort bowel such as an end duodenostomy, intestinal failure following bariatric surgery, and loss of two of the four central veins above the diaphragm. Late referral, with long waits, harms outcomes. [S2]
+- ⚠️ **Indications for intestinal transplant (S2 table):** advanced, progressive IF-associated liver disease (raised bilirubin lasting more than 2 months despite changing the intravenous lipid, or raised bilirubin together with poor synthetic function and signs of portal hypertension and hypersplenism); loss of central access, meaning thrombosis of 3 of the 4 upper-body central veins or a blocked brachiocephalic vein in a child (judged case by case in adults); life-threatening complications of lifelong PN dependence, such as two intensive care admissions for sepsis or other IF complications in a child (case by case in adults); invasive intra-abdominal desmoid tumours in adolescents and adults; acute diffuse intestinal infarction with liver failure; and failure of a first intestinal graft. [S2]
 - ⚠️ **Waiting-list deaths are high:** about 30% for people awaiting a combined liver-intestine graft and about 10% for an isolated intestine. Assessing patients before liver failure sets in makes an isolated intestinal graft, with a shorter wait, more likely. [S2]
 - **Candidates needing a liver-containing graft because of IF-associated liver disease** go on the national liver transplant list in category 2C. [S2]
 - **Most people on home parenteral nutrition are not transplant candidates:** long-term PN rarely leads to life-threatening complications, and a large European study found suitable candidates among just 16% of adults (35% in children) on HPN. [S2]
 - **Likely under-referral:** the new national HPN registry counted 328 people on HPN in 2024 (244 adults, 84 children); by European rates about 39 adults and 29 children could have an indication, more than are currently referred. [S2]
 - **Australian results:** nineteen patients had 20 transplants between July 2010 and April 2026, half of them for short bowel syndrome. Graft and patient survival were 85% and 89.5% at median follow-up; conditional 5-year figures were 67% and 75%. Every recipient came off parenteral nutrition before discharge, a median of 21 days after transplant. [S2]
+- **Course after the 20 Australian transplants (S2 table):** median intensive care stay 9.5 days and hospital stay 39 days; rejection in 8 (40%); graft-versus-host disease and post-transplant lymphoproliferative disorder in 1 each (5%). At 12 months the median bilirubin was 8 µmol/L, creatinine 97 µmol/L and albumin 36 g/L. [S2]
 
 ## Diet
 
@@ -88,9 +90,9 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Oral rehydration solution recipe, loperamide and PPI doses** are not given in the recommendations; the severity categories (Table 8) and the micronutrient-shortage doses (Table 15) are in tables and were not used. | `input_unavailable` |
+| 1 | **Oral rehydration solution recipe, loperamide and PPI doses** are not given in the recommendations; the severity categories (Table 8) and the micronutrient-shortage doses (Table 15) are in S1's tables and were not used; S1 is a PDF, so the table-row pass could not reach them. | `input_unavailable` |
 | 2 | **The PBS row *Intestinal malabsorption including short bowel syndrome*** lists amino-acid and protein-hydrolysate **infant formulas**. This adult guideline does not address formula choice. The ESPGHAN 2023 paediatric SBS position paper (DOI 10.1097/mpg.0000000000003849) is not open access and was not used. | `out_of_scope` |
-| 3 | **Home parenteral nutrition, catheter infection/occlusion and liver disease (IFALD)** are covered in S1 but summarised only here. **Intestinal transplantation** now has Australian referral and access context from S2, but transplant indications (S2's Table 1) were stripped with the tables. | `out_of_scope` |
+| 3 | **Home parenteral nutrition, catheter infection/occlusion and liver disease (IFALD)** are covered in S1 but summarised only here. **Intestinal transplantation** now has Australian referral and access context from S2, and transplant indications now come from S2's Table 1. | `out_of_scope` |
 | 4 | **S2 is a single-program retrospective series (19 patients)** written by the transplant service itself; its survival figures are small-sample and its referral advice is expert opinion, not a graded recommendation. | `observation` |
 | 5 | **Counterparts:** `diarrhoea` (general approach; it names short bowel as a cause only), `cows-milk-allergy-formulas` (amino-acid formulas), `slow-weight-gain-children` (paediatric nutrition). None covers SBS management. | `observation` |
 | 6 | **Licence:** S1 © Elsevier / ESPEN, all rights reserved (free to read on espen.org); S2 CC BY-NC 4.0. All claims are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |

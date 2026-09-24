@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/ketogenic-diet-therapy.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group' (published 21 May 2018), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC5983110). S2: QUOTED from Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618) 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group' (published 10 July 2023), 9 claims; LICENCE: CC BY 4.0 ('open-access article distributed under the terms of the Creative Commons Attribution License (CC BY)') (read at Europe PMC fullTextXML <license> element for PMC10368245). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Italian League against Epilepsy (the ILAE Italian chapter) Dietary Therapy Study Group recommendations (2023), from Europe PMC fullTextXML via pmc_text.py (its three tables were stripped). It covers children and adults. No Australian ketogenic diet guideline was found (Europe PMC and PubMed searched); the 2021 international adult recommendations (Neurol Clin Pract, © AAN) have only the abstract in PMC and were not read. The S1 claims and fragments are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group' (published 21 May 2018), 30 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC5983110). S2: QUOTED from Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618) 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group' (published 10 July 2023), 9 claims; LICENCE: CC BY 4.0 ('open-access article distributed under the terms of the Creative Commons Attribution License (CC BY)') (read at Europe PMC fullTextXML <license> element for PMC10368245). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Italian League against Epilepsy (the ILAE Italian chapter) Dietary Therapy Study Group recommendations (2023), from Europe PMC fullTextXML via pmc_text.py (its three tables were stripped). It covers children and adults. No Australian ketogenic diet guideline was found (Europe PMC and PubMed searched); the 2021 international adult recommendations (Neurol Clin Pract, © AAN) have only the abstract in PMC and were not read. The S1 claims and fragments are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (best responders), Table 2 (moderate benefit), Table 3 (contraindications), Table 4 (pre-diet evaluation), Table 5 (supplements) and Table 6 (follow-up visits). S1 Table 7 (survey changes since 2009) and S2 Table 1 add nothing new; S2 Tables 2 and 3 were not extracted.",
  "summary": {
-  "total": 33,
+  "total": 39,
   "pass": 9,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -84,6 +84,73 @@
      "h": "8246f2ae41acac0f",
      "n": 125,
      "p": "Dietary "
+    }
+   ],
+   "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Where the diet has done better than usual** (responder rates above 70%, against an average 50% responding; S1 Table 1): Angelman syndrome, complex I mitochondrial disorders, Dravet syndrome, myoclonic–atonic epilepsy (Doose), Glut1 deficiency, FIRES, infantile spasms, Ohtahara syndrome, PDHD, super-refractory status epilepticus, tuberous sclerosis complex, and infants or children fed only by formula.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08f2e44aeb91fb61",
+     "n": 208,
+     "p": "[Table 1"
+    },
+    {
+     "h": "63d2943307ba788b",
+     "n": 834,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Moderate benefit only** (no better than the average response, or single-centre reports; S1 Table 2): for example CDKL5 encephalopathy, childhood absence epilepsy, cortical malformations, migrating focal seizures of infancy, continuous spike-and-wave in sleep, juvenile myoclonic epilepsy, Lafora disease, Landau–Kleffner, Lennox–Gastaut and Rett syndromes, SSPE, adenylosuccinate lyase deficiency, glycogenosis type V and phosphofructokinase deficiency.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4939904a8d75d97",
+     "n": 205,
+     "p": "[Table 2"
+    },
+    {
+     "h": "2a258e6063a208a6",
+     "n": 1063,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Absolute contraindications (S1 Table 3):** primary carnitine deficiency, CPT I or II deficiency, carnitine translocase deficiency, β-oxidation defects (MCAD, LCAD, SCAD, long- and medium-chain 3-hydroxyacyl-CoA deficiency), pyruvate carboxylase deficiency and porphyria. **Relative:** being unable to keep nutrition adequate, a surgical focus found on neuroimaging and video-EEG, a parent or caregiver who cannot comply, and concurrent propofol (the chance of propofol infusion syndrome may be greater).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1aab44bf0ab9c894",
+     "n": 61,
+     "p": "[Table 3"
+    },
+    {
+     "h": "fcb8ad762105448d",
+     "n": 1060,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Before starting (S1 Table 4):** counsel on the expected effect on seizures, medicines and cognition and on psychosocial and cost barriers, and check medicines for carbohydrate. Record weight, height and ideal weight for height (head circumference in infants) and a 3-day food record; choose the diet and its formulation. Bloods: FBC with platelets, electrolytes with bicarbonate, total protein and calcium, liver and kidney tests, fasting lipids, acylcarnitine profile, vitamin D, urinalysis and antiseizure drug levels. Optional: EEG, brain MRI, ECG or echo (strongly consider with heart disease), and urine organic acids and serum amino acids when the diagnosis is unclear.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05dc1d2e074b0e90",
+     "n": 2287,
+     "p": "[Table 4"
     }
    ],
    "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
@@ -356,6 +423,19 @@
    "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Supplement list (S1 Table 5), carbohydrate-free wherever possible:** for everyone, a multivitamin with minerals including trace elements (selenium especially), plus calcium and vitamin D to the RDA. Optional extras: vitamin D above the RDA, oral citrates, laxatives, extra selenium, magnesium, zinc, phosphorus, iron or copper, carnitine, MCT or coconut oil, and added salt for children over 1 year on an RCF formula. The table names products but gives no doses.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab95e42305288702",
+     "n": 1071,
+     "p": "[Table 5"
+    }
+   ],
+   "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**In year one, schedule clinic reviews at months 1, 3, 6, 9 and 12, then 6-monthly,** by a neurologist and dietitian. Infants and children at high nutritional risk need closer contact.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -434,6 +514,19 @@
    "verdict": "pass",
    "source_text": "Dietary therapies are more challenging to continue in adulthood since an adult neurologist and dietitian familiar with the different types of KDT are required … Special considerations for adults should include supporting autonomy, giving attention to bone mineral density and vitamin D supplementation, managing treatment during pregnancy, and providing attention to possible comorbidities … Among the panel members, KDTs are proposed in the first instance in adulthood mainly to patients with GLUT1 deficiency (60-80%) … There is limited evidence yet for the effectiveness of the KDTs in managing seizures in adults with intractable epilepsy",
    "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Each follow-up visit (S1 Table 6; at least every 3 months in year one, plus a visit 1 month after starting):** the dietitian reviews growth (head circumference in infants), the prescription, supplements and adherence; the neurologist reviews efficacy against the family's expectations, side effects, drug reduction and whether to continue. Labs: FBC with platelets, electrolytes with bicarbonate, protein and calcium, liver and kidney tests, vitamin D, fasting lipids, free and total carnitine, urinalysis, selenium and drug levels, and an EEG when stopping is considered. Optional: blood β-hydroxybutyrate, urine calcium to creatinine, zinc and copper, renal ultrasound, ECG, and a DEXA scan after 2 years on the diet.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0d766351fc1993db",
+     "n": 3119,
+     "p": "[Table 6"
+    }
+   ],
+   "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
   },
   {
    "claim": "**Consider stopping after 3 months if it has not helped, and at about 2 years if it has.** Glut1 deficiency and PDHD usually need longer. Wean gradually over 1–3 months unless stopping is urgent, and **keep the supplements going during the wean**.",

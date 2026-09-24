@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/obesity.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update' (published 11 August 2025), 19 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12350384). S2: PARAPHRASED AND HASH-ANCHORED from Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003) 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)' (updated January 2026 (PDF dated 3 February 2026)), 12 claims; LICENCE: No licence or reuse terms stated in the PDF (treated as all rights reserved) (read at the PDF itself (27 pages; no copyright or licence statement) and the ADS page https://www.diabetessociety.com.au/guideline/obesity/). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Australian Diabetes Society's Australian Obesity Management Algorithm (January 2026 update), for the Australian treatment pathway, diets, starting doses, phentermine, bariatric surgery criteria and pregnancy. S1 claims and anchors are unchanged. The NHMRC 2013 obesity guideline is marked 'Rescinded' on nhmrc.gov.au and was not used as a source; S2 restates its bariatric surgery criteria.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update' (published 11 August 2025), 26 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12350384). S2: PARAPHRASED AND HASH-ANCHORED from Australian Diabetes Society (Markovic TP, Proietto J, Dixon JB, et al.); first published in Obesity Research & Clinical Practice 2022 (doi 10.1016/j.orcp.2022.08.003) 'The Australian Obesity Management Algorithm: a simple tool to guide the management of obesity in primary care (January 2026 update)' (updated January 2026 (PDF dated 3 February 2026)), 12 claims; LICENCE: No licence or reuse terms stated in the PDF (treated as all rights reserved) (read at the PDF itself (27 pages; no copyright or licence statement) and the ADS page https://www.diabetessociety.com.au/guideline/obesity/). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Australian Diabetes Society's Australian Obesity Management Algorithm (January 2026 update), for the Australian treatment pathway, diets, starting doses, phentermine, bariatric surgery criteria and pregnancy. S1 claims and anchors are unchanged. The NHMRC 2013 obesity guideline is marked 'Rescinded' on nhmrc.gov.au and was not used as a source; S2 restates its bariatric surgery criteria. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (graded recommendations 1–12). S1 Table 2 (merged cells) was not extracted. S2 is a PDF, not PMC, so it has no appended tables.",
  "summary": {
-  "total": 31,
+  "total": 38,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 31
+  "pass_paraphrase_anchored": 38
  },
  "claims": [
   {
@@ -570,6 +570,128 @@
     }
    ],
    "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Recs 1–2 (S1 Table 1):** use a measure of central adiposity (waist circumference, waist-to-hip or waist-to-height ratio, with sex- and ethnicity-specific cut-offs where they exist) together with ethnicity-specific BMI thresholds or complications to decide on starting a medicine (Level 3, grade C); and tailor that decision to the person's values, preferences, goals, culture and ability to pay for long-term use (Level 4, grade D, consensus).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b3c3d624cf86cb9",
+     "n": 438,
+     "p": "[Table 1"
+    },
+    {
+     "h": "2d81ff5f0f33a4a2",
+     "n": 446,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Rec 3, who and what (S1 Table 1):** offer a medicine with health behaviour change at BMI 30 or more, or 27 or more with an adiposity-related complication: semaglutide 2.4 mg weekly (1a, A); tirzepatide 5, 10 or 15 mg weekly (1a, A); liraglutide 3 mg daily (2a, B); naltrexone–bupropion 16/180 mg twice daily, studied at BMI 27–45 (2a, B); orlistat 120 mg three times daily, studied at BMI 28–47 (2a, B).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "efe5372ad39be72a",
+     "n": 551,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Rec 4, keep going when it works (S1 Table 1):** to prevent regain after medicine-driven loss, semaglutide 2.4 mg weekly or tirzepatide 10 or 15 mg weekly (1a, A), or orlistat 120 mg three times daily (2a, B); to hold loss achieved by lifestyle change alone, liraglutide 3 mg daily, orlistat, or tirzepatide 10 or 15 mg (all 2a, B).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6264eaf1145a56ca",
+     "n": 638,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Recs 5–6 (S1 Table 1):** established atherosclerotic cardiovascular disease with BMI 27 or more, semaglutide 2.4 mg weekly on top of usual care to cut major cardiovascular events (2a, B). HFpEF (heart failure with preserved ejection fraction) at BMI 30 or more (1a, A): tirzepatide 15 mg weekly to reduce cardiovascular death or worsening heart failure, and semaglutide 2.4 mg or tirzepatide 15 mg weekly to improve symptoms.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f4cc896944c9e1f",
+     "n": 397,
+     "p": "[Table 1"
+    },
+    {
+     "h": "cd0da85ac9620a8e",
+     "n": 554,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Recs 7–8 (S1 Table 1):** prediabetes, to lower the chance of developing type 2 diabetes: daily liraglutide 3 mg (BMI 27 or more), orlistat 120 mg three times daily (BMI 30 or more) or tirzepatide 5, 10 or 15 mg weekly (BMI 27 or more) (all 2a, B), and semaglutide 2.4 mg weekly (BMI 30 or more) to restore normal glucose (1a, A). Type 2 diabetes, for weight and glycaemia: semaglutide 2.4 mg or tirzepatide 10 or 15 mg weekly (1a, A); liraglutide 3 mg, naltrexone–bupropion or orlistat (2a, B).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "903add03a69271e3",
+     "n": 512,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d45ca5f4931cd4d6",
+     "n": 543,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Recs 9–11 (S1 Table 1):** MASH, semaglutide 2.4 mg weekly for resolution and for fibrosis (2a, B), with liraglutide 1.8 mg daily (BMI 25 or more) or tirzepatide 5–15 mg weekly (BMI 27–50) as weaker options (3, C). Moderate to severe sleep apnoea with BMI 30 or more, tirzepatide 10 or 15 mg whether or not positive airway pressure is used (1a, A), or liraglutide 3 mg daily when it is not (2a, B). Knee osteoarthritis with BMI 30 or more, semaglutide 2.4 mg weekly for weight and knee pain (1a, A).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f5b822bd07ff89b3",
+     "n": 578,
+     "p": "[Table 1"
+    },
+    {
+     "h": "656154821b171785",
+     "n": 525,
+     "p": "[Table 1"
+    },
+    {
+     "h": "afe391eeacbab950",
+     "n": 368,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Rec 12 (S1 Table 1):** at BMI 30 or more, setmelanotide (at most 3 mg a day) is an option for Bardet–Biedl syndrome (2a, B) or for genetically confirmed biallelic POMC, PCSK1 or leptin-receptor deficiency (3, C).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "73cda13f0d845c66",
+     "n": 426,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD, Manjoo P et al.), CMAJ 197(27):E797, 'Pharmacotherapy for obesity management in adults: 2025 clinical practice guideline update', published 11 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12350384/, retrieved 2026-09-23",
+   "dose": true
   }
  ]
 }

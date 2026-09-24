@@ -1,9 +1,9 @@
 # Motor neurone disease (amyotrophic lateral sclerosis)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** disease-modifying drugs (riluzole, edaravone, tofersen), multidisciplinary care, communication, nutrition and gastrostomy, cough, secretions and ventilation, symptom management (cramps, spasticity, saliva, emotional lability, pain, sleep), psychological support and end-of-life planning for adults with ALS/MND. S1 does not cover diagnosis, gene testing or frontotemporal dementia care; S2 adds diagnostic criteria, the mimic work-up and genetic counselling, while FTD care is still not covered. Related: `spasticity` (chronic spasticity). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 3 SOURCES.** 35 claims; **74 fragments or anchors re-checkable by machine; 5 doses.** **S1** European Academy of Neurology with ERN EURO-NMD (Van Damme et al.) (published 12 March 2024; international): 22 claims, paraphrased, hash-anchored · **S2** PACTALS (published 16 September 2025; international): 10 claims, paraphrased, hash-anchored · **S3** Australian Prescriber (new drug comment (published 14 October 2025; AU): 3 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 3 SOURCES.** 36 claims; **78 fragments or anchors re-checkable by machine; 5 doses.** **S1** European Academy of Neurology with ERN EURO-NMD (Van Damme et al.) (published 12 March 2024; international): 22 claims, paraphrased, hash-anchored · **S2** PACTALS (published 16 September 2025; international): 10 claims, paraphrased, hash-anchored · **S3** Australian Prescriber (new drug comment (published 14 October 2025; AU): 4 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (European Academy of Neurology, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -38,6 +38,7 @@
 - **Tofersen regimen (SOD1 ALS):** 100 mg as a 15 mL intrathecal bolus on days 0, 14 and 28, then monthly. Expect lumbar-puncture pain, low-pressure headache, limb and back pain and falls; myelitis, aseptic meningitis, radiculopathy and raised intracranial pressure are uncommon. Do not give it to symptom-free SOD1 carriers until the ATLAS trial reports. [S2]
 - 🇦🇺 **Australian access (S3):** riluzole is approved for ALS in Australia; tofersen can be obtained only through the Special Access Scheme. [S3]
 - 🇦🇺 **Who may benefit from edaravone (S3):** it may slow progression only in early ALS (onset within 2 years) matching the pivotal trial: living independently with mild disease, forced vital capacity of at least 80%, and at least 2 points on every ALSFRS-R item. Benefit outside that group is unproven, and a trial in more advanced (grade 3) disease was negative. [S3]
+- 🇦🇺 **Approved indication in Australia (S3):** edaravone (Radicava, sponsor Teva), supplied as 30 mg/20 mL glass ampoules for IV infusion, is registered for adults with ALS who manage daily activities independently, have normal breathing function, and begin treatment no more than 2 years after onset. [S3]
 - ⚠️ **Edaravone infusion (S3):** 60 mg (2 ampoules) in 100 mL of 0.9% sodium chloride IV over 60 minutes, daily for 14 days then 14 days off; later cycles give 10 daily doses within 14 days, then 14 days off. No dose change is needed for kidney or liver impairment, but it is not recommended on renal replacement therapy. The ampoules contain sodium bisulfite, which can provoke allergic or asthmatic reactions, and hypersensitivity and anaphylaxis have been reported. [S3]
 
 ## Multidisciplinary care
@@ -90,7 +91,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **Edaravone: the sources disagree.** PBS-listed in Australia; S1 (EAN) does not recommend it outside trials; S2 (PACTALS) weakly recommends considering it for milder, early patients; S3 (Australian Prescriber) expects benefit only in early ALS resembling the pivotal trial. All three are shown. The PBS eligibility criteria are not reproduced; see the PBS listing below. | `observation` |
 | 2 | **Diagnosis and gene testing** are now covered by S2 (Gold Coast criteria, mimic work-up, genetic counselling). **Management of cognitive or behavioural impairment and FTD** is still not addressed by any source. | `out_of_scope` |
-| 3 | **The table of review questions and evidence grades** was stripped, and the supplements (evidence reports) were not read. | `input_unavailable` |
+| 3 | **The tables of review questions and evidence grades** (S1 Table 1, S2 Table 1) have merged cells and could not be extracted, and the supplements (evidence reports) were not read. S3's product table is now used. | `input_unavailable` |
 | 4 | **No Australian MND guideline exists yet.** The FightMND / Adelaide University guideline project was about halfway through development in May 2026 (research, 2026-09-23). Replace or add to the international sources when it is published. S2 (PACTALS) includes Australia; S3 is an Australian drug comment. | `observation` |
 | 5 | **Riluzole monitoring:** S1 does not specify it; S2 advises clinical and liver-function monitoring but gives no test schedule. | `input_unavailable` |
 | 6 | **Licences:** S1 CC BY-NC-ND 4.0, S2 CC BY-NC 4.0, S3 CC BY-NC-ND 4.0. All claims are paraphrased and hash-anchored; no source's words are reproduced. | `observation` |

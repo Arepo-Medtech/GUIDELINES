@@ -1,9 +1,9 @@
 # Diffuse large B-cell lymphoma (large B-cell lymphoma)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, staging, first-line treatment by risk group, special subtypes (double/triple-hit, primary mediastinal, testicular, intravascular), older and unfit patients, CNS prophylaxis, relapsed/refractory disease and survivorship for adults with large B-cell lymphoma. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **86 fragments or anchors re-checkable by machine; 8 doses.** **S1** European Hematology Association (published 23 September 2025; international): 25 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026); AU): 8 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **103 fragments or anchors re-checkable by machine; 8 doses.** **S1** European Hematology Association (published 23 September 2025; international): 29 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026); AU): 8 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (European Hematology Association, 2025) as S1. Australian practice follows the PBS listings below and may differ.
 
@@ -15,6 +15,7 @@
 
 ## Diagnosis and staging
 
+- **Risk factors (S1 Table 1):** inherited immunodeficiency, HIV/AIDS or an organ transplant (odds ratio above 2); autoimmune diseases that activate B cells, such as Sjögren syndrome, lupus or rheumatoid arthritis (2.36); viral infection including HIV, HHV8, hepatitis C, EBV and hepatitis B (2.02); a family history of non-Hodgkin lymphoma (1.95); and obesity as a young adult (1.58). [S1]
 - **Have the biopsy reported by a reference haematopathology laboratory.** Immunohistochemistry misclassifies cell of origin in up to 30% of cases, so do not withhold an active therapy on that basis alone. [S1]
 - **Test for MYC rearrangement by FISH, and if present test for BCL2 and BCL6,** to separate DLBCL NOS from lymphoma with MYC and BCL2 and/or BCL6 rearrangement. [S1]
 - **Stage with PET-CT; calculate the IPI (mandatory) and CNS-IPI (strongly advised) before treatment.** Use MRI for brain or leptomeningeal disease, add MRI and CSF analysis for patients at high CNS risk, and reserve marrow biopsy for a suspected second blood disorder. [S1]
@@ -45,6 +46,7 @@
 - **Primary mediastinal B-cell lymphoma:** use R-CHOP14 or a more intensive regimen (R-M/VACOP-B, R-ACVBP, DA-EPOCH-R) and avoid R-CHOP21. Skip mediastinal radiotherapy after complete metabolic response; a DS5 result (Deauville) needs salvage therapy. [S1]
 - **Primary testicular lymphoma:** six cycles of R-CHOP, radiotherapy to the other testis (strongly advised) and CNS prophylaxis. [S1]
 - **Age 80 or over, or unfit:** use a geriatric assessment, then R-miniCHOP for six cycles in fit patients (I, B), which reduces doxorubicin to 25 mg/m², cyclophosphamide to 400 mg/m² and vincristine to 1 mg. A corticosteroid prephase, optionally with one 1 mg IV dose of vincristine, improves performance status. [S1]
+- **What the geriatric assessment covers (S1 Table 7):** function (ECOG, ADL and IADL), comorbidity (CIRS-G), cognition (MMSE or MoCA), nutrition (BMI and albumin), mood and carer support (Geriatric Depression Scale) and a medication review for interactions. [S1]
 - ⚠️ **Heart failure or LVEF below 50%: use a regimen without conventional doxorubicin** (R-CEOP, R-GCVP, R-COMP with non-pegylated liposomal doxorubicin, or R-GEMOX). After earlier anthracycline, work within the 450 mg/m² lifetime limit. [S1]
 
 ## Relapsed or refractory disease
@@ -52,6 +54,8 @@
 - **Biopsy before second-line treatment** (III, B), to confirm relapse, exclude another diagnosis and check CD19 and CD20 expression; biopsy again before third line because target antigen can be lost. [S1]
 - **Refractory disease or relapse within 12 months: offer CAR T-cells (axi-cel or liso-cel).** (I, A) Axi-cel improved 4-year overall survival (55% vs 46%). CAR T-cells may not suit patients with performance status 2 or worse, a large tumour burden or fast-rising LDH. [S1]
 - **Relapse more than 1 year after first-line therapy in a fit patient: salvage immunochemotherapy** (R-DHAX, R-ICE, R-GDP or R-ESHAP), then high-dose therapy (such as BEAM) and autograft if chemosensitive (I, B). Long-term PFS is about 40% in late relapse but under 15–20% in early relapse or primary refractory disease. [S1]
+- **What the salvage and conditioning regimens contain (S1 Table 6, no doses):** R-DHAP/X/C pairs rituximab, dexamethasone and cytarabine with a platinum (cisplatin, oxaliplatin or carboplatin); R-ICE is rituximab with ifosfamide, carboplatin and etoposide; R-GDP adds gemcitabine, dexamethasone and cisplatin to rituximab; R-ESHAP is rituximab with etoposide, methylprednisolone and cisplatin. BEAM conditioning is carmustine, etoposide, cytarabine and melphalan. [S1]
+- **DA-EPOCH-R** (etoposide, doxorubicin, vincristine, cyclophosphamide, prednisone and rituximab) **is dose-adjusted to the neutrophil nadir,** measured twice a week (S1 Table 6). [S1]
 - **Not a candidate for CAR T-cells or transplant: R-GemOx or Pola-BR** (III, B); consider glofitamab with GemOx (I, A), which improved median OS (25.5 vs 12.9 months) over R-GemOx, or tafasitamab-lenalidomide if the disease is not refractory. [S1]
 - ⚠️ **Bendamustine may weaken T-cell fitness** and so reduce the effect of later bispecific antibodies (epcoritamab, glofitamab, odronextamab). [S1]
 - **Third line and beyond:** if CAR T-cells were not used in second line, offer them (III, A); if already CAR T-exposed, offer a CD20xCD3 bispecific (epcoritamab, glofitamab, odronextamab), loncastuximab tesirine, tafasitamab-lenalidomide or immunochemotherapy, and consider a trial. [S1]
@@ -80,7 +84,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Regimen doses:** R-CHOP21, Pola-R-CHP, glofitamab and epcoritamab doses now come from S2 (eviQ). Salvage (R-DHAX, R-ICE, R-GDP, R-ESHAP), conditioning and R-GemOx/Glofit-GemOx doses are in neither text used here. | `input_unavailable` |
+| 1 | **Regimen doses:** R-CHOP21, Pola-R-CHP, glofitamab and epcoritamab doses now come from S2 (eviQ). Salvage (R-DHAX, R-ICE, R-GDP, R-ESHAP), conditioning and R-GemOx/Glofit-GemOx doses are in neither text used here; S1's Table 6, now appended, names each regimen's drugs but gives no doses. S1's investigation, IPI/CNS-IPI, pre-treatment and response-assessment tables (Tables 2–5) and its evidence-grade table (A1) have merged cells or ragged rows and were not extracted. | `input_unavailable` |
 | 2 | **The treatment algorithms (Figures 1 and 2)** are images; only their captions were extracted. | `input_unavailable` |
 | 3 | **Australian source:** the Australasian Lymphoma Alliance DLBCL practice statement (IMJ 2021, © RACP) is still subscription-only (no open copy found on Europe PMC, retried 2026-09-24), so the Australian source added is eviQ, which carries regimen protocols, not treatment-choice guidance. | `observation` |
 | 4 | **Sources differ on favourable early-stage disease** (S1: four R-CHOP21 cycles; S2: four R-CHOP21 plus two rituximab, aged 60 or under) **and on Pola-R-CHP access** (S1 preferred for IPI 2–5; S2: polatuzumab not PBS-listed). Both are shown. | `observation` |

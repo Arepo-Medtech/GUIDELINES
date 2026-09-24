@@ -1,9 +1,9 @@
 # Perichondritis of the pinna (auricular perichondritis)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with infective perichondritis of the ear (pinna), with or without a cartilage piercing: recognition, cultures, choosing oral or intravenous antibiotics, drainage and debridement. Otitis externa, including necrotising (malignant) otitis externa, is in `otitis-externa-and-ear-wax`; children's skin infections are in `cellulitis-and-skin-infections-children`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **42 fragments or anchors re-checkable by machine; 0 doses.** **S1** Ungar OJ (2025; international): 15 claims, paraphrased, hash-anchored · **S2** Zhang (published 31 January 2024; international): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **43 fragments or anchors re-checkable by machine; 0 doses.** **S1** Ungar OJ (2025; international): 15 claims, paraphrased, hash-anchored · **S2** Zhang (published 31 January 2024; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (The Laryngoscope, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -37,6 +37,7 @@
 ## Organisms and antibiotic susceptibility (S2, one Chinese centre)
 
 - ***P. aeruginosa* was the commonest isolate (49.2%), and in piercing-related cases it was the organism every time (100%).** Other series report from 20.4% (Denmark) to 60.6% (India). [S2]
+- **Isolates by cause in S2 (61 in all):** gram-negative bacteria 55.7%, nearly all *P. aeruginosa*; gram-positive 21.3% (coagulase-negative staphylococci 8.2%, *S. aureus* 4.9%, viridans streptococci and *S. pyogenes* 3.3% each); fungi 23.0% (*Aspergillus* 18.0%, *Candida* 4.9%). After surgery (24 isolates): *P. aeruginosa* 45.8%, *Aspergillus* 29.2% and *Candida* 12.5%. After trauma (14 isolates): *P. aeruginosa* 64.3% and coagulase-negative staphylococci 21.4%. [S2]
 - **Gram-negative isolates were almost all susceptible to amikacin (100%), cefepime (93.9%), meropenem (97.1%) and ceftazidime (90.9%),** but only 67.4% to levofloxacin and 65.2% to ciprofloxacin. [S2]
 - **Gram-positive isolates were all susceptible to vancomycin (100%),** but few to penicillin G (30.8%), ceftriaxone (20.0%), levofloxacin (41.7%), ciprofloxacin (30.8%) or erythromycin (15.4%). [S2]
 - ⚠️ **Be cautious with a fluoroquinolone as the first empirical choice.** Pseudomonas susceptibility to fluoroquinolones fell over the decade, and multidrug-resistant Pseudomonas appeared (22.2% of Pseudomonas cases in 2018–2022, none in 2013–2017), all resistant to gentamicin, ciprofloxacin and levofloxacin. [S2]
@@ -78,7 +79,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 4 | **Evidence level:** a single-centre retrospective cohort, not a guideline. The authors note the limited culture data prevented specific antibiotic recommendations. | `observation` |
 | 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 | 6 | **Sources disagree on empirical ciprofloxacin:** S1 names ciprofloxacin as the usual empirical choice; S2 found only about two-thirds of gram-negative isolates susceptible to fluoroquinolones, falling over time, and advises caution with them as first-line empirical treatment, favouring anti-pseudomonal cover such as ceftazidime in hospital. Both are shown; S2's data are local to one Chinese hospital. | `observation` |
-| 7 | **S2's tables** (causes, isolates, susceptibility by drug, treatments and outcomes) and supplementary tables were stripped; the claims use the figures stated in the text. S2 gives no doses or durations either. | `input_unavailable` |
+| 7 | **S2's tables:** the isolate table (Table 2) is now used. The causes, susceptibility-by-drug and treatment-outcome tables (Tables 1, 3 and 4) have ragged rows or merged cells and still could not be extracted, and the supplementary tables were not read; those claims use the figures stated in the text. S1's four tables have merged cells and could not be extracted either. S2 gives no doses or durations either. | `input_unavailable` |
 
 ## Sources
 

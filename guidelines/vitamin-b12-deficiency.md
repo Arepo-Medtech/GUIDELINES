@@ -1,9 +1,9 @@
 # Vitamin B12 deficiency in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, risk groups, laboratory diagnosis, treatment route and dose, expected recovery, monitoring and prophylaxis of vitamin B12 deficiency in adults. Children: `anaemia-children` and `micronutrient-deficiency-children` (which carries paediatric B12 doses). Related: `iron-deficiency` (adults), `nitrous-oxide-misuse-adolescents`, `dementia` (B12 in the cognitive work-up).
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **50 fragments or anchors re-checkable by machine; 2 doses.** **S1** Obeid R (published 10 April 2024; international): 19 claims, quoted · **S2** Bedz D (7 April 2026 (finalised 17 February 2026); AU): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **55 fragments or anchors re-checkable by machine; 2 doses.** **S1** Obeid R (published 10 April 2024; international): 22 claims, quoted · **S2** Bedz D (7 April 2026 (finalised 17 February 2026); AU): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International consensus (Delphi panel, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -52,6 +52,9 @@
 - **Recovery can be incomplete:** up to 25% keep severe neurological symptoms despite normal blood markers, and sensory symptoms can take up to one year to settle. Longer, more severe deficiency before treatment means slower and less complete recovery. [S1]
 - **Recheck serum B12 case by case** (new symptoms, adherence or absorption of oral therapy); it tracks clinical response poorly. Periodic B12 checks can help find at-risk people such as long-term metformin users. [S1]
 - **Give prophylactic B12** with atrophic gastritis, after bariatric surgery, with illnesses or medicines that cause deficiency, and with little or no animal food. Women with previous or at-risk deficiency should take it from before pregnancy to the end of breastfeeding. [S1]
+- **Consensus statements on long-term B12 (S1 Table 2):** people who have had bariatric surgery should have long-term B12 therapy or prophylaxis (agreement 0.90); deficiency in pregnancy, breastfeeding and infancy must be found and treated as early as possible because of its serious effects on fetal and infant development (0.89); and women with past deficiency or a diet low in animal foods should take prophylaxis from before pregnancy to the end of breastfeeding (0.92). [S1]
+- **No B12 form is proven better (S1 Table 2):** it is unclear whether the available forms differ in effectiveness or safety, and head-to-head trials are needed (agreement 0.88, 42 panellists). [S1]
+- **How strong the consensus was:** a statement passed when the lower 95% confidence bound of the share agreeing or strongly agreeing was 50% or more. The least-agreed treatment statement was preferring oral B12 when injections are contraindicated, for example by anticoagulants (0.75, 95% CI 0.57–0.89). [S1]
 - **Expected recovery (S2):** symptoms usually start improving within 2 weeks; reticulocytes rise in 3–5 days, haemoglobin normalises in 4–8 weeks, and neurological symptoms improve gradually over 6–12 weeks. [S2]
 - **On oral B12, review at 2–3 months** for symptoms and adherence, and consider repeating B12, methylmalonic acid or homocysteine at 3–6 months, especially with malabsorption. Stop B12 only if a reversible cause has been found and corrected, and ask patients to return if symptoms recur. [S2]
 
@@ -77,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 3 | **S2's treatment and dose table (Table 4), test-interpretation cut-offs (Table 3) and algorithm (Figure 1)** were stripped, so no Australian hydroxocobalamin schedule is stated. | `input_unavailable` |
 | 4 | **S2 licence:** CC BY-NC-ND 4.0 (Australian Prescriber). Its claims are paraphrased and hash-anchored. | `observation` |
 | 5 | **'Megaloblastic anaemias' (PBS: folinic acid) is not attached.** The source covers B12 deficiency only and says nothing about folinic acid or folate-deficiency treatment. | `out_of_scope` |
-| 6 | **The consensus statements (Tables 1 and 2) and diagnostic algorithm (Figure 2) were stripped;** claims rest on the narrative text. | `input_unavailable` |
+| 6 | **S1's consensus statements:** Table 2 (treatment, prophylaxis and long-term management, with agreement levels) is now shown. Table 1 (diagnosis statements) has merged cells and was not extracted by the 2026-09-24 table pass, and the diagnostic algorithm (Figure 2) is an image; diagnostic claims rest on the narrative text. | `input_unavailable` |
 | 7 | **Funding:** the study was funded by Wörwag Pharma, and all authors received consulting fees in relation to it. NICE NG239 (2024) is the main alternative; its terms bar reuse outside the UK without agreement, so it was not used. | `observation` |
 | 8 | **Licence:** CC BY 4.0; claims are backed by verbatim quotes. | `observation` |
 

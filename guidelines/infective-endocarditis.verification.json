@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/infective-endocarditis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Life in the Fast Lane (LITFL); author Chris Nickson 'Infective Endocarditis (LITFL Critical Care Compendium)' (published 29 January 2019, last modified 3 November 2020), 21 claims; LICENCE: CC BY-NC-SA 4.0 (read at the site-wide licence statement in the footer of https://litfl.com/infective-endocarditis/). S2: PARAPHRASED AND HASH-ANCHORED from Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651) 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice' (published 19 July 2024), 12 claims; LICENCE: CC BY-NC-ND 4.0 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)') (read at Europe PMC fullTextXML <license> element for PMC11365601). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, LITFL) unchanged and adds S2, a 2024 review of the ESC 2023 endocarditis guideline's main changes (the guideline itself remains unreadable: subscription-only). The WHO AWaRe antibiotic book was checked again and rejected as a second source: it mentions endocarditis only in passing and has no treatment section.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Life in the Fast Lane (LITFL); author Chris Nickson 'Infective Endocarditis (LITFL Critical Care Compendium)' (published 29 January 2019, last modified 3 November 2020), 21 claims; LICENCE: CC BY-NC-SA 4.0 (read at the site-wide licence statement in the footer of https://litfl.com/infective-endocarditis/). S2: PARAPHRASED AND HASH-ANCHORED from Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651) 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice' (published 19 July 2024), 17 claims; LICENCE: CC BY-NC-ND 4.0 ('distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND)') (read at Europe PMC fullTextXML <license> element for PMC11365601). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, LITFL) unchanged and adds S2, a 2024 review of the ESC 2023 endocarditis guideline's main changes (the guideline itself remains unreadable: subscription-only). The WHO AWaRe antibiotic book was checked again and rejected as a second source: it mentions endocarditis only in passing and has no treatment section. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (ESC risk classes), Table 3 (imaging indications) and Table 4 (empirical regimens and doses). All four S2 tables were clean; Table 2 (general prevention) is prophylaxis and out of scope.",
  "summary": {
-  "total": 33,
+  "total": 38,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 33
+  "pass_paraphrase_anchored": 38
  },
  "claims": [
   {
@@ -66,6 +66,29 @@
     }
    ],
    "locator": "Life in the Fast Lane (LITFL); author Chris Nickson, 'Infective Endocarditis (LITFL Critical Care Compendium)', published 29 January 2019, last modified 3 November 2020, https://litfl.com/infective-endocarditis/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ESC risk classes (S2 Table 1):** high risk means previous endocarditis, a surgical prosthetic valve or any valve-repair material, congenital heart disease that is untreated or repaired with prosthetic material, or a ventricular assist device as destination therapy. Intermediate risk means rheumatic heart disease, non-rheumatic degenerative valve disease, a congenital valve abnormality such as a bicuspid aortic valve, an implanted electronic device, or hypertrophic cardiomyopathy. Everyone else is low risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef6f1cee85a9d530",
+     "n": 368,
+     "p": "[Table 1"
+    },
+    {
+     "h": "3fcb4065542129d4",
+     "n": 323,
+     "p": "[Table 1"
+    },
+    {
+     "h": "ad3760158e031fc2",
+     "n": 69,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
   },
   {
    "claim": "**Half of cases arise on normal valves.** The picture ranges from no symptoms, through malaise, night sweats, anaemia and weight loss, to cardiogenic shock and sepsis; emboli (stroke, septic lung emboli, splenic infarcts) and haematuria from glomerulonephritis may be the clue.",
@@ -213,6 +236,29 @@
      "h": "4ad6523e5607bc4f",
      "n": 605,
      "p": "Nuclear "
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What each scan is for (ESC, S2 Table 3):** CT to diagnose endocarditis and perivalvular or periprosthetic complications (abscess, pseudoaneurysm, fistula), find distant lesions and the source of bacteraemia, assess the coronary arteries before surgery, and weigh other diagnoses; MRI for cardiac, neurological and spinal complications; FDG-PET/CT or white-cell SPECT/CT to diagnose, find distant lesions and sources, and follow the response to antibiotics.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a671495ecb75ca82",
+     "n": 309,
+     "p": "[Table 3"
+    },
+    {
+     "h": "d9b684a4510eb980",
+     "n": 162,
+     "p": "[Table 3"
+    },
+    {
+     "h": "69b177bda3a7528f",
+     "n": 238,
+     "p": "[Table 3"
     }
    ],
    "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
@@ -382,6 +428,48 @@
     }
    ],
    "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **ESC empirical doses, community-acquired native-valve disease or late prosthetic-valve disease (12 months or more after surgery) (IIa, C; S2 Table 4):** ampicillin, combined either with ceftriaxone or with (flu)cloxacillin and gentamicin. Daily doses: ampicillin 12 g IV split four to six ways; ceftriaxone 4 g IV or IM split in two; (flu)cloxacillin 12 g IV split four to six ways; gentamicin 3 mg/kg IV or IM as a single daily dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29ad0da661ccc99f",
+     "n": 448,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **ESC empirical doses, early prosthetic-valve disease (within 12 months of surgery) or healthcare-associated disease (IIb, C; S2 Table 4),** aimed also at methicillin-resistant staphylococci and non-HACEK Gram-negatives: vancomycin 30 mg/kg a day IV in two doses, or daptomycin 10 mg/kg once a day IV, each with gentamicin 3 mg/kg once a day and rifampicin 900–1200 mg a day IV or by mouth in two or three doses.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a2b65d67585b8be6",
+     "n": 493,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **ESC empirical doses with beta-lactam allergy, community-acquired native-valve or late prosthetic-valve disease (IIb, C; S2 Table 4):** cefazolin 6 g a day IV in three doses, or vancomycin 30 mg/kg a day IV in two doses, either one with gentamicin 3 mg/kg once a day.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6587cfb82527db1",
+     "n": 404,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "Imazio M, Journal of Cardiovascular Medicine 25(10):718-726 (doi 10.2459/JCM.0000000000001651), 'The 2023 new European guidelines on infective endocarditis: main novelties and implications for clinical practice', published 19 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11365601/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "⚠️ **Partial oral or outpatient therapy is new in the current ESC guideline.** In the POET trial, switching to oral antibiotics after at least 10 days IV was noninferior (primary outcome 9% oral vs 12.1% IV). ESC: do a TOE at day 10 in stable patients; stable, uncomplicated patients may then go home from day 10 of IV therapy or day 7 after surgery, on the same drugs or an oral step-down, with a nurse daily and a doctor one to three times a week.",

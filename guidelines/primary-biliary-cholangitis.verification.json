@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/primary-biliary-cholangitis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis' (published 4 February 2022), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8843914). S2: PARAPHRASED AND HASH-ANCHORED from Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective' (published 9 August 2026), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13534266). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian expert-opinion review (2026). Its authors state it is a narrative expert opinion, not a consensus document or systematic review; medical writing was funded by Gilead Sciences, and several authors report industry advisory roles. It is used for the Australian context (TGA and PBS status, elafibranor and seladelpar, current OCA status) that the 2022 APASL guidance predates. No Australian society guideline for PBC was found (Europe PMC searches: PBC with Australia/GESA/New Zealand; PBC guideline/guidance 2024-2026). EASL 2025 and AISF 2026 are not open access. S1's claims are unchanged; S2 is CC BY-NC-ND and is paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis' (published 4 February 2022), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8843914). S2: PARAPHRASED AND HASH-ANCHORED from Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective' (published 9 August 2026), 20 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13534266). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian expert-opinion review (2026). Its authors state it is a narrative expert opinion, not a consensus document or systematic review; medical writing was funded by Gilead Sciences, and several authors report industry advisory roles. It is used for the Australian context (TGA and PBS status, elafibranor and seladelpar, current OCA status) that the 2022 APASL guidance predates. No Australian society guideline for PBC was found (Europe PMC searches: PBC with Australia/GESA/New Zealand; PBC guideline/guidance 2024-2026). EASL 2025 and AISF 2026 are not open access. S1's claims are unchanged; S2 is CC BY-NC-ND and is paraphrased and hash-anchored. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (differential diagnosis) and S2 Tables 1 (baseline risk), 2 (definitions of inadequate response), 3 (drug therapies) and 4 (early clinician and patient discussions). S1 Tables 1 (evidence grades) and 3 (evaluation of UDCA response) have merged cells and were not extracted.",
  "summary": {
-  "total": 32,
-  "pass": 20,
+  "total": 41,
+  "pass": 21,
   "fail": 0,
-  "pass_paraphrase_anchored": 12
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
@@ -47,6 +47,13 @@
    "locator": "Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6, 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis', published 4 February 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Differential diagnosis (S1 table):** intrahepatic cholestasis from autoimmune hepatitis, alcohol-related or drug-induced liver disease; primary, secondary or IgG4-related sclerosing cholangitis; sinusoidal obstruction syndrome, Budd-Chiari syndrome or congestive hepatopathy; sarcoidosis, hepatic amyloidosis or Langerhans cell histiocytosis. Extrahepatic cholestasis from gallstones, inflammatory strictures or malignancy.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 2] Differential diagnosis of PBC [Table 2 row 1] Intrahepatic cholestasis: Hepatocyte-associated Autoimmune hepatitis Alcoholic liver disease Drug-induced liver disease Bile duct-associated Primary sclerosing cholangitis Secondary sclerosing cholangitis IgG4-associated sclerosing cholangitis Vascular diseases Sinusoidal obstruction syndrome Budd-Chiari syndrome Congestive hepatopathy Miscellaneous Sarcoidosis Hepatic amyloidosis Langerhans cell histiocytosis · Extrahepatic cholestasis: Cholelithiasis Inflammatory stenosis Malignancy",
+   "locator": "Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6, 'APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis', published 4 February 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Offer family screening, starting with liver function tests, to female first-degree relatives over 30,** since PBC is more common in first-degree relatives (S2, Australian expert opinion).",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -73,6 +80,32 @@
      "h": "ba8d1a76822039f8",
      "n": 137,
      "p": "The pres"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Baseline risk table (S2):** progression is more likely with male sex; diagnosis before 45 (risk is lower from 62 on); ALP above 1.5 × ULN, abnormal bilirubin, low albumin, a lower platelet count or GGT above 3 × ULN; liver stiffness of 9.6 kPa or more, ELF of 10.0 or more, MR elastography above 4.6 kPa or early (Child-Pugh A) cirrhosis; moderate to advanced fibrosis, interface hepatitis or ductopenia on biopsy; anti-gp210 positivity; and severe itch, fatigue, sicca or another autoimmune disease. Lower-risk features: female sex, ALP normal or below 1.5 × ULN with normal bilirubin and albumin, lower fibrosis scores, little or no fibrosis on biopsy, negative AMA, and no symptoms.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ca769ca59d6cc73",
+     "n": 1159,
+     "p": "[TABLE 1"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Early conversations (S2):** clinicians cover what the diagnosis means, that untreated PBC can progress to cirrhosis and that treatment is lifelong, the goals of treatment (biochemical response and risk reduction as well as symptom relief), comorbidities, monitoring and family screening; patients often ask what happens without treatment, how they will know it is working, whether they need a bone density scan, and whether their children are at risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4804a95ca5fe2416",
+     "n": 2145,
+     "p": "[TABLE 4"
     }
    ],
    "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
@@ -149,6 +182,84 @@
      "h": "53ec72c0a830bbc8",
      "n": 296,
      "p": "Where pa"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Definitions of inadequate response (S2 table):** modified Toronto, ALP above 1.67 × ULN and/or bilirubin above 2 × ULN after 2 years of UDCA; Mayo, ALP above 2 × ULN after 2 years; Paris II after 1 year, printed as ALP or AST above 1.5 × ULN together with bilirubin above 1 mg/dL; the GLOBE score (bilirubin, ALP, albumin, platelets and baseline age) and UK-PBC score (ALP above 1.67 × ULN, plus bilirubin, transaminases, albumin and platelets), both after 1 year; and the PBS criterion, ALP above 1.67 × ULN or bilirubin of 1–2 × ULN after 1 year.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2372e57069c04deb",
+     "n": 916,
+     "p": "[TABLE 2"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**UDCA (S2 drug table):** side effects are diarrhoea, itch and abdominal pain; monitor liver function and beware bile duct stenosis; it interacts with bile acid sequestrants such as cholestyramine, with antacids and with ciclosporin. TGA-registered for chronic cholestatic liver disease since 1999; PBS streamlined authority for PBC.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7fdafb0dc9e70094",
+     "n": 632,
+     "p": "[TABLE 3"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Elafibranor cautions (S2 drug table):** avoid it in pregnancy, in decompensated liver disease and in severe (Child-Pugh C) impairment, and do not combine it with a statin, because rhabdomyolysis has occurred. Side effects include abdominal pain and other gut upset, myalgia, and rises in AST, ALT, bilirubin and CPK. PBS: specialist authority first, then streamlined authority.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a19743d6ba8ec2d9",
+     "n": 892,
+     "p": "[TABLE 3"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Seladelpar cautions (S2 drug table):** avoid it in decompensated liver disease (Child-Pugh B or C) and when the bile duct is completely obstructed; it interacts with probenecid and strong CYP2C9 or CYP3A4 inhibitors or inducers. Side effects include headache, abdominal pain, nausea, and rises in creatinine, transaminases and bilirubin. TGA-registered for PBC in 2026; its PBS listing is under evaluation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2c0a60aa4b929521",
+     "n": 730,
+     "p": "[TABLE 3"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Obeticholic acid (S2 drug table):** carries a boxed warning and must not be used in decompensated liver disease (Child-Pugh B or C), in cirrhosis that has portal hypertension, or when the bile duct is completely obstructed; interactions with warfarin, CYP1A2 substrates and ciclosporin; itch and raised transaminases are its known side effects. TGA-registered for PBC since 2018; PBS by specialist authority, not with a PBS-funded PPAR agonist.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17317b2b22c75d34",
+     "n": 853,
+     "p": "[TABLE 3"
+    }
+   ],
+   "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fibrates (S2 drug table):** fenofibrate is contraindicated in advanced liver disease, severe kidney impairment, pancreatitis or with another fibrate; lower the dose when eGFR is under 60 mL/min/1.73 m²; avoid it in pregnancy, decompensated cirrhosis or complete bile duct obstruction, and never combine it with PPAR agonists. Side effects include raised transaminases, CPK and creatinine, gallstones and blood changes. It is a general-benefit PBS item but not approved for PBC. Bezafibrate is unapproved (Special Access Scheme only) and not PBS-listed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "00f305a39beb60c9",
+     "n": 1245,
+     "p": "[TABLE 3"
     }
    ],
    "locator": "Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616, 'Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective', published 9 August 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/, retrieved 2026-09-24"

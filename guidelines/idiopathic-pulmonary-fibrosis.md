@@ -1,9 +1,9 @@
 # Idiopathic pulmonary fibrosis and progressive pulmonary fibrosis
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with idiopathic pulmonary fibrosis (IPF) or non-IPF progressive pulmonary fibrosis (PPF): anti-fibrotic choice, starting, switching and stopping, adverse-effect management, acute exacerbations, key comorbidities, rehabilitation and transplant referral. Diagnosis of ILD is outside this statement. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **61 fragments or anchors re-checkable by machine; 0 doses.** **S1** Thoracic Society of Australia and New Zealand (TSANZ) (published online 11 January 2024; AU): 23 claims, quoted · **S2** Raghu G (published 1 May 2022; international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **65 fragments or anchors re-checkable by machine; 0 doses.** **S1** Thoracic Society of Australia and New Zealand (TSANZ) (published online 11 January 2024; AU): 26 claims, quoted · **S2** Raghu G (published 1 May 2022; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **The PBS criteria for nintedanib in progressive fibrosing ILD are not the same as the international PPF definition.** The PBS allows progression observed over **24 months** (taken from the INBUILD trial); ATS/ERS/JRS/ALAT PPF uses 12 months. Pirfenidone is **not** approved in Australia for PPF.
 
@@ -43,6 +43,7 @@
 ## Progressive pulmonary fibrosis (PPF)
 
 - **PPF is non-IPF ILD that progresses despite optimal treatment:** radiological fibrosis plus at least two of three over 12 months: worse symptoms, FVC decline ≥5% or DLCO ≥10%, or radiological progression. ⚠️ Australian PBS access to nintedanib also allows progression over 24 months (INBUILD criteria). [S1]
+- **Fibrotic ILDs that can behave as PPF (S2 Table 5):** idiopathic fibrotic NSIP, pleuroparenchymal fibroelastosis, fibrosing organising pneumonia, desquamative interstitial pneumonia, fibrotic CTD-related ILD, fibrotic hypersensitivity pneumonitis, fibrotic occupational lung disease (such as asbestosis or silicosis), fibrotic Langerhans cell histiocytosis, fibrotic sarcoidosis, unclassifiable fibrotic ILD (a label to use only after multidisciplinary discussion) and others, such as inborn errors of metabolism or surfactant protein disorders. [S2]
 - **Progression should prompt diagnostic reassessment.** Some progressive ILDs are still best treated with immunosuppression (e.g. CTD-ILD) or antigen avoidance (fibrotic hypersensitivity pneumonitis), possibly with nintedanib added. [S1]
 - ⚠️ **Nintedanib should be considered in PPF.** In INBUILD (non-IPF fibrosis >10% of lung on CT, progressing within 24 months) FVC fell 80.8 mL/year on nintedanib vs 187.8 mL/year on placebo, consistently across subgroups; it is approved in Australia for PPF. [S1]
 - **Pirfenidone has no local approval or guideline recommendation for PPF;** only low-quality evidence suggests benefit. [S1]
@@ -53,9 +54,12 @@
 ## Acute exacerbations and comorbidities
 
 - ⚠️ **Acute exacerbation of IPF has no proven therapy** and a poor prognosis: supportive care, oxygen, and cover for possible infection. High-dose corticosteroids are common but unproven, and anti-fibrotics have no proven role for starting in the acute setting. [S1]
+- **Criteria for acute exacerbation of IPF (S1 Table 4):** acute respiratory deterioration, typically lasting under 1 month, in someone with IPF, with new bilateral ground-glass opacity and/or consolidation on CT, not explained by cardiac failure or fluid overload, once extra-parenchymal causes (such as pneumothorax, pleural effusion or pulmonary embolism) are excluded. [S1]
 - **Reflux treatment does not improve IPF respiratory outcomes;** treat symptomatic reflux as for the general population. [S1]
 - **S2 agrees and goes further:** it suggests against antacid medicines and against antireflux surgery (complications in up to 15%) when the only aim is better respiratory outcomes (both conditional, very low-quality evidence); surgery may still suit reflux-related problems. [S2]
 - ⚠️ **Ambrisentan, bosentan and riociguat are contraindicated in pulmonary hypertension with IPF.** [S1]
+- **Vasodilator trials in IPF and ILD (S1 Table 5):** only inhaled treprostinil helped, in ILD with catheter-proven pulmonary hypertension (INCREASE, 326 patients: 6MWD up 31.12 m at 16 weeks, with better NT-proBNP and less clinical worsening). Sildenafil (STEP-IPF; INSTAGE with nintedanib; with pirfenidone) and bosentan (BPHIT) showed no benefit; riociguat (RISE-IIP) was stopped early for more serious adverse events, including deaths; ambrisentan (ARTEMIS-IPF) increased disease progression (27.4% v 17.2%; hazard ratio 1.74). [S1]
+- **Features suggesting short telomeres in pulmonary fibrosis (S1 Table 6):** a family history of ILD, diagnosis before age 50, nail dystrophy, premature greying (before 25), a personal or family history of blood-count abnormalities (macrocytosis, thrombocytopenia), and a personal or family history of unexplained liver disease. [S1]
 - **Shortened telomeres raise the risk of harm from immunosuppression;** use it cautiously in these patients. [S1]
 
 ## Rehabilitation, transplant and trials
@@ -81,8 +85,8 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Doses and the subsidised prescribing criteria** (FVC and DLCO thresholds, MDM confirmation) are in Tables 1 and 2, which were stripped, so they are not stated here. | `input_unavailable` |
-| 2 | **Diagnosis of IPF and ILD** is outside S1's scope; S2 adds the key diagnostic points above. Its HRCT-pattern and diagnosis tables (Tables 3–5) and figures were not machine-read. | `input_unavailable` |
+| 1 | **Doses and the subsidised prescribing criteria** (FVC and DLCO thresholds, MDM confirmation) are in Tables 1 and 2, which have ragged rows and were not extracted, so they are not stated here. S1's acute-exacerbation criteria (Table 4), vasodilator trials (Table 5) and short-telomere features (Table 6) are now covered from the appended rows. | `input_unavailable` |
+| 2 | **Diagnosis of IPF and ILD** is outside S1's scope; S2 adds the key diagnostic points above. Its HRCT-pattern and diagnosis tables (Tables 2–4) have merged cells and were not extracted, and its figures were not machine-read; its Table 5 (fibrotic ILDs that can manifest PPF) is now covered. | `input_unavailable` |
 | 3 | **International comparison:** the ATS/ERS/JRS/ALAT 2022 guideline defines PPF over 12 months; the Australian PBS PF-ILD criteria allow 24 months. The international guideline is now S2, paraphrased (CC BY-NC-ND 4.0, © ATS). | `observation` |
 | 4 | **Corticosteroids in acute exacerbation:** S1 (TSANZ 2023) notes they are common but unproven; S2 (2022 pathway) says exacerbations may be treated with them. Both are shown. | `observation` |
 | 5 | **Newer drugs:** neither source mentions nerandomilast (a PDE4B inhibitor); both predate its phase 3 results. | `observation` |

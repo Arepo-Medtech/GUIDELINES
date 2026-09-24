@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/paroxysmal-nocturnal-haemoglobinuria.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI) 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus' (published 13 November 2024), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11594386). S2: PARAPHRASED AND HASH-ANCHORED from Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475) 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore' (published 28 June 2024), 11 claims; LICENCE: CC BY-NC-SA 4.0 (the journal's licence for all its articles) (read at https://annals.edu.sg/open-access-and-copyright/ (the article page carries no licence line of its own)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Singapore PNH consensus (Annals, Academy of Medicine, Singapore, 2024): article HTML fetched with curl, scripts, styles, tables and citation superscripts removed, tags stripped, abstract to references kept; paraphrased and hash-anchored. The S1 claims are unchanged from edition 1.0.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI) 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus' (published 13 November 2024), 22 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11594386). S2: PARAPHRASED AND HASH-ANCHORED from Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475) 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore' (published 28 June 2024), 11 claims; LICENCE: CC BY-NC-SA 4.0 (the journal's licence for all its articles) (read at https://annals.edu.sg/open-access-and-copyright/ (the article page carries no licence line of its own)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Singapore PNH consensus (Annals, Academy of Medicine, Singapore, 2024): article HTML fetched with curl, scripts, styles, tables and citation superscripts removed, tags stripped, abstract to references kept; paraphrased and hash-anchored. The S1 claims are unchanged from edition 1.0. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (its first row only: IPIG, ICCS and Canadian monitoring intervals). S1 Tables 3 and 4 repeat the running text; S1 Table 2 could not be extracted (merged cells).",
  "summary": {
-  "total": 32,
-  "pass": 21,
+  "total": 33,
+  "pass": 22,
   "fail": 0,
   "pass_paraphrase_anchored": 11
  },
@@ -146,6 +146,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "There is currently no consensus on the optimal frequency of monitoring for different patient subgroups. Available guidelines recommend intervals of 3-6 months for at least 2 years, increasing to 1-year intervals for patients who are stable",
+   "locator": "Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI), 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus', published 13 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**How three other bodies time PNH testing in aplastic anaemia (S1 Table 1):** the International PNH Interest Group advises flow cytometry at diagnosis, then every 6 months for 2 years and yearly if stable, with testing sooner if the course changes; the International Clinical Cytometry Society screens clone-negative patients every 6 months, moving to yearly after 2 clone-free years, and every 3 months once a clone appears until its size has been stable for 2 years; the Canadian consensus tests at diagnosis and at least every 6 months.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1] Overview of guidance regarding screening for/monitoring of paroxysmal nocturnal hemoglobinuria in patients with aplastic anemia. … [Table 1 row 1] IPIG a []: At diagnosis of AA, flow cytometric analysis of erythrocytes and granulocytes is recommended After establishment of the diagnosis, flow cytometric analysis is recommended every 6 months for 2 years and yearly thereafter if parameters are stable If there is evidence of clinical progression (or amelioration), more immediate analysis should be performed Every year, even in the absence of clinical evidence of hemolysis (including patients treated with immunosuppressive therapy) · ICCS a []: Patients with unexplained cytopenia in whom AA is a differential diagnostic consideration should be tested for PNH at the time of diagnosis Patients with no detectable clone should be screened every 6 months, decreasing to yearly if no clone appears in the first two years If a clone is present or appears, patients should be screened every 3 months until the clone size is shown to be stable for 2 years · Canada b []: All patients with a diagnosis or suspicion of AA: Testing should be done at diagnosis and monitored at least every 6 months · Delphi Panel b []: At initial diagnosis",
    "locator": "Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI), 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus', published 13 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/, retrieved 2026-09-23"
   },
   {

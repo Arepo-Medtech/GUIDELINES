@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/familial-chylomicronaemia-syndrome.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -11,10 +11,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome' (2025), 16 claims; LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC12483350 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535) 'Hypertriglyceridaemia: A practical approach for primary care' (November 2025), 7 claims; LICENCE: © The Royal Australian College of General Practitioners 2025 (free to read; no open licence stated) (read at the article PDF from racgp.org.au (copyright line on every page; Unpaywall lists it as free to read without a licence)). S3: QUOTED from Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352) 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide' (published 16 November 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12686656). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23).",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome' (2025), 18 claims; LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC12483350 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535) 'Hypertriglyceridaemia: A practical approach for primary care' (November 2025), 7 claims; LICENCE: © The Royal Australian College of General Practitioners 2025 (free to read; no open licence stated) (read at the article PDF from racgp.org.au (copyright line on every page; Unpaywall lists it as free to read without a licence)). S3: QUOTED from Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352) 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide' (published 16 November 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12686656). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds management. S2 (AJGP 2025) is the Australian primary-care approach to hypertriglyceridaemia: © RACGP, free to read, so paraphrased and hash-anchored. S3 (Bajaj et al. 2025) is an FCS treatment review, CC BY, quoted; it was funded by Ionis Pharmaceuticals, the maker of olezarsen, and two authors are Ionis employees. No FCS management guideline was readable: the NLA 2025 expert review and the 2018 dietary recommendations (J Clin Lipidol) returned a bot challenge in Wave 5. The S1 claims are unchanged. Source text for S1: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (the Mouline FCS score). S1 Table 2 and S3 Table 2 have merged cells and S3 Table 1 a multi-row header, so they were not extracted.",
  "summary": {
-  "total": 34,
-  "pass": 27,
+  "total": 36,
+  "pass": 29,
   "fail": 0,
   "pass_paraphrase_anchored": 7
  },
@@ -102,6 +102,20 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "the expert panel recommends the use of clinical scores for the diagnosis of FCS. Strong expert consensus recommendation/statement (agreement: 100%). … Available pragmatic scores for the diagnosis of FCS, which rely mainly on clinical parameters (Tables 1 and 2), may assist in differentiating between FCS and multifactorial chylomicronemia syndrome (MCS)",
+   "locator": "Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism, 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The FCS (Mouline) score, S1 Table 1:** fasting triglycerides above 885 mg/dL on at least three consecutive measurements taken at least one month apart (+5), and above 1,770 mg/dL at least once (+1); any earlier triglyceride below 177 mg/dL (−5); no secondary factor, apart from pregnancy and ethinylestradiol use (+2); past pancreatitis (+1); unexplained recurrent abdominal pain (+1); no familial combined hyperlipidaemia (+1); triglycerides falling by less than 20% on lipid-lowering treatment (+1); symptom onset before 40 years (+1), before 20 (+2) or before 10 (+3).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 1] Criteria: Fasting TG levels >885 mg/dL on at least three consecutive measurements ( * ) Fasting TG levels >1,770 mg/dL at least once · Score: +5 +1 [Table 1 row 2] Criteria: Previous TG levels <177 mg/dL at least once · Score: -5 [Table 1 row 3] Criteria: Absence of secondary factors (†) (except for pregnancy (‡) and use of ethinylestradiol) · Score: +2 [Table 1 row 4] Criteria: History of pancreatitis · Score: +1 [Table 1 row 5] Criteria: Unexplained recurrent abdominal pain · Score: +1 [Table 1 row 6] Criteria: No history of familial combined hyperlipidemia · Score: +1 [Table 1 row 7] Criteria: No response (TG levels decreased by <20%) to lipid-lowering treatment · Score: +1 [Table 1 row 8] Criteria: Age at symptom onset <40 years <20 years <10 years · Score: +1 +2 +3 … ( * ) Measurements performed at least one month apart.",
+   "locator": "Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism, 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Reading the Mouline score:** 10 or more makes FCS very likely, 9 or less unlikely and 8 or less very unlikely. Secondary factors are alcohol, diabetes, metabolic syndrome, hypothyroidism, corticosteroid treatment and other drugs. A diagnosis made in pregnancy needs a second test after delivery.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 9] Criteria: Score ≥10: FCS is very likely Score ≤9: FCS is unlikely · Score: Score ≤8: FCS is very unlikely … (†) Alcohol, diabetes, metabolic syndrome, hypothyroidism, corticotherapy, and the use of other drugs. (‡) If the diagnosis is made during pregnancy, a second test will be required to confirm the diagnosis postpartum.",
    "locator": "Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism, 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/, retrieved 2026-09-23"
   },
   {

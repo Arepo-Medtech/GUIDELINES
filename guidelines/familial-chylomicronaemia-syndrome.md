@@ -1,9 +1,9 @@
 # Familial chylomicronaemia syndrome (hyperlipoproteinaemia type 1): diagnosis and management
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspecting and confirming familial chylomicronaemia syndrome (FCS; PBS 'hyperlipoproteinaemia type 1') in children and adults, and telling it apart from multifactorial chylomicronaemia (S1); the very-low-fat diet, MCT, triglyceride-lowering and APOC3-targeted drugs, acute pancreatitis and monitoring (S2, S3). Cardiovascular lipid management: see `cardiovascular-disease-risk`; children with high cholesterol: `hypercholesterolaemia-children`.
 
-> ✅ **COMPILED FROM 3 SOURCES.** 34 claims; **58 fragments or anchors re-checkable by machine; 1 doses.** **S1** Latin American lipid and endocrine societies (Delphi panel) (2025; international): 16 claims, quoted · **S2** Lan NSR (November 2025; AU): 7 claims, paraphrased, hash-anchored · **S3** Bajaj A (published 16 November 2025; international): 11 claims, quoted
+> ✅ **COMPILED FROM 3 SOURCES.** 36 claims; **62 fragments or anchors re-checkable by machine; 1 doses.** **S1** Latin American lipid and endocrine societies (Delphi panel) (2025; international): 18 claims, quoted · **S2** Lan NSR (November 2025; AU): 7 claims, paraphrased, hash-anchored · **S3** Bajaj A (published 16 November 2025; international): 11 claims, quoted
 
 > ⚠️ International guideline (Latin American multi-society Delphi consensus, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -24,6 +24,8 @@
 ## Clinical diagnosis
 
 - **Use a clinical score** to support the diagnosis and to separate FCS from multifactorial chylomicronaemia (MCS). (100% agreement) [S1]
+- **The FCS (Mouline) score, S1 Table 1:** fasting triglycerides above 885 mg/dL on at least three consecutive measurements taken at least one month apart (+5), and above 1,770 mg/dL at least once (+1); any earlier triglyceride below 177 mg/dL (−5); no secondary factor, apart from pregnancy and ethinylestradiol use (+2); past pancreatitis (+1); unexplained recurrent abdominal pain (+1); no familial combined hyperlipidaemia (+1); triglycerides falling by less than 20% on lipid-lowering treatment (+1); symptom onset before 40 years (+1), before 20 (+2) or before 10 (+3). [S1]
+- ⚠️ **Reading the Mouline score:** 10 or more makes FCS very likely, 9 or less unlikely and 8 or less very unlikely. Secondary factors are alcohol, diabetes, metabolic syndrome, hypothyroidism, corticosteroid treatment and other drugs. A diagnosis made in pregnancy needs a second test after delivery. [S1]
 - **Features that point to FCS:** no secondary cause of severe hypertriglyceridaemia; past pancreatitis; no response to standard treatment; recurrent unexplained abdominal pain; onset in childhood, adolescence or young adulthood. [S1]
 - **Typical lipid profile:** normal or low LDL cholesterol, low HDL cholesterol, a triglyceride-to-total-cholesterol ratio above 5, and low-to-normal apoB. Diabetes appearing after the lipid diagnosis also fits (75% agreement). [S1]
 - **Body weight does not rule it out:** a normal BMI may be a clue, but FCS occurs in normal-weight and overweight people. [S1]
@@ -88,8 +90,8 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Management now rests on two reviews, not a guideline** (S2 Australian primary care, S3 industry-funded FCS review). The NLA 2025 FCS expert review (J Clin Lipidol) was free to read but returned a 403 bot challenge; check it when readable. | `input_unavailable` |
 | 2 | **Sources disagree on standard drugs:** S2 (for severe hypertriglyceridaemia generally) recommends fibrates and allows prescription omega-3 to cut pancreatitis risk; S3 (FCS specifically) says statins, fibrates and omega-3 are unlikely to help because LPL is absent. Both are shown. | `observation` |
 | 3 | **Olezarsen in Australia:** neither source states its TGA or PBS status. S2 (Australian, late 2025) still calls APOC3-targeted therapy investigational; the PBS row lists MCT products only. | `observation` |
-| 4 | **Olezarsen monitoring table** (S3 Table 2) was stripped with the tables. | `input_unavailable` |
-| 5 | **The clinical scores** (FCS score and others, Tables 1 and 2) were stripped with the tables and are not stated here. | `input_unavailable` |
+| 4 | **Olezarsen monitoring table** (S3 Table 2) has merged cells and was not extracted by the 2026-09-24 table pass, so it is still a gap. | `input_unavailable` |
+| 5 | **The clinical scores:** S1 Table 1 (the Mouline FCS score) is now shown. S1 Table 2 (the other scores) has merged cells and was not extracted, so it is still not stated here. | `input_unavailable` |
 | 6 | **Units:** S1 gives triglycerides in mg/dL (885 mg/dL is about 10 mmol/L) and S3 also uses mg/dL; S2, the Australian source, uses mmol/L (severe at 5.6 or more; very-low-fat diet above 10). | `observation` |
 | 7 | **Regional context:** a Latin American panel. Its advice on access to genetic and LPL-activity testing reflects that region; in Australia, testing is through clinical genetics and lipid services. | `observation` |
 | 8 | **Licence:** CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |

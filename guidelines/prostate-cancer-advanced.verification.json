@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/prostate-cancer-advanced.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490 'Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023' (published 16 April 2024), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at licence statement printed on page 1 of the article PDF). S2: PARAPHRASED AND HASH-ANCHORED from Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150) 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice' (published 18 January 2025), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12206285). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the APAC APCCC 2023 claims (S1) unchanged and adds Australian practical guidance on BRCA testing in mCRPC (S2, PMC12206285): Medicare-funded test pathways, tissue handling, germline testing and consent, ctDNA, and olaparib access. S2 is a narrative practical-guidance review; its medical writing was funded by AstraZeneca (which markets olaparib).",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Chiong E, Murphy DG, ... Davis ID, for ANZUP Cancer Trials Group (APAC APCCC 2023), Asia-Pacific Journal of Clinical Oncology 2024;20:481-490 'Management of advanced prostate cancer in the Asia-Pacific region: Summary of the Asia-Pacific Advanced Prostate Cancer Consensus Conference 2023' (published 16 April 2024), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at licence statement printed on page 1 of the article PDF). S2: PARAPHRASED AND HASH-ANCHORED from Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150) 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice' (published 18 January 2025), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12206285). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the APAC APCCC 2023 claims (S1) unchanged and adds Australian practical guidance on BRCA testing in mCRPC (S2, PMC12206285): Medicare-funded test pathways, tissue handling, germline testing and consent, ctDNA, and olaparib access. S2 is a narrative practical-guidance review; its medical writing was funded by AstraZeneca (which markets olaparib). Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 2 (international guidelines on genetic testing and treatment) and Table 3 (Medicare-subsidised BRCA tests). S2 Table 1 (PARP-inhibitor trials; ragged rows) and Tables 4 and 5 (testing workflow; variant classification; merged cells) were not extracted.",
  "summary": {
-  "total": 31,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 31
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -283,6 +283,32 @@
      "h": "6f01fc2cc7b54775",
      "n": 1154,
      "p": "In Austr"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Limits on the Medicare BRCA items (S2 table):** each needs a request from a specialist or consultant physician. Item 73303 (tumour test, with follow-on germline characterisation if inconclusive) and item 73302 (germline confirmation, including copy number variants, after a positive tumour result, for someone not already tested under items 73295, 73296 or 73297) can each be claimed once per primary tumour diagnosis; item 73304 (germline test when tumour testing is not feasible) once in a lifetime.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7de730dc027b299c",
+     "n": 1607,
+     "p": "[TABLE 3"
+    }
+   ],
+   "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What international guidelines advise (S2 table):** AUA/SUO, germline and somatic testing for DNA-repair defects, MSI status and tumour mutational burden, then a PARP inhibitor for HRR-mutated mCRPC after enzalutamide or abiraterone and/or a taxane, with platinum chemotherapy if a PARP inhibitor cannot be used or obtained; NCCN 2023, tumour and germline testing of BRCA1, BRCA2, ATM, PALB2 and FANCA; EAU 2023, tumour and germline testing of BRCA1, BRCA2, ATM and mismatch-repair genes, and a PARP inhibitor for previously treated mCRPC with a relevant DNA-repair mutation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c209671ef2efa643",
+     "n": 1775,
+     "p": "[TABLE 2"
     }
    ],
    "locator": "Azad A, Gurney H, Campbell A, Goh JC, Rathi V, Asia-Pacific Journal of Clinical Oncology 21(4):345 (doi 10.1111/ajco.14150), 'BRCA Mutation Testing in Men With Metastatic Castration-Resistant Prostate Cancer: Practical Guidance for Australian Clinical Practice', published 18 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12206285/, retrieved 2026-09-24"

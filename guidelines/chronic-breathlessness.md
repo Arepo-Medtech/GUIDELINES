@@ -1,9 +1,9 @@
 # Chronic breathlessness in advanced illness
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising, assessing and treating breathlessness (dyspnoea) that persists despite treatment of the underlying disease in advanced illness (cancer, COPD, heart failure and others): non-drug measures, opioids (morphine), benzodiazepines, corticosteroids, oxygen, equity and care settings, and carers. The source gives no doses. Breathlessness in the terminal phase: see `palliative-care-terminal-phase-medicines`. Disease-specific care: see `copd`, `copd-clinical-care-standard`, `motor-neurone-disease`, `idiopathic-pulmonary-fibrosis`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **42 fragments or anchors re-checkable by machine; 3 doses.** **S1** CareSearch (updated 13 April 2026; AU): 16 claims, paraphrased, hash-anchored · **S2** European Society for Medical Oncology (published 10 December 2020; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **60 fragments or anchors re-checkable by machine; 3 doses.** **S1** CareSearch (updated 13 April 2026; AU): 16 claims, paraphrased, hash-anchored · **S2** European Society for Medical Oncology (published 10 December 2020; international): 18 claims, paraphrased, hash-anchored
 
 > ℹ️ **S1 is an Australian evidence summary, not a formal guideline, and written for palliative care; it gives no morphine dose or formulation.** S2 (ESMO 2020) is a graded society guideline for breathlessness in cancer, drawing also on COPD trials: the definition, graded recommendations (level I–V, grade A–D) and morphine doses, including the Australian TGA licence, rest on S2. The PBS *Chronic Breathlessness* listing is for morphine only.
 
@@ -23,6 +23,15 @@
 - ⚠️ **Oxygen saturation and respiratory rate often do not match how breathless the patient feels;** people with advanced cancer can be severely breathless with normal saturation. [S1]
 - **In dementia or cognitive impairment, look for non-verbal signs** (agitation, laboured breathing); the Respiratory Distress Observation Scale can help. [S1]
 - **Screen every patient at each inpatient and outpatient visit (III, B)** with a single-dimension intensity scale of your choice, and ask which activities they have reduced or given up. Patients who avoid exertion often say they are not short of breath, so the symptom goes unseen. [S2]
+
+## Treat what can be reversed (S2 Table 1)
+
+- **Look for and treat any reversible condition adding to the breathlessness (II, A)** before or alongside symptom measures; ESMO tabulates the usual contributors and their management. [S2]
+- **Symptomatic anaemia:** consider a transfusion when haemoglobin is below 70–80 g/L, aiming to hold it above that level. [S2]
+- **Malignant pleural effusion:** with under 3 months to live, a simple thoracentesis; with a longer outlook, either an indwelling tunnelled catheter or chemical pleurodesis is reasonable. **Malignant ascites:** paracentesis, with or without a drain left in. **Pericardial effusion or tamponade:** pericardiocentesis, or pericardiectomy with or without a window. [S2]
+- **Central airway obstruction:** endobronchial treatment for a proximal lesion (bronchoscopic debridement, tumour ablation, a stent); radiotherapy for a distal one. [S2]
+- ⚠️ **Lung toxicity from chemotherapy or immunotherapy:** stop the drug and consider a corticosteroid; corticosteroids are also an option for radiation pneumonitis or fibrosis. [S2]
+- **Other contributors:** anticoagulate a pulmonary embolism; give anti-infectives for pneumonia; optimise COPD, asthma or heart failure medically; treat the cause of a metabolic acidosis; for superior vena cava obstruction or lymphangitic spread, treat the cancer, with corticosteroids an anecdotal option; refer cachexia to palliative care, dietetics or physiotherapy. [S2]
 
 ## Non-drug measures first
 

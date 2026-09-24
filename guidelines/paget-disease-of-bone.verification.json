@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/paget-disease-of-bone.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline' (published 25 February 2019 (vol 34, issue 4)), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6522384). S2: PARAPHRASED AND HASH-ANCHORED from Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921) 'Paget disease of bone - an update' (March 2012), 9 claims; LICENCE: © The Royal Australian College of General Practitioners (free to read; no open licence) (read at the racgp.org.au article page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. Edition 2.0 adds S2, an Australian clinical review (Australian Family Physician 2012, © RACGP, free to read), paraphrased and hash-anchored from the racgp.org.au HTML with tags stripped; its Table 3 (indications and doses) survived as text. It is not a guideline and predates S1. The Endocrine Society 2014 guideline (CC BY-NC-ND) was tried and returned a bot challenge at academic.oup.com. No Australian Paget guideline was found. The S1 claims are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline' (published 25 February 2019 (vol 34, issue 4)), 29 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6522384). S2: PARAPHRASED AND HASH-ANCHORED from Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921) 'Paget disease of bone - an update' (March 2012), 9 claims; LICENCE: © The Royal Australian College of General Practitioners (free to read; no open licence) (read at the racgp.org.au article page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. Edition 2.0 adds S2, an Australian clinical review (Australian Family Physician 2012, © RACGP, free to read), paraphrased and hash-anchored from the racgp.org.au HTML with tags stripped; its Table 3 (indications and doses) survived as text. It is not a guideline and predates S1. The Endocrine Society 2014 guideline (CC BY-NC-ND) was tried and returned a bot challenge at academic.oup.com. No Australian Paget guideline was found. The S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 1–3, 6, 8–16 and 20–27 (recommendation wording, X-ray sites and features, second-line markers, conditional and not-recommended uses of bisphosphonates, calcitonin, denosumab, marker prediction, fracture and joint surgery). S1 Tables 28 and 29 were not extracted.",
  "summary": {
-  "total": 28,
-  "pass": 19,
+  "total": 38,
+  "pass": 29,
   "fail": 0,
   "pass_paraphrase_anchored": 9
  },
@@ -54,6 +54,13 @@
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {
+   "claim": "**If total ALP is normal but suspicion of active disease is high, bone-specific ALP, PINP or urinary NTX may be considered** (S1 Table 6; evidence very low).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 6 row 9] Risk‐benefit balance: Serum total ALP is recommended as a first‐line biochemical screening test in combination with liver function tests in screening for the presence of PDB. If total ALP values are normal and clinical suspicion of metabolically active PDB is high, measurement of BALP, PINP, or uNTX may be considered to screen for metabolically active disease. … [Table 6 row 2] Risk‐benefit balance: Quality of evidence [Table 6 row 3] Risk‐benefit balance: Very low",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Use a radionuclide bone scan as well as targeted X-rays** to fully and accurately map metabolically active disease.",
    "source": "S1",
    "verdict": "pass",
@@ -65,6 +72,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Individually, these features are not specific, but when they occur in combination, they are usually diagnostic.",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Initial X-rays (S1 Table 3): abdomen, both tibias, skull and facial bones,** which detect about 93% of Pagetic lesions against 79% for an abdominal film alone (evidence very low). Features to look for (S1 Table 2): osteolytic areas, cortical and trabecular thickening, loss of the cortex–medulla distinction, osteosclerosis, bone expansion and deformity.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 1] Risk‐benefit balance: Plain X‐rays targeted to the abdomen, skull, and facial bones and both tibias are likely to detect 93% of PDB bone lesions compared with 79% for an abdominal X‐ray. … [Table 3 row 9] Risk‐benefit balance: Plain X‐rays of the abdomen, tibias, skull, and facial bones are recommended as an initial diagnostic screening test in patients suspected to have PDB on biochemical or clinical grounds. … [Table 3 row 2] Risk‐benefit balance: Quality of evidence [Table 3 row 3] Risk‐benefit balance: Very low … [Table 2 row 1] Osteolytic areas: Cortical thickening [Table 2 row 2] Osteolytic areas: Loss of distinction between cortex and medulla [Table 2 row 3] Osteolytic areas: Trabecular thickening [Table 2 row 4] Osteolytic areas: Osteosclerosis [Table 2 row 5] Osteolytic areas: Bone expansion [Table 2 row 6] Osteolytic areas: Bone deformity",
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {
@@ -156,6 +170,13 @@
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Asymptomatic, metabolically active disease (S1 Table 15):** a bisphosphonate may be considered to suppress activity, but the clinical benefit is uncertain (a conditional recommendation, high-quality evidence for the effect on bone turnover). Nitrogen-containing bisphosphonates work better than non-nitrogen ones, and zoledronic acid is the most effective.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 15 row 1] Risk‐benefit balance: Bisphosphonates are highly effective at reducing metabolic activity in PDB as reflected by concentrations of total ALP and other biochemical markers of bone turnover. Improvements in lytic lesions have also been reported in short‐term studies. The clinical benefit of giving bisphosphonates in asymptomatic patients with the primary aim of supressing metabolic activity is unknown. … [Table 15 row 2] Risk‐benefit balance: Quality of evidence [Table 15 row 3] Risk‐benefit balance: High … [Table 15 row 9] Risk‐benefit balance: Bisphosphonate therapy may be considered to suppress metabolic activity in PDB, but the clinical benefit is uncertain. Within this class of drugs, nitrogen‐containing bisphosphonates are more effective than non‐nitrogen‐containing bisphosphonates, and within the bisphosphonates, zoledronic acid is most efficacious. … [Table 1 row 3] Recommendation: Conditional recommendation · Language: The intervention or investigation may be considered .",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**No trial or observational study shows that treating asymptomatic, metabolically active disease prevents complications.**",
    "source": "S1",
    "verdict": "pass",
@@ -170,12 +191,40 @@
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Calcitonin may be considered for short-term treatment of bone pain when bisphosphonates are contraindicated** (S1 Table 20; evidence very low). It lowers pain and ALP, but costs much more than bisphosphonates and long-term use has been linked to cancer.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 20 row 1] Risk‐benefit balance: Calcitonin improves bone pain in PDB and decreases total ALP concentrations. Long‐term administration of calcitonin has been associated with an increased risk of cancer. … [Table 20 row 2] Risk‐benefit balance: Quality of evidence [Table 20 row 3] Risk‐benefit balance: Very low … [Table 20 row 7] Risk‐benefit balance: Calcitonin is considerably more expensive than bisphosphonates. … [Table 20 row 9] Risk‐benefit balance: Calcitonin may be considered for the short‐term treatment of bone pain in PDB where bisphosphonates are contraindicated.",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Denosumab 60 mg subcutaneously every 6 months rests only on two case reports,** in patients who could not take bisphosphonates; ALP and bone pain improved.",
    "source": "S1",
    "verdict": "pass",
    "source_text": "There have been two case reports in the use of denosumab 60 mg by subcutaneous injection every 6 months in PDB in patients where bisphosphonates were poorly tolerated or contraindicated. In both cases, denosumab resulted in a decrease in total ALP concentrations and an improvement of bone pain.",
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Denosumab is not recommended for Paget disease itself,** but may be considered for a giant cell tumour complicating it when the tumour cannot be resected (S1 Table 21; evidence very low).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 21 row 9] Risk‐benefit balance: Denosumab may be considered for the treatment of GCT complicating PDB when the tumor is nonresectable. There is insufficient evidence to support the use of denosumab in the treatment of PDB, and it is not recommended for this indication. … [Table 21 row 2] Risk‐benefit balance: Quality of evidence [Table 21 row 3] Risk‐benefit balance: Very low",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Neurological dysfunction (such as spinal cord involvement):** a trial of calcitonin may be considered as part of treatment, and a bisphosphonate may also be considered though few studies support it (S1 Table 14; evidence very low).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 14 row 1] Risk‐benefit balance: Most experience in the medical treatment of spinal cord dysfunction in PDB comes from case series of patients treated with calcitonin, and clinical benefit from treatment has been reported in a proportion of treated patients. Similar benefit has been noted in a small number of patients treated with bisphosphonates. … [Table 14 row 2] Risk‐benefit balance: Quality of evidence [Table 14 row 3] Risk‐benefit balance: Very low … [Table 14 row 9] Risk‐benefit balance: A trial of calcitonin treatment may be considered as part of the treatment package in patients with PDB who have evidence of neurological dysfunction. Bisphosphonate treatment may also be considered, although there are few studies to support the use of bisphosphonates in this situation.",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Not recommended, for lack of evidence (S1 Tables 8–13 and 16; all very low quality):** bisphosphonates to improve quality of life, to prevent fractures, to slow osteoarthritis or hearing loss, to reduce blood loss at elective orthopaedic surgery, to prevent or treat deformity, or to prevent neoplastic transformation. S1 words insufficient evidence as 'not recommended'.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 8 row 9] Risk‐benefit balance: There is insufficient evidence that bisphosphonate therapy improves quality of life to a clinically meaningful extent in PDB, and they are not recommended for this indication. … [Table 9 row 9] Risk‐benefit balance: There is insufficient evidence that bisphosphonate therapy prevents fractures in PDB, and they are not recommended for this indication. … [Table 10 row 9] Risk‐benefit balance: There is insufficient evidence that bisphosphonate therapy prevents progression of osteoarthritis in PDB, and they are not recommended for this indication. … [Table 11 row 9] Risk‐benefit balance: There is insufficient evidence that bisphosphonate therapy prevents progression of hearing loss in PDB, and they are not recommended for this indication. … [Table 12 row 9] Risk‐benefit balance: There is insufficient evidence that bisphosphonate therapy reduces perioperative blood loss during elective orthopedic surgery, and they are not recommended for this indication. … [Table 13 row 9] Risk‐benefit balance: There is insufficient evidence that bisphosphonates can prevent or treat bone deformity in PDB, and they are not recommended for this indication. … [Table 16 row 9] Risk‐benefit balance: There is insufficient evidence to show that bisphosphonates prevent neoplastic transformation in PDB, and they are not recommended for this indication. … [Table 1 row 4] Recommendation: Insufficient evidence · Language: The intervention or investigation is not recommended . … [Table 8 row 2] Risk‐benefit balance: Quality of evidence [Table 8 row 3] Risk‐benefit balance: Very low … [Table 9 row 2] Risk‐benefit balance: Quality of evidence [Table 9 row 3] Risk‐benefit balance: Very low … [Table 10 row 2] Risk‐benefit balance: Quality of evidence [Table 10 row 3] Risk‐benefit balance: Very low … [Table 11 row 2] Risk‐benefit balance: Quality of evidence [Table 11 row 3] Risk‐benefit balance: Very low … [Table 12 row 2] Risk‐benefit balance: Quality of evidence [Table 12 row 3] Risk‐benefit balance: Very low … [Table 13 row 2] Risk‐benefit balance: Quality of evidence [Table 13 row 3] Risk‐benefit balance: Very low … [Table 16 row 2] Risk‐benefit balance: Quality of evidence [Table 16 row 3] Risk‐benefit balance: Very low",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {
    "claim": "🇦🇺 **Who to treat (S2):** symptomatic disease (PBS-subsidised); a trial of therapy when pain localises to pagetic bone. S2 also argues for treating **asymptomatic** disease in the long bones, vertebrae or skull base, and younger patients with joint involvement such as the hip, to prevent complications. ⚠️ S1 found no evidence that this prevents complications.",
@@ -291,6 +340,13 @@
    "locator": "Britton C, Walsh J, Australian Family Physician 41(3):100-103 (PMID 22396921), 'Paget disease of bone - an update', March 2012, https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone, retrieved 2026-09-24"
   },
   {
+   "claim": "**Bone markers after treatment (S1 Tables 22–23; evidence very low):** measure PINP to predict lesion extent on scintigraphy after a bisphosphonate (it outperformed total ALP, but is dearer and less available); do not use bone turnover markers to predict whether bone pain will respond.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 22 row 7] Risk‐benefit balance: The strongest predictor was PINP, but the confidence intervals overlapped with sβCTX, uNTX, and sNTX. These markers performed better than total ALP but are more expensive and not widely available. … [Table 22 row 9] Risk‐benefit balance: Measurement of PINP is recommended to predict lesion extent, as defined by scintigraphy, after bisphosphonate therapy. … [Table 23 row 9] Risk‐benefit balance: Measurement of biochemical markers of bone turnover are not recommended a means of predicting the response of bone pain to osteoclast inhibitors in PDB. … [Table 22 row 2] Risk‐benefit balance: Quality of evidence [Table 22 row 3] Risk‐benefit balance: Very low … [Table 23 row 2] Risk‐benefit balance: Quality of evidence [Table 23 row 3] Risk‐benefit balance: Very low",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
    "claim": "🇦🇺 **Do not neglect non-drug measures:** shoe raises or orthotics for leg shortening from deformity can help pain and gait. (S2)",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -308,6 +364,20 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "5) Total hip or knee replacements are recommended for patients with PDB who develop osteoarthritis in whom medical treatment is inadequate. There is insufficient information to recommend one type of surgical approach over another.",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Joint replacement in Paget disease (S1 Table 25):** results are good in many patients, with more data for hip than knee; heterotopic calcification is common after hip replacement and aseptic loosening may be slightly more likely. **Osteotomy** may be considered for osteoarthritis when medical treatment is inadequate, and **spinal surgery** for spinal stenosis or cord compression (S1 Tables 26–27; evidence very low).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 25 row 1] Risk‐benefit balance: Total knee replacement (TKR) and hip replacement (THR) for osteoarthritis can be performed successfully in many patients with PDB with good results, although more data are available for THR. Heterotopic calcification occurs in a high proportion of patients undergoing THR and the risk of aseptic loosening may be slightly higher than in non‐Pagetic patients. The benefit of surgery is likely to outweigh the risks in most cases. … [Table 26 row 9] Risk‐benefit balance: Osteotomy may be considered for patients with PDB who develop osteoarthritis in whom medical treatment is inadequate, but there is insufficient evidence to make a recommendation on when this technique should be used as opposed to other surgical procedures such as arthroplasty. … [Table 27 row 9] Risk‐benefit balance: Spine surgery may be considered for patients with PDB who develop spinal stenosis and spinal cord compression. … [Table 25 row 2] Risk‐benefit balance: Quality of evidence [Table 25 row 3] Risk‐benefit balance: Very low … [Table 26 row 2] Risk‐benefit balance: Quality of evidence [Table 26 row 3] Risk‐benefit balance: Very low … [Table 27 row 2] Risk‐benefit balance: Quality of evidence [Table 27 row 3] Risk‐benefit balance: Very low",
+   "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fix fractures through Pagetic bone surgically** (most often femur and tibia); outcomes in femoral neck and subtrochanteric fractures are poor, and no technique is favoured (S1 Table 24; evidence very low).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 24 row 1] Risk‐benefit balance: The most commonly affected sites for fracture through Pagetic bone are the femur and tibia. Surgery may be technically difficult. Healing occurs normally in many patients, but the clinical outcome in proximal femoral fractures is poor. … [Table 24 row 9] Risk‐benefit balance: Surgery is recommended for fixation of fractures through affected bone in PDB, but the clinical outcome in femoral neck and subtrochanteric fractures is poor. There is insufficient information to recommend one type of surgical treatment over another. … [Table 24 row 2] Risk‐benefit balance: Quality of evidence [Table 24 row 3] Risk‐benefit balance: Very low",
    "locator": "Paget's Association (UK)-led Guideline Development Group (Ralston SH et al.), Journal of Bone and Mineral Research, 'Diagnosis and Management of Paget's Disease of Bone in Adults: A Clinical Guideline', published 25 February 2019 (vol 34, issue 4), https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/, retrieved 2026-09-23"
   },
   {

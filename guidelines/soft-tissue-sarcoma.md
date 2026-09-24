@@ -1,9 +1,9 @@
 # Soft tissue sarcoma in adults (limbs and trunk; systemic therapy for advanced disease)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition and referral, biopsy and staging, surgery, radiotherapy, peri-operative chemotherapy, follow-up and systemic therapy for advanced disease in adults with soft tissue sarcoma, mainly of the limbs and trunk. GIST: see `gastrointestinal-stromal-tumour`. Retroperitoneal, gynaecological, paediatric and bone sarcomas are covered only in passing by the source. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **63 fragments or anchors re-checkable by machine; 7 doses.** **S1** British Sarcoma Group (published 11 May 2024; international): 24 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 44 claims; **73 fragments or anchors re-checkable by machine; 7 doses.** **S1** British Sarcoma Group (published 11 May 2024; international): 34 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (British Sarcoma Group, 2024) for S1. Australian practice follows the PBS listings below and may differ.
 
@@ -35,11 +35,13 @@
 - **Radiotherapy doses:** 60-66 Gy post-operatively, or 50-50.4 Gy pre-operatively, in 1.8-2 Gy fractions, with surgery about 4-8 weeks after pre-operative radiotherapy. Hypofractionated 25-30 Gy in five fractions pre-operatively looks equally effective. [S1]
 - **Peri-operative chemotherapy is for high-risk and chemo-sensitive disease.** Extremity or trunk sarcomas with predicted 10-year OS under 51% roughly halved their risk of recurrence or death with adjuvant chemotherapy (HR 0.46). [S1]
 - **Neoadjuvant anthracycline plus ifosfamide:** in high-risk patients (predicted 5-year survival under 60%), 3 cycles gave 5-year OS of 0.66 versus 0.55 for histotype-tailored chemotherapy. No trial has compared neoadjuvant chemotherapy with immediate surgery. [S1]
+- **When anatomy rules out a wide excision,** a planned marginal or microscopically positive margin against a critical structure, plus radiotherapy for intermediate- and high-grade tumours, can control the tumour while keeping function; occasionally amputation is the only way to adequate margins (IV,B). For borderline resectable tumours, consider pre-operative chemotherapy and/or radiotherapy, depending on histology (IV,A). [S1]
 
 ## Follow-up
 
 - **Each visit:** history, examination for local recurrence (MRI or CT if suspicious or hard to examine), chest X-ray (CT if abnormal), and checks for late effects. [S1]
 - **Intermediate or high grade:** every 3-4 months for the first 2-3 years, twice yearly to year 5, then yearly for at least 8 to 10 years. **Low grade:** every 6 months for 5 years, then yearly for at least 10 years. [S1]
+- **S1's key-recommendation box words the schedule slightly differently:** intermediate or high grade every 3-4 months for the first 2-3 years, twice a year up to 5 years, then yearly for a total of 8 to 10 years; low grade every 6 months for 5 years, then yearly, and some patients may be discharged to patient-initiated follow-up (PIFU). [S1]
 
 ## Advanced disease
 
@@ -51,6 +53,17 @@
 - **Pazopanib** has evidence in metastatic STS other than liposarcoma, improving PFS by 3 months over placebo, with no subtype standing out. [S1]
 - **Lung metastases:** base metastasectomy on disease-free interval, other disease, number and growth. Without a meaningful disease-free interval, rescan at three months and operate if no new lesions appear. [S1]
 - **Poor performance status or major comorbidity:** symptom control alone is often best; involve community palliative care early in all advanced disease. [S1]
+- **Resect local recurrence where feasible. For oligometastatic disease, consider surgery, radiotherapy or ablation** (RFA, SABR, cryotherapy, microwave, electrochemotherapy) case by case, though data on survival benefit are limited (III,B). [S1]
+- **Where a subtype does not respond to chemotherapy, as with alveolar soft part sarcoma, use a suitable targeted drug first line** (III,A); NTRK inhibitors suit tumours with an NTRK fusion. [S1]
+- **Targeted options for subtypes that respond poorly to chemotherapy (S1 table):** extraskeletal myxoid chondrosarcoma, pazopanib or sunitinib; solitary fibrous tumour, an anti-angiogenic TKI; desmoid fibromatosis, sorafenib, pazopanib or nirogacestat; alveolar soft part sarcoma, an anti-angiogenic TKI, atezolizumab, or a TKI with a checkpoint inhibitor; epithelioid haemangioendothelioma, an mTOR inhibitor such as sirolimus, or a TKI; inflammatory myofibroblastic tumour, an ALK inhibitor; epithelioid sarcoma, tazemetostat; PEComa, sirolimus or nab-sirolimus; undifferentiated pleomorphic sarcoma and radiation-associated angiosarcoma, a checkpoint inhibitor. [S1]
+
+## Other sites and subtypes (S1 key recommendations)
+
+- **Retroperitoneal sarcoma:** make a pre-treatment diagnosis by image-guided percutaneous core biopsy (III,A), and plan the extent of resection and any neoadjuvant treatment by histological subtype (III,A). The best chance of cure is at first presentation: en bloc, macroscopically complete resection of the tumour with involved or adjacent organs, in a high-volume sarcoma centre (III,A). [S1]
+- **Uterine sarcoma:** total abdominal hysterectomy for all localised disease, without routine lymphadenectomy (III,B); for endometrial stromal sarcoma add bilateral oophorectomy, with no post-operative HRT and no adjuvant oestrogen deprivation (III,B). Adjuvant pelvic radiotherapy has not improved survival and is not routine in FIGO stage I–II disease, though selected high-risk cases may have it (IV,C). Advanced leiomyosarcoma and undifferentiated endometrial sarcoma take the same drugs as other STS, though ifosfamide may work less well in leiomyosarcoma (III,C); advanced endometrial stromal sarcoma can be treated with an aromatase inhibitor or progestogen, but not tamoxifen (III,C). [S1]
+- **Breast sarcoma:** manage jointly by breast and sarcoma MDTs; sarcomatous change within a metaplastic carcinoma is treated as epithelial breast cancer. For large aggressive sarcomas or malignant phyllodes tumours, delay reconstruction rather than doing it at mastectomy, and consider post-operative radiotherapy for large or high-grade tumours with close or positive margins (III,B). Radiation-induced angiosarcoma relapses often, locally and distantly: it needs an experienced surgeon, wide margins (with resurfacing plastic surgery if needed), and induction chemotherapy when surgery would be too morbid or futile (IV,C). [S1]
+- **Atypical lipomatous tumour of the limbs** is indolent, recurs locally and hardly ever metastasises (IV). MRI cannot reliably tell it from a deep lipoma, so add a core biopsy for MDM2 amplification when in doubt (IV,B). Complete en bloc resection that preserves neurovascular structures, without chasing wide margins, gives lasting local control (IV,B). [S1]
+- **Desmoid fibromatosis:** consider FAP or Gardner syndrome; start with clinical and radiological surveillance (III,B), offer systemic treatment for symptomatic progression (III,B), and keep radiotherapy or ablation for critical sites (IV,C). **Tenosynovial giant cell tumour:** surgery alone for localised disease (its role in diffuse disease is less clear), radiotherapy only in very selected cases (IV,C), and a growing role for systemic therapy in diffuse symptomatic disease (I,B). [S1]
 
 ## Doxorubicin (eviQ)
 
@@ -86,13 +99,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Subtype-specific tables** (further staging by histology, follow-up schedules, targeted therapies by subtype) were stripped from the text and are not used. | `input_unavailable` |
-| 2 | **Drug doses and schedules** for doxorubicin, trabectedin, eribulin and pazopanib now come from S2 (eviQ 1554, 3474, 3462, 1602). Doses for doxorubicin with ifosfamide or dacarbazine, and gemcitabine with docetaxel, are in neither source used here. | `input_unavailable` |
-| 3 | **Trabectedin against dacarbazine:** S1 says trabectedin beat dacarbazine in leiomyosarcoma and liposarcoma; the trial S2 cites improved PFS but not overall survival (HR 0.93). Both are shown. | `observation` |
-| 4 | **Eribulin eligibility:** S1 describes authorisation for unresectable liposarcoma after anthracycline; S2 requires prior anthracycline and ifosfamide and names the liposarcoma subtypes. Check the PBS restriction. | `observation` |
-| 5 | **Kaposi sarcoma and DFSP** (PBS: pegylated liposomal doxorubicin; imatinib) get one line each in the source, not enough to author guidance. | `out_of_scope` |
-| 6 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
-| 7 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial users to seek permission and says its content should not be hosted on external sites. | `observation` |
+| 1 | **Subtype-specific tables** are now extracted (all 12 of S1's tables were clean) and used: follow-up, targeted therapy by subtype, and a new section for retroperitoneal, uterine and breast sarcoma, atypical lipomatous tumour, desmoid fibromatosis and TGCT. The skin-sarcoma box (DFSP, AFX, pleomorphic dermal sarcoma) is not carried over; DFSP has its own page. No table gave further staging by histology. | `input_unavailable` |
+| 2 | **Follow-up wording differs within S1:** its body text says yearly follow-up for at least 8 to 10 years (high grade) and at least 10 years (low grade); its key-recommendation box says a total of 8 to 10 years, and that some low-grade patients may be discharged to patient-initiated follow-up. Both are shown. | `observation` |
+| 3 | **Drug doses and schedules** for doxorubicin, trabectedin, eribulin and pazopanib now come from S2 (eviQ 1554, 3474, 3462, 1602). Doses for doxorubicin with ifosfamide or dacarbazine, and gemcitabine with docetaxel, are in neither source used here. | `input_unavailable` |
+| 4 | **Trabectedin against dacarbazine:** S1 says trabectedin beat dacarbazine in leiomyosarcoma and liposarcoma; the trial S2 cites improved PFS but not overall survival (HR 0.93). Both are shown. | `observation` |
+| 5 | **Eribulin eligibility:** S1 describes authorisation for unresectable liposarcoma after anthracycline; S2 requires prior anthracycline and ifosfamide and names the liposarcoma subtypes. Check the PBS restriction. | `observation` |
+| 6 | **Kaposi sarcoma and DFSP** (PBS: pegylated liposomal doxorubicin; imatinib) get one line each in the source, not enough to author guidance. | `out_of_scope` |
+| 7 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
+| 8 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial users to seek permission and says its content should not be hosted on external sites. | `observation` |
 
 ## Sources
 

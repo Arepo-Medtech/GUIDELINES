@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/dermatofibrosarcoma-protuberans.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Association of Dermato-Oncology (EADO), EDF, UEMS and EADV (Saiag P, et al.), European Journal of Cancer 2025;218:115265 'Diagnosis and treatment of dermatofibrosarcoma protuberans. European interdisciplinary guideline – update 2024' (published online 30 January 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at licence line in the publisher PDF (open-access copy from IRIS UNIMORE; the HAL copy was behind a bot challenge and was not used)). S2: QUOTED from Jozwik M, Bednarczuk K, Osierda Z, et al. (narrative review), Cancers (Basel) 2024;16(18):3124 (doi 10.3390/cancers16183124) 'Dermatofibrosarcoma Protuberans: An Updated Review of the Literature' (published 11 September 2024), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11430793). Verify each source separately: verify.py --source <file> --only-source S<n>. The guideline's own disclaimer also states (verbatim): 'This work is fully copyrighted. Unauthorized use outside the provisions of the copyright act, without written permission from the GPO of the EADO, is prohibited. This includes duplication, translation, microfilming, and the use and application of electronic systems, intranets, and the internet.' Recorded per the standing owner decision; the article's CC BY-NC-ND licence governs and the content is paraphrased. Edition 2.0 keeps every S1 claim unchanged and adds S2, a CC BY 2024 narrative review, quoted, for staging systems, margin-width data, imatinib and neoadjuvant outcomes, radiotherapy detail and prognosis. The file dermatofibrosarcoma-protuberans.layout.txt is a second extraction of S1 (same guideline), not a second source; no second open DFSP guideline was found in one Europe PMC search.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Association of Dermato-Oncology (EADO), EDF, UEMS and EADV (Saiag P, et al.), European Journal of Cancer 2025;218:115265 'Diagnosis and treatment of dermatofibrosarcoma protuberans. European interdisciplinary guideline – update 2024' (published online 30 January 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at licence line in the publisher PDF (open-access copy from IRIS UNIMORE; the HAL copy was behind a bot challenge and was not used)). S2: QUOTED from Jozwik M, Bednarczuk K, Osierda Z, et al. (narrative review), Cancers (Basel) 2024;16(18):3124 (doi 10.3390/cancers16183124) 'Dermatofibrosarcoma Protuberans: An Updated Review of the Literature' (published 11 September 2024), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11430793). Verify each source separately: verify.py --source <file> --only-source S<n>. The guideline's own disclaimer also states (verbatim): 'This work is fully copyrighted. Unauthorized use outside the provisions of the copyright act, without written permission from the GPO of the EADO, is prohibited. This includes duplication, translation, microfilming, and the use and application of electronic systems, intranets, and the internet.' Recorded per the standing owner decision; the article's CC BY-NC-ND licence governs and the content is paraphrased. Edition 2.0 keeps every S1 claim unchanged and adds S2, a CC BY 2024 narrative review, quoted, for staging systems, margin-width data, imatinib and neoadjuvant outcomes, radiotherapy detail and prognosis. The file dermatofibrosarcoma-protuberans.layout.txt is a second extraction of S1 (same guideline), not a second source; no second open DFSP guideline was found in one Europe PMC search. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (tumour site) and Table 2 (typical versus fibrosarcomatous DFSP). S1 is a PDF, so its tables were not re-extracted.",
  "summary": {
-  "total": 37,
-  "pass": 12,
+  "total": 39,
+  "pass": 14,
   "fail": 0,
   "pass_paraphrase_anchored": 25
  },
@@ -112,6 +112,20 @@
     }
    ],
    "locator": "European Association of Dermato-Oncology (EADO), EDF, UEMS and EADV (Saiag P, et al.), European Journal of Cancer 2025;218:115265, 'Diagnosis and treatment of dermatofibrosarcoma protuberans. European interdisciplinary guideline – update 2024', published online 30 January 2025, https://doi.org/10.1016/j.ejca.2025.115265, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Site in three published series (S2 table; n = 240, 368 and 115):** trunk 31–41%, upper limb 25–34%, lower limb 23–29%, and head or neck 14–15% where recorded.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1] Pattern of DFSP tumor site locations in the body. [Table 1 row 1] Number of Patients: n = 240 [] · Upper Extremity: 29% · Lower Extremity: 23% · Trunk: 31% · Head or Neck: 14% · Other Location: 2% … [Table 1 row 2] Number of Patients: n = 368 [] · Upper Extremity: 34% · Lower Extremity: 29% · Trunk: 37% · Head or Neck: - · Other Location: - … [Table 1 row 3] Number of Patients: n = 115 [] · Upper Extremity: 25% · Lower Extremity: 26% · Trunk: 41% · Head or Neck: 15% · Other Location: -",
+   "locator": "Jozwik M, Bednarczuk K, Osierda Z, et al. (narrative review), Cancers (Basel) 2024;16(18):3124 (doi 10.3390/cancers16183124), 'Dermatofibrosarcoma Protuberans: An Updated Review of the Literature', published 11 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11430793/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**How fibrosarcomatous change differs from typical DFSP (S2 table):** high grade (G3 in at least 5% of the mass) instead of G1–G2; high mitotic activity; CD34 often absent (always present in typical DFSP); increased p53; a herring-bone instead of storiform pattern; often quick growth of a larger, often painful mass; a shorter interval to recurrence; and distant metastases can occur, where typical DFSP never or very rarely spreads.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 2] Principal clinicopathologic differences between typical dermatofibrosarcoma protuberans (DFSP) and DFSP with fibrosarcomatous change. G1-well differentiated, G2-moderately differentiated, G3-poorly differentiated. … [Table 2 row 1] Feature: Histologic grade · Typical DFSP: Low to moderate (G1-G2) · DFSP with Fibrosarcomatous Change: High (G3 present in at least 5% of the mass) [Table 2 row 2] Feature: Mitotic activity · Typical DFSP: Absent to low · DFSP with Fibrosarcomatous Change: High [Table 2 row 3] Feature: CD34 positivity · Typical DFSP: Always present · DFSP with Fibrosarcomatous Change: Often absent [Table 2 row 4] Feature: p53 expression · Typical DFSP: Low-level · DFSP with Fibrosarcomatous Change: Increased [Table 2 row 5] Feature: Cellular arrangement · Typical DFSP: Storiform pattern · DFSP with Fibrosarcomatous Change: Herring-bone pattern [Table 2 row 6] Feature: Tumor behavior · Typical DFSP: Indolent growth of a small mass · DFSP with Fibrosarcomatous Change: Often quick growth of a larger mass [Table 2 row 7] Feature: Presence of pain · Typical DFSP: Rarely present · DFSP with Fibrosarcomatous Change: Often present [Table 2 row 8] Feature: Interval to recurrence · Typical DFSP: Longer · DFSP with Fibrosarcomatous Change: Shorter [Table 2 row 9] Feature: Distant metastases · Typical DFSP: Never or very rarely present · DFSP with Fibrosarcomatous Change: Can be present",
+   "locator": "Jozwik M, Bednarczuk K, Osierda Z, et al. (narrative review), Cancers (Basel) 2024;16(18):3124 (doi 10.3390/cancers16183124), 'Dermatofibrosarcoma Protuberans: An Updated Review of the Literature', published 11 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11430793/, retrieved 2026-09-24"
   },
   {
    "claim": "**Confirm on histology before extensive surgery.** (A)",

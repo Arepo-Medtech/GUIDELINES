@@ -1,9 +1,9 @@
 # Severe dry eye disease with keratitis: anti-inflammatory treatment and topical ciclosporin
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** specialist management of inflammation in moderate-to-severe dry eye disease in adults: grading severity, telling severe dry-eye keratitis from other keratitis, when to start topical ciclosporin, bridging with corticosteroids, monitoring, stopping and patient counselling. Lubricant choice, preservatives, eye-drop technique and general-practice care are in `dry-eye-and-topical-eye-drug-principles`; glaucoma drops and ocular surface disease in `glaucoma`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **43 fragments or anchors re-checkable by machine; 0 doses.** **S1** Messmer EM (online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481); international): 20 claims, paraphrased, hash-anchored · **S2** Aragona P (published 30 October 2022; international): 9 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **44 fragments or anchors re-checkable by machine; 0 doses.** **S1** Messmer EM (online 5 December 2022; issue 2023 (doi 10.1177/11206721221141481); international): 21 claims, paraphrased, hash-anchored · **S2** Aragona P (published 30 October 2022; international): 9 claims, quoted
 
 > ⚠️ International guideline (European dry eye disease expert panel, 2023). Australian practice follows the PBS listings below and may differ.
 
@@ -45,6 +45,7 @@
 
 ## Counsel for adherence
 
+- **Why patients stop ciclosporin (S1 Table 6):** intolerance (mainly burning and pain on instillation), no perceived benefit, the delay before it works, the need for long-term use, the doctor's own instruction, physical difficulty with drops, forgetting, and cost. Address each when counselling. [S1]
 - **Warn about stinging at instillation,** the commonest side effect; it is usually mild to moderate and few patients stop because of it. Systemic absorption is negligible. [S1]
 - ⚠️ **Tell patients the benefit is slow** (possibly several weeks), since people often stop once symptoms first ease or when nothing seems to happen. Storage: do not freeze, keep in the original pack away from light. [S1]
 - **Teach patients that dry eye is chronic and fluctuating, and prescribe a planned dosing schedule that fits their lifestyle** (97.1% agreement) rather than leaving treatment decisions to them. [S2]
@@ -79,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Ciclosporin dose and formulation** (the product the PBS lists, its strength and daily frequency) are not stated in the source text; its tables were stripped. | `input_unavailable` |
+| 1 | **Ciclosporin dose and formulation** (the product the PBS lists, its strength and daily frequency) are not stated in the source text, and its Tables 1–5 have merged cells or ragged rows and could not be extracted (pmc_text.py --append-tables, 2026-09-24), so they stay missing. Table 6 (reasons for stopping ciclosporin) is now covered. | `input_unavailable` |
 | 2 | **Preferred source skipped:** TFOS DEWS III Management and Therapy (2025, CC BY 4.0) could not be read. ScienceDirect, the AJO site and the Unpaywall PDF link all returned a bot challenge (HTTP 403), which was not bypassed; the Elsevier API returned metadata only. TFOS's own downloadable summary is © Alcon/TFOS and was not used. | `observation` |
 | 3 | **Surgical and device options** for severe dry eye (punctal plugs, autologous serum, scleral lenses) are outside this source. | `out_of_scope` |
 | 4 | **Industry support:** medical writing funded by Santen; several panel members report industry ties. | `observation` |

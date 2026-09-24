@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/alopecia-areata.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7) 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement' (published online 30 September 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633702). S2: PARAPHRASED AND HASH-ANCHORED from Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise' (published 6 August 2025), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633699). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the companion Australian eDelphi consensus (2025) on criteria for commencing and continuing subsidised JAK-inhibitor therapy, which edition 1.0 named in its Unresolved table but did not use. S1 claims and anchors are unchanged. Both sources are CC BY-NC-ND 4.0, so both are paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7) 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement' (published online 30 September 2025), 27 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633702). S2: PARAPHRASED AND HASH-ANCHORED from Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise' (published 6 August 2025), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12633699). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the companion Australian eDelphi consensus (2025) on criteria for commencing and continuing subsidised JAK-inhibitor therapy, which edition 1.0 named in its Unresolved table but did not use. S1 claims and anchors are unchanged. Both sources are CC BY-NC-ND 4.0, so both are paraphrased and hash-anchored. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 5 (patients at higher risk on JAK inhibitors) and Table 6 (contraindications), and S2 Table 3 (severity-factor weights). S1 Tables 1, 3, 4 and 7 and S2 Tables 1–2 could not be extracted.",
  "summary": {
-  "total": 35,
+  "total": 38,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 35
+  "pass_paraphrase_anchored": 38
  },
  "claims": [
   {
@@ -280,6 +280,117 @@
    "locator": "Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7), 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement', published online 30 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Who is at higher risk of serious harm on a JAK inhibitor (S1 pre-treatment table):** people aged 50 or over with one or more cardiovascular risk factors; anyone with past pulmonary embolism, venous thromboembolism, retinal artery occlusion or stroke; current or long-term past smokers; people facing surgery or immobilisation; and those with past cancer (weigh its type, stage, duration and treatment).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "727806dd451397e2",
+     "n": 126,
+     "p": "[TABLE 5"
+    },
+    {
+     "h": "be72da3068a3eda9",
+     "n": 123,
+     "p": "[TABLE 5"
+    },
+    {
+     "h": "94d5fa15b78c93d9",
+     "n": 104,
+     "p": "[TABLE 5"
+    },
+    {
+     "h": "879f8c5cb140f935",
+     "n": 115,
+     "p": "[TABLE 5"
+    },
+    {
+     "h": "5a25c3ef11606d26",
+     "n": 146,
+     "p": "[TABLE 5"
+    }
+   ],
+   "locator": "Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7), 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement', published online 30 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S1's contraindication table lists:** serious active infection; hypersensitivity to the drug; active cancer (other than resolved non-melanoma skin cancer); platelets below 100,000 cells/mm3, haemoglobin below 8 g/dL, neutrophils below 1000 cells/mm3 or lymphocytes below 500 cells/mm3; an interacting medicine; past thromboembolism or pulmonary embolism; pregnancy or planned pregnancy; breastfeeding; eGFR below 30 mL/min/1.73 m² (for baricitinib, eGFR between 30 and 60 needs a dose adjustment); severe hepatic impairment, Child-Pugh C (for ritlecitinib); and immunosuppression. The extracted table does not say which items are absolute.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61a0852c8c155d9c",
+     "n": 61,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "4e9bf94f19770dbe",
+     "n": 74,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "c581115f94503fa3",
+     "n": 102,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "b388686e3551810e",
+     "n": 74,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "3333742383fef02c",
+     "n": 55,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "40af77dd5a71d8ce",
+     "n": 78,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "eae9fc9af2d6509a",
+     "n": 68,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "5c83aa27edff91e1",
+     "n": 70,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "15f7ae4eb1bd8a67",
+     "n": 83,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "956a27628e9368e0",
+     "n": 80,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "859a09c8b8a5fba7",
+     "n": 53,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "faa82ab289677e1d",
+     "n": 134,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "2e583817686b4876",
+     "n": 90,
+     "p": "[TABLE 6"
+    },
+    {
+     "h": "4f51eef378d35709",
+     "n": 60,
+     "p": "[TABLE 6"
+    }
+   ],
+   "locator": "Australian expert panel (Sinclair et al.), Australasian Journal of Dermatology 2025;66(7), 'Systemic Treatment of Moderate to Severe Alopecia Areata in Adults: Updated Australian Expert Consensus Statement', published online 30 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633702/, retrieved 2026-09-23"
+  },
+  {
    "claim": "⚠️ **Vaccinate first:** bring routine immunisation up to date and add recombinant zoster, influenza, pneumococcal and COVID-19 vaccines. Give any live vaccine at least 1 month before starting, and ideally the first Shingrix dose too.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -441,6 +552,99 @@
    ],
    "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24",
    "dose": true
+  },
+  {
+   "claim": "**How much each factor weighs, in points where one point equals 1% of scalp loss (S2 Table 3):** refractory disease 16.6; psychosocial harm 14.2; rapid progression 13.8; scalp loss that is hard to camouflage 13.6; DLQI above 11, 13; ophiasis pattern 13; ClinRO 2–3 brow loss 12.8; relapse 12.8; ClinRO 2–3 lash loss 11.2; strongly positive pull test 10.8; age 12–18, 9.6; large gaps in or total loss of beard in men 9.2; female sex 8.4; adverse trichoscopy 7; age 5–11, 6.8; ClinRO 2–3 nail change 6.8.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "afd43b663a82c59a",
+     "n": 218,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "69ea4cb87c40baa8",
+     "n": 83,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "f907a5a386ca64f1",
+     "n": 158,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "56514f5014040f74",
+     "n": 90,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "0d121af93bd63982",
+     "n": 99,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "cd8073bc09cfe3ab",
+     "n": 72,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "71e4fd094d41700d",
+     "n": 92,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "79be568f9e28264d",
+     "n": 96,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "6c6fd045847f7581",
+     "n": 80,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "9e422559168a9f3c",
+     "n": 97,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "4c46407731b40db9",
+     "n": 91,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "7b79002edd31b958",
+     "n": 82,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "2205216bfd9daec9",
+     "n": 114,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "73b7e69605dce022",
+     "n": 78,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "17814226c04dd476",
+     "n": 91,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "5f30f966d6bc8dd0",
+     "n": 81,
+     "p": "[TABLE 3"
+    },
+    {
+     "h": "c352bc1c251bd1c4",
+     "n": 91,
+     "p": "[TABLE 3"
+    }
+   ],
+   "locator": "Australian eDelphi panel (Thomas et al.), Australasian Journal of Dermatology 2025;66(7):404, 'Criteria for Commencing and Continuing Subsidised Janus Kinase Inhibitor Therapy in Australian Alopecia Areata Patients—Results From an Australian Expert Consensus Exercise', published 6 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12633699/, retrieved 2026-09-24"
   },
   {
    "claim": "**Psychosocial harm raises eligibility too:** a history of anxiety, depression, suicidal thoughts or social impairment made worse by AA; a DLQI of 11 or more; hair of cultural significance; and loss in places that are hard to hide. The experts note the DLQI is a poor fit for AA.",

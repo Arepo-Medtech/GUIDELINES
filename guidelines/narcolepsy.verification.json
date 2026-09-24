@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/narcolepsy.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186 'Narcolepsy 2025 (with an Australasian perspective)' (published 27 August 2025), 21 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12608058). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline' (published 1 September 2021), 10 claims; LICENCE: © 2021 American Academy of Sleep Medicine (no open licence; PMC not open access) (read at PMC article page (pmc.ncbi.nlm.nih.gov/articles/PMC8636351) copyright and licence information). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the AASM 2021 GRADE-based clinical practice guideline, read from the PMC article page (tables stripped). S1 claims are unchanged. The EAN/ESRS/EU-NN 2021 European guideline (Bassetti et al., CC BY-NC-ND) was sought first: the Wiley publisher PDF and every open repository copy listed by Unpaywall and OpenAlex (HAL Montpellier, Unimore IRIS, Leiden, Helsinki, University of Copenhagen, Bern) returned bot challenges or access blocks, which were not bypassed. Europe PMC search: narcolepsy AND guideline/consensus/recommendations 2019-2026.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186 'Narcolepsy 2025 (with an Australasian perspective)' (published 27 August 2025), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12608058). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline' (published 1 September 2021), 10 claims; LICENCE: © 2021 American Academy of Sleep Medicine (no open licence; PMC not open access) (read at PMC article page (pmc.ncbi.nlm.nih.gov/articles/PMC8636351) copyright and licence information). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the AASM 2021 GRADE-based clinical practice guideline, read from the PMC article page (tables stripped). S1 claims are unchanged. The EAN/ESRS/EU-NN 2021 European guideline (Bassetti et al., CC BY-NC-ND) was sought first: the Wiley publisher PDF and every open repository copy listed by Unpaywall and OpenAlex (HAL Montpellier, Unimore IRIS, Leiden, Helsinki, University of Copenhagen, Bern) returned bot challenges or access blocks, which were not bypassed. Europe PMC search: narcolepsy AND guideline/consensus/recommendations 2019-2026. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (classic clinical features) and Table 3 (treatment options, Australian pregnancy category and PBS availability) are paraphrased from the row lines. S1 Table 2 (ICSD-3-TR criteria) was not extracted (ragged rows).",
  "summary": {
-  "total": 31,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 31
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -97,6 +97,32 @@
      "h": "20b5bb62be0cdddc",
      "n": 156,
      "p": "A United"
+    }
+   ],
+   "locator": "Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186, 'Narcolepsy 2025 (with an Australasian perspective)', published 27 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The five classic features (S1 Table 1):** excessive daytime sleepiness, usually the first and most disabling symptom, with short, dream-filled naps after which the person may feel refreshed, and automatic behaviour they cannot recall; cataplexy, specific to type 1; sleep paralysis and hypnagogic or hypnopompic hallucinations (usually visual, commoner in type 1, and also seen in the general population); and fragmented, unstable night sleep with frequent awakenings.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4e6bf4bbb789a06",
+     "n": 2102,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186, 'Narcolepsy 2025 (with an Australasian perspective)', published 27 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Cataplexy in detail (S1 Table 1):** a brief, usually bilateral loss of muscle tone with consciousness kept, set off by emotion (mostly laughter or sudden positive feelings), sometimes only as a sagging jaw, slurred speech or tongue protrusion. Stopping anticataplectic drugs abruptly can bring on status cataplecticus, with prolonged, near-continuous attacks. Doubt the label when atypical features dominate: attacks that are only generalised or only one-sided, triggered only by negative emotion, with slow recovery, uncertain consciousness or injury from abrupt weakness.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "971385ffae9c30c3",
+     "n": 934,
+     "p": "[Table 1"
     }
    ],
    "locator": "Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186, 'Narcolepsy 2025 (with an Australasian perspective)', published 27 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/, retrieved 2026-09-23"
@@ -411,6 +437,19 @@
     }
    ],
    "locator": "American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328, 'Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline', published 1 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Drug options in Australia (S1 Table 3: use; pregnancy category; PBS for narcolepsy):** modafinil or armodafinil, sleepiness (D; PBS; may make the contraceptive pill less effective); dexamfetamine, sleepiness and possibly cataplexy (B3; PBS); methylphenidate, sleepiness (D; not PBS); clomipramine, cataplexy (C; PBS; avoid after a recent myocardial infarction, with long QT or with an MAOI); venlafaxine, cataplexy (B2; off-label, not PBS); sodium oxybate, sleepiness, cataplexy and disturbed night sleep (not classified; not PBS; the twice-nightly form through the Special Access Scheme); pitolisant, sleepiness and cataplexy (not classified; not PBS; caution in liver impairment); solriamfetol, sleepiness (not classified; not PBS). Dexamfetamine and methylphenidate are cautioned in heart disease, hypertension, glaucoma, substance use, psychiatric illness and with MAOIs.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b1bd69ba488be17a",
+     "n": 2917,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186, 'Narcolepsy 2025 (with an Australasian perspective)', published 27 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/, retrieved 2026-09-23"
   },
   {
    "claim": "**Common adverse effects:** modafinil, headache, insomnia, nausea, diarrhoea and dry mouth; pitolisant, headache, weight gain, insomnia and nausea (none led to stopping); sodium oxybate, nausea, headache, dizziness, bedwetting, chest discomfort, disturbed sleep and sleep-disordered breathing; solriamfetol, headache, nausea, insomnia, reduced appetite and chest discomfort, mostly mild or moderate.",

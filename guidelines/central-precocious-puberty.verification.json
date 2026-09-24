@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/central-precocious-puberty.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents' (published 19 September 2023), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10556443). S2: PARAPHRASED AND HASH-ANCHORED from Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086) 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)' (published online 23 June 2020), 10 claims; LICENCE: No licence or reuse terms found on the article pages or in Crossref metadata (treated as all rights reserved); open access journal (DOAJ-listed) (read at the bmhim.com article pages and Crossref records for both DOIs). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, two chapters (puberty blockade; monitoring during treatment) of the Mexican Society of Pediatric Endocrinology 2020 clinical practice guideline, read in Spanish and paraphrased in English, chiefly for GnRH agonist depot doses and success rates (its Table 1 survived HTML extraction), biochemical monitoring and stopping. No Australian CPP guideline was found. The Endocrine Society 2026 guideline is paywalled and the 2019 international consortium update (Karger) is behind a bot challenge (retried 2026-09-24). S1 claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents' (published 19 September 2023), 25 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10556443). S2: PARAPHRASED AND HASH-ANCHORED from Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086) 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)' (published online 23 June 2020), 10 claims; LICENCE: No licence or reuse terms found on the article pages or in Crossref metadata (treated as all rights reserved); open access journal (DOAJ-listed) (read at the bmhim.com article pages and Crossref records for both DOIs). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, two chapters (puberty blockade; monitoring during treatment) of the Mexican Society of Pediatric Endocrinology 2020 clinical practice guideline, read in Spanish and paraphrased in English, chiefly for GnRH agonist depot doses and success rates (its Table 1 survived HTML extraction), biochemical monitoring and stopping. No Australian CPP guideline was found. The Endocrine Society 2026 guideline is paywalled and the 2019 international consortium update (Karger) is behind a bot challenge (retried 2026-09-24). S1 claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from Table 2 (S1 grades of recommendation); S1 Table 3 (GnRH agonist products) has merged cells and was not extracted.",
  "summary": {
-  "total": 34,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 34
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -675,6 +675,19 @@
      "h": "a777ecfd3e3c4458",
      "n": 145,
      "p": "Taken to"
+    }
+   ],
+   "locator": "Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism, '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents', published 19 September 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What S1's grades mean:** a strong 'do' applies to most patients, and a strong 'do not' means most patients should not receive it; a conditional grade means selective use after weighing benefit, harm, cost and the patient's preference, and a conditional 'do not' still allows limited, careful use.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22637a249bd841bd",
+     "n": 644,
+     "p": "[Table 2"
     }
    ],
    "locator": "Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism, '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents', published 19 September 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/, retrieved 2026-09-23"

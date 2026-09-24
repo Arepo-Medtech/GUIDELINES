@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/acute-myeloid-leukaemia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ) 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)' (v1.0, February 2025), 25 claims; LICENCE: © 2025 Haematology Society of Australia & New Zealand. All Rights Reserved. (site-wide footer; the PDF itself carries a disclaimer but no reuse statement) (read at https://www.hsanz.org.au/AML-Guidelines (page footer)). S2: QUOTED from Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI) 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus' (published 2026), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409292). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every HSANZ 2025 claim (S1) unchanged and adds S2, the 2026 Canadian Leukemia Study Group consensus on AML in older patients (CC BY 4.0, quoted), for the practical management of venetoclax- and ivosidenib-based less-intensive therapy and relapse after it, which S1 does not detail. S2 is a national expert consensus with no formal evidence grading (its own methods state this); ELN 2022 was not added because S1 already builds on it and it predates S1.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ) 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)' (v1.0, February 2025), 25 claims; LICENCE: © 2025 Haematology Society of Australia & New Zealand. All Rights Reserved. (site-wide footer; the PDF itself carries a disclaimer but no reuse statement) (read at https://www.hsanz.org.au/AML-Guidelines (page footer)). S2: QUOTED from Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI) 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus' (published 2026), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409292). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every HSANZ 2025 claim (S1) unchanged and adds S2, the 2026 Canadian Leukemia Study Group consensus on AML in older patients (CC BY 4.0, quoted), for the practical management of venetoclax- and ivosidenib-based less-intensive therapy and relapse after it, which S1 does not detail. S2 is a national expert consensus with no formal evidence grading (its own methods state this); ELN 2022 was not added because S1 already builds on it and it predates S1. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Tables 1–3 (VIALE-A, VIALE-C and AGILE outcomes) are quoted row by row; S2 Table 4 (azole dose adjustments) has merged cells and was not extracted.",
  "summary": {
-  "total": 36,
-  "pass": 11,
+  "total": 39,
+  "pass": 14,
   "fail": 0,
   "pass_paraphrase_anchored": 25
  },
@@ -463,6 +463,27 @@
    "source_text": "Ivosidenib is given at a dose of 500 mg daily, continuously, during induction and post-remission maintenance. Azacitidine is given at standard doses, i.e., 75 mg/m2 daily × 7 day per cycle. … In the AGILE study the incidence of DS was 14% in patients receiving azacitidine + ivosidenib and 8% in patients receiving azacitidine + placebo. DS usually occurred in the first month of therapy, but some cases occurred in the second month []. Early signs of DS may include any of the following: Rising leukocyte count; Weight gain and fluid retention; Pleural effusions and dyspnea; Rising creatinine; Fever. … If DS is suspected, therapeutic measures include the use of hydroxyurea for rising leukocyte count, corticosteroids (e.g., dexamethasone 10 mg BID for 3-5 days) and diuretics as needed … ECGs should be done prior to starting and in the first 2 weeks of treatment. If QTcF (QTc using the Fridericia formula) prolongation to >500 msec occurs, ivosidenib should be held temporarily and any electrolyte abnormalities corrected, until the QTcF improves to <500 msec. If this recurs or persists, the ivosidenib dose may need to be reduced to 250 mg daily.",
    "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24",
    "dose": true
+  },
+  {
+   "claim": "**VIALE-A (azacitidine + venetoclax v azacitidine + placebo, untreated AML, ≥75 years or with comorbidities):** median OS 14.1 v 9.6 months (HR 0.66); CR/CRi 66.4% v 28.3%, and 43.4% v 7.6% by the start of cycle 2; median duration of CR 17.5 v 13.3 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1] VIALE-A: azacitidine + venetoclax vs. azacitidine + placebo in patients with untreated AML, ≥75 years of age, or <75 years of age with co-morbidities precluding intensive chemotherapy … [Table 1 row 1] Median OS · AZA + VEN: 14.1 mos · AZA + PBO: 9.6 mos · HR 0.66 p < 0.001 … [Table 1 row 3] Median duration of CR · AZA + VEN: 17.5 mos · AZA + PBO: 13.3 mos … [Table 1 row 4] CR/CRi · AZA + VEN: 66.4% · AZA + PBO: 28.3% · p < 0.001 … [Table 1 row 5] By initiation of cycle 2 · AZA + VEN: 43.4% · AZA + PBO: 7.6% · p < 0.001",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**VIALE-C (low-dose cytarabine + venetoclax v LDAC + placebo):** median OS 7.2 v 4.1 months at the planned analysis (HR 0.75, p = 0.11, not significant) and 8.4 v 4.1 months in an unplanned post hoc analysis (p = 0.04); CR/CRi 48% v 13%.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 2 row 2] Planned primary analysis (median follow-up 12 mos) · LDAC + VEN: 7.2 mos · LDAC + PBO: 4.1 mos · HR 0.75 p = 0.11 … [Table 2 row 3] Unplanned post hoc analysis (median follow-up 17.5 mos) · LDAC + VEN: 8.4 mos · LDAC + PBO: 4.1 mos · p = 0.04 … [Table 2 row 6] CR/CRi · LDAC + VEN: 48% · LDAC + PBO: 13% · p < 0.001",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**AGILE (azacitidine + ivosidenib v azacitidine + placebo, untreated AML ineligible for intensive chemotherapy):** median OS 24.0 v 7.9 months (HR 0.44), and 29.3 v 7.9 months post hoc at a median follow-up of 28.6 months; CR/CRi 54% v 18%. More QT prolongation (29% v 12%) and differentiation syndrome (14% v 8%), less infection (28% v 49%).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 2] Planned primary analysis (median follow-up 12 mos) · AZA + IVO: 24.0 mos · AZA + PBO: 7.9 mos · HR 0.44 p = 0.001 … [Table 3 row 3] Unplanned post hoc analysis (median follow-up 28.6 mos) · AZA + IVO: 29.3 mos · AZA + PBO: 7.9 mos · p < 0.0001 … [Table 3 row 4] CR/CRi · AZA + IVO: 54% · AZA + PBO: 18% … [Table 3 row 7] Infection (any grade) · AZA + IVO: 28% · AZA + PBO: 49% … [Table 3 row 8] QT prolongation · AZA + IVO: 29% · AZA + PBO: 12% … [Table 3 row 9] DS (any grade) · AZA + IVO: 14% · AZA + PBO: 8%",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Re-test FLT3 in every relapsed or refractory patient, including after allograft; if FLT3-ITD or -TKD is present, use gilteritinib** (better survival and fewer adverse events than salvage chemotherapy in ADMIRAL and COMMODORE). In FLT3-mutated disease failing to reach partial response after induction, move to gilteritinib then, not after more chemotherapy.",

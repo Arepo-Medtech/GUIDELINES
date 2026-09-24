@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/disorders-of-keratinisation.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy 'Consensus Recommendations for Management of Darier Disease: A Practical Approach' (published 15 July 2026 (vol 16, issue 9)), 18 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13558519). S2: PARAPHRASED AND HASH-ANCHORED from Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408) 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents' (published 10 November 2020), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC7984068). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the PeDRA retinoid consensus (Europe PMC JATS XML through pmc_text.py; its 15 recommendation tables were stripped, so claims come from the narrative), paraphrased under CC BY-NC-ND 4.0; the S1 claims are unchanged. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. The 68 consensus recommendations are in tables and supplementary tables, which were stripped; the claims come from the abstract and narrative.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy 'Consensus Recommendations for Management of Darier Disease: A Practical Approach' (published 15 July 2026 (vol 16, issue 9)), 28 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13558519). S2: PARAPHRASED AND HASH-ANCHORED from Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408) 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents' (published 10 November 2020), 15 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC7984068). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the PeDRA retinoid consensus (Europe PMC JATS XML through pmc_text.py; its 15 recommendation tables were stripped, so claims come from the narrative), paraphrased under CC BY-NC-ND 4.0; the S1 claims are unchanged. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. The 68 consensus recommendations are in tables and supplementary tables, which were stripped; the claims come from the abstract and narrative. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 2-4 (differential diagnosis, clinical assessment, treatment) and S2 Tables 2, 5 and 8 (retinoid-responsive subtypes, giving capsules to children, bone monitoring) are paraphrased from the row lines. S1 Table 1 (the summary) and S2 Tables 3, 4, 6, 7 and 9-14 were not extracted (ragged rows or merged cells).",
  "summary": {
-  "total": 30,
+  "total": 43,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 30
+  "pass_paraphrase_anchored": 43
  },
  "claims": [
   {
@@ -81,6 +81,80 @@
    "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Late or sudden onset should prompt a search for a paraneoplastic cause, HIV infection, recent major surgery or immunosuppression.** Early clues are nail changes and wart-like papules on the backs of the hands and feet. Examine the whole skin with the mouth, eyes and genitals, and the nails for red or white longitudinal bands, a V-shaped notch at the free edge and subungual hyperkeratosis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0591d20fa45db096",
+     "n": 259,
+     "p": "[Table 3"
+    },
+    {
+     "h": "951c49a9daef0a0a",
+     "n": 330,
+     "p": "[Table 3"
+    },
+    {
+     "h": "80760884d32123b4",
+     "n": 162,
+     "p": "[Table 3"
+    },
+    {
+     "h": "15e898d9f815da74",
+     "n": 157,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The main differential is Hailey–Hailey disease:** painful, malodorous, erosive lesions in the folds, white nail bands in more than 70% but no red lines or fragile nails, earlier onset and less itch; histology separates the two. Others are acrokeratosis verruciformis of Hopf (an allelic ATP2A2 disorder on the backs of the hands and feet) and Grover disease, a transient acquired eruption mostly of middle-aged and older men.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eecda8211d30eaa4",
+     "n": 678,
+     "p": "[Table 2"
+    },
+    {
+     "h": "ac3926509eab907f",
+     "n": 197,
+     "p": "[Table 2"
+    },
+    {
+     "h": "eacd45668895c94a",
+     "n": 369,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For suspected mosaic disease, sequence ATP2A2 in both lesional skin and blood.** A negative test does not exclude Darier disease: unusual variants can be missed, and some mild, atypical, sporadic or mosaic cases never reach a molecular diagnosis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "70c72820df9a44ba",
+     "n": 150,
+     "p": "[Table 3"
+    },
+    {
+     "h": "7414c1ea47da64c7",
+     "n": 137,
+     "p": "[Table 3"
+    },
+    {
+     "h": "a1b086cd76244e32",
+     "n": 184,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
    "claim": "⚠️ **Suspect secondary infection** (Staphylococcus aureus, Candida, HSV and others) when lesions worsen fast, stop responding, become painful, or show vesiculopustules, confluent erosions or white exudate, or with fever, malaise or nodes.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -120,6 +194,39 @@
      "h": "3e4d23b296de1217",
      "n": 151,
      "p": "Recent e"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **When infection is suspected, take swabs, PCR or cultures and start empirical antiviral or antibacterial treatment straight away; admit Kaposi varicelliform eruption to hospital at once.** With recurrent infections, screen the patient and family members for S. aureus carriage on skin and in the nose, and always exclude active infection before immunosuppressants or systemic steroids.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56d19386c8c02437",
+     "n": 140,
+     "p": "[Table 3"
+    },
+    {
+     "h": "1961e936d7493291",
+     "n": 134,
+     "p": "[Table 3"
+    },
+    {
+     "h": "88122e66c1229a7c",
+     "n": 131,
+     "p": "[Table 3"
+    },
+    {
+     "h": "e0316d5f757a92b6",
+     "n": 139,
+     "p": "[Table 3"
+    },
+    {
+     "h": "c051daca1256172b",
+     "n": 144,
+     "p": "[Table 3"
     }
    ],
    "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
@@ -213,6 +320,19 @@
    "dose": true
   },
   {
+   "claim": "**Topical corticosteroid classes (S1's treatment table):** class II–III for temporary use, and class IV only briefly for acute flares, each matched to the body site and situation.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9fdef03fe2a65c1",
+     "n": 215,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
    "claim": "⚠️ **Oral retinoids are the first-line systemic treatment for Darier disease** and have transformed care of keratinisation disorders, but they are highly teratogenic: post-menarchal females need a strict pregnancy prevention programme.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -303,6 +423,56 @@
    ],
    "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **Acitretin is the preferred oral retinoid** for its efficacy and better safety, notably for bone: 0.25–0.5 mg/kg/day or less, set to the clinical situation, with liver tests, lipids and (where relevant) skeletal checks. Isotretinoin suits short courses, given doubts about its long-term bone safety; alitretinoin is the option for women who may want a pregnancy, since contraception is needed for only 1 month after it is stopped.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "124ec8e125ab38be",
+     "n": 673,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Before an oral retinoid, screen for self-harm and suicide risk,** particularly with a past psychiatric history, extensive disease or poor quality of life; depression, anxiety, bipolar disorder, epilepsy and other neuropsychiatric conditions are looked for systematically. If the patient takes lithium, consider an alternative.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "077465a2889d9f5d",
+     "n": 198,
+     "p": "[Table 3"
+    },
+    {
+     "h": "716269b8797eaf71",
+     "n": 317,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**JAK, IL-23, IL-17 and IL-4/13 inhibitors rest only on case reports and series,** with inconsistent benefit and safety; watch for skin infection if one is tried. MEK inhibitors, dantrolene and HSV-1-based gene therapy remain under investigation.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "264eaec24cfa31c1",
+     "n": 296,
+     "p": "[Table 4"
+    },
+    {
+     "h": "f45a6e1d6b8487f6",
+     "n": 228,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
   },
   {
    "claim": "**The ichthyoses and related disorders of cornification arise from variants in more than 50 genes.** Care is built on frequent bathing, humidified air, daily emollients and keratolytics, with topical and oral retinoids as a key addition.",
@@ -414,6 +584,37 @@
    "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Subtypes where oral or topical retinoids have improved scale:** lamellar ichthyosis, epidermolytic ichthyosis, harlequin ichthyosis, some genotypes of congenital ichthyosiform erythroderma, erythrokeratodermia variabilis, ichthyosis with confetti, recessive X-linked ichthyosis, loricrin keratoderma, the KID, KLICK and IFAP syndromes, neutral lipid storage disease with ichthyosis and Sjögren–Larsson syndrome. **No data, or no benefit:** CHILD, CHIME, Conradi–Hünermann–Happle, MEDNIK and Refsum syndromes, ichthyosis prematurity syndrome, the ichthyosis–hypotrichosis syndromes (with or without sclerosing cholangitis), peeling skin disease and trichothiodystrophy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8861bcaf0e5832e",
+     "n": 666,
+     "p": "[Table 2"
+    },
+    {
+     "h": "015631a36f93f729",
+     "n": 508,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Giving a retinoid capsule to a child:** it can be swallowed whole or chewed, pierced (the shell is tough) and squeezed onto food, softened for 2–3 minutes in a little warm milk or water, for an infant, stirred into a small amount (1 oz) of formula or breast milk, or frozen inside a small soft-centred chocolate; fatty food helps absorption. Keep capsules out of direct sunlight and use each one as soon as it is unpacked.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d541a1c532fad6b0",
+     "n": 1154,
+     "p": "[Table 5"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Lipids and liver tests at baseline, again 1–2 months after starting, then every 6–12 months while normal.** Combined oral contraceptives also raise lipids; persistently high lipids can be treated while the retinoid continues if the balance of risk is acceptable.",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -455,6 +656,19 @@
      "h": "f9e4ea68fa03a209",
      "n": 202,
      "p": "Once ret"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bone monitoring in detail (S2 Table 8):** for children, a yearly growth check (height, weight, BMI and growth curve), questions about diet (enough vitamin D, no extra vitamin A) and, once growth is complete at 16–18 years, a baseline skeletal survey (lateral cervical and thoracic spine, lateral calcanei including the Achilles tendon, hips and any painful site) with a bone density scan such as DEXA. Adults expected to stay on treatment get the same baseline survey, repeated every 3–5 years or when symptoms appear.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c21124adbf98b0c",
+     "n": 1409,
+     "p": "[Table 8"
     }
    ],
    "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
@@ -561,6 +775,42 @@
      "h": "516db3e4fceabd19",
      "n": 79,
      "p": "durable "
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Of the physical options, ablative CO2 or Er:YAG laser (fractional or not) has the best evidence** and can give lasting results with an experienced operator. Cryotherapy and local surgery risk pigment change, scarring and recurrence; botulinum toxin can reduce flares provoked by sweating, but only for a time.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d7de96879bfb30eb",
+     "n": 176,
+     "p": "[Table 4"
+    },
+    {
+     "h": "89d0ad2dd3c83882",
+     "n": 283,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Let the gynaecologist know about the diagnosis:** Darier disease can give abnormal Pap smear results. In pregnancy, watch for flares and obstetric problems (skin, intrauterine or perinatal infection, traumatic delivery, difficulty breastfeeding).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c003d0555ba0f8b5",
+     "n": 134,
+     "p": "[Table 3"
+    },
+    {
+     "h": "23fb0ba563ae752e",
+     "n": 239,
+     "p": "[Table 3"
     }
    ],
    "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23"

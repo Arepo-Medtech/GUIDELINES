@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/idiopathic-multicentric-castleman-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian multidisciplinary working group, Internal Medicine Journal (RACP) 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease' (published 30 May 2026), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409200). S2: PARAPHRASED AND HASH-ANCHORED from Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334) 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease' (published 4 September 2018), 12 claims; LICENCE: No open licence: free to read on PMC under the PMC Copyright Notice ('Articles from Blood are provided here courtesy of The American Society of Hematology'); treated as © American Society of Hematology (read at the PMC article page (Copyright and License information; PMC Copyright Notice)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Australian 2026 claim (S1) unchanged and adds S2, the CDCN 2018 international consensus treatment guideline (paraphrased, hash-anchored), for the severity markers, response criteria, rituximab as a first-line alternative, steroid doses and escalation timing that S1 keeps in stripped tables or does not state. Europe PMC and NCBI refuse XML download for this article, so S2 was read from the PMC HTML page (tables stripped; figure legends kept); the text after the reference list was discarded. S2 is older than S1, which already reflects it; where they differ, both are shown. The 2023 HemaSphere iMCD position paper (CC BY-NC-ND) was also readable but is an ad hoc expert panel, not a consensus guideline, so it was not used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian multidisciplinary working group, Internal Medicine Journal (RACP) 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease' (published 30 May 2026), 26 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409200). S2: PARAPHRASED AND HASH-ANCHORED from Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334) 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease' (published 4 September 2018), 12 claims; LICENCE: No open licence: free to read on PMC under the PMC Copyright Notice ('Articles from Blood are provided here courtesy of The American Society of Hematology'); treated as © American Society of Hematology (read at the PMC article page (Copyright and License information; PMC Copyright Notice)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Australian 2026 claim (S1) unchanged and adds S2, the CDCN 2018 international consensus treatment guideline (paraphrased, hash-anchored), for the severity markers, response criteria, rituximab as a first-line alternative, steroid doses and escalation timing that S1 keeps in stripped tables or does not state. Europe PMC and NCBI refuse XML download for this article, so S2 was read from the PMC HTML page (tables stripped; figure legends kept); the text after the reference list was discarded. S2 is older than S1, which already reflects it; where they differ, both are shown. The 2023 HemaSphere iMCD position paper (CC BY-NC-ND) was also readable but is an ad hoc expert panel, not a consensus guideline, so it was not used. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 5 (diagnostic work-up), Table 7 (CDCN severity criteria) and Tables 9-10 (CDCN response criteria) are paraphrased from the row lines. S1 Tables 1-4, 6 and 8 were not extracted (ragged rows or merged cells).",
  "summary": {
-  "total": 35,
+  "total": 38,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 35
+  "pass_paraphrase_anchored": 38
  },
  "claims": [
   {
@@ -156,6 +156,19 @@
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
   },
   {
+   "claim": "**Full work-up (S1 Table 5):** ask about B symptoms, fluid overload, skin changes such as eruptive cherry haemangiomas, and polyneuropathy (for POEMS). Bloods: FBC and film, electrolytes, calcium, phosphate, LDH, urate, liver tests with albumin, ESR, CRP, immunoglobulins, serum electrophoresis, immunofixation and free light chains; if available, IL-6, sIL-2R, VEGF and/or beta-2-microglobulin (the first three are not Medicare-rebated). Infection screen: HIV, hepatitis B and C, CMV, EBV and toxoplasma serology, a TB screen, blood HHV8/KSHV PCR and blood cultures. Exclusion serology: ANA, ENA and anti-dsDNA, complement C3 and C4, RF and anti-CCP, ANCA, antiphospholipid antibodies, direct Coombs test, ACE, ferritin and IgG subclasses. Urine protein- and albumin-creatinine ratios with electrophoresis and immunofixation; an excisional node biopsy (strongly preferred) and marrow aspirate and trephine; CT of neck, chest, abdomen and pelvis and FDG-PET/CT.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ad1aaf8f548f4a2",
+     "n": 2268,
+     "p": "[Table 5"
+    }
+   ],
+   "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Main mimics:** POEMS (needs polyneuropathy and a monoclonal plasma cell disorder), SLE, Sjögren disease, RA, IgG4-related disease, sarcoidosis, Still disease, VEXAS and ANCA vasculitis. Autoantibodies occur in 30% of iMCD, so serology alone does not separate them.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -213,6 +226,19 @@
      "h": "c3b477fb5dae5601",
      "n": 96,
      "p": "Patients"
+    }
+   ],
+   "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **The five CDCN severity criteria (S1 Table 7):** ECOG performance status 2 or worse; stage IV kidney dysfunction (eGFR below 30 mL/min/1.73 m², or creatinine above 265 µmol/L); anasarca, ascites, or pleural or pericardial effusion; haemoglobin 80 g/L or lower; and lung involvement or interstitial pneumonitis with breathlessness.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35b27847f6afc626",
+     "n": 768,
+     "p": "[Table 7"
     }
    ],
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
@@ -501,6 +527,24 @@
     }
    ],
    "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Response categories in full (S1 Tables 9-10):** complete response means normal CRP, haemoglobin, albumin and GFR, a nodal complete response and symptoms back to baseline; partial response, more than 50% improvement in all four markers, a nodal partial response and improvement in all four symptom groups short of baseline; stable disease, under 50% improvement (or under 25% worsening) in the markers, no nodal response and improvement in some but not all symptoms; progression, more than 25% worsening of any marker, more than 25% nodal growth, or any symptom worse on 2 or more assessments. A symptom counts as improved with a fall of at least 1 CTC grade (fatigue, anorexia), a fall of at least 1°C (fever) or a weight gain of 5% or more.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "60af7ace949b15a4",
+     "n": 800,
+     "p": "[Table 9"
+    },
+    {
+     "h": "01c643d6ac41b2c9",
+     "n": 423,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
   },
   {
    "claim": "**Timing (CDCN):** symptoms should improve after 3 to 4 anti-IL-6 doses; follow haemoglobin, CRP, ESR and albumin weekly then fortnightly until normal. Nodes shrink slowly (median 5 months), so CT every 3 months until the best response, then every 6 and later 12 months. Siltuximab and tocilizumab falsely raise IL-6 for 18 to 24 months after the last dose, so IL-6 cannot measure response.",

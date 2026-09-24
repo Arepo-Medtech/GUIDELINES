@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/diffuse-large-b-cell-lymphoma.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,14 +10,47 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association, HemaSphere 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up' (published 23 September 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12456099). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)' (retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026)), 8 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every EHA 2025 claim (S1) unchanged and adds S2, four eviQ protocols (Australian, CC BY-NC 4.0, paraphrased), for the regimen doses S1 keeps in stripped tables, PBS status, cardiac and supportive monitoring, and bispecific step-up dosing. The S2 source file concatenates the four protocol pages (https://www.eviq.org.au/p/70, /p/4434, /p/4454 and /p/4554), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The Australasian Lymphoma Alliance DLBCL statement (IMJ 2021) was searched for again on Europe PMC and has no open copy.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association, HemaSphere 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up' (published 23 September 2025), 29 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12456099). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)' (retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026)), 8 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every EHA 2025 claim (S1) unchanged and adds S2, four eviQ protocols (Australian, CC BY-NC 4.0, paraphrased), for the regimen doses S1 keeps in stripped tables, PBS status, cardiac and supportive monitoring, and bispecific step-up dosing. The S2 source file concatenates the four protocol pages (https://www.eviq.org.au/p/70, /p/4434, /p/4454 and /p/4554), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The Australasian Lymphoma Alliance DLBCL statement (IMJ 2021) was searched for again on Europe PMC and has no open copy. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (risk factors), Table 6 (regimen components) and Table 7 (geriatric assessment). S1 Tables 2–5 and A1 have merged cells or ragged rows and were not extracted.",
  "summary": {
-  "total": 33,
+  "total": 37,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 33
+  "pass_paraphrase_anchored": 37
  },
  "claims": [
+  {
+   "claim": "**Risk factors (S1 Table 1):** inherited immunodeficiency, HIV/AIDS or an organ transplant (odds ratio above 2); autoimmune diseases that activate B cells, such as Sjögren syndrome, lupus or rheumatoid arthritis (2.36); viral infection including HIV, HHV8, hepatitis C, EBV and hepatitis B (2.02); a family history of non-Hodgkin lymphoma (1.95); and obesity as a young adult (1.58).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f756b3642020071",
+     "n": 126,
+     "p": "[Table 1"
+    },
+    {
+     "h": "79c6d3c69fd2a0e6",
+     "n": 172,
+     "p": "[Table 1"
+    },
+    {
+     "h": "55d255665e44d8cb",
+     "n": 112,
+     "p": "[Table 1"
+    },
+    {
+     "h": "2adfec58d120827e",
+     "n": 92,
+     "p": "[Table 1"
+    },
+    {
+     "h": "b413fe59c3bd3585",
+     "n": 106,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"
+  },
   {
    "claim": "**Have the biopsy reported by a reference haematopathology laboratory.** Immunohistochemistry misclassifies cell of origin in up to 30% of cases, so do not withhold an active therapy on that basis alone.",
    "source": "S1",
@@ -452,6 +485,44 @@
    "dose": true
   },
   {
+   "claim": "**What the geriatric assessment covers (S1 Table 7):** function (ECOG, ADL and IADL), comorbidity (CIRS-G), cognition (MMSE or MoCA), nutrition (BMI and albumin), mood and carer support (Geriatric Depression Scale) and a medication review for interactions.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d09b79e6092ae909",
+     "n": 126,
+     "p": "[Table 7"
+    },
+    {
+     "h": "d42cf1ada1f25645",
+     "n": 106,
+     "p": "[Table 7"
+    },
+    {
+     "h": "4e32ec4a7d51568b",
+     "n": 118,
+     "p": "[Table 7"
+    },
+    {
+     "h": "b5145cb3513c9b90",
+     "n": 119,
+     "p": "[Table 7"
+    },
+    {
+     "h": "d5abdeafb79d2476",
+     "n": 131,
+     "p": "[Table 7"
+    },
+    {
+     "h": "630fee39e9c56414",
+     "n": 110,
+     "p": "[Table 7"
+    }
+   ],
+   "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"
+  },
+  {
    "claim": "⚠️ **Heart failure or LVEF below 50%: use a regimen without conventional doxorubicin** (R-CEOP, R-GCVP, R-COMP with non-pegylated liposomal doxorubicin, or R-GEMOX). After earlier anthracycline, work within the 450 mg/m² lifetime limit.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -530,6 +601,52 @@
      "h": "1cb7ca697a09432d",
      "n": 150,
      "p": "This res"
+    }
+   ],
+   "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What the salvage and conditioning regimens contain (S1 Table 6, no doses):** R-DHAP/X/C pairs rituximab, dexamethasone and cytarabine with a platinum (cisplatin, oxaliplatin or carboplatin); R-ICE is rituximab with ifosfamide, carboplatin and etoposide; R-GDP adds gemcitabine, dexamethasone and cisplatin to rituximab; R-ESHAP is rituximab with etoposide, methylprednisolone and cisplatin. BEAM conditioning is carmustine, etoposide, cytarabine and melphalan.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0c69c00473c4112f",
+     "n": 133,
+     "p": "[Table 6"
+    },
+    {
+     "h": "9c403c9ccea6c556",
+     "n": 91,
+     "p": "[Table 6"
+    },
+    {
+     "h": "233bd9a7c9e9d72e",
+     "n": 94,
+     "p": "[Table 6"
+    },
+    {
+     "h": "78e20fcc4e3303c9",
+     "n": 99,
+     "p": "[Table 6"
+    },
+    {
+     "h": "63a8810d71de1c8b",
+     "n": 94,
+     "p": "[Table 6"
+    }
+   ],
+   "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**DA-EPOCH-R** (etoposide, doxorubicin, vincristine, cyclophosphamide, prednisone and rituximab) **is dose-adjusted to the neutrophil nadir,** measured twice a week (S1 Table 6).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d8f318eeb937432f",
+     "n": 201,
+     "p": "[Table 6"
     }
    ],
    "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"

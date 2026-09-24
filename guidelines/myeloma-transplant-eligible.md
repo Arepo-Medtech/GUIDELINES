@@ -1,9 +1,9 @@
 # Newly diagnosed multiple myeloma — transplant-eligible patients
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** induction, stem-cell mobilisation, high-dose melphalan with autologous transplant, consolidation, maintenance and follow-up for adults with newly diagnosed myeloma judged fit for transplant. Transplant-ineligible and relapsed/refractory myeloma: see `myeloma-transplant-ineligible` and `myeloma-relapsed-refractory`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **59 fragments or anchors re-checkable by machine; 2 doses.** **S1** Medical and Scientific Advisory Group (MSAG) of Myeloma Australia (published 4 August 2025; AU): 20 claims, paraphrased, hash-anchored · **S2** Pan-Pacific Multiple Myeloma Working Group (Chen W and others) (published 11 April 2025; international): 10 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **75 fragments or anchors re-checkable by machine; 2 doses.** **S1** Medical and Scientific Advisory Group (MSAG) of Myeloma Australia (published 4 August 2025; AU): 20 claims, paraphrased, hash-anchored · **S2** Pan-Pacific Multiple Myeloma Working Group (Chen W and others) (published 11 April 2025; international): 15 claims, quoted
 
 > ⚠️ **Australia differs from the international standard here, because of PBS funding.** A CD38 antibody (daratumumab) added to induction is the global standard, but it is **not PBS-reimbursed upfront**. So RVD remains the Australian standard induction.
 
@@ -58,6 +58,11 @@
 - ⚠️ **Before starting a quadruplet:** antiviral (aciclovir or valaciclovir) and antibacterial (trimethoprim-sulfamethoxazole) prophylaxis, plus influenza and pneumococcal vaccination (evidence A, strong), with vaccination of close contacts too. Consider immunoglobulin replacement if IgG is below 400 mg/dL or there is specific antibody failure; itraconazole raises lenalidomide exposure. [S2]
 - **Carfilzomib quadruplets (Isa-KRd):** baseline echocardiography and cardiac biomarkers (troponin, NT-proBNP), regular blood pressure checks, and repeat echo if heart failure is suspected. [S2]
 - **CD38 antibodies and neuropathy:** infusion reactions are common but usually mild and at the first infusion (72.4% in GRIFFIN). If neuropathy threatens treatment, switching bortezomib from twice-weekly to once-weekly keeps Isa-VRd viable. [S2]
+- **Matching intensity to the patient (S2 Table 1):** quadruplet for patients under 80 who are not frail (transplant-eligible or not, with good performance status), for high-risk cytogenetics, for fit older patients with manageable comorbidities, and with only mild renal impairment. Triplet for age 80 or over with moderate fitness, manageable comorbidities, high-risk cytogenetics in someone unfit for a quadruplet, or moderate renal impairment. Doublet for age 80 or over, significant comorbidity or frailty, poor performance status, or severe renal impairment. [S2]
+- **Grade 3 or higher adverse events in transplant-eligible patients (S2 Table 2):** neutropenia 23.3%–62.1% (blood counts; dose change or G-CSF for grade 3–4); infections 12%–35.3% (prophylactic antibiotics from induction lower grade 3+ infections); cardiovascular 2.1%–9%; peripheral sensory neuropathy 2.1–7%. [S2]
+- **Heart and nerves on treatment (S2 adverse-event table):** watch blood pressure, breathlessness, chest pain, oedema and fatigue; if LVEF falls by more than 10% and below normal, consider an ACE inhibitor or beta-blocker. Check for neuropathy regularly and adjust bortezomib; saline infusion and emollients may help, and pause bortezomib for grade 3 neuropathy until it improves. [S2]
+- ⚠️ **Infection prophylaxis details (S2 Table 3):** continue aciclovir or valaciclovir through treatment and for several months after (zoster reactivation is commoner on isatuximab or daratumumab quadruplets); check CMV viral load by PCR if CMV disease or unexplained fever or cytopenias are suspected; atovaquone or dapsone if trimethoprim-sulfamethoxazole is not tolerated; no live vaccines during treatment, and boosters of inactivated vaccines may be needed; check IgG regularly and consider IVIG for recurrent infections with documented hypogammaglobulinaemia. [S2]
+- ⚠️ **Act early on infection (S2 Table 4):** teach patients on quadruplets to report fever, chills or respiratory symptoms at once; keep a low threshold for cultures and chest imaging, especially with neutropenia; start broad-spectrum antibiotics early for suspected bacterial infection, chosen by local epidemiology and past infections; consider antifungals (fluconazole, posaconazole) with prolonged neutropenia or intensive chemotherapy, and suspect fungal infection when fever persists despite antibiotics. [S2]
 
 ---
 
@@ -75,12 +80,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Drug doses and schedules for induction and maintenance** (RVD cycle doses, lenalidomide maintenance dose) are in a table, which was stripped, and are not stated here. | `input_unavailable` |
+| 1 | **Drug doses and schedules for induction and maintenance** (RVD cycle doses, lenalidomide maintenance dose) are in S1 Table 1, which has merged cells and could not be extracted, so they are not stated here. | `input_unavailable` |
 | 2 | **The CD34+ collection target** reads '2 × 106 cells/kg' after extraction (superscript lost), so it was not anchored. | `input_unavailable` |
 | 3 | **Transplant-ineligible myeloma** is covered separately in `myeloma-transplant-ineligible` (MSAG 2026). | `out_of_scope` |
 | 4 | **International comparison:** ASCO–Ontario Health (2026) and NCCN recommend CD38-antibody quadruplet induction; the Australian difference is PBS funding, not evidence. S2 (Pan-Pacific consensus, 2025) now shows the quadruplet evidence; ASCO itself could not be read (bot challenge). | `observation` |
 | 5 | **Where the sources differ:** S1 (Australia, PBS-bound) recommends RVD induction, lenalidomide-only maintenance and tandem transplant for young high-risk patients; S2 recommends CD38-antibody quadruplets, allows lenalidomide plus a CD38 antibody in high risk, and calls a second transplant after a quadruplet debatable. Both are shown. | `observation` |
-| 6 | **S2 limits:** a regional expert consensus, not a society guideline; quadruplet doses and its adverse-event and infection tables (Tables 1–4) were stripped and are not stated here. | `input_unavailable` |
+| 6 | **S2 limits:** a regional expert consensus, not a society guideline; quadruplet doses are not stated in it. Its regimen-selection, adverse-event and infection tables (Tables 1–4) are now used. | `input_unavailable` |
 | 7 | **Licence:** S1 is CC BY-NC 4.0, so its claims are paraphrased and hash-anchored and its words are not reproduced. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
 
 ## Sources

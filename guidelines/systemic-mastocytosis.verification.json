@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/systemic-mastocytosis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel' (published online 26 May 2022), 19 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9605912). S2: QUOTED from French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7) 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)' (published 2 October 2025), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12492810). Verify each source separately: verify.py --source <file> --only-source S<n>. The WHO criteria (Table 1), classification (Table 2) and cytoreductive agent table (Table 5, with doses) were stripped. The expert meeting was funded by Novartis (midostaurin manufacturer). Edition 2.0 keeps every S1 claim unchanged and adds S2, the French national guideline for non-advanced mastocytosis (2025, CC BY 4.0, quoted), for KIT testing method, symptom-drug and omalizumab doses, adrenaline dosing, avapritinib, bone care and monitoring. It covers non-advanced disease only; no open guideline for advanced SM was found (NCCN 2024 and the EBMT 2024 transplant recommendations are not open access), and no Australian mastocytosis guideline was found.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel' (published online 26 May 2022), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9605912). S2: QUOTED from French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7) 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)' (published 2 October 2025), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12492810). Verify each source separately: verify.py --source <file> --only-source S<n>. The WHO criteria (Table 1), classification (Table 2) and cytoreductive agent table (Table 5, with doses) were stripped. The expert meeting was funded by Novartis (midostaurin manufacturer). Edition 2.0 keeps every S1 claim unchanged and adds S2, the French national guideline for non-advanced mastocytosis (2025, CC BY 4.0, quoted), for KIT testing method, symptom-drug and omalizumab doses, adrenaline dosing, avapritinib, bone care and monitoring. It covers non-advanced disease only; no open guideline for advanced SM was found (NCCN 2024 and the EBMT 2024 transplant recommendations are not open access), and no Australian mastocytosis guideline was found. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 1–4 (WHO criteria with B and C findings, WHO classification, skin treatment principles, drugs that activate mast cells) and S2 Tables 1–2 (when to suspect and refer; cutaneous forms). S1 Table 5 (cytoreductive agents and doses) could not be extracted (merged cells).",
  "summary": {
-  "total": 29,
-  "pass": 10,
+  "total": 36,
+  "pass": 12,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
@@ -32,6 +32,13 @@
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
   },
   {
+   "claim": "**When to suspect mastocytosis in an adult and refer (S2 Table 1):** fixed pigmented maculopapules with Darier's sign; telangiectatic lesions on the trunk and upper limbs (TMEP); erythematous-violaceous lesions with Darier's sign; mast-cell activation symptoms in at least two organs with no other cause; repeated anaphylaxis after Hymenoptera stings, sometimes more than an hour later; anaphylaxis with no cause found; anaphylaxis with a known allergy but a raised basal tryptase away from the reaction; severe sting anaphylaxis with very low sensitisation (specific IgE sometimes under 1 kU/L, or negative skin tests); and early unexplained osteoporosis or repeated low-trauma vertebral fractures. Send suspicious skin lesions to a dermatologist for biopsy, start first-line symptom treatment, and refer to a mastocytosis centre.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1] Key features of the different types of mastocytosis … [Table 1 row 1] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 1. Fixed maculopapular pigmented skin lesions of variable extent (Fig. 1 ), with Darier's sign, corresponding to a picture of so-called pigmentary urticaria (Fig. 2 ); … [Table 1 row 2] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 2. Telangiectatic skin lesions on the trunk and upper limbs, with or without Darier's sign, corresponding to a telangiectatic form called telangiectasia macularis eruptiva perstans (TMEP) (Fig. 3 ); … [Table 1 row 3] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 3. Erythematous-violaceous skin lesions of varying degrees of diffusion (Fig. 4 ), with Darier's sign; … [Table 1 row 4] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 4. Presence of symptoms of mast cell activation affecting at least two organs [] (Table S3), in the absence of any other identified cause and manifesting as flare-ups, often appearing spontaneously and recurrently, and/or chronically; … [Table 1 row 5] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 5. Occurrence of repeated anaphylactic reactions following Hymenoptera stings, in some cases appearing more than one hour after the Hymenoptera sting; … [Table 1 row 6] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 6. Presence of anaphylactic reaction with no discernible etiology (negative allergological investigation); … [Table 1 row 7] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 7. Presence of anaphylactic reaction with a known allergy and a basal serum tryptase level greater than normal and distant from the reaction; … [Table 1 row 8] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 8. Severe anaphylactic reaction to Hymenoptera stings with very low sensitization parameters (very low specific IgE levels, in some cases < 1 kU/L, and/or negative skin tests); … [Table 1 row 9] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 9. Presence of early osteoporosis not accounted for by the initial assessment and/or repeated low-energy vertebral fractures (low trauma); … [Table 1 row 10] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: 10. Presence of the above items in the same patient … [Table 1 row 11] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: What should be done? … [Table 1 row 12] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: •In the event of a suspicious skin lesion the patient should be referred to a dermatologist for skin biopsy (complete microscopic, immunohistochemical and molecular biology analysis), with systemic assessment if a disability is present (to be assessed) … [Table 1 row 13] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: •Propose first-line symptomatic treatment … [Table 1 row 14] The practitioner must consider mastocytosis in adults and refer the patient to a mastocytosis specialist if the following clinical signs appear:: •Refer the patient to a mastocytosis competence/reference center for basic treatment",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Diagnose cutaneous-only mastocytosis only after dermatology review, skin histology, and exclusion of SM criteria.** (GRADE 1)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -43,6 +50,13 @@
     }
    ],
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Adult skin forms (S2 Table 2):** urticaria pigmentosa (brownish maculopapules on thighs and trunk, itch as the first symptom, Darier's sign) and TMEP (telangiectatic lesions on the upper trunk and limbs, no itch, Darier's sign negative; 20% of the UP variant), or a mix. Confirm UP by skin biopsy with CD117 (KIT) immunostaining (more than 20 mast cells per window at ×40), test the skin for KIT D816V in every form, and screen for WHO extracutaneous criteria (the table gives 85% for UP and mixed forms and 50% for TMEP).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 2] Diagnostic criteria for the different forms of cutaneous mastocytosis … [Table 2 row 1] Form of CM: Context · UP*: Woman or man > 40 years old Pruritus flush, cutaneous discomfort of additive pigmented lesions · TMEP**: Vascular form of UP variant (20%) · Mixed forms UP and TMEP: Adults … [Table 2 row 2] Form of CM: Primary lesions · UP*: Brownish maculopapules ± fixed erythematous Distribution on thighs and thorax · TMEP**: Telangiectatic lesions on upper thorax and limbs · Mixed forms UP and TMEP: Associated Injury … [Table 2 row 3] Form of CM: Pruritus · UP*: + + (first symptom) · TMEP**: No pruritus · Mixed forms UP and TMEP: Yes … [Table 2 row 4] Form of CM: Associated signs Darier's sign · UP*: Darier's sign · TMEP**: Darier's sign negative · Mixed forms UP and TMEP: Darier's sign positive … [Table 2 row 5] Form of CM: Diagnosis · UP*: Cutaneous biopsy with anti-CD117 (KIT) immunostaining, mast cell count > 20 per window at 40 × magnification Cutaneous biopsy to identify KIT D816V mutation in skin Screening for WHO extracutaneous criteria to ascertain presence of cutaneous features of SM or CM with primary MCAS (85%) · TMEP**: Cutaneous biopsy to identify KIT D816V mutation in skin Screening for WHO extracutaneous criteria to ascertain presence of cutaneous feature or SM (50%) · Mixed forms UP and TMEP: Cutaneous biopsy to identify KIT D816V mutation in skin Screening for WHO extracutaneous criteria to ascertain presence of cutaneous features of SM or CM with primary MCAS (85%) … [Table 2 footnote] * UP: Urticaria pigmentosa or pigmented maculopapules ** TMEP: Telangiectasia macularis eruptiva perstans",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
   },
   {
    "claim": "**Serum tryptase is needed for diagnosis and follow-up, at least yearly.** A persistent level above 20 ng/ml is a minor WHO criterion; levels above 200 ng/ml are much more common in aggressive SM and SM with an associated haematological neoplasm.",
@@ -76,6 +90,170 @@
      "h": "d74168c765d7ff72",
      "n": 260,
      "p": "The expr"
+    }
+   ],
+   "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**WHO diagnostic criteria (S1 Table 1): SM needs the major criterion with at least one minor one, or three minor ones.** Major: multifocal dense mast-cell infiltrates (15 or more cells in aggregates) in marrow or another organ outside the skin. Minor: more than 25% of infiltrate mast cells spindle-shaped or atypical (or more than 25% immature or atypical in aspirate smears); an activating KIT codon 816 mutation in marrow, blood or another extracutaneous organ; mast cells expressing CD2 and/or CD25; and total tryptase persistently above 20 ng/mL, which does not count when there is an associated clonal myeloid disorder.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2988b04c96f75b1",
+     "n": 159,
+     "p": "[Table 1"
+    },
+    {
+     "h": "2eb112032587cc90",
+     "n": 291,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d54b599627626c2a",
+     "n": 158,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a2ec12720ad93081",
+     "n": 387,
+     "p": "[Table 1"
+    },
+    {
+     "h": "5badd452dee6943f",
+     "n": 261,
+     "p": "[Table 1"
+    },
+    {
+     "h": "515b67f5eeeadd4f",
+     "n": 274,
+     "p": "[Table 1"
+    },
+    {
+     "h": "3d5e421eacb50718",
+     "n": 297,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**'B' findings (high burden, no organ failure):** marrow infiltration above 30% and/or total tryptase above 200 ng/mL; dysplasia or myeloproliferation in other lineages that falls short of a separate neoplasm, with near-normal counts; enlarged liver, spleen or nodes without organ dysfunction. **'C' findings (organ damage):** cytopenia (ANC below 1 × 10^9/L, Hb below 10 g/dL, or platelets, printed in the source as below 1 × 10^9/L) without another marrow cancer; hepatomegaly with impaired liver function, ascites or portal hypertension; large osteolytic lesions or pathological fractures; splenomegaly with hypersplenism; and malabsorption with weight loss from gut infiltration.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1fe34b4b9d478e1f",
+     "n": 156,
+     "p": "[Table 1"
+    },
+    {
+     "h": "9e4816e25f44536e",
+     "n": 261,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d29b44202512bc7a",
+     "n": 346,
+     "p": "[Table 1"
+    },
+    {
+     "h": "4f529b9c09841dcc",
+     "n": 296,
+     "p": "[Table 1"
+    },
+    {
+     "h": "b060d3012eff22a4",
+     "n": 157,
+     "p": "[Table 1"
+    },
+    {
+     "h": "e75c2ed932efbd80",
+     "n": 327,
+     "p": "[Table 1"
+    },
+    {
+     "h": "917ab259975db091",
+     "n": 240,
+     "p": "[Table 1"
+    },
+    {
+     "h": "ea4dba08f1196540",
+     "n": 229,
+     "p": "[Table 1"
+    },
+    {
+     "h": "6adf02e5d1830880",
+     "n": 189,
+     "p": "[Table 1"
+    },
+    {
+     "h": "9a668798b9279c18",
+     "n": 225,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**WHO classification (S1 Table 2):** cutaneous mastocytosis (maculopapular or urticaria pigmentosa, diffuse, or a skin mastocytoma); indolent SM (SM criteria, no C findings, no associated clonal non-mast-cell disease), with the provisional smouldering SM (2 or more B findings, no C findings) and isolated bone marrow mastocytosis (no skin lesions); SM with an associated clonal haematological disease; aggressive SM (one or more C findings, no mast cell leukaemia), which includes lymphadenopathic mastocytosis with eosinophilia; mast cell leukaemia (diffuse marrow infiltration, 20% or more mast cells on the aspirate and usually 10% or more of blood white cells; an aleukaemic variant is rare); mast cell sarcoma; and extracutaneous mastocytoma.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9053c8638fefbd4",
+     "n": 121,
+     "p": "[Table 2"
+    },
+    {
+     "h": "c658b53e3dd3d2e7",
+     "n": 82,
+     "p": "[Table 2"
+    },
+    {
+     "h": "7605b21f0927873b",
+     "n": 75,
+     "p": "[Table 2"
+    },
+    {
+     "h": "6e3fda225161e454",
+     "n": 87,
+     "p": "[Table 2"
+    },
+    {
+     "h": "b0d96fe56b135224",
+     "n": 199,
+     "p": "[Table 2"
+    },
+    {
+     "h": "d95326f606d9c734",
+     "n": 275,
+     "p": "[Table 2"
+    },
+    {
+     "h": "ee551425bbddf7f8",
+     "n": 249,
+     "p": "[Table 2"
+    },
+    {
+     "h": "bd00b1bc8e64eec1",
+     "n": 231,
+     "p": "[Table 2"
+    },
+    {
+     "h": "41c15b5fb6a7bbab",
+     "n": 351,
+     "p": "[Table 2"
+    },
+    {
+     "h": "0d2fff89ea52ba66",
+     "n": 171,
+     "p": "[Table 2"
+    },
+    {
+     "h": "25e59b0b3969e70c",
+     "n": 194,
+     "p": "[Table 2"
     }
    ],
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
@@ -226,6 +404,44 @@
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Drugs that directly activate mast cells, to use with caution and only when unavoidable (S1 Table 4):** opioids, neuromuscular blockers, quinolones and vancomycin, iodinated contrast, and NSAIDs. The NSAID risk is not very high: advice is individual, and people already taking them without reactions can carry on.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ddaed24f15c09077",
+     "n": 108,
+     "p": "[Table 4"
+    },
+    {
+     "h": "b5940acc6285f55e",
+     "n": 54,
+     "p": "[Table 4"
+    },
+    {
+     "h": "f8af809fdae3e6cb",
+     "n": 50,
+     "p": "[Table 4"
+    },
+    {
+     "h": "16e6c1f2b6eb8376",
+     "n": 49,
+     "p": "[Table 4"
+    },
+    {
+     "h": "18d82d5b0a0ab6df",
+     "n": 70,
+     "p": "[Table 4"
+    },
+    {
+     "h": "36f2a4a0e87c1cb2",
+     "n": 194,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**No pre-emptive food restrictions are needed:** food allergy is no commoner than in the general population. Vaccinate (including against COVID-19) after same-day antihistamine prophylaxis.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -304,6 +520,89 @@
      "h": "ffa7f917d51360ff",
      "n": 218,
      "p": "Recommen"
+    }
+   ],
+   "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Skin involvement, step by step (S1 Table 3):** for everyone, avoid triggers (mast-cell-activating drugs, allergens, Hymenoptera stings, sudden or extreme temperature changes, rubbing), keep the skin moisturised and protect it from the sun. For lesions, itch and flushing use H1 and H2 antihistamines; for continuous moderate symptoms, a scheduled non-sedating H1 antihistamine with a sedating one on demand, an H2 blocker such as famotidine, and a mast cell stabiliser (ketotifen, with or without cromolyn); for severe symptoms add a leukotriene antagonist such as montelukast. Alternatives: short courses of topical or systemic corticosteroids (skin atrophy, osteopaenia and adrenal suppression with repeated use), pimecrolimus 1% cream twice a day (little evidence), phototherapy as second line, dye or Nd:YAG lasers, and excision of a solitary mastocytoma as third line. Diffuse forms with blistering or life-threatening symptoms may need hospital care.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7564cd23a31d0ab0",
+     "n": 84,
+     "p": "[Table 3"
+    },
+    {
+     "h": "62e5319643e6e099",
+     "n": 321,
+     "p": "[Table 3"
+    },
+    {
+     "h": "e794d4c7a2dbaf7a",
+     "n": 108,
+     "p": "[Table 3"
+    },
+    {
+     "h": "343539d1e07845c4",
+     "n": 67,
+     "p": "[Table 3"
+    },
+    {
+     "h": "bdbaf6595cd571b9",
+     "n": 215,
+     "p": "[Table 3"
+    },
+    {
+     "h": "67c7ce9d82156a1a",
+     "n": 262,
+     "p": "[Table 3"
+    },
+    {
+     "h": "30d7e68dfe1fe342",
+     "n": 130,
+     "p": "[Table 3"
+    },
+    {
+     "h": "b01f0fb3fd7fe5ea",
+     "n": 179,
+     "p": "[Table 3"
+    },
+    {
+     "h": "bc2d0f6437d9795b",
+     "n": 90,
+     "p": "[Table 3"
+    },
+    {
+     "h": "a54f22bf44b094a8",
+     "n": 128,
+     "p": "[Table 3"
+    },
+    {
+     "h": "4ab0a0a01dd96c33",
+     "n": 143,
+     "p": "[Table 3"
+    },
+    {
+     "h": "42142ebb97b6d58b",
+     "n": 159,
+     "p": "[Table 3"
+    },
+    {
+     "h": "3911ff520eeca151",
+     "n": 402,
+     "p": "[Table 3"
+    },
+    {
+     "h": "6bcc51c142653ec4",
+     "n": 170,
+     "p": "[Table 3"
+    },
+    {
+     "h": "9450001e3a022ee3",
+     "n": 166,
+     "p": "[Table 3"
     }
    ],
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"

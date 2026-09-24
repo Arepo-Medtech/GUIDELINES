@@ -1,9 +1,9 @@
 # Acromegaly — treatment goals, medical therapy and monitoring
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** biochemical, imaging and clinical treatment goals after surgery, and the choice, sequence and monitoring of somatostatin receptor ligands, pegvisomant, cabergoline and combinations for adults with acromegaly. Diagnosis (OGTT GH suppression testing) and acromegaly complications are outside this source's scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. Edition 2.0 adds diagnosis (IGF-I, OGTT, pituitary MRI, earlier detection) and remission and follow-up criteria from S2.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **57 fragments or anchors re-checkable by machine; 1 doses.** **S1** Acromegaly Consensus Group (Melmed S (published online 13 August 2025; international): 19 claims, paraphrased, hash-anchored · **S2** Acromegaly Consensus Group (Giustina A (published 3 November 2023 (issue 2024; funding-statement correction PMC10837242); international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **60 fragments or anchors re-checkable by machine; 1 doses.** **S1** Acromegaly Consensus Group (Melmed S (published online 13 August 2025; international): 19 claims, paraphrased, hash-anchored · **S2** Acromegaly Consensus Group (Giustina A (published 3 November 2023 (issue 2024; funding-statement correction PMC10837242); international): 14 claims, quoted
 
 > **Two sources from the same international Acromegaly Consensus Group:** S1 (2025) sets treatment goals, drug choice and monitoring; S2 (2024) sets diagnostic tests, remission criteria and follow-up. No Australian acromegaly guideline was found. Where they differ, both are shown.
 
@@ -20,6 +20,8 @@
 - **Know the assay:** reference ranges differ between IGF-I immunoassays, and a high BMI lowers IGF-I for age. Use the same well-validated IGF-I assay for every assessment, and interpret new rises allowing for pregnancy, oestrogen, starvation and metabolic change. (MQ / SR) [S2]
 - ⚠️ **Measure IGF-I in every newly found pituitary mass,** and consider it for people with classic features (acral enlargement, facial and bite changes), especially with unexplained sleep apnoea or ventricular hypertrophy. Diagnosis is typically delayed 5–10 years or more, which raises comorbidity and mortality and lets the adenoma invade. (SR / DR / HQ) [S2]
 - **Pituitary MRI at diagnosis for everyone:** gadolinium-enhanced, high resolution (1.5T or 3T), T1 and T2 sequences, 2–3 mm slices, reporting invasion by modified Knosp grade. Refer an equivocal microadenoma to an experienced neuroradiologist. (SR) [S2]
+- **Consider referral to a multidisciplinary pituitary centre** when biochemistry, pathology or imaging is equivocal at diagnosis, or when the response to standard treatment is insufficient. (S2 Table 2) [S2]
+- **The OGTT is safe with impaired glucose tolerance or type 2 diabetes;** in uncontrolled diabetes, read both random and post-OGTT GH with caution. (S2 Table 2) [S2]
 
 ## Goals of treatment
 
@@ -55,6 +57,7 @@
 - **After radiotherapy, medical therapy bridges until the radiation works;** once IGF-I is stable in range, pause treatment at least once a year to test for radiation-induced remission. (SR / DR) [S2]
 - **MRI 6 months after starting or switching medical therapy;** otherwise routine MRI is not needed on an SRL with controlled hormones, but image promptly for visual or eye-movement symptoms. Rapid growth or a rising largest diameter means resistance and a change of strategy. (SR) [S1]
 - **S2's MRI schedule:** MRI 3–6 months after surgery as the baseline; then only for biochemical or clinical progression or when a change of modality is considered (such as before repeat surgery or radiotherapy). Regular MRI is not needed for everyone. (SR) [S2]
+- **The SAGIT and ACRODAT scoring tools may help track disease severity and progression over time;** a prospective study of ACRODAT's clinical benefit as a monitoring tool is under way. (S2 Table 2) [S2]
 - **No routine gallbladder ultrasound or ECG is needed on SRLs,** but take care with other QT-prolonging drugs. (DR) [S1]
 - **Cancer screening:** there was no consensus on colonoscopy for everyone at diagnosis; UK gastroenterology guidance suggests regular screening from age 40. Screen for other cancers, including thyroid, as for the general population. (MQ) [S2]
 
@@ -79,7 +82,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 3 | **Diagnostic testing:** S2 now supplies the IGF-I threshold, OGTT protocol and nadir cut-offs; the Endocrine Society of Australia HEDTA manual (local test protocols) was not used. | `observation` |
 | 4 | **Sources differ on MRI after starting medical therapy:** S1 (2025) recommends MRI 6 months after starting or switching medical therapy; S2 (2024) recommends MRI 3–6 months after surgery, then only for progression or a change of modality, and says regular MRI is not needed for everyone. Both are shown; S1 is newer. | `observation` |
 | 5 | **Sources differ on post-operative testing:** S1 recommends basal and OGTT GH plus IGF1 at 3 months; S2 defines remission by IGF-I at 12 weeks and treats OGTT as optional extra information. Both are shown. | `observation` |
-| 6 | **S2's summary tables (Tables 1–4: past and current criteria, evidence grading)** were stripped; only in-text recommendations are quoted. | `input_unavailable` |
+| 6 | **S2's summary tables:** Table 2 (key recommendations) is now extracted; it mostly restates the in-text recommendations already quoted, and its three additions (specialist-centre referral, OGTT in diabetes, SAGIT/ACRODAT) are on the page. Tables 1, 3 and 4 (past and current criteria, evidence grading) have ragged or merged cells and were not extracted, so they stay a gap. | `input_unavailable` |
 | 7 | **Source attribution:** the brief named a 'Pituitary Society' consensus. The fetched article is by the Acromegaly Consensus Group; the text does not name the Pituitary Society as its sponsor. | `observation` |
 | 8 | **Licence:** © Springer Nature, exclusive rights, no open licence. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 | 9 | **Licence (S2):** CC BY 4.0; S2 claims are quoted verbatim with attribution. | `observation` |

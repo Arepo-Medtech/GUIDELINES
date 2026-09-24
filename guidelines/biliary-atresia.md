@@ -1,9 +1,9 @@
 # Biliary atresia
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** screening, diagnosis, Kasai portoenterostomy (KPE), post-operative medical care, nutrition (including MCT-enriched and hydrolysed formulas), liver transplant timing, follow-up, cholangitis and portal hypertension in infants and children with biliary atresia. First assessment of the jaundiced infant: see `jaundice-in-early-infancy`. Other cholestatic causes: see `progressive-familial-intrahepatic-cholestasis`. PBS access (protein hydrolysate formula with MCT) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **54 fragments or anchors re-checkable by machine; 3 doses.** **S1** Ge L (published 4 September 2025; international): 23 claims, paraphrased, hash-anchored · **S2** Davenport M (published 7 November 2022; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **60 fragments or anchors re-checkable by machine; 3 doses.** **S1** Ge L (published 4 September 2025; international): 24 claims, paraphrased, hash-anchored · **S2** Davenport M (published 7 November 2022; international): 11 claims, quoted
 
 > 🌐 **Two sources.** S1 (Chinese Medical Association with international experts, 2025) is the main guideline. **S2** (European RARE-LIVER and BARD networks, 2022) is a position paper built on a 43-respondent practice survey, so it reports expert opinion and current European and North American practice, not graded recommendations. Where they differ, both are shown.
 
@@ -67,6 +67,7 @@
 - ⚠️ **Treat cholangitis aggressively** (fever, loss of bile-coloured stools, irritability): IV third-generation cephalosporin, with or without metronidazole, escalating to a carbapenem if fever lasts beyond 24 hours. [S1]
 - **Portal hypertension:** endoscopy is advised in the fourth year after KPE; after resuscitation for variceal bleeding, start endoscopic treatment straight away; screen with echocardiography for pulmonary hypertension. [S1]
 - **Vaccinate on the routine schedule** unless contraindicated; defer during severe coagulopathy or progressing liver failure, give live vaccines one year after surgery, and complete vaccination before transplant. [S1]
+- **Vaccine timing around steroids and surgery (S1 Table 5):** on high-dose steroids for 14 days or more, give inactivated vaccines at least 2 weeks before starting or once the course has stopped, and live vaccines at least 4 weeks before or 4 weeks after; on a high-dose course shorter than 14 days, inactivated vaccines stay on schedule but live vaccines wait until 2 weeks after it ends; on low-dose steroids, inactivated vaccines are routine and live vaccines follow an individual assessment. Before KPE allow at least 2 days for inactivated and 21 days for live vaccines; before liver transplant, at least 2 and 4 weeks. High dose means prednisone 20 mg/day or more, or above 2 mg/kg/day in children under 10 kg. [S1]
 
 ---
 
@@ -85,7 +86,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables 1-5** (screening and diagnostic tests, post-operative drug doses including steroid and UDCA regimens, micronutrient supplementation, follow-up schedule, vaccines) were stripped; drug doses other than vitamin K are not stated here. | `input_unavailable` |
+| 1 | **S1 Tables 1–4** (screening and diagnostic tests, post-operative drug doses including steroid and UDCA regimens, micronutrient supplementation, follow-up schedule) could not be extracted (merged cells); drug doses other than vitamin K are not stated here. Table 5 (vaccine timing around steroids and surgery) is now covered. | `input_unavailable` |
 | 2 | **Chronic liver failure with fat malabsorption** is attached because the guideline recommends MCT-enriched formula for cholestatic children and hydrolysed MCT formula after KPE; it does not address adults or non-cholestatic liver failure. | `observation` |
 | 3 | **Australian source:** the RCH Melbourne jaundice guideline (see `jaundice-in-early-infancy`) covers recognition only; no Australian biliary atresia management guideline was found. The CC BY RARE-LIVER/BARD position paper (J Clin Med 2022), which covers initial surgical and medical treatment, is now used as S2. | `observation` |
 | 4 | **Laparoscopic KPE:** S1 lets each centre choose open or laparoscopic-assisted KPE by its experience; S2 reports that European and North American centres almost all operate open and that laparoscopy has no shown advantage. Both are shown. | `observation` |

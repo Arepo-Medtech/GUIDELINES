@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/maple-syrup-urine-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Rostampour N, Dalili S, Moravej H, et al., Orphanet Journal of Rare Diseases 'Comprehensive Iranian guidelines for the diagnosis and management of maple syrup urine disease: an evidence- and consensus- based approach' (vol. 20, article 8, published 7 January 2025), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11707931 ('licensed under a Creative Commons Attribution 4.0 International License')). S2: PARAPHRASED AND HASH-ANCHORED from Genetic Metabolic Dietitians International (GMDI) and the Southeast Regional Genetics Network (SERN), Management Guidelines Portal 'MSUD Nutrition Management Guidelines, Second Edition (v2.1)' (second edition October 2024, v2.1, updated March 2026), 10 claims; LICENCE: No licence or reproduction permission stated on the portal (disclaimer page read); treated as all rights reserved (read at https://managementguidelines.net/guidelines.php/148/disclaim/0/0/MSUD and the portal footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the GMDI/SERN MSUD nutrition guideline (second edition of Frazier et al. 2014), read on GMDI's own free portal: recommendation, monitoring and table pages fetched and tag-stripped into one text. Its Tables 4 and 6 survived as text and are anchored. The S1 claims and fragments are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Rostampour N, Dalili S, Moravej H, et al., Orphanet Journal of Rare Diseases 'Comprehensive Iranian guidelines for the diagnosis and management of maple syrup urine disease: an evidence- and consensus- based approach' (vol. 20, article 8, published 7 January 2025), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11707931 ('licensed under a Creative Commons Attribution 4.0 International License')). S2: PARAPHRASED AND HASH-ANCHORED from Genetic Metabolic Dietitians International (GMDI) and the Southeast Regional Genetics Network (SERN), Management Guidelines Portal 'MSUD Nutrition Management Guidelines, Second Edition (v2.1)' (second edition October 2024, v2.1, updated March 2026), 10 claims; LICENCE: No licence or reproduction permission stated on the portal (disclaimer page read); treated as all rights reserved (read at https://managementguidelines.net/guidelines.php/148/disclaim/0/0/MSUD and the portal footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the GMDI/SERN MSUD nutrition guideline (second edition of Frazier et al. 2014), read on GMDI's own free portal: recommendation, monitoring and table pages fetched and tag-stripped into one text. Its Tables 4 and 6 survived as text and are anchored. The S1 claims and fragments are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (phenotypes) and Table 3 (daily intakes by age). S1 Tables 2 and 4 (ragged rows) were not extracted.",
  "summary": {
-  "total": 28,
-  "pass": 18,
+  "total": 30,
+  "pass": 20,
   "fail": 0,
   "pass_paraphrase_anchored": 10
  },
@@ -44,6 +44,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Molecular genetic testing is the preferred confirmatory test for MSUD. … Every patient who is highly suspicious of MSUD according to plasma amino acid levels should be treated immediately. Management of the patients should not be delayed while awaiting the molecular genetic result",
+   "locator": "Rostampour N, Dalili S, Moravej H, et al., Orphanet Journal of Rare Diseases, 'Comprehensive Iranian guidelines for the diagnosis and management of maple syrup urine disease: an evidence- and consensus- based approach', vol. 20, article 8, published 7 January 2025, https://doi.org/10.1186/s13023-025-03533-6, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Phenotypes (S1 Table 1), by residual BCKD activity:** classic, newborn onset, 0-2%, crises in the newborn period and with catabolic stress; intermediate, infancy to childhood, 3-30%, crises with catabolic stress; intermittent, 5-20%, normal BCAAs when well but episodic decompensations that can be severe; thiamine-responsive, 2-40%, better leucine tolerance with thiamine alongside diet; E3 deficiency, newborn, with persistent lactic acidosis, high pyruvate and alanine and only moderately raised BCAAs.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 1] Clinical phenotypes: Classic · Age of onset 1: Newborn · Severity: Moderate to severe · Acute metabolic decompensation: Yes (newborn period and with catabolic stress) · Response t0 thiamine: No · Clinical features: Maple syrup odor of cerumen Poor feeding Irritability, lethargy Opisthotonus Focal dystonia \"Fencing,\" \"bicycling\" Obtundation, coma Central respiratory failure · Biochemical signs: ↑ BCAAs in plasma ↑ plasma alloisoleucine ↑ BCKAs in urine Ketonuria · % Residual BCKD activity 2: 0-2% … [Table 1 row 2] Clinical phenotypes: Intermediate · Age of onset 1: Infancy to childhood · Severity: Moderate to severe · Acute metabolic decompensation: Yes (with catabolic stress) · Response t0 thiamine: No · Clinical features: Maple syrup odor of cerumen Poor growth Poor feeding Irritability Developmental delays Encephalopathy during illness Neurologic symptoms · Biochemical signs: Similar to classic phenotype, though quantitatively less severe · % Residual BCKD activity 2: 3-30% … [Table 1 row 3] Clinical phenotypes: Intermittent · Age of onset 1: Infancy to childhood, or adulthood (rare) · Severity: Mild to moderate · Acute metabolic decompensation: Rare · Response t0 thiamine: No · Clinical features: Normal early growth & development Learning disability Neurological symptoms Episodic decompensations that can be severe · Biochemical signs: Normal BCAAs when the patient is well similar to the classic biochemical profile during illness · % Residual BCKD activity 2: 5-20% … [Table 1 row 4] Clinical phenotypes: Thiamine responsive · Age of onset 1: Infancy to childhood · Severity: Moderate · Acute metabolic decompensation: Rare · Response t0 thiamine: In conjunction with dietary therapy · Clinical features: Similar to intermediate phenotype · Biochemical signs: Improvement of leucine tolerance & biochemical profile with thiamine therapy · % Residual BCKD activity 2: 2-40% … [Table 1 row 5] Clinical phenotypes: E3 ² · Age of onset 1: Newborn · Severity: Moderate · Acute metabolic decompensation: rare · Response t0 thiamine: No · Clinical features: hypotonia and developmental delay · Biochemical signs: persistent lactic acidosis with high levels of plasma pyruvate and alanine. Plasma BCAA concentrations are moderately increased. · % Residual BCKD activity 2: Not known",
    "locator": "Rostampour N, Dalili S, Moravej H, et al., Orphanet Journal of Rare Diseases, 'Comprehensive Iranian guidelines for the diagnosis and management of maple syrup urine disease: an evidence- and consensus- based approach', vol. 20, article 8, published 7 January 2025, https://doi.org/10.1186/s13023-025-03533-6, retrieved 2026-09-23"
   },
   {
@@ -234,6 +241,14 @@
     }
    ],
    "locator": "Genetic Metabolic Dietitians International (GMDI) and the Southeast Regional Genetics Network (SERN), Management Guidelines Portal, 'MSUD Nutrition Management Guidelines, Second Edition (v2.1)', second edition October 2024, v2.1, updated March 2026, https://managementguidelines.net/guidelines.php/148/MSUD, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **S1's daily intakes for well patients (S1 Table 3), per kg:** 0–6 months leucine 40–100 mg, isoleucine 30–90 mg, valine 40–95 mg, protein 2.5–3.5 g, energy 95–145 kcal, fluid 125–160 mL; 7–12 months leucine 40–75 mg, protein 2.5–3.0 g; 1–3 years leucine 40–70 mg, protein 1.5–2.5 g; 4–8 years leucine 35–65 mg, protein 1.3–2.0 g; 9–13 years leucine 30–60 mg, protein 1.2–1.8 g; 14–18 years leucine 15–50 mg, protein 1.2–1.8 g; 19 years leucine 15–50 mg, protein 1.1–1.7 g.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3] Recommended daily nutrient intake of BCAA, PRO, Energy, and fluids for non-symptomatic individuals with MSUD [Table 3 row 1] Age: 0-6 months · LEU (mg/kg): 40-100 · ILE (mg/kg): 30-90 · VAL (mg/kg): 40-95 · Protein (g/kg): 2.5-3.5 · Energy (kcal/kg): 95-145 · Fluid (mL/kg): 125-160 [Table 3 row 2] Age: 7-12 months · LEU (mg/kg): 40-75 · ILE (mg/kg): 30-70 · VAL (mg/kg): 30-80 · Protein (g/kg): 2.5-3.0 · Energy (kcal/kg): 80-135 · Fluid (mL/kg): 125-145 [Table 3 row 3] Age: 1-3 years · LEU (mg/kg): 40-70 · ILE (mg/kg): 20-70 · VAL (mg/kg): 30-70 · Protein (g/kg): 1.5-2.5 · Energy (kcal/kg): 80-130 · Fluid (mL/kg): 115-135 [Table 3 row 4] Age: 4-8 years · LEU (mg/kg): 35-65 · ILE (mg/kg): 20-30 · VAL (mg/kg): 30-50 · Protein (g/kg): 1.3-2.0 · Energy (kcal/kg): 50-120 · Fluid (mL/kg): 90-115 [Table 3 row 5] Age: 9-13 years · LEU (mg/kg): 30-60 · ILE (mg/kg): 20-30 · VAL (mg/kg): 25-40 · Protein (g/kg): 1.2-1.8 · Energy (kcal/kg): 40-90 · Fluid (mL/kg): 70-90 [Table 3 row 6] Age: 14-18 years · LEU (mg/kg): 15-50 · ILE (mg/kg): 10-30 · VAL (mg/kg): 15-30 · Protein (g/kg): 1.2-1.8 · Energy (kcal/kg): 35-70 · Fluid (mL/kg): 40-60 [Table 3 row 7] Age: 19 years · LEU (mg/kg): 15-50 · ILE (mg/kg): 10-30 · VAL (mg/kg): 15-30 · Protein (g/kg): 1.1-1.7 · Energy (kcal/kg): 35-45 · Fluid (mL/kg): 40-50",
+   "locator": "Rostampour N, Dalili S, Moravej H, et al., Orphanet Journal of Rare Diseases, 'Comprehensive Iranian guidelines for the diagnosis and management of maple syrup urine disease: an evidence- and consensus- based approach', vol. 20, article 8, published 7 January 2025, https://doi.org/10.1186/s13023-025-03533-6, retrieved 2026-09-23",
    "dose": true
   },
   {

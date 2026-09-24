@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/spinal-muscular-atrophy-later-onset.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations' (published online 8 October 2024 (February 2025 issue)), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11464225). S2: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041 'Risdiplam for spinal muscular atrophy' (published 7 July 2022), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9427635). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, Cure SMA panel 2024) unchanged and adds S2, the Australian Prescriber new drug comment on risdiplam, for the dose, pharmacology, reproductive safety and the older-patient trial result. No Australian later-onset SMA treatment guideline exists (the Australasian Neuromuscular Network signposts the international standards of care). Searches 2026-09-24: Europe PMC for SMA in adults or later-onset with consensus/guideline/recommendation/standards of care (2020-2026), and Australian Prescriber (ISSN 0312-8008) for spinal muscular atrophy; the nusinersen comment (2019) has no open full text in Europe PMC.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations' (published online 8 October 2024 (February 2025 issue)), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11464225). S2: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041 'Risdiplam for spinal muscular atrophy' (published 7 July 2022), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9427635). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, Cure SMA panel 2024) unchanged and adds S2, the Australian Prescriber new drug comment on risdiplam, for the dose, pharmacology, reproductive safety and the older-patient trial result. No Australian later-onset SMA treatment guideline exists (the Australasian Neuromuscular Network signposts the international standards of care). Searches 2026-09-24: Europe PMC for SMA in adults or later-onset with consensus/guideline/recommendation/standards of care (2020-2026), and Australian Prescriber (ISSN 0312-8008) for spinal muscular atrophy; the nusinersen comment (2019) has no open full text in Europe PMC. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 5 (education and resources). S1 Table 3 (recommendation summary) was extracted and repeats claims already shown, apart from Recommendation 2 on newly diagnosed patients (SMN2 copy number and age), which belongs to `spinal-muscular-atrophy`; Tables 1, 2 and 4 (ragged rows) and 7 (no header row) were not extracted.",
  "summary": {
-  "total": 28,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 28
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -431,6 +431,19 @@
      "h": "cb7d8a93a01fe099",
      "n": 173,
      "p": "guidance"
+    }
+   ],
+   "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What to cover with patients and families (S1 education table):** the cause, genetics and course of SMA with and without treatment, the organs it affects and its supportive care (breathing, nutrition, bone and gut health, rehabilitation, orthopaedics, psychosocial and acute care, routine immunisation and check-ups, exercise); for each drug, how it works, its route and frequency, trial results, benefits, side effects and required monitoring; how access and funding work; realistic expectations, shared decisions, time and travel, cost and cultural factors; and what is still unknown. Name a care coordinator and team, and offer psychosocial counselling, help with the access process, and advocacy and peer-support groups.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0c917d8678f8974",
+     "n": 1854,
+     "p": "[Table 5"
     }
    ],
    "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-23"

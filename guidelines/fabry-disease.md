@@ -1,9 +1,9 @@
 # Fabry disease in adults — diagnosis, screening and when to start or stop specific therapy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspecting and confirming Fabry disease, family and at-risk screening, indications and contraindications for enzyme replacement therapy (ERT) or migalastat, stopping therapy, adjunctive kidney care and monitoring in adults. Paediatric Fabry disease is outside this source's adult sections. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **49 fragments or anchors re-checkable by machine; 1 doses.** **S1** Committee for Rare Diseases (Comdora) (published 2022; international): 16 claims, quoted · **S2** Nicholls K (published June 2024; AU): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **63 fragments or anchors re-checkable by machine; 1 doses.** **S1** Committee for Rare Diseases (Comdora) (published 2022; international): 20 claims, quoted · **S2** Nicholls K (published June 2024; AU): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Brazilian Society of Nephrology, 2022). Australian practice follows the PBS listings below and may differ.
 
@@ -20,10 +20,12 @@
 - 🇦🇺 **Classify every confirmed patient by phenotype and sex** into four groups: classical male, classical female, non-classical male, non-classical female. If the criteria cannot be applied, the Fabry specialist makes the final call, and an expert in Fabry genetics should interpret any GLA variant of uncertain significance. [S2]
 - 🇦🇺 **A kidney biopsy is not needed to diagnose non-classical Fabry disease;** keep it for ruling out other treatable kidney disease or for a GLA variant of uncertain significance. [S2]
 - **Screen at-risk groups:** unexplained proteinuria or albuminuria, dialysis (CKD 5D), hypertrophic cardiomyopathy, or stroke/TIA without another cause. After an index case, build a pedigree of at least three generations and test every relative. [S1]
+- **Screening indications (S1 Table 3): not the general population.** Screen families from an index case, and people of any age, females included, with kidney, heart or neurological disease or symptoms suggesting Fabry disease without a defined cause. Get consent on a proper form first, and involve a Fabry specialist when genetic-test questions arise. [S1]
 
 ## When to start specific therapy
 
 - **Classic disease (males and females): treat as soon as there are early signs of Fabry-related organ involvement.** (Class I) ERT should be offered to classic males from age seven even without symptoms. (Class IIa) [S1]
+- ⚠️ **S1's start table (Table 6) puts it differently for classic males:** therapy must be considered for all, symptomatic or not, at any age of presentation (the text above says from age seven; see Unresolved). [S1]
 - ⚠️ 🇦🇺 **Australian consensus: consider Fabry-specific therapy for classical males at any age,** because all of them develop organ involvement; start early to avoid irreversible organ damage. (S1 sets age seven for asymptomatic classic males.) [S2]
 - 🇦🇺 **Classical females: treat when Fabry disease has injured the kidney, heart or central nervous system, or when its symptoms significantly reduce quality of life.** [S2]
 - 🇦🇺 **Non-classical disease (male or female): treat when there is Fabry-attributable injury to the kidney, heart or brain.** Without tissue pathology or symptoms, therapy may not be appropriate; a multidisciplinary Fabry team should monitor instead. [S2]
@@ -32,6 +34,7 @@
 - **Symptomatic females: always treat. Asymptomatic females: treat if there is kidney injury** (GFR below 90 mL/min/1.73m², albumin-to-creatinine ratio persistently above 30 mg/g, or biopsy changes). [S1]
 - **Kidney criteria in males:** treat albuminuria/proteinuria (ACR above 30 mg/g) and/or mild-to-moderate Fabry CKD (GFR above 60). (Class I) Podocyte GL3 deposits on biopsy are an indication even without proteinuria. (Class I) [S1]
 - **Variant of uncertain significance:** treat adults with biochemical or biopsy evidence of Fabry kidney involvement. (Class IIb) **Over 50 years:** age alone does not rule treatment out; decide individually. [S1]
+- **Late-onset disease or VUS (S1 Table 6):** therapy is appropriate with workup, histology or imaging evidence of kidney injury linked to Fabry disease, even without typical symptoms. Do not treat well-characterised benign polymorphisms; without tissue involvement or symptoms, therapy may not be appropriate, especially in females. [S1]
 - **Patients who do not meet criteria yet** need periodic review for organ involvement and treatment once it appears. [S1]
 
 ## Choosing therapy
@@ -45,6 +48,7 @@
 ## Contraindications and stopping
 
 - **Do not start therapy** in CKD 4–5 not eligible for transplant with NYHA IV heart failure, or with advanced disease and life expectancy under a year. IgE antibodies to agalsidase are generally an absolute contraindication. [S1]
+- **Contraindications with their classes (S1 Table 7):** CKD not eligible for transplant with NYHA class IV heart failure (IIa); stage 5 CKD where the kidney is the main indication (IIa); life expectancy under a year from advanced Fabry disease or other illness (IIb); severe cognitive decline of any cause (IIb); other situations where benefit does not outweigh burden (III); and IgE-associated anaphylaxis to ERT (III). [S1]
 - ⚠️ **Pregnancy:** a relative contraindication for ERT; migalastat is contraindicated. Advise women to stop before conceiving and while breastfeeding, and to use contraception. [S1]
 - **Stop or change therapy for poor adherence (missing over 50% of infusions), loss to follow-up, unwillingness, or severe ERT reactions.** (Class I) [S1]
 
@@ -70,13 +74,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables 1–9** (diagnostic criteria, screening indications, drug doses and indications, start criteria for females, contraindications, kidney goals and the monitoring schedule) were stripped at extraction; only the in-text statements are anchored. | `input_unavailable` |
-| 2 | **Pegunigalsidase alfa**, the PBS-listed ERT from 1 August 2026, is not covered by this 2022 source. | `input_unavailable` |
-| 3 | **Australian funding context:** the Department of Health LSDP Fabry guidelines (22 July 2026) state that no new patients start under the LSDP from 1 August 2026. Their eligibility text was not used (non-commercial licence, and it funds agalsidase only). | `observation` |
-| 4 | **S1 and S2 disagree on when to start.** S1 (Brazil 2022) offers ERT to asymptomatic classic males from age seven and uses different kidney thresholds for asymptomatic females (GFR below 90, ACR above 30 mg/g); S2 (Australia 2024) proposes therapy for classical males at any age and heart, kidney or CNS injury criteria that do not differ by sex. Neither is the current PBS rule. | `observation` |
-| 5 | **S2 predates the August 2026 PBS change:** it discusses agalsidase alfa and beta and migalastat under the LSDP, not pegunigalsidase alfa. | `observation` |
-| 6 | **Source choice:** the European Fabry Working Group ERT start/stop consensus (2015, CC BY) was read but not used: its criteria sit in tables that were stripped, and it predates migalastat. | `observation` |
-| 7 | **Licence:** CC BY, read from the Europe PMC fullTextXML <license> element. Claims are quoted verbatim with attribution. | `observation` |
+| 1 | **S1 tables:** Tables 3 (screening indications), 6 (start criteria) and 7 (contraindications) are now appended row by row and used above. **Tables 1, 2, 4, 5, 8 and 9** (diagnostic criteria, drug doses and indications, kidney goals and the monitoring schedule among them) have merged cells or ragged rows and were not extracted; they stay gaps, and only the in-text statements cover them. | `input_unavailable` |
+| 2 | **S1 disagrees with itself on classic males:** its text offers ERT to asymptomatic classic males from age seven (Class IIa); its Table 6 says therapy must be considered at any age of presentation, which matches S2. Both are shown. | `observation` |
+| 3 | **Pegunigalsidase alfa**, the PBS-listed ERT from 1 August 2026, is not covered by this 2022 source. | `input_unavailable` |
+| 4 | **Australian funding context:** the Department of Health LSDP Fabry guidelines (22 July 2026) state that no new patients start under the LSDP from 1 August 2026. Their eligibility text was not used (non-commercial licence, and it funds agalsidase only). | `observation` |
+| 5 | **S1 and S2 disagree on when to start.** S1 (Brazil 2022) offers ERT to asymptomatic classic males from age seven and uses different kidney thresholds for asymptomatic females (GFR below 90, ACR above 30 mg/g); S2 (Australia 2024) proposes therapy for classical males at any age and heart, kidney or CNS injury criteria that do not differ by sex. Neither is the current PBS rule. | `observation` |
+| 6 | **S2 predates the August 2026 PBS change:** it discusses agalsidase alfa and beta and migalastat under the LSDP, not pegunigalsidase alfa. | `observation` |
+| 7 | **Source choice:** the European Fabry Working Group ERT start/stop consensus (2015, CC BY) was read but not used: its criteria sit in tables that were stripped, and it predates migalastat. | `observation` |
+| 8 | **Licence:** CC BY, read from the Europe PMC fullTextXML <license> element. Claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 

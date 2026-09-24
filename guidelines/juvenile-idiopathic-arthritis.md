@@ -1,9 +1,9 @@
 # Juvenile idiopathic arthritis
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** children and young people with JIA, specialist-led care: methotrexate, JIA-associated uveitis after methotrexate, glucocorticoids (systemic and intra-articular), tapering DMARDs, foot orthoses and exercise. The living guideline answers selected questions only; it does **not** cover first biologic choice for polyarticular JIA, IL-1/IL-6 treatment of systemic JIA, or enthesitis-related arthritis. Systemic JIA (Still's disease) diagnosis, treatment and macrophage activation syndrome come from S2 (EULAR/PReS 2024). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **61 fragments or anchors re-checkable by machine; 6 doses.** **S1** Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network (version 3.1 published 22 October 2025; AU): 19 claims, paraphrased, hash-anchored · **S2** EULAR/PReS task force (Fautrel B (published 24 September 2024; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **62 fragments or anchors re-checkable by machine; 6 doses.** **S1** Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network (version 3.1 published 22 October 2025; AU): 19 claims, paraphrased, hash-anchored · **S2** EULAR/PReS task force (Fautrel B (published 24 September 2024; international): 13 claims, paraphrased, hash-anchored
 
 > ⚠️ **Partial coverage.** In S1 (the Australian living guideline), systemic JIA appears only in the DMARD-tapering evidence. First-line treatment of systemic JIA, its targets and macrophage activation syndrome come from **S2 (EULAR/PReS 2024)**.
 
@@ -51,6 +51,7 @@
 ## Systemic JIA (Still's disease): recognise (S2, EULAR/PReS 2024)
 
 - **Systemic JIA and adult-onset Still's disease are one disease, now called Still's disease.** Clues: spiking fever of 39°C or more lasting at least a week; a fleeting salmon-pink rash, mostly on the trunk, that comes with the fever; joint or muscle pain; and high neutrophils, ESR, CRP and ferritin. **Arthritis is not needed for the diagnosis** and may come later. [S2]
+- **Classification criteria sets (S2 Table 2), mainly for research:** ILAR, age under 16 with arthritis for more than 6 weeks and fever for more than 2 weeks, plus at least one of rash, lymphadenopathy, liver or spleen enlargement, or serositis (sensitivity 93.1%); CARRA, the same features with age under 19 and arthritis for more than 1 week (91.1%); PRINTO, age under 18 with fever for more than 2 weeks plus rash and/or arthritis and supporting features, so arthritis is not required (98.2%). The Yamaguchi and Fautrel sets classify adult-onset disease. The typical rash is maculopapular, non-itchy and salmon-pink, appearing with the fever spikes. [S2]
 - **A marked rise in serum IL-18 and/or S100 proteins (such as calprotectin) strongly supports the diagnosis;** test if available. Carefully exclude cancer, infection, other immune-mediated disease and monogenic autoinflammatory disorders. [S2]
 
 ## Systemic JIA (Still's disease): treat (S2, EULAR/PReS 2024)
@@ -89,7 +90,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Systemic JIA first-line treatment** (IL-1 or IL-6 blockade, e.g. tocilizumab) and **macrophage activation syndrome** are not covered by S1; they now come from the EULAR/PReS 2024 Still's disease recommendations (S2, CC BY-NC-ND per the fetched XML, not CC BY-NC as first recorded). | `observation` |
 | 2 | **PBS divergence:** S2 treats IL-1 and IL-6 inhibitors alike and often starts with anakinra, but tocilizumab is the only PBS-listed drug for systemic JIA; anakinra, canakinumab and emapalumab are outside that listing. | `observation` |
 | 3 | **Tapering timing differs:** S1 (all JIA) asks for at least 12 months of stable low activity before tapering; S2 (Still's disease) allows biologic tapering after 3–6 months of inactive disease off steroids, and its own algorithm says at least 6 months. Both are shown. | `observation` |
-| 4 | **S2's tables and supplementary tables** (classification criteria, IL-1/IL-6 inhibitor safety, tapering schedules, MAS criteria and treatments) were not read; tocilizumab and canakinumab doses are in none of the sources. | `input_unavailable` |
+| 4 | **S2's classification-criteria table (Table 2)** is now covered from the appended rows; its Tables 1 and 4 have merged cells and were not extracted, and its supplementary tables (IL-1/IL-6 inhibitor safety, tapering schedules, MAS criteria and treatments) were not read; tocilizumab and canakinumab doses are in none of the sources. | `input_unavailable` |
 | 5 | **Enthesitis/spondylitis-related JIA** (PBS row with adalimumab) is not addressed as a subtype by this source, so it is not listed in `pbs_conditions`. | `out_of_scope` |
 | 6 | **Biologic choice for polyarticular JIA after methotrexate** is not a question the living guideline answers; the ACR 2021 JIA guideline is not free to read (research: unusable). | `out_of_scope` |
 | 7 | **Licence:** © ANZMUSC, non-commercial personal/internal reproduction only. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |

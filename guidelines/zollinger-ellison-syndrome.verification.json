@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/zollinger-ellison-syndrome.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines 'Current Medical Controversies in Zollinger–Ellison Syndrome' (2025), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12730841). S2: PARAPHRASED AND HASH-ANCHORED from Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848) 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms' (published 8 September 2023 (2022 consensus)), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10586833). Verify each source separately: verify.py --source <file> --only-source S<n>. The ENETS 2023 guidance paper for functioning pancreatic NET syndromes (J Neuroendocrinol, DOI 10.1111/jne.13318, CC BY-NC-ND) was the preferred source but the Wiley page returned a bot challenge (HTTP 403), which was not bypassed; this review summarises its gastrinoma diagnostic recommendations. Edition 2.0 adds S2, the Chinese Medical Association national consensus on pancreatic NENs (gastrinoma diagnosis, surgery and follow-up); S1 claims and anchors are unchanged. On 2026-09-24 every open copy of ENETS 2023 that Unpaywall lists was retried and none could be read: Wiley pdfdirect (HTTP 403 bot challenge), Erasmus University Pure PDF (Cloudflare challenge), Sapienza IRIS PDF (Cloudflare challenge), BORIS Bern and Uppsala DiVA (Anubis proof-of-work challenge); none was bypassed. No open NANETS gastrinoma guideline was found (Europe PMC).",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines 'Current Medical Controversies in Zollinger–Ellison Syndrome' (2025), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12730841). S2: PARAPHRASED AND HASH-ANCHORED from Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848) 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms' (published 8 September 2023 (2022 consensus)), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10586833). Verify each source separately: verify.py --source <file> --only-source S<n>. The ENETS 2023 guidance paper for functioning pancreatic NET syndromes (J Neuroendocrinol, DOI 10.1111/jne.13318, CC BY-NC-ND) was the preferred source but the Wiley page returned a bot challenge (HTTP 403), which was not bypassed; this review summarises its gastrinoma diagnostic recommendations. Edition 2.0 adds S2, the Chinese Medical Association national consensus on pancreatic NENs (gastrinoma diagnosis, surgery and follow-up); S1 claims and anchors are unchanged. On 2026-09-24 every open copy of ENETS 2023 that Unpaywall lists was retried and none could be read: Wiley pdfdirect (HTTP 403 bot challenge), Erasmus University Pure PDF (Cloudflare challenge), Sapienza IRIS PDF (Cloudflare challenge), BORIS Bern and Uppsala DiVA (Anubis proof-of-work challenge); none was bypassed. No open NANETS gastrinoma guideline was found (Europe PMC). Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 4 (summary of controversies: PPI monitoring, type 2 gastric carcinoids) and S2 Table 1 (functioning pNEN features) and Table 6 (its somatostatin analogue doses). S1 Tables 1 and 3 (no header row) and S2 Tables 2 and 4 (ragged rows) could not be extracted.",
  "summary": {
-  "total": 28,
-  "pass": 19,
+  "total": 32,
+  "pass": 21,
   "fail": 0,
-  "pass_paraphrase_anchored": 9
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -38,6 +38,31 @@
    "verdict": "pass",
    "source_text": "Multiple Endocrine Neoplasia type 1 (MEN1) (MEN1/ZES), which is 20-25% of all ZES patients … MEN1/ZES patients have, in the vast majority, multiple, frequently small gastrinomas in the duodenum associated with >50% having lymph node metastases, resulting in them having a very low surgical cure rate",
    "locator": "Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines, 'Current Medical Controversies in Zollinger–Ellison Syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**MEN1/ZES and type 2 gastric carcinoids (S1 summary table):** usually managed by watching and waiting and/or removing the larger polypoid lesions; they become more numerous over time and are more often malignant than type 1, and their natural history is largely unknown.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 3] Controversy: III. MEN1/ZES: Manage Type 2 gastric carcinoids · Current Status: Usually watch/wait approach and/or removal of larger gastric polypoid lesions performed. Multiple lesions increase with time, and higher malignancy rate than type 1, increasing problem as no longer due to total gastrectomy. Natural history largely unknown. · Possible Resolution in Future: Prospective studies of patients with Type 2 gastric carcinoids for natural history and treatment are needed.",
+   "locator": "Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines, 'Current Medical Controversies in Zollinger–Ellison Syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Gastrinomas account for 20–50% of functioning pancreatic NENs (S2 Table 1)** and present as ZES: refractory peptic ulcer, reflux symptoms, abdominal pain and diarrhoea.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0228b747b8a2f199",
+     "n": 55,
+     "p": "[Table 1"
+    },
+    {
+     "h": "0a751a706df839f4",
+     "n": 210,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ Hyperparathyroidism is present in >95% of MEN1/ZES patients and can increase gastrin release and acid output and make acid harder to suppress medically.",
@@ -190,6 +215,20 @@
    "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
   },
   {
+   "claim": "⚠️ **Somatostatin analogue doses (S2, all pNENs):** lanreotide 120 mg or long-acting octreotide 20–30 mg every 4 weeks, adding short-acting octreotide 100–250 mg three times a day when symptoms need more control. In a functioning tumour the analogue is kept going even if disease progresses on it (it is stopped in non-functioning tumours).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "405b766318f1e0d5",
+     "n": 359,
+     "p": "However,"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Sporadic, locoregional functioning pNENs should be resected more actively** to relieve hormone symptoms, lower drug requirements and improve survival. Gastrinomas carry a higher malignant potential, so formal resection with regional lymph node dissection is advised; for tumours under 2 cm, local resection with node dissection is an option.",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -272,6 +311,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "In all the patients the serum VB12 level increased by a mean of 34% (p = 0.003) … suggests that VB12 deficiency can be easily avoided in these patients with the concomitant use of oral multivitamins",
+   "locator": "Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines, 'Current Medical Controversies in Zollinger–Ellison Syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**On prolonged treatment, check vitamin, electrolyte and iron status periodically and encourage a daily multivitamin** (S1 summary table). The authors also call for wider referral to NET centres experienced in acid control and for acid output testing to be more widely available.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4] Summary of status (current/future needs) of unclear medical controversies in ZES discussed above. … [Table 4 row 1] Controversy: Control acid hypersecretion/anti-secretory drug side effects · Current Status: Increasing reports of difficulty controlling active hypersecretion long-term. Increasing reports of acid antisecretory drug side-effects, VB12 def, hypomagnesemia, etc. · Possible Resolution in Future: Increased referral of possible and established ZES patients to established NET/pNET centers with expertise in managing acid hypersecretion would greatly help. With prolonged treatment patients should be periodically assessed for vitamin/electrolyte/iron status and encouraged to take a daily MVI as well. Acid output testing in some specialty centers should be more widely available.",
    "locator": "Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines, 'Current Medical Controversies in Zollinger–Ellison Syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/, retrieved 2026-09-23"
   }
  ]

@@ -1,9 +1,9 @@
 # Chronic myeloid leukaemia in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, risk, molecular monitoring and milestones, resistance testing, first-line and later-line TKI choice and dosing, advanced phase, allogeneic transplant, treatment-free remission and parenting for adults with CML. Paediatric CML is outside the source's scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **92 fragments or anchors re-checkable by machine; 10 doses.** **S1** European LeukemiaNet (Apperley JF (published 11 July 2025; international): 23 claims, quoted · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (362, 363 and 1238 are on as-required review; 4283 review due 30 June 2027; 1891 review due 30 June 2028); AU): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 38 claims; **96 fragments or anchors re-checkable by machine; 10 doses.** **S1** European LeukemiaNet (Apperley JF (published 11 July 2025; international): 26 claims, quoted · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (362, 363 and 1238 are on as-required review; 4283 review due 30 June 2027; 1891 review due 30 June 2028); AU): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (European LeukemiaNet, 2025) as S1. Australian practice follows the PBS listings below and may differ.
 
@@ -16,6 +16,7 @@
 ## Diagnosis and risk
 
 - **At diagnosis:** marrow morphology and chromosome banding analysis, plus RT-PCR on blood or marrow to stage the disease, find additional chromosomal abnormalities and identify the transcript type for later monitoring. Do not test for BCR::ABL1 kinase mutations at diagnosis in chronic phase; use targeted NGS for patients presenting in or progressing to blast phase. [S1]
+- **Also at diagnosis (Table 1):** full blood count, biochemistry with a lipid profile, HbA1c, hepatitis B serology, an ECG, and spleen and liver size in cm below the costal margin. About 7% of patients presenting in chronic phase have additional chromosomal abnormalities. [S1]
 - **Use the ELTS score** (it replaces Sokal, Euro and EUTOS) and treat high-risk additional chromosomal abnormalities as a warning sign in chronic phase. WHO 2022 dropped accelerated phase and defines blast phase as >20% blasts; the ELN panel could not fully endorse either the WHO or the older classification. [S1]
 
 ## Monitoring and milestones
@@ -27,10 +28,15 @@
 - **Unfavourable milestones in older or comorbid patients** may justify a more conservative approach, but for fit patients (including many over 60) and those pursuing treatment-free remission, mutation analysis and a TKI switch remain the recommendation. [S1]
 - **Australian monitoring on imatinib (S2):** baseline FBC, EUC, eGFR, LFTs, TSH and INR, and hepatitis B serology (HBsAg, anti-HBc, anti-HBs); FBC every week during the first month and fortnightly during the second, then every 2 to 3 months; LFTs monthly. RQ-PCR every 3 months until MMR, then every 3 to 6 months, more often if response is suboptimal. [S2]
 
+## Molecular response levels
+
+- **Molecular response levels on the International Scale (Table 3):** BCR::ABL1IS ≤1% is equivalent to complete cytogenetic remission; MMR ≤0.1%; MR4 ≤0.01%; MR4.5 ≤0.0032%; MR5 ≤0.001%. A sample needs at least 10,000 ABL1 (or 24,000 GUSB) control transcripts to score MR4 or shallower; MR4.5 needs 32,000 ABL1 or 77,000 GUSB, and MR5 needs 100,000 ABL1 or 240,000 GUSB. [S1]
+
 ## Resistance and mutation testing
 
 - **About 15–20% respond unfavourably to first-line TKI** (up to 50% in later lines). Always consider poor adherence first. [S1]
 - **Test for BCR::ABL1 mutations** on resistance or a 'warning' response, on progression to or presentation in blast phase, and on relapse after allograft if a mutation was present before; **not** after loss of MMR following a TFR attempt. cDNA-based NGS is preferred; Sanger sequencing is acceptable where NGS is unavailable. [S1]
+- ⚠️ **TKI choice by BCR::ABL1 mutation (Table 5):** T315I: ponatinib or asciminib. Y253H: dasatinib, bosutinib, ponatinib or asciminib. E255K/V: dasatinib, ponatinib or asciminib. V299L: nilotinib, ponatinib or asciminib. F317L/V/I/C or T315A: nilotinib, bosutinib, ponatinib or asciminib. F359V/I/C: dasatinib or ponatinib. M244V: nilotinib, dasatinib, bosutinib or ponatinib. The other listed mutations (A337V/T, L340Q, A344P, A433D, G463D/S, P465S/Q, V468F, F497L, I502L/N, V506L/M): any ATP-competitive TKI. [S1]
 
 ## First-line treatment
 
@@ -91,13 +97,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Response definitions and milestone thresholds** (Table 3, Table 4), mutation-by-TKI sensitivity (Table 5), TFR criteria and monitoring schedule (Table 6), pregnancy strategies (Table 7), TKI adverse events (Table 8) and pre-treatment tests (Table 9) are tables stripped from the source; they are not stated here. | `input_unavailable` |
-| 2 | **PBS overlay:** Australian access to each TKI (line of therapy, authority criteria) is set by the PBS listings, not by ELN. The PBS listing data for CML include asciminib and ponatinib but not bosutinib; confirm current PBS criteria before prescribing. | `access` |
-| 3 | **No Australian CML treatment guideline exists** (only the Optimal Care Pathway, limited licence, and eviQ protocols). S2 now adds the eviQ protocols; they are treatment protocols rather than a guideline. | `observation` |
-| 4 | **Sources disagree on imatinib starting dose** (S1: labelled 400 mg; S2: 600 mg common in Australasia, per TIDEL-II) **and on conception for men on second- or third-generation TKIs** (S1: continue; S2: couples generally advised to avoid pregnancy). Both are shown. | `observation` |
-| 5 | **eviQ tables** (dose-level tables, interaction tables, trial-outcome tables) were flattened with the page text; only prose and clearly labelled rows are anchored. Nilotinib, asciminib and ponatinib non-haematological dose modifications are not given here. | `input_unavailable` |
-| 6 | **Low-dose dasatinib (50 mg) and asciminib first line** are evolving areas; long-term survival data are pending. | `evidence_unsettled` |
-| 7 | **Licences:** S1 is CC BY 4.0 (Europe PMC XML <license>); its claims are quoted with attribution and are machine re-checkable. S2 is CC BY-NC 4.0 with an eviQ request not to host its content elsewhere; its claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. | `observation` |
+| 1 | **Now covered from S1's table rows:** molecular response definitions (Table 3), TKI choice by mutation (Table 5) and baseline tests at diagnosis (Table 1). **Still missing:** the milestone thresholds (Table 4, ragged rows), response by other methods (Table 2), TFR criteria and monitoring schedule (Table 6), pregnancy strategies (Table 7), TKI adverse events (Table 8) and pre-treatment tests (Table 9); these tables have merged cells or ragged rows and were not extracted. | `input_unavailable` |
+| 2 | **S1 Tables 1 and 5 have no separate header row,** so the extracted row lines carry the first row as a heading (for Table 5, 'M244V: … Nilotinib, dasatinib, bosutinib, ponatinib'). The claims read them as the source lays them out: M244V is a mutation row, not a heading. | `observation` |
+| 3 | **PBS overlay:** Australian access to each TKI (line of therapy, authority criteria) is set by the PBS listings, not by ELN. The PBS listing data for CML include asciminib and ponatinib but not bosutinib; confirm current PBS criteria before prescribing. | `access` |
+| 4 | **No Australian CML treatment guideline exists** (only the Optimal Care Pathway, limited licence, and eviQ protocols). S2 now adds the eviQ protocols; they are treatment protocols rather than a guideline. | `observation` |
+| 5 | **Sources disagree on imatinib starting dose** (S1: labelled 400 mg; S2: 600 mg common in Australasia, per TIDEL-II) **and on conception for men on second- or third-generation TKIs** (S1: continue; S2: couples generally advised to avoid pregnancy). Both are shown. | `observation` |
+| 6 | **eviQ tables** (dose-level tables, interaction tables, trial-outcome tables) were flattened with the page text; only prose and clearly labelled rows are anchored. Nilotinib, asciminib and ponatinib non-haematological dose modifications are not given here. | `input_unavailable` |
+| 7 | **Low-dose dasatinib (50 mg) and asciminib first line** are evolving areas; long-term survival data are pending. | `evidence_unsettled` |
+| 8 | **Licences:** S1 is CC BY 4.0 (Europe PMC XML <license>); its claims are quoted with attribution and are machine re-checkable. S2 is CC BY-NC 4.0 with an eviQ request not to host its content elsewhere; its claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. | `observation` |
 
 ## Sources
 

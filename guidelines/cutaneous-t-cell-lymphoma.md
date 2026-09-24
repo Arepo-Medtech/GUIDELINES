@@ -1,9 +1,9 @@
 # Cutaneous T-cell lymphoma (mycosis fungoides and Sézary syndrome)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, staging principles and stage-appropriate treatment of primary cutaneous T-cell lymphoma in adults, chiefly mycosis fungoides (MF) and Sézary syndrome (SS): skin-directed therapy, radiotherapy, systemic agents (bexarotene, interferon, brentuximab vedotin, mogamulizumab, HDAC inhibitors), extracorporeal photopheresis, maintenance and follow-up. Systemic (non-cutaneous) T-cell lymphoma: see `peripheral-t-cell-lymphoma`. Cutaneous B-cell lymphoma is only noted.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **59 fragments or anchors re-checkable by machine; 7 doses.** **S1** German Dermatological Society / German Cancer Society guideline group (Dippel E (published 21 April 2022; international): 21 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027); AU): 7 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **68 fragments or anchors re-checkable by machine; 7 doses.** **S1** German Dermatological Society / German Cancer Society guideline group (Dippel E (published 21 April 2022; international): 23 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027); AU): 7 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (German S2k, 2021 update). Australian practice follows the PBS listings below and may differ.
 
@@ -19,6 +19,7 @@
 - **Manage jointly between a specialist centre and the primary doctor.** [S1]
 - **Clinical findings often suggest the diagnosis, but confirm it with histology, immunohistology and molecular tests**; examine the whole skin and every lymph node region. [S1]
 - **Stage MF and SS with the revised TNMB system.** Early MF (IA-IIA) usually carries a very good outlook, with mean survival of about 10 to 20 years. [S1]
+- **Work-up at first staging (S1 Table 3):** for MF and its variants, a chest X-ray with abdominal and lymph node ultrasound; from stage IIB onwards, and in Sézary syndrome, a contrast CT of neck, chest, abdomen and pelvis with lymph node ultrasound, adding PET-CT where indicated. Use flow cytometry if blood involvement is suspected, and include clonality testing in the diagnosis. Re-staging after treatment, at progression and in aggressive types is tailored to the patient. [S1]
 
 ## Early-stage disease: skin-directed treatment
 
@@ -48,6 +49,7 @@
 
 - **Extracorporeal photopheresis works in SS with few side effects**, alone or with interferon-alpha, PUVA, topical steroids or bexarotene. [S1]
 - **Second-choice options in SS:** bexarotene or low-dose methotrexate (ideally with PUVA and photopheresis), or total skin electron beam. Doxorubicin or gemcitabine can debulk advanced SS; use alemtuzumab at low doses to limit infection. [S1]
+- **S1's Sézary syndrome table (order within each column is not a ranking):** first choice is extracorporeal photopheresis, combined as needed with PUVA, interferon-alpha and/or bexarotene, or else PUVA with interferon-alpha and/or bexarotene. Second choice: mogamulizumab; chlorambucil with a steroid (the Winkelmann regimen); low-dose methotrexate; bexarotene; total skin electron beam; alemtuzumab (IV, or low-dose subcutaneous); doxorubicin, fludarabine, cladribine or gemcitabine; allogeneic stem cell transplant for selected patients; or brentuximab vedotin (off-label). [S1]
 - **Allogeneic stem cell transplant may suit selected patients.** Palliative chemotherapy in late stages has no proven survival benefit and adds infection risk. [S1]
 
 ## Maintenance, supportive care and follow-up
@@ -75,7 +77,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Stage-specific treatment tables (Tables 7 and 8), staging tables and the follow-up schedule table were stripped;** first- versus second-line choices by stage are therefore only partly captured. | `input_unavailable` |
+| 1 | **Stage-specific tables:** the Sézary syndrome treatment table (Table 8) and the imaging table for first staging (Table 3) are now covered. Still missing, because they could not be extracted (ragged rows or merged cells): the MF treatment table (Table 7), the CD30-positive and B-cell treatment tables (Tables 9, 10a–b), the diagnostics table (Table 2), the TNMB and clinical staging tables (Tables 4–6) and the follow-up tables (Tables 11a–d). First- versus second-line choices by MF stage are therefore only partly captured. | `input_unavailable` |
 | 2 | **No chlormethine gel or methoxsalen (photopheresis) doses are given in either source.** S1 gives no vorinostat, mogamulizumab or brentuximab doses; S2 (eviQ) now supplies them. | `input_unavailable` |
 | 3 | **Edition:** the 2021 update is close to 5 years old. EORTC 2023 MF/SS recommendations (Eur J Cancer) are not open access, and the Australasian Lymphoma Alliance MF/SS statement could not be retrieved. | `observation` |
 | 4 | **Cutaneous B-cell lymphoma and rare cutaneous lymphomas** (BPDCN, subcutaneous panniculitis-like TCL) are mentioned in the source but not summarised here. | `out_of_scope` |
