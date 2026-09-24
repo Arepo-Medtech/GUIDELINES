@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/organic-acidaemias.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley) 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision' (vol. 44, pp. 566–592, published 9 March 2021), 17 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8252715 ('open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License')). S2: QUOTED from Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002) 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN' (published 6 September 2024), 12 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at Europe PMC fullTextXML <license> element for PMC11652068). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, the 2024 ERKNet/MetabERN consensus on kidney disease, dialysis and transplantation in MMA (CC BY, quoted). The candidate named for this pass, the isovaleric acidaemia review PMC12551068 (already S1 of `isovaleric-acidaemia`), was assessed and not used: its MMA/PA statements only restate S1. S2 was found by one Europe PMC search.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley) 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision' (vol. 44, pp. 566–592, published 9 March 2021), 18 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8252715 ('open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License')). S2: QUOTED from Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002) 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN' (published 6 September 2024), 13 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at Europe PMC fullTextXML <license> element for PMC11652068). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, the 2024 ERKNet/MetabERN consensus on kidney disease, dialysis and transplantation in MMA (CC BY, quoted). The candidate named for this pass, the isovaleric acidaemia review PMC12551068 (already S1 of `isovaleric-acidaemia`), was assessed and not used: its MMA/PA statements only restate S1. S2 was found by one Europe PMC search. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 4 (emergency feed concentrations) and S2 Table 1 (stable MMA follow-up checks). S1 Table 1 (outcome importance ratings) adds nothing clinical; S1 Tables 2, 3 and 5 and S2 Table 2 (merged cells) were not extracted.",
  "summary": {
-  "total": 29,
-  "pass": 12,
+  "total": 31,
+  "pass": 13,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
@@ -110,6 +110,20 @@
     }
    ],
    "locator": "Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley), 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision', vol. 44, pp. 566–592, published 9 March 2021, https://doi.org/10.1002/jimd.12370, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Emergency feed strength by age (S1 Table 4):** up to 1 year, glucose polymer at 10% carbohydrate with 3.5% fat emulsion, giving about 71.5 kcal per 100 mL; 1–2 years, 15% with 5% fat (105 kcal); 2–9 years, 20% with 5% fat (125 kcal); over 10 years, 25% with 5% fat (145 kcal). The table gives no volumes or feeding intervals.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "214c6da74a660eba",
+     "n": 723,
+     "p": "[TABLE 4"
+    }
+   ],
+   "locator": "Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley), 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision', vol. 44, pp. 566–592, published 9 March 2021, https://doi.org/10.1002/jimd.12370, retrieved 2026-09-23",
+   "dose": true
   },
   {
    "claim": "**Prevent catabolism:** infection, fever and long fasts trigger decompensation. (strong recommendation)",
@@ -346,6 +360,13 @@
     }
    ],
    "locator": "Forny P, Hörster F, Ballhausen D, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley), 'Guidelines for the diagnosis and management of methylmalonic acidaemia and propionic acidaemia: First revision', vol. 44, pp. 566–592, published 9 March 2021, https://doi.org/10.1002/jimd.12370, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Checks at stable MMA follow-up (S2 Table 1):** ammonia and lactate; quantitative plasma amino acids after 3–4 hours' fasting; plasma (and, depending on kidney function, urine) MMA; acylcarnitine profile; diet history; growth including head circumference; full clinical and neurological examination with developmental milestones; albumin, prealbumin and total protein; bone health (Ca, P, ALP, Mg, PTH and 25-OH vitamin D, urine Ca and P); FBC, ferritin, folate and B12; kidney function including cystatin C and urinary protein loss, with iohexol GFR for important decisions; lipase and pancreatic amylase; ECG and echocardiography; formal developmental or cognitive testing; brain MRI (EEG, EMG if indicated); eye assessment and a formal hearing test. The published table carries no visit frequencies.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1] Clinical and laboratory parameters follow-up in patients with MMA (in stable situations) [Table 1 row 1] Assessment: NH3, lactate [Table 1 row 2] Assessment: Quantitative plasma amino acids (3-4 hours of fasting prior to sample collection) [Table 1 row 3] Assessment: MMA in plasma and urine if available depending on local experience and kidney function [Table 1 row 4] Assessment: Acylcarnitine profile in dried blood or plasma [Table 1 row 5] Assessment: Diet history [Table 1 row 6] Assessment: Growth (weight, length or height, head circumference) [Table 1 row 7] Assessment: Full clinical examination [Table 1 row 8] Assessment: Albumin, prealbumin, total protein [Table 1 row 9] Assessment: Bone health (Ca, P, ALP, Mg, PTH, 25-OH vitamin D in blood; Ca, P in urine) [Table 1 row 10] Assessment: Full blood count, ferritin, folic acid, vitamin B12 [Table 1 row 11] Assessment: Neurological examination with assessment of developmental milestones [Table 1 row 12] Assessment: Kidney function (serum creatinine, eGFR, electrolytes, cystatin C, urinary electrolytes and protein loss) Iohexol GFR (when available, in case of important clinical decisions) [Table 1 row 13] Assessment: Pancreas function (lipase, pancreatic amylase) [Table 1 row 14] Assessment: Cardiac assessment (ECG, echocardiography) [Table 1 row 15] Assessment: Formal developmental/cognitive assessment [Table 1 row 16] Assessment: Cerebral MRI (EEG, EMG if clinically indicated) [Table 1 row 17] Assessment: Ophthalmologic assessment [Table 1 row 18] Assessment: Formal hearing test",
+   "locator": "Servais A, Zacchia M, Dehoux L, Shroff R, Brassier A, et al.; European Reference Networks for Rare Kidney Diseases (ERKNet) and Hereditary Metabolic Disorders (MetabERN); Kidney International Reports 9(12):3362–3374 (doi 10.1016/j.ekir.2024.09.002), 'Clinical Practice Recommendations on Kidney Management in Methylmalonic Acidemia: an Expert Consensus Statement From ERKNet and MetabERN', published 6 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11652068/, retrieved 2026-09-24"
   },
   {
    "claim": "**Chronic kidney disease is common in isolated MMA and depends on subtype:** 47% of 30 cobalamin-unresponsive patients; in 82 patients, mut0 61% and cblB 66% but cblA 21% and mut− 0%. Median age at CKD was 8 years (mut0), 13.5 years (cblB) and 11 years (cblA). Function can fall within a few years, so monitor closely.",

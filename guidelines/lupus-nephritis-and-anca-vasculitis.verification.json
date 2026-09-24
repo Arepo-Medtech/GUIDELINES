@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/lupus-nephritis-and-anca-vasculitis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Nephrology (Wiley) 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases' (published 16 September 2025), 18 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12439324). S2: PARAPHRASED AND HASH-ANCHORED from EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762) 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update' (published online 12 October 2023), 10 claims; LICENCE: © Author(s) (or their employer(s)) 2024. No commercial re-use. See rights and permissions. Published by BMJ. (read at copyright line on page 1 of the published PDF (University of Szeged repository copy of the BMJ version)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR 2023 SLE recommendations (published BMJ PDF from the University of Szeged repository, pdftotext; the same text used by `cutaneous-lupus-erythematosus`), paraphrased and hash-anchored. The S1 claims and anchors are unchanged from edition 1.0.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Nephrology (Wiley) 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases' (published 16 September 2025), 27 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12439324). S2: PARAPHRASED AND HASH-ANCHORED from EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762) 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update' (published online 12 October 2023), 10 claims; LICENCE: © Author(s) (or their employer(s)) 2024. No commercial re-use. See rights and permissions. Published by BMJ. (read at copyright line on page 1 of the published PDF (University of Szeged repository copy of the BMJ version)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR 2023 SLE recommendations (published BMJ PDF from the University of Szeged repository, pdftotext; the same text used by `cutaneous-lupus-erythematosus`), paraphrased and hash-anchored. The S1 claims and anchors are unchanged from edition 1.0. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 1 (Australia/NZ differences), 2 (pregnancy) and A2 (supportive care). S1 Tables 3, A1, A3, A4 and A5 were not extracted (no header row or merged cells).",
  "summary": {
-  "total": 28,
+  "total": 37,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 28
+  "pass_paraphrase_anchored": 37
  },
  "claims": [
   {
@@ -76,6 +76,24 @@
      "h": "3c893e63c0ed852d",
      "n": 89,
      "p": "Ideally,"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Australian and NZ adjustments to KDIGO (CARI):** depending on the setting, serology or genetic tests may stand in for, or accompany, a kidney biopsy; and for patients under 25, CARI backs the 2021 CKiD U25 eGFR equation. For ANCA vasculitis, CARI endorses KDIGO unchanged.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5a5dfd1700f3544",
+     "n": 465,
+     "p": "[TABLE 1"
+    },
+    {
+     "h": "b793f71153b8e3aa",
+     "n": 158,
+     "p": "[TABLE 1"
     }
    ],
    "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
@@ -399,6 +417,115 @@
     }
    ],
    "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before conception:** discuss the risks to the mother, the baby and the kidney disease; avoid teratogenic drugs (renin–angiotensin system inhibitors, most immunosuppressants) or use safe contraception while taking them; and weigh the total cyclophosphamide dose, as it can leave permanent infertility.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ec92a1144f8c318",
+     "n": 506,
+     "p": "[TABLE 2"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **During pregnancy:** care from a team of nephrologist, obstetrician and maternal–fetal medicine specialist. Do not use RAS blockers or certain immunosuppressants, for example mycophenolate. Consider low-dose aspirin with calcium and vitamin D, aim for blood pressure under 140/90 mmHg, and consider prophylactic anticoagulation (heparin or a heparin derivative preferred) at high thrombosis risk: nephrotic syndrome, earlier VTE, high BMI.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f92c7dd25e5b4eab",
+     "n": 701,
+     "p": "Patients"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**After the birth:** bring in a paediatric nephrologist if the baby may have an inherited kidney disease, and a pharmacist if the mother wants to breastfeed on drugs that reach breast milk. Rarely, antibody-mediated disease (such as FSGS or membranous nephropathy) crosses the placenta.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed8ac81f69c735c3",
+     "n": 433,
+     "p": "Consider"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Lifestyle:** sodium below 2 g (90 mmol) a day; moderate, preferably plant-based, protein restriction; carbohydrate no more than 35 kcal/kg of ideal body weight, and fewer calories with a high BMI; a heart-healthy diet, reaching ideal weight, more exercise, stopping smoking and less alcohol.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ae0888752c0aea4",
+     "n": 437,
+     "p": "[TABLE A"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Blood pressure: aim for systolic under 120 mmHg** using RAAS blockade, plus further blood-pressure drugs as needed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d5cda1f4009079c",
+     "n": 133,
+     "p": "Achieve "
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Oedema:** start with a loop diuretic, add a thiazide if needed, and consider amiloride or spironolactone when loop diuretics fail. **Lipids:** a statin when cardiovascular risk is high, as with diabetes or hypertension.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6dcec97761e3159f",
+     "n": 165,
+     "p": "Initiall"
+    },
+    {
+     "h": "a91b049cfaa8a77a",
+     "n": 96,
+     "p": "In patie"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Prophylactic anticoagulation:** decide on histology, amount of proteinuria and serum albumin, helped by an online bleeding-risk tool; heparin, a heparin derivative or warfarin is preferred, and direct oral anticoagulants have not been studied.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "be23a2688f73cc5d",
+     "n": 338,
+     "p": "Should b"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Infection:** every patient gets pneumococcal and influenza vaccines and screening for TB, syphilis, hepatitis and HIV; high-dose steroids or other immunosuppression call for pneumocystis prophylaxis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd7c6ee7f813bafe",
+     "n": 325,
+     "p": "All pati"
+    }
+   ],
+   "locator": "CARI Guidelines, Nephrology (Wiley), 'CARI Guidelines Commentary on the KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases', published 16 September 2025, https://europepmc.org/article/PMC/PMC12439324, retrieved 2026-09-23"
   },
   {
    "claim": "**Hydroxychloroquine for every patient unless contraindicated, aiming at 5 mg/kg of actual body weight a day,** adjusted to flare and retinal-toxicity risk. A higher start (not above 400 mg/day) can be used in moderate or severe disease, then lowered. Kidney disease raises retinal risk, so eye follow-up should be closer.",

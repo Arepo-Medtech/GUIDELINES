@@ -1,9 +1,9 @@
 # Milk substitutes and specialised formula in cow's milk allergy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** choosing and substituting specialised infant formula and plant-based milks for infants and young children with cow's milk allergy (CMA). Diagnosis and acute care: see `non-ige-food-allergy-children` (proctocolitis, enteropathy, FPIES) and `ige-mediated-food-allergy-children`. PBS access for each formula is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 20 claims; **30 fragments or anchors re-checkable by machine; 0 doses.** **S1** Australasian Society of Clinical Immunology and Allergy (ASCIA) (content updated June 2026 (supersedes the December 2025 edition); AU): 13 claims, paraphrased, hash-anchored · **S2** World Allergy Organization (Bognanni A (published April 2024; international): 7 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 22 claims; **34 fragments or anchors re-checkable by machine; 0 doses.** **S1** Australasian Society of Clinical Immunology and Allergy (ASCIA) (content updated June 2026 (supersedes the December 2025 edition); AU): 13 claims, paraphrased, hash-anchored · **S2** World Allergy Organization (Bognanni A (published April 2024; international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ **ASCIA's own formula-by-phenotype table is still not reproduced here.** ASCIA's first-, second- and third-choice formula for each type of CMA (IgE-mediated, anaphylaxis, FPIES, enteropathy/proctocolitis, EoE) lives only in a table, which was stripped. The international order from **S2 (WAO DRACMA 2024)** is shown instead; check it against the ASCIA table before applying it in Australia (Unresolved item 1).
 
@@ -32,6 +32,8 @@
 - **Why the order is only a suggestion:** in very low certainty evidence, eHF may favour outgrowing CMA compared with AAF (RR 2.32) but may support weight and length gain less well than AAF. The choice should be made individually with the carer, weighing the child's severity, tolerance and taste of the formula, local availability and what is funded. [S2]
 - **Cost matters for equity:** AAF is usually the dearest, eHF and rice formula cost less but are still expensive in many places, and soy is usually the cheapest. [S2]
 - **Probiotic-containing formula (IgE or non-IgE CMA): either a formula without a probiotic, or a casein-based eHF with *Lacticaseibacillus rhamnosus* GG (LGG),** is suggested (conditional, very low certainty); LGG-casein eHF is the only combination studied. Children with immune deficiency may be at more risk from probiotics, though this has not been studied. [S2]
+- **S2's summary table adds, for non-IgE CMA, a second studied combination:** casein eHF with *L. casei* CRL431 and *B. lactis* Bb12, though no such formula is on the market. Neither probiotic recommendation covers infants whose CMA has not been confirmed. [S2]
+- **What 'conditional' means here:** most families would choose the suggested option but many would not, so the clinician accepts that different choices suit different infants and helps each family reach a decision matching its own values and preferences; decision aids can help. [S2]
 
 ## Substituting when supply fails
 
@@ -70,8 +72,9 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Soy: sources frame it differently.** S1 (ASCIA) allows soy formula for a thriving child over 6 months with a previously mild to moderate reaction; S2 (WAO) ranks soy third for all formula-fed infants with CMA without an age threshold. Both are shown. | `observation` |
 | 3 | **Rice formula:** S1 allows it unless the child is allergic to rice and notes limited data in non-IgE CMA; S2 ranks it first-line alongside eHF but advises against it in milk- or rice-FPIES or when rice tolerance is unknown. Both are shown. | `observation` |
 | 4 | **Product list (ASCIA Table 1)**: which eHF and AAF brands are PBS-listed, and the age bands (<12 months, >12 months), are only in a table and are not stated here. | `input_unavailable` |
-| 5 | **Edition:** the brief named the December 2025 PDF; the ASCIA page now carries a June 2026 update (it adds supplementary toddler formulas and a growth condition on rice formula in non-IgE CMA), so the current web text was used. | `observation` |
-| 6 | **Licence:** S1 © ASCIA 2026 with no reuse terms; S2 CC BY-NC-ND 4.0. Both are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |
+| 5 | **Probiotic formulas, non-IgE CMA:** the S2 prose claim above says evidence exists only for casein eHF with LGG, while S2's Table 1 remark for non-IgE CMA also counts casein eHF with *L. casei* CRL431/*B. lactis* Bb12 (not sold). Both are shown. | `observation` |
+| 6 | **Edition:** the brief named the December 2025 PDF; the ASCIA page now carries a June 2026 update (it adds supplementary toddler formulas and a growth condition on rice formula in non-IgE CMA), so the current web text was used. | `observation` |
+| 7 | **Licence:** S1 © ASCIA 2026 with no reuse terms; S2 CC BY-NC-ND 4.0. Both are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |
 
 ## Sources
 

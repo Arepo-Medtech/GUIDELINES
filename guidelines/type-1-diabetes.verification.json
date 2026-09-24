@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/type-1-diabetes.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -11,12 +11,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)' (published 30 September 2021 (corrected 2021)), 25 claims; LICENCE: © European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence) (read at Europe PMC fullTextXML <permissions>/<license> element for PMC8481000). S2: PARAPHRASED AND HASH-ANCHORED from Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118) 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group' (published 15 November 2021), 7 claims; LICENCE: © 2021 AMPCo Pty Ltd (no open licence) (read at the copyright line of the article PDF linked from the MJA article page). S3: PARAPHRASED AND HASH-ANCHORED from International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266) 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets' (published 19 December 2024), 5 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11854972). Verify each source separately: verify.py --source <file> --only-source S<n>. The consensus report's glycaemic-target and insulin-regimen tables (Tables 1 and 5) were stripped and are not used. Edition 2.0 adds S2, the Australian ADS/ADEA/APEG/ADIPS consensus statement on diabetes technologies (MJA 2021, paraphrased), for Australian access to pumps, CGM and dose advisors across the lifespan, and S3, the ISPAD 2024 glycaemic-targets chapter (CC BY-NC, paraphrased), for children and adolescents. S1 claims and anchors are unchanged. The 2011 APEG/ADS national type 1 diabetes guideline was not used because it is 15 years old.",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)' (published 30 September 2021 (corrected 2021)), 29 claims; LICENCE: © European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence) (read at Europe PMC fullTextXML <permissions>/<license> element for PMC8481000). S2: PARAPHRASED AND HASH-ANCHORED from Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118) 'Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group' (published 15 November 2021), 7 claims; LICENCE: © 2021 AMPCo Pty Ltd (no open licence) (read at the copyright line of the article PDF linked from the MJA article page). S3: PARAPHRASED AND HASH-ANCHORED from International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266) 'International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets' (published 19 December 2024), 5 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11854972). Verify each source separately: verify.py --source <file> --only-source S<n>. The consensus report's glycaemic-target and insulin-regimen tables (Tables 1 and 5) were stripped and are not used. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 3, 4 and 6 (self-management education content, non-glycaemic influences on HbA1c, adjunctive therapies) are paraphrased and anchored to their row lines; S1 Tables 1, 2 and 5 have merged cells and were not extracted. Edition 2.0 adds S2, the Australian ADS/ADEA/APEG/ADIPS consensus statement on diabetes technologies (MJA 2021, paraphrased), for Australian access to pumps, CGM and dose advisors across the lifespan, and S3, the ISPAD 2024 glycaemic-targets chapter (CC BY-NC, paraphrased), for children and adolescents. S1 claims and anchors are unchanged. The 2011 APEG/ADS national type 1 diabetes guideline was not used because it is 15 years old.",
  "summary": {
-  "total": 37,
+  "total": 41,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 37
+  "pass_paraphrase_anchored": 41
  },
  "claims": [
   {
@@ -259,6 +259,34 @@
    "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
   },
   {
+   "claim": "**HbA1c can mislead (S1 Table 4).** It reads falsely high with older age, some ethnic backgrounds (slightly higher in African Americans than in White northern Europeans, though variation within groups is larger), anaemia from iron, B12 or folate deficiency, severe hypertriglyceridaemia or hyperbilirubinaemia, and long-term alcohol, salicylate or opioid use. It reads falsely low in the second and third trimesters of pregnancy, anaemia of chronic disease, haemolysis, acute blood loss, splenomegaly or splenectomy, kidney failure, advanced liver disease, dapsone, co-trimoxazole, vitamin E, ribavirin with interferon alpha, and after red-cell transfusion. Haemoglobin variants and vitamin C can shift it either way.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed572115eabeba89",
+     "n": 434,
+     "p": "[Table 4"
+    },
+    {
+     "h": "7ac36701691e78d0",
+     "n": 371,
+     "p": "[Table 4"
+    },
+    {
+     "h": "c8586172ab3176c8",
+     "n": 118,
+     "p": "[Table 4"
+    },
+    {
+     "h": "406e2b99b0a069dd",
+     "n": 90,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Offer blood ketone strips and a meter.** Urine strips miss β-hydroxybutyrate, so they can understate ketosis, and they may stay positive for 48 h after ketoacidosis has resolved.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -339,6 +367,59 @@
      "h": "a59d028ca03958a6",
      "n": 451,
      "p": "Despite "
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What self-management education should cover (S1 Table 3):** how type 1 diabetes arises and is treated; eating (basic and advanced carbohydrate counting or intuitive dosing, the effect of fat, protein, fibre, glycaemic index, sugar and alcohol, and dose-advice technology); exercise and its effect on glucose and doses; insulin types and delivery; reviewing CGM, pump, connected-pen and app data with the team; acute complications (hypoglycaemia, hyperglycaemia, DKA including euglycaemic DKA and DKA prevention on a pump, glucagon, ketone testing), sick days and keeping supplies in a crisis; preventing chronic complications (immunisation, eye, foot, dental and kidney checks); diabetes distress and burnout; and problem solving, including pump failure or pump breaks and planning for procedures or surgery.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6076e9d7de1d09f7",
+     "n": 160,
+     "p": "[Table 3"
+    },
+    {
+     "h": "230ab5cccb90d59f",
+     "n": 312,
+     "p": "[Table 3"
+    },
+    {
+     "h": "20c340ccc7f9fa15",
+     "n": 146,
+     "p": "[Table 3"
+    },
+    {
+     "h": "b07c3d30913934b2",
+     "n": 151,
+     "p": "[Table 3"
+    },
+    {
+     "h": "4bc8b3423fd4249a",
+     "n": 345,
+     "p": "[Table 3"
+    },
+    {
+     "h": "f1e2d8e6fa3fdcc5",
+     "n": 352,
+     "p": "[Table 3"
+    },
+    {
+     "h": "02deed968ab45d1f",
+     "n": 447,
+     "p": "[Table 3"
+    },
+    {
+     "h": "35de2284f5fd88b8",
+     "n": 171,
+     "p": "[Table 3"
+    },
+    {
+     "h": "ac287d84e6d19957",
+     "n": 348,
+     "p": "[Table 3"
     }
    ],
    "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
@@ -660,6 +741,67 @@
      "h": "04699d0e3ee83acf",
      "n": 258,
      "p": "These in"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Adjuncts to insulin lower HbA1c only a little (S1 Table 6):** by about 0.1% (about 1 mmol/mol) for metformin, 0.3–0.4% (3–4 mmol/mol) for pramlintide, and 0.2–0.4% (2–4 mmol/mol) for either GLP-1 receptor agonists or SGLT-2 or SGLT-1/2 inhibitors. Weight falls about 1 kg with metformin or pramlintide, about 5 kg with a GLP-1 receptor agonist and 2–3 kg with an SGLT inhibitor; systolic pressure drops about 4 mmHg with a GLP-1 receptor agonist (heart rate rises) and 3–4 mmHg with an SGLT inhibitor. SGLT inhibitors also lift time in range by about 12% at higher doses and cut total insulin by about 10%.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "044066230301a196",
+     "n": 207,
+     "p": "[Table 6"
+    },
+    {
+     "h": "e9d181b5f498468b",
+     "n": 159,
+     "p": "[Table 6"
+    },
+    {
+     "h": "335f99c8f6faab98",
+     "n": 228,
+     "p": "[Table 6"
+    },
+    {
+     "h": "8bc972715e334f62",
+     "n": 178,
+     "p": "[Table 6"
+    },
+    {
+     "h": "c36decbba807ce79",
+     "n": 206,
+     "p": "[Table 6"
+    }
+   ],
+   "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Adjunct risks and who might benefit (S1 Table 6):** pramlintide can cause more severe (level 3) hypoglycaemia unless mealtime insulin is reduced, and GLP-1 receptor agonists increase hypoglycaemia and ketosis; metformin, pramlintide and GLP-1 receptor agonists all cause GI effects; SGLT inhibitors cause genital fungal infections and raise DKA risk. At the time only pramlintide was US-approved for type 1 diabetes and low-dose SGLT inhibition EU-approved at BMI 27 kg/m² or more. Possible beneficiaries: metformin for women with polycystic ovary syndrome; GLP-1 receptor agonists with overweight or obesity, high insulin doses or cardiovascular and kidney risk; SGLT inhibitors with cardiovascular and kidney risk.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f02a5459e58b3b1e",
+     "n": 244,
+     "p": "[Table 6"
+    },
+    {
+     "h": "25740001b433b66d",
+     "n": 230,
+     "p": "[Table 6"
+    },
+    {
+     "h": "5f366298e65a4713",
+     "n": 243,
+     "p": "[Table 6"
+    },
+    {
+     "h": "4c5c1b689dbc8122",
+     "n": 331,
+     "p": "[Table 6"
     }
    ],
    "locator": "American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652, 'The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)', published 30 September 2021 (corrected 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/, retrieved 2026-09-23"

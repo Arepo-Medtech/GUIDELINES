@@ -1,9 +1,9 @@
 # Obesity in adults — pharmacotherapy alongside health behaviour change
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults (18 years and over) with obesity: assessment beyond BMI, goals of treatment, choice of medicine (semaglutide, tirzepatide, liraglutide, naltrexone–bupropion, orlistat, setmelanotide), long-term use and use in obesity-related conditions. Lifestyle is covered only as the base to which medicines are added. Children: out of scope. Diabetes-specific choices: see `type-2-diabetes`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **60 fragments or anchors re-checkable by machine; 5 doses.** **S1** Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD (published 11 August 2025; international): 19 claims, paraphrased, hash-anchored · **S2** Australian Diabetes Society (Markovic TP (updated January 2026 (PDF dated 3 February 2026); AU): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 38 claims; **72 fragments or anchors re-checkable by machine; 11 doses.** **S1** Obesity Canada and the Canadian Association of Bariatric Physicians and Surgeons (Pedersen SD (published 11 August 2025; international): 26 claims, paraphrased, hash-anchored · **S2** Australian Diabetes Society (Markovic TP (updated January 2026 (PDF dated 3 February 2026); AU): 12 claims, paraphrased, hash-anchored
 
 > 🇦🇺 **S2 is the Australian source (Australian Diabetes Society algorithm, January 2026)** for the treatment pathway by BMI, waist and complications, diet options, TGA-approved medicines with starting doses, bariatric surgery criteria and pregnancy. **S1** (Obesity Canada 2025) supplies the trial evidence for each medicine. Where they differ, both are shown.
 
@@ -65,6 +65,16 @@
 - **Type 2 diabetes:** all five recommended medicines improved both weight and glycaemic control in trials. [S1]
 - **Heart failure with preserved ejection fraction, steatohepatitis (MASH), obstructive sleep apnoea and knee osteoarthritis** can also benefit from obesity medicines combined with lifestyle change. [S1]
 
+## S1's graded recommendations (Table 1)
+
+- **Recs 1–2 (S1 Table 1):** use a measure of central adiposity (waist circumference, waist-to-hip or waist-to-height ratio, with sex- and ethnicity-specific cut-offs where they exist) together with ethnicity-specific BMI thresholds or complications to decide on starting a medicine (Level 3, grade C); and tailor that decision to the person's values, preferences, goals, culture and ability to pay for long-term use (Level 4, grade D, consensus). [S1]
+- ⚠️ **Rec 3, who and what (S1 Table 1):** offer a medicine with health behaviour change at BMI 30 or more, or 27 or more with an adiposity-related complication: semaglutide 2.4 mg weekly (1a, A); tirzepatide 5, 10 or 15 mg weekly (1a, A); liraglutide 3 mg daily (2a, B); naltrexone–bupropion 16/180 mg twice daily, studied at BMI 27–45 (2a, B); orlistat 120 mg three times daily, studied at BMI 28–47 (2a, B). [S1]
+- **Rec 4, keep going when it works (S1 Table 1):** to prevent regain after medicine-driven loss, semaglutide 2.4 mg weekly or tirzepatide 10 or 15 mg weekly (1a, A), or orlistat 120 mg three times daily (2a, B); to hold loss achieved by lifestyle change alone, liraglutide 3 mg daily, orlistat, or tirzepatide 10 or 15 mg (all 2a, B). [S1]
+- **Recs 5–6 (S1 Table 1):** established atherosclerotic cardiovascular disease with BMI 27 or more, semaglutide 2.4 mg weekly on top of usual care to cut major cardiovascular events (2a, B). HFpEF (heart failure with preserved ejection fraction) at BMI 30 or more (1a, A): tirzepatide 15 mg weekly to reduce cardiovascular death or worsening heart failure, and semaglutide 2.4 mg or tirzepatide 15 mg weekly to improve symptoms. [S1]
+- **Recs 7–8 (S1 Table 1):** prediabetes, to lower the chance of developing type 2 diabetes: daily liraglutide 3 mg (BMI 27 or more), orlistat 120 mg three times daily (BMI 30 or more) or tirzepatide 5, 10 or 15 mg weekly (BMI 27 or more) (all 2a, B), and semaglutide 2.4 mg weekly (BMI 30 or more) to restore normal glucose (1a, A). Type 2 diabetes, for weight and glycaemia: semaglutide 2.4 mg or tirzepatide 10 or 15 mg weekly (1a, A); liraglutide 3 mg, naltrexone–bupropion or orlistat (2a, B). [S1]
+- **Recs 9–11 (S1 Table 1):** MASH, semaglutide 2.4 mg weekly for resolution and for fibrosis (2a, B), with liraglutide 1.8 mg daily (BMI 25 or more) or tirzepatide 5–15 mg weekly (BMI 27–50) as weaker options (3, C). Moderate to severe sleep apnoea with BMI 30 or more, tirzepatide 10 or 15 mg whether or not positive airway pressure is used (1a, A), or liraglutide 3 mg daily when it is not (2a, B). Knee osteoarthritis with BMI 30 or more, semaglutide 2.4 mg weekly for weight and knee pain (1a, A). [S1]
+- **Rec 12 (S1 Table 1):** at BMI 30 or more, setmelanotide (at most 3 mg a day) is an option for Bardet–Biedl syndrome (2a, B) or for genetically confirmed biallelic POMC, PCSK1 or leptin-receptor deficiency (3, C). [S1]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -81,7 +91,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **S1's 13 graded recommendations (Table 1) and its titration schedules (Appendices 1–2)** were stripped or are online-only; S1's trial entry criteria are used instead. S2 now supplies Australian BMI and waist bands, starting doses and titration for four medicines; orlistat and phentermine doses beyond those stated are not anchored. | `input_unavailable` |
+| 1 | **S1's 13 graded recommendations (Table 1)** are now extracted: recommendations 1–12 are on the page with their evidence levels and grades (13, against compounded products, was already covered). **S1's titration schedules (Appendices 1–2)** are online-only and S1 Table 2 (merged cells) was not extracted, so they stay gaps; S2 supplies starting doses and titration for four medicines. Orlistat and phentermine doses beyond those stated are not anchored. | `input_unavailable` |
 | 2 | **Lifestyle detail:** S2 now covers diet options, very low energy diets and bariatric surgery criteria for Australia. Psychological therapy and detailed physical-activity prescription remain in neither source (S1 defers them to the 2020 Canadian guideline). The NHMRC 2013 guideline is marked Rescinded and was not used directly. | `out_of_scope` |
 | 3 | **Australian access:** the PBS 'Obesity' row lists orlistat only. The guideline's first-line incretin medicines are not PBS-subsidised for obesity; patients pay privately. This is the main divergence. | `observation` |
 | 4 | **Counterparts:** `type-2-diabetes` (GLP-1 agonists on PBS for diabetes; obesity pharmacotherapy mentioned), `polycystic-ovary-syndrome`, `growth-hormone-therapy-children` (hypothalamic obesity row). None covers adult obesity management. | `observation` |

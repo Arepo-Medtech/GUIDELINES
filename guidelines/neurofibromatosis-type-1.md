@@ -1,9 +1,9 @@
 # Neurofibromatosis type 1 — tumour surveillance and management
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, lifelong clinical and imaging surveillance, and management of NF1-associated tumours (plexiform neurofibromas, ANNUBP/MPNST, gliomas, breast cancer, phaeochromocytoma, GIST) in children and adults. Related: `soft-tissue-sarcoma` (MPNST), `phaeochromocytoma`, `gastrointestinal-stromal-tumour`, `glioblastoma`. PBS access (selumetinib) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **61 fragments or anchors re-checkable by machine; 0 doses.** **S1** European Reference Network for Genetic Tumour Risk Syndromes (ERN GENTURIS) (published 13 January 2023; international): 23 claims, quoted · **S2** Azizi AA (published 27 April 2024; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **68 fragments or anchors re-checkable by machine; 0 doses.** **S1** European Reference Network for Genetic Tumour Risk Syndromes (ERN GENTURIS) (published 13 January 2023; international): 25 claims, quoted · **S2** Azizi AA (published 27 April 2024; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International sources (ERN GENTURIS 2023; European selumetinib expert consensus 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -22,6 +22,8 @@
 
 - **Children up to ten years: clinical assessment every year. Over ten: at least every two years.** [S1]
 - **Eyes:** until age eight, children without a known optic pathway glioma should be examined by an ophthalmologist experienced in NF1; after eight, formal visual screening every year until adulthood. [S1]
+- **Eye checks up to age 8 (S1 summary table):** visual assessment, fundoscopy and visual fields at least yearly (strong, strong and moderate), and optical coherence tomography when feasible (moderate); from 8 until the move to adult care, yearly visual screening (moderate). An orbital or periorbital plexiform neurofibroma needs refraction, visual fields and eye movements checked at every visit, at any age (strong). [S1]
+- **At every visit, at any age (S1 summary table):** look for signs of a brain or spinal tumour (moderate), cutaneous neurofibromas (strong), plexiform neurofibromas (moderate), MPNST or atypical neurofibroma (strong), glomus tumours of the fingers and toes by asking about symptoms and inspecting (moderate), and psychosocial and neuropsychological needs (weak). Under 12, watch for juvenile myelomonocytic leukaemia through the usual history and examination (moderate). From adolescence, examine for GIST, and image the abdomen with MRI or CT only if symptoms suggest one (moderate). [S1]
 - **Adults: clinical assessment at least every three years,** covering history, signs of brain tumour or MPNST, skin neurofibromas and plexiform neurofibromas. [S1]
 - **Whole-body MRI at least once at the transition to adulthood** to measure internal plexiform tumour burden (a predictor of MPNST). If it shows no internal plexiform neurofibromas, repeat WB-MRI is not needed. [S1]
 - **MRI is the preferred imaging; avoid CT in children where possible** to limit radiation in a population already at raised cancer risk. [S1]
@@ -89,8 +91,8 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Detailed surveillance intervals and imaging protocols** for each tumour type are in Tables 1–15, which were stripped, and are not stated here. | `input_unavailable` |
-| 2 | **Selumetinib adverse-effect monitoring and management** (echocardiography, eye review, CK, skin and GI toxicity) is now from S2. **Selumetinib dosing and dose-modification steps** are in no source read: S2 defers to the product information and its Supplementary Table 2 and consensus Table 1 were not machine-read. Check the Australian product information and PBS criteria. | `input_unavailable` |
+| 1 | **Detailed surveillance intervals and imaging protocols:** S1's summary table (Table 1) is now used under Surveillance schedule. The tumour-specific Tables 2–15 have merged cells and still could not be extracted, so their protocol detail is not stated here. | `input_unavailable` |
+| 2 | **Selumetinib adverse-effect monitoring and management** (echocardiography, eye review, CK, skin and GI toxicity) is now from S2. **Selumetinib dosing and dose-modification steps** are in no source read: S2 defers to the product information and its Supplementary Table 2 was not read, and its consensus Table 1 has merged cells and could not be extracted. Check the Australian product information and PBS criteria. | `input_unavailable` |
 | 3 | **S2 is a panel of 10 European experts and covers children only;** it says this may limit worldwide application, and it gives no adult guidance. Several of its restart timings (e.g. 2 weeks after paronychia) are expert opinion, not product-information rules. | `observation` |
 | 4 | **Australian source:** eviQ has an NF1 genetic risk-management page (eviQ 752); it was not used (CC BY-NC-ND, and not about selumetinib). | `observation` |
 | 5 | **Licences:** S1 is CC BY 4.0, quoted and machine re-checkable; S2 is CC BY-NC 4.0, so it is paraphrased and hash-anchored. | `observation` |

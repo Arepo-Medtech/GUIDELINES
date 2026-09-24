@@ -1,9 +1,9 @@
 # Non-infectious uveitis: corticosteroids by route, and when to add steroid-sparing therapy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** specialist (ophthalmologist-led) use of topical, periocular, intravitreal and systemic corticosteroids for non-infectious uveitis in adults, the contraindications to check first, and the point at which immunosuppressants or biologics are added. Diagnosis of uveitis type and infectious uveitis are not covered. Counterparts: JIA-associated uveitis in `juvenile-idiopathic-arthritis`; uveitis as a guide to biologic choice in `axial-spondyloarthritis`; red-eye triage in `conjunctivitis-and-eye-infections` and `acute-red-eye-children`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **50 fragments or anchors re-checkable by machine; 6 doses.** **S1** Chang YC (published 15 May 2024 (doi 10.1080/07853890.2024.2352019); international): 20 claims, paraphrased, hash-anchored · **S2** Pleyer U (published 30 May 2024; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **57 fragments or anchors re-checkable by machine; 7 doses.** **S1** Chang YC (published 15 May 2024 (doi 10.1080/07853890.2024.2352019); international): 22 claims, paraphrased, hash-anchored · **S2** Pleyer U (published 30 May 2024; international): 11 claims, quoted
 
 > ⚠️ International guideline (Taiwan Ocular Inflammation Society expert panel, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -28,6 +28,7 @@
 - ⚠️ **Severe anterior inflammation (anterior-chamber cells 3+ or more): a potent steroid such as prednisolone acetate 1%, as often as one drop hourly at first,** then a gradual taper. [S1]
 - **Start tapering once anterior-chamber cells improve.** SUN defines improvement as a fall of two grades (for example 3+ to 1+) or to inactive (trace to 0). Aim for no inflammation, or minimal inflammation without relapse, on the fewest drops. [S1]
 - **For chronic anterior uveitis, a gentler maintenance drop is advised:** fluorometholone 0.1%, one drop twice a day. [S1]
+- **Relative potency of steroid drops (S1 Table 1):** prednisolone acetate 1% is high; dexamethasone sodium phosphate 0.1% and betamethasone 0.1% are moderate; fluorometholone 0.1% and loteprednol etabonate 0.5% are low. The brand names in the table are those sold in Taiwan. [S1]
 - ⚠️ **Avoid steroid drops in known steroid responders or primary open-angle glaucoma,** and with corneal thinning or perforation; long use raises IOP and can cause irreversible optic-nerve damage. [S1]
 
 ## Periocular and intravitreal steroids (including the dexamethasone implant)
@@ -57,6 +58,7 @@
 - **Oral prednisone is the usual first choice, starting at 0.5 to 1 mg/kg/day by severity,** then tapered to response. [S1]
 - **In severe uveitis, consider IV methylprednisolone pulses of 500–1000 mg a day for three days,** followed by a gradually reducing oral dose. [S1]
 - **Taper in ever-smaller steps to limit relapse.** For long-term use, 7.5 mg a day is regarded as the safer maintenance dose. [S1]
+- ⚠️ **Oral prednisone taper (S1 Table 3):** above 40 mg a day, cut by 10 mg every 1–2 weeks; from 40 down to 15 mg, by 5 mg every 1–2 weeks; from 15 down to 7.5 mg, by 2.5 mg every 1–2 weeks; below 7.5 mg, by 2.5 mg at weekly to monthly steps. Protect bone with calcium 1,500 mg and vitamin D 800 IU a day, plus oestrogen or an antiresorptive when needed. [S1]
 
 ## Steroid-sparing therapy
 
@@ -80,7 +82,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Topical and local steroid preparations, and the systemic taper schedule,** are in tables that were stripped; no taper steps are stated here. | `input_unavailable` |
+| 1 | **Steroid tables:** the topical drops by potency (S1 Table 1) and the oral prednisone taper (S1 Table 3) are now extracted and on the page. The local (periocular and intravitreal) preparations table (S1 Table 2) has merged cells and was not extracted, so it stays a gap; so do S2's three tables (merged cells). | `input_unavailable` |
 | 2 | **Adalimumab:** the source names TNF inhibitors only as a class. Its dose, and when the PBS funds it, are not stated here. | `input_unavailable` |
 | 3 | **Preferred source skipped:** the CC BY consensus guideline on chronic non-infectious posterior-segment uveitis (Singh et al., OSLI Retina 2024) could not be read: every publisher and Unpaywall link returned a bot challenge (HTTP 403), which was not bypassed. | `observation` |
 | 4 | **Suprachoroidal steroid injection** is described by the source as promising but unproven; it is not included. | `out_of_scope` |

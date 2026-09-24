@@ -1,9 +1,9 @@
 # Maple syrup urine disease (MSUD): crisis, sick days and lifelong diet
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspecting and confirming MSUD after newborn screening or a clinical presentation, hospital management of a metabolic crisis (fluids, BCAA-free amino acids with isoleucine and valine, dialysis, cerebral oedema), sick-day management at home, plasma BCAA targets and monitoring, and the BCAA-restricted diet from infancy. First steps for any suspected inborn error in an unwell child: `metabolic-disorders-children`. Other protein-restricted diets: `phenylketonuria`, `organic-acidaemias`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **51 fragments or anchors re-checkable by machine; 9 doses.** **S1** Rostampour N (vol. 20, article 8, published 7 January 2025; international): 18 claims, quoted · **S2** Genetic Metabolic Dietitians International (GMDI) and the Southeast Regional Genetics Network (SERN) (second edition October 2024, v2.1, updated March 2026; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **57 fragments or anchors re-checkable by machine; 10 doses.** **S1** Rostampour N (vol. 20, article 8, published 7 January 2025; international): 20 claims, quoted · **S2** Genetic Metabolic Dietitians International (GMDI) and the Southeast Regional Genetics Network (SERN) (second edition October 2024, v2.1, updated March 2026; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Iranian national consensus guideline, 2025). Australian practice follows the PBS listings below and may differ. It was written partly for settings with limited laboratory and formula access, which it says shapes some advice.
 
@@ -19,6 +19,7 @@
 - **Suspect MSUD** with an abnormal newborn screen, or with refractory hypoglycaemia, seizures, hypertonia, 'boxing and bicycling' movements or a maple-syrup odour. [S1]
 - **Positive screen (leucine + isoleucine > 250 nmol/L, or ratio > 3): confirm with plasma amino acids and alloisoleucine; if BCAAs are clearly high and/or alloisoleucine > 2 nmol/ml, treat immediately.** Never give a protein challenge to make the diagnosis. [S1]
 - **Molecular genetic testing is the preferred confirmation, but do not delay treatment waiting for it.** [S1]
+- **Phenotypes (S1 Table 1), by residual BCKD activity:** classic, newborn onset, 0-2%, crises in the newborn period and with catabolic stress; intermediate, infancy to childhood, 3-30%, crises with catabolic stress; intermittent, 5-20%, normal BCAAs when well but episodic decompensations that can be severe; thiamine-responsive, 2-40%, better leucine tolerance with thiamine alongside diet; E3 deficiency, newborn, with persistent lactic acidosis, high pyruvate and alanine and only moderately raised BCAAs. [S1]
 
 ## Acute metabolic crisis (hospital)
 
@@ -47,6 +48,7 @@
 - **Non-classic forms need less:** intermediate MSUD needs leucine restriction ± BCAA-free amino acids and an emergency regimen; intermittent MSUD may need only moderate protein restriction; thiamine-responsive patients also take thiamine. [S1]
 - **Liver transplant** allows a normal diet but is reserved for patients uncontrolled on diet with multiple attacks. [S1]
 - ⚠️ **Daily leucine and protein needs by age (GMDI Table 4):** leucine 60–100 mg/kg under 3 months, 50–85 at 3–6 months, 35–70 at 6–12 months and 25–55 mg/kg from 1 to 4 years (total protein 2.5–3.0, 2.0–3.0, 2.0–2.5 and 1.5–2.1 g/kg); after 4 years in classical MSUD, 275–500 mg of leucine a day with total protein about 120% of the DRI. Classical MSUD tolerates the low end; adjust to plasma amino acids and growth. [S2]
+- ⚠️ **S1's daily intakes for well patients (S1 Table 3), per kg:** 0–6 months leucine 40–100 mg, isoleucine 30–90 mg, valine 40–95 mg, protein 2.5–3.5 g, energy 95–145 kcal, fluid 125–160 mL; 7–12 months leucine 40–75 mg, protein 2.5–3.0 g; 1–3 years leucine 40–70 mg, protein 1.5–2.5 g; 4–8 years leucine 35–65 mg, protein 1.3–2.0 g; 9–13 years leucine 30–60 mg, protein 1.2–1.8 g; 14–18 years leucine 15–50 mg, protein 1.2–1.8 g; 19 years leucine 15–50 mg, protein 1.1–1.7 g. [S1]
 - **How often to measure leucine (GMDI Table 6):** daily until stable; in infants once or twice a week until 6 months, then weekly; in children 1 to under 8 years weekly until 24 months, then monthly; monthly in older children and adults; weekly in pregnancy and until 6 weeks postpartum. [S2]
 - **Offer a thiamine challenge to everyone** except those homozygous for the c.1312T>A variant or with other variants leaving under 3% enzyme activity: 50-200 mg/day, judged over one month on plasma BCAA and leucine tolerance. Responders stay on thiamine and a BCAA-restricted diet. [S2]
 - **Liver transplant (GMDI):** a valid option. Bring the candidate into good BCAA control first and prevent decompensation around surgery; after a successful transplant the diet can be relaxed and crisis precautions lifted, with dietetic support through the change. [S2]
@@ -72,12 +74,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables** in S1 (Table 2 acute crisis protocol, Table 3 energy and leucine requirements by age, Table 4 dietary treatment) were stripped. Leucine, protein and energy needs by age now come from S2's Table 4 (GMDI); S1's own figures are still not stated here. | `input_unavailable` |
-| 2 | **GMDI/SERN guideline:** the 2014 journal version (Frazier et al., Mol Genet Metab) sits on ScienceDirect, which blocks automated fetching; its second edition (2024, updated 2026) on GMDI's own free portal is now S2. | `observation` |
-| 3 | **Sick-day protein cut and crisis amino acids differ slightly:** S1 cuts leucine 50–100% and raises BCAA-free formula to 120% at home; S2 replaces 50-100% of intact protein with BCAA-free food for 24-48 hours. S1 gives BCAA-free amino acids 2–3.5 g/kg/day IV in a crisis; S2 gives energy up to 150% and fluid up to 150 ml/kg. Both are shown. | `observation` |
-| 4 | **Units:** S1 gives glucose targets in mg/dl (100 to 160); Australian laboratories report mmol/L. S2 gives pregnancy leucine in µM (= µmol/L). | `observation` |
-| 5 | **Australian guidance:** none current was found. The ASIEM low-protein handbook for MSUD (©HGSA 2007) is a family diet handbook, 19 years old, so it was not used as the second source. | `observation` |
-| 6 | **Licences:** S1 is CC BY 4.0, read in the Europe PMC XML, and quoted verbatim with attribution. S2 has no licence stated, so it is paraphrased and hash-anchored. | `observation` |
+| 1 | **S1 tables:** Table 1 (phenotypes) and Table 3 (daily BCAA, protein, energy and fluid needs by age) are now extracted and on the page. Table 2 (acute crisis protocol) and Table 4 (dietary treatment) have ragged rows and were not extracted, so they stay gaps. | `input_unavailable` |
+| 2 | **Infant leucine needs differ between the sources:** S1 Table 3 gives 40–100 mg/kg/day for 0–6 months and 40–75 for 7–12 months; S2 (GMDI Table 4) gives 60–100 under 3 months, 50–85 at 3–6 months and 35–70 at 6–12 months. From 1 year S1 gives 40–70 (1–3 years), S2 25–55 (1–4 years). Both are shown; titrate to plasma leucine and growth. | `observation` |
+| 3 | **GMDI/SERN guideline:** the 2014 journal version (Frazier et al., Mol Genet Metab) sits on ScienceDirect, which blocks automated fetching; its second edition (2024, updated 2026) on GMDI's own free portal is now S2. | `observation` |
+| 4 | **Sick-day protein cut and crisis amino acids differ slightly:** S1 cuts leucine 50–100% and raises BCAA-free formula to 120% at home; S2 replaces 50-100% of intact protein with BCAA-free food for 24-48 hours. S1 gives BCAA-free amino acids 2–3.5 g/kg/day IV in a crisis; S2 gives energy up to 150% and fluid up to 150 ml/kg. Both are shown. | `observation` |
+| 5 | **Units:** S1 gives glucose targets in mg/dl (100 to 160); Australian laboratories report mmol/L. S2 gives pregnancy leucine in µM (= µmol/L). | `observation` |
+| 6 | **Australian guidance:** none current was found. The ASIEM low-protein handbook for MSUD (©HGSA 2007) is a family diet handbook, 19 years old, so it was not used as the second source. | `observation` |
+| 7 | **Licences:** S1 is CC BY 4.0, read in the Europe PMC XML, and quoted verbatim with attribution. S2 has no licence stated, so it is paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 

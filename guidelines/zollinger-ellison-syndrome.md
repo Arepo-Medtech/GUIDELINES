@@ -1,9 +1,9 @@
 # Zollinger–Ellison syndrome (gastrinoma) and gastric acid hypersecretion
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with suspected or confirmed Zollinger–Ellison syndrome (ZES), sporadic or with MEN1: diagnosis of gastrin excess, long-term acid control with proton pump inhibitors (PPIs), PPI adverse effects and referral. Staging and surgery for pancreatic gastrinoma are summarised from S2; anti-tumour therapy: see `neuroendocrine-neoplasms`. Ordinary peptic ulcer and reflux: see `peptic-ulcer-disease` and `gord-and-dyspepsia`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **42 fragments or anchors re-checkable by machine; 1 doses.** **S1** Jensen RT (2025; international): 19 claims, quoted · **S2** Jiao F (published 8 September 2023 (2022 consensus); international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **48 fragments or anchors re-checkable by machine; 2 doses.** **S1** Jensen RT (2025; international): 21 claims, quoted · **S2** Jiao F (published 8 September 2023 (2022 consensus); international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (Biomedicines, 2025, US NIH authors). Australian practice follows the PBS listings below and may differ.
 
@@ -20,6 +20,8 @@
 - ZES is gastric acid hypersecretion from ectopic gastrin secretion by a neuroendocrine tumour (gastrinoma), causing severe peptic ulcer disease or reflux that is often refractory to standard treatment. [S1]
 - Gastrinomas are not curable by surgery in >50% of cases, mainly because of advanced or multifocal (MEN1) disease, so most patients need lifelong acid antisecretory drugs. [S1]
 - MEN1 is present in 20–25% of all ZES patients; MEN1/ZES patients usually have multiple, often small duodenal gastrinomas and a very low surgical cure rate. [S1]
+- **MEN1/ZES and type 2 gastric carcinoids (S1 summary table):** usually managed by watching and waiting and/or removing the larger polypoid lesions; they become more numerous over time and are more often malignant than type 1, and their natural history is largely unknown. [S1]
+- **Gastrinomas account for 20–50% of functioning pancreatic NENs (S2 Table 1)** and present as ZES: refractory peptic ulcer, reflux symptoms, abdominal pain and diarrhoea. [S2]
 - ⚠️ Hyperparathyroidism is present in >95% of MEN1/ZES patients and can increase gastrin release and acid output and make acid harder to suppress medically. [S1]
 
 ## Diagnose
@@ -46,6 +48,7 @@
 ## Surgery for pancreatic gastrinoma (S2)
 
 - **Before surgery, control symptoms such as diarrhoea and peptic ulceration with a PPI or a somatostatin analogue** (S2). [S2]
+- ⚠️ **Somatostatin analogue doses (S2, all pNENs):** lanreotide 120 mg or long-acting octreotide 20–30 mg every 4 weeks, adding short-acting octreotide 100–250 mg three times a day when symptoms need more control. In a functioning tumour the analogue is kept going even if disease progresses on it (it is stopped in non-functioning tumours). [S2]
 - **Sporadic, locoregional functioning pNENs should be resected more actively** to relieve hormone symptoms, lower drug requirements and improve survival. Gastrinomas carry a higher malignant potential, so formal resection with regional lymph node dissection is advised; for tumours under 2 cm, local resection with node dissection is an option. [S2]
 - **MEN1 gastrinoma:** there is no agreement on whether or when to operate, and most patients live long on PPIs alone; S2 recommends resection once a tumour reaches 2–3 cm because the liver-metastasis risk rises markedly. [S2]
 - **With metastases, S2 still advises debulking (cytoreductive) surgery** to ease hormone symptoms, cut medication doses, control growth and prolong survival, preceded by systemic and liver-directed treatment such as TACE or radiofrequency ablation (S2). [S2]
@@ -57,6 +60,7 @@
 - Hypomagnesaemia appears to be a PPI class effect: it resolves when PPIs stop, may recur with another PPI, but not with H2-receptor antagonists. In NIH ZES patients the rate was 0.4%. [S1]
 - ⚠️ Vitamin B12 deficiency developed in 21% of 175 NIH ZES patients over a mean 10.2 years, linked to PPI acid suppression; no patient on H2-receptor antagonists alone developed it. [S1]
 - Oral multivitamins containing crystalline vitamin B12 raised serum B12 by a mean of 34% without changing the PPI dose, suggesting deficiency can be easily avoided. [S1]
+- **On prolonged treatment, check vitamin, electrolyte and iron status periodically and encourage a daily multivitamin** (S1 summary table). The authors also call for wider referral to NET centres experienced in acid control and for acid output testing to be more widely available. [S1]
 
 ---
 
@@ -75,12 +79,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **PPI starting doses and titration targets** are not stated in the prose; Table 1 (classical diagnostic criteria) and Table 4 (summary) were stripped. | `input_unavailable` |
+| 1 | **PPI starting doses and titration targets** are not stated in S1's prose or tables. S1 Table 1 (classical diagnostic criteria) and Table 3 could not be extracted (no header row); S1 Table 4 (summary of controversies) is now read and adds the monitoring and gastric-carcinoid points shown. | `input_unavailable` |
 | 2 | **ENETS 2023 functioning pNET guidance** (DOI 10.1111/jne.13318) could not be read: Wiley and all four repository copies returned bot challenges when retried on 2026-09-24 (not bypassed); its gastrinoma criteria are cited here only as summarised by S1. | `access` |
 | 3 | **Diagnostic thresholds differ:** ENETS via S1 uses fasting gastrin > 10× the upper limit of normal with gastric pH ≤ 2 off PPIs; S2 uses an absolute gastrin > 1000 ng/L with pH < 2 and a stimulation test for 200–1000 ng/L. Both are shown. | `observation` |
 | 4 | **Secretin test criterion differs:** S1 gives a rise of ≥ 120 pg/mL (94% sensitivity, 100% specificity); S2 gives a rise of at least 200, printed as pg/L (probably pg/mL). Both are shown; S2's gastrin units (ng/L and pg/L) are reproduced as printed. | `observation` |
 | 5 | **Somatostatin analogues:** S2 lists a PPI or a somatostatin analogue for gastrinoma symptom control before surgery; S1 names PPIs the antisecretory drugs of choice. Somatostatin analogues are not PBS-listed for this row. | `observation` |
-| 6 | **S2's diagnosis, symptom-control and systemic-therapy tables** (Tables 1, 4-6) were stripped; any gastrinoma-specific drug or dose they hold is not shown. | `input_unavailable` |
+| 6 | **S2's tables:** Table 1 (functioning pNEN features) and Tables 5–6 (systemic therapy) are now read; the somatostatin analogue doses are shown, and the anti-tumour regimens are left to `neuroendocrine-neoplasms`. S2 Tables 2 and 4 could not be extracted (ragged rows), so any other gastrinoma-specific drug or dose they hold is not shown. | `input_unavailable` |
 | 7 | **Idiopathic gastric acid hypersecretion** (second PBS row) is not addressed by the source; the row is attached because its PBS drug (esomeprazole) and approach (high-dose PPI) are shared. | `observation` |
 | 8 | **Counterparts:** `gord-and-dyspepsia` lists ZES as a long-term PPI indication; `peptic-ulcer-disease` covers ordinary ulcer disease; `neuroendocrine-neoplasms` covers NET work-up and anti-tumour therapy. None covers ZES acid control. | `observation` |
 

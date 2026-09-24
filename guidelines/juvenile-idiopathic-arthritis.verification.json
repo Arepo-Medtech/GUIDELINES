@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/juvenile-idiopathic-arthritis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, with the Australian Rheumatology Association and Australian Paediatric Rheumatology Group 'An Australian Living Guideline for the Management of Juvenile Idiopathic Arthritis (version 3.1)' (version 3.1 published 22 October 2025), 19 claims; LICENCE: © ANZMUSC; reproduction only unaltered, for personal or internal non-commercial use (PDF copyright notice) (read at copyright notice in https://s3.amazonaws.com/files.magicapp.org/guideline/7d97bcf1-d544-4b82-b4e3-8a97cd7bc715/published_guideline_10522-3_1.pdf). S2: PARAPHRASED AND HASH-ANCHORED from EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851) 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease' (published 24 September 2024), 12 claims; LICENCE: CC BY-NC-ND 4.0 (© EULAR 2024, published by BMJ: 'Re-use permitted under CC BY-NC-ND. No commercial re-use. No derivatives.') (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC11672000). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR/PReS 2024 Still's disease recommendations (CC BY-NC-ND, paraphrased and hash-anchored), for the diagnosis and first-line treatment of systemic JIA and for macrophage activation syndrome and lung disease, which S1 does not cover. Some S2 claims are anchored to the treatment-algorithm figure footnotes, which are in the article text. S1's claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, with the Australian Rheumatology Association and Australian Paediatric Rheumatology Group 'An Australian Living Guideline for the Management of Juvenile Idiopathic Arthritis (version 3.1)' (version 3.1 published 22 October 2025), 19 claims; LICENCE: © ANZMUSC; reproduction only unaltered, for personal or internal non-commercial use (PDF copyright notice) (read at copyright notice in https://s3.amazonaws.com/files.magicapp.org/guideline/7d97bcf1-d544-4b82-b4e3-8a97cd7bc715/published_guideline_10522-3_1.pdf). S2: PARAPHRASED AND HASH-ANCHORED from EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851) 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease' (published 24 September 2024), 13 claims; LICENCE: CC BY-NC-ND 4.0 (© EULAR 2024, published by BMJ: 'Re-use permitted under CC BY-NC-ND. No commercial re-use. No derivatives.') (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC11672000). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR/PReS 2024 Still's disease recommendations (CC BY-NC-ND, paraphrased and hash-anchored), for the diagnosis and first-line treatment of systemic JIA and for macrophage activation syndrome and lung disease, which S1 does not cover. Some S2 claims are anchored to the treatment-algorithm figure footnotes, which are in the article text. S1's claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 2 (classification criteria for Still's disease) are paraphrased and anchored to its row lines. S2 Tables 1 and 4 have merged cells and were not extracted.",
  "summary": {
-  "total": 31,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 31
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -342,6 +342,19 @@
      "h": "78ab6c69c4aadf53",
      "n": 125,
      "p": "For this"
+    }
+   ],
+   "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Classification criteria sets (S2 Table 2), mainly for research:** ILAR, age under 16 with arthritis for more than 6 weeks and fever for more than 2 weeks, plus at least one of rash, lymphadenopathy, liver or spleen enlargement, or serositis (sensitivity 93.1%); CARRA, the same features with age under 19 and arthritis for more than 1 week (91.1%); PRINTO, age under 18 with fever for more than 2 weeks plus rash and/or arthritis and supporting features, so arthritis is not required (98.2%). The Yamaguchi and Fautrel sets classify adult-onset disease. The typical rash is maculopapular, non-itchy and salmon-pink, appearing with the fever spikes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca3415c9bf4325a5",
+     "n": 1760,
+     "p": "[Table 2"
     }
    ],
    "locator": "EULAR/PReS task force (Fautrel B, Mitrovic S, De Matteis A, et al.), Annals of the Rheumatic Diseases 83(12):1614-1627 (doi 10.1136/ard-2024-225851), 'EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease', published 24 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11672000/, retrieved 2026-09-24"

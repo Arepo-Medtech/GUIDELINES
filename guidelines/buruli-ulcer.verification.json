@@ -1,20 +1,20 @@
 {
  "guideline": "guidelines/buruli-ulcer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "1.1",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases) 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement' (published 23 February 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12167611). The source's words are NOT reproduced here. ",
+ "method": "PARAPHRASED AND HASH-ANCHORED from Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases) 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement' (published 23 February 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12167611). The source's words are NOT reproduced here. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from Box 4 (wound care, extracted as table 2) are paraphrased and anchored to its row lines.",
  "summary": {
-  "total": 17,
+  "total": 21,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
   {
@@ -318,6 +318,83 @@
    ],
    "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Clean the wound bed and keep it covered.** Removing necrotic and inflammatory tissue helps healing and helps prevent paradoxical reactions and secondary infection: use a pharmacy topical debrider (none is proven better), clinic debridement by an experienced clinician, or surgery, and wash with sterile water, saline or clean shower water. Cover open wounds with an absorbent, breathable dressing, changed every one to three days by exudate or sooner if it soaks through; keep tight clothes and shoes off fragile wounds until healing matures.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1eb5636dd3b6b181",
+     "n": 757,
+     "p": "[2 row 1"
+    },
+    {
+     "h": "8ba1aa2e9e1b5e07",
+     "n": 851,
+     "p": "[2 row 2"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Keep the base moist but not macerated** (absorbent dressings for heavy exudate; honey is commonly used). For swelling, elevate the limb and use fitted compression if tolerated, and consider a diuretic for oedema from heart failure. Take a diet history, bring in a dietitian if nutrition is poor, and consider oral zinc and vitamin C.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b4d6b27c805e5a1",
+     "n": 520,
+     "p": "[2 row 3"
+    },
+    {
+     "h": "2534fa8b2e7de14c",
+     "n": 392,
+     "p": "[2 row 4"
+    },
+    {
+     "h": "4905e347db1261e0",
+     "n": 275,
+     "p": "[2 row 5"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Fix what slows healing:** in leg ulcers check pulses and venous drainage, and refer for imaging and specialist input if the blood supply looks poor; support quitting smoking and cutting down alcohol; make glucose control a priority and screen readily for diabetes; optimise HIV treatment and watch interactions. Keep an affected joint moving; immobilise only briefly after surgery, on surgical and physiotherapy advice.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2d5f16e1e2a0d3b",
+     "n": 899,
+     "p": "[2 row 6"
+    },
+    {
+     "h": "677205cdeeef31c1",
+     "n": 707,
+     "p": "[2 row 7"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Scars and other measures:** a regular emollient for everyone, silicone gel or sheeting where hypertrophic or keloid scarring is likely, and SPF 50+ sunscreen on the scar. Ulcers with much necrotic tissue are tetanus-prone, so offer a booster. Unusual or severe pain on treatment should prompt a search for deeper spread, secondary infection or a paradoxical reaction. Hyperbaric oxygen has no supporting evidence.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c0fa334feaaa985",
+     "n": 631,
+     "p": "[2 row 8"
+    },
+    {
+     "h": "c5f4bb146576a606",
+     "n": 636,
+     "p": "[2 row 9"
+    }
+   ],
+   "locator": "Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases), 'Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement', published 23 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12167611/, retrieved 2026-09-23"
   },
   {
    "claim": "**Advise mosquito-bite avoidance** (repellent, covering clothing, screens), gloves and long sleeves when gardening, prompt washing and covering of cuts, and minimal contact with native possums and their droppings.",

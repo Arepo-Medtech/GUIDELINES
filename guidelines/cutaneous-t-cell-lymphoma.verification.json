@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/cutaneous-t-cell-lymphoma.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021' (published 21 April 2022), 21 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9325452). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)' (retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027)), 7 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. The stage-by-stage treatment tables (Tables 7 and 8) and diagnostic/staging tables were stripped; claims rest on the narrative text. Edition 2.0 keeps every S2k 2021 claim (S1) unchanged and adds S2, three Australian eviQ protocols (CC BY-NC 4.0, paraphrased), for mogamulizumab, vorinostat and brentuximab vedotin doses, PBS status and safety monitoring. The S2 source file concatenates the protocol pages (https://www.eviq.org.au/p/4556, /p/1391 and /p/1665), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ asks that adaptations cite the eviQ ID, version and URL, as given in the S2 title and those URLs.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021' (published 21 April 2022), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9325452). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)' (retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027)), 7 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. The stage-by-stage treatment tables (Tables 7 and 8) and diagnostic/staging tables were stripped; claims rest on the narrative text. Edition 2.0 keeps every S2k 2021 claim (S1) unchanged and adds S2, three Australian eviQ protocols (CC BY-NC 4.0, paraphrased), for mogamulizumab, vorinostat and brentuximab vedotin doses, PBS status and safety monitoring. The S2 source file concatenates the protocol pages (https://www.eviq.org.au/p/4556, /p/1391 and /p/1665), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ asks that adaptations cite the eviQ ID, version and URL, as given in the S2 title and those URLs. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 3 (imaging for first staging), the boxed diagnostic recommendation labelled Table 4 by position, and Table 8 (Sézary syndrome treatment). S1 Tables 2, 4–7, 9, 10a–b and 11a–d could not be extracted (ragged rows or merged cells), so the MF stage-by-stage table is still missing.",
  "summary": {
-  "total": 28,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 28
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -81,6 +81,44 @@
      "h": "91dd4c32fca0bba3",
      "n": 165,
      "p": "the TNM "
+    }
+   ],
+   "locator": "German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft, 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021', published 21 April 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Work-up at first staging (S1 Table 3):** for MF and its variants, a chest X-ray with abdominal and lymph node ultrasound; from stage IIB onwards, and in Sézary syndrome, a contrast CT of neck, chest, abdomen and pelvis with lymph node ultrasound, adding PET-CT where indicated. Use flow cytometry if blood involvement is suspected, and include clonality testing in the diagnosis. Re-staging after treatment, at progression and in aggressive types is tailored to the patient.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "12e73e8263fb5925",
+     "n": 143,
+     "p": "[Table 3"
+    },
+    {
+     "h": "6c2e068165b9fb4f",
+     "n": 218,
+     "p": "[Table 3"
+    },
+    {
+     "h": "3f4e6d6b6d565a34",
+     "n": 193,
+     "p": "[Table 3"
+    },
+    {
+     "h": "3b4f57561c781bb8",
+     "n": 166,
+     "p": "[Table 3"
+    },
+    {
+     "h": "41ef0b4010724a77",
+     "n": 780,
+     "p": "[Table 3"
+    },
+    {
+     "h": "34b2ca239d139ea9",
+     "n": 483,
+     "p": "[Table 4"
     }
    ],
    "locator": "German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft, 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021', published 21 April 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/, retrieved 2026-09-23"
@@ -477,6 +515,29 @@
      "h": "3ef19b366080dd33",
      "n": 415,
      "p": "Second‐c"
+    }
+   ],
+   "locator": "German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft, 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021', published 21 April 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S1's Sézary syndrome table (order within each column is not a ranking):** first choice is extracorporeal photopheresis, combined as needed with PUVA, interferon-alpha and/or bexarotene, or else PUVA with interferon-alpha and/or bexarotene. Second choice: mogamulizumab; chlorambucil with a steroid (the Winkelmann regimen); low-dose methotrexate; bexarotene; total skin electron beam; alemtuzumab (IV, or low-dose subcutaneous); doxorubicin, fludarabine, cladribine or gemcitabine; allogeneic stem cell transplant for selected patients; or brentuximab vedotin (off-label).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "258796e44f8d38bb",
+     "n": 55,
+     "p": "[Table 8"
+    },
+    {
+     "h": "ad318a83019eb9ca",
+     "n": 533,
+     "p": "[Table 8"
+    },
+    {
+     "h": "6c98c376845a6907",
+     "n": 353,
+     "p": "[Table 8"
     }
    ],
    "locator": "German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft, 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021', published 21 April 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/, retrieved 2026-09-23"

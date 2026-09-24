@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/short-bowel-syndrome.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Society for Clinical Nutrition and Metabolism (ESPEN), Clinical Nutrition 42 (2023) 1940–2021 'ESPEN guideline on chronic intestinal failure in adults – Update 2023' (2023), 25 claims; LICENCE: © 2023 European Society for Clinical Nutrition and Metabolism. Published by Elsevier Ltd. All rights reserved. (read at copyright line of the ESPEN-hosted PDF (free to read at espen.org; DOI 10.1016/j.clnu.2023.07.019, Crossref licence: Elsevier user licence)). S2: PARAPHRASED AND HASH-ANCHORED from Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466 'Intestinal transplantation in Australia: progress, challenges and future directions' (published 7 May 2026), 8 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409190). Verify each source separately: verify.py --source <file> --only-source S<n>. The PDF is two-column, so it was converted with plain `pdftotext` (no `-layout`): `-layout` interleaves the two columns on each line and no sentence could be anchored. Recommendations were taken from the body text, not from the summary table. Edition 2.0 adds S2, an Australian single-program report (retrospective series of all intestinal transplants in Australia, 2010-2026, with a discussion of referral). It is not a guideline: it is used only for Australian referral and transplant context, which ESPEN lacks. No Australian or NZ SBS guideline or position statement was found (Europe PMC: short bowel/intestinal failure with Australia/AuSPEN/Australasian and guideline/consensus/position statement; SBS guideline/consensus/practice update 2019-2026); the AGA 2022 practice update is closed access, and the 2025 German practical guideline is in German. S1's claims and anchors are unchanged; S2 is CC BY-NC and is paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Society for Clinical Nutrition and Metabolism (ESPEN), Clinical Nutrition 42 (2023) 1940–2021 'ESPEN guideline on chronic intestinal failure in adults – Update 2023' (2023), 25 claims; LICENCE: © 2023 European Society for Clinical Nutrition and Metabolism. Published by Elsevier Ltd. All rights reserved. (read at copyright line of the ESPEN-hosted PDF (free to read at espen.org; DOI 10.1016/j.clnu.2023.07.019, Crossref licence: Elsevier user licence)). S2: PARAPHRASED AND HASH-ANCHORED from Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466 'Intestinal transplantation in Australia: progress, challenges and future directions' (published 7 May 2026), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409190). Verify each source separately: verify.py --source <file> --only-source S<n>. The PDF is two-column, so it was converted with plain `pdftotext` (no `-layout`): `-layout` interleaves the two columns on each line and no sentence could be anchored. Recommendations were taken from the body text, not from the summary table. Edition 2.0 adds S2, an Australian single-program report (retrospective series of all intestinal transplants in Australia, 2010-2026, with a discussion of referral). It is not a guideline: it is used only for Australian referral and transplant context, which ESPEN lacks. No Australian or NZ SBS guideline or position statement was found (Europe PMC: short bowel/intestinal failure with Australia/AuSPEN/Australasian and guideline/consensus/position statement; SBS guideline/consensus/practice update 2019-2026); the AGA 2022 practice update is closed access, and the 2025 German practical guideline is in German. S1's claims and anchors are unchanged; S2 is CC BY-NC and is paraphrased and hash-anchored. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (indications for intestinal transplant) and Table 3 (outcomes). S2 Table 2 has ragged rows and was not extracted; S1 is a PDF.",
  "summary": {
-  "total": 33,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 33
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -141,6 +141,19 @@
    "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
   },
   {
+   "claim": "⚠️ **Indications for intestinal transplant (S2 table):** advanced, progressive IF-associated liver disease (raised bilirubin lasting more than 2 months despite changing the intravenous lipid, or raised bilirubin together with poor synthetic function and signs of portal hypertension and hypersplenism); loss of central access, meaning thrombosis of 3 of the 4 upper-body central veins or a blocked brachiocephalic vein in a child (judged case by case in adults); life-threatening complications of lifelong PN dependence, such as two intensive care admissions for sepsis or other IF complications in a child (case by case in adults); invasive intra-abdominal desmoid tumours in adolescents and adults; acute diffuse intestinal infarction with liver failure; and failure of a first intestinal graft.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23518fbe1cdd553d",
+     "n": 2413,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Waiting-list deaths are high:** about 30% for people awaiting a combined liver-intestine graft and about 10% for an isolated intestine. Assessing patients before liver failure sets in makes an isolated intestinal graft, with a shorter wait, more likely.",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -216,6 +229,24 @@
      "h": "e38d00106744cc67",
      "n": 114,
      "p": "All pati"
+    }
+   ],
+   "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Course after the 20 Australian transplants (S2 table):** median intensive care stay 9.5 days and hospital stay 39 days; rejection in 8 (40%); graft-versus-host disease and post-transplant lymphoproliferative disorder in 1 each (5%). At 12 months the median bilirubin was 8 µmol/L, creatinine 97 µmol/L and albumin 36 g/L.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5104c4314eae2807",
+     "n": 634,
+     "p": "[Table 3"
+    },
+    {
+     "h": "ae655079e9ff0d18",
+     "n": 294,
+     "p": "[Table 3"
     }
    ],
    "locator": "Chapman B, Wong D, Starkey G, Perini M, Yap J, Testro A (Austin Health / Royal Children's Hospital Australian Intestinal Transplant Service), Internal Medicine Journal, doi 10.1111/imj.70466, 'Intestinal transplantation in Australia: progress, challenges and future directions', published 7 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409190/, retrieved 2026-09-24"

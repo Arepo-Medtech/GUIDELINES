@@ -1,9 +1,9 @@
 # Diabetic macular oedema (and diabetic retinopathy screening)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** retinopathy screening and referral for people with diabetes, diagnosis of DMO, systemic risk-factor control, and ophthalmic treatment of DMO (anti-VEGF, laser, intravitreal steroids, vitrectomy) in adults. An authors' working-group review, not a society guideline. Treatment of proliferative retinopathy itself (panretinal laser) is not covered by the source. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. General diabetes care, including a retinopathy-screening line, is in `type-2-diabetes.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **53 fragments or anchors re-checkable by machine; 7 doses.** **S1** Yuen YS et al. (2023 (doi 10.1155/2023/6329819); AU): 25 claims, quoted · **S2** American Academy of Ophthalmology PPP Retina/Vitreous Committee (approved 13 September 2024 (PDF revision dated 4 August 2025); international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **59 fragments or anchors re-checkable by machine; 7 doses.** **S1** Yuen YS et al. (2023 (doi 10.1155/2023/6329819); AU): 27 claims, quoted · **S2** American Academy of Ophthalmology PPP Retina/Vitreous Committee (approved 13 September 2024 (PDF revision dated 4 August 2025); international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ **Bevacizumab is used in Australia but is not PBS-listed for DMO.** The PBS lists aflibercept, faricimab, ranibizumab and the dexamethasone implant (see the table below). The source says the dexamethasone implant is PBS-approved only for pseudophakic eyes or eyes scheduled for cataract surgery.
 
@@ -31,6 +31,8 @@
 
 - **Control glucose, blood pressure and lipids.** The ADA target is an A1c as near normal as possible without significant hypoglycaemia, typically <7% (≤6.5% for some). [S1]
 - **Fenofibrate slows retinopathy progression**, particularly in very mild non-proliferative disease. In 2013 Australia became the first country to recommend it for this. [S1]
+- ⚠️ **GLP-1 receptor agonists (dulaglutide, exenatide, liraglutide, lixisenatide, semaglutide) may transiently worsen retinopathy:** case reports describe rapid progression from background retinopathy to bilateral PDR and DMO, and higher complication rates with semaglutide (S1 drug table). [S1]
+- **Other diabetes drugs and the retina (S1 drug table; retrospective reviews, case reports and animal data):** metformin may protect against retinopathy; gliptins may slow progression, though use for under 1 year may bring early worsening; SGLT2 inhibitors slowed retinopathy in rats, and DMO regressed after 16 weeks in ipragliflozin case reports; rosiglitazone was linked to a 59% relative risk reduction in progression to PDR over 3 years, but thiazolidinediones cause fluid retention and an increased DMO risk is also reported; gliclazide may prevent progression to PDR. [S1]
 
 ## Treatment of DMO
 
@@ -91,7 +93,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Treatment of proliferative diabetic retinopathy itself** (panretinal laser, anti-VEGF for new vessels) is not covered by S1, which deals with PDR only for referral and vitrectomy. S2 (AAO, US) now supplies it; no Australian source for PDR treatment was read. | `observation` |
 | 2 | **Screening interval differs:** S1 (RANZCO, following NHMRC 2008) screens every 2 years when no retinopathy is found, and yearly for higher-risk groups; S2 (AAO) screens everyone yearly. Both are shown. | `observation` |
 | 3 | **Aflibercept 8 mg and the faricimab regimens** are from S2's trial summaries (FDA context). The PBS table lists aflibercept and faricimab by name only; whether the 8 mg strength is TGA-registered and PBS-listed for DMO is not established here. | `input_unavailable` |
-| 4 | **NHMRC recommendations for special groups** (Table 1) and **diabetes drug classes** (Table 3) are in tables, which were stripped. | `input_unavailable` |
+| 4 | **NHMRC recommendations for special groups** (S1 Table 1) and S1 Table 2 have merged cells and still could not be extracted. **Diabetes drug classes** (S1 Table 3) are now covered under Systemic control. | `input_unavailable` |
 | 5 | **Currency:** S1's literature search ran to 2019 and the NHMRC retinopathy guideline has not been updated since 2008; S1 mentions faricimab only as newly PBS-listed. S2 (2024) adds the faricimab and aflibercept 8 mg trial data. | `observation` |
 | 6 | **S1 also cites UK screening advice** (e.g. UK urgent referral within 2 weeks for PDR), which was not carried over. AAO advice now comes directly from S2. | `observation` |
 | 7 | **Licence:** S1 is CC BY 4.0 and its claims are quoted verbatim. S2 is © AAO, all rights reserved, with an AI-use clause; its claims are paraphrased and hash-anchored and its words are not reproduced. | `observation` |

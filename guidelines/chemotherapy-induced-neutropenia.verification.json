@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/chemotherapy-induced-neutropenia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement' (published 5 November 2022), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9715510). S2: PARAPHRASED AND HASH-ANCHORED from International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1) 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations' (published 25 August 2017), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC5610660). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Italian Delphi claims (S1, quoted) unchanged and adds the 2017 international pegfilgrastim consensus (S2, PMC5610660, CC BY-NC, paraphrased) for choosing pegfilgrastim versus daily filgrastim by regimen and in haematological cancers. S2's advisory board was funded by Sandoz.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement' (published 5 November 2022), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9715510). S2: PARAPHRASED AND HASH-ANCHORED from International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1) 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations' (published 25 August 2017), 13 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC5610660). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Italian Delphi claims (S1, quoted) unchanged and adds the 2017 international pegfilgrastim consensus (S2, PMC5610660, CC BY-NC, paraphrased) for choosing pegfilgrastim versus daily filgrastim by regimen and in haematological cancers. S2's advisory board was funded by Sandoz. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 3 (factors that raise FN risk). S1's Tables 1–6 are images only and Table 7 has merged cells, so they were not extracted.",
  "summary": {
-  "total": 30,
+  "total": 31,
   "pass": 18,
   "fail": 0,
-  "pass_paraphrase_anchored": 12
+  "pass_paraphrase_anchored": 13
  },
  "claims": [
   {
@@ -45,6 +45,44 @@
    "verdict": "pass",
    "source_text": "Current guidelines suggest assessing FN risk at the start of each chemotherapy cycle in order to prevent or better manage the condition if it arises. … the chemotherapy regimen should be based on the patient's clinical characteristics and treatment goals after the evaluation of the risk of FN to ensure appropriate treatment",
    "locator": "Italian medical oncology expert panel (Adamo V, et al.), Supportive Care in Cancer 2022;30:9877, 'Supportive therapies in the prevention of chemotherapy-induced febrile neutropenia and appropriate use of granulocyte colony-stimulating factors: a Delphi consensus statement', published 5 November 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9715510/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Patient factors S2 lists as raising FN risk** (taken from the German G-CSF guideline group; the risk is greatest when several combine): being older than 65; poor performance status on the Karnofsky or ECOG scale; comorbid COPD, NYHA III–IV heart failure, HIV, autoimmune disease or marked kidney impairment; advanced symptomatic cancer; previous chemotherapy; and abnormal blood tests such as anaemia, lymphocytes under 700 cells/μl or high bilirubin (plus an albumin abnormality the table prints as hyperalbuminuria).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8376a1a52dbcb7b2",
+     "n": 222,
+     "p": "[Table 3"
+    },
+    {
+     "h": "66cd274be486fb32",
+     "n": 149,
+     "p": "[Table 3"
+    },
+    {
+     "h": "7664c6ce40addf42",
+     "n": 80,
+     "p": "[Table 3"
+    },
+    {
+     "h": "411564ca1a25d261",
+     "n": 49,
+     "p": "[Table 3"
+    },
+    {
+     "h": "60782b712fca36e6",
+     "n": 142,
+     "p": "[Table 3"
+    },
+    {
+     "h": "68c93ac4002e0215",
+     "n": 113,
+     "p": "All fact"
+    }
+   ],
+   "locator": "International expert panel (Aapro M, et al.), Supportive Care in Cancer 25(11) (doi 10.1007/s00520-017-3842-1), 'Refining the role of pegfilgrastim (a long-acting G-CSF) for prevention of chemotherapy-induced febrile neutropenia: consensus guidance recommendations', published 25 August 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5610660/, retrieved 2026-09-24"
   },
   {
    "claim": "**Adding immunotherapy to chemotherapy does not raise FN risk,** so use the same criteria as for chemotherapy alone.",

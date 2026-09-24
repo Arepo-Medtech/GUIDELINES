@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/al-amyloidosis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Brazilian expert panel, Hematology, Transfusion and Cell Therapy 'Brazilian consensus recommendations on the diagnosis and treatment of light chain amyloidosis' (Jul–Sep 2026), 20 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at NCBI PMC efetch JATS <license> element for PMC13251756 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from American Society of Hematology (ASH) guideline panel, Blood Advances 10(14) 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis' (published 22 July 2026), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13425172). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Brazilian consensus claims (S1, quoted) unchanged and adds the ASH 2026 AL amyloidosis diagnosis guideline (S2, PMC13425172, CC BY-NC-ND, paraphrased) for GRADE-rated testing, imaging and biopsy-site recommendations.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Brazilian expert panel, Hematology, Transfusion and Cell Therapy 'Brazilian consensus recommendations on the diagnosis and treatment of light chain amyloidosis' (Jul–Sep 2026), 20 claims; LICENCE: CC BY 4.0 ('This is an open access article under the CC BY license') (read at NCBI PMC efetch JATS <license> element for PMC13251756 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from American Society of Hematology (ASH) guideline panel, Blood Advances 10(14) 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis' (published 22 July 2026), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13425172). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps the Brazilian consensus claims (S1, quoted) unchanged and adds the ASH 2026 AL amyloidosis diagnosis guideline (S2, PMC13425172, CC BY-NC-ND, paraphrased) for GRADE-rated testing, imaging and biopsy-site recommendations. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from Table 4 (kidney-adjusted free light chain reference ranges) and Table 5 (pooled biopsy-site sensitivity) of S2. S1's Tables 1–3 and S2's Tables 1 and 3 could not be extracted.",
  "summary": {
-  "total": 30,
+  "total": 32,
   "pass": 20,
   "fail": 0,
-  "pass_paraphrase_anchored": 10
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -130,6 +130,39 @@
    "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Kidney-adjusted free light chain ranges (proposed from the Icelandic iStopMM cohort):** the normal kappa/lambda ratio widens as eGFR falls, to 0.46–2.62 at eGFR 45–59, 0.48–3.38 at 30–44 and 0.54–3.30 below 30 mL/min per 1.73 m², against a standard range of 0.26–1.65; the upper limit for kappa rises to 83.6, 103.3 and 265.1 mg/L. The cohort was homogeneously White, so these ranges may not apply to more diverse populations.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37fe2c3720300469",
+     "n": 128,
+     "p": "[Table 4"
+    },
+    {
+     "h": "28de25cb01a025d1",
+     "n": 129,
+     "p": "[Table 4"
+    },
+    {
+     "h": "56658f4c627d0560",
+     "n": 130,
+     "p": "[Table 4"
+    },
+    {
+     "h": "3ddaaf28583832bd",
+     "n": 70,
+     "p": "The sFLC"
+    },
+    {
+     "h": "c3beb20fe5d24a73",
+     "n": 201,
+     "p": "One cave"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Monoclonal protein found, cardiac biomarkers raised:** if the echocardiogram is non-diagnostic, add cardiac MRI (conditional); if the echocardiogram already fits amyloidosis, skip MRI and go straight to tissue biopsy without delay (conditional).",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -204,6 +237,59 @@
      "h": "d8c715c6e3c7e93a",
      "n": 401,
      "p": "In cases"
+    }
+   ],
+   "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pooled sensitivity by biopsy site (ASH evidence review):** renal 95.5% (moderate certainty), endomyocardial 93.5% (low), fat pad and marrow together 89% (very low), liver 86.8% (very low), fat pad alone 76.6% (moderate), gastrointestinal 66.6% (low), peripheral nerve 66.3% (very low), skin for intraepidermal nerve fibre density 60% (very low; a single study) and marrow alone 55.1% (low).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15f7c859c1c53185",
+     "n": 190,
+     "p": "[Table 5"
+    },
+    {
+     "h": "af962cdde7101c84",
+     "n": 187,
+     "p": "[Table 5"
+    },
+    {
+     "h": "f1306464fcdf446f",
+     "n": 168,
+     "p": "[Table 5"
+    },
+    {
+     "h": "7d66ab8ef214f5d7",
+     "n": 184,
+     "p": "[Table 5"
+    },
+    {
+     "h": "a999c642b30fb260",
+     "n": 188,
+     "p": "[Table 5"
+    },
+    {
+     "h": "2aa0d67aa6801214",
+     "n": 194,
+     "p": "[Table 5"
+    },
+    {
+     "h": "337da5a1403c0002",
+     "n": 214,
+     "p": "[Table 5"
+    },
+    {
+     "h": "7c74e28acb3abc19",
+     "n": 181,
+     "p": "[Table 5"
+    },
+    {
+     "h": "872c6bf25655d963",
+     "n": 192,
+     "p": "[Table 5"
     }
    ],
    "locator": "American Society of Hematology (ASH) guideline panel, Blood Advances 10(14), 'American Society of Hematology 2026 guidelines on diagnosis of light chain amyloidosis', published 22 July 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13425172/, retrieved 2026-09-24"

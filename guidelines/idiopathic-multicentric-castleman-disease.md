@@ -1,9 +1,9 @@
 # Idiopathic multicentric Castleman disease (iMCD)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, diagnosis, severity assessment, first-line siltuximab, response assessment and refractory treatment of idiopathic multicentric Castleman disease in adults. HHV8-associated and POEMS-associated MCD and unicentric CD are named only as differentials.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **59 fragments or anchors re-checkable by machine; 7 doses.** **S1** Australasian multidisciplinary working group (published 30 May 2026; AU): 23 claims, paraphrased, hash-anchored · **S2** Castleman Disease Collaborative Network international working group (van Rhee F (published 4 September 2018; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 38 claims; **63 fragments or anchors re-checkable by machine; 7 doses.** **S1** Australasian multidisciplinary working group (published 30 May 2026; AU): 26 claims, paraphrased, hash-anchored · **S2** Castleman Disease Collaborative Network international working group (van Rhee F (published 4 September 2018; international): 12 claims, paraphrased, hash-anchored
 
 > 🇦🇺 **S1 is the Australian guideline (2026).** S2 is the international CDCN consensus treatment guideline (2018), which S1 builds on; S2 adds severity markers, response criteria and steroid and rituximab dosing. Where they differ, both are shown.
 
@@ -25,6 +25,7 @@
 - **HHV8 LANA-1 immunohistochemistry must be negative,** and infection, immune disease and malignancy must be excluded before the diagnosis is made. [S1]
 - ⚠️ **Do not use fine-needle aspiration to diagnose iMCD;** core biopsy is generally inferior to open excision. [S1]
 - **Work-up:** CT or PET/CT for nodes, organomegaly, effusions and pneumonitis; FBC, creatinine/GFR, LFTs (albumin), immunoglobulins, ESR and CRP; test for HHV-8, EBV and uncontrolled infection. Bone marrow biopsy looks for malignancy, POEMS and TAFRO reticulin fibrosis. [S1]
+- **Full work-up (S1 Table 5):** ask about B symptoms, fluid overload, skin changes such as eruptive cherry haemangiomas, and polyneuropathy (for POEMS). Bloods: FBC and film, electrolytes, calcium, phosphate, LDH, urate, liver tests with albumin, ESR, CRP, immunoglobulins, serum electrophoresis, immunofixation and free light chains; if available, IL-6, sIL-2R, VEGF and/or beta-2-microglobulin (the first three are not Medicare-rebated). Infection screen: HIV, hepatitis B and C, CMV, EBV and toxoplasma serology, a TB screen, blood HHV8/KSHV PCR and blood cultures. Exclusion serology: ANA, ENA and anti-dsDNA, complement C3 and C4, RF and anti-CCP, ANCA, antiphospholipid antibodies, direct Coombs test, ACE, ferritin and IgG subclasses. Urine protein- and albumin-creatinine ratios with electrophoresis and immunofixation; an excisional node biopsy (strongly preferred) and marrow aspirate and trephine; CT of neck, chest, abdomen and pelvis and FDG-PET/CT. [S1]
 - **Main mimics:** POEMS (needs polyneuropathy and a monoclonal plasma cell disorder), SLE, Sjögren disease, RA, IgG4-related disease, sarcoidosis, Still disease, VEXAS and ANCA vasculitis. Autoantibodies occur in 30% of iMCD, so serology alone does not separate them. [S1]
 - **On PET-CT, a high standardised uptake value (above 6) should prompt a search for another diagnosis such as lymphoma** (CDCN). [S2]
 - **Do not use IL-6 levels to decide on treatment:** in the randomised siltuximab trial some patients with normal IL-6 responded and some with high IL-6 did not (CDCN). [S2]
@@ -32,6 +33,7 @@
 ## Treat
 
 - **Grade severity by the CDCN criteria:** meeting at least two of the five means severe disease. [S1]
+- ⚠️ **The five CDCN severity criteria (S1 Table 7):** ECOG performance status 2 or worse; stage IV kidney dysfunction (eGFR below 30 mL/min/1.73 m², or creatinine above 265 µmol/L); anasarca, ascites, or pleural or pericardial effusion; haemoglobin 80 g/L or lower; and lung involvement or interstitial pneumonitis with breathlessness. [S1]
 - ⚠️ **Siltuximab is first line in both severe and non-severe iMCD** and is the only PBS-reimbursed drug for it. Standard dose: 11 mg/kg IV every 3 weeks. (Level II, Grade B) [S1]
 - ⚠️ **Severe disease: siltuximab plus high-dose steroid** (such as methylprednisolone 500 mg IV once a day for 3 days). Weekly siltuximab for 4 weeks has been suggested; critically unwell TAFRO patients may also get cyclosporin A. [S1]
 - **Asymptomatic with normal organ function: no treatment,** but monitor, initially 6-weekly then 3-monthly, with history, exam, FBC, electrolytes, renal and liver tests and CRP. Treat promptly once symptoms or organ dysfunction appear. [S1]
@@ -51,6 +53,7 @@
 - **Fever and thrombocytopenia settle first,** often within a month on siltuximab; haemoglobin, CRP and albumin improve within 3 months; nodes can take 6–12 months. Weigh symptoms and organ recovery above nodal response. [S1]
 - **Review clinically and biochemically weekly until improving, then each 3-weekly cycle;** CT for nodal response at 6 and 12 months. [S1]
 - **CDCN response criteria** combine three parts: biochemistry (haemoglobin, CRP, albumin, eGFR), lymph node size (modified Cheson) and four symptoms (fatigue, anorexia, fever, weight change, graded by CTCAE). Biochemical CR is normalisation of all values; PR is a 50% to 99% improvement in all; progression is a worsening of more than 25% in any. Overall CR needs CR in all three; any progression is overall progression. [S2]
+- **Response categories in full (S1 Tables 9-10):** complete response means normal CRP, haemoglobin, albumin and GFR, a nodal complete response and symptoms back to baseline; partial response, more than 50% improvement in all four markers, a nodal partial response and improvement in all four symptom groups short of baseline; stable disease, under 50% improvement (or under 25% worsening) in the markers, no nodal response and improvement in some but not all symptoms; progression, more than 25% worsening of any marker, more than 25% nodal growth, or any symptom worse on 2 or more assessments. A symptom counts as improved with a fall of at least 1 CTC grade (fatigue, anorexia), a fall of at least 1°C (fever) or a weight gain of 5% or more. [S1]
 - **Timing (CDCN):** symptoms should improve after 3 to 4 anti-IL-6 doses; follow haemoglobin, CRP, ESR and albumin weekly then fortnightly until normal. Nodes shrink slowly (median 5 months), so CT every 3 months until the best response, then every 6 and later 12 months. Siltuximab and tocilizumab falsely raise IL-6 for 18 to 24 months after the last dose, so IL-6 cannot measure response. [S2]
 
 ## Refractory disease
@@ -77,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The CDCN minor criteria, severity criteria (Table 7), response criteria and the key-recommendation grading table** are in tables, which were stripped; only the 'two of five' severity rule is stated. | `input_unavailable` |
+| 1 | **Now covered from S1's table rows:** the diagnostic work-up (Table 5), the five CDCN severity criteria (Table 7) and the CDCN response and symptom-response criteria (Tables 9-10). **Still missing:** the summary of key recommendations (Table 1), the evidence-grading table (Table 2), the WHO diagnostic criteria including the minor criteria (Table 3), the histopathology comparison (Table 4), the autoimmune differentials (Table 6) and the regimen comparison (Table 8); these have ragged rows or merged cells and were not extracted. | `input_unavailable` |
 | 2 | **Mechanism wording differs within the source:** one passage calls siltuximab an 'IL-6 receptor antagonist', another an antibody against IL-6 (the latter is correct and is used here). | `observation` |
 | 3 | **Polynesian patients** (New Zealand Māori, Samoan, Niuean) appear to have higher incidence and a milder phenotype, but estimates rest on a small sample. | `observation` |
 | 4 | **Response criteria:** S1's response table was stripped; S2's CDCN composite response criteria (biochemical, lymph node and symptom) are now given from its text. | `observation` |

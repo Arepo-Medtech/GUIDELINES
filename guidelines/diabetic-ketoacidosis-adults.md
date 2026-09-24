@@ -1,9 +1,9 @@
 # Diabetic ketoacidosis (and hyperglycaemic hyperosmolar state) in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, severity triage, fluids, insulin, potassium, bicarbonate and phosphate, resolution criteria, transition to subcutaneous insulin and discharge planning for adults with diabetic ketoacidosis (DKA), with the key differences for the hyperglycaemic hyperosmolar state (HHS). Children and adolescents: see `diabetic-ketoacidosis-children` and `hyperosmolar-hyperglycaemic-state-children`. Ongoing care: `type-1-diabetes`, `type-2-diabetes` (SGLT2-inhibitor ketoacidosis risk is also covered there).
 
-> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **55 fragments or anchors re-checkable by machine; 13 doses.** **S1** American Diabetes Association (published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275); international): 24 claims, quoted · **S2** Raven LM (published 6 March 2025; AU): 8 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 45 claims; **70 fragments or anchors re-checkable by machine; 13 doses.** **S1** American Diabetes Association (published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275); international): 37 claims, quoted · **S2** Raven LM (published 6 March 2025; AU): 8 claims, paraphrased, hash-anchored
 
 > 🇦🇺 **Two sources.** S1 (international consensus, 2024) is the treatment reference. **S2** (national survey of Australian hospital DKA protocols, 2025) shows how Australian practice actually varies, and its authors argue that fixed- and variable-rate insulin infusions should be equally advocated until better evidence exists. S2 describes practice; it is not a guideline.
 
@@ -20,6 +20,7 @@
 - **Measure blood β-hydroxybutyrate (venous or capillary) to diagnose and to monitor treatment**, not urine nitroprusside ketones. A level of 3.0 mmol/L or more has over 90% sensitivity and specificity for DKA. [S1]
 - **First tests:** glucose, electrolytes, venous blood gas, full blood count and ketones. Examine for infection, ischaemia and other precipitants, and do an ECG (hyperkalaemia, ischaemia). [S1]
 - **Look for the trigger:** infection is the commonest worldwide (14–58% of cases), and missed insulin is a major cause. Glucocorticoids, antipsychotics and immune checkpoint inhibitors can also precipitate a crisis. [S1]
+- 🇦🇺 **In the Australian series S1 tabulates, insulin omission (40%) was a commoner trigger than infection (28.6%);** new-onset diabetes accounted for 5.7% and other causes 25.7%. (S1 Table 1) [S1]
 - **Other causes of ketosis to exclude:** starvation ketosis, alcoholic ketoacidosis, and ketosis of pregnancy or hyperemesis. [S1]
 - ⚠️ **Abdominal pain may be caused by DKA or may be its trigger.** Re-examine if it does not settle once dehydration and acidosis have been corrected. [S1]
 
@@ -56,6 +57,24 @@
 
 - **HHS insulin: fixed-rate 0.05 U/kg/h without significant ketonaemia or acidosis; 0.1 U/kg/h if it is mixed DKA/HHS.** Glucose should fall by no more than 5–6.7 mmol/L per hour, and sodium by no more than 10 mmol/L in 24 h. [S1]
 
+## Complications of treatment (S1 Table 3)
+
+- ⚠️ **Hypoglycaemia is common during treatment:** 16–28% of patients fall below 3.9 mmol/L and 2% below 2.2 mmol/L, and hypoglycaemia below 2.2 mmol/L was linked to a 4.8-fold rise in mortality. Check glucose every 1–2 h. [S1]
+- ⚠️ **Hypokalaemia (below 3.5 mmol/L) develops in about 55% of DKA and 51% of HHS, and severe hypokalaemia (2.5 mmol/L or less) in 16% and 9%;** severe hypokalaemia raised inpatient mortality. Monitor potassium every 4 h and add replacement to the fluids. [S1]
+- **A hyperchloraemic (normal anion gap) acidosis can appear during recovery;** it is self-limiting, and seems less frequent with balanced electrolyte solutions and slower saline infusion. [S1]
+- ⚠️ **DKA and especially HHS are prothrombotic:** unless thrombosis is suspected, give prophylactic-dose low-molecular-weight heparin. [S1]
+- ⚠️ **Cerebral oedema is rare in adults (under 0.1% of events) but carries a mortality of about 30%.** Watch for any change in mental state, with a low threshold for brain imaging; mannitol and mechanical ventilation are suggested for treatment, and in HHS hyperosmolarity is corrected slowly. [S1]
+- **Osmotic demyelination:** the risk comes from correcting hyponatraemia too fast, which can happen in HHS. Lower serum osmolality with 0.9% saline, by 3.0–8.0 mOsm/kg per hour. [S1]
+- **Acute kidney injury affects about half of adults admitted with DKA or HHS** (more often older people and those with higher osmolality or glucose). It usually resolves with rehydration; check renal function daily. [S1]
+
+## Special populations (S1 Table 4)
+
+- ⚠️ **On an SGLT2 inhibitor:** DKA may be euglycaemic (glucose below 11.1 mmol/L). Treat as for other DKA, but in euglycaemic DKA add 5–10% dextrose to the IV fluid or start it together with the 0.9% sodium chloride, and stop the SGLT2 inhibitor on admission. SGLT2 inhibitors are not recommended in T1D; in T2D, starting or continuing one after DKA resolves is not routinely recommended. [S1]
+- ⚠️ **Pregnancy:** DKA develops in up to 2% of pregnancies with pre-existing diabetes (mostly T1D), can be euglycaemic, and hyperemesis can mix the acid–base picture. It needs immediate senior medical and obstetric care, ideally in a delivery suite or high-dependency unit. [S1]
+- **End-stage kidney disease:** expect higher glucose and osmolality, more hyponatraemia and hyperkalaemia, lower β-hydroxybutyrate and possible fluid overload. Give fluids and potassium carefully and watch for cardiac complications. [S1]
+- **Frail or older adults:** HHS and mixed DKA/HHS are more common than DKA alone. Match the fluid volume and rate to comorbidities and the trigger, review polypharmacy, and assess cognition, function and capacity for self-management. [S1]
+- **High-dose steroids (for example in COVID-19) mean higher insulin doses** to clear refractory ketonaemia. [S1]
+
 ## Discharge and prevention
 
 - **Before discharge:** education on the episode and on diabetes self-management, sick-day advice, an insulin supply, and ketone testing. Offer CGM after discharge and follow up within 2–4 weeks. [S1]
@@ -79,13 +98,14 @@
 | # | Item | Class |
 |---|---|---|
 | 1 | **The formal diagnostic cut-offs** (pH and bicarbonate for DKA; the four HHS criteria) are in a figure that could not be read by machine. The text gives only the glucose and β-hydroxybutyrate thresholds. | `input_unavailable` |
-| 2 | **Severity grading (mild/moderate/severe), treatment complications (hypoglycaemia, hypokalaemia, cerebral oedema, osmotic demyelination, thrombosis) and special populations (SGLT2 inhibitors, pregnancy, dialysis, frailty)** are in tables that were stripped. | `input_unavailable` |
-| 3 | **No national Australian adult DKA guideline was found.** The 2025 national survey (Intern Med J, PMC12077586) has now been read and is S2: it confirms that Australian hospitals use varied local protocols and gives no national diagnostic criteria. | `observation` |
-| 4 | **Insulin regimen:** S1 recommends a weight-based fixed-rate infusion at 0.1 U/kg/h (variable-rate only in nurse-driven protocols); S2's authors argue fixed- and variable-rate infusions should be equally advocated until comparative evidence exists, and 45% of surveyed Australian protocols are variable-rate. Both are shown. | `observation` |
-| 5 | **Fluid choice:** S1 notes that balanced crystalloids resolved DKA faster than saline; most Australian protocols in S2 still specify 0.9% sodium chloride. Both are shown. | `observation` |
-| 6 | **Diagnostic pH and bicarbonate cut-offs** remain unfilled: S2 gives only resolution thresholds (pH above 7.3, ketones below 0.6 mmol/L in most protocols). | `input_unavailable` |
-| 7 | **Children:** covered separately in `diabetic-ketoacidosis-children` (fluid and cerebral-oedema rules differ). | `out_of_scope` |
-| 8 | **Licence:** CC BY 4.0 (Diabetologia co-publication). Claims are quoted and re-checkable. | `observation` |
+| 2 | **Severity grading (mild/moderate/severe)** is in S1 Table 2, which has ragged rows and was not extracted, so it remains a gap. Treatment complications (Table 3: hypoglycaemia, hypokalaemia, cerebral oedema, osmotic demyelination, thrombosis, kidney injury) and special populations (Table 4: SGLT2 inhibitors, pregnancy, end-stage kidney disease, frailty, high-dose steroids) are now extracted and on the page. S2's two tables have merged cells and were not extracted; its text figures are used. | `input_unavailable` |
+| 3 | **Commonest trigger:** S1's text calls infection the most common precipitant worldwide (14–58%); its own Table 1 shows insulin omission (40%) ahead of infection (28.6%) in the Australian data. Both are shown. | `observation` |
+| 4 | **No national Australian adult DKA guideline was found.** The 2025 national survey (Intern Med J, PMC12077586) has now been read and is S2: it confirms that Australian hospitals use varied local protocols and gives no national diagnostic criteria. | `observation` |
+| 5 | **Insulin regimen:** S1 recommends a weight-based fixed-rate infusion at 0.1 U/kg/h (variable-rate only in nurse-driven protocols); S2's authors argue fixed- and variable-rate infusions should be equally advocated until comparative evidence exists, and 45% of surveyed Australian protocols are variable-rate. Both are shown. | `observation` |
+| 6 | **Fluid choice:** S1 notes that balanced crystalloids resolved DKA faster than saline; most Australian protocols in S2 still specify 0.9% sodium chloride. Both are shown. | `observation` |
+| 7 | **Diagnostic pH and bicarbonate cut-offs** remain unfilled: S2 gives only resolution thresholds (pH above 7.3, ketones below 0.6 mmol/L in most protocols). | `input_unavailable` |
+| 8 | **Children:** covered separately in `diabetic-ketoacidosis-children` (fluid and cerebral-oedema rules differ). | `out_of_scope` |
+| 9 | **Licence:** CC BY 4.0 (Diabetologia co-publication). Claims are quoted and re-checkable. | `observation` |
 
 ## Sources
 

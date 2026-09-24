@@ -1,9 +1,9 @@
 # Long-chain fatty acid oxidation disorders (LC-FAODs): diet, MCT and emergencies
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** long-term dietary management of long-chain FAODs (CPT-I, CPT-II, CACT, VLCAD, LCHAD/MTP): avoiding fasting, cornstarch, long-chain fat restriction, medium-chain triglyceride (MCT) supplements, triheptanoin, exercise, surgery, home and hospital management of decompensation, carnitine and drugs to avoid. Medium- and short-chain disorders (e.g. MCAD deficiency) are mentioned only where they differ. Hypoglycaemia in an unwell child: `hypoglycaemia-children`, `metabolic-disorders-children`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **50 fragments or anchors re-checkable by machine; 8 doses.** **S1** Peña-Quintana L (vol. 16, article 2707, published 14 August 2024; international): 16 claims, quoted · **S2** Genetic Metabolic Dietitians International (GMDI) and Southeast Regional Genetics Network (SERN) (first edition February 2019, v1.4 updated November 2022; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **52 fragments or anchors re-checkable by machine; 8 doses.** **S1** Peña-Quintana L (vol. 16, article 2707, published 14 August 2024; international): 18 claims, quoted · **S2** Genetic Metabolic Dietitians International (GMDI) and Southeast Regional Genetics Network (SERN) (first edition February 2019, v1.4 updated November 2022; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ **S1 is a narrative review, not a society guideline** (Spanish metabolic clinicians, Nutrients 2024); claims for CPT-I, CPT-II, CACT and LCHAD/MTP rest on it alone. **S2 is the GMDI/SERN evidence- and consensus-based nutrition guideline for VLCAD deficiency** (US, v1.4, 2022) and applies to VLCAD only. No open guideline covers all LC-FAODs; the 2009 European workshop consensus is closed access. The two sources disagree on cornstarch, fasting limits, how far to restrict long-chain fat and triheptanoin; both are shown. Australian practice follows the PBS listings below and may differ.
 
@@ -17,12 +17,14 @@
 
 ## Avoid fasting
 
+- ⚠️ **Overnight fasting limits in a stable metabolic state (S1 Table 2):** newborns 3 h; under 6 months 4 h; 6–12 months 6–8 h; over 1 year 8–10 h. [S1]
 - ⚠️ **Frequent meals:** every 3–4 h under 1 year; every 4–5 h over 1 year, never fasting more than 8 h. Never skip breakfast. [S1]
 - **A midnight meal is advisable; uncooked cornstarch can be used from 8 months,** keeping glucose normal for 6–8 h. Start at 1.0–1.5 g/kg and increase gradually to 1.75–2 g/kg by 2 years. [S1]
 - **With cardiomyopathy or feeding difficulty, consider continuous overnight tube feeding.** [S1]
 
 ## Fat restriction and MCT
 
+- **Foods by fat content (S1 Table 3). Every day (under 1.5 g fat per 100 g):** rice, pasta, white bread and low-fat cereals; skimmed milk, yoghurt and 0% fresh cheese; white fish and most shellfish; skinless chicken or turkey breast, rabbit, low-fat ham; egg white; all fresh vegetables, and fresh fruit except avocado and olives; lentils, beans and peas; MCT oil; herbs and homemade vegetable stock. **Limited amounts (1.5–3 g/100 g):** quinoa, wholemeal bread, brown rice, semi-skimmed milk, oily or semi-fatty fish such as canned tuna and sea bass, lean pork or veal, serrano ham, chickpeas. **Not recommended, or on prescription only (over 3 g/100 g):** oatmeal, pastries and nut cereals; whole milk, cream, cheese and ice cream; salmon, sardines, trout and fried fish; fatty meats, sausages, pâté and offal; whole egg; avocado, olives, nuts and dried fruit; soya beans and tofu drinks; ordinary cooking oils, butter, lard, margarine and mayonnaise; chocolate and desserts made with whole milk, egg or cream. [S1]
 - **Restrict long-chain triglycerides to 10% of total energy;** lower restriction risks essential fatty acid deficiency, higher allows toxic metabolites. Give linoleic acid 3–4% and linolenic acid 0.5–1% of calories. [S1]
 - ⚠️ **Add MCT at 10–25% of total energy (at least 10%);** as pure MCT, 2–3 g/kg/day in the first year and 1–1.25 g/kg/day after 1 year. MCT bypasses the carnitine system and long-chain enzymes. Total MCT + LCT = 20–35% of total energy. [S1]
 - **Triheptanoin** (odd-chain triglyceride) has been used in MCT non-responders and naïve patients, with fewer crises, hypoglycaemia, cardiomyopathy and rhabdomyolysis reported; it is FDA-approved from the neonatal period and can cause diarrhoea. [S1]
@@ -73,14 +75,15 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables** (Table 1 glycaemic index, Table 2 fasting periods by age, Table 3 traffic-light foods, Table 4 emergency preparations) were stripped; age-specific fasting limits beyond those in the text are not stated here. | `input_unavailable` |
-| 2 | **Source type:** S1 is a narrative review; S2 is a guideline for VLCAD only. No open guideline for all LC-FAODs was found (searches September 2026: a 2022 Chinese VLCAD expert consensus has no English full text in PMC; a 2025 Saudi dietitian consensus covers VLCAD in infants only). The 2009 European workshop consensus (Spiekerkoetter et al., J Inherit Metab Dis, doi:10.1007/s10545-009-1126-8) is closed access and was not read. | `observation` |
-| 3 | **Cornstarch:** S1 suggests uncooked cornstarch from 8 months; S2 says bedtime cornstarch is not indicated in VLCAD. Both are shown. | `observation` |
-| 4 | **Fasting limits:** S1 says never more than 8 h after 1 year; S2 allows up to 10 to 12 h after 12 months (shorter in severe disease). **Long-chain fat:** S1 restricts to 10% of energy for LC-FAODs; S2 grades VLCAD by severity (mild none, moderate 15 to 30%, severe 10 to 15%). | `observation` |
-| 5 | **Triheptanoin:** S1 (2024) describes it as FDA-approved; S2's recommendation (v1.4, 2022) still treats it as trial-only. S1 is more current; it is not on the PBS list. | `observation` |
-| 6 | **S2's tables** (fasting intervals by age, fat and energy by severity, medical foods, monitoring schedule) were stripped; only figures stated in the recommendation text are used. | `input_unavailable` |
-| 7 | **Acetaminophen (paracetamol) listed as a drug to avoid** by this review conflicts with common practice (e.g. the GA1 guideline lists it as an antipyretic); confirm with a metabolic physician. | `observation` |
-| 8 | **Licences:** S1 is CC BY 4.0, read in the Europe PMC XML, and quoted verbatim. S2's portal states no licence, so it is paraphrased and hash-anchored. | `observation` |
+| 1 | **S1's tables:** fasting periods by age (Table 2) and foods by fat content (Table 3) are now read from the appended row lines and stated. The glycaemic-index table (Table 1, no header row) and the emergency preparations (Table 4, merged cells) were not extracted and remain gaps. | `input_unavailable` |
+| 2 | **S1 is inconsistent on fasting after 1 year:** its text says never more than 8 h, while its Table 2 gives an overnight fast of 8–10 h over 1 year. Both are shown; confirm the limit with a metabolic physician. | `observation` |
+| 3 | **Source type:** S1 is a narrative review; S2 is a guideline for VLCAD only. No open guideline for all LC-FAODs was found (searches September 2026: a 2022 Chinese VLCAD expert consensus has no English full text in PMC; a 2025 Saudi dietitian consensus covers VLCAD in infants only). The 2009 European workshop consensus (Spiekerkoetter et al., J Inherit Metab Dis, doi:10.1007/s10545-009-1126-8) is closed access and was not read. | `observation` |
+| 4 | **Cornstarch:** S1 suggests uncooked cornstarch from 8 months; S2 says bedtime cornstarch is not indicated in VLCAD. Both are shown. | `observation` |
+| 5 | **Fasting limits:** S1 says never more than 8 h after 1 year; S2 allows up to 10 to 12 h after 12 months (shorter in severe disease). **Long-chain fat:** S1 restricts to 10% of energy for LC-FAODs; S2 grades VLCAD by severity (mild none, moderate 15 to 30%, severe 10 to 15%). | `observation` |
+| 6 | **Triheptanoin:** S1 (2024) describes it as FDA-approved; S2's recommendation (v1.4, 2022) still treats it as trial-only. S1 is more current; it is not on the PBS list. | `observation` |
+| 7 | **S2's tables** (fasting intervals by age, fat and energy by severity, medical foods, monitoring schedule) were stripped; only figures stated in the recommendation text are used. | `input_unavailable` |
+| 8 | **Acetaminophen (paracetamol) listed as a drug to avoid** by this review conflicts with common practice (e.g. the GA1 guideline lists it as an antipyretic); confirm with a metabolic physician. | `observation` |
+| 9 | **Licences:** S1 is CC BY 4.0, read in the Europe PMC XML, and quoted verbatim. S2's portal states no licence, so it is paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 

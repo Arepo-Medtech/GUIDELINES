@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/cushing-syndrome.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome' (published 5 January 2026), 25 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13167195). S2: PARAPHRASED AND HASH-ANCHORED from Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854 'Consensus on diagnosis and management of Cushing's disease: a guideline update' (published December 2021), 12 claims; LICENCE: © Elsevier Ltd (author manuscript in PMC: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.') (read at PMC JATS XML <license> element for PMC8743006 (NCBI efetch; Europe PMC fullTextXML returned HTTP 500)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Pituitary Society 2021 consensus guideline update on Cushing's disease, read in its open NIH author manuscript (the Wave 7 search had found no open copy). All S1 claims and anchors are unchanged. S2 is paraphrased and hash-anchored because the author manuscript carries a fair-use/text-mining notice, not an open licence.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome' (published 5 January 2026), 30 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13167195). S2: PARAPHRASED AND HASH-ANCHORED from Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854 'Consensus on diagnosis and management of Cushing's disease: a guideline update' (published December 2021), 18 claims; LICENCE: © Elsevier Ltd (author manuscript in PMC: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.') (read at PMC JATS XML <license> element for PMC8743006 (NCBI efetch; Europe PMC fullTextXML returned HTTP 500)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Pituitary Society 2021 consensus guideline update on Cushing's disease, read in its open NIH author manuscript (the Wave 7 search had found no open copy). All S1 claims and anchors are unchanged. S2 is paraphrased and hash-anchored because the author manuscript carries a fair-use/text-mining notice, not an open licence. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 2 (drug interactions) and 3 (comorbidities) and S2 Panels 1 (complications) and 2 (medical therapy). S1 Tables 1, 4 and 5 and S2 Tables 1 and 2 were not extracted (ragged rows or merged cells).",
  "summary": {
-  "total": 37,
-  "pass": 25,
+  "total": 48,
+  "pass": 30,
   "fail": 0,
-  "pass_paraphrase_anchored": 12
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
@@ -358,6 +358,179 @@
      "h": "fc5be74de510dd00",
      "n": 367,
      "p": "Data fro"
+    }
+   ],
+   "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Steroidogenesis-inhibitor interactions:** CYP3A4 inducers (rifampin, carbamazepine, phenytoin) and CYP3A4 inhibitors both interact with ketoconazole, levoketoconazole, osilodrostat (also CYP2B6 inducers) and mitotane. Avoid gastric acid suppressants (H2-receptor antagonists, proton pump inhibitors) with ketoconazole or levoketoconazole. Metyrapone rarely interacts.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 2.] Drug interactions with adrenal steroidogenesis inhibitors [Table 2. row 1] Drug: Ketoconazole · Increase drug effect: CYP3A4 inductors (rifampin, carbamazepine, phenytoin) · Reduce drug effect: CYP3A4 inhibitors (itraconazole, clarithromycin, ritonavir) Avoid use of gastric acid suppressors (eg, H2-receptor antagonists and proton pump inhibitors) [Table 2. row 2] Drug: Levoketoconazole a · Increase drug effect: CYP3A4 inductors (rifampin, carbamazepine, phenytoin) · Reduce drug effect: CYP3A4 Inhibitors (felodipine, atorvastatin, and testosterone) Avoid use of gastric acid suppressors (eg, H2-receptor antagonists, proton pump inhibitors) [Table 2. row 3] Drug: Metyrapone · Increase drug effect: Drug-drug interactions are rare · Reduce drug effect: Drug-drug interactions are rare [Table 2. row 4] Drug: Osilodrostat · Increase drug effect: CYP3A4 and CYP2B6 inducers () · Reduce drug effect: CYP3A4 inhibitors () [Table 2. row 5] … [Table 2. row 5] Drug: Mitotane · Increase drug effect: CYP3A4 inductors (see reference of Kroiss M, 2011 ()) · Reduce drug effect: CYP3A4 inhibitors",
+   "locator": "Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews, 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome', published 5 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13167195/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Hypertension (50% to 95% in Cushing's disease):** an ACE inhibitor or ARB first, adding spironolactone or a calcium channel blocker if needed. Loss of the normal night-time fall in blood pressure is an early sign.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3. row 1] Comorbidity: Hypertension () · Prevalence in CD: 50% to 95% () · Specific considerations: Loss of the physiological nocturnal decrease is an early feature of HT in CS () · Treatment: ACE-I or ARB as first-line treatment. Consider spironolactone or calcium channel blockers as an add-on treatment",
+   "locator": "Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews, 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome', published 5 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13167195/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Diabetes (20% to 45%):** treat as type 2 diabetes; a DPP-4 inhibitor or GLP-1 receptor agonist and insulin are especially useful for pasireotide-induced hyperglycaemia. **Obesity (25% to 100%, mainly visceral):** diet and exercise as able; consider a GLP-1 receptor agonist or tirzepatide, especially with diabetes.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3. row 2] Comorbidity: Diabetes mellitus () · Prevalence in CD: 20% to 45% () · Specific considerations: Glucose and insulin concentrations were higher in patients with CD compared with sex and age-matched controls and compared with BMI-matched controls after glucose loading () · Treatment: Same recommendations than in type 2 diabetes. Dipeptidyl peptidase-4 inhibitor or a glucagon-like peptide-1 receptor agonist and insulin are especially useful for pasireotide-induced hyperglycemia () … [Table 3. row 3] Comorbidity: Obesity () · Prevalence in CD: 25% to 100% () · Specific considerations: Abdominal obesity, with preferential visceral rather than subcutaneous accumulation of fat tissue () · Treatment: Diet recommendations and regular physical exercise within the possibilities of each patient. Consider glucagon-like peptide-1 receptor agonist or tirzepatide (especially when associated with diabetes mellitus) (, )",
+   "locator": "Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews, 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome', published 5 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13167195/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Dyslipidaemia (16% to 60%):** treat as in the general population, but allow for interactions with cortisol-lowering drugs. **Osteoporosis (28% to 50%) and fractures (15% to 50%):** vitamin D and calcium; oral bisphosphonates first when drug treatment is indicated.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3. row 4] Comorbidity: Dyslipidemia () · Prevalence in CD: 16% to 60% () · Specific considerations: Increase in total and LDL cholesterol and triglyceride concentrations, and reduced HDL cholesterol concentrations () · Treatment: Similar treatment than in general population, but drug interactions with cortisol-lowering medications should be considered … [Table 3. row 5] Comorbidity: Osteoporosis and fractures () · Prevalence in CD: 28% to 50% and 15% to 50% () · Specific considerations: BMD is reduced in patients with CS () · Treatment: Vitamin D and calcium supplementation. If medical treatment is indicated, oral bisphosphonates are the first line of treatment",
+   "locator": "Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews, 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome', published 5 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13167195/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Thromboembolism (15% to 18%):** perioperative thromboprophylaxis for patients at high VTE risk; enoxaparin is the agent most often used in active disease and after surgery. **Infections (about 20%, including opportunistic):** pneumococcal and influenza vaccination, strict hygiene and, in some cases, antimicrobial prophylaxis.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3. row 6] Comorbidity: Thromboembolic risk (, ) · Prevalence in CD: 15% to 18% (, , ) · Specific considerations: Thromboprophylaxis should be used in the perioperative period in patients with high risk of VTE (, ) · Treatment: Enoxaparin is most frequently used in active hypercortisolemia and postoperatively (). … [Table 3. row 7] Comorbidity: Infections (, ) · Prevalence in CD: 20% () · Specific considerations: The impairment of immune function associated with active Cushing syndrome predisposes patients to infectious diseases, especially opportunistic infections. () · Treatment: Vaccination against pneumococcus and influenza, strict hygiene measures, and, in some cases, antimicrobial prophylaxis are recommended",
+   "locator": "Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews, 'Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome', published 5 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13167195/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Venous thromboembolism:** get every patient walking early after surgery and use compression stockings. Consider prophylactic anticoagulation with a past embolism or abnormal clotting tests, severe hypercortisolism before surgery, oestrogen or oral contraceptive use, poor mobility, a long hospital stay, or high cortisol (or over-replacement) after surgery. If used, low-molecular-weight heparin is preferred to oral anticoagulants, which last long and are hard to reverse.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cda20263ff0bbf22",
+     "n": 431,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "298f0a3a9863880e",
+     "n": 147,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "deded15747ba2375",
+     "n": 334,
+     "p": "[Panel 1"
+    }
+   ],
+   "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Duration of anticoagulation is not settled:** before surgery, panel members suggested anywhere between 2–4 days and 1–2 weeks; after it, between 1–2 days in hospital and 2–4 weeks, or even 2–3 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f6ffd3603f707ac",
+     "n": 286,
+     "p": "[Panel 1"
+    }
+   ],
+   "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bone:** assess bone loss and fracture risk in everyone. DXA alone can miss the risk, so use trabecular bone score, a microscanner or vertebral morphometry where available; FRAX is not validated in Cushing's disease. Consider a bisphosphonate in persistent disease even when BMD is normal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6bec1543f8f495fa",
+     "n": 117,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "8e951f0a8c90156b",
+     "n": 460,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "f1eb8b4c55038582",
+     "n": 228,
+     "p": "[Panel 1"
+    }
+   ],
+   "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Growth hormone deficiency after surgery:** wait at least 6–12 months before testing, as axis recovery is slow. With 3 or more other pituitary deficits it is likely enough that dynamic tests are unnecessary; IGF-I alone is unreliable. If GH is started within 2 years of surgery, retest periodically. In children, test 3–6 months after surgery and start GH promptly if needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83c91a7dd585eb84",
+     "n": 291,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "1c08fa666e0f9738",
+     "n": 268,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "1e3c19f0589a9115",
+     "n": 182,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "4763e7df32e57bed",
+     "n": 345,
+     "p": "[Panel 1"
+    },
+    {
+     "h": "526518a1c7a9e143",
+     "n": 166,
+     "p": "[Panel 1"
+    }
+   ],
+   "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Steroid myopathy persists in remission, so offer physical rehabilitation to all.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "112940205844f298",
+     "n": 178,
+     "p": "[Panel 1"
+    }
+   ],
+   "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Drug-choice cautions:** avoid cabergoline after bipolar or impulse-control disorder. Ketoconazole may be under-dosed from fear of liver toxicity and can cause hypogonadism in men; metyrapone and osilodrostat do not. Use mifepristone cautiously without an expert pituitary endocrinologist to monitor it. UFC is unhelpful when adrenal insufficiency is the worry.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "00335eae72f3df84",
+     "n": 181,
+     "p": "[Panel 2"
+    },
+    {
+     "h": "5519740534567f7b",
+     "n": 324,
+     "p": "[Panel 2"
+    },
+    {
+     "h": "83ed94221915d9fd",
+     "n": 302,
+     "p": "[Panel 2"
+    },
+    {
+     "h": "de41cb93004f464f",
+     "n": 204,
+     "p": "[Panel 2"
+    },
+    {
+     "h": "a83b050b96d7a2fd",
+     "n": 203,
+     "p": "[Panel 2"
     }
    ],
    "locator": "Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854, 'Consensus on diagnosis and management of Cushing's disease: a guideline update', published December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/, retrieved 2026-09-24"

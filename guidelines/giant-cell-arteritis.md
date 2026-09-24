@@ -1,9 +1,9 @@
 # Giant cell arteritis (GCA)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspected and confirmed giant cell arteritis in people over 50: history and examination, fast-track referral, imaging and biopsy, glucocorticoid dosing and taper, relapse and steroid-sparing treatment, bone protection and follow-up. Polymyalgia rheumatica alone is not covered.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **48 fragments or anchors re-checkable by machine; 5 doses.** **S1** Norwegian Society of Rheumatology GCA working group (Haaversen et al.) (published 6 January 2023 (volume 2022); international): 16 claims, quoted · **S2** American College of Rheumatology and Vasculitis Foundation (Maz M (published online 8 July 2021; international): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **53 fragments or anchors re-checkable by machine; 5 doses.** **S1** Norwegian Society of Rheumatology GCA working group (Haaversen et al.) (published 6 January 2023 (volume 2022); international): 21 claims, quoted · **S2** American College of Rheumatology and Vasculitis Foundation (Maz M (published online 8 July 2021; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Norwegian Society of Rheumatology, 2023). Australian practice follows the PBS listings below and may differ.
 
@@ -17,12 +17,15 @@
 
 - **GCA occurs almost only over age 50, peaking at 70 to 80 years, more often in women.** Subsets are cranial, large-vessel, or mixed. [S1]
 - **Ask about** polymyalgia symptoms, new headache, jaw or tongue claudication, visual disturbance, arm or leg claudication and constitutional symptoms. **Examine and test:** heart and lung auscultation, blood pressure in both arms, temperature, CRP, ESR and full blood count. [S1]
+- **What to look for (S1 Table 1):** new headache, often temporal; jaw or tongue claudication; acute visual symptoms (amaurosis fugax, visual loss, diplopia); constitutional symptoms (weight loss >2 kg, fever, fatigue, night sweats, dry cough); polymyalgia symptoms; limb claudication. On examination: tender or thickened temporal arteries with or without reduced pulse, scalp tenderness, bruits (especially axillary), reduced arm pulses or blood pressure. Laboratory: anaemia, raised CRP or ESR, thrombocythaemia, raised ALP, normal creatinine. [S1]
 - ⚠️ **Refer suspected GCA within 24 h** to a fast-track clinic or rheumatologist (or another relevant specialist if neither is available). Work-up must not delay treatment. [S1]
 - ⚠️ **Visual symptoms: refer to ophthalmology,** without delaying treatment. [S1]
 
 ## Confirm the diagnosis
 
 - **Ultrasound at least the temporal and axillary arteries** (experienced operator, high-end equipment); adding the facial artery raises sensitivity. If ultrasound is unavailable or inconclusive, consider temporal artery biopsy of >1 cm after fixation; giant cells are not obligatory. [S1]
+- **Ultrasound signs (S1 Table 2):** in cranial arteries, the halo sign (homogeneous, hypoechoic, well-delineated wall thickening, usually concentric, seen in both planes) and the compression sign (the thickened wall stays visible under compression). In large vessels, mostly concentric homogeneous hypo- or isoechoic wall thickening; atherosclerosis instead gives non-homogeneous, localised plaques, mainly at bifurcations. [S1]
+- **Intima-media thickness thresholds (S1 Table 3), in mm:** common temporal 0.42, frontal temporal 0.34, parietal temporal 0.29, facial 0.37, occipital 0.4, vertebral 0.7, and axillary, subclavian and common carotid 1.0. [S1]
 - **Image the large vessels too** (ultrasound of carotid, vertebral and subclavian arteries, or CT, MRA or PET-CT): large-vessel involvement may mean difficult-to-treat disease, and temporal involvement carries more risk of visual loss. [S1]
 - **High suspicion plus a positive test confirms GCA; low suspicion plus a negative test makes it unlikely.** Anything else needs individual assessment. [S1]
 - **S2 (ACR, US) prefers temporal artery biopsy to ultrasound or cranial MRI for diagnosis,** because US ultrasound expertise is limited, results depend on the operator, and steroids quickly erase the signs; where the expertise exists, ultrasound is a useful complement. [S2]
@@ -42,6 +45,8 @@
 - **Relapse:** raise prednisolone to the last effective dose, or higher depending on severity. Confirm relapse by imaging (preferably ultrasound) and/or blood tests where possible. [S1]
 - **Refractory disease or major relapse: consider methotrexate 20 mg/week, preferably subcutaneous,** adjusted for age and kidney function. [S1]
 - ⚠️ **Tocilizumab 162 mg/week subcutaneously** if methotrexate is not tolerated or relapse occurs on it. Leflunomide or azathioprine have scarce evidence; there is no robust evidence for TNF inhibitors or other biologics. [S1]
+- **Disease-activity definitions (S1 Table 7):** *major relapse* is recurrent active disease with ischaemic features (jaw claudication, visual symptoms or GCA-related visual loss, scalp necrosis, stroke, limb claudication) or active aortic inflammation causing progressive aortic or large-vessel dilatation, stenosis or dissection; *minor relapse* is any other relapse (constitutional symptoms, polymyalgia, headache); *refractory disease* is activity despite standard care; *remission* is no GCA signs or symptoms, normal ESR and CRP, and no progressive narrowing or dilatation in large-vessel disease. [S1]
+- **Modified Kerr's criteria (S1 Table 8): more than 1 point means active disease,** 1 point each for raised CRP or ESR, ischaemic symptoms (headache, jaw claudication), constitutional symptoms (fatigue, fever, weight loss, polymyalgia) and imaging signs of active vasculitis (new vascular areas, or rising IMT in areas already involved), each not explained by anything other than vasculitis. [S1]
 - **Relapsing or refractory disease: reconsider the diagnosis** (for example malignancy or an autoinflammatory syndrome). [S1]
 - ⚠️ **S2 (ACR) differs from S1: it suggests tocilizumab with steroids from diagnosis** rather than steroids alone, for its steroid-sparing effect (GiACTA); methotrexate with steroids, or steroids alone, remain options, and abatacept if these fail. Cost and limited long-term data may restrict tocilizumab. [S2]
 - **Active large-vessel (extracranial) disease: add a steroid-sparing drug,** preferably tocilizumab; methotrexate if tocilizumab is unsuitable (recurrent infections, past bowel perforation or diverticulitis, or cost). [S2]
@@ -71,11 +76,11 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables** (history/exam checklist, ultrasound findings, biopsy criteria, taper schedule, relapse definitions, Kerr's criteria) were stripped; the taper stated here is from the text. | `input_unavailable` |
+| 1 | **Tables:** the history/exam checklist (Table 1), ultrasound findings and IMT thresholds (Tables 2–3), disease-activity definitions (Table 7) and modified Kerr's criteria (Table 8) are now covered from the appended rows. The histology (biopsy) findings (Table 4, merged cells), the recommendation summary (Table 5) and the prednisolone taper table (Table 6; both ragged rows) were not extracted; the taper stated here is from the text. | `input_unavailable` |
 | 2 | **No Australian GCA guideline was found** (searched again 2026-09-24). The newer 2025 EULAR PMR/LVV recommendations (Ann Rheum Dis 2026, CC BY-NC-ND) were skipped: Europe PMC marks them subscription-only and the publisher site returned HTTP 403. The 2021 ACR/Vasculitis Foundation guideline, which recommends earlier tocilizumab, is now S2. | `observation` |
 | 3 | **Sources disagree on tocilizumab timing:** S1 (Norway) reserves it for methotrexate failure or intolerance; S2 (ACR 2021) suggests it with steroids from diagnosis. Both are shown; the PBS authority criteria decide Australian access. | `observation` |
 | 4 | **Sources disagree on the first diagnostic test:** S1 puts ultrasound (temporal and axillary) first with biopsy if ultrasound is unavailable or inconclusive; S2 prefers biopsy, citing limited US ultrasound expertise. Both are shown; choice depends on local ultrasound expertise. | `observation` |
-| 5 | **S2's glucocorticoid dose ranges** (what 'high' and 'moderate' dose mean) are in its definitions table, which was not in the text; S2 gives no tocilizumab or methotrexate doses. S2 is an NIH author manuscript (fair use and text mining only), so it is paraphrased and hash-anchored. | `input_unavailable` |
+| 5 | **S2's glucocorticoid dose ranges** (what 'high' and 'moderate' dose mean) are in its definitions table, which was not in the text (its tables have ragged rows or merged cells and were not extracted); S2 gives no tocilizumab or methotrexate doses. S2 is an NIH author manuscript (fair use and text mining only), so it is paraphrased and hash-anchored. | `input_unavailable` |
 | 6 | **Licence:** CC BY 4.0 (© 2023 the authors). Claims are quoted with attribution to Haaversen et al., Front Med 2022. | `observation` |
 
 ## Sources

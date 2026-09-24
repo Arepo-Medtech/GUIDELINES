@@ -1,9 +1,9 @@
 # Isovaleric acidaemia (isovaleryl-CoA dehydrogenase deficiency)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** when to suspect isovaleric acidaemia (IVA), laboratory diagnosis and newborn-screening follow-up, emergency and sick-day management, perioperative care, long-term protein restriction, L-carnitine and L-glycine, monitoring, biochemically mild IVA, and outcome. Methylmalonic and propionic acidaemia: see `organic-acidaemias`. First-line samples and anti-catabolic care for any suspected inborn error in an unwell child: see `metabolic-disorders-children`. PBS access (glycine with carbohydrate) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 24 claims; **45 fragments or anchors re-checkable by machine; 6 doses.** **S1** Thimm E (published 10 October 2025; international): 18 claims, quoted · **S2** Reischl-Hajiabadi AT (published 25 September 2025; international): 6 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **70 fragments or anchors re-checkable by machine; 8 doses.** **S1** Thimm E (published 10 October 2025; international): 22 claims, quoted · **S2** Reischl-Hajiabadi AT (published 25 September 2025; international): 6 claims, quoted
 
 > ⚠️ International sources (S1: expert systematic search and review with consensus statements, 2025; S2: meta-analysis of newborn-screening outcomes, 2025). **Neither is a society guideline;** none exists for IVA. All diagnosis, emergency, diet and drug claims rest on S1; S2 adds the size of the screening benefit and its limits. Australian practice follows the PBS listings below and may differ.
 
@@ -31,11 +31,13 @@
 - **If an organic acidaemia is suspected, measure blood gases, lactate, ammonia and ketones,** plus urine organic acids and a blood acylcarnitine profile. [S1]
 - **After a positive newborn screen, urine organic acids (isovalerylglycine) are essential to confirm the diagnosis;** a raised C5-carnitine can be falsely positive after maternal pivalate-containing antibiotics. [S1]
 - **Confirm with IVD gene sequencing and/or enzyme assay;** the c.932C>T (p.Ala311Val) variant is linked to asymptomatic, screen-detected IVA. [S1]
+- **Baseline laboratory findings that fit IVA (S1 Table 1):** metabolic acidosis with a raised anion gap, raised ketone bodies (particularly in newborns), raised lactate, hyperammonaemia, and leukopenia, thrombocytopenia or pancytopenia. [S1]
 
 ## Emergency treatment
 
 - ⚠️ **Start treatment immediately in severe decompensation:** stop protein, promote anabolism, rehydrate, and give metabolic drug therapy. [S1]
 - **IV glucose 8-10 mg/kg/min in neonates and infants;** start protein-free formula orally or by tube early; add IV lipids 2 g/kg/day once a fatty-acid oxidation defect is excluded; reintroduce protein after 24 (at most 48) hours. [S1]
+- **The emergency measures in full (S1 Table 2):** rehydrate; give anabolic IV high-energy support (glucose, insulin, lipids); reduce or stop protein; give IV L-carnitine and oral L-glycine; use ammonia scavengers and carglumic acid for hyperammonaemia; and add extracorporeal detoxification, as in the urea cycle disorder guideline, for severe hyperammonaemia that conservative treatment does not control. [S1]
 - **IV L-carnitine 100 mg/kg/day** in emergencies, as for MMA and PA. [S1]
 - **Hyperammonaemia usually settles as the metabolic state corrects;** carglumic acid has lowered ammonia quickly in reports. Consider extracorporeal detoxification at 250-500 µmol/L and start it at once above 500 µmol/L. [S1]
 - **Sick days at home:** more calories and less protein (glucose polymers and/or leucine-free formula); admit if symptoms persist or worsen, and have a low threshold for young children. [S1]
@@ -44,6 +46,8 @@
 ## Long-term treatment
 
 - **Restrict natural protein but keep at least the FAO/WHO/UNU 2007 and EFSA 2012 minimum;** add a leucine-free amino acid supplement only if tolerance falls below that minimum. [S1]
+- **The FAO/WHO/UNU 2007 safe protein intakes (S1 Table 3), in g/kg/day:** 1.77 at 1 month, 1.50 at 2 months, 1.36 at 3 months, 1.31 at 6–12 months, 0.91–1.14 at 1–10 years, 0.84 (female) to 0.91 (male) at 11–16 years, and 0.83 (female) to 0.86 (male) over 16 years. Each is the average requirement plus 1.96 SD. Some patients tolerate much more, and restriction is often eased in late childhood or adolescence. [S1]
+- **Leucine targets (S1 Table 4), in mg/kg/day, for patients with disorders of branched-chain amino acid metabolism (healthy mean requirement in brackets):** 65–120 at 0–6 months and 50–90 at 7–12 months (73 at 6 months); 40–90 at 1.0–2.9 years (54); 40–60 at 3.0–10.9 years (44); 40–60 at 11.0–12.9 and 30–60 at 13.0–14.9 years (44); 30–60 at 15.0–18.0 years (42); and 30–60 over 18.0 years (39). Counting leucine rather than protein is not standard practice, but has been used in very unstable patients. [S1]
 - ⚠️ **L-carnitine for all symptomatic IVA,** dose adjusted to keep free carnitine normal; median dose 100 mg/kg/day in two to three doses, and often much less is enough. [S1]
 - ⚠️ **Add L-glycine in metabolically severe IVA** (it forms excretable isovalerylglycine). Infant doses of 150-250 mg/kg/day are common; very high doses (300 mg/kg/day) have caused lethargy and ataxia. No study confirms its clinical benefit. [S1]
 - **Biochemically mild IVA needs no strict protein restriction;** carnitine is unproven there, and an emergency regimen for severe catabolic stress is the only suggested measure. [S1]
@@ -69,7 +73,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Emergency drug and protein tables** (Tables 2-4: emergency regimen, safe protein intakes, minimum leucine requirements) and the dose table (Table S3) were stripped or supplementary; age-specific protein targets are not stated here. | `input_unavailable` |
+| 1 | **S1 Tables 1–4** (baseline laboratory findings, emergency measures, safe protein intakes, leucine requirements) are now covered, including age-specific protein and leucine targets. The dose table (Table S3) is supplementary and was not read, so emergency drug doses still rest on S1's running text. | `input_unavailable` |
 | 2 | **Evidence type:** S1's authors call these 'statements', not recommendations, because the evidence is mostly case reports; there is no society guideline for IVA. S2 (meta-analysis) rated the risk of bias of its included studies from 'some concerns' to 'high concerns', and follow-up was shorter in the screened group. | `observation` |
 | 3 | **Not read:** the GeneReviews chapter 'Classic Isovaleric Acidemia' (Mütze, Reischl-Hajiabadi, Kölker, 2024; NBK601614), which has treatment and surveillance tables, was behind a reCAPTCHA challenge on NCBI Bookshelf and was not bypassed. | `access` |
 | 4 | **Counterpart:** `organic-acidaemias` (MMA/PA) flagged IVA as uncovered and named this source; `metabolic-disorders-children` covers first-line samples and the 'sweaty feet' odour clue. | `observation` |

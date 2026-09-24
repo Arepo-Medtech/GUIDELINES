@@ -1,9 +1,9 @@
 # Achondroplasia — vosoritide treatment in children, and lifelong care
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** selecting, starting, monitoring, suspending and stopping vosoritide in children with achondroplasia, including babies under 24 months (S1); and key points of lifelong multidisciplinary care: infant surveillance for cervicomedullary compression and sleep apnoea, hearing, spine and limbs, pregnancy, anaesthesia and adult complications (S2). PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **59 fragments or anchors re-checkable by machine; 1 doses.** **S1** Australian Vosoritide Working Group (published 28 June 2024; AU): 20 claims, quoted · **S2** Savarirayan R (published March 2022; international): 13 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **68 fragments or anchors re-checkable by machine; 1 doses.** **S1** Australian Vosoritide Working Group (published 28 June 2024; AU): 22 claims, quoted · **S2** Savarirayan R (published March 2022; international): 13 claims, paraphrased, hash-anchored
 
 > 🇦🇺 **S1 is Australian** (vosoritide use). **S2 is the International Consensus Statement (2022)** on lifelong care, an expert Delphi consensus (Australian-led, 16 countries). ⚠️ S2 is international; Australian services and the PBS may differ.
 
@@ -38,6 +38,8 @@
 - **Shared care with a local paediatrician or paediatric endocrinologist is reasonable for interim visits** once a child aged 2 or over is established, but annual visits stay in the specialist achondroplasia clinic. (R) [S1]
 - ⚠️ **Watch for worsening spinal deformity and slipped upper femoral epiphysis,** which can come with accelerated growth. Report suspected serious adverse events to the TGA (Black Triangle Scheme). [S1]
 - ⚠️ **Growth below 1.5 cm/year before late puberty needs urgent investigation.** Typical growth in achondroplasia is about 4 cm/year; poor response despite open growth plates may reflect scoliosis, knee varus or rarely growth hormone deficiency. [S1]
+- **Check development at every age against the achondroplasia-specific developmental checklist** (Table 3, ages 3 and under). [S1]
+- **Motor milestones on the checklist:** rolls over at 4–8 months; commando crawls, snow-ploughs and bear-walks at 8–12 months (snow plough and traditional crawling are not always present); stands and cruises holding on at 12–16 months; stands unsupported and walks independently at 16–20 months, confirmed at 20–24 months; climbs or crawls up two steps at 24–28 months. [S1]
 
 ## Suspending and stopping
 
@@ -84,7 +86,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Weight–dose bands, the pre-treatment and monitoring assessment schedule (Table 2) and the developmental checklist (Table 3)** are in tables and supplementary material, which were stripped. | `input_unavailable` |
+| 1 | **Weight–dose bands and the pre-treatment and monitoring assessment schedule (Table 2)** are still missing: the dose bands are in the Product Information and supplementary material, and Table 2 has merged cells, so it was not extracted. The developmental checklist (Table 3) is now covered, but the italics that mark its consensus-based items were lost in extraction. | `input_unavailable` |
 | 2 | **General achondroplasia care** (craniocervical, spinal, airway, ENT, orthopaedic) now comes from the International Consensus Statement (S2). The companion Australian management guideline (J Paediatr Child Health 2023, CC BY-NC) was not used; add it for Australian service detail. | `observation` |
 | 3 | **S2's full recommendation set** (160 statements, including orthodontics, nutrition, psychosocial support and transition) is summarised selectively here; its supplementary voting data were not used. | `observation` |
 | 4 | **PBS initiation and continuation criteria** are summarised in the source's Table 1 and on the PBS; the restriction text is not reproduced here. | `observation` |

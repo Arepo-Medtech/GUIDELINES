@@ -1,9 +1,9 @@
 # Ketogenic diet therapy for epilepsy in children: selection, diet choice, supplementation and monitoring
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** children with epilepsy treated with ketogenic diet therapies (classic, MCT, modified Atkins, low glycaemic index): who should be offered one, screening beforehand, choosing and starting a diet, antiseizure drugs, vitamin and mineral supplementation, monitoring, adverse effects and stopping. Epilepsy in general: see `epilepsy`. Glut1 deficiency: see `glut1-deficiency-syndrome`. Adults are outside S1's scope; S2 adds transition and adults in outline.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **59 fragments or anchors re-checkable by machine; 2 doses.** **S1** International Ketogenic Diet Study Group (Kossoff EH et al.) (published 21 May 2018; international): 24 claims, paraphrased, hash-anchored · **S2** Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G (published 10 July 2023; international): 9 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **68 fragments or anchors re-checkable by machine; 2 doses.** **S1** International Ketogenic Diet Study Group (Kossoff EH et al.) (published 21 May 2018; international): 30 claims, paraphrased, hash-anchored · **S2** Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G (published 10 July 2023; international): 9 claims, quoted
 
 > ⚠️ International guideline (International Ketogenic Diet Study Group, 2018). Australian practice follows the PBS listings below and may differ.
 
@@ -20,6 +20,10 @@
 - ⚠️ **Rule out fat-metabolism disorders first when one is suspected**, especially if the epilepsy has no clear cause: fasting or the diet can trigger a catastrophic metabolic crisis. Pyruvate carboxylase deficiency and porphyria are contraindications. [S1]
 - **See the child in clinic before starting** to define seizure types, exclude contraindicating metabolic disease, and check for comorbidities such as reflux, constipation, swallowing problems, poor growth, kidney stones, high cholesterol, cardiomyopathy or chronic acidosis. Check every medicine for hidden carbohydrate. [S1]
 - **Allow at least 3 months on the diet** before judging that it has failed. [S1]
+- **Where the diet has done better than usual** (responder rates above 70%, against an average 50% responding; S1 Table 1): Angelman syndrome, complex I mitochondrial disorders, Dravet syndrome, myoclonic–atonic epilepsy (Doose), Glut1 deficiency, FIRES, infantile spasms, Ohtahara syndrome, PDHD, super-refractory status epilepticus, tuberous sclerosis complex, and infants or children fed only by formula. [S1]
+- **Moderate benefit only** (no better than the average response, or single-centre reports; S1 Table 2): for example CDKL5 encephalopathy, childhood absence epilepsy, cortical malformations, migrating focal seizures of infancy, continuous spike-and-wave in sleep, juvenile myoclonic epilepsy, Lafora disease, Landau–Kleffner, Lennox–Gastaut and Rett syndromes, SSPE, adenylosuccinate lyase deficiency, glycogenosis type V and phosphofructokinase deficiency. [S1]
+- ⚠️ **Absolute contraindications (S1 Table 3):** primary carnitine deficiency, CPT I or II deficiency, carnitine translocase deficiency, β-oxidation defects (MCAD, LCAD, SCAD, long- and medium-chain 3-hydroxyacyl-CoA deficiency), pyruvate carboxylase deficiency and porphyria. **Relative:** being unable to keep nutrition adequate, a surgical focus found on neuroimaging and video-EEG, a parent or caregiver who cannot comply, and concurrent propofol (the chance of propofol infusion syndrome may be greater). [S1]
+- **Before starting (S1 Table 4):** counsel on the expected effect on seizures, medicines and cognition and on psychosocial and cost barriers, and check medicines for carbohydrate. Record weight, height and ideal weight for height (head circumference in infants) and a 3-day food record; choose the diet and its formulation. Bloods: FBC with platelets, electrolytes with bicarbonate, total protein and calcium, liver and kidney tests, fasting lipids, acylcarnitine profile, vitamin D, urinalysis and antiseizure drug levels. Optional: EEG, brain MRI, ECG or echo (strongly consider with heart disease), and urine organic acids and serum amino acids when the diagnosis is unclear. [S1]
 
 ## Choosing and starting the diet
 
@@ -49,6 +53,7 @@
 - **Not recommended routinely:** antacids, laxatives, probiotics, exogenous ketones, extra selenium or carnitine. Most centres give oral carnitine only when levels are low or the child has symptoms. [S1]
 - **Potassium citrate prophylaxis (S2):** the LICE panel recommends 2 mEq/kg/day for everyone on the diet (studies used up to a maximum of 60 mEq/day), counting dietary potassium; carbonic anhydrase inhibitors add acidosis risk. Add calcium if the multivitamin is short, but avoid excess (hypercalciuria and stones), and keep vitamin D high. [S2]
 - **Carnitine (S2):** supplement only when deficiency is documented; consider testing for fatigue, difficulty keeping ketosis, or drugs that lower free carnitine. [S2]
+- **Supplement list (S1 Table 5), carbohydrate-free wherever possible:** for everyone, a multivitamin with minerals including trace elements (selenium especially), plus calcium and vitamin D to the RDA. Optional extras: vitamin D above the RDA, oral citrates, laxatives, extra selenium, magnesium, zinc, phosphorus, iron or copper, carnitine, MCT or coconut oil, and added salt for children over 1 year on an RCF formula. The table names products but gives no doses. [S1]
 
 ## Monitoring and adverse effects
 
@@ -58,6 +63,7 @@
 - **Follow-up (S2):** reviews at 1, 3, 6 and 12 months (outpatient or day hospital), with telemedicine at 1 month and, after the first year, 6-monthly telehealth alongside yearly on-site visits. Tests before starting and at least yearly: blood count, electrolytes including magnesium, zinc and selenium, bicarbonate, liver and kidney function, coagulation, lipids, vitamin D, GH, IGF1, TSH, drug levels and urinalysis; bone mineralometry every 2 years. [S2]
 - **Ketones (S2):** capillary blood ketones are more accurate than urine ketones. Check blood ketones and glucose twice a day (morning and evening before meals) in the first weeks, then at clinic visits and as needed. [S2]
 - **Adults and transition (S2):** plan the move to adult care; adults need an adult neurologist and dietitian who know the diets, and attention to autonomy, bone density and vitamin D, pregnancy and comorbidities. Evidence in adults with intractable epilepsy is still limited, and Glut1 deficiency is the main adult indication in Italian practice (60–80%). [S2]
+- **Each follow-up visit (S1 Table 6; at least every 3 months in year one, plus a visit 1 month after starting):** the dietitian reviews growth (head circumference in infants), the prescription, supplements and adherence; the neurologist reviews efficacy against the family's expectations, side effects, drug reduction and whether to continue. Labs: FBC with platelets, electrolytes with bicarbonate, protein and calcium, liver and kidney tests, vitamin D, fasting lipids, free and total carnitine, urinalysis, selenium and drug levels, and an EEG when stopping is considered. Optional: blood β-hydroxybutyrate, urine calcium to creatinine, zinc and copper, renal ultrasound, ECG, and a DEXA scan after 2 years on the diet. [S1]
 
 ## Stopping
 
@@ -80,7 +86,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Supplement doses and products** (S1 Table 5), pre-diet screening tests (Table 4) and the monitoring schedule detail (Table 6) are in tables that were stripped. S2's text now gives potassium citrate dosing and a yearly test list; S2's own supplement table (Table 1) was also stripped. | `input_unavailable` |
+| 1 | **Supplement doses** are in neither source's tables: S1 Table 5 (now extracted and on the page) lists supplements and names products without doses; S2's text gives potassium citrate dosing. S1 Tables 4 (pre-diet tests) and 6 (follow-up visit content) are now on the page, as are Tables 1–3 (who benefits, contraindications). S2 Table 1 (supplements) is extracted but repeats S1's list; S2 Tables 2 and 3 (ragged rows, merged cells) were not extracted. | `input_unavailable` |
 | 2 | **Antiseizure drug reduction timing differs:** S1 allows reducing drugs after 1 month if the diet works; S2's panel starts tapering at 6 months. Both are shown. | `observation` |
 | 3 | **Citrate differs:** S1's group was split on empiric oral citrates (Class III evidence); S2 recommends potassium citrate 2 mEq/kg/day for everyone. Both are shown. | `observation` |
 | 4 | **Ketone monitoring differs:** S1 has parents test urine ketones several times a week; S2 prefers capillary blood ketones, twice daily in the first weeks. Both are shown. | `observation` |

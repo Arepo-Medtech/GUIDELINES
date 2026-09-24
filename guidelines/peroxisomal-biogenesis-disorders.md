@@ -1,9 +1,9 @@
 # Peroxisome biogenesis disorders in the Zellweger spectrum (PBD-ZSD)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** definition, laboratory and genetic diagnosis, and multisystem supportive management (feeding and nutrition, fat-soluble vitamins, liver, hearing, vision, seizures, bone, teeth, adrenal and kidney) of peroxisome biogenesis disorders in the Zellweger spectrum (PBD-ZSD). Rhizomelic chondrodysplasia punctata type 1 is excluded by the source. First-line metabolic samples in an unwell child: see `metabolic-disorders-children`. PBS access (arachidonic acid and DHA with carbohydrate) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **56 fragments or anchors re-checkable by machine; 1 doses.** **S1** Braverman NE (published online 23 December 2015 (issue March 2016); international): 19 claims, paraphrased, hash-anchored · **S2** Klouwer FCC (published 1 December 2015; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **69 fragments or anchors re-checkable by machine; 1 doses.** **S1** Braverman NE (published online 23 December 2015 (issue March 2016); international): 20 claims, paraphrased, hash-anchored · **S2** Klouwer FCC (published 1 December 2015; international): 13 claims, quoted
 
 > 🌐 **Two sources.** S1 (US consensus treatment guidelines, 2016) is the main source. **S2** (Klouwer et al., Amsterdam, 2015) is a narrative clinical overview; it adds presentation by age, prognosis, citrate for kidney stones and when to treat adrenal insufficiency. Where they differ, both are shown.
 
@@ -18,6 +18,7 @@
 - **PBDs are autosomal recessive defects in building and running peroxisomes,** affecting an estimated 1 in 50,000 births in North America; PEX1 variants cause nearly 70% of PBD-ZSD. [S1]
 - **Call it PBD-ZSD, graded severe, intermediate or mild,** rather than the old labels Zellweger syndrome, neonatal adrenoleukodystrophy and infantile Refsum disease, since patients sit on one continuum. [S1]
 - **Severe disease presents in the newborn** with brain, kidney and skeletal malformations, a typical facial appearance, seizures and profound hypotonia; some milder patients show only peripheral neuropathy or cerebellar ataxia. [S1]
+- **Why each defect matters (S2 Table 1):** VLCFA build-up damages brain, nerves and adrenals, and the DHA shortfall affects brain and vision; phytanic acid causes retinal, brain and nerve damage; DHCA and THCA are toxic to the liver and probably the brain; plasmalogen deficiency underlies growth and psychomotor delay, cataract and bone anomalies; glyoxylate turned to oxalate forms calcium oxalate kidney stones; raised pipecolic acid has no known clinical effect. [S2]
 - **S2 groups patients by age at presentation: neonatal-infantile, childhood and adolescent-adult (late).** Heimler syndrome was recently recognised as a peroxisome biogenesis disorder and added to the (very) mild end of the spectrum. [S2]
 - **Neonatal-infantile presentation:** hepatic dysfunction and profound hypotonia, causing prolonged jaundice and feeding difficulties; seizures are usual. Calcific stippling (chondrodysplasia punctata) may be present, especially in the knees and hips. [S2]
 - **Childhood presentation:** usually delayed milestones, retinitis pigmentosa, cataract or glaucoma, sensorineural deafness (almost always present) and hepatic dysfunction with coagulopathy. Kidney oxalate stones and adrenal insufficiency may develop. Early-onset progressive leukodystrophy can take away acquired skills, but no rapid late-onset white matter disease after the age of five has been reported. [S2]
@@ -27,6 +28,7 @@
 
 - **Start with fasting plasma very-long-chain fatty acids (VLCFA);** repeat after an overnight fast if the result is equivocal. A ketogenic diet can give a false positive. [S1]
 - **Show that several peroxisomal pathways are abnormal:** phytanic and pristanic acids, red-cell plasmalogens, pipecolic acid and the bile acid intermediates DHCA and THCA. Do not rely on VLCFA alone, since some PEX variants leave it near normal. [S1]
+- **Test menu and expected findings (S1 Table 2):** in plasma and fibroblasts, raised VLCFA, pristanic and phytanic acids with poor oxidation of each in cells; low red-cell plasmalogens and poor plasmalogen synthesis in fibroblasts; in plasma or urine, build-up of the C27 bile acids DHCA and THCA and raised pipecolic acid; and in fibroblasts, catalase sitting in the cytosol instead of the peroxisome. [S1]
 - **About 10-15% of suspected cases with raised VLCFA have a single-enzyme defect** (ACOX1 or D-bifunctional protein) instead; skin fibroblast studies help separate them. [S1]
 - **Confirm with a PEX gene panel;** the genotype helps prognosis (two null alleles usually mean severe disease; PEX1 p.G843D usually milder) and identifies carriers for counselling. [S1]
 - **S2's first-line tests** also include C26:0-lysoPC in dried blood spots and urine bile acids and oxalic acid. Mildly affected patients may have (near) normal blood and urine tests: if suspicion stays high, test fibroblasts, including culture at 40 °C. Confirm by mutation analysis in all patients; biochemical testing is still needed to confirm that a sequenced variant is pathogenic. [S2]
@@ -72,7 +74,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Clinical features by severity and the evaluation checklist** (Tables 1-3) were not in the extracted manuscript text. | `input_unavailable` |
+| 1 | **Clinical features by severity and the evaluation checklist** (S1 Tables 1 and 3) have ragged rows and could not be extracted (pmc_text.py --append-tables, 2026-09-24), so they are still missing. S1 Table 2 (diagnostic tests) and S2 Table 1 (clinical relevance of each pathway) are now covered; S2 Table 4 (supportive options) repeats care already shown; S2 Tables 2–3 could not be extracted. | `input_unavailable` |
 | 2 | **Currency:** the guideline dates from 2016. Cholic acid is noted as FDA-approved; its status in Australia is not addressed. Newer therapies (chaperones, gene therapy) are described only as research. | `time_sensitive` |
 | 3 | **Second source:** Klouwer et al., 'Zellweger spectrum disorders: clinical overview and management approach' (Orphanet J Rare Dis 2015, CC BY 4.0) is now S2. It agrees with S1 that DHA raised plasma levels without improving vision or growth; S1 remains the main source as the consensus treatment guideline. | `observation` |
 | 4 | **Adrenal treatment threshold:** S1 replaces at standard doses when ACTH or morning cortisol is abnormal and considers stress dosing; S2 treats only a true insufficiency on a Synacthen test. Both are shown. | `observation` |

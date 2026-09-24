@@ -1,9 +1,9 @@
 # Clostridioides difficile infection in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with C. difficile infection (CDI): severity, first-episode treatment, severe and fulminant disease, refractory disease, recurrence (fidaxomicin, bezlotoxumab, tapered vancomycin, faecal microbiota transplant) and prevention. Primary-care drug choice from AMH is in `drug-choice-for-selected-infections`; general diarrhoea work-up in `diarrhoea`; probiotics in `probiotics`. Children: see `gastroenteritis-children`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **40 fragments or anchors re-checkable by machine; 5 doses.** **S1** Bishop EJ (published 28 November 2022 (J Antimicrob Chemother 78(1):21); AU): 20 claims, paraphrased, hash-anchored · **S2** Johnson S (published 14 June 2021; international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **49 fragments or anchors re-checkable by machine; 11 doses.** **S1** Bishop EJ (published 28 November 2022 (J Antimicrob Chemother 78(1):21); AU): 27 claims, paraphrased, hash-anchored · **S2** Johnson S (published 14 June 2021; international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ **S1 is a narrative review by Australian authors comparing IDSA/SHEA 2021, ESCMID 2021 and ASID 2016 guidelines**, not a guideline itself. **S2 is the IDSA/SHEA 2021 focused update guideline**, which covers only fidaxomicin (first episode and recurrence) and bezlotoxumab; severity, severe and fulminant disease, FMT, probiotics and prophylaxis rest on the review (S1).
 
@@ -30,16 +30,20 @@
 - **Pooling 4 trials, fidaxomicin gave more sustained responses 4 weeks after the end of treatment than vancomycin (risk ratio 1.16) and the same rate of initial cure (risk ratio 1.00).** [S2]
 - **The regimens compared for a first episode were oral fidaxomicin 200 mg 2 times a day and oral vancomycin 125 mg 4 times a day.** [S2]
 - **Risk factors for recurrence include age 65 or over, weakened immunity, severe disease and infection with ribotype 027/078/244 strains;** whether fidaxomicin adds more benefit in these groups has not been tested in prospective trials. [S2]
+- ⚠️ **First non-severe episode, regimens compared (S1 Table 2):** IDSA/SHEA 2021 and ESCMID 2021 prefer standard fidaxomicin (200 mg by mouth every 12 hours for 10 days), with oral vancomycin 125 mg every 6 hours for 10 days as the alternative; if neither is available, oral metronidazole 500 mg every 8 hours for 10–14 days (IDSA/SHEA) or 10 days (ESCMID). ESCMID adds extended-pulsed fidaxomicin, or bezlotoxumab when fidaxomicin is unavailable, for those at high recurrence risk, especially older inpatients. The older ASID 2016 advice was metronidazole 400 mg every 8 hours for 10 days. [S1]
 - **Fidaxomicin's main barrier to wider use is its high cost.** [S1]
 
 ## Severe CDI
 
 - ⚠️ **Oral metronidazole is not appropriate for severe CDI**; all guidelines agree. [S1]
 - **The older ASID guideline advises oral vancomycin 125 mg every 6 hours for 10 days in severe disease** and does not recommend fidaxomicin; ESCMID and IDSA/SHEA accept fidaxomicin as non-inferior. There are no data for fidaxomicin in life-threatening disease. [S1]
+- ⚠️ **Severe CDI regimens compared (S1 Table 2):** IDSA/SHEA 2021 and ESCMID 2021: standard fidaxomicin or oral vancomycin 125 mg every 6 hours for 10 days; IDSA/SHEA adds bezlotoxumab for a first episode with other recurrence risk factors (age 65 or over, immunocompromise) or an episode in the previous 6 months. ASID 2016: vancomycin 125 mg every 6 hours for 10 days, and if oral therapy cannot be taken, vancomycin by nasogastric tube plus IV metronidazole 500 mg every 8 hours, with or without rectal vancomycin. [S1]
 
 ## Fulminant and refractory CDI
 
 - ⚠️ **IDSA/SHEA 2021 for fulminant CDI:** no fidaxomicin; add IV metronidazole 500 mg every 8 hours to higher-dose vancomycin 500 mg every 6 hours by mouth or nasogastric tube, with rectal vancomycin retention enemas every 6 hours if there is ileus. ESCMID instead allows fidaxomicin, does not routinely add IV metronidazole and suggests adding IV tigecycline. [S1]
+- ⚠️ **Fulminant CDI regimens compared (S1 Table 2):** IDSA/SHEA: vancomycin 500 mg every 6 hours by mouth or nasogastric tube plus IV metronidazole 500 mg every 8 hours, and consider rectal vancomycin if there is ileus. ESCMID: standard fidaxomicin or oral vancomycin 125 mg every 6 hours for 10 days, considering IV tigecycline (100 mg loading dose, then 50 mg every 12 hours), with a surgical opinion. ASID 2016: vancomycin up to 500 mg every 6 hours by mouth or nasogastric tube, with or without rectal vancomycin, plus IV metronidazole 500 mg every 8 hours, and a surgical opinion. Rectal vancomycin is a retention enema of 500 mg in 100 mL of saline every 6 hours. [S1]
+- **Refractory fulminant CDI (S1 Table 2):** the IDSA/SHEA focused update is silent; ESCMID: surgery, or rescue FMT if surgery is not possible; ASID 2016: consider tigecycline alone or rescue FMT, and consider surgery. [S1]
 - **Get a surgical referral alongside medical treatment** in deteriorating patients, but avoid total colectomy where possible, particularly without toxic megacolon; ESCMID suggests partial colectomy or loop ileostomy may spare total colectomy. [S1]
 - **Tigecycline can cause liver derangement, coagulopathy or pancreatitis**; monitor closely, stop early if adverse effects appear, and note courses over 14 days raise the coagulopathy risk. [S1]
 - **Rescue faecal microbiota transplant (FMT)** for refractory disease: ESCMID supports considering it when surgery is not feasible, and Australasian guidelines when medical therapy fails; IDSA/SHEA has not endorsed it here. [S1]
@@ -52,6 +56,9 @@
 - **Bezlotoxumab is one infusion of 10 mg/kg over 60 minutes, given at some point while standard CDI antibiotics are still running;** its half-life is about 18 days, so antibody stays measurable for up to 3 months. [S2]
 - **Where access is not a problem, a first episode plus another recurrence risk factor (age 65 or over, immunocompromise, severe CDI at presentation) may also warrant bezlotoxumab;** evidence for it alongside fidaxomicin is limited. [S2]
 - **Benefit grows with the number of risk factors:** on placebo, 37.2% with any risk factor recurred against 20.9% with none, and a first episode with no risk factor gained nothing from bezlotoxumab. [S2]
+- **First non-severe recurrence, regimens compared (S1 Table 2):** IDSA/SHEA: standard or extended-pulsed fidaxomicin, tapered-and-pulsed vancomycin, or a standard vancomycin course, adding bezlotoxumab if the previous episode was within 6 months. ESCMID: standard fidaxomicin if it was not used for the first episode, or fidaxomicin or vancomycin with bezlotoxumab; tapered-and-pulsed vancomycin only when nothing else can be had. ASID 2016: vancomycin 125 mg every 6 hours for 10 days. [S1]
+- **Second or later non-severe recurrence (S1 Table 2):** IDSA/SHEA: fidaxomicin (standard or extended-pulsed), tapered-and-pulsed vancomycin, or vancomycin for 10 days then rifaximin 400 mg every 8 hours for 20 days, plus bezlotoxumab if an episode occurred in the prior 6 months; offer FMT only after antibiotic treatment of at least two recurrences (three episodes). ESCMID: FMT after fidaxomicin or vancomycin pre-treatment, or either drug with bezlotoxumab. ASID 2016: vancomycin 125 mg every 6 hours for 14 days with or without a taper, fidaxomicin, FMT if available, or vancomycin then rifaximin. [S1]
+- ⚠️ **Schedules (S1 Table 2 notes):** extended-pulsed fidaxomicin is 200 mg every 12 hours for 5 days, then 200 mg every other day for 20 days. A sample tapered-and-pulsed vancomycin course: 125 mg four times a day for 10–14 days, twice a day for 7 days, once a day for 7 days, then every 2–3 days for a further 2–8 weeks. Adjunctive bezlotoxumab is 10 mg/kg IV once, during standard antibiotics. [S1]
 - **Tapered-and-pulsed oral vancomycin** is an acceptable alternative to fidaxomicin (standard or extended-pulsed) for a first or later recurrence. [S1]
 - **FMT:** ESCMID and Australasian guidelines agree on it for a second recurrence; IDSA/SHEA now limits it to the third and later recurrences after donor-transmitted infection alerts. A single FMT cures 65%–95% by any route. [S1]
 - **Probiotics are not endorsed** by current CDI guidelines; ESCMID warns of possibly significant adverse effects and delayed microbiome recovery, and there are reports of bacteraemia and fungaemia. [S1]
@@ -73,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Table 1 (severity definitions) and Table 2 (regimens and doses by guideline)** of S1, and S2's Table 1 (treatment recommendations), were stripped. S2's text gives the oral doses compared (fidaxomicin 200 mg 2 times daily, vancomycin 125 mg 4 times daily) but not course durations; see `drug-choice-for-selected-infections` (AMH) for the Australian primary-care regimen. | `input_unavailable` |
+| 1 | **S1 Table 2 (regimens and doses by guideline) is now covered** (pmc_text.py --append-tables, 2026-09-24), including course lengths. **Still missing:** S1 Table 1 (severity definitions) has ragged rows and could not be extracted (the text gives the definitions), and S2's Table 1 (treatment recommendations) was not captured from the IDSA web page. S1 Table 2 compares ASID 2016, not the ASID 2025 update; see `drug-choice-for-selected-infections` (AMH) for the Australian primary-care regimen. | `input_unavailable` |
 | 2 | **First-line choice differs by source:** IDSA/SHEA 2021 (S2) prefers fidaxomicin for a first episode (conditional recommendation), while the Australian ASID 2025 update (abstract only) and AMH name oral vancomycin. Both are shown; the PBS lists oral vancomycin for this condition. | `observation` |
 | 3 | **The ASID 2025 Australasian guideline** (Intern Med J 2025;55(3):503–13) is closed access; only its abstract has been seen, confirming the switch from metronidazole to vancomycin for a first episode. | `access` |
 | 4 | **ESCMID 2021** (CC BY-NC-ND) could not be read: publisher HTTP 403 bot challenge, not bypassed. | `access` |

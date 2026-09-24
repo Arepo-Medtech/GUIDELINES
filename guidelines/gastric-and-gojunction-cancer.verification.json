@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/gastric-and-gojunction-cancer.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions' (published 24 August 2022), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9425884). S2: QUOTED from Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7) 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)' (published 18 July 2024), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11467061). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the SEOM-GEMCAD-TTD 2023 gastric cancer guideline (CC BY 4.0, quoted), for the first-line immunotherapy recommendations by PD-L1 CPS, KEYNOTE-811, zolbetuximab and later-line updates that post-date S1. S1 claims and anchors are unchanged. The Japanese Gastric Cancer Treatment Guidelines 2025 (PMC12956939, CC BY) were also read but not used: they are Japan-specific and do not cover tislelizumab or KEYNOTE-811.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions' (published 24 August 2022), 29 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9425884). S2: QUOTED from Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7) 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)' (published 18 July 2024), 13 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11467061). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the SEOM-GEMCAD-TTD 2023 gastric cancer guideline (CC BY 4.0, quoted), for the first-line immunotherapy recommendations by PD-L1 CPS, KEYNOTE-811, zolbetuximab and later-line updates that post-date S1. S1 claims and anchors are unchanged. The Japanese Gastric Cancer Treatment Guidelines 2025 (PMC12956939, CC BY) were also read but not used: they are Japan-specific and do not cover tislelizumab or KEYNOTE-811. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 1 and 2 (key first-line and refractory-disease trials) and S2's ESCAT biomarker table added; S2's Table 2 (surveillance after resection) is outside this page's scope, and a second S2 table (merged cells) and S2 Table 3 (ragged rows) were not extracted.",
  "summary": {
-  "total": 36,
-  "pass": 12,
+  "total": 42,
+  "pass": 13,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -79,6 +79,13 @@
     }
    ],
    "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**How actionable each biomarker is (ESCAT tiers, S2):** HER2, PD-L1 CPS and MSI are tier I, A; claudin 18.2 and FGFR2 are tier II.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "ESCAT scores … [Table 1 row 1] Her 2: PD-L1 CPS · I, A: I, A … [Table 1 row 2] Her 2: MSI · I, A: I, A … [Table 1 row 3] Her 2: Claudine 18.2 · I, A: II … [Table 1 row 4] Her 2: FGFR2 · I, A: II",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
   },
   {
    "claim": "**When HER2-positive disease becomes resistant, consider re-biopsy** to judge whether continuing a HER2-directed approach is still worthwhile.",
@@ -234,6 +241,78 @@
    "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
   },
   {
+   "claim": "**HER2-positive trials in numbers (S1 Table 1):** ToGA (584 patients) median overall survival 13.8 vs 11.1 months, progression-free 6.7 vs 5.5 months (HR 0.71). Adding pertuzumab (JACOB, 780 patients) gave 17.5 vs 14.2 months, HR 0.84, p = 0.057, so not significant.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94d228ee23f661f4",
+     "n": 397,
+     "p": "[Table 1"
+    },
+    {
+     "h": "504bc7b721d43fb5",
+     "n": 447,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Trials that did not help first line (S1 Table 1):** bevacizumab with chemotherapy (AVAGAST, 774 patients) did not significantly lengthen survival (12.1 vs 10.1 months, HR 0.87), and switching to avelumab maintenance after induction chemotherapy (JAVELIN Gastric 100) gave none either (10.4 vs 10.9 months, HR 0.91).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f087a0eec376d4d1",
+     "n": 463,
+     "p": "[Table 1"
+    },
+    {
+     "h": "fe143624bc93ced9",
+     "n": 547,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**CheckMate 649 across PD-L1 groups (S1 Table 1):** nivolumab plus chemotherapy gave a survival HR of 0.71 at CPS 5 or more, 0.77 at CPS 1 or more and 0.80 across all 1581 patients; response was 60% vs 45%. The Asian ATTRACTION-04 trial improved progression-free survival (10.45 vs 8.34 months, HR 0.68) but not overall survival (17.45 vs 17.15 months).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af9dee9026d37d78",
+     "n": 551,
+     "p": "[Table 1"
+    },
+    {
+     "h": "aa85cf6eef4d32bf",
+     "n": 512,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**KEYNOTE-062 in detail (S1 Table 1):** at CPS 10 or more, pembrolizumab alone gave median survival of 17.4 vs 10.8 months on chemotherapy (HR 0.69), but at CPS 1 or more progression-free survival was shorter (2 vs 6.4 months, HR 1.66). In KEYNOTE-590 (oesophageal and Siewert type 1 junction tumours) the survival HR for adenocarcinoma was 0.74, with a confidence interval crossing 1.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "721095248709b36d",
+     "n": 644,
+     "p": "[Table 1"
+    },
+    {
+     "h": "f5b97bb07751a777",
+     "n": 612,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Older or frail patients:** choosing oxaliplatin, and reduced doses of oxaliplatin-based combinations, has a better safety profile with at least comparable survival.",
    "source": "S2",
    "verdict": "pass",
@@ -382,6 +461,39 @@
      "h": "3a9d6981b60670ed",
      "n": 93,
      "p": "Quality "
+    }
+   ],
+   "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refractory-disease trials in numbers (S1 Table 2):** DESTINY-Gastric01 (187 patients, HER2-positive after trastuzumab): response 51% vs 14%, median survival 12.5 vs 8.4 months (HR 0.59). ATTRACTION-02 (nivolumab, Asian patients): 5.3 vs 4.1 months (HR 0.63). Third-line avelumab (JAVELIN Gastric 300) was no better than chemotherapy (4.6 vs 5 months, HR 1.1). Apatinib helped in a China-only trial (6.5 vs 4.7 months, HR 0.71). Regorafenib in the phase II INTEGRATE trial (Australia, New Zealand, Canada, South Korea) lengthened progression-free survival (2.6 vs 0.9 months, HR 0.40), most in South Korean patients.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bdcd0ebc0efe1445",
+     "n": 402,
+     "p": "[Table 2"
+    },
+    {
+     "h": "ef28eaca5198584c",
+     "n": 446,
+     "p": "[Table 2"
+    },
+    {
+     "h": "0be4e755a5dd0817",
+     "n": 401,
+     "p": "[Table 2"
+    },
+    {
+     "h": "b8e73e160d02b2cc",
+     "n": 367,
+     "p": "[Table 2"
+    },
+    {
+     "h": "cdbc915c66cbef3b",
+     "n": 523,
+     "p": "[Table 2"
     }
    ],
    "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"

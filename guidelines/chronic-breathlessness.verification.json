@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/chronic-breathlessness.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing) 'Dyspnoea — Clinical Evidence Summary' (updated 13 April 2026), 16 claims; LICENCE: © CareSearch, Flinders University — 'No Information authored by or on behalf of us may be copied, modified or reproduced in any way without our written permission.' (read at https://www.caresearch.com.au/about-us/contact/terms-and-conditions/). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines' (published 10 December 2020), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC7733213). Verify each source separately: verify.py --source <file> --only-source S<n>. The ranked international source (ERS 2024 clinical practice guideline on symptom management for adults with serious respiratory illness) returned a Cloudflare bot challenge (HTTP 403) at publications.ersnet.org and is not in PMC, so it was not used. This Australian evidence summary was used instead. Edition 2.0 adds S2, the ESMO 2020 Clinical Practice Guideline, a graded society guideline (levels of evidence I-V, grades of recommendation A-D). S1 claims are unchanged. Second-source searches (2026-09-24): ERS 2024 was retried through Unpaywall/OpenAlex open copies (University of Birmingham and Erasmus University Pure repositories, Bern BORIS), all bot-challenged and not bypassed; ASCO 2021 (ascopubs PDF) was bot-challenged; Europe PMC searches for an ANZSPM or TSANZ breathlessness guideline or position statement found none.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing) 'Dyspnoea — Clinical Evidence Summary' (updated 13 April 2026), 16 claims; LICENCE: © CareSearch, Flinders University — 'No Information authored by or on behalf of us may be copied, modified or reproduced in any way without our written permission.' (read at https://www.caresearch.com.au/about-us/contact/terms-and-conditions/). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines' (published 10 December 2020), 18 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC7733213). Verify each source separately: verify.py --source <file> --only-source S<n>. The ranked international source (ERS 2024 clinical practice guideline on symptom management for adults with serious respiratory illness) returned a Cloudflare bot challenge (HTTP 403) at publications.ersnet.org and is not in PMC, so it was not used. This Australian evidence summary was used instead. Edition 2.0 adds S2, the ESMO 2020 Clinical Practice Guideline, a graded society guideline (levels of evidence I-V, grades of recommendation A-D). S1 claims are unchanged. Second-source searches (2026-09-24): ERS 2024 was retried through Unpaywall/OpenAlex open copies (University of Birmingham and Erasmus University Pure repositories, Bern BORIS), all bot-challenged and not bypassed; ASCO 2021 (ascopubs PDF) was bot-challenged; Europe PMC searches for an ANZSPM or TSANZ breathlessness guideline or position statement found none. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (management of conditions contributing to breathlessness) add a 'treat what can be reversed' section. S2 had one table and it was clean.",
  "summary": {
-  "total": 28,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 28
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -120,6 +120,144 @@
      "h": "0a62b0c9cf46326d",
      "n": 107,
      "p": "The resp"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Look for and treat any reversible condition adding to the breathlessness (II, A)** before or alongside symptom measures; ESMO tabulates the usual contributors and their management.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a2c4f536e088ba04",
+     "n": 117,
+     "p": "Clinicia"
+    },
+    {
+     "h": "5194e17fe573a07c",
+     "n": 85,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Symptomatic anaemia:** consider a transfusion when haemoglobin is below 70–80 g/L, aiming to hold it above that level.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "050149722ce24d4f",
+     "n": 156,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Malignant pleural effusion:** with under 3 months to live, a simple thoracentesis; with a longer outlook, either an indwelling tunnelled catheter or chemical pleurodesis is reasonable. **Malignant ascites:** paracentesis, with or without a drain left in. **Pericardial effusion or tamponade:** pericardiocentesis, or pericardiectomy with or without a window.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6958f258b79bdfd9",
+     "n": 296,
+     "p": "[Table 1"
+    },
+    {
+     "h": "46763ade4be7c23f",
+     "n": 118,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a723546c4e967357",
+     "n": 164,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Central airway obstruction:** endobronchial treatment for a proximal lesion (bronchoscopic debridement, tumour ablation, a stent); radiotherapy for a distal one.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5ac3e0e5e823bc7d",
+     "n": 273,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Lung toxicity from chemotherapy or immunotherapy:** stop the drug and consider a corticosteroid; corticosteroids are also an option for radiation pneumonitis or fibrosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5afc829cbdce0bd0",
+     "n": 151,
+     "p": "[Table 1"
+    },
+    {
+     "h": "48e48496d4dbe147",
+     "n": 142,
+     "p": "[Table 1"
+    },
+    {
+     "h": "18e6dd40e71242a0",
+     "n": 119,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other contributors:** anticoagulate a pulmonary embolism; give anti-infectives for pneumonia; optimise COPD, asthma or heart failure medically; treat the cause of a metabolic acidosis; for superior vena cava obstruction or lymphangitic spread, treat the cancer, with corticosteroids an anecdotal option; refer cachexia to palliative care, dietetics or physiotherapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a220e51ac4c12fa5",
+     "n": 87,
+     "p": "[Table 1"
+    },
+    {
+     "h": "0b0b6d98705e8c8c",
+     "n": 84,
+     "p": "[Table 1"
+    },
+    {
+     "h": "7dbfe3851d465265",
+     "n": 97,
+     "p": "[Table 1"
+    },
+    {
+     "h": "bc1c2e7c33e4aceb",
+     "n": 99,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a87aee0401cf1614",
+     "n": 111,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a1461b148b641d0f",
+     "n": 153,
+     "p": "[Table 1"
+    },
+    {
+     "h": "10ca717a9d7731cd",
+     "n": 152,
+     "p": "[Table 1"
+    },
+    {
+     "h": "affa16eb6b224eb0",
+     "n": 132,
+     "p": "[Table 1"
     }
    ],
    "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"

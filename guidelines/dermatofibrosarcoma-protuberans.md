@@ -1,9 +1,9 @@
 # Dermatofibrosarcoma protuberans (DFSP)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, biopsy, pathology and molecular confirmation, imaging, surgery (micrographically controlled or wide excision), imatinib, radiotherapy, fibrosarcomatous transformation and follow-up of DFSP. Related: `soft-tissue-sarcoma` (FS-DFSP is managed on sarcoma principles), `keratinocyte-cancer`. PBS access (imatinib) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **63 fragments or anchors re-checkable by machine; 4 doses.** **S1** European Association of Dermato-Oncology (EADO) (published online 30 January 2025; international): 25 claims, paraphrased, hash-anchored · **S2** Jozwik M (published 11 September 2024; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **68 fragments or anchors re-checkable by machine; 4 doses.** **S1** European Association of Dermato-Oncology (EADO) (published online 30 January 2025; international): 25 claims, paraphrased, hash-anchored · **S2** Jozwik M (published 11 September 2024; international): 14 claims, quoted
 
 > ⚠️ International guideline (EADO/EDF/UEMS/EADV, 2024 update). Australian practice follows the PBS listings below and may differ.
 
@@ -18,6 +18,8 @@
 - **It usually starts as a slow, painless, firm plaque of 2 to 5 cm,** most often on the trunk. A sudden growth spurt may mean fibrosarcomatous change. [S1]
 - ⚠️ **Think of DFSP when a solitary 'keloid' or hypertrophic scar has no history of injury or surgery;** a small punch biopsy before any big excision avoids mistreatment. [S1]
 - ⚠️ **Fibrosarcomatous DFSP (10–15% of cases) is more aggressive,** with metastasis risk of 15–20%: stage with CT of chest, abdomen and pelvis plus nodal ultrasound. [S1]
+- **Site in three published series (S2 table; n = 240, 368 and 115):** trunk 31–41%, upper limb 25–34%, lower limb 23–29%, and head or neck 14–15% where recorded. [S2]
+- **How fibrosarcomatous change differs from typical DFSP (S2 table):** high grade (G3 in at least 5% of the mass) instead of G1–G2; high mitotic activity; CD34 often absent (always present in typical DFSP); increased p53; a herring-bone instead of storiform pattern; often quick growth of a larger, often painful mass; a shorter interval to recurrence; and distant metastases can occur, where typical DFSP never or very rarely spreads. [S2]
 
 ## Diagnose
 
@@ -88,7 +90,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Staging table (Table 2) and evidence-level table** of S1 are partly garbled by two-column extraction; S1's stage definitions are not anchored. S2 gives the NCCN and German 2018 staging schemes instead. | `input_unavailable` |
+| 1 | **Staging table (Table 2) and evidence-level table** of S1 are partly garbled by two-column extraction; S1's stage definitions are not anchored. S2 gives the NCCN and German 2018 staging schemes instead. S1 is a PDF, not PMC XML, so the table-row pass could not recover it; S2's two tables (tumour site, typical versus fibrosarcomatous DFSP) are now used. | `input_unavailable` |
 | 2 | **Sources disagree on margins and reconstruction:** S1 (guideline) accepts 2–3 cm lateral margins without micrographic surgery and advises simple reconstruction, not flaps; S2 (review) calls 3 cm or more the gold standard and supports flaps when needed. Both are shown. | `observation` |
 | 3 | **Sources disagree on imatinib dose and Mohs in FS-DFSP:** S1 starts at 400 mg/day and escalates to 600–800 mg/day by response; S2 prefers 400 mg over 800 mg for tolerability. S1 says Mohs for FS-DFSP is unevaluated; S2 says it is not indicated. S2's follow-up description ('European guidelines', 6-monthly for 5 years, yearly to 10) is older than S1's 2024 schedule. Both are shown. | `observation` |
 | 4 | **Australian context:** the PBS lists imatinib for DFSP; no Australian DFSP guideline or eviQ protocol was found (research note). | `observation` |

@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/vitamin-b12-deficiency.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI) 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus' (published 10 April 2024), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11050313). S2: PARAPHRASED AND HASH-ANCHORED from Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012) 'Vitamin B12 deficiency: testing and treatment' (7 April 2026 (finalised 17 February 2026)), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Creative Commons badge and link on the article page). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and quote (S1, the 2024 Delphi consensus) unchanged and adds S2, a 2026 Australian Prescriber review (peer reviewed, not a guideline), for Australian testing indications, test choice, MBS rules, lifelong intramuscular replacement and monitoring. S2's tables (risk factors, clinical features, test interpretation and the treatment and dose table) and Figure 1 were stripped. The Delphi consensus statements themselves are in Tables 1 and 2, which were stripped; claims are anchored to the Results and Discussion text. The study was funded by Wörwag Pharma (a B12 manufacturer).",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI) 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus' (published 10 April 2024), 22 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11050313). S2: PARAPHRASED AND HASH-ANCHORED from Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012) 'Vitamin B12 deficiency: testing and treatment' (7 April 2026 (finalised 17 February 2026)), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Creative Commons badge and link on the article page). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and quote (S1, the 2024 Delphi consensus) unchanged and adds S2, a 2026 Australian Prescriber review (peer reviewed, not a guideline), for Australian testing indications, test choice, MBS rules, lifelong intramuscular replacement and monitoring. S2's tables (risk factors, clinical features, test interpretation and the treatment and dose table) and Figure 1 were stripped. The Delphi consensus statements themselves are in Tables 1 and 2, which were stripped; claims are anchored to the Results and Discussion text. The study was funded by Wörwag Pharma (a B12 manufacturer). Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (the treatment, prophylaxis and long-term consensus statements, with agreement levels). S1 Table 1 (diagnosis statements) has merged cells and was not extracted; S2 is not a PMC source, so its tables stay stripped.",
  "summary": {
-  "total": 30,
-  "pass": 19,
+  "total": 33,
+  "pass": 22,
   "fail": 0,
   "pass_paraphrase_anchored": 11
  },
@@ -303,6 +303,27 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "The prophylactic use of vitamin B12 was regarded as necessary for people diagnosed with atrophic gastritis, those with previous bariatric surgery, people at risk of B12 deficiency due to illnesses or medications, people with low or no consumption of animal source foods, and people ever diagnosed with vitamin B12 deficiency when they decided to become pregnant … prophylactic B12 supplementation should be used from prepregnancy until the end of the lactation period in women with previously diagnosed B12 deficiency or who are at risk of vitamin B12 deficiency due for instance to low dietary intake of B12.",
+   "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Consensus statements on long-term B12 (S1 Table 2):** people who have had bariatric surgery should have long-term B12 therapy or prophylaxis (agreement 0.90); deficiency in pregnancy, breastfeeding and infancy must be found and treated as early as possible because of its serious effects on fetal and infant development (0.89); and women with past deficiency or a diet low in animal foods should take prophylaxis from before pregnancy to the end of breastfeeding (0.92).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Question: People who underwent bariatric surgery in the past should receive B12 therapy or prophylactic B12 supplementation for long-term. · n (Panelists) 1: 41 · Mean (95% CI) 2: 0.90 (0.77-0.97) … [Table 2 row 16] 5. · Question: B12 deficiency during pregnancy, lactation and in infancy needs to be detected and treated as early as possible because of the serious effects of B12 deficiency on fetal and infant development. · n (Panelists) 1: 38 · Mean (95% CI) 2: 0.89 (0.75-0.97) [Table 2 row 17] 6. · Question: Women with a previously diagnosed B12 deficiency or dietary restriction of animal foods should take prophylactic B12 supplementation from pre-pregnancy to the end of the lactation period. · n (Panelists) 1: 38 · Mean (95% CI) 2: 0.92 (0.79-0.98)",
+   "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**No B12 form is proven better (S1 Table 2):** it is unclear whether the available forms differ in effectiveness or safety, and head-to-head trials are needed (agreement 0.88, 42 panellists).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 2 row 1] 1. · Question: At present, it is unclear whether different forms of B12 differ in their effectiveness or safety. Clinical trials comparing the safety and effectiveness of the commercially available forms are needed. · n (Panelists) 1: 42 · Mean (95% CI) 2: 0.88 (0.74-0.96)",
+   "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**How strong the consensus was:** a statement passed when the lower 95% confidence bound of the share agreeing or strongly agreeing was 50% or more. The least-agreed treatment statement was preferring oral B12 when injections are contraindicated, for example by anticoagulants (0.75, 95% CI 0.57–0.89).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "Question: Contraindications of intramuscular injections such as concurrent anticoagulant medication can lead to prioritizing oral B12 treatment. · n (Panelists) 1: 32 · Mean (95% CI) 2: 0.75 (0.57-0.89) … [Table 2 footnote] 1 Total number of the panelists who answered each of the questions. 2 Mean percentage and the 95% confidence intervals of the panelists who considered themselves qualified to answer the question and chose \"agree\" or \"strongly agree\" to the answer. We considered that a consensus was reached when the lower bound of the 95%confidence intervals is 50% or higher.",
    "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
   },
   {

@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/cytomegalovirus-infection.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Transplantation Society International CMV Consensus Group (Kotton, Kumar, Humar et al.), Transplantation (Wolters Kluwer) 'The Fourth International Consensus Guidelines on the Management of Cytomegalovirus in Solid Organ Transplantation' (2025), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12180710). S2: PARAPHRASED AND HASH-ANCHORED from Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065) 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)' (2024), 9 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <permissions> element for PMC11385272). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the GETH-TC 2024 consensus on CMV after allogeneic stem cell transplant, paraphrased and hash-anchored, to cover the stem cell transplant setting S1 omits; the S1 claims are unchanged. No Australian or New Zealand CMV guideline was found (Europe PMC: only an ANZTCT practice survey, Intern Med J 2026). The ASTCT 2025 HCT CMV guideline (CC BY-NC-ND) returned a bot challenge at both ScienceDirect and the journal site, and ECIL-7 is paywalled.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Transplantation Society International CMV Consensus Group (Kotton, Kumar, Humar et al.), Transplantation (Wolters Kluwer) 'The Fourth International Consensus Guidelines on the Management of Cytomegalovirus in Solid Organ Transplantation' (2025), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12180710). S2: PARAPHRASED AND HASH-ANCHORED from Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065) 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)' (2024), 15 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <permissions> element for PMC11385272). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the GETH-TC 2024 consensus on CMV after allogeneic stem cell transplant, paraphrased and hash-anchored, to cover the stem cell transplant setting S1 omits; the S1 claims are unchanged. No Australian or New Zealand CMV guideline was found (Europe PMC: only an ANZTCT practice survey, Intern Med J 2026). The ASTCT 2025 HCT CMV guideline (CC BY-NC-ND) returned a bot challenge at both ScienceDirect and the journal site, and ECIL-7 is paywalled. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (the consensus summary: CAR-T and targeted-drug monitoring, doubling time, diagnosis of end-organ disease, stopping pre-emptive therapy, resistance testing, immune monitoring and virus-specific T cells). S1's dosing tables have merged cells and were not extracted.",
  "summary": {
-  "total": 33,
+  "total": 39,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 33
+  "pass_paraphrase_anchored": 39
  },
  "claims": [
   {
@@ -379,6 +379,19 @@
    "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
   },
   {
+   "claim": "**CAR-T cells and targeted drugs:** in high-risk patients, check CMV DNA before CAR-T infusion and keep checking until day 60 or until blood counts recover. Patients on BTK or JAK inhibitors do not need routine checks unless there is a clinical reason.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba53f3112a0f7d27",
+     "n": 414,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Letermovir prophylaxis is the one agent shown to cut clinically significant CMV and all-cause mortality,** with top-grade (A-I) recommendations in guidelines. If it cannot be given to everyone, target higher-risk grafts (BII): seropositive recipient with a seronegative donor, HLA mismatch at A, B or DR, post-transplant cyclophosphamide, cord blood, or ex vivo T-cell depletion.",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -451,6 +464,32 @@
    "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
   },
   {
+   "claim": "**A viral load that doubles in 2 days or less supports starting pre-emptive therapy,** particularly where the centre's threshold is 1,500 IU/mL (S2 summary table).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56e72f6a72ef5684",
+     "n": 297,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A blood CMV DNA level cannot by itself diagnose CMV pneumonia or gut disease;** tissue histopathology and virological evidence from the organ are needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac06cfab4854022c",
+     "n": 290,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Pre-emptive drugs:** IV ganciclovir (AI) or oral valganciclovir, limited by marrow and kidney toxicity; foscarnet works as well (AI) and is preferred with neutropenia or thrombocytopenia. Maribavir 400 mg twice daily cleared viraemia comparably with fewer neutropenia stops, so it is an alternative when neutropenia develops (BI).",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -483,6 +522,19 @@
    "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
   },
   {
+   "claim": "**S2's summary table states the stopping rule more loosely:** consider ending pre-emptive therapy at the first negative PCR, which limits drug toxicity without raising recurrence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a31edb7f441c3617",
+     "n": 239,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Recurrent DNAemia:** letermovir secondary prophylaxis may be the choice if there is no letermovir-resistance mutation and DNAemia is negative before starting (BII).",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -508,6 +560,37 @@
    ],
    "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24",
    "dose": true
+  },
+  {
+   "claim": "**When to test for resistance after stem cell transplant (S2 summary table):** send mutational analysis if DNAemia has not cleared after 3 weeks of properly dosed antiviral therapy, or if it rises after 2 weeks; confirm resistance with genotypic and phenotypic methods.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c62db781fc1da655",
+     "n": 347,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Virus-specific T cells** (adoptive transfer) can be considered, refractory infection included. Routine immune monitoring is not yet standard, but S2 asks centres to measure CMV immunity where they can, to build real-world evidence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1828c39b5eb8a007",
+     "n": 210,
+     "p": "[Table 1"
+    },
+    {
+     "h": "0187a66893ae9c9f",
+     "n": 281,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065), 'Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)', 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/, retrieved 2026-09-24"
   },
   {
    "claim": "**Genotype for resistance after at least 4 weeks of antiviral exposure with a refractory viral-load response after at least 2 weeks of optimal dosing** (strong, high), on a sample whose viral load exceeds 1000 IU/mL (3 log10), so the mutation read-out is reliable.",

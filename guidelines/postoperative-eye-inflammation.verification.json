@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/postoperative-eye-inflammation.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Indian Journal of Ophthalmology 71(9) (narrative review) 'Management and prevention of corneal graft rejection' (published online 21 August 2023), 22 claims; LICENCE: CC BY-NC-SA 4.0 (read at Europe PMC fullTextXML <license> element for PMC10565940). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039) 'Corneal Edema and Opacification Preferred Practice Pattern®' (approved by the AAO Board of Trustees 22 September 2023; published 2024), 11 claims; LICENCE: © 2023 American Academy of Ophthalmology. All rights reserved (no open licence) (read at the PDF's front matter and the aao.org page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds the AAO Corneal Edema and Opacification PPP 2023 (S2). The aao.org guideline page, which returned a bot challenge in Wave 7, served normally on 2026-09-24 and links the full 59-page PDF (the Ophthalmology journal version), which was read with pdftotext. The aao.org footer carries this clause, recorded verbatim: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Per the owner's standing decision it is paraphrased and hash-anchored, not quoted.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Indian Journal of Ophthalmology 71(9) (narrative review) 'Management and prevention of corneal graft rejection' (published online 21 August 2023), 23 claims; LICENCE: CC BY-NC-SA 4.0 (read at Europe PMC fullTextXML <license> element for PMC10565940). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039) 'Corneal Edema and Opacification Preferred Practice Pattern®' (approved by the AAO Board of Trustees 22 September 2023; published 2024), 11 claims; LICENCE: © 2023 American Academy of Ophthalmology. All rights reserved (no open licence) (read at the PDF's front matter and the aao.org page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds the AAO Corneal Edema and Opacification PPP 2023 (S2). The aao.org guideline page, which returned a bot challenge in Wave 7, served normally on 2026-09-24 and links the full 59-page PDF (the Ophthalmology journal version), which was read with pdftotext. The aao.org footer carries this clause, recorded verbatim: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Per the owner's standing decision it is paraphrased and hash-anchored, not quoted. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (anti-VEGF agents) are paraphrased and anchored to its row lines; S1 Table 1 (rejection types) has ragged rows and was not extracted.",
  "summary": {
-  "total": 33,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 33
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -496,6 +496,29 @@
      "h": "ba6403ca315f6507",
      "n": 288,
      "p": "Tacrolim"
+    }
+   ],
+   "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Anti-VEGF options for corneal new vessels (S1 Table 2):** bevacizumab (a full-length antibody against all VEGF-A isoforms) shrank mean vessel diameter by 24% and vascularised area by 61%, but higher strengths (above 1%) or use beyond 1 month can delay healing and worsen stromal thinning. Ranibizumab (an antibody fragment) acts faster and more strongly than bevacizumab but costs more. Aflibercept is a fusion protein that binds VEGF-A and VEGF-B.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9226a3a536f04fc",
+     "n": 388,
+     "p": "[Table 2"
+    },
+    {
+     "h": "b2f523f904d24c45",
+     "n": 381,
+     "p": "[Table 2"
+    },
+    {
+     "h": "84ca8b612fa28082",
+     "n": 121,
+     "p": "[Table 2"
     }
    ],
    "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"

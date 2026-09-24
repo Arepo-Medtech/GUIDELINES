@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/cows-milk-allergy-formulas.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA Information for Health Professionals: Milk Substitutes in Cow's Milk Allergy' (content updated June 2026 (supersedes the December 2025 edition)), 13 claims; LICENCE: © ASCIA 2026; no reuse terms stated (read at the page footer ('© ASCIA 2026, Content updated June 2026')). S2: PARAPHRASED AND HASH-ANCHORED from World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA' (published April 2024), 7 claims; LICENCE: CC BY-NC-ND 4.0 (© 2024 The Author(s)) (read at Europe PMC fullTextXML <license> element for PMC11068951). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the WAO DRACMA 2024 GRADE recommendations on which formula to use and in what order, because ASCIA's formula-by-type table (S1) could not be machine-read. S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored; its qualifying remarks are kept with each recommendation as WAO asks.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Society of Clinical Immunology and Allergy (ASCIA) 'ASCIA Information for Health Professionals: Milk Substitutes in Cow's Milk Allergy' (content updated June 2026 (supersedes the December 2025 edition)), 13 claims; LICENCE: © ASCIA 2026; no reuse terms stated (read at the page footer ('© ASCIA 2026, Content updated June 2026')). S2: PARAPHRASED AND HASH-ANCHORED from World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA' (published April 2024), 9 claims; LICENCE: CC BY-NC-ND 4.0 (© 2024 The Author(s)) (read at Europe PMC fullTextXML <license> element for PMC11068951). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the WAO DRACMA 2024 GRADE recommendations on which formula to use and in what order, because ASCIA's formula-by-type table (S1) could not be machine-read. S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored; its qualifying remarks are kept with each recommendation as WAO asks. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (the Recommendation 3 and 4 remarks on probiotic formulas) and Table 2 (what a conditional recommendation means).",
  "summary": {
-  "total": 20,
+  "total": 22,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
@@ -223,6 +223,42 @@
      "h": "36f285d0cccc3d08",
      "n": 201,
      "p": "Children"
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2's summary table adds, for non-IgE CMA, a second studied combination:** casein eHF with *L. casei* CRL431 and *B. lactis* Bb12, though no such formula is on the market. Neither probiotic recommendation covers infants whose CMA has not been confirmed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1571ea33f7caa944",
+     "n": 17783,
+     "p": "at this "
+    },
+    {
+     "h": "43477642613d485d",
+     "n": 72,
+     "p": "3) This "
+    }
+   ],
+   "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What 'conditional' means here:** most families would choose the suggested option but many would not, so the clinician accepts that different choices suit different infants and helps each family reach a decision matching its own values and preferences; decision aids can help.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb6005ce5b7e3983",
+     "n": 461,
+     "p": "[Table 2"
+    },
+    {
+     "h": "686e643340786b18",
+     "n": 652,
+     "p": "[Table 2"
     }
    ],
    "locator": "World Allergy Organization (Bognanni A, Fiocchi A, Arasi S, et al.), World Allergy Organization Journal 17(4):100888, doi 10.1016/j.waojou.2024.100888, 'World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guideline update - XII - Recommendations on milk formula supplements with and without probiotics for infants and toddlers with CMA', published April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11068951/, retrieved 2026-09-24"

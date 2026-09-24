@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/biliary-atresia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103 'Diagnostic and management guidelines for biliary atresia in 2025' (published 4 September 2025), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13449986). S2: QUOTED from Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601) 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper' (published 7 November 2022), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9656543). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Edition 1.0 claim (S1, Chinese Medical Association 2025) unchanged and adds S2, the 2022 RARE-LIVER/BARD position paper on initial surgical and medical treatment (a 43-respondent practice survey with expert discussion), for the diagnostic work-up, KPE technique, adjuvant-therapy practice and long-term outcomes.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103 'Diagnostic and management guidelines for biliary atresia in 2025' (published 4 September 2025), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13449986). S2: QUOTED from Davenport M, Madadi-Sanjani O, Chardot C, Verkade HJ, Karpen SJ, et al.; European Reference Network RARE-LIVER and Biliary Atresia and Related Diseases (BARD) network; Journal of Clinical Medicine 11(21):6601 (doi 10.3390/jcm11216601) 'Surgical and Medical Aspects of the Initial Treatment of Biliary Atresia: Position Paper' (published 7 November 2022), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9656543). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Edition 1.0 claim (S1, Chinese Medical Association 2025) unchanged and adds S2, the 2022 RARE-LIVER/BARD position paper on initial surgical and medical treatment (a 43-respondent practice survey with expert discussion), for the diagnostic work-up, KPE technique, adjuvant-therapy practice and long-term outcomes. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 5 (vaccine timing around steroids and surgery). S1 Tables 1–4 could not be extracted (merged cells); S2 has no tables.",
  "summary": {
-  "total": 34,
+  "total": 35,
   "pass": 11,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 24
  },
  "claims": [
   {
@@ -448,6 +448,44 @@
      "h": "0526b2e38f414aa7",
      "n": 491,
      "p": "Children"
+    }
+   ],
+   "locator": "Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103, 'Diagnostic and management guidelines for biliary atresia in 2025', published 4 September 2025, https://doi.org/10.21037/hbsn-2025-97, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Vaccine timing around steroids and surgery (S1 Table 5):** on high-dose steroids for 14 days or more, give inactivated vaccines at least 2 weeks before starting or once the course has stopped, and live vaccines at least 4 weeks before or 4 weeks after; on a high-dose course shorter than 14 days, inactivated vaccines stay on schedule but live vaccines wait until 2 weeks after it ends; on low-dose steroids, inactivated vaccines are routine and live vaccines follow an individual assessment. Before KPE allow at least 2 days for inactivated and 21 days for live vaccines; before liver transplant, at least 2 and 4 weeks. High dose means prednisone 20 mg/day or more, or above 2 mg/kg/day in children under 10 kg.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4760624da60247de",
+     "n": 316,
+     "p": "[Table 5"
+    },
+    {
+     "h": "4ba682d98a8f5262",
+     "n": 244,
+     "p": "[Table 5"
+    },
+    {
+     "h": "d37ff50ccb171008",
+     "n": 180,
+     "p": "[Table 5"
+    },
+    {
+     "h": "07811c2ca182e456",
+     "n": 199,
+     "p": "[Table 5"
+    },
+    {
+     "h": "7dbce31eff1a4842",
+     "n": 199,
+     "p": "[Table 5"
+    },
+    {
+     "h": "36242813f97ee318",
+     "n": 301,
+     "p": "[Table 5"
     }
    ],
    "locator": "Ge L, Yang J, Li T, et al.; Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association, and Section of Pediatrics, Chinese Chapter of the International Hepato-Pancreato-Biliary Association, with US, European and Asian experts; Hepatobiliary Surgery and Nutrition 15:103, 'Diagnostic and management guidelines for biliary atresia in 2025', published 4 September 2025, https://doi.org/10.21037/hbsn-2025-97, retrieved 2026-09-23"

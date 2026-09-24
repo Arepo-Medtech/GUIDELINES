@@ -1,9 +1,9 @@
 # Acute myeloid leukaemia in adults (including acute promyelocytic leukaemia)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** induction, consolidation and maintenance for newly diagnosed APML and AML (fit and unfit for intensive chemotherapy), relapsed/refractory AML, and antimicrobial prophylaxis, in adults. Allogeneic transplant indications are outside the source's scope. Drug doses are given where the source states them; administration detail is in the eviQ protocols. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **91 fragments or anchors re-checkable by machine; 13 doses.** **S1** Blood Cancer Taskforce (v1.0, February 2025; AU): 25 claims, paraphrased, hash-anchored · **S2** Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL) (published 2026; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 39 claims; **105 fragments or anchors re-checkable by machine; 13 doses.** **S1** Blood Cancer Taskforce (v1.0, February 2025; AU): 25 claims, paraphrased, hash-anchored · **S2** Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL) (published 2026; international): 14 claims, quoted
 
 > ⚠️ **Australian practice differs from ELN here.** Double induction is less common in Australia, so this guideline treats a less-than-partial response to the *first* induction as refractory (ELN 2022 requires failure of two). Several recommended drugs are not PBS-funded (ivosidenib; venetoclax in relapsed AML), and GO and CPX-351 are PBS-listed but not funded for inpatient use.
 
@@ -52,6 +52,12 @@
 - **Duration and response:** continue less-intensive treatment until progression or intolerance, with dose changes as needed; with no objective response or benefit after two or more cycles of AZA-VEN, consider other options. S2 does not routinely advise stopping in MRD-negative remission, given no prospective data. [S2]
 - ⚠️ **Azacitidine with ivosidenib:** ivosidenib 500 mg daily continuously, with azacitidine 75 mg/m2 daily for 7 days per cycle. Watch for differentiation syndrome (14% in AGILE, usually in the first month: rising leucocytes, weight gain, effusions, rising creatinine, fever); treat with hydroxyurea, dexamethasone 10 mg twice daily for 3–5 days and diuretics. Do an ECG before and in the first 2 weeks; hold for QTcF > 500 msec and reduce to 250 mg daily if it recurs. [S2]
 
+## Trial results behind less-intensive therapy (S2 tables)
+
+- **VIALE-A (azacitidine + venetoclax v azacitidine + placebo, untreated AML, ≥75 years or with comorbidities):** median OS 14.1 v 9.6 months (HR 0.66); CR/CRi 66.4% v 28.3%, and 43.4% v 7.6% by the start of cycle 2; median duration of CR 17.5 v 13.3 months. [S2]
+- **VIALE-C (low-dose cytarabine + venetoclax v LDAC + placebo):** median OS 7.2 v 4.1 months at the planned analysis (HR 0.75, p = 0.11, not significant) and 8.4 v 4.1 months in an unplanned post hoc analysis (p = 0.04); CR/CRi 48% v 13%. [S2]
+- **AGILE (azacitidine + ivosidenib v azacitidine + placebo, untreated AML ineligible for intensive chemotherapy):** median OS 24.0 v 7.9 months (HR 0.44), and 29.3 v 7.9 months post hoc at a median follow-up of 28.6 months; CR/CRi 54% v 18%. More QT prolongation (29% v 12%) and differentiation syndrome (14% v 8%), less infection (28% v 49%). [S2]
+
 ## Relapsed or refractory AML
 
 - ⚠️ **Re-test FLT3 in every relapsed or refractory patient, including after allograft; if FLT3-ITD or -TKD is present, use gilteritinib** (better survival and fewer adverse events than salvage chemotherapy in ADMIRAL and COMMODORE). In FLT3-mutated disease failing to reach partial response after induction, move to gilteritinib then, not after more chemotherapy. [S1]
@@ -91,11 +97,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 3 | **Funding at the time of writing:** ivosidenib (TGA-approved, not PBS-listed) and venetoclax for relapsed AML (neither TGA nor PBS) may change; recheck PBS status. | `time_sensitive` |
 | 4 | **Antibacterial prophylaxis after AZA-VEN induction in outpatients** reached no consensus in S1, which defers to forthcoming Australian neutropenic-fever guidelines. | `evidence_unsettled` |
 | 5 | **Sources disagree on prophylaxis with venetoclax-based therapy:** S2 (Canada 2026) gives antibacterial, antiviral and azole antifungal prophylaxis to all neutropenic patients; S1 (HSANZ 2025) reserves antifungal prophylaxis for high risk and has no consensus on antibacterials. Both are shown. | `observation` |
-| 6 | **S2 azole dose-adjustment table (Table 4) and its trial-outcome tables** were stripped; venetoclax doses with azoles are not given here. | `input_unavailable` |
-| 7 | **Newer drugs in S2 that are not PBS-listed for AML:** menin inhibitors (revumenib) and oral decitabine-cedazuridine with venetoclax are cited as US-available or pending approval; check TGA and PBS status. | `time_sensitive` |
-| 8 | **PARADIGM** (AZA-VEN v intensive chemotherapy in fit patients) is cited by S2 from an abstract only; it may change the fit/unfit split and is not used for a recommendation here. | `evidence_unsettled` |
-| 9 | **Source text quirk:** the refractory definition on p. 12 reads 'achieving at least partial response to induction 1' where the sense (and p. 20) is *not* achieving it; the claim follows the unambiguous p. 20 and R/R preamble wording. | `observation` |
-| 10 | **Licence:** site-wide 'All Rights Reserved' footer; the PDF is reached after a health-professional click-through on hsanz.org.au (the file itself is served directly). The S1 claims are paraphrased and hash-anchored; the source's words are not reproduced. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
+| 6 | **S2 azole dose-adjustment table (Table 4)** has merged cells and was not extracted, so venetoclax doses with azoles are not given here. S2's trial-outcome tables (Tables 1–3: VIALE-A, VIALE-C, AGILE) are now covered. | `input_unavailable` |
+| 7 | **AGILE comparator survival differs between sources:** S1 gives 7.0 months for azacitidine alone at a median follow-up of 28.6 months; S2 Table 3 gives 7.9 months for the same analysis (29.3 months with ivosidenib in both). Both are shown. | `observation` |
+| 8 | **Newer drugs in S2 that are not PBS-listed for AML:** menin inhibitors (revumenib) and oral decitabine-cedazuridine with venetoclax are cited as US-available or pending approval; check TGA and PBS status. | `time_sensitive` |
+| 9 | **PARADIGM** (AZA-VEN v intensive chemotherapy in fit patients) is cited by S2 from an abstract only; it may change the fit/unfit split and is not used for a recommendation here. | `evidence_unsettled` |
+| 10 | **Source text quirk:** the refractory definition on p. 12 reads 'achieving at least partial response to induction 1' where the sense (and p. 20) is *not* achieving it; the claim follows the unambiguous p. 20 and R/R preamble wording. | `observation` |
+| 11 | **Licence:** site-wide 'All Rights Reserved' footer; the PDF is reached after a health-professional click-through on hsanz.org.au (the file itself is served directly). The S1 claims are paraphrased and hash-anchored; the source's words are not reproduced. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
 
 ## Sources
 

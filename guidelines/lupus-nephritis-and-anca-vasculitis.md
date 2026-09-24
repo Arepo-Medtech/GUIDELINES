@@ -1,9 +1,9 @@
 # Lupus nephritis and ANCA-associated vasculitis
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** kidney-related care of lupus nephritis (including classes III–V) and ANCA-associated vasculitis in adults, from the CARI (Australia and New Zealand) commentary on the KDIGO 2021 glomerular disease guideline, plus the general glomerular-disease points that apply to both. Extra-renal SLE is not covered. Other glomerular diseases (IgA nephropathy, membranous, FSGS, children's nephrotic syndrome): see `nephrotic-syndrome-children`; general CKD care: see `chronic-kidney-disease`. Edition 2.0 adds S2 (EULAR 2023) for lupus nephritis and for its general SLE drug points (hydroxychloroquine, glucocorticoid limits, belimumab or anifrolumab); organ-specific extra-renal care stays out of scope.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **44 fragments or anchors re-checkable by machine; 4 doses.** **S1** CARI Guidelines (published 16 September 2025; AU): 18 claims, paraphrased, hash-anchored · **S2** EULAR task force (Fanouriakis A (published online 12 October 2023; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **55 fragments or anchors re-checkable by machine; 4 doses.** **S1** CARI Guidelines (published 16 September 2025; AU): 27 claims, paraphrased, hash-anchored · **S2** EULAR task force (Fanouriakis A (published online 12 October 2023; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **Several KDIGO lupus-nephritis options are not available in Australia or New Zealand:** belimumab (for lupus nephritis) and voclosporin. The commentary predates the PBS listing of obinutuzumab for lupus nephritis and does not discuss it.
 
@@ -19,6 +19,7 @@
 - **With marked proteinuria in adults, prefer a timed urine collection** over a random spot sample to measure protein: it is more accurate and varies less. [S1]
 - **Creatinine-based eGFR overestimates true GFR** in nephrotic syndrome with low albumin, and CKD-EPI is unvalidated in Aboriginal and Torres Strait Islander and Māori people. [S1]
 - **Give people starting immunosuppression a third primary COVID vaccine dose** (ATAGI), ideally more than 2 weeks before treatment starts. This covers high-dose steroids (> 20 mg/day for > 14 days), mycophenolate, azathioprine, calcineurin inhibitors, cyclophosphamide and anti-CD20 agents. [S1]
+- **Australian and NZ adjustments to KDIGO (CARI):** depending on the setting, serology or genetic tests may stand in for, or accompany, a kidney biopsy; and for patients under 25, CARI backs the 2021 CKiD U25 eGFR equation. For ANCA vasculitis, CARI endorses KDIGO unchanged. [S1]
 
 ## ANCA-associated vasculitis: diagnosis and monitoring
 
@@ -56,6 +57,20 @@
 - **EULAR maintenance:** keep treating for at least 3 years after response. Stay on a mycophenolate-based regimen (with belimumab or a calcineurin inhibitor if those were used); after cyclophosphamide, switch to mycophenolate or azathioprine and keep belimumab if it was part of the first regimen. [S2]
 - **In sustained remission, taper gradually, stopping glucocorticoids first.** In the WIN-LUPUS trial, withdrawing mycophenolate or azathioprine after 2–3 years of lupus nephritis treatment was not shown to be non-inferior: those who stopped had more renal relapses and extra-renal flares. [S2]
 
+## Pregnancy in glomerular disease (CARI)
+
+- **Before conception:** discuss the risks to the mother, the baby and the kidney disease; avoid teratogenic drugs (renin–angiotensin system inhibitors, most immunosuppressants) or use safe contraception while taking them; and weigh the total cyclophosphamide dose, as it can leave permanent infertility. [S1]
+- ⚠️ **During pregnancy:** care from a team of nephrologist, obstetrician and maternal–fetal medicine specialist. Do not use RAS blockers or certain immunosuppressants, for example mycophenolate. Consider low-dose aspirin with calcium and vitamin D, aim for blood pressure under 140/90 mmHg, and consider prophylactic anticoagulation (heparin or a heparin derivative preferred) at high thrombosis risk: nephrotic syndrome, earlier VTE, high BMI. [S1]
+- **After the birth:** bring in a paediatric nephrologist if the baby may have an inherited kidney disease, and a pharmacist if the mother wants to breastfeed on drugs that reach breast milk. Rarely, antibody-mediated disease (such as FSGS or membranous nephropathy) crosses the placenta. [S1]
+
+## Supportive care in glomerular disease (KDIGO 2021, as tabled by CARI)
+
+- **Lifestyle:** sodium below 2 g (90 mmol) a day; moderate, preferably plant-based, protein restriction; carbohydrate no more than 35 kcal/kg of ideal body weight, and fewer calories with a high BMI; a heart-healthy diet, reaching ideal weight, more exercise, stopping smoking and less alcohol. [S1]
+- ⚠️ **Blood pressure: aim for systolic under 120 mmHg** using RAAS blockade, plus further blood-pressure drugs as needed. [S1]
+- **Oedema:** start with a loop diuretic, add a thiazide if needed, and consider amiloride or spironolactone when loop diuretics fail. **Lipids:** a statin when cardiovascular risk is high, as with diabetes or hypertension. [S1]
+- **Prophylactic anticoagulation:** decide on histology, amount of proteinuria and serum albumin, helped by an online bleeding-risk tool; heparin, a heparin derivative or warfarin is preferred, and direct oral anticoagulants have not been studied. [S1]
+- ⚠️ **Infection:** every patient gets pneumococcal and influenza vaccines and screening for TB, syphilis, hepatitis and HIV; high-dose steroids or other immunosuppression call for pneumocystis prophylaxis. [S1]
+
 ## SLE drug principles (EULAR)
 
 - **Hydroxychloroquine for every patient unless contraindicated, aiming at 5 mg/kg of actual body weight a day,** adjusted to flare and retinal-toxicity risk. A higher start (not above 400 mg/day) can be used in moderate or severe disease, then lowered. Kidney disease raises retinal risk, so eye follow-up should be closer. [S2]
@@ -82,13 +97,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **AAV maintenance and relapsing/refractory algorithms** are in figures (KDIGO Figures 2 and 3), not in the text, and are not stated here. | `input_unavailable` |
-| 2 | **Pregnancy practice points and the Australia/NZ difference tables** are in tables, which were stripped. | `input_unavailable` |
-| 3 | **Obinutuzumab (PBS-listed for lupus nephritis)** is not discussed: the commentary covers KDIGO 2021, not the KDIGO 2024 lupus nephritis update (CC BY-NC-ND), which does. | `input_unavailable` |
-| 4 | **Extra-renal SLE (PBS: anifrolumab):** S1 covers only kidney involvement. S2 (EULAR 2023, read from a university repository copy; © the authors, no commercial re-use) adds the general hydroxychloroquine, glucocorticoid and biologic points; organ-specific extra-renal care (skin: see `cutaneous-lupus-erythematosus`; neuropsychiatric and haematological disease) is not stated here. | `out_of_scope` |
-| 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
-| 6 | **Sources differ on belimumab and voclosporin:** EULAR (S2) says early add-on belimumab or a calcineurin inhibitor should be considered for all adults with active lupus nephritis; CARI (S1) notes belimumab (for lupus nephritis) and voclosporin are not available in Australia or New Zealand. Both are shown; the tacrolimus-with-mycophenolate combination is the option both name. | `observation` |
-| 7 | **S2 predates obinutuzumab** for lupus nephritis and covers lupus only; its recommended glucocorticoid starting and tapering doses are in an online supplementary table that was not read. | `input_unavailable` |
-| 8 | **S2 licence:** © the authors 2024, no commercial re-use (BMJ). The S2 claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **Pregnancy practice points and the Australia/NZ difference table** (Tables 1 and 2) and the supportive-care table (A2) are now covered. Tables 3, A1, A3, A4 and A5 have no header row or merged cells and could not be extracted, so they remain gaps. | `input_unavailable` |
+| 3 | **Protein restriction:** S1 Table A2 prints the moderate protein range as 0.8–1.9 g/kg/day, which looks like a typographical error (KDIGO 2021 is usually quoted as 0.8–1.0), so no range is stated here. Check KDIGO before using a number. | `observation` |
+| 4 | **Obinutuzumab (PBS-listed for lupus nephritis)** is not discussed: the commentary covers KDIGO 2021, not the KDIGO 2024 lupus nephritis update (CC BY-NC-ND), which does. | `input_unavailable` |
+| 5 | **Extra-renal SLE (PBS: anifrolumab):** S1 covers only kidney involvement. S2 (EULAR 2023, read from a university repository copy; © the authors, no commercial re-use) adds the general hydroxychloroquine, glucocorticoid and biologic points; organ-specific extra-renal care (skin: see `cutaneous-lupus-erythematosus`; neuropsychiatric and haematological disease) is not stated here. | `out_of_scope` |
+| 6 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 7 | **Sources differ on belimumab and voclosporin:** EULAR (S2) says early add-on belimumab or a calcineurin inhibitor should be considered for all adults with active lupus nephritis; CARI (S1) notes belimumab (for lupus nephritis) and voclosporin are not available in Australia or New Zealand. Both are shown; the tacrolimus-with-mycophenolate combination is the option both name. | `observation` |
+| 8 | **S2 predates obinutuzumab** for lupus nephritis and covers lupus only; its recommended glucocorticoid starting and tapering doses are in an online supplementary table that was not read. | `input_unavailable` |
+| 9 | **S2 licence:** © the authors 2024, no commercial re-use (BMJ). The S2 claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 

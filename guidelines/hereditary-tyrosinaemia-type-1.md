@@ -1,9 +1,9 @@
 # Hereditary tyrosinaemia type 1 (HT-1): nitisinone and diet
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** confirming HT-1 after a positive newborn screen or a clinical presentation, starting and adjusting nitisinone (NTBC), the phenylalanine- and tyrosine-restricted diet with amino-acid medical foods (the PBS 'Tyrosinaemia' formula listings), acute liver failure and neurological crises, and lifelong surveillance for liver cancer, kidney, eye and neurodevelopmental problems. First steps for any suspected inborn error: `metabolic-disorders-children`. Other protein-restricted diets: `phenylketonuria`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **86 fragments or anchors re-checkable by machine; 9 doses.** **S1** US and Canadian HT-1 consensus group (Chinsky JM et al.) (2017; international): 25 claims, paraphrased, hash-anchored · **S2** Consensus group of the German-speaking countries (Germany (2025 (published online December 2024); international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **95 fragments or anchors re-checkable by machine; 9 doses.** **S1** US and Canadian HT-1 consensus group (Chinsky JM et al.) (2017; international): 26 claims, paraphrased, hash-anchored · **S2** Consensus group of the German-speaking countries (Germany (2025 (published online December 2024); international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (US and Canadian consensus group, 2017). Australian practice follows the PBS listings below and may differ.
 
@@ -23,6 +23,7 @@
 - **After a positive screen, confirm promptly with a fresh blood or urine SA,** plus liver tests (PT, aPTT, INR, transaminases), AFP, plasma amino acids, electrolytes and glucose. (Grade D) [S1]
 - **A raised SA is diagnostic; a raised AFP is not.** Normal plasma SA must be documented before a child is called negative. [S1]
 - **Send FAH gene testing to confirm, but do not wait for it before treating.** Test siblings for SA straight away, and offer genetic counselling about the 25% recurrence risk. [S1]
+- **Common FAH variants by region (S1 Table 2), useful when reading a genetic result:** c.1062+5G>A (IVS12+5G>A) at 86% in French Canada, with the next row (northern Europe, 46%) left blank for the variant and apparently continuing it; p.W262X at 80% in Finland; c.554-1G>T (IVS6-1G>T) at 64% in southern Europe; p.G337S at 58% in Norway; p.Q64H at 92% in Pakistan; and p.D233V at 94% in Turkey. The two most common in the United States are c.1062+5G>A and c.554-1G>T. [S1]
 
 ## Nitisinone (NTBC)
 
@@ -83,7 +84,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Monitoring schedules:** S1's Tables 1 and 3 (tests and intervals by age and presentation) were not extracted. A visit and laboratory schedule is now given from S2's text. | `input_unavailable` |
+| 1 | **Monitoring schedules:** S1's Tables 1 and 3 (tests and intervals by age and presentation) still could not be extracted (merged cells). A visit and laboratory schedule is given from S2's text. S1's only clean table (Table 2, FAH variants by region) is now used. | `input_unavailable` |
 | 2 | **Nitisinone dosing differs:** S1 starts at 1.0 mg/kg/day (raised to 2 mg/kg without improvement or in severe liver failure), splits doses in the first year and targets a blood level of 40–60 μmol/L; S2 starts at 1–2 mg/kg/day, titrates down, allows once-daily dosing above 20 kg and accepts levels below 20–60 μM if succinylacetone stays undetectable. Both are shown. | `observation` |
 | 3 | **Liver surveillance interval differs:** S1 notes many centres image and check AFP every 3–6 months; S2 recommends AFP and ultrasound every 6–12 months, MRI when HCC is suspected and no liver biopsy. Both are shown. | `observation` |
 | 4 | **Pregnancy and breastfeeding differ:** S1's group reached no consensus on nitisinone in pregnancy and contraindicates breastfeeding on it; S2 (2025) continues nitisinone in pregnancy and discusses breastfeeding case by case. Both are shown; S2 is newer. | `observation` |

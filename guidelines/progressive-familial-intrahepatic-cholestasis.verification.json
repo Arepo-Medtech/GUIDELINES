@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/progressive-familial-intrahepatic-cholestasis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -11,12 +11,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Cheng K, Rosenthal P (University of California San Francisco), Hepatology Communications 7(12):e0314 'Diagnosis and management of Alagille and progressive familial intrahepatic cholestasis' (published 7 December 2023), 20 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10984671). S2: PARAPHRASED AND HASH-ANCHORED from Porta G, Boldrini G, Botero V, et al. (10 paediatric hepatologists, PICO questions, systematic review and Delphi voting), Boletín Médico del Hospital Infantil de México (Eng) 83(1):32-44 (doi 10.24875/BMHIME.M25000117) 'Familial intrahepatic cholestasis: consensus recommendations for healthcare professionals in Latin America' (available online 20 April 2026), 8 claims; LICENCE: CC BY-NC-ND 4.0 (journal-wide open access licence) (read at bmhim.com 'Acceso abierto y Licencia / Open access & Licensing' page (seccion.php?id=72)). S3: PARAPHRASED AND HASH-ANCHORED from McKiernan P, Bernabeu JQ, Girard M, Indolfi G, Lurz E, Trivedi P (six European specialists), JHEP Reports 6(1):100949 (doi 10.1016/j.jhepr.2023.100949) 'Opinion paper on the diagnosis and treatment of progressive familial intrahepatic cholestasis' (published January 2024), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10772241). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2026 Latin American PFIC consensus (read in the journal's own open HTML full text; not in PMC), and S3, a 2024 European expert opinion paper that gives a treatment algorithm. The EASL Clinical Practice Guidelines on genetic cholestatic liver diseases (J Hepatol 2024) were behind a bot challenge at journal-of-hepatology.eu and not readable on easl.eu, so they were not used; the 2026 Chinese consensus is not open. S2 was sponsored by Biopas (maralixibat) and S3 by Albireo/Ipsen (odevixibat). All S1 claims are unchanged; S2 and S3 are paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Cheng K, Rosenthal P (University of California San Francisco), Hepatology Communications 7(12):e0314 'Diagnosis and management of Alagille and progressive familial intrahepatic cholestasis' (published 7 December 2023), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10984671). S2: PARAPHRASED AND HASH-ANCHORED from Porta G, Boldrini G, Botero V, et al. (10 paediatric hepatologists, PICO questions, systematic review and Delphi voting), Boletín Médico del Hospital Infantil de México (Eng) 83(1):32-44 (doi 10.24875/BMHIME.M25000117) 'Familial intrahepatic cholestasis: consensus recommendations for healthcare professionals in Latin America' (available online 20 April 2026), 8 claims; LICENCE: CC BY-NC-ND 4.0 (journal-wide open access licence) (read at bmhim.com 'Acceso abierto y Licencia / Open access & Licensing' page (seccion.php?id=72)). S3: PARAPHRASED AND HASH-ANCHORED from McKiernan P, Bernabeu JQ, Girard M, Indolfi G, Lurz E, Trivedi P (six European specialists), JHEP Reports 6(1):100949 (doi 10.1016/j.jhepr.2023.100949) 'Opinion paper on the diagnosis and treatment of progressive familial intrahepatic cholestasis' (published January 2024), 8 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10772241). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2026 Latin American PFIC consensus (read in the journal's own open HTML full text; not in PMC), and S3, a 2024 European expert opinion paper that gives a treatment algorithm. The EASL Clinical Practice Guidelines on genetic cholestatic liver diseases (J Hepatol 2024) were behind a bot challenge at journal-of-hepatology.eu and not readable on easl.eu, so they were not used; the 2026 Chinese consensus is not open. S2 was sponsored by Biopas (maralixibat) and S3 by Albireo/Ipsen (odevixibat). All S1 claims are unchanged; S2 and S3 are paraphrased and hash-anchored. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (PFIC types 1–6) and S3 Table 1 (genes and phenotypes) and Table 2 (IBAT inhibitors). S1 Table 2 and S3 Table 3 have ragged rows and were not extracted; S2 is not PMC XML.",
  "summary": {
-  "total": 34,
-  "pass": 20,
+  "total": 37,
+  "pass": 21,
   "fail": 0,
-  "pass_paraphrase_anchored": 14
+  "pass_paraphrase_anchored": 16
  },
  "claims": [
   {
@@ -60,6 +60,26 @@
    "verdict": "pass",
    "source_text": "Fat-soluble vitamin malabsorption can lead to catastrophic bleeding (vitamin K deficiency), rickets (vitamin D deficiency), and neuromuscular dysfunction (vitamin E deficiency).",
    "locator": "Cheng K, Rosenthal P (University of California San Francisco), Hepatology Communications 7(12):e0314, 'Diagnosis and management of Alagille and progressive familial intrahepatic cholestasis', published 7 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10984671/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**PFIC types in S1's table:** type 1, ATP8B1 (FIC1): low or normal GGT, with diarrhoea, growth failure, hearing loss, pancreatitis and respiratory disease. Type 2, ABCB11 (BSEP): low or normal GGT, raised AFP, HCC. Type 3, ABCB4 (MDR3): raised GGT, cholesterol gallstones. Type 4, TJP2: low or normal GGT, respiratory disease, hearing loss, neurological symptoms. Type 5, NR1H4 (FXR): low GGT, raised AFP, rapidly progressive cholestasis, coagulopathy. Type 6, MYO5B: low GGT, hepatomegaly.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[TABLE 1] Different types of PFIC [TABLE 1 row 1] Disease: Type 1 · Chromosome: 18q21-22 · Gene: ATP8B1 · Protein: Familial intrahepatic cholestasis (FIC1) · Significant lab findings: Low or normal GGT · Other findings: Diarrhea, growth failure, hearing loss, pancreatitis, respiratory disease [TABLE 1 row 2] Disease: Type 2 · Chromosome: 2q24 · Gene: ABCB11 · Protein: Bile salt export pump (BSEP) · Significant lab findings: Low or normal GGT elevated AFP · Other findings: HCC [TABLE 1 row 3] Disease: Type 3 · Chromosome: 7q21 · Gene: ABCB4 · Protein: Multi-drug resistance-associated protein 3 (MDR3) · Significant lab findings: Elevated GGT · Other findings: Cholesterol cholelithiasis [TABLE 1 row 4] Disease: Type 4 · Chromosome: 9q21 · Gene: TJP2 · Protein: Tight junction protein 2 (TJP2) · Significant lab findings: Low or normal GGT · Other findings: Respiratory disease, hearing loss, neurologic symptoms [TABLE 1 row 5] Disease: Type 5 · Chromosome: 12q23 · Gene: NR1H4 · Protein: Farnesoid X receptor (FXR) · Significant lab findings: Low GGT Elevated AFP · Other findings: Rapidly progressive cholestasis, coagulopathy [TABLE 1 row 6] Disease: Type 6 · Chromosome: 18q21.1 · Gene: MYO5B · Protein: Myosin 5B · Significant lab findings: Low GGT · Other findings: Hepatomegaly",
+   "locator": "Cheng K, Rosenthal P (University of California San Francisco), Hepatology Communications 7(12):e0314, 'Diagnosis and management of Alagille and progressive familial intrahepatic cholestasis', published 7 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10984671/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**More genes and features (S3 table):** ABCB4 (MDR3) disease presents later, in childhood or young adulthood, with high GGT, portal hypertension and low bone density; S3 links hepatocellular carcinoma or cholangiocarcinoma to TJP2 and ABCB4 as well as BSEP deficiency. FXR (NR1H4) deficiency gives normal GGT, rapid progression, a coagulopathy that vitamin K does not correct, and high ammonia. MYO5B disease adds diarrhoea, poor growth and microvillus inclusion disease with intestinal failure. Rarer genes: SLC51A (OSTα-OSTβ; high GGT, diarrhoea), USP53 (low GGT, itch, low calcium, hearing loss), KIF12 (high GGT), LSR (low GGT, itch) and WDR83OS (later childhood, microcephaly, dysmorphic face, genital anomalies).",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fde4821686480b2e",
+     "n": 3190,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "McKiernan P, Bernabeu JQ, Girard M, Indolfi G, Lurz E, Trivedi P (six European specialists), JHEP Reports 6(1):100949 (doi 10.1016/j.jhepr.2023.100949), 'Opinion paper on the diagnosis and treatment of progressive familial intrahepatic cholestasis', published January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10772241/, retrieved 2026-09-24"
   },
   {
    "claim": "**Suspect PFIC in jaundice with itch, raised transaminases, usually low GGT (raised in types 3, 6, 8 and 9) and high serum bile acids, once other causes of cholestasis are excluded.** More than 12 subtypes are now described; about 10-15% of neonatal cholestasis is PFIC, and it affects roughly one in 50,000 to one in 100,000 births.",
@@ -193,6 +213,19 @@
    "verdict": "pass",
    "source_text": "It is currently approved for pruritus in children with Alagille syndrome (12 mo and older) and all types of PFIC (3 mo and older).",
    "locator": "Cheng K, Rosenthal P (University of California San Francisco), Hepatology Communications 7(12):e0314, 'Diagnosis and management of Alagille and progressive familial intrahepatic cholestasis', published 7 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10984671/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**IBAT inhibitor approvals as S3 tabulates them:** odevixibat for PFIC (EU and US) and Alagille syndrome (US), under study in biliary atresia; maralixibat for Alagille syndrome (EU and US), with PFIC and biliary atresia listed as targets. Elobixibat (constipation, Japan), linerixibat and volixibat are not approved for cholestatic liver disease in children.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0dd8173a03ad37b7",
+     "n": 842,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "McKiernan P, Bernabeu JQ, Girard M, Indolfi G, Lurz E, Trivedi P (six European specialists), JHEP Reports 6(1):100949 (doi 10.1016/j.jhepr.2023.100949), 'Opinion paper on the diagnosis and treatment of progressive familial intrahepatic cholestasis', published January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10772241/, retrieved 2026-09-24"
   },
   {
    "claim": "In the phase 3 PEDFIC trial (PFIC1 or PFIC2), odevixibat improved pruritus by week 4, with sustained improvement, lower aminotransferases and better growth and sleep; no serious adverse events were reported.",

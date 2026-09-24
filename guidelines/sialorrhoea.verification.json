@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/sialorrhoea.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations' (published 13 December 2023), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10757066). S2: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control' (published 25 January 2017; section 1.11 prescribing notes dated September 2024), 7 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the saliva-control section of NICE NG62 (cerebral palsy in under 25s), for the anticholinergic-first treatment sequence in children and young people. A fresh Europe PMC search (2026-09-24) again found no Australian sialorrhoea guideline; the other open candidates (an Italian paediatric Delphi consensus, 2022, and Parkinson's Europe recommendations, 2023) are industry-funded expert statements that add less. The S1 claims and fragments are unchanged. The ranked source (PMC9113851, the 2022 German-language consensus, CC BY-NC-ND) was superseded by this English international update from the same expert group, which is CC BY; the update was used instead.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations' (published 13 December 2023), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10757066). S2: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control' (published 25 January 2017; section 1.11 prescribing notes dated September 2024), 7 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the saliva-control section of NICE NG62 (cerebral palsy in under 25s), for the anticholinergic-first treatment sequence in children and young people. A fresh Europe PMC search (2026-09-24) again found no Australian sialorrhoea guideline; the other open candidates (an Italian paediatric Delphi consensus, 2022, and Parkinson's Europe recommendations, 2023) are industry-funded expert statements that add less. The S1 claims and fragments are unchanged. The ranked source (PMC9113851, the 2022 German-language consensus, CC BY-NC-ND) was superseded by this English international update from the same expert group, which is CC BY; the update was used instead. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (dysphagia checklist). S1 Table 1 (paediatric weight-band doses) has merged cells and was not extracted.",
  "summary": {
-  "total": 25,
-  "pass": 18,
+  "total": 26,
+  "pass": 19,
   "fail": 0,
   "pass_paraphrase_anchored": 7
  },
@@ -51,6 +51,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Cases of suspected (micro-)aspiration, respiratory problems when eating, excessively long meals, or repeated pneumonia must be examined in detail. … As dysphagia is the most frequent cause of sialorrhea, a targeted assessment of any swallowing issues is essential before proceeding with treatment decisions. The authors recommend active questioning of the patient and/or caregiver according to the checklist provided in Table 2. Treatment of patients with pronounced dysphagia must be considered carefully, as dysphagia is also a rare side effect of BoNT/A injections",
+   "locator": "German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807, 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations', published 13 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10757066/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Ask actively about swallowing (S1 checklist).** Direct signs: trouble swallowing saliva or while eating and drinking, frequent coughing or throat-clearing during or after meals, and a gurgling ('wet') voice. Indirect signs: recurrent pneumonia or bronchitis or unexplained fever, unintended weight loss, food that 'does not go down', food left in the mouth or throat, and chest pain when eating.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 2] Dysphagia anamnesis-checklist for active questioning. [Table 2 row 1] Direct symptoms:: Swallowing salvia or while drinking and eating Frequent coughing/clearing of throat during or after eating/drinking Gurgling voice/so-called \"wet voice\" · Indirect symptoms:: Recurring pneumonia (pneumonia, recurring bronchitis, unclear fever) Unwanted weight loss Food \"does not go down\" Food residues in mouth/throat Chest pain while eating",
    "locator": "German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807, 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations', published 13 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10757066/, retrieved 2026-09-23"
   },
   {

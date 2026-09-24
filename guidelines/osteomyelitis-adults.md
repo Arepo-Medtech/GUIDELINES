@@ -1,9 +1,9 @@
 # Pyogenic osteomyelitis in adults: diagnosis, empirical cover, oral therapy and duration
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with pyogenic osteomyelitis, including vertebral, diabetic foot (DFO), osteomyelitis under pressure ulcers and prosthetic joint infection (PJI): imaging and biopsy, when to start empirical antibiotics, MRSA and Pseudomonas cover, rifampicin, oral versus IV therapy, and duration. Children: `bone-and-joint-infection-children`. Extended-course principles: `anti-infectives-general-principles`. No diabetic foot guideline exists in this compendium. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **38 fragments or anchors re-checkable by machine; 1 doses.** **S1** WikiGuidelines Group (Spellberg B et al.) (published 11 May 2022 (evidence to 1 March 2022); international): 17 claims, quoted · **S2** Commons RJ (published 9 June 2022 (adapts the 2019 IWGDF infection guideline); AU): 10 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **49 fragments or anchors re-checkable by machine; 3 doses.** **S1** WikiGuidelines Group (Spellberg B et al.) (published 11 May 2022 (evidence to 1 March 2022); international): 20 claims, quoted · **S2** Commons RJ (published 9 June 2022 (adapts the 2019 IWGDF infection guideline); AU): 10 claims, quoted
 
 > ⚠️ International consensus statement (WikiGuidelines Group, 2022). Australian practice follows the PBS listings below and may differ.
 
@@ -11,7 +11,7 @@
 
 > ⚠️ **Only 2 of 7 questions reached a clear recommendation** (oral therapy is acceptable; 6 weeks is the maximum without an implant). Everything else is a clinical review of weaker evidence, labelled as such below.
 
-> ⚠️ **Australian oral options differ.** The PBS lists cefalexin, flucloxacillin, dicloxacillin and fusidic acid for osteomyelitis. The source's specific oral drugs and doses sit in a stripped table and are not reproduced here.
+> ⚠️ **Australian oral options differ.** The PBS lists cefalexin, flucloxacillin, dicloxacillin and fusidic acid for osteomyelitis. S1's oral drugs and doses (its Table 3, now shown below) are fluoroquinolones, co-trimoxazole, clindamycin, linezolid, amoxicillin-clavulanate, rifampicin and fosfomycin; none of the four PBS-listed drugs appears in that table.
 
 ---
 
@@ -34,6 +34,8 @@
 ## Oral therapy (clear recommendation)
 
 - ✅ **Oral antibiotics are a reasonable option for any type of osteomyelitis** (haematogenous, contiguous including vertebral and diabetic foot, or prosthetic), based on 8 RCTs against IV therapy, if the patient: is clinically stable; has adequate source control with no persistent bacteraemia; can absorb from a working gut; has a published oral regimen covering the likely pathogens; and has no psychosocial barrier to safe oral treatment. [S1]
+- ⚠️ **Oral doses used in the published osteomyelitis studies (S1 Table 3):** ciprofloxacin 500–750 mg twice daily (the higher dose for Pseudomonas); levofloxacin 750 mg once daily; trimethoprim-sulfamethoxazole 7.5–10 mg/kg/day of trimethoprim in 2 or 3 doses (e.g. 2 double-strength tablets twice daily for a 70 kg adult; 2 studies used 4–6 mg/kg/day, with lower cure in 1); clindamycin 600 mg 3 times a day, or 900 mg 3 times or 600 mg 4 times a day for larger patients (450 mg 4 times a day was not favoured). [S1]
+- ⚠️ **More oral doses (S1 Table 3):** linezolid 600 mg twice daily (watch for reversible blood toxicity after 2 weeks and irreversible neurotoxicity after 4 weeks); amoxicillin-clavulanate 500 mg 3 times a day or 875 mg twice daily, specifically for diabetic foot osteomyelitis; rifampicin 600 mg once daily (900 mg once daily and 600 mg twice daily were also studied; 300 mg doses may be less desirable); fosfomycin 4–16 g a day, in formulations available outside the US. [S1]
 - **No minimum IV lead-in is needed:** switch to oral as soon as all the criteria are met, even during empirical therapy. [S1]
 
 ## Duration (clear recommendation, then clinical review)
@@ -41,6 +43,7 @@
 - ✅ **Without a retained implant, give no more than 6 weeks of antibiotics** for haematogenous or contiguous osteomyelitis (including diabetic foot), provided source control is adequate (no undrained abscess too big for antibiotics alone, possibly 2–3 cm or more). [S1]
 - **After debridement, 3 or 4 weeks may be enough** (small RCTs; confirmation needed). After confident total resection of infected bone, antibiotics can be omitted, or limited to 2 to 5 days if there is no soft-tissue infection. [S1]
 - **Prosthetic joint infection managed with debridement, antibiotics and implant retention (DAIR): 12 weeks is preferred over 6** (DATIPO trial). After prosthesis exchange, some experts prefer 12 weeks, while others see equipoise, especially when the pathogen is not S. aureus. [S1]
+- **PJI after prosthesis exchange (S1 Table 4):** 6 weeks may be reasonable for pathogens other than S. aureus, particularly after a 1-stage exchange, and may be reasonable after a 2-stage exchange, where the need for more antibiotics after reimplantation is disputed. After total resection of infected bone, the table advises not going beyond 5 days. [S1]
 - **Other infected implants (e.g. fracture fixation):** one approach is to treat until the bone has healed enough for the hardware to come out. Chronic oral suppression is an option when curative surgery is too risky, though its risks and benefits are poorly defined. [S1]
 
 ## Diabetic foot osteomyelitis (Australian guideline)
@@ -76,12 +79,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Oral drug options and doses** (Table 3; eTable 5) and **empirical regimens** (Table 2) are in stripped tables and Supplement 2, which were not used. No antibiotic dose apart from rifampicin appears here. | `input_unavailable` |
-| 2 | **Australian Therapeutic Guidelines (Antibiotic)** hold the local adult osteomyelitis regimens (typically anti-staphylococcal beta-lactams such as flucloxacillin) but are subscription-only and were not read. | `input_unavailable` |
-| 3 | **Diabetic foot osteomyelitis** is now covered by S2 (the Australian 2021 guideline, which adapts IWGDF 2019). The newer IWGDF/IDSA 2023 update was not used, and S2 predates it. No `diabetic-foot` guideline exists in this compendium. | `out_of_scope` |
-| 4 | **Sources differ on duration for diabetic foot osteomyelitis:** S1 recommends a maximum of 6 weeks for contiguous osteomyelitis including diabetic foot; the Australian panel (S2) declined to adopt IWGDF's 'no longer than 6 weeks' for that population as too heterogeneous. Both agree on 2 to 5 days after complete resection. Both are shown. | `observation` |
-| 5 | **Sources differ on plain x-rays:** S1 advises against routine plain x-rays for suspected osteomyelitis in general; S2 recommends them, with probe-to-bone and ESR, as an initial test for diabetic foot osteomyelitis. Both are shown; S2 applies to the diabetic foot only. | `observation` |
-| 6 | **Currency:** evidence is to 1 March 2022. The authors describe the guideline as open to near-real-time revision; check for a newer version. | `observation` |
+| 1 | **Oral drug doses are now covered from S1 Table 3** (pmc_text.py --append-tables, 2026-09-24). **Still missing:** empirical regimens (S1 Table 2) and diagnostic accuracy (Table 1), which have ragged rows and could not be extracted; eTable 5 and Supplement 2 (not retrieved); and S2's Tables 1 and 3 (merged cells; ragged rows). | `input_unavailable` |
+| 2 | **Rifampicin dose within S1:** its text says 450–600 mg per dose is likely better than 300 mg several times a day; its Table 3 gives 600 mg once daily, with 900 mg once daily and 600 mg twice daily also studied. Both are shown. | `observation` |
+| 3 | **Australian Therapeutic Guidelines (Antibiotic)** hold the local adult osteomyelitis regimens (typically anti-staphylococcal beta-lactams such as flucloxacillin) but are subscription-only and were not read. | `input_unavailable` |
+| 4 | **Diabetic foot osteomyelitis** is now covered by S2 (the Australian 2021 guideline, which adapts IWGDF 2019). The newer IWGDF/IDSA 2023 update was not used, and S2 predates it. No `diabetic-foot` guideline exists in this compendium. | `out_of_scope` |
+| 5 | **Sources differ on duration for diabetic foot osteomyelitis:** S1 recommends a maximum of 6 weeks for contiguous osteomyelitis including diabetic foot; the Australian panel (S2) declined to adopt IWGDF's 'no longer than 6 weeks' for that population as too heterogeneous. Both agree on 2 to 5 days after complete resection. Both are shown. | `observation` |
+| 6 | **Sources differ on plain x-rays:** S1 advises against routine plain x-rays for suspected osteomyelitis in general; S2 recommends them, with probe-to-bone and ESR, as an initial test for diabetic foot osteomyelitis. Both are shown; S2 applies to the diabetic foot only. | `observation` |
+| 7 | **Currency:** evidence is to 1 March 2022. The authors describe the guideline as open to near-real-time revision; check for a newer version. | `observation` |
 
 ## Sources
 

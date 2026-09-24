@@ -1,9 +1,9 @@
 # Bacterial keratitis: when to culture, antibiotic choice, steroids and follow-up
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** specialist diagnosis and treatment of bacterial keratitis in adults and children: who needs smears and cultures, empiric and fortified antibiotics, adjunctive corticosteroids, follow-up, reculture and contact-lens counselling. Primary-care recognition and same-day referral are in `conjunctivitis-and-eye-infections` (adults) and `acute-red-eye-children`; herpes simplex keratitis is in `herpes-simplex-keratitis`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **45 fragments or anchors re-checkable by machine; 3 doses.** **S1** American Academy of Ophthalmology PPP Cornea/External Disease Committee (Rhee MK et al.) (approved 22 September 2023; published February 2024; international): 24 claims, paraphrased, hash-anchored · **S2** Cabrera-Aguas M (published 2022; AU): 9 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **49 fragments or anchors re-checkable by machine; 4 doses.** **S1** American Academy of Ophthalmology PPP Cornea/External Disease Committee (Rhee MK et al.) (approved 22 September 2023; published February 2024; international): 24 claims, paraphrased, hash-anchored · **S2** Cabrera-Aguas M (published 2022; AU): 12 claims, quoted
 
 > ⚠️ International guideline (American Academy of Ophthalmology, 2023). Australian practice follows the PBS listings below and may differ.
 
@@ -20,6 +20,7 @@
 - **Slit-lamp picture:** a suppurative stromal infiltrate (especially one over 1 mm) with blurred edges, surrounding oedema and white-cell infiltration, usually an epithelial defect, and often an anterior-chamber reaction. [S1]
 - **Australian incidence is low by world standards:** about 6.6 per 100 000 in 2015, against 27.6 per 100 000 in the US (1999) and 40.3 in England (2006). [S2]
 - **Grade severity by size and depth:** mild is under 2 mm and less than 20% (100 μm) deep; moderate is 2–5 mm, 20%–50% (100–275 μm) deep with dense infiltrate to mid-stroma; severe is 5 mm or more, over 50% (>275 μm) deep with infiltrate reaching deep stroma. Greater severity goes with poorer outcomes. [S2]
+- **Gram-positive or gram-negative? (S2 table):** gram-positive cocci give a localised round or oval ulcer with greyish-white stromal infiltrate, distinct borders and little surrounding haze; gram-negative bacilli run a rapid, inflammatory course with dense stromal suppuration, a hazy surrounding cornea and an immune ring. [S2]
 
 ## Prevent after abrasion
 
@@ -35,6 +36,7 @@
 - **S2 prefers to culture every corneal ulcer before antibiotics start where possible,** a broader rule than S1's selective indications above. [S2]
 - **Scraping in practice (S2):** let the media (two blood agars, chocolate agar, Sabouraud's slope, cooked meat medium) warm from the fridge for 1 h; after an anaesthetic drop (lignocaine 1% in S2), scrape the infiltrate with a blade or 25-gauge needle, putting the first samples on slides for staining and then onto the media. [S2]
 - **Expect modest yields:** Gram stain shows the organism type in 60%–75% of bacterial cases, and scrapes grow an organism in 38% to 66%. For progressive disease, negative scrapes, or an organism that does not fit the picture, a corneal biopsy can be done. [S2]
+- **PCR sensitivity for bacterial keratitis is 25%–88%** (S2 table), against 60%–75% for Gram staining and 38%–66% for culture. [S2]
 
 ## Treat
 
@@ -48,6 +50,7 @@
 - ⚠️ **Australian empiric regimen (as S2 reports current Australian guidance): ciprofloxacin 0.3% or ofloxacin 0.3%, or fortified cephazolin 5% plus gentamicin 0.9%, one drop every hour including overnight.** [S2]
 - **Tailor treatment to culture and sensitivities. Be careful with fortified drops in ocular surface disease:** their toxicity has been reported as five times that of ofloxacin alone, and outcomes were poorer with fortified combinations than with ofloxacin. [S2]
 - **Fluoroquinolone resistance is lower in Australia:** the Australian Bacterial Ocular Surveillance System found ciprofloxacin resistance in 16% of S. aureus and 6% of coagulase-negative staphylococci, against 32.2% for each in the US ARMOUR data for 2009 to 2018, where 34.9% of S. aureus were MRSA. [S2]
+- **Fluoroquinolone monotherapy options (S2 table):** ofloxacin 0.3%, ciprofloxacin 0.3%, moxifloxacin 5 mg/ml or levofloxacin 15 mg/ml, chosen by local availability and surveillance data. [S2]
 
 ## Corticosteroids
 
@@ -83,7 +86,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Fortified and subconjunctival antibiotic concentrations:** S2 gives the Australian pair (cephazolin 5% plus gentamicin 0.9%). The others (vancomycin, tobramycin, ceftazidime and more) are in S1's Table 4 and Appendix 6, which flattened on extraction, and S2's Table 1 was stripped; they are not stated here. | `input_unavailable` |
+| 1 | **Fortified and subconjunctival antibiotic concentrations:** S2 gives the Australian pair (cephazolin 5% plus gentamicin 0.9%). The others (vancomycin, tobramycin, ceftazidime and more) are in S1's Table 4 and Appendix 6, which flattened on extraction; they are not stated here. S2's Table 1 is now appended row by row: it gives only the cephazolin/gentamicin pair plus the fluoroquinolone monotherapy concentrations (now above), so the other fortified concentrations remain a gap. | `input_unavailable` |
 | 2 | **Who to culture:** S1 lists specific indications and says most small community cases settle without cultures; S2 prefers culturing every ulcer before treatment where possible. Both are shown. | `observation` |
 | 3 | **Scraping anaesthetic:** S1 advises proparacaine 0.5% and avoiding tetracaine (antimicrobial effect); S2 describes lignocaine 1%. Neither source compares them for culture yield. | `observation` |
 | 4 | **Dosing frequency after the loading phase and taper schedules** are left to clinical response by the source; no fixed taper is stated. | `input_unavailable` |

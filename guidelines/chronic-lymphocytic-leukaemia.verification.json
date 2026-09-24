@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/chronic-lymphocytic-leukaemia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update' (published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503)), 23 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13458224). S2: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403) 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation' (published 2026), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13254007). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Australasian 2026 claim (S1) unchanged and adds S2, the EHA 2026 CLL and Richter transformation guideline (the successor to the ESMO CLL guideline), paraphrased because it is CC BY-NC-ND 4.0. S2 adds the iwCLL treatment indications, vaccination and immunoglobulin replacement, autoimmune cytopenias, cardiovascular work-up before BTK inhibitors and Richter transformation, which S1 does not cover. A correction notice (PMC13449934, CC BY 4.0) changed only Figure 1 and a figure attribution; figures were not extracted, so no claim is affected.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update' (published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503)), 23 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13458224). S2: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403) 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation' (published 2026), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13254007). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Australasian 2026 claim (S1) unchanged and adds S2, the EHA 2026 CLL and Richter transformation guideline (the successor to the ESMO CLL guideline), paraphrased because it is CC BY-NC-ND 4.0. S2 adds the iwCLL treatment indications, vaccination and immunoglobulin replacement, autoimmune cytopenias, cardiovascular work-up before BTK inhibitors and Richter transformation, which S1 does not cover. A correction notice (PMC13449934, CC BY 4.0) changed only Figure 1 and a figure attribution; figures were not extracted, so no claim is affected. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2's graded recommendation boxes (levels of evidence and grades) and its pretherapy-testing table added; S2's CLL/SLL/MBL definitions, Binet/Rai staging and four recommendation boxes have ragged rows and were not extracted. S1 has no tables.",
  "summary": {
-  "total": 35,
+  "total": 46,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 35
+  "pass_paraphrase_anchored": 46
  },
  "claims": [
   {
@@ -78,6 +78,34 @@
    "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Grade for the start-treatment rule (S2 recommendation box):** begin therapy only once iwCLL criteria are fulfilled (I, A). The source adds that this was properly tested only before first-line treatment, with very limited evidence at relapse.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6aea21f04e5d92eb",
+     "n": 135,
+     "p": "[a row 1"
+    },
+    {
+     "h": "c07dc6c969eb67c5",
+     "n": 113,
+     "p": "[a row 2"
+    },
+    {
+     "h": "f57e6ce899fa30df",
+     "n": 117,
+     "p": "[a row 3"
+    },
+    {
+     "h": "4d04b1457dd3d856",
+     "n": 144,
+     "p": "[a footn"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Before first-line treatment, test the blood for IGHV mutation status and run NGS plus FISH or microarray.** (II, A)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -107,6 +135,115 @@
     }
    ],
    "locator": "Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal, 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update', published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503), https://pmc.ncbi.nlm.nih.gov/articles/PMC13458224/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Graded genetics before treatment (S2):** find IGHV somatic hypermutation status by ERIC methods, once, before first-line therapy, since it does not change (II, B); test for TP53 aberrations, both del(17p) by FISH and TP53 mutation by NGS, before every line (II, B); do not assess complex karyotype outside trials, because it is poorly reproducible (III, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d200c34fe5a0e801",
+     "n": 210,
+     "p": "[Table 4"
+    },
+    {
+     "h": "676ce5eaee97418f",
+     "n": 192,
+     "p": "[Table 4"
+    },
+    {
+     "h": "fe2caefe9f1450c4",
+     "n": 174,
+     "p": "[Table 4"
+    },
+    {
+     "h": "fb840c6a488a0f92",
+     "n": 179,
+     "p": "[Table 4"
+    },
+    {
+     "h": "996d18645a0d28c9",
+     "n": 253,
+     "p": "[Table 5"
+    },
+    {
+     "h": "1d34995ead4bf752",
+     "n": 235,
+     "p": "[Table 5"
+    },
+    {
+     "h": "b6cd5c75bad097e7",
+     "n": 216,
+     "p": "[Table 5"
+    },
+    {
+     "h": "eec49f9737231752",
+     "n": 221,
+     "p": "[Table 5"
+    },
+    {
+     "h": "10782143cbdb2fc5",
+     "n": 212,
+     "p": "[Table 6"
+    },
+    {
+     "h": "15e11533bec32c00",
+     "n": 194,
+     "p": "[Table 6"
+    },
+    {
+     "h": "6daf07d416f38d76",
+     "n": 176,
+     "p": "[Table 6"
+    },
+    {
+     "h": "7fb43296471032ba",
+     "n": 180,
+     "p": "[Table 6"
+    },
+    {
+     "h": "4e00d96d7f0d2c52",
+     "n": 356,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pre-treatment checklist (S2 table):** ask about B symptoms, past infections and vaccines, heart, liver and kidney disease, and anticoagulant, antiplatelet or interacting drugs; record ECOG status, node, spleen and liver size and a full examination; check blood count with differential, direct antiglobulin test, renal and liver function, LDH, urate, β2-microglobulin, IgA/IgG/IgM, and hepatitis B, hepatitis C and HIV serology. Marrow biopsy is for severe or unexplained cytopenia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c2aadec5f87834c9",
+     "n": 546,
+     "p": "[Table 4"
+    },
+    {
+     "h": "f045dc4d55c10984",
+     "n": 811,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Before any BTK inhibitor (S2 table):** ECG, cardiac history and a cardiovascular risk assessment for everyone; refer to a cardiologist if there is past heart disease or uncontrolled cardiac comorbidity. Imaging is needed only in particular situations, such as CT from neck to pelvis to judge tumour lysis risk when venetoclax is planned.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a58bf8a9f0e131d",
+     "n": 648,
+     "p": "[Table 4"
+    },
+    {
+     "h": "c6b437837dc46b79",
+     "n": 638,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Do not use chemoimmunotherapy routinely in first-line CLL, even with mutated IGHV.** (I, A) Its DNA-damage toxicity includes therapy-related myeloid neoplasms (6.3% after FCR); keep it for rare cases where no targeted drug can be obtained.",
@@ -341,6 +478,97 @@
    "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Graded first-line choices (S2):** chemoimmunotherapy is no longer recommended, as bendamustine-rituximab and chlorambucil-obinutuzumab are inferior to targeted drugs and FCR brings more harm, including myeloid neoplasms (I, A). Without TP53 aberrations, prefer a time-limited targeted regimen to continuous therapy (I, A); pick the combination by disease biology, drug side effects, comorbidity, co-medication, infection history and convenience, and avoid continuous therapy when IGHV is mutated (II, A).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ff85d2b1169ae4ee",
+     "n": 297,
+     "p": "[Table 1"
+    },
+    {
+     "h": "df324ba0641c5ff3",
+     "n": 290,
+     "p": "[Table 1"
+    },
+    {
+     "h": "9593368c14ae8193",
+     "n": 296,
+     "p": "[Table 1"
+    },
+    {
+     "h": "31570df0ec89c9aa",
+     "n": 197,
+     "p": "[Table 1"
+    },
+    {
+     "h": "1974ad62b95dedfe",
+     "n": 190,
+     "p": "[Table 1"
+    },
+    {
+     "h": "7db2c776b3aeb43f",
+     "n": 196,
+     "p": "[Table 1"
+    },
+    {
+     "h": "5ad9167b4d6f5765",
+     "n": 422,
+     "p": "[Table 2"
+    },
+    {
+     "h": "5b34f9f172994999",
+     "n": 416,
+     "p": "[Table 2"
+    },
+    {
+     "h": "8809e503e02dff1b",
+     "n": 421,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**With TP53 disruption (S2):** continuous therapy is suggested over a fixed course unless shared decision-making favours a fixed course (I, A); triplets may lengthen treatment-free intervals compared with doublets for those who can bear the added infection risk (III, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "03351046326652d0",
+     "n": 215,
+     "p": "[Table 2"
+    },
+    {
+     "h": "a52c1fe005055d0f",
+     "n": 187,
+     "p": "[Table 2"
+    },
+    {
+     "h": "75058015ad3e3602",
+     "n": 193,
+     "p": "[Table 2"
+    },
+    {
+     "h": "05e095806faef129",
+     "n": 278,
+     "p": "[Table 2"
+    },
+    {
+     "h": "c51f61ca5be79957",
+     "n": 177,
+     "p": "[Table 2"
+    },
+    {
+     "h": "e4e01f71f556fc57",
+     "n": 181,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Venetoclax on its own is an acceptable first-line option** but is not preferred when other targeted drugs or combinations can be given, because supporting data are thin.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -503,6 +731,97 @@
    "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Graded relapse choices (S2):** after chemoimmunotherapy, fixed-duration venetoclax with an anti-CD20 antibody or a continuous second-generation covalent BTK inhibitor suits most patients (I, A). Intolerant of ibrutinib: offer acalabrutinib, zanubrutinib or a venetoclax regimen; intolerant of acalabrutinib or zanubrutinib: the other second-generation drug may be tried (II, B). Progressing on a covalent BTK inhibitor: venetoclax-based therapy or a non-covalent BTK inhibitor (II, B). Relapse after fixed-duration venetoclax: a covalent BTK inhibitor or venetoclax again, guided by prior response and time off treatment (IV, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "58e21ac614f20614",
+     "n": 295,
+     "p": "[Table 2"
+    },
+    {
+     "h": "2f717b1d5b3b2c79",
+     "n": 245,
+     "p": "[Table 2"
+    },
+    {
+     "h": "dd638a28ad89a78a",
+     "n": 251,
+     "p": "[Table 2"
+    },
+    {
+     "h": "a860c4dc5563ccf6",
+     "n": 351,
+     "p": "[Table 2"
+    },
+    {
+     "h": "d0bd34d4ffeaaa56",
+     "n": 301,
+     "p": "[Table 2"
+    },
+    {
+     "h": "5d6f8b43094ce30c",
+     "n": 306,
+     "p": "[Table 2"
+    },
+    {
+     "h": "21a3fe6a475cf697",
+     "n": 280,
+     "p": "[Table 2"
+    },
+    {
+     "h": "d393d7586b6d470d",
+     "n": 215,
+     "p": "[Table 2"
+    },
+    {
+     "h": "74e85e6b889624a2",
+     "n": 220,
+     "p": "[Table 2"
+    },
+    {
+     "h": "f787e09c06759fbd",
+     "n": 385,
+     "p": "[Table 2"
+    },
+    {
+     "h": "b14f669f7e78aefb",
+     "n": 301,
+     "p": "[Table 2"
+    },
+    {
+     "h": "e92a9c1238d68ffd",
+     "n": 306,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Double-refractory disease (S2):** keep the current therapy going until the next line is ready, to avoid a flare of disease (III, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c89133da1aca6b48",
+     "n": 260,
+     "p": "[Table 2"
+    },
+    {
+     "h": "c3dd039d6d5a640b",
+     "n": 212,
+     "p": "[Table 2"
+    },
+    {
+     "h": "ef0148da597c3a06",
+     "n": 216,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Allogeneic transplant is the only proven cure.** Consider it for young, fit patients once their second targeted regimen has started, especially with adverse genetics (II, B), and for young patients with Richter transformation.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -585,6 +904,74 @@
    "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
   },
   {
+   "claim": "**Graded Richter recommendations (S2):** check whether DLBCL in a patient with CLL is clonally related, because unrelated DLBCL follows DLBCL guidelines (III, B); offer a clinical trial wherever possible (II, A); outside trials chemoimmunotherapy is the standard (III, C); fit patients with clonally related Richter DLBCL in remission should be offered an allograft as consolidation if a donor exists (III, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7b239274d2a4b54",
+     "n": 264,
+     "p": "[Table 3"
+    },
+    {
+     "h": "adb020bb2213cd26",
+     "n": 204,
+     "p": "[Table 3"
+    },
+    {
+     "h": "a1a4c6bfe2291287",
+     "n": 208,
+     "p": "[Table 3"
+    },
+    {
+     "h": "d24ec8149d48e1ec",
+     "n": 168,
+     "p": "[Table 3"
+    },
+    {
+     "h": "9783a2024853d7ec",
+     "n": 148,
+     "p": "[Table 3"
+    },
+    {
+     "h": "9286a66de151444d",
+     "n": 153,
+     "p": "[Table 3"
+    },
+    {
+     "h": "c6d156b359e6eb2c",
+     "n": 145,
+     "p": "[Table 3"
+    },
+    {
+     "h": "1006d33ee0f865ac",
+     "n": 126,
+     "p": "[Table 3"
+    },
+    {
+     "h": "551c1525e777f084",
+     "n": 130,
+     "p": "[Table 3"
+    },
+    {
+     "h": "05a218c1f2206aca",
+     "n": 223,
+     "p": "[Table 3"
+    },
+    {
+     "h": "301e5007de08ce0c",
+     "n": 204,
+     "p": "[Table 3"
+    },
+    {
+     "h": "ce15513439907506",
+     "n": 208,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Infection prevention during watch-and-wait (S2):** pneumococcal conjugate vaccine 20-valent at diagnosis, then the polysaccharide vaccine (PPV23) at least 2 months later, repeated every 5 years; recombinant zoster vaccine (no live vaccines, including the old live zoster vaccine); influenza and SARS-CoV-2 per national schedules. Give immunoglobulin replacement for recurrent or acute infections with IgG below 4 g/L, preferably subcutaneous.",
    "source": "S2",
    "verdict": "pass_paraphrase_anchored",
@@ -641,6 +1028,127 @@
      "h": "f1f89789a0eb8794",
      "n": 98,
      "p": "However,"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Graded infection measures (S2):** vaccinate against pneumococcus, varicella zoster and hepatitis B even during watch-and-wait and even if the response may be poor (III, B); repeat influenza and SARS-CoV-2 vaccines each season (III, B); never give live vaccines (III, B); routine antimicrobial prophylaxis is generally not advised (IV, D); immunoglobulin replacement only for recurrent symptomatic or active infections needing hospital care together with laboratory-proven hypogammaglobulinaemia (II, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b01f5e4397901ce",
+     "n": 210,
+     "p": "[Table 1"
+    },
+    {
+     "h": "150d8a28beddbefd",
+     "n": 133,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d1a521b5da7bb51d",
+     "n": 137,
+     "p": "[Table 1"
+    },
+    {
+     "h": "95a71b49279c2e3f",
+     "n": 207,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a448527f4d7d8273",
+     "n": 130,
+     "p": "[Table 1"
+    },
+    {
+     "h": "08e8bcfbdd43b9be",
+     "n": 134,
+     "p": "[Table 1"
+    },
+    {
+     "h": "3e4293bffcb92e7c",
+     "n": 95,
+     "p": "[Table 1"
+    },
+    {
+     "h": "488b8236cbdf6157",
+     "n": 90,
+     "p": "[Table 1"
+    },
+    {
+     "h": "8bd025cbd976d841",
+     "n": 94,
+     "p": "[Table 1"
+    },
+    {
+     "h": "4d2d22779015db17",
+     "n": 117,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d6165273ae965d80",
+     "n": 111,
+     "p": "[Table 1"
+    },
+    {
+     "h": "99e198aec582b70e",
+     "n": 116,
+     "p": "[Table 1"
+    },
+    {
+     "h": "c1647a974e98e7be",
+     "n": 330,
+     "p": "[Table 1"
+    },
+    {
+     "h": "502d1c412967e07b",
+     "n": 218,
+     "p": "[Table 1"
+    },
+    {
+     "h": "cb03c05defc67a62",
+     "n": 223,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Survivorship (S2):** tell every patient about cancer screening programmes and encourage them to take part (III, B); vitamin D and other supplements need not be routinely prescribed, as any benefit against progression is unproven (III, C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e644f64b1c6da9ab",
+     "n": 196,
+     "p": "[Table 1"
+    },
+    {
+     "h": "60c64f06f51f734a",
+     "n": 191,
+     "p": "[Table 1"
+    },
+    {
+     "h": "73bd2afaa7f28d05",
+     "n": 195,
+     "p": "[Table 1"
+    },
+    {
+     "h": "d223b697d63aed00",
+     "n": 227,
+     "p": "[Table 1"
+    },
+    {
+     "h": "00845b7c8a87a3ef",
+     "n": 222,
+     "p": "[Table 1"
+    },
+    {
+     "h": "db9b4e5c18476f65",
+     "n": 226,
+     "p": "[Table 1"
     }
    ],
    "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"

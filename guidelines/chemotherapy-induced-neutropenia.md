@@ -1,9 +1,9 @@
 # Chemotherapy-induced neutropenia — G-CSF prophylaxis in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** defining febrile neutropenia, assessing its risk, and choosing, timing and managing short- and long-acting G-CSF (filgrastim, pegfilgrastim, biosimilars) for primary and secondary prophylaxis in adults on myelosuppressive chemotherapy. Not covered: treating febrile neutropenia once it occurs (see `anticancer-drugs-general-principles`; children: `febrile-neutropenia-children`), and chronic or congenital neutropenia (`chronic-and-congenital-neutropenia`). PBS access (filgrastim, pegfilgrastim, lipegfilgrastim) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **49 fragments or anchors re-checkable by machine; 1 doses.** **S1** Italian medical oncology expert panel (Adamo V (published 5 November 2022; international): 18 claims, quoted · **S2** International expert panel (Aapro M (published 25 August 2017; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **55 fragments or anchors re-checkable by machine; 1 doses.** **S1** Italian medical oncology expert panel (Adamo V (published 5 November 2022; international): 18 claims, quoted · **S2** International expert panel (Aapro M (published 25 August 2017; international): 13 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Italian oncology Delphi consensus, 2022). Australian practice follows the PBS listings below and may differ.
 
@@ -22,6 +22,7 @@
 ## Assess the risk
 
 - **Assess FN risk at the start of every chemotherapy cycle,** and fit the regimen to the patient's characteristics and treatment goals. [S1]
+- **Patient factors S2 lists as raising FN risk** (taken from the German G-CSF guideline group; the risk is greatest when several combine): being older than 65; poor performance status on the Karnofsky or ECOG scale; comorbid COPD, NYHA III–IV heart failure, HIV, autoimmune disease or marked kidney impairment; advanced symptomatic cancer; previous chemotherapy; and abnormal blood tests such as anaemia, lymphocytes under 700 cells/μl or high bilirubin (plus an albumin abnormality the table prints as hyperalbuminuria). [S2]
 - **Adding immunotherapy to chemotherapy does not raise FN risk,** so use the same criteria as for chemotherapy alone. [S1]
 - **Check nutritional status before chemotherapy:** poor nutrition raises marrow toxicity. Neutropenic diets do not reduce FN. [S1]
 
@@ -77,11 +78,11 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The 38 consensus statements with vote percentages** are in Tables 1–6, which were stripped. | `input_unavailable` |
+| 1 | **The 38 consensus statements with vote percentages** are in S1's Tables 1–6, which are images only (no table markup), and Table 7 has merged cells; none could be extracted, so they are still missing. | `input_unavailable` |
 | 2 | **Secondary prophylaxis after a previous FN episode:** S1's sentence on this is internally inconsistent (it appears to say guidelines do not recommend it), so it was not used. S2 states that G-CSF is recommended for secondary prophylaxis, and ASCO/ESMO recommend it where dose reduction would compromise outcome. | `observation` |
 | 3 | **Low-risk regimens: the sources differ.** S1 does not recommend primary prophylaxis below 10% regimen risk; S2 says to give G-CSF even below 10% when patient or disease factors raise the overall risk of complications to 20% or more. Both are shown. | `observation` |
 | 4 | **Bone pain: the sources differ.** S1 lists G-CSF dose reduction as a second-line option; S2 recommends against reducing the pegfilgrastim dose and suggests switching agent instead. Both are shown. | `observation` |
-| 5 | **S2's risk-factor list (Table 3) and FN-incidence figure** were stripped. S2 is from 2017 and predates the S1 Delphi; its advisory board was Sandoz-funded, and many authors consulted for Sandoz. | `observation` |
+| 5 | **S2's risk-factor list (Table 3)** is now covered from its table rows (Assess the risk); its FN-incidence figure is still missing. S2 is from 2017 and predates the S1 Delphi; its advisory board was Sandoz-funded, and many authors consulted for Sandoz. | `observation` |
 | 6 | **Australian practice:** the source cites a survey in which most MOGA and eviQ reference committee oncologists did not follow eviQ dose-modification rules, finding them too conservative. eviQ G-CSF guidance itself (CC BY-NC-ND) was not used. | `observation` |
 | 7 | **ESMO 2016 febrile neutropaenia guideline** (Ann Oncol, free to read) was skipped: the publisher site returned a bot challenge. AGIHO 2026 and ASCO 2026 were blocked in Wave 4. | `observation` |
 | 8 | **Licence:** CC BY 4.0. Fragments are quoted and machine re-checkable. | `observation` |

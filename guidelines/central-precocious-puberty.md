@@ -1,9 +1,9 @@
 # Central precocious puberty
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** children with suspected or confirmed central (gonadotropin-dependent) precocious puberty: who to watch, diagnostic tests and brain MRI, when to treat, GnRH agonist therapy, adverse effects, monitoring, stopping and long-term outcomes. Growth hormone deficiency with precocious puberty (PBS somatropin): `growth-hormone-therapy-children`. Delayed puberty and pubertal induction: `disorders-of-puberty`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **77 fragments or anchors re-checkable by machine; 4 doses.** **S1** Korean Society of Pediatric Endocrinology (Kim SJ et al.) (published 19 September 2023; international): 24 claims, paraphrased, hash-anchored · **S2** Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M (published online 23 June 2020; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **78 fragments or anchors re-checkable by machine; 4 doses.** **S1** Korean Society of Pediatric Endocrinology (Kim SJ et al.) (published 19 September 2023; international): 25 claims, paraphrased, hash-anchored · **S2** Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M (published online 23 June 2020; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **S2 is a national society guideline from Mexico (2020, Spanish, older than 5 years),** used mainly for GnRH agonist doses and monitoring. Its brand names are Mexican; Australian products and doses follow the PBS listing and product information. Where S1 and S2 differ, both are shown.
 
@@ -65,6 +65,10 @@
 - **After stopping, follow the child until adult height is reached and gonadal function has returned** (menarche in girls). [S1]
 - **Long-term outcomes are reassuring (strong):** GnRH agonist treatment does not impair fertility, raise PCOS risk, or harm metabolic, bone or mental health, so routine long-term surveillance for these is not recommended. [S1]
 
+## How to read S1's grades
+
+- **What S1's grades mean:** a strong 'do' applies to most patients, and a strong 'do not' means most patients should not receive it; a conditional grade means selective use after weighing benefit, harm, cost and the patient's preference, and a conditional 'do not' still allows limited, careful use. [S1]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -81,7 +85,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **GnRH agonist doses:** S1's Korean product table (Table 3) was stripped; S2's Mexican Table 1 now gives leuprorelin and triptorelin depot doses and suppression rates. Brand names and availability differ in Australia; check the PBS listing and product information. | `input_unavailable` |
+| 1 | **GnRH agonist doses:** S1's Korean product table (Table 3) has merged cells and was not extracted by the 2026-09-24 table pass, so it is still a gap; S2's Mexican Table 1 now gives leuprorelin and triptorelin depot doses and suppression rates. Brand names and availability differ in Australia; check the PBS listing and product information. | `input_unavailable` |
 | 2 | **Endocrine Society 2026 CPP guideline** (JCEM) is paywalled and was not used; the 2019 international consortium update (Karger) returned 403. | `observation` |
 | 3 | **Retried 2026-09-24:** the 2019 consortium update (doi 10.1159/000501336) is behind a Karger bot challenge and the Endocrine Society 2026 guideline has no open copy; neither was used. | `observation` |
 | 4 | **Sources differ on whom to treat:** S1 treats rapidly progressive puberty and defines precocious puberty as onset before 8 (girls) or 9 (boys); S2 recommends treating CPP assessed before 7 (girls) or 8 (boys) and treating later only for height or psychosocial reasons. Both are shown. | `observation` |

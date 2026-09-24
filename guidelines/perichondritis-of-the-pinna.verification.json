@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/perichondritis-of-the-pinna.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409) 'Auricular Perichondritis in the Cartilage Piercing Era' (2025), 15 claims; LICENCE: CC BY-NC 4.0 (read at NCBI efetch JATS XML <license> element for PMC12706554 (Europe PMC fullTextXML returned no body)). S2: PARAPHRASED AND HASH-ANCHORED from Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522) 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study' (published 31 January 2024), 11 claims; LICENCE: © 2024 Zhang et al.; published and licensed by Dove Medical Press under CC BY-NC 3.0 (unported) and the Dove terms (https://www.dovepress.com/terms.php) (read at Europe PMC fullTextXML <license> element for PMC10838494). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a single-centre retrospective study of 127 inpatients with refractory auricular perichondritis in eastern China (Zhang et al. 2024, CC BY-NC 3.0), for causes, culture yield, fungal infection and antibiotic susceptibility. S1's claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Ungar OJ, Bursztyn N, Shilo S, et al., The Laryngoscope 135(12):4693-4702 (doi 10.1002/lary.32409) 'Auricular Perichondritis in the Cartilage Piercing Era' (2025), 15 claims; LICENCE: CC BY-NC 4.0 (read at NCBI efetch JATS XML <license> element for PMC12706554 (Europe PMC fullTextXML returned no body)). S2: PARAPHRASED AND HASH-ANCHORED from Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522) 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study' (published 31 January 2024), 12 claims; LICENCE: © 2024 Zhang et al.; published and licensed by Dove Medical Press under CC BY-NC 3.0 (unported) and the Dove terms (https://www.dovepress.com/terms.php) (read at Europe PMC fullTextXML <license> element for PMC10838494). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a single-centre retrospective study of 127 inpatients with refractory auricular perichondritis in eastern China (Zhang et al. 2024, CC BY-NC 3.0), for causes, culture yield, fungal infection and antibiotic susceptibility. S1's claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 2 (isolates by cause). S1 Tables 1–4 and S2 Tables 1, 3 and 4 have merged cells or ragged rows and were not extracted.",
  "summary": {
-  "total": 26,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 26
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -261,6 +261,19 @@
      "h": "a14aff828e3cb4f9",
      "n": 98,
      "p": "In cases"
+    }
+   ],
+   "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Isolates by cause in S2 (61 in all):** gram-negative bacteria 55.7%, nearly all *P. aeruginosa*; gram-positive 21.3% (coagulase-negative staphylococci 8.2%, *S. aureus* 4.9%, viridans streptococci and *S. pyogenes* 3.3% each); fungi 23.0% (*Aspergillus* 18.0%, *Candida* 4.9%). After surgery (24 isolates): *P. aeruginosa* 45.8%, *Aspergillus* 29.2% and *Candida* 12.5%. After trauma (14 isolates): *P. aeruginosa* 64.3% and coagulase-negative staphylococci 21.4%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c638ca5e7ab4dec6",
+     "n": 2789,
+     "p": "[Table 2"
     }
    ],
    "locator": "Zhang, Zhang, Pu, et al., Infection and Drug Resistance 17:377-386 (doi 10.2147/IDR.S434522), 'Etiology, Microbiological Isolates, and Antibiotic Susceptibilities in Inpatients with Refractory Auricular Perichondritis: A 10-Year Retrospective Study', published 31 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10838494/, retrieved 2026-09-24"

@@ -1,9 +1,9 @@
 # Chronic graft-versus-host disease (cGVHD)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** chronic GVHD after allogeneic haematopoietic stem cell transplant: classification, risk factors, NIH diagnosis and global severity, first-line corticosteroids, steroid-refractory and steroid-dependent disease, second-line ruxolitinib and other agents, organ-specific supportive care and patient education. Acute GVHD: see `graft-versus-host-disease-acute`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **45 fragments or anchors re-checkable by machine; 6 doses.** **S1** eviQ Cancer Treatments Online (first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026; AU): 20 claims, paraphrased, hash-anchored · **S2** Cell Therapy Transplant Canada (Kim DDH (published 8 March 2024; international): 10 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **69 fragments or anchors re-checkable by machine; 7 doses.** **S1** eviQ Cancer Treatments Online (first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026; AU): 20 claims, paraphrased, hash-anchored · **S2** Cell Therapy Transplant Canada (Kim DDH (published 8 March 2024; international): 17 claims, quoted
 
 > ⚠️ **Specialist territory.** Chronic GVHD is managed by the transplant team with organ specialists; these points support, not replace, that care.
 
@@ -27,6 +27,13 @@
 - **Whenever chronic GVHD is suspected, do lung function tests** (lung involvement is often silent; test bronchodilator response to exclude asthma). **Ask directly about genital symptoms, arrange a gynaecology review around day 100**, and measure immunoglobulins around day 100 (high levels suggest B-cell-driven disease; low levels raise infection risk). [S2]
 - **Screen and monitor newly diagnosed patients for atypical chronic GVHD**, which can affect the central and peripheral nervous system, lungs, serous membranes, kidney and muscles or joints, or cause immune cytopenias, and can appear before or without NIH-defined features. [S2]
 
+## Organ scores and response (S2 Tables 3 and 5)
+
+- **NIH organ scores (0–3), skin, gut and liver:** skin by body surface area (1–18% scores 1, 19–50% scores 2, over 50% scores 3; deep sclerosis scores 3); gut by weight loss (under 5% scores 1, 5–15% or moderate diarrhoea 2, over 15%, nutritional support or severe diarrhoea 3); liver: ALT 3–5×ULN or AP 3×ULN or more with normal bilirubin scores 1, bilirubin raised but 3 mg/dL or less, or ALT over 5×ULN, 2, bilirubin over 3 mg/dL 3. [S2]
+- ⚠️ **NIH lung score by FEV1:** 80% or more scores 0, 60–79% scores 1, 40–59% scores 2, and 39% or less scores 3. The symptom score runs from breathless after one flight of stairs (1) to on flat ground (2) to at rest (3). [S2]
+- **NIH 2014 response:** complete response is resolution in every organ or site; partial response is an improvement beyond measurement error, of at least one point on a 4–7-point scale or two points on a 10–12-point scale; a mixed response is a complete or partial response in one organ with progression in another. [S2]
+- **NIH 2014 progression:** a worsening of one point or more on the 0 to 3 organ scale (for skin, eye, oesophagus and gut a change from 0 to 1 is trivial, but for joints and fascia it counts); for the liver, a rise of two or more times the ULN in ALT, AP or bilirubin; for the lung, an absolute FEV1 fall of 10% predicted or more. [S2]
+
 ## First-line treatment
 
 - **Treatment depends on which organs are involved, how severe it is, the prophylaxis used and earlier acute GVHD treatment**, and must be weighed against the graft-versus-tumour effect. Care works best in a multidisciplinary team of transplant, organ-specialist, nursing and allied health staff. [S1]
@@ -46,6 +53,9 @@
 - **Before switching treatment for progression or non-response in one organ, re-screen other organs for active GVHD** (repeat lung function tests and/or patient-reported scores). Beyond second line there is no standard; choose by organs involved, severity, side effects, interactions, logistics and funding. [S2]
 - **Third line and beyond (CTTC):** belumosudil (a ROCK2 inhibitor; notably for sclerotic or mild-to-moderate lung GVHD), ibrutinib (a real-world study found only 9% failure-free survival at two years), extracorporeal photopheresis (steroid-sparing, useful in sclerotic GVHD, but may need several months), sirolimus, mycophenolate and rituximab. [S2]
 - **Match the drug to the organ:** ruxolitinib has little evidence in atypical manifestations (immune cytopenias, kidney or nerve involvement), where agents such as rituximab may be preferable; cyclophosphamide has been used for kidney GVHD presenting as nephrotic syndrome. ⚠️ CTTC notes a concern that azithromycin in the FAM regimen may raise relapse risk. [S2]
+- ⚠️ **Doses in the pivotal steroid-refractory trials (S2 Table 7):** ruxolitinib 10 mg twice daily (phase 3, 165 patients; best overall response 76%, failure-free survival 62% at 12 months); belumosudil 200 mg once or twice daily (phase 2; 74–77%, failure-free survival 56% at 12 months); ibrutinib 420 mg once daily (phase 1b/2, 42 patients; 67%). [S2]
+- ⚠️ **Toxicities to watch (S2 Table 6):** ruxolitinib, viral reactivation or infection, cytopenias and peripheral neuropathy; ibrutinib, pneumonia and impaired platelet function; belumosudil, pneumonia, hypertension, hyperglycaemia and a rising GGT. [S2]
+- **Other steroid-refractory options and their reported response (S2 Table 6; small, mostly phase 2 studies):** extracorporeal photopheresis 67% (best in skin, liver, mouth and BOS; vascular-access complications); sirolimus 81% (thrombotic microangiopathy, renal impairment, proteinuria); imatinib 79% (fluid retention, myelosuppression); rituximab 65% (infections, infusion reactions, late neutropenia). [S2]
 
 ## Supportive care by organ
 
@@ -76,7 +86,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Methoxsalen** (on the PBS 'Chronic graft versus host disease' row) is the photosensitiser used in extracorporeal photopheresis; the source lists photopheresis as a second-line option but gives no protocol or dose. | `input_unavailable` |
-| 2 | **Full NIH organ features and organ scoring** (skin, nails, hair, GI, liver, joints) are in tables and a separate eviQ organ-scoring chart (ID 4272); only the mouth, eye and lung features are summarised here. | `observation` |
+| 2 | **Full NIH organ features** (skin, nails, hair, GI, liver, joints) are in S1's tables and a separate eviQ organ-scoring chart (ID 4272); only the mouth, eye and lung features are summarised here. **Organ scoring** (skin, gut, liver, lung) and the NIH response criteria are now on the page from S2 Tables 3 and 5. S2 Table 1 (merged cells) was not extracted, and S2 Table 2 (atypical manifestations) is not used because its two-column layout scrambles the category labels. | `observation` |
 | 3 | **Ruxolitinib detail:** the source defers to the product information and the ANZTCT consensus position statement on ruxolitinib in steroid-refractory GVHD; that statement's licence could not be confirmed, so it was not used. | `observation` |
 | 4 | **Currency:** last reviewed 23 October 2024; review due 31 December 2026. | `time_sensitive` |
 | 5 | **Starting steroid dose differs:** S1 gives prednisolone usually 1 mg/kg/day; S2 gives 0.5 to 1 mg/kg/day. Both are shown. | `observation` |

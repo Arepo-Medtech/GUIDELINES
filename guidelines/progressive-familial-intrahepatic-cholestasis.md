@@ -1,9 +1,9 @@
 # Progressive familial intrahepatic cholestasis (PFIC)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** children and adults with PFIC types 1–6 and benign recurrent intrahepatic cholestasis (BRIC): recognition by subtype, nutrition, pruritus treatment including ileal bile acid transporter (IBAT) inhibitors, cancer surveillance, biliary diversion and liver transplant. Alagille syndrome is in the source but not summarised here. Adult cholestatic disease: see `primary-biliary-cholangitis`.
 
-> ✅ **COMPILED FROM 3 SOURCES.** 34 claims; **54 fragments or anchors re-checkable by machine; 3 doses.** **S1** Cheng K (published 7 December 2023; international): 20 claims, quoted · **S2** Porta G (available online 20 April 2026; international): 8 claims, paraphrased, hash-anchored · **S3** McKiernan P (published January 2024; international): 6 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 3 SOURCES.** 37 claims; **57 fragments or anchors re-checkable by machine; 3 doses.** **S1** Cheng K (published 7 December 2023; international): 21 claims, quoted · **S2** Porta G (available online 20 April 2026; international): 8 claims, paraphrased, hash-anchored · **S3** McKiernan P (published January 2024; international): 8 claims, paraphrased, hash-anchored
 
 > ⚠️ International sources (S1: Hepatology Communications, 2023; S2: Latin American consensus, 2026; S3: European expert opinion, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -21,6 +21,8 @@
 - **PFIC1 (ATP8B1)** starts in infancy and typically progresses to cirrhosis by the second decade, with extrahepatic features (pancreatitis, diarrhoea, sensorineural hearing loss) that can persist or worsen after liver transplant. [S1]
 - **PFIC2 (ABCB11/BSEP)** is the most common form, usually presenting in the neonatal period; without treatment it progresses rapidly to cirrhosis. [S1]
 - ⚠️ **Fat-soluble vitamin malabsorption can cause catastrophic bleeding (vitamin K), rickets (vitamin D) and neuromuscular dysfunction (vitamin E).** [S1]
+- **PFIC types in S1's table:** type 1, ATP8B1 (FIC1): low or normal GGT, with diarrhoea, growth failure, hearing loss, pancreatitis and respiratory disease. Type 2, ABCB11 (BSEP): low or normal GGT, raised AFP, HCC. Type 3, ABCB4 (MDR3): raised GGT, cholesterol gallstones. Type 4, TJP2: low or normal GGT, respiratory disease, hearing loss, neurological symptoms. Type 5, NR1H4 (FXR): low GGT, raised AFP, rapidly progressive cholestasis, coagulopathy. Type 6, MYO5B: low GGT, hepatomegaly. [S1]
+- **More genes and features (S3 table):** ABCB4 (MDR3) disease presents later, in childhood or young adulthood, with high GGT, portal hypertension and low bone density; S3 links hepatocellular carcinoma or cholangiocarcinoma to TJP2 and ABCB4 as well as BSEP deficiency. FXR (NR1H4) deficiency gives normal GGT, rapid progression, a coagulopathy that vitamin K does not correct, and high ammonia. MYO5B disease adds diarrhoea, poor growth and microvillus inclusion disease with intestinal failure. Rarer genes: SLC51A (OSTα-OSTβ; high GGT, diarrhoea), USP53 (low GGT, itch, low calcium, hearing loss), KIF12 (high GGT), LSR (low GGT, itch) and WDR83OS (later childhood, microcephaly, dysmorphic face, genital anomalies). [S3]
 
 ## Suspect, refer and confirm (Latin American consensus)
 
@@ -44,6 +46,7 @@
 
 - Ileal bile acid transporter inhibitors have shown efficacy for refractory pruritus in PFIC; two are available, maralixibat and odevixibat. [S1]
 - Odevixibat is approved (in the source's jurisdiction) for pruritus in all types of PFIC from 3 months of age. [S1]
+- **IBAT inhibitor approvals as S3 tabulates them:** odevixibat for PFIC (EU and US) and Alagille syndrome (US), under study in biliary atresia; maralixibat for Alagille syndrome (EU and US), with PFIC and biliary atresia listed as targets. Elobixibat (constipation, Japan), linerixibat and volixibat are not approved for cholestatic liver disease in children. [S3]
 - In the phase 3 PEDFIC trial (PFIC1 or PFIC2), odevixibat improved pruritus by week 4, with sustained improvement, lower aminotransferases and better growth and sleep; no serious adverse events were reported. [S1]
 - ⚠️ **Odevixibat dosing: start at 40 µg/kg once daily; if pruritus has not improved after 3 months, increase in 40 µg/kg steps up to 120 µg/kg once daily.** [S1]
 - Maralixibat in PFIC1 and PFIC2 (INDIGO) gave a response that varied by subtype; BSEP deficiency with residual function did best. [S1]
@@ -84,12 +87,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Table 1 (PFIC subtypes) and Table 2 (medical therapies and doses)** were stripped; only doses stated in the prose are given. | `input_unavailable` |
-| 2 | **Society guidelines:** the EASL Clinical Practice Guidelines on genetic cholestatic liver diseases (J Hepatol 2024, doi 10.1016/j.jhep.2024.04.006) returned a bot challenge and were not read; the 2026 Chinese expert consensus is not open. The 2026 Latin American consensus, not in PMC, was read on the journal's own site and is now S2. | `access` |
-| 3 | **Where IBAT inhibitors sit:** S1 trials antihistamine and UDCA first and keeps IBAT inhibitors for refractory itch; S3 starts odevixibat first (even before genetic confirmation) and moves to the older drugs only if it fails; S2 lists all options without an order. The IBAT-first positions come from industry-sponsored panels. All three are shown. | `observation` |
-| 4 | **S2's dose tables** (fat-soluble vitamins, pruritus drugs) and S3's algorithm figure and trial table were stripped; only doses in the text are used. | `input_unavailable` |
-| 5 | **Maralixibat** is FDA-approved for Alagille syndrome in the source; the PBS PFIC row lists **odevixibat only**. Alagille syndrome is not summarised here. | `observation` |
-| 6 | **Counterpart:** `primary-biliary-cholangitis` lists paediatric cholestatic disease (biliary atresia, PFIC) as out of scope; this page fills that gap. MCT formulas for cholestasis: see also `chyle-leak`. | `observation` |
+| 1 | **S1 Table 1 (PFIC subtypes)** is now covered under Recognise. **S1 Table 2 (medical therapies and doses)** has ragged rows and still could not be extracted, so only doses stated in the prose are given. | `input_unavailable` |
+| 2 | **Type numbering and GGT differ between sources:** S1's table numbers types 1–6 with type 6 as MYO5B and low GGT; S2 says GGT is raised in types 3, 6, 8 and 9, under a longer numbering of more than 12 subtypes; S3 names genes without type numbers (SLC51A and KIF12 with high GGT). Use the gene, not the type number, when comparing sources. S1's table gives FXR (NR1H4) deficiency low GGT; S3 gives normal GGT. | `observation` |
+| 3 | **Maralixibat for PFIC:** S1 says two IBAT inhibitors are available for PFIC; S3's 2024 table lists maralixibat as approved only for Alagille syndrome, with PFIC as a target indication. Regulatory status has moved since; check the TGA and PBS (the PBS PFIC row lists odevixibat only). | `observation` |
+| 4 | **Society guidelines:** the EASL Clinical Practice Guidelines on genetic cholestatic liver diseases (J Hepatol 2024, doi 10.1016/j.jhep.2024.04.006) returned a bot challenge and were not read; the 2026 Chinese expert consensus is not open. The 2026 Latin American consensus, not in PMC, was read on the journal's own site and is now S2. | `access` |
+| 5 | **Where IBAT inhibitors sit:** S1 trials antihistamine and UDCA first and keeps IBAT inhibitors for refractory itch; S3 starts odevixibat first (even before genetic confirmation) and moves to the older drugs only if it fails; S2 lists all options without an order. The IBAT-first positions come from industry-sponsored panels. All three are shown. | `observation` |
+| 6 | **S2's dose tables** (fat-soluble vitamins, pruritus drugs) are still missing: S2 was read as journal HTML, not PMC XML, so the table-row pass could not reach them. S3's algorithm is a figure and its trial table (Table 3) has ragged rows, so both are still missing; S3's gene and IBAT tables are now used. Only doses in the text are used. | `input_unavailable` |
+| 7 | **Maralixibat** is FDA-approved for Alagille syndrome in the source; the PBS PFIC row lists **odevixibat only**. Alagille syndrome is not summarised here. | `observation` |
+| 8 | **Counterpart:** `primary-biliary-cholangitis` lists paediatric cholestatic disease (biliary atresia, PFIC) as out of scope; this page fills that gap. MCT formulas for cholestasis: see also `chyle-leak`. | `observation` |
 
 ## Sources
 

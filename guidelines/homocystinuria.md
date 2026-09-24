@@ -1,9 +1,9 @@
 # Classical homocystinuria (cystathionine beta-synthase deficiency)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** recognising and diagnosing CBS deficiency (classical homocystinuria), testing pyridoxine responsiveness, homocysteine targets, the methionine-restricted diet with methionine-free amino acid mixtures, betaine, monitoring, thrombosis prevention, contraception, pregnancy, illness and surgery. Remethylation disorders and nutritional causes of raised homocysteine are only excluded here. First steps for any suspected inborn error in an unwell child: `metabolic-disorders-children`. Other protein-restricted diets: `phenylketonuria`, `hereditary-tyrosinaemia-type-1`. B12 deficiency: `vitamin-b12-deficiency`.
 
-> ✅ **OPEN AND QUOTED.** 21 claims quoted verbatim from **Morris AAM, Kožich V, Santra S, et al. (E-HOD consortium), Journal of Inherited Metabolic Disease — *Guidelines for the diagnosis and management of cystathionine beta-synthase deficiency*** (vol. 40, pp. 49–74, published 2017 (online 2016); origin: international); **35 fragments re-checked by machine; 5 doses.** Licence: *CC BY 4.0*.
+> ✅ **OPEN AND QUOTED.** 22 claims quoted verbatim from **Morris AAM, Kožich V, Santra S, et al. (E-HOD consortium), Journal of Inherited Metabolic Disease — *Guidelines for the diagnosis and management of cystathionine beta-synthase deficiency*** (vol. 40, pp. 49–74, published 2017 (online 2016); origin: international); **43 fragments re-checked by machine; 5 doses.** Licence: *CC BY 4.0*.
 
 > ⚠️ International guideline (E-HOD European network guideline, 2017). Australian practice follows the PBS listings below and may differ.
 
@@ -50,6 +50,10 @@
 - **During intercurrent illness, continue all treatment** (pyridoxine, betaine, amino acid mixture, energy) and avoid dehydration and immobility. [S1]
 - ⚠️ **Surgery:** optimise control first, keep hydrated with IV fluids, use mechanical thromboprophylaxis and early mobilisation, LMWH if immobilisation is prolonged, and **avoid nitrous oxide**, which raises homocysteine. [S1]
 
+## Strength of evidence
+
+- **The recommendations are graded by SIGN, and none reaches grade A:** no level 1 evidence (high-quality meta-analyses, systematic reviews or randomised trials) was found. Grade B rests on level 2 evidence (case-control or cohort studies), grade C on level 3 (mainly case reports and case series) and grade D on level 4 (expert opinion). [S1]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -67,7 +71,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables** (evidence grading and the monitoring schedule table) were stripped; the full monitoring schedule is not stated here. | `input_unavailable` |
+| 1 | **Tables:** the evidence-grading tables (Tables 1–2) are now covered (see Strength of evidence). The monitoring schedule table (Table 3) could not be extracted (merged cells), so the full monitoring schedule is still not stated here. | `input_unavailable` |
 | 2 | **Australian guidance:** the ASIEM low-protein handbook for homocystinuria (2007) exists but HGSA's terms prohibit reproduction, so it was not used. | `observation` |
 | 3 | **Age of source:** published 2017 (E-HOD). No later European revision was found in Europe PMC; check for one before clinical attestation. | `observation` |
 | 4 | **Licence:** CC BY 4.0, read in the Europe PMC XML. Claims are quoted verbatim with attribution. | `observation` |

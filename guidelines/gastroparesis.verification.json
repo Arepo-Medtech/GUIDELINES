@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/gastroparesis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis' (published 3 June 2026), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13326989 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis' (published April 2021), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8259275). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the UEG/ESNM 2021 Delphi consensus (40 experts, 19 countries; a statement was endorsed at 80% or more agreement), which covers all causes of gastroparesis, including diabetic and postsurgical, and grades each statement. S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis' (published 3 June 2026), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13326989 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from UEG and ESNM (Schol J, Wauters L, Dickman R, et al.), United European Gastroenterology Journal 9(3):287-306, doi 10.1002/ueg2.12060 'United European Gastroenterology (UEG) and European Society for Neurogastroenterology and Motility (ESNM) consensus on gastroparesis' (published April 2021), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8259275). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the UEG/ESNM 2021 Delphi consensus (40 experts, 19 countries; a statement was endorsed at 80% or more agreement), which covers all causes of gastroparesis, including diabetic and postsurgical, and grades each statement. S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (MDT principles for tube feeding), Table 6 (dietary therapies) and Tables 4-5 (sample meal plans) are paraphrased from the row lines. S1 Table 1 (Delphi summary) was checked against the page and adds nothing new; S1 Table 3 and S2 Table 3 were not extracted (merged cells or ragged rows).",
  "summary": {
-  "total": 31,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 31
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -357,6 +357,50 @@
      "h": "7966eaa9ba8c0635",
      "n": 129,
      "p": "There is"
+    }
+   ],
+   "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Before nasogastric feeding, the team should (S1 Table 2):** complete a medical, nutritional and psychosocial assessment, including for disordered eating; consider enteral feeding only for severe malnutrition with continuing, objectively measured weight loss despite MDT-led oral rehabilitation; use it for nutrition rather than symptom relief; weigh its risks (entrenching disordered eating, hard weaning, complications) for the individual; and agree an exit plan with set nutritional goals before it starts. In a heavier patient who has lost more than 10% of body weight within 6 months, balance malnutrition risk against the risks of an invasive intervention.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b2cc1a75f83da72",
+     "n": 1408,
+     "p": "[TABLE 2"
+    }
+   ],
+   "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Dietary approaches and their limits (S1 Table 6):** evidence for a small-particle diet (food mechanically broken down) is mostly from diabetic gastroparesis and studies define it inconsistently; low-FODMAP evidence comes from functional dyspepsia, it does not speed emptying and it is contraindicated in malnutrition; selected fibres (partially hydrolysed guar gum, psyllium) may slow emptying yet ease symptoms, and fibre intake is usually low already.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b177fef360319dc8",
+     "n": 1103,
+     "p": "[Table 6"
+    }
+   ],
+   "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S1 includes two sample one-day meal plans:** a soft, small-particle diet (for example quick oats with milk and banana, yoghurt with stewed apple, lean mince with mashed vegetables, baked white fish with mashed sweet potato) and a texture-modified diet that includes liquids (scrambled eggs, a milk and yoghurt smoothie, puréed soup, puréed fruit and a 250 mL oral supplement drink).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4fd9270e1b626562",
+     "n": 1172,
+     "p": "[Table 4"
+    },
+    {
+     "h": "98c4fd5d660c0efe",
+     "n": 1167,
+     "p": "[Table 5"
     }
    ],
    "locator": "Gastroenterological Society of Australia (GESA), Journal of Gastroenterology and Hepatology, 'Gastroenterological Society of Australia Position Statement on the Assessment and Management of Idiopathic Gastroparesis', published 3 June 2026, https://europepmc.org/article/PMC/PMC13326989, retrieved 2026-09-23"

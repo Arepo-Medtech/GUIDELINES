@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/chyle-leak.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Zhou et al., Frontiers in Nutrition 11:1478190 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery' (published 8 January 2025 (2024 volume)), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11752749). S2: PARAPHRASED AND HASH-ANCHORED from He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007) 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)' (published 27 February 2025), 10 claims; LICENCE: CC BY-NC 3.0 (Dove Medical Press terms incorporate the licence; non-commercial use permitted with attribution) (read at Europe PMC fullTextXML <license> element for PMC11880616). Verify each source separately: verify.py --source <file> --only-source S<n>. The ERS 2024 adult chylothorax consensus statement (Eur Respir J, DOI 10.1183/13993003.00470-2024) was preferred but the publisher page returned a bot challenge (HTTP 403), which was not bypassed. A BJS Open 2025 scoping review of chyle leak after pancreatic surgery was read and rejected because it covers incidence, not management. Edition 2.0 adds S2, a GRADE-graded Chinese expert consensus (43 experts, registered PREPARE-2023CN034) on cervical chyle fistula after neck dissection for thyroid cancer; S1 claims and anchors are unchanged. On 2026-09-24 the ERS 2024 consensus was retried (erj.ersjournals.com and publications.ersnet.org: HTTP 403 bot challenge; Unpaywall: no open copy) and the 2022 paediatric CHD chylothorax consensus (Cardiol Young, DOI 10.1017/S1047951122001871) is closed access; Europe PMC searches for an open paediatric or neonatal chylothorax guideline found none.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Zhou et al., Frontiers in Nutrition 11:1478190 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery' (published 8 January 2025 (2024 volume)), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11752749). S2: PARAPHRASED AND HASH-ANCHORED from He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007) 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)' (published 27 February 2025), 11 claims; LICENCE: CC BY-NC 3.0 (Dove Medical Press terms incorporate the licence; non-commercial use permitted with attribution) (read at Europe PMC fullTextXML <license> element for PMC11880616). Verify each source separately: verify.py --source <file> --only-source S<n>. The ERS 2024 adult chylothorax consensus statement (Eur Respir J, DOI 10.1183/13993003.00470-2024) was preferred but the publisher page returned a bot challenge (HTTP 403), which was not bypassed. A BJS Open 2025 scoping review of chyle leak after pancreatic surgery was read and rejected because it covers incidence, not management. Edition 2.0 adds S2, a GRADE-graded Chinese expert consensus (43 experts, registered PREPARE-2023CN034) on cervical chyle fistula after neck dissection for thyroid cancer; S1 claims and anchors are unchanged. On 2026-09-24 the ERS 2024 consensus was retried (erj.ersjournals.com and publications.ersnet.org: HTTP 403 bot challenge; Unpaywall: no open copy) and the 2022 paediatric CHD chylothorax consensus (Cardiol Young, DOI 10.1017/S1047951122001871) is closed access; Europe PMC searches for an open paediatric or neonatal chylothorax guideline found none. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Tables 1–2 (its evidence and recommendation grades). S1 Table 1 lists the 13 included articles and adds no clinical content; S1 Table 2 (the graded evidence items) could not be extracted (ragged rows).",
  "summary": {
-  "total": 28,
+  "total": 29,
   "pass": 18,
   "fail": 0,
-  "pass_paraphrase_anchored": 10
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -248,6 +248,54 @@
    ],
    "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24",
    "dose": true
+  },
+  {
+   "claim": "**How to read S2's grades:** evidence runs from A (high quality: consistent randomised trials or validated cohort data) through B (moderate) and C (low: case series, or extrapolated from B-level evidence) to D (insufficient, conflicting or poor). Recommendations run from A (strong: benefit clearly outweighs harm) and B (benefit outweighs harm) to C (conditional: benefit and harm closely balanced) and D (not recommended: the balance cannot be judged).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "771d5866a25371bd",
+     "n": 229,
+     "p": "[Table 1"
+    },
+    {
+     "h": "ed7c797b11af6d12",
+     "n": 280,
+     "p": "[Table 1"
+    },
+    {
+     "h": "b15d133a326cb08f",
+     "n": 164,
+     "p": "[Table 1"
+    },
+    {
+     "h": "9f6835ab8d7eb85d",
+     "n": 139,
+     "p": "[Table 1"
+    },
+    {
+     "h": "be6d0feecd504235",
+     "n": 198,
+     "p": "[Table 2"
+    },
+    {
+     "h": "bb2b1fa17d0a6595",
+     "n": 177,
+     "p": "[Table 2"
+    },
+    {
+     "h": "efa6e43718e9ce8b",
+     "n": 143,
+     "p": "[Table 2"
+    },
+    {
+     "h": "1e139d762190e39c",
+     "n": 131,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **When to operate:** after failed non-surgical treatment, typically for drainage persistently above 1000 mL a day. Operate promptly for more than 2000 mL a day with a poor response, for a refractory low-flow leak (under 1000 mL a day), or for severe malnutrition, fluid and electrolyte disorders, infection, necrosis or bleeding.",

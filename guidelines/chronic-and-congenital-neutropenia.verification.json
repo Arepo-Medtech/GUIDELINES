@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/chronic-and-congenital-neutropenia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 16 April 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12001981). S2: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 30 March 2023), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10065839). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, Part 1 of the same EHA / EuNet-INNOCHRON guideline (diagnosis, bone-marrow surveillance, pregnancy; HemaSphere 2023), which edition 1.0 named in its Unresolved table as out of scope. Both parts are CC BY-NC-ND 4.0, so both are paraphrased and hash-anchored. S1 claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 16 April 2025), 35 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12001981). S2: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action' (published 30 March 2023), 13 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10065839). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, Part 1 of the same EHA / EuNet-INNOCHRON guideline (diagnosis, bone-marrow surveillance, pregnancy; HemaSphere 2023), which edition 1.0 named in its Unresolved table as out of scope. Both parts are CC BY-NC-ND 4.0, so both are paraphrased and hash-anchored. S1 claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1's consensus boxes (extracted by position as Tables 1–5, 7 and 10–14) and S2 Table 1 (ANC cut-offs by age) are paraphrased and anchored to their row lines. S1 Table 1 (starting doses; ragged rows) and two boxes (corticosteroids, granulocyte transfusion; no header row) were not extracted.",
  "summary": {
-  "total": 37,
+  "total": 48,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 37
+  "pass_paraphrase_anchored": 48
  },
  "claims": [
   {
@@ -81,6 +81,34 @@
      "h": "ca7eed6c08349f3c",
      "n": 334,
      "p": "to class"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2's age table:** neutropenia means an ANC below 1.0 from 14 days to 1 year, below 1.5 from over 1 year to adulthood, and below 1.8 in adults; a count under 1.5 is regarded as normal in people of African and Middle Eastern ancestry.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a367e5c203eb5580",
+     "n": 62,
+     "p": "[Table 1"
+    },
+    {
+     "h": "59aa47bae26fbd1f",
+     "n": 72,
+     "p": "[Table 1"
+    },
+    {
+     "h": "3d380cd3b1f02d19",
+     "n": 53,
+     "p": "[Table 1"
+    },
+    {
+     "h": "95012c9552f78920",
+     "n": 155,
+     "p": "[Table 1"
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2023;7(4):e872, 'The European Guidelines on Diagnosis and Management of Neutropenia in Adults and Children: A Consensus Between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 30 March 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10065839/, retrieved 2026-09-24"
@@ -307,6 +335,34 @@
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Consensus boxes (S1):** G-CSF is recommended in severe congenital and cyclic neutropenia, particularly with recurrent or severe infections (100% agreement). In idiopathic or autoimmune neutropenia, do not give continuous G-CSF because of the count alone: decide individually on how often and how badly infections occur, keep continuous use for the rare patient with frequent or severe infections, and consider occasional use during a severe episode. Do not use G-CSF in ACKR1/DARC-associated neutropenia, which carries no extra infection risk.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3ee58906cc0d38e",
+     "n": 485,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a989e7401668994b",
+     "n": 378,
+     "p": "[Table 2"
+    },
+    {
+     "h": "e8f6bf305e2c65a1",
+     "n": 430,
+     "p": "[Table 2"
+    },
+    {
+     "h": "e691893c8022f2f6",
+     "n": 350,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**The aim is infection control by raising the count, while limiting bone pain and splenomegaly.**",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -333,6 +389,24 @@
      "h": "fb52536d41b92943",
      "n": 172,
      "p": "On the c"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Protective threshold (S1 box): an ANC above 1.0 × 10⁹/L, with a lower nadir acceptable in cyclic neutropenia.** Give the lowest G-CSF dose that controls infection (usually one that brings the ANC to 1.0 or more), to limit marrow stimulation, bone pain and splenomegaly. An ANC above 5.0 is usually not needed, although peaks run higher in cyclic neutropenia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d47aee181811dff",
+     "n": 438,
+     "p": "[Table 3"
+    },
+    {
+     "h": "f336d9062147ee78",
+     "n": 283,
+     "p": "[Table 5"
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
@@ -377,6 +451,43 @@
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Products (S1 box):** filgrastim and lenograstim can be used interchangeably in severe congenital neutropenia; pegfilgrastim is an option when adherence is poor.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b86282742cc9269",
+     "n": 294,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Starting doses (S1 box):** severe congenital neutropenia, the standard 5 mcg/kg/day. Cyclic neutropenia, lower: 3 mcg/kg/day or less continuously, or on alternate days, adjusted to avoid a nadir below 0.5 × 10⁹/L and mouth ulcers, fevers or infections. Shwachman–Diamond syndrome and GSD-Ib: the minimal dose that prevents infection. Autoimmune or idiopathic neutropenia (no study has set a dose): if needed, start at 1 mcg/kg/day.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1bdc14660467ede9",
+     "n": 425,
+     "p": "[Table 5"
+    },
+    {
+     "h": "55838077d987f694",
+     "n": 335,
+     "p": "[Table 5"
+    },
+    {
+     "h": "c064463ce7e7db5a",
+     "n": 282,
+     "p": "[Table 5"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23",
+   "dose": true
   },
   {
    "claim": "**Typical daily doses:** around or above 5 mcg/kg in severe congenital neutropenia, under 5 mcg/kg in autoimmune or idiopathic forms, and 1–5 mcg/kg (median 2.5) in cyclic neutropenia.",
@@ -470,6 +581,24 @@
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Sporadic or continuous (S1 box):** sporadic G-CSF suits patients (mostly autoimmune or idiopathic) who stay infection-free without it but need a temporary rise in count; continuous G-CSF is for those at persistent risk of severe infection from an intrinsic defect of neutrophil production. In autoimmune or idiopathic neutropenia on G-CSF, test for spontaneous remission by carefully pausing it for 1–3 weeks.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f734f173bf6bc25",
+     "n": 409,
+     "p": "[Table 7"
+    },
+    {
+     "h": "f05abfffc128747d",
+     "n": 479,
+     "p": "[Table 7"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Side effects are uncommon** (rash, bone pain, osteopenia, splenomegaly, occasional vasculitis) and rarely need stopping; if daily injections are a problem, pegfilgrastim is a reasonable alternative.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -504,6 +633,29 @@
      "h": "f7090b9ab4507b71",
      "n": 264,
      "p": "Data on "
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Transplant indications (S1 box; weigh them case by case with the family, and consider the centre's experience):** *strong* — transformation to MDS or acute leukaemia; dysplasia with high-risk acquired cytogenetics (monosomy 7, trisomy 8 or 21) or several leukaemia-associated somatic mutations (such as RUNX1, ASXL1, SETBP1; CSF3R alone is not an indication); inherently high-risk genetics (GATA2, high-risk ELANE variants, biallelic TP53 clones in SDS); no response to G-CSF (over 20 mcg/kg/day needed to reach an ANC of 1.0), poor response (10–20 mcg/kg/day without reaching it) or poorly controlled infection at any dose. *Potential* — infections controlled on intermediate doses (10–15 mcg/kg/day) with an HLA-identical sibling or matched donor. *Weak* — response at up to 10 mcg/kg/day, good tolerance and adherence, infections controlled and no matched donor.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a67db851416a283d",
+     "n": 1164,
+     "p": "[Table 1"
+    },
+    {
+     "h": "4ed7a98e99bf0ed7",
+     "n": 563,
+     "p": "[Table 1"
+    },
+    {
+     "h": "14849a64c4643636",
+     "n": 557,
+     "p": "[Table 1"
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
@@ -572,6 +724,19 @@
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Assess infections promptly and treat at once with broad-spectrum antibiotics, admitting if needed;** pick agents by local policy, hospital flora, resistance patterns and any known colonisation. The S1 consensus box suggests avoiding antibiotic prophylaxis in every type of neutropenia (87% agreement), given no efficacy data and the risk of resistance.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c7f7d11cb90d163",
+     "n": 568,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Antibiotic prophylaxis only for recurrent infections, decided case by case;** routine antifungal prophylaxis is not recommended.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -603,6 +768,32 @@
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Dental (S1 box):** periodontal inflammation is more common in severe congenital and cyclic neutropenia, so arrange frequent periodontal checks and good oral hygiene, and aim for an ANC of at least 1.0 × 10⁹/L for dental health.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "959090574d3b2fbc",
+     "n": 396,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Psychological support is strongly advised** to improve quality of life, with dedicated support and rehabilitation for patients with neurodevelopmental disabilities (S1 box).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53dc3d1c731f8c68",
+     "n": 282,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Vaccinate on the national schedule, including live vaccines,** when there is no other immune defect; ask an immunologist if there is.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -616,6 +807,24 @@
      "h": "6d637bf29274f18f",
      "n": 152,
      "p": "In cases"
+    }
+   ],
+   "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Vaccines (S1 box):** advise every patient with chronic neutropenia to have an approved influenza and COVID-19 vaccine, and consider immunising close contacts against all vaccine-preventable diseases.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c44b1113f4f0eaf",
+     "n": 443,
+     "p": "[Table 1"
+    },
+    {
+     "h": "c5b0563b51d8e00c",
+     "n": 478,
+     "p": "[Table 1"
     }
    ],
    "locator": "European Hematology Association (EHA) and COST Action EuNet-INNOCHRON, HemaSphere 2025;9(4):e70113, 'European guidelines on treatment and supportive measures in chronic neutropenias: A consensus between the European Hematology Association and the EuNet-INNOCHRON COST Action', published 16 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12001981/, retrieved 2026-09-23"

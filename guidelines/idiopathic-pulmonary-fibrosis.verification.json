@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/idiopathic-pulmonary-fibrosis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision' (published online 11 January 2024), 23 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10952210). S2: PARAPHRASED AND HASH-ANCHORED from Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST) 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline' (published 1 May 2022), 9 claims; LICENCE: CC BY-NC-ND 4.0; Copyright © 2022 by the American Thoracic Society ('You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.') (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC9851481). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS/ERS/JRS/ALAT 2022 guideline, paraphrased because it is CC BY-NC-ND, mainly for diagnosis (outside S1's scope) and the international management pathway. It is the most recent open international IPF/PPF guideline found (the German S2k 2024 and Korean 2026 guidelines are paywalled); it predates nerandomilast, as does S1. The S1 claims and fragments are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision' (published online 11 January 2024), 26 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10952210). S2: PARAPHRASED AND HASH-ANCHORED from Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST) 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline' (published 1 May 2022), 10 claims; LICENCE: CC BY-NC-ND 4.0; Copyright © 2022 by the American Thoracic Society ('You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.') (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC9851481). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS/ERS/JRS/ALAT 2022 guideline, paraphrased because it is CC BY-NC-ND, mainly for diagnosis (outside S1's scope) and the international management pathway. It is the most recent open international IPF/PPF guideline found (the German S2k 2024 and Korean 2026 guidelines are paywalled); it predates nerandomilast, as does S1. The S1 claims and fragments are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 4–6 (acute-exacerbation criteria, vasodilator trials, short-telomere features; quoted) and S2 Table 5 (fibrotic ILDs that can manifest PPF; paraphrased) are anchored to their row lines. S1 Tables 1–2 (doses, PBS criteria; ragged rows) and S2 Tables 2–4 (merged cells) were not extracted.",
  "summary": {
-  "total": 32,
-  "pass": 23,
+  "total": 36,
+  "pass": 26,
   "fail": 0,
-  "pass_paraphrase_anchored": 9
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -185,6 +185,19 @@
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Fibrotic ILDs that can behave as PPF (S2 Table 5):** idiopathic fibrotic NSIP, pleuroparenchymal fibroelastosis, fibrosing organising pneumonia, desquamative interstitial pneumonia, fibrotic CTD-related ILD, fibrotic hypersensitivity pneumonitis, fibrotic occupational lung disease (such as asbestosis or silicosis), fibrotic Langerhans cell histiocytosis, fibrotic sarcoidosis, unclassifiable fibrotic ILD (a label to use only after multidisciplinary discussion) and others, such as inborn errors of metabolism or surfactant protein disorders.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "463b50bf90c9e490",
+     "n": 3037,
+     "p": "[Table 5"
+    }
+   ],
+   "locator": "Raghu G, Remy-Jardin M, Richeldi L, et al., American Thoracic Society, European Respiratory Society, Japanese Respiratory Society and Asociación Latinoamericana de Tórax, American Journal of Respiratory and Critical Care Medicine 205(9):e18-e47 (doi 10.1164/rccm.202202-0399ST), 'Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline', published 1 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Progression should prompt diagnostic reassessment.** Some progressive ILDs are still best treated with immunosuppression (e.g. CTD-ILD) or antigen avoidance (fibrotic hypersensitivity pneumonitis), possibly with nintedanib added.",
    "source": "S1",
    "verdict": "pass",
@@ -282,6 +295,13 @@
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Criteria for acute exacerbation of IPF (S1 Table 4):** acute respiratory deterioration, typically lasting under 1 month, in someone with IPF, with new bilateral ground-glass opacity and/or consolidation on CT, not explained by cardiac failure or fluid overload, once extra-parenchymal causes (such as pneumothorax, pleural effusion or pulmonary embolism) are excluded.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[TABLE 4] Criteria for acute exacerbation of IPF. [TABLE 4 row 1] Acute respiratory deterioration of typically <1 month duration in someone with IPF: Extra‐parenchymal cause excluded (e.g., pneumothorax, pleural effusion, pulmonary embolism) [TABLE 4 row 2] Acute respiratory deterioration of typically <1 month duration in someone with IPF: New, bilateral ground glass opacity and/or consolidation on CT [TABLE 4 row 3] Acute respiratory deterioration of typically <1 month duration in someone with IPF: Not explained by congestive cardiac failure of fluid overload",
+   "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Reflux treatment does not improve IPF respiratory outcomes;** treat symptomatic reflux as for the general population.",
    "source": "S1",
    "verdict": "pass",
@@ -321,6 +341,20 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Ambrisentan, bosentan and riociguat are contraindicated in PH associated with IPF.",
+   "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Vasodilator trials in IPF and ILD (S1 Table 5):** only inhaled treprostinil helped, in ILD with catheter-proven pulmonary hypertension (INCREASE, 326 patients: 6MWD up 31.12 m at 16 weeks, with better NT-proBNP and less clinical worsening). Sildenafil (STEP-IPF; INSTAGE with nintedanib; with pirfenidone) and bosentan (BPHIT) showed no benefit; riociguat (RISE-IIP) was stopped early for more serious adverse events, including deaths; ambrisentan (ARTEMIS-IPF) increased disease progression (27.4% v 17.2%; hazard ratio 1.74).",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[TABLE 5] Recent seminal studies with vasodilator therapies in IPF and other ILD cohorts. [TABLE 5 row 1] Study: INCREASE Treprostinil Versus placebo Phase 2/3 · Year: 2021 · Population: ILD with PH confirmed by right heart catheter · Number patients: 326 · Primary endpoint: Change in 6MWD at 16‐weeks · Outcome: Improved 6MWD in treatment arm of 31.12 m (95% CI, 16.85-45.39; p < 0.001); improved NT‐proBNP, reduced clinical worsening, compared with control arm. [TABLE 5 row 2] Study: Sildenafil plus pirfenidone versus placebo plus pirfenidone Phase 2b · Year: 2021 · Population: IPF with DLCO ≤40% predicted and mPAP ≥20 mm Hg · Number patients: 177 · Primary endpoint: Proportion with disease progression (change in 6MWD, respiratory hospitalization, death) at 52‐weeks · Outcome: No difference in the primary endpoint, between‐group difference 3.06% (95% CI -11.30 to 17.97; p = 0.65). [TABLE 5 row 3] Study: RISE‐IIP Riociguat versus placebo Phase 2b · Year: 2019 · Population: IIP with PH confirmed by right heart catheter · Number patients: 147 · Primary endpoint: Change in 6MWD at 26‐weeks · Outcome: No difference in the primary endpoint or time to clinical worsening; trial terminated early due to increased SAEs including death in treatment arm. [TABLE 5 row 4] Study: INSTAGE Sildenafil plus nintedanib versus placebo plus nintedanib Phase 3 · Year: 2018 · Population: IPF patients with DLCO ≤35% predicted · Number patients: 274 · Primary endpoint: Change in baseline total SGRQ score at 12‐weeks · Outcome: No difference in mean change in SGRQ score (treatment arm -1.28 points, control arm -0.77 points; p = 0.72). No difference in dyspnoea scores or safety. [TABLE 5 row 5] Study: BPHIT Bosentan versus placebo Phase 2 · Year: 2014 · Population: Fibrotic IIP with right heart catheter confirmed PH · Number patients: 60 · Primary endpoint: Fall from baseline pulmonary vascular resistance index of 20% or more at 16 weeks · Outcome: No difference in invasive pulmonary haemodynamics, functional capacity or symptoms. [TABLE 5 row 6] Study: ARTEMIS‐IPF Ambrisentan versus placebo Phase 3 · Year: 2013 · Population: IPF patients with ≤5% honeycombing on HRCT scan · Number patients: 492 · Primary endpoint: Time to disease progression (death, respiratory hospitalization, decrease in FVC and DLCO); 48‐week assessment · Outcome: Increased disease progression in treatment arm (90 [27.4%] vs. 28 [17.2%] patients; p < 0.010; hazard ratio, 1.74 [95% CI, 1.14-2.66]) [TABLE 5 row 7] Study: STEP‐IPF Sildenafil versus placebo Phase 3 · Year: 2010 · Population: IPF patients with DLCO ≤35% predicted · Number patients: 180 · Primary endpoint: Proportion of patients with an increase in 6MWD ≥20% · Outcome: No difference in proportion meeting primary endpoint (treatment arm 10%, control arm 7%; p = 0.39); some secondary endpoints improved with treatment",
+   "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Features suggesting short telomeres in pulmonary fibrosis (S1 Table 6):** a family history of ILD, diagnosis before age 50, nail dystrophy, premature greying (before 25), a personal or family history of blood-count abnormalities (macrocytosis, thrombocytopenia), and a personal or family history of unexplained liver disease.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[TABLE 6] Features suggestive of shortened telomeres in a patient with pulmonary fibrosis. [TABLE 6 row 1] Positive family history of ILD: Age of diagnosis under 50 years [TABLE 6 row 2] Positive family history of ILD: Nail dystrophy [TABLE 6 row 3] Positive family history of ILD: Premature hair greying (before 25 years) [TABLE 6 row 4] Positive family history of ILD: Personal or family history of full blood count abnormalities (macrocytosis, thrombocytopenia) [TABLE 6 row 5] Positive family history of ILD: Personal or family history of unexplained liver disease",
    "locator": "Thoracic Society of Australia and New Zealand (TSANZ), Respirology 2024, 'Treatment of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis: A position statement from the Thoracic Society of Australia and New Zealand 2023 revision', published online 11 January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10952210/, retrieved 2026-09-23"
   },
   {

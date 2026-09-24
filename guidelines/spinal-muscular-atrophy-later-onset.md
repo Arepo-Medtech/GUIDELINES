@@ -1,9 +1,9 @@
 # Spinal muscular atrophy — later-onset disease, treatment choice and switching
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** choosing, starting, changing, adding or stopping SMN-enhancing treatment (nusinersen, risdiplam, onasemnogene abeparvovec) in 5q SMA, with the emphasis on people who are not newly diagnosed, adolescents and adults: the later-onset (type IIIb/IIIc) population. Newborn screening, diagnosis and treatment initiation in screen-positive infants: see `spinal-muscular-atrophy`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **38 fragments or anchors re-checkable by machine; 3 doses.** **S1** Cure SMA expert panel (Schroth M (published online 8 October 2024 (February 2025 issue); international): 22 claims, paraphrased, hash-anchored · **S2** Australian Prescriber (new drug comment (published 7 July 2022; AU): 6 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **39 fragments or anchors re-checkable by machine; 3 doses.** **S1** Cure SMA expert panel (Schroth M (published online 8 October 2024 (February 2025 issue); international): 23 claims, paraphrased, hash-anchored · **S2** Australian Prescriber (new drug comment (published 7 July 2022; AU): 6 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Cure SMA expert panel, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -61,6 +61,7 @@
 ## Care model
 
 - **Care coordination and multidisciplinary care are essential** to delivering these drugs well, with respiratory, musculoskeletal and nutrition support alongside them. [S1]
+- **What to cover with patients and families (S1 education table):** the cause, genetics and course of SMA with and without treatment, the organs it affects and its supportive care (breathing, nutrition, bone and gut health, rehabilitation, orthopaedics, psychosocial and acute care, routine immunisation and check-ups, exercise); for each drug, how it works, its route and frequency, trial results, benefits, side effects and required monitoring; how access and funding work; realistic expectations, shared decisions, time and travel, cost and cultural factors; and what is still unknown. Name a care coordinator and team, and offer psychosocial counselling, help with the access process, and advocacy and peer-support groups. [S1]
 
 ---
 
@@ -78,7 +79,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Drug characteristics and doses** (S1 Table 1) and the panel's consensus tables were stripped. S2 adds that risdiplam is dosed by age and weight and gives 5 mg daily for 20 kg or more; the full weight bands and the nusinersen dose in milligrams are still in neither source. | `input_unavailable` |
+| 1 | **Drug characteristics and doses** (S1 Table 1) and two of the panel's consensus tables (Tables 2 and 4) have ragged rows and were not extracted by the 2026-09-24 table pass; the recommendation summary (Table 3) was extracted and adds nothing for this page beyond the claims shown. S2 adds that risdiplam is dosed by age and weight and gives 5 mg daily for 20 kg or more; the full weight bands and the nusinersen dose in milligrams are still in neither source. | `input_unavailable` |
 | 2 | **Response in adults: the sources differ in emphasis.** S1 reports positive responses across all ages and severities; S2 notes that in SUNFISH the 18 to 25 year group did not improve on the motor scale and the overall gain was small. Both are shown. | `observation` |
 | 3 | **Newborn screening and treatment initiation in screen-positive infants** are covered by the Australian NHMRC-approved guideline in `spinal-muscular-atrophy`. | `out_of_scope` |
 | 4 | **No Australian treatment guideline for later-onset SMA exists.** The Australasian Neuromuscular Network points clinicians to the international standards of care. S2 is an Australian drug comment, not a guideline. | `observation` |

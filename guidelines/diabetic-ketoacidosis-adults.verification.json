@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/diabetic-ketoacidosis-adults.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia 'Hyperglycaemic crises in adults with diabetes: a consensus report' (published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275)), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11343900). S2: PARAPHRASED AND HASH-ANCHORED from Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024) 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey' (published 6 March 2025), 8 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12077586). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: Europe PMC fullTextXML of the Diabetologia co-publication (CC BY 4.0). The Diabetes Care version (PMC11272983) is under a non-alteration licence and its full text was not available through Europe PMC or NCBI efetch, so it was not used. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, a 2024 national survey of DKA protocols at 31 Australian hospitals (Intern Med J 2025; CC BY-NC-ND, so paraphrased and hash-anchored), for the Australian angle. S2 is a practice survey, not a guideline, and gives no diagnostic pH or bicarbonate cut-offs.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia 'Hyperglycaemic crises in adults with diabetes: a consensus report' (published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275)), 37 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11343900). S2: PARAPHRASED AND HASH-ANCHORED from Raven LM, Lever W, MacIsaac RJ, Greenfield JR, Deane A, et al., Internal Medicine Journal 55(5):728-733 (doi 10.1111/imj.70024) 'Heterogeneity in the management of diabetic ketoacidosis in Australia: a national survey' (published 6 March 2025), 8 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12077586). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: Europe PMC fullTextXML of the Diabetologia co-publication (CC BY 4.0). The Diabetes Care version (PMC11272983) is under a non-alteration licence and its full text was not available through Europe PMC or NCBI efetch, so it was not used. Edition 2.0 keeps every Edition 1.0 claim (S1) unchanged and adds S2, a 2024 national survey of DKA protocols at 31 Australian hospitals (Intern Med J 2025; CC BY-NC-ND, so paraphrased and hash-anchored), for the Australian angle. S2 is a practice survey, not a guideline, and gives no diagnostic pH or bicarbonate cut-offs. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (precipitating causes, Australian row), Table 3 (complications of treatment) and Table 4 (special populations). S1 Table 2 (severity grading; ragged rows) and both S2 tables (merged cells) were not extracted.",
  "summary": {
-  "total": 32,
-  "pass": 24,
+  "total": 45,
+  "pass": 37,
   "fail": 0,
   "pass_paraphrase_anchored": 8
  },
@@ -51,6 +51,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Worldwide, infection is the most common precipitating factor for DKA, occurring in 14-58% of cases … The omission of insulin therapy, often in the setting of psychological and socioeconomic factors, is a major cause of DKA … Some drug classes can affect carbohydrate metabolism and precipitate the development of DKA and HHS []. Glucocorticoids may precipitate acute and sustained hyperglycaemia by countering insulin action [, ]. Antipsychotic medications may also raise DKA risk, although the precise mechanism is uncertain []. Approximately 1-2% of patients receiving checkpoint inhibitors develop new-onset autoimmune diabetes [], characterised by rapid onset of hyperglycaemia, swift progression of endogenous insulin deficiency, and a high risk of DKA or severe hyperglycaemia if not detected and treated promptly with insulin therapy",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **In the Australian series S1 tabulates, insulin omission (40%) was a commoner trigger than infection (28.6%);** new-onset diabetes accounted for 5.7% and other causes 25.7%. (S1 Table 1)",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1 row 1] Region: Australia · New-onset diabetes: 5.7 · Infection: 28.6 · Insulin omission: 40 · Other: 25.7 · Unknown: NR",
    "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
   },
   {
@@ -182,6 +189,90 @@
    "source_text": "If HHS is present with no ketosis or with mild or moderate ketonaemia (blood β-hydroxybutyrate ≥1.0 to <3.0 mmol/l or urine ketones <2+) and without acidosis (pH ≥7.3 and bicarbonate ≥18 mmol/l), then a fixed-rate intravenous insulin infusion should be started at 0.05 U kg-1 h-1. If significant ketonaemia is present (i.e., β-hydroxybutyrate ≥3.0 mmol/l, ketonuria ≥2+, pH <7.30 or bicarbonate <18 mmol/l), which represents mixed DKA/HHS, then a fixed-rate intravenous insulin infusion should be started at 0.1 U kg … the decline should not exceed 5-6.7 mmol l-1 h-1 (90-120 mg dl-1 h-1) to prevent cerebral oedema. Similarly, the rate of decline of serum sodium should not exceed 10 mmol/l in 24 h",
    "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **Hypoglycaemia is common during treatment:** 16–28% of patients fall below 3.9 mmol/L and 2% below 2.2 mmol/L, and hypoglycaemia below 2.2 mmol/L was linked to a 4.8-fold rise in mortality. Check glucose every 1–2 h.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 1] Complication: Hypoglycaemia [, ] · Evidence: • Hypoglycaemia is a common complication encountered in the treatment of DKA. • In studies of DKA treatment, the risk of hypoglycaemia (<3.9 mmol/l [70 mg/dl]) varied between 16% and 28%, with severe hypoglycaemia (<2.2 mmol/l [40 mg/dl]) occurring in 2% of cases. … Hypoglycaemia (<2.2 mmol/l [40 mg/dl]) during treatment was associated with a 4.8-fold increase in mortality … Frequent blood glucose monitoring (every 1-2 h) is mandatory to recognise hypoglycaemia.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Hypokalaemia (below 3.5 mmol/L) develops in about 55% of DKA and 51% of HHS, and severe hypokalaemia (2.5 mmol/L or less) in 16% and 9%;** severe hypokalaemia raised inpatient mortality. Monitor potassium every 4 h and add replacement to the fluids.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 2] Complication: Hypokalaemia [] · Evidence: • Hypokalaemia is a common complication owing to intracellular shift of potassium following insulin treatment. • Hypokalaemia (<3.5 mmol/l) occurred in ∼55% of DKA and 51% of HHS patients. • Severe hypokalaemia <2.5 mmol/l occurs in 16% of people with DKA and 9% of people with HHS. · Risk: • Severe hypokalaemia ≤2.5 mmol/l was associated with increased inpatient mortality (adjusted OR 4.9 [95% CI 1.3, 18.8]). · Mitigation: • Potassium should be carefully monitored every 4 h during treatment. • Potassium replacement should be added to fluid resuscitation.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**A hyperchloraemic (normal anion gap) acidosis can appear during recovery;** it is self-limiting, and seems less frequent with balanced electrolyte solutions and slower saline infusion.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 3] Complication: Normal anion gap metabolic acidosis [, ] · Evidence: • Hyperchloraemic non-anion gap acidosis may be seen during the recovery phase of DKA, but the risk is unknown. It is likely to be caused by loss of keto-anions, which are metabolised to bicarbonate, and excess fluid infusion of chloride-containing fluids during treatment. · Risk: • Observed during the recovery phase of DKA, it is self-limiting with few clinical consequences. · Mitigation: • There is some evidence that hyperchloraemic acidosis occurs less frequently with balanced electrolyte solutions and when slower saline infusion is administered.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **DKA and especially HHS are prothrombotic:** unless thrombosis is suspected, give prophylactic-dose low-molecular-weight heparin.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 4] Complication: Thrombosis [, , ] · Evidence: • Both DKA and HHS, but especially HHS, are thought to be prothrombotic states. • There is evidence that clot microstructure may be altered in people with acidosis and dehydration, but this is reversible. · Risk: • Although case series highlight the risk of venous and arterial thromboembolism in HHS, a nationwide Taiwanese study examining the risk of venous thromboembolism in people with HHS vs those hospitalised without HHS found similar rates. · Mitigation: • Currently, unless thrombosis is suspected, prophylactic dose low-molecular-weight heparin should be used to mitigate the risk of thrombosis.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Cerebral oedema is rare in adults (under 0.1% of events) but carries a mortality of about 30%.** Watch for any change in mental state, with a low threshold for brain imaging; mannitol and mechanical ventilation are suggested for treatment, and in HHS hyperosmolarity is corrected slowly.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 5] Complication: Cerebral oedema [, ] · Evidence: • Cerebral oedema is rare in adults. The underlying cause is not fully understood but may reflect osmotic changes, hypoperfusion and/or inflammatory responses. • In adult patients with HHS and DKA, rapid shifts in osmolarity may also be associated with cerebral oedema thought to occur in <0.1% of events. · Risk: • Cerebral oedema is a serious complication with a reported mortality of ∼30% compared with those without oedema. • Cerebral oedema may be subclinical and visible only on imaging studies. · Mitigation: • Recognising potential risk factors and being alerted to changes in mental status is advised, with a low threshold for brain imaging. • Mannitol infusion and mechanical ventilation are suggested for treatment of cerebral oedema. • In adults with HHS, a slow rate for correction of hyperosmolarity is indicated.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Osmotic demyelination:** the risk comes from correcting hyponatraemia too fast, which can happen in HHS. Lower serum osmolality with 0.9% saline, by 3.0–8.0 mOsm/kg per hour.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 6] Complication: Osmotic demyelination syndrome [, ] · Evidence: • Previously known as central pontine myelinolysis, osmotic demyelination syndrome can occur with rapid correction of hyponatraemia. The incidence is unclear. · Risk: • The risk is specifically associated with rapid correction of hyponatraemia. • May complicate treatment of adults with HHS where hyperosmolar patients may be relatively hyponatraemic. · Mitigation: • In patients with HHS, the fall in serum osmolarity should be corrected with 0.9% saline solution. • The fall in serum osmolality should be between 3.0 and 8.0 mOsm",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Acute kidney injury affects about half of adults admitted with DKA or HHS** (more often older people and those with higher osmolality or glucose). It usually resolves with rehydration; check renal function daily.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 3 row 7] Complication: Acute kidney injury [, ] · Evidence: • Using RIFLE criteria, 50% of adult patients admitted with DKA and HHS have acute kidney injury. · Risk: • Acute kidney injury is more common in older adults, those with higher osmolarity and those with higher admission glucose levels. · Mitigation: • Acute kidney injury usually resolves with rehydration. • Monitoring renal function daily is recommended.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **On an SGLT2 inhibitor:** DKA may be euglycaemic (glucose below 11.1 mmol/L). Treat as for other DKA, but in euglycaemic DKA add 5–10% dextrose to the IV fluid or start it together with the 0.9% sodium chloride, and stop the SGLT2 inhibitor on admission. SGLT2 inhibitors are not recommended in T1D; in T2D, starting or continuing one after DKA resolves is not routinely recommended.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 2] Special population: SGLT2 inhibitor [, , , ] · Clinical characteristics and presentation: • May be spontaneous or preceded by insulin dose reduction or insulin omission, prolonged fasting or acute illness. • May be prevented using specific 'sick day rules.' · Diagnostic considerations: • May present with near-normal glucose concentrations or euglycaemic DKA (glucose <11.1 mmol/l [200 mg/dl]). · Specific management considerations: • Acute management as for 'general' DKA. In euglycaemic DKA, 5-10% dextrose should be added to intravenous fluid or started at the same time as the 0.9% sodium chloride. • SGLT2 inhibitors should be stopped on admission. · Future care considerations: • SGLT2 inhibitor therapy is not recommended for patients with T1D. • In patients with T2D, because of the lack of safety data, initiation or continuation of SGLT2 inhibitor therapy after DKA resolution is not routinely recommended.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Pregnancy:** DKA develops in up to 2% of pregnancies with pre-existing diabetes (mostly T1D), can be euglycaemic, and hyperemesis can mix the acid–base picture. It needs immediate senior medical and obstetric care, ideally in a delivery suite or high-dependency unit.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 4] Special population: Pregnancy [, ] · Clinical characteristics and presentation: • Up to 2% of pregnancies with pregestational diabetes develop DKA. • Most cases occur with preexisting T1D. • The incidence of DKA in gestational diabetes is low (<0.1%). · Diagnostic considerations: • Euglycaemic DKA (glucose <11.1 mmol/l [200 mg/dl]) may occur. • Mixed acid-base disturbances may occur with hyperemesis, making the diagnosis challenging. · Specific management considerations: • The significant feto-maternal risk requires immediate expert senior medical and obstetric intervention. • Ideally patients should be cared for in delivery suites or high-dependency units.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**End-stage kidney disease:** expect higher glucose and osmolality, more hyponatraemia and hyperkalaemia, lower β-hydroxybutyrate and possible fluid overload. Give fluids and potassium carefully and watch for cardiac complications.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 3] Special population: End-stage kidney disease [, ] · Clinical characteristics and presentation: • About 4% of patients with diabetes and end-stage kidney disease experienced DKA/HHS. • May present with fluid overload. High preexisting comorbidity burden with increased risk of mortality. · Diagnostic considerations: • Patients with end-stage kidney disease usually present with greater hyperglycaemia, more frequent hyponatraemia, higher osmolality, hyperkalaemia, and lower ketone concentrations of β-hydroxybutyrate compared with patients without end-stage kidney disease. · Specific management considerations: • Careful fluid administration and potassium replacement are needed. • Greater risk of cardiac co-complications.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Frail or older adults:** HHS and mixed DKA/HHS are more common than DKA alone. Match the fluid volume and rate to comorbidities and the trigger, review polypharmacy, and assess cognition, function and capacity for self-management.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 1] Special population: Frail or older adults [] · Clinical characteristics and presentation: • High rate of preexisting comorbidities. • High risk for hospital mortality, prolonged hospitalisation and DKA recurrences. · Diagnostic considerations: • Isolated HHS and mixed DKA/HHS occur more frequently than DKA. • Evaluate for specific precipitating factors and concurrent diagnoses (cardiovascular events, infection, medications). · Specific management considerations: • Fluid resuscitation and rate of fluid replacement need to account for comorbidities and acute precipitating events. • Address polypharmacy. · Future care considerations: • Assessment of cognitive and functional status, including capacity for self-management.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**High-dose steroids (for example in COVID-19) mean higher insulin doses** to clear refractory ketonaemia.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 5] Special population: COVID-19 [, ] · Clinical characteristics and presentation: • Higher frequency of DKA during the COVID-19 pandemic. • At-risk groups are adults with preexisting T2D. • High risk for complications, need for ICU care, longer hospital stays, and mortality. · Diagnostic considerations: • Usual diagnostic criteria. • Higher frequency of mixed DKA/HHS especially in older adults. · Specific management considerations: • Treatment with high-dose steroids requires higher-dose insulin to treat refractory ketonaemia.",
+   "locator": "American Diabetes Association, European Association for the Study of Diabetes, Joint British Diabetes Societies for Inpatient Care, American Association of Clinical Endocrinology and Diabetes Technology Society (Umpierrez GE et al.), Diabetologia, 'Hyperglycaemic crises in adults with diabetes: a consensus report', published 22 June 2024 (co-published in Diabetes Care 2024;47:1257-1275), https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/, retrieved 2026-09-23"
   },
   {
    "claim": "**Before discharge:** education on the episode and on diabetes self-management, sick-day advice, an insulin supply, and ketone testing. Offer CGM after discharge and follow up within 2–4 weeks.",

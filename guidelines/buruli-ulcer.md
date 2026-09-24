@@ -1,9 +1,9 @@
 # Buruli ulcer (Mycobacterium ulcerans infection)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** diagnosis, antibiotic treatment, surgery, paradoxical reactions, wound care and prevention of *M. ulcerans* skin infection in adults and children in Australia. Other nontuberculous mycobacteria: see `nontuberculous-mycobacterial-infection` (MAC focus; it excludes *M. ulcerans*). PBS access for rifampicin is in the table below.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 17 claims paraphrased from **Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases) — *Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement*** (published 23 February 2025; origin: AU). **36 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 claims paraphrased from **Medical Journal of Australia (endorsed by the Australasian Society for Infectious Diseases) — *Management of Mycobacterium ulcerans infection (Buruli ulcer) in Australia: consensus statement*** (published 23 February 2025; origin: AU). **45 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
 
 ---
 
@@ -41,6 +41,13 @@
 - **Children get oral rifampicin with clarithromycin at the adult dose and duration.** Alternatives used in paediatric centres: azithromycin 10 mg/kg (maximum 500 mg) daily, or ciprofloxacin 15 mg/kg (maximum 500 mg) twice daily. Liquid rifampicin is not PBS-subsidised for this indication. [S1]
 - **Paradoxical reactions occur in 39% of children;** a severe reaction warrants daily prednisolone at 0.5 mg/kg, capped at 40 mg, weaned slowly over a month or more. [S1]
 
+## Wound care (Box 4)
+
+- **Clean the wound bed and keep it covered.** Removing necrotic and inflammatory tissue helps healing and helps prevent paradoxical reactions and secondary infection: use a pharmacy topical debrider (none is proven better), clinic debridement by an experienced clinician, or surgery, and wash with sterile water, saline or clean shower water. Cover open wounds with an absorbent, breathable dressing, changed every one to three days by exudate or sooner if it soaks through; keep tight clothes and shoes off fragile wounds until healing matures. [S1]
+- **Keep the base moist but not macerated** (absorbent dressings for heavy exudate; honey is commonly used). For swelling, elevate the limb and use fitted compression if tolerated, and consider a diuretic for oedema from heart failure. Take a diet history, bring in a dietitian if nutrition is poor, and consider oral zinc and vitamin C. [S1]
+- **Fix what slows healing:** in leg ulcers check pulses and venous drainage, and refer for imaging and specialist input if the blood supply looks poor; support quitting smoking and cutting down alcohol; make glucose control a priority and screen readily for diabetes; optimise HIV treatment and watch interactions. Keep an affected joint moving; immobilise only briefly after surgery, on surgical and physiotherapy advice. [S1]
+- **Scars and other measures:** a regular emollient for everyone, silicone gel or sheeting where hypertrophic or keloid scarring is likely, and SPF 50+ sunscreen on the scar. Ulcers with much necrotic tissue are tetanus-prone, so offer a booster. Unusual or severe pain on treatment should prompt a search for deeper spread, secondary infection or a paradoxical reaction. Hyperbaric oxygen has no supporting evidence. [S1]
+
 ## Prevention
 
 - **Advise mosquito-bite avoidance** (repellent, covering clothing, screens), gloves and long sleeves when gardening, prompt washing and covering of cuts, and minimal contact with native possums and their droppings. [S1]
@@ -61,7 +68,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Wound-care measures (Box 4)** are in a table, which was stripped, and are not stated here. | `input_unavailable` |
+| 1 | **Wound-care measures (Box 4)** are now covered from the appended table rows (extracted as table 2). | `observation` |
 | 2 | **Evidence grading:** apart from the eight-week rifampicin regimen (high quality), the statement's evidence is very low or low quality (case series and expert opinion). | `observation` |
 | 3 | **PBS divergence:** rifampicin is PBS-listed for Buruli ulcer, but the source notes the paediatric liquid formulation is not subsidised for it. | `observation` |
 | 4 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |

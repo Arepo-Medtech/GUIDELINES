@@ -1,9 +1,9 @@
 # Chronic hypoparathyroidism in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with chronic hypoparathyroidism (mostly after neck surgery): diagnosis, predicting permanence after thyroidectomy, genetic testing, conventional treatment with calcium and active vitamin D (calcitriol in Australia), treatment targets, when PTH replacement is considered, monitoring, and pregnancy. Hypocalcaemia in children and acute post-operative hypocalcaemia are not covered. Secondary hyperparathyroidism in CKD: `secondary-hyperparathyroidism-ckd`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **45 fragments or anchors re-checkable by machine; 2 doses.** **S1** Clarke BL (published 10 November 2022; international): 21 claims, quoted · **S2** Delphi panel of seven experts from Germany (published 12 August 2025; international): 6 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **46 fragments or anchors re-checkable by machine; 2 doses.** **S1** Clarke BL (published 10 November 2022; international): 21 claims, quoted · **S2** Delphi panel of seven experts from Germany (published 12 August 2025; international): 7 claims, quoted
 
 > ⚠️ **S2 is a small regional Delphi consensus (7 experts, DACH region, 2025), industry-funded (Ascendis).** It adds post-operative testing, the current PTH-replacement position and monitoring intervals; **S1** (Second International Workshop, 2022) remains the main source. Where they differ, both are shown.
 
@@ -22,6 +22,7 @@
 - **Genetic testing for non-surgical hypoparathyroidism** with a family history, syndromic features, or age under 40; test for AIRE variants when there are other features of APECED. [S1]
 - **Complications (median across studies):** cataracts 24%, infections 18%, nephrocalcinosis or stones 15%, renal insufficiency 13%, seizures 12%, depression 11%, ischaemic heart disease 9%, arrhythmias 7%. [S1]
 - **S2 consensus on making the diagnosis:** measure albumin-adjusted calcium, albumin and PTH together; an isolated calcium or 25OH vitamin D is not enough, and there is no universally accepted PTH cut-off. Low calcium is an albumin-adjusted total calcium of 2.1 mmol/L or below; a fall of more than 70% from pre- to post-operative PTH is strongly associated with chronic disease (PARAT). [S2]
+- **The three commonest symptoms are paraesthesia, muscle cramps and fatigue** (S2 Table 4), a pointer for non-specialists; the guideline complication list (cataract, infection, kidney calcification or stones, renal insufficiency, seizures, depression, heart disease, arrhythmia) is broader. [S2]
 - **After neck surgery, check albumin-adjusted calcium at 12–24 h, again within 2 weeks, then every 3–6 months,** and later still if symptoms suggest hypoparathyroidism. Monitor more often with higher-risk surgery: female sex, central or lateral neck dissection, total thyroidectomy, incidental parathyroidectomy or cancer. [S2]
 - **Most acute post-operative hypoparathyroidism recovers within 6–12 months;** the S2 panel agreed recovery can no longer be expected after 12 months (no consensus on 6 months), consistent with S1. The commonest symptoms are paraesthesia, muscle cramps and fatigue. [S2]
 
@@ -75,7 +76,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 5 | **ESE 2025 revised guideline** (Bollerslev et al., Eur J Endocrinol, doi 10.1093/ejendo/lvaf222, CC BY-NC) exists but is behind a bot challenge at academic.oup.com and has no PMC copy; it was not used. | `observation` |
 | 6 | **Sources differ on vitamin D and urine monitoring:** S1 keeps 25OHD in the laboratory normal range (e.g. 75–125 nmol/L) and checks 24-h urine every 6–24 months; S2 accepts 25OHD above 50 nmol/L and checks urine calcium yearly. Both are shown. | `observation` |
 | 7 | **PTH replacement in Australia:** neither palopegteriparatide nor rhPTH(1–84) is among the PBS drugs listed below; S2 describes European availability only. Check TGA status. | `observation` |
-| 8 | **S2's consensus tables (Tables 1–4) and the non-consensus statements (Supplement Table S1)** were stripped or not retrieved. | `input_unavailable` |
+| 8 | **S2's consensus tables:** Table 4 (guideline recommendations and Delphi clarifications) is now extracted; it restates the diagnosis, monitoring and quality-of-life points already quoted and adds the three commonest symptoms. Tables 1–3 have merged cells and were not extracted, and the non-consensus statements (Supplement Table S1) were not retrieved, so they stay gaps. | `input_unavailable` |
 | 9 | **Licence (S2):** CC BY 4.0; S2 claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources

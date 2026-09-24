@@ -1,9 +1,9 @@
 # High-risk neuroblastoma — eflornithine maintenance
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** what high-risk neuroblastoma is, and the place, evidence, dosing, safety and monitoring of oral eflornithine (DFMO) maintenance after response to multimodality therapy; plus, from S2, the European (SIOPEN) dinutuximab beta immunotherapy schedule and the management of its adverse effects. Induction and consolidation regimens are not covered. Related: `febrile-neutropenia-children`, `anticancer-drugs-general-principles`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **36 fragments or anchors re-checkable by machine; 6 doses.** **S1** Australian Prescriber (published 2 June 2026 (finalised 13 April 2026); AU): 14 claims, paraphrased, hash-anchored · **S2** Barone G (published 20 September 2021; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **45 fragments or anchors re-checkable by machine; 7 doses.** **S1** Australian Prescriber (published 2 June 2026 (finalised 13 April 2026); AU): 15 claims, paraphrased, hash-anchored · **S2** Barone G (published 20 September 2021; international): 17 claims, paraphrased, hash-anchored
 
 > ⚠️ **S1 is an Australian Prescriber new-drug comment, not a treatment guideline;** the eflornithine claims rest on it. **S2 is European expert practical guidance (industry-funded), not a formal guideline;** the dinutuximab beta claims marked S2 rest on it. Induction and consolidation remain specialist paediatric oncology protocol care and are not described here.
 
@@ -31,6 +31,11 @@
 - **Capillary leak:** watch blood pressure and weight; mild leak may need no treatment, otherwise manage fluids by weight, blood pressure and local protocol. Use diuretics cautiously because of hypotension; furosemide suits marked weight gain with pulmonary oedema or ascites when blood pressure is normal. [S2]
 - ⚠️ **Transverse myelitis: stop the infusion immediately and never restart dinutuximab beta;** give IV immunoglobulin and high-dose steroids. Children with severe neuropathy should not be rechallenged even after full recovery. [S2]
 - **Raised liver enzymes without symptoms need no action:** below 20 times the upper limit of normal, monitor closely and keep the dose; avoid hepatotoxic drugs. [S2]
+- ⚠️ **Pain, further detail (S2 Table 2):** paracetamol or ibuprofen are advised for the first cycle or cycles and may be dropped in later cycles that are painless. Gabapentin may be paused between courses or given without a break, and is tapered off when dinutuximab beta ends. With daily infusions, morphine can continue for 4 h after each infusion finishes at a lower rate (for example 0.01 mg/kg/h). Hyoscine butylbromide can help abdominal pain; if pain stays uncontrolled, add IV ketamine and consider changing the antibody's rate and dose. [S2]
+- **Fever (S2 Table 2):** paracetamol, ibuprofen or metamizole (where licensed) can prevent or treat it. Treat febrile neutropenia with antibiotics under local guidelines at least until cultures are negative and nothing else suggests bacterial infection; fever lasting beyond 48–72 h despite adequate care should prompt a search for other causes, such as fungal or viral infection. A well-tolerated fever that is not very high may need no supportive treatment. [S2]
+- ⚠️ **Hypersensitivity by grade (S2 Table 2):** grade 1–2, the infusion may be paused or slowed while symptoms are treated; grade 3 or above, interrupt at once and treat; severe, life-threatening reactions, stop and discontinue for good, with IV antihistamine, adrenaline and steroids (adrenaline may be intramuscular or slow IV in anaphylaxis). Keep steroids for severe and life-threatening reactions. [S2]
+- **Capillary leak and eyes (S2 Table 2):** severe leak calls for fluid restriction, human albumin solution when albumin is low, oxygen for hypoxaemia and, very rarely, slowing or pausing the infusion. For visual effects, arrange a full eye examination with follow-up; corrective glasses for pupillary palsy, sunglasses when sunlight worsens symptoms, and 1% pilocarpine can help. [S2]
+- **Other effects (S2 Table 2):** mild diarrhoea needs fluids, severe diarrhoea loperamide or racecadotril. Moderate neuropathy: pause dinutuximab beta and restart once symptoms have gone. Blood-count falls usually need only blood-product support under local practice; check electrolytes often and correct fluids as needed. [S2]
 
 ## Eflornithine: who and why
 
@@ -45,6 +50,7 @@
 - **Oral, twice a day, dosed by body surface area:** from 192 mg (1 tablet) up to 768 mg (4 tablets) per dose. Continue for 2 years, or until recurrence or unacceptable toxicity. Lower doses can be used for adverse effects. [S1]
 - **Reduce the dose in severe renal impairment** (eGFR below 30 mL/min/1.73 m²). [S1]
 - **Tablets can be chewed, or crushed into a little liquid,** for children who cannot swallow them. [S1]
+- **Product:** eflornithine is marketed as Ifinwil (Norgine), 192 mg oral tablets, approved for adults and children with high-risk neuroblastoma that has responded to earlier multiagent, multimodality treatment. [S1]
 
 ## Safety and monitoring
 
@@ -68,12 +74,13 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The body-surface-area dose bands** are in the Product Information (and a stripped table), not in the text, and are not stated here. | `input_unavailable` |
+| 1 | **The body-surface-area dose bands** are in the Product Information, not in the text, and are not stated here. S1's only table, now read, is the product summary (brand, strength, route, indication) and has no dose bands. | `input_unavailable` |
 | 2 | **Induction, consolidation (high-dose chemotherapy with autologous transplant) and radiotherapy** for high-risk neuroblastoma are not covered; anti-GD2 immunotherapy is now covered from S2 (European dinutuximab beta schedule and toxicity care only). No open, current guideline for the whole pathway was found (Europe PMC search, repeated 2026-09-24; NCCN is unusable; the 2025 Latin American anti-GD2 consensus was blocked by a bot challenge). | `out_of_scope` |
 | 3 | **S2 is industry-funded expert guidance (EUSA Pharma) from 2021** and describes the European SIOPEN regimen; US COG practice uses dinutuximab with cytokines. Australian access to anti-GD2 antibodies was not checked, and the PBS row lists eflornithine only. | `observation` |
 | 4 | **Sequence:** S1 places eflornithine after at least partial response to induction and consolidation including immunotherapy; S2 covers that immunotherapy step. Neither source addresses how the two are timed against each other beyond this. | `observation` |
-| 5 | **S2's key-recommendations table (Table 2) and schedule figure (Fig. 1)** were not machine-read; the doses shown are those stated in the prose. | `input_unavailable` |
-| 6 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **S2's adverse-event table (Table 2)** is now read from its row lines and used. Its key-points box (Table 1, merged cells), the schedule figure (Fig. 1) and the hypersensitivity flow charts (Fig. 2) were not machine-read. | `input_unavailable` |
+| 6 | **Morphine bolus units differ within S2:** the prose gives the pre-infusion bolus as 0.05–0.1 mg/kg, while Table 2 writes it as 0.05–0.1 mg/kg/h. The page gives the prose figure (a bolus is a single dose); check the product information or local protocol. | `observation` |
+| 7 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 

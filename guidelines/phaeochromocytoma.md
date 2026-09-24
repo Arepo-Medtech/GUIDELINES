@@ -1,9 +1,9 @@
 # Phaeochromocytoma and paraganglioma
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with phaeochromocytoma and paraganglioma (PPGL): biochemical and imaging diagnosis, preoperative alpha-blockade and volume repletion, surgery and postoperative care, hypertensive crisis, pregnancy, genetic testing and long-term surveillance. Neuroendocrine neoplasms generally, including MEN syndromes, are in `neuroendocrine-neoplasms`; orthostatic hypotension in `orthostatic-hypotension-and-pots`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **73 fragments or anchors re-checkable by machine; 3 doses.** **S1** Japan Endocrine Society (published online 10 October 2025 (issue 6 January 2026); international): 21 claims, paraphrased, hash-anchored · **S2** Lenders JWM (published August 2020; international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **76 fragments or anchors re-checkable by machine; 3 doses.** **S1** Japan Endocrine Society (published online 10 October 2025 (issue 6 January 2026); international): 24 claims, paraphrased, hash-anchored · **S2** Lenders JWM (published August 2020; international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Japan Endocrine Society, 2025). Australian practice follows the PBS listings below and may differ.
 
@@ -29,6 +29,8 @@
 - ⚠️ **High-dose dexamethasone can trigger a hypertensive crisis:** use glucocorticoids cautiously when PPGL is suspected. [S1]
 - **Image to locate, stage and look for metastases:** CT for primary tumours and lung or liver deposits; MRI for head and neck paraganglioma, adrenal cortical differentiation, and in children or when repeated scans are needed. 123I-MIBG is highly specific; 18F-FDG PET is better for metastases, especially with SDHx variants. [S1]
 - **ESH imaging choices:** 68Ga-DOTA-somatostatin-analogue PET is first choice for head and neck paraganglioma, suspected SDH-related tumours and metastatic disease; 18F-FDOPA PET suits VHL or HIF2A tumours; 123I-MIBG is a fallback when PET is not available. Functional imaging is advised to exclude metastases in phaeochromocytomas over 5.0 cm and with SDHA/B/D variants. [S2]
+- **Drugs and foods that can distort catecholamine results (S1 Table 3):** tricyclic antidepressants, levodopa, adrenergic agonists such as decongestant nasal sprays (naphazoline, tramazoline), many psychotropics (buspirone, for example), prochlorperazine, clonidine withdrawal, alcohol, amphetamines and metoclopramide; and caffeinated coffee, bananas, citrus, vanilla-flavoured foods, tyramine-rich cheese and red wine. [S1]
+- **Imaging strengths and limits (S1 Table 4):** CT offers high spatial resolution and a typical pattern (unenhanced attenuation above 10 HU, dense arterial enhancement with late washout); MRI typically shows low T1 and high T2 signal without loss on opposed-phase imaging; neither is specific, so adrenal cancer and metastasis must be excluded. 123I-MIBG is specific and surveys the whole body but is less sensitive, especially in metastatic and SDHx-variant disease; 111In-octreotide is specific and still sensitive with SDHx variants, though low in resolution; 18F-FDG PET is sensitive but non-specific; 18F-FDOPA PET is specific and sensitive even in metastatic and SDHx disease but is not approved in Japan. [S1]
 
 ## Prepare for surgery
 
@@ -52,6 +54,7 @@
 
 ## Hypertensive crisis
 
+- ⚠️ **Triggers of hypertensive crisis (S1 Table 5).** Daily life: bending over, exercise, a blow to the abdomen, overeating, tyramine-rich food (aged cheese, red wine), alcohol, sneezing, passing urine or stool, stress, smoking and pregnancy. Procedures: abdominal palpation, enemas, tumour biopsy and iodinated contrast. Drugs: dopamine antagonists such as metoclopramide (contraindicated by mouth and by injection; domperidone needs similar caution), glucagon, a beta-blocker on its own, tricyclics, SNRIs, MAO inhibitors and dexamethasone above 2 mg. Other treatments: CVD chemotherapy, 131I-MIBG or external radiotherapy, arterial embolisation, ablation and contrast media. [S1]
 - ⚠️ **Hypertensive crisis (3–11% incidence, about 15% mortality) needs hospital admission:** give intravenous phentolamine, then a continuous infusion, adding calcium channel blockers or nitrates as needed; switch to oral doxazosin once stable. (1B) [S1]
 - **Initial aim:** diastolic pressure at or under 110 mmHg, then about 160/100 mmHg within 2–6 hours. Phentolamine-induced tachycardia is treated with an oral beta-blocker. [S1]
 
@@ -87,7 +90,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Alpha-blocker preference differs:** S1 puts selective alpha-1 blockers first (phenoxybenzamine unavailable in Japan); S2 treats phenoxybenzamine and doxazosin as equal first choices and reports more intraoperative stability with phenoxybenzamine. Both are shown. | `observation` |
 | 3 | **Imaging preference differs:** S1 favours 123I-MIBG (highly specific) and 18F-FDG PET for metastases; S2 (2020) makes 68Ga-DOTA-somatostatin PET first choice and MIBG a fallback. **SDHB metastatic risk** is 35–75% in S1 and 30–70% in S2. Both are shown. | `observation` |
 | 4 | **Follow-up length differs:** S1 advises lifelong follow-up for hereditary PPGL and 10 years or more for high-risk sporadic tumours; S2 advises follow-up for everyone for the first ten years and says data beyond ten years are insufficient. Both are shown. | `observation` |
-| 5 | **Drugs and foods that interfere with testing (Table 3), crisis triggers (Table 5) and the diagnostic and metastatic algorithms** are in tables or figures that were stripped. | `input_unavailable` |
+| 5 | **Now covered from S1's table rows:** drugs and foods that interfere with testing (Table 3), the imaging comparison (Table 4) and crisis triggers (Table 5). **Still missing:** S1's diagnostic criteria for PPGL and for metastatic PPGL (Tables 6-7, merged cells), S2's four tables (symptoms, interfering drugs, nuclear-imaging algorithm, genes; merged cells) and the diagnostic and metastatic algorithms (figures). | `input_unavailable` |
 | 6 | **Metastatic PPGL treatment:** S2 now gives the outline (chemotherapy, radionuclide therapy, radiotherapy) without doses; S1's Chapter II (131I-MIBG, chemotherapy, targeted therapy) is still not summarised. | `out_of_scope` |
 | 7 | **Other sources considered:** the Endocrine Society 2014 guideline (JCEM) is over 10 years old and was not read. The ESH 2020 position statement is now S2; it has no open licence in its PMC record, so it is paraphrased. | `observation` |
 | 8 | **Licences:** S1 is CC BY-NC-ND 4.0 and S2 has no open licence (free to read, copyright retained). All claims are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |

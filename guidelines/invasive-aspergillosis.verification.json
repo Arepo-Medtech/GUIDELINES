@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/invasive-aspergillosis.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Patterson et al.), Oxford University Press 'Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)' (2016), 20 claims; LICENCE: 'This work is written by (a) US Government employee(s) and is in the public domain in the US.' Status outside the US not stated, so paraphrased. (read at permissions statement on the PMC article page PMC4967602 (read 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST) 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline' (2025), 6 claims; LICENCE: Copyright © 2025 by the American Thoracic Society. 'You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.' (read at Europe PMC fullTextXML <permissions> element for PMC11755356). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS 2025 clinical practice guideline, paraphrased and hash-anchored; it answers one aspergillosis question (triazole monotherapy versus triazole plus echinocandin) and states no doses. The S1 claims are unchanged. The Australasian 2021 consensus (Intern Med J, doi 10.1111/imj.15591) was retried on 2026-09-24 and Wiley again returned HTTP 403; Unpaywall lists no open copy. A CC BY German ICU guideline (Infection 2025, PMC12316785) was read but gives no doses in its text and was not used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Patterson et al.), Oxford University Press 'Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)' (2016), 20 claims; LICENCE: 'This work is written by (a) US Government employee(s) and is in the public domain in the US.' Status outside the US not stated, so paraphrased. (read at permissions statement on the PMC article page PMC4967602 (read 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST) 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline' (2025), 7 claims; LICENCE: Copyright © 2025 by the American Thoracic Society. 'You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.' (read at Europe PMC fullTextXML <permissions> element for PMC11755356). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS 2025 clinical practice guideline, paraphrased and hash-anchored; it answers one aspergillosis question (triazole monotherapy versus triazole plus echinocandin) and states no doses. The S1 claims are unchanged. The Australasian 2021 consensus (Intern Med J, doi 10.1111/imj.15591) was retried on 2026-09-24 and Wiley again returned HTTP 403; Unpaywall lists no open copy. A CC BY German ICU guideline (Infection 2025, PMC12316785) was read but gives no doses in its text and was not used. Table rows appended with pmc_text.py --append-tables (2026-09-24) to S2; a claim from S2 Table 1 (studies behind the combination question) was added. S2 Tables 2–4 have merged cells and were not extracted; S2 Table 5 (risk of bias) was not used.",
  "summary": {
-  "total": 26,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 26
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -293,6 +293,39 @@
      "h": "05e3f9008dd0bc3e",
      "n": 167,
      "p": "All of t"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The evidence behind S2's combination advice (S2 Table 1):** five studies, all in haematological malignancy or stem cell transplant. Four were retrospective comparisons of voriconazole with and without caspofungin (Marr 2004 and Raad 2015 including salvage therapy; Upton 2007 and Pagano 2010 primary therapy), judged on 3- or 4-month IPA-attributable mortality; the only randomised trial (Marr 2015) compared voriconazole with and without anidulafungin, judged on 6-week and 3-month mortality.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb38c4bf6108e61c",
+     "n": 371,
+     "p": "[Table 1"
+    },
+    {
+     "h": "f9186a6b7c8ab2b6",
+     "n": 324,
+     "p": "[Table 1"
+    },
+    {
+     "h": "3999ad261ea2c7ef",
+     "n": 344,
+     "p": "[Table 1"
+    },
+    {
+     "h": "1896b7f6bc0cd96f",
+     "n": 407,
+     "p": "[Table 1"
+    },
+    {
+     "h": "78df6f516eb4e0ab",
+     "n": 419,
+     "p": "[Table 1"
     }
    ],
    "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"

@@ -1,9 +1,9 @@
 # Panic disorder in adults
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with panic disorder, with or without agoraphobia: recognition and diagnosis, a panic attack presenting to the emergency department, stepped care from self-help to CBT and antidepressants, specialist referral, and monitoring. Generalised anxiety disorder: see `generalised-anxiety-disorder`. Children and adolescents: see `anxiety-children`. Comorbid depression: see `major-depressive-disorder`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **43 fragments or anchors re-checkable by machine; 3 doses.** **S1** National Institute for Health and Care Excellence (NICE) (published 26 January 2011, last updated 15 June 2020, last reviewed 11 September 2026; international): 21 claims, paraphrased, hash-anchored · **S2** Bandelow B (published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021); international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **46 fragments or anchors re-checkable by machine; 3 doses.** **S1** National Institute for Health and Care Excellence (NICE) (published 26 January 2011, last updated 15 June 2020, last reviewed 11 September 2026; international): 21 claims, paraphrased, hash-anchored · **S2** Bandelow B (published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021); international): 14 claims, quoted
 
 > ⚠️ International guideline (NICE CG113, 2011, updated 2020). Australian practice follows the PBS listings below and may differ.
 
@@ -21,6 +21,7 @@
 - **Expect comorbidity, especially depression and substance misuse.** Before an SSRI, ask about cocaine use (interactions) and do not stack serotonergic drugs. [S1]
 - **Agree with the person which problem to treat first**; a timeline of when each problem began helps set priorities among comorbidities. [S1]
 - **A single panic attack is not panic disorder.** In the emergency department, chest pain is more likely to be panic disorder when coronary disease is absent and the person is female or relatively young. [S1]
+- **What panic disorder looks like (S2, ICD-10 F41.0):** sudden anxiety attacks with physical symptoms such as palpitations, sweating, tremor, dry mouth, breathlessness, a choking feeling, chest pain, abdominal discomfort, unreality and pins and needles; attacks can come out of the blue, and many people then avoid places where they fear one. **Agoraphobia (F40.0)** is fear of places that would be hard or embarrassing to leave during an attack, such as crowds, public transport or lifts; fear of being alone is common, and a companion may ease it. [S2]
 - ⚠️ **Panic attack in the emergency department:** ask whether they are already being treated, do only the minimum tests needed to exclude an acute physical cause, usually do not admit, and refer back to primary care with written information explaining why. [S1]
 - ⚠️ **Acute panic attack:** calm explanation that the attack is not a sign of serious illness is usually enough. Emergency medication is rarely needed; only in severe cases may lorazepam 1.0–2.5 mg (melting tablet) be given as needed. [S2]
 - **Consider admission** for suicidality, chronic anxiety that has not responded to standard outpatient treatment, or marked comorbidity (major depression, personality disorder, substance misuse). [S2]
@@ -45,6 +46,7 @@
 - **Antidepressants are the only drugs for longer-term treatment.** SSRIs, SNRIs and tricyclics all have supporting evidence. [S1]
 - **Offer an SSRI first**, unless there is a reason not to. If an SSRI is unsuitable, or a 12-week course has not helped, imipramine or clomipramine can be considered. [S1]
 - **S2's first line is an SSRI or an SNRI;** clomipramine is second line for panic disorder (as effective, more side effects). [S2]
+- **Common adverse effects (S2 table):** SSRIs and SNRIs cause jitteriness, nausea, restlessness, headache, fatigue, appetite and weight change either way, tremor, sweating, sexual dysfunction, diarrhoea or constipation; SSRIs also QTc prolongation and SNRIs urinary problems. Tricyclics cause anticholinergic effects, drowsiness, dizziness, cardiovascular effects, weight gain, nausea, headache and sexual dysfunction. Check the product information for the full list. [S2]
 - ⚠️ **Benzodiazepines (S2):** advised against because of abuse potential, although effective. In exceptional cases (such as severe heart disease, suicidality or contraindications to standard drugs) they may be used for a limited time after weighing risks and benefits. [S2]
 - **Improve adherence at the start:** warn that antidepressants take about 2 weeks to work (range 1–6 weeks) and may cause early jitteriness; start at half the usual dose; give the dose in the morning or at midday to avoid insomnia. [S2]
 - **Choosing the drug:** weigh age, past response, accidental and deliberate overdose risk (highest with tricyclics), tolerability, interactions, the person's preference, and cost where drugs work equally well. [S1]
@@ -87,7 +89,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 3 | **Where alprazolam fits:** NICE (S1) says benzodiazepines should not be prescribed; the German guideline (S2) advises against them but allows time-limited use in exceptional cases, and lorazepam for a severe acute attack. Neither addresses the PBS alprazolam listing; no usable Australian source does. | `observation` |
 | 4 | **When to switch a drug that is not working:** NICE (S1) after a 12-week course; S2 after 4–6 weeks without response. Both are shown. | `observation` |
 | 5 | **Order of treatment:** NICE (S1) steps from self-help to CBT or medication; S2 finds no evidence for a fixed order, allows both to start together, and does not want internet programs used alone. Both are shown. | `observation` |
-| 6 | **SNRIs:** S2 names SSRIs and SNRIs as first line; the PBS panic-disorder listings cover sertraline, paroxetine and alprazolam only. S2's drug and dose table (Table 3) was stripped. | `input_unavailable` |
+| 6 | **SNRIs:** S2 names SSRIs and SNRIs as first line; the PBS panic-disorder listings cover sertraline, paroxetine and alprazolam only. S2's drug and dose table (Table 3) has merged cells and was not extracted by the 2026-09-24 table pass, so S2 doses are still missing. | `input_unavailable` |
 | 7 | **NICE's stepped-care figure** was a table and was stripped. | `input_unavailable` |
 | 8 | **Licence:** © NICE; outside the UK its content may not be reproduced without written agreement. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 

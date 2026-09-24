@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/hypoparathyroidism.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force' (published 10 November 2022), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10118814). S2: QUOTED from Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5) 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region' (published 12 August 2025), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12343711). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 Delphi consensus of seven experts from Germany, Austria and Switzerland (Calcified Tissue International, CC BY 4.0, quoted), for post-operative testing, current PTH replacement (palopegteriparatide; rhPTH(1-84) withdrawn) and monitoring intervals. S2 was funded by Ascendis, maker of palopegteriparatide (stated in its funding section). The ESE 2025 revised guideline (Eur J Endocrinol, CC BY-NC) was found but sits behind a bot challenge on academic.oup.com and has no PMC copy, so it was not used. No Australian hypoparathyroidism guideline was found. S1 claims and quotes are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Clarke BL, for the Second International Workshop on Hypoparathyroidism task forces, Archives of Endocrinology and Metabolism 'Hypoparathyroidism: update of guidelines from the 2022 International Task Force' (published 10 November 2022), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10118814). S2: QUOTED from Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5) 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region' (published 12 August 2025), 7 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12343711). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 Delphi consensus of seven experts from Germany, Austria and Switzerland (Calcified Tissue International, CC BY 4.0, quoted), for post-operative testing, current PTH replacement (palopegteriparatide; rhPTH(1-84) withdrawn) and monitoring intervals. S2 was funded by Ascendis, maker of palopegteriparatide (stated in its funding section). The ESE 2025 revised guideline (Eur J Endocrinol, CC BY-NC) was found but sits behind a bot challenge on academic.oup.com and has no PMC copy, so it was not used. No Australian hypoparathyroidism guideline was found. S1 claims and quotes are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); a claim from S2 Table 4 adds the three commonest symptoms; S2 Tables 1–3 (merged cells) were not extracted. S1 has no tables.",
  "summary": {
-  "total": 27,
-  "pass": 27,
+  "total": 28,
+  "pass": 28,
   "fail": 0
  },
  "claims": [
@@ -64,6 +64,13 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "The experts also unanimously agreed on a combination of serum albumin-adjusted calcium, serum albumin, and serum PTH levels as a prerequisite for the diagnosis of HypoPT, whereas the measurement of isolated serum calcium and serum concentrations of 25 (OH) vitamin D is not adequate for diagnosis. Regarding serum albumin-adjusted calcium, they agreed on the possibility of an assessment 12-24 h post-surgically, within 2 weeks postoperative, as well as subsequently every 3 to 6 months thereafter. With regards to serum PTH levels, respondents agreed that there is no generally recognized threshold that could be used as a diagnostic criterion (6 out of 7 agreed). … Low serum calcium is defined as a subnormal albumin-adjusted total calcium of ≤ 8.4 mg/dL or ≤ 2.1 mmol/L []. … The Position Statement of the PARAT program identified an additional approach, namely calculating the ratio between pre- and post-surgical serum PTH concentrations and the decrease of > 70% as being strongly associated with chronic Hypo-PT []. … They suggest that both serum PTH and albumin-adjusted calcium levels should be measured by the same laboratory where the initial postoperative measurements were performed []",
+   "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The three commonest symptoms are paraesthesia, muscle cramps and fatigue** (S2 Table 4), a pointer for non-specialists; the guideline complication list (cataract, infection, kidney calcification or stones, renal insufficiency, seizures, depression, heart disease, arrhythmia) is broader.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 3] Content of the existing guidelines: Cataract, infections, nephrocalcinosis/nephrolithiasis, renal insufficiency, seizures, depression, ischemic heart disease, arrhythmias are the most common complications [] Various neuromuscular, CNS, cardiovascular, gastrointestinal, renal and respiratory symptoms associated with hypo- or hypercalcemia [] · Clarification by this Delphi survey: Paresthesia, muscle cramps, and fatigue are the three most common symptoms · Explanation for the clarification: Most important symptoms could be helpful for non-specialist physicians as diagnostic differentiation",
    "locator": "Delphi panel of seven experts from Germany, Austria and Switzerland (Tsourdi E, Amrein K, Meier C, Ketteler M, Kreissl MC, Mathew A, Vogelmann T, Schubert T, Siggelkow H), Calcified Tissue International (doi 10.1007/s00223-025-01414-5), 'Consensus-Based Recommendations for the Diagnosis, Treatment, and Monitoring of Hypoparathyroidism: Insights from the DACH Region', published 12 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12343711/, retrieved 2026-09-24"
   },
   {

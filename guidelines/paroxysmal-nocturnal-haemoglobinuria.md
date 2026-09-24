@@ -1,9 +1,9 @@
 # Paroxysmal nocturnal haemoglobinuria — clone monitoring and treatment, with a focus on aplastic anaemia
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** how PNH arises and presents, flow-cytometric diagnosis, laboratory markers, clone monitoring and complement-inhibitor treatment, as set out by a seven-country Asia–Pacific panel whose recommendations focus on PNH arising in aplastic anaemia. S1 does not cover proximal complement inhibitors, breakthrough haemolysis or anticoagulation; edition 2.0 adds S2 (Singapore consensus, 2024), which covers screening, meningococcal vaccination, monitoring on eculizumab, breakthrough haemolysis, proximal inhibitors, anticoagulation and pregnancy. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **48 fragments or anchors re-checkable by machine; 1 doses.** **S1** Asia–Pacific expert panel (Wong RSM (published 13 November 2024; international): 21 claims, quoted · **S2** Singapore haematology expert panel (Goh YT (published 28 June 2024; international): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **50 fragments or anchors re-checkable by machine; 1 doses.** **S1** Asia–Pacific expert panel (Wong RSM (published 13 November 2024; international): 22 claims, quoted · **S2** Singapore haematology expert panel (Goh YT (published 28 June 2024; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Asia–Pacific expert panel, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -35,6 +35,7 @@
 
 - **Panel recommendation for AA:** screen for PNH at AA diagnosis. If no PNH cells are found, repeat flow cytometry at least every 2–3 years and check LDH and reticulocytes at every visit. Do on-demand flow cytometry for a high LDH or new significant symptoms such as thrombosis. Once PNH cells are detected, repeat flow cytometry at least yearly. [S1]
 - **Other guidelines set intervals of** every 3–6 months for at least 2 years, then yearly once stable. There is no consensus on the best frequency. [S1]
+- **How three other bodies time PNH testing in aplastic anaemia (S1 Table 1):** the International PNH Interest Group advises flow cytometry at diagnosis, then every 6 months for 2 years and yearly if stable, with testing sooner if the course changes; the International Clinical Cytometry Society screens clone-negative patients every 6 months, moving to yearly after 2 clone-free years, and every 3 months once a clone appears until its size has been stable for 2 years; the Canadian consensus tests at diagnosis and at least every 6 months. [S1]
 - **A D-dimer can help** detect subclinical thrombosis when LDH is raised. [S1]
 - ⚠️ **The 'clinically meaningful' clone-size cut-off depends on the country's reimbursement rules**, e.g. a red-cell clone of 1% in Japan but 10% in many countries. [S1]
 - **Subclinical PNH (S2): no treatment, but review every 6–12 months** (less often when stable), because the clone can expand into haemolytic or thrombotic disease; small clones in marrow failure are reviewed on the same 6–12-month cycle. [S2]
@@ -75,7 +76,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **Proximal complement inhibitors** (pegcetacoplan, iptacopan) are in the PBS listing data. S1 does not discuss them; S2 gives pegcetacoplan trial results and notes iptacopan's approval, but its C5-to-C3 switching criteria are in a table that was not read, and neither source gives doses. | `input_unavailable` |
 | 2 | **Meningococcal vaccination, breakthrough and extravascular haemolysis on C5 inhibition, and anticoagulation** are not in S1; S2 now covers them. Neither source gives an Australian vaccination or antibiotic-prophylaxis schedule; check local practice. | `observation` |
-| 3 | **The comparison of existing guidelines and the panel's monitoring and treatment summaries** (Tables 1–4) are in tables, which were stripped. | `input_unavailable` |
+| 3 | **S1's tables are now read.** Tables 3 (monitoring) and 4 (treatment by dominant problem) repeat what the text already says. From Table 1 only the first row (IPIG, ICCS, Canada) is used: the extractor read the table's country sub-headings as data rows, so the German, Belgian, Brazilian, Turkish, UK and Japanese cells carry the wrong column labels and are not used. Table 2 could not be extracted (merged cells). | `input_unavailable` |
 | 4 | **Skipped source:** Fattizzo et al., 'Expert Consensus on the Diagnosis and Monitoring of PNH' (Eur J Haematol 2026, CC BY per Europe PMC and Unpaywall). This is an Italian national panel, and the Wiley article and PDF returned HTTP 403, so it could not be read. The Taiwan 2025 consensus (CC BY-NC-ND) is not in PMC. | `observation` |
 | 5 | **No Australian clinical PNH guideline was found.** The only Australian material is the Services Australia PBS authority page, which is administrative. | `observation` |
 | 6 | **Monitoring intervals differ:** S1 (PNH in aplastic anaemia) repeats flow cytometry at least yearly once PNH cells appear; S2 suggests review every 6–12 months for subclinical PNH and small clones. Both are shown. | `observation` |

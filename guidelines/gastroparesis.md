@@ -1,9 +1,9 @@
 # Idiopathic gastroparesis
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with idiopathic gastroparesis (IGP): assessment, gastric emptying testing, nutrition, prokinetic and antiemetic drugs, neuromodulators, psychological care and interventional options. Diabetic and postsurgical gastroparesis are outside the source's scope. Vomiting in children is in `vomiting`; terminal-phase nausea is in `palliative-care-terminal-phase-medicines`. The PBS row 'Nausea or gastric stasis' (metoclopramide) is broader than IGP. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **80 fragments or anchors re-checkable by machine; 1 doses.** **S1** Gastroenterological Society of Australia (GESA) (published 3 June 2026; AU): 22 claims, paraphrased, hash-anchored · **S2** UEG and ESNM (Schol J (published April 2021; international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **84 fragments or anchors re-checkable by machine; 1 doses.** **S1** Gastroenterological Society of Australia (GESA) (published 3 June 2026; AU): 25 claims, paraphrased, hash-anchored · **S2** UEG and ESNM (Schol J (published April 2021; international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ **Idiopathic gastroparesis only.** The PBS row (metoclopramide for nausea or gastric stasis) also covers diabetic, postsurgical and drug-related gastric stasis, which this statement does not address.
 
@@ -41,6 +41,9 @@
 - **Most patients should be managed by eating, not tubes:** up to 60% improve with diet plus a prokinetic. Use 6–10 small, well-chewed or blended meals a day, oral supplements if intake falls short, and stay upright 1–2 h after eating. A low-fat diet is unproven and contraindicated in malnutrition. [S1]
 - **A 6-week low-FODMAP trial may help epigastric symptoms, but restrictive diets are contraindicated with malnutrition or disordered eating.** Treat constipation with standard therapy. [S1]
 - ⚠️ **Avoid tube feeding where possible, and avoid parenteral nutrition.** Temporary nasogastric (not post-pyloric) feeding only for a malnourished patient who keeps losing weight and is medically unstable despite intensive oral support; long-term enteral feeding only after formal multidisciplinary review, because it does not reliably help and risks harm. There is no evidence for parenteral nutrition, which adds infection risk. [S1]
+- ⚠️ **Before nasogastric feeding, the team should (S1 Table 2):** complete a medical, nutritional and psychosocial assessment, including for disordered eating; consider enteral feeding only for severe malnutrition with continuing, objectively measured weight loss despite MDT-led oral rehabilitation; use it for nutrition rather than symptom relief; weigh its risks (entrenching disordered eating, hard weaning, complications) for the individual; and agree an exit plan with set nutritional goals before it starts. In a heavier patient who has lost more than 10% of body weight within 6 months, balance malnutrition risk against the risks of an invasive intervention. [S1]
+- **Dietary approaches and their limits (S1 Table 6):** evidence for a small-particle diet (food mechanically broken down) is mostly from diabetic gastroparesis and studies define it inconsistently; low-FODMAP evidence comes from functional dyspepsia, it does not speed emptying and it is contraindicated in malnutrition; selected fibres (partially hydrolysed guar gum, psyllium) may slow emptying yet ease symptoms, and fibre intake is usually low already. [S1]
+- **S1 includes two sample one-day meal plans:** a soft, small-particle diet (for example quick oats with milk and banana, yoghurt with stewed apple, lean mince with mashed vegetables, baked white fish with mashed sweet potato) and a texture-modified diet that includes liquids (scrambled eggs, a milk and yoghurt smoothie, puréed soup, puréed fruit and a 250 mL oral supplement drink). [S1]
 
 ## Drug treatment
 
@@ -83,7 +86,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Metoclopramide and domperidone doses and duration** are not stated in the source. | `input_unavailable` |
-| 2 | **The Delphi results (Table 1), MDT criteria for tube feeding (Table 2) and the neuromodulator-by-symptom table (Table 3)** were stripped with the tables; the treatment algorithm is a figure. | `input_unavailable` |
+| 2 | **S1's Delphi summary (Table 1) and MDT tube-feeding principles (Table 2)** are now read from the appended row lines: Table 1 matches the grades and agreement already on the page, and Table 2 is added. **The neuromodulator-by-symptom table (Table 3)** has merged cells and was not extracted, and the treatment algorithm is a figure; both remain gaps. | `input_unavailable` |
 | 3 | **Diabetic and postsurgical gastroparesis** are outside S1's scope, although the PBS row covers them. S2 (UEG/ESNM) now adds their risk factors and European drug evidence, but no source here gives diabetes-specific management (glycaemic control, GLP-1 agonist review). | `out_of_scope` |
 | 4 | **Parenteral nutrition: the sources disagree.** S1 (GESA 2026) finds no evidence for parenteral nutrition in idiopathic gastroparesis and says to avoid it; S2 (UEG/ESNM 2021, all causes) endorses enteral or parenteral support for severe weight loss or intractable vomiting. Both are shown. | `observation` |
 | 5 | **Neuromodulators and psychological therapy: the sources disagree.** S1 recommends neuromodulators as second-line adjuncts and brain-gut psychological therapy early (strong); S2 did not endorse tricyclics, mirtazapine, CBT or hypnotherapy as effective. S1 is newer and Australian; both are shown. | `observation` |

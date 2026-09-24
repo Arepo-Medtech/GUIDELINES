@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/breast-cancer-her2-positive.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast neoadjuvant TCHP (DOCEtaxel cARBOplatin trastuzumab and pERTUZumab) (eviQ ID 3736 v.4)' (ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027), 19 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x) 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)' (published online 29 November 2025), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12790541). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ TCHP claim (S1) unchanged and adds S2, the SEOM-GEICAM-SOLTI 2025 early breast cancer guideline (a national society guideline, CC BY-NC-ND 4.0, paraphrased), for the choice of neoadjuvant regimen, adjuvant therapy after upfront surgery, post-neoadjuvant therapy and extended adjuvant options. Its recommendation tables were stripped; only running text is used. The Pan-Asian adapted ESMO early breast cancer guideline (PMC11145753) was read and rejected because its HER2 recommendations sit only in tables; the ESMO 2024 guideline itself (Annals of Oncology) is not on PMC.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast neoadjuvant TCHP (DOCEtaxel cARBOplatin trastuzumab and pERTUZumab) (eviQ ID 3736 v.4)' (ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027), 19 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x) 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)' (published online 29 November 2025), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12790541). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ TCHP claim (S1) unchanged and adds S2, the SEOM-GEICAM-SOLTI 2025 early breast cancer guideline (a national society guideline, CC BY-NC-ND 4.0, paraphrased), for the choice of neoadjuvant regimen, adjuvant therapy after upfront surgery, post-neoadjuvant therapy and extended adjuvant options. Its recommendation tables were stripped; only running text is used. The Pan-Asian adapted ESMO early breast cancer guideline (PMC11145753) was read and rejected because its HER2 recommendations sit only in tables; the ESMO 2024 guideline itself (Annals of Oncology) is not on PMC. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (summary of 2025 changes: where HER2DX fits). S2 Table 2 (gene-expression assays) concerns HR-positive, HER2-negative disease and adds nothing here; S2 Table 3 could not be extracted (merged cells).",
  "summary": {
-  "total": 29,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 29
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -421,6 +421,29 @@
      "h": "cbaabfff056447c5",
      "n": 386,
      "p": "HER2DX c"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The 2025 update narrows where HER2DX fits:** the 27-gene test is for patients with HER2-positive tumours who are planned for neoadjuvant systemic therapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07e43c8a2738ba54",
+     "n": 56,
+     "p": "[Table 1"
+    },
+    {
+     "h": "c0295266a422ba33",
+     "n": 141,
+     "p": "[Table 1"
+    },
+    {
+     "h": "a41eebc431ee079c",
+     "n": 220,
+     "p": "[Table 1"
     }
    ],
    "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"

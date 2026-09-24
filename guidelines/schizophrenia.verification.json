@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/schizophrenia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel) 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia' (published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404)), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13000005). S2: QUOTED from Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89) 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis' (published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list)), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13051212). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an international Delphi consensus (2025/2026) on clozapine-associated myocarditis, because S1 leaves clozapine safety monitoring to other documents. S2 is a formal expert consensus, not a society guideline; no international schizophrenia guideline newer than S1 (January 2026) was found that adds more. The S1 claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel) 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia' (published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404)), 30 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13000005). S2: QUOTED from Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89) 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis' (published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list)), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13051212). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an international Delphi consensus (2025/2026) on clozapine-associated myocarditis, because S1 leaves clozapine safety monitoring to other documents. S2 is a formal expert consensus, not a society guideline; no international schizophrenia guideline newer than S1 (January 2026) was found that adds more. The S1 claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 11 (strength of recommendations), 12 (first-episode workup), 13 (medication algorithm), 14 (side-effect options) and 15 (monitoring schedule), and S2 Table 1 (CAM diagnostic criteria). S1 Tables 1-3 and 5 (diagnostic criteria, conflicts of interest, consumer feedback, key questions) add no claims; S1 Tables 4 and 6-10 and S2 Table 2 (merged cells) were not extracted.",
  "summary": {
-  "total": 34,
-  "pass": 10,
+  "total": 41,
+  "pass": 11,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -104,6 +104,19 @@
      "h": "476e5eb6def5a2c1",
      "n": 154,
      "p": "Clinical"
+    }
+   ],
+   "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**First-episode workup checklist (S1 Table 12):** history of past and current illness, family history, development, neurological symptoms and recent systemic illness; examination with vital signs including postural BP and pulse, neurological, cardiovascular and eye examination, weight and BMI. Baseline tests: FBC, electrolytes, renal and liver function, prolactin, HbA1c and lipids, thyroid tests if indicated, urine drug screen and ECG; consider a pregnancy test and brain MRI. Add by context: with developmental delay or intellectual impairment, neuropsychology and MRI, considering karyotype, genetic and metabolic tests; in older adults or with cognitive decline, cognitive assessment and MRI, considering neurology or geriatric referral and CSF; in atypical psychosis (catatonia, rapid or fluctuating course, cognitive or neurological signs, early or excessive EPSE), serum neuronal antibodies (NMDAR, VGKC, GAD), EEG and MRI, considering CSF; with sexual or injecting risk or liver disease, serology for HIV, syphilis and hepatitis B and C; with occupational exposure, consider heavy-metal testing.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ef4e04bf8f8d235b",
+     "n": 3796,
+     "p": "[Table 1"
     }
    ],
    "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
@@ -252,6 +265,19 @@
    "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
   },
   {
+   "claim": "**If clozapine helps only partly (S1 Table 13),** the options are adding another antipsychotic (for example amisulpride or aripiprazole), ECT, or combining it with certain antidepressants such as fluoxetine, sertraline, citalopram, escitalopram or duloxetine.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df79b4348c081608",
+     "n": 500,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
    "claim": "⚠️ **Clozapine-associated myocarditis (CAM) usually appears in the first month.** Risk rises with sodium valproate, fast up-titration, slow clozapine metabolism (for example Asian or Indigenous American ancestry, or interacting drugs), recent infection, and a history of myocardial infarction, pericarditis, cardiomyopathy or heart failure. Early symptoms are vague: flu-like illness, fever, fatigue, chest pain or breathlessness.",
    "source": "S2",
    "verdict": "pass",
@@ -322,6 +348,13 @@
    "source_text": "As a minimum requirement, twice-weekly monitoring of hs-troponin and CRP and weekly monitoring of FBC was recommended. ECG was to be performed weekly, oxygen saturation and postural BP measured twice weekly, and heart rate and temperature measured daily. … To minimise recurrence of myocarditis, the preferred doses were a 6.25 mg starting dose at day 1 (94.7%, N = 57), 25 mg at day 7 (91.1%, N = 56), 50 mg at day 14 (90.7%, N = 54) and 100 mg at the end of week 4 (88.7%, N = 53). In the absence of complications, the protocol could be stepped down to weekly biomarker and twice weekly vital monitoring in weeks 5-8 (91.4%, N = 58).",
    "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **Diagnosing CAM (S2 Table 1, adapted from the ESC 2023 cardio-oncology criteria for checkpoint-inhibitor myocarditis):** a new or significantly changed cardiac troponin (I or T) plus one major or two minor criteria, once acute coronary syndrome and infectious myocarditis are excluded. Major: a cardiac MRI diagnostic of acute myocarditis (modified Lake Louise criteria). Minor: a compatible clinical syndrome (such as fatigue, myalgia, chest pain, diplopia, ptosis, breathlessness, orthopnoea, leg oedema, palpitations, dizziness, syncope, weakness or cardiogenic shock); ventricular arrhythmia or new conduction disease; a fall in LV systolic function; MRI features suggestive of myocarditis; or abnormal global longitudinal strain on echocardiography.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1] Clinical criteria for clozapine-associated myocarditis (CAM) [Table 1 row 1] CAM: clinical criteria a: Clinical diagnosis b [Table 1 row 2] CAM: clinical criteria a: Cardiac troponin elevation (new or significant change from baseline) c with one major criterion or two minor criteria, after exclusion of acute coronary syndromes and acute infectious myocarditis based on clinical suspicion [Table 1 row 3] CAM: clinical criteria a: Major criterion [Table 1 row 4] CAM: clinical criteria a: Cardiac magnetic resonance scan that is diagnostic for acute myocarditis (using the modified Lake Louise criteria) d [Table 1 row 5] CAM: clinical criteria a: Minor criteria [Table 1 row 6] CAM: clinical criteria a: Clinical syndrome (including any one of the following: fatigue, myalgias, chest pain, diplopia, ptosis, shortness of breath, orthopnoea, lower-extremity oedema, palpitations, light-headedness/dizziness, syncope, muscle weakness, cardiogenic shock) [Table 1 row 7] CAM: clinical criteria a: Ventricular arrhythmia (including cardiac arrest) and/or new conduction system disease [Table 1 row 8] CAM: clinical criteria a: Decline in left ventricular systolic function [Table 1 row 9] CAM: clinical criteria a: Cardiac magnetic resonance imaging scan with features suggestive of myocarditis e [Table 1 row 10] CAM: clinical criteria a: Abnormal global longitudinal strain on echocardiography … [Table 1 footnote] a Modified based on criteria for immune checkpoint inhibitor-associated myocarditis (ESC 2023 Cardio-Oncology Guidelines) b Clinical diagnoses should be confirmed with magnetic resonance imaging or pathohistological diagnosis if possible without causing treatment delays. c Both troponin I and troponin T can be used.",
+   "locator": "Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89), 'Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis', published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list), https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/, retrieved 2026-09-24"
   },
   {
    "claim": "**Screen metabolic health at baseline and then every 6–12 months** from the start of antipsychotic treatment.",
@@ -414,6 +447,37 @@
    "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
   },
   {
+   "claim": "**Other movement side effects (S1 Table 14):** treat acute dystonia as an emergency with an anticholinergic. For parkinsonism, rationalising the antipsychotic is the mainstay; avoid anticholinergics, or use them sparingly, for a limited time and with regular review. Vitamin E may help slow further worsening of tardive dyskinesia. Metformin also lowers total cholesterol and fasting glucose.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6413693cef042b51",
+     "n": 1090,
+     "p": "[Table 1"
+    },
+    {
+     "h": "e1af8de1892775db",
+     "n": 761,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Physical-health monitoring schedule (S1 Table 15):** at baseline, vital signs with postural BP and pulse, weight and BMI, FBC, electrolytes, renal and liver function, prolactin, HbA1c and lipids, thyroid tests if indicated, lifestyle risk factors, urine drug screen and ECG, and consider a pregnancy test. After starting: weight and BMI within 4 weeks; a repeat ECG, and prolactin if the drug raises it, once the therapeutic dose is reached; other cardiometabolic measures at 3 months; after 3 months, cardiometabolic measures 6-monthly or yearly, prolactin yearly on a prolactin-raising drug (considering bone density testing with prolonged untreated hyperprolactinaemia), and lifestyle risks throughout.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd57aa4dbd43f2e0",
+     "n": 1190,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
    "claim": "**Stopping raises relapse risk, even after 6 months to 2 years of stability in first-episode psychosis.** If a person chooses to try it after shared discussion, taper gradually over at least 3–6 months with close watch for early relapse, and keep support in place for 6–12 months after stopping, or longer.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -489,6 +553,47 @@
      "h": "1b65772aa9e46b84",
      "n": 171,
      "p": "multiple"
+    }
+   ],
+   "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Strong, drugs:** an oral second-generation antipsychotic with a favourable cardiometabolic and prolactin profile first line (aripiprazole, brexpiprazole, cariprazine, lurasidone); a long-acting injection offered in the maintenance phase; clozapine for treatment resistance; lifestyle and other non-drug measures at every stage; and metformin for antipsychotic weight gain, used early and begun with olanzapine or clozapine to prevent it. **Weak, drugs:** long-acting injections early in the illness; ECT for treatment resistance; switching to a more metabolically neutral drug; a GLP-1 receptor agonist for weight gain; low-dose propranolol or mirtazapine for akathisia; VMAT-2 inhibitors followed by vitamin E for tardive dyskinesia; and add-on aripiprazole for persisting, significant hyperprolactinaemia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6a9809fca9aad96b",
+     "n": 2406,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Strong, other care:** psychoeducation, CBT for psychosis, cognitive remediation (especially with cognitive difficulties or poor functioning) and metacognitive therapy (especially with persisting positive and negative symptoms); involving family, whānau or carers only by negotiated, transparent agreement with the person's consent where possible, and giving them general information; an antidepressant for comorbid depression; physical activity for symptoms, cognition, functioning, fitness and strength; multimodal lifestyle programmes for weight from the first prescription; oral-health education; and behavioural support plus varenicline, bupropion or nicotine replacement for smoking. **Weak:** relapse prevention; family-based interventions and individual or group psychoeducation for families; psychosocial help for substance use; CBT for anxiety; trauma-focused therapy for PTSD; peer-led fitness programmes; and CBT for insomnia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "45c2c1ddd7f3a824",
+     "n": 2976,
+     "p": "[Table 1"
+    },
+    {
+     "h": "85d3cd0bfbc663ab",
+     "n": 3385,
+     "p": "[Table 1"
+    },
+    {
+     "h": "82a456b71027cbed",
+     "n": 2997,
+     "p": "[Table 1"
+    },
+    {
+     "h": "36acbece29769767",
+     "n": 3531,
+     "p": "[Table 1"
     }
    ],
    "locator": "Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel), 'Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia', published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404), https://doi.org/10.1177/00048674251406058, retrieved 2026-09-23"

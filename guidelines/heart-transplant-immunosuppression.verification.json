@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/heart-transplant-immunosuppression.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure 'Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center' (published 29 September 2020), 25 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9536714). S2: PARAPHRASED AND HASH-ANCHORED from Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614) 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement' (published 22 August 2025), 10 claims; LICENCE: Publisher version CC BY 4.0 (Unpaywall); the PMC author manuscript read here carries the NIH statement 'available for text mining ... consistent with the principles of fair use' (read at NCBI efetch PMC JATS XML <permissions> for PMC13537435 (Europe PMC fullTextXML returned HTTP 500); publisher licence per Unpaywall record for 10.1016/j.jchf.2025.102614). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 JACC: Heart Failure position statement on antibody-mediated rejection (AMR); S1 claims and anchors are unchanged. S2 shares one author (Kobashigawa) with S1, so the two are not fully independent. On 2026-09-24 the ISHLT 2022 guideline (DOI 10.1016/j.healun.2022.10.015; Unpaywall lists it as free to read at jhltonline.org) was retried: jhltonline.org and sciencedirect.com both returned Cloudflare challenges (HTTP 403) and the Elsevier text-mining API needs a key; the ESC-HFA 2026 heart transplantation consensus (DOI 10.1093/ejhf/xuag051) has no open copy (Unpaywall: closed). Neither was bypassed. The 2022 AST/ACCP/ASHP maintenance immunosuppression consensus (Pharmacotherapy) is closed access.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure 'Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center' (published 29 September 2020), 25 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9536714). S2: PARAPHRASED AND HASH-ANCHORED from Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614) 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement' (published 22 August 2025), 11 claims; LICENCE: Publisher version CC BY 4.0 (Unpaywall); the PMC author manuscript read here carries the NIH statement 'available for text mining ... consistent with the principles of fair use' (read at NCBI efetch PMC JATS XML <permissions> for PMC13537435 (Europe PMC fullTextXML returned HTTP 500); publisher licence per Unpaywall record for 10.1016/j.jchf.2025.102614). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 JACC: Heart Failure position statement on antibody-mediated rejection (AMR); S1 claims and anchors are unchanged. S2 shares one author (Kobashigawa) with S1, so the two are not fully independent. On 2026-09-24 the ISHLT 2022 guideline (DOI 10.1016/j.healun.2022.10.015; Unpaywall lists it as free to read at jhltonline.org) was retried: jhltonline.org and sciencedirect.com both returned Cloudflare challenges (HTTP 403) and the Elsevier text-mining API needs a key; the ESC-HFA 2026 heart transplantation consensus (DOI 10.1093/ejhf/xuag051) has no open copy (Unpaywall: closed). Neither was bypassed. The 2022 AST/ACCP/ASHP maintenance immunosuppression consensus (Pharmacotherapy) is closed access. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 3 (unresolved questions in AMR) are paraphrased and anchored to its row lines. S1 Table 1 (trough levels) and S2 Tables 1–2 have merged cells and were not extracted; S1 Table 2 (US centre volumes) adds no clinical content.",
  "summary": {
-  "total": 35,
+  "total": 36,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 35
+  "pass_paraphrase_anchored": 36
  },
  "claims": [
   {
@@ -512,6 +512,39 @@
      "h": "eca3302659ab2cf4",
      "n": 367,
      "p": "Patients"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What S2 lists as still unsettled (Table 3):** whether to treat isolated pAMR1 or pAMR2 with normal graft function; whether new or rising DSA need treatment when function and biopsy are normal, and which assay (C1q, titres, serial dilution, endothelial crossmatch) should decide; whether raised dd-cfDNA with DSA and dysfunction but a negative biopsy counts as AMR, and how to handle biopsy–molecular discordance; whether non-HLA antibodies are actionable or worth routine testing; and whether AMR needs both a B-cell and a plasma-cell agent, treatment when the biopsy is negative, or long-term maintenance (including mTOR inhibitors, co-stimulation blockade or IL-6 blockade) to prevent recurrence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65e51dd796393567",
+     "n": 209,
+     "p": "[Table 3"
+    },
+    {
+     "h": "dc0b89525257f88b",
+     "n": 398,
+     "p": "[Table 3"
+    },
+    {
+     "h": "ed026e5661df173b",
+     "n": 449,
+     "p": "[Table 3"
+    },
+    {
+     "h": "322d5ef6e2f72fd6",
+     "n": 345,
+     "p": "[Table 3"
+    },
+    {
+     "h": "a599884630bdc789",
+     "n": 524,
+     "p": "[Table 3"
     }
    ],
    "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"

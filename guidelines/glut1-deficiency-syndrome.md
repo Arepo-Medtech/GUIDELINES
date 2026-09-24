@@ -1,9 +1,9 @@
 # Glucose transporter type 1 deficiency syndrome (Glut1DS)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising, confirming and treating Glut1DS (the PBS 'cerebrospinal fluid glucose transporter defect') in children and adults: clinical clues, diagnostic lumbar puncture and SLC2A1 testing, ketogenic diet therapy, antiseizure drugs and long-term monitoring. General ketogenic-diet management and other epilepsies: see `epilepsy`. Initial work-up of a suspected inborn error: `metabolic-disorders-children`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **48 fragments or anchors re-checkable by machine; 1 doses.** **S1** International Glut1DS Study Group (Klepper J et al.) (2020; international): 24 claims, quoted · **S2** Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ (published 2 January 2025 (Chinese version 2022); international): 7 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **59 fragments or anchors re-checkable by machine; 1 doses.** **S1** International Glut1DS Study Group (Klepper J et al.) (2020; international): 25 claims, quoted · **S2** Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ (published 2 January 2025 (Chinese version 2022); international): 7 claims, quoted
 
 > ⚠️ International guideline (International Glut1DS Study Group, 2020). Australian practice follows the PBS listings below and may differ.
 
@@ -17,6 +17,7 @@
 
 - **Typical picture:** epilepsy starting in infancy, slowing head growth, delayed development and complex movement disorders. [S1]
 - **Think of Glut1DS with:** an unexplained movement disorder (spasticity, dystonia, ataxia); drug-resistant epilepsy that is fully controlled by a ketogenic diet; unexplained paroxysmal events at any age; absence epilepsy starting before age 4; or myoclonic-atonic (Doose) epilepsy. [S1]
+- **Red flags ranked by the 13 expert centres for lumbar puncture and SLC2A1 testing (S1 Table 1; specific alone / in combination):** paroxysmal eye-head movements in infancy 12/13 / 0/13; absence epilepsy before age 4, 10/13 / 3/13; complex movement disorder, seizure control by ketogenic diet in drug-resistant epilepsy, and myoclonic-atonic (Doose) epilepsy each 6/13 alone; unexplained paroxysmal events 5/13 / 8/13; early drug-resistant epilepsy 4/13 / 9/13. Alternating hemiplegia (2/13 / 10/13), stroke-like episodes (2/13 / 9/13) and otherwise unexplained developmental delay (0/13 / 12/13) count mainly in combination. [S1]
 - **Paroxysmal eye-head movements in infancy** were judged specific for Glut1DS by nearly all expert centres (12 of 13). [S1]
 - **Movement problems are typically worse before meals and better after eating,** and are often brought on by fasting or exercise. [S1]
 - **The picture changes with age:** seizures dominate in infants and young children, then tend to fade; movement disorders become the main problem in adolescents and adults. [S1]
@@ -72,11 +73,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Glut1DS-specific diet details** (Table 3) and the **diagnostic criteria table** (Table 2) of S1 were stripped with the tables and are not stated here. S2's diagnostic flow chart (Figure 1) was not read; its text version is used. | `input_unavailable` |
-| 2 | **MCT ketogenic diet:** the PBS lists MCT products for this condition, but neither source discusses the MCT form of the diet. Setting it up is covered in `ketogenic-diet-therapy`. | `observation` |
-| 3 | **Acetazolamide and carbonic anhydrase inhibitors:** S1 warns that they can worsen acidosis and kidney-stone risk on the diet; S2 lists acetazolamide as a possible option from one small study (and itself notes the acidosis and stone risk). Both are shown; weigh them with the metabolic team. | `observation` |
-| 4 | **Source age:** S1 is a 2020 consensus; S2 (2025, Chinese version 2022) is newer but relies largely on S1 and the same literature. No Australian Glut1DS guideline was found (Europe PMC and PubMed searched). | `observation` |
-| 5 | **Licences:** S1 and S2 are both CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
+| 1 | **Glut1DS-specific diet details** and the **diagnostic criteria table** of S1 are still not stated here: pmc_text.py --append-tables (2026-09-24) could not extract them (one has no table markup, the other has merged cells). S1 Table 1 (ranking of clinical features) is now covered. S2's diagnostic flow chart (Figure 1) was not read; its text version is used. | `input_unavailable` |
+| 2 | **S1 Table 1 has two internal slips:** stroke-like episodes are given as 2/13 (9%), though 2/13 is 15%; and Doose syndrome is labelled 'myotonic-atonic' there but 'myoclonic-atonic' in the text. The counts are shown as printed. | `observation` |
+| 3 | **MCT ketogenic diet:** the PBS lists MCT products for this condition, but neither source discusses the MCT form of the diet. Setting it up is covered in `ketogenic-diet-therapy`. | `observation` |
+| 4 | **Acetazolamide and carbonic anhydrase inhibitors:** S1 warns that they can worsen acidosis and kidney-stone risk on the diet; S2 lists acetazolamide as a possible option from one small study (and itself notes the acidosis and stone risk). Both are shown; weigh them with the metabolic team. | `observation` |
+| 5 | **Source age:** S1 is a 2020 consensus; S2 (2025, Chinese version 2022) is newer but relies largely on S1 and the same literature. No Australian Glut1DS guideline was found (Europe PMC and PubMed searched). | `observation` |
+| 6 | **Licences:** S1 and S2 are both CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 

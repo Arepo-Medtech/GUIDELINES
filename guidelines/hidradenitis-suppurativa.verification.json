@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/hidradenitis-suppurativa.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89 'Australasian hidradenitis suppurativa management guidelines' (published online 22 November 2024), 25 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11898165). S2: PARAPHRASED AND HASH-ANCHORED from Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472) 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment' (published online 19 December 2024 (corrected 21 January 2025)), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12023723). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European S2k treatment guideline (2024/2025, CC BY-NC-ND 4.0, so paraphrased and hash-anchored, not quoted), for the scoring formulas, antibiotic, steroid and spironolactone regimens, the approved biologic doses and adalimumab's stopping rule. S1 claims are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89 'Australasian hidradenitis suppurativa management guidelines' (published online 22 November 2024), 26 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11898165). S2: PARAPHRASED AND HASH-ANCHORED from Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472) 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment' (published online 19 December 2024 (corrected 21 January 2025)), 13 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12023723). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European S2k treatment guideline (2024/2025, CC BY-NC-ND 4.0, so paraphrased and hash-anchored, not quoted), for the scoring formulas, antibiotic, steroid and spironolactone regimens, the approved biologic doses and adalimumab's stopping rule. S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 2 (comorbidity screening) and S2 Table 2 (eligibility for biologics). S1 Tables 1 and 3 and S2 Tables 1 and 3 have merged cells or no header row and were not extracted; S2 Table 4 (dressing factors) was not used.",
  "summary": {
-  "total": 37,
-  "pass": 25,
+  "total": 39,
+  "pass": 26,
   "fail": 0,
-  "pass_paraphrase_anchored": 12
+  "pass_paraphrase_anchored": 13
  },
  "claims": [
   {
@@ -51,6 +51,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Appropriate management of comorbidities contributing to disease activity is mandatory, and screening in the presence of suggestive signs and symptoms should be directed by the clinician. … Conditions such as inflammatory bowel disease are best assessed through gastroscopy/colonoscopy given the presence of elevated faecal calprotectin and ASCA antibodies may be present in HS, particularly in severe disease. … The strong association of HS with cardiovascular and metabolic comorbidities independent of BMI and smoking status is reflected in the recommendation to screen for metabolic syndrome",
+   "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Comorbidities recommended for screening (S1 Table 2; all level II evidence, grade B), with prevalence in HS and, where given, number needed to screen:** acne vulgaris or conglobata 4.5%, dissecting cellulitis of the scalp 9.2%, pilonidal cyst 32.6%, pyoderma gangrenosum 0.18%; depression 26.5% (NNS 108), anxiety 18.1% (NNS 2169); polycystic ovary syndrome 9%, obesity 41.3%, dyslipidaemia 48.9% (NNS 12), diabetes 10.6% (NNS 49), metabolic syndrome 40%, hypertension 24.4% (NNS 11), cardiovascular disease 2.8% (NNS 18); inflammatory bowel disease 1.8% and spondyloarthritis 0.9%.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[TABLE 2 row 1] Comorbidity in HS: Acne vulgaris/conglobata · Prevalence in HS: 4.5% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 2] Comorbidity in HS: Dissecting cellulitis of scalp · Prevalence in HS: 9.2% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 3] Comorbidity in HS: Pilonidal cyst · Prevalence in HS: 32.6% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 4] Comorbidity in HS: Pyoderma gangrenosum · Prevalence in HS: 0.18% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 5] Comorbidity in HS: Depression · Prevalence in HS: 26.5% · Number needed to screen: 108 · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 6] Comorbidity in HS: Anxiety · Prevalence in HS: 18.1% · Number needed to screen: 2169 · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 7] Comorbidity in HS: Polycystic ovary syndrome · Prevalence in HS: 9% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 8] Comorbidity in HS: Obesity · Prevalence in HS: 41.3% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 9] Comorbidity in HS: Dyslipidemia · Prevalence in HS: 48.9% · Number needed to screen: 12 · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 10] Comorbidity in HS: Diabetes mellitus · Prevalence in HS: 10.6% · Number needed to screen: 49 · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 11] Comorbidity in HS: Metabolic syndrome · Prevalence in HS: 40% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 12] Comorbidity in HS: Hypertension · Prevalence in HS: 24.4% · Number needed to screen: 11 · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 13] Comorbidity in HS: Cardiovascular disease · Prevalence in HS: 2.8% · Number needed to screen: 18 · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 14] Comorbidity in HS: Inflammatory bowel disease · Prevalence in HS: 1.8% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B [TABLE 2 row 15] Comorbidity in HS: Spondyloarthritis · Prevalence in HS: 0.9% · Number needed to screen: N/A · Level of evidence: II · Strength of recommendation: B",
    "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
   },
   {
@@ -229,6 +236,34 @@
    "verdict": "pass",
    "source_text": "Moderate to severe disease is defined as Hurley stage 2B or above OR the presence of tunnels. Therapeutic options should include systemic biologic therapy, alongside management of inflammatory comorbidities including PCOS, Insulin Resistance etc.",
    "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When S2 considers a biologic or other advanced drug justified (S2 Table 2):** objectively moderate-to-severe disease (IHS4 of 4 or more, HS-PGA of 3 or more, refined Hurley IC, IIB, IIC or III, or a rising Hurley stage); quality of life markedly reduced (DLQI over 10 or HS-QoL over 20); unstable or progressive disease (several flares a year, rapid progression or widespread disease); or special situations, namely genital, facial, scalp or neck involvement, or lymphoedema.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2d0a6a9014df617",
+     "n": 177,
+     "p": "[TABLE 2"
+    },
+    {
+     "h": "2f0d72eb47f6d254",
+     "n": 99,
+     "p": "[TABLE 2"
+    },
+    {
+     "h": "21e1b2e5b8dc6bf5",
+     "n": 160,
+     "p": "[TABLE 2"
+    },
+    {
+     "h": "2c41d78ee8b43a5b",
+     "n": 156,
+     "p": "[TABLE 2"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **First-line biologics: adalimumab, secukinumab or bimekizumab.** Choose by comorbidity: IBD is a relative contraindication to IL-17 inhibitors; psoriasis or axial spondyloarthritis favours them.",

@@ -1,9 +1,9 @@
 # Breast cancer — HER2-positive early disease: neoadjuvant TCHP
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** neoadjuvant docetaxel, carboplatin, trastuzumab and pertuzumab (TCHP) for adults with operable HER2-positive early breast cancer, and what continues after surgery: eligibility, dosing, cardiac and blood monitoring, dose changes and the evidence. It is authored from **one eviQ protocol page (ID 3736)**, because eviQ publishes regimens, not a treatment-sequence overview. **Metastatic HER2-positive disease is not covered** (for example docetaxel, pertuzumab and trastuzumab, eviQ ID 1596; trastuzumab deruxtecan, ID 4150; trastuzumab emtansine, ID 1598). HR-positive, HER2-negative advanced disease: see `breast-cancer-hormone-receptor-positive`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. Edition 2.0 adds, from S2 (SEOM-GEICAM-SOLTI 2025), the wider early HER2-positive pathway: choosing a neoadjuvant regimen, adjuvant treatment after upfront surgery, and treatment after neoadjuvant therapy.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **40 fragments or anchors re-checkable by machine; 11 doses.** **S1** eviQ Cancer Treatments Online (ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027; AU): 19 claims, paraphrased, hash-anchored · **S2** Spanish Society of Medical Oncology (SEOM) (published online 29 November 2025; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **43 fragments or anchors re-checkable by machine; 11 doses.** **S1** eviQ Cancer Treatments Online (ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027; AU): 19 claims, paraphrased, hash-anchored · **S2** Spanish Society of Medical Oncology (SEOM) (published online 29 November 2025; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ **Early disease only.** This guideline is written from the eviQ neoadjuvant TCHP protocol. Most PBS items for HER2-positive breast cancer also cover metastatic use, which is not covered here.
 
@@ -54,6 +54,7 @@
 - **Extended adjuvant neratinib:** 1 year of neratinib after a year of trastuzumab improved iDFS in ExteNET, most in HR-positive, node-positive disease, at the cost of more diarrhoea [I, B]. The EMA limits it to HR-positive disease. [S2]
 - **HER2-positive, HR-positive disease:** add adjuvant endocrine therapy on the same principles as for HER2-negative disease. Nothing supports adding a CDK4/6 inhibitor or a PARP inhibitor after surgery in this subtype. [S2]
 - **Before anthracyclines or HER2-targeted drugs, assess cardiac function** [I, A]. The HER2DX 27-gene test may help choose escalation or de-escalation around dual blockade, but prospective validation is still under way [II, B]. [S2]
+- **The 2025 update narrows where HER2DX fits:** the 27-gene test is for patients with HER2-positive tumours who are planned for neoadjuvant systemic therapy. [S2]
 
 ## Evidence
 
@@ -80,7 +81,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Other neoadjuvant HER2 regimens** (paclitaxel or nab-paclitaxel with pertuzumab and trastuzumab, anthracycline-based sequences) and **adjuvant trastuzumab emtansine** (eviQ ID 3813) have separate eviQ protocols. S2 now places them in the pathway (regimen choice, T-DM1 for residual disease), but their Australian doses are not covered. | `out_of_scope` |
 | 3 | **Strength of evidence for TCHP: the sources differ.** S1 (eviQ) calls neoadjuvant TCHP limited evidence, resting mainly on the phase II TRYPHAENA trial; S2 (SEOM 2025) lists docetaxel-carboplatin with dual blockade as an established backbone, supported by TRAIN-2, TRYPHAENA and BCIRG-006. Both are shown. | `observation` |
 | 4 | **Funding differs by country:** S2 notes that Spain does not fund adjuvant pertuzumab and restricts neratinib. Australian funding is in the PBS table; neratinib and adjuvant pertuzumab were not checked against the PBS here. | `observation` |
-| 5 | **S2's recommendation tables and algorithm figure** were stripped; only running text is used. | `input_unavailable` |
+| 5 | **S2's recommendation table (Table 3; merged cells) and algorithm figure** could not be extracted; they stay gaps. Its Table 1 (summary of 2025 changes) is now read and adds only the HER2DX scope; its Table 2 (gene-expression assays) is about HR-positive, HER2-negative disease. | `input_unavailable` |
 | 6 | **Kidney dosing (ADDIKD) table:** its cells are fragmented after tag stripping, so carboplatin and docetaxel dosing by eGFR band was not anchored. | `input_unavailable` |
 | 7 | **Licence:** CC BY-NC 4.0, and eviQ asks that its content not be hosted on external sites and that commercial users seek permission. The claims are paraphrased and hash-anchored; the source's words are not reproduced. Request eviQ permission before any commercial publication. | `observation` |
 

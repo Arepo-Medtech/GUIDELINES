@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/x-linked-hypophosphataemia.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -11,12 +11,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS) 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care' (published 1 May 2023), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10241092). S2: PARAPHRASED AND HASH-ANCHORED from Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093) 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline' (published 17 February 2025), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12187519). S3: PARAPHRASED AND HASH-ANCHORED from Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170) 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline' (published 17 April 2025), 5 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12261105). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds the 2025 International Working Group GRADE guidelines for children (S2) and adults (S3), both CC BY-NC-ND and so paraphrased and hash-anchored. No Australian XLH guideline was found: the 2025 JBMR Plus ANZBMS supplement ('Hypophosphatemia across the lifespan') was checked and its opening article is an editorial, not guidance. The S1 claims are unchanged.",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS) 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care' (published 1 May 2023), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10241092). S2: PARAPHRASED AND HASH-ANCHORED from Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093) 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline' (published 17 February 2025), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12187519). S3: PARAPHRASED AND HASH-ANCHORED from Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170) 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline' (published 17 April 2025), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12261105). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds the 2025 International Working Group GRADE guidelines for children (S2) and adults (S3), both CC BY-NC-ND and so paraphrased and hash-anchored. No Australian XLH guideline was found: the 2025 JBMR Plus ANZBMS supplement ('Hypophosphatemia across the lifespan') was checked and its opening article is an editorial, not guidance. The S1 claims are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (childhood features) and Table 2 (biochemistry at diagnosis) and S3 Table 1 (adult features). None of S1's 11 tables, S2 Tables 3-4 or S3 Table 2 could be extracted (merged cells or ragged rows).",
  "summary": {
-  "total": 38,
+  "total": 41,
   "pass": 24,
   "fail": 0,
-  "pass_paraphrase_anchored": 14
+  "pass_paraphrase_anchored": 17
  },
  "claims": [
   {
@@ -62,6 +62,32 @@
    "locator": "APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS), 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care', published 1 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10241092/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Childhood features (S2 Table 1):** lower-limb deformity, below-average height, bone pain, muscle weakness and fatigue, dolichocephaly and craniosynostosis, dental abscesses, and tinnitus or hearing loss.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "11875ebe2967562f",
+     "n": 435,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adult features (S3 Table 1):** lower-limb deformity, fractures and pseudofractures, muscle weakness and fatigue, bone and joint pain, dental infection and periodontal disease, early joint damage, enthesopathies, spinal stenosis, osteophytes, and tinnitus or hearing loss.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "694a353aae1c5353",
+     "n": 597,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "Khan AA, Ali DS, Appelman-Dijkstra NM, Carpenter TO et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(8):2353 (doi 10.1210/clinem/dgaf170), 'X-Linked Hypophosphatemia Management in Adults: An International Working Group Clinical Practice Guideline', published 17 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12261105/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Hypophosphataemia with renal phosphate wasting is the biochemical hallmark,** but low phosphate may not show in the first 3-6 months of life.",
    "source": "S1",
    "verdict": "pass",
@@ -95,6 +121,19 @@
    "verdict": "pass",
    "source_text": "PHEX sequencing suffices as the first step in genetic analysis because it detects the most common cause of hypophosphatemic rickets. … A confirmed pathogenic PHEX mutation is found in ~90%-100% of clinically diagnosed patients. … In case genetic testing is not available, a positive family history of XLH is generally accepted as supportive of the diagnosis.",
    "locator": "APAC XLH Working Group, JBMR Plus 7(6):e10744 (endorsed by 17 societies including ANZSPED and ANZBMS), 'Asia-Pacific Consensus Recommendations on X-Linked Hypophosphatemia: Diagnosis, Multidisciplinary Management, and Transition From Pediatric to Adult Care', published 1 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10241092/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Expected biochemistry in a child at diagnosis (S2 Table 2):** serum phosphate low for age because of renal wasting, with a low TmP/GFR; high ALP; normal calcium; PTH normal or a little raised; 25-hydroxyvitamin D normal (low if deficiency coexists); 1,25-dihydroxyvitamin D normal or inappropriately low; FGF23 high or inappropriately normal; urine calcium to creatinine normal or low. Use age-specific reference ranges, or the diagnosis can be missed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "96f5c97bfa2c3b65",
+     "n": 1060,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "Ali DS, Carpenter TO, Imel EA, Ward LM et al. (International Working Group on XLH), Journal of Clinical Endocrinology & Metabolism 110(7):2055 (doi 10.1210/clinem/dgaf093), 'X-Linked Hypophosphatemia Management in Children: An International Working Group Clinical Practice Guideline', published 17 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12187519/, retrieved 2026-09-24"
   },
   {
    "claim": "**Children: start oral phosphate with active vitamin D as soon as XLH is diagnosed.** Starting doses: elemental phosphorus 20-60 mg/kg given 4-6 times daily, plus calcitriol 20-40 ng/kg split into two doses a day or alfacalcidol 30-50 ng/kg once daily (doses as stated in the source).",

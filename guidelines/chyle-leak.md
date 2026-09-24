@@ -1,9 +1,9 @@
 # Chyle leak (postoperative chylothorax and chylous ascites) — nutritional management
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with a chyle leak after surgery (chylothorax, chylous ascites or cervical leak), especially after cancer surgery with lymph node dissection: recognition, nutritional screening, dietary fat restriction, medium-chain triglyceride (MCT) diets and supplements, enteral and parenteral nutrition, and monitoring of leak volume. For **cervical** leaks after neck dissection only, S2 adds drain management, local compression, octreotide and surgical thresholds. Lymphangiography, embolisation, pleurodesis and octreotide for chylothorax or chylous ascites are out of scope. Children and congenital chylothorax: out of scope. Head and neck surgery nutrition: see `head-and-neck-cancer-nutrition`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **37 fragments or anchors re-checkable by machine; 4 doses.** **S1** Zhou et al. (published 8 January 2025 (2024 volume); international): 18 claims, quoted · **S2** He Q (published 27 February 2025; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **45 fragments or anchors re-checkable by machine; 4 doses.** **S1** Zhou et al. (published 8 January 2025 (2024 volume); international): 18 claims, quoted · **S2** He Q (published 27 February 2025; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (Frontiers in Nutrition, 2024, Chinese evidence-based nursing group). Australian practice follows the PBS listings below and may differ.
 
@@ -57,6 +57,7 @@
 - **Drain removal:** the target is under 10 mL per 24 hours. If output stays above that despite suction, pull the drain back gradually, about 1–2 cm at a time, watching the output, and use ultrasound to look for fluid collecting as it comes out. [S2]
 - **Local compression over the venous angle** in the supraclavicular fossa on the affected side (1–2 gauze blocks forming a loose 3–5 cm pad) can cut drainage quickly. Over-compression can injure the cervical or brachial plexus and cause tension blisters or flap necrosis. [S2]
 - ⚠️ **Octreotide (S2; grade C evidence, grade C recommendation):** 100 µg by subcutaneous injection every 8 hours to start, increased to 200 µg if it does not work; stop it within 2 days of the leak meeting the treatment criteria. How somatostatin analogues reduce chyle is not known, and the best dose varies widely. [S2]
+- **How to read S2's grades:** evidence runs from A (high quality: consistent randomised trials or validated cohort data) through B (moderate) and C (low: case series, or extrapolated from B-level evidence) to D (insufficient, conflicting or poor). Recommendations run from A (strong: benefit clearly outweighs harm) and B (benefit outweighs harm) to C (conditional: benefit and harm closely balanced) and D (not recommended: the balance cannot be judged). [S2]
 - ⚠️ **When to operate:** after failed non-surgical treatment, typically for drainage persistently above 1000 mL a day. Operate promptly for more than 2000 mL a day with a poor response, for a refractory low-flow leak (under 1000 mL a day), or for severe malnutrition, fluid and electrolyte disorders, infection, necrosis or bleeding. [S2]
 - **A refractory high-output leak (peak 1000 mL or more) that has not responded after more than 2 weeks of treatment needs timely surgery.** [S2]
 - **After endoscopic or robotic neck dissection, treat non-surgically first;** thoracoscopic thoracic duct ligation is the operation if that fails or the patient will not accept a neck incision. Ligation can raise lymphatic back-pressure and cause a chylothorax, so image the chest if breathlessness develops. [S2]
@@ -79,7 +80,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Table 2 (the 22 graded evidence items with JBI levels)** was stripped; the evidence grades are therefore not shown. | `input_unavailable` |
+| 1 | **S1 Table 2 (the 22 graded evidence items with JBI levels)** could not be extracted (ragged rows), so S1's evidence grades are still not shown. S2's grading key (its Tables 1–2) is now covered. | `input_unavailable` |
 | 2 | **Octreotide, drain management and surgical thresholds are now covered by S2 for cervical leaks only.** Octreotide for chylothorax or chylous ascites, pleurodesis, lymphangiography and embolisation are still not covered: the ERS 2024 chylothorax consensus could not be read (HTTP 403 bot challenge on both publisher hosts, retried 2026-09-24, not bypassed; no open copy). | `access` |
 | 3 | **Triglyceride threshold differs:** S1 gives ≥ 110 mg/dL (1.2–1.4 mmol/L); S2 gives above 100 mg/dL or above the serum level. Both are shown. | `observation` |
 | 4 | **Diet approach differs:** S1 grades diet by leak volume (low-fat, MCT-rich diet for low output; TPN and bowel rest for high output); S2 recommends a low-fat or fat-free diet with fasting and parenteral nutrition for cervical leaks generally. Both are shown. | `observation` |

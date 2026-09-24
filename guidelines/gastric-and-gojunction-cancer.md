@@ -1,9 +1,9 @@
 # Advanced gastric and gastro-oesophageal junction adenocarcinoma: systemic therapy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** first-, second- and third-line systemic therapy and biomarker selection (HER2, MSI-H, PD-L1 CPS) for adults with unresectable or metastatic gastric or gastro-oesophageal junction adenocarcinoma. Perioperative and adjuvant treatment of resectable disease is not covered. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **56 fragments or anchors re-checkable by machine; 1 doses.** **S1** Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.) (published 24 August 2022; AU): 24 claims, paraphrased, hash-anchored · **S2** Spanish Society of Medical Oncology (SEOM) (published 18 July 2024; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 42 claims; **74 fragments or anchors re-checkable by machine; 1 doses.** **S1** Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.) (published 24 August 2022; AU): 29 claims, paraphrased, hash-anchored · **S2** Spanish Society of Medical Oncology (SEOM) (published 18 July 2024; international): 13 claims, quoted
 
 > ⚠️ **S1 is a 2022 Australasian evidence review, not a graded guideline.** S2 (SEOM-GEMCAD-TTD, Spain, 2024) is a graded guideline and adds the later evidence: claudin 18.2 (zolbetuximab), final KEYNOTE-811, KEYNOTE-859 and further PD-1 antibodies. Claims marked [S1] rest on the review, [S2] on the guideline. Check current PBS listings below and eviQ protocols before prescribing.
 
@@ -17,6 +17,7 @@
 - **About one in five tumours is HER2-positive (22.1% in ToGA screening)**, with more positives in intestinal-type than diffuse-type cancer (31.8% vs 6.1%) and in GEJ than gastric primaries (32.2% vs 21.4%). [S1]
 - **MSI-H disease is uncommon (6% across the pembrolizumab trials)** but matters: these tumours respond poorly to chemotherapy and are more likely to respond to immunotherapy. [S1]
 - **PD-L1 is reported as a combined positive score (CPS)**, counting PD-L1-positive tumour cells, macrophages and lymphocytes against total tumour cells (×100; positive is 1 or more). The best CPS cut-off for immunotherapy benefit is still undefined. [S1]
+- **How actionable each biomarker is (ESCAT tiers, S2):** HER2, PD-L1 CPS and MSI are tier I, A; claudin 18.2 and FGFR2 are tier II. [S2]
 - **When HER2-positive disease becomes resistant, consider re-biopsy** to judge whether continuing a HER2-directed approach is still worthwhile. [S1]
 
 ## First-line treatment
@@ -29,6 +30,10 @@
 - **Trial dosing (first-line nivolumab):** 360 mg every 3 weeks or 240 mg every 2 weeks, combined with XELOX or FOLFOX. [S1]
 - **Regulators differ on PD-L1 selection:** the EMA limits first-line nivolumab to CPS 5 or more, while the FDA and Japan's PMDA approve it regardless of PD-L1. [S1]
 - **Pembrolizumab alone was not better than chemotherapy first-line** in tumours with CPS 1 or more, though it met non-inferiority for survival; adding it to chemotherapy also missed superiority. [S1]
+- **HER2-positive trials in numbers (S1 Table 1):** ToGA (584 patients) median overall survival 13.8 vs 11.1 months, progression-free 6.7 vs 5.5 months (HR 0.71). Adding pertuzumab (JACOB, 780 patients) gave 17.5 vs 14.2 months, HR 0.84, p = 0.057, so not significant. [S1]
+- **Trials that did not help first line (S1 Table 1):** bevacizumab with chemotherapy (AVAGAST, 774 patients) did not significantly lengthen survival (12.1 vs 10.1 months, HR 0.87), and switching to avelumab maintenance after induction chemotherapy (JAVELIN Gastric 100) gave none either (10.4 vs 10.9 months, HR 0.91). [S1]
+- **CheckMate 649 across PD-L1 groups (S1 Table 1):** nivolumab plus chemotherapy gave a survival HR of 0.71 at CPS 5 or more, 0.77 at CPS 1 or more and 0.80 across all 1581 patients; response was 60% vs 45%. The Asian ATTRACTION-04 trial improved progression-free survival (10.45 vs 8.34 months, HR 0.68) but not overall survival (17.45 vs 17.15 months). [S1]
+- **KEYNOTE-062 in detail (S1 Table 1):** at CPS 10 or more, pembrolizumab alone gave median survival of 17.4 vs 10.8 months on chemotherapy (HR 0.69), but at CPS 1 or more progression-free survival was shorter (2 vs 6.4 months, HR 1.66). In KEYNOTE-590 (oesophageal and Siewert type 1 junction tumours) the survival HR for adenocarcinoma was 0.74, with a confidence interval crossing 1. [S1]
 - **Older or frail patients:** choosing oxaliplatin, and reduced doses of oxaliplatin-based combinations, has a better safety profile with at least comparable survival. [S2]
 - **HER2-positive means IHC 3+, or IHC 2+ with a positive FISH;** for these tumours trastuzumab plus a platinum and a fluoropyrimidine is the first-line standard. Adding pertuzumab did not improve overall survival (JACOB). [S2]
 - ⚠️ **Update on KEYNOTE-811: adding pembrolizumab to trastuzumab and chemotherapy improved survival outcomes when PD-L1 CPS is 1 or more** [I, A], and the EMA approved it for that group. (S1 had only the interim response data.) [S2]
@@ -54,6 +59,7 @@
 
 - ⚠️ **Oral trifluridine/tipiracil is a standard refractory option** for reasonably fit patients (ECOG 0–1) after two or more chemotherapy regimens: in TAGS median survival improved from 3.6 to 5.7 months (HR 0.69). [S1]
 - **On trifluridine/tipiracil, check blood counts:** the commonest grade 3 or worse events were neutropenia (34%) and anaemia (19%). Quality of life was preserved. [S1]
+- **Refractory-disease trials in numbers (S1 Table 2):** DESTINY-Gastric01 (187 patients, HER2-positive after trastuzumab): response 51% vs 14%, median survival 12.5 vs 8.4 months (HR 0.59). ATTRACTION-02 (nivolumab, Asian patients): 5.3 vs 4.1 months (HR 0.63). Third-line avelumab (JAVELIN Gastric 300) was no better than chemotherapy (4.6 vs 5 months, HR 1.1). Apatinib helped in a China-only trial (6.5 vs 4.7 months, HR 0.71). Regorafenib in the phase II INTEGRATE trial (Australia, New Zealand, Canada, South Korea) lengthened progression-free survival (2.6 vs 0.9 months, HR 0.40), most in South Korean patients. [S1]
 - **HER2-positive disease after trastuzumab: trastuzumab deruxtecan** gave far higher response than chemotherapy in DESTINY-Gastric01 (51% vs 15%), with better progression-free and overall survival. [S1]
 - ⚠️ **Red flag on trastuzumab deruxtecan: interstitial lung disease or pneumonitis** occurred in 12 patients (10%), including grade 3 and grade 4 events. [S1]
 - **Nivolumab is effective after two or more lines in Asian patients** (survival HR 0.63 versus placebo), regardless of PD-L1; it was not approved for this use in Europe. [S1]
@@ -84,13 +90,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Regimen doses and schedules** (Tables 1 and 2 of the source) were stripped with the tables and are not stated here, apart from the nivolumab trial doses given in the text. Use eviQ protocols for doses. | `input_unavailable` |
-| 2 | **Newer evidence:** S2 (2024) now covers zolbetuximab, final KEYNOTE-811 and KEYNOTE-859, and names tislelizumab (RATIONALE 305) as positive but not yet EMA-approved. Perioperative durvalumab (MATTERHORN) is still not covered, so the PBS rows 'Gastric and gastroesophageal junction adenocarcinoma' and 'Resected gastric and gastroesophageal junction adenocarcinoma' (durvalumab) are not listed. Zolbetuximab does not appear among the PBS gastric rows in `no_guideline_pbs.json`; check Australian access. | `out_of_scope` |
-| 3 | **PBS row 'Oesophageal cancer or gastro-oesophageal junction cancer' (nivolumab)** is now in the PBS table (owner-approved link, 2026-09-24). The sources cover first-line nivolumab; whether that PBS row is the first-line or the adjuvant listing could not be confirmed without the restriction text. | `observation` |
-| 4 | **Ramucirumab** is described as standard 'where available'; it does not appear among the PBS gastric rows in `no_guideline_pbs.json`, so Australian access should be checked. | `observation` |
-| 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
-| 6 | **The sources differ on first-line pembrolizumab without HER2:** S1 (2022, KEYNOTE-062) says pembrolizumab with chemotherapy missed superiority; S2 (2024, KEYNOTE-859) recommends it at CPS 1 or more, best at CPS 10 or more. S1 also had only interim KEYNOTE-811 response data; S2 reports a survival gain at CPS 1 or more. Both are shown; S2 reflects the later trials. | `observation` |
-| 7 | **S2 licence:** CC BY 4.0; S2 fragments are quoted verbatim with attribution. S2's evidence-benefit table (Table 3) and its later-line algorithm (Fig. 1) were not extracted. | `observation` |
+| 1 | **Regimen doses and schedules** are not stated here, apart from the nivolumab trial doses given in the text: S1's Tables 1 and 2, now appended (pmc_text.py --append-tables, 2026-09-24), summarise trial results and contain no doses. Use eviQ protocols for doses. | `input_unavailable` |
+| 2 | **DESTINY-Gastric01 response rate differs within S1:** its text gives 51% vs 15% for trastuzumab deruxtecan vs chemotherapy; its Table 2 gives 51% vs 14%. Both are shown. | `observation` |
+| 3 | **Newer evidence:** S2 (2024) now covers zolbetuximab, final KEYNOTE-811 and KEYNOTE-859, and names tislelizumab (RATIONALE 305) as positive but not yet EMA-approved. Perioperative durvalumab (MATTERHORN) is still not covered, so the PBS rows 'Gastric and gastroesophageal junction adenocarcinoma' and 'Resected gastric and gastroesophageal junction adenocarcinoma' (durvalumab) are not listed. Zolbetuximab does not appear among the PBS gastric rows in `no_guideline_pbs.json`; check Australian access. | `out_of_scope` |
+| 4 | **PBS row 'Oesophageal cancer or gastro-oesophageal junction cancer' (nivolumab)** is now in the PBS table (owner-approved link, 2026-09-24). The sources cover first-line nivolumab; whether that PBS row is the first-line or the adjuvant listing could not be confirmed without the restriction text. | `observation` |
+| 5 | **Ramucirumab** is described as standard 'where available'; it does not appear among the PBS gastric rows in `no_guideline_pbs.json`, so Australian access should be checked. | `observation` |
+| 6 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 7 | **The sources differ on first-line pembrolizumab without HER2:** S1 (2022, KEYNOTE-062) says pembrolizumab with chemotherapy missed superiority; S2 (2024, KEYNOTE-859) recommends it at CPS 1 or more, best at CPS 10 or more. S1 also had only interim KEYNOTE-811 response data; S2 reports a survival gain at CPS 1 or more. Both are shown; S2 reflects the later trials. | `observation` |
+| 8 | **S2 licence:** CC BY 4.0; S2 fragments are quoted verbatim with attribution. S2's evidence-benefit table (Table 3, ragged rows), a second table with merged cells, and its later-line algorithm (Fig. 1) could not be extracted; its ESCAT biomarker table is now covered, and its surveillance table (Table 2) is for resected disease, outside this page's scope. | `observation` |
 
 ## Sources
 

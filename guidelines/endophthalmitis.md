@@ -1,9 +1,9 @@
 # Endophthalmitis: recognition, tap and inject, intravitreal and systemic antibiotics, and vitrectomy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** specialist management of acute post-procedural (cataract, intravitreal injection, glaucoma bleb, vitrectomy, trauma) and endogenous endophthalmitis: recognition, sampling, empirical intravitreal antibiotics and antifungals, repeat injection, intravitreal steroid, oral antibiotics, and when to vitrectomise. Eye-casualty recognition and referral: `acute-red-eye-children`, `penetrating-eye-injury-children`, `conjunctivitis-and-eye-infections`. Keratitis with hypopyon: `bacterial-keratitis`. Cataract-surgery prophylaxis: `cataract`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **58 fragments or anchors re-checkable by machine; 5 doses.** **S1** Retinal Unit and Save Sight Institute (published 25 October 2021; AU): 19 claims, paraphrased, hash-anchored · **S2** Das T (published 13 October 2025; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **63 fragments or anchors re-checkable by machine; 5 doses.** **S1** Retinal Unit and Save Sight Institute (published 25 October 2021; AU): 19 claims, paraphrased, hash-anchored · **S2** Das T (published 13 October 2025; international): 16 claims, quoted
 
 > ⚠️ **Narrative review, not a guideline.** It is the practice of one Australian tertiary unit (Sydney Eye Hospital, 2021), set against the 1995 Endophthalmitis Vitrectomy Study (EVS) and the ESCRS 2013 guideline. No Australian society guideline on endophthalmitis treatment was found.
 
@@ -47,11 +47,15 @@
 - **Fungi cause about 15–19% of endophthalmitis worldwide and usually present late:** weeks to months after the event and indolent, whereas acute bacterial infection presents within days. Fungal infection after trauma with vegetable matter, stone or mud presents sooner. [S2]
 - ⚠️ **Suspect fungus in a fairly quiet eye with mild vitreous haze after intraocular surgery in someone on prolonged topical or systemic steroids,** especially if inflammation worsens as steroids are tapered. After cataract surgery, fungi can hide under the IOL or in the capsular bag. [S2]
 - **Signs that point to fungus:** nodular exudates on the iris or lens/IOL surface, vitreous exudates like a string of pearls, and creamy white circumscribed chorioretinal lesions. Vitritis is the most consistent sign of endogenous fungal infection. [S2]
+- **Other fungal signs in S2's feature table:** conjunctival congestion, a dry-looking hypopyon, yellowish-white infiltrates at the cataract wound, and vitreous membranes. [S2]
+- **Which fungi, by setting (S2 table):** after a procedure (cataract surgery, intraocular injection, contaminated surgical supplies, spread of fungal keratitis): Aspergillus, Candida, Fusarium. After trauma (penetrating, vegetable matter, rural injury): Fusarium, Aspergillus, Candida. Endogenous (fungaemia, intravenous drug use, immunosuppression): Candida, Cryptococcus, Histoplasma, Aspergillus. [S2]
 - **Investigate systemically (75% consensus),** scaled to the event and suspicion: full blood count, urea and electrolytes, liver function, blood culture, sputum and urine culture, chest X-ray, liver ultrasound and transthoracic echocardiogram. B-scan ultrasound helps when the fundus view is poor. [S2]
 - **Confirm with direct microscopy and culture;** cultures can take up to two weeks. When culture is negative, use PCR or next-generation sequencing, and vitreous 1,3 β-D-glucan and galactomannan are useful rapid adjuncts. [S2]
 
 ## Fungal endophthalmitis: treat
 
+- ⚠️ **Fungal infection is managed differently from bacterial post-cataract endophthalmitis (S2 comparison table):** tap-and-inject is not advised; vitrectomy with injection is used in most fungal series whatever the presenting vision; a single intravitreal antifungal, with repeat injection almost the rule; intensive topical antimicrobials after procedures or trauma; systemic antifungal always in endogenous cases and optional in others; intravitreal and systemic steroids usually not used, topical steroid in some cases. [S2]
+- **The bacterial side of that table:** tap-and-inject when presenting vision is hand movements or better; vitrectomy removing 50% of the vitreous at light perception or worse; two intravitreal antibiotics, one against gram-positive cocci and one against gram-negative bacilli, repeated at 36–72 h if needed; systemic antimicrobials add no value; steroids by institutional practice. [S2]
 - ⚠️ **Early, complete vitrectomy gives better results (90% consensus),** usually with more extensive vitreous clearance than the EVS's conservative 50% removal for bacterial infection; in pseudophakic eyes, clear the anterior vitreous too. [S2]
 - ⚠️ **Give antifungals by every route (85% consensus):** intravitreal is the mainstay and usually needs repeating, with topical and systemic treatment for other reservoirs. Consider intracameral plus intravitreal voriconazole, since fungi sequester around the IOL. [S2]
 - **Systemic drug for Candida:** fluconazole is a reasonable first line for susceptible strains; voriconazole also covers fluconazole-resistant species (C. glabrata, C. krusei) and Aspergillus; systemic amphotericin B reaches the eye poorly and is kept for azole resistance. [S2]
@@ -81,13 +85,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Antifungal doses** (intravitreal and systemic) are in S2's Table 5 and treatment algorithm (Fig. 6), which were stripped, so none is given; S2 supplies drug choice, routes and the 4–6 week systemic duration. `invasive-candidiasis` covers systemic candidiasis. | `input_unavailable` |
+| 1 | **Antifungal doses** (intravitreal and systemic) are in S2's Table 5, which has merged cells and was not extracted by the 2026-09-24 table pass, and its treatment algorithm (Fig. 6, an image), so none is given; S2 supplies drug choice, routes and the 4–6 week systemic duration, and its Table 4 now adds the bacterial-versus-fungal management comparison. `invasive-candidiasis` covers systemic candidiasis. | `input_unavailable` |
 | 2 | **Systemic antibiotics for endogenous bacterial endophthalmitis** (treating the source, e.g. Klebsiella liver abscess) are not specified by the source. | `input_unavailable` |
 | 3 | **PBS:** the PBS 'Endophthalmitis' row lists vancomycin injection only; ceftazidime, amikacin and antifungals for intravitreal use are hospital-supplied or listed under other rows. | `observation` |
 | 4 | **Differing view on prophylaxis:** the Taiwan consensus (2024) declines to recommend routine intracameral antibiotics because no standardised product is available there; this compendium's `cataract` guideline records that evidence-based guidelines recommend them. | `observation` |
 | 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 | 6 | **Steroid in fungal infection:** S1 routinely avoids intravitreal steroid when fungus is suspected; S2's panel did not reach consensus (25%), and some members would use it cautiously once the infection is controlled. Both are shown. | `observation` |
-| 7 | **S2 is CC BY 4.0 and quoted.** Its statement that endogenous and exogenous fungal endophthalmitis are equally common reached only 50% agreement and is not used. | `observation` |
+| 7 | **Repeat intravitreal antibiotic timing differs:** S1 repeats usually no sooner than 48 h; S2's Table 4 gives 36–72 h, if needed, for bacterial post-cataract infection. Both are shown. | `observation` |
+| 8 | **Systemic antibiotics for bacterial endophthalmitis:** S2's Table 4 says systemic antimicrobials add no value; S1 agrees for intravenous drugs (EVS) but its unit adds 10 days of an oral fluoroquinolone. Both are shown. | `observation` |
+| 9 | **S1's data tables** (Table 1, organisms before and after the RANZCO injection guidance; Table 2, early vitrectomy versus tap-and-inject) have ragged rows and were not extracted by the 2026-09-24 table pass; they remain a gap. | `input_unavailable` |
+| 10 | **S2 is CC BY 4.0 and quoted.** Its statement that endogenous and exogenous fungal endophthalmitis are equally common reached only 50% agreement and is not used. | `observation` |
 
 ## Sources
 

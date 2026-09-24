@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/motor-neurone-disease.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -11,12 +11,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)' (published 12 March 2024), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11235832). S2: PARAPHRASED AND HASH-ANCHORED from PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis' (published 16 September 2025), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12465052). S3: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041 'Edaravone for amyotrophic lateral sclerosis' (published 14 October 2025), 3 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12566403). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, EAN 2024) unchanged and adds two sources: S2, the 2025 PACTALS Asia-Pacific guideline (led by Australian authors; Australia and New Zealand are member countries), for diagnosis, riluzole monitoring, edaravone and tofersen dosing and respiratory monitoring; and S3, the Australian Prescriber comment on edaravone (2025), for Australian access and the edaravone regimen. The Australian MND Guideline (FightMND) is still in development; only its protocol (2026) is published. Searches 2026-09-24: Europe PMC for MND or ALS with Australia and guideline/consensus/management/recommendation (2015-2026); Australian Prescriber (ISSN 0312-8008) for riluzole or motor neurone disease.",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Academy of Neurology with ERN EURO-NMD (Van Damme et al.), European Journal of Neurology 31(6):e16264, doi 10.1111/ene.16264 'European Academy of Neurology (EAN) guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (ERN EURO-NMD)' (published 12 March 2024), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11235832). S2: PARAPHRASED AND HASH-ANCHORED from PACTALS, Asia-Pacific consortium including Australia and New Zealand (Vucic S, Shahrizaila N, Kano O, Menon P, ... Kiernan MC), The Lancet Regional Health - Western Pacific 62:101684, doi 10.1016/j.lanwpc.2025.101684 'Pan-Asian consortium for treatment and research in ALS (PACTALS) guidelines for management of amyotrophic lateral sclerosis' (published 16 September 2025), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12465052). S3: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041 'Edaravone for amyotrophic lateral sclerosis' (published 14 October 2025), 4 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12566403). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, EAN 2024) unchanged and adds two sources: S2, the 2025 PACTALS Asia-Pacific guideline (led by Australian authors; Australia and New Zealand are member countries), for diagnosis, riluzole monitoring, edaravone and tofersen dosing and respiratory monitoring; and S3, the Australian Prescriber comment on edaravone (2025), for Australian access and the edaravone regimen. The Australian MND Guideline (FightMND) is still in development; only its protocol (2026) is published. Searches 2026-09-24: Europe PMC for MND or ALS with Australia and guideline/consensus/management/recommendation (2015-2026); Australian Prescriber (ISSN 0312-8008) for riluzole or motor neurone disease. Table rows appended with pmc_text.py --append-tables (2026-09-24); a claim from S3 Table 1 (the Australian edaravone product and approved indication). S1 Table 1 and S2 Table 1 have merged cells and were not extracted.",
  "summary": {
-  "total": 35,
+  "total": 36,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 35
+  "pass_paraphrase_anchored": 36
  },
  "claims": [
   {
@@ -319,6 +319,34 @@
      "h": "dff962615e25791b",
      "n": 116,
      "p": "Study MC"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041, 'Edaravone for amyotrophic lateral sclerosis', published 14 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12566403/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Approved indication in Australia (S3):** edaravone (Radicava, sponsor Teva), supplied as 30 mg/20 mL glass ampoules for IV infusion, is registered for adults with ALS who manage daily activities independently, have normal breathing function, and begin treatment no more than 2 years after onset.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "89d3c22636bca262",
+     "n": 90,
+     "p": "[Table 1"
+    },
+    {
+     "h": "5c84a71a50923853",
+     "n": 86,
+     "p": "[Table 1"
+    },
+    {
+     "h": "5abc65b970a2dd73",
+     "n": 91,
+     "p": "[Table 1"
+    },
+    {
+     "h": "552d9f2c611c3c26",
+     "n": 271,
+     "p": "[Table 1"
     }
    ],
    "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 48:182, doi 10.18773/austprescr.2025.041, 'Edaravone for amyotrophic lateral sclerosis', published 14 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12566403/, retrieved 2026-09-24"

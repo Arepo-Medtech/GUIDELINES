@@ -1,9 +1,9 @@
 # Paediatric low- and high-grade glioma: molecular testing and targeted therapy
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** molecular testing and targeted-therapy choices for children and adolescents with low-grade glioma (LGG), high-grade glioma (HGG) and diffuse midline glioma (DMG), including BRAF V600E and BRAF-fusion testing and dabrafenib with trametinib. Surgery, radiotherapy and chemotherapy protocols are only touched on. Ependymoma and medulloblastoma, also in the source, are not summarised here. Adult IDH-mutant glioma: see `idh-mutant-glioma`; adult glioblastoma: see `glioblastoma`; NF1 tumour surveillance: see `neurofibromatosis-type-1`. PBS access (dabrafenib, trametinib) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **44 fragments or anchors re-checkable by machine; 0 doses.** **S1** Brazilian Committee of Precision Medicine in Pediatric Oncology (published 2 March 2026; international): 16 claims, paraphrased, hash-anchored · **S2** Brizini M (published 24 June 2026; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **70 fragments or anchors re-checkable by machine; 0 doses.** **S1** Brazilian Committee of Precision Medicine in Pediatric Oncology (published 2 March 2026; international): 18 claims, paraphrased, hash-anchored · **S2** Brizini M (published 24 June 2026; international): 15 claims, quoted
 
 > ⚠️ International guideline (Brazilian Society of Pediatric Oncology modified-Delphi consensus, 2026). Australian practice follows the PBS listings below and may differ.
 
@@ -17,6 +17,7 @@
 
 - **Molecular testing is now part of routine diagnosis and risk grouping** of paediatric brain tumours: the current WHO classification (CNS5) builds genetic and epigenetic features into the tumour definitions. [S1]
 - **When the diagnosis is uncertain, use DNA methylation profiling;** it often confirms or revises the diagnosis where histology is inconclusive. [S1]
+- **Tissue-agnostic testing (S1 Table 2)** for a CNS tumour that is refractory or has relapsed, with no curative option left and the child still in good performance status: NTRK1, NTRK2 or NTRK3 fusions (RNA-NGS preferred; 100% panel agreement), BRAF V600E (100%), microsatellite instability (PCR preferred; 85%), tumour mutational burden by NGS (93%) and RET fusions (93%). DNA methylation profiling is advised for tumours with unusual histology, epidemiology, imaging or genomics (80%). [S1]
 
 ## Low-grade glioma
 
@@ -35,11 +36,15 @@
 - **In refractory LGG, also test IDH1, IDH2, FGFR and ALK;** in subependymal giant cell astrocytoma test TSC1 and TSC2 even without clinical tuberous sclerosis, since mTOR inhibition may work. [S1]
 - **Other targeted options where drugs can be obtained:** alectinib for ALK-fusion LGG, mTOR inhibitors for TSC or PI3K-AKT-mTOR changes, and bevacizumab for progressive optic pathway glioma after standard chemotherapy has failed. [S1]
 - **NF1:** 15-20% of people with NF1 develop gliomas, which respond well overall to MEK inhibitors; a phase III trial is comparing selumetinib with carboplatin/vincristine. Offer genetic testing and counselling for RASopathies as judged clinically. [S1]
+- **More from S1's graded LGG table (Table 3):** in refractory or metastatic LGG, also test for CDKN2A mutation or deletion (87% agreement) and NF1 mutation or deletion (80%), both rated as prognostic markers on limited evidence; and for a tumour carrying the KIAA1549-BRAF fusion, tovorafenib is an option to consider (85%). [S1]
+- **Molecular classes of pLGG (S2 Table 1):** BRAF fusion (KIAA1549::BRAF), mostly pilocytic astrocytoma of the posterior fossa or optic pathway, indolent, MEK-inhibitor sensitive but resistant to type I BRAF inhibitors, and needing a fusion-sensitive assay; BRAF V600E, supratentorial, with higher progression risk that is worse with CDKN2A loss (IHC is reliable; assess CDKN2A); NF1-driven, optic pathway or brainstem, usually indolent (germline testing important); MYB/MYBL1-altered, excellent prognosis and not MAPK-targetable; IDH-mutant, mostly supratentorial and hemispheric. [S2]
+- **Other targeted options and their status (S2 Table 2):** trametinib alone as a second-line option for BRAF-fusion tumours that need treatment (not yet approved first line); repotrectinib after TRK-inhibitor resistance (response 50% in pretreated patients; FDA accelerated approval from 12 years, June 2024); vorasidenib for IDH1/2-mutant tumours after resection or with residual disease (FDA approval from 12 years, August 2024; paediatric data limited). Selumetinib is approved only for NF1 plexiform neurofibroma, so its use in NF1-associated pLGG is off-label. [S2]
 
 ## Low-grade glioma: how long to treat, and toxicity
 
 - **The best length of targeted therapy is not known,** and tumours often regrow when it stops. Canadian consensus suggests about 36 months for BRAF V600E pLGG with a gradual taper, usually the MEK inhibitor first and then the BRAF inhibitor, with close MRI surveillance while reducing. [S2]
 - ⚠️ **Manage toxicity proactively:** fever is common with dabrafenib-trametinib, skin toxicity with MEK and RAF inhibitors, and tovorafenib often causes low-grade rash and slows growth, which mostly recovers when treatment is interrupted. Long-term growth and cardiovascular effects are still being studied. [S2]
+- ⚠️ **Adverse effects by drug (S2 Table 2):** dabrafenib-trametinib, pyrexia (68%), headache, rash, weight gain; trametinib alone, acneiform rash, GI symptoms, raised CPK and rebound on stopping; tovorafenib, rash (93%), hair colour change, fatigue, haemorrhage and slower growth; selumetinib, GI symptoms, raised CPK, rash and paronychia, with cardiac and eye monitoring required; larotrectinib, raised transaminases, anaemia and fatigue; entrectinib, weight gain (35%), pathological fractures, anaemia, dizziness or ataxia and neurocognitive effects; erdafitinib, slipped capital femoral epiphysis, accelerated linear growth and hyperphosphataemia; everolimus, stomatitis, infections and hyperlipidaemia. [S2]
 
 ## Low-grade glioma: cancer predisposition
 
@@ -76,13 +81,15 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Doses and schedules** for dabrafenib, trametinib and chemotherapy are in neither source; S1's biomarker and applicability tables (Tables 1-3) and S2's targeted-therapy tables (Tables 2-3) were stripped. | `input_unavailable` |
-| 2 | **Chemotherapy and radiotherapy:** S2 now gives the LGG standard (carboplatin with vincristine, or vinblastine) and the position of radiotherapy, without doses. HGG chemotherapy and radiotherapy remain unaddressed by either source. | `out_of_scope` |
-| 3 | **Sources differ on the selumetinib trial:** S1 (March 2026) describes a phase III trial of selumetinib against carboplatin/vincristine as ongoing; S2 (June 2026) says the phase 3 upfront trials closed early for poor accrual. Both are shown; S2 is later. | `observation` |
-| 4 | **BRAF V600E frequency in LGG** is about 15% in S1 and 15–20% in S2. Both are shown. | `observation` |
-| 5 | **No Australian paediatric glioma guideline** was found; no paediatric dabrafenib/trametinib protocol was confirmed on eviQ, and the high-grade glioma Optimal Care Pathway is adult-only. The CC BY Neurotherapeutics 2026 review is now S2; it covers LGG only, so HGG and DMG rest on S1 alone. | `observation` |
-| 6 | **Counterparts:** `idh-mutant-glioma` and `glioblastoma` exclude children and name these PBS rows as uncovered; `neurofibromatosis-type-1` covers NF1 glioma surveillance. | `observation` |
-| 7 | **Licences:** S1 is CC BY-NC-ND 4.0, so its claims are paraphrased and hash-anchored and its words are not reproduced; S2 is CC BY 4.0 and quoted. | `observation` |
+| 1 | **Doses and schedules** for dabrafenib, trametinib and chemotherapy are in neither source, and the now-extracted tables do not add them: S1 Tables 1-4 (applicability framework, tissue-agnostic, glial and medulloblastoma recommendations) and S2 Tables 1-3 (molecular classes, targeted therapies, ongoing trials) give no doses. Their testing recommendations, molecular classes and adverse effects are now on the page; S1 Table 4 (medulloblastoma) is out of scope. | `input_unavailable` |
+| 2 | **S2's prose and trial table differ on selumetinib:** its text says the phase 3 upfront trials (NCT04166409, NCT03871257) closed early for poor accrual; its Table 3 lists NCT04166409 as active and recruiting and NCT03871257 as active, not recruiting. Both are shown; check ClinicalTrials.gov. | `observation` |
+| 3 | **Tovorafenib response rate:** S2's text gives 53% (FIREFLY-1); its Table 2 gives 51%. Both are shown. | `observation` |
+| 4 | **Chemotherapy and radiotherapy:** S2 now gives the LGG standard (carboplatin with vincristine, or vinblastine) and the position of radiotherapy, without doses. HGG chemotherapy and radiotherapy remain unaddressed by either source. | `out_of_scope` |
+| 5 | **Sources differ on the selumetinib trial:** S1 (March 2026) describes a phase III trial of selumetinib against carboplatin/vincristine as ongoing; S2 (June 2026) says the phase 3 upfront trials closed early for poor accrual. Both are shown; S2 is later. | `observation` |
+| 6 | **BRAF V600E frequency in LGG** is about 15% in S1 and 15–20% in S2. Both are shown. | `observation` |
+| 7 | **No Australian paediatric glioma guideline** was found; no paediatric dabrafenib/trametinib protocol was confirmed on eviQ, and the high-grade glioma Optimal Care Pathway is adult-only. The CC BY Neurotherapeutics 2026 review is now S2; it covers LGG only, so HGG and DMG rest on S1 alone. | `observation` |
+| 8 | **Counterparts:** `idh-mutant-glioma` and `glioblastoma` exclude children and name these PBS rows as uncovered; `neurofibromatosis-type-1` covers NF1 glioma surveillance. | `observation` |
+| 9 | **Licences:** S1 is CC BY-NC-ND 4.0, so its claims are paraphrased and hash-anchored and its words are not reproduced; S2 is CC BY 4.0 and quoted. | `observation` |
 
 ## Sources
 

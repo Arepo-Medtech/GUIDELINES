@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/panic-disorder.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Generalised anxiety disorder and panic disorder in adults: management (CG113), section 1.3 Stepped care for people with panic disorder' (published 26 January 2011, last updated 15 June 2020, last reviewed 11 September 2026), 21 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). S2: QUOTED from Bandelow B, Werner AM, Kopp I, Rudolf S, Wiltink J, Beutel ME, for the German S3 guideline panel (AWMF), European Archives of Psychiatry and Clinical Neuroscience 272:571-582 (doi 10.1007/s00406-021-01324-1) 'The German Guidelines for the treatment of anxiety disorders: first revision' (published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021)), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8490968). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the English summary of the German S3 anxiety-disorder guideline (2021), because no current Australian panic-disorder guideline is readable: the RANZCP 2018 guideline remains archived ('reference use only'), and searches of Europe PMC and Australian Prescriber found no Australian replacement. The S1 claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Generalised anxiety disorder and panic disorder in adults: management (CG113), section 1.3 Stepped care for people with panic disorder' (published 26 January 2011, last updated 15 June 2020, last reviewed 11 September 2026), 21 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). S2: QUOTED from Bandelow B, Werner AM, Kopp I, Rudolf S, Wiltink J, Beutel ME, for the German S3 guideline panel (AWMF), European Archives of Psychiatry and Clinical Neuroscience 272:571-582 (doi 10.1007/s00406-021-01324-1) 'The German Guidelines for the treatment of anxiety disorders: first revision' (published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021)), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8490968). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the English summary of the German S3 anxiety-disorder guideline (2021), because no current Australian panic-disorder guideline is readable: the RANZCP 2018 guideline remains archived ('reference use only'), and searches of Europe PMC and Australian Prescriber found no Australian replacement. The S1 claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S2 Table 1 (ICD-10 descriptions of panic disorder and agoraphobia) and Table 4 (antidepressant adverse effects). S2 Tables 3 and 5 have merged cells and Table 6 is an image, so they were not extracted.",
  "summary": {
-  "total": 33,
-  "pass": 12,
+  "total": 35,
+  "pass": 14,
   "fail": 0,
   "pass_paraphrase_anchored": 21
  },
@@ -74,6 +74,13 @@
     }
    ],
    "locator": "National Institute for Health and Care Excellence (NICE), 'Generalised anxiety disorder and panic disorder in adults: management (CG113), section 1.3 Stepped care for people with panic disorder', published 26 January 2011, last updated 15 June 2020, last reviewed 11 September 2026, https://www.nice.org.uk/guidance/cg113/chapter/Recommendations, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What panic disorder looks like (S2, ICD-10 F41.0):** sudden anxiety attacks with physical symptoms such as palpitations, sweating, tremor, dry mouth, breathlessness, a choking feeling, chest pain, abdominal discomfort, unreality and pins and needles; attacks can come out of the blue, and many people then avoid places where they fear one. **Agoraphobia (F40.0)** is fear of places that would be hard or embarrassing to leave during an attack, such as crowds, public transport or lifts; fear of being alone is common, and a companion may ease it.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 1] Anxiety disorders: short description according to ICD-10 classification [] [Table 1 row 1] Anxiety disorder: Panic disorder F41.0 · Description: Anxiety attacks of sudden onset, with physical manifestations of anxiety (e.g., palpitations, sweating, tremor, dry mouth, dyspnea, feeling of choking; chest pain; abdominal discomfort; feelings; feeling of unreality, paresthesia, etc.) Panic attacks can arise out of the blue; however, many patients start to avoid situations in which they fear that panic attacks might occur [Table 1 row 2] Anxiety disorder: Agoraphobia F40.0 without panic disorder F40.00 with panic disorder F40.01 · Description: Fear of places where it might be difficult or embarrassing to escape if a panic attack should occur (crowds, on public transport, or in closed spaces, e.g., elevators). Fear of being alone is also common. The presence of a companion may reduce anxiety",
+   "locator": "Bandelow B, Werner AM, Kopp I, Rudolf S, Wiltink J, Beutel ME, for the German S3 guideline panel (AWMF), European Archives of Psychiatry and Clinical Neuroscience 272:571-582 (doi 10.1007/s00406-021-01324-1), 'The German Guidelines for the treatment of anxiety disorders: first revision', published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8490968/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Panic attack in the emergency department:** ask whether they are already being treated, do only the minimum tests needed to exclude an acute physical cause, usually do not admit, and refer back to primary care with written information explaining why.",
@@ -232,6 +239,13 @@
    "source": "S2",
    "verdict": "pass",
    "source_text": "First-line drugs for anxiety disorders include the selective serotonin reuptake inhibitors (SSRI) and the serotonin-norepinephrine reuptake inhibitors (SNRI) (Table 3). Drug side effects are listed in Table 4. For panic disorder, the tricyclic antidepressant clomipramine may be a second-line option. The drug is as effective as the SSRIs and SNRIs but has more adverse effects.",
+   "locator": "Bandelow B, Werner AM, Kopp I, Rudolf S, Wiltink J, Beutel ME, for the German S3 guideline panel (AWMF), European Archives of Psychiatry and Clinical Neuroscience 272:571-582 (doi 10.1007/s00406-021-01324-1), 'The German Guidelines for the treatment of anxiety disorders: first revision', published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8490968/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Common adverse effects (S2 table):** SSRIs and SNRIs cause jitteriness, nausea, restlessness, headache, fatigue, appetite and weight change either way, tremor, sweating, sexual dysfunction, diarrhoea or constipation; SSRIs also QTc prolongation and SNRIs urinary problems. Tricyclics cause anticholinergic effects, drowsiness, dizziness, cardiovascular effects, weight gain, nausea, headache and sexual dysfunction. Check the product information for the full list.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "[Table 4 row 1] Medication class: Selective serotonin reuptake inhibitors (SSRIs) · Side effects: Jitteriness, nausea, restlessness, headache, fatigue, increased or decreased appetite, weight gain, weight loss, tremor, sweating, QT C prolongation, sexual dysfunction, diarrhoea, constipation, and other side effects [Table 4 row 2] Medication class: Selective serotonin-noradrenaline reuptake inhibitor (SNRI) · Side effects: Jitteriness, nausea, restlessness, headache, fatigue, increased or decreased appetite, weight gain, weight loss, tremor, sweating, sexual dysfunction, diarrhoea, constipation, urination problems, and other side effects [Table 4 row 3] Medication class: Tricyclic antidepressants (TCA) · Side effects: Anticholinergic effects, somnolence, dizziness, cardiovascular side effects, weight gain, nausea, headache, sexual dysfunction, and other side effects … [Table 4 footnote] Only most common and relevant side effects included. For details, see the current summary of product characteristics",
    "locator": "Bandelow B, Werner AM, Kopp I, Rudolf S, Wiltink J, Beutel ME, for the German S3 guideline panel (AWMF), European Archives of Psychiatry and Clinical Neuroscience 272:571-582 (doi 10.1007/s00406-021-01324-1), 'The German Guidelines for the treatment of anxiety disorders: first revision', published online 6 October 2021 (English summary of the German S3 guideline, version 2, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC8490968/, retrieved 2026-09-24"
   },
   {

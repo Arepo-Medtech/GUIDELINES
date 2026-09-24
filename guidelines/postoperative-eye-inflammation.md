@@ -1,9 +1,9 @@
 # Inflammation after corneal transplant: preventing and treating graft rejection
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** ophthalmologist-led topical and systemic corticosteroid use after penetrating, anterior lamellar and endothelial keratoplasty: rejection risk, recognising rejection, treating an episode and preventing rejection, including in high-risk grafts. Inflammation after cataract surgery is in `cataract`; uveitis is in `non-infectious-uveitis`; herpetic eye disease is in `herpes-simplex-keratitis`. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **49 fragments or anchors re-checkable by machine; 4 doses.** **S1** Indian Journal of Ophthalmology 71(9) (narrative review) (published online 21 August 2023; international): 22 claims, paraphrased, hash-anchored · **S2** American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI (approved by the AAO Board of Trustees 22 September 2023; published 2024; international): 11 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **52 fragments or anchors re-checkable by machine; 4 doses.** **S1** Indian Journal of Ophthalmology 71(9) (narrative review) (published online 21 August 2023; international): 23 claims, paraphrased, hash-anchored · **S2** American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI (approved by the AAO Board of Trustees 22 September 2023; published 2024; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (Indian Journal of Ophthalmology, 2023). Australian practice follows the PBS listings below and may differ.
 
@@ -62,6 +62,7 @@
 - **After anterior lamellar keratoplasty (DALK) only epithelial and stromal rejection can occur;** a longer steroid course helps prevent stromal rejection, and close monitoring is advised. [S1]
 - ⚠️ **After endothelial keratoplasty, stopping steroids is itself a risk factor for rejection** (DSAEK). [S1]
 - **High-risk grafts:** treat corneal new vessels (anti-VEGF, fine-needle diathermy or laser) where available, start an immunomodulator (preferably mycophenolate), and extend the steroid course. Topical cyclosporine has a limited role; topical tacrolimus 0.03% is a promising second-line option. [S1]
+- **Anti-VEGF options for corneal new vessels (S1 Table 2):** bevacizumab (a full-length antibody against all VEGF-A isoforms) shrank mean vessel diameter by 24% and vascularised area by 61%, but higher strengths (above 1%) or use beyond 1 month can delay healing and worsen stromal thinning. Ranibizumab (an antibody fragment) acts faster and more strongly than bevacizumab but costs more. Aflibercept is a fusion protein that binds VEGF-A and VEGF-B. [S1]
 - **Plan follow-up carefully and counsel patients,** because early detection is what makes rejection treatable. [S1]
 - ⚠️ **Tell patients that new or worsening pain, redness, light sensitivity or blurred vision needs to be seen at once,** as it can signal infection, inflammation or recurrence; at follow-up, recheck intraocular inflammation and IOP regularly (AAO). [S2]
 
@@ -82,7 +83,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Systemic prophylaxis doses** (oral prednisolone, cyclosporine, tacrolimus levels, mycophenolate) are reported from single studies, some from other transplant fields, and are not carried here as recommendations. | `observation` |
-| 2 | **The rejection-type summary (Table 1) and the anti-VEGF table (Table 2)** were stripped and are not represented. | `input_unavailable` |
+| 2 | **The rejection-type summary (Table 1)** has ragged rows and was not extracted, so it is not represented. The anti-VEGF table (Table 2) is now covered from the appended rows. | `input_unavailable` |
 | 3 | **The 'Eye inflammation' PBS row (prednisolone with phenylephrine, 11908R)** is not attached: this source does not cover inflammation after cataract surgery. `cataract` already covers postoperative corticosteroid drops. | `out_of_scope` |
 | 4 | **Evidence level:** S1 is a narrative review; its steroid regimens reflect common practice and small studies rather than graded recommendations. S2 (AAO) gives no steroid doses or taper schedules for treating or preventing rejection. | `observation` |
 | 5 | **Rejection by graft type:** S1 reports lower rejection after both DSEK and DMEK than PK; S2 notes two studies found no significant PK-DSAEK difference, with a clear advantage only for DMEK. Both are shown. | `observation` |

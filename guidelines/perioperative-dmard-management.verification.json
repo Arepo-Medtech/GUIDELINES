@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/perioperative-dmard-management.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery' (published 22 May 2023), 16 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10946831). S2: PARAPHRASED AND HASH-ANCHORED from American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893) '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty' (published online 20 June 2022 (corrected 24 August 2022)), 8 claims; LICENCE: © 2022 American College of Rheumatology (no open licence; PDF free to read from the ACR guideline page) (read at copyright line on page 1 of the PDF linked from https://rheumatology.org/perioperative-management-guideline). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2022 ACR/AAHKS guideline (Arthritis Care & Research version, free PDF from the ACR guideline page, pdftotext in reading order with ligatures and line-end hyphens normalised), paraphrased and hash-anchored. The S1 claims are unchanged from edition 1.0.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery' (published 22 May 2023), 17 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10946831). S2: PARAPHRASED AND HASH-ANCHORED from American College of Rheumatology and American Association of Hip and Knee Surgeons (Goodman SM, Springer BD, Chen AF, et al.), Arthritis Care & Research 74(9):1399-1408 (doi 10.1002/acr.24893) '2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty' (published online 20 June 2022 (corrected 24 August 2022)), 8 claims; LICENCE: © 2022 American College of Rheumatology (no open licence; PDF free to read from the ACR guideline page) (read at copyright line on page 1 of the PDF linked from https://rheumatology.org/perioperative-management-guideline). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2022 ACR/AAHKS guideline (Arthritis Care & Research version, free PDF from the ACR guideline page, pdftotext in reading order with ligatures and line-end hyphens normalised), paraphrased and hash-anchored. The S1 claims are unchanged from edition 1.0. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 1 (its GRADE footnote) and Table 3 (practical considerations); both otherwise restate S1's text. S1 Table 2 could not be extracted (merged cells).",
  "summary": {
-  "total": 24,
-  "pass": 16,
+  "total": 25,
+  "pass": 17,
   "fail": 0,
   "pass_paraphrase_anchored": 8
  },
@@ -37,6 +37,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "There are also likely to be differences between drugs within these broad groups, particularly those with different molecular targets and dosing schedules. This means that an individual assessment of the potential risks and benefits of DMARD modification should be made. In addition, the potential risks of infection and, therefore, the balance of potential benefit and harm are likely to differ by the type of surgery that is undertaken (e.g. urgent surgery or interventions that involve incision into the respiratory, alimentary or genitourinary tracts).",
+   "locator": "Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal, 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery', published 22 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What 'conditional' means here (GRADE):** most people in this situation would choose the recommended course, but many would not, so decide with the patient after a clear talk about benefits and harms, weighing the type and urgency of surgery, their infection risk factors, and what an infection or a flare would mean for them.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 1 footnote] In the GRADE approach, recommendations are classified as strong or conditional. A strong recommendation means that most people would choose that intervention. A conditional recommendation means that the majority of individuals in this situation would want the recommended course of action, but many would not, and individuals' choices will vary depending on their values and preferences. bDMARD, biologic disease‐modifying anti‐rheumatic drug; csDMARD, conventional synthetic disease‐modifying anti‐rheumatic drug; GRADE, Grading of Recommendations Assessment, Development and Evaluation; tsDMARD, targeted synthetic disease‐modifying anti‐rheumatic drug. … [Table 3 row 1] All decisions regarding the perioperative DMARD regimen in people with inflammatory arthritis should be made within a shared decision‐making framework following a clear discussion of potential benefits and harms, tailored to the individual's circumstances: Consider the potential risks and benefits of temporary discontinuation of DMARDs in the perioperative period based on the following factors: Type and urgency of surgery Risk factors for infection Potential impact of infection or flare",
    "locator": "Australian Living Guideline panel (ANZMUSC, Australian Rheumatology Association, Cochrane Musculoskeletal), Internal Medicine Journal, 'Australian recommendations on perioperative use of disease-modifying anti-rheumatic drugs in people with inflammatory arthritis undergoing elective surgery', published 22 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10946831/, retrieved 2026-09-23"
   },
   {

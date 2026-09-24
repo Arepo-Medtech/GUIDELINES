@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/gyrate-atrophy.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,10 +10,10 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104 'Gyrate atrophy of the choroid and retina: a tertiary center experience' (published 16 February 2026), 13 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13011296). S2: PARAPHRASED AND HASH-ANCHORED from Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842) 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study' (published 6 January 2025), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11703598). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds a larger cohort (S2: 27 patients, Amsterdam UMC registry, 2025). Searches of Europe PMC and PubMed (gyrate atrophy, ornithine aminotransferase, hyperornithinaemia with guideline, consensus, recommendations, review, cohort; 2012-2026) found no guideline, consensus statement or GeneReviews chapter; the reviews found (Eur J Ophthalmol 2022, Mol Genet Metab 2021 treatment review, Arch Soc Esp Oftalmol 2024) are not open access. S2 is licensed CC BY-NC-ND, so its claims are paraphrased and hash-anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104 'Gyrate atrophy of the choroid and retina: a tertiary center experience' (published 16 February 2026), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13011296). S2: PARAPHRASED AND HASH-ANCHORED from Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842) 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study' (published 6 January 2025), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11703598). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds a larger cohort (S2: 27 patients, Amsterdam UMC registry, 2025). Searches of Europe PMC and PubMed (gyrate atrophy, ornithine aminotransferase, hyperornithinaemia with guideline, consensus, recommendations, review, cohort; 2012-2026) found no guideline, consensus statement or GeneReviews chapter; the reviews found (Eur J Ophthalmol 2022, Mol Genet Metab 2021 treatment review, Arch Soc Esp Oftalmol 2024) are not open access. S2 is licensed CC BY-NC-ND, so its claims are paraphrased and hash-anchored. Table rows appended with pmc_text.py --append-tables (2026-09-24); a claim from S1 Table 2 (per-patient eye findings) was added. S1 Table 1 (clinical characteristics and treatment) has merged cells and was not extracted; S2 is not a PMC XML source here.",
  "summary": {
-  "total": 25,
-  "pass": 13,
+  "total": 26,
+  "pass": 14,
   "fail": 0,
   "pass_paraphrase_anchored": 12
  },
@@ -270,6 +270,13 @@
    "source": "S1",
    "verdict": "pass",
    "source_text": "Topical nonsteroidal anti-inflammatory drugs (NSAIDs), such as nepafenac, and carbonic anhydrase inhibitors (CAIs), such as brinzolamide, are used in ophthalmology to treat cystoid macular edema (CME). … Five of seven patients in our cohort received topical nepafenac, but responses were generally unsatisfactory. … while CAIs, such as acetazolamide and brinzolamide, may reduce CME in retinitis pigmentosa and similar IRDs, their effectiveness in gyrate atrophy of the choroid and retina (GACR) is less conclusive",
+   "locator": "Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104, 'Gyrate atrophy of the choroid and retina: a tertiary center experience', published 16 February 2026, https://doi.org/10.1186/s13023-026-04265-x, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Per-patient eye findings (S1 Table 2):** cystoid macular oedema in five of the six patients with data; on treatment it partly resolved in two (patients 1 and 4), stayed stable in two (2 and 3) and worsened in one (5). Two patients (1 and 2) had posterior subcapsular cataract.",
+   "source": "S1",
+   "verdict": "pass",
+   "source_text": "[Table 2 row 1] Patient No: 1 · Age at Last Ophtalmic Examinaton (year): 19 · Presenting Ophthalmic Symptoms: Nyctalopia · Visual Acuity: OU: 20/100 · Presence of Cataract: OU: PSCC · Presence of Macular Oedema: OU: CME · Baseline CFT (µm): OD: 502 OS: 509 · Final CFT (µm): OD: 297 OS: 466 · CME Response: Partial resolution … [Table 2 row 2] Patient No: 2 · Age at Last Ophtalmic Examinaton (year): 27 · Presenting Ophthalmic Symptoms: Nyctalopia · Visual Acuity: OD: NLP OS: 20/40 · Presence of Cataract: OS: PSCC · Presence of Macular Oedema: OS: CME · Baseline CFT (µm): OS: 313 · Final CFT (µm): OS: 320 · CME Response: Stable … [Table 2 row 3] Patient No: 3 · Age at Last Ophtalmic Examinaton (year): 16 · Presenting Ophthalmic Symptoms: Nyctalopia and myopia · Visual Acuity: OD: 20/50 OS: 20/40 · Presence of Cataract: No cataract · Presence of Macular Oedema: OU: CME · Baseline CFT (µm): OD: 204 OS:234 · Final CFT (µm): OD: 191 OS: 255 · CME Response: Stable … [Table 2 row 4] Patient No: 4 · Age at Last Ophtalmic Examinaton (year): 15 · Presenting Ophthalmic Symptoms: Nyctalopia and myopia · Visual Acuity: OU: 20/100 · Presence of Cataract: No cataract · Presence of Macular Oedema: OU: CME · Baseline CFT (µm): OD: 719 OS: 676 · Final CFT (µm): OD: 512 OS: 583 · CME Response: Partial resolution … [Table 2 row 5] Patient No: 5 · Age at Last Ophtalmic Examinaton (year): 10 · Presenting Ophthalmic Symptoms: Nyctalopia and myopia · Visual Acuity: OU: 20/50 · Presence of Cataract: No cataract · Presence of Macular Oedema: OU: CME · Baseline CFT (µm): OD: 570 OS: 589 · Final CFT (µm): OD: 634 OS: 600 · CME Response: Worsened … [Table 2 row 6] Patient No: 6 · Age at Last Ophtalmic Examinaton (year): 4 · Presenting Ophthalmic Symptoms: No symtom · Visual Acuity: n.a. · Presence of Cataract: No cataract · Presence of Macular Oedema: No CME Peripheral gyrate atrophy · Baseline CFT (µm): OD: 248 OS: 281 · Final CFT (µm): OD: 251 OS: 267 · CME Response: Stable (no CME)",
    "locator": "Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104, 'Gyrate atrophy of the choroid and retina: a tertiary center experience', published 16 February 2026, https://doi.org/10.1186/s13023-026-04265-x, retrieved 2026-09-23"
   },
   {

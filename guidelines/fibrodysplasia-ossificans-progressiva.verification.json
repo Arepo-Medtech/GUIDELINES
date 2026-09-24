@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/fibrodysplasia-ossificans-progressiva.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150 'Medical guidelines for fibrodysplasia ossificans progressiva' (published November 2025 (online 19 September 2025)), 21 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12548730). S2: QUOTED from Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y) 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)' (published online 21 August 2023), 12 claims; LICENCE: CC BY 4.0 (© The Author(s) 2023) (read at Europe PMC fullTextXML <license> element for PMC10622346). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a German expert recommendation on FOP care (Seefried et al. 2023, written in German, CC BY 4.0). Its fragments are stored verbatim in German; the claims are English renderings of them. S1's claims and anchors are unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150 'Medical guidelines for fibrodysplasia ossificans progressiva' (published November 2025 (online 19 September 2025)), 27 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12548730). S2: QUOTED from Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y) 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)' (published online 21 August 2023), 12 claims; LICENCE: CC BY 4.0 (© The Author(s) 2023) (read at Europe PMC fullTextXML <license> element for PMC10622346). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a German expert recommendation on FOP care (Seefried et al. 2023, written in German, CC BY 4.0). Its fragments are stored verbatim in German; the claims are English renderings of them. S1's claims and anchors are unchanged. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Tables 1–4 (palovarotene, class I, II and III medications) are paraphrased and anchored to their row lines. S2 Table 1 has merged cells and was not extracted.",
  "summary": {
-  "total": 33,
+  "total": 39,
   "pass": 12,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -302,6 +302,168 @@
      "h": "efc8bbf5501ae38b",
      "n": 108,
      "p": "Currentl"
+    }
+   ],
+   "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Palovarotene dosing (S1 Table 1, from the US label), age 14 and over:** 5 mg once daily; for a flare-up, stop the daily dose and give 20 mg daily for 4 weeks then 10 mg daily for 8 weeks (12 weeks in all, even if symptoms settle sooner), then go back to 5 mg. Restart the 12-week course at 20 mg if the flare-up clearly worsens or a new one appears during it; if symptoms remain at 12 weeks, extend the 10 mg dose in 4-week blocks until they resolve. Under 14 (girls 8–13, boys 10–13) dosing is by weight. In the US, prescribers must first complete the Sohonos educational programme.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "500a5080b8fceb4e",
+     "n": 3200,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Palovarotene safety (S1 Table 1):** boxed warnings for teratogenicity and premature epiphyseal closure. In growing children, assess growth and skeletal maturity before starting, then monitor clinically and radiographically every 6-12 months until skeletal maturity or final height. Mucocutaneous effects (dry skin and lips, itch, rash, hair loss, redness, peeling, dry eye) are handled with emollients, sunscreen and artificial tears, sometimes with a dose cut. Also watch for reduced vertebral bone density (check periodically for vertebral fracture on imaging), depression, anxiety, mood change or suicidal thinking, and night blindness that makes night driving unsafe.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "500a5080b8fceb4e",
+     "n": 3200,
+     "p": "[Table 1"
+    }
+   ],
+   "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Class I (generally accepted) medicines (S1 Table 2):** prednisone or liquid prednisolone, ibuprofen, indomethacin and celecoxib. Start the steroid within 24 h of flare-up onset, but not for minor bumps and not for chest or back flare-ups; a longer tapering course may be used for submandibular flare-ups affecting breathing or swallowing. After severe soft-tissue injury the 3-4 day course may be repeated for 4 days and tapered over up to 2 weeks. Consider a bisphosphonate if frequent steroid courses threaten osteoporosis, and anti-parasite precautions in endemic regions.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a38ba5d6afb53f8e",
+     "n": 358,
+     "p": "[Table 2"
+    },
+    {
+     "h": "2dbfa5cf1a82cce3",
+     "n": 334,
+     "p": "[Table 2"
+    },
+    {
+     "h": "262b38ab686838c2",
+     "n": 332,
+     "p": "[Table 2"
+    },
+    {
+     "h": "523f7a2607afce35",
+     "n": 262,
+     "p": "[Table 2"
+    },
+    {
+     "h": "7e7425f280088186",
+     "n": 1650,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **IV corticosteroid protocol (S1 Table 2), inpatient only because of the risk of hypertension:** methylprednisolone 7-15 mg/kg or prednisolone sodium 20-30 mg/kg IV once daily on 3 consecutive days (some give it on alternate days for tolerability), with a total daily dose of no more than 1000 mg.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e7425f280088186",
+     "n": 1650,
+     "p": "[Table 2"
+    }
+   ],
+   "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Class II (off-label) medicines (S1 Table 3):** montelukast, cromolyn, pamidronate, zoledronate, imatinib, tofacitinib and canakinumab. Pamidronate: 0.75 mg/kg/day for 3 days at 2-3 years, 1.0 mg/kg/day for 3 days above 3 years and in adults, each infusion given slowly over 4-5 h, half the dose on day 1 of the first cycle, no more than 4 cycles a year; check blood count, urea, creatinine, calcium, phosphate, albumin, alkaline phosphatase and 25-hydroxyvitamin D first, and give calcium and vitamin D during and indefinitely after. Tofacitinib 5 mg twice daily helped in one case series; canakinumab follows FMF dosing (under 40 kg, 2 mg/kg every 4 weeks, up to 4 mg/kg; over 40 kg, 150 mg every 4 weeks, maximum 300 mg) and cut flare activity by 61%-89% in a 4-patient uncontrolled series.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6c4f68cee92168b",
+     "n": 266,
+     "p": "[Table 3"
+    },
+    {
+     "h": "ebd9ca26370360eb",
+     "n": 279,
+     "p": "[Table 3"
+    },
+    {
+     "h": "f2b99f63389925c6",
+     "n": 483,
+     "p": "[Table 3"
+    },
+    {
+     "h": "9e8eab487929824d",
+     "n": 481,
+     "p": "[Table 3"
+    },
+    {
+     "h": "2ec734416156aa52",
+     "n": 263,
+     "p": "[Table 3"
+    },
+    {
+     "h": "dab97a471e40e280",
+     "n": 671,
+     "p": "[Table 3"
+    },
+    {
+     "h": "3abdee1a80c6b6c4",
+     "n": 440,
+     "p": "[Table 3"
+    },
+    {
+     "h": "dcc4b69366b02bd8",
+     "n": 1468,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**Class III (investigational only; S1 Table 4):** ACVR1/ALK2 signal-transduction inhibitors (saracatinib, fidrisertib, zilurgisertib; phase II), mTOR inhibitors such as sirolimus (phase II), garetosmab, an activin A antibody (phase III), and andecaliximab, an MMP-9 antibody (phase II/III). None has a dose outside trials.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6b31e4d91c509538",
+     "n": 443,
+     "p": "[Table 4"
+    },
+    {
+     "h": "6cd83e3454343b49",
+     "n": 445,
+     "p": "[Table 4"
+    },
+    {
+     "h": "c8afc3cd2ef2ba09",
+     "n": 452,
+     "p": "[Table 4"
+    },
+    {
+     "h": "9240725e6959e523",
+     "n": 627,
+     "p": "[Table 4"
+    },
+    {
+     "h": "940f44f93ab3bdfc",
+     "n": 442,
+     "p": "[Table 4"
+    },
+    {
+     "h": "ce5799bc97a80c66",
+     "n": 583,
+     "p": "[Table 4"
     }
    ],
    "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23"

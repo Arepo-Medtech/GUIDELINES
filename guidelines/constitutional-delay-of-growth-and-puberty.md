@@ -1,9 +1,9 @@
 # Constitutional (self-limited) delay of growth and puberty in boys: diagnosis and testosterone treatment
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** boys with delayed puberty: definition, how often it is self-limited (constitutional) delay versus functional, permanent central or primary hypogonadism, clinical and laboratory clues, when to treat, and low-dose testosterone (and letrozole) to promote puberty, with monitoring. **Girls are not covered by this source;** oestradiol induction is in `disorders-of-puberty`. Pubertal induction in permanent hypogonadism (testosterone, hCG ± FSH): `disorders-of-puberty`. Growth hormone eligibility with constitutional delay: `growth-hormone-therapy-children`. Adult male hypogonadism: `androgen-deficiency-in-men`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **38 fragments or anchors re-checkable by machine; 4 doses.** **S1** Rey RA (published 24 November 2025; international): 18 claims, quoted · **S2** Gaudino R (published 24 March 2022; international): 9 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **40 fragments or anchors re-checkable by machine; 4 doses.** **S1** Rey RA (published 24 November 2025; international): 19 claims, quoted · **S2** Gaudino R (published 24 March 2022; international): 9 claims, quoted
 
 > 🌐 **Two sources.** S1 (Archives of Endocrinology and Metabolism, 2025) is the main source. **S2** (Italian Journal of Pediatrics, 2022) is a shorter narrative review; it adds natural history, the treatment threshold and a shorter testosterone course. Where they differ, both are shown.
 
@@ -21,6 +21,7 @@
 - **Puberty that starts but fails to reach the adult stage within roughly 5 years, or stops, is also abnormal;** prolonged or arrested puberty usually reflects disease. [S1]
 - **Self-limited (constitutional) delay is the commonest cause, 60%–80% of boys referred;** puberty usually starts by age 18. [S1]
 - **Other causes:** functional central hypogonadism from chronic illness (10%–20%; e.g. malnutrition, coeliac disease, cystic fibrosis, kidney or liver disease, inflammatory disease, diabetes), which resolves when the illness is controlled; permanent central hypogonadism (8%–10%); and primary hypogonadism (4%–5%, mostly anorchia). [S1]
+- **The source's aetiology table gives somewhat different shares:** constitutional delay 60%–70%; functional central hypogonadism 16%–20% (systemic disease such as coeliac or inflammatory bowel disease, diabetes, malnourishment or hypothyroidism, or emotional stress); acquired central hypogonadism 4%–6% (sellar or suprasellar surgery, pituitary tumours, head injury, high-dose cranial radiotherapy); primary hypogonadism 2%–7% (anorchia or testicular regression, mild testicular dysgenesis, Klinefelter syndrome, orchitis or chemotherapy); congenital hypogonadotropic hypogonadism 2% (isolated, with or without anosmia, or with multiple pituitary hormone deficiency). [S1]
 - **Constitutional delay affects over 2% of adolescents, mainly boys.** It is a variant of normal growth rather than a disease, but catch-up, puberty and the growth spurt all come late, and these adolescents often fail to reach their genetic target height. A family history of delayed puberty is present in 50-75%. [S2]
 
 ## Clinical clues
@@ -73,11 +74,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Girls with constitutional delay** (about a third of delayed puberty in girls; low-dose oestradiol) are not covered by this source. `disorders-of-puberty` covers oestradiol induction. | `out_of_scope` |
 | 2 | **Letrozole** for constitutional delay is not TGA-approved for this use or PBS-listed for it; the PBS row lists testosterone only. | `observation` |
 | 3 | **Which PBS testosterone formulation** suits low-dose induction (the source uses 4-weekly enanthate or cypionate) is not stated by the source; check current PBS items and ANZSPED/APEG practice. | `input_unavailable` |
-| 4 | **Aetiology and gene tables** (Tables 1 and 2) were stripped. | `input_unavailable` |
-| 5 | **Testosterone course differs:** S1 escalates by 50 mg every 6–12 months over 2 to 3 years to 200–250 mg every 4 weeks and stops when the testes enlarge; S2 gives 50 mg/month rising to 100 mg after 6 months and continues until testes reach 12 ml. Both are shown. | `observation` |
-| 6 | **Transdermal testosterone:** S1 says oral and transdermal forms have rarely been used to induce puberty; S2 offers a transdermal regimen. S2 names no product, so check the PBS formulation. | `observation` |
-| 7 | **GnRH testing:** S2's conclusion advises routine GnRH or GnRH-agonist tests as early discriminators, yet its own text (and S1) says stimulated gonadotropins do not separate CDGP from hypogonadotropic hypogonadism. Only the latter is used here. | `observation` |
-| 8 | **S2's oestrogen doses for girls are inconsistent** ('5-10 mcg daily' for CDGP and '5-10 μg/Kg per day' for hypogonadism), so neither is used; girls stay out of scope. | `observation` |
+| 4 | **Gene tables are still missing:** S1's aetiology table (Table 1) is now used, but its Table 2 has merged cells and S2's Table 1 has ragged rows, so neither could be extracted. | `input_unavailable` |
+| 5 | **Aetiology shares differ within S1:** its text gives constitutional delay 60%–80%, functional 10%–20%, permanent central 8%–10% and primary 4%–5%; its Table 1 gives 60%–70%, 16%–20%, acquired central 4%–6% plus congenital 2%, and primary 2%–7%. Both are shown. | `observation` |
+| 6 | **Testosterone course differs:** S1 escalates by 50 mg every 6–12 months over 2 to 3 years to 200–250 mg every 4 weeks and stops when the testes enlarge; S2 gives 50 mg/month rising to 100 mg after 6 months and continues until testes reach 12 ml. Both are shown. | `observation` |
+| 7 | **Transdermal testosterone:** S1 says oral and transdermal forms have rarely been used to induce puberty; S2 offers a transdermal regimen. S2 names no product, so check the PBS formulation. | `observation` |
+| 8 | **GnRH testing:** S2's conclusion advises routine GnRH or GnRH-agonist tests as early discriminators, yet its own text (and S1) says stimulated gonadotropins do not separate CDGP from hypogonadotropic hypogonadism. Only the latter is used here. | `observation` |
+| 9 | **S2's oestrogen doses for girls are inconsistent** ('5-10 mcg daily' for CDGP and '5-10 μg/Kg per day' for hypogonadism), so neither is used; girls stay out of scope. | `observation` |
 
 ## Sources
 

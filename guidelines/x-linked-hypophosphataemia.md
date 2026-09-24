@@ -1,9 +1,9 @@
 # X-linked hypophosphataemia (XLH)
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, biochemical and genetic diagnosis, conventional therapy (oral phosphate with calcitriol or alfacalcidol), burosumab, multidisciplinary referral, monitoring and transition to adult care for children and adults with XLH. The source's numbered consensus statements live in tables and figures that were stripped; claims come from its narrative text. Tumour-induced osteomalacia (also a burosumab PBS condition) is not covered. Related: `hypophosphataemia-children` (acquired hypophosphataemia and phosphate replacement), `vitamin-d-deficiency-children` (nutritional rickets, the main differential). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 3 SOURCES.** 38 claims; **78 fragments or anchors re-checkable by machine; 7 doses.** **S1** APAC XLH Working Group (published 1 May 2023; international): 24 claims, quoted · **S2** Ali DS (published 17 February 2025; international): 9 claims, paraphrased, hash-anchored · **S3** Khan AA (published 17 April 2025; international): 5 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 3 SOURCES.** 41 claims; **81 fragments or anchors re-checkable by machine; 7 doses.** **S1** APAC XLH Working Group (published 1 May 2023; international): 24 claims, quoted · **S2** Ali DS (published 17 February 2025; international): 11 claims, paraphrased, hash-anchored · **S3** Khan AA (published 17 April 2025; international): 6 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Asia-Pacific XLH Working Group, 2023; Australian co-authors, endorsed by ANZSPED and ANZBMS). Australian practice follows the PBS listings below and may differ.
 
@@ -21,6 +21,8 @@
 - **Recurrent dental abscesses without caries or trauma are typical.** Hypophosphatasia also causes early tooth loss but has low ALP, whereas XLH in children has persistently high ALP. [S1]
 - ⚠️ **Craniosynostosis can be an early infant sign (abnormal head shape), and about 10% of children also have a Chiari malformation.** [S1]
 - **Adults:** pseudofractures in 29%-52%, plus enthesopathies and osteoarthritis that become more common after 30-40 years. [S1]
+- **Childhood features (S2 Table 1):** lower-limb deformity, below-average height, bone pain, muscle weakness and fatigue, dolichocephaly and craniosynostosis, dental abscesses, and tinnitus or hearing loss. [S2]
+- **Adult features (S3 Table 1):** lower-limb deformity, fractures and pseudofractures, muscle weakness and fatigue, bone and joint pain, dental infection and periodontal disease, early joint damage, enthesopathies, spinal stenosis, osteophytes, and tinnitus or hearing loss. [S3]
 
 ## Confirm the diagnosis
 
@@ -29,6 +31,7 @@
 - **Use total ALP in children and bone-specific ALP in adults.** [S1]
 - **Concurrent vitamin D deficiency is common in Asian cohorts and can mask XLH;** FGF23 assays are not widely available and need cautious interpretation. [S1]
 - **Single-gene PHEX sequencing is the first genetic test** (a pathogenic variant is found in about 90%-100%); if testing is unavailable, a positive family history supports the diagnosis. [S1]
+- **Expected biochemistry in a child at diagnosis (S2 Table 2):** serum phosphate low for age because of renal wasting, with a low TmP/GFR; high ALP; normal calcium; PTH normal or a little raised; 25-hydroxyvitamin D normal (low if deficiency coexists); 1,25-dihydroxyvitamin D normal or inappropriately low; FGF23 high or inappropriately normal; urine calcium to creatinine normal or low. Use age-specific reference ranges, or the diagnosis can be missed. [S2]
 
 ## Treat
 
@@ -82,12 +85,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The 16 numbered consensus statements and their grades** are in tables and figures, which were stripped; claims here come from the article's narrative. | `input_unavailable` |
-| 2 | **Monitoring test frequencies by life stage** (Tables 5-7) were stripped and are not stated here. | `input_unavailable` |
+| 1 | **The 16 numbered consensus statements and their grades** are in S1's tables and figures. All 11 S1 tables have merged cells and were not extracted by pmc_text.py --append-tables, so claims here still come from the article's narrative. | `input_unavailable` |
+| 2 | **Monitoring test frequencies by life stage** (S1 Tables 5-7) have merged cells and were not extracted, so they are not stated here. | `input_unavailable` |
 | 3 | **Tumour-induced osteomalacia** (a PBS condition for burosumab) is outside this source. | `out_of_scope` |
 | 4 | **Sources disagree on first-line burosumab.** S1 (APAC 2023) reserves it for children with rickets refractory to, or complicated by, conventional therapy and for adults with refractory symptoms; S2 and S3 (IWG 2025, GRADE) recommend it over conventional therapy in children from 12 months and in adults with fractures or pseudofractures. PBS criteria decide Australian access. | `observation` |
 | 5 | **Adult calcitriol dose differs:** S1 gives 0.50-0.75 μg daily; S3 gives 0.5 to 1 µg/day. S1 starts child burosumab at 0.8 mg/kg; S2 notes starting doses of 0.4 to 0.8 mg/kg depending on the regulator. | `observation` |
-| 6 | **IWG monitoring schedules** (S2 and S3 figures, based on an expert practice survey) were not extracted; the figures are images. | `input_unavailable` |
+| 6 | **IWG monitoring schedules** (S2 and S3 figures, based on an expert practice survey) were not extracted; the figures are images. S2 Tables 3-4 and S3 Table 2 (ragged rows or merged cells) were not extracted either; S2 Tables 1-2 and S3 Table 1 (clinical features, biochemistry at diagnosis) are now on the page. | `input_unavailable` |
 | 7 | **Licence:** CC BY 4.0. Fragments are quoted with attribution. | `observation` |
 
 ## Sources

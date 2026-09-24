@@ -1,9 +1,9 @@
 # Anorectal malformations: bowel management after repair
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** assessment of continence potential and the stepwise bowel management programme (stimulant laxatives, rectal enemas, transanal irrigation, antegrade continence enemas, sigmoid resection, redo surgery) for children with an anorectal malformation (ARM) after primary repair, plus toilet training, anal calibration, perineal skin care and incontinence aids (S2). Neonatal diagnosis and colostomy are only outlined. Hirschsprung disease and its enterocolitis: see `hirschsprung-enterocolitis`. Functional constipation in children: see `constipation`. PBS access (bisacodyl; sorbitol-citrate micro-enemas) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 25 claims; **44 fragments or anchors re-checkable by machine; 2 doses.** **S1** Bokova E (published 8 May 2023; international): 16 claims, quoted · **S2** Aubert O (published online 19 September 2024 (2025 issue); international): 9 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **45 fragments or anchors re-checkable by machine; 2 doses.** **S1** Bokova E (published 8 May 2023; international): 17 claims, quoted · **S2** Aubert O (published online 19 September 2024 (2025 issue); international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (S1: narrative state-of-the-art review from one US colorectal centre, 2023; not a society guideline). Australian practice follows the PBS listings below and may differ. The assessment, laxative, enema, irrigation and ACE claims rest on S1.
 
@@ -24,6 +24,7 @@
 - **Work up referred constipation or soiling** with the surgical history, a plain abdominal film for stool load, and examination under anaesthesia (sphincter, neoanus position, stricture, prolapse). [S1]
 - **Image the spine and pelvis** (MRI; spinal ultrasound under 6 months) and do a contrast enema to define colonic anatomy. [S1]
 - **Predict continence potential** from the ARM type, the sacrum and the spine (the ARM continence index). A sacral ratio under 0.4 means poor potential; 0.7 or more, a higher likelihood of continence. [S1]
+- **Rome IV constipation in infants and children (S1 Table 1):** at least 2 of these for at least 3 months, with onset at least 6 months before diagnosis: fewer than 3 bowel movements a week; straining, lumpy or hard stools (Bristol 1–2), a sense of incomplete evacuation or of anorectal blockage, or manual manoeuvres, each in more than 25% of defecations; loose stools rarely present without laxatives; insufficient criteria for irritable bowel syndrome. [S1]
 - **Look for a megarectosigmoid,** which causes long-standing constipation, impactions and overflow incontinence. [S1]
 
 ## Bowel management programme
@@ -71,7 +72,7 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **Megacolon** (PBS row, same drugs) is not attached: the source discusses only the megarectosigmoid that follows ARM repair, not megacolon in general; Hirschsprung disease is in a sister review in the same series. | `out_of_scope` |
 | 2 | **Laxative and enema doses by age** (senna titration, stimulant concentrations) are not given beyond the figures quoted; the stepwise protocol is in Figure 3, which was not extracted. | `input_unavailable` |
-| 3 | **Rome IV continence criteria** (Table 1) were stripped. | `input_unavailable` |
+| 3 | **Rome IV constipation criteria** (S1 Table 1) are now covered from the appended table rows. | `observation` |
 | 4 | **Evidence type:** S1 is a narrative review from a single high-volume US centre, not a consensus guideline; S2 is a European Reference Network guideline (graded, mostly grade D for incontinence). ARM-Net (2015) covers only diagnosis and early newborn management. | `observation` |
 | 5 | **Skin-level stricture differs:** S1 treats a post-PSARP skin-level stricture with a Heineke-Mikulicz-like anoplasty instead of dilations; S2 suggests dilatation under general anaesthetic, otherwise stricturoplasty. Both are shown. | `observation` |
 | 6 | **Drug choice:** S1 prefers stimulant laxatives with soluble fibre and advises against stool softeners; S2 names laxatives, enemas and irrigation without specifying agents. S1's specific advice is not contradicted by S2. | `observation` |

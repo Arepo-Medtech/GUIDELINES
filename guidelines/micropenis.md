@@ -1,15 +1,15 @@
 # Micropenis in infants and children: diagnosis, evaluation and testosterone treatment
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** boys from infancy to adolescence with a small but structurally normal penis: measuring stretched penile length, looking for an underlying endocrine cause, testosterone treatment and its timing, expectant management and the limited place of surgery. Pubertal delay and congenital hypogonadotropic hypogonadism (CHH): see `disorders-of-puberty` and `constitutional-delay-of-growth-and-puberty`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **42 fragments or anchors re-checkable by machine; 3 doses.** **S1** International Braz J Urol (published online 20 December 2025; international): 14 claims, quoted · **S2** Bonomi M (published 28 February 2026; international): 12 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **59 fragments or anchors re-checkable by machine; 7 doses.** **S1** International Braz J Urol (published online 20 December 2025; international): 19 claims, quoted · **S2** Bonomi M (published 28 February 2026; international): 14 claims, quoted
 
 > ⚠️ International sources (S1: narrative review, International Braz J Urol, 2025; S2: Italian SIAMS/SIEDP society guideline, 2026). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **S1 is a literature review, not a guideline;** recognition, measurement technique and the case for early treatment rest on it. **S2 is a society guideline with GRADE-rated recommendations** and supplies the work-up timing, the suggested testosterone and DHT regimens and the advice against surgery before adulthood. Both say the evidence for hormone dosing is weak and there is no consensus on age, dose, route or duration.
 
-> The PBS lists **testosterone** for micropenis (authority required). S1's dosing table was not machine-readable; the regimen shown is S2's suggestion (testosterone enanthate 25 mg IM monthly for 3 months), which S2 notes is off label in children in Italy.
+> The PBS lists **testosterone** for micropenis (authority required). S1's table of study regimens is now machine-read (see Treat), but those are trial doses; the recommended regimen shown is S2's suggestion (testosterone enanthate 25 mg IM monthly for 3 months), which S2 notes is off label in children in Italy.
 
 ---
 
@@ -22,6 +22,8 @@
 - **It usually reflects too little androgen during a critical window:** from 12 weeks' gestation through the postnatal 'mini-puberty' of the first six months. [S1]
 - ⚠️ **Refer every infant with congenital micropenis for complete clinical and endocrine evaluation by a specialised multidisciplinary team** to exclude hormonal or syndromic causes (SIAMS/SIEDP R3.1: 1, ⊕⊕⊕⊕). [S2]
 - ⚠️ **Time the hormone tests: in the first 2 days of life or in the minipuberty window (3 to 6 months),** measure testosterone, LH, FSH, inhibin B and AMH (R3.2: 1, ⊕⊕⊕○). This is the only window in which the physiological rise can be seen. [S2]
+- **Newborn features that suggest a disorder of sex development (S2 table) include micropenis,** along with overt atypical genitalia, apparent male genitalia with both testes undescended, isolated perineal hypospadias, mild hypospadias with an undescended testis, a family history of DSD, and genitalia that do not match a prenatal karyotype. [S2]
+- **Conditions associated with micropenis (S2 table).** Hypogonadotropic: isolated, combined with other pituitary deficiencies, or syndromic (Prader-Willi, Bardet-Biedl, Laurence-Moon, CHARGE, Silver-Russell, Rud), and isolated GH or IGF-1 deficiency. Gonadal (hypergonadotropic): anorchia; disorders of gonadal development (sex chromosome mosaicism, partial gonadal dysgenesis); androgen synthesis defects (3β- and 17β-hydroxysteroid dehydrogenase, 17,20-lyase and 5α-reductase deficiency); partial androgen insensitivity; chromosomal or genetic syndromes (Klinefelter and multiple-X, Down, Noonan, Robinow, CHARGE); and penile agenesis. Miscellaneous: maternal antifungal use, environmental endocrine disruptors, and nonspecific 46,XY DSD or idiopathic micropenis. [S2]
 
 ## Measure
 
@@ -29,6 +31,7 @@
 - **Penile size varies by ethnicity and region, so use the most relevant, current, population-specific nomogram**; local reference data are best. [S1]
 - **Practical cut-offs (S2, citing international guidelines): under 2 cm at birth and under 4 cm after 5 years of age.** Record girth at the base and coronal level, palpate the corpora and check for cryptorchidism (R3.3: 1, ⊕⊕⊕⊕). [S2]
 - **Measured in the first 12 hours of life, stretched length may read about 10% short: measure again.** For karyotype, count more metaphases (e.g. 100) to find hidden mosaicism; FISH for SRY can exclude a DSD faster. [S2]
+- **Population nomograms reviewed by S1:** Indian (2014; 200 boys aged 0–10 y), Japanese (2015; 1628, 0–7 y), Turkish (2021; 948 uncircumcised boys), Egyptian (2023; 1500 prepubertal boys), Brazilian preterm newborns (2025; 140, measured within 72 h and weekly), Brazilian (2007; 2,010, 0–18 y, by age and Tanner stage), Chinese (2018; 2,974 urban boys, 0–17 y) and Bulgarian (2010; 6,200 white boys, 0–19 y). [S1]
 
 ## Treat
 
@@ -39,6 +42,10 @@
 - **The evidence is thin:** there are no large, long-term placebo-controlled trials and no evidence-based guideline on testosterone for micropenis. Short-term results are favourable; long-term data are limited. [S1]
 - **Expectant management may suit selected boys**, since many untreated patients normalise at puberty. It must be individualised, with structured clinical and psychosocial follow-up; the supporting studies had high drop-out. [S1]
 - **Surgery is not first line.** Keep it for failed hormone therapy or anatomical abnormality; paediatric outcomes are poorly documented and the risks significant. [S1]
+- **Testosterone injection regimens in S1's study table (not recommendations):** testosterone enanthate 25 mg IM every 4 weeks up to 4 times (53 Japanese prepubertal boys; median gain 0.6 cm); 25 mg IM monthly for 3 months in boys under 11 (Nerli, more than 100% SPL increase); and 25–50 mg IM every 4 weeks for 3 months in 8 males with CHH, then adult dosing, with no significant difference between starting in infancy or childhood. [S1]
+- **hCG in S1's study table:** 1,500–2,000 IU IM weekly for 6 weeks in boys over 11 (Nerli, 25 boys, more than 100% SPL increase alongside the testosterone group); and in 20 patients with CHH, 1,500–2,000 IU IM three times a week for 8 weeks, with a mean SPL gain of 2.31 cm and good tolerance. [S1]
+- **Topical and DHT regimens in S1's study table:** 5% testosterone cream (10 mg) daily for 30 days raised SPL by about 44% in 50 boys aged 5 months to 8 years, with only mild transient local hyperpigmentation or eczema; 2.5% DHT gel at 0.1–0.2 mg/kg/day for up to 6 months brought 61% of 23 boys to a normal SPL (above −2.5 SD) without bone-age advance. [S1]
+- **DHT versus testosterone enanthate (Karrou 2023, as tabulated by S1):** in 49 boys, DHT 5 mg daily for 5 weeks (renewed 1–2 times) against testosterone enanthate 50 mg IM monthly (renewed once) gave mean growth of +2.37 cm versus +1.82 cm (p = 0.008), with no side effects; the sample was small and there was no genetic testing. [S1]
 
 ## Treat: SIAMS/SIEDP guideline (S2)
 
@@ -67,13 +74,14 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **S1's testosterone table** (doses, injection vs topical, course length) was stripped. The regimen shown comes from S2, which calls the evidence low quality; Australian product information and PBS criteria were not checked. | `input_unavailable` |
-| 2 | **Causes of micropenis and the comparison of penile-length nomograms** are in tables that were stripped. | `input_unavailable` |
-| 3 | **hCG and recombinant gonadotropins** are not discussed in S1 and only in one sentence in S2 (limited reports, off label); DHT is covered by S2 only. | `input_unavailable` |
-| 4 | **No Australian guideline was found.** The Italian SIAMS/SIEDP 2026 guideline is used as S2 (Europe PMC, September 2026). A Chinese expert consensus (Zhonghua Er Ke Za Zhi, 2023) exists but is not open access. | `observation` |
-| 5 | **Surgery:** S1 reserves surgery for failed hormone therapy or anatomical abnormality; S2 recommends against any surgery before adulthood. Both are shown. | `observation` |
-| 6 | **Timing:** S1 says earlier treatment (infancy, minipuberty) gives the most growth; S2 allows treatment in the first 6 months or later and says it is unclear whether early treatment changes adult length. | `observation` |
-| 7 | **Licences:** S1 and S2 are CC BY 4.0. Claims are quoted and re-checkable. | `observation` |
+| 1 | **S1's hormone table** (S1 Table 3) is now covered under Treat, but its regimens are doses used in small studies, not recommendations. The suggested regimen comes from S2, which calls the evidence low quality; Australian product information and PBS criteria were not checked. | `input_unavailable` |
+| 2 | **Causes of micropenis** (S2 Table 6) and **the penile-length nomograms** (S1 Table 2) are now covered from their table rows; none of the eight nomograms is Australian. S2 Tables 2, 4, 5 and 7–9 have merged cells or ragged rows and still could not be extracted. | `input_unavailable` |
+| 3 | **hCG and recombinant gonadotropins:** S1's study table now gives two hCG regimens from small retrospective series; S2 has one sentence (limited reports, off label). No source recommends an hCG regimen. DHT is covered by S2 and by S1's study table. | `input_unavailable` |
+| 4 | **DHT trial figures differ between sources:** S1's table gives mean growth of +2.37 cm (DHT) versus +1.82 cm (testosterone enanthate) for Karrou 2023 in 49 boys; S2 reports what appears to be the same 49-patient randomised study as 2.82 versus 1.87 cm. S2 also suggests DHT for 6 weeks where the trial used 5 weeks, and S2 cites local DHT at 0.1–0.3 mg/kg/day where S1's table gives 0.1–0.2 mg/kg/day for Xu 2017. Both are shown; the primary papers were not read. | `observation` |
+| 5 | **No Australian guideline was found.** The Italian SIAMS/SIEDP 2026 guideline is used as S2 (Europe PMC, September 2026). A Chinese expert consensus (Zhonghua Er Ke Za Zhi, 2023) exists but is not open access. | `observation` |
+| 6 | **Surgery:** S1 reserves surgery for failed hormone therapy or anatomical abnormality; S2 recommends against any surgery before adulthood. Both are shown. | `observation` |
+| 7 | **Timing:** S1 says earlier treatment (infancy, minipuberty) gives the most growth; S2 allows treatment in the first 6 months or later and says it is unclear whether early treatment changes adult length. | `observation` |
+| 8 | **Licences:** S1 and S2 are CC BY 4.0. Claims are quoted and re-checkable. | `observation` |
 
 ## Sources
 

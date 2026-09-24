@@ -1,9 +1,9 @@
 # Cytomegalovirus retinitis
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, diagnosis, antiviral treatment and monitoring of CMV retinitis in people with HIV and other immunocompromise (transplant, haematological malignancy, HTLV-1). CMV infection after solid organ transplant: see `cytomegalovirus-infection` (which excludes retinitis). HIV care: `hiv`, `hiv-antiretroviral-therapy`. PBS access for valganciclovir and ganciclovir is in the table below.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **53 fragments or anchors re-checkable by machine; 5 doses.** **S1** Viruses (MDPI) (published 7 September 2024; international): 16 claims, quoted · **S2** Munro M (published 28 December 2019; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **64 fragments or anchors re-checkable by machine; 5 doses.** **S1** Viruses (MDPI) (published 7 September 2024; international): 20 claims, quoted · **S2** Munro M (published 28 December 2019; international): 11 claims, quoted
 
 > ⚠️ International narrative reviews (S1: Viruses, 2024; S2: Microorganisms, 2019), not guidelines. Australian practice follows the PBS listings below and may differ.
 
@@ -26,6 +26,7 @@
 
 - **The diagnosis is made on fundus examination,** supported by aqueous humour PCR for active CMV replication. Blood or urine CMV tests can help, but a negative result does not exclude retinitis. [S1]
 - **Exclude the mimics:** progressive outer retinal necrosis, acute retinal necrosis, syphilitic retinitis, tuberculosis and toxoplasmosis. [S1]
+- **Telling the mimics apart (S1 Table 1):** CMV gives superficial, granular yellow-to-white lesions, usually with haemorrhage; PORN gives multiple deep, sharply demarcated white lesions with optic nerve involvement and little vitreous infiltration; ARN gives massive whitish oedema with marked vitreous and anterior chamber infiltration; syphilis gives yellow-to-orange lesions with creamy superficial precipitates or placoid lesions and an Argyll Robertson pupil; tuberculosis gives grey-white lesions with focal vasculitis, vein occlusion and periphlebitis; toxoplasmosis gives retinochoroiditis with a pigmented scar and adjacent vitritis. [S1]
 - **Blood CMV antigenaemia and PCR can predict CMV disease months before it shows;** an antigen level below 45 strongly suggests there is no retinitis (negative predictive value 98.2%). CMV in the urine on its own does not justify antiviral prophylaxis. [S2]
 
 ## Treat
@@ -43,6 +44,9 @@
 - **Recalcitrant or relapsed retinitis: combination therapy is recommended;** ganciclovir plus foscarnet gave longer survival than either drug alone, with no extra toxicity. [S2]
 - ⚠️ **Resistance builds with prolonged ganciclovir or valganciclovir:** in one AIDS study up to 20% were resistant to every anti-CMV drug by 9 to 12 months. UL97 mutations cause ganciclovir resistance first; UL54 mutations then add cidofovir and foscarnet resistance. Genotype testing by PCR is possible when CMV is detectable in blood or eye fluid. [S2]
 - ⚠️ **Maribavir penetrates the retina poorly** (vitreous-to-plasma ratio up to 0.28), so it is a poor choice for retinitis despite its activity against resistant CMV. [S1]
+- **Drug trade-offs (S1 Table 2):** foscarnet (IV or intravitreal) causes less bone marrow suppression and can be combined with ganciclovir, but brings kidney impairment, anaemia and electrolyte disturbance, and intravitreally vitreous haemorrhage and retinal detachment; cidofovir is the least expensive but causes proteinuria, renal failure, neutropenia, uveitis and ocular hypotony. [S1]
+- ⚠️ **Letermovir is approved only for prophylaxis** and is less effective at high viral loads (S1 Table 2), though it is well tolerated and can be combined with ganciclovir. [S1]
+- **CMV-specific adoptive T-cell therapy (an option in drug resistance) and CMV immunoglobulin, both IV, aim to restore immunity** and are well tolerated, but donor selection is complex and both are costly; immunoglobulin can cause infusion reactions (S1 Table 2). [S1]
 - **Antiretroviral therapy has greatly reduced CMV retinitis in HIV,** but people with pre-existing retinitis who start it can develop immune recovery uveitis, a common cause of new vision loss. [S1]
 - **Immune recovery uveitis can take vision through macular oedema, new retinal vessels and cataract without active CMV;** its risk factors are immune reconstitution on ART, more extensive CMV lesions and cidofovir. [S2]
 - **Retinal detachment from CMV retinitis is repaired by vitrectomy** (silicone oil repair succeeds in 56–94% of HIV patients). [S1]
@@ -72,11 +76,12 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The treatment summary (Table 2) and differential-diagnosis table (Table 1)** are tables, which were stripped. | `input_unavailable` |
-| 2 | **Maintenance and stopping rules** are not stated in S1. S2 gives the HIV stopping criteria as its summary of US guidelines; maintenance doses (other than S1's IV ganciclovir 5 mg/kg daily) and a post-ART eye-examination schedule are in neither source. | `input_unavailable` |
-| 3 | **Induction length differs between the sources:** S1 gives 7 to 14 days of IV ganciclovir 5 mg/kg 12-hourly; S2 gives 14 to 21 days for induction in general, adjusted to response. Both are shown; check local guidance and the product information. | `observation` |
-| 4 | **Letermovir:** the source's dosing statement for letermovir in retinitis describes transplant prophylaxis and was not used. | `observation` |
-| 5 | **Licences:** S1 and S2 are both CC BY 4.0. Claims are quoted with attribution (Viruses 2024;16:1427; Microorganisms 2020;8:55). | `observation` |
+| 1 | **Tables now covered:** S1's differential-diagnosis table (Table 1) and treatment summary (Table 2) were appended row by row and are used above. S2 has no tables. The treatment table gives no doses. | `observation` |
+| 2 | **CD4 unit in S1 Table 1:** the table gives the CMV threshold as CD4+ < 50 cells/mL, while S1's text and this page use 50 cells/µL. The table's unit looks like a typo; the page follows the text. | `observation` |
+| 3 | **Maintenance and stopping rules** are not stated in S1. S2 gives the HIV stopping criteria as its summary of US guidelines; maintenance doses (other than S1's IV ganciclovir 5 mg/kg daily) and a post-ART eye-examination schedule are in neither source. | `input_unavailable` |
+| 4 | **Induction length differs between the sources:** S1 gives 7 to 14 days of IV ganciclovir 5 mg/kg 12-hourly; S2 gives 14 to 21 days for induction in general, adjusted to response. Both are shown; check local guidance and the product information. | `observation` |
+| 5 | **Letermovir:** the source's dosing statement for letermovir in retinitis describes transplant prophylaxis and was not used. | `observation` |
+| 6 | **Licences:** S1 and S2 are both CC BY 4.0. Claims are quoted with attribution (Viruses 2024;16:1427; Microorganisms 2020;8:55). | `observation` |
 
 ## Sources
 

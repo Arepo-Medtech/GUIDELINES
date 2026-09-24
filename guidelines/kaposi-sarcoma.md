@@ -1,9 +1,9 @@
 # Kaposi sarcoma — diagnosis, local and systemic treatment
 
-**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, biopsy and staging, local treatments, systemic chemotherapy (pegylated liposomal doxorubicin, paclitaxel, interferon), and subtype-specific management of classic/endemic, HIV-related and post-transplant Kaposi sarcoma, with follow-up. Related: `hiv`, `hiv-antiretroviral-therapy`, `kidney-transplant-immunosuppression-and-rejection`, `soft-tissue-sarcoma`. PBS access (pegylated liposomal doxorubicin) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **58 fragments or anchors re-checkable by machine; 5 doses.** **S1** European Dermatology Forum (published June 2019; international): 24 claims, paraphrased, hash-anchored · **S2** Revenko A (published 20 March 2026; international): 11 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **60 fragments or anchors re-checkable by machine; 5 doses.** **S1** European Dermatology Forum (published June 2019; international): 24 claims, paraphrased, hash-anchored · **S2** Revenko A (published 20 March 2026; international): 13 claims, quoted
 
 > ⚠️ International guideline (EDF/EADO/EORTC, 2019). Australian practice follows the PBS listings below and may differ.
 
@@ -53,6 +53,8 @@
 - **Weekly paclitaxel in the largest classic-KS cohort:** complete response 15.9%, partial 63.7%, stable 13.6% (disease control over 90%). Nab-paclitaxel needs no steroid premedication and is better tolerated by older patients; neutropenia is the main dose-limiting toxicity. [S2]
 - **Pomalidomide gave an 80% response in HIV-negative KS (phase I/II)** and is FDA-approved for KS in HIV-negative patients and in HIV-positive patients after antiretroviral failure; watch for liver and bone-marrow toxicity. Lenalidomide is less active (up to 40%). [S2]
 - **Checkpoint inhibitors are active in classic KS:** nivolumab plus ipilimumab gave 78–93% response in 18 elderly patients (grade 3–4 events 22%), and pembrolizumab 71% in classic and endemic KS. Indirect evidence suggests higher and more durable responses than antiangiogenic drugs, but they have not been compared directly. [S2]
+- **S2's summary table of systemic therapy for classic KS (adopted from NCCN):** first line, pegylated liposomal doxorubicin (response 60–80%; neutropenia, nausea, asthenia); second line for refractory disease, paclitaxel (75–80%; neutropenia, alopecia, peripheral neuropathy, myelosuppression, myalgias), or nab-paclitaxel if paclitaxel is not tolerated; antiangiogenic pomalidomide (70–80%; neutropenia, hepatotoxicity, thrombosis); immunotherapy with nivolumab plus ipilimumab (87%; hepatotoxicity, GI toxicity, pneumonitis) or pembrolizumab (62–71%; pruritus, fatigue, arthralgia). [S2]
+- **Trials under way in KS (S2 Table 2):** abemaciclib (CDK4/6 inhibitor, phase I/II), ixazomib (proteasome inhibitor, phase II), NHS-IL12 alone or with M7824 (phase I/II) and EphB4-HSA (phase II) were recruiting; a phase I study of efineptakin alfa (NT-I7, an IL-7 agonist) was terminated. [S2]
 - **Low-dose interferon for classic KS is 3–5 million IU subcutaneously three times a week,** now rarely used. Sirolimus works in post-transplant KS but has shown no meaningful benefit in classic KS. [S2]
 
 ## By subtype
@@ -86,9 +88,10 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **First-line preference differs:** S1 names paclitaxel and PLD together as preferred first-line drugs (paclitaxel second line in HIV-KS); S2 prefers PLD first in classic KS and keeps taxanes for PLD failure. **PLD dose:** S1 20 mg/m² every 3 weeks; S2 20–30 mg/m² every two to three weeks. Both are shown. | `observation` |
 | 3 | **Paclitaxel dose unit:** S2 writes weekly paclitaxel as '80–100 mg' without a body-surface unit; S1's 80 mg/m² weekly is kept as the dose claim and S2's dose is not restated. | `observation` |
 | 4 | **Pomalidomide, nivolumab/ipilimumab and pembrolizumab** are not PBS-listed for KS; S2 reports FDA approval for pomalidomide only. | `observation` |
-| 5 | **Staging workup and follow-up grids** (Tables 4–5) did not extract cleanly and are not stated. | `input_unavailable` |
-| 6 | **Australian context:** the PBS lists pegylated liposomal doxorubicin for KS; paclitaxel is used under general chemotherapy listings. No Australian KS guideline or eviQ KS protocol was found (research note). | `observation` |
-| 7 | **Licence:** © Elsevier, all rights reserved, free to read. S1 claims are paraphrased and hash-anchored; S1's words are not reproduced. S2 is CC BY 4.0 and quoted. | `observation` |
+| 5 | **S2's summary table and its prose give slightly different response rates:** pomalidomide 70–80% (table) vs 80% (prose), nivolumab plus ipilimumab 87% vs 78–93%, pembrolizumab 62–71% vs 71%. The table also places paclitaxel second line (after PLD), matching S2's prose but not S1. All figures are shown as the source gives them. | `observation` |
+| 6 | **Staging workup and follow-up grids** (Tables 4–5) did not extract cleanly and are not stated. | `input_unavailable` |
+| 7 | **Australian context:** the PBS lists pegylated liposomal doxorubicin for KS; paclitaxel is used under general chemotherapy listings. No Australian KS guideline or eviQ KS protocol was found (research note). | `observation` |
+| 8 | **Licence:** © Elsevier, all rights reserved, free to read. S1 claims are paraphrased and hash-anchored; S1's words are not reproduced. S2 is CC BY 4.0 and quoted. | `observation` |
 
 ## Sources
 

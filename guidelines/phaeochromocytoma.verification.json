@@ -1,6 +1,6 @@
 {
  "guideline": "guidelines/phaeochromocytoma.md",
- "edition": "2.0",
+ "edition": "2.1",
  "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
@@ -10,12 +10,12 @@
  ],
  "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Japan Endocrine Society, Endocrine Journal 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025' (published online 10 October 2025 (issue 6 January 2026)), 21 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12819074 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438) 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension' (published August 2020), 12 claims; LICENCE: No open licence: the PMC record states 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (free to read; copyright retained) (read at Europe PMC fullTextXML <license> element for PMC7486815). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Japan Endocrine Society 2025 claim (S1) unchanged and adds S2, the European Society of Hypertension 2020 position statement, paraphrased because it has no open licence. S2 adds Western metanephrine-first testing, phenoxybenzamine (the PBS drug) against doxazosin, somatostatin-receptor PET imaging, post-operative follow-up and metastatic treatment. Its tables (interfering drugs, radiopharmaceuticals, genes) were stripped.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Japan Endocrine Society, Endocrine Journal 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025' (published online 10 October 2025 (issue 6 January 2026)), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC12819074 (Europe PMC returned 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438) 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension' (published August 2020), 12 claims; LICENCE: No open licence: the PMC record states 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (free to read; copyright retained) (read at Europe PMC fullTextXML <license> element for PMC7486815). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Japan Endocrine Society 2025 claim (S1) unchanged and adds S2, the European Society of Hypertension 2020 position statement, paraphrased because it has no open licence. S2 adds Western metanephrine-first testing, phenoxybenzamine (the PBS drug) against doxazosin, somatostatin-receptor PET imaging, post-operative follow-up and metastatic treatment. Its tables (interfering drugs, radiopharmaceuticals, genes) were stripped. Table rows appended with pmc_text.py --append-tables (2026-09-24); claims from S1 Table 3 (drugs and foods that affect catecholamine tests), Table 4 (imaging strengths and limits) and Table 5 (triggers of hypertensive crisis) are paraphrased from the row lines. S1 Tables 6-7 and all four S2 tables were not extracted (merged cells).",
  "summary": {
-  "total": 33,
+  "total": 36,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 33
+  "pass_paraphrase_anchored": 36
  },
  "claims": [
   {
@@ -235,6 +235,32 @@
     }
    ],
    "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drugs and foods that can distort catecholamine results (S1 Table 3):** tricyclic antidepressants, levodopa, adrenergic agonists such as decongestant nasal sprays (naphazoline, tramazoline), many psychotropics (buspirone, for example), prochlorperazine, clonidine withdrawal, alcohol, amphetamines and metoclopramide; and caffeinated coffee, bananas, citrus, vanilla-flavoured foods, tyramine-rich cheese and red wine.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3721e1698204f49f",
+     "n": 582,
+     "p": "[Table 3"
+    }
+   ],
+   "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Imaging strengths and limits (S1 Table 4):** CT offers high spatial resolution and a typical pattern (unenhanced attenuation above 10 HU, dense arterial enhancement with late washout); MRI typically shows low T1 and high T2 signal without loss on opposed-phase imaging; neither is specific, so adrenal cancer and metastasis must be excluded. 123I-MIBG is specific and surveys the whole body but is less sensitive, especially in metastatic and SDHx-variant disease; 111In-octreotide is specific and still sensitive with SDHx variants, though low in resolution; 18F-FDG PET is sensitive but non-specific; 18F-FDOPA PET is specific and sensitive even in metastatic and SDHx disease but is not approved in Japan.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "46d03b676429d4cf",
+     "n": 1726,
+     "p": "[Table 4"
+    }
+   ],
+   "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Block catecholamine effects adequately before surgery (and in non-operated functional tumours)** to control blood pressure and prevent cardiovascular events. Surgery can release catecholamines, causing crisis, arrhythmia, ischaemia, pulmonary oedema and organ failure. (1C)",
@@ -475,6 +501,19 @@
     }
    ],
    "locator": "Lenders JWM, Kerstens MN, Amar L, Prejbisz A, et al., Working Group on Endocrine Hypertension of the European Society of Hypertension (ESH), Journal of Hypertension 2020;38(8):1443-1456 (doi 10.1097/HJH.0000000000002438), 'Genetics, diagnosis, management and future directions of research of phaeochromocytoma and paraganglioma: a position statement and consensus of the Working Group on Endocrine Hypertension of the European Society of Hypertension', published August 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7486815/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Triggers of hypertensive crisis (S1 Table 5).** Daily life: bending over, exercise, a blow to the abdomen, overeating, tyramine-rich food (aged cheese, red wine), alcohol, sneezing, passing urine or stool, stress, smoking and pregnancy. Procedures: abdominal palpation, enemas, tumour biopsy and iodinated contrast. Drugs: dopamine antagonists such as metoclopramide (contraindicated by mouth and by injection; domperidone needs similar caution), glucagon, a beta-blocker on its own, tricyclics, SNRIs, MAO inhibitors and dexamethasone above 2 mg. Other treatments: CVD chemotherapy, 131I-MIBG or external radiotherapy, arterial embolisation, ablation and contrast media.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "551ab41158638eac",
+     "n": 1657,
+     "p": "[Table 5"
+    }
+   ],
+   "locator": "Japan Endocrine Society, Endocrine Journal, 'Japan Endocrine Society Clinical Practice Guideline for the Diagnosis and Management of Pheochromocytoma and Paraganglioma 2025', published online 10 October 2025 (issue 6 January 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC12819074/, retrieved 2026-09-23"
   },
   {
    "claim": "⚠️ **Hypertensive crisis (3–11% incidence, about 15% mortality) needs hospital admission:** give intravenous phentolamine, then a continuous infusion, adding calcium channel blockers or nitrates as needed; switch to oral doxazosin once stable. (1B)",
