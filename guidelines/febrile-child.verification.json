@@ -1,400 +1,954 @@
 {
-  "guideline": "guidelines/febrile-child.md",
-  "edition": "1.0",
-  "verified_utc": "2026-09-22",
-  "verifier": "claude-opus-5",
-  "verifier_class": "single_verifier_uncalibrated",
-  "retrieved_from": [
-    "https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png"
-  ],
-  "retrieved_utc": "2026-09-22",
-  "method": "Each claim checked against the retrieved text of the RCH Melbourne Clinical Practice Guideline 'Febrile child' (PIC endorsed), including key points, background, history, examination and the unwell-child feature table, management, the infants-28-days-or-less section, consultation, transfer, discharge, additional notes on temperature measurement, lumbar puncture, urine collection and blood culture, the blood culture volume table, and the reference list. Every source_text fragment was machine-checked verbatim against the retrieved source with scripts/verify.py. The management algorithms for infants 29 days to 3 months and children over 3 months are flowchart IMAGES and were not retrieved: they are recorded as input_unavailable and are not reconstructed, and the guideline states that it cannot be used to triage those age groups. Empiric antibiotic choice and dose are deferred by the source to local antimicrobial guidelines and are not stated or reconstructed. The page states 'Last update September 2022' while both flowcharts are filenamed Feb2025; this discrepancy is recorded as time_sensitive rather than resolved. ADDENDUM 2026-09-22: both triage flowcharts were downloaded as PNG images and read visually. Nine further claims carry verdict pass_image_transcription and source S2; they cannot be re-checked by scripts/verify.py. The diagrams supply the empiric antibiotic agents, which the text omitted, and reveal that lumbar puncture is 'unless contraindicated' at 29 days to 3 months but only '+/-' over 3 months. Doses are still not stated anywhere in either the text or the diagrams and remain deferred to local antimicrobial guidelines.",
-  "claims": [
+ "guideline": "guidelines/febrile-child.md",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/",
+  "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png"
+ ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Febrile child' (last update September 2022, PIC endorsed), 55 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). S2: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'RCH flowcharts for Febrile child' (two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1), 9 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 rebuilds the hand-written Wave 1 page (which quoted RCH) as a paraphrase. Every Wave 1 claim is carried over and re-anchored in the page as fetched on 2026-09-24, one in part (see Unresolved), and one claim on the page's age tiers is added so the flowchart claims can be placed by age. S2 anchors point into a text transcription of the two flowcharts made in Wave 1; the flowcharts are images and were not re-read.",
+ "summary": {
+  "total": 64,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 64
+ },
+ "claims": [
+  {
+   "claim": "⚠️ **Febrile neonate (28 days or under, corrected):** investigate (FBE, CRP, cultures of blood, urine and CSF, ± chest X-ray) and start empiric IV antibiotics.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
     {
-      "claim": "Key point 1 is that febrile neonates 28 days or less of corrected age require investigations being FBE, CRP, blood, urine and CSF cultures plus or minus CXR, and empiric IV antibiotic therapy",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "1. Febrile neonates \u226428 days of corrected age require investigations (FBE, CRP, blood, urine and CSF cultures \u00b1 CXR) and empiric IV antibiotic therapy"
-    },
-    {
-      "claim": "Key point 2 is that in febrile infants over 28 days of corrected age and under 3 months, clinicians should have a low threshold for investigation and treatment based on clinical appearance and presence or absence of a clinically obvious focus",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "2. In Febrile infants >28 days of corrected age and <3 months, have a low threshold for investigation and treatment based on clinical appearance and presence (or absence) of a clinically obvious focus"
-    },
-    {
-      "claim": "Key point 3 is that in infants under 3 months of age, hypothermia or temperature instability can be signs of serious bacterial infection or other serious illness",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "3. In infants <3 months of age, hypothermia or temperature instability can be signs of serious bacterial infection (or other serious illness)"
-    },
-    {
-      "claim": "The severity of illness cannot be predicted by the degree of fever, its rapidity of onset, its response to antipyretics or the presence of febrile seizures, and the appearance of the child is the most useful indicator",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "4. The severity of illness cannot be predicted by the degree of fever, its rapidity of onset, its response to antipyretics or the presence of febrile seizures; the appearance of the child is the most useful indicator"
-    },
-    {
-      "claim": "Fever is defined as body temperature greater than 38.0 degrees Celsius",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Definition of fever: body temperature >38.0\u00ba Celsius"
-    },
-    {
-      "claim": "Where possible clinicians should use the same body site and the same type of thermometer when measuring temperatures",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Where possible, use the same body site and the same type of thermometer when measuring temperatures"
-    },
-    {
-      "claim": "The most common causes of fever in children are viral infections however serious bacterial infections need to be considered, and the most common serious bacterial infections found in children without a focus are urinary tract infections",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "The most common causes of fever in children are viral infections, however serious bacterial infections (SBIs) need to be considered \u2026 The most common SBIs found in children without a focus are urinary tract infections"
-    },
-    {
-      "claim": "Since the introduction of the pneumococcal vaccine the rate of occult bacteraemia has fallen to less than 1 per cent in healthy immunised children",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Since the introduction of the pneumococcal vaccine, the rate of occult bacteraemia has fallen to <1% in healthy, immunised children"
-    },
-    {
-      "claim": "Children with fever for 5 days or more should be assessed for Kawasaki disease or PIMS-TS if there is a history of COVID-19 infection",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children with fever for \u22655 days should be assessed for Kawasaki disease or PIMS-TS if there is a history of COVID-19 infection"
-    },
-    {
-      "claim": "Other uncommon causes of prolonged fever in children include inflammatory, immune-mediated and neoplastic conditions and specialist input may be required",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Other uncommon causes of prolonged fever in children include inflammatory, immune-mediated and neoplastic conditions; specialist input may be required"
-    },
-    {
-      "claim": "History should cover localising symptoms such as cough, headache, photophobia, diarrhoea, vomiting, abdominal pain, musculoskeletal pain and rash",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Localising symptoms eg cough, headache, photophobia, diarrhoea, vomiting, abdominal pain, musculoskeletal pain, rash"
-    },
-    {
-      "claim": "Prior treatment with antibiotics may mask signs of a bacterial infection",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Medication: prior treatment with antibiotics may mask signs of a bacterial infection"
-    },
-    {
-      "claim": "High risk factors include prematurity, immunosuppression or oncological conditions, central line in situ, chronic lung disease, congenital heart disease, previous invasive bacterial infections, children of Aboriginal, Torres Strait Islander, Pacific Islander or Maori origin, and multiple health service presentations",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "High risk: prematurity, immunosuppression/oncological conditions (see ), central line in situ, chronic lung disease, congenital heart disease, previous invasive bacterial infections, children of Aboriginal, Torres Strait Islander, Pacific Islander or Maori origin, multiple health service presentations"
-    },
-    {
-      "claim": "Teething does not cause fever",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Teething does not cause fever"
-    },
-    {
-      "claim": "Post vaccination fever is common with a typical onset within 24 hours of immunisation and duration up to 2 to 3 days, however in an unwell child fever should not be attributed to vaccination alone",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Post vaccination fever is common, with a typical onset within 24 hours of immunisation and duration up to 2-3 days; however, in an unwell child, fever should not be attributed to vaccination alone"
-    },
-    {
-      "claim": "Certain aspects of the child's behaviour and appearance provide the best indication of whether they are at high risk of serious bacterial infection",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Certain aspects of the child's behaviour and appearance provide the best indication of whether they are at high risk of SBI"
-    },
-    {
-      "claim": "Colour features suggestive of an unwell child are pallor including parent or carer report, mottled, and blue or cyanosed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Colour** | Pallor (including parent/carer report) <br> <br>Mottled <br> <br>Blue/cyanosed |"
-    },
-    {
-      "claim": "Activity features suggestive of an unwell child are lethargy or decreased activity, not responding normally to social cues, does not wake or only with prolonged stimulation or if roused does not stay awake, and weak, high-pitched or continuous cry",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Activity** | Lethargy or decreased activity <br> <br>Not responding normally to social cues <br> <br>Does not wake or only with prolonged stimulation, or if roused, does not stay awake <br> <br>Weak, high-pitched or continuous cry |"
-    },
-    {
-      "claim": "Respiratory features suggestive of an unwell child are grunting, tachypnoea, increased work of breathing and hypoxia",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Respiratory** | Grunting <br> <br>Tachypnoea <br> <br>Increased work of breathing <br> <br>Hypoxia |"
-    },
-    {
-      "claim": "Circulation and hydration features suggestive of an unwell child are poor feeding, dry mucous membranes, persistent tachycardia, central capillary refill time of 3 seconds or more, reduced skin turgor and reduced urine output",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Circulation and Hydration** | Poor feeding <br> <br>Dry mucous membranes <br> <br>Persistent tachycardia <br> <br>Central capillary refill time \u22653 seconds <br> <br>Reduced skin turgor <br> <br>Reduced urine output |"
-    },
-    {
-      "claim": "Neurological features suggestive of an unwell child are bulging fontanelle, excessive irritability, neck stiffness, focal neurological signs, and focal, complex or prolonged seizures",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Neurological** | Bulging fontanelle <br>Excessive irritability <br> <br>Neck stiffness <br> <br>Focal neurological signs <br> <br>Focal, complex or prolonged seizures |"
-    },
-    {
-      "claim": "Other features suggestive of an unwell child are non-blanching rash, fever for 5 days or more, swelling of a limb or joint, and non-weight bearing or not using an extremity",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Other** | Non-blanching rash <br> <br>Fever for \u22655 days <br> <br>Swelling of a limb or joint <br> <br>Non-weight bearing/not using an extremity |"
-    },
-    {
-      "claim": "The features suggestive of an unwell child are adapted from the NICE guideline Feverish illness in children",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Adapted from: Feverish illness in children"
-    },
-    {
-      "claim": "The child should be examined for a clinical focus of infection, removing clothing as required to complete a full examination and looking for subtle signs",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "The child should be examined for a clinical focus of infection \u2026 Remove clothing as required to complete a full examination, looking for subtle signs"
-    },
-    {
-      "claim": "Any febrile child who appears seriously unwell should be managed as suspected sepsis irrespective of the degree of fever",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Any febrile child who appears seriously unwell should be managed as suspected sepsis (see ), irrespective of the degree of fever"
-    },
-    {
-      "claim": "Clinicians should not accept apparent otitis media or upper respiratory symptoms as the source of infection in young infants or unwell children, and these children still require assessment for possible serious bacterial infection",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Do not accept apparent otitis media or upper respiratory symptoms as the source of infection in young infants or unwell children. These children still require assessment for possible SBI"
-    },
-    {
-      "claim": "If the child is stable it is preferable to complete investigations looking for an infective focus before commencing antibiotics, and in children from high risk groups clinicians should have a lower threshold for investigations",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "If the child is stable, it is preferable to complete investigations looking for an infective focus before commencing antibiotics \u2026 In children from high risk groups, have a lower threshold for investigations"
-    },
-    {
-      "claim": "UTI is the most common serious bacterial infection and if there is no clinically obvious focus for fever, urine collection and testing should be performed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "UTI is the most common SBI, if there is no clinically obvious focus for fever, urine collection and testing should be performed"
-    },
-    {
-      "claim": "Antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns and clinicians should refer to local guidelines",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please refer to**"
-    },
-    {
-      "claim": "For infants 28 days or less of corrected age clinicians should assess promptly for signs of sepsis and discuss with a senior doctor, perform FBE, CRP, blood culture, urine by suprapubic aspirate, LP plus or minus CXR, and give prompt treatment with empiric antibiotics",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Assess promptly for signs of sepsis and discuss with a senior doctor. \u2026 FBE, CRP, blood culture, urine (by SPA; see section on Urine collection below for other methods), LP \u00b1 CXR"
-    },
-    {
-      "claim": "If the infant appears unwell or there is likely to be a delay in completing all of the required investigations, clinicians should proceed with administration of antibiotics",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "If the infant appears unwell, or there is likely to be a delay in completing all of the required investigations, proceed with administration of antibiotics"
-    },
-    {
-      "claim": "Consultation with the local paediatric team should be considered for an unwell child, septic shock, infants under 28 days corrected age with fever who should be admitted for empiric antibiotics, barriers to follow-up within 24 hours due to social or external factors where admission should be considered, a high-risk child, advice needed regarding empiric treatment, and prolonged fever of unclear cause",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Infants <28 days corrected age with fever (should be admitted for empiric antibiotics) \u2026 Barriers to follow-up within 24 hours due to social or external factors (consider admission)"
-    },
-    {
-      "claim": "Transfer to a tertiary centre should be considered for a child requiring care above the level of comfort of the local hospital",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Child requiring care above the level of comfort of the local hospital"
-    },
-    {
-      "claim": "Discharge may be considered for infants 29 days to 3 months of corrected age when they are well, investigations are normal, the case has been discussed with a senior doctor and follow-up within 12 to 24 hours has been arranged, and for children over 3 months corrected age when they are well and follow up has been arranged",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Infants 29 days to 3 months of corrected age: well, investigations normal, discussed with senior doctor, follow-up within 12-24 hours has been arranged \u2026 Children >3 months corrected age: well, follow up has been arranged"
-    },
-    {
-      "claim": "Parents should always be advised to return for review if the child is deteriorating",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Always advise parents to return for review if the child is deteriorating"
-    },
-    {
-      "claim": "Axillary temperature is recommended for infants under 3 months of age and for a more accurate reading the thermometer should be placed over the axillary artery for 3 minutes",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Axillary temperature: recommended for infants <3 months of age \u2026 For a more accurate reading, the thermometer should be placed over the axillary artery for 3 minutes."
-    },
-    {
-      "claim": "Tympanic temperature is recommended for children over 3 months of age and for an accurate measurement the pinna must be retracted to straighten the external auditory meatus and the instrument should be directed at the tympanic membrane",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Tympanic temperature: recommended for children >3 months of age. For an accurate measurement, the pinna must be retracted to straighten the external auditory meatus and the instrument should be directed at the tympanic membrane."
-    },
-    {
-      "claim": "Skin temperature measurement using forehead or infrared thermometers is unreliable",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Skin temperature: forehead or infrared thermometers are unreliable"
-    },
-    {
-      "claim": "For rectal temperature in neonates clinicians should screen first with axillary temperature then consider performing a rectal temperature if a fever is still suspected",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Rectal temperature: in neonates, screen first with axillary temperature, then consider performing a rectal temperature if a fever is still suspected"
-    },
-    {
-      "claim": "When indicated, lumbar puncture should be performed without delay and ideally before the administration of antibiotics",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "When indicated, LP should be performed without delay and, ideally, before the administration of antibiotics"
-    },
-    {
-      "claim": "Contraindications to lumbar puncture include impaired conscious state, focal neurological signs, impaired coagulation or haemodynamic instability",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Contraindications to LP include impaired conscious state, focal neurological signs, impaired coagulation or haemodynamic instability"
-    },
-    {
-      "claim": "Where there are contraindications to lumbar puncture, treatment for meningitis or encephalitis should be commenced and an LP performed when the child is stable and there are no contraindications",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "In this circumstance, treatment for meningitis/encephalitis should be commenced and an LP performed when the child is stable and there are no contraindications"
-    },
-    {
-      "claim": "Bag urine specimens should never be sent for culture due to high false positive rates, with a contamination rate of 50 per cent",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Bag urine specimens should never be sent for culture due to high false positive rates - contamination rate 50%"
-    },
-    {
-      "claim": "Suprapubic aspirate is the gold standard for urine collection with a contamination rate of 1 per cent, and in/out catheter is useful if there is little urine in the bladder such as after failed clean catch or SPA with a contamination rate of 10 per cent",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Suprapubic aspirate (see ): gold standard - contamination rate 1% \u2026 In/out catheter: useful if there is little urine in the bladder, such as after failed clean catch or SPA (discard first few drops of urine if possible to reduce contamination) - contamination rate 10%"
-    },
-    {
-      "claim": "Midstream urine is the preferred method for toilet-trained children who can void on request with a contamination rate of 25 per cent, and clean catch is appropriate for pre-continent children who cannot void on request but are not seriously unwell, also with a contamination rate of 25 per cent",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Midstream urine (MSU): preferred method for toilet-trained children who can void on request - contamination rate 25% \u2026 Clean catch: appropriate for pre-continent children who cannot void on request, but are not seriously unwell \u2026 - contamination rate 25%"
-    },
-    {
-      "claim": "The perineal or genital area should be cleaned with saline-soaked gauze for 10 seconds before collecting midstream or clean catch urine",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "The perineal/genital area should be cleaned with saline-soaked gauze for 10 seconds before collecting midstream or clean catch urine"
-    },
-    {
-      "claim": "Blood cultures should be taken using an aseptic technique and sterile gloves, accuracy of blood culture results relies on correct blood volume to improve detection of bacteraemia or fungaemia, and the aerobic bottle should be inoculated preferentially if there is inadequate volume for both bottles",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Blood cultures should be taken using an aseptic technique and sterile gloves \u2026 Accuracy of blood culture results rely on correct blood volume to improve detection of bacteraemia or fungaemia \u2026 Inoculate aerobic bottle preferentially, ie if inadequate volume for both bottles"
-    },
-    {
-      "claim": "The paediatric aerobic blood culture bottle takes a minimum volume of 0.5 mL and maximum of 4 mL, and the adult aerobic bottle takes a minimum of 5 mL and maximum of 10 mL",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| Min vol: **0.5 mL**<br>Max vol: **4 mL** | Min vol: **5 mL**<br>Max vol: **10 mL** |"
-    },
-    {
-      "claim": "Blood culture volumes by weight are 1 mL under 1.5 kg, 1.5 mL for 1.5 to 5 kg, 3 mL for 5 to 10 kg, and 4 mL for 11 to 15 kg",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| <1.5 kg | **1 mL** |  | N/A (unless specific clinical indication) | \u2026 | 1.5-5 kg | **1.5 mL** |  | \u2026 | 5-10 kg | **3 mL** |  | **5 mL** | \u2026 | 11-15 kg | **4 mL** |  | **5 mL** |"
-    },
-    {
-      "claim": "For children 16 to 20 kg the adult aerobic volume is 6 mL and anaerobic 6 mL, for 21 to 25 kg it is 8 mL and 8 mL, and for over 25 kg it is 10 mL and 10 mL",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| 21-25 kg | **8 mL** | **8 mL** | \u2026 | >25 kg | **10 mL** | **10 mL** |"
-    },
-    {
-      "claim": "The guideline states a last update of September 2022, while both management flowcharts are named Feb2025",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Last update September 2022 \u2026 Febrile child CPG_29 day plus flowchart_Feb2025 \u2026 Febrile child CPG_3 month plus flowchart_Feb2025"
-    },
-    {
-      "claim": "The guideline is PIC endorsed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "PIC Endorsed"
-    },
-    {
-      "claim": "The guideline cites Craig et al 2010, a prospective cohort study of 15,781 febrile illnesses on the accuracy of clinical symptoms and signs for the diagnosis of serious bacterial infection in young febrile children",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Craig JC, Williams GJ, Jones M, Codarini M, Macaskill P, Hayen A, et al. The accuracy of clinical symptoms and signs for the diagnosis of serious bacterial infection in young febrile children: prospective cohort study of 15 781 febrile illnesses. BMJ. 2010;340:c1594."
-    },
-    {
-      "claim": "The guideline cites a systematic review finding that infrared ear thermometry for fever diagnosis in children has poor sensitivity, and the Step-by-Step approach for the management of young febrile infants",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Dodd SR, Lancaster GA, Craig JV, Smyth RL, Williamson PR. In a systematic review, infrared ear thermometry for fever diagnosis in children finds poor sensitivity. \u2026 Gomez B, Mintegi S, Bressan S, Da Dalt L, Gervaix A, Lacroix L, et al. Validation of the \"Step-by-Step\" Approach in the Management of Young Febrile Infants. 2016."
-    },
-    {
-      "claim": "Both febrile child flowcharts begin at a temperature above 38.0 degrees Celsius and fork first on the presence of unwell features and then on whether there is a clinically obvious focus",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Temperature >38.0 C / No unwell features / Unwell / Clinically obvious focus / No clinically obvious focus"
-    },
-    {
-      "claim": "For infants 29 days to 3 months with no unwell features and a clinically obvious focus, investigate and manage as per the specific focus, and if discharged arrange follow-up within 12 to 24 hours",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "No unwell features / Clinically obvious focus / Investigate and manage as per specific focus / If discharged, arrange follow-up within 12 - 24h"
-    },
-    {
-      "claim": "For infants 29 days to 3 months with no unwell features and no clinically obvious focus, take urine MCS by suprapubic aspirate or catheter specimen and consider FBE, CRP and blood culture, then consider admission for observation and review by a senior doctor; if the infant remains well and investigations are normal, discharge and arrange follow up within 12 to 24 hours, and if urine is positive see the UTI guideline",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Urine MCS (SPA or catheter specimen) / Consider FBE, CRP, Blood culture / Consider admission for observation and review by senior doctor / If remains well and investigations normal, discharge and arrange follow up within 12-24 h / If urine positive see UTI"
-    },
-    {
-      "claim": "For an unwell infant, if there are signs of septic shock manage as per the Sepsis guideline",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Unwell / If signs of septic shock, manage as per Sepsis"
-    },
-    {
-      "claim": "For an unwell infant 29 days to 3 months with a clinically obvious focus, investigate and manage as per the specific focus, consider further investigations for co-infections or complications, and admit and treat as clinically indicated",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Investigate and manage as per specific focus / Consider further investigations for co-infections or complications / Admit / Treat as clinically indicated"
-    },
-    {
-      "claim": "For an unwell infant 29 days to 3 months with no clinically obvious focus the investigations are FBE, BSL, lactate, CRP as baseline, blood culture, urine MCS, lumbar puncture unless contraindicated, and plus or minus chest x-ray, followed by admission",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "FBE / BSL / Lactate / CRP as baseline / Blood culture / Urine MCS / LP unless contraindicated / CXR / Admit"
-    },
-    {
-      "claim": "For a child over 3 months with no unwell features and no clinically obvious focus, if fever is less than 24 hours consider no investigations; if there is previous UTI or age under 12 months and fever for more than 24 hours consider urine MCS; and if fever is more than 48 hours consider urine MCS in all ages and discuss further investigations with a senior doctor, then discharge with follow-up within 24 hours",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "If fever <24h, consider no investigations / If previous UTI or age <12 months and fever for >24 h, consider urine MCS / If fever >48h, consider urine MCS in all ages and discuss further investigations with a senior doctor / Discharge with follow-up within 24 h"
-    },
-    {
-      "claim": "For an unwell child over 3 months with no clinically obvious focus the investigations are FBE, BSL, lactate, CRP as baseline, blood culture, urine MCS, plus or minus lumbar puncture and plus or minus chest x-ray, followed by admission",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "FBE / BSL / Lactate / CRP as baseline / Blood culture / Urine MCS / LP / CXR / Admit"
-    },
-    {
-      "claim": "Empiric antibiotic treatment on both flowcharts is ceftriaxone, or cefazolin plus gentamicin if the CSF is normal or meningitis is excluded, with reference to local antimicrobial guidelines",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Empiric antibiotic treatment: / Ceftriaxone (or Cefazolin + Gentamicin if normal CSF or meningitis excluded) / See local antimicrobial guidelines"
+     "h": "614e17a6e85ae943",
+     "n": 147,
+     "p": "Febrile "
     }
-  ],
-  "summary": {
-    "total": 63,
-    "pass": 54,
-    "fail": 0,
-    "pass_image_transcription": 9
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Febrile infant over 28 days and under 3 months (corrected):** investigate and treat readily, guided by how the infant looks and whether an obvious focus is present.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c2d2c424dcc070b",
+     "n": 197,
+     "p": "In Febri"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Under 3 months, low or unstable temperature** can signal serious bacterial infection or other serious illness.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "608f6c60c47aa08e",
+     "n": 138,
+     "p": "In infan"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Fever height, speed of onset, response to antipyretics and febrile seizures do not predict severity;** the child's appearance is the most useful sign.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cff2586f8dcac873",
+     "n": 213,
+     "p": "The seve"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fever:** body temperature above 38.0º Celsius.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "823650d6dbbb053d",
+     "n": 52,
+     "p": "Definiti"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Measure consistently:** the same site and the same kind of thermometer each time, where you can.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "360353cc9af4a881",
+     "n": 99,
+     "p": "Where po"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most fevers are viral,** but serious bacterial infection (SBI) must be considered; without a focus, the commonest SBI is a urinary tract infection.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a5aeb341ea1449b",
+     "n": 131,
+     "p": "The most"
+    },
+    {
+     "h": "b4758acb7e8e4b68",
+     "n": 83,
+     "p": "The most"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Occult bacteraemia** is now under 1% in healthy, immunised children, since pneumococcal vaccination began.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9bcf9c706c5c2aff",
+     "n": 131,
+     "p": "Since th"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fever for 5 days or more:** assess for Kawasaki disease, or PIMS-TS if the child has had COVID-19.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c0c6198af135afa",
+     "n": 126,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prolonged fever** can also come from rarer inflammatory, immune-mediated or malignant conditions, which may need a specialist.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02d7c83f7c3ee98d",
+     "n": 150,
+     "p": "Other un"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ask about localising symptoms:** cough · headache · light sensitivity · vomiting · diarrhoea · tummy pain · muscle or joint pain · rash.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a29c3623d2b57d78",
+     "n": 116,
+     "p": "Localisi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Antibiotics already given** can hide the signs of a bacterial infection.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0d55539c7bca229b",
+     "n": 84,
+     "p": "Medicati"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**High-risk groups:** prematurity · immunosuppression or cancer (see febrile neutropenia) · a central line · chronic lung disease · congenital heart disease · a past invasive bacterial infection · Aboriginal, Torres Strait Islander, Pacific Islander or Māori children · repeated presentations to health services.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a786d26a14689a70",
+     "n": 346,
+     "p": "High ris"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Teething is not a cause of fever.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4cedf6aec50c371",
+     "n": 29,
+     "p": "Teething"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Fever after vaccination** is common, usually starting within 24 hours and lasting up to 2-3 days. ⚠️ If the child is unwell, do not put the fever down to the vaccine alone.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a5b0b2dd8167fa44",
+     "n": 196,
+     "p": "Post vac"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Behaviour and appearance** are the best guide to whether a child is at high risk of SBI.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "884df210e4120974",
+     "n": 123,
+     "p": "Certain "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Colour:** pallor (including when a parent reports it) · mottling · blue or cyanosed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c21840bbf6ef687a",
+     "n": 67,
+     "p": "Colour P"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Activity:** lethargic or less active · not responding normally to social cues · hard to wake, or will not stay awake once roused · a weak, high-pitched or continuous cry.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fab817a42d31e7b4",
+     "n": 199,
+     "p": "Activity"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Breathing:** grunting · tachypnoea · increased work of breathing · hypoxia.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a71f33fe0c84df9",
+     "n": 67,
+     "p": "Respirat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Circulation and hydration:** feeding poorly · dry mucous membranes · tachycardia that persists · central capillary refill 3 seconds or longer · reduced skin turgor · passing less urine.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "93a7247924b38b62",
+     "n": 164,
+     "p": "Circulat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Neurological:** a bulging fontanelle · neck stiffness · marked irritability · focal neurological signs · seizures that are focal, complex or prolonged.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a306bd9b14c1926",
+     "n": 131,
+     "p": "Neurolog"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other:** a rash that does not blanch · fever for 5 days or more · a swollen limb or joint · not bearing weight or not using a limb.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61342553a65d2916",
+     "n": 112,
+     "p": "Other No"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**These signs are adapted** from the 2019 NICE guideline on feverish illness in children.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a51219bc5bbd9b7",
+     "n": 62,
+     "p": "Adapted "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Examine for a focus of infection,** undressing the child as needed for a complete examination and looking for subtle signs.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "004d12d919108fa3",
+     "n": 62,
+     "p": "The chil"
+    },
+    {
+     "h": "33f3f3cfa0d20306",
+     "n": 84,
+     "p": "Remove c"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **A febrile child who looks seriously unwell is managed as suspected sepsis,** however high or low the temperature.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5842a3ebba36f29e",
+     "n": 134,
+     "p": "Any febr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not accept an apparent otitis media or cold as the source** in a young infant or an unwell child; they still need assessing for SBI.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f28ef62b7e02fbb",
+     "n": 186,
+     "p": "Do not a"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Stable child:** preferably finish the search for a focus before starting antibiotics. High-risk groups: investigate more readily.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b001a284df03e75f",
+     "n": 128,
+     "p": "If the c"
+    },
+    {
+     "h": "af1fb000aac7c4f5",
+     "n": 76,
+     "p": "In child"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**UTI is the commonest SBI:** with no obvious focus, collect and test urine.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b73b8f8e95b43f3",
+     "n": 127,
+     "p": "UTI is t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Antibiotic choice** depends on local susceptibility patterns; use local guidelines.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fdb8df9768340f03",
+     "n": 112,
+     "p": "Antimicr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Three corrected-age tiers:** 28 days or under · 29 days to 3 months · over 3 months. The two flowcharts below cover the older two tiers.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90b1a04dea9616e3",
+     "n": 31,
+     "p": "Infants "
+    },
+    {
+     "h": "97b49e2211992f5b",
+     "n": 41,
+     "p": "Infants "
+    },
+    {
+     "h": "fff2b2c6c37a3581",
+     "n": 32,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Assess quickly for sepsis and involve a senior doctor.** Do FBE, CRP, blood culture, urine (by suprapubic aspirate, SPA; other methods below), LP ± chest X-ray, and treat promptly with empiric antibiotics.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8938e3e8e94207d1",
+     "n": 69,
+     "p": "Assess p"
+    },
+    {
+     "h": "8aa34d7fa40fc68e",
+     "n": 106,
+     "p": "FBE, CRP"
+    },
+    {
+     "h": "de3dd5f1f37cde0a",
+     "n": 41,
+     "p": "Prompt t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not wait for the full work-up** if the infant looks unwell or the investigations will be delayed: give the antibiotics.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a02954773b993d13",
+     "n": 155,
+     "p": "If the i"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Start point:** temperature above 38.0 C. First branch: unwell features or not. Second branch: an obvious clinical focus or not.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37ee5baa95dabf0c",
+     "n": 106,
+     "p": "Temperat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Unwell with signs of septic shock:** follow the sepsis guideline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f62d47f85b4cb4c",
+     "n": 55,
+     "p": "Unwell /"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Empiric antibiotic:** ceftriaxone, or cefazolin plus gentamicin once CSF is normal or meningitis has been excluded; check local antimicrobial guidelines.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "765612ae25f90420",
+     "n": 145,
+     "p": "Empiric "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Well, obvious focus:** investigate and treat according to the focus; if sending home, arrange review within 12-24 h.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4dac9877957e62f",
+     "n": 143,
+     "p": "No unwel"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Well, no focus:** urine MCS (SPA or catheter), and consider FBE, CRP and blood culture; consider admitting for observation and senior review. Still well with normal results → home with review in 12-24 h. Positive urine → see the UTI guideline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "32b8bcf272c6f9df",
+     "n": 256,
+     "p": "Urine MC"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Unwell, obvious focus:** investigate and treat the focus, look for co-infection or complications, admit, and treat as the clinical picture requires.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "450080108e33fc77",
+     "n": 153,
+     "p": "Investig"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Unwell, no focus:** FBE, BSL, lactate, baseline CRP, blood culture, urine MCS, ⚠️ LP unless contraindicated, ± chest X-ray; admit.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "820275a56785d506",
+     "n": 107,
+     "p": "FBE / BS"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Well, no focus:** fever under 24 h → consider no tests. Previous UTI, or age under 12 months with fever over 24 h → consider urine MCS. Fever over 48 h → consider urine MCS at any age and discuss further tests with a senior doctor. Home with review within 24 h.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8d8409c39a52df7",
+     "n": 260,
+     "p": "If fever"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Unwell, no focus:** FBE, BSL, lactate, baseline CRP, blood culture, urine MCS, ± LP, ± chest X-ray; admit.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "81c7555e4428e5d2",
+     "n": 84,
+     "p": "FBE / BS"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Febrile child', two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Talk to the local paediatric team** for: an unwell child · septic shock · any infant under 28 days corrected with fever (admit for empiric antibiotics) · social or other barriers to review within 24 hours (consider admitting) · a high-risk child · advice on empiric treatment · prolonged fever without a clear cause.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1300d2ebf292f4f5",
+     "n": 296,
+     "p": "Unwell c"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Transfer to a tertiary centre** if the child needs more care than the local hospital is comfortable giving.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcfda9586d348d25",
+     "n": 69,
+     "p": "Child re"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Discharge:** 29 days to 3 months corrected, when well, results normal, a senior doctor has been consulted and review in 12-24 hours is booked. Over 3 months corrected, when well and follow-up is arranged.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2cb7b94bd179fd1b",
+     "n": 151,
+     "p": "Infants "
+    },
+    {
+     "h": "fa71a7387261da11",
+     "n": 67,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Always tell parents** to come back if the child gets worse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f7914ef8567a357c",
+     "n": 72,
+     "p": "Always a"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Axillary** is advised under 3 months; hold the thermometer over the axillary artery for 3 minutes for a more accurate reading.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b4d86dece3ddefbc",
+     "n": 62,
+     "p": "Axillary"
+    },
+    {
+     "h": "b81ad33f7ff8602c",
+     "n": 101,
+     "p": "For a mo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tympanic** is advised over 3 months; pull the pinna back to straighten the ear canal and aim the probe at the eardrum.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "60c6986ed44cbad2",
+     "n": 228,
+     "p": "Tympanic"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Forehead and infrared skin thermometers are unreliable.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59d3497af36eda17",
+     "n": 66,
+     "p": "Skin tem"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rectal (neonates):** screen with an axillary reading first; take a rectal temperature only if fever is still suspected.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "48c076eb90e0727f",
+     "n": 148,
+     "p": "Rectal t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**When an LP is indicated, do it promptly,** ideally before antibiotics.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "516ab87db14c5da7",
+     "n": 107,
+     "p": "When ind"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not do an LP** with impaired consciousness, focal neurological signs, a coagulation problem or haemodynamic instability.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c65f9e043b13cbc1",
+     "n": 132,
+     "p": "Contrain"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If an LP is contraindicated,** start treatment for meningitis or encephalitis and do the LP later, once the child is stable and it is safe.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9695d553731b431",
+     "n": 159,
+     "p": "In this "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Never culture a bag specimen:** half are contaminated (50%), giving false positives.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f7f1896f40f2a15e",
+     "n": 110,
+     "p": "Bag urin"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Suprapubic aspirate** is the gold standard (1% contamination). **In/out catheter** helps when the bladder holds little urine, e.g. after a failed clean catch or SPA; discard the first drops if possible (10% contamination).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1289694856400189",
+     "n": 68,
+     "p": "Suprapub"
+    },
+    {
+     "h": "0ddb8c8ca52b8826",
+     "n": 200,
+     "p": "In/out c"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Midstream urine** is preferred in toilet-trained children who can pass urine on request (25% contamination). **Clean catch** suits pre-continent children who cannot, provided they are not seriously unwell (also 25%).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ebdfee89637dcf5",
+     "n": 116,
+     "p": "Midstrea"
+    },
+    {
+     "h": "1073e01869378b68",
+     "n": 108,
+     "p": "Clean ca"
+    },
+    {
+     "h": "94813b1de36ca0da",
+     "n": 22,
+     "p": "contamin"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before a midstream or clean-catch sample,** clean the genital area with saline-soaked gauze for 10 seconds.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "778570bdba778490",
+     "n": 132,
+     "p": "The peri"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Take blood cultures aseptically, in sterile gloves.** Results are only as good as the volume collected; if there is not enough for both bottles, fill the aerobic one first.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e8ec4cc41235ae81",
+     "n": 76,
+     "p": "Blood cu"
+    },
+    {
+     "h": "4431a6f6fdb4f85f",
+     "n": 111,
+     "p": "Accuracy"
+    },
+    {
+     "h": "65305b09e26c7048",
+     "n": 81,
+     "p": "Inoculat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bottle limits:** paediatric aerobic, 0.5 mL minimum to 4 mL maximum; adult aerobic, 5 mL minimum to 10 mL maximum.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "18a6814917e401c1",
+     "n": 58,
+     "p": "Min vol:"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Volume by weight** (paediatric aerobic bottle, then adult aerobic): under 1.5 kg, 1 mL, adult bottle not used unless specifically indicated · 1.5 mL for 1.5-5 kg · 5-10 kg, paediatric 3 mL or adult 5 mL · 11-15 kg, paediatric 4 mL or adult 5 mL.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e558ab933def8111",
+     "n": 54,
+     "p": "<1.5 kg "
+    },
+    {
+     "h": "03b9f0fa17c0b536",
+     "n": 15,
+     "p": "1.5-5 kg"
+    },
+    {
+     "h": "f3fcf5669a94afb4",
+     "n": 17,
+     "p": "5-10 kg "
+    },
+    {
+     "h": "ea94d5d58d60c5f5",
+     "n": 18,
+     "p": "11-15 kg"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Heavier children:** 16-20 kg, 6 mL adult aerobic and 6 mL anaerobic (use the green bottle whenever more than 4 mL is collected; with no anaerobic culture, put 10 mL in the aerobic bottle) · 21-25 kg, 8 mL each · over 25 kg, 10 mL each.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ba208699a766abc",
+     "n": 119,
+     "p": "16-20 kg"
+    },
+    {
+     "h": "d33d5f3d37fc93c2",
+     "n": 18,
+     "p": "21-25 kg"
+    },
+    {
+     "h": "afe77a0ec844a80d",
+     "n": 18,
+     "p": ">25 kg 1"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Currency:** the page states its last update as September 2022.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d549f64060677eb7",
+     "n": 26,
+     "p": "Last upd"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PIC endorsed.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a76135c52ac5dc90",
+     "n": 12,
+     "p": "PIC Endo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Largest study cited:** Craig et al., BMJ 2010, a prospective cohort of 15 781 febrile illnesses testing how accurately symptoms and signs diagnose SBI in young children.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2c340525c9d10a97",
+     "n": 267,
+     "p": "Craig JC"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Also cited:** a systematic review finding infrared ear thermometers insensitive for fever in children (Dodd et al.), and the validation of the Step-by-Step approach to young febrile infants (Gomez et al., 2016).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a235760f6626f495",
+     "n": 162,
+     "p": "Dodd SR,"
+    },
+    {
+     "h": "27f3cacd77a40e4b",
+     "n": 162,
+     "p": "Gomez B,"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Febrile child', last update September 2022, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/, retrieved 2026-09-24"
   }
+ ]
 }

@@ -1,420 +1,1115 @@
 {
-  "guideline": "guidelines/acute-asthma-children.md",
-  "edition": "1.0",
-  "verified_utc": "2026-09-22",
-  "verifier": "claude-opus-5",
-  "verifier_class": "single_verifier_uncalibrated",
-  "retrieved_from": [
-    "https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png"
-  ],
-  "retrieved_utc": "2026-09-22",
-  "method": "Each claim checked against the retrieved text of the RCH Melbourne Clinical Practice Guideline 'Acute asthma' (last updated July 2023, PIC endorsed), including key points, background, history, examination, red flags, investigations, treatment, the severity classification table, IV magnesium sulfate dosing, other management considerations, consultation and transfer triggers, discharge criteria, discharge instructions and the reference list. The page was retrieved twice: once with anchor tags excluded and once with them retained, because several clinically significant words sit inside hyperlinks (notably 'other signs of anaphylaxis' in the severe and life-threatening severity columns, and 'bronchiolitis'). The second retrieval is the one quoted. Every source_text fragment was machine-checked verbatim with scripts/verify.py. The four management flowcharts (mild, moderate, severe, life-threatening) are IMAGES and were not retrieved: salbutamol puff counts and intervals, ipratropium regimens, steroid agent and dose, oxygen targets and the IV therapy sequence are inside them, are recorded as input_unavailable, and are not reconstructed. The guideline states it cannot be used to dose salbutamol or steroids. The IM adrenaline dose for life-threatening asthma is not given by this source and is not imported from the anaphylaxis guideline. ADDENDUM 2026-09-22: all four management flowcharts were downloaded as PNG images and read visually. 23 further claims were added carrying verdict pass_image_transcription and source S2; they cannot be re-checked by scripts/verify.py and every dose must be re-checked against the image by a person. The diagrams contain a direct tension with the guideline's own key point 4: key point 4 states 'give steroids early in moderate, severe and life-threatening asthma', while the moderate flowchart states 'Avoid steroids' for 1-5 year olds. Both are transcribed as written and the tension is recorded as evidence_unsettled rather than resolved. The diagrams also contain aminophylline as a live second-line agent, which appears nowhere in the retrieved text.",
-  "claims": [
-    {
-      "claim": "If unsure whether a child has anaphylaxis or asthma, clinicians should treat for anaphylaxis, and treatment of both is time critical",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "1. **If unsure if a child has anaphylaxis or asthma, treat for anaphylaxis. Treatment of both is time critical**"
-    },
-    {
-      "claim": "Metered dose inhalers are preferable to nebulisers given their rapid delivery, comparable efficacy and fewer side effects",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "2. Metered dose inhalers (MDI) are preferable to nebulisers given their rapid delivery, comparable efficacy and fewer side effects"
-    },
-    {
-      "claim": "Short acting beta agonist therapy is crucial to the management of asthma, and steroids should be given early in moderate, severe and life-threatening asthma",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "3. Short acting beta agonist (SABA) therapy is crucial to the management of asthma \u2026 4. Give steroids early in moderate, severe and life-threatening asthma"
-    },
-    {
-      "claim": "Adolescents on combination reliever and preventer therapy such as budesonide and formoterol dry powder inhalation should be managed with salbutamol for an acute exacerbation requiring treatment in hospital",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "5. Adolescents on combination reliever/preventer therapy (ie budesonide/formoterol dry powder inhalation) should be managed with salbutamol for an acute exacerbation requiring treatment in hospital"
-    },
-    {
-      "claim": "Asthma is a chronic inflammatory disease of the airways characterised by reversible airways obstruction and bronchospasm, exacerbations in children are often precipitated by a respiratory viral infection, and coexisting atopy is common",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Asthma is a chronic inflammatory disease of the airways characterised by reversible airways obstruction and bronchospasm \u2026 Exacerbations in children are often precipitated by a respiratory viral infection \u2026 Coexisting atopy is common"
-    },
-    {
-      "claim": "Children under 12 months of age presenting with wheeze are likely to have bronchiolitis that does not respond to bronchodilator treatment",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children <12 months of age presenting with wheeze are likely to have bronchiolitis that does not respond to bronchodilator treatment"
-    },
-    {
-      "claim": "MDIs have a large carbon footprint so where possible the use of dry powder inhalers is preferable",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "MDIs have a large carbon footprint so where possible the use of dry powder inhalers (DPI) is preferable"
-    },
-    {
-      "claim": "Sudden onset of symptoms after insect sting or ingestion of food or medication may suggest anaphylaxis and not asthma alone",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Sudden onset of symptoms after insect sting or ingestion of food/medication may suggest anaphylaxis and not asthma alone**"
-    },
-    {
-      "claim": "History should cover treatments used during this illness including reliever dose, frequency and ongoing effectiveness, preventer treatment technique and adherence, and triggers including upper respiratory tract infection, passive smoking, exercise, cold air and aero-allergen exposure",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Treatments used during this illness (reliever dose, frequency and ongoing effectiveness) \u2026 Preventer treatment (technique and adherence) \u2026 Triggers (including upper respiratory tract infection, passive smoking, exercise, cold air, aero-allergen exposure)"
-    },
-    {
-      "claim": "The pattern and course of previous episodes should cover 2 or more presentations to hospital that require treatment for asthma, IV treatment, ICU admission or intubation, and using SABA more than twice a week or more than 3 MDI canisters per year",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "- 2 or more presentations to hospital that require treatment for asthma \u2026 - IV treatment \u2026 - ICU admission or intubation \u2026 - Using SABA more than twice/week or >3 MDI canisters per year"
-    },
-    {
-      "claim": "History should cover presence of interval symptoms such as nocturnal cough, exercise induced wheeze and morning cough, school attendance, participation in physical activity, and comorbidities such as anaphylaxis and allergic rhinitis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Presence of interval symptoms (eg nocturnal cough, exercise induced wheeze, morning cough), school attendance, participation in physical activity \u2026 Comorbidities such as anaphylaxis and allergic rhinitis"
-    },
-    {
-      "claim": "The best measures of severity are general appearance, mental state, activity and work of breathing including respiratory rate, accessory muscle use and retraction",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**The best measures of severity are general appearance, mental state, activity and work of breathing (respiratory rate, accessory muscle use, retraction)**"
-    },
-    {
-      "claim": "Wheeze intensity, pulsus paradoxus and peak expiratory flow rate are not reliable, and a child that looks unwell with a silent chest and no wheeze may herald imminent respiratory collapse",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Wheeze intensity, pulsus paradoxus and peak expiratory flow rate are **not** reliable. A child that looks unwell with a silent chest (no wheeze) may herald imminent respiratory collapse"
-    },
-    {
-      "claim": "Initial SpO2, heart rate and ability to talk are helpful but less reliable additional features",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Initial SpO2, heart rate and ability to talk are helpful but less reliable additional features"
-    },
-    {
-      "claim": "Tachycardia can be a sign of severity but is also a side effect of beta agonists such as salbutamol",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Tachycardia can be a sign of severity but is also a side effect of beta agonists such as salbutamol"
-    },
-    {
-      "claim": "Asymmetry on auscultation is often found due to mucus plugging, but persistent asymmetry may indicate other causes such as inhaled foreign body or pneumothorax",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Asymmetry on auscultation is often found due to mucus plugging, but persistent asymmetry may indicate other causes such as inhaled foreign body or pneumothorax"
-    },
-    {
-      "claim": "Red flags for alternative diagnoses are productive cough, isolated cough, paraesthesia, chest pain and clubbing",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Red flags for alternative diagnoses: \u2026 productive cough \u2026 isolated cough \u2026 paraesthesia \u2026 chest pain \u2026 clubbing"
-    },
-    {
-      "claim": "Investigations are generally not needed and chest x-ray is not required",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Investigations are generally not needed. Chest x-ray is **not** required"
-    },
-    {
-      "claim": "Blood gases are distressing and can cause a child with respiratory compromise to deteriorate further, they are not usually required, and the child's clinical state is more important in guiding treatment",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Blood gases are distressing and can cause a child with respiratory compromise to deteriorate further. They are not usually required and the child's clinical state is more important in guiding treatment"
-    },
-    {
-      "claim": "Measurement of serum potassium may be indicated when there has been prolonged or frequent salbutamol use",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Measurement of serum potassium may be indicated when there has been prolonged or frequent salbutamol use"
-    },
-    {
-      "claim": "Standard salbutamol metered dose inhaler has 100 micrograms per puff and standard ipratropium bromide MDI has 21 micrograms per puff",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Standard salbutamol metered dose inhaler (MDI) has 100 microg/puff and standard ipratropium bromide MDI has 21 microg/puff"
-    },
-    {
-      "claim": "Mild asthma features are mild increased work of breathing, normal respiratory rate, and alert and active; moderate asthma features are moderate increased work of breathing, increased respiratory rate, and active and alert",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Features** | - Mild increased work of breathing (WOB)<br>  - Normal respiratory rate<br>  - Alert and active | - Moderate increased work of breathing <br>  - Increased respiratory rate<br>  - Active and alert"
-    },
-    {
-      "claim": "Severe asthma features are markedly increased work of breathing, increased respiratory rate, agitated, pale, and other signs of anaphylaxis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "- Markedly increased work of breathing <br>  - Increased respiratory rate<br>  - Agitated<br>  - Pale<br>  - Other signs of<br>     anaphylaxis"
-    },
-    {
-      "claim": "Life threatening asthma features are maximal work of breathing, increased respiratory rate, confused or drowsy, not moving, cyanosed, and other signs of anaphylaxis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "- Maximal work of breathing<br>  - Increased respiratory rate<br>  - Confused/ drowsy<br>  - Not moving<br>  - Cyanosed<br>  - Other signs of<br>     anaphylaxis"
-    },
-    {
-      "claim": "Management is presented as flowcharts for mild, moderate, severe and life-threatening asthma",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Management of mild asthma flowchart \u2026 Management of moderate asthma flowchart \u2026 Management of severe asthma flowchart \u2026 Management of life-threatening asthma flowchart"
-    },
-    {
-      "claim": "For IV magnesium sulfate 50 per cent, the product specifications are 1 mL equals 2 mmol equals 500 mg, doses should be checked carefully, the dose is 0.2 mmol/kg equals 50 mg/kg equals 0.1 mL/kg of undiluted magnesium sulfate to a maximum of 8 mmol, and it should be diluted as per local guidelines with concentrations checked carefully before administration",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Product specifications: 1 mL = 2 mmol = 500 mg \u2026 Check doses carefully \u2026 **0.2 mmol/kg = 50 mg/kg = 0.1 mL/kg**(undiluted magnesium sulfate) \u2026 max 8 mmol \u2026 Dilute as per local guidelines and check concentrations carefully before administration"
-    },
-    {
-      "claim": "Dexamethasone causes less vomiting and has a longer half life",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Dexamethasone causes less vomiting and has a longer half life"
-    },
-    {
-      "claim": "In life-threatening acute asthma, IM adrenaline can provide bronchodilation in children with poor respiratory effort to optimise delivery of inhaled therapy",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "In life-threatening acute asthma, IM adrenaline can provide bronchodilation in children with poor respiratory effort to optimise delivery of inhaled therapy"
-    },
-    {
-      "claim": "If there is no response to salbutamol clinicians should seek senior advice and consider an alternative diagnosis such as anatomical airway abnormalities, cystic fibrosis or bronchomalacia",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "If no response to salbutamol, seek senior advice and consider alternative diagnosis (eg anatomical airway abnormalities, cystic fibrosis, bronchomalacia)"
-    },
-    {
-      "claim": "A mask and spacer can be applied over nasal prong oxygen to deliver inhaled bronchodilator",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Mask and spacer can be applied over nasal prong oxygen to deliver inhaled bronchodilator"
-    },
-    {
-      "claim": "Salbutamol toxicity clinically presents with tachycardia, tachypnoea and fine tremors, biochemical assessment is often helpful for confirmation showing hypokalaemia, hyperlactataemia and metabolic acidosis before pausing SABA therapy, and hypokalaemia rapidly corrects when salbutamol dosing reduces",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Salbutamol toxicity clinically presents with tachycardia, tachypnoea and fine tremors. Biochemical assessment is often helpful in this setting for confirmation (hypokalaemia, hyperlactataemia and metabolic acidosis) before pausing SABA therapy. Hypokalaemia rapidly corrects when salbutamol dosing reduces"
-    },
-    {
-      "claim": "Consultation with the local paediatric team should be considered for moderate, severe or life-threatening asthma, poor response to inhaled salbutamol, and oxygen requirement",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Moderate, severe or life-threatening asthma \u2026 Poor response to inhaled salbutamol \u2026 Oxygen requirement"
-    },
-    {
-      "claim": "Transfer should be considered for severe or critical asthma requiring intravenous treatment or respiratory support, children with escalating oxygen requirement, children poorly salbutamol responsive or unable to wean salbutamol requirement, and children requiring care above the level of comfort of the local hospital",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Severe or critical asthma requiring intravenous treatment or respiratory support \u2026 Children with escalating oxygen requirement \u2026 Children poorly salbutamol responsive or unable to wean salbutamol requirement \u2026 Children requiring care above the level of comfort of the local hospital"
-    },
-    {
-      "claim": "In consultation with a senior clinician some children can be discharged at one hour if they have resolution of all signs of severity, normal activity, adequate parent skill and familiarity with asthma, and proximity to emergency care",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "In consultation with a senior clinician, some children can be discharged at one hour if they have: \u2026 resolution of all signs of severity \u2026 normal activity \u2026 adequate parent skill and familiarity with asthma \u2026 proximity to emergency care"
-    },
-    {
-      "claim": "All other children should be able to tolerate three hours without requiring salbutamol MDI, and adequate oral intake is required",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "All other children should be able to tolerate three hours without requiring salbutamol MDI \u2026 Adequate oral intake"
-    },
-    {
-      "claim": "Mild hypoxia with SpO2 of 90 to 94 per cent should not preclude discharge if the child is clinically well and has responded well to treatment",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Adequate oxygenation: **mild hypoxia (SpO2 90-94%) should not preclude discharge if child is clinically well and has responded well to treatment**"
-    },
-    {
-      "claim": "Discharge education should assess knowledge and understanding and address gaps on symptom recognition and management, when to seek medical attention, emergency management, role of reliever and preventer therapy, and inhaler technique",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Education:** assess knowledge and understanding and address gaps on \u2026 symptom recognition and management \u2026 when to seek medical attention \u2026 emergency management \u2026 role of reliever and preventer therapy \u2026 inhaler technique"
-    },
-    {
-      "claim": "Follow-up should be organised with a long term care provider being a GP or specialist, and an updated Asthma Action Plan should include information on management of the current episode with provision of the plan and the associated discussion documented in the medical record",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Follow-up** organised with long term care provider (GP or specialist) \u2026 should include information on management of the current episode. Document provision of the Asthma Action Plan and the associated discussion in your medical record."
-    },
-    {
-      "claim": "Clinicians should consider a community asthma program and consider associated atopic condition education and management, noting that anaphylaxis morbidity and mortality is increased if asthma is not well controlled, and allergic rhinitis",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Consider community asthma program** (or \u2026 **Consider associated atopic condition education and management** \u2026 Anaphylaxis morbidity and mortality is increased if asthma is not well controlled \u2026 Allergic rhinitis"
-    },
-    {
-      "claim": "The guideline was last updated July 2023 and is PIC endorsed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Last updated July 2023 \u2026 PIC Endorsed"
-    },
-    {
-      "claim": "The guideline cites the Australian Asthma Handbook published by National Asthma Council Australia, Melbourne, 2022",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "National Asthma Council Australia. Australian Asthma Handbook. _National Asthma Council Australia_, Melbourne, 2022."
-    },
-    {
-      "claim": "The guideline cites a meta-analysis of dexamethasone for acute asthma exacerbations in children and a prospective evaluation of the 1-hour decision point for admission versus discharge in acute asthma",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Keeney GE, et al. Dexamethasone for acute asthma exacerbations in children: a meta-analysis. _Pediatrics_. 2014 \u2026 Wilson MM, et al. A prospective evaluation of the 1-hour decision point for admission versus discharge in acute asthma. _J Intensive Care Med_. 2003"
-    },
-    {
-      "claim": "The guideline's reference list includes trials of aminophylline and of intravenous magnesium sulfate, terbutaline and aminophylline for children with acute severe asthma",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Singhi, S, et al. Randomised comparison of intravenous magnesium sulfate, terbutaline and aminophylline for children with acute severe asthma. _Acta Paediatr_. 2014 \u2026 Yung M, et al. Randomised controlled trial of aminophylline for severe acute asthma. _Arch Dis Child_ 1998"
-    },
-    {
-      "claim": "Oxygen is administered via nasal prongs to target SpO2 of 90 per cent or above, and nebulisation is reserved for children unable to tolerate MDI",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Administer oxygen via nasal prongs to target SpO2 >=90% / Reserve nebulisation for children unable to tolerate MDI"
-    },
-    {
-      "claim": "For mild asthma in children 1 to 5 years the initial treatment is 2 to 6 puffs salbutamol MDI via spacer and mask as a single dose, and for those 6 years and over it is 12 puffs salbutamol MDI via spacer, with reassessment 20 minutes after the dose",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Mild / 1-5 years / 2-6 puffs salbutamol MDI via spacer and mask as a single dose / >=6 years / 12 puffs salbutamol MDI via spacer / Reassess 20 minutes after dose"
-    },
-    {
-      "claim": "A good response in mild asthma, such as reduced work of breathing, means no further salbutamol and reassessment at 1 hour and 2 hours after the initial salbutamol dose",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Good response (eg reduced WOB) / No further salbutamol and reassess at 1 hour and 2 hours after initial salbutamol dose"
-    },
-    {
-      "claim": "If work of breathing is not increased at reassessment the child may be discharged with asthma education including ensuring adequate inhaler and spacer technique, an asthma action plan, and follow-up with a long term care provider",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Increased WOB? / No / Discharge with / Asthma education (including ensuring adequate inhaler and spacer technique) / Asthma action plan / Follow-up with long term care provider"
-    },
-    {
-      "claim": "A response but minimal improvement, such as persistent increased work of breathing or oxygen requirement, means treating as moderate, and in children 6 years and over a further 12 puffs salbutamol MDI via spacer is given",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Response but minimal improvement (eg persistent increased WOB or oxygen requirement) / Treat as moderate / Further 12 puffs salbutamol MDI via spacer"
-    },
-    {
-      "claim": "In mild asthma in children 1 to 5 years, no response means seeking senior advice, stopping salbutamol and considering an alternative diagnosis",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "No response / Seek senior advice / Stop salbutamol / Consider alternative diagnosis"
-    },
-    {
-      "claim": "For moderate asthma in children 1 to 5 years the treatment is 6 puffs salbutamol MDI via spacer and mask every 20 minutes for 3 doses and steroids should be AVOIDED, while for children 6 years and over it is 12 puffs every 20 minutes for 3 doses and oral steroids should be given",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Moderate / 1-5 years / 6 puffs salbutamol MDI via spacer and mask every 20 minutes for 3 doses / Avoid steroids / >=6 years / 12 puffs salbutamol MDI via spacer and mask every 20 minutes for 3 doses / Give oral steroids"
-    },
-    {
-      "claim": "Oral steroid dosing is prednisolone 1 mg/kg to a maximum of 50 mg or dexamethasone 0.3 mg/kg to a maximum of 16 mg, and the IV preparation can be administered orally",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Oral steroid dosing / Prednisolone 1 mg/kg (max 50 mg) or Dexamethasone 0.3 mg/kg (max 16 mg) / IV preparation can be administered orally"
-    },
-    {
-      "claim": "In moderate asthma reassessment is at 30 minutes after the 3rd salbutamol dose, and a good response means improved air entry, work of breathing, respiratory rate and SpO2",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Reassess at 30 minutes after 3rd salbutamol dose / Good response? / eg improved air entry, WOB, RR, SpO2"
-    },
-    {
-      "claim": "Following a good response salbutamol is continued as required, with less than 3 hourly requiring admission and 3 hourly or more allowing discharge",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Continue salbutamol as required / <3 hourly - admit / >=3 hourly - discharge"
-    },
-    {
-      "claim": "If the response is inadequate an alternative diagnosis should be considered and ipratropium added: for 1 to 5 years 6 puffs salbutamol 30 to 60 minutely as required and 4 puffs ipratropium bromide every 20 minutes for 3 doses with steroids considered, and for 6 years and over 12 puffs salbutamol 30 to 60 minutely and 8 puffs ipratropium every 20 minutes for 3 doses, with ipratropium continued every 4 hours",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Consider alternative diagnosis / 6 puffs salbutamol MDI via spacer and mask 30-60 minutely as required and 4 puffs ipratropium bromide MDI via spacer and mask, every 20 min for 3 doses / Consider steroids / 12 puffs salbutamol MDI via spacer and mask 30-60 minutely as required and 8 puffs ipratropium bromide MDI via spacer and mask, every 20 min for 3 doses / Consider continuing ipratropium bromide every 4 hours"
-    },
-    {
-      "claim": "Where the response remains inadequate the child is treated as severe, or salbutamol is continued at 6 puffs for 1 to 5 years or 12 puffs for 6 years and over 1 to 2 hourly as needed with admission, and prednisolone 1 mg/kg daily for the next 2 days may be considered on discharge",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Treat as severe / Continue 6 puffs (1-5 years) or 12 puffs (>=6 years) salbutamol MDI via spacer and mask 1-2 hourly PRN and admit / Consider prednisolone 1 mg/kg daily for next 2 days"
-    },
-    {
-      "claim": "Ongoing assessment and monitoring covers work of breathing, mental state and alertness, activity levels and oxygen saturations, and if deteriorating the child should be treated as severe with senior advice sought and an alternative diagnosis considered",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Ongoing assessment and monitoring of: work of breathing / mental state/alertness / activity levels / oxygen saturations / If deteriorating / Treat as severe / Seek senior advice / Consider alternative diagnosis"
-    },
-    {
-      "claim": "Severe asthma requires admission to resus and involvement of senior staff, with salbutamol 6 puffs for 1 to 5 years or 12 puffs for 6 years and over every 20 minutes for 3 doses, and ipratropium bromide 4 puffs or 8 puffs respectively every 20 minutes for 3 doses",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Severe / Admit to resus and involve senior staff / 6 puffs salbutamol MDI via spacer and mask every 20 min for 3 doses and 4 puffs ipratropium bromide MDI via spacer and mask every 20 min for 3 doses / 12 puffs salbutamol MDI via spacer and mask every 20 min for 3 doses and 8 puffs ipratropium bromide MDI via spacer and mask every 20 min for 3 doses"
-    },
-    {
-      "claim": "In severe asthma IV access is obtained and corticosteroids given early either oral or intravenous, with intravenous options of methylprednisolone 1 mg/kg to a maximum of 60 mg IV 6 hourly, or hydrocortisone 4 mg/kg to a maximum of 100 mg IV 6 hourly, or dexamethasone 0.6 mg/kg to a maximum of 16 mg IV 24 to 48 hourly",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "IV access / Give corticosteroids early (oral or intravenous) / Intravenous options: / Methylprednisolone 1 mg/kg (max 60 mg) IV 6 hourly / Hydrocortisone 4 mg/kg (max 100 mg) IV 6 hourly / Dexamethasone 0.6 mg/kg (max 16 mg) IV 24-48 hourly"
-    },
-    {
-      "claim": "Second line IV treatment should be considered early, being magnesium sulphate 0.2 mmol/kg to a maximum of 8 mmol IV administered over 20 minutes, and aminophylline 10 mg/kg to a maximum of 500 mg IV infused over 30 to 60 minutes with cardiac monitoring, which can be given 6 hourly",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Consider second line IV treatment early / Second line IV treatment options: reassess after each treatment / Magnesium sulphate 0.2 mmol/kg (max 8 mmol) IV administered over 20 min / Aminophylline 10 mg/kg (max 500 mg) IV to be infused over 30-60 min with cardiac monitoring; this dose can be given 6 hourly"
-    },
-    {
-      "claim": "Life-threatening asthma requires admission to resus and senior staff, with respiratory support by oxygen via high flow nasal cannula, continuous positive airway pressure or bilevel airway pressure",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Life-threatening / Admit to resus and involve senior staff / Respiratory support: oxygen via high flow nasal cannula, continuous positive airway pressure or bilevel airway pressure"
-    },
-    {
-      "claim": "In life-threatening asthma inhaled bronchodilators are given as nebules continuously: for 1 to 5 years 2.5 mg salbutamol nebules and 250 micrograms ipratropium bromide nebules, and for 6 years and over 5 mg salbutamol nebules and 500 micrograms ipratropium bromide nebules, via nebuliser chamber continuously",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "2.5 mg salbutamol nebules and 250 microg ipratropium bromide nebules via nebuliser chamber continuously / 5 mg salbutamol nebules and 500 microg ipratropium bromide nebules via nebuliser chamber continuously"
-    },
-    {
-      "claim": "In life-threatening asthma intramuscular adrenaline 10 micrograms/kg or 0.01 mL/kg of 1:1000 into the lateral thigh should be considered and repeated every 5 minutes as required",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Consider intramuscular adrenaline 10 microg/kg or 0.01 mL/kg of 1:1000 into the lateral thigh and repeat every 5 min as required"
-    },
-    {
-      "claim": "In life-threatening asthma dexamethasone is given at 0.6 mg/kg to a maximum of 16 mg IV initially with another dose in 24 to 48 hours if required",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Dexamethasone 0.6 mg/kg (max 16 mg) IV initially, another dose in 24-48 hours if required"
-    },
-    {
-      "claim": "Aminophylline and magnesium are not compatible in one IV line, and if given simultaneously a second IV cannula is required",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Aminophylline and magnesium are not compatible in one IV line. If given simultaneously, a second IV cannula is required"
-    },
-    {
-      "claim": "Where there is no good response to maximal life-threatening asthma treatment, paediatric intensive care input should be sought, and children requiring maximal asthma treatment should be managed in a critical care environment",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Good response? / No / Seek paediatric intensive care input / Children requiring maximal asthma treatment should be managed in a critical care environment"
-    },
-    {
-      "claim": "Intravenous salbutamol may be considered although there is limited evidence for benefit, at 5 to 15 micrograms/kg to a maximum of 300 micrograms over 10 minutes, repeated if required or followed with an IV infusion of 1 to 2 micrograms/kg/min to a maximum of 200 micrograms/min, adjusted according to response and heart rate and increased if necessary up to 5 micrograms/kg/min",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Consider intravenous salbutamol (however limited evidence for benefit) / 5-15 microg/kg (max 300 microg) over 10 min / Repeat dose if required or follow with IV infusion 1-2 microg/kg/min (max 200 microg/min) / Adjust infusion according to response and heart rate / Increase if necessary, up to 5 microg/kg/min (max 200 microg/min)"
+ "guideline": "guidelines/acute-asthma-children.md",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/",
+  "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png"
+ ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Acute asthma' (last updated July 2023, PIC endorsed), 43 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). S2: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'RCH flowcharts for Acute asthma' (four management flowcharts on the same page, transcribed in Wave 1), 23 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 rebuilds the hand-written Wave 1 page (which quoted RCH) as a paraphrase. Every Wave 1 claim is carried over and re-anchored in the page as fetched on 2026-09-24. S2 anchors point into a text transcription of the four management flowcharts made in Wave 1; the flowcharts are images and were not re-read, so a person should re-check S2 doses against them before use.",
+ "summary": {
+  "total": 66,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 66
+ },
+ "claims": [
+  {
+   "claim": "⚠️ **Asthma or anaphylaxis? If you cannot tell, treat as anaphylaxis.** Both need treatment without delay.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83e50db45e1bccf3",
+     "n": 105,
+     "p": "If unsur"
     }
-  ],
-  "summary": {
-    "total": 66,
-    "pass": 43,
-    "fail": 0,
-    "pass_image_transcription": 23
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Use a metered dose inhaler (MDI) rather than a nebuliser:** it works as well, acts fast and has fewer side effects.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cbef2615bfdd7674",
+     "n": 127,
+     "p": "Metered "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Short-acting beta agonist (SABA) is the core of treatment.** In moderate, severe and life-threatening asthma, start a steroid early.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f3c07ab2f18f1b7",
+     "n": 79,
+     "p": "Short ac"
+    },
+    {
+     "h": "2877c2f3ef5afea8",
+     "n": 67,
+     "p": "Give ste"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adolescents on budesonide/formoterol** (combined reliever-preventer dry powder) who need hospital treatment for a flare get salbutamol instead.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd8e2634c6af21fb",
+     "n": 194,
+     "p": "Adolesce"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What it is:** chronic airway inflammation with bronchospasm and obstruction that reverses. In children a viral respiratory infection is the usual trigger, and atopy often coexists.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0cf13db38c77c1a",
+     "n": 120,
+     "p": "Asthma i"
+    },
+    {
+     "h": "de10bced8fbc303b",
+     "n": 81,
+     "p": "Exacerba"
+    },
+    {
+     "h": "8de475fdf5650d6f",
+     "n": 26,
+     "p": "Coexisti"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Under 12 months:** wheeze is probably bronchiolitis, which bronchodilators do not help.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a823b6c575cd9222",
+     "n": 132,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Carbon footprint:** MDIs carry a large one, so dry powder inhalers (DPI) are preferred where they can be used.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f42339e32c1939ce",
+     "n": 103,
+     "p": "MDIs hav"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Symptoms that start suddenly after a sting, a food or a medicine** point towards anaphylaxis rather than asthma alone.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7d07da5839b9421",
+     "n": 120,
+     "p": "Sudden o"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ask about:** reliever use in this illness (dose, how often, whether it still works) · the preventer (technique, adherence) · triggers such as a cold, passive smoke, exercise, cold air or aero-allergens.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c17ff94fb4a5a121",
+     "n": 88,
+     "p": "Treatmen"
+    },
+    {
+     "h": "699dc52cc7705285",
+     "n": 45,
+     "p": "Prevente"
+    },
+    {
+     "h": "2e26d06786231d2c",
+     "n": 115,
+     "p": "Triggers"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Previous episodes that signal risk:** 2 or more hospital presentations needing treatment · IV treatment · ICU or intubation · SABA used more than twice a week, or more than 3 MDI canisters a year.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "529e806c9dfc62d0",
+     "n": 69,
+     "p": "2 or mor"
+    },
+    {
+     "h": "a8e326dc7436c984",
+     "n": 12,
+     "p": "IV treat"
+    },
+    {
+     "h": "f48b3d7dd903d32e",
+     "n": 27,
+     "p": "ICU admi"
+    },
+    {
+     "h": "2be171b77af2ebbb",
+     "n": 60,
+     "p": "Using SA"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Also ask about** symptoms between attacks (night or morning cough, wheeze with exercise), missed school, joining in physical activity, and comorbid anaphylaxis or allergic rhinitis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a252f66882133ab",
+     "n": 145,
+     "p": "Presence"
+    },
+    {
+     "h": "74eafaffc55eaea4",
+     "n": 55,
+     "p": "Comorbid"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Judge severity by** how the child looks, their mental state and activity, and their work of breathing (rate, accessory muscles, recession).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ae849d6c0a6323f",
+     "n": 151,
+     "p": "The best"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Unreliable:** how loud the wheeze is, pulsus paradoxus and peak flow. An unwell-looking child whose chest is silent (no wheeze) may be close to respiratory collapse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "03f624b55590890c",
+     "n": 181,
+     "p": "Wheeze i"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Supporting but weaker signs:** the first SpO2, the heart rate and whether the child can talk.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7707169e615a0571",
+     "n": 94,
+     "p": "Initial "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tachycardia** may reflect severity, but beta agonists such as salbutamol also cause it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "856e20ee2257bdc7",
+     "n": 99,
+     "p": "Tachycar"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Unequal breath sounds** are common from mucus plugs; if they persist, think of an inhaled foreign body or a pneumothorax.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "388ae17e52b5261b",
+     "n": 159,
+     "p": "Asymmetr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Red flags for another diagnosis:** productive or isolated cough · paraesthesia · chest pain · clubbing.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c43c668d06896831",
+     "n": 36,
+     "p": "Red flag"
+    },
+    {
+     "h": "dd881cfa2dbab826",
+     "n": 16,
+     "p": "producti"
+    },
+    {
+     "h": "6a748ca39365235a",
+     "n": 14,
+     "p": "isolated"
+    },
+    {
+     "h": "d7c959e793c58282",
+     "n": 12,
+     "p": "paraesth"
+    },
+    {
+     "h": "1bce3b700f26488e",
+     "n": 10,
+     "p": "chest pa"
+    },
+    {
+     "h": "97c15c58ac0dc511",
+     "n": 8,
+     "p": "clubbing"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild:** slightly more work of breathing, normal breathing rate, alert and active. **Moderate:** moderately more work of breathing, faster breathing, still alert and active.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d44d37806d0646b8",
+     "n": 169,
+     "p": "Features"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Severe:** markedly increased work of breathing, fast breathing, agitation, pallor, and any other signs of anaphylaxis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0a5c7134f149e85",
+     "n": 104,
+     "p": "Markedly"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Life-threatening:** maximal work of breathing, fast breathing, confusion or drowsiness, not moving, cyanosis, and any other signs of anaphylaxis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "990ea9cab76713e4",
+     "n": 116,
+     "p": "Maximal "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tests are usually unnecessary;** no chest X-ray is needed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e4df579a9d163ae2",
+     "n": 68,
+     "p": "Investig"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Avoid routine blood gases:** they distress the child and can tip a child with respiratory compromise into further deterioration. The clinical picture is the better guide.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e6c42efddabd769b",
+     "n": 201,
+     "p": "Blood ga"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check serum potassium** if salbutamol has been used frequently or for a long time.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "76453b8fe2793372",
+     "n": 104,
+     "p": "Measurem"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Standard MDIs:** salbutamol 100 microg per puff; ipratropium bromide 21 microg per puff.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e21944f88dd8367",
+     "n": 122,
+     "p": "Standard"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Management is set out as four flowcharts,** one each for mild, moderate, severe and life-threatening asthma (see What the flowcharts say).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de53532954dc81df",
+     "n": 131,
+     "p": "Manageme"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **IV magnesium sulfate 50%:** 1 mL contains 2 mmol (500 mg). Dose 0.2 mmol/kg, which is 50 mg/kg or 0.1 mL/kg of the undiluted product, up to 8 mmol. Double-check the dose, dilute to local protocol and check the concentration before giving it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c15bc66aae64cdbb",
+     "n": 31,
+     "p": "IV magne"
+    },
+    {
+     "h": "944d73046fc713e3",
+     "n": 46,
+     "p": "Product "
+    },
+    {
+     "h": "334f12bb6bf12170",
+     "n": 21,
+     "p": "Check do"
+    },
+    {
+     "h": "21fabfb6c004828f",
+     "n": 64,
+     "p": "0.2 mmol"
+    },
+    {
+     "h": "42c4d9988fae3414",
+     "n": 10,
+     "p": "max 8 mm"
+    },
+    {
+     "h": "91efdc8be190dd1a",
+     "n": 87,
+     "p": "Dilute a"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Dexamethasone** has a longer half-life and causes less vomiting.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b612703b4888a1a",
+     "n": 61,
+     "p": "Dexameth"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IM adrenaline in life-threatening asthma** can open the airways when respiratory effort is too poor for inhaled drugs to reach them.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4e1ba1cc87a967f7",
+     "n": 156,
+     "p": "In life-"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No response to salbutamol?** Get senior advice and look for another cause (e.g. an anatomical airway abnormality, cystic fibrosis, bronchomalacia).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1598933265a5d978",
+     "n": 153,
+     "p": "If no re"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A spacer and mask can go over nasal prong oxygen** to give the inhaled bronchodilator.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f1e4061e39e6c045",
+     "n": 88,
+     "p": "Mask and"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Salbutamol toxicity:** tachycardia, tachypnoea and fine tremor. Bloods help confirm it (low potassium, raised lactate, metabolic acidosis) before SABA is paused; the potassium recovers quickly once salbutamol is cut back.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2047b8b4a6c41cd",
+     "n": 305,
+     "p": "Salbutam"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**All severities:** give oxygen by nasal prongs to keep SpO2 at 90% or more; use a nebuliser only if the child cannot manage an MDI.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ec4e1b2a7287b31",
+     "n": 114,
+     "p": "Administ"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild, first dose:** 1-5 years, 2-6 puffs of salbutamol MDI through spacer and mask, once; 6 years and over, 12 puffs through a spacer. Reassess after 20 minutes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c767ae48d0b09e7c",
+     "n": 162,
+     "p": "Mild / 1"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Mild, good response** (e.g. less work of breathing): no more salbutamol; reassess 1 hour and 2 hours after the first dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41b0ac633ef1cad6",
+     "n": 119,
+     "p": "Good res"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild, work of breathing not increased at review:** send home with asthma education (check inhaler and spacer technique), an asthma action plan, and follow-up with the usual doctor.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b18c048bd0d648f",
+     "n": 176,
+     "p": "Increase"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild, some response but little improvement** (work of breathing or oxygen need persisting): manage as moderate; at 6 years and over, give 12 more puffs of salbutamol MDI through a spacer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d659e09e39ef1a50",
+     "n": 149,
+     "p": "Response"
+    },
+    {
+     "h": "c767ae48d0b09e7c",
+     "n": 162,
+     "p": "Mild / 1"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Mild, no response:** get senior advice, stop the salbutamol and think of another diagnosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2067f62d10596ad9",
+     "n": 83,
+     "p": "No respo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moderate:** 1-5 years, salbutamol MDI 6 puffs (spacer and mask) three times, 20 minutes apart, ⚠️ with no steroid; 6 years and over, 12 puffs on the same schedule plus an oral steroid.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e17385c4e37cccc1",
+     "n": 219,
+     "p": "Moderate"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Oral steroid:** prednisolone 1 mg/kg (up to 50 mg) or dexamethasone 0.3 mg/kg (up to 16 mg); the IV product can be given by mouth.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "13ce5f0971fc1c15",
+     "n": 137,
+     "p": "Oral ste"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Moderate, review** 30 minutes after the 3rd salbutamol dose. A good response means better air entry, work of breathing, breathing rate and SpO2.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "51014c78471da3eb",
+     "n": 104,
+     "p": "Reassess"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moderate, good response:** salbutamol as needed; if it is needed more often than 3 hourly, admit; if 3 hourly or less often, discharge.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b791560dbef70094",
+     "n": 76,
+     "p": "Continue"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moderate, poor response:** rethink the diagnosis and add ipratropium. 1-5 years: salbutamol 6 puffs every 30-60 minutes as needed with ipratropium bromide 4 puffs, every 20 min × 3 doses, and consider a steroid. 6 years and over: salbutamol 12 puffs every 30-60 minutes as needed with ipratropium 8 puffs, every 20 min × 3 doses. Ipratropium can then continue every 4 hours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17a2c36775c76a79",
+     "n": 415,
+     "p": "Consider"
+    },
+    {
+     "h": "cdc7f95c2dd45fdd",
+     "n": 184,
+     "p": "Treat as"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Moderate, still responding poorly:** manage as severe, or admit and keep salbutamol going every 1-2 hours as needed: 6 puffs at 1-5 years, 12 puffs at 6 years and over. On discharge, consider prednisolone 1 mg/kg daily for the next 2 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cdc7f95c2dd45fdd",
+     "n": 184,
+     "p": "Treat as"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Keep monitoring** work of breathing, alertness, activity and SpO2. If the child deteriorates: treat as severe, get senior advice, reconsider the diagnosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37ed3240242ca36a",
+     "n": 210,
+     "p": "Ongoing "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Severe:** resuscitation area and senior staff. Every 20 minutes × 3 doses: 1-5 years, salbutamol 6 puffs with ipratropium bromide 4 puffs; 6 years and over, salbutamol 12 puffs with ipratropium 8 puffs (MDI via spacer and mask).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9659de0d5fa759a1",
+     "n": 351,
+     "p": "Severe /"
+    },
+    {
+     "h": "cdc7f95c2dd45fdd",
+     "n": 184,
+     "p": "Treat as"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Severe, systemic steroid:** get IV access and give a corticosteroid early, orally or IV. IV choices: methylprednisolone 1 mg/kg (up to 60 mg) 6 hourly · hydrocortisone 4 mg/kg (up to 100 mg) 6 hourly · dexamethasone 0.6 mg/kg (up to 16 mg) every 24-48 hours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e536e6442b690c37",
+     "n": 240,
+     "p": "IV acces"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Severe, second-line IV drugs early** (reassess after each): magnesium sulphate 0.2 mmol/kg (up to 8 mmol) over 20 min; aminophylline 10 mg/kg (up to 500 mg) infused over 30-60 min on a cardiac monitor, repeatable 6 hourly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e30eb50f3dfaedff",
+     "n": 306,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Life-threatening:** resuscitation area and senior staff; respiratory support with high-flow nasal cannula oxygen, CPAP or bilevel pressure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2740d1f247b7a597",
+     "n": 180,
+     "p": "Life-thr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Continuous nebulised bronchodilators:** salbutamol 2.5 mg nebules with ipratropium bromide 250 microg (younger children), or salbutamol 5 mg with ipratropium 500 microg (older children).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d872d76336946ec1",
+     "n": 207,
+     "p": "2.5 mg s"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Consider IM adrenaline** 10 microg/kg (that is 0.01 mL/kg of 1:1000), injected in the lateral thigh; repeat every 5 min as needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "632ba78ae6900a7e",
+     "n": 128,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Dexamethasone** 0.6 mg/kg IV (up to 16 mg) first, with a further dose after 24-48 hours if needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8fe024c427a40a56",
+     "n": 89,
+     "p": "Dexameth"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Aminophylline and magnesium cannot share an IV line;** give them at the same time only through a second cannula.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "206c6558b4d944c2",
+     "n": 119,
+     "p": "Aminophy"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Not responding:** get paediatric intensive care input. Any child needing maximal asthma treatment belongs in a critical care setting.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed023db7bea65951",
+     "n": 153,
+     "p": "Good res"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IV salbutamol may be considered, though evidence of benefit is limited:** 5-15 microg/kg (up to 300 microg) over 10 min, repeated if needed, or followed by an infusion of 1-2 microg/kg/min (up to 200 microg/min) adjusted to response and heart rate, rising if necessary to 5 microg/kg/min.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a4e7ecb22be5a723",
+     "n": 331,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Acute asthma', four management flowcharts on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Talk to the local paediatric team** for moderate, severe or life-threatening asthma, a poor response to inhaled salbutamol, or any oxygen need.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f022e4aec220924",
+     "n": 43,
+     "p": "Moderate"
+    },
+    {
+     "h": "8b82b149d87576d0",
+     "n": 35,
+     "p": "Poor res"
+    },
+    {
+     "h": "0c30119075035f9c",
+     "n": 18,
+     "p": "Oxygen r"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Think about transfer** for severe or critical asthma needing IV treatment or respiratory support · a rising oxygen need · poor response to salbutamol or failure to wean it · care beyond what the local hospital is comfortable giving.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec79ec259c521031",
+     "n": 80,
+     "p": "Severe o"
+    },
+    {
+     "h": "a8c3e6cf4fc1364f",
+     "n": 43,
+     "p": "Children"
+    },
+    {
+     "h": "82b23f8d044120f7",
+     "n": 78,
+     "p": "Children"
+    },
+    {
+     "h": "06ba67abfeed12b5",
+     "n": 72,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Discharge at one hour** is possible for some children, with senior agreement, if all severity signs have gone, activity is normal, parents are skilled and familiar with asthma, and emergency care is close.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e46eed42ea8ff890",
+     "n": 98,
+     "p": "In consu"
+    },
+    {
+     "h": "e3a3e6d98e19bf96",
+     "n": 35,
+     "p": "resoluti"
+    },
+    {
+     "h": "919f9cb31f9cfeef",
+     "n": 15,
+     "p": "normal a"
+    },
+    {
+     "h": "96139124e5f1d16a",
+     "n": 49,
+     "p": "adequate"
+    },
+    {
+     "h": "b7785d4dc64dfaf2",
+     "n": 27,
+     "p": "proximit"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Everyone else:** should manage three hours without needing salbutamol MDI, and be eating and drinking adequately.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe6ef943e0d5f0b5",
+     "n": 90,
+     "p": "All othe"
+    },
+    {
+     "h": "8278d61da95bcbe9",
+     "n": 20,
+     "p": "Adequate"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild hypoxia (SpO2 90-94%) is not a bar to discharge** when the child looks clinically well after a good response to treatment.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "acaf3e5dfd1c1cde",
+     "n": 142,
+     "p": "Adequate"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before discharge, check and fill gaps in** recognising and managing symptoms · when to seek help · emergency management · what the reliever and preventer do · inhaler technique.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac8dcf9c80d1a5f8",
+     "n": 65,
+     "p": "Educatio"
+    },
+    {
+     "h": "5f76baef71fe911e",
+     "n": 34,
+     "p": "symptom "
+    },
+    {
+     "h": "74793ae12e3cbd6c",
+     "n": 30,
+     "p": "when to "
+    },
+    {
+     "h": "d9ce424f834ce689",
+     "n": 20,
+     "p": "emergenc"
+    },
+    {
+     "h": "5321ac8305601ea7",
+     "n": 38,
+     "p": "role of "
+    },
+    {
+     "h": "94e18a7353c87df4",
+     "n": 17,
+     "p": "inhaler "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Arrange follow-up** with the GP or specialist. Update the Asthma Action Plan to cover this episode, and record in the notes that it was given and discussed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4318d5873ee10f82",
+     "n": 67,
+     "p": "Follow-u"
+    },
+    {
+     "h": "c1950605d49d6987",
+     "n": 163,
+     "p": "should i"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider** a community asthma program and education on associated atopic conditions: allergic rhinitis, and ⚠️ anaphylaxis, whose illness and death rates rise when asthma is poorly controlled.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ff569d0ea03ac7c",
+     "n": 37,
+     "p": "Consider"
+    },
+    {
+     "h": "397fd62a09248198",
+     "n": 61,
+     "p": "Consider"
+    },
+    {
+     "h": "13a76f8b05d0adce",
+     "n": 81,
+     "p": "Anaphyla"
+    },
+    {
+     "h": "6e444c28c040680b",
+     "n": 17,
+     "p": "Allergic"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Currency:** PIC endorsed; page last updated July 2023.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "49d11e1785f32a3f",
+     "n": 22,
+     "p": "Last upd"
+    },
+    {
+     "h": "a76135c52ac5dc90",
+     "n": 12,
+     "p": "PIC Endo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**National reference cited:** the National Asthma Council's Australian Asthma Handbook (2022 edition).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72e7dfe283b5f844",
+     "n": 114,
+     "p": "National"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Evidence cited includes** a 2014 meta-analysis of dexamethasone for children's acute asthma (Keeney et al., Pediatrics) and a 2003 prospective study of deciding admission or discharge at 1 hour (Wilson et al.).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0477e712e6b9f4f7",
+     "n": 109,
+     "p": "Keeney G"
+    },
+    {
+     "h": "e8e74d004389f7f2",
+     "n": 146,
+     "p": "Wilson M"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Also cited:** trials of aminophylline (Yung et al., 1998) and of IV magnesium sulfate versus terbutaline versus aminophylline in acute severe asthma (Singhi et al., 2014).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c956baee5a05eb58",
+     "n": 162,
+     "p": "Singhi, "
+    },
+    {
+     "h": "bf6926ac2b4fcb9d",
+     "n": 104,
+     "p": "Yung M, "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute asthma', last updated July 2023, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/, retrieved 2026-09-24"
   }
+ ]
 }

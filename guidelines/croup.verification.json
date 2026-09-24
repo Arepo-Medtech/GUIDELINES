@@ -1,291 +1,826 @@
 {
-  "guideline": "guidelines/croup.md",
-  "edition": "1.0",
-  "verified_utc": "2026-09-22",
-  "verifier": "claude-opus-5",
-  "verifier_class": "single_verifier_uncalibrated",
-  "retrieved_from": [
-    "https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/",
-    "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png"
-  ],
-  "retrieved_utc": "2026-09-22",
-  "method": "Each S1 claim checked against the retrieved text of the RCH Melbourne Clinical Practice Guideline 'Croup (Laryngotracheobronchitis)' (last updated September 2024, PIC endorsed) and machine-checked verbatim with scripts/verify.py. S2 claims were read from the croup management diagram image, carry verdict pass_image_transcription and cannot be machine re-checked. TWO clinically material items exist only in the diagram and nowhere in the guideline text: nebulised budesonide 2 mg where oral corticosteroids are not tolerated, and a repeat steroid dose the following evening in mild and moderate croup. The diagram also specifies the adrenaline as UNDILUTED, which the text does not. Nebulised adrenaline volume is stated in the text only for life-threatening croup. Source URLs were recorded at retrieval.",
-  "claims": [
+ "guideline": "guidelines/croup.md",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
+ "verifier_class": "single_verifier_uncalibrated",
+ "retrieved_from": [
+  "https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/",
+  "https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png"
+ ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)' (last updated September 2024, PIC endorsed), 37 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). S2: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'RCH flowcharts for Croup (Laryngotracheobronchitis)' (management diagram on the same page, transcribed in Wave 1), 8 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at https://www.rch.org.au/ (Terms and Conditions, clause 5.2)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 rebuilds the hand-written Wave 1 page (which quoted RCH) as a paraphrase. Every Wave 1 claim is carried over and re-anchored in the page as fetched on 2026-09-24. S2 anchors point into a text transcription of the management diagram made in Wave 1; the diagram itself is an image and was not re-read.",
+ "summary": {
+  "total": 45,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 45
+ },
+ "claims": [
+  {
+   "claim": "⚠️ **Keep the child calm:** upset makes the upper airway obstruction worse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
     {
-      "claim": "Clinicians should minimise distress to the child as this can worsen upper airway obstruction",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "1. Minimise distress to the child, as this can worsen upper airway obstruction"
-    },
-    {
-      "claim": "Senior staff should be involved early and transfer considered if there are concerns regarding worsening upper airway obstruction",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "2. Involve senior staff early and consider transfer if concerns regarding worsening upper airway obstruction"
-    },
-    {
-      "claim": "For severe and life-threatening croup, nebulised adrenaline should be used and a skilled senior clinician sought for airway support, while less severe cases can be managed with corticosteroids alone",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "3. For severe and life-threatening croup, use nebulised adrenaline and seek a skilled senior clinician for airway support \u2026 4. Less severe cases can be managed with corticosteroids alone"
-    },
-    {
-      "claim": "Croup is inflammation of the upper airway, larynx and trachea usually triggered by a virus, most commonly parainfluenza as well as other respiratory viruses including COVID-19, occurs generally between the ages of 6 months and 6 years, and is often worse at night",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Croup is inflammation of the upper airway, larynx and trachea, usually triggered by a virus, most commonly parainfluenza as well as other respiratory viruses including COVID-19 (apply appropriate infection control) \u2026 Occurs generally between the ages of 6 months and 6 years \u2026 Often worse at night"
-    },
-    {
-      "claim": "Children with croup should have a focused examination so as not to upset them further",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children with croup should have focused examination so as not to upset them further:"
-    },
-    {
-      "claim": "Observations such as oximetry and blood pressure are not necessary for managing croup and can be omitted if expected to cause distress, throat examination is rarely required, and the child should be kept with the carer with the carer involved in assisting with examination",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Observations such as oximetry and blood pressure are not necessary for managing croup, and can be omitted if expected to cause distress \u2026 Throat examination is rarely required \u2026 Keep child with carer and involve the carer in assisting with examination"
-    },
-    {
-      "claim": "Risk factors for severe croup include history of previous severe croup, pre-existing narrowing of upper airways, reduced airway tone due to pre-existing conditions such as trisomy 21 or neuromuscular conditions, and young age noting croup is uncommon under 6 months and rare under 3 months in which case an alternative diagnosis should be considered",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Risk factors for severe croup include: \u2026 History of previous severe croup \u2026 Pre-existing narrowing of upper airways \u2026 Reduced airway tone due to pre-existing conditions eg trisomy 21, neuromuscular conditions \u2026 Young age: uncommon in under 6 months old, rare in under 3 months old. Consider alternative diagnosis"
-    },
-    {
-      "claim": "Examination findings include barking cough, stridor, hoarse voice or cry, possible associated widespread wheeze, increased work of breathing, and possible fever but no signs of toxicity",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Barking cough \u2026 Stridor \u2026 Hoarse voice or cry \u2026 May have associated widespread wheeze \u2026 Increased work of breathing \u2026 May have fever, but no signs of toxicity"
-    },
-    {
-      "claim": "Loudness of stridor is not a good indicator of severity of obstruction, and soft stridor in the presence of a worsening clinical picture may be a sign of imminent airway obstruction",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Loudness of stridor is not a good indicator of severity of obstruction. Soft stridor in the presence of worsening clinical picture may be a sign of imminent airway obstruction"
-    },
-    {
-      "claim": "In the severity table appearance and colour runs from normal and well-perfused in mild and moderate, to pale in severe, to pale, mottled or cyanosed in life-threatening",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Appearance/colour** | Normal, well-perfused | Normal, well-perfused | Pale | Pale, mottled or cyanosed |"
-    },
-    {
-      "claim": "Behaviour runs from alert and active in mild, to alert and active with intermittent mild agitation in moderate, to increasing agitation and drowsiness in severe, to confused, drowsy, agitated and possibly not moving or drooling in life-threatening",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Behaviour** | Alert and active | Alert and active, intermittent mild agitation | Increasing agitation, drowsiness | Confused, drowsy, agitated  <br>May be not moving, drooling |"
-    },
-    {
-      "claim": "Stridor runs from none or only when active or upset in mild, to intermittent at rest in moderate, to persistent at rest or biphasic in severe, to biphasic or may be soft in life-threatening",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Stridor** | None, or only when active or upset | Intermittent at rest | Persistent at rest, <br>or biphasic\\* | Biphasic or may be soft |"
-    },
-    {
-      "claim": "Respiratory rate runs from normal in mild, to increased in moderate, to marked increase or decrease in severe, to abnormal with signs of impending respiratory exhaustion in life-threatening",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Respiratory rate** | Normal | Increased | Marked increase or decrease | Abnormal, signs of impending respiratory exhaustion |"
-    },
-    {
-      "claim": "Accessory muscle use runs from none or minimal in mild, to intercostal and subcostal recession with tracheal tug in moderate, to abdominal breathing with marked recession and tracheal tug in severe, to severe sternal recession with exhaustion and poor respiratory effort in life-threatening",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Accessory muscle use** | None or minimal | Intercostal and subcostal recession, tracheal tug | Abdominal breathing, marked intercostal and subcostal recession, tracheal tug | Severe sternal recession, exhausted, poor respiratory effort |"
-    },
-    {
-      "claim": "Oxygen saturation is normal in mild and moderate croup, and hypoxia is a late sign which may indicate imminent complete upper airway obstruction",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "| **Oxygen saturation** | Normal | Normal | Hypoxia is a late sign which may indicate imminent complete upper airway obstruction |"
-    },
-    {
-      "claim": "Stridor alone without change in behaviour or work of breathing may not require urgent intervention",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "stridor alone, without change in behaviour, work of breathing, etc, may not require urgent intervention"
-    },
-    {
-      "claim": "The differential diagnosis includes retropharyngeal abscess, peritonsillar abscess or quinsy, bacterial tracheitis, epiglottitis, and airway burns or trauma",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Retropharyngeal abscess \u2026 Peritonsillar abscess (quinsy) \u2026 Bacterial tracheitis \u2026 Epiglottitis \u2026 Airway burns or trauma"
-    },
-    {
-      "claim": "Croup is a clinical diagnosis and investigations such as respiratory swab or nasopharyngeal aspirate, X-rays and blood tests are not indicated in typical presentations, with appropriate investigations considered if there is concern for differential diagnoses",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Croup is a clinical diagnosis. Investigations such as respiratory swab or nasopharyngeal aspirate, X-rays and blood tests are **not** indicated in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses as above"
-    },
-    {
-      "claim": "Clinicians should minimise distress to avoid worsening symptoms and minimise interventions including examination and investigation that are not going to impact acute management, keep the child with carers to reduce distress, and try to keep the environment quiet with moderate lighting",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "**Minimise distress** to avoid worsening symptoms, minimise interventions including examination and investigation that are not going to impact acute management \u2026 Keep child with carers to reduce distress \u2026 Try to keep the environment quiet, moderate lighting"
-    },
-    {
-      "claim": "Children will adopt a position of comfort that minimises airway obstruction and this should not be changed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children will adopt a position of comfort that minimises airway obstruction, do not change this"
-    },
-    {
-      "claim": "Supplemental oxygen is not usually required, and if needed the child should be managed as severe upper airway obstruction or an alternative diagnosis such as anaphylaxis or asthma considered",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Supplemental oxygen is not usually required. If needed, manage as severe upper airway obstruction or consider alternative diagnosis eg anaphylaxis, asthma"
-    },
-    {
-      "claim": "Children with barking cough alone and no history of stridor do not require steroids",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children with barking cough alone and no history of stridor do not require steroids"
-    },
-    {
-      "claim": "In mild croup oral steroids of dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral should be considered if stridor is present or if there are risk factors such as young age and inability to access urgent review",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Consider oral steroids: dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral if stridor present or if risk factors such as young age and inability to access urgent review"
-    },
-    {
-      "claim": "In moderate croup oral steroids of dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral are given, with nebulised adrenaline considered if symptoms are persistent or worsening",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Oral steroids: dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral \u2026 Consider nebulised adrenaline if persistent or worsening symptoms"
-    },
-    {
-      "claim": "In severe croup there should be senior clinician review with management in a high acuity treatment area, nebulised adrenaline and dexamethasone 0.6 mg/kg to a maximum of 12 mg by oral, intramuscular or intravenous route",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Senior clinician review. Manage in high acuity treatment area \u2026 Nebulised adrenaline **and** \u2026 Dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV"
-    },
-    {
-      "claim": "In life-threatening croup the child should be moved to a resuscitation area with senior staff involved, given nebulised adrenaline 5 mL of 1:1000, 100 per cent oxygen at 15 L/min via non-rebreather mask, and dexamethasone 0.6 mg/kg to a maximum of 12 mg intramuscularly or intravenously",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Move to resuscitation area and involve senior staff \u2026 Nebulised adrenaline 5 mL of 1:1000 \u2026 100% oxygen 15 L/min via non-rebreather mask \u2026 Dexamethasone 0.6 mg/kg (max 12 mg) IM/IV"
-    },
-    {
-      "claim": "Further doses of nebulised adrenaline can be given until a senior clinician is available to provide airway support",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Further doses of nebulised adrenaline can be given until senior clinician available to provide airway support"
-    },
-    {
-      "claim": "Children can be discharged home once stridor free at rest, and a period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of symptoms",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Children can be discharged home once stridor free at rest \u2026 A period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of symptoms"
-    },
-    {
-      "claim": "A longer period of observation than 3 hours should be considered for a child who presents overnight, has limited access to medical care, presents with stridor more than once during the same illness, or has risk factors for severe croup",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "presents overnight \u2026 has limited access to medical care \u2026 presents with stridor more than once during the same illness \u2026 has risk factors for severe croup"
-    },
-    {
-      "claim": "Consultation with the local paediatric team should be considered where severe airway obstruction is present, the child has risk factors or there is any doubt about diagnosis, the child is less than 6 months of age, or there is no improvement with nebulised adrenaline",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Severe airway obstruction present \u2026 Child has risk factors or any doubt about diagnosis \u2026 Child less than 6 months of age \u2026 No improvement with nebulised adrenaline"
-    },
-    {
-      "claim": "Transfer should be considered where there is no improvement following nebulised adrenaline, the child requires repeated doses of nebulised adrenaline, or the child requires care above the level of comfort of the local hospital",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "No improvement following nebulised adrenaline \u2026 Child requiring repeated doses of nebulised adrenaline \u2026 Child requiring care above the level of comfort of the local hospital"
-    },
-    {
-      "claim": "Discharge requires a minimum of 3 hours observation post nebulised adrenaline if this has been required, and parents should be advised to seek medical attention if there is recurrence of stridor at rest despite having received oral steroids",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Minimum of 3 hours observation post nebulised adrenaline (if this has been required) \u2026 Parents should be advised to seek medical attention if recurrence of stridor at rest despite having received oral steroids"
-    },
-    {
-      "claim": "Antibiotics have no role in uncomplicated croup as it has a viral aetiology",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Antibiotics have no role in uncomplicated croup as it has a viral aetiology"
-    },
-    {
-      "claim": "Anti-tussives such as codeine have no proven effect on the course or severity of croup and may cause respiratory depression and increase sedation",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Anti-tussives such as codeine have no proven effect on the course or severity of croup, and may cause respiratory depression and increase sedation"
-    },
-    {
-      "claim": "Cold air exposure below 10 degrees Celsius might reduce severity in moderate croup, humidified air has not been proven to change the severity of croup, and heliox has not been shown to be better than nebulised adrenaline in severe croup",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Cold air (below 10 degC) exposure might reduce severity in moderate croup \u2026 Humidified air has not been proven to change the severity of croup \u2026 Heliox has not been shown to be better than nebulised adrenaline in severe croup"
-    },
-    {
-      "claim": "The guideline was last updated September 2024 and is PIC endorsed",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Last updated September 2024 \u2026 PIC Endorsed"
-    },
-    {
-      "claim": "The guideline cites a Cochrane review of glucocorticoids for croup in children and a 2023 randomised controlled trial of outdoor cold air versus room temperature exposure for croup symptoms",
-      "source": "S1",
-      "verdict": "pass",
-      "source_text": "Aregbesola A, Tam CM, Kothari A, Le ML, Ragheb M, Klassen TP. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2023 \u2026 Siebert JN, Salomon C, Taddeo I, Gervaix A, Combescure C, Lacroix L. Outdoor Cold Air Versus Room Temperature Exposure for Croup Symptoms: A Randomized Controlled Trial. Pediatrics. 2023"
-    },
-    {
-      "claim": "The diagram states that in mild croup no steroids may be considered if there is barking cough alone, and that if there is a history of stridor or risk factors, dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral should be considered with a repeat dose the following evening",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Mild / Consider no steroids if barking cough alone / If history of stridor, or risk factors, consider: Dexamethasone 0.15 mg/kg oral or Prednisolone 1 mg/kg oral, repeat dose following evening"
-    },
-    {
-      "claim": "The diagram states that in moderate croup dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral is given with a repeat dose the following evening",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Moderate / Dexamethasone 0.15 mg/kg oral or Prednisolone 1 mg/kg oral with a repeat dose the following evening"
-    },
-    {
-      "claim": "The diagram states that nebulised budesonide 2 mg should be considered if oral corticosteroids are not tolerated",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "*Consider nebulised budesonide 2 mg if oral corticosteroids not tolerated"
-    },
-    {
-      "claim": "In the diagram a good response to moderate treatment leads to discharge home once stridor free at rest, and deterioration leads to the severe pathway",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Good response / Discharge home once stridor free at rest / Deterioration"
-    },
-    {
-      "claim": "The diagram states that severe croup is treated with nebulised adrenaline 5 mL of undiluted adrenaline 1:1000 and dexamethasone 0.6 mg/kg to a maximum of 12 mg by intramuscular, intravenous or oral route",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Severe / Nebulised adrenaline 5 mL of undiluted adrenaline 1:1000 and Dexamethasone 0.6 mg/kg (max 12 mg) IM/IV/PO"
-    },
-    {
-      "claim": "In the diagram a good response to severe treatment means repeating the adrenaline dose if there is recurrence of severe respiratory distress, and considering discharge at 3 hours post adrenaline if stridor free at rest",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Good response / Repeat adrenaline dose if recurrence of severe respiratory distress / Consider discharge at 3 hours post adrenaline if stridor free at rest"
-    },
-    {
-      "claim": "In the diagram a minimal or poor response to severe treatment means repeating the dose of adrenaline, considering an alternative diagnosis, and escalation to senior staff or ICU",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Minimal or poor response / Repeat dose of adrenaline / Consider alternative diagnosis / Escalation to senior/ICU"
-    },
-    {
-      "claim": "The diagram states that life-threatening croup requires immediate senior involvement, ICU or anaesthetics, nebulised adrenaline 5 mL of undiluted adrenaline 1:1000, oxygen at 15 L/min via non-rebreather mask, and dexamethasone 0.6 mg/kg to a maximum of 12 mg intramuscularly or intravenously",
-      "source": "S2",
-      "verdict": "pass_image_transcription",
-      "source_text": "Life-threatening / Immediate senior involvement/ICU/anaesthetics / Nebulised adrenaline 5 mL of undiluted adrenaline 1:1000 / Oxygen 15 L/min via non rebreather mask / Dexamethasone 0.6 mg/kg (max 12 mg) IM/IV"
+     "h": "77eadc0d5b571bd0",
+     "n": 75,
+     "p": "Minimise"
     }
-  ],
-  "summary": {
-    "total": 45,
-    "pass": 37,
-    "fail": 0,
-    "pass_image_transcription": 8
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Call senior help early**, and think about transfer, whenever the airway looks to be getting worse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "26b42119e346812d",
+     "n": 105,
+     "p": "Involve "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Severe or life-threatening croup → nebulised adrenaline plus an experienced senior to support the airway.** Milder croup can usually be treated with a corticosteroid on its own.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a6d9b7c056b23ee4",
+     "n": 118,
+     "p": "For seve"
+    },
+    {
+     "h": "9728e98e22bb7724",
+     "n": 59,
+     "p": "Less sev"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What it is:** a (usually viral) inflammation of the larynx, trachea and upper airway. Parainfluenza is the commonest cause; other respiratory viruses, COVID-19 among them, also cause it, so use infection control. Typical age 6 months to 6 years; symptoms tend to be worse overnight.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b26e07f3359918b7",
+     "n": 214,
+     "p": "Croup is"
+    },
+    {
+     "h": "b69f3bf6bacf0f4d",
+     "n": 57,
+     "p": "Occurs g"
+    },
+    {
+     "h": "0732a46ecb6dd368",
+     "n": 20,
+     "p": "Often wo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Examine selectively,** so that the examination itself does not upset the child more.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3bd7168ee3c361a2",
+     "n": 84,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oximetry and blood pressure can be skipped** if taking them would distress the child; they are not needed to manage croup. The throat seldom needs looking at. Keep the carer with the child and let them help with the examination.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42c91d365717dfed",
+     "n": 135,
+     "p": "Observat"
+    },
+    {
+     "h": "9e87dfbce229fe45",
+     "n": 37,
+     "p": "Throat e"
+    },
+    {
+     "h": "1c43f97f4967ba51",
+     "n": 73,
+     "p": "Keep chi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Risk factors for severe croup:** earlier severe croup · an already narrowed upper airway · low airway tone from an underlying condition (e.g. trisomy 21, neuromuscular disease) · ⚠️ young age: croup is unusual below 6 months and rare below 3 months, so look for another diagnosis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "185643fae47639f8",
+     "n": 38,
+     "p": "Risk fac"
+    },
+    {
+     "h": "38e582273de56524",
+     "n": 32,
+     "p": "History "
+    },
+    {
+     "h": "ed006e18283b3984",
+     "n": 39,
+     "p": "Pre-exis"
+    },
+    {
+     "h": "97ae439342c73fd8",
+     "n": 90,
+     "p": "Reduced "
+    },
+    {
+     "h": "b5881c3c34e9876c",
+     "n": 101,
+     "p": "Young ag"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Findings:** barking cough · stridor · a hoarse cry or voice · sometimes widespread wheeze · increased work of breathing · sometimes fever, but the child does not look toxic.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28884bb562b87968",
+     "n": 13,
+     "p": "Barking "
+    },
+    {
+     "h": "111e0e4a7c96f8d0",
+     "n": 7,
+     "p": "Stridor"
+    },
+    {
+     "h": "06514398c600b675",
+     "n": 19,
+     "p": "Hoarse v"
+    },
+    {
+     "h": "571138f470f85068",
+     "n": 37,
+     "p": "May have"
+    },
+    {
+     "h": "9d872e1e7b876db2",
+     "n": 27,
+     "p": "Increase"
+    },
+    {
+     "h": "f1951c1db3dcb679",
+     "n": 40,
+     "p": "May have"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **A loud stridor does not mean a worse obstruction.** When the child is otherwise deteriorating, a quiet stridor can signal that the airway is about to obstruct.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "219291a6300a3726",
+     "n": 175,
+     "p": "Loudness"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Colour and perfusion:** normal and well perfused in mild and moderate → pale in severe → pale, mottled or blue in life-threatening.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b872a00e7f9ab0cc",
+     "n": 92,
+     "p": "Appearan"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Behaviour:** alert and active (mild) → alert with bouts of mild agitation (moderate) → more agitated, drowsy (severe) → confused, drowsy or agitated, perhaps motionless or drooling (life-threatening).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "efc7f7403e648087",
+     "n": 160,
+     "p": "Behaviou"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Stridor:** absent or only on activity or upset (mild) → intermittent at rest (moderate) → continuous at rest or biphasic (severe) → biphasic, or ⚠️ possibly soft (life-threatening).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "261a92021de9e2ac",
+     "n": 120,
+     "p": "Stridor "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Breathing rate:** normal (mild) → raised (moderate) → markedly raised or ⚠️ falling (severe) → abnormal, with the child tiring towards respiratory exhaustion (life-threatening).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bef1e974e6a0bc6a",
+     "n": 113,
+     "p": "Respirat"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Accessory muscles:** little or none (mild) → intercostal and subcostal recession with tracheal tug (moderate) → marked recession, tracheal tug and abdominal breathing (severe) → severe sternal recession, poor effort, exhaustion (life-threatening).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9529c564d631016",
+     "n": 225,
+     "p": "Accessor"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oxygen saturation** stays normal in mild and moderate croup. ⚠️ Hypoxia comes late and can mean complete upper airway obstruction is close.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4c643989ebcd233",
+     "n": 116,
+     "p": "Oxygen s"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Stridor on its own**, with no change in behaviour or work of breathing, may not need urgent treatment.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cea7c1566493c344",
+     "n": 103,
+     "p": "stridor "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other causes of upper airway obstruction to consider:** retropharyngeal or peritonsillar abscess (quinsy) · bacterial tracheitis · epiglottitis · burns or trauma to the airway.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da0d944f729e6fac",
+     "n": 23,
+     "p": "Retropha"
+    },
+    {
+     "h": "cd69d686f4f29156",
+     "n": 30,
+     "p": "Peritons"
+    },
+    {
+     "h": "ef312a028cf502b8",
+     "n": 20,
+     "p": "Bacteria"
+    },
+    {
+     "h": "2fe8c91aab035e1f",
+     "n": 12,
+     "p": "Epiglott"
+    },
+    {
+     "h": "cadb9b8c32b3473d",
+     "n": 22,
+     "p": "Airway b"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The diagnosis is clinical.** In a typical case do not send swabs or nasopharyngeal aspirates, X-rays or bloods; test only when a differential diagnosis is a real concern.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e70a2a1ca050c96d",
+     "n": 257,
+     "p": "Croup is"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do only what will change acute management;** every extra examination or test adds distress and can worsen the symptoms. Keep carers close, the room quiet and the lighting moderate.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bda0969a7b150fb0",
+     "n": 155,
+     "p": "Minimise"
+    },
+    {
+     "h": "5f926d7caa8173ab",
+     "n": 41,
+     "p": "Keep chi"
+    },
+    {
+     "h": "12d09fe52667ff1a",
+     "n": 52,
+     "p": "Try to k"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Leave the child in the position they choose:** it is the one that keeps their airway most open.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "730c4a1738d2998e",
+     "n": 95,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oxygen is seldom needed.** A child who does need it should be treated as having severe upper airway obstruction, or reconsidered for another diagnosis such as anaphylaxis or asthma.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f4f104a6593e8c2",
+     "n": 154,
+     "p": "Suppleme"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No steroid for a barking cough alone** when there has never been stridor.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6f11f8d0b877f558",
+     "n": 83,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild:** think about an oral steroid (dexamethasone 0.15 mg/kg, or prednisolone 1 mg/kg) when there is stridor, or a risk factor such as young age or poor access to urgent review.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ff42e7d2a130aa0e",
+     "n": 176,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Moderate:** give an oral steroid (dexamethasone 0.15 mg/kg or prednisolone 1 mg/kg); add nebulised adrenaline if symptoms persist or get worse.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f39a1b6f327699f",
+     "n": 73,
+     "p": "Oral ste"
+    },
+    {
+     "h": "721462b3c46964fa",
+     "n": 65,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Severe:** a senior clinician reviews, in a high-acuity area; give nebulised adrenaline together with dexamethasone 0.6 mg/kg (maximum 12 mg) by mouth, IM or IV.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e6939be9f78812b3",
+     "n": 61,
+     "p": "Senior c"
+    },
+    {
+     "h": "f519345497ecf09b",
+     "n": 24,
+     "p": "Nebulise"
+    },
+    {
+     "h": "ed55ad5ae7517952",
+     "n": 44,
+     "p": "Dexameth"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Life-threatening:** move to resuscitation with senior staff · nebulise 5 mL of adrenaline 1:1000 · 100% oxygen at 15 L/min by non-rebreather mask · an experienced clinician prepares to intubate (croup endotracheal tubes if the unit has them) · dexamethasone 0.6 mg/kg (maximum 12 mg) IM or IV.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2e1ea16086a6619",
+     "n": 51,
+     "p": "Move to "
+    },
+    {
+     "h": "572815ddb940d571",
+     "n": 35,
+     "p": "Nebulise"
+    },
+    {
+     "h": "50318c77299629a4",
+     "n": 44,
+     "p": "100% oxy"
+    },
+    {
+     "h": "a9af3ff418486108",
+     "n": 129,
+     "p": "Prepare "
+    },
+    {
+     "h": "28d7221595569d96",
+     "n": 41,
+     "p": "Dexameth"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Keep repeating nebulised adrenaline** until a senior clinician arrives who can support the airway.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c47a43afc60b1051",
+     "n": 109,
+     "p": "Further "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mild (diagram):** a barking cough alone may need no steroid. If the child has had stridor or has risk factors, consider oral dexamethasone 0.15 mg/kg or oral prednisolone 1 mg/kg, and give the dose again the next evening.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61686e73a20ff714",
+     "n": 192,
+     "p": "Mild / C"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Moderate (diagram):** oral dexamethasone 0.15 mg/kg or oral prednisolone 1 mg/kg, repeated the next evening.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b31c1d3082738562",
+     "n": 110,
+     "p": "Moderate"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Oral steroid not tolerated:** the diagram offers nebulised budesonide 2 mg instead.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2dbec5f01dee9e1b",
+     "n": 73,
+     "p": "*Conside"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Moderate, responding well:** home once there is no stridor at rest. If the child worsens, move to the severe pathway.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fbb9788f9caa736f",
+     "n": 72,
+     "p": "Good res"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Severe (diagram):** 5 mL of adrenaline 1:1000, nebulised undiluted, plus dexamethasone 0.6 mg/kg (maximum 12 mg) IM, IV or oral.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15b12845bd85670d",
+     "n": 114,
+     "p": "Severe /"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Severe, responding well:** give adrenaline again if severe respiratory distress comes back; discharge can be considered 3 hours after the adrenaline if there is no stridor at rest.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9284f1bb0b12d7c",
+     "n": 155,
+     "p": "Good res"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Severe, responding poorly or not at all:** repeat the adrenaline, rethink the diagnosis and escalate to senior staff or ICU.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d53bc28f62d9c3e0",
+     "n": 112,
+     "p": "Minimal "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Life-threatening (diagram):** senior, ICU and anaesthetic help at once · nebulised adrenaline 1:1000, 5 mL, undiluted · 15 L/min oxygen through a non-rebreather mask · dexamethasone 0.6 mg/kg (maximum 12 mg) IM or IV.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e09fef81d3486d0b",
+     "n": 209,
+     "p": "Life-thr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'RCH flowcharts for Croup (Laryngotracheobronchitis)', management diagram on the same page, transcribed in Wave 1, https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Home when there is no stridor at rest.** After nebulised adrenaline, watch for 3 hours to make sure symptoms do not return.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a258ef34e873b54a",
+     "n": 57,
+     "p": "Children"
+    },
+    {
+     "h": "79d0a781fb470d7b",
+     "n": 109,
+     "p": "A period"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Observe for more than 3 hours** if the child came in overnight · lives far from medical care · has had stridor more than once in this illness · has a risk factor for severe croup.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "035680c89abaad92",
+     "n": 69,
+     "p": "Consider"
+    },
+    {
+     "h": "60d6220cb8ea3083",
+     "n": 18,
+     "p": "presents"
+    },
+    {
+     "h": "3b48affae60bb7c3",
+     "n": 34,
+     "p": "has limi"
+    },
+    {
+     "h": "5c9b02852c3cc63a",
+     "n": 60,
+     "p": "presents"
+    },
+    {
+     "h": "9aeb78c1996a712f",
+     "n": 33,
+     "p": "has risk"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Talk to the local paediatric team** for: severe obstruction · risk factors or diagnostic doubt · age under 6 months · no response to nebulised adrenaline.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d1fb085be50d0a9b",
+     "n": 33,
+     "p": "Severe a"
+    },
+    {
+     "h": "7d0d9c85c9335237",
+     "n": 51,
+     "p": "Child ha"
+    },
+    {
+     "h": "533ad572f8b9d46d",
+     "n": 31,
+     "p": "Child le"
+    },
+    {
+     "h": "b95008f7446f1716",
+     "n": 40,
+     "p": "No impro"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Think about transfer** if nebulised adrenaline has not helped, keeps being needed, or the child needs more care than the local hospital is comfortable giving.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f5dbcd071dbd797",
+     "n": 45,
+     "p": "No impro"
+    },
+    {
+     "h": "6c5ef6face6fd24e",
+     "n": 54,
+     "p": "Child re"
+    },
+    {
+     "h": "bcfda9586d348d25",
+     "n": 69,
+     "p": "Child re"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Discharge criteria:** at least 3 hours of observation after any nebulised adrenaline. Tell parents to come back if stridor at rest returns even though oral steroids were given.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e71fcef0dc159dd5",
+     "n": 84,
+     "p": "Minimum "
+    },
+    {
+     "h": "54e110911155f918",
+     "n": 122,
+     "p": "Parents "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No antibiotics** in uncomplicated croup: the cause is viral.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8908ee6652525972",
+     "n": 75,
+     "p": "Antibiot"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No cough suppressants such as codeine:** they do not change the course or severity, and can depress breathing and add sedation.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7c4683162b19155",
+     "n": 146,
+     "p": "Anti-tus"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cold outdoor air (under 10 °C) might ease moderate croup.** Humidified air has no proven effect on severity, and heliox has not beaten nebulised adrenaline in severe croup.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6fa4dc87843c3302",
+     "n": 71,
+     "p": "Cold air"
+    },
+    {
+     "h": "2a09a7edcc3a3ffc",
+     "n": 66,
+     "p": "Humidifi"
+    },
+    {
+     "h": "adb841048f76fa12",
+     "n": 80,
+     "p": "Heliox h"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Currency:** PIC endorsed; page last updated September 2024.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3a887b6aa03a8ad9",
+     "n": 27,
+     "p": "Last upd"
+    },
+    {
+     "h": "a76135c52ac5dc90",
+     "n": 12,
+     "p": "PIC Endo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Key evidence cited:** a 2023 Cochrane review of glucocorticoids for childhood croup, and a 2023 randomised trial (Siebert et al., Pediatrics) comparing outdoor cold air with room-temperature air.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db4b7e91d452c42d",
+     "n": 133,
+     "p": "Aregbeso"
+    },
+    {
+     "h": "2348bb6927e8e785",
+     "n": 186,
+     "p": "Siebert "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Croup (Laryngotracheobronchitis)', last updated September 2024, PIC endorsed, https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/, retrieved 2026-09-24"
   }
+ ]
 }

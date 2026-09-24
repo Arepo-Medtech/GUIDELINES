@@ -1,270 +1,151 @@
 # Febrile child
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** assessment and initial management of fever in children, by age tier.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** fever in children by corrected-age tier (28 days or under, 29 days to 3 months, over 3 months): what predicts serious bacterial infection, examination, investigations, empiric antibiotics, temperature measurement, urine and blood culture technique, discharge. A seriously unwell febrile child is managed through `sepsis-children`; related pages in this set include `febrile-seizure`, `urinary-tract-infection-children`, `meningitis-and-encephalitis-children`, `fever-and-petechiae-children` and `febrile-neutropenia-children`.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Clinical Practice Guidelines:
-> Febrile child***. **PIC Endorsed** [S1].
+> ✅ **COMPILED FROM 2 SOURCES.** 64 claims; **84 fragments or anchors re-checkable by machine; 0 doses.** **S1** The Royal Children's Hospital Melbourne (last update September 2022, PIC endorsed; AU): 55 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1; AU): 9 claims, paraphrased, hash-anchored
 
-**The document the febrile seizure guideline defers to twice**, and the one that supplies the **lumbar
-puncture** guidance that guideline was missing.
+> ⚠️ **How high the fever is tells you nothing about how sick the child is.** Neither does how fast it came on, whether paracetamol brings it down, or a febrile seizure. How the child looks is the best guide.
 
-## ⚠️ Four things that do not predict how sick the child is
+> ⚠️ **Neonates (28 days or under corrected age) with fever:** full septic work-up including CSF, and IV antibiotics, every time. Under 3 months, a low temperature or unstable temperature can also mean serious infection.
 
-> **The severity of illness cannot be predicted by the degree of fever, its rapidity of onset, its response to
-> antipyretics or the presence of febrile seizures; the appearance of the child is the most useful
-> indicator** [S1].
+> ⚠️ **Seriously unwell with fever = suspected sepsis,** whatever the temperature; see `sepsis-children`. Complete the work-up before antibiotics only if the child is stable.
 
-**Each of the four is something clinicians and parents routinely reason from**, and the fourth closes a loop
-inside this compendium: the **febrile seizure** guideline states that children with simple febrile seizures
-carry **the same risk of serious bacterial infection as those with fever alone**. **Here is the same finding
-from the other side** — two RCH guidelines agreeing across their shared boundary without citing each other
-for it.
+> 🖼️ S2 claims come from the two RCH flowcharts (29 days to 3 months, and over 3 months), which carry the empiric antibiotic choice and the age-specific lumbar puncture rule.
 
-And the corollary, stated as a management rule:
+---
 
-> **Any febrile child who appears seriously unwell should be managed as suspected sepsis, irrespective of the
-> degree of fever** [S1].
+## Key points
 
-## The other three key points
-
-> 1. **Febrile neonates ≤28 days of corrected age require investigations (FBE, CRP, blood, urine and CSF
->    cultures ± CXR) and empiric IV antibiotic therapy**
-> 2. **In febrile infants >28 days of corrected age and <3 months, have a low threshold for investigation and
->    treatment based on clinical appearance and presence (or absence) of a clinically obvious focus**
-> 3. ⚠️ **In infants <3 months of age, hypothermia or temperature instability can be signs of serious
->    bacterial infection (or other serious illness)** [S1]
-
-**Point 3 inverts the presenting complaint.** A cold baby is a red flag in the same guideline that exists to
-handle hot ones.
-
-**Everything is keyed to *corrected* age** — prematurity moves the child down a tier.
+- ⚠️ **Febrile neonate (28 days or under, corrected):** investigate (FBE, CRP, cultures of blood, urine and CSF, ± chest X-ray) and start empiric IV antibiotics. [S1]
+- **Febrile infant over 28 days and under 3 months (corrected):** investigate and treat readily, guided by how the infant looks and whether an obvious focus is present. [S1]
+- ⚠️ **Under 3 months, low or unstable temperature** can signal serious bacterial infection or other serious illness. [S1]
+- ⚠️ **Fever height, speed of onset, response to antipyretics and febrile seizures do not predict severity;** the child's appearance is the most useful sign. [S1]
 
 ## Background
 
-- **Definition of fever: body temperature >38.0 °C** [S1]
-- **The most common causes of fever in children are viral infections, however serious bacterial infections
-  (SBIs) need to be considered** [S1]
-- **The most common SBIs found in children without a focus are urinary tract infections** [S1]
-- ⚠️ **Since the introduction of the pneumococcal vaccine, the rate of occult bacteraemia has fallen to <1% in
-  healthy, immunised children** [S1]
-- **Children with fever for ≥5 days should be assessed for Kawasaki disease or PIMS-TS if there is a history
-  of COVID-19 infection** [S1]
-- **Other uncommon causes of prolonged fever include inflammatory, immune-mediated and neoplastic conditions;
-  specialist input may be required** [S1]
+- **Fever:** body temperature above 38.0º Celsius. [S1]
+- **Measure consistently:** the same site and the same kind of thermometer each time, where you can. [S1]
+- **Most fevers are viral,** but serious bacterial infection (SBI) must be considered; without a focus, the commonest SBI is a urinary tract infection. [S1]
+- **Occult bacteraemia** is now under 1% in healthy, immunised children, since pneumococcal vaccination began. [S1]
+- **Fever for 5 days or more:** assess for Kawasaki disease, or PIMS-TS if the child has had COVID-19. [S1]
+- **Prolonged fever** can also come from rarer inflammatory, immune-mediated or malignant conditions, which may need a specialist. [S1]
 
-**The occult bacteraemia figure is a vaccine changing a base rate.** It is the quantitative version of the
-**febrile seizure** guideline's red flag for **incomplete immunisation against *Haemophilus influenzae* B or
-*Streptococcus pneumoniae*** — that child is not in the <1%.
+## History
 
-## History, and two things that are not the answer
+- **Ask about localising symptoms:** cough · headache · light sensitivity · vomiting · diarrhoea · tummy pain · muscle or joint pain · rash. [S1]
+- **Antibiotics already given** can hide the signs of a bacterial infection. [S1]
+- **High-risk groups:** prematurity · immunosuppression or cancer (see febrile neutropenia) · a central line · chronic lung disease · congenital heart disease · a past invasive bacterial infection · Aboriginal, Torres Strait Islander, Pacific Islander or Māori children · repeated presentations to health services. [S1]
+- **Teething is not a cause of fever.** [S1]
+- **Fever after vaccination** is common, usually starting within 24 hours and lasting up to 2-3 days. ⚠️ If the child is unwell, do not put the fever down to the vaccine alone. [S1]
 
-**Ask about** **localising symptoms eg cough, headache, photophobia, diarrhoea, vomiting, abdominal pain,
-musculoskeletal pain, rash**; **travel**; **sick contacts**; **immunisation** (children <6 months or
-incomplete); and **medication — prior treatment with antibiotics may mask signs of a bacterial
-infection** [S1].
+## Signs of an unwell child
 
-**High-risk groups** [S1]:
-
-> **prematurity, immunosuppression/oncological conditions, central line in situ, chronic lung disease,
-> congenital heart disease, previous invasive bacterial infections, **children of Aboriginal, Torres Strait
-> Islander, Pacific Islander or Maori origin**, multiple health service presentations**
-
-**Population is listed as a risk factor alongside central lines and congenital heart disease**, without
-qualification or explanation in the retrieved text (see *Unresolved*). **"Multiple health service
-presentations"** is the other one worth noticing — the family who has already been turned away twice.
-
-⚠️ **Two flat corrections** [S1]:
-
-> - **Teething does not cause fever**
-> - **Post vaccination fever is common, with a typical onset within 24 hours of immunisation and duration up
->   to 2–3 days; however, in an unwell child, fever should not be attributed to vaccination alone**
-
-## ⚠️ Appearance is the test
-
-> **Certain aspects of the child's behaviour and appearance provide the best indication of whether they are at
-> high risk of SBI** [S1].
-
-**Features suggestive of an unwell child**, adapted by the source from **NICE *Feverish illness in
-children*** [S1]:
-
-| | |
-|---|---|
-| **Colour** | **Pallor (including parent/carer report)** · **Mottled** · **Blue/cyanosed** |
-| **Activity** | **Lethargy or decreased activity** · **Not responding normally to social cues** · **Does not wake or only with prolonged stimulation, or if roused, does not stay awake** · **Weak, high-pitched or continuous cry** |
-| **Respiratory** | **Grunting** · **Tachypnoea** · **Increased work of breathing** · **Hypoxia** |
-| **Circulation and hydration** | **Poor feeding** · **Dry mucous membranes** · **Persistent tachycardia** · **Central capillary refill time ≥3 seconds** · **Reduced skin turgor** · **Reduced urine output** |
-| **Neurological** | **Bulging fontanelle** · **Excessive irritability** · **Neck stiffness** · **Focal neurological signs** · **Focal, complex or prolonged seizures** |
-| **Other** | **Non-blanching rash** · **Fever for ≥5 days** · **Swelling of a limb or joint** · **Non-weight bearing/not using an extremity** |
-
-**"Pallor (including parent/carer report)"** admits the parent's observation as a clinical sign in its own
-right — the child was pale at home and is not pale now, and that still counts.
-
-**Under Neurological, "focal, complex or prolonged seizures"** — the exact categories the **febrile seizure**
-guideline defines as *complex*. The two documents share a vocabulary.
-
-> **Remove clothing as required to complete a full examination, looking for subtle signs** [S1].
+- **Behaviour and appearance** are the best guide to whether a child is at high risk of SBI. [S1]
+- **Colour:** pallor (including when a parent reports it) · mottling · blue or cyanosed. [S1]
+- **Activity:** lethargic or less active · not responding normally to social cues · hard to wake, or will not stay awake once roused · a weak, high-pitched or continuous cry. [S1]
+- **Breathing:** grunting · tachypnoea · increased work of breathing · hypoxia. [S1]
+- **Circulation and hydration:** feeding poorly · dry mucous membranes · tachycardia that persists · central capillary refill 3 seconds or longer · reduced skin turgor · passing less urine. [S1]
+- **Neurological:** a bulging fontanelle · neck stiffness · marked irritability · focal neurological signs · seizures that are focal, complex or prolonged. [S1]
+- **Other:** a rash that does not blanch · fever for 5 days or more · a swollen limb or joint · not bearing weight or not using a limb. [S1]
+- **These signs are adapted** from the 2019 NICE guideline on feverish illness in children. [S1]
+- **Examine for a focus of infection,** undressing the child as needed for a complete examination and looking for subtle signs. [S1]
 
 ## Management
 
-- ⚠️ > **Do not accept apparent otitis media or upper respiratory symptoms as the source of infection in young
-  > infants or unwell children. These children still require assessment for possible SBI** [S1]
-- **If the child is stable, it is preferable to complete investigations looking for an infective focus before
-  commencing antibiotics** [S1]
-- **In children from high risk groups, have a lower threshold for investigations** [S1]
-- **UTI is the most common SBI; if there is no clinically obvious focus for fever, urine collection and
-  testing should be performed** [S1]
-- **Antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please
-  refer to local guidelines** [S1]
+- ⚠️ **A febrile child who looks seriously unwell is managed as suspected sepsis,** however high or low the temperature. [S1]
+- ⚠️ **Do not accept an apparent otitis media or cold as the source** in a young infant or an unwell child; they still need assessing for SBI. [S1]
+- **Stable child:** preferably finish the search for a focus before starting antibiotics. High-risk groups: investigate more readily. [S1]
+- **UTI is the commonest SBI:** with no obvious focus, collect and test urine. [S1]
+- **Antibiotic choice** depends on local susceptibility patterns; use local guidelines. [S1]
+- **Three corrected-age tiers:** 28 days or under · 29 days to 3 months · over 3 months. The two flowcharts below cover the older two tiers. [S1]
 
-**The otitis media rule is a refusal of a convenient diagnosis** — the red ear that lets everyone go home.
+## Neonates: 28 days or under
 
-### Infants ≤28 days corrected age — the one tier written in prose
+- **Assess quickly for sepsis and involve a senior doctor.** Do FBE, CRP, blood culture, urine (by suprapubic aspirate, SPA; other methods below), LP ± chest X-ray, and treat promptly with empiric antibiotics. [S1]
+- ⚠️ **Do not wait for the full work-up** if the infant looks unwell or the investigations will be delayed: give the antibiotics. [S1]
 
-- **Assess promptly for signs of sepsis and discuss with a senior doctor** [S1]
-- **FBE, CRP, blood culture, urine (by SPA), LP ± CXR** [S1]
-- **Prompt treatment with empiric antibiotics** [S1]
-- ⚠️ > **If the infant appears unwell, or there is likely to be a delay in completing all of the required
-  > investigations, proceed with administration of antibiotics** [S1]
+## Both flowcharts
 
-**The workup does not get to delay the treatment.** For the two older tiers, **the algorithms are flowchart
-images and were not retrieved — see *Unresolved*. This guideline cannot be used to triage infants over 28
-days.**
+- **Start point:** temperature above 38.0 C. First branch: unwell features or not. Second branch: an obvious clinical focus or not. [S2]
+- ⚠️ **Unwell with signs of septic shock:** follow the sepsis guideline. [S2]
+- **Empiric antibiotic:** ceftriaxone, or cefazolin plus gentamicin once CSF is normal or meningitis has been excluded; check local antimicrobial guidelines. [S2]
 
-## ⚠️ The two triage algorithms, transcribed from the flowchart images
+## Flowchart for infants aged 29 days–3 months
 
-**Verification basis differs** — read off diagrams, verdict **`pass_image_transcription`**, not machine
-re-checkable. ⚠️ **Re-check doses against the image before clinical use.**
+- **Well, obvious focus:** investigate and treat according to the focus; if sending home, arrange review within 12-24 h. [S2]
+- **Well, no focus:** urine MCS (SPA or catheter), and consider FBE, CRP and blood culture; consider admitting for observation and senior review. Still well with normal results → home with review in 12-24 h. Positive urine → see the UTI guideline. [S2]
+- **Unwell, obvious focus:** investigate and treat the focus, look for co-infection or complications, admit, and treat as the clinical picture requires. [S2]
+- **Unwell, no focus:** FBE, BSL, lactate, baseline CRP, blood culture, urine MCS, ⚠️ LP unless contraindicated, ± chest X-ray; admit. [S2]
 
-**Both charts start at "Temperature >38.0 °C" and fork on *unwell features* then on *clinically obvious
-focus*** — the two-axis structure the text describes but never draws [S2].
+## Flowchart for children over 3 months
 
-### Infants 29 days to 3 months
+- **Well, no focus:** fever under 24 h → consider no tests. Previous UTI, or age under 12 months with fever over 24 h → consider urine MCS. Fever over 48 h → consider urine MCS at any age and discuss further tests with a senior doctor. Home with review within 24 h. [S2]
+- **Unwell, no focus:** FBE, BSL, lactate, baseline CRP, blood culture, urine MCS, ± LP, ± chest X-ray; admit. [S2]
 
-| | **Clinically obvious focus** | **No clinically obvious focus** |
-|---|---|---|
-| **No unwell features** | **Investigate and manage as per specific focus. If discharged, arrange follow-up within 12–24 h** | **Urine MCS (SPA or catheter specimen). Consider FBE, CRP, blood culture** → **consider admission for observation and review by senior doctor**; **if remains well and investigations normal, discharge and arrange follow up within 12–24 h**; **if urine positive see UTI** |
-| **Unwell** *(if signs of septic shock, manage as per Sepsis)* | **Investigate and manage as per specific focus. Consider further investigations for co-infections or complications** → **admit, treat as clinically indicated** | ⚠️ **FBE · BSL · Lactate · CRP as baseline · Blood culture · Urine MCS · LP unless contraindicated · ± CXR** → **admit** |
+## Referral, transfer and discharge
 
-### Children over 3 months
+- **Talk to the local paediatric team** for: an unwell child · septic shock · any infant under 28 days corrected with fever (admit for empiric antibiotics) · social or other barriers to review within 24 hours (consider admitting) · a high-risk child · advice on empiric treatment · prolonged fever without a clear cause. [S1]
+- **Transfer to a tertiary centre** if the child needs more care than the local hospital is comfortable giving. [S1]
+- **Discharge:** 29 days to 3 months corrected, when well, results normal, a senior doctor has been consulted and review in 12-24 hours is booked. Over 3 months corrected, when well and follow-up is arranged. [S1]
+- **Always tell parents** to come back if the child gets worse. [S1]
 
-| | **Clinically obvious focus** | **No clinically obvious focus** |
-|---|---|---|
-| **No unwell features** | **Investigate and manage as per specific focus** | ⚠️ **If fever <24 h, consider no investigations.** **If previous UTI or age <12 months and fever for >24 h, consider urine MCS.** **If fever >48 h, consider urine MCS in all ages and discuss further investigations with a senior doctor** → **discharge with follow-up within 24 h** |
-| **Unwell** *(assess promptly and discuss with a senior doctor; if signs of septic shock, manage as per Sepsis)* | **Investigate and manage as clinically indicated** | **FBE · BSL · Lactate · CRP as baseline · Blood culture · Urine MCS · ± LP · ± CXR** → **admit** |
+## Measuring temperature
 
-⚠️ **The lumbar puncture changes from "unless contraindicated" to "±" at three months.** In the younger band
-it is the default and must be argued out of; in the older band it is optional. **That single character is the
-whole difference in meningitis posture between the two age groups, and it was inside a picture.**
+- **Axillary** is advised under 3 months; hold the thermometer over the axillary artery for 3 minutes for a more accurate reading. [S1]
+- **Tympanic** is advised over 3 months; pull the pinna back to straighten the ear canal and aim the probe at the eardrum. [S1]
+- **Forehead and infrared skin thermometers are unreliable.** [S1]
+- **Rectal (neonates):** screen with an axillary reading first; take a rectal temperature only if fever is still suspected. [S1]
 
-**Empiric antibiotic treatment, both charts** [S2]:
+## Lumbar puncture
 
-> **Ceftriaxone (or Cefazolin + Gentamicin if normal CSF or meningitis excluded).** See **local antimicrobial
-> guidelines**
+- **When an LP is indicated, do it promptly,** ideally before antibiotics. [S1]
+- ⚠️ **Do not do an LP** with impaired consciousness, focal neurological signs, a coagulation problem or haemodynamic instability. [S1]
+- **If an LP is contraindicated,** start treatment for meningitis or encephalitis and do the LP later, once the child is stable and it is safe. [S1]
 
-**The narrower option is unlocked by excluding meningitis** — a stewardship step conditional on the LP result,
-which is why the LP posture above matters twice.
+## Urine collection
 
-⚠️ **Fever <24 h in a well child over 3 months with no focus: consider no investigations.** The text's
-statement that a **simple febrile seizure needs nothing beyond the fever workup** has a floor, and the floor
-is *nothing*.
+- ⚠️ **Never culture a bag specimen:** half are contaminated (50%), giving false positives. [S1]
+- **Suprapubic aspirate** is the gold standard (1% contamination). **In/out catheter** helps when the bladder holds little urine, e.g. after a failed clean catch or SPA; discard the first drops if possible (10% contamination). [S1]
+- **Midstream urine** is preferred in toilet-trained children who can pass urine on request (25% contamination). **Clean catch** suits pre-continent children who cannot, provided they are not seriously unwell (also 25%). [S1]
+- **Before a midstream or clean-catch sample,** clean the genital area with saline-soaked gauze for 10 seconds. [S1]
 
-## ⚠️ The lumbar puncture guidance the febrile seizure guideline lacked
+## Blood culture
 
-> - **When indicated, LP should be performed without delay and, ideally, before the administration of
->   antibiotics**
-> - **Contraindications to LP include impaired conscious state, focal neurological signs, impaired coagulation
->   or haemodynamic instability**
-> - **In this circumstance, treatment for meningitis/encephalitis should be commenced and an LP performed when
->   the child is stable and there are no contraindications** [S1]
+- **Take blood cultures aseptically, in sterile gloves.** Results are only as good as the volume collected; if there is not enough for both bottles, fill the aerobic one first. [S1]
+- **Bottle limits:** paediatric aerobic, 0.5 mL minimum to 4 mL maximum; adult aerobic, 5 mL minimum to 10 mL maximum. [S1]
+- **Volume by weight** (paediatric aerobic bottle, then adult aerobic): under 1.5 kg, 1 mL, adult bottle not used unless specifically indicated · 1.5 mL for 1.5-5 kg · 5-10 kg, paediatric 3 mL or adult 5 mL · 11-15 kg, paediatric 4 mL or adult 5 mL. [S1]
+- **Heavier children:** 16-20 kg, 6 mL adult aerobic and 6 mL anaerobic (use the green bottle whenever more than 4 mL is collected; with no anaerobic culture, put 10 mL in the aerobic bottle) · 21-25 kg, 8 mL each · over 25 kg, 10 mL each. [S1]
 
-**One guideline ago I recorded "lumbar puncture — not mentioned once" as an `input_unavailable` against the
-febrile seizure guideline.** It is here, in the document that guideline names twice. **The gap was in my
-reading, not in the guidance** — and the companion document resolves it. The contraindication list is also
-the answer to the obvious objection: you do not delay antibiotics for an LP you cannot safely do.
+## Currency and evidence
 
-## Specimen collection, with the numbers
+- **Currency:** the page states its last update as September 2022. [S1]
+- **PIC endorsed.** [S1]
+- **Largest study cited:** Craig et al., BMJ 2010, a prospective cohort of 15 781 febrile illnesses testing how accurately symptoms and signs diagnose SBI in young children. [S1]
+- **Also cited:** a systematic review finding infrared ear thermometers insensitive for fever in children (Dodd et al.), and the validation of the Step-by-Step approach to young febrile infants (Gomez et al., 2016). [S1]
 
-**Urine — contamination rates** [S1]:
-
-| Method | Contamination rate |
-|---|---|
-| ⚠️ **Bag** — **should never be sent for culture due to high false positive rates** | **50%** |
-| **Suprapubic aspirate** — **gold standard** | **1%** |
-| **In/out catheter** — useful if little urine in the bladder, after failed clean catch or SPA; **discard first few drops** | **10%** |
-| **Midstream urine** — **preferred for toilet-trained children who can void on request** | **25%** |
-| **Clean catch** — for **pre-continent children who cannot void on request, but are not seriously unwell** | **25%** |
-
-**A prohibition with a number attached.** Half of bag specimens are contaminated, so they are not a weaker
-option — they are not an option. **Yield from clean catch may be improved by gently rubbing the child's
-suprapubic area with gauze soaked in cold fluid**, and **the perineal/genital area should be cleaned with
-saline-soaked gauze for 10 seconds** before MSU or clean catch [S1].
-
-**Blood culture** [S1]: **aseptic technique and sterile gloves**; **accuracy relies on correct blood volume to
-improve detection of bacteraemia or fungaemia**; and ⚠️ **inoculate aerobic bottle preferentially, ie if
-inadequate volume for both bottles**.
-
-| Weight | Paediatric aerobic (0.5–4 mL) | Adult aerobic (5–10 mL) | Adult anaerobic |
-|---|---|---|---|
-| **<1.5 kg** | **1 mL** | | **N/A (unless specific clinical indication)** |
-| **1.5–5 kg** | **1.5 mL** | | |
-| **5–10 kg** | **3 mL** | | **5 mL** |
-| **11–15 kg** | **4 mL** | | **5 mL** |
-| **16–20 kg** | *use green bottle whenever >4 mL collected* | **6 mL** — *if anaerobic BC not indicated, put 10 mL in aerobic bottle* | **6 mL** |
-| **21–25 kg** | | **8 mL** | **8 mL** |
-| **>25 kg** | | **10 mL** | **10 mL** |
-
-**Thermometers** [S1]: **axillary for infants <3 months** — **placed over the axillary artery for 3 minutes**;
-**tympanic for children >3 months**, with **the pinna retracted to straighten the external auditory meatus**;
-⚠️ **skin temperature: forehead or infrared thermometers are unreliable**; **rectal: in neonates, screen first
-with axillary, then consider rectal if a fever is still suspected**. And **where possible, use the same body
-site and the same type of thermometer** [S1].
-
-## Escalation and discharge
-
-**Consult the local paediatric team** for **unwell child; septic shock; infants <28 days corrected age with
-fever (should be admitted for empiric antibiotics); barriers to follow-up within 24 hours due to social or
-external factors (consider admission); high-risk child; advice needed regarding empiric treatment; prolonged
-fever of unclear cause** [S1].
-
-⚠️ **"Barriers to follow-up within 24 hours due to social or external factors" is an admission criterion made
-of circumstance, not physiology** — the same clinical child is admitted or discharged depending on whether
-anyone can bring them back.
-
-**Discharge** [S1]:
-
-- **Infants 29 days to 3 months of corrected age: well, investigations normal, discussed with senior doctor,
-  follow-up within 12–24 hours has been arranged**
-- **Children >3 months corrected age: well, follow up has been arranged**
-- **Always advise parents to return for review if the child is deteriorating**
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| **Febrile seizure** | ⚠️ the two agree from opposite sides that **a febrile seizure does not raise SBI risk**; this supplies the **LP** guidance that one lacks, and shares its *focal, complex or prolonged* vocabulary |
-| **Seizures — acute management in children** | **focal, complex or prolonged seizures** appear here as a neurological red flag for SBI |
-| **Sepsis** | **any febrile child who appears seriously unwell should be managed as suspected sepsis, irrespective of the degree of fever** |
-| **Antimicrobial stewardship** | **complete investigations before commencing antibiotics where the child is stable**; **refer to local susceptibility patterns** |
-| **UTI / acute cystitis** | UTI is **the most common SBI without a focus**, with a full paediatric collection protocol here |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| **The two flowcharts** | ⚠️ **observation** | **resolved 2026-09-22** — downloaded and transcribed above under **`pass_image_transcription`**; not machine re-checkable |
-| ⚠️ **LP posture differs by age** | **observation** | **"LP unless contraindicated"** at 29 days–3 months versus **"± LP"** over 3 months — recovered from the diagrams; **the text describes neither** |
-| **Empiric antibiotic choice** | ⚠️ **partly resolved** | the diagrams give **ceftriaxone, or cefazolin + gentamicin if normal CSF or meningitis excluded**. ⚠️ **Doses are still not stated anywhere** and remain deferred to local antimicrobial guidelines |
-| **Aboriginal, Torres Strait Islander, Pacific Islander or Maori origin as a risk factor** | **input_unavailable** | listed without a stated basis, magnitude or accompanying guidance on culturally safe application. **The ACSQHC standards elsewhere in this set pair such statements with cultural safety recommendations; this does not** |
-| **Stated currency predates its own figures** | ⚠️ **time_sensitive** | the page reads **"Last update September 2022"**, but **both flowcharts are filenamed `Feb2025`** and the newest reference is 2021. **The document's stated date and its contents disagree** |
-| **Definition of "corrected age"** | **input_unavailable** | the whole tier structure keys to it; **not defined in the retrieved text** |
-| **CRP and procalcitonin thresholds** | **input_unavailable** | FBE and CRP are mandated for neonates; **no interpretive cut-off is given**, and procalcitonin appears only in the reference list |
-| **Fever ≥5 days** | **out_of_scope** | routed to separate *Kawasaki disease*, *PIMS-TS* and *Prolonged fever* guidelines |
-| **Evidence base is largely non-Australian** | **observation** | NICE 2019, Step-by-Step (European), and international cohorts; **the largest cited study is Craig et al. 2010, an Australian prospective cohort of 15,781 febrile illnesses** |
+| 1 | ⚠️ **Stated date and contents disagree:** the page says last updated September 2022, but both flowchart image files are named Feb2025. The Wave 1 claim that noted this relied on those file names, which are not page text, so only the page's own date is carried as a claim. | `time_sensitive` |
+| 2 | ⚠️ **LP rule differs by age and appears only in the flowcharts:** LP unless contraindicated at 29 days to 3 months, but only ± LP over 3 months. The page text describes neither. | `observation` |
+| 3 | **Antibiotic doses** are not given anywhere; the flowcharts name the agents and defer doses to local antimicrobial guidelines. | `input_unavailable` |
+| 4 | **Aboriginal, Torres Strait Islander, Pacific Islander or Māori origin** is listed as a risk factor with no stated basis, size of effect or guidance on culturally safe use. | `input_unavailable` |
+| 5 | **Corrected age** drives the whole tier structure but is not defined on the page. | `input_unavailable` |
+| 6 | **CRP and procalcitonin:** FBE and CRP are required for neonates with no cut-off given; procalcitonin appears only in the reference list. | `input_unavailable` |
+| 7 | **Fever for 5 days or more** is routed to separate Kawasaki disease, PIMS-TS and prolonged fever guidelines. | `out_of_scope` |
+| 8 | **Related pages:** `febrile-seizure` agrees that a febrile seizure does not raise SBI risk and relies on this page for LP advice; focal, complex or prolonged seizures here are a red flag also used in `seizures-acute-management-children`. | `observation` |
+| 9 | **Evidence is mostly international** (NICE 2019, the European Step-by-Step work); the largest cited study (Craig 2010) is Australian. | `observation` |
+| 10 | **Re-check 2026-09-24:** the page text is unchanged since Wave 1 (still last update September 2022). Every Wave 1 claim was carried over, one in part (above). | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Febrile child.* PIC Endorsed | paediatric clinical practice guideline (AU) |
-| S2 | *ibid.*, the **29-day-plus** and **3-month-plus** flowcharts — **read from the images** | diagrams, transcribed by eye |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Febrile child*. last update September 2022, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/febrile_child/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+| **S2** | The Royal Children's Hospital Melbourne. *RCH flowcharts for Febrile child*. two management flowcharts on the same page (image files dated Feb 2025), transcribed in Wave 1. https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_29%20day%20plus%20flowchart_Feb2025.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/charts/Febrile%20child%20CPG_3%20month%20plus%20flowchart_Feb2025.png — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

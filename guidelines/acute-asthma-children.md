@@ -1,332 +1,142 @@
 # Acute asthma in children
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** acute asthma exacerbation in children — severity, treatment, discharge.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** acute asthma exacerbations in children: history, severity grading, inhaled and systemic treatment by severity, escalation, discharge. Day-to-day asthma care by age is in `preschool-asthma`, `asthma-primary-school-children` and `asthma-adolescents`; stable adult asthma is in `asthma`. Wheezing infants under 12 months usually belong in `bronchiolitis`; possible anaphylaxis goes to `anaphylaxis-children` first.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Clinical Practice Guidelines:
-> Acute asthma***. **Last updated July 2023. PIC Endorsed** [S1].
+> ✅ **COMPILED FROM 2 SOURCES.** 66 claims; **110 fragments or anchors re-checkable by machine; 15 doses.** **S1** The Royal Children's Hospital Melbourne (last updated July 2023, PIC endorsed; AU): 43 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (four management flowcharts on the same page, transcribed in Wave 1; AU): 23 claims, paraphrased, hash-anchored
 
-**The acute paediatric complement to the adult asthma guideline already in this set**, which is drawn from
-the *Australian Asthma Handbook* v3.0 (2025) and scopes itself to **adults and adolescents ≥12 years, stable
-disease**, stating that **children and acute asthma are separate topics**. This is that separate topic. It is
-also the gap named by the paediatric **anaphylaxis** guideline, whose discharge checklist step 8 is *optimise
-asthma management*.
+> ⚠️ **Asthma and anaphylaxis overlap.** When unsure, treat as anaphylaxis; anaphylaxis signs sit inside the severe and life-threatening bands; IM adrenaline has a place in life-threatening asthma; and uncontrolled asthma raises the risk of dying from anaphylaxis. See `anaphylaxis-children`.
 
-## ⚠️ Asthma and anaphylaxis interlock at four separate points
+> ⚠️ **Loud wheeze is not the measure of severity.** A child who looks unwell with a quiet chest may be about to collapse, the same trap as the soft stridor in `croup`. Salbutamol itself causes tachycardia, fast breathing and tremor, so the treatment can look like the disease.
 
-> **If unsure if a child has anaphylaxis or asthma, treat for anaphylaxis. Treatment of both is time
-> critical** [S1].
+> ⚠️ **Preschool steroids conflict:** the key points say give steroids early in moderate asthma, but the moderate flowchart says avoid them at 1-5 years (see Unresolved).
 
-**That is key point 1 of the asthma guideline.** And this document and the **anaphylaxis** guideline in this
-set reference each other at four distinct places:
+> 🖼️ S2 claims come from the four RCH management flowcharts (mild, moderate, severe, life-threatening), which carry almost all the doses.
 
-| Where | What it says |
-|---|---|
-| **Asthma key point 1** | **if unsure, treat for anaphylaxis** [S1] |
-| **Asthma severity table** | ⚠️ **"other signs of anaphylaxis"** is a listed feature of **both severe and life-threatening asthma** [S1] |
-| **Asthma management** | **in life-threatening acute asthma, IM adrenaline can provide bronchodilation in children with poor respiratory effort to optimise delivery of inhaled therapy** [S1] |
-| **Asthma discharge** | **anaphylaxis morbidity and mortality is increased if asthma is not well controlled** [S1] |
+---
 
-And from the other side, the anaphylaxis guideline instructs **always give adrenaline first, then asthma
-medications**, lists **poorly controlled asthma** as both an overnight-admission criterion and a **risk factor
-for fatal anaphylaxis**, and makes **optimise asthma management** a discharge checklist item.
+## Key points
 
-**Neither condition is safely managed without the other in view.** Nothing else in these 58 guidelines is
-this tightly coupled.
+- ⚠️ **Asthma or anaphylaxis? If you cannot tell, treat as anaphylaxis.** Both need treatment without delay. [S1]
+- **Use a metered dose inhaler (MDI) rather than a nebuliser:** it works as well, acts fast and has fewer side effects. [S1]
+- **Short-acting beta agonist (SABA) is the core of treatment.** In moderate, severe and life-threatening asthma, start a steroid early. [S1]
+- **Adolescents on budesonide/formoterol** (combined reliever-preventer dry powder) who need hospital treatment for a flare get salbutamol instead. [S1]
 
-**History reinforces it**: > **Sudden onset of symptoms after insect sting or ingestion of food/medication may
-suggest anaphylaxis and not asthma alone** [S1].
+## Background
 
-## ⚠️ Carbon footprint as a prescribing consideration
+- **What it is:** chronic airway inflammation with bronchospasm and obstruction that reverses. In children a viral respiratory infection is the usual trigger, and atopy often coexists. [S1]
+- **Under 12 months:** wheeze is probably bronchiolitis, which bronchodilators do not help. [S1]
+- **Carbon footprint:** MDIs carry a large one, so dry powder inhalers (DPI) are preferred where they can be used. [S1]
 
-> **MDIs have a large carbon footprint so where possible the use of dry powder inhalers (DPI) is
-> preferable** [S1].
+## History
 
-**The first environmental recommendation in 58 guidelines.** It sits directly beside key point 2 — **metered
-dose inhalers (MDI) are preferable to nebulisers given their rapid delivery, comparable efficacy and fewer
-side effects** [S1] — so the preference order is **DPI where possible, then MDI, then nebuliser**, on
-efficacy, side effects *and* propellant emissions.
+- ⚠️ **Symptoms that start suddenly after a sting, a food or a medicine** point towards anaphylaxis rather than asthma alone. [S1]
+- **Ask about:** reliever use in this illness (dose, how often, whether it still works) · the preventer (technique, adherence) · triggers such as a cold, passive smoke, exercise, cold air or aero-allergens. [S1]
+- **Previous episodes that signal risk:** 2 or more hospital presentations needing treatment · IV treatment · ICU or intubation · SABA used more than twice a week, or more than 3 MDI canisters a year. [S1]
+- **Also ask about** symptoms between attacks (night or morning cough, wheeze with exercise), missed school, joining in physical activity, and comorbid anaphylaxis or allergic rhinitis. [S1]
 
-## The other key points
+## Assess severity
 
-> 3. **Short acting beta agonist (SABA) therapy is crucial to the management of asthma**
-> 4. **Give steroids early in moderate, severe and life-threatening asthma**
-> 5. ⚠️ **Adolescents on combination reliever/preventer therapy (ie budesonide/formoterol dry powder
->    inhalation) should be managed with salbutamol for an acute exacerbation requiring treatment in
->    hospital** [S1]
+- **Judge severity by** how the child looks, their mental state and activity, and their work of breathing (rate, accessory muscles, recession). [S1]
+- ⚠️ **Unreliable:** how loud the wheeze is, pulsus paradoxus and peak flow. An unwell-looking child whose chest is silent (no wheeze) may be close to respiratory collapse. [S1]
+- **Supporting but weaker signs:** the first SpO2, the heart rate and whether the child can talk. [S1]
+- **Tachycardia** may reflect severity, but beta agonists such as salbutamol also cause it. [S1]
+- **Unequal breath sounds** are common from mucus plugs; if they persist, think of an inhaled foreign body or a pneumothorax. [S1]
+- **Red flags for another diagnosis:** productive or isolated cough · paraesthesia · chest pain · clubbing. [S1]
+- **Mild:** slightly more work of breathing, normal breathing rate, alert and active. **Moderate:** moderately more work of breathing, faster breathing, still alert and active. [S1]
+- **Severe:** markedly increased work of breathing, fast breathing, agitation, pallor, and any other signs of anaphylaxis. [S1]
+- **Life-threatening:** maximal work of breathing, fast breathing, confusion or drowsiness, not moving, cyanosis, and any other signs of anaphylaxis. [S1]
 
-**Key point 5 suspends maintenance-and-reliever therapy at the hospital door.** The adolescent who uses their
-budesonide/formoterol as their reliever at home is switched to salbutamol once the exacerbation is severe
-enough to bring them in.
+## Investigations
 
-## ⚠️ Three measures that are not reliable
+- **Tests are usually unnecessary;** no chest X-ray is needed. [S1]
+- ⚠️ **Avoid routine blood gases:** they distress the child and can tip a child with respiratory compromise into further deterioration. The clinical picture is the better guide. [S1]
+- **Check serum potassium** if salbutamol has been used frequently or for a long time. [S1]
 
-> **Wheeze intensity, pulsus paradoxus and peak expiratory flow rate are not reliable. A child that looks
-> unwell with a silent chest (no wheeze) may herald imminent respiratory collapse** [S1].
+## Doses and devices
 
-**The fourth consecutive paediatric guideline to remove a reassurance.** Febrile child lists four
-non-predictors of severity; paediatric sepsis warns hypotension is late; anaphylaxis states previous severity
-does not predict future risk; **here the loudest wheeze is not the sickest child, and the quietest chest may
-be the dying one.**
+- **Standard MDIs:** salbutamol 100 microg per puff; ipratropium bromide 21 microg per puff. [S1]
+- **Management is set out as four flowcharts,** one each for mild, moderate, severe and life-threatening asthma (see What the flowcharts say). [S1]
+- ⚠️ **IV magnesium sulfate 50%:** 1 mL contains 2 mmol (500 mg). Dose 0.2 mmol/kg, which is 50 mg/kg or 0.1 mL/kg of the undiluted product, up to 8 mmol. Double-check the dose, dilute to local protocol and check the concentration before giving it. [S1]
+- **Dexamethasone** has a longer half-life and causes less vomiting. [S1]
+- **IM adrenaline in life-threatening asthma** can open the airways when respiratory effort is too poor for inhaled drugs to reach them. [S1]
+- **No response to salbutamol?** Get senior advice and look for another cause (e.g. an anatomical airway abnormality, cystic fibrosis, bronchomalacia). [S1]
+- **A spacer and mask can go over nasal prong oxygen** to give the inhaled bronchodilator. [S1]
+- ⚠️ **Salbutamol toxicity:** tachycardia, tachypnoea and fine tremor. Bloods help confirm it (low potassium, raised lactate, metabolic acidosis) before SABA is paused; the potassium recovers quickly once salbutamol is cut back. [S1]
 
-> **The best measures of severity are general appearance, mental state, activity and work of breathing
-> (respiratory rate, accessory muscle use, retraction)** [S1].
+## What the flowcharts say: mild
 
-**Initial SpO₂, heart rate and ability to talk are helpful but less reliable additional features** [S1]. And a
-trap: > **Tachycardia can be a sign of severity but is also a side effect of beta agonists such as
-salbutamol** [S1].
+- **All severities:** give oxygen by nasal prongs to keep SpO2 at 90% or more; use a nebuliser only if the child cannot manage an MDI. [S2]
+- **Mild, first dose:** 1-5 years, 2-6 puffs of salbutamol MDI through spacer and mask, once; 6 years and over, 12 puffs through a spacer. Reassess after 20 minutes. [S2]
+- **Mild, good response** (e.g. less work of breathing): no more salbutamol; reassess 1 hour and 2 hours after the first dose. [S2]
+- **Mild, work of breathing not increased at review:** send home with asthma education (check inhaler and spacer technique), an asthma action plan, and follow-up with the usual doctor. [S2]
+- **Mild, some response but little improvement** (work of breathing or oxygen need persisting): manage as moderate; at 6 years and over, give 12 more puffs of salbutamol MDI through a spacer. [S2]
+- **Mild, no response:** get senior advice, stop the salbutamol and think of another diagnosis. [S2]
 
-**Asymmetry on auscultation is often found due to mucus plugging, but persistent asymmetry may indicate other
-causes such as inhaled foreign body or pneumothorax** [S1].
+## What the flowcharts say: moderate
 
-**Red flags for alternative diagnoses**: **productive cough · isolated cough · paraesthesia · chest pain ·
-clubbing** [S1].
+- **Moderate:** 1-5 years, salbutamol MDI 6 puffs (spacer and mask) three times, 20 minutes apart, ⚠️ with no steroid; 6 years and over, 12 puffs on the same schedule plus an oral steroid. [S2]
+- **Oral steroid:** prednisolone 1 mg/kg (up to 50 mg) or dexamethasone 0.3 mg/kg (up to 16 mg); the IV product can be given by mouth. [S2]
+- **Moderate, review** 30 minutes after the 3rd salbutamol dose. A good response means better air entry, work of breathing, breathing rate and SpO2. [S2]
+- **Moderate, good response:** salbutamol as needed; if it is needed more often than 3 hourly, admit; if 3 hourly or less often, discharge. [S2]
+- **Moderate, poor response:** rethink the diagnosis and add ipratropium. 1-5 years: salbutamol 6 puffs every 30-60 minutes as needed with ipratropium bromide 4 puffs, every 20 min × 3 doses, and consider a steroid. 6 years and over: salbutamol 12 puffs every 30-60 minutes as needed with ipratropium 8 puffs, every 20 min × 3 doses. Ipratropium can then continue every 4 hours. [S2]
+- **Moderate, still responding poorly:** manage as severe, or admit and keep salbutamol going every 1-2 hours as needed: 6 puffs at 1-5 years, 12 puffs at 6 years and over. On discharge, consider prednisolone 1 mg/kg daily for the next 2 days. [S2]
+- **Keep monitoring** work of breathing, alertness, activity and SpO2. If the child deteriorates: treat as severe, get senior advice, reconsider the diagnosis. [S2]
 
-**Children <12 months of age presenting with wheeze are likely to have bronchiolitis that does not respond to
-bronchodilator treatment** [S1].
+## What the flowcharts say: severe
 
-## Severity classification
+- **Severe:** resuscitation area and senior staff. Every 20 minutes × 3 doses: 1-5 years, salbutamol 6 puffs with ipratropium bromide 4 puffs; 6 years and over, salbutamol 12 puffs with ipratropium 8 puffs (MDI via spacer and mask). [S2]
+- **Severe, systemic steroid:** get IV access and give a corticosteroid early, orally or IV. IV choices: methylprednisolone 1 mg/kg (up to 60 mg) 6 hourly · hydrocortisone 4 mg/kg (up to 100 mg) 6 hourly · dexamethasone 0.6 mg/kg (up to 16 mg) every 24-48 hours. [S2]
+- **Severe, second-line IV drugs early** (reassess after each): magnesium sulphate 0.2 mmol/kg (up to 8 mmol) over 20 min; aminophylline 10 mg/kg (up to 500 mg) infused over 30-60 min on a cardiac monitor, repeatable 6 hourly. [S2]
 
-| | **Mild** | **Moderate** | **Severe** | **Life threatening** |
-|---|---|---|---|---|
-| **Features** [S1] | **Mild increased work of breathing** · **Normal respiratory rate** · **Alert and active** | **Moderate increased work of breathing** · **Increased respiratory rate** · **Active and alert** | **Markedly increased work of breathing** · **Increased respiratory rate** · **Agitated** · **Pale** · ⚠️ **Other signs of anaphylaxis** | **Maximal work of breathing** · **Increased respiratory rate** · **Confused/drowsy** · **Not moving** · **Cyanosed** · ⚠️ **Other signs of anaphylaxis** |
+## What the flowcharts say: life-threatening
 
-**The only feature that appears in the severe and life-threatening columns but nowhere else is *other signs of
-anaphylaxis*.** The severity scale itself carries the alternative diagnosis.
-
-## ⚠️ Investigations — and the harm of the blood gas
-
-> - **Investigations are generally not needed. Chest x-ray is not required**
-> - **Blood gases are distressing and can cause a child with respiratory compromise to deteriorate further.
->   They are not usually required and the child's clinical state is more important in guiding treatment** [S1]
-
-**A test named as a cause of deterioration, not merely low-yield.** This is the same reasoning as the febrile
-seizure guideline's *"unnecessary painful procedure"* — the procedure itself is the harm.
-
-**Measurement of serum potassium may be indicated when there has been prolonged or frequent salbutamol
-use** [S1].
-
-## Treatment
-
-**Standard salbutamol MDI has 100 microg/puff and standard ipratropium bromide MDI has 21 microg/puff** [S1].
-
-⚠️ **The salbutamol and ipratropium regimens themselves are in four flowchart images — one per severity tier
-— and were not retrieved.** **This guideline cannot be used to dose salbutamol.** See *Unresolved*.
-
-**IV magnesium sulfate 50% dosing**, which the source does give in text [S1]:
-
-> - **Product specifications: 1 mL = 2 mmol = 500 mg**
-> - **Check doses carefully**
->   - **0.2 mmol/kg = 50 mg/kg = 0.1 mL/kg (undiluted magnesium sulfate)**
->   - **max 8 mmol**
-> - **Dilute as per local guidelines and check concentrations carefully before administration**
-
-**"Check doses carefully" and "check concentrations carefully" appear in the same six lines** — the three-way
-equivalence between mmol, mg and mL is exactly where a magnesium error is made.
-
-**Other considerations** [S1]:
-
-- **Dexamethasone causes less vomiting and has a longer half life**
-- **If no response to salbutamol, seek senior advice and consider alternative diagnosis (eg anatomical airway
-  abnormalities, cystic fibrosis, bronchomalacia)**
-- **Mask and spacer can be applied over nasal prong oxygen to deliver inhaled bronchodilator**
-
-## ⚠️ The treatment mimics the disease
-
-> **Salbutamol toxicity clinically presents with tachycardia, tachypnoea and fine tremors. Biochemical
-> assessment is often helpful in this setting for confirmation (hypokalaemia, hyperlactataemia and metabolic
-> acidosis) before pausing SABA therapy. Hypokalaemia rapidly corrects when salbutamol dosing reduces** [S1].
-
-**Tachycardia and tachypnoea are signs of both severe asthma and salbutamol toxicity**, and the clinical
-distinction between "not enough" and "too much" cannot be made on those signs alone. **This is the one place
-the guideline sends you to the laboratory** — and it is also the only place a blood test is endorsed, having
-just discouraged blood gases.
-
-## ⚠️ The four algorithms, transcribed from the flowchart images
-
-**Verification basis differs for this section** — read off diagrams by eye, verdict
-**`pass_image_transcription`**, not machine re-checkable, exposed to transcription error. ⚠️ **Re-check every
-dose against the image before clinical use.**
-
-**Everything is split at 1–5 years vs ≥6 years**, and **oxygen is given via nasal prongs to target SpO₂
-≥90%**, with **nebulisation reserved for children unable to tolerate MDI** [S2].
-
-### Mild
-
-| | **1–5 years** | **≥6 years** |
-|---|---|---|
-| Initial | **2–6 puffs salbutamol MDI via spacer and mask as a single dose** | **12 puffs salbutamol MDI via spacer** |
-| | **Reassess 20 minutes after dose** | **Reassess 20 minutes after initial dose** |
-
-**Good response (eg reduced WOB)** → **no further salbutamol and reassess at 1 hour and 2 hours after initial
-salbutamol dose** → if **no increased WOB**, **discharge with asthma education (including ensuring adequate
-inhaler and spacer technique), asthma action plan, follow-up with long term care provider** [S2].
-
-**Response but minimal improvement (eg persistent increased WOB or oxygen requirement)** → **treat as
-moderate**; in ≥6 years, **further 12 puffs salbutamol MDI via spacer** first [S2].
-
-⚠️ **No response** (1–5 years only) → **seek senior advice · stop salbutamol · consider alternative
-diagnosis** [S2].
-
-### Moderate
-
-| | **1–5 years** | **≥6 years** |
-|---|---|---|
-| | **6 puffs salbutamol MDI via spacer and mask every 20 minutes for 3 doses** | **12 puffs salbutamol MDI via spacer and mask every 20 minutes for 3 doses** |
-| Steroids | ⚠️ **Avoid steroids** | **Give oral steroids** |
-
-> ⚠️ **The flowchart says "Avoid steroids" in 1–5 year olds with moderate asthma. Key point 4 of the same
-> guideline says "Give steroids early in moderate, severe and life-threatening asthma."**
-
-**These are in tension, and the resolution is not stated in either place.** The reference list carries
-**Foster et al., *Oral prednisolone in preschool children with virus-associated wheeze*, Lancet Respir Med
-2018** — a negative trial in exactly this group — which is almost certainly why, but **the guideline does not
-say so**, and a reader with only the key points would give steroids the flowchart withholds. Recorded as
-`evidence_unsettled`; see *Unresolved*.
-
-**Oral steroid dosing** [S2]: **Prednisolone 1 mg/kg (max 50 mg)** or **Dexamethasone 0.3 mg/kg (max 16 mg)**.
-**IV preparation can be administered orally.**
-
-**Reassess at 30 minutes after 3rd salbutamol dose. Good response** (**eg improved air entry, WOB, RR,
-SpO₂**) → **reassess at 1 hour and 2 hours following 3rd salbutamol dose** → **continue salbutamol as
-required: <3 hourly — admit; ≥3 hourly — discharge** [S2].
-
-**If not**: **consider alternative diagnosis**, then add ipratropium — **1–5 years: 6 puffs salbutamol
-30–60 minutely as required and 4 puffs ipratropium bromide every 20 min for 3 doses, consider steroids**;
-**≥6 years: 12 puffs salbutamol 30–60 minutely and 8 puffs ipratropium every 20 min for 3 doses**. **Consider
-continuing ipratropium bromide every 4 hours** [S2]. Failing that → **treat as severe**, or **continue 6 puffs
-(1–5 years) or 12 puffs (≥6 years) 1–2 hourly PRN and admit**, with **consider prednisolone 1 mg/kg daily for
-next 2 days** on discharge [S2].
-
-⚠️ **Ongoing assessment and monitoring of work of breathing, mental state/alertness, activity levels and
-oxygen saturations. If deteriorating: treat as severe, seek senior advice, consider alternative
-diagnosis** [S2].
-
-### Severe
-
-**Admit to resus and involve senior staff** [S2].
-
-| | **1–5 years** | **≥6 years** |
-|---|---|---|
-| Salbutamol | **6 puffs MDI via spacer and mask every 20 min for 3 doses** | **12 puffs every 20 min for 3 doses** |
-| Ipratropium | **4 puffs MDI via spacer and mask every 20 min for 3 doses** | **8 puffs every 20 min for 3 doses** |
-
-**IV access. Give corticosteroids early (oral or intravenous).** **Intravenous options** [S2]:
-
-> **Methylprednisolone 1 mg/kg (max 60 mg) IV 6 hourly** · or · **Hydrocortisone 4 mg/kg (max 100 mg) IV
-> 6 hourly** · or · **Dexamethasone 0.6 mg/kg (max 16 mg) IV 24–48 hourly**
-
-**Consider second line IV treatment early** [S2]:
-
-> **Magnesium sulphate 0.2 mmol/kg (max 8 mmol) IV administered over 20 min**
-> **Aminophylline 10 mg/kg (max 500 mg) IV to be infused over 30–60 min with cardiac monitoring; this dose
-> can be given 6 hourly**
-
-⚠️ **Aminophylline appears nowhere in the retrieved text** — only as two trials in the reference list. It is a
-live second-line agent in two of the four algorithms.
-
-### Life-threatening
-
-**Admit to resus and involve senior staff. Respiratory support: oxygen via high flow nasal cannula, continuous
-positive airway pressure or bilevel airway pressure** [S2].
-
-| | **1–5 years** | **≥6 years** |
-|---|---|---|
-| ⚠️ **Nebules, continuously** | **2.5 mg salbutamol nebules and 250 microg ipratropium bromide nebules via nebuliser chamber continuously** | **5 mg salbutamol nebules and 500 microg ipratropium bromide nebules via nebuliser chamber continuously** |
-
-**The MDI preference inverts at the top of the scale** — the guideline that prefers MDI on speed, efficacy and
-carbon footprint goes to **continuous nebulisation** when the child is dying.
-
-> ⚠️ **Consider intramuscular adrenaline 10 microg/kg or 0.01 mL/kg of 1:1000 into the lateral thigh and
-> repeat every 5 min as required** [S2]
-
-**That is the identical dose, route, site and interval as the anaphylaxis flowchart in this compendium.** The
-text said only that *IM adrenaline can provide bronchodilation*. **A sixth interlock between the two
-documents, and the only one specified down to the millilitre.**
-
-**IV corticosteroids** as for severe, with **dexamethasone 0.6 mg/kg (max 16 mg) IV initially, another dose in
-24–48 hours if required** [S2]. **Magnesium sulphate** and **aminophylline** as for severe — and:
-
-> ⚠️ **Aminophylline and magnesium are not compatible in one IV line. If given simultaneously, a second IV
-> cannula is required** [S2].
-
-**A line-compatibility warning that exists only inside a picture.**
-
-**Good response** → **admit for asthma treatment**. **No** → **seek paediatric intensive care input. Children
-requiring maximal asthma treatment should be managed in a critical care environment** [S2], and:
-
-> **Consider intravenous salbutamol (however limited evidence for benefit)**
-> - **5–15 microg/kg (max 300 microg) over 10 min**
-> - **Repeat dose if required or follow with IV infusion 1–2 microg/kg/min (max 200 microg/min)**
-> - **Adjust infusion according to response and heart rate**
-> - **Increase if necessary, up to 5 microg/kg/min (max 200 microg/min)** [S2]
-
-**The guideline states the weakness of its own last-line option in the same breath as the dose.**
+- **Life-threatening:** resuscitation area and senior staff; respiratory support with high-flow nasal cannula oxygen, CPAP or bilevel pressure. [S2]
+- **Continuous nebulised bronchodilators:** salbutamol 2.5 mg nebules with ipratropium bromide 250 microg (younger children), or salbutamol 5 mg with ipratropium 500 microg (older children). [S2]
+- **Consider IM adrenaline** 10 microg/kg (that is 0.01 mL/kg of 1:1000), injected in the lateral thigh; repeat every 5 min as needed. [S2]
+- **Dexamethasone** 0.6 mg/kg IV (up to 16 mg) first, with a further dose after 24-48 hours if needed. [S2]
+- ⚠️ **Aminophylline and magnesium cannot share an IV line;** give them at the same time only through a second cannula. [S2]
+- **Not responding:** get paediatric intensive care input. Any child needing maximal asthma treatment belongs in a critical care setting. [S2]
+- **IV salbutamol may be considered, though evidence of benefit is limited:** 5-15 microg/kg (up to 300 microg) over 10 min, repeated if needed, or followed by an infusion of 1-2 microg/kg/min (up to 200 microg/min) adjusted to response and heart rate, rising if necessary to 5 microg/kg/min. [S2]
 
 ## Escalation and discharge
 
-**Consult the local paediatric team** for **moderate, severe or life-threatening asthma; poor response to
-inhaled salbutamol; oxygen requirement** [S1].
+- **Talk to the local paediatric team** for moderate, severe or life-threatening asthma, a poor response to inhaled salbutamol, or any oxygen need. [S1]
+- **Think about transfer** for severe or critical asthma needing IV treatment or respiratory support · a rising oxygen need · poor response to salbutamol or failure to wean it · care beyond what the local hospital is comfortable giving. [S1]
+- **Discharge at one hour** is possible for some children, with senior agreement, if all severity signs have gone, activity is normal, parents are skilled and familiar with asthma, and emergency care is close. [S1]
+- **Everyone else:** should manage three hours without needing salbutamol MDI, and be eating and drinking adequately. [S1]
+- **Mild hypoxia (SpO2 90-94%) is not a bar to discharge** when the child looks clinically well after a good response to treatment. [S1]
+- **Before discharge, check and fill gaps in** recognising and managing symptoms · when to seek help · emergency management · what the reliever and preventer do · inhaler technique. [S1]
+- **Arrange follow-up** with the GP or specialist. Update the Asthma Action Plan to cover this episode, and record in the notes that it was given and discussed. [S1]
+- **Consider** a community asthma program and education on associated atopic conditions: allergic rhinitis, and ⚠️ anaphylaxis, whose illness and death rates rise when asthma is poorly controlled. [S1]
 
-**Consider transfer** for **severe or critical asthma requiring intravenous treatment or respiratory support;
-escalating oxygen requirement; children poorly salbutamol responsive or unable to wean salbutamol
-requirement**; or **care above the level of comfort of the local hospital** [S1].
+## Currency and evidence
 
-**Discharge** [S1]:
+- **Currency:** PIC endorsed; page last updated July 2023. [S1]
+- **National reference cited:** the National Asthma Council's Australian Asthma Handbook (2022 edition). [S1]
+- **Evidence cited includes** a 2014 meta-analysis of dexamethasone for children's acute asthma (Keeney et al., Pediatrics) and a 2003 prospective study of deciding admission or discharge at 1 hour (Wilson et al.). [S1]
+- **Also cited:** trials of aminophylline (Yung et al., 1998) and of IV magnesium sulfate versus terbutaline versus aminophylline in acute severe asthma (Singhi et al., 2014). [S1]
 
-- **In consultation with a senior clinician, some children can be discharged at one hour if they have
-  resolution of all signs of severity, normal activity, adequate parent skill and familiarity with asthma,
-  and** ⚠️ **proximity to emergency care**
-- **All other children should be able to tolerate three hours without requiring salbutamol MDI**
-- ⚠️ **Adequate oxygenation: mild hypoxia (SpO₂ 90–94%) should not preclude discharge if child is clinically
-  well and has responded well to treatment**
-- **Adequate oral intake**
-
-**"Proximity to emergency care" is geography as a discharge criterion** — the same family as febrile child's
-*barriers to follow-up* and anaphylaxis's *lives in an isolated location*. **And the SpO₂ line pre-empts a
-number-driven admission**: a well child who has responded is not held for a saturation of 92%.
-
-**Discharge instructions** require **education** on **symptom recognition and management, when to seek medical
-attention, emergency management, role of reliever and preventer therapy, and inhaler technique**; **follow-up
-organised with a long term care provider (GP or specialist)**; and an **updated Asthma Action Plan** [S1]:
-
-> **should include information on management of the current episode. Document provision of the Asthma Action
-> Plan and the associated discussion in your medical record** [S1].
-
-Also **consider a community asthma program** and **associated atopic condition education and
-management** [S1].
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| **Anaphylaxis in children** | ⚠️ **mutually referential at four points** — treat for anaphylaxis if unsure, anaphylaxis signs inside the severity table, IM adrenaline in life-threatening asthma, and anaphylaxis mortality rising with poor asthma control |
-| **Asthma** (adults and adolescents ≥12) | the **Australian Asthma Handbook** guideline here covers **stable disease in ≥12s** and explicitly excludes children and acute asthma; ⚠️ note the two disagree in emphasis — the adult guideline states **treatment solely with as-needed SABA is not recommended**, while this one makes **SABA crucial** in the acute exacerbation and **switches adolescents off budesonide/formoterol to salbutamol** in hospital |
-| ⚠️ **Bronchiolitis** | the reciprocal pair — this guideline sends **wheezing infants under 12 months** there; **that guideline prohibits beta-2 agonists outright, including in infants with a personal or family history of atopy** |
-| ⚠️ **Croup** | **loudness of stridor is not a good indicator of severity** there; **the silent chest** here. The same trap in two different obstructions |
-| **Smoking cessation** | **passive smoking** is a listed trigger |
-| **Febrile child, febrile seizure** | the same reasoning about procedures that harm — **blood gases cause deterioration**, as **blood tests and neuroimaging** risk **unnecessary painful procedure** |
-| **Sepsis in children** | **exacerbations often precipitated by a respiratory viral infection**; the shared problem of distinguishing severity from treatment effect |
-| **Opioid analgesic stewardship** | the other guideline here where **the treatment's side effects mimic the presentation** |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| **All four management flowcharts** | ⚠️ **observation** | **resolved 2026-09-22** — downloaded and transcribed above under **`pass_image_transcription`**. Not machine re-checkable; **doses must be re-checked against the image by a person** |
-| ⚠️ **Steroids in 1–5 year olds with moderate asthma** | **evidence_unsettled** | **key point 4 says give steroids early in moderate asthma; the moderate flowchart says "Avoid steroids" for 1–5 years.** The **Foster 2018** negative trial in preschool virus-associated wheeze sits in the reference list and is the probable reason, but **the guideline does not reconcile them, and a reader working from the key points alone would give a steroid the flowchart withholds** |
-| ~~Steroid agent, dose and duration~~ | ✅ **resolved** | **prednisolone 1 mg/kg (max 50 mg)** or **dexamethasone 0.3 mg/kg (max 16 mg)** orally; IV **methylprednisolone 1 mg/kg**, **hydrocortisone 4 mg/kg**, or **dexamethasone 0.6 mg/kg** |
-| ~~IM adrenaline dose in life-threatening asthma~~ | ✅ **resolved** | **10 microg/kg or 0.01 mL/kg of 1:1000 into the lateral thigh, repeat every 5 min** — **identical to the anaphylaxis flowchart** |
-| ~~Aminophylline and terbutaline~~ | ⚠️ **partly resolved** | **aminophylline is a live second-line IV agent** in the severe and life-threatening algorithms (**10 mg/kg, max 500 mg, over 30–60 min, 6 hourly, with cardiac monitoring**) and **appears nowhere in the retrieved text**. **Terbutaline still appears only in the reference list** |
-| **Chronic asthma management** | **out_of_scope** | three separate RCH guidelines by age band (1–5, 6–11, 12+) — **preventer therapy and control are not covered anywhere in this compendium** |
-| **Bronchiolitis** | **out_of_scope** | named for wheeze under 12 months; separate guideline, not retrieved |
-| **Australian Asthma Handbook** | **access** | National Asthma Council Australia 2022, cited as reference 10 — **the Australian national reference, not retrieved** |
-| **Currency** | **observation** | **last updated July 2023**, references **viewed February 2023**; its Australian Asthma Handbook citation is the **2022** edition |
-| **Aminophylline and terbutaline** | **input_unavailable** | two trials of them sit in the reference list (**Yung 1998, Singhi 2014**); **neither drug appears anywhere in the retrieved guideline text** |
+| 1 | ⚠️ **Steroids at 1-5 years in moderate asthma:** the key points say to give steroids early in moderate asthma, but the moderate flowchart says to avoid them for 1-5 year olds. The 2018 Foster trial of prednisolone in preschool viral wheeze is in the reference list and is the likely reason, but the page does not reconcile the two. A reader using only the key points would give a steroid the flowchart withholds. | `evidence_unsettled` |
+| 2 | **Age labels in the severe and life-threatening flowcharts** were not captured in the Wave 1 transcription. The flowcharts pair the smaller doses (6 puffs, 2.5 mg nebules) with one column and the larger (12 puffs, 5 mg) with the other; elsewhere the split is 1-5 years versus 6 and over; confirm the columns against the images. | `input_unavailable` |
+| 3 | **Flowchart doses (S2)** come from a Wave 1 transcription of images and cannot be machine re-checked against RCH text; a person should check them against the images before use. | `observation` |
+| 4 | **Aminophylline** is a second-line IV drug in the severe and life-threatening flowcharts but is absent from the page text; **terbutaline** appears only in the reference list. | `input_unavailable` |
+| 5 | **IM adrenaline dose** (10 microg/kg of 1:1000 into the thigh, every 5 minutes) is the same as in `anaphylaxis-children`. | `observation` |
+| 6 | **Different emphasis from the adult page:** `asthma` (stable disease, 12 and over) advises against SABA-only treatment, while this acute page makes SABA central and moves adolescents off budesonide/formoterol onto salbutamol in hospital. The settings differ; both are shown. | `observation` |
+| 7 | **Australian Asthma Handbook** (2022 edition cited) was not retrieved for this page. | `input_unavailable` |
+| 8 | **Re-check 2026-09-24:** the page is unchanged since Wave 1 (still last updated July 2023; references viewed February 2023). Every Wave 1 claim was carried over; the flowchart captions now read without the word flowchart for mild, moderate and severe, which changes nothing clinical. Age-banded chronic asthma pages now exist in this set (see Scope). | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Acute asthma.* Last updated July 2023. PIC Endorsed | paediatric clinical practice guideline (AU) |
-| S2 | *ibid.*, the **four management flowcharts** (mild, moderate, severe, life-threatening) — **read from the images** rather than from retrieved text | diagrams, transcribed by eye |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Acute asthma*. last updated July 2023, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/Asthma_acute/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+| **S2** | The Royal Children's Hospital Melbourne. *RCH flowcharts for Acute asthma*. four management flowcharts on the same page, transcribed in Wave 1. https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-1-acute-asthma-mild-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-2-acute-asthma-moderate-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-3-acute-asthma-severe-mgmt-flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Flowchart-4-acute-asthma-life-threatening-mgmt.png — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

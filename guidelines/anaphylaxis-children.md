@@ -1,308 +1,134 @@
 # Anaphylaxis in children
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** recognition, acute treatment, observation and discharge after anaphylaxis in children.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** recognising and treating anaphylaxis in children: IM adrenaline by age and weight, positioning, refractory anaphylaxis and the adrenaline infusion, observation, admission and the discharge checklist. The adult standard is `acute-anaphylaxis`; asthma that may be anaphylaxis is in `acute-asthma-children`; food allergy is in `ige-mediated-food-allergy-children`.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Clinical Practice Guidelines:
-> Anaphylaxis***. **Last updated October 2025. PIC Endorsed** [S1].
+> ✅ **COMPILED FROM 2 SOURCES.** 61 claims; **108 fragments or anchors re-checkable by machine; 12 doses.** **S1** The Royal Children's Hospital Melbourne (last updated October 2025, PIC endorsed; AU): 45 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (initial and refractory management flowcharts on the same page, transcribed in Wave 1; AU): 16 claims, paraphrased, hash-anchored
 
-**The paediatric counterpart to the ACSQHC Acute Anaphylaxis Clinical Care Standard already in this set** —
-and, unlike the three paediatric guidelines before it, **this one puts its doses in text rather than in a
-picture.**
+> ⚠️ **Adrenaline IM, first, and without hesitating.** Antihistamines, steroids and leukotriene antagonists are not treatments for anaphylaxis. With known asthma, adrenaline still comes before any asthma drug.
 
-## ⚠️ Three things not to give, and one not to do
+> ⚠️ **Posture can kill.** Keep the child lying down, or sitting with legs out if breathing is hard; never let them stand or walk until an hour after symptoms settle. Upright posture is on the fatal-risk list.
 
-> - **Antihistamines, corticosteroids and leukotriene antagonists should not be given in anaphylaxis** [S1]
-> - **Do not use subcutaneous adrenaline, as absorption is less reliable and can be delayed compared to
->   IM** [S1]
-> - **IV bolus adrenaline is not recommended**, but may be used in peri-arrest scenarios eg **adrenaline
->   1 microg/kg IV** [S1]
-> - **Serum tryptase has no role in acute management of anaphylaxis** [S1]
+> ⚠️ **Skin signs may be missing** in one case in ten to one in five, and breathing symptoms, the commonest in children, can settle before arrival. A mild past reaction does not mean the next will be mild.
 
-**The first is the significant one.** Three drug classes that are still routinely given in anaphylaxis are
-ruled out flatly — not "of limited benefit", **should not be given**. Tryptase is permitted only **where
-significant diagnostic doubt exists (eg idiopathic, co-existing anxiety) or after consultation with a
-paediatric allergy specialist in special circumstances (eg insect stings, diagnostic agents, perioperative
-reactions)** [S1].
+> 🔁 **Shared doses:** nebulised adrenaline 5 mL of 1:1000 for stridor is also the `croup` dose, and the IM dose matches the one for life-threatening asthma in `acute-asthma-children`.
 
-## ⚠️ Adrenaline first, then the asthma
+> 🖼️ S2 claims come from the RCH initial and refractory management flowcharts (IM site and repeat interval, fluid boluses, airway, breathing and circulation steps).
 
-> **In children with possible anaphylaxis and known asthma, always give adrenaline first, then asthma
-> medications** [S1].
+---
 
-**A child with a known asthma diagnosis, wheezing, is the classic miss.** The instinct reaches for the
-salbutamol. The guideline inverts the order and says so in a key point — and **poorly controlled asthma**
-appears again as both an **overnight admission criterion** and a **risk factor for fatal anaphylaxis** [S1].
+## Key points
 
-## ⚠️ Posture kills
+- **Definition (World Allergy Organization):** a severe hypersensitivity reaction affecting the whole body, which usually comes on quickly and can be fatal. [S1]
+- ⚠️ **Severe anaphylaxis** threatens the airway, breathing and/or circulation, and can happen with no typical skin signs and without shock. [S1]
+- **First steps:** take the allergen away if you can, and give adrenaline IM. [S1]
+- ⚠️ **Possible anaphylaxis in a child with asthma:** adrenaline always goes first; asthma drugs come after. [S1]
+- ⚠️ **Positioning matters:** lie the child flat, or sit them with legs out straight; they must not stand or walk until at least 1 hour after symptoms have gone. [S1]
 
-> **Position is important. Lay child flat or sitting with legs extended — do NOT allow to stand or walk for at
-> least 1 hour after symptoms have resolved** [S1].
+## Background
 
-**"Upright posture" is listed as a risk factor for fatal anaphylaxis** [S1]. Very few guidelines in this
-compendium name *body position* as a cause of death, and this one carries it through to the discharge
-checklist: training must cover **appropriate positioning (eg not standing or walking during
-anaphylaxis)** [S1].
+- **The diagnosis is clinical,** so emergency treatment follows the clinician's judgement, not a strict definition. [S1]
+- **Breathing symptoms dominate in children** and can settle before treatment or before reaching hospital. Recognise them anyway, or the diagnosis will be missed. [S1]
+- **Abdominal pain and other gut symptoms** are not always anaphylaxis, but when they are severe consider it, so treatment is not delayed. [S1]
 
-## Diagnosis is clinical
+## Recognise it
 
-> **As anaphylaxis is a clinical diagnosis, emergency treatment should be guided by clinician judgement rather
-> than a precise definition** [S1].
+- **Airway:** hard or noisy breathing · swelling of the tongue (lip swelling does not count) · throat tightness or swelling · a hoarse voice or altered cry · drooling in infants. [S1]
+- **Breathing** (the commonest features in children): trouble talking · wheeze · a persistent cough, usually of sudden onset. [S1]
+- **Circulation:** an infant who is pale and floppy · dizziness that persists · drowsiness coming on suddenly · collapse, with or without loss of consciousness · low blood pressure, fast or slow heart rate · cardiac arrest. [S1]
+- **Gut symptoms depend on the trigger:** severe or persistent pain or vomiting counts as anaphylaxis whatever the cause; mild pain or vomiting counts after an insect sting or a parenteral drug, but not after a food. [S1]
+- ⚠️ **Skin signs alone (hives everywhere, facial angioedema) are not anaphylaxis,** and 10-20% of cases have no skin signs at all. [S1]
+- **Tests:** none for most children, since the diagnosis is clinical. Tryptase only in special circumstances (see below). [S1]
+- **WAO criteria:** anaphylaxis is highly likely when either one of two criteria is met. [S1]
+- **First criterion:** sudden illness (over minutes to several hours) involving skin, mucosa or both (e.g. widespread hives, itch or flushing, swollen lips, tongue or uvula), plus at least one of: breathing compromise (e.g. breathlessness, wheeze, stridor, lower peak flow, hypoxaemia) · low blood pressure or end-organ effects (e.g. collapse, syncope, incontinence) · severe gut symptoms (e.g. severe cramps, repeated vomiting), particularly after a non-food allergen. [S1]
+- **Second criterion:** after exposure to an allergen known or very likely to affect that child, sudden hypotension, bronchospasm or laryngeal involvement (over minutes to several hours), even with no typical skin signs. [S1]
+- **Timing depends on the trigger;** most reactions come on within minutes. Injected allergens (IV or IM drugs, stings) often cause symptoms in 5-15 minutes; foods typically by 30 minutes; oral medicines more slowly, usually over 1-6 hours. [S1]
 
-**Investigations: none in the majority** [S1].
+## IM adrenaline doses
 
-**Severe anaphylaxis** is life-threatening compromise in **airway, breathing and/or circulation**, and **may
-occur without typical skin features or circulatory shock being present** [S1].
+- **IM adrenaline 1:1000, volume by age and weight:** under 1 year (under 7.5 kg): 0.1 mL (see the note on small volumes), no device available · 1-2 years (10 kg): 0.1 mL; device 150 microg for 7.5-20 kg (under 5 years). [S1]
+- **Continued:** 2-4 years (15 kg): 0.15 mL · 4-5 years (20 kg): 0.2 mL · 5-10 years (30 kg): 0.3 mL; device 300 microg above 20 kg (5 years and over). [S1]
+- **Continued:** 10-12 years (40 kg): 0.4 mL · over 12 years (over 50 kg): 0.5 mL; device 500 microg or 300 microg above 50 kg (over 12 years). [S1]
+- ⚠️ **Volumes below 0.1 mL** are hard to draw up accurately and invite a 10x overdose, especially in the stress of treating anaphylaxis. [S1]
+- **Devices:** EpiPen Jr 150 microg (0.15 mg) for 7.5-20 kg (under 5 years) · EpiPen 300 microg (0.3 mg) above 20 kg (5 years and over) · Anapen 500 microg (0.5 mg) above 50 kg (over 12 years). [S1]
 
-⚠️ > **Skin signs (including facial angioedema, widespread hives) alone do not indicate anaphylaxis (skin
-> signs absent in 10–20%)** [S1].
+## Refractory anaphylaxis and the infusion
 
-**Both directions at once**: hives alone are not anaphylaxis, and **one in five to one in ten anaphylaxis
-cases has no rash at all.**
+- **Refractory anaphylaxis:** breathing or circulatory symptoms still need treatment after 2 correctly given IM adrenaline doses. [S1]
+- **Not responding to the infusion:** ask critical care or the transport service for expert advice. ⚠️ An IV adrenaline bolus is advised against, though it may be used peri-arrest (e.g. 1 microg/kg IV). [S1]
+- **Infusion protocol:** use the local one. In a non-tertiary hospital, the RCH protocol can be used together with a senior clinician and the paediatric transport service. [S1]
+- **Peripheral IV adrenaline infusion:** add 1 mL of adrenaline 1:1000 to a 1000 mL bag of sodium chloride 0.9%, giving about 1 microg/mL; start at 5 mL/kg/hr (about 0.1 microg/kg/min). [S1]
+- **Running it:** a dedicated line, pump and anti-reflux valves where possible · titrate to response and side effects · do not run high rates for more than 2 hours (fluid overload) · continuous monitoring of all vital signs, a 12-lead ECG and conscious state. [S1]
+- **No subcutaneous adrenaline:** it is absorbed less reliably, and can be slower, than IM. [S1]
+- ⚠️ **Do not give** antihistamines, corticosteroids or leukotriene antagonists for anaphylaxis. [S1]
+- **Serum tryptase** plays no part in acute treatment. Order it only when the diagnosis is genuinely in doubt (e.g. idiopathic reactions, coexisting anxiety), or after talking to a paediatric allergist in special situations (e.g. stings, diagnostic agents, reactions around surgery). [S1]
 
-| Assessment [S1] | Signs and symptoms |
-|---|---|
-| **Airway** | **Difficult or noisy breathing** · ⚠️ **Tongue (not lip) swelling** · **Throat swelling or tightness** · **Hoarse voice or change in character of cry** · **Drooling (infants)** |
-| **Breathing** *(most common in children)* | **Difficulty talking** · **Wheeze** · **Persistent (usually sudden onset) cough** |
-| **Circulation** | **Pale and floppy (infant)** · **Persistent dizziness** · **Sudden drowsiness** · **Collapse with or without unconsciousness** · **Hypotension, tachycardia, bradycardia** · **Cardiac arrest** |
+## What the flowcharts say
 
-**"Tongue (not lip) swelling"** does a lot of work in five words — the swollen lip that brings families in is
-not the airway sign.
+- **Look for:** upper airway obstruction (stridor, swelling in the mouth) · lower airway obstruction (wheeze, respiratory distress) · shock (dizziness, pallor, collapse, hypotension, severe or persistent vomiting and/or abdominal pain) · with or without skin changes (itchy rash, redness). [S2]
+- **Remove the trigger;** stop any infusion that is running. [S2]
+- **Position:** flat, and not standing or walking; sitting with legs out if breathing is difficult; on the side (recovery position) if vomiting. [S2]
+- **Adrenaline IM into the outer mid-thigh:** 10 microg/kg, up to 500 microg. [S2]
+- **As 1:1000:** 0.01 mL/kg, at least 0.1 mL and at most 0.5 mL; or use an adrenaline device. [S2]
+- ⚠️ **When in doubt, give the adrenaline.** [S2]
+- **Then** oxygen, and monitoring of SpO2, blood pressure and ECG. [S2]
+- **Response absent or inadequate:** repeat the IM adrenaline 5 minutes later. [S2]
+- ⚠️ **No better after two IM doses = refractory anaphylaxis.** Call for critical care help (senior ED, ICU, anaesthetics, transport service) and get IV or IO access. [S2]
+- **Refractory:** give an IV sodium chloride 0.9% bolus of 10-20 mL/kg and start an IV adrenaline infusion through its own line. [S2]
+- **Infusion:** follow local protocol, or for example put 1 mL of adrenaline 1:1000 into 1000 mL sodium chloride 0.9% and start at 5 mL/kg/hr (about 0.1 microg/kg/min). [S2]
+- **Keep giving IM adrenaline every 5 minutes** until the infusion is running. [S2]
+- **Ask critical care or the transport service for advice early.** [S2]
+- **Airway:** stridor or partial obstruction → 5 mL of adrenaline 1:1000, nebulised. Complete obstruction → follow the RCH pages on acute upper airway obstruction, emergency airway management (intubation) and can't intubate, can't oxygenate. [S2]
+- **Breathing:** wheeze → salbutamol by spacer or nebuliser (see the life-threatening asthma management); apnoea → oxygenate and ventilate by bag-valve-mask, endotracheal tube or supraglottic airway. [S2]
+- **Circulation:** shock → the adrenaline infusion comes first, with further sodium chloride 0.9% IV boluses (10-20 mL/kg); cardiac arrest → BLS and ALS (see the cardiopulmonary arrest guideline). [S2]
 
-**Respiratory symptoms predominate in children, and may resolve prior to any treatment or hospital arrival,
-but should still be recognised to avoid missed diagnosis** [S1].
+## Observe, admit, refer
 
-## ⚠️ The same symptom means different things depending on the trigger
-
-| Gastrointestinal symptoms [S1] | |
-|---|---|
-| **Severe/persistent** GI symptoms (abdominal pain and/or vomiting) | **a sign of anaphylaxis of any cause** |
-| **Mild** GI symptoms | **a sign of anaphylaxis when caused by insect stings or parenteral medications** |
-| **Mild** GI symptoms | ⚠️ **not a sign of anaphylaxis when caused by food** |
-
-**This is the most trigger-dependent diagnostic rule in the compendium.** The identical symptom is diagnostic,
-or not, according to how the allergen arrived — because mild GI upset after food is common and
-non-specific, while the same complaint after a bee sting is not. The WAO criteria carry the same logic:
-**severe gastrointestinal symptoms… especially after exposure to non-food allergens** [S1].
-
-## Adrenaline doses
-
-**Transcribed as the source states them** [S1]. **The initial and refractory management flowcharts are images
-and were not retrieved — the sequence and timing are not reconstructed here (see *Unresolved*).**
-
-| Age (years) | Weight (kg) | Volume (mL) of adrenaline **1:1000** | Device instead of ampoule |
-|---|---|---|---|
-| **<1** | **<7.5** | **0.1\*** | **Not available** |
-| **1–2** | **10** | **0.1** | **7.5–20 kg (<5 yrs): 150 microg** |
-| **2–4** | **15** | **0.15** | |
-| **4–5** | **20** | **0.2** | |
-| **5–10** | **30** | **0.3** | **>20 kg (≥5 yrs): 300 microg** |
-| **10–12** | **40** | **0.4** | |
-| **>12** | **>50** | **0.5** | **>50 kg (>12 yrs): 500 microg or 300 microg** |
-
-⚠️ > **\* NB volumes <0.1 mL are difficult to measure accurately and prone to 10x overdose, particularly in a
-> stressful situation when managing anaphylaxis** [S1].
-
-**A named error mode with a named magnitude.** The floor of 0.1 mL for the smallest infants is not a
-pharmacological choice — it is a defence against a tenfold drawing-up error under stress.
-
-**Devices** [S1]: **EpiPen® Jr (150 microg / 0.15 mg) — 7.5–20 kg (<5 years)**; **EpiPen® (300 microg /
-0.3 mg) — >20 kg (≥5 years)**; **Anapen® (500 microg / 0.5 mg) — >50 kg (>12 years)**.
-
-## Refractory anaphylaxis
-
-> **Refractory anaphylaxis is anaphylaxis requiring ongoing treatment (due to persisting respiratory or
-> cardiovascular symptoms) despite 2 appropriate doses of IM adrenaline** [S1].
-
-**Peripheral IV adrenaline infusion** — **follow local infusion guidelines**; in **non-tertiary hospital
-settings** the following **can be used in consultation with a senior clinician and paediatric transport
-services** [S1]:
-
-> - **Mix 1 mL of 1:1000 adrenaline in 1000 mL of sodium chloride 0.9% (approx 1 microg/mL)**
-> - **Start infusion at 5 mL/kg/hr (approx 0.1 microg/kg/min)**
-> - **A dedicated line, infusion pump and anti-reflux valves should be used when possible**
-> - **Titrate dose according to response and side effects**
-> - ⚠️ **Avoid high infusion rates for more than 2 hours as this may cause fluid overload**
-> - **Monitor continuously (all vital signs, 12-lead ECG and conscious state)**
-
-**A recipe written for the hospital that does not do this often** — which is the hospital most likely to need
-it. The fluid-overload caution is the consequence of a 1 microg/mL dilution: the dose arrives inside a large
-volume.
-
-## ⚠️ The algorithm, transcribed from the flowchart images
-
-**Verification basis differs for this section.** Everything above was quoted from retrieved text and
-machine-checked verbatim. **The two flowcharts are images; this was read off them by eye** and carries the
-verdict **`pass_image_transcription`** — checked against the source, **not machine re-checkable, and exposed
-to transcription error in a way the rest of this file is not.** ⚠️ **Re-check every dose against the image
-before clinical use.**
-
-### Initial management
-
-**Assess for** [S2]:
-
-> **Upper airway obstruction (stridor, oral swelling)** · **OR** · **Lower airway obstruction (wheeze,
-> respiratory distress)** · **OR** · **Shock (dizziness, pallor, collapse, hypotension, severe/persistent
-> vomiting and/or abdominal pain)** · **+/-** · **Skin changes (itchy rash / redness)**
-
-Then, in order [S2]:
-
-1. **Remove trigger (stop infusion)**
-2. **Lay child flat. Do not allow to stand or walk.** ⚠️ **If difficulty breathing, sit with legs extended.
-   If vomiting, lay on side in recovery position**
-3. **GIVE ADRENALINE**
-
-### ⚠️ The adrenaline detail that was missing from the text
-
-> **Inject IM lateral mid-thigh**
-> **10 microg/kg (max 500 microg) IM**
-> **Using adrenaline 1:1000: 0.01 mL/kg (min 0.1 mL, max 0.5 mL)**
-> **OR** **Use adrenaline device**
->
-> ⚠️ **If in doubt, give adrenaline** [S2]
-
-**Three things the retrieved text did not contain**: the **injection site**, the **mg/kg rule behind the age
-chart**, and **"if in doubt, give adrenaline"**.
-
-**The `min 0.1 mL` here is the same floor as the dose chart's footnote** about volumes under 0.1 mL being
-**prone to 10x overdose** — so the floor appears in both the table and the algorithm, from opposite
-directions.
-
-4. **Give O₂. Attach monitoring: SpO₂, BP, ECG** [S2]
-
-### ⚠️ Repeat after five minutes
-
-> **IF NO OR INADEQUATE RESPONSE — Repeat IM adrenaline after 5 minutes** [S2]
->
-> **NO IMPROVEMENT AFTER TWO DOSES OF IM ADRENALINE = REFRACTORY ANAPHYLAXIS**
-> **Call for expert critical care help: ED Senior / ICU / Anaesthetics / Transport Service. IV / IO
-> access** [S2]
-
-**The five-minute interval is the single most-used number in this guideline and it existed nowhere in the
-retrieved text** — only the *definition* of refractory anaphylaxis as failure after two doses, with no
-statement of how long to wait between them.
-
-### Refractory anaphylaxis
-
-> **Give IV bolus: 10–20 mL/kg sodium chloride 0.9%** **AND** **Start IV adrenaline infusion** — **dedicated
-> IV line**
->
-> **Follow local protocol** **OR** example: **Mix 1 mL adrenaline 1:1000 in 1000 mL sodium chloride 0.9%.
-> Usual starting dose 5 mL/kg/hr (≈0.1 microg/kg/min)**
->
-> ⚠️ **Give IM adrenaline every 5 minutes until infusion started**
->
-> **Seek expert critical care / transport service advice early** [S2]
-
-**IM dosing does not stop when the infusion is being prepared** — it continues every five minutes until the
-infusion is actually running.
-
-**This confirms the infusion recipe already quoted from the text**, and therefore confirms the discrepancy
-with the **sepsis in children** guideline, whose adrenaline infusion is **6 mg in 1 L** — **six times this
-concentration**. Two RCH guidelines, neither citing the other.
-
-### Airway, breathing, circulation
-
-| | [S2] |
-|---|---|
-| **AIRWAY — partial obstruction / stridor** | **Nebulised adrenaline (5 mL of 1:1000)** |
-| **AIRWAY — complete obstruction** | see **Acute Upper Airway Obstruction**, **Intubation via Emergency Airway Management**, **Can't Intubate Can't Oxygenate** |
-| **BREATHING — wheeze** | **Salbutamol via spacer or nebuliser.** ⚠️ **See management of life-threatening Asthma** |
-| **BREATHING — apnoea** | **Oxygenate and ventilate via bag valve mask / endotracheal tube / supraglottic airway** |
-| **CIRCULATION — shock** | **Prioritise adrenaline infusion. Continue IV boluses 10–20 mL/kg sodium chloride 0.9%** |
-| **CIRCULATION — cardiac arrest** | **BLS/ALS.** See **Management of Cardiopulmonary Arrest** |
-
-⚠️ **The breathing box points at the asthma guideline.** That is a **fifth** interlock between these two
-documents, and it was inside a picture: the compendium's asthma file already records four.
-
-## ⚠️ Four hours, and why
-
-**All children with anaphylaxis should be observed in a setting equipped to manage deterioration, for at least
-4 hours** — **after last dose of adrenaline**, or **after onset of symptoms if no adrenaline is given** [S1].
-
-The justification is stated under fatal anaphylaxis: > **Cardiorespiratory arrest more than 4 hours after
-initial allergen exposure is rare** [S1].
-
-**Overnight admission is recommended if** [S1]: **>2 adrenaline doses, adrenaline infusion, IV fluid
-resuscitation, circulatory involvement · History of biphasic reaction, more severe initial reaction · Poorly
-controlled asthma · Lives in an isolated location with delay to emergency services · **Presents for medical
-care late in the evening** · Anaphylaxis to monoclonal antibody therapy**.
-
-**"Presents for medical care late in the evening" is an admission criterion made of the clock** — the same
-species of non-physiological trigger as the febrile child guideline's *barriers to follow-up within 24 hours
-due to social or external factors*.
-
-**Discharge when clinically stable and not requiring adrenaline for at least 4 hours** [S1].
+- **Observe every child for at least 4 hours** where deterioration can be managed: from the last adrenaline dose, or from symptom onset if none was given. [S1]
+- **Keep overnight** after more than 2 adrenaline doses, an infusion, IV fluid resuscitation or circulatory involvement · with a past biphasic or more severe first reaction · poorly controlled asthma · living far from emergency services · presenting late in the evening · anaphylaxis to a monoclonal antibody. [S1]
+- **Talk to the local paediatric and/or allergy-immunology team** for high risk of fatal anaphylaxis · more than 1 adrenaline dose · a first diagnosis · anaphylaxis to a monoclonal antibody. [S1]
+- **Think about transfer** for more than 2 adrenaline doses (refractory anaphylaxis) · an adrenaline infusion · care beyond what the hospital can comfortably give. [S1]
+- **Discharge** can be considered once the child is stable and has needed no adrenaline for at least 4 hours. [S1]
 
 ## Discharge checklist
 
-> 1. **Update the medical record identifying suspected allergen to avoid where possible**
-> 3. **2 EpiPen®/EpiPen® Jr/Anapen® supplied or prescribed** — if unable to access script due to pharmacy
->    closure (eg overnight) **then consider keeping until morning**
-> 4. **Training in correct use with trainer device of prescribed brand and appropriate positioning** — and
->    **children with medication (drug) anaphylaxis are generally not prescribed an adrenaline device**
-> 5. **Consider MedicAlert bracelet**
-> 7. **Referral to paediatrician or for review as soon as possible**
-> 8. **Optimise asthma management including diagnosis, asthma action plan and preventers**
-> 9. **Consider reporting as per local requirements** [S1]
+- **Before home:** record the suspected allergen in the notes so it can be avoided · an individual ASCIA action plan (red for anaphylaxis, dark green for medication allergy) · 2 adrenaline injectors (EpiPen, EpiPen Jr or Anapen) supplied or prescribed; if a pharmacy is shut (e.g. overnight), consider keeping the child until morning · training with a trainer device of the brand prescribed, including positioning (no standing or walking during a reaction). [S1]
+- **Drug-induced anaphylaxis:** these children usually do not get an adrenaline injector. [S1]
+- **Also:** consider a MedicAlert bracelet · refer promptly to a paediatrician or a paediatric allergy-immunology specialist · optimise asthma care (diagnosis, action plan, preventer) · consider reporting under local rules. [S1]
+- **PBS:** EpiPen, EpiPen Jr and Anapen are PBS-listed for every child with a history of anaphylaxis, on authority prescription; they can also be bought at full price without a script. [S1]
 
-**Two devices, not one** — and **if the pharmacy is shut, keep the child until morning rather than discharge
-them without it.** A discharge held open by supply, which is a real and unusual instruction.
+## Who is at risk of dying
 
-**PBS**: **EpiPen® / EpiPen® Jr / Anapen® are available on PBS for all children with a history of
-anaphylaxis… They require authority prescription or can be purchased without prescription at full
-cost** [S1].
+- **Fatal anaphylaxis is rare in Australia** (about 1 per million people), in children mainly from food. Arrest more than 4 hours after the exposure is rare. [S1]
+- **Fatal risk factors:** delayed adrenaline or delayed emergency response · being upright · poorly controlled asthma · peanut, tree nut or seafood allergy · adolescence · existing heart or lung disease. [S1]
+- ⚠️ **Past severity does not predict the next reaction.** Getting the diagnosis right and discharging safely are what reduce the risk afterwards. [S1]
 
-## Timing, and what does not predict
+## Currency and evidence
 
-**Timing of reactions is dependent on the trigger** [S1]:
+- **Currency:** PIC endorsed; page last updated October 2025. [S1]
+- **Sources it cites** include the ASCIA acute management guideline (2024) and the ANZCOR anaphylaxis guideline (2025), both accessed 17 October 2025. [S1]
 
-| Route | Onset |
-|---|---|
-| **Parenteral (IV medication, IM injection, insect sting)** | **often 5–15 minutes** |
-| **Ingested food allergens** | **typically by 30 minutes** |
-| **Oral medication (drug) allergy** | **slower, usually 1–6 hours** |
-
-**Fatal anaphylaxis** is **rare in Australia, approximately 1 per million/population**, and **mainly triggered
-by food in children** [S1]. **Risk factors**: **delay to administration of adrenaline or emergency response
-services · upright posture · poorly controlled asthma · allergy to peanut, tree nuts and seafood ·
-adolescence · pre-existing cardiac and respiratory conditions** [S1].
-
-⚠️ > **Severity of previous reactions does not predict future risk** [S1].
-
-**The third "does not predict" in three guidelines.** The febrile child guideline lists four non-predictors of
-severity; the paediatric sepsis guideline warns that hypotension is late; this one removes the reassurance a
-family takes from a mild first reaction. **Proper diagnosis and safe discharge management are essential to
-minimise risk on discharge** [S1].
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| **Acute anaphylaxis** (ACSQHC, adults) | the adult standard is the counterpart; **this one carries the paediatric doses and the device weight bands** |
-| **Sepsis in children** | the other paediatric shock state — **warm shock** there and **circulatory collapse** here share an appearance |
-| **Febrile child** | the same structural device: **an admission criterion made of circumstance rather than physiology** |
-| **Antimicrobial stewardship** | drug allergy labelling is the stewardship half; **children with medication anaphylaxis are generally not prescribed a device** |
-| **Acute asthma in children** | **optimise asthma management** is step 8 of the discharge checklist, and poorly controlled asthma is a fatality risk factor |
-| ⚠️ **Croup** | **nebulised adrenaline 5 mL of 1:1000 for stridor — the identical dose**; anaphylaxis is croup's first listed differential; and both instruct that the child's **position of comfort** must not be changed |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| **Initial and refractory management flowcharts** | ⚠️ **observation** | **resolved 2026-09-22** — downloaded and transcribed above under **`pass_image_transcription`**. Not machine re-checkable; **doses must be re-checked against the image by a person** |
-| ~~IM adrenaline site and repeat interval~~ | ✅ **resolved** | **IM lateral mid-thigh**, **repeat after 5 minutes**, and **every 5 minutes until an infusion is started** — all three were in the diagram only |
-| ~~IV fluid resuscitation volume~~ | ✅ **resolved** | **10–20 mL/kg sodium chloride 0.9%**, repeated in shock |
-| **Adrenaline infusion concentration** | ⚠️ **observation** | **1 mg in 1 L here versus 6 mg in 1 L in sepsis in children** — a sixfold difference between two RCH protocols, **now confirmed from both sources' own diagrams**, and **neither mentions the other** |
-| **Asthma** | **out_of_scope** | step 8 of the discharge checklist routes to a separate guideline; **asthma is not covered anywhere in this compendium** |
-| **ASCIA Action Plan for Anaphylaxis** | **input_unavailable** | the individualised plan is checklist item 2; **its content was not retrieved** |
-| **"High risk of fatal anaphylaxis"** | **observation** | a consultation trigger defined only by cross-reference to the risk-factor list; **no threshold or count is given** |
-| **Biphasic reactions** | **input_unavailable** | a history of one is an admission criterion; **incidence and timing are not stated** |
-| **Currency** | **observation** | **last updated October 2025**, citing **ASCIA 2024** and **ANZCOR 2025** — by six years the newest of the four RCH guidelines in this set, against paediatric sepsis at March 2020 |
+| 1 | **Wave 1 claim left out:** the statement that initial and refractory management are shown as flowcharts rested on the image captions, which are not in the page text fetched 2026-09-24. The flowchart content itself is carried as S2. | `observation` |
+| 2 | **Wording change on the page:** the referral item now names a paediatrician or a paediatric allergy-immunology specialist; the Wave 1 capture read only paediatrician. Carried over as the page now reads. | `observation` |
+| 3 | **Flowchart doses (S2)** come from a Wave 1 transcription of images and cannot be machine re-checked against RCH text; a person should check them against the images before use. | `observation` |
+| 4 | ⚠️ **Infusion strength differs between RCH pages:** 1 mg adrenaline in 1 L here, against 6 mg in 1 L in `sepsis-children`, a sixfold gap that neither page mentions. | `observation` |
+| 5 | **ASCIA Action Plan for Anaphylaxis** is on the discharge checklist, but its content was not retrieved. | `input_unavailable` |
+| 6 | **High risk of fatal anaphylaxis** as a consultation trigger points back to the risk-factor list with no threshold or count. | `observation` |
+| 7 | **Biphasic reactions:** a past one is an admission criterion, but incidence and timing are not given. | `input_unavailable` |
+| 8 | **Related pages:** asthma optimisation on the checklist links to `acute-asthma-children` and the age-banded asthma pages; drug-allergy labelling (children with drug anaphylaxis usually get no injector) is the stewardship side, see `antibiotic-allergy-label-children`. | `observation` |
+| 9 | **Currency:** last updated October 2025, citing ASCIA 2024 and ANZCOR 2025, the newest of the RCH respiratory and emergency pages in this set. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Anaphylaxis.* Last updated October 2025. PIC Endorsed | paediatric clinical practice guideline (AU) |
-| S2 | *ibid.*, **"Initial anaphylaxis management flowchart" and "Refractory anaphylaxis management flowchart"** — **read from the images** rather than from retrieved text | diagram, transcribed by eye |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Anaphylaxis*. last updated October 2025, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+| **S2** | The Royal Children's Hospital Melbourne. *RCH flowcharts for Anaphylaxis*. initial and refractory management flowcharts on the same page, transcribed in Wave 1. https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Initial%20anaphylaxis%20management%20flowchart.png ; https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/Refractory%20anaphylaxis%20management%20flowchart.png — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

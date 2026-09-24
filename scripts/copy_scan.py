@@ -9,7 +9,7 @@ whole page, including banners, tables and prose.
   python3 scripts/copy_scan.py guidelines/croup.md --source /path/to/rch-Croup.txt [--min 8] [--allow "<citation text>" ...]
 
 Each line is scanned on its own, so a heading followed by a bullet never counts as one run. --allow removes a phrase
-(e.g. the cited title or URL of the source) before scanning, because citing a source is not copying it.
+(e.g. the cited title of the source) before scanning, because citing a source is not copying it. URLs are always ignored.
   python3 scripts/copy_scan.py --selftest
 """
 import re, sys
@@ -51,6 +51,7 @@ if __name__ == "__main__":
     for i, a in enumerate(sys.argv):
         if a == "--allow":
             page = page.replace(sys.argv[i + 1], " ")
+    page = re.sub(r"https?://\S+", " ", page)   # a link is a citation
     found = [r for line in page.splitlines() for r in runs(line, src, lim)]
     for r in found:
         print(f"  COPIES ({len(r.split())} words): {r[:140]}")
