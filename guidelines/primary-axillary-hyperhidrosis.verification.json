@@ -1,20 +1,22 @@
 {
  "guideline": "guidelines/primary-axillary-hyperhidrosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12515462/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12515462/",
+  "https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html",
+  "https://www.sweathelp.org/education-and-resources/starch-iodine-onabotulinumtoxina-injection-protocol-for-axillary-treatment.html"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Internal Medicine Journal (Royal Australasian College of Physicians; University of Sydney authors) 'Hyperhidrosis: don't sweat it' (published 7 March 2025 (vol 55, issue 10, pp 1626–1631)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12515462). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Internal Medicine Journal (Royal Australasian College of Physicians; University of Sydney authors) 'Hyperhidrosis: don't sweat it' (published 7 March 2025 (vol 55, issue 10, pp 1626–1631)), 19 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12515462). S2: PARAPHRASED AND HASH-ANCHORED from International Hyperhidrosis Society (sweathelp.org) 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis' (web page current at retrieval; its treatment algorithm is marked 'Revised February 2025'), 9 claims; LICENCE: Copyright (C) 2026 International Hyperhidrosis Society. All rights reserved. Terms of use: reproduction, retransmission or reprinting is prohibited without prior written permission (read at site footer and https://www.sweathelp.org/sweat-help-home/privacy-policy.html (Terms of Use, COPYRIGHT section)). S3: PARAPHRASED AND HASH-ANCHORED from International Hyperhidrosis Society (sweathelp.org) 'Starch Iodine + OnabotulinumtoxinA Injection Protocol for Axillary Treatment' (web page current at retrieval (undated)), 3 claims; LICENCE: Copyright (C) 2026 International Hyperhidrosis Society. All rights reserved. Terms of use: reproduction, retransmission or reprinting is prohibited without prior written permission (read at site footer and https://www.sweathelp.org/sweat-help-home/privacy-policy.html (Terms of Use, COPYRIGHT section)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2 and S3, two International Hyperhidrosis Society web pages fetched with curl, scripts, styles and navigation removed, tags stripped and cut to the article text; paraphrased. The S1 claims are unchanged.",
  "summary": {
-  "total": 19,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -292,6 +294,229 @@
     }
    ],
    "locator": "Internal Medicine Journal (Royal Australasian College of Physicians; University of Sydney authors), 'Hyperhidrosis: don't sweat it', published 7 March 2025 (vol 55, issue 10, pp 1626–1631), https://pmc.ncbi.nlm.nih.gov/articles/PMC12515462/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Try conservative treatment before invasive treatment.** Begin with over-the-counter clinical-strength antiperspirant, then prescription aluminium chloride hexahydrate, the long-standing first line; a 20% solution is the usual prescription.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6dcfb5dfdb38d434",
+     "n": 101,
+     "p": "the gene"
+    },
+    {
+     "h": "46033d749241a850",
+     "n": 510,
+     "p": "For many"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**How to use prescription aluminium chloride:** put it on completely dry skin before bed and wash it off 6 to 8 hours later; washing beforehand is unnecessary and can irritate more. Use it nightly for 1 week until sweating falls, then space applications out to weekly or less while control lasts. Hydrocortisone cream helps irritation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0cf712627e8e9909",
+     "n": 815,
+     "p": "Generall"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Sweating that comes with known stressful events** (a presentation, a performance) can instead be treated beforehand with an anticholinergic or a short benzodiazepine course.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2b29c52ff4d3ddf",
+     "n": 327,
+     "p": "there is"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If antiperspirants fail or cannot be tolerated, onabotulinumtoxinA injection is a next step,** repeated as needed; improvement in the axillae lasts six to eight months on average. If the first result is poor, adjust technique, dose or area and inject again: a second set usually works.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d2ec74aadd01c20",
+     "n": 539,
+     "p": "If a pat"
+    },
+    {
+     "h": "410c348d8318642c",
+     "n": 75,
+     "p": "The aver"
+    },
+    {
+     "h": "0deac5da9dfb0436",
+     "n": 338,
+     "p": "If the d"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Microwave thermolysis (miraDry) destroys sweat glands without surgery,** with results stable to 12 months of follow-up; between one and three sessions may be needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f900b95b690846c3",
+     "n": 345,
+     "p": "miraDry "
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Topical anticholinergics:** glycopyrronium 2.4% cloths (approved in the US from age 9) cut measured sweat by 50% or more in most users, with dry mouth, redness and stinging the main side effects; sofpironium 12.45% gel is a newer US option.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5903d2fc83fb4f1b",
+     "n": 355,
+     "p": "Qbrexza "
+    },
+    {
+     "h": "109935f6b5406914",
+     "n": 326,
+     "p": "measured"
+    },
+    {
+     "h": "4a59e5d903ec180a",
+     "n": 57,
+     "p": "Sofdra c"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oral options** are anticholinergics (glycopyrrolate, oxybutynin, propantheline), propranolol, clonidine and diltiazem. Warn about dry mouth, blurred vision, urinary retention, fast heart rate and constipation, and take particular care with children, athletes and outdoor workers, who can overheat.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2e12d7fa1f30bab",
+     "n": 497,
+     "p": "Oral sys"
+    },
+    {
+     "h": "e1121cd276ad023d",
+     "n": 282,
+     "p": "Before t"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Local surgery** (curettage, liposuction, laser, alone or combined) is another option; **complete excision of underarm tissue is no longer advised** because the scarring can restrict shoulder movement.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c66acb8a84ac45c",
+     "n": 439,
+     "p": "Addition"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Sympathectomy (ETS) only for carefully selected patients once everything else has failed:** it works for palmar sweating but less well for the axillae, and patients must understand the limited benefit and the risk of compensatory sweating.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a980cef5c1831b2",
+     "n": 574,
+     "p": "for care"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Clinical Guidelines: Primary Focal Axillary Hyperhidrosis', web page current at retrieval; its treatment algorithm is marked 'Revised February 2025', https://www.sweathelp.org/treatments-hcp/clinical-guidelines/primary-focal-hyperhidrosis/primary-focal-axillary.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Map the sweating area first with Minor's starch-iodine test:** paint the dry axilla with iodine, let it dry, dust lightly with cornstarch, wait 10 to 15 minutes for the blue-purple change and outline it.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1b24fa66531c4a7d",
+     "n": 607,
+     "p": "Clean an"
+    },
+    {
+     "h": "ce8450a6839633ce",
+     "n": 188,
+     "p": "Outline "
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Starch Iodine + OnabotulinumtoxinA Injection Protocol for Axillary Treatment', web page current at retrieval (undated), https://www.sweathelp.org/education-and-resources/starch-iodine-onabotulinumtoxina-injection-protocol-for-axillary-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Dose: onabotulinumtoxinA 50 units per axilla.** Reconstitute each 100-unit vial with 4 mL of preservative-free 0.9% saline and inject intradermally into twelve to 15 sites about 1.5 cm apart, staggered, dividing the 50 units evenly and raising a small wheal at each.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e267d50860425ccc",
+     "n": 64,
+     "p": "Based on"
+    },
+    {
+     "h": "94e0550787524253",
+     "n": 129,
+     "p": "Each 100"
+    },
+    {
+     "h": "da8e1eeccfbee566",
+     "n": 202,
+     "p": "Use a su"
+    },
+    {
+     "h": "5eaff8afceb2eadc",
+     "n": 385,
+     "p": "Onabotul"
+    },
+    {
+     "h": "418c95734ddee72f",
+     "n": 120,
+     "p": "Physicia"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Starch Iodine + OnabotulinumtoxinA Injection Protocol for Axillary Treatment', web page current at retrieval (undated), https://www.sweathelp.org/education-and-resources/starch-iodine-onabotulinumtoxina-injection-protocol-for-axillary-treatment.html, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Expect an effect in about a week and relief for about 7 months** (up to 12 months in a quarter). Re-treat when sweating returns. If sweating persists after 2 weeks, re-map with starch-iodine and top up the missed areas with about 2–5 units per site.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d659f9973a1a32f",
+     "n": 294,
+     "p": "Patients"
+    },
+    {
+     "h": "07d0bcceb526da76",
+     "n": 105,
+     "p": "Patients"
+    },
+    {
+     "h": "9aa8a3533f65163e",
+     "n": 713,
+     "p": "If after"
+    }
+   ],
+   "locator": "International Hyperhidrosis Society (sweathelp.org), 'Starch Iodine + OnabotulinumtoxinA Injection Protocol for Axillary Treatment', web page current at retrieval (undated), https://www.sweathelp.org/education-and-resources/starch-iodine-onabotulinumtoxina-injection-protocol-for-axillary-treatment.html, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Refer patients who fail an initial trial of topicals for specialist care** (usually a neurologist or dermatologist); advanced therapies control sweating in nearly everyone.",

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/cryopyrin-associated-periodic-syndromes.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9531906/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9531906/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from EULAR / American College of Rheumatology task force, Arthritis & Rheumatology 2022;74(7):1102 (author manuscript in PMC) 'The 2021 EULAR/American College of Rheumatology Points to Consider for Diagnosis, Management and Monitoring of the Interleukin-1 Mediated Autoinflammatory Diseases: Cryopyrin-Associated Periodic Syndromes, Tumour Necrosis Factor Receptor-Associated Periodic Syndrome, Mevalonate Kinase Deficiency, and Deficiency of the Interleukin-1 Receptor Antagonist' (published 27 May 2022). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: Author manuscript: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (read at NCBI efetch JATS XML <license> element for PMC9531906 (Europe PMC fullTextXML returned HTTP 500)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from EULAR / American College of Rheumatology task force, Arthritis & Rheumatology 2022;74(7):1102 (author manuscript in PMC) 'The 2021 EULAR/American College of Rheumatology Points to Consider for Diagnosis, Management and Monitoring of the Interleukin-1 Mediated Autoinflammatory Diseases: Cryopyrin-Associated Periodic Syndromes, Tumour Necrosis Factor Receptor-Associated Periodic Syndrome, Mevalonate Kinase Deficiency, and Deficiency of the Interleukin-1 Receptor Antagonist' (published 27 May 2022), 21 claims; LICENCE: Author manuscript: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (read at NCBI efetch JATS XML <license> element for PMC9531906 (Europe PMC fullTextXML returned HTTP 500)). S2: QUOTED from Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250) 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis' (published 16 June 2026), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13271007). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ASCIA consensus statement on IEI molecular diagnosis (Europe PMC JATS XML through pmc_text.py; its one table was stripped), quoted under CC BY 4.0. The S1 claims are unchanged.",
  "summary": {
-  "total": 21,
-  "pass": 0,
+  "total": 27,
+  "pass": 6,
   "fail": 0,
   "pass_paraphrase_anchored": 21
  },
@@ -135,6 +136,48 @@
     }
    ],
    "locator": "EULAR / American College of Rheumatology task force, Arthritis & Rheumatology 2022;74(7):1102 (author manuscript in PMC), 'The 2021 EULAR/American College of Rheumatology Points to Consider for Diagnosis, Management and Monitoring of the Interleukin-1 Mediated Autoinflammatory Diseases: Cryopyrin-Associated Periodic Syndromes, Tumour Necrosis Factor Receptor-Associated Periodic Syndrome, Mevalonate Kinase Deficiency, and Deficiency of the Interleukin-1 Receptor Antagonist', published 27 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9531906/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**ASCIA: consider genomic testing in selected patients with autoinflammatory disease:** a classical phenotype suggesting a monogenic disorder, or atypical features, severe disease, treatment resistance or family history, above all with early onset.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Recommendation: Genomic testing should be considered in selected patients who present with a classical phenotype suggestive of a monogenic disorder or based on atypical features, severity of disease, treatment resistance, and family history, to guide selection of therapy, especially if associated with early age of onset.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Expect a lower yield than in other inborn errors of immunity (7–20%)**, partly because of somatic mutations; treatment is often the same across genetic diagnoses, and isolated uncomplicated periodic fever in young children (e.g. PFAPA) is rarely monogenic.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The diagnostic yield from genomic testing these patients is lower (7-20%) than for other IEIs due to a number of factors, including somatic mutations (, ). Identification of monogenic diagnosis in these patients can be important to guide therapy; however, treatment options for patients with a range of genetic diagnoses are often the same. Isolated uncomplicated periodic fever in young children (e.g., PFAPA) is considered a complex genetic disorder and rarely monogenic",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **There is no federal Medicare funding for IEI genomic testing in Australia;** the patient pays privately or the state Hospital and Health Service covers it.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Currently there is no federal-level Medicare funding for IEI genomic testing in Australia. Costs are covered privately by the patient or the state-level Hospital and Health Services.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not withhold treatment while genomic results are pending:** a genetic diagnosis is not a prerequisite for starting therapy, and treatment decisions should mostly rest on the phenotype. Decide on testing with an immunologist experienced in these disorders.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A genetic diagnosis should not be a prerequisite confirmatory test to initiate supportive therapy, and therapy should not be withheld while genomic results are pending … Many genes are associated with highly variable phenotypes, and in most cases, treatment decisions should be based on phenotype and not rely solely on the genetic diagnosis. The decision to offer genomic testing for patients with suspected IEIs should be done in consultation with an immunologist with experience in managing these disorders and interpreting genomic test results.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Know which genes the panel covers** (curated lists such as PanelApp Australia help). A negative result does not exclude a genetic cause, reanalysis raises the yield, and a variant of uncertain significance must not drive treatment on its own.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Recommendation: Clinicians ordering genomic testing should be aware of the genes included in the panel they are requesting, including that the genes associated with the phenotype under investigation have been included and/or whether genes not associated with presentation have been tested. … There are curated gene panels for phenotypes associated with IEI, such as PanelApp Australia (https://panelapp-aus.org/), which aim to establish an up to date, robust evidence base for gene-disease relationships … A genomic test that does not reveal a genetic cause for a patient's presentation cannot be used to exclude an IEI or a genetic diagnosis. A genetic cause beyond the limits of testing technology or current knowledge remains possible, with a near exponential increase in gene discovery (). Reanalysis of genomic testing has been shown to increase diagnostic yield … VUS should not be used in isolation to make treatment decisions for a patient, as this can lead to inappropriate and harmful treatment",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Give genetic counselling before and after testing,** ideally from an immunologist and a genetic counsellor with IEI expertise; Australian Genomics provides standard consent forms and information sheets. Cover at-risk relatives, reproductive decisions and cascade testing.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Genetic counselling should be provided before and after genomic testing, ideally with both an immunologist and a genetic counsellor with expertise in IEI (). Standard consent forms and information sheets are now available via Australian Genomics to support pretest discussion with patients … There are also several important familial considerations, including identifying at-risk relatives, informing reproductive decision-making, and cascade testing.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
   },
   {
    "claim": "**Subcutaneous IL-1 blockade is standard care.** Anakinra (short-acting IL-1 receptor antagonist, blocks IL-1α and IL-1β), rilonacept (longer-acting trap) and canakinumab (long-acting anti-IL-1β antibody) are the options.",

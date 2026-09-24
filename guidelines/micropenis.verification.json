@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/micropenis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124169/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124169/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from International Braz J Urol 'Micropenis in Children and Adolescents: A Narrative Review' (published online 20 December 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13124169). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from International Braz J Urol 'Micropenis in Children and Adolescents: A Narrative Review' (published online 20 December 2025), 14 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13124169). S2: QUOTED from Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9) 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2' (published 28 February 2026), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13451516). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the SIAMS/SIEDP 2026 society guideline (GRADE-rated recommendations; micropenis chapter), which fills the page's testosterone-dose gap. All S1 claims are unchanged. Both sources are CC BY 4.0 and quoted.",
  "summary": {
-  "total": 14,
-  "pass": 14,
+  "total": 26,
+  "pass": 26,
   "fail": 0
  },
  "claims": [
@@ -52,6 +53,20 @@
    "locator": "International Braz J Urol, 'Micropenis in Children and Adolescents: A Narrative Review', published online 20 December 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13124169/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Refer every infant with congenital micropenis for complete clinical and endocrine evaluation by a specialised multidisciplinary team** to exclude hormonal or syndromic causes (SIAMS/SIEDP R3.1: 1, ⊕⊕⊕⊕).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "R3.1 We recommend that infants with congenital micropenis need to be considered for a complete clinical and endocrine evaluation by a specialized multidisciplinary team to exclude all hormonal or syndromic causes of the condition (1, ⊕⊕⊕⊕).",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Time the hormone tests: in the first 2 days of life or in the minipuberty window (3 to 6 months),** measure testosterone, LH, FSH, inhibin B and AMH (R3.2: 1, ⊕⊕⊕○). This is the only window in which the physiological rise can be seen.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "R3.2 We recommend that newborns with isolated micropenis, regardless of subsequent diagnostic investigations, carry out a hormonal work-up during the first 2 days of life or during the minipuberty window (3 to 6 months of life), assessing the basal pituitary-gonadal function (Testosterone, LH, FSH, Inhibin B and AMH serum levels) (1, ⊕⊕⊕○). … A sample collected during the first 2 days of life or during the minipuberty window (3 to 6 months of life), as above mentioned, is the unique temporal opportunity to highlight any physiological rise in gonadotropins and testosterone to evaluate the functioning of the pituitary-gonadal axis",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Diagnosis is clinical and depends on accurate SPL measurement.** Use a standard technique (SPLINT): supine, foreskin retracted if possible, rigid ruler pressed into the suprapubic fat, penis stretched to resistance, and at least two (preferably three) readings.",
    "source": "S1",
    "verdict": "pass",
@@ -64,6 +79,20 @@
    "verdict": "pass",
    "source_text": "there is a significant finding in the literature about the well-documented variation in penile size across different ethnic and geographic populations. This has led to the development of numerous population-specific nomograms. … clinicians should use the most relevant, up-to-date, and population-specific data available to accurately diagnose micropenis and local data record charts are undoubtedly the best way to diagnosis micropenis",
    "locator": "International Braz J Urol, 'Micropenis in Children and Adolescents: A Narrative Review', published online 20 December 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13124169/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Practical cut-offs (S2, citing international guidelines): under 2 cm at birth and under 4 cm after 5 years of age.** Record girth at the base and coronal level, palpate the corpora and check for cryptorchidism (R3.3: 1, ⊕⊕⊕⊕).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "According to international guidelines, micropenis is generally defined as < 2 cm at birth and < 4 cm after 5 years of age … Penile girth should be recorded at both the base and coronal level … R3.3 We recommend that children/adolescents with isolated idiopathic micropenis have an accurate measurement of the stretched penile length, palpation of the corporeal bodies with measurement of girth/diameter, and evaluation for cryptorchidism (1, ⊕⊕⊕⊕).",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Measured in the first 12 hours of life, stretched length may read about 10% short: measure again.** For karyotype, count more metaphases (e.g. 100) to find hidden mosaicism; FISH for SRY can exclude a DSD faster.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "When SPL is measured in the newborn during the first 12 h of life the length may be reduced by approximately 10% and should be reassessed … A standard karyotype does not allow to highlight possible hidden mosaicisms thus a higher number of metaphases (e.g., n = 100) is always needed to improve accuracy []; karyotype may be preceded whenever possible by a fluorescence in situ hybridization (FISH) for the sex-determining region on the Y chromosome (SRY) for a faster exclusion of a DSD condition",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
   },
   {
    "claim": "**First steps: counselling, investigation of the endocrine cause, and hormone therapy** aiming for a length within the normal range for age.",
@@ -113,6 +142,65 @@
    "verdict": "pass",
    "source_text": "Surgical options are reserved for cases where hormonal therapy fails to achieve adequate penile length, or in the presence of anatomical abnormalities. … Surgical intervention, as documented in medical literature, is not a first-line treatment for micropenis in children. Surgical techniques are complex and include procedures like the release of the suspensory ligament () and neo phalloplasty. The outcomes of these surgeries in the pediatric population are not well-documented, and they carry significant risks, making hormonal therapy the preferred initial approach.",
    "locator": "International Braz J Urol, 'Micropenis in Children and Adolescents: A Narrative Review', published online 20 December 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13124169/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Treat isolated idiopathic micropenis found early in life in a paediatric endocrinology centre** (R3.7: 1, ⊕⊕○○). With established androgen sensitivity, testosterone or DHT may be given in the first 6 months of life or later in childhood or adolescence (R3.8: 2, ⊕⊕○○).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "R3.7 We recommend that isolated idiopathic micropenis discovered early in life is treated by a pediatric endocrinology center (1, ⊕⊕○○). … R3.8 We suggest that patients with idiopathic micropenis and established androgen sensitivity, may be treated with testosterone/DHT therapy during the first 6 months of life or later in childhood/adolescence to stimulate the growth of the penis (2, ⊕⊕○○).",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Suggested regimen: testosterone enanthate 25 mg IM once a month for 3 months in prepubertal children, repeatable only once after 3–6 months; or transdermal DHT 5 mg daily for 6 weeks, repeatable 1–2 times.** No evidence supports hormone therapy after puberty.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Based on the available evidence we thus suggest using T enanthate 25 mg i.m. in prepubertal children once a month for 3 months, repeatable only once after 3-6 months; or transdermal DHT (5 mg/daily for 6 weeks, repeatable 1-2 times). No evidence supports the use of hormonal therapies after puberty.",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**The evidence behind it:** there is no consensus on age, dose, route or duration. Testosterone enanthate 25 mg IM monthly for 3 months more than doubled penile length in prepubertal boys (durability unknown), with the same result reported in minipuberty; 5% testosterone cream (10 mg daily on the penis for 30 days) and low-dose local DHT (0.1–0.3 mg/kg/day for 6 months) also increased length.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There is no consensus on the age, dosage, method of administration, or duration of T or DHT therapy in boys with isolated micropenis. A regimen of intramuscular depot-testosterone enanthate 25 mg administered monthly for 3 months has been reported to show an increase in penile length of over 100% in prepubertal boys with isolated micropenis. However, the study does not provide information on the long-term durability of the results achieved … The same results with Te enanthate at the same dosage are reported also during minipuberty … Arisaka et al. also documented a significant increase in SPL in 50 prepubertal boys treated with T cream 5% (10 mg/daily applied directly to the penis) for a duration of 30 days. … short term (6 months) and local application of DHT at low doses (0.1-0.3 mg/kg/day) in patients with micropenis could accelerate penile growth effectively without evident side effects",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**In a randomised study of 49 children and adolescents (mean age 9.7 years), transdermal DHT (5 mg daily for 5 weeks) outperformed testosterone enanthate (50 mg IM monthly for 3 months):** mean gain 2.82 versus 1.87 cm, both significant.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A recent randomized study on 49 patients compared the efficacy of transdermal DHT (5 mg/daily for 5 weeks with 1 or 2 repetitions if necessary) and T enanthate (50 mg i.m. monthly for 3 months, with 1 repetition if necessary) in treating isolated idiopathic micropenis in children and adolescents (mean age 9.7 ± 4.4years). The study suggested a superiority of transdermal DHT compared to injectable exogenous T in the treatment of idiopathic micropenis, although both showed significant penis enlargement (mean penile size increment 2.82 vs. 1.87 cm, respectively)",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Testosterone enanthate and DHT gel are off label in children (at least in Italy), so obtain signed informed consent from parents;** DHT is not available everywhere, and whether very early treatment improves adult length is still unclear.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Moreover, T enanthate and DHT gel is off label for treatment during pediatric age (0-18 yrs.), at least in Italy, and an informed, signed consent need to be obtained by parents/legal representative of the minor. Furthermore, it should be considered that DHT is not available in all countries. … There is still uncertainty about the optimal age of therapy with androgens for maximal effect; given that tissue AR expression is high in early infancy, it would seem appropriate to use androgens at that point, but it remains unclear whether such early use of androgens has any benefit on penile length in adulthood",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Minipuberty:** if androgen deficiency is found then, low-dose testosterone may be considered; gonadotropin therapy to recreate minipuberty has more limited reports. Both are off label.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In cases where androgen deficiency is detected during minipuberty, early treatment with low-dose T may be considered to support normal genital development [-]. There are also more limited reports suggesting the use of gonadotropin therapy to replicate the missed minipuberty [, ]. Nonetheless, it should be emphasized that both mentioned therapeutic approaches are currently considered off label.",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Recommend against surgery before adulthood** (R3.9: 1, ⊕⊕○○). During transition, counsel with extreme caution about surgery because function is uncertain and complications are frequent.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "R3.9 We recommend against surgical therapy before adulthood, postponing this option in adult life (1, ⊕⊕○○). … During the transition process the adolescents/young adults must be counseled by expert personnel and advised with extreme caution about surgical options due to uncertain functional efficacy and the high rate of complications among patients with micropenis",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Follow-up:** review at least once before puberty and regularly from expected puberty (R3.4: 1, ⊕⊕⊕⊕); offer psychosocial support to the family and the boy (R3.6: 2, ⊕⊕○○).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "R3.4 We recommend reviewing the patient with isolated idiopathic micropenis at least once in the prepubertal period and regularly from the time of expected puberty on to evaluate the development of sexual characteristics and possible supportive hormonal therapy (1, ⊕⊕⊕⊕). … R3.6 We suggest that the family and/or the patient with micropenis should already be offered competent psychosocial attendance by a professional familiar with problems of the genito-urinary tract (2, ⊕⊕○○).",
+   "locator": "Bonomi M, Balsamo A, Bizzarri C, Gianfrilli D, et al., SIAMS and SIEDP, Journal of Endocrinological Investigation 49(7):1443 (doi 10.1007/s40618-026-02849-9), 'Management of andrological disorders from childhood and adolescence to transition age: guidelines from the Italian Society of Andrology and Sexual Medicine (SIAMS) in collaboration with the Italian Society for Pediatric Endocrinology and Diabetology (SIEDP) - part-2', published 28 February 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13451516/, retrieved 2026-09-24"
   }
  ]
 }

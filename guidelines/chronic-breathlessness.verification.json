@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/chronic-breathlessness.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/"
+  "https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing) 'Dyspnoea — Clinical Evidence Summary' (updated 13 April 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © CareSearch, Flinders University — 'No Information authored by or on behalf of us may be copied, modified or reproduced in any way without our written permission.' (read at https://www.caresearch.com.au/about-us/contact/terms-and-conditions/). The source's words are NOT reproduced here. The ranked international source (ERS 2024 clinical practice guideline on symptom management for adults with serious respiratory illness) returned a Cloudflare bot challenge (HTTP 403) at publications.ersnet.org and is not in PMC, so it was not used. This Australian evidence summary was used instead.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing) 'Dyspnoea — Clinical Evidence Summary' (updated 13 April 2026), 16 claims; LICENCE: © CareSearch, Flinders University — 'No Information authored by or on behalf of us may be copied, modified or reproduced in any way without our written permission.' (read at https://www.caresearch.com.au/about-us/contact/terms-and-conditions/). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines' (published 10 December 2020), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC7733213). Verify each source separately: verify.py --source <file> --only-source S<n>. The ranked international source (ERS 2024 clinical practice guideline on symptom management for adults with serious respiratory illness) returned a Cloudflare bot challenge (HTTP 403) at publications.ersnet.org and is not in PMC, so it was not used. This Australian evidence summary was used instead. Edition 2.0 adds S2, the ESMO 2020 Clinical Practice Guideline, a graded society guideline (levels of evidence I-V, grades of recommendation A-D). S1 claims are unchanged. Second-source searches (2026-09-24): ERS 2024 was retried through Unpaywall/OpenAlex open copies (University of Birmingham and Erasmus University Pure repositories, Bern BORIS), all bot-challenged and not bypassed; ASCO 2021 (ascopubs PDF) was bot-challenged; Europe PMC searches for an ANZSPM or TSANZ breathlessness guideline or position statement found none.",
  "summary": {
-  "total": 16,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 16
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -42,6 +43,24 @@
     }
    ],
    "locator": "CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing), 'Dyspnoea — Clinical Evidence Summary', updated 13 April 2026, https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Chronic breathlessness syndrome** (international consensus definition): breathlessness that continues despite the best treatment of its underlying cause and leads to disability. ESMO puts its prevalence in cancer at 20% to 70%, highest in thoracic and advanced cancer and in the final weeks of life.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb55957121fc881c",
+     "n": 198,
+     "p": "Chronic "
+    },
+    {
+     "h": "28d69c9c08f09447",
+     "n": 210,
+     "p": "Breathle"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
   },
   {
    "claim": "**Ask the patient to rate it** with the modified Borg scale, a visual analogue scale or the mMRC scale; track change over time.",
@@ -81,6 +100,29 @@
     }
    ],
    "locator": "CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing), 'Dyspnoea — Clinical Evidence Summary', updated 13 April 2026, https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Screen every patient at each inpatient and outpatient visit (III, B)** with a single-dimension intensity scale of your choice, and ask which activities they have reduced or given up. Patients who avoid exertion often say they are not short of breath, so the symptom goes unseen.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bde1119373edf73c",
+     "n": 123,
+     "p": "All pati"
+    },
+    {
+     "h": "32a82d211efdf63e",
+     "n": 174,
+     "p": "Routine "
+    },
+    {
+     "h": "0a62b0c9cf46326d",
+     "n": 107,
+     "p": "The resp"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
   },
   {
    "claim": "**A fan blowing cool air on the face eases air hunger within minutes;** it is cheap, non-invasive and works at home or in hospital.",
@@ -130,6 +172,19 @@
     }
    ],
    "locator": "CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing), 'Dyspnoea — Clinical Evidence Summary', updated 13 April 2026, https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Graded non-drug measures:** refer to exercise-based rehabilitation, pulmonary or cardiac where lung or heart disease coexists (I, A). Consider a hand-held fan aimed at the face, with or without oxygen; breathing retraining or physiotherapy referral; a trial of a walking aid; and teaching pacing, relieving positions and distraction (each II, B). Offer acupressure or acupuncture if the patient wants it (II, C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bde0f9baf6fa0ed6",
+     "n": 1102,
+     "p": "Consider"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Opioids, especially morphine, are the mainstay when non-drug measures are not enough;** they lower the brain's perception of breathing discomfort, even with normal oxygen levels.",
@@ -197,6 +252,130 @@
    "locator": "CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing), 'Dyspnoea — Clinical Evidence Summary', updated 13 April 2026, https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Morphine dose (S2):** regular low-dose oral morphine is the first-choice drug when severe chronic breathlessness continues despite non-drug measures (II, B). For an opioid-naive patient, start scheduled morphine at 10–30 mg across 24 hours and titrate to symptoms (II, B), for example 5 to 15 mg of extended-release morphine twice a day, lower in renal failure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "148a6e343cf19448",
+     "n": 172,
+     "p": "Regular,"
+    },
+    {
+     "h": "685346db5384a898",
+     "n": 176,
+     "p": "In opioi"
+    },
+    {
+     "h": "95157d0c0231f685",
+     "n": 188,
+     "p": "A starti"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Australian licence:** the TGA has extended one extended-release oral morphine product (morphine sulfate pentahydrate) to chronic breathlessness at 10–30 mg per 24 hours. Extra immediate-release morphine is not to be given for the breathlessness itself, though coexisting pain may need it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65e3681ae4990b86",
+     "n": 379,
+     "p": "The Ther"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Already taking opioids for pain:** consider raising the baseline dose by 25%–50% (V, C). For severe breathlessness on exertion with predictable triggers, a dose taken before the activity may be considered, used sparingly (at most twice daily) and closely monitored, as long-term safety is unknown (II, C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "abeb05450ec2cc22",
+     "n": 108,
+     "p": "In opioi"
+    },
+    {
+     "h": "d755b76443b627e6",
+     "n": 415,
+     "p": "In opioi"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**With every opioid start, offer a laxative, plus an antiemetic if needed (I, A);** teach safe opioid use and monitor over time (III, A). ESMO also allows a rescue immediate-release morphine dose of roughly one-sixth of the total daily dose if needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5b6a74e83ca0e07",
+     "n": 127,
+     "p": "All pati"
+    },
+    {
+     "h": "77c991d6841b5066",
+     "n": 156,
+     "p": "Patients"
+    },
+    {
+     "h": "50ae0bc3a8be862d",
+     "n": 130,
+     "p": "Similar "
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Benzodiazepines are not a first-line drug for breathlessness** because of sedation and delirium (III, D). Use them with caution for breathlessness with anxiety only when opioids have failed (V, C), or for palliative sedation in the last days of life when breathlessness is refractory (IV, C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f6c1e55a46d9e45",
+     "n": 475,
+     "p": "Because "
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Corticosteroids may be tried when cancer-related breathlessness resists other treatment (II, C).** Do not give palliative oxygen when resting SpO2 is 90% or higher (II, D); if oxygen is trialled, review it within a few days and stop it when the patient notices no benefit. High-flow oxygen (especially in hypoxaemic respiratory failure) and a trial of non-invasive ventilation (especially in hypercapnic failure) may be considered (II, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee7faf1bba2eca46",
+     "n": 363,
+     "p": "Corticos"
+    },
+    {
+     "h": "36ac400e2cc8b7c3",
+     "n": 123,
+     "p": "If tried"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Not recommended for breathlessness:** sertraline (II, D) and cannabinoids (IV, D); other antidepressants only within clinical trials (V, C).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7f9b959dfc57093",
+     "n": 339,
+     "p": "Sertrali"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Rural and remote patients may wait longer for opioids and oxygen;** CALD patients may decline opioids over addiction worries, so use interpreters and culturally tailored education.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -244,6 +423,37 @@
     }
    ],
    "locator": "CareSearch, Flinders University (funded by the Australian Government Department of Health, Disability and Ageing), 'Dyspnoea — Clinical Evidence Summary', updated 13 April 2026, https://www.caresearch.com.au/evidence/clinical-evidence-summaries/dyspnoea/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Refer to a specialist multimodal breathlessness service where one exists (I, A);** otherwise consider timely referral to palliative care (II, B). Such services usually run 4–6 contacts spread across 4–6 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "78a98d2a0e905c54",
+     "n": 282,
+     "p": "Patients"
+    },
+    {
+     "h": "eb3e7ec83c1ea367",
+     "n": 43,
+     "p": "Most com"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Assess the carer as well:** their psychological state, what information they need and who supports them (III, B); a structured carer needs-assessment tool may help (II, B).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ccd0d75da3ca1d7",
+     "n": 247,
+     "p": "The onco"
+    }
+   ],
+   "locator": "European Society for Medical Oncology, ESMO Guidelines Committee (Hui D, Maddocks M, Johnson MJ, Ekström M, Simon ST, Ogliari AC, Booth S, Ripamonti CI), ESMO Open 5(6):e001038, doi 10.1136/esmoopen-2020-001038, 'Management of breathlessness in patients with cancer: ESMO Clinical Practice Guidelines', published 10 December 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7733213/, retrieved 2026-09-24"
   }
  ]
 }

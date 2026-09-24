@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/tuberous-sclerosis-complex.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12778014/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12778014/",
+  "https://dspace.library.uu.nl/handle/1874/455827"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Robichaud JH, Afrin H, Torres VE, Gupta NR (Mayo Clinic), Kidney360 vol 6 issue 10 p1818, doi 10.34067/KID.0000000904 'Clinical Management of Tuberous Sclerosis' (published 19 June 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12778014). The ranked source, the International TSC Consensus Group 2021 recommendations (Pediatric Neurology, CC BY-NC-ND), returned a bot challenge (HTTP 403) on ScienceDirect and is not in PMC, so it was not used. This open narrative review restates the 2021 consensus and the 2024 ERKNet kidney consensus for diagnosis, kidney surveillance and everolimus.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Robichaud JH, Afrin H, Torres VE, Gupta NR (Mayo Clinic), Kidney360 vol 6 issue 10 p1818, doi 10.34067/KID.0000000904 'Clinical Management of Tuberous Sclerosis' (published 19 June 2025), 17 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12778014). S2: PARAPHRASED AND HASH-ANCHORED from European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)' (published online 30 August 2023; corrigendum online 18 May 2024), 10 claims; LICENCE: CC BY-NC-ND 4.0 (article); the appended corrigendum is © 2023 The Author(s), all rights reserved (read at the article and corrigendum footers in the Utrecht University Repository PDF (publisher version)). Verify each source separately: verify.py --source <file> --only-source S<n>. The ranked source, the International TSC Consensus Group 2021 recommendations (Pediatric Neurology, CC BY-NC-ND), returned a bot challenge (HTTP 403) on ScienceDirect and is not in PMC, so it was not used. This open narrative review restates the 2021 consensus and the 2024 ERKNet kidney consensus for diagnosis, kidney surveillance and everolimus. Edition 2.0 adds S2, the 2023 European expert-panel recommendations for TSC-associated epilepsy with their 2024 corrigendum, read from the Utrecht University Repository copy of the publisher PDF (pdftotext in reading order, soft-hyphen line breaks joined; tables did not extract cleanly and are not used). S1 claims are unchanged. The 2021 consensus was retried on 2026-09-24 through every open copy listed by Unpaywall and OpenAlex (pedneur.com publisher PDF, Amsterdam UMC Pure, VUmc Pure): bot challenges or connection failure, not bypassed. Europe PMC searches: tuberous sclerosis AND consensus/recommendations/guideline 2018-2026 and open access; subependymal giant cell astrocytoma AND consensus/recommendations/guideline (only 2012-2013 items, superseded).",
  "summary": {
-  "total": 17,
+  "total": 27,
   "pass": 17,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -134,6 +136,224 @@
    "verdict": "pass",
    "source_text": "histologic sampling may be restricted to AMLs manifesting rapid and sustained growth of >0.5 cm per year, particularly those which do not respond to mTORC1 inhibition.",
    "locator": "Robichaud JH, Afrin H, Torres VE, Gupta NR (Mayo Clinic), Kidney360 vol 6 issue 10 p1818, doi 10.34067/KID.0000000904, 'Clinical Management of Tuberous Sclerosis', published 19 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12778014/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Epilepsy is the commonest neurological feature, in 80–90% of people with TSC;** most have seizures in the first year of life (epileptic spasms, focal, tonic, atonic or tonic-clonic, sometimes evolving towards Lennox–Gastaut syndrome), and about 5% start as newborns. Parents may miss subtle focal seizures in infants.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ff5b953bc2560555",
+     "n": 48,
+     "p": "Epilepsy"
+    },
+    {
+     "h": "a3c2f862978e69ed",
+     "n": 519,
+     "p": "Patients"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drug resistance is common. Predictors:** focal seizures (with or without spasms) rather than spasms alone, early focal-onset seizures, infantile spasms that resist treatment, a TSC2 variant (with its higher tuber load), and focal or multifocal interictal discharges on serial EEG before any seizure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2aafee6f53915252",
+     "n": 191,
+     "p": "Data fro"
+    },
+    {
+     "h": "ab8064eb91164852",
+     "n": 112,
+     "p": "showed t"
+    },
+    {
+     "h": "4494b6873c32b6f9",
+     "n": 154,
+     "p": "TSC2 pat"
+    },
+    {
+     "h": "44fdb607f6f3c708",
+     "n": 147,
+     "p": "Interict"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **EEG surveillance for every infant with a definite TSC diagnosis:** every 4 weeks for the first 6–8 months, every 4–8 weeks until 12 months, then 12-weekly from 12 to 24 months, to catch interictal discharges and background change early. Teach parents to spot subtle focal seizures, and assess development on standard scales at ages 6, 12, 18 and 24 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4cf18c7aa880886b",
+     "n": 328,
+     "p": "All infa"
+    },
+    {
+     "h": "8ad8035a832085b9",
+     "n": 112,
+     "p": "should b"
+    },
+    {
+     "h": "f30cbc78173c0027",
+     "n": 200,
+     "p": "All infa"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Pre-symptomatic vigabatrin is now an established approach:** start it as soon as focal spikes appear, and use it in all infants once multifocal spikes, (pre-)hypsarrhythmia or subclinical seizures show on EEG. In EPISTOP (vigabatrin at least 100 mg/kg/day), preventive treatment delayed clinical seizures, lowered the risk of drug-resistant epilepsy and avoided infantile spasms, compared with starting after seizure onset.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5447ebffe3f7f7d",
+     "n": 59,
+     "p": "its effi"
+    },
+    {
+     "h": "2d22aed91fda9856",
+     "n": 52,
+     "p": "Pre-symp"
+    },
+    {
+     "h": "723107c98180b658",
+     "n": 190,
+     "p": "focal sp"
+    },
+    {
+     "h": "a5357029c169a3bb",
+     "n": 146,
+     "p": "evaluate"
+    },
+    {
+     "h": "d8c321643ce2192c",
+     "n": 244,
+     "p": "Preventi"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Caveat from the published corrigendum:** in the PREVeNT trial (eighty-four infants randomised to vigabatrin or placebo once epileptiform discharges appeared), vigabatrin lowered and delayed epileptic spasms but did not change cognition at 24 months or drug-resistant epilepsy. The panel says PREVeNT and EPISTOP cannot be compared directly (different design, and far more TSC2 variants in the PREVeNT vigabatrin arm).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b9127ee2994c3f36",
+     "n": 944,
+     "p": "Very rec"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Vigabatrin and vision:** the US registry (more than 9000 patients, followed up to 16 years) found no clinical vision loss, and the 2% with new vision findings were not attributed to vigabatrin, so the retinal risk looks lower than once thought.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "76bfa27ef8ec7dd7",
+     "n": 352,
+     "p": "new data"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Add everolimus for drug-resistant TSC seizures:** in EXIST-3 it cut seizure frequency meaningfully with a favourable risk-benefit balance; response tends to grow with time, a post-authorisation study confirmed long-term safety and found better response under 6 years, and the recommended target concentration is 5–9 ng/ml. Consider it early when a growing SEGA or angiomyolipoma coexists with drug-resistant epilepsy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d565144183a1e0a3",
+     "n": 660,
+     "p": "Everolim"
+    },
+    {
+     "h": "81b98486d0130867",
+     "n": 173,
+     "p": "the pane"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Sirolimus:** uncontrolled data are favourable (at least 50% fewer seizures in 56% of 32 children with drug-resistant epilepsy), but only everolimus has long-term controlled data in TSC.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d77fc66cba705b52",
+     "n": 290,
+     "p": "the stud"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider presurgical evaluation for every patient with drug-resistant epilepsy whose seizure semiology is consistent and concordant with EEG and MRI,** at a centre expert in both TSC and epilepsy surgery. Surgery is underused: 50–60% become seizure-free and another 15% have over 50% fewer seizures, even with multiple tubers, though multiple seizure types, tubers and EEG abnormalities make seizure freedom unlikely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41db63633a7ddeea",
+     "n": 165,
+     "p": "Overall "
+    },
+    {
+     "h": "f0672e0e36e9c189",
+     "n": 42,
+     "p": "Epilepsy"
+    },
+    {
+     "h": "cdfb15515827f431",
+     "n": 356,
+     "p": "Presurgi"
+    },
+    {
+     "h": "28c3df76458914f5",
+     "n": 168,
+     "p": "The pane"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Cannabidiol at 25–50 mg/kg/day reduced TSC seizures against placebo (224 patients),** with no efficacy difference between the doses and more diarrhoea, somnolence and raised transaminases at the higher one. **It raises mTOR inhibitor levels:** with everolimus, cut the everolimus dose by about half and check trough levels regularly. Ketogenic diet and vagus nerve stimulation can help refractory patients unsuitable for surgery; the panel does not recommend metformin on current evidence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87629d0cbe2d673a",
+     "n": 460,
+     "p": "In an in"
+    },
+    {
+     "h": "5882faf816e7ea3d",
+     "n": 311,
+     "p": "Importan"
+    },
+    {
+     "h": "a8262d1f3a7d3269",
+     "n": 243,
+     "p": "Two rece"
+    },
+    {
+     "h": "983ac35fe7b6f733",
+     "n": 60,
+     "p": "at prese"
+    }
+   ],
+   "locator": "European expert panel on TSC-associated epilepsy, Specchio N, Nabbout R, Aronica E, Auvin S, Benvenuto A, de Palma L, Feucht M, Jansen F, Kotulska K, Sarnat H, Lagae L, Jozwiak S, Curatolo P, European Journal of Paediatric Neurology 47:25–34, published by Elsevier on behalf of the European Paediatric Neurology Society, doi 10.1016/j.ejpn.2023.08.005; corrigendum 51:149–150, doi 10.1016/j.ejpn.2023.12.004, 'Updated clinical recommendations for the management of tuberous sclerosis complex associated epilepsy (with Corrigendum, 2024)', published online 30 August 2023; corrigendum online 18 May 2024, https://dspace.library.uu.nl/handle/1874/455827, retrieved 2026-09-24",
+   "dose": true
   }
  ]
 }

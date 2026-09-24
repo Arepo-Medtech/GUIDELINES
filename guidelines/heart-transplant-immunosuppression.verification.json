@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/heart-transplant-immunosuppression.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9536714/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9536714/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure 'Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center' (published 29 September 2020). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9536714). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure 'Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center' (published 29 September 2020), 25 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9536714). S2: PARAPHRASED AND HASH-ANCHORED from Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614) 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement' (published 22 August 2025), 10 claims; LICENCE: Publisher version CC BY 4.0 (Unpaywall); the PMC author manuscript read here carries the NIH statement 'available for text mining ... consistent with the principles of fair use' (read at NCBI efetch PMC JATS XML <permissions> for PMC13537435 (Europe PMC fullTextXML returned HTTP 500); publisher licence per Unpaywall record for 10.1016/j.jchf.2025.102614). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2025 JACC: Heart Failure position statement on antibody-mediated rejection (AMR); S1 claims and anchors are unchanged. S2 shares one author (Kobashigawa) with S1, so the two are not fully independent. On 2026-09-24 the ISHLT 2022 guideline (DOI 10.1016/j.healun.2022.10.015; Unpaywall lists it as free to read at jhltonline.org) was retried: jhltonline.org and sciencedirect.com both returned Cloudflare challenges (HTTP 403) and the Elsevier text-mining API needs a key; the ESC-HFA 2026 heart transplantation consensus (DOI 10.1093/ejhf/xuag051) has no open copy (Unpaywall: closed). Neither was bypassed. The 2022 AST/ACCP/ASHP maintenance immunosuppression consensus (Pharmacotherapy) is closed access.",
  "summary": {
-  "total": 25,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -374,6 +375,159 @@
     }
    ],
    "locator": "Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure, 'Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center', published 29 September 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC9536714/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**How AMR happens:** donor-specific antibodies (DSA) bind donor HLA on the graft's vascular endothelium and switch on complement. Preformed high-titre DSA can cause hyperacute rejection; de novo DSA, usually against HLA class II, form after transplant. S2 suggests treating HLA DSA plus graft dysfunction as equivalent to AMR.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37281439ed6fc0b8",
+     "n": 154,
+     "p": "AMR aris"
+    },
+    {
+     "h": "f11c1c8cedb2ead9",
+     "n": 613,
+     "p": "Preforme"
+    },
+    {
+     "h": "f0993c33a8064d5c",
+     "n": 248,
+     "p": "Recent i"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**AMR risk factors:** pre-transplant sensitisation, a positive flow-cytometric crossmatch, de novo DSA (class II above all) and too little immunosuppression. **Screen for de novo DSA at 1, 3, 6 and 12 months, then every year;** whether to treat DSA without graft dysfunction or with a normal biopsy is not settled.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c671c2718f1ff22",
+     "n": 453,
+     "p": "Post-tra"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Donor-derived cell-free DNA** has a negative predictive value above 98%, allowing fewer biopsies; levels run 5 to 11 times higher in AMR than in cellular rejection and can rise about 3 months before biopsy diagnosis, but the test cannot tell the two apart.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3322405694644492",
+     "n": 684,
+     "p": "This bio"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Steroids first:** high-dose IV methylprednisolone and then a taper, used as part of a combination because steroids do not act on antibody production. During pulse and prolonged high-dose steroids, give prophylaxis for Pneumocystis, CMV and oral thrush.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a1a3444023c8ee60",
+     "n": 701,
+     "p": "Corticos"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Plasmapheresis and IVIG:** plasmapheresis removes DSA quickly, often every other day for 5 sessions, but antibodies rebound, so B-cell or plasma-cell therapy is added. IVIG is typically 2 g/kg in total, split across the plasmapheresis sessions (split dosing matters when graft function is poor); it can cause infusion reactions, aseptic meningitis and thrombosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0c7a9bf2e95c979",
+     "n": 450,
+     "p": "Plasmaph"
+    },
+    {
+     "h": "c694a92c895737bb",
+     "n": 557,
+     "p": "Dosing p"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Anti-thymocyte globulin for severe AMR or marked graft dysfunction:** usually 1.5 mg/kg IV once a day, 3–5 doses in all, with premedication; dosing can be guided by a CD3 count below 200–300 cells, and opportunistic-infection prophylaxis is advised.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c54880e6e0e00f33",
+     "n": 729,
+     "p": "ATG is a"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Eculizumab (C5 complement inhibitor)** for severe, complement-active (C4d-positive) AMR: typically 900 mg weekly for at most 8 weeks, supported only by case series. Meningococcal vaccination before treatment and penicillin VK prophylaxis are mandatory.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb1b5c0fc5fa3e19",
+     "n": 703,
+     "p": "Eculizum"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Preventing antibody rebound:** rituximab clears circulating B cells for 6–12 months but leaves plasma cells producing DSA; bortezomib and carfilzomib deplete plasma cells. Bortezomib's main harm is peripheral neuropathy; carfilzomib has been linked to acute kidney injury and heart failure, reported in 67%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74d9db9bedf76eff",
+     "n": 162,
+     "p": "Rituxima"
+    },
+    {
+     "h": "5f7c47e424aca786",
+     "n": 226,
+     "p": "Bortezom"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Strengthen maintenance after AMR:** move ciclosporin to tacrolimus and azathioprine to mycophenolate, raise doses or trough targets, restart low-dose prednisone if it was weaned, or switch mycophenolate to an mTOR inhibitor.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eca3302659ab2cf4",
+     "n": 367,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About 1 in 3 have chronic or recurrent AMR,** with more allograft vasculopathy and lower survival. Through the first year after treatment, monitor at set intervals with dd-cfDNA (with or without biopsy), echocardiography, DSA testing and/or intragraft gene expression.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ceaa7ab3199bcab",
+     "n": 536,
+     "p": "Approxim"
+    }
+   ],
+   "locator": "Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614), 'Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement', published 22 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/, retrieved 2026-09-24"
   }
  ]
 }

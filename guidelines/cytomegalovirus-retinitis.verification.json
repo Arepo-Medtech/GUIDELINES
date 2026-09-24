@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/cytomegalovirus-retinitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437412/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437412/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Viruses (MDPI) 'Cytomegalovirus Retinitis: Clinical Manifestations, Diagnosis and Treatment (Viruses 2024;16(9):1427)' (published 7 September 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11437412). This is a narrative review, not a guideline. The guidelines were unreadable: the US NIH/CDC/IDSA adult opportunistic-infection guideline (clinicalinfo.hiv.gov) returned HTTP 403 bot blocks, and the 2025 APVRS/AAPPO/APSOII consensus (Asia-Pacific J Ophthalmol, ScienceDirect) returned a bot challenge; neither was bypassed. ECIL-7 CMV is paywalled.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Viruses (MDPI) 'Cytomegalovirus Retinitis: Clinical Manifestations, Diagnosis and Treatment (Viruses 2024;16(9):1427)' (published 7 September 2024), 16 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11437412). S2: QUOTED from Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055) 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)' (published 28 December 2019), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC7022607). Verify each source separately: verify.py --source <file> --only-source S<n>. This is a narrative review, not a guideline. The guidelines were unreadable: the US NIH/CDC/IDSA adult opportunistic-infection guideline (clinicalinfo.hiv.gov) returned HTTP 403 bot blocks, and the 2025 APVRS/AAPPO/APSOII consensus (Asia-Pacific J Ophthalmol, ScienceDirect) returned a bot challenge; neither was bypassed. ECIL-7 CMV is paywalled. Edition 2.0 retried the guidelines on 2026-09-24: clinicalinfo.hiv.gov (CMV section HTML and two PDF paths) returned a Cloudflare challenge (HTTP 403), the NCBI Bookshelf copy (NBK586304, oppguide.pdf) returned a reCAPTCHA page, and APVRS 2025 on ScienceDirect returned a bot challenge (the Elsevier text-mining API needs a key; the Mahidol University repository has no full text). None was bypassed, so S2 is a second narrative review (Munro 2019), added for maintenance, stopping, resistance and route selection.",
  "summary": {
-  "total": 16,
-  "pass": 16,
+  "total": 27,
+  "pass": 27,
   "fail": 0
  },
  "claims": [
@@ -66,6 +67,13 @@
    "locator": "Viruses (MDPI), 'Cytomegalovirus Retinitis: Clinical Manifestations, Diagnosis and Treatment (Viruses 2024;16(9):1427)', published 7 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11437412/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Blood CMV antigenaemia and PCR can predict CMV disease months before it shows;** an antigen level below 45 strongly suggests there is no retinitis (negative predictive value 98.2%). CMV in the urine on its own does not justify antiviral prophylaxis.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Serum CMV antigenemia and PCR tests are sensitive measures that may predict CMV disease up to several months prior to clinical manifestation … An antigen level less than 45 strongly suggests the absence of retinitis. The negative and positive predictive values of the CMV antigen test were 98.2% and 80%, respectively … CMVuria as a single finding, however, does not justify antiviral prophylaxis against CMVR",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**First-line antivirals are ganciclovir, valganciclovir, cidofovir and foscarnet,** given systemically (IV or oral) and/or locally (intravitreal injection or implant).",
    "source": "S1",
    "verdict": "pass",
@@ -104,6 +112,57 @@
    "dose": true
   },
   {
+   "claim": "**Induction usually runs 14 to 21 days, its final length set by clinical response, and is followed by continuous maintenance** until CD4 rises on effective ART and/or the retinitis stops progressing. S1 gives a shorter IV ganciclovir induction (see Unresolved).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Induction therapy is typically administered for 14 to 21 days but the final duration is determined by the clinical response to therapy. Induction is followed by continuous maintenance therapy until CD4 count increase in HIV patients is observed, when ART is therapeutic, and/or when CMVR shows no progression",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Where the lesions are decides the route:** immediately sight-threatening lesions get intravitreal injections together with systemic therapy; for lesions that do not threaten sight straight away, systemic therapy alone with close observation is reasonable.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The location of the CMVR lesions largely dictates the treatment algorithm. For patients with immediate sight-threatening lesions, intravitreal injections in conjunction with systemic therapy are currently recommended. For patients without immediately sight-threatening lesions, systemic therapy alone with close observation is reasonable.",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No systemic agent has been shown superior to another;** the choice rests on whether oral medicines are tolerated, comorbidities and other medicines, and expected adherence. Aciclovir is not used, because CMV cannot activate it.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Comparison studies of various systemic anti-CMV agents have not shown superiority of one agent over another. The choice of which antiviral agent to use is multifactorial and is influenced by the ability to tolerate oral medications, comorbid conditions and medications, and predicted or observed compliance with therapy … Acyclovir is not used in the treatment of CMV as this drug specifically requires phosphorylation by viruses to become active, a mechanism which CMV is not capable of as it does not encode for virus-specific thymidine kinase",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Intravitreal therapy on its own is not usually recommended unless systemic therapy is contraindicated:** in HIV, intravitreal-only regimens had more progression than systemic treatment. In non-HIV immunocompromised patients (for example after transplant, where systemic drugs worsen myelosuppression), weekly intravitreal ganciclovir for about 6 weeks has cleared retinitis.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "IVI of virostatic medications can be considered for short-term management or as adjunctive therapy but sole intravitreal therapy is not commonly recommended except in circumstances where systemic therapy is contraindicated … Local monotherapy may be utilized more frequently in post-transplant patients receiving immunosuppression as myelosuppression may worsen with systemic antiviral therapies. In non-HIV immune compromised patients, studies have shown IVI of ganciclovir once weekly for approximately 6 weeks showed successful resolution of CMVR … However, in HIV patients, Jabs et al. found that compared with systemic treatment, regimens containing only intravitreal injections had greater rates of retinitis progression",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Cidofovir is not first line:** it is nephrotoxic, needing IV saline pre-hydration and probenecid with every infusion, and it can cause anterior uveitis and hypotony.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Due to systemic side-effects of nephrotoxicity requiring intravenous pre-hydration with normal saline and administration of probenecid with each infusion, cidofovir is currently not used as first line therapy … Ocular side effects of IVI and IV cidofovir specifically include anterior uveitis and hypotony",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Recalcitrant or relapsed retinitis: combination therapy is recommended;** ganciclovir plus foscarnet gave longer survival than either drug alone, with no extra toxicity.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In recalcitrant cases or relapsed infection, combination therapy is recommended. It has been observed that patients treated with both ganciclovir and foscarnet had a longer life expectancy than those given either drug alone. No additional toxicity was observed with combination of foscarnet and ganciclovir in patients with severe CMV disease",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Resistance builds with prolonged ganciclovir or valganciclovir:** in one AIDS study up to 20% were resistant to every anti-CMV drug by 9 to 12 months. UL97 mutations cause ganciclovir resistance first; UL54 mutations then add cidofovir and foscarnet resistance. Genotype testing by PCR is possible when CMV is detectable in blood or eye fluid.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In AIDS patients, severely decreased CD4 cell counts and long-term anti-CMV therapy resulted in upwards of 20% incidence of resistance to all anti-CMV medications by 9 to 12 months in one study … UL97 mutations first cause resistance to ganciclovir but not to foscarnet or cidofovir. With continued ganciclovir use, pUL54 may also develop resulting in significant resistance to ganciclovir, cidofovir, and foscarnet … Patients with a detectable CMV viral load in the blood or ocular fluid can undergo genotype testing for drug resistant CMV via PCR",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Maribavir penetrates the retina poorly** (vitreous-to-plasma ratio up to 0.28), so it is a poor choice for retinitis despite its activity against resistant CMV.",
    "source": "S1",
    "verdict": "pass",
@@ -118,6 +177,13 @@
    "locator": "Viruses (MDPI), 'Cytomegalovirus Retinitis: Clinical Manifestations, Diagnosis and Treatment (Viruses 2024;16(9):1427)', published 7 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11437412/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Immune recovery uveitis can take vision through macular oedema, new retinal vessels and cataract without active CMV;** its risk factors are immune reconstitution on ART, more extensive CMV lesions and cidofovir.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "IRU can result in visual loss from macula edema, retinal neovascularization and cataracts, in the absence of active CMV disease … Risk factors for IRU include immune reconstitution with ART, more extensive CMV lesions and the use of cidofovir",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Retinal detachment from CMV retinitis is repaired by vitrectomy** (silicone oil repair succeeds in 56–94% of HIV patients).",
    "source": "S1",
    "verdict": "pass",
@@ -130,6 +196,20 @@
    "verdict": "pass",
    "source_text": "Studies have shown that the final CD4+ T-cell count > 50 cells/mm3 is associated with improved survival in AIDS patients, highlighting the importance of regular monitoring to assess treatment effectiveness … Serial renal function tests are crucial due to the potential nephrotoxicity of antiviral therapies like GCV or FOS []. Additionally, complete blood counts (CBC) should be monitored to detect bone marrow suppression, a possible side effect of these antiviral treatments []. Previous studies have identified the positive correlation between the extent of the retinal area affected by CMV retinitis and the aqueous CMV load []. Thus, viral load testing can help assess treatment effectiveness and detect resistance. Liver function tests should also be conducted periodically for monitoring hepatotoxicity []. Finally, regular ophthalmologic examinations are essential to evaluate the progression of retinitis and the response to treatment",
    "locator": "Viruses (MDPI), 'Cytomegalovirus Retinitis: Clinical Manifestations, Diagnosis and Treatment (Viruses 2024;16(9):1427)', published 7 September 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11437412/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **In HIV, maintenance can stop once CD4 stays above 100 cells/µL after a rise of at least 50 cells/µL, with 3–6 relapse-free months of inactive, scarred retinitis** (US guideline criteria as summarised in S2). Keep up dilated eye examinations, because ART failure can let the retinitis reactivate.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Current guidelines for discontinuing maintenance therapy include a sustained rise in CD4+ cells >100 cells/µL, CD4+ rise must be at least 50 cells/µL, and relapse-free intervals of 3-6 months must be observed with inactive CMVR characterized by retinal scarring [,]. It is important to closely monitor these patients with dilated ophthalmic examinations as ART failure may occur and allow CMVR reactivation",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Non-HIV patients relapse too:** among 20 non-HIV immunosuppressed patients followed for 17 months, 33.3% recurred after stopping anti-CMV therapy, so routine eye monitoring is advised.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "One study followed 20 non-HIV immunosuppressed patients for 17 months and found a recurrence rate of 33.3% occurred following discontinuation of anti-CMV therapy; as such, routine ophthalmic monitoring is advisable",
+   "locator": "Munro M, Yadavalli T, Fonteh C, Arfeen S, Lobo-Chan AM (University of Illinois at Chicago), Microorganisms 8(1):55 (doi 10.3390/microorganisms8010055), 'Cytomegalovirus Retinitis in HIV and Non-HIV Individuals (narrative review)', published 28 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC7022607/, retrieved 2026-09-24"
   }
  ]
 }

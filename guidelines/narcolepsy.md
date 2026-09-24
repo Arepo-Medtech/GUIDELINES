@@ -1,13 +1,15 @@
 # Narcolepsy and cataplexy
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising narcolepsy type 1 (with cataplexy or low CSF orexin) and type 2 in adults, the ICSD-3-TR diagnostic pathway and its Australian testing constraints, non-drug measures, drug choice as the PBS shapes it, cataplexy treatment, pregnancy, and emerging orexin-agonist therapy. Idiopathic hypersomnia is mentioned only in passing. The source is a narrative review, not a graded guideline. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 claims paraphrased from **Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186 — *Narcolepsy 2025 (with an Australasian perspective)*** (published 27 August 2025; origin: AU). **27 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **64 fragments or anchors re-checkable by machine; 0 doses.** **S1** Lin (published 27 August 2025; AU): 21 claims, paraphrased, hash-anchored · **S2** American Academy of Sleep Medicine (published 1 September 2021; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **The PBS, not the evidence, sets the first-line drug here.** European and AASM guidelines put modafinil first for sleepiness, but PBS access to modafinil or armodafinil needs a contraindication to dexamfetamine, so dexamfetamine is in effect the first subsidised drug. Sodium oxybate, the international first choice for cataplexy, is not on the PBS; clomipramine is the only PBS-listed anticataplectic.
 
-> ℹ️ **A narrative review, not a guideline.** No recommendations are graded, and the treatment and pregnancy-category table was stripped, so no doses appear here.
+> ℹ️ **S1 is a narrative review, not a guideline:** its claims are ungraded, and its treatment and pregnancy-category table was stripped. **S2 is the AASM 2021 GRADE guideline:** the strong and conditional drug recommendations, evidence certainty, boxed warnings and paediatric recommendations rest on S2. Neither source gives doses.
+
+> ⚠️ International guideline (AASM, 2021) for S2, which reviewed only US FDA-approved drugs. Australian practice follows the PBS listings below and may differ: per S1, pitolisant and solriamfetol are not available here and sodium oxybate is not on the PBS.
 
 ---
 
@@ -36,12 +38,28 @@
 - ⚠️ **Australia differs on first-line drug for sleepiness.** European and AASM guidance prefers modafinil (with strong evidence also for pitolisant and solriamfetol, neither available here). Australian guidance lists modafinil or armodafinil, with dexamfetamine second; but the PBS requires a contraindication to dexamfetamine before it subsidises modafinil or armodafinil, making dexamfetamine the effective first subsidised option. [S1]
 - **In New Zealand**, modafinil, dexamfetamine and methylphenidate are funded for narcolepsy through Pharmac Special Authority. Lisdexamfetamine may help, but both countries fund it only for ADHD. [S1]
 - ⚠️ **Cataplexy:** sodium oxybate is the international first choice, but it is not on the PBS or the ARTG and is costly via the Special Access Scheme (Western Australia's state formulary is the exception). Antidepressants are used against cataplexy; clomipramine is the only one the PBS lists for it. [S1]
+- **AASM strong recommendations for adults with narcolepsy of either type:** modafinil, pitolisant, sodium oxybate and solriamfetol. **Conditional:** armodafinil, dexamfetamine (dextroamphetamine) and methylphenidate. Each was judged against no treatment, and the order is alphabetical within strength, not a ranking. [S2]
+- **What each drug improved in trials:** cataplexy responded to pitolisant, sodium oxybate and dexamfetamine; modafinil and solriamfetol improved sleepiness and disease severity (modafinil also quality of life). [S2]
+- **Certainty of evidence:** high for solriamfetol; moderate for modafinil, pitolisant, sodium oxybate and armodafinil; very low for dexamfetamine and methylphenidate. [S2]
+- **Not enough evidence to recommend either way** in adult narcolepsy: scheduled naps, SSRIs and SNRIs, l-carnitine, selegiline and triazolam. Being left off the list is not advice against a treatment. [S2]
+- **Tailor and review the choice** by age, pregnancy status and plans, comorbidity (including cardiovascular disease), allergy or past adverse reactions, misuse risk and treatment goals, and reassess at follow-up as life changes. Whatever the drug, many patients also need work or study accommodations, sleep hygiene and CBT or psychological support. [S2]
+- **Closely related compounds** (modafinil and armodafinil; dexamfetamine, mixed amphetamine salts and lisdexamfetamine) may reasonably be assumed to carry similar benefits and risks, although the AASM graded single drugs rather than classes. [S2]
+
+## Safety and adverse effects
+
+- **Common adverse effects:** modafinil, headache, insomnia, nausea, diarrhoea and dry mouth; pitolisant, headache, weight gain, insomnia and nausea (none led to stopping); sodium oxybate, nausea, headache, dizziness, bedwetting, chest discomfort, disturbed sleep and sleep-disordered breathing; solriamfetol, headache, nausea, insomnia, reduced appetite and chest discomfort, mostly mild or moderate. [S2]
+- ⚠️ **Sodium oxybate** has an FDA boxed warning as a central nervous system depressant that can depress breathing; it is the sodium salt of GHB, whose misuse, especially with alcohol or sedating drugs, can cause seizures, coma and death. **Dexamfetamine and methylphenidate** are Schedule II drugs with boxed warnings about misuse and dependence. [S2]
 
 ## Pregnancy
 
 - ⚠️ **Plan for pregnancy.** European guidance strongly advises stopping narcolepsy drugs before conception, accepting that symptoms will worsen, or using a single drug if stopping is not practical. Modafinil and armodafinil carry higher rates of congenital anomalies and make the oral contraceptive pill less effective. [S1]
 - **Dexamfetamine in pregnancy:** an Australian ADHD cohort found continued use was not linked to worse maternal or neonatal outcomes, though complications were somewhat lower in the unexposed group. [S1]
 - **Counselling on pregnancy and contraception is often poor** and should be improved. [S1]
+- ⚠️ **AASM pregnancy remarks:** animal data suggest each drug may harm the fetus, and human data are too sparse to judge; the 2018 report of the US armodafinil/modafinil pregnancy registry showed more major congenital anomalies after exposure in the womb. Modafinil, armodafinil and pitolisant may weaken oral contraception. The AASM makes no specific recommendations for pregnancy or breastfeeding. [S2]
+
+## Children
+
+- **Children with narcolepsy (AASM, conditional):** modafinil or sodium oxybate. Modafinil lacks FDA approval under 17 years because of a boxed warning for Stevens–Johnson syndrome and psychosis from paediatric case reports. Sodium oxybate improved cataplexy, severity and sleepiness, but rare serious effects include central sleep apnoea, depression and suicidality. No eligible evidence was found for methylphenidate, amphetamines, scheduled naps or SSRIs/SNRIs for cataplexy in children. [S2]
 
 ## Emerging treatment
 
@@ -64,16 +82,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Drug doses and Australian pregnancy categories** are in the source's Table 3, which was stripped, and are not stated here. | `input_unavailable` |
-| 2 | **The symptom pentad (Table 1) and ICSD-3-TR criteria (Table 2)** were tables and were stripped; only the prose summary is used. | `input_unavailable` |
-| 3 | **The only Australasian Sleep Association narcolepsy document found** covers sodium oxybate (2013), is more than five years old and concerns a drug not on the PBS; it was not used. | `observation` |
-| 4 | **Idiopathic hypersomnia** is outside this guideline's scope. | `out_of_scope` |
-| 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Drug doses and Australian pregnancy categories** are in S1's Table 3, which was stripped, and are not stated here. S2 gives no doses either. | `input_unavailable` |
+| 2 | **The European EAN/ESRS/EU-NN 2021 narcolepsy guideline** could not be read: the publisher and all six open repository copies returned bot challenges or access blocks (2026-09-24), which were not bypassed. S1 cites its first-line modafinil position. | `input_unavailable` |
+| 3 | **Naps and antidepressants: sources differ.** S1 advises planned short daytime naps and names clomipramine as the only PBS-listed anticataplectic; S2 found insufficient evidence to recommend scheduled naps or SSRIs/SNRIs (not a recommendation against). Both are shown. | `observation` |
+| 4 | **S2 reviewed only US FDA-approved drugs,** so its strongly recommended pitolisant and solriamfetol are unavailable in Australia (S1) and sodium oxybate is not PBS-listed; dexamfetamine, the effective first subsidised drug here, is only a conditional, very-low-certainty recommendation in S2. | `observation` |
+| 5 | **The symptom pentad (Table 1) and ICSD-3-TR criteria (Table 2)** were tables and were stripped; only the prose summary is used. | `input_unavailable` |
+| 6 | **The only Australasian Sleep Association narcolepsy document found** covers sodium oxybate (2013), is more than five years old and concerns a drug not on the PBS; it was not used. | `observation` |
+| 7 | **Idiopathic hypersomnia** is outside this guideline's scope. | `out_of_scope` |
+| 8 | **Licences:** S1 is CC BY-NC 4.0 and S2 is © 2021 American Academy of Sleep Medicine. Both are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Lin, Yee, Tai, Sivam et al., Internal Medicine Journal (RACP) vol 55, doi 10.1111/imj.70186. *Narcolepsy 2025 (with an Australasian perspective)*. published 27 August 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12608058/ — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | American Academy of Sleep Medicine, task force (Maski K, Trotti LM, Kotagal S, Auger RR, Rowley JA, Hashmi SD, Watson NF), Journal of Clinical Sleep Medicine 17(9):1881–1893, doi 10.5664/jcsm.9328. *Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline*. published 1 September 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/ — retrieved 2026-09-24. | © 2021 American Academy of Sleep Medicine (no open licence; PMC not open access) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

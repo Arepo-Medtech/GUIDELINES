@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/disorders-of-keratinisation.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy 'Consensus Recommendations for Management of Darier Disease: A Practical Approach' (published 15 July 2026 (vol 16, issue 9)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13558519). The source's words are NOT reproduced here. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. The 68 consensus recommendations are in tables and supplementary tables, which were stripped; the claims come from the abstract and narrative.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy 'Consensus Recommendations for Management of Darier Disease: A Practical Approach' (published 15 July 2026 (vol 16, issue 9)), 18 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13558519). S2: PARAPHRASED AND HASH-ANCHORED from Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408) 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents' (published 10 November 2020), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC7984068). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the PeDRA retinoid consensus (Europe PMC JATS XML through pmc_text.py; its 15 recommendation tables were stripped, so claims come from the narrative), paraphrased under CC BY-NC-ND 4.0; the S1 claims are unchanged. Source text: the article abstract (tags stripped) followed by the body text from pmc_text.py, both from the Europe PMC JATS XML. The 68 consensus recommendations are in tables and supplementary tables, which were stripped; the claims come from the abstract and narrative.",
  "summary": {
-  "total": 18,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -302,6 +303,244 @@
    ],
    "locator": "European Reference Network for Rare and Undiagnosed Skin Disorders (ERN-Skin) expert panel, Dermatology and Therapy, 'Consensus Recommendations for Management of Darier Disease: A Practical Approach', published 15 July 2026 (vol 16, issue 9), https://pmc.ncbi.nlm.nih.gov/articles/PMC13558519/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**The ichthyoses and related disorders of cornification arise from variants in more than 50 genes.** Care is built on frequent bathing, humidified air, daily emollients and keratolytics, with topical and oral retinoids as a key addition.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "119bdcea31604c86",
+     "n": 169,
+     "p": "Disorder"
+    },
+    {
+     "h": "0c8deaca416e5d97",
+     "n": 275,
+     "p": "Ichthyos"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Topical retinoids (tazarotene, tretinoin, adapalene) lessen scale and can correct ectropion.** They carry less risk than oral retinoids and suit milder disease, but irritate, more so in ichthyosis vulgaris, atopic skin and fragile skin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98b0485bc93dab23",
+     "n": 188,
+     "p": "Topical "
+    },
+    {
+     "h": "0ab8e4e2f39591cb",
+     "n": 458,
+     "p": "Topical "
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Offer a risk-benefit discussion about an oral retinoid to families of children with moderate to severe disease and real functional or psychological impact.** Genetic testing does not predict who will respond.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fdd4e8d2257b079e",
+     "n": 398,
+     "p": "The fami"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Aim for the lowest dose that reaches and holds the goal, usually 1 mg/kg/day or less.** Treatment is often lifelong because the skin returns to baseline when it stops; continuing topical care may allow a lower oral dose or breaks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a8e2341bd4fcbe25",
+     "n": 101,
+     "p": "Overall,"
+    },
+    {
+     "h": "515f1b21579d8767",
+     "n": 84,
+     "p": "The skin"
+    },
+    {
+     "h": "6c8476df57e31da5",
+     "n": 191,
+     "p": "Topical "
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Isotretinoin and acitretin work about equally.** Acitretin peels palms and soles more (favouring it for palmoplantar disease) but causes more persistent hair loss; isotretinoin's short half-life eases dose changes, breaks and family planning. In Netherton syndrome, skin toxicity usually outweighs benefit.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7e10c680bd4c922",
+     "n": 101,
+     "p": "Response"
+    },
+    {
+     "h": "3c9326126c0580a8",
+     "n": 486,
+     "p": "Acitreti"
+    },
+    {
+     "h": "34ae6f1ff1fcd94e",
+     "n": 78,
+     "p": "except N"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Neonates with harlequin ichthyosis whose scale restricts breathing or endangers the limbs may benefit from an oral retinoid;** milder cases may not need one.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9a4b0d0fa5a777f5",
+     "n": 257,
+     "p": "Neonates"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Lipids and liver tests at baseline, again 1–2 months after starting, then every 6–12 months while normal.** Combined oral contraceptives also raise lipids; persistently high lipids can be treated while the retinoid continues if the balance of risk is acceptable.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "950d9847e808f265",
+     "n": 256,
+     "p": "A serum "
+    },
+    {
+     "h": "9270b90bf89904a3",
+     "n": 154,
+     "p": "Combined"
+    },
+    {
+     "h": "abda58353cd6c138",
+     "n": 236,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bone:** premature epiphyseal closure is uncommon but serious, reported above 1 mg/kg/day over 4–6 years. Check growth yearly, ask about musculoskeletal symptoms and diet, and on long-term treatment consider baseline imaging repeated after 3–5 years (sooner for symptomatic sites).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2a349a3e25fffbc",
+     "n": 179,
+     "p": "Prematur"
+    },
+    {
+     "h": "53365ddf397c67bb",
+     "n": 256,
+     "p": "Monitori"
+    },
+    {
+     "h": "f9e4ea68fa03a209",
+     "n": 202,
+     "p": "Once ret"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Eyes:** a baseline examination by an experienced ophthalmologist, lubricants or preservative-free tears during treatment, review after 4–6 months and then every 6–12 months on long-term treatment; pause or stop if retinal function worsens.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "81f7f6679e411545",
+     "n": 88,
+     "p": "Baseline"
+    },
+    {
+     "h": "fb2c1a7d76834137",
+     "n": 175,
+     "p": "Recommen"
+    },
+    {
+     "h": "717d4f4e0e818cf3",
+     "n": 188,
+     "p": "Subseque"
+    },
+    {
+     "h": "f1b7c8522d319e33",
+     "n": 100,
+     "p": "Therapeu"
+    },
+    {
+     "h": "1d4dee682469f83a",
+     "n": 104,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ask about mental health at baseline and at follow-up in everyone with a disorder of cornification,** whatever the treatment: depression and anxiety are common in ichthyosis itself.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d054431e102ec5cc",
+     "n": 120,
+     "p": "A mental"
+    },
+    {
+     "h": "c440a5193f72050c",
+     "n": 140,
+     "p": "In a cro"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Avoid pregnancy for 3 years after stopping acitretin** (with alcohol it forms etretinate, which is stored in fat). Prefer isotretinoin for anyone of reproductive potential, and consider switching from acitretin to isotretinoin at puberty, or at least long-acting reversible contraception.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab4f88d1c16c077a",
+     "n": 331,
+     "p": "While is"
+    },
+    {
+     "h": "ea58fb2059266e78",
+     "n": 406,
+     "p": "When cho"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Raise contraception early with adolescents on a retinoid,** review it every visit, and agree when it will start (for example at 16 years, or before first sexual activity), with help from a gynaecologist if needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "507371e828838c46",
+     "n": 525,
+     "p": "In adole"
+    }
+   ],
+   "locator": "Pediatric Dermatology Research Alliance (PeDRA) Use of Retinoids in Ichthyosis Work Group (Zaenglein AL, Levy ML, Stefanko NS, et al.), Pediatric Dermatology 38(1):164-180 (doi 10.1111/pde.14408), 'Consensus recommendations for the use of retinoids in ichthyosis and other disorders of cornification in children and adolescents', published 10 November 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7984068/, retrieved 2026-09-24"
   },
   {
    "claim": "**Ablative laser, cryotherapy and photodynamic therapy are for localised lesions that resist treatment.** Care should be multidisciplinary (neuropsychiatric, eye, dental, obstetric); lasting remission is not yet achievable, so treatment is individual.",

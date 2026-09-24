@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/zollinger-ellison-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines 'Current Medical Controversies in Zollinger–Ellison Syndrome' (2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12730841). The ENETS 2023 guidance paper for functioning pancreatic NET syndromes (J Neuroendocrinol, DOI 10.1111/jne.13318, CC BY-NC-ND) was the preferred source but the Wiley page returned a bot challenge (HTTP 403), which was not bypassed; this review summarises its gastrinoma diagnostic recommendations.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines 'Current Medical Controversies in Zollinger–Ellison Syndrome' (2025), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12730841). S2: PARAPHRASED AND HASH-ANCHORED from Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848) 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms' (published 8 September 2023 (2022 consensus)), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10586833). Verify each source separately: verify.py --source <file> --only-source S<n>. The ENETS 2023 guidance paper for functioning pancreatic NET syndromes (J Neuroendocrinol, DOI 10.1111/jne.13318, CC BY-NC-ND) was the preferred source but the Wiley page returned a bot challenge (HTTP 403), which was not bypassed; this review summarises its gastrinoma diagnostic recommendations. Edition 2.0 adds S2, the Chinese Medical Association national consensus on pancreatic NENs (gastrinoma diagnosis, surgery and follow-up); S1 claims and anchors are unchanged. On 2026-09-24 every open copy of ENETS 2023 that Unpaywall lists was retried and none could be read: Wiley pdfdirect (HTTP 403 bot challenge), Erasmus University Pure PDF (Cloudflare challenge), Sapienza IRIS PDF (Cloudflare challenge), BORIS Bern and Uppsala DiVA (Anubis proof-of-work challenge); none was bypassed. No open NANETS gastrinoma guideline was found (Europe PMC).",
  "summary": {
-  "total": 19,
+  "total": 28,
   "pass": 19,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
   {
@@ -94,6 +96,59 @@
    "locator": "Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines, 'Current Medical Controversies in Zollinger–Ellison Syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 (Chinese Medical Association) biochemical cut-offs:** a serum gastrin over 1000 ng/L with gastric pH below 2 points to gastrinoma; when gastrin lies between 200 and 1000 ng/L, a stimulation test (secretin, calcium or standard meal) is done.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3462ff3fb68e2646",
+     "n": 223,
+     "p": "Serum ga"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 regards the secretin test as the most useful:** pure porcine secretin 2 U/kg IV; in gastrinoma, gastrin climbs quickly (within 2–10 min) by 200 or more (the unit is printed as pg/L) and then falls back to baseline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf10e7b671efe3bc",
+     "n": 396,
+     "p": "The secr"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Calcium stimulation (S2):** gastrin release rises after calcium injection in eighty percent of gastrinoma patients, in most by more than 400 (printed as pg/L), usually peaking soon after the injection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "99b57ce833dc7e39",
+     "n": 242,
+     "p": "Eighty p"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Staging imaging (S2):** CT, MRI and endoscopic ultrasound, with PET/CT using 68Ga-DOTA or 18F-FDG tracers; image-guided fine-needle aspiration can grade the primary or its metastases.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9a69d8e0b45a72b0",
+     "n": 271,
+     "p": "(3) Tumo"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
    "claim": "PPIs are the antisecretory drugs of choice, largely replacing H2-receptor antagonists because of greater potency and longer action.",
    "source": "S1",
    "verdict": "pass",
@@ -120,6 +175,76 @@
    "verdict": "pass",
    "source_text": "ZES patients for best care should be referred to a specialty center that has either the capability of assessing acid control status of antisecretory drugs or has developed other local criteria that allow long-term successful monitoring of the acid secretory control. These include centers having expertise in performing a careful history of acid-peptic/GERD symptoms, diarrhea, and overall health; the performance of regular UGI endoscopic assessments to establish lack of PUD/GERD findings on anti-secretory drugs",
    "locator": "Jensen RT, Ramos-Alvarez I et al. (US National Institutes of Health), Biomedicines, 'Current Medical Controversies in Zollinger–Ellison Syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12730841/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Before surgery, control symptoms such as diarrhoea and peptic ulceration with a PPI or a somatostatin analogue** (S2).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d15458bba99467d7",
+     "n": 155,
+     "p": "Proton p"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Sporadic, locoregional functioning pNENs should be resected more actively** to relieve hormone symptoms, lower drug requirements and improve survival. Gastrinomas carry a higher malignant potential, so formal resection with regional lymph node dissection is advised; for tumours under 2 cm, local resection with node dissection is an option.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea4e665aa520ff09",
+     "n": 192,
+     "p": "Patients"
+    },
+    {
+     "h": "c545651f0e780f44",
+     "n": 349,
+     "p": "(2) Othe"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**MEN1 gastrinoma:** there is no agreement on whether or when to operate, and most patients live long on PPIs alone; S2 recommends resection once a tumour reaches 2–3 cm because the liver-metastasis risk rises markedly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d58d40abc435104",
+     "n": 342,
+     "p": "Gastrino"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**With metastases, S2 still advises debulking (cytoreductive) surgery** to ease hormone symptoms, cut medication doses, control growth and prolong survival, preceded by systemic and liver-directed treatment such as TACE or radiofrequency ablation (S2).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f63661dea7e40114",
+     "n": 385,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Follow-up:** CgA, NSE and imaging (ultrasound, CT, MRI, somatostatin receptor or 68Ga PET/CT), plus the tumour's own hormone, which for a gastrinoma is gastrin (S2).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "421c6104368f9db7",
+     "n": 387,
+     "p": "The foll"
+    }
+   ],
+   "locator": "Jiao F, Cui J, Fu D, et al., Pancreatic Tumor Group, Society of Oncology, Chinese Medical Association, Chinese Medical Journal 136(20):2397-2411 (doi 10.1097/CM9.0000000000002848), 'Chinese Medical Association consensus for standardized diagnosis and treatment of pancreatic neuroendocrine neoplasms', published 8 September 2023 (2022 consensus), https://pmc.ncbi.nlm.nih.gov/articles/PMC10586833/, retrieved 2026-09-24"
   },
   {
    "claim": "Long-term PPI treatment in ZES has been linked to hypomagnesaemia and low vitamin B12 stores; one patient's refractory hypomagnesaemia required total gastrectomy.",

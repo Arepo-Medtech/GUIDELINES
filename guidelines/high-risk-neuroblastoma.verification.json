@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/high-risk-neuroblastoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13268836/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13268836/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australian Prescriber, Aust Prescr 2026;49(3):112 'Eflornithine for neuroblastoma (new drug comment)' (published 2 June 2026 (finalised 13 April 2026)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13268836). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber, Aust Prescr 2026;49(3):112 'Eflornithine for neuroblastoma (new drug comment)' (published 2 June 2026 (finalised 13 April 2026)), 14 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13268836). S2: PARAPHRASED AND HASH-ANCHORED from Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9) 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance' (published 20 September 2021), 12 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8563639). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, European expert practical guidance (consensus of 11 European authors reached at a virtual advisory-board meeting funded by EUSA Pharma, the maker of dinutuximab beta) on the SIOPEN dinutuximab beta regimen and its toxicities; S1 claims and anchors are unchanged. Searches (Europe PMC, 2026-09-24): neuroblastoma guideline/consensus/recommendation titles 2016-2026 and SIOPEN/COG treatment guidance. Found and not usable: NCCN Neuroblastoma 2.2024 (unusable terms), ICMR 2017 consensus and the French SFCE relapse guidelines (closed access), the 2025 Latin American anti-GD2 consensus (JCO Global Oncology, CC BY-NC-ND; ascopubs.org returned a Cloudflare 403, not bypassed), SIOPEN 2026 imaging recommendations (imaging only). No open SIOPEN or COG whole-pathway treatment guideline was found.",
  "summary": {
-  "total": 14,
+  "total": 26,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 14
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
@@ -55,6 +56,206 @@
     }
    ],
    "locator": "Australian Prescriber, Aust Prescr 2026;49(3):112, 'Eflornithine for neuroblastoma (new drug comment)', published 2 June 2026 (finalised 13 April 2026), https://pmc.ncbi.nlm.nih.gov/articles/PMC13268836/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Risk group (S2):** set by age at diagnosis (cut-off 18 months), the tumour's histology and its molecular features: MYCN amplification, segmental chromosome changes and ploidy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c97482d35defbdd",
+     "n": 263,
+     "p": "Risk is "
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About 50% of neuroblastomas are high-risk, with survival below 50%** despite multimodal treatment (induction chemotherapy and surgery, then high-dose chemotherapy and an autologous stem-cell transplant, radiotherapy and differentiation therapy). Adding an anti-GD2 antibody (dinutuximab, COG ANBL0032 trial) lifted survival above 60% (S2).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9d3461623f45ae34",
+     "n": 646,
+     "p": "Children"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **SIOPEN standard of care: dinutuximab beta by long-term continuous infusion (100 mg/m² over 10 days), without IL-2,** for patients who responded to induction and consolidation. The slower infusion caused less pain, allergy and hypotension than the 8-hour, 5-day schedule; adding IL-2 raised toxicity and did not improve survival.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "caee161aa89dd8ac",
+     "n": 1410,
+     "p": "the SIOP"
+    },
+    {
+     "h": "33b5576ff0c7b025",
+     "n": 248,
+     "p": "The init"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Most dinutuximab beta adverse effects occur during the infusion and settle when it ends.** Pausing the infusion to give supportive care does not appear harmful; treat with supportive measures first, before reducing or interrupting doses, and prepare parents for what to expect.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "29274fd8aba64941",
+     "n": 770,
+     "p": "Importan"
+    },
+    {
+     "h": "a316d144c0a39313",
+     "n": 220,
+     "p": "Clinicia"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No corticosteroids from 2 weeks before the first dose to 1 week after the last,** except in life-threatening situations (the experts also allow them for adrenal insufficiency and asthma). For anaphylaxis or transverse myelitis, stop the infusion at once and discontinue permanently.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d0edac94a331c9c",
+     "n": 891,
+     "p": "Corticos"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Pain: give triple therapy** (a non-opioid such as paracetamol or ibuprofen throughout, gabapentin, and morphine). Gabapentin is built up before the infusion: 10 mg/kg/day starting 3 days ahead; on the following day, 10 mg/kg twice (2 × 10); from the eve of the infusion, 10 mg/kg three times (3 × 10), kept until the cycle ends.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0ad9c694968814b0",
+     "n": 200,
+     "p": "Pain sho"
+    },
+    {
+     "h": "e07febbc9fc3b59f",
+     "n": 208,
+     "p": "A dose o"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Morphine:** start a 0.02–0.05 mg/kg/h IV infusion before the antibody, or a 0.05–0.1 mg/kg bolus 2 h before it; then about 0.03 mg/kg/h during the infusion. Wean over no more than 5 days, finishing by the end of the first cycle's infusion and within 3–5 days of starting the second. Aim for the lowest dose for the shortest time; IV ketamine can be added for uncontrolled pain.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1e7c94993c833106",
+     "n": 713,
+     "p": "The expe"
+    },
+    {
+     "h": "04005ee3702a7aaa",
+     "n": 103,
+     "p": "For pain"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Fever is expected:** paracetamol can be given to prevent it. Take blood cultures when fever occurs, but empirical antibiotics are not advised for fever alone, even with a mildly raised CRP, unless the child is neutropenic or infection is clinically suspected.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "38ba6ec23acf12fd",
+     "n": 193,
+     "p": "As fever"
+    },
+    {
+     "h": "228cfaca50020889",
+     "n": 419,
+     "p": "If a pat"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Allergy:** premedicate with an IV antihistamine about 20 min before each infusion, repeated every 4–6 h if needed (or regular oral antihistamine from the day before). Grade 1–2 reactions: pause, treat and restart. Grade 3–4 anaphylaxis: stop permanently and give IV antihistamine, adrenaline and steroids.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7caf1838b519678e",
+     "n": 198,
+     "p": "The cons"
+    },
+    {
+     "h": "ce6cf29b197e6dc8",
+     "n": 117,
+     "p": "Alternat"
+    },
+    {
+     "h": "e0c9725604237326",
+     "n": 202,
+     "p": "For mild"
+    },
+    {
+     "h": "ede3ad45d3060c72",
+     "n": 360,
+     "p": "For seve"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Capillary leak:** watch blood pressure and weight; mild leak may need no treatment, otherwise manage fluids by weight, blood pressure and local protocol. Use diuretics cautiously because of hypotension; furosemide suits marked weight gain with pulmonary oedema or ascites when blood pressure is normal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b4d1ec3d2f473bfb",
+     "n": 1005,
+     "p": "In gener"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Transverse myelitis: stop the infusion immediately and never restart dinutuximab beta;** give IV immunoglobulin and high-dose steroids. Children with severe neuropathy should not be rechallenged even after full recovery.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e44b945300299733",
+     "n": 498,
+     "p": "In the c"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Raised liver enzymes without symptoms need no action:** below 20 times the upper limit of normal, monitor closely and keep the dose; avoid hepatotoxic drugs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "abd26c303f9a1c5a",
+     "n": 286,
+     "p": "The cons"
+    }
+   ],
+   "locator": "Barone G, Barry A, Bautista F, et al., van Noesel MM (European experts in neuroblastoma immunotherapy), Paediatric Drugs 23(6):537-548 (doi 10.1007/s40272-021-00469-9), 'Managing Adverse Events Associated with Dinutuximab Beta Treatment in Patients with High-Risk Neuroblastoma: Practical Guidance', published 20 September 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8563639/, retrieved 2026-09-24"
   },
   {
    "claim": "**Eflornithine is an oral maintenance drug to lower relapse risk** for patients whose disease has at least partly responded to earlier multiagent, multimodality treatment.",

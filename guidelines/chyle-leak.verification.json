@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/chyle-leak.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11752749/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11752749/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Zhou et al., Frontiers in Nutrition 11:1478190 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery' (published 8 January 2025 (2024 volume)). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11752749). The ERS 2024 adult chylothorax consensus statement (Eur Respir J, DOI 10.1183/13993003.00470-2024) was preferred but the publisher page returned a bot challenge (HTTP 403), which was not bypassed. A BJS Open 2025 scoping review of chyle leak after pancreatic surgery was read and rejected because it covers incidence, not management.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Zhou et al., Frontiers in Nutrition 11:1478190 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery' (published 8 January 2025 (2024 volume)), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11752749). S2: PARAPHRASED AND HASH-ANCHORED from He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007) 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)' (published 27 February 2025), 10 claims; LICENCE: CC BY-NC 3.0 (Dove Medical Press terms incorporate the licence; non-commercial use permitted with attribution) (read at Europe PMC fullTextXML <license> element for PMC11880616). Verify each source separately: verify.py --source <file> --only-source S<n>. The ERS 2024 adult chylothorax consensus statement (Eur Respir J, DOI 10.1183/13993003.00470-2024) was preferred but the publisher page returned a bot challenge (HTTP 403), which was not bypassed. A BJS Open 2025 scoping review of chyle leak after pancreatic surgery was read and rejected because it covers incidence, not management. Edition 2.0 adds S2, a GRADE-graded Chinese expert consensus (43 experts, registered PREPARE-2023CN034) on cervical chyle fistula after neck dissection for thyroid cancer; S1 claims and anchors are unchanged. On 2026-09-24 the ERS 2024 consensus was retried (erj.ersjournals.com and publications.ersnet.org: HTTP 403 bot challenge; Unpaywall: no open copy) and the 2022 paediatric CHD chylothorax consensus (Cardiol Young, DOI 10.1017/S1047951122001871) is closed access; Europe PMC searches for an open paediatric or neonatal chylothorax guideline found none.",
  "summary": {
-  "total": 18,
+  "total": 28,
   "pass": 18,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -36,6 +38,32 @@
    "verdict": "pass",
    "source_text": "Excessive trauma during vessel and tissue separation, incomplete ligation of injured lymphatic vessels, or inadequate heat application from the electrosurgical knife can cause intraoperative lymphatic vessel damage. This damage impedes lymphatic fluid reflux, leading to lymphatic leakage, known as chyle leaks (CL), a significant postoperative complication following lymph node dissection in cancer patients",
    "locator": "Zhou et al., Frontiers in Nutrition 11:1478190, 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery', published 8 January 2025 (2024 volume), https://pmc.ncbi.nlm.nih.gov/articles/PMC11752749/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**After neck dissection for thyroid cancer, a chyle fistula occurs in roughly 1–3%.** A large leak can bring metabolic and electrolyte upset, low serum protein, bleeding, chylothorax or chylous ascites, breathing difficulty, and chest or abdominal infection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1afafb41496f9d86",
+     "n": 467,
+     "p": "Chyle fi"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diagnosing a cervical leak (S2):** neck drain output rises and changes from serous to milky and cloudy, often more so after eating; a drain-fluid triglyceride above 100 mg/dL, or higher than the serum level, supports the diagnosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e5a77c93899a010",
+     "n": 361,
+     "p": "Clinical"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
   },
   {
    "claim": "NRS 2002 and PG-SGA are recommended for nutritional assessment; assess weight change, triceps skinfold thickness, mid-arm circumference and grip strength.",
@@ -85,6 +113,19 @@
    "verdict": "pass",
    "source_text": "Dietary fat restriction, which reduces chyle volume and aids healing, should be maintained for 2-4 weeks post-resolution of CL to prevent recurrence",
    "locator": "Zhou et al., Frontiers in Nutrition 11:1478190, 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery', published 8 January 2025 (2024 volume), https://pmc.ncbi.nlm.nih.gov/articles/PMC11752749/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 (cervical leak) pairs fat restriction with fasting and parenteral nutrition** to lower chyle output and head off fluid and electrolyte imbalance. Plan nutrition individually with a registered dietitian, and keep checking nutritional status, liver and kidney function and electrolytes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e8f080d6245dff0b",
+     "n": 499,
+     "p": "In cases"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
   },
   {
    "claim": "MCTs are absorbed directly into the portal vein, minimally affecting gut lymph production, which improves chyle colour and reduces drainage volume.",
@@ -144,6 +185,113 @@
    "source_text": "In cases of high risk for essential fatty acid deficiency, a peripheral IV fat emulsion is recommended three times weekly at 250 mL of 20% solution per administration",
    "locator": "Zhou et al., Frontiers in Nutrition 11:1478190, 'Best evidence summary for nutritional management of cancer patients with chyle leaks following surgery', published 8 January 2025 (2024 volume), https://pmc.ncbi.nlm.nih.gov/articles/PMC11752749/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Connect the neck drain to continuous suction** and nurse the patient in bed with the head up 30–40°. The leak usually lies near the internal jugular vein, so adjust the suction promptly to avoid vessel rupture, and keep the drain tip about 1–2 cm from the venous junction.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1bfe89880abb0401",
+     "n": 881,
+     "p": "it is re"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drain removal:** the target is under 10 mL per 24 hours. If output stays above that despite suction, pull the drain back gradually, about 1–2 cm at a time, watching the output, and use ultrasound to look for fluid collecting as it comes out.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9a9af5ead8a14bec",
+     "n": 375,
+     "p": "If the d"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Local compression over the venous angle** in the supraclavicular fossa on the affected side (1–2 gauze blocks forming a loose 3–5 cm pad) can cut drainage quickly. Over-compression can injure the cervical or brachial plexus and cause tension blisters or flap necrosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1eb0268e4bd0921c",
+     "n": 301,
+     "p": "Proper p"
+    },
+    {
+     "h": "eed9a2a618dfd687",
+     "n": 221,
+     "p": "suscepti"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Octreotide (S2; grade C evidence, grade C recommendation):** 100 µg by subcutaneous injection every 8 hours to start, increased to 200 µg if it does not work; stop it within 2 days of the leak meeting the treatment criteria. How somatostatin analogues reduce chyle is not known, and the best dose varies widely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "425e7d9d1789c346",
+     "n": 485,
+     "p": "The opti"
+    },
+    {
+     "h": "7404fd8732ea5235",
+     "n": 154,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **When to operate:** after failed non-surgical treatment, typically for drainage persistently above 1000 mL a day. Operate promptly for more than 2000 mL a day with a poor response, for a refractory low-flow leak (under 1000 mL a day), or for severe malnutrition, fluid and electrolyte disorders, infection, necrosis or bleeding.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f3ae3ebda643a65",
+     "n": 589,
+     "p": "The crit"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A refractory high-output leak (peak 1000 mL or more) that has not responded after more than 2 weeks of treatment needs timely surgery.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cba63697636ffcbd",
+     "n": 196,
+     "p": "For pati"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After endoscopic or robotic neck dissection, treat non-surgically first;** thoracoscopic thoracic duct ligation is the operation if that fails or the patient will not accept a neck incision. Ligation can raise lymphatic back-pressure and cause a chylothorax, so image the chest if breathlessness develops.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ecfed082107b3be4",
+     "n": 316,
+     "p": "Postoper"
+    },
+    {
+     "h": "24e7a09ee3debbb8",
+     "n": 458,
+     "p": "Followin"
+    }
+   ],
+   "locator": "He Q, Tian W, Zhu J, et al., Expert Working Group on Thyroid Surgery, Chinese Medical Doctor Association Division of Surgeons, and co-sponsoring societies, Therapeutics and Clinical Risk Management 21:229-237 (doi 10.2147/TCRM.S493007), 'Chinese Expert Consensus on Preventing and Managing Chyle Fistula in Cervical Lymph Node Dissection for Thyroid Cancer (2024)', published 27 February 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11880616/, retrieved 2026-09-24"
   }
  ]
 }

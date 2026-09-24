@@ -1,11 +1,11 @@
 # Isovaleric acidaemia (isovaleryl-CoA dehydrogenase deficiency)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** when to suspect isovaleric acidaemia (IVA), laboratory diagnosis and newborn-screening follow-up, emergency and sick-day management, perioperative care, long-term protein restriction, L-carnitine and L-glycine, monitoring, biochemically mild IVA, and outcome. Methylmalonic and propionic acidaemia: see `organic-acidaemias`. First-line samples and anti-catabolic care for any suspected inborn error in an unwell child: see `metabolic-disorders-children`. PBS access (glycine with carbohydrate) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 18 claims quoted verbatim from **Thimm E, Riederer A, Vockley J, Dobbelaere D, Williams M, MacDonald A, Dokoupil K, Schatz UA, Ensenauer R, International Journal of Neonatal Screening (MDPI, for the International Society for Neonatal Screening) 11(4):92 — *Practical Considerations for the Diagnosis and Management of Isovaleryl-CoA-Dehydrogenase Deficiency (Isovaleric Acidemia): Systematic Search and Review and Expert Opinions*** (published 10 October 2025; origin: international); **34 fragments re-checked by machine; 6 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 24 claims; **45 fragments or anchors re-checkable by machine; 6 doses.** **S1** Thimm E (published 10 October 2025; international): 18 claims, quoted · **S2** Reischl-Hajiabadi AT (published 25 September 2025; international): 6 claims, quoted
 
-> ⚠️ International source (expert systematic search and review with consensus statements, 2025; not a society guideline). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International sources (S1: expert systematic search and review with consensus statements, 2025; S2: meta-analysis of newborn-screening outcomes, 2025). **Neither is a society guideline;** none exists for IVA. All diagnosis, emergency, diet and drug claims rest on S1; S2 adds the size of the screening benefit and its limits. Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **The PBS row funds L-glycine (glycine with carbohydrate).** The source recommends glycine only for **metabolically severe** IVA and says no study has confirmed its clinical effect; biochemically mild IVA found on newborn screening needs no strict diet or routine drug therapy.
 
@@ -16,6 +16,15 @@
 - **Suspect IVA in any sick neonate or suspected sepsis,** and at any age with faltering growth, developmental delay and recurrent illness with ketoacidosis. [S1]
 - **Neonatal onset:** poor feeding, vomiting and lethargy progressing to coma or seizures in the first week; a 'sweaty feet' odour can distinguish IVA from other organic acidurias. [S1]
 - **Newborn screening reduces neonatal deaths in classic IVA,** but many screen-detected infants have a metabolically mild form of doubtful clinical relevance. [S1]
+
+## Newborn screening: what it achieves (meta-analysis)
+
+- **Evidence base:** 20 publications from 23 countries covering 240 people with classic IVA, 60 identified by newborn screening and 180 diagnosed after symptoms. [S2]
+- **Screening lowers mortality:** adjusted mortality 1.1% in the screened group versus 10.9% in those diagnosed after symptoms. [S2]
+- **Screening improves development:** neurological disease 13.0% versus 44.9%, developmental delay 6.1% versus 51.2%; IQ scores showed no measurable difference (90.7 versus 87.4). [S2]
+- ⚠️ **Screening does not reliably prevent neonatal crises:** 62% of screened infants with classic IVA had at least one decompensation, 70% of them in the newborn period, and in 40%–46% the crisis came within hours to a few days of birth, before results were available. Do not wait for the screen in a sick neonate. [S2]
+- **Fast reporting matters:** timely NBS reporting is a major prerequisite to prevent severe neonatal decompensation, and the severity of the first crisis remains a determinant of long-term cognition. The authors doubt rapid exome or genome sequencing can beat NBS for speed. [S2]
+- **Attenuated IVA** (found only by screening) was defined as c.932C>T homozygosity or compound heterozygosity, C5 below 6 μmol/L in the first NBS sample, and no neonatal decompensation; screening raised the estimated birth prevalence from 1 in 280 000 to about 1 in 100 000. [S2]
 
 ## Diagnose
 
@@ -61,14 +70,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Emergency drug and protein tables** (Tables 2-4: emergency regimen, safe protein intakes, minimum leucine requirements) and the dose table (Table S3) were stripped or supplementary; age-specific protein targets are not stated here. | `input_unavailable` |
-| 2 | **Evidence type:** the authors call these 'statements', not recommendations, because the evidence is mostly case reports; there is no society guideline for IVA. | `observation` |
-| 3 | **Counterpart:** `organic-acidaemias` (MMA/PA) flagged IVA as uncovered and named this source; `metabolic-disorders-children` covers first-line samples and the 'sweaty feet' odour clue. | `observation` |
-| 4 | **Licence:** CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
+| 2 | **Evidence type:** S1's authors call these 'statements', not recommendations, because the evidence is mostly case reports; there is no society guideline for IVA. S2 (meta-analysis) rated the risk of bias of its included studies from 'some concerns' to 'high concerns', and follow-up was shorter in the screened group. | `observation` |
+| 3 | **Not read:** the GeneReviews chapter 'Classic Isovaleric Acidemia' (Mütze, Reischl-Hajiabadi, Kölker, 2024; NBK601614), which has treatment and surveillance tables, was behind a reCAPTCHA challenge on NCBI Bookshelf and was not bypassed. | `access` |
+| 4 | **Counterpart:** `organic-acidaemias` (MMA/PA) flagged IVA as uncovered and named this source; `metabolic-disorders-children` covers first-line samples and the 'sweaty feet' odour clue. | `observation` |
+| 5 | **Licences:** S1 and S2 are CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Thimm E, Riederer A, Vockley J, Dobbelaere D, Williams M, MacDonald A, Dokoupil K, Schatz UA, Ensenauer R, International Journal of Neonatal Screening (MDPI, for the International Society for Neonatal Screening) 11(4):92. *Practical Considerations for the Diagnosis and Management of Isovaleryl-CoA-Dehydrogenase Deficiency (Isovaleric Acidemia): Systematic Search and Review and Expert Opinions*. published 10 October 2025. https://doi.org/10.3390/ijns11040092 — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Reischl-Hajiabadi AT, Garbade SF, Gleich F, et al., Journal of Inherited Metabolic Disease 48(6):e70090 (doi 10.1002/jimd.70090). *Impact of Newborn Screening on Survival and Developmental Outcome in Classic Isovaleric Aciduria: A Meta-Analysis*. published 25 September 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12464466/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,13 +1,13 @@
 # Endogenous Cushing's syndrome: medical treatment
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** adults with endogenous Cushing's syndrome (pituitary, ectopic or adrenal) who need cortisol-lowering drugs: when medical therapy is used, osilodrostat and other steroidogenesis inhibitors, titration versus block-and-replace, monitoring, the adrenal-insufficiency risk, thromboprophylaxis and pregnancy. Diagnosis and surgery are not covered. Adrenal crisis in children: `adrenal-crisis-children`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** adults with endogenous Cushing's syndrome (pituitary, ectopic or adrenal) who need cortisol-lowering drugs: when medical therapy is used, osilodrostat and other steroidogenesis inhibitors, titration versus block-and-replace, monitoring, the adrenal-insufficiency risk, thromboprophylaxis and pregnancy, with a short note on children from S2. Diagnosis and surgery are not covered. Adrenal crisis in children: `adrenal-crisis-children`.
 
-> ✅ **OPEN AND QUOTED.** 25 claims quoted verbatim from **Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews — *Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome*** (published 5 January 2026; origin: international); **39 fragments re-checked by machine; 5 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **56 fragments or anchors re-checkable by machine; 6 doses.** **S1** Araujo-Castro M (published 5 January 2026; international): 25 claims, quoted · **S2** Fleseriu M (published December 2021; international): 12 claims, paraphrased, hash-anchored
 
-> ⚠️ International source (Endocrine Reviews, 2026). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International sources (Endocrine Reviews, 2026; Pituitary Society, 2021). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **This is an expert narrative review with the authors' practical recommendations, not a society guideline.** The 2021 Pituitary Society consensus was not readable in open full text.
+> ⚠️ **S1 is an expert narrative review with the authors' practical recommendations, not a society guideline;** the osilodrostat, metyrapone and block-and-replace doses, titration by severity and the monitoring markers rest on it. **S2 is the Pituitary Society 2021 consensus guideline update** (Cushing's disease): it adds how to choose the first drug, ketoconazole liver safety, pasireotide, mifepristone and etomidate, when to switch or combine, tumour monitoring and children. S2 predates the 2025 thromboprophylaxis consensus cited in S1.
 
 > ⚠️ **PBS lists only osilodrostat for this row.** Metyrapone, ketoconazole and the other agents discussed are not among the PBS drugs attached below.
 
@@ -21,6 +21,12 @@
 - **Recurrence markers:** mean of at least two 24-hour UFCs, average of at least 3 late-night salivary cortisols, and cortisol after a 1-mg overnight dexamethasone test. Patients with at least 2 of the 3 raised are more likely to benefit from treatment. [S1]
 - **Routine preoperative medical treatment is not supported,** except in poor general health, contraindication to surgery, or refusal. [S1]
 - ⚠️ **Very severe hypercortisolism (e.g. ectopic ACTH, UFC more than 10 times ULN) is treated medically first,** with rapid dose escalation, to get the patient fit for tumour surgery or bilateral adrenalectomy. [S1]
+
+## Choosing the first drug (Pituitary Society)
+
+- **Tailor drug treatment of Cushing's disease to each patient, above all to how severe the hypercortisolism is;** approvals, supply and price differ between countries and shape the choice, but the cost of undertreatment also counts. In severe disease the aim is aggressive normalisation of cortisol, followed with repeated UFC and late-night salivary cortisol. [S2]
+- **Steroidogenesis inhibitors usually come first because they work reliably.** Mild disease with no tumour visible on MRI: ketoconazole, osilodrostat or metyrapone. Cabergoline is an option in mild disease (weaker and slower, but dosed less often). With residual tumour, cabergoline or pasireotide may be preferred for possible shrinkage, choosing pasireotide patients carefully because of hyperglycaemia. [S2]
+- ⚠️ **Severe disease: normalise cortisol fast.** Osilodrostat and metyrapone act within hours and ketoconazole within days; IV etomidate suits an inpatient who cannot take tablets. Combinations of inhibitors may be needed, and bilateral adrenalectomy should be considered if very severe disease resists optimised drugs. [S2]
 
 ## Osilodrostat
 
@@ -39,6 +45,10 @@
 - **Metyrapone for severe disease:** start 1500 mg/day, increase by 750 mg every 72 hours to a maximum of 3750 mg/day, given 3 or 4 times a day. Adding ketoconazole (800 mg/day, rising quickly to 1200 mg/day) works when metyrapone alone is too slow. [S1]
 - **Moderate disease (UFC usually under 3- to 5-fold ULN, comorbidities controlled):** lowest starting doses are osilodrostat 2 mg (or 1 mg) twice daily, metyrapone 250 mg 3 times daily, ketoconazole 200 mg twice daily, or cabergoline 0.5 mg 3 times weekly. [S1]
 - **Sex can guide the choice outside severe disease:** ketoconazole lowers androgens and may suit women; metyrapone or osilodrostat raise them and may suit men. [S1]
+- ⚠️ **Ketoconazole and the liver:** liver enzymes rise in 10–20%, mostly mildly (up to 5 × ULN) within the first 6 months, and settle 2–12 weeks after reducing or stopping; serious hepatotoxicity has occurred, so check liver tests regularly, though mild stable rises need not stop treatment. It can cause hypogonadism and gynaecomastia in men, and has many drug interactions. [S2]
+- ⚠️ **Mifepristone (glucocorticoid-receptor blocker) leaves cortisol high,** so blood tests cannot guide dosing or detect adrenal insufficiency. Because of its long half-life, insufficiency needs several days of stress-dose glucocorticoid, preferably dexamethasone. It often worsens hypokalaemia and should be used only by clinicians very experienced in Cushing's disease. [S2]
+- ⚠️ **Etomidate for acute severe disease in hospital:** 0.04–0.05 mg/kg/h gives partial blockade; 0.5–1 mg/kg/h gives complete blockade with IV hydrocortisone to prevent adrenal insufficiency; 0.025 mg/kg/h may be used outside ICU, depending on local practice. [S2]
+- **Combinations:** there are few rigorous data. Ketoconazole plus metyrapone is common when one drug fails or to lower both doses; an inhibitor plus a tumour-directed drug (e.g. ketoconazole plus cabergoline) is rational when tumour is visible. Watch for additive QTc prolongation and interactions. [S2]
 
 ## Titration or block-and-replace
 
@@ -50,11 +60,19 @@
 
 - **Combine markers:** UFC for overall secretion, late-night salivary cortisol for the nadir (both detect under-dosing), and morning serum cortisol to detect over-dosing. Morning cortisol below 5 µg/dL indicates adrenal insufficiency; 8 to 10 µg/dL may indicate good control. In moderate disease check every 2 to 3 weeks. [S1]
 - ⚠️ **Teach every patient about adrenal insufficiency when starting:** its signs (nausea, weight loss, marked fatigue, postural hypotension), how to start glucocorticoid at home, an emergency injection pack, whom to call, and written sick-day rules. With moderate-to-severe symptoms, the patient starts glucocorticoid before contacting the team. [S1]
+- **Switch or combine when control fails:** if cortisol stays high after 2–3 months at the highest tolerated dose, change treatment. Partial response (lower cortisol or some clinical gain) suggests adding a second drug; clear resistance suggests switching. First make sure the problem is not under-dosing. [S2]
+- **Watch the tumour on adrenal-directed drugs:** track ACTH, since a marked rise may signal tumour growth and the need for MRI (ACTH fluctuates, so it is imperfect). MRI is usually done 6–12 months after starting and then every few years; if the tumour grows, suspend treatment and reassess. [S2]
 
 ## Thrombosis and pregnancy
 
 - ⚠️ **Consider thromboprophylaxis at diagnosis in every patient and continue for 3 months after biochemical remission,** unless contraindicated; standard weight-based prophylactic low-molecular-weight heparin is preferred (2025 international Delphi consensus). [S1]
 - **Pregnancy:** women with active Cushing's need contraception, preferably non-oestrogen. If a drug is needed in pregnancy, metyrapone and cabergoline are the best options; none is approved for pregnancy. [S1]
+- **Pituitary Society on pregnancy:** metyrapone may be considered with precautions; because normal cortisol is higher in pregnancy, a higher cortisol target such as 1.5 × ULN is used. [S2]
+- **Pituitary Society on thrombosis:** venous thromboembolism risk is more than 10-fold higher than in surgery for non-functioning adenomas and persists for months after surgery; retrospective data suggest postoperative thromboprophylaxis helps, especially when extended to 30 days, but who benefits most is still being worked out. [S2]
+
+## Children (Pituitary Society)
+
+- **Children:** surgery is still first line. Unlike in adults, thromboprophylaxis is not routine (bleeding risk) and is kept for selected patients. When drugs are needed, ketoconazole or metyrapone is usual, with morning cortisol to track response; pasireotide is not recommended, and osilodrostat trials in children are under way. [S2]
 
 ---
 
@@ -76,11 +94,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Drug comparison and adrenal-insufficiency case tables** (Tables 1 to 5) were stripped. | `input_unavailable` |
 | 3 | **Diagnosis of Cushing's syndrome and surgical management** are outside this medical-treatment source. | `out_of_scope` |
 | 4 | **Australian availability:** only osilodrostat is PBS-listed for this condition; the source's other agents may need non-PBS supply. Check local access. | `observation` |
+| 5 | **Thromboprophylaxis differs between sources:** S1 (citing a 2025 Delphi consensus) advises considering it for every patient from diagnosis until 3 months after remission; S2 (2021) supports postoperative prophylaxis, especially for 30 days, and says selection criteria are still being developed, and in children advises against routine use. Both are shown; the newer position is S1's. | `observation` |
+| 6 | **Choosing by sex:** S1 suggests ketoconazole may suit women and metyrapone or osilodrostat men (androgen effects); S2 says it is not yet known whether sex should drive long-term drug choice. | `observation` |
+| 7 | **S2 scope and tables:** S2 is about Cushing's disease (pituitary); its treatment summary panel and tables were not machine-read, and its ketoconazole, metyrapone, cabergoline and pasireotide starting doses are not stated in its prose. | `input_unavailable` |
+| 8 | **Licences:** S1 is CC BY 4.0 and quoted; S2 is an NIH author manuscript (© Elsevier, text-mining and fair-use notice), so it is paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Araujo-Castro M, Lamas C, Nowak E, Newell-Price J, Reincke M, Castinetti F, Endocrine Reviews. *Update and Practical Recommendations for the Use of Medical Treatment of Cushing Syndrome*. published 5 January 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13167195/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Fleseriu M, Auchus R, Bancos I, Ben-Shlomo A, et al., for the Pituitary Society, Lancet Diabetes & Endocrinology 9(12):847-875 (doi 10.1016/S2213-8587(21)00235-7); NIH author manuscript NIHMS1752854. *Consensus on diagnosis and management of Cushing's disease: a guideline update*. published December 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/ — retrieved 2026-09-24. | © Elsevier Ltd (author manuscript in PMC: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.') | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

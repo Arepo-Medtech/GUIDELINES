@@ -1,11 +1,13 @@
 # Anorectal malformations: bowel management after repair
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** assessment of continence potential and the stepwise bowel management programme (stimulant laxatives, rectal enemas, transanal irrigation, antegrade continence enemas, sigmoid resection, redo surgery) for children with an anorectal malformation (ARM) after primary repair. Neonatal diagnosis and colostomy are only outlined. Hirschsprung disease and its enterocolitis: see `hirschsprung-enterocolitis`. Functional constipation in children: see `constipation`. PBS access (bisacodyl; sorbitol-citrate micro-enemas) is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** assessment of continence potential and the stepwise bowel management programme (stimulant laxatives, rectal enemas, transanal irrigation, antegrade continence enemas, sigmoid resection, redo surgery) for children with an anorectal malformation (ARM) after primary repair, plus toilet training, anal calibration, perineal skin care and incontinence aids (S2). Neonatal diagnosis and colostomy are only outlined. Hirschsprung disease and its enterocolitis: see `hirschsprung-enterocolitis`. Functional constipation in children: see `constipation`. PBS access (bisacodyl; sorbitol-citrate micro-enemas) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 16 claims quoted verbatim from **Bokova E, Svetanoff WJ, Lopez JJ, Levitt MA, Rentea RM (Comprehensive Colorectal Center, Children's Mercy Hospital, Kansas City), Children (MDPI) 10(5):846 — *State of the Art Bowel Management for Pediatric Colorectal Problems: Anorectal Malformations*** (published 8 May 2023; origin: international); **30 fragments re-checked by machine; 2 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 25 claims; **44 fragments or anchors re-checkable by machine; 2 doses.** **S1** Bokova E (published 8 May 2023; international): 16 claims, quoted · **S2** Aubert O (published online 19 September 2024 (2025 issue); international): 9 claims, paraphrased, hash-anchored
 
-> ⚠️ International source (narrative state-of-the-art review from one US colorectal centre, 2023; not a society guideline). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International source (S1: narrative state-of-the-art review from one US colorectal centre, 2023; not a society guideline). Australian practice follows the PBS listings below and may differ. The assessment, laxative, enema, irrigation and ACE claims rest on S1.
+
+> ⚠️ International guideline (ERN eUROGEN, European Reference Network, 2024/2025; S2). Australian practice follows the PBS listings below and may differ. The toilet-training, calibration, skin-care, aids and last-resort-stoma claims marked S2 rest on it; its incontinence recommendations are grade D (expert opinion).
 
 > ⚠️ **Avoid stool softeners in ARM.** Children with a repaired ARM lack normal anal sensation and detect formed stool better than soft stool: stimulant laxatives plus soluble fibre, or enemas, are the basis of treatment. **Bisacodyl** appears in the source only as a stimulant added to enema fluid; small-volume micro-enemas are not discussed.
 
@@ -38,6 +40,18 @@
 
 - **Correct anatomical problems first:** a redo PSARP for mislocated anoplasty, stricture, fistula remnant or prolapse can be the key to continence; a skin-level stricture can be treated with a Heineke-Mikulicz-like anoplasty instead of dilations. [S1]
 - **A dedicated bowel management programme works:** 70% of 222 children with faecal incontinence were clean at one year, with better quality-of-life scores. [S1]
+- **For persistent, specific faecal incontinence, S2 allows redo surgery** planned with an experienced surgeon or centre; when redo surgery is not advised, a permanent stoma is the last resort. Remember the link with urological malformations and bring in paediatric urology when needed. [S2]
+
+## European guideline: continence care, calibration and support (S2)
+
+- **Every child with ARM should be helped toward urinary and faecal continence;** where that is not achievable, the aim becomes the best possible quality of life, for example pseudo-continence through bowel management. [S2]
+- **Toilet training can begin at 2 to 5 years,** on a plan fitted to the ARM type, other conditions and the child's maturity. Look after the perineal skin, posture and seating (a toilet-seat reducer) and keep regular toilet times; if training stalls, involve a team of paediatric surgeon, nurse, physiotherapist and possibly a psychologist. [S2]
+- ⚠️ **Teach parents to spot constipation and the overflow soiling it causes.** Incontinence can be treated, perhaps only for a time, with enemas, rectal irrigation or (when constipation is present) laxatives; if rectal irrigation fails or cannot be done (for example rectal trauma or physical inability), consider antegrade irrigation through a Malone stoma. [S2]
+- **Grade of evidence:** S2 states that its incontinence recommendations rest mainly on expert opinion because study evidence is lacking. [S2]
+- ⚠️ **Anal calibration after anorectoplasty:** routine home calibration is optional, not required. Avoid painful calibration at all costs (dilatations hurt in more than two-thirds of cases); any programme should last no longer than 3 to 4 months with close follow-up. For a skin-level anal stenosis, consider dilatation under general anaesthetic, otherwise stricturoplasty. [S2]
+- **Timing of repair:** reconstruct within the first year of life unless surgery is contraindicated; timing depends on the rectal height and whether there is a urinary-tract connection. [S2]
+- **Perianal skin care:** skin or stoma nurses should review wound, stoma and perianal care regularly, in and out of hospital. Parents can use sitz baths or zinc ointment for irritation and hydrophilic barrier creams to shield the skin from stool and urine. [S2]
+- **Incontinence aids and support:** give families understandable information on aids (manual or automated enema or irrigation systems with various nozzles, incontinence briefs, protective pads), ideally with a specialised ARM nurse, and encourage contact with ARM patient associations. [S2]
 
 ---
 
@@ -58,13 +72,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **Megacolon** (PBS row, same drugs) is not attached: the source discusses only the megarectosigmoid that follows ARM repair, not megacolon in general; Hirschsprung disease is in a sister review in the same series. | `out_of_scope` |
 | 2 | **Laxative and enema doses by age** (senna titration, stimulant concentrations) are not given beyond the figures quoted; the stepwise protocol is in Figure 3, which was not extracted. | `input_unavailable` |
 | 3 | **Rome IV continence criteria** (Table 1) were stripped. | `input_unavailable` |
-| 4 | **Evidence type:** narrative review from a single high-volume US centre, not a consensus guideline. ARM-Net (2015) covers only diagnosis and early newborn management. | `observation` |
-| 5 | **Licence:** CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
+| 4 | **Evidence type:** S1 is a narrative review from a single high-volume US centre, not a consensus guideline; S2 is a European Reference Network guideline (graded, mostly grade D for incontinence). ARM-Net (2015) covers only diagnosis and early newborn management. | `observation` |
+| 5 | **Skin-level stricture differs:** S1 treats a post-PSARP skin-level stricture with a Heineke-Mikulicz-like anoplasty instead of dilations; S2 suggests dilatation under general anaesthetic, otherwise stricturoplasty. Both are shown. | `observation` |
+| 6 | **Drug choice:** S1 prefers stimulant laxatives with soluble fibre and advises against stool softeners; S2 names laxatives, enemas and irrigation without specifying agents. S1's specific advice is not contradicted by S2. | `observation` |
+| 7 | **S2 licence:** © Thieme, all rights reserved; read from the publisher's version in the Radboud Repository (Dutch Copyright Act art. 25fa), so its claims are paraphrased and hash-anchored. Its recommendation tables were read in the extracted text; its Supplementary Material (evidence summaries) was not. | `observation` |
+| 8 | **Licence:** CC BY 4.0. Claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Bokova E, Svetanoff WJ, Lopez JJ, Levitt MA, Rentea RM (Comprehensive Colorectal Center, Children's Mercy Hospital, Kansas City), Children (MDPI) 10(5):846. *State of the Art Bowel Management for Pediatric Colorectal Problems: Anorectal Malformations*. published 8 May 2023. https://doi.org/10.3390/children10050846 — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257). *ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment*. published online 19 September 2024 (2025 issue). https://hdl.handle.net/2066/318087 — retrieved 2026-09-24. | © 2024 Thieme, all rights reserved; publisher's version deposited in the Radboud Repository under article 25fa of the Dutch Copyright Act (Taverne) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

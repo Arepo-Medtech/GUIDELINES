@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/anorectal-malformations-and-bowel-management.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.3390/children10050846"
+  "https://doi.org/10.3390/children10050846",
+  "https://hdl.handle.net/2066/318087"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Bokova E, Svetanoff WJ, Lopez JJ, Levitt MA, Rentea RM (Comprehensive Colorectal Center, Children's Mercy Hospital, Kansas City), Children (MDPI) 10(5):846 'State of the Art Bowel Management for Pediatric Colorectal Problems: Anorectal Malformations' (published 8 May 2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10217060). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Bokova E, Svetanoff WJ, Lopez JJ, Levitt MA, Rentea RM (Comprehensive Colorectal Center, Children's Mercy Hospital, Kansas City), Children (MDPI) 10(5):846 'State of the Art Bowel Management for Pediatric Colorectal Problems: Anorectal Malformations' (published 8 May 2023), 16 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10217060). S2: PARAPHRASED AND HASH-ANCHORED from Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257) 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment' (published online 19 September 2024 (2025 issue)), 9 claims; LICENCE: © 2024 Thieme, all rights reserved; publisher's version deposited in the Radboud Repository under article 25fa of the Dutch Copyright Act (Taverne) (read at cover page of the Radboud Repository PDF (repository.ubn.ru.nl/bitstream/handle/2066/318087/1/318087.pdf) and the Thieme copyright line on each page). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European Reference Network eUROGEN guideline on ARM treatment (ADAPTE adaptation of the Dutch Quality Standard, 15-expert panel from seven countries, graded recommendations); S1 claims and anchors are unchanged. The Thieme publisher PDF (free to read) returned a 'Please wait' bot interstitial and was not used; the identical publisher's version was read from the Radboud Repository. Europe PMC searches for ERNICA, ARM-Net, ESPGHAN and APSA ARM guidance found: ARM-Net 2015 (diagnosis and newborn care only) and the APSA 2024 and 2025 ARM guidelines (J Pediatr Surg, closed access).",
  "summary": {
-  "total": 16,
+  "total": 25,
   "pass": 16,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
   {
@@ -129,6 +131,148 @@
    "verdict": "pass",
    "source_text": "Wood et al. reported that 70% of 222 patients that were enrolled in a bowel management program for fecal incontinence were clean at a 1-year follow-up. … The study also demonstrated significant improvement in the Baylor, Vancouver, and total PedsQL scales from referral to one-year follow-up",
    "locator": "Bokova E, Svetanoff WJ, Lopez JJ, Levitt MA, Rentea RM (Comprehensive Colorectal Center, Children's Mercy Hospital, Kansas City), Children (MDPI) 10(5):846, 'State of the Art Bowel Management for Pediatric Colorectal Problems: Anorectal Malformations', published 8 May 2023, https://doi.org/10.3390/children10050846, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For persistent, specific faecal incontinence, S2 allows redo surgery** planned with an experienced surgeon or centre; when redo surgery is not advised, a permanent stoma is the last resort. Remember the link with urological malformations and bring in paediatric urology when needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fef46e1280371bfb",
+     "n": 241,
+     "p": "In case "
+    },
+    {
+     "h": "5c9579880c9900a3",
+     "n": 149,
+     "p": "Furtherm"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Every child with ARM should be helped toward urinary and faecal continence;** where that is not achievable, the aim becomes the best possible quality of life, for example pseudo-continence through bowel management.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "954c4a6939a44523",
+     "n": 257,
+     "p": "Achievin"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Toilet training can begin at 2 to 5 years,** on a plan fitted to the ARM type, other conditions and the child's maturity. Look after the perineal skin, posture and seating (a toilet-seat reducer) and keep regular toilet times; if training stalls, involve a team of paediatric surgeon, nurse, physiotherapist and possibly a psychologist.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a53cc0a75f542db",
+     "n": 543,
+     "p": "An indiv"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Teach parents to spot constipation and the overflow soiling it causes.** Incontinence can be treated, perhaps only for a time, with enemas, rectal irrigation or (when constipation is present) laxatives; if rectal irrigation fails or cannot be done (for example rectal trauma or physical inability), consider antegrade irrigation through a Malone stoma.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b13624f304626904",
+     "n": 335,
+     "p": "It is es"
+    },
+    {
+     "h": "673a821272367149",
+     "n": 135,
+     "p": "Bowel in"
+    },
+    {
+     "h": "75aec05fe4833a17",
+     "n": 92,
+     "p": "If recta"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Grade of evidence:** S2 states that its incontinence recommendations rest mainly on expert opinion because study evidence is lacking.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eef4c0e1fc9745cc",
+     "n": 158,
+     "p": "importan"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Anal calibration after anorectoplasty:** routine home calibration is optional, not required. Avoid painful calibration at all costs (dilatations hurt in more than two-thirds of cases); any programme should last no longer than 3 to 4 months with close follow-up. For a skin-level anal stenosis, consider dilatation under general anaesthetic, otherwise stricturoplasty.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0ad24b0ca4cdbce",
+     "n": 438,
+     "p": "In case "
+    },
+    {
+     "h": "859e92be4e09c9b7",
+     "n": 82,
+     "p": "anal dil"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Timing of repair:** reconstruct within the first year of life unless surgery is contraindicated; timing depends on the rectal height and whether there is a urinary-tract connection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0dedacd1d72c7016",
+     "n": 258,
+     "p": "Timing o"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Perianal skin care:** skin or stoma nurses should review wound, stoma and perianal care regularly, in and out of hospital. Parents can use sitz baths or zinc ointment for irritation and hydrophilic barrier creams to shield the skin from stool and urine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2349e596d4a308a8",
+     "n": 529,
+     "p": "Proper c"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Incontinence aids and support:** give families understandable information on aids (manual or automated enema or irrigation systems with various nozzles, incontinence briefs, protective pads), ideally with a specialised ARM nurse, and encourage contact with ARM patient associations.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f0274f383d39ee10",
+     "n": 326,
+     "p": "Patients"
+    },
+    {
+     "h": "369154a7077e9bbf",
+     "n": 106,
+     "p": "It is re"
+    }
+   ],
+   "locator": "Aubert O, Irvine WFE, Aminoff D, et al., Gosemann JH, European Reference Network eUROGEN, European Journal of Pediatric Surgery 35(2):112-119 (doi 10.1055/s-0044-1791257), 'ERN eUROGEN Guidelines on the Management of Anorectal Malformations, Part II: Treatment', published online 19 September 2024 (2025 issue), https://hdl.handle.net/2066/318087, retrieved 2026-09-24"
   }
  ]
 }

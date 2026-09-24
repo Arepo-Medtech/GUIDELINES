@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/intralesional-corticosteroids-in-dermatology.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://dermnetnz.org/topics/intralesional-steroid-injection"
+  "https://dermnetnz.org/topics/intralesional-steroid-injection",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from DermNet (Lin C-Y, Waikato Hospital), New Zealand 'Intralesional steroid injection' (2012). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © DermNet. Website terms cl. 11: all information on the site is protected by copyright; cl. 14: reproduction for other purposes needs DermNet's written permission (read at https://dermnetnz.org/terms (read 2026-09-23)). The source's words are NOT reproduced here. Source text: the DermNet topic page fetched with urllib/curl, scripts, styles and navigation removed, tags stripped.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from DermNet (Lin C-Y, Waikato Hospital), New Zealand 'Intralesional steroid injection' (2012), 16 claims; LICENCE: © DermNet. Website terms cl. 11: all information on the site is protected by copyright; cl. 14: reproduction for other purposes needs DermNet's written permission (read at https://dermnetnz.org/terms (read 2026-09-23)). S2: QUOTED from Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y) 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018' (published 27 December 2019), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6933735). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: the DermNet topic page fetched with urllib/curl, scripts, styles and navigation removed, tags stripped. Edition 2.0 adds S2, the Japan Scar Workshop keloid and hypertrophic scar consensus (Europe PMC JATS XML through pmc_text.py, tables stripped), quoted under CC BY 4.0; the S1 claims are unchanged.",
  "summary": {
-  "total": 16,
-  "pass": 0,
+  "total": 25,
+  "pass": 9,
   "fail": 0,
   "pass_paraphrase_anchored": 16
  },
@@ -241,6 +242,70 @@
     }
    ],
    "locator": "DermNet (Lin C-Y, Waikato Hospital), New Zealand, 'Intralesional steroid injection', 2012, https://dermnetnz.org/topics/intralesional-steroid-injection, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Adults:** start straight away with a strong steroid plaster for 3 months (a weak tape if mild); add triamcinolone acetonide injections if plasters are not enough; refer to a specialised facility if plaster and injections fail.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In terms of adult patients, it is recommended that they start immediately with strong steroid plasters for 3 months (although a weak steroid tape can use used in mild cases). If the plasters are not effective, triamcinolone acetonide injections can be added. Oral medicines such as tranilast can be given for severe cases. Rest/fixation and compression therapies should be provided if the lesion is on a joint or highly movable body site. If the steroid plaster and injections are not effective, the patient should be referred to a specialized medical facility (Fig. 20).",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Children:** steroid tape comes first, not injection: a weak tape for 3 months, then a stronger plaster for another 3 months, with referral if tape or plaster does not work.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "it is recommended that pediatric patients undergo continuous treatment with corticosteroid tape/plaster, as detailed in Fig. 19. A weak steroid tape should be tried first for 3 months. If it is not effective, a stronger steroid plaster should be tried for another 3 months. Oral medicines such as tranilast can be given for severe cases. If the steroid tape/plaster treatment is not effective, the patient should be referred to a specialized medical facility.",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Triamcinolone acetonide injection both treats an existing keloid or hypertrophic scar and prevents relapse after excision.**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The corticosteroid in this case is triamcinolone acetonide (Kenacort-A®) [-]. Injections with this agent can be used to either ameliorate existing keloids and hypertrophic scars [, ] or to prevent relapse after excisional surgery",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Dose per injection: 2–5 ml made by diluting 5–10 mg of triamcinolone acetonide with local anaesthetic** (e.g. xylocaine 1% with epinephrine). Keeping the dose at or below 5 mg may mean fewer menstrual irregularities.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is recommended that each injection should consist of 2-5 ml of a triamcinolone acetonide preparation that is generated by diluting 5-10 mg with a local anesthetic such as xylocaine 1% with epinephrine. Women may experience fewer menstrual irregularities if the triamcinolone acetonide dose does not exceed 5 mg.",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Limit the pain:** anaesthetic tapes or creams, local anaesthetic before the steroid, thin 30G or 27G needles on locking syringes, and no large volumes into hard areas (the pain arrives when the anaesthetic wears off).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Several reports have described measures that can prevent the pain caused by triamcinolone acetonide injection [, ]. They recommend to apply anesthetic tapes and creams. They also suggest injecting local anesthetic before proceeding with the triamcinolone acetonide injection []. However, they caution against injecting hard areas with large quantities of triamcinolone acetonide, even if the injection does not hurt at the time. This is because when the anesthesia wears off, the patient may experience strong pain. … Thin needles such as 30G and 27G should be used along with syringes with locks.",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not aim at the hard centre at first:** enter from the border with normal skin and target the deepest or most inflamed part of the scar; once it softens, the core can be injected.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Initially, the target of the injection should not be the center of the hard mass of the keloid or hypertrophic scar. This is because the injection fluid will not infiltrate the tissue sufficiently. The rising pressure caused by injecting the hard mass may also cause pain. Instead, the needle should enter the scar from its border with the normal skin and target either the deepest part of the scar (because the deepest part of the scar is softer than its central core) or the most heavily inflamed part of the scar at the junction between the normal skin and the scar (Fig. 23). After the scar has softened, the needle can be injected straight into the core.",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Space repeat injections at 2-week intervals.** Small scars may improve after one or two injections, with steroid tape or plaster keeping the result.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Repeated injections should be spaced out by 2-week intervals. Smaller keloids and hypertrophic scars can improve markedly after just one or two injections. In this case, further injections are not needed if the improvement can be maintained by applying corticosteroid tape/plaster.",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not inject in pregnancy, and avoid injection in diabetes, glaucoma or cataract.** Inject fat cautiously (it atrophies), and take care around the face: a triamcinolone embolus has caused blindness.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Injecting fatty tissues with triamcinolone acetonide should be done with caution because it can cause the fatty tissue to atrophy. Pregnant women should not undergo triamcinolone acetonide injections. In addition, the injections should be avoided in patients with diabetes mellitus, glaucoma, or cataracts. … Injection around the face should be performed with caution because there was a case report of blindness caused by the triamcinolone acetonide embolus",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Use lower doses in children and elderly people:** iatrogenic Cushing syndrome has followed injections in both, and high doses can upset menstruation and lower bone density in older patients.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The dose should be considered carefully because high doses can cause menstrual irregularities in women and lower bone density in elderly patients. In particular, lower doses should be used with children and elderly people because there are several reports of iatrogenic Cushing syndrome developing in both groups after triamcinolone acetonide injections",
+   "locator": "Japan Scar Workshop (Ogawa R, Akita S, Akaishi S, et al.), Burns & Trauma 7:39 (doi 10.1186/s41038-019-0175-y), 'Diagnosis and Treatment of Keloids and Hypertrophic Scars—Japan Scar Workshop Consensus Document 2018', published 27 December 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6933735/, retrieved 2026-09-24"
   },
   {
    "claim": "**Triamcinolone is sometimes given intramuscularly instead, as a systemic steroid:** typically 0.5–1 mg/kg (40–80 mg in an adult), repeatable every 30 days for 3–6 months.",
