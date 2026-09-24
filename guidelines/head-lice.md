@@ -104,6 +104,27 @@ for 30 seconds and wash pillowcases in hot water or put in a clothes dryer for 1
 | **Antimicrobial stewardship** | the same logic in a different domain: ⚠️ **do not use insecticides preventively; overuse produces resistant lice** |
 | **Ectoparasites** | **oral ivermectin** for refractory cases in both, specialist-initiated in both |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 1 differ · 4 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Head lice (Dermatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Two insecticide applications 7 days apart are used, three applications are recommended for benzyl alcohol, and occasionally a third application may be needed `head-lice#24` | eTG does not fix the number of applications; it defers to product packaging, checks with wet combing the day after each treatment, and switches to a different insecticide class if live lice persist after correct use. [T1] | eTG does not specify two applications 7 days apart; it relies on product instructions and response checks. |
+
+### Additional therapies in eTG
+
+- Head lice refractory to all topical treatments: ivermectin 200 micrograms/kg orally with fatty food as a single dose, repeated after 7 days (adults and children 15 kg or more; off-label). [T1]
+- Wet combing with conditioner and a fine-toothed comb, daily until no lice are found, as a non-drug treatment (about 40% success alone) and weekly after cure to detect recurrence. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Head lice* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Head-lice_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

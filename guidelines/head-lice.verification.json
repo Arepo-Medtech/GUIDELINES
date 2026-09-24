@@ -5,10 +5,11 @@
  "verifier": "claude-opus-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://amhonline.amh.net.au/chapters/dermatological-drugs/scabicides-pediculicides/head-lice"
+  "https://amhonline.amh.net.au/chapters/dermatological-drugs/scabicides-pediculicides/head-lice",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Head-lice_topic_2"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "Read under subscription in the operator's browser and PARAPHRASED. No AMH passage reproduced and no source_text stored; every claim carries a locator and verdict licensed_source_not_quoted. Application-time and repeat-interval claims are flagged dose:true because they ARE the dose for these products. No oral ivermectin dose is given for head lice in the source; the scabies ivermectin dose held in the ectoparasites guideline was deliberately NOT carried across to this indication.",
+ "method": "Read under subscription in the operator's browser and PARAPHRASED. No AMH passage reproduced and no source_text stored; every claim carries a locator and verdict licensed_source_not_quoted. Application-time and repeat-interval claims are flagged dose:true because they ARE the dose for these products. No oral ivermectin dose is given for head lice in the source; the scabies ivermectin dose held in the ectoparasites guideline was deliberately NOT carried across to this indication. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Head lice infestation with Pediculus humanus capitis can occur at any age but is most common in school-age children",
@@ -158,10 +159,26 @@
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, therapeutic topic 'Head lice' (Dermatological drugs > Scabicides and pediculicides), including the Common treatments for head lice table, July 2026 release, read under subscription 2026-09-22",
    "dose": true
+  },
+  {
+   "claim": "Head lice refractory to all topical treatments: ivermectin 200 micrograms/kg orally with fatty food as a single dose, repeated after 7 days (adults and children 15 kg or more; off-label).",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Head lice' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Head-lice_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Lack of response to treatment of head lice'"
+  },
+  {
+   "claim": "Wet combing with conditioner and a fine-toothed comb, daily until no lice are found, as a non-drug treatment (about 40% success alone) and weekly after cure to detect recurrence.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Dermatology guideline: 'Head lice' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Head-lice_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Treatment of head lice'"
   }
  ],
  "summary": {
-  "total": 24,
+  "total": 26,
   "pass": 0,
   "fail": 0
  }
