@@ -1,198 +1,91 @@
 # Febrile seizure
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** seizure with fever in a young child — classification, investigation, discharge and follow-up.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Scope:** a young child who has a seizure with fever: what counts as simple, complex or prolonged, when (rarely) to investigate, recurrence and family risk, escalation, discharge teaching and when to follow up for epilepsy risk. A seizure still going at 5 minutes is treated under `seizures-acute-management-children`, which holds the benzodiazepine doses and the rule for counting doses given before arrival. The fever and its source are worked up as for any febrile child (`febrile-child`), with `sepsis-children` and `meningitis-and-encephalitis-children` for the child with signs of sepsis or meningitis.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Clinical Practice Guidelines:
-> Febrile seizure***. **Last updated February 2026. PIC Endorsed** [S1].
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 33 claims paraphrased from **The Royal Children's Hospital Melbourne — *Clinical Practice Guidelines: Febrile seizure*** (last updated February 2026, PIC endorsed; origin: AU). **38 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *© The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored*.
 
-**The commonest childhood seizure presentation, and the pair to the acute seizure guideline already in this
-set.** It is also **the most current source in the compendium** — seven months old, ahead of the June 2026
-stroke standard.
+> ⚠️ **Three things this page tells you not to do:** extra tests for a simple febrile seizure, antipyretics to prevent the next one, and routine long-term antiseizure medicine.
 
-## ⚠️ All three key points are negatives
+> 🔗 **Links in this set:** the 5-minute treatment threshold hands over to `seizures-acute-management-children`; sepsis, meningitis and encephalitis signs route to `sepsis-children`; the whole page supports `antimicrobial-stewardship` by stopping work-ups that end in empirical antibiotics. For later life, `fitness-to-drive-seizures-and-epilepsy` notes that a benign childhood seizure history, febrile seizures included, does not bar an unconditional licence when there have been no seizures after age 11.
 
-> 1. **Most febrile seizures are benign and do not require further investigation**
-> 2. **Management includes identifying and managing the source of infection**
-> 3. **Antipyretics do not prevent febrile convulsions** [S1]
+---
 
-**Point 3 contradicts what most parents believe and many are told.** Paracetamol and ibuprofen treat the
-child's discomfort; they do not prevent the event the parent is afraid of. Saying so is part of the discharge
-conversation, not an aside.
+## Key points
 
-## ⚠️ The seizure adds nothing to the infection risk
-
-> **Children with simple febrile seizures have the equivalent risk of serious bacterial infection as those
-> with fever alone** [S1].
-
-**This is the sentence that changes a workup.** The seizure is frightening and it is not evidence. A child who
-has had a simple febrile seizure is investigated for their fever exactly as any febrile child would be — no
-more.
-
-> **A simple febrile seizure does not require additional investigations beyond any required for investigation
-> of the fever.** **Additional blood tests and neuroimaging are low yield and risk exposing the child to
-> unnecessary painful procedure and/or radiation** [S1].
-
-**The harm is named as pain first and radiation second** — the needle, not only the dose. Few guidelines in
-this set weigh a procedure that way.
-
-And: > **Ongoing treatment with antiepileptic drugs is not routinely recommended** [S1].
-
-**Three refusals in one short guideline**: don't investigate, don't prophylax with antipyretics, don't start
-an antiseizure medicine.
+- ⚠️ **Three headline messages:** the large majority of febrile seizures are benign and need no further work-up · care centres on finding and treating the infection · giving antipyretics will not stop a febrile convulsion happening. [S1]
+- ⚠️ **The seizure does not raise the infection risk:** after a simple febrile seizure, the chance of a serious bacterial infection is the same as with fever alone. Manage the cause of the fever. [S1]
 
 ## Definition and classification
 
-> **A seizure associated with a fever (of at least 38°C) in a young child without any of the following:
-> central nervous system infection; electrolyte imbalance; a history of afebrile seizures** [S1].
+- **Definition:** a young child has a seizure together with fever of at least thirty-eight degrees Celsius (the page renders it '380C'), and has none of: an infection of the central nervous system, an electrolyte disturbance, or previous seizures without fever. [S1]
+- **Typical age 6 months to 6 years**; most occur with an uncomplicated viral infection. [S1]
+- **Simple** (all four needed): generalised tonic-clonic · lasts under 15 min · fully recovered within 1 hour · no second seizure in the same illness. [S1]
+- **Afebrile febrile seizure:** fits the simple pattern but happens during an acute infection with no fever documented. [S1]
+- **Complex** (any one is enough): focal features · lasts over 15 min · altered mental state persisting beyond 1 hour · a repeat seizure in the same illness. [S1]
+- **Prolonged febrile seizure:** a complex one lasting over 30 minutes; it can be linked to genetic epilepsy syndromes. [S1]
 
-**Usually occur between 6 months and 6 years of age** and are **normally associated with simple viral
-infections** [S1].
+## Recurrence and family risk
 
-| **Simple febrile seizure** [S1] | **Complex febrile seizure** [S1] |
-|---|---|
-| **Generalised tonic-clonic, and** | **Focal features, or** |
-| **Duration <15 min, and** | **Duration >15 min, or** |
-| **Complete recovery <1 hour, and** | **Persistent altered mental status (>1 hour), or** |
-| **Does not recur within same illness** | **Recurrence within same illness** |
-| **Afebrile febrile seizure:** *as above but occurring during an acute infectious illness without a documented fever* | **Prolonged febrile seizure:** *as above with duration >30 minutes — may be associated with genetic epilepsy syndromes* |
-
-**Simple requires all four; complex requires any one.** The asymmetry is the whole triage.
-
-**"Afebrile febrile seizure" is a named category for a child who fits the picture without a recorded
-temperature** — which is what actually happens when a parent gives paracetamol before presenting.
-
-## Recurrence, and the family
-
-**Younger children are more likely to have a further febrile seizure** [S1]:
-
-| Age at seizure | Risk of recurrence |
-|---|---|
-| **1 year old** | **50%** |
-| **2 years old** | **30%** |
-
-**Genetics** [S1]:
-
-| | Risk |
-|---|---|
-| **Background prevalence** | **1 in 30** |
-| **One sibling affected** | **1 in 5** |
-| **Both parents and a previous child affected** | **1 in 3** |
-
-- **No single susceptibility gene for febrile seizure is known** [S1]
-- **Genes have been identified in families with "genetic epilepsies with febrile seizures plus spectrum"
-  (GEFS+)** [S1]
-
-**These are the numbers the discharge conversation needs.** A parent of a one-year-old is being told, honestly,
-that it is roughly a coin flip.
+- **Recurrence is likelier the younger the child:** roughly 50% if the first seizure is at 1 year of age, 30% at 2 years. [S1]
+- **Family risk:** 1 in 30 in the general population · 1 in 5 with one affected sibling · 1 in 3 when both parents and an earlier child have all had febrile seizures. [S1]
+- **No one gene explains febrile seizures**, although genes have been found in families with the GEFS+ spectrum (genetic epilepsies with febrile seizures plus). [S1]
+- **Genetic testing can be advised for certain higher-risk groups**, for example a child under 18 months with a prolonged febrile seizure. [S1]
 
 ## Assessment
 
-**History** [S1]: **onset of illness**; **source of the fever eg viral, gastroenteritis, UTI**; **seizure
-characteristics — duration, generalised versus focal features, length of post ictal period, return to
-neurological baseline**; **screen for alternative causes of presentation, eg seizure mimickers, cardiac
-dysrhythmia, underlying metabolic syndromes**; **history of neurological conditions**; **history of
-developmental delay or regression**; and **family history of febrile seizures, epilepsy or sudden cardiac
-death**.
+- **History:** when the illness began · the likely fever source (viral illness, gastroenteritis, UTI) · the seizure itself: how long, generalised or focal, how long the post-ictal phase, and whether the child is back to neurological baseline. [S1]
+- **Also ask about:** other explanations for the event (seizure mimics, cardiac arrhythmia, underlying metabolic disorders) · known neurological conditions · developmental delay or regression · febrile seizures, epilepsy or sudden cardiac death in relatives. [S1]
+- **Examination:** look for the infection source, and examine neurologically to confirm the child is back to baseline. [S1]
+- ⚠️ **Red flags for CNS infection:** a complex febrile seizure · meningism (bulging fontanelle, stiff neck, photophobia) · reduced consciousness lasting more than 1 hour after the seizure. [S1]
+- **Check the skin for neurocutaneous signs:** port-wine stain or angiofibroma on the face, hypopigmented macules, café au lait spots. [S1]
 
-**Examination** [S1]: **identify source of infection**, then neurological examination to **confirm return to
-neurological baseline**, with **red flags suggestive of CNS infection**:
+## Investigations
 
-> - **complex febrile seizure**
-> - **meningism (bulging fontanelle, neck stiffness, photophobia)**
-> - **prolonged postictal altered consciousness (>1 hour)** [S1]
+- ⚠️ **Simple febrile seizure: test only what the fever itself needs.** More blood tests and neuroimaging rarely find anything and expose the child to needless painful procedures and/or radiation. [S1]
+- **Atypical presentation or complex seizure: targeted tests.** BGL and serum electrolytes to exclude a provoked seizure; ECG to exclude a mimic. [S1]
+- ⚠️ **Investigate the child who looks seriously unwell** (as for any febrile child). Red flags for serious infection: complex febrile seizures · altered mental state persisting over 1 hour · features of sepsis, meningitis or encephalitis · not fully immunised against *Streptococcus pneumoniae* or *Haemophilus influenzae* B. [S1]
+- **Complex febrile seizure:** CNS imaging is a consideration, but only after discussion with a senior doctor. [S1]
 
-And **neurocutaneous stigmata, eg facial port-wine stain, facial angiofibroma, hypopigmented macules, café au
-lait spots** [S1] — the skin examination that finds a syndrome behind a common event.
+## Treatment and escalation
 
-## When to investigate anyway
+- ⚠️ **Still seizing after 5 minutes? Treat it**, following the acute (afebrile) seizure guideline. [S1]
+- **No routine ongoing antiepileptic medicine.** [S1]
+- **Talk to the local paediatric team** for a complex febrile seizure, or if a serious bacterial infection may have caused the seizure. [S1]
+- **Think about transfer** for respiratory or haemodynamic compromise · a prolonged febrile seizure · altered mental state beyond 1 hour · a child whose needs exceed what the local hospital is comfortable providing. [S1]
 
-**Targeted investigations are recommended in atypical presentations or with complex febrile seizures** [S1]:
+## Discharge and follow-up
 
-- **Exclude provoked seizure: BGL, serum electrolytes**
-- **Exclude seizure mimicker: ECG**
+- **Discharge is reasonable** once the child is neurologically back to normal after a simple febrile seizure and the underlying illness has been assessed and managed. [S1]
+- **Teach every family before they go home:** seizure first aid and a febrile seizure handout; ⚠️ if a seizure lasted over 5 minutes, consider an emergency medication management plan and training parents to give midazolam. [S1]
+- **Follow-up:** arrange review for the underlying illness if needed, and consider outpatient paediatric follow-up (below). [S1]
+- **Outpatient follow-up for epilepsy risk factors:** a prolonged febrile seizure · epilepsy in the family · neurocutaneous signs on examination · complex febrile seizures that keep recurring · developmental impairment. [S1]
+- **Clinic may add EEG, neuroimaging or genetic testing.** The genetic test may suit higher-risk groups: prolonged febrile convulsions under 18 months · febrile seizures after age 6 years · accompanying developmental impairment. [S1]
 
-⚠️ **Red flags for serious infection** [S1]:
+## About the source page
 
-> **Complex febrile seizures · Persistent altered mental status (>1 hour) · Signs of sepsis, meningitis or
-> encephalitis · Incomplete immunisation against *Haemophilus influenzae* B or *Streptococcus pneumoniae***
+- **The page is PIC endorsed and was last updated February 2026.** [S1]
+- **Parent information is linked from four states:** Victoria, NSW, Queensland and WA febrile seizure sheets. [S1]
+- **The current reference list adds Schonfeld et al. (BMJ 2024; 385:e076814)** on cutting unneeded tests for children with seizures in the ED. [S1]
 
-**Immunisation status is a triage variable.** The two organisms named are exactly the ones the schedule
-removed from the differential — and the child who missed them is back in it.
-
-**In a complex febrile seizure, consider CNS imaging after consultation with a senior doctor** [S1] — imaging
-gated behind a conversation, not a criterion.
-
-## Treatment, escalation, discharge
-
-**Treat the seizure if duration ongoing after 5 minutes** [S1] — which hands over to the **acute seizure
-management** guideline already in this set, and its rule about counting pre-hospital benzodiazepine doses.
-
-**Consult the local paediatric team** for **complex febrile seizure** or **concern for serious bacterial
-infection as cause of febrile seizure** [S1].
-
-**Consider transfer** for **respiratory or haemodynamic compromise; prolonged febrile seizure; persistent
-altered mental status (>1 hour); children requiring care above the level of comfort of the local
-hospital** [S1]. **That last criterion is about the clinician, not the child** — an honest escalation trigger.
-
-**Consider discharge** when **returned to normal neurological state following simple febrile seizure** and
-**underlying illness has been assessed and managed appropriately** [S1]. **All families should receive
-education prior to discharge** [S1]:
-
-> - **Seizure first aid**
-> - **Febrile seizure handout**
-> - ⚠️ **If seizure >5 minutes, consider providing emergency medication management plan and parent midazolam
->   training**
-
-**Parents are trained to give buccal midazolam.** The guideline links parent information sheets from **Victoria,
-NSW, Queensland and Western Australia**, including a WA resource titled **"Febrile convulsions — Keeping our
-Mob Healthy"** [S1].
-
-## ⚠️ Genetic testing in a benign condition
-
-**Consider outpatient follow-up when risk factors are present for development of epilepsy** [S1]:
-
-> **Prolonged febrile seizure · Family history of epilepsy · Neurocutaneous stigmata identified on examination
-> · Recurrent complex febrile seizures · Developmental impairment**
-
-**Further investigations may include EEG, neuroimaging and genetic testing** [S1], and genetic testing is
-specified for:
-
-> **Prolonged febrile convulsions in child <18 months · Febrile seizures in children >6 years · Associated
-> developmental impairment** [S1]
-
-**A guideline that refuses a blood test in the emergency department recommends a genome in clinic.** The two
-are consistent — the first asks what is happening tonight, the second asks what this child has — but the
-contrast is worth seeing, and **no counselling, consent or turnaround guidance accompanies it** in the
-retrieved text (see *Unresolved*).
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| **Seizures — acute management in children** | the named handover at **5 minutes**; its dose table and its pre-hospital benzodiazepine count govern treatment |
-| **Sepsis** | **signs of sepsis, meningitis or encephalitis** as red flags; the SBI-risk equivalence is what stops over-investigation |
-| **Antimicrobial stewardship** | a guideline whose main effect is **not** starting a workup that leads to empirical antibiotics |
-| **Fitness to drive — seizures and epilepsy** | **a history of a benign seizure or epilepsy syndrome usually limited to childhood — including febrile seizures — does not disqualify an unconditional licence provided no seizures after age 11** |
-
-**That last row closes the loop.** The licensing standard names febrile seizures explicitly, decades later, and
-grants the licence outright. **The full paediatric-to-adult arc is now in the repo.**
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| **Lumbar puncture** | **input_unavailable** | **not mentioned once in the retrieved text**, despite CNS infection being the red-flag concern. Thresholds for LP are the classic febrile-seizure controversy and **no position is asserted here** |
-| **Antipyretic dosing and the fever itself** | **out_of_scope** | deferred to the separate *Febrile child* guideline |
-| **Parent midazolam dose and training content** | **input_unavailable** | the emergency medication management plan is recommended; **its content and dose are in the acute seizure guideline and the linked parent sheets, not here** |
-| **Genetic testing pathway** | **input_unavailable** | which test, who consents, what counselling, what turnaround — **none stated** |
-| **"38°C"** | **observation** | rendered in the retrieved text as **"380C"**; transcribed verbatim in verification and rendered as the evident value here |
-| **Two reference lists** | **observation** | the page carries **two versions of its own reference list** — one viewed **26 Sept 2025**, one viewed **May 2019**. The current one adds **Schonfeld 2024, *Reducing unnecessary investigations in paediatric seizures in the emergency department*** |
-| **Evidence base is largely non-Australian** | **observation** | BMJ Best Practice, UpToDate and two BMJ papers; **the Australian contribution is PENNSW and the state parent resources**, not primary evidence |
-| **UpToDate and BMJ Best Practice** | **access** | cited as references; **subscription content, cited by reference only, not reproduced** |
+| 1 | **Lumbar puncture is not mentioned anywhere on the page**, even though CNS infection is the red-flag worry. When to do an LP after a febrile seizure is a long-standing debate; no position is taken here. | `input_unavailable` |
+| 2 | **Antipyretic dosing and fever care** belong to the separate febrile child guideline (`febrile-child`). | `out_of_scope` |
+| 3 | **Parent midazolam:** the page recommends a plan and training but gives no dose or training content; doses are in `seizures-acute-management-children` and the linked parent sheets. | `input_unavailable` |
+| 4 | **Genetic testing pathway** (which test, consent, counselling, turnaround) is not described. | `input_unavailable` |
+| 5 | **Changed since Wave 1:** edition 1.0 named the WA parent resource from its link file name ('Keeping our Mob Healthy'). The fresh text shows only the link label for WA, so that title is not carried over. | `observation` |
+| 6 | **Two reference lists** appear on the page, one viewed 26 Sept 2025 and an older one viewed May 2019; only the newer adds Schonfeld 2024. | `observation` |
+| 7 | **Evidence base is mostly from outside Australia** (BMJ Best Practice, UpToDate, BMJ papers); the Australian inputs are PENNSW and state parent sheets. UpToDate and BMJ Best Practice are subscription content, cited by name only. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Febrile seizure.* Last updated February 2026. PIC Endorsed | paediatric clinical practice guideline (AU) |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Febrile seizure*. last updated February 2026, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,160 +1,94 @@
 # Otitis media
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** children. Acute otitis media, otitis media with effusion, and the suppurative complications.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** children with acute otitis media, otitis media with effusion (glue ear) and the suppurative complications, with the burden in Aboriginal and Torres Strait Islander children. A sick febrile young child is assessed under `febrile-child` before AOM is accepted; otitis externa is covered in `otitis-externa-and-ear-wax`; analgesia follows `acute-pain-management-children`.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Acute otitis media***, Clinical
-> Practice Guideline [S1]. With ***Otitis Media Guidelines*** (NHMRC Centre of Research Excellence in Ear and
-> Hearing Health of Aboriginal and Torres Strait Islander Children) for burden and equity [S2].
+> ✅ **COMPILED FROM 3 SOURCES.** 34 claims; **48 fragments or anchors re-checkable by machine; 1 doses.** **S1** The Royal Children's Hospital Melbourne (last updated June 2021; AU): 29 claims, paraphrased, hash-anchored · **S2** NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children (undated web page; AU): 3 claims, quoted · **S3** NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children (undated web page; AU): 2 claims, quoted
 
-**AMH topics closed by this guideline:** *Otitis media*, *Ear infection (middle)*.
+> ⚠️ **Antibiotics are not routine here.** This is one of the commonest paediatric antibiotic decisions, so the page is also a core `antimicrobial-stewardship` input. RCH names no agent or dose and defers to local guidance.
 
-## The three key points, and the third is a prescribing instruction
+> 🔗 **Links in this set:** `febrile-child` for the unwell febrile child · `sepsis-children` and `meningitis-and-encephalitis-children` for mastoiditis and intracranial spread · `acute-rheumatic-fever-and-rhd` is the other common childhood infection with a heavy Aboriginal and Torres Strait Islander burden · simple regular analgesia is the treatment, so `opioid-analgesic-stewardship-acute-pain` applies · undetected hearing loss also changes assessment in `delirium` and `dementia`.
 
-> **Do not accept otitis media as the sole diagnosis in a sick febrile young child without exclusion of more
-> serious causes** [S1]
+---
 
-> **Diagnosis requires acute onset and an abnormal ear examination with signs of middle ear inflammation and
-> middle ear effusion** [S1]
+## Key points
 
-> ⚠️ **Avoid the routine use of antibiotic treatment for acute otitis media** [S1]
+- ⚠️ **A sick, febrile young child needs serious causes excluded** before otitis media is accepted as the only diagnosis. [S1]
+- **To diagnose AOM you need acute onset plus an abnormal drum** showing both middle ear inflammation and a middle ear effusion. [S1]
+- ⚠️ **Do not give antibiotics routinely for acute otitis media.** [S1]
 
-**75% of children have at least one episode by school age**, with **peak age prevalence 6–18 months** [S1].
-**Exposure to cigarette smoke from household contacts is a known modifiable risk factor** [S1].
+## Background
 
-## ⚠️ A red drum is not otitis media
+- **Very common:** 75% of children have had at least one episode by the time they start school, and it peaks at 6-18 months of age. [S1]
+- **Cigarette smoke from people in the household** is a recognised risk factor that can be changed. [S1]
 
-This is the diagnostic error the guideline is built to prevent:
+## The eardrum
 
-> **A red TM alone is not AOM. The most common cause is a viral upper respiratory tract infection
-> (URTI)** [S1].
+- ⚠️ **Redness of the drum on its own does not mean AOM**; a viral URTI is the usual reason for it. [S1]
+- **Normal drum:** translucent, not red, with the malleus handle upright. [S1]
+- **Injected drum:** pink or red, commonly with fever, eustachian tube blockage or a viral URTI; still transparent because there is no effusion, and the malleus handle is clearly visible and lies more horizontally. [S1]
+- **AOM:** landmarks are lost, the malleus handle above all; the drum is opaque, red with inflammation or white with pus behind it. [S1]
+- **OME (glue ear):** the drum is pulled in and the malleus handle stands out, drawn inward and more horizontal; there may be bulging or a fluid level behind it, and a yellow or amber colour suggests fluid. [S1]
 
-The distinction is drawn on the **effusion**, not the colour:
+## Management
 
-| Appearance | What it means [S1] |
-|---|---|
-| **Normal** | **TM is translucent**; **the handle of the malleus is vertical**; **no erythema** |
-| **Injected** | **Pink/red TM**, **often seen with fever, eustachian tube obstruction or viral URTI**; ⚠️ **TM is transparent (there is no middle ear effusion)**; **the handle of the malleus is well seen and is more horizontal** |
-| **AOM** | **Loss of the TM landmarks, especially the handle of the malleus**; **TM is opaque, may be red from inflammation or white from pus in the middle ear** |
-| **OME ("glue ear")** | **TM is retracted with prominence of the handle of the malleus**; **may be bulging or have an air-fluid level**; **yellow/amber appearance is consistent with fluid** |
-
-⚠️ **In infants, especially <6 months old, the diagnosis of AOM and OME can be inaccurate. Other diagnoses
-should be fully considered** [S1].
-
-## Treatment — analgesia is the therapy
-
-> **Most cases of AOM in children resolve spontaneously and antibiotics are not recommended** [S1].
-
-**Treat pain with adequate and regular simple analgesia** [S1]. As an adjunct for severe acute ear pain,
-**short-term use of topical analgesia eg 2% lignocaine (for injection), 1–2 drops or Benzocaine + Phenazone
-(Auralgan®) applied to an intact tympanic membrane, may be effective** [S1].
-
-⚠️ Note the qualifier — **applied to an intact tympanic membrane**. Perforation is common in AOM, so the
-adjunct is contraindicated in exactly the subset whose pain has often just resolved.
-
-⚠️ **Decongestants, antihistamines and corticosteroids are not effective in AOM** [S1].
-
-**There is no role for routine diagnostic investigation for AOM** [S1]. **Diagnostic imaging such as CT and
-MRI is usually only required in children with suspected intracranial complications** [S1].
-
-**Antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please
-refer to local guidelines** [S1] — the guideline names no agent and no dose.
+- ⚠️ **Infants, particularly under 6 months:** AOM and OME are often misdiagnosed, so give other diagnoses full consideration (see `febrile-child`). [S1]
+- **Management may differ for higher-risk groups**, such as children in Aboriginal or Torres Strait Islander communities. [S1]
+- **No routine investigations for AOM.** CT or MRI is generally kept for a suspected intracranial complication. [S1]
+- **Most childhood AOM gets better by itself**, and antibiotics are not recommended. [S1]
+- **Pain relief is the treatment:** simple analgesia, given regularly and in adequate doses. [S1]
+- ⚠️ **Severe acute ear pain, drum intact:** a short course of topical analgesia can help as an add-on, eg 1-2 drops of 2% lignocaine (the injection solution) or benzocaine + phenazone (Auralgan®). Only on an intact tympanic membrane. [S1]
+- **Not effective in AOM:** decongestants, antihistamines, corticosteroids. [S1]
+- **Antibiotic choice follows local susceptibility patterns and local guidelines.** [S1]
 
 ## Complications
 
-**Tympanic membrane perforation**: **AOM with TM perforation is common and results in otorrhoea and
-frequently, relief of pain** [S1]. ⚠️ **Otorrhoea due to TM perforation should be distinguished from otitis
-externa** [S1] — in otitis externa the **ear is tender to examine** and **the skin of the external ear canal
-is swollen and there can be thin pus** [S1].
+- **Perforation is common in AOM:** the ear discharges and the pain often eases. [S1]
+- **Tell perforation discharge apart from otitis externa.** [S1]
+- **Otitis externa:** the ear hurts when examined, and the canal skin is swollen, sometimes with thin pus. [S1]
+- ⚠️ **Acute mastoiditis is rare**, yet it is the commonest suppurative complication of AOM and can come with intracranial complications. [S1]
+- **Diagnosing mastoiditis:** inflammation behind the ear (redness, swelling, tenderness or fluctuance), an ear that sticks out, often a swollen ear canal, and signs of AOM. [S1]
+- ⚠️ **Mastoiditis needs prompt IV antibiotics** (eg a 3rd generation cephalosporin) **and ENT input**, since surgery may be needed. [S1]
+- **Facial nerve palsy from AOM: discuss with ENT.** Long-term non-suppurative sequelae include TM atelectasis and cholesteatoma. [S1]
 
-**Acute mastoiditis** — **although rare, is the most common suppurative complication of AOM and may be
-associated with intracranial complications** [S1]. Diagnosed on **post auricular inflammatory signs
-(erythema, oedema, tenderness or fluctuance), a protruding auricle often with external auditory canal oedema
-and signs of AOM** [S1]. It **requires prompt treatment with appropriate intravenous antibiotics (eg 3rd
-generation cephalosporin)**, and **consult ENT as may require surgical treatment** [S1].
+## Otitis media with effusion (OME)
 
-**Facial nerve palsy secondary to AOM should be discussed with ENT** [S1]. **Long-term non suppurative
-complications include atelectasis of the TM and cholesteatoma** [S1].
+- **OME** (once called serous otitis or glue ear) is middle ear fluid with no sign or symptom of infection apart from temporary hearing loss. [S1]
+- **An effusion alone does not diagnose AOM**: after an episode, fluid can take up to 12 weeks to clear. [S1]
+- **OME usually needs neither antibiotics nor ENT referral:** most follows AOM and clears by itself, without lasting effect on language, literacy or cognitive development. [S1]
+- ⚠️ **Effusion still present after 3 months:** arrange a hearing assessment and involve or refer to ENT. [S1]
 
-## Otitis media with effusion
+## Aboriginal and Torres Strait Islander children
 
-> **OME, previously termed serous otitis or glue ear, is fluid in the middle ear without signs and symptoms
-> of infection, other than transient hearing impairment** [S1].
+- ⚠️ **Otitis media is very common in Aboriginal and Torres Strait Islander children, and near-universal in remote communities**; affected children cannot hear properly and struggle with speech, language, learning and behaviour. [S2]
+- **Every form of otitis media causes some hearing loss**, and if it persists it can isolate a child socially, with life-long effects on communication, listening and understanding. [S3]
+- **Chronic otitis media and hearing loss** make a child more vulnerable at school entry and affect attendance and performance; children with hearing loss are more likely to be maltreated. [S3]
+- **Mechanism:** pneumococcus and non-typable *H. influenzae* (NTHi) spread from other children into the nose, then into the middle ear, where pus can burst the drum; the drum can be slow to heal and must be treated. The same nasal germs can cause pneumonia. [S2]
+- ⚠️ **Otitis media can be silent** and go unnoticed for long periods. [S2]
 
-⚠️ **The presence of a middle ear effusion is not a diagnostic sign of AOM (an effusion may not resolve for up
-to 12 weeks following AOM)** [S1].
-
-**Antibiotics and ENT referral are not routinely required for OME, as the majority of cases occur after an
-episode of AOM and resolve spontaneously with no long-term effects on language, literacy or cognitive
-development** [S1].
-
-⚠️ **Persistent effusion beyond 3 months should trigger a hearing assessment and ENT involvement/referral**
-[S1].
-
-## ⚠️ The population where none of the above reassurance holds
-
-RCH flags it and then hands the reader off:
-
-> **Management may also differ for children from higher risk groups, such as those living in Aboriginal or
-> Torres Strait Islander communities** [S1].
-
-The national guideline states the burden plainly:
-
-> **Many Aboriginal or Torres Strait Islander children, and almost all who live in remote communities, have
-> middle ear infection, glue ear or runny ears (otitis media, OM). Children with OM cannot hear properly and
-> have trouble with speech, language, learning and behaviour** [S2].
-
-And the downstream consequences it is written to prevent:
-
-> **All forms of Otitis Media cause some level of hearing loss. If hearing loss persists it can cause social
-> isolation with life-long impacts on communication, listening and understanding** [S3].
-
-> ⚠️ **Chronic otitis media and hearing loss increases a child's vulnerability on entering school, school
-> attendance, and performance.** **Children with hearing loss are more likely to experience child
-> maltreatment** [S3].
-
-**Mechanism** [S2]: **the germs called pneumococcus (pneumo) and non-typable H. influenzae (NTHi or H'flu) get
-into the baby or child's nose from other children**, then **get inside the middle ear and cause infection and
-pus – like a boil – which can burst the ear drum**. ⚠️ **Unlike a boil under the skin which can heal, the
-eardrum can take a long time to heal and must be treated.** And **germs in the nose also go inside the chest
-to cause pneumonia**.
-
-> ⚠️ **Otitis Media may also be present without noticeable symptoms and can persist for long periods
-> undetected** [S2].
-
-**That sentence is the whole argument for screening rather than waiting for presentation** — and it is the
-reason a guideline built around "most cases resolve spontaneously" cannot simply be applied to this
-population.
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| ⚠️ **Antimicrobial stewardship** | **avoid the routine use of antibiotic treatment for acute otitis media** — one of the highest-volume paediatric antibiotic decisions in the country |
-| ⚠️ **Febrile child** | RCH's first key point sends the sick febrile young child there rather than accepting AOM as the sole diagnosis |
-| **Acute rheumatic fever and RHD** | the other guideline here where a common childhood infection carries a disproportionate Aboriginal and Torres Strait Islander burden and a screening rationale |
-| **Opioid analgesic stewardship — acute pain** | AOM is treated with **adequate and regular simple analgesia**; the therapy is the analgesia |
-| **Delirium** · **Dementia** | the compendium's other places where **unrecognised hearing loss** changes assessment |
-| **Sepsis (children)** | mastoiditis and intracranial spread are the escalation path from an ordinary presentation |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| ⚠️ **The national guideline is app-only** | **input_unavailable** | the ***Otitis Media Guidelines*** clinical content — **walk-through algorithms for all types of otitis media** — is delivered through an **app and a PDF**, not as web pages. **Only the public burden and mechanism text was retrieved.** The algorithms for the highest-risk population are therefore **not in this guideline** |
-| ⚠️ **No antibiotic agent or dose** | **input_unavailable** | **antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please refer to local guidelines** — **nothing is reconstructed** |
-| **When antibiotics *are* indicated** | **input_unavailable** | the guideline says to avoid routine use but **does not state the criteria** for the non-routine case |
-| **Topical analgesia dose** | **observation** | **2% lignocaine (for injection), 1–2 drops** is given; **Benzocaine + Phenazone** carries **no dose**; both are **contraindicated on a perforated drum**, which is a common AOM outcome |
-| **Otitis externa** | **out_of_scope** | described only as a **distinguishing** diagnosis — **ear is tender to examine**, **canal swollen with thin pus**; no management given. AMH lists *Ear infection (external)* separately and it remains open |
-| **Cochlear implant and immunocompromise** | **input_unavailable** | both are listed in the history as relevant, and implant cases **should be discussed with ENT**, but **no altered management is specified** |
-| **Hearing assessment pathway** | **input_unavailable** | **persistent effusion beyond 3 months should trigger a hearing assessment** — **no test, provider or timeframe named** |
-| **Currency** | **time_sensitive** | RCH CPG **retrieval date recorded; no version or review date stated on the page** |
-| **Adults** | **out_of_scope** | both sources are paediatric; AMH's *Otitis media* topic is not age-restricted |
+| 1 | ⚠️ **The national Otitis Media Guidelines are delivered by app and PDF**, not web pages. Only their public burden and mechanism text was retrieved in Wave 1, so the clinical algorithms for the highest-risk children are not here. | `input_unavailable` |
+| 2 | ⚠️ **No antibiotic agent or dose**: RCH defers to local susceptibility and guidelines, and nothing is reconstructed. | `input_unavailable` |
+| 3 | **When antibiotics are indicated**: the page says not to use them routinely but gives no criteria for the exceptions. | `input_unavailable` |
+| 4 | **Topical analgesia:** lignocaine has a drop count; benzocaine + phenazone has none. Both are for an intact drum only, and perforation is a common AOM outcome. | `observation` |
+| 5 | **Otitis externa** appears only as a differential here; its management is in `otitis-externa-and-ear-wax`. | `out_of_scope` |
+| 6 | **Cochlear implant and immunocompromise** are listed in the history, and implant cases go to ENT, but no change in management is given. | `input_unavailable` |
+| 7 | **Hearing assessment after 3 months of effusion**: no test, provider or timeframe is named. | `input_unavailable` |
+| 8 | **Changed since Wave 1:** edition 1.0 recorded no date on the RCH page; the fresh text shows it was last updated June 2021, over five years before this retrieval. | `time_sensitive` |
+| 9 | **S2 and S3 were not re-fetched** (rebuild rule: fetch only RCH pages). Their text is the Wave 1 retrieval of 2026-09-22. | `observation` |
+| 10 | **Adults** are out of scope: both sources are paediatric. | `out_of_scope` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Acute otitis media.* https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/ (retrieved 2026-09-22) | clinical practice guideline (AU) |
-| S2 | NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children. *Otitis Media Guidelines — About Otitis Media.* https://otitismediaguidelines.com/about-otitis-media/ (retrieved 2026-09-22) | national guideline programme (AU) |
-| S3 | Same programme. *Otitis Media Guidelines — home page.* https://otitismediaguidelines.com/ (retrieved 2026-09-22) | national guideline programme (AU) |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Acute otitis media*. last updated June 2021. https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+| **S2** | NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children. *Otitis Media Guidelines — About Otitis Media*. undated web page. https://otitismediaguidelines.com/about-otitis-media/ — retrieved 2026-09-22. | no licence recorded in edition 1.0; quoted with attribution, as in edition 1.0 | **quoted, re-checkable** |
+| **S3** | NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children. *Otitis Media Guidelines — home page*. undated web page. https://otitismediaguidelines.com/ — retrieved 2026-09-22. | no licence recorded in edition 1.0; quoted with attribution, as in edition 1.0 | **quoted, re-checkable** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

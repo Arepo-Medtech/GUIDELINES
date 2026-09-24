@@ -1,225 +1,501 @@
 {
  "guideline": "guidelines/otitis-media.md",
- "edition": "1.0",
- "verified_utc": "2026-09-22",
- "verifier": "claude-opus-5",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/",
   "https://otitismediaguidelines.com/about-otitis-media/",
   "https://otitismediaguidelines.com/"
  ],
- "retrieved_utc": "2026-09-22",
- "method": "Both pages fetched directly with curl and converted from HTML to text. Claims are verbatim-checked against the retrieved text of their own source with scripts/verify.py --only-source. Prose paraphrases; source_text stays verbatim. The national Otitis Media Guidelines clinical algorithms are delivered by app and PDF and were NOT retrieved; only the public burden and mechanism text was, and the gap is recorded in Unresolved. No antibiotic agent or dose is reconstructed.",
- "claims": [
-  {
-   "claim": "Do not accept otitis media as the sole diagnosis in a sick febrile young child",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not accept otitis media as the sole diagnosis in a sick febrile young child without exclusion of more serious causes"
-  },
-  {
-   "claim": "Diagnosis requires acute onset plus inflammation and effusion",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Diagnosis requires acute onset and an abnormal ear examination with signs of middle ear inflammation and middle ear effusion"
-  },
-  {
-   "claim": "Avoid routine antibiotics for AOM",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Avoid the routine use of antibiotic treatment for acute otitis media"
-  },
-  {
-   "claim": "75% have an episode by school age, peak 6-18 months",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "75% of children have at least one episode by school age … Peak age prevalence is 6-18 months"
-  },
-  {
-   "claim": "Household cigarette smoke is a modifiable risk factor",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Exposure to cigarette smoke from household contacts is a known modifiable risk factor"
-  },
-  {
-   "claim": "A red TM alone is not AOM",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "a red TM alone is not AOM. The most common cause is a viral upper respiratory tract infection (URTI)"
-  },
-  {
-   "claim": "Normal tympanic membrane appearance",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "TM is translucent … The handle of the malleus is vertical … No erythema"
-  },
-  {
-   "claim": "Injected tympanic membrane appearance",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Pink/red TM … Often seen with fever, eustachian tube obstruction or viral URTI … TM is transparent (there is no middle ear effusion) … The handle of the malleus is well seen and is more horizontal"
-  },
-  {
-   "claim": "AOM tympanic membrane appearance",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Loss of the TM landmarks, especially the handle of the malleus … TM is opaque, may be red from inflammation or white from pus in the middle ear"
-  },
-  {
-   "claim": "OME tympanic membrane appearance",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "TM is retracted with prominence of the handle of the malleus, which is also drawn in/more horizontal … TM may be bulging or have an air-fluid level behind the TM … Yellow/amber appearance is consistent with fluid"
-  },
-  {
-   "claim": "Diagnosis is unreliable under 6 months",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "the diagnosis of AOM and OME can be inaccurate. Other diagnoses should be fully considered"
-  },
-  {
-   "claim": "Most AOM resolves spontaneously without antibiotics",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most cases of AOM in children resolve spontaneously and antibiotics are not recommended"
-  },
-  {
-   "claim": "Treat pain with regular simple analgesia",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat pain with adequate and regular simple analgesia"
-  },
-  {
-   "claim": "Topical analgesia adjunct on an intact tympanic membrane",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "As an adjunct, short-term use of topical analgesia eg 2% lignocaine (for injection), 1-2 drops or Benzocaine + Phenazone (Auralgan ®) applied to an intact tympanic membrane, may be effective for severe acute ear pain"
-  },
-  {
-   "claim": "Decongestants, antihistamines and corticosteroids are not effective",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Decongestants, antihistamines and corticosteroids are not effective in AOM"
-  },
-  {
-   "claim": "No routine investigation; imaging only for suspected intracranial complications",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is no role for routine diagnostic investigation for AOM … Diagnostic imaging such as CT and MRI is usually only required in children with suspected intracranial complications"
-  },
-  {
-   "claim": "Antimicrobial choice deferred to local susceptibility and guidelines",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antimicrobial recommendations may vary according to local antimicrobial susceptibility patterns; please refer to local guidelines"
-  },
-  {
-   "claim": "Perforation is common and often relieves pain",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "AOM with TM perforation is common and results in otorrhoea and frequently, relief of pain"
-  },
-  {
-   "claim": "Distinguish perforation otorrhoea from otitis externa",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Otorrhoea due to TM perforation should be distinguished from Otitis Externa"
-  },
-  {
-   "claim": "Otitis externa signs",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ear is tender to examine … Skin of the external ear canal is swollen and there can be thin pus"
-  },
-  {
-   "claim": "Mastoiditis is the commonest suppurative complication",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Acute mastoiditis, although rare, is the most common suppurative complication of AOM and may be associated with intracranial complications"
-  },
-  {
-   "claim": "Mastoiditis diagnostic signs",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "The diagnosis of AM is based on post auricular inflammatory signs (erythema, oedema, tenderness or fluctuance), a protruding auricle often with external auditory canal oedema and signs of AOM"
-  },
-  {
-   "claim": "Mastoiditis needs IV antibiotics and ENT",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Requires prompt treatment with appropriate … intravenous antibiotics (eg 3rd generation cephalosporin) … Consult ENT as may require surgical treatment"
-  },
-  {
-   "claim": "Facial nerve palsy and long-term complications",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Facial nerve palsy secondary to AOM should be discussed with ENT … Long-term non suppurative complications include atelectasis of the TM and cholesteatoma"
-  },
-  {
-   "claim": "OME definition",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "OME, previously termed serous otitis or glue ear, is fluid in the middle ear without signs and symptoms of infection, other than transient hearing impairment"
-  },
-  {
-   "claim": "Effusion is not diagnostic of AOM and may persist 12 weeks",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "The presence of a middle ear effusion is not a diagnostic sign of AOM (an effusion may not resolve for up to 12 weeks following AOM)"
-  },
-  {
-   "claim": "OME does not routinely need antibiotics or ENT referral",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Antibiotics and ENT referral are not routinely required for OME, as the majority of cases occur after an episode of AOM and resolve spontaneously with no long-term effects on language, literacy or cognitive development"
-  },
-  {
-   "claim": "Effusion beyond 3 months triggers hearing assessment and ENT",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Persistent effusion beyond 3 months should trigger a hearing assessment and ENT involvement/referral"
-  },
-  {
-   "claim": "Management differs for Aboriginal and Torres Strait Islander children",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Management may also differ for children from higher … risk groups, such as those living in Aboriginal or Torres Strait Islander … communities"
-  },
-  {
-   "claim": "Burden in Aboriginal and Torres Strait Islander children",
-   "source": "S2",
-   "verdict": "pass",
-   "source_text": "Many Aboriginal or Torres Strait Islander children, and almost all who live in remote communities, have middle ear infection, glue ear or runny ears (otitis media, OM). Children with OM cannot hear properly and have trouble with speech, language, learning and behaviour"
-  },
-  {
-   "claim": "All forms cause hearing loss with life-long impacts",
-   "source": "S3",
-   "verdict": "pass",
-   "source_text": "All forms of Otitis Media cause some level of hearing loss. If hearing loss persists it can cause social isolation with life-long impacts on communication, listening and understanding"
-  },
-  {
-   "claim": "School vulnerability and maltreatment risk",
-   "source": "S3",
-   "verdict": "pass",
-   "source_text": "Chronic otitis media and hearing loss increases a child's vulnerability on entering school, school attendance, and performance. … Children with hearing loss are more likely to experience child maltreatment"
-  },
-  {
-   "claim": "Pneumococcus and NTHi mechanism",
-   "source": "S2",
-   "verdict": "pass",
-   "source_text": "The germs called pneumococcus (pneumo) and non-typable H. influenzae (NTHi or H'flu) get into the baby or child's nose from other children. These germs can then get inside the middle ear and cause infection and pus - like a boil - which can burst the ear drum. Unlike a boil under the skin which can heal, the eardrum can take a long time to heal and must be treated. Germs in the nose also go inside the chest to cause pneumonia"
-  },
-  {
-   "claim": "OM may be asymptomatic and persist undetected",
-   "source": "S2",
-   "verdict": "pass",
-   "source_text": "Otitis Media may also be present without noticeable symptoms and can persist for long periods undetected"
-  }
- ],
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guidelines: Acute otitis media' (last updated June 2021), 29 claims; LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at the RCH website Terms and Conditions, clause 5.2). S2: QUOTED from NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children 'Otitis Media Guidelines — About Otitis Media' (undated web page), 3 claims; LICENCE: no licence recorded in edition 1.0; quoted with attribution, as in edition 1.0 (read at not recorded in edition 1.0). S3: QUOTED from NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children 'Otitis Media Guidelines — home page' (undated web page), 2 claims; LICENCE: no licence recorded in edition 1.0; quoted with attribution, as in edition 1.0 (read at not recorded in edition 1.0). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 rebuilds the Wave 1 hand-written page (edition 1.0, 2026-09-22), which quoted RCH verbatim: S1 is now a paraphrase of the RCH page re-fetched 2026-09-24, and all 29 S1 claims are carried over. S2 and S3 keep their quote mode and their Wave 1 text: their src files hold the verbatim source_text recovered from the edition 1.0 verification JSON (retrieved 2026-09-22), not a fresh fetch.",
  "summary": {
   "total": 34,
-  "pass": 34,
-  "fail": 0
- }
+  "pass": 5,
+  "fail": 0,
+  "pass_paraphrase_anchored": 29
+ },
+ "claims": [
+  {
+   "claim": "⚠️ **A sick, febrile young child needs serious causes excluded** before otitis media is accepted as the only diagnosis.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "502625743c9474c8",
+     "n": 119,
+     "p": "Do not a"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**To diagnose AOM you need acute onset plus an abnormal drum** showing both middle ear inflammation and a middle ear effusion.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a8eb35a62fd86747",
+     "n": 124,
+     "p": "Diagnosi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not give antibiotics routinely for acute otitis media.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4706041aa5d7c637",
+     "n": 68,
+     "p": "Avoid th"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Very common:** 75% of children have had at least one episode by the time they start school, and it peaks at 6-18 months of age.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea4363d5ea1bb6ed",
+     "n": 55,
+     "p": "75% of c"
+    },
+    {
+     "h": "af86a5caf2d4c0e9",
+     "n": 34,
+     "p": "Peak age"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cigarette smoke from people in the household** is a recognised risk factor that can be changed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c571d2d73045bc7f",
+     "n": 85,
+     "p": "Exposure"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Redness of the drum on its own does not mean AOM**; a viral URTI is the usual reason for it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17d14914d008e948",
+     "n": 100,
+     "p": "a red TM"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Normal drum:** translucent, not red, with the malleus handle upright.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a57bbeea30ad87d",
+     "n": 17,
+     "p": "TM is tr"
+    },
+    {
+     "h": "01a2bff59f76031a",
+     "n": 37,
+     "p": "The hand"
+    },
+    {
+     "h": "5e3ec0e0f47b68a4",
+     "n": 11,
+     "p": "No eryth"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Injected drum:** pink or red, commonly with fever, eustachian tube blockage or a viral URTI; still transparent because there is no effusion, and the malleus handle is clearly visible and lies more horizontally.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c2ba02bf9193e33b",
+     "n": 11,
+     "p": "Pink/red"
+    },
+    {
+     "h": "5e8ff2d88ee9a50e",
+     "n": 64,
+     "p": "Often se"
+    },
+    {
+     "h": "af38490918e50558",
+     "n": 51,
+     "p": "TM is tr"
+    },
+    {
+     "h": "dd442cf63b8a0553",
+     "n": 61,
+     "p": "The hand"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**AOM:** landmarks are lost, the malleus handle above all; the drum is opaque, red with inflammation or white with pus behind it.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "899206f23ce72862",
+     "n": 62,
+     "p": "Loss of "
+    },
+    {
+     "h": "fc088be1358587da",
+     "n": 78,
+     "p": "TM is op"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**OME (glue ear):** the drum is pulled in and the malleus handle stands out, drawn inward and more horizontal; there may be bulging or a fluid level behind it, and a yellow or amber colour suggests fluid.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4cfb098106ce961",
+     "n": 100,
+     "p": "TM is re"
+    },
+    {
+     "h": "4369464c81481e80",
+     "n": 58,
+     "p": "TM may b"
+    },
+    {
+     "h": "9d138d4b95c9c706",
+     "n": 48,
+     "p": "Yellow/a"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Infants, particularly under 6 months:** AOM and OME are often misdiagnosed, so give other diagnoses full consideration (see `febrile-child`).",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b6936af4680eac8",
+     "n": 128,
+     "p": "In Infan"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Management may differ for higher-risk groups**, such as children in Aboriginal or Torres Strait Islander communities.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9402c535e8a102d3",
+     "n": 137,
+     "p": "Manageme"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No routine investigations for AOM.** CT or MRI is generally kept for a suspected intracranial complication.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "719033be7b231ce4",
+     "n": 61,
+     "p": "There is"
+    },
+    {
+     "h": "56bbb7279b814b3c",
+     "n": 116,
+     "p": "Diagnost"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most childhood AOM gets better by itself**, and antibiotics are not recommended.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dff3284aab099964",
+     "n": 87,
+     "p": "Most cas"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pain relief is the treatment:** simple analgesia, given regularly and in adequate doses.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc83bb860c2c8cb8",
+     "n": 53,
+     "p": "Treat pa"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Severe acute ear pain, drum intact:** a short course of topical analgesia can help as an add-on, eg 1-2 drops of 2% lignocaine (the injection solution) or benzocaine + phenazone (Auralgan®). Only on an intact tympanic membrane.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6cebb78450d4fd7c",
+     "n": 215,
+     "p": "As an ad"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Not effective in AOM:** decongestants, antihistamines, corticosteroids.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08df4a1d859b4e59",
+     "n": 74,
+     "p": "Deconges"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Antibiotic choice follows local susceptibility patterns and local guidelines.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "466a5b11219418c1",
+     "n": 129,
+     "p": "Antimicr"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Perforation is common in AOM:** the ear discharges and the pain often eases.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de614db9c0f7af2b",
+     "n": 89,
+     "p": "AOM with"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tell perforation discharge apart from otitis externa.**",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a8ae426305d76762",
+     "n": 75,
+     "p": "Otorrhoe"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Otitis externa:** the ear hurts when examined, and the canal skin is swollen, sometimes with thin pus.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a596ce94d9e3f230",
+     "n": 24,
+     "p": "Ear is t"
+    },
+    {
+     "h": "780be20d762cb70e",
+     "n": 67,
+     "p": "Skin of "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Acute mastoiditis is rare**, yet it is the commonest suppurative complication of AOM and can come with intracranial complications.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c7fe37cef81de6c",
+     "n": 138,
+     "p": "Acute ma"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diagnosing mastoiditis:** inflammation behind the ear (redness, swelling, tenderness or fluctuance), an ear that sticks out, often a swollen ear canal, and signs of AOM.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a92eb984c84531cf",
+     "n": 191,
+     "p": "The diag"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mastoiditis needs prompt IV antibiotics** (eg a 3rd generation cephalosporin) **and ENT input**, since surgery may be needed.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3c25415dbd3b3ba7",
+     "n": 100,
+     "p": "Requires"
+    },
+    {
+     "h": "4bbbe65cba287ca5",
+     "n": 45,
+     "p": "Consult "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Facial nerve palsy from AOM: discuss with ENT.** Long-term non-suppurative sequelae include TM atelectasis and cholesteatoma.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5148c3b0ee7fb431",
+     "n": 64,
+     "p": "Facial n"
+    },
+    {
+     "h": "8c0a3c99e5489f17",
+     "n": 87,
+     "p": "Long-ter"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**OME** (once called serous otitis or glue ear) is middle ear fluid with no sign or symptom of infection apart from temporary hearing loss.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9e64f4a055fcabd5",
+     "n": 157,
+     "p": "OME, pre"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**An effusion alone does not diagnose AOM**: after an episode, fluid can take up to 12 weeks to clear.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e56f8cfbc684d29c",
+     "n": 132,
+     "p": "The pres"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**OME usually needs neither antibiotics nor ENT referral:** most follows AOM and clears by itself, without lasting effect on language, literacy or cognitive development.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aedffaf39a3dd3af",
+     "n": 218,
+     "p": "Antibiot"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Effusion still present after 3 months:** arrange a hearing assessment and involve or refer to ENT.",
+   "source": "S1",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb5e40bd29fd40cb",
+     "n": 100,
+     "p": "Persiste"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guidelines: Acute otitis media', last updated June 2021, https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Otitis media is very common in Aboriginal and Torres Strait Islander children, and near-universal in remote communities**; affected children cannot hear properly and struggle with speech, language, learning and behaviour.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Many Aboriginal or Torres Strait Islander children, and almost all who live in remote communities, have middle ear infection, glue ear or runny ears (otitis media, OM). Children with OM cannot hear properly and have trouble with speech, language, learning and behaviour",
+   "locator": "NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children, 'Otitis Media Guidelines — About Otitis Media', undated web page, https://otitismediaguidelines.com/about-otitis-media/, retrieved 2026-09-22"
+  },
+  {
+   "claim": "**Every form of otitis media causes some hearing loss**, and if it persists it can isolate a child socially, with life-long effects on communication, listening and understanding.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "All forms of Otitis Media cause some level of hearing loss. If hearing loss persists it can cause social isolation with life-long impacts on communication, listening and understanding",
+   "locator": "NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children, 'Otitis Media Guidelines — home page', undated web page, https://otitismediaguidelines.com/, retrieved 2026-09-22"
+  },
+  {
+   "claim": "**Chronic otitis media and hearing loss** make a child more vulnerable at school entry and affect attendance and performance; children with hearing loss are more likely to be maltreated.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Chronic otitis media and hearing loss increases a child's vulnerability on entering school, school attendance, and performance. … Children with hearing loss are more likely to experience child maltreatment",
+   "locator": "NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children, 'Otitis Media Guidelines — home page', undated web page, https://otitismediaguidelines.com/, retrieved 2026-09-22"
+  },
+  {
+   "claim": "**Mechanism:** pneumococcus and non-typable *H. influenzae* (NTHi) spread from other children into the nose, then into the middle ear, where pus can burst the drum; the drum can be slow to heal and must be treated. The same nasal germs can cause pneumonia.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The germs called pneumococcus (pneumo) and non-typable H. influenzae (NTHi or H'flu) get into the baby or child's nose from other children. These germs can then get inside the middle ear and cause infection and pus - like a boil - which can burst the ear drum. Unlike a boil under the skin which can heal, the eardrum can take a long time to heal and must be treated. Germs in the nose also go inside the chest to cause pneumonia",
+   "locator": "NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children, 'Otitis Media Guidelines — About Otitis Media', undated web page, https://otitismediaguidelines.com/about-otitis-media/, retrieved 2026-09-22"
+  },
+  {
+   "claim": "⚠️ **Otitis media can be silent** and go unnoticed for long periods.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Otitis Media may also be present without noticeable symptoms and can persist for long periods undetected",
+   "locator": "NHMRC Centre of Research Excellence in Ear and Hearing Health of Aboriginal and Torres Strait Islander Children, 'Otitis Media Guidelines — About Otitis Media', undated web page, https://otitismediaguidelines.com/about-otitis-media/, retrieved 2026-09-22"
+  }
+ ]
 }

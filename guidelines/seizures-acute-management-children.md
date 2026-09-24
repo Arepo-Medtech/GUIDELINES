@@ -1,263 +1,119 @@
 # Seizures — acute management in children
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** acute management of the seizing child, first afebrile seizure, and discharge.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** a child who is seizing now, a first afebrile seizure, investigations after the seizure, escalation, discharge teaching and follow-up. A seizure with fever is classified and worked up under `febrile-seizure`; suspected infantile spasms under `infantile-spasms`; adults with status epilepticus under `status-epilepticus-adults`; ongoing epilepsy care under `epilepsy`.
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Clinical Practice Guidelines:
-> Seizures — acute management***. **Last updated June 2025. PIC Endorsed** (Paediatric Improvement
-> Collaborative) [S1].
+> ✅ **COMPILED FROM 2 SOURCES.** 52 claims; **68 fragments or anchors re-checkable by machine; 7 doses.** **S1** The Royal Children's Hospital Melbourne (last updated June 2025, PIC endorsed; AU): 44 claims, paraphrased, hash-anchored · **S2** The Royal Children's Hospital Melbourne (last updated June 2025; AU): 8 claims, paraphrased, hash-anchored
 
-## ⚠️ Two firsts
+> ⚠️ **Count the benzodiazepine doses given before arrival** (by parents or paramedics): no more than 2 appropriate doses in total, pre-hospital ones included.
 
-**This is the first paediatric guideline in the compendium.** The stroke standard excluded **the care of
-children with stroke**; the driving standard is adults by construction; the valproate article addressed
-childbearing, not childhood. Fifty-two guidelines in, **children had appeared only as an exclusion**.
+> ⚠️ **Every dose here is weight-based (mg/kg) with a cap, for children.** None carries over to adults; see `status-epilepticus-adults`.
 
-**It is also the first source that gives its doses in full.** Every preceding guideline in this set deferred
-regimens to a licensed or unretrieved document, and every one of those deferrals was recorded as
-`input_unavailable` rather than reconstructed. **This one states them, so they are transcribed here — with the
-sequence and timing withheld**, because that lives in a flowchart image (see *Unresolved*).
+> 🔗 **Links in this set:** driving advice for older children at discharge connects to `fitness-to-drive-seizures-and-epilepsy` · the under-3 valproate hepatotoxicity limit matches `sodium-valproate` · stroke and intracranial bleeding as causes link to `stroke-children` · meningitis and meningoencephalitis link to `meningitis-and-encephalitis-children` and `sepsis-children` · toxidrome features link to `toxidromes-children` · hypoglycaemia to `hypoglycaemia-children` · head trauma to `head-injury-children` · envenomation to `snakebite-children`.
 
-## The five key points
+---
 
-> 1. **Aim to identify reversible causes and manage accordingly**
-> 2. **Most seizures will resolve within 5 minutes and do not require medications**
-> 3. **Commence pharmacological management if total seizure duration is ≥5 minutes or unknown**
-> 4. **Include pre-hospital doses of benzodiazepines in active management**
-> 5. **Ensure parental education regarding safety and future seizures** [S1]
+## Key points
 
-**Point 2 is an emergency guideline instructing inaction**:
+- **Five headline points:** look for a reversible cause and treat it · most seizures stop within 5 minutes and need no drugs · start drug treatment once total seizure time reaches 5 minutes or is unknown · count pre-hospital benzodiazepine doses in the active plan · teach parents about safety and what to do next time. [S1]
 
-> **Most seizures will self-terminate within 5 minutes without intervention, and unless there is airway
-> compromise it is appropriate to **observe only** during this period without intervention, in line with
-> seizure first aid advice** [S1].
+## Background
 
-**Seizures should be treated immediately** where there is **a child seizing with duration unknown, or seizure
-for >5 minutes; cardio-respiratory compromise; or known pathology — meningitis, hypoxic injury,
-trauma** [S1].
+- **Seizures are common:** about 1 child in 20 (5%) has some kind of seizure during childhood, and most are short and stop by themselves, usually inside 5 minutes. [S1]
+- ⚠️ **Treat straight away** if the duration is unknown or it has gone on for more than 5 minutes, if there is cardiorespiratory compromise, or if there is known pathology (meningitis, hypoxic injury, trauma). [S1]
 
-**1 in 20 (5%) children will have a seizure of some form during childhood** [S1].
+## Acute assessment
 
-## ⚠️ Count the doses the parents gave
+- **If the child is still seizing, assess and treat at the same time.** [S1]
+- ⚠️ **Establish the full duration, pre-hospital time included, and every benzodiazepine dose given just before arrival.** [S1]
+- **Past history that matters now:** earlier seizures and current anti-seizure medicine (and any management plan) · neurological comorbidity such as a VP shunt or structural brain abnormality · renal failure, which can cause hypertensive encephalopathy · endocrine disease, which can disturb electrolytes. [S1]
+- **Causes that need their own emergency treatment:** hypoglycaemia · electrolyte disturbance (low sodium, calcium or magnesium) · meningitis · drug or toxin overdose, or envenomation · head trauma · stroke or intracranial haemorrhage. [S1]
+- **Under 6 months, a treatable cause is more likely**; think of pyridoxine-dependent seizures. [S1]
 
-> **Take into account benzodiazepine doses given pre-hospital (eg by parents or paramedics)**
-> **Ensure a maximum of 2 appropriate doses of benzodiazepine are administered (including pre-hospital
-> doses)** [S1]
+## History and examination
 
-**This appears twice — in the key points and again in the flowchart notes.** It is the guideline's central
-safety instruction: the child arriving in the department may already have had one or two doses at home or in
-the ambulance, and the respiratory depression risk is cumulative. **Duration of seizure including the
-pre-hospital period** and **any benzodiazepine doses given immediately prior to arrival** are the first two
-items in the acute assessment [S1].
+- **History:** a detailed timeline of what happened and how the child behaved before, during and after; hear it from the child where possible, and get a witness account, including any video. [S1]
+- **Ask about:** aura or focal features · awareness · recent trauma (consider non-accidental injury) · focal limb or eye movement · the post-ictal phase or hemiparesis · timing against sleep and waking. [S1]
+- **Relevant background:** seizures, cardiac disorders or sudden death in the family · features of absence seizures, myoclonic jerks or night-time events · development. [S1]
+- **Examination:** a full neurological examination for any abnormality and for signs of raised intracranial pressure or meningitis · heart and circulation, BP included · clues to a cause such as neurocutaneous stigmata or microcephaly · features of a toxidrome (fast heart or breathing, high BP, raised temperature, sweating, diarrhoea, tremor, brisk reflexes). [S1]
+- ⚠️ **Red flags:** a head injury followed later by a seizure · developmental delay or regression · headache before the seizure · hypertension · a bleeding disorder or anticoagulant therapy · toxidrome features · focal signs · anything in history or examination suggesting non-accidental injury · arrhythmia, which can cause or follow a seizure (think ECG). [S1]
+- **Differential diagnosis:** arrhythmia · breath-holding spell (the episode comes while crying) · vasovagal syncope with an anoxic seizure (on changing posture, after dizziness and nausea) · PNEEs, the paroxysmal non-epileptic events, such as reflux with Sandifer syndrome and gratification disorder (infantile masturbation) · PNES (psychogenic non-epileptic seizures) · benign movements of infancy (shuddering, sleep myoclonus). [S1]
 
-Three more rules govern drug choice before any dose is drawn up [S1]:
+## Active seizure management
 
-- **If available, refer to patient specific seizure management plan in children with a known seizure
-  disorder**
-- ⚠️ **Do not give a medication to which the child is allergic or has previously been unsuccessful in
-  terminating the seizure**
-- **In children already on phenytoin use phenobarbitone as alternative 2nd line agent**
+- **For the first 5 minutes, observe:** most seizures stop without help in that time, so unless the airway is compromised, watching without intervening is appropriate and matches seizure first aid advice. [S1]
+- ⚠️ **Allow for benzodiazepines given before hospital** (by parents or paramedics), and make sure no more than 2 appropriate benzodiazepine doses are given in all, pre-hospital doses counted. [S1]
+- **Known seizure disorder:** use the child's own seizure management plan if there is one. [S1]
+- ⚠️ **Avoid any drug the child is allergic to, or one that has already failed to stop their seizures.** [S1]
+- **Already taking phenytoin?** Phenobarbitone becomes the alternative second-line drug. [S1]
 
-**The second of those uses the child's own treatment-failure history as a contraindication** — an
-individualised rule rather than a population one, and unusual in an emergency algorithm.
+## Active seizure flowchart (S2, transcribed from the image)
 
-## Medications used in acute seizures
+- **Entry:** is there a suspected causative pathology (check the BGL), cardiorespiratory compromise, or a seizure lasting over 5 minutes or of unknown length? If none, keep the airway open, keep the child safe and watch; if still seizing at 5 minutes, start active treatment. [S2]
+- **Active treatment:** continuous monitoring and oxygen · venous access · a VBG · a benzodiazepine · treat any causative pathology. [S2]
+- **Hard IV access:** give midazolam IM, buccally or intranasally. [S2]
+- ⚠️ **Still seizing 5 minutes on:** give the benzodiazepine again and call senior staff. [S2]
+- ⚠️ **Still seizing another 5 minutes later:** start a second-line drug, levetiracetam or phenytoin. [S2]
+- **Reassess 5 minutes after that infusion ends.** If the seizure continues, give whichever of levetiracetam or phenytoin has not yet been used (phenobarbitone if the child already takes phenytoin), and consider intubation. [S2]
+- ⚠️ **Reassess again 5 minutes after the second infusion.** If still seizing, get senior help for further seizure management, with airway management if needed. [S2]
+- **Once the seizure stops:** post-seizure care, go back over history and examination, and investigate as needed. [S2]
 
-**Transcribed as the source states them** [S1]. **The flowchart governing which agent, when, and after what
-interval is an image and was not retrieved — see *Unresolved*.**
+## Medications
 
-| | Medication | Dose | Comments |
-|---|---|---|---|
-| **1st line** | **Midazolam** | **0.15 mg/kg IV/IM/IO (max 10 mg)**<br>**0.3 mg/kg buccal/IN (max 10 mg)** | **Injection solution may be given orally, buccally or intranasally, an oromucosal product is also available and is only for buccal use.** **Intranasal midazolam may cause nasal irritation and a burning sensation** |
-| | **Diazepam** | **0.3 mg/kg IV/IO (max 10 mg)** | **IV dose preferable. Do not give IM** |
-| **2nd line** | **Phenytoin** | **Loading dose: 20 mg/kg IV/IO (max 2 g)** | **Use undiluted or dilute to 5 mg/mL or greater and infuse at 1 mg/kg/minute with a maximum rate of 50 mg/minute.** **Cardiac monitoring required.** ⚠️ **Contraindicated in Dravet syndrome** |
-| | **Levetiracetam** | **40–60 mg/kg IV/IO (max 4.5 g)** | **Dilute to 50 mg/mL and infuse over 5 minutes** |
-| | **Phenobarbitone** | **20 mg/kg IV/IO (max 1 g)** | **Dilute to 20 mg/mL or weaker and infuse over 30 minutes or longer (max rate 1 mg/kg/minute).** **Cardiac monitoring required.** **Commonly used in neonatal seizures** |
-| | **Valproate** | **20–40 mg/kg (max 3 g)** | **Infuse over 3–10 minutes as a single dose.** ⚠️ **Not recommended in children <3 years (high risk of hepatotoxicity).** **Stop immediately if skin reaction or signs of hypersensitivity (with or without rash), hepatotoxicity or pancreatitis occur** |
-| **3rd line** | **Pyridoxine** | **100 mg IV** | **Consider in children up to 6 months with seizures refractory to standard anticonvulsants** |
-| | *(refractory)* | | **For refractory seizures requiring rapid sequence induction and ventilation. Use only with involvement of senior staff confident with airway management. Medications may include infusions of midazolam, ketamine, propofol, thiopentone** |
+- **Midazolam (first line):** IV, IM or IO 0.15 mg/kg, up to 10 mg; buccal or intranasal 0.3 mg/kg, up to 10 mg. [S1]
+- **Midazolam formulations:** the injection solution can go by mouth, buccally or intranasally; an oromucosal product also exists, for buccal use only. Intranasal midazolam can sting and irritate the nose. [S1]
+- **Diazepam (first line):** 0.3 mg/kg IV or IO, up to 10 mg; the IV route is preferred. ⚠️ Never IM. [S1]
+- **Phenytoin (second line):** load 20 mg/kg IV or IO, up to 2 g; give neat or diluted to no weaker than 5 mg/mL, at 1 mg/kg/minute and never faster than 50 mg/minute; needs cardiac monitoring. ⚠️ Do not use in Dravet syndrome. [S1]
+- **Levetiracetam (second line):** 40-60 mg/kg IV or IO, up to 4.5 g, diluted to 50 mg/mL and run in over 5 minutes. [S1]
+- **Phenobarbitone (second line):** 20 mg/kg IV or IO, up to 1 g; at a concentration of 20 mg/mL or weaker, run it in over at least 30 minutes, no faster than 1 mg/kg/minute; needs cardiac monitoring; often used for seizures in neonates. [S1]
+- **Valproate (second line):** 20-40 mg/kg, up to 3 g, as one infusion over 3-10 minutes. ⚠️ Avoid under 3 years (high hepatotoxicity risk). Stop at once for a skin reaction, hypersensitivity signs (rash or not), hepatotoxicity or pancreatitis. [S1]
+- **Pyridoxine (third line):** 100 mg IV; consider it up to 6 months of age when seizures resist standard anticonvulsants. [S1]
+- ⚠️ **Refractory seizures needing RSI and ventilation:** infusions may include midazolam, ketamine, propofol or thiopentone, and only with senior staff who are confident with the airway. [S1]
 
-⚠️ **Two independent Australian sources, the same threshold.** This guideline's **"not recommended in children
-<3 years (high risk of hepatotoxicity)"** matches the **sodium valproate** guideline in this compendium, whose
-source lists **"age 3 years and below"** first among significant hepatotoxicity risk factors. The paediatric
-emergency guideline and the national drug bulletin agree without citing each other.
+## After the seizure
 
-**Pyridoxine is the quiet one.** A single 100 mg dose in an infant, aimed at a rare vitamin-responsive
-condition — the assessment section flags it separately: **age: treatable cause is more likely in children <6
-months — consider pyridoxine dependent seizures** [S1].
+- **Post-seizure care:** recovery position and a maintained airway, watch for further seizures, and investigate where appropriate. [S1]
+- **Bloods:** check blood glucose. Consider electrolytes, calcium and a venous gas if a second-line drug was needed · age under 12 months · comorbidity such as a metabolic disorder, diabetes, dehydration or a toxidrome · the child is not back to baseline after the post-ictal phase and any drug effect have passed. [S1]
+- **ECG** when an arrhythmia is a possibility. [S1]
+- **Consider imaging for:** trauma · a focal seizure · needing a third-line drug · age under 6 months · signs of raised ICP · new focal signs or stroke-like symptoms · a bleeding disorder or anticoagulation · failure to return to baseline, or persisting neurological signs, after the post-ictal phase and drug effects have passed. [S1]
+- ⚠️ **No CT after a typical seizure in a child with established epilepsy**, unless something else calls for it. [S1]
+- **EEG** is seldom needed acutely and is not routine after a first seizure; consider it under 12 months of age or with a known genetic condition. [S1]
+- **The commonest causes of afebrile seizures in children** are SeLECTS (self-limited epilepsy with centrotemporal spikes, also called BFEC, CECTS or benign rolandic epilepsy) and IGE (idiopathic generalised epilepsy). An EEG confirms them, but they may need no treatment, so it is rarely urgent; an EEG is generally done after a second seizure, and a confirmed diagnosis can spare neuroimaging. [S1]
 
-## ⚠️ The active seizure algorithm, transcribed from the flowchart image
+## Escalation and disposition
 
-**Verification basis differs** — read off the diagram, verdict **`pass_image_transcription`**, not machine
-re-checkable [S2].
+- **Discuss with the local paediatric team:** age under 12 months · possible infantile spasms · a prolonged seizure · recovery that is not complete · meningoencephalitis or other intracranial pathology · focal seizures or focal post-ictal findings · repeated seizures without an epilepsy diagnosis · frequent or uncontrolled seizures in known epilepsy · developmental delay · other comorbidities · concern about non-accidental injury. [S1]
+- **Admit for observation** if under 12 months. [S1]
+- **Tertiary transfer** for a child expected to need ICU-level care because of cardiorespiratory compromise. [S1]
+- **Discharge** an older child who is back to baseline function and has no red flags in the history or on examination. [S1]
+- **Teach every family before discharge:** the recurrence risk · seizure safety · first aid and the management plan · filming events when it is safe, and keeping a record · written information · whether emergency medication (buccal midazolam) is needed · driving advice for older children old enough to drive. [S1]
+- **After a first afebrile seizure, every child needs medical follow-up.** EEG is not routine but should be considered under 12 months or with a known genetic condition. [S1]
 
-**Entry**: **suspected causative pathology — check BGL · cardio-respiratory compromise · duration of seizure
->5 minutes or unknown**. **No** → **ensure airway patency, keep safe & observe**; **seizure ongoing at 5
-minutes** → enter active treatment. **No** → **post seizure care** [S2].
+## About the source page
 
-**Commence active treatment** [S2]:
+- **PIC endorsed; last updated June 2025.** [S1]
+- **Second-line trials cited:** ConSEPT (Dalziel et al., Lancet 2019;393) and EcLiPSE (Lyttle et al., Lancet 2019;393), each testing levetiracetam against phenytoin in children with convulsive status epilepticus, and ESETT (Chamberlain et al., Lancet 2020;395), comparing levetiracetam, fosphenytoin and valproate by age group. [S1]
+- **Other references:** the AMH Children's dosing companion · APLS seventh edition (2024) · NICE NG217 (2022) · the ILAE classification of childhood-onset epilepsy syndromes (Epilepsia, 2022) · status epilepticus or seizure guidelines from Queensland (QPEC), SA Health, WA (Perth Children's Hospital), the Sydney Children's Hospitals Network and Starship (NZ). [S1]
 
-> - **Continuous monitoring, oxygen**
-> - **Obtain venous access**
-> - **Check VBG**
-> - ⚠️ **Give benzodiazepine** — **if IV access difficult, use IM/buccal/IN midazolam**
-> - **Address any causative pathology**
-
-Then, **each step gated at five minutes** [S2]:
-
-| Still seizing after | Do |
-|---|---|
-| **5 minutes** | **Repeat dose of benzodiazepine. Involve senior staff** |
-| **5 minutes** | **Give 2nd line agent: Levetiracetam OR Phenytoin** |
-| ⚠️ **Reassess 5 minutes *after infusion completed*** | **Give alternative 2nd line agent** (the one not already administered). **Phenobarbitone if already on Phenytoin. Consider intubation** |
-| **Reassess 5 minutes after infusion completed** | **Seek help from senior staff for further seizure management +/- airway management** |
-
-**"Reassess 5 minutes after infusion completed" — not after starting it.** Levetiracetam infuses over
-5 minutes and phenytoin over considerably longer at 1 mg/kg/min; **the clock starts at the end of the
-infusion, which materially changes when the next agent is due.** The text gave neither the sequence nor this
-distinction.
-
-**At any point, seizure terminated** → **post seizure care: revisit history and examination, investigations as
-required** [S2].
-
-## Assessment
-
-> **Assessment and management should occur concurrently if the child is seizing** [S1].
-
-**Key considerations** [S1]: duration including pre-hospital period; benzodiazepine doses already given; **past
-history — previous seizures and anti-seizure medication (management plan if in place), neurological
-comorbidity (eg VP shunt, structural brain abnormality), renal failure (hypertensive encephalopathy),
-endocrinopathy (electrolyte disturbance)**; **focal features**; and evidence of an underlying cause.
-
-**Underlying causes to look for** [S1]: **hypoglycaemia; electrolyte disturbances (hyponatraemia,
-hypocalcaemia, hypomagnesaemia); meningitis; drug/toxin overdose or envenomation; head trauma; stroke and
-intracranial haemorrhage.**
-
-**History** should be a **detailed chronological history of events and behaviours before, during and after the
-seizure**, taken **from the child if possible**, with a **bystander account, including video recordings** —
-asking about **aura, focal features; level of awareness; recent trauma, consider non-accidental injury;
-focality of limb or eye movement; post-ictal phase/hemiparesis; relation to sleep-wake cycle** [S1]. Relevant
-past history includes **family history of seizures or cardiac disorders/sudden death** [S1].
-
-### Red flags
-
-> **Head injury with delayed seizure · Developmental delay or regression · Headache prior to the seizure ·
-> Hypertension · Bleeding disorder, anticoagulation therapy · Features suggestive of toxidrome · Focal signs ·
-> History or examination findings concerning for non-accidental injury · Arrhythmia (seizure may be cause or
-> result of arrhythmia; consider ECG)** [S1]
-
-**"Seizure may be cause or result of arrhythmia"** is the one that changes a disposition — and
-**non-accidental injury appears three times** across history, red flags and the consultation triggers.
-
-### What else it might be
-
-**Differential diagnosis** [S1]: **arrhythmia; breath holding spell (episode occurs when the child is
-crying); vasovagal syncope with anoxic seizure (postural change, preceded by dizziness and nausea);
-paroxysmal non-epileptic events — gastro-oesophageal reflux (Sandifer syndrome), gratification disorder
-(infantile masturbation); psychogenic non-epileptic seizures; benign infantile movements (shudder, sleep
-myoclonus).**
-
-**Each carries its own discriminating feature in brackets** — the differential is written to be used at the
-bedside rather than recalled.
-
-## ⚠️ Investigations — mostly conditional, and one prohibition
-
-**Bloods**: **blood glucose** for everyone. **Consider electrolytes, calcium and venous gas** only where
-**any seizure needing a second line agent; children <12 months; medical comorbidity such as metabolic
-disorder, diabetes, dehydration, toxidrome; or the child has not returned to baseline once the post-ictal
-phase and the effect of any medication has passed** [S1].
-
-**Imaging**: consider where there is **evidence of trauma; focal seizure; children requiring 3rd line agent;
-children <6 months; signs of elevated ICP; new focal signs or symptoms suggestive of stroke; bleeding disorder
-/ anticoagulation;** or failure to return to baseline [S1].
-
-> ⚠️ **Avoid CT in children with established epilepsy after a typical seizure, unless there are other
-> indications** [S1].
-
-**EEG** [S1]:
-
-- **Rarely required in the acute setting**
-- **Not routine after a first seizure. Should be considered if the child is <12 months or has a known genetic
-  condition**
-- **Self-limited epilepsy with centrotemporal spikes (SeLECTS)… and idiopathic generalised epilepsy (IGE) are
-  the most common causes of afebrile seizures in children. Diagnosis needs EEG to confirm. SeLECTS and IGE may
-  not require treatment, so EEG confirmation is usually not urgent. An EEG should generally be performed if a
-  child has a second seizure.**
-- ⚠️ **A positive diagnosis can avoid the need for neuroimaging**
-
-**EEG is positioned as a way to avoid a CT scan** — a diagnostic argued for on the grounds of the radiation it
-prevents, in a population where that matters most.
-
-## Escalation and discharge
-
-**Consider consultation with the local paediatric team** for **children <12 months; suspected infantile
-spasms; prolonged seizures; incomplete recovery; intracranial pathology; meningoencephalitis; focal seizures
-or post ictal findings; recurrent seizures without a diagnosis of epilepsy; frequent/uncontrolled seizures in
-a child with known epilepsy; developmental delay; existing comorbidities; concern for non-accidental
-injury** [S1]. **Consider admission for observation in children <12 months** [S1].
-
-**Transfer to a tertiary centre**: **children anticipated to require ICU level care (cardiorespiratory
-compromise)** [S1].
-
-**Discharge** when **in older children, the child is back to baseline function with no red flags on history or
-examination** [S1]. **All families should receive education prior to discharge** [S1]:
-
-> - **explanation of risk of recurrence**
-> - **seizure safety advice**
-> - **seizure first aid and management plan**
-> - **advise parents to video events if safe to do so and keep a record**
-> - **provide written information**
-> - **consider need for emergency medication (buccal midazolam)**
-> - ⚠️ **advice regarding driving in older children of driving age**
-
-**That last line closes a three-guideline chain inside this compendium**: the child treated here, if old
-enough to drive, is governed by **Assessing Fitness to Drive** — where a first seizure means **6 months**
-off the road privately and reporting to the licensing authority — and if valproate is chosen and later
-switched, by the **sodium valproate** guideline and the three-month non-driving period that switch carries.
-**Acute care → licence → medicine.** Each document names the next without citing it.
-
-**Follow-up after a first afebrile seizure**: **all children who have a first afebrile seizure should have
-medical follow up** [S1].
-
-## The evidence underneath
-
-The guideline's reference list names the three randomised trials that settled second-line therapy —
-**ConSEPT** (Dalziel et al., *Lancet* 2019), **EcLiPSE** (Lyttle et al., *Lancet* 2019) and **ESETT**
-(Chamberlain et al., *Lancet* 2020; Kapur et al., *NEJM* 2019) [S1]. It also cites the **AMH Children's dosing
-companion**, **APLS 7th edition (2024)**, **NICE NG217**, the **ILAE 2022 childhood syndrome classification**,
-and the paediatric guidelines of **Queensland, South Australia, Western Australia, the Sydney Children's
-Hospitals Network and Starship (NZ)** [S1].
-
-**This is a guideline that reconciles five Australian state paediatric guidelines and cites them all.** No
-other source in this compendium does that.
-
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| **Fitness to drive — seizures and epilepsy** | discharge education includes **advice regarding driving in older children of driving age** |
-| **Sodium valproate** | ⚠️ both give **age 3 / under 3 years** as the valproate hepatotoxicity threshold, independently |
-| **Stroke** | **stroke and intracranial haemorrhage** are listed underlying causes; the stroke standard **excludes children**, and this partly fills that |
-| **Sepsis** | **meningitis** and **meningoencephalitis** as cause and escalation trigger |
-| **Delirium** | failure to return to baseline as the disposition-changing observation |
-| **Anaphylaxis** | the other paediatric-capable emergency pathway; **envenomation** appears here as a seizure cause |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| **The active seizure flowchart** | ⚠️ **observation** | **resolved 2026-09-22** — downloaded and transcribed above under **`pass_image_transcription`**; not machine re-checkable. **The dose table and the sequence can now be read together** |
-| **Febrile seizure** | **out_of_scope** | a separate RCH guideline, not retrieved; it is the commonest childhood seizure presentation |
-| **Neonatal seizures** | **out_of_scope** | referred to an external Victorian guideline |
-| **Ongoing epilepsy treatment in children** | **out_of_scope** | this covers the acute event and first presentation only; **maintenance antiseizure therapy in children remains uncovered in this compendium** |
-| **Infantile spasms** | **input_unavailable** | named as a consultation trigger with no management guidance |
-| **AMH Children's dosing companion** | **access** | cited as reference 1; **licensed content, cited by reference only, not reproduced** |
-| **Doses are paediatric and weight-based** | **observation** | **every dose above is mg/kg with a stated maximum; none is transferable to adults**, and the compendium holds no adult status epilepticus guideline |
-| **Single-centre authorship, national endorsement** | **observation** | an RCH guideline carrying **PIC endorsement** and reconciling five state guidelines — a different authority basis from the ACSQHC standards and NHMRC-approved guidelines elsewhere in this set |
+| 1 | **Flowchart (S2) is a transcription of an image**, re-checked here only against the Wave 1 transcription file. Compare the steps with the image before relying on the sequence. | `observation` |
+| 2 | **Febrile seizures** have their own RCH page, now in this set as `febrile-seizure`. | `out_of_scope` |
+| 3 | **Neonatal seizures** are sent to an external Victorian guideline and are not covered. | `out_of_scope` |
+| 4 | **Long-term epilepsy treatment in children** is outside this page, which covers the acute event and first presentation. | `out_of_scope` |
+| 5 | **Infantile spasms** appear only as a reason to call the paediatric team; see `infantile-spasms`. | `input_unavailable` |
+| 6 | **AMH Children's dosing companion** is licensed content, cited by name only. | `access` |
+| 7 | **Authority basis:** a single-hospital guideline with PIC endorsement that draws on several state guidelines, unlike the national standards elsewhere in this set. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Seizures — acute management.* Last updated June 2025. PIC Endorsed | paediatric clinical practice guideline (AU) |
-| S2 | *ibid.*, the **active seizure management flowchart** — **read from the image** | diagram, transcribed by eye |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guidelines: Seizures - acute management*. last updated June 2025, PIC endorsed. https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+| **S2** | The Royal Children's Hospital Melbourne. *RCH flowcharts for Seizures - acute management (active seizure flowchart)*. last updated June 2025. https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Seizures-acute-management.png — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
