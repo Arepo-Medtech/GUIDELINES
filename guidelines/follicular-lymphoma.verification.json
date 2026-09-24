@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/follicular-lymphoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8061678/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8061678/",
+  "https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association Lymphoma Group (Ladetto M, Dreyling M), HemaSphere 'EHA Endorsement of ESMO Clinical Practice Guidelines for Newly Diagnosed and Relapsed Follicular Lymphoma' (published 21 April 2021 (doi 10.1097/HS9.0000000000000559), endorsing the ESMO CPG of late 2020 (Ann Oncol 2021;32:298-308)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8061678). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association Lymphoma Group (Ladetto M, Dreyling M), HemaSphere 'EHA Endorsement of ESMO Clinical Practice Guidelines for Newly Diagnosed and Relapsed Follicular Lymphoma' (published 21 April 2021 (doi 10.1097/HS9.0000000000000559), endorsing the ESMO CPG of late 2020 (Ann Oncol 2021;32:298-308)), 13 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8061678). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)' (retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027)), 9 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every EHA 2021 claim (S1) unchanged and adds S2, four eviQ protocols (Australian, CC BY-NC 4.0, paraphrased), for regimen doses, PBS status, maintenance schedules, supportive care and tafasitamab-lenalidomide-rituximab, none of which S1 gives. The eviQ menu is script-rendered, but its protocol list is embedded as page data, so the protocols were located without a browser. The S2 source file concatenates the four protocol pages (https://www.eviq.org.au/p/3554, /p/3794, /p/1385 and /p/4662), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The ALA FL statement (IMJ 2024) still has no open copy on Europe PMC.",
  "summary": {
-  "total": 13,
+  "total": 22,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 13
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
@@ -122,6 +123,109 @@
    "locator": "European Hematology Association Lymphoma Group (Ladetto M, Dreyling M), HemaSphere, 'EHA Endorsement of ESMO Clinical Practice Guidelines for Newly Diagnosed and Relapsed Follicular Lymphoma', published 21 April 2021 (doi 10.1097/HS9.0000000000000559), endorsing the ESMO CPG of late 2020 (Ann Oncol 2021;32:298-308), https://pmc.ncbi.nlm.nih.gov/articles/PMC8061678/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Bendamustine-rituximab (BR), every 28 days for 6 cycles (S2):** rituximab 375 mg/m2 on day 1 and bendamustine 90 mg/m2 on days 1 and 2. ⚠️ In Australia bendamustine is a PBS authority item for previously untreated indolent NHL (and MCL) but, although TGA-registered, is not PBS-listed for relapsed or refractory NHL.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d9224aed0eb1b5a",
+     "n": 296,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "22b61f1f1f4025c1",
+     "n": 128,
+     "p": "Bendamus"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Bendamustine-obinutuzumab, every 28 days for 6 cycles (S2):** obinutuzumab 1,000 mg on days 1, 8 and 15 of cycle 1 and on day 1 of cycles 2 to 6, with bendamustine 90 mg/m2 on days 1 and 2. It is used for previously untreated FL and for rituximab-refractory FL, and both drugs are PBS authority items.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2158a9e55bf72e35",
+     "n": 420,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "f51fe0bcde134ffb",
+     "n": 124,
+     "p": "Previous"
+    },
+    {
+     "h": "531acc4084c1bf89",
+     "n": 46,
+     "p": "Bendamus"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Infection prophylaxis with obinutuzumab-bendamustine (S2):** give PJP and varicella zoster prophylaxis during induction and for 6-12 months after it, and again for 6-12 months after obinutuzumab maintenance ends; consider G-CSF for prolonged neutropenia; use irradiated blood products. Screen for hepatitis B (HBsAg, anti-HBc, anti-HBs) before any anti-CD20 therapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04be942a747f650f",
+     "n": 312,
+     "p": "Pneumocy"
+    },
+    {
+     "h": "04911cc011a1193d",
+     "n": 92,
+     "p": "The use "
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rituximab maintenance schedule (S2):** 375 mg/m2 every 2 months for up to 2 years (12 doses) after response to first-line induction for stage III/IV FL; every 3 months for up to 2 years (8 doses) after response to relapse induction. Rituximab is on the PBS general schedule.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e06e77241db274c2",
+     "n": 519,
+     "p": "Rituxima"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Maintenance evidence (S2):** in PRIMA (1,217 untreated patients), 2 years of 8-weekly rituximab raised 36-month PFS to 74.9% from 57.6% without an overall survival difference, at the cost of more grade 3 or 4 events (24% v 17%) and more grade 2-4 infections (39% v 24%). In relapsed FL (EORTC 20981), 3-monthly maintenance also improved overall survival at 3 years (85% v 77%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce32b774d1e9826a",
+     "n": 632,
+     "p": "The PRIM"
+    },
+    {
+     "h": "55fd79a896808801",
+     "n": 343,
+     "p": "In 2006,"
+    },
+    {
+     "h": "f98b83a5e604aa80",
+     "n": 144,
+     "p": "In addit"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
    "claim": "**At relapse, decide by** how many and which treatments came before, response duration (progression within 24 months, POD24), tumour burden and fitness.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -172,6 +276,90 @@
     }
    ],
    "locator": "European Hematology Association Lymphoma Group (Ladetto M, Dreyling M), HemaSphere, 'EHA Endorsement of ESMO Clinical Practice Guidelines for Newly Diagnosed and Relapsed Follicular Lymphoma', published 21 April 2021 (doi 10.1097/HS9.0000000000000559), endorsing the ESMO CPG of late 2020 (Ann Oncol 2021;32:298-308), https://pmc.ncbi.nlm.nih.gov/articles/PMC8061678/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Rituximab-refractory FL (the GADOLIN definition used for obinutuzumab-bendamustine, S2):** no response to, or progression during, any rituximab-containing regimen, or disease progressing less than 6 months after the final rituximab dose, whether in induction or maintenance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e3deccd629753cfd",
+     "n": 278,
+     "p": "Rituxima"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Tafasitamab-lenalidomide-rituximab for relapsed or refractory FL (S2), 28-day cycles for 12 cycles:** lenalidomide 20 mg daily on days 1 to 21; tafasitamab 12 mg/kg on days 1, 8, 15 and 22 in cycles 1 to 3, then days 1 and 15 in cycles 4 to 12; rituximab 375 mg/m2 weekly in cycle 1, then day 1 in cycles 2 to 5. Tafasitamab and lenalidomide are PBS authority items and lenalidomide needs pregnancy-prevention programme registration.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2b706802268b28d",
+     "n": 732,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "75f9ec8a64a6caba",
+     "n": 169,
+     "p": "Tafasita"
+    },
+    {
+     "h": "e0bdd06abbe7a3ad",
+     "n": 51,
+     "p": "Relapsed"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Evidence for tafasitamab (inMIND, S2):** in 548 patients with at least one prior line, adding tafasitamab to lenalidomide-rituximab lengthened median PFS to 22.4 from 13.9 months (HR 0.43) and raised overall response to 84% from 72%, with similar serious adverse event rates (36% v 32%); overall survival data are immature.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e55cdefe158b5c39",
+     "n": 144,
+     "p": "548 pati"
+    },
+    {
+     "h": "a23229ec90dee681",
+     "n": 296,
+     "p": "After a "
+    },
+    {
+     "h": "ac8c8ecaf59ffff1",
+     "n": 123,
+     "p": "The best"
+    },
+    {
+     "h": "27b06ca1bc2b61f3",
+     "n": 159,
+     "p": "The inci"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Lenalidomide-based regimens need thromboprophylaxis and PJP cover (S2):** assess VTE risk before and during treatment; give low-dose aspirin without risk factors, or enoxaparin 40 mg daily with risk factors (dose-reduced in kidney impairment). PJP prophylaxis, for example trimethoprim-sulfamethoxazole 160/800 mg one tablet twice daily on two days a week or once daily three days a week.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "12cf28ee674996c8",
+     "n": 564,
+     "p": "Patients"
+    },
+    {
+     "h": "2d0d48a2f3a049fc",
+     "n": 224,
+     "p": "PJP prop"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 3554 bendamustine and obinutuzumab (v.4, last changed 20 March 2024), 3794 bendamustine and rituximab (v.9, 17 May 2024), 1385 rituximab maintenance (v.9, 20 March 2024) and 4662 tafasitamab, lenalidomide and rituximab (v.1, 20 March 2026)', retrieved 24 September 2026 (reviews due: 3554 and 1385 31 December 2028; 3794 30 June 2027; 4662 17 August 2027), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Survival has improved and many patients live long,** so treatment choice should respect patient priorities and prevent early and late harm, including second cancers and loss of organ function.",
