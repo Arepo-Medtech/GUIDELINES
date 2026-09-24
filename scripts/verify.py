@@ -4,8 +4,8 @@
 Structural checks always run. With --source, every source_text fragment must
 appear verbatim in the retrieved source file.
 
-  python3 scripts/verify.py guidelines/stroke.verification.json --source /tmp/st.txt
-  python3 scripts/verify.py guidelines/*.verification.json
+  python3 scripts/verify.py verification/stroke.verification.json --source /tmp/st.txt
+  python3 scripts/verify.py verification/*.verification.json
 
 Most guidelines cite several sources, and one retrieved file is only ever one
 of them. --only-source limits the verbatim check to the claims attributed to
@@ -13,7 +13,7 @@ that source id, so a re-check against a single fetched page does not report
 the other sources' claims as failures. Claims from the other sources are left
 unchecked, and the count of skipped claims is printed rather than hidden.
 
-  python3 scripts/verify.py guidelines/sepsis.verification.json \
+  python3 scripts/verify.py verification/sepsis.verification.json \
       --source /tmp/sepsis.txt --only-source S1
 
 Whitespace is collapsed on both sides before comparison, so line-wrapping

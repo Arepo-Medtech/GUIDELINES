@@ -19,7 +19,7 @@ from attestation import load as _load_attest, status_for as _status_for
 def main(argv):
     n = t = p = img = lic = qd = od = fail = att = acc = rejd = 0
     _rec = _load_attest()      # human ticks in docs/attestation-queue.md
-    for f in glob.glob("guidelines/*.verification.json"):
+    for f in glob.glob("verification/*.verification.json"):
         n += 1
         gname = f.split("/")[-1].replace(".verification.json", "")
         for i, c in enumerate(json.load(open(f))["claims"], 1):

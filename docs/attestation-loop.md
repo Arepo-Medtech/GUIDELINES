@@ -42,7 +42,7 @@ sign-off onto different words the next time a build script renumbered a file.
 ```bash
 python3 scripts/dose_queue.py            # rewrite the queue, preserving your ticks
 python3 scripts/dose_queue.py --stdout   # print, change nothing
-python3 scripts/verify.py guidelines/*.verification.json
+python3 scripts/verify.py verification/*.verification.json
 python3 scripts/corpus_stats.py
 python3 scripts/attestation.py           # self-check of the parser
 ```

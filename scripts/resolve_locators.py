@@ -79,7 +79,7 @@ def locator_for(keys):
 
 def main(write):
     changed = untouched = 0
-    for f in sorted(glob.glob("guidelines/*.verification.json")):
+    for f in sorted(glob.glob("verification/*.verification.json")):
         name = f.split("/")[-1].replace(".verification.json", "")
         if name not in POOL:
             continue
