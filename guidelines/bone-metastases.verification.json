@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/bone-metastases.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/1301"
+  "https://www.eviq.org.au/p/1301",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '1301 Prostate metastatic denosumab (eviQ ID 1301, version 5)' (first approved 22 June 2012; last reviewed 4 September 2024; review 'as required'). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '1301 Prostate metastatic denosumab (eviQ ID 1301, version 5)' (first approved 22 June 2012; last reviewed 4 September 2024; review 'as required'), 15 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: QUOTED from Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004) 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)' (published online 19 August 2023), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11256524). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ claim (S1) unchanged and adds S2, a Chinese multidisciplinary expert consensus on bone metastasis in lung cancer (CC BY 4.0, quoted), for bone-modifying drugs outside prostate cancer (the 244 trial in other solid tumours), bisphosphonates, and safety. It is an expert consensus, not a society guideline: the ESMO 2020 bone health guideline (Annals of Oncology) could not be read (bot challenge) and is not on Europe PMC, and the SEOM-SEIOMM 2026 bone health review (PMC13401549) was read and rejected because it covers treatment-induced bone loss, not bone metastases. S2's drug-dose table (Table 1) was stripped.",
  "summary": {
-  "total": 15,
-  "pass": 0,
+  "total": 21,
+  "pass": 6,
   "fail": 0,
   "pass_paraphrase_anchored": 15
  },
@@ -200,6 +201,48 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '1301 Prostate metastatic denosumab (eviQ ID 1301, version 5)', first approved 22 June 2012; last reviewed 4 September 2024; review 'as required', https://www.eviq.org.au/p/1301, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Bone-modifying drugs (denosumab or a bisphosphonate) are recommended once bone metastasis is confirmed, whether or not it causes symptoms,** because they prevent or delay skeletal-related events. In lung cancer, bone metastasis occurs in about 30–40% of patients.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Denosumab and bisphosphonates are recommended for the treatment of patients with bone metastasis in lung cancer. Bone-modifying drugs can prevent or delay the occurrence of SREs, and provide benefits for patients with confirmed bone metastasis, regardless of clinical symptoms. … Bone is one of the most common sites of hematogenous metastasis of lung cancer, with an incidence of approximately 30-40%",
+   "locator": "Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004), 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)', published online 19 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Denosumab outside breast and prostate cancer (the 244 trial, against zoledronic acid):** in solid tumours it delayed the first skeletal-related event (21.4 against 15.4 months) and cut the risk of multiple events by 15% (HR 0.85); in the lung cancer subgroup overall survival was 8.9 against 7.7 months (HR 0.80).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The 244 study is a phase III trial comparing denosumab with zoledronic acid (ZA) for delaying or preventing SREs in patients with bone metastasis in solid tumors (except for breast and prostate) or multiple myeloma, based on conventional anti-tumor therapy. In the 244 study, the subgroup analysis of solid tumors (n = 1 597; 811 patients with lung cancer) showed that denosumab significantly delayed the time to first on-study SRE by 6 months compared with ZA (21.4 vs 15.4 months), and also reduced the risk of multiple SREs by 15% compared with ZA (hazard ratio [HR], 0.85 [95% confidence intervals, 0.72-1.00]; P = 0.048) ., Besides, the subgroup analysis of lung cancer (small cell lung cancer and NSCLC) revealed that denosumab prolonged the OS by 1.2 months compared with ZA (8.9 vs 7.7 months, HR, 0.80 [95% confidence intervals, 0.67-0.95]; P = 0.01).",
+   "locator": "Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004), 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)', published online 19 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bisphosphonates (zoledronic acid, ibandronate, incadronate) are also effective:** in a meta-analysis of 12 trials they lowered skeletal-related events, eased bone pain and slowed bone lesions, and in an NSCLC trial they prevented or delayed events whether or not an event had already happened.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "the ZA, ibandronate, and incadronate have emerged as the commonly used third-generation bisphosphonate drugs. A previous meta-analysis enrolled 12 trials with 1 767 patients with advanced cancer and revealed that bisphosphonates could reduce SRE incidences, relieve bone metastasis-related pain, delay the progression of bone lesions, and further contribute to an improved survival rate., Furthermore, a multicenter trial included 198 NSCLC patients with metastatic bone diseases and confirmed that bisphosphonates could prevent and delay SREs regardless of the prior SREs, possibly due to its direct anti-tumor effect.",
+   "locator": "Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004), 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)', published online 19 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Side effects are usually flu-like** (bone pain, fever, fatigue, chills, joint or muscle pain); jaw osteonecrosis, hypocalcaemia, injection-site reactions and low phosphate are rare, and jaw osteonecrosis rates are similar across agents. Examine the mouth at least every 6 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Bone-modifying drugs are well-tolerated, and accordingly, few patients discontinued treatment due to adverse reactions (ADRs) in the clinic. The most common ADRs of denosumab and bisphosphonates are nonspecific influenza-like symptoms, including bone pain, fever, fatigue, chills, and joint or muscle pain. Additionally, there are some rare ADRs, such as ONJ, hypocalcemia, mild injection-site reactions, and asymptomatic, treatment-free decreased plasma phosphate. Actually, the incidence of ONJ caused by different bone-modifying drugs is generally comparable. As the occurrence of ONJ is associated with oral infection (or other risk factors), a comprehensive oral examination is recommended at least every 6 months to achieve early treatment once it occurs.",
+   "locator": "Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004), 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)', published online 19 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Kidneys: monitor renal function on a bisphosphonate and adjust its dose if it falls;** denosumab needs no adjustment because the kidney does not clear it.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In addition, renal function should be monitored when using bisphosphonates. The dose adjustment of bisphosphonates should be performed if renal dysfunction occurrs. However, no dose adjustment is required for denosumab, because it is not metabolized by the kidney.",
+   "locator": "Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004), 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)', published online 19 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Bone-modifying drugs also help pain:** they can relieve cancer bone pain and lengthen the time before it worsens.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Bone-modifying drugs, such as denosumab and bisphosphonates, can prevent the occurrence of bone pain by inhibiting the activation of osteoclasts and reducing the H+ produced by osteolysis. Moreover, studies have shown that bone-modifying drugs can effectively relieve cancer pain and prolong the time for the pain to worsen.",
+   "locator": "Chinese multidisciplinary expert group (oncology, orthopaedics, radiotherapy); Duan J et al., Journal of the National Cancer Center 3(4) (doi 10.1016/j.jncc.2023.08.004), 'Chinese expert consensus on the diagnosis and treatment of bone metastasis in lung cancer (2022 edition)', published online 19 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC11256524/, retrieved 2026-09-24"
   },
   {
    "claim": "**The supporting phase 3 trial randomised 1904 men with castration-resistant prostate cancer** to denosumab 120 mg or zoledronic acid 4 mg (adjusted for creatinine clearance), each every 4 weeks.",

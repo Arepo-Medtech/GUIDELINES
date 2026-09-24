@@ -1,9 +1,11 @@
 # Medicines to lower breast cancer risk (tamoxifen, raloxifene, aromatase inhibitors)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** choosing, starting and monitoring a risk-reducing medicine (tamoxifen, raloxifene, exemestane, anastrozole) for women without a previous breast cancer whose risk is above population level. Risk-reducing surgery, genetic testing and treatment of diagnosed breast cancer are out of scope. PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 23 claims paraphrased from **Clinical Oncology Society of Australia (COSA) — *Medications to lower the risk of breast cancer: clinician guide*** (Version 7, approved by COSA Council 22 March 2024; origin: AU). **40 anchors re-checkable by machine; 6 doses.** The source's words are not reproduced: its licence is *COSA website terms: personal, non-commercial use only; 'Any other use is strictly prohibited.' (the PDF itself carries no licence statement)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **49 fragments or anchors re-checkable by machine; 9 doses.** **S1** Clinical Oncology Society of Australia (COSA) (Version 7, approved by COSA Council 22 March 2024; AU): 23 claims, paraphrased, hash-anchored · **S2** National Institute for Health and Care Excellence (NICE) (published 25 June 2013, last updated 14 November 2023; international): 7 claims, paraphrased, hash-anchored
+
+> ⚠️ International guideline (NICE CG164, UK, updated 2023) as S2. Australian practice follows COSA (S1) and the PBS listings below and may differ; where they differ, both are shown.
 
 > ⚠️ **Only one option is PBS-subsidised for prevention:** tamoxifen 20 mg daily. Tamoxifen 10 mg (used for the low-dose regimen), raloxifene, exemestane and anastrozole need a private prescription for this purpose, and prices vary between pharmacies.
 
@@ -32,6 +34,16 @@
 - ⚠️ **Tamoxifen raises endometrial cancer risk after menopause only** (about 1 extra case per 250 women over 5 years), and the excess falls away once it stops. Ask women to report any post-menopausal vaginal bleeding promptly. [S1]
 - **Everyday side-effects of tamoxifen:** vasomotor symptoms in about 1 extra woman in 10, and possibly cataract in about 1 extra in 250. It also lightens or disturbs periods without causing menopause. [S1]
 - **Bone:** tamoxifen and raloxifene slow age-related bone loss and cut fracture risk after menopause, whereas the aromatase inhibitors make bone loss worse, so give bone-health advice (calcium, vitamin D, exercise, no smoking). [S1]
+
+## The UK approach (S2, NICE)
+
+- **NICE risk categories (from its referral criteria):** moderate risk is a lifetime risk of 17% or more but under 30%, or a 10-year risk at age 40 of more than 3 to 8%; high risk is a lifetime risk of 30% or more, a 10-year risk above 8%, or a 10% or greater chance of a family gene mutation. [S2]
+- **Who discusses it and how:** clinicians in secondary care or specialist genetic clinics talk through absolute benefits and risks with women at high or moderate risk, using a decision aid: the fall in invasive breast cancer, no effect on mortality, side effects, and alternatives such as surveillance alone or, at high risk, risk-reducing surgery. [S2]
+- ⚠️ **High risk, premenopausal: offer tamoxifen for 5 years,** unless there is a past or raised risk of thromboembolic disease or endometrial cancer. [S2]
+- ⚠️ **High risk, postmenopausal: NICE puts anastrozole first,** for 5 years, unless osteoporosis is severe. With severe osteoporosis, or if she declines anastrozole: offer tamoxifen for 5 years (if no thromboembolic or endometrial risk), or consider raloxifene for 5 years for a woman with a uterus who has no thromboembolic risk and does not want tamoxifen. [S2]
+- **Moderate risk: the same medicines are 'considered' rather than offered:** tamoxifen for 5 years before menopause; anastrozole for 5 years after menopause unless osteoporosis is severe, with tamoxifen or raloxifene as the alternatives. [S2]
+- **No chemoprevention after bilateral risk-reducing mastectomy, and none beyond 5 years** in women who have never had breast cancer. [S2]
+- **Stopping tamoxifen (NICE):** a minimum of 2 months ahead of attempting pregnancy, and a minimum of 6 weeks ahead of planned surgery. [S2]
 
 ## Contraindications
 
@@ -64,14 +76,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **The adverse-effect comparison table** (page 7) was flattened by text extraction and is not used. | `input_unavailable` |
-| 2 | **Risk-assessment thresholds** beyond the 1.5-times rule (for example what counts as 'high risk' for surgery) are not defined in the source; it defers to iPrevent and clinical genetics. | `input_unavailable` |
-| 3 | **Diagnosed breast cancer** (adjuvant endocrine therapy) is outside this guide's scope. | `out_of_scope` |
-| 4 | **Licence:** COSA website terms restrict use to personal, non-commercial use. The claims are paraphrased and hash-anchored; the source's words are not reproduced. Commercial use may need COSA's permission. | `observation` |
+| 2 | **Risk-assessment thresholds** beyond the 1.5-times rule are not defined in S1, which defers to iPrevent and clinical genetics. S2 (NICE) now gives UK thresholds (moderate: lifetime 17% to under 30%; high: 30% or more); they are not Australian and are shown as S2's. | `observation` |
+| 3 | **First choice after menopause: the sources differ.** S1 (COSA) presents tamoxifen, raloxifene, exemestane and anastrozole as options without ranking; S2 (NICE) offers anastrozole first for high-risk postmenopausal women, with tamoxifen or raloxifene as alternatives, and does not mention exemestane. In Australia only tamoxifen 20 mg is PBS-subsidised for prevention. Both are shown. | `observation` |
+| 4 | **Stopping tamoxifen: timings differ.** Before conception: S1 says at least 3 months, S2 at least 2 months. Before elective surgery: S1 says 4–6 weeks, S2 at least 6 weeks. Both are shown; the longer interval satisfies both. | `observation` |
+| 5 | **Low-dose tamoxifen** (5 mg daily, S1) is not mentioned in S2's recommendations. | `observation` |
+| 6 | **Diagnosed breast cancer** (adjuvant endocrine therapy) is outside this guide's scope. | `out_of_scope` |
+| 7 | **Licence:** COSA website terms restrict use to personal, non-commercial use. The claims are paraphrased and hash-anchored; the source's words are not reproduced. Commercial use may need COSA's permission. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Clinical Oncology Society of Australia (COSA). *Medications to lower the risk of breast cancer: clinician guide*. Version 7, approved by COSA Council 22 March 2024. https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf — retrieved 2026-09-23. | COSA website terms: personal, non-commercial use only; 'Any other use is strictly prohibited.' (the PDF itself carries no licence statement) | **paraphrased, hash-anchored** |
+| **S2** | National Institute for Health and Care Excellence (NICE), UK. *Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations*. published 25 June 2013, last updated 14 November 2023. https://www.nice.org.uk/guidance/cg164/chapter/Recommendations — retrieved 2026-09-24. | © NICE. NICE 'Notice of Rights': reuse under the NICE UK Open Content Licence in the UK only; outside the UK, no reproduction without NICE's prior written agreement | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

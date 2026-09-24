@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/breast-cancer-her2-positive.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3736"
+  "https://www.eviq.org.au/p/3736",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast neoadjuvant TCHP (DOCEtaxel cARBOplatin trastuzumab and pERTUZumab) (eviQ ID 3736 v.4)' (ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast neoadjuvant TCHP (DOCEtaxel cARBOplatin trastuzumab and pERTUZumab) (eviQ ID 3736 v.4)' (ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027), 19 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x) 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)' (published online 29 November 2025), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12790541). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ TCHP claim (S1) unchanged and adds S2, the SEOM-GEICAM-SOLTI 2025 early breast cancer guideline (a national society guideline, CC BY-NC-ND 4.0, paraphrased), for the choice of neoadjuvant regimen, adjuvant therapy after upfront surgery, post-neoadjuvant therapy and extended adjuvant options. Its recommendation tables were stripped; only running text is used. The Pan-Asian adapted ESMO early breast cancer guideline (PMC11145753) was read and rejected because its HER2 recommendations sit only in tables; the ESMO 2024 guideline itself (Annals of Oncology) is not on PMC.",
  "summary": {
-  "total": 19,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -273,6 +274,156 @@
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast neoadjuvant TCHP (DOCEtaxel cARBOplatin trastuzumab and pERTUZumab) (eviQ ID 3736 v.4)', ID 3736 v.4; first approved 20 October 2020, last reviewed 5 December 2023, review due 31 December 2027, https://www.eviq.org.au/p/3736, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Neoadjuvant treatment is the route for tumours cT2 or larger, or node-positive:** chemotherapy (a taxane with AC or EC, or a taxane with or without carboplatin) plus dual blockade with pertuzumab and trastuzumab [I, A]. The response to it is a surrogate for disease-free survival and decides the adjuvant plan.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33e7a4a269d75082",
+     "n": 324,
+     "p": "Response"
+    },
+    {
+     "h": "5b77fcd8eeb22e76",
+     "n": 396,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Two neoadjuvant backbones are established:** an anthracycline then taxane sequence, or docetaxel with carboplatin, each with pertuzumab and trastuzumab and giving at least 9 weeks of taxane with anti-HER2 therapy. In TRAIN-2 the anthracycline did not improve pCR or long-term outcomes over the taxane-platinum regimen, and LVEF declines are less common without it, so the anthracycline-free option suits patients where cardiotoxicity is a concern [II, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "907ec444cc23edb9",
+     "n": 896,
+     "p": "Establis"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Residual disease after neoadjuvant therapy** (at least 6 cycles, including 9 weeks or more of taxane with trastuzumab): switch to trastuzumab emtansine for 14 cycles. In KATHERINE it beat trastuzumab, with 7-year iDFS 80.8% against 67.1% and overall survival 89.1% against 84.4% [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9847ecadf0f14daa",
+     "n": 486,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**After a pCR:** continue trastuzumab until a full year of anti-HER2 therapy is reached [I, A]; if nodes were positive at diagnosis, pertuzumab may be added, per APHINITY [II, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5afda7092582376e",
+     "n": 324,
+     "p": "For thos"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adjuvant therapy after upfront surgery:** trastuzumab for 12 months with chemotherapy, for every tumour over 1 cm whatever the nodes [I, A], and worth considering in node-negative 0.5–1 cm tumours, particularly ER-negative ones [II, B]. Preferred regimens: AC or EC for four cycles then 3 months of paclitaxel or docetaxel with trastuzumab, or docetaxel, carboplatin and trastuzumab (TCH) [I, A]. It can run alongside radiotherapy or endocrine therapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "528919c7e4b4732f",
+     "n": 770,
+     "p": "The admi"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Stage I disease:** consider 12 weeks of paclitaxel with trastuzumab, then trastuzumab alone to complete 1 year (APT trial) [II, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0df129e56f084d0",
+     "n": 231,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Adjuvant pertuzumab (APHINITY)** gave a modest but significant gain in iDFS and overall survival in node-positive patients who had not had neoadjuvant treatment; the EMA approved 18 cycles of trastuzumab with pertuzumab for high-risk node-positive disease, whether started before or after surgery [I, A]. Spain does not fund the adjuvant indication.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f90f362a64efa31",
+     "n": 579,
+     "p": "In the A"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Extended adjuvant neratinib:** 1 year of neratinib after a year of trastuzumab improved iDFS in ExteNET, most in HR-positive, node-positive disease, at the cost of more diarrhoea [I, B]. The EMA limits it to HR-positive disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea4e28c82bc9a23b",
+     "n": 391,
+     "p": "The addi"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**HER2-positive, HR-positive disease:** add adjuvant endocrine therapy on the same principles as for HER2-negative disease. Nothing supports adding a CDK4/6 inhibitor or a PARP inhibitor after surgery in this subtype.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0cfd0dd2bcc12735",
+     "n": 292,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before anthracyclines or HER2-targeted drugs, assess cardiac function** [I, A]. The HER2DX 27-gene test may help choose escalation or de-escalation around dual blockade, but prospective validation is still under way [II, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc65e9ca71499433",
+     "n": 189,
+     "p": "Addition"
+    },
+    {
+     "h": "538b2b5524e10dae",
+     "n": 49,
+     "p": "In HER2-"
+    },
+    {
+     "h": "cbaabfff056447c5",
+     "n": 386,
+     "p": "HER2DX c"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; de la Peña et al., Clinical and Translational Oncology 28(1) (doi 10.1007/s12094-025-04139-x), 'SEOM-GEICAM-SOLTI clinical guidelines for early-stage breast cancer (UPDATE 2025)', published online 29 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790541/, retrieved 2026-09-24"
   },
   {
    "claim": "**The evidence is limited.** eviQ found no strong evidence for neoadjuvant TCHP, and its panel leaned mainly on the phase II TRYPHAENA trial. There, TCHP gave a pathological complete response in 66.2%, against 61.6% and 57.3% with the anthracycline-containing arms, with little symptomatic left ventricular dysfunction.",

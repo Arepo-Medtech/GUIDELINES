@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/germ-cell-tumours.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11467073/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11467073/",
+  "https://www.eviq.org.au/p/320"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Spanish Society of Medical Oncology (SEOM) and Spanish Germ Cell Cancer Group (GG), Clinical and Translational Oncology (doi 10.1007/s12094-024-03532-2) 'SEOM-GG clinical guidelines for the management of germ-cell testicular cancer (2023)' (published 3 July 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at NCBI PMC efetch JATS <license> element for PMC11467073 (Europe PMC returned HTTP 503 on 2026-09-23)). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Spanish Society of Medical Oncology (SEOM) and Spanish Germ Cell Cancer Group (GG), Clinical and Translational Oncology (doi 10.1007/s12094-024-03532-2) 'SEOM-GG clinical guidelines for the management of germ-cell testicular cancer (2023)' (published 3 July 2024), 19 claims; LICENCE: CC BY 4.0 (read at NCBI PMC efetch JATS <license> element for PMC11467073 (Europe PMC returned HTTP 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee) '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]' (first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026), 10 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every SEOM-GG 2023 claim (S1) unchanged and adds S2, the Australian eviQ protocol for 5-day BEP in metastatic testicular germ cell tumours (ID 320, a treatment protocol, not a guideline), for the regimen doses S1 keeps in stripped tables, bleomycin units and limits, monitoring, Australian funding and the Australian ANZGCTG trial. S2's text was taken from the protocol page from the ID line to the literature-search section.",
  "summary": {
-  "total": 19,
+  "total": 29,
   "pass": 19,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -108,6 +110,210 @@
    "verdict": "pass",
    "source_text": "patients with TGCT at high risk of recurrence, as well as those who have relapsed, be treated by multidisciplinary teams in experienced centers",
    "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Germ Cell Cancer Group (GG), Clinical and Translational Oncology (doi 10.1007/s12094-024-03532-2), 'SEOM-GG clinical guidelines for the management of germ-cell testicular cancer (2023)', published 3 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467073/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **5-day BEP (eviQ, the 'US PEB' schedule), every 21 days:** bleomycin 30,000 International Units IM or IV on days 1, 8 and 15; cisplatin 20 mg/m² IV and etoposide 100 mg/m² IV on days 1 to 5; pegfilgrastim 6 mg subcutaneously on day 6. Dose cisplatin and etoposide on actual body surface area, without capping, to avoid underdosing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d9f4ba6f6c2ae740",
+     "n": 243,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "f8e3c369fda0e1c0",
+     "n": 119,
+     "p": "^ Dose s"
+    },
+    {
+     "h": "71552f6337335132",
+     "n": 50,
+     "p": "Frequenc"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Number of cycles and total bleomycin (eviQ):** good prognosis, 3 cycles (270,000 International Units in total); intermediate prognosis, 4 cycles, with bleomycin sometimes left out of cycle 4 if lung function falls (then still 270,000 in total); poor prognosis, 4 cycles (360,000 in total).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6abe6def56bad101",
+     "n": 332,
+     "p": "good pro"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Bleomycin limit (eviQ):** never more than 400,000 International Units in total, and lung toxicity risk climbs beyond 300,000. Check the running total before every dose, and get baseline lung function tests with DLCO. Units matter: 1,500 International Units equal 1.5 USP units, roughly 1.5 mg by potency.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d6e89d763fd5a913",
+     "n": 525,
+     "p": "Bleomyci"
+    },
+    {
+     "h": "5c3ab60ba5e5867b",
+     "n": 156,
+     "p": "# Bleomy"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Oxygen and bleomycin:** bleomycin sensitises the lungs to oxygen, so if oxygen is needed (for example during anaesthesia) use a low concentration such as 25%, and manage fluids carefully, favouring colloid over crystalloid, to avoid interstitial pulmonary oedema. Nephrotoxic drugs can slow bleomycin clearance: avoid them, and give bleomycin before cisplatin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "32a8b9c77fefc293",
+     "n": 322,
+     "p": "| Oxygen"
+    },
+    {
+     "h": "6b1f431242b4fee0",
+     "n": 299,
+     "p": "| Bleomy"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Over 40, bleomycin toxicity is more likely, so eviQ suggests alternatives:** 4 cycles of EP for good-risk disease, 4 cycles of VIP for intermediate or poor risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c84d28c645876eb9",
+     "n": 188,
+     "p": "In patie"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**eviQ advises against delays and dose cuts,** because they can badly weaken the treatment: talk to a medical oncologist at a high-volume tertiary testicular cancer centre before delaying or reducing for toxicity or kidney or liver dysfunction. Without G-CSF the neutropenia risk is about 10 to 20%, so G-CSF may not be required, but many clinicians give it as primary prophylaxis to hold dose intensity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "737719b355873ae9",
+     "n": 416,
+     "p": "Note: De"
+    },
+    {
+     "h": "0df2ee2b1b86136b",
+     "n": 213,
+     "p": "** The r"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monitoring (eviQ):** AFP and beta-hCG on days 1, 8 and 15 of cycle 1, then as indicated; blood count, kidney function (EUC, eGFR), liver tests, calcium and magnesium at baseline and before each cycle; hepatitis B serology before starting. Prefer a measured GFR for cisplatin when eGFR is under 60. Emetic risk is high.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a398951c86795bab",
+     "n": 99,
+     "p": "AFP and "
+    },
+    {
+     "h": "862afc1184e2405f",
+     "n": 80,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    },
+    {
+     "h": "15ca8b0c7ee01f65",
+     "n": 98,
+     "p": "Directly"
+    },
+    {
+     "h": "2222582d99b24839",
+     "n": 18,
+     "p": "Emetogen"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PBS:** bleomycin, etoposide and cisplatin are general schedule items; pegfilgrastim needs a PBS authority.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc69b8a4fffa32c4",
+     "n": 91,
+     "p": "All drug"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why 5-day BEP (Australian evidence):** in the ANZGCTG trial (166 good-prognosis patients), 3 cycles of the 5-day schedule beat 4 cycles of a 3-day European schedule (cisplatin 100 mg/m² on day 1, etoposide 120 mg/m² on days 1 to 3, bleomycin on day 1), with 8-year overall survival of 92% against 83% (HR 0.38). Expected cure with BEP is about 90% for good risk, 80% for intermediate and 50% for poor risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf98e466bb47c6f2",
+     "n": 302,
+     "p": "The firs"
+    },
+    {
+     "h": "bd22dd0bab6a2984",
+     "n": 298,
+     "p": "The seco"
+    },
+    {
+     "h": "ba14fcb8c218b113",
+     "n": 28,
+     "p": "166 pati"
+    },
+    {
+     "h": "e15ea117dcf128df",
+     "n": 179,
+     "p": "After a "
+    },
+    {
+     "h": "0605af911bce7fd5",
+     "n": 319,
+     "p": "Good-ris"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**A hypersensitivity reaction can follow any bleomycin dose, even after a negative test dose.** A corticosteroid can blunt bleomycin fever and chills, and paracetamol can be used for fever.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d075dc8758f13453",
+     "n": 165,
+     "p": "High ris"
+    },
+    {
+     "h": "0fa8b737810327df",
+     "n": 196,
+     "p": "A cortic"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Medical Oncology Reference Committee), '320 Testicular germ cell metastatic BEP (bleomycin etoposide ciSplatin) (eviQ ID 320 v.9) [protocol]', first approved 13 September 2005; last reviewed 15 March 2019; review 'as required'; v.9 updated 31 August 2026, https://www.eviq.org.au/p/320, retrieved 2026-09-24"
   },
   {
    "claim": "**Non-seminoma with normal markers and residual retroperitoneal nodes of 1 cm or more: nerve-sparing RPLND** (PET is not useful). **Seminoma residuals under 3 cm: surveillance;** larger ones need PET at least 6 weeks after the last bleomycin.",

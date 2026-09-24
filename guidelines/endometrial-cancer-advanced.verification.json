@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/endometrial-cancer-advanced.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/4423"
+  "https://www.eviq.org.au/p/4423",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4423 Endometrial recurrent or metastatic carboplatin, paclitaxel and dostarlimab (eviQ ID 4423, version 2)' (first approved 21 August 2024; last reviewed 15 December 2025; review due 31 December 2027). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4423 Endometrial recurrent or metastatic carboplatin, paclitaxel and dostarlimab (eviQ ID 4423, version 2)' (first approved 21 August 2024; last reviewed 15 December 2025; review due 31 December 2027), 19 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1) 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)' (published online 23 September 2025), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12630260). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ claim (S1) unchanged and adds S2, the SEOM-GEICO 2025 endometrial cancer guideline (a national society guideline, CC BY-NC-ND 4.0, paraphrased), for the treatment pathway around the eviQ regimen: MMR and HER2 testing, chemotherapy backbone, pMMR options, hormonal therapy, later lines and follow-up. Its tables and algorithm were stripped; only running text is used. The ESGO-ESTRO-ESP 2025 update (Lancet Oncology) is not open on Europe PMC.",
  "summary": {
-  "total": 19,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -248,6 +249,160 @@
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4423 Endometrial recurrent or metastatic carboplatin, paclitaxel and dostarlimab (eviQ ID 4423, version 2)', first approved 21 August 2024; last reviewed 15 December 2025; review due 31 December 2027, https://www.eviq.org.au/p/4423, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Test every endometrial cancer for mismatch repair deficiency by immunohistochemistry** (Lynch syndrome screening, whatever the age or histology) [II, A]; MLH1 loss needs MLH1 promoter methylation (or BRAF) testing before germline analysis. Also assess ER at diagnosis [IV, A], because it predicts response to hormonal treatment in advanced disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b6c353032b9d899",
+     "n": 440,
+     "p": "Lynch sy"
+    },
+    {
+     "h": "5bf36040ec35fa7f",
+     "n": 201,
+     "p": "The eval"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Isolated pelvic recurrence or a single metastatic site:** consider surgery, radiotherapy or ablation [IV, A], followed by systemic treatment of uncertain benefit [IV, B]. Unresectable or metastatic disease is treated with chemotherapy, immunotherapy or hormonal therapy, and trial enrolment is strongly encouraged [V, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d869a4b5fb9c9b05",
+     "n": 383,
+     "p": "For isol"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The chemotherapy backbone is carboplatin AUC 5–6 with paclitaxel 175 mg/m² every three weeks** [I, A]: in GOG 209 it was non-inferior to the three-drug TAP regimen (PFS 12–14 months, OS 32 months) and less toxic.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82953cf007aded00",
+     "n": 371,
+     "p": "In the G"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **dMMR first line (S2): chemotherapy with a checkpoint inhibitor, then checkpoint maintenance, is standard** [I, A]: pembrolizumab for 2 years (NRG-GY018, dMMR PFS HR 0.3) or dostarlimab for 3 years (RUBY, dMMR PFS HR 0.23 and OS HR 0.32). Atezolizumab and durvalumab have also shown first-line activity. The two trials differ in design (interval since adjuvant therapy, maintenance length, histologies included), which matters when choosing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "beaba9cda15a2bc2",
+     "n": 1478,
+     "p": "The addi"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **pMMR first line (S2): chemotherapy plus immunotherapy is also the standard** [I, B], though the gain is smaller than in dMMR. Adding a PARP inhibitor to chemotherapy and immunotherapy (RUBY part 2, DUO-E) is another option for pMMR [I, B]. Lenvatinib with pembrolizumab failed as first line (LEAP-001), but may be considered for pMMR relapse after adjuvant chemotherapy when more chemotherapy is contraindicated [III, C].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d86d9e4115e9c6cb",
+     "n": 784,
+     "p": "In the p"
+    },
+    {
+     "h": "a0b7de959e0067ee",
+     "n": 374,
+     "p": "Another "
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hormonal therapy suits low-grade, hormone receptor-positive disease that is not rapidly progressing or bulky** [II, A]: megestrol acetate 160 mg daily or medroxyprogesterone acetate 200 mg daily (preferred), alone or with tamoxifen, or tamoxifen, an aromatase inhibitor or fulvestrant [III, A]. Consider rebiopsy at recurrence to confirm receptor status [IV, B]; responses are about 10–25% in chemotherapy-naive patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c1f6c98372c8367b",
+     "n": 596,
+     "p": "HT could"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Second line after platinum, if no prior immunotherapy:** dMMR: dostarlimab or pembrolizumab alone [III, A] (response rates 46% in GARNET and 57% in KEYNOTE-158), or pembrolizumab with lenvatinib [I, B]. pMMR: pembrolizumab with lenvatinib [I, A], which beat chemotherapy on PFS, OS and response whatever the MMR status, at the cost of frequent hypertension, hypothyroidism and diarrhoea.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "641377af5def9a6f",
+     "n": 275,
+     "p": "In dMMR "
+    },
+    {
+     "h": "14e3dfb15ff00007",
+     "n": 187,
+     "p": "regardle"
+    },
+    {
+     "h": "c456a4d397554863",
+     "n": 323,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After immunotherapy,** options are modest (weekly paclitaxel, docetaxel, oxaliplatin, liposomal doxorubicin, topotecan, ifosfamide), and platinum can be repeated after a late relapse. **Test HER2:** about 30% of serous carcinomas are HER2-positive; trastuzumab added to carboplatin-paclitaxel improved PFS and OS, and trastuzumab deruxtecan gave an 84% response rate in strongly HER2-expressing (+++) endometrial cancer (phase II).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9b6cced1e3697227",
+     "n": 244,
+     "p": "Several "
+    },
+    {
+     "h": "5417276a4b92656e",
+     "n": 226,
+     "p": "Approxim"
+    },
+    {
+     "h": "6fa0ee77133ec39a",
+     "n": 271,
+     "p": "Despite "
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Follow-up:** review every three to six months for two years, then every six to twelve months, with symptom review and a speculum and bimanual examination; teach the symptoms of recurrence. Serum markers and routine vaginal cytology are not recommended [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4597be1649ca5c37",
+     "n": 678,
+     "p": "After in"
+    },
+    {
+     "h": "539278849ac6a548",
+     "n": 172,
+     "p": "Serum bi"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and GEICO; Ramirez et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04046-1), 'SEOM-GEICO clinical guidelines on endometrial cancer (2025)', published online 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/, retrieved 2026-09-24"
   },
   {
    "claim": "**The supporting trial is RUBY (phase III, 487 patients)** with primary stage III-IV or first recurrent endometrial cancer, untreated or relapsing at least 6 months after adjuvant or neoadjuvant therapy. Patients had carboplatin and paclitaxel with dostarlimab or placebo for six cycles, then dostarlimab 1000 mg or placebo 6-weekly, for a maximum of 3 years.",
