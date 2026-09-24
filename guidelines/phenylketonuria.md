@@ -1,11 +1,13 @@
 # Phenylketonuria (PAH deficiency) across the lifespan
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** newborn screening, diagnosis, when to treat, blood Phe targets by age, monitoring, diet and protein substitutes, sapropterin and pegvaliase, late-diagnosed PKU and maternal PKU. Tetrahydrobiopterin (BH4) deficiencies and DNAJC12 deficiency are only excluded here, not managed. First-line samples for a suspected inborn error in an unwell child: see `metabolic-disorders-children`. PBS access for each product is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 21 claims quoted verbatim from **van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier) — *European guidelines on diagnosis and treatment of phenylketonuria: First revision*** (vol. 145, article 109125, published 2025; origin: international); **51 fragments re-checked by machine; 2 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **71 fragments or anchors re-checkable by machine; 3 doses.** **S1** van Wegberg AMJ (vol. 145, article 109125, published 2025; international): 21 claims, quoted · **S2** Inwood AC (endorsed by ASIEM 5 October 2017; AU): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (European PKU guidelines, first revision, 2025). Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is the Australasian reference (ASIEM 2017)** used by metabolic clinics in Australia and New Zealand. It adds total protein by age, a local monitoring and clinic schedule, tyrosine targets and Australian product and funding notes. It predates S1 by eight years, and where the two differ (Phe targets after 12, tyrosine, bone density, neuropsychology timing) both are shown and listed under Unresolved.
 
 > ⚠️ **Australian funding differs.** The PBS listing data for these conditions cover Phe-free and low-Phe amino acid and glycomacropeptide protein substitutes, and **sapropterin**. **Pegvaliase**, which this guideline offers from over 16 years of age, is not among them.
 
@@ -22,6 +24,9 @@
 - **Treat every child whose untreated blood Phe is 360 μmol/L or more.** Below 360 μmol/L no treatment is needed, but keep monitoring Phe until at least 6 years of age. [S1]
 - ⚠️ **Target blood Phe:** 120–360 μmol/L up to age 12 years; 120–600 μmol/L from 12 to 18 years and in adults over 18; 120–360 μmol/L in pregnancy. [S1]
 - **Lifelong follow-up in a specialist metabolic centre for everyone with PKU**, including adults off Phe-lowering treatment, with access to a metabolic physician, dietitian and (neuro)psychologist. [S1]
+- 🇦🇺 **Australasian targets (ASIEM):** keep Phe at 120–360 µmol/L until 12 years of age. Beyond 12, some patients may reasonably make an informed choice to run above 360 µmol/L, on an individual target, bearing in mind that lower levels tend to give better short- and long-term outcomes. ASIEM notes that the US guideline holds 120–360 µmol/L for life, while the European one (2017) accepts up to 600 µmol/L after 12. [S2]
+- 🇦🇺 **Clinic review (ASIEM):** in a multidisciplinary metabolic clinic, in person or by teleconference, at least 3-monthly through the first year of life, 6-monthly through childhood and yearly in adulthood. For children, the team brings together a physician, nurse, dietitian, psychologist and psychosocial worker experienced in PKU. [S2]
+- 🇦🇺 **Transition (ASIEM):** raise the move to adult care when the young person enters high school and revisit it every year; where no specialist adult service exists, the treating physician should find a suitable one before high school ends. [S2]
 
 ## Monitoring
 
@@ -29,6 +34,11 @@
 - **Minimum blood Phe frequency (treated):** weekly in the first year, fortnightly from 1 to 12 years, monthly after 12; weekly before conception and twice weekly in pregnancy. [S1]
 - **Up to age 12, if more than 50% of Phe levels are out of range over 6 months**, consider more frequent monitoring and re-education, psychology or social work, admission, or alternative therapy such as sapropterin. [S1]
 - **Neuropsychological assessment around ages 5, 12 and 18 years, then every 5 to 10 years;** review quality of life and wellbeing at least yearly. First DXA bone density scan in early adolescence. [S1]
+- 🇦🇺 **ASIEM monitoring schedule for Phe and tyrosine:** in infancy twice a week until stable and within range, then weekly until one year of age; through childhood fortnightly to monthly; adolescents and adults at least monthly. Take the dried blood spot or plasma sample at the same time each day, either fasting in the morning or 3–4 hours after an ordinary low-protein meal with formula. [S2]
+- 🇦🇺 **Tyrosine (ASIEM):** aim for plasma tyrosine of 50–100 µmol/L, and think about supplementing when it is repeatedly low, for example under 30 µmol/L. [S2]
+- 🇦🇺 **Neuropsychology (ASIEM):** a full assessment of development, intellect, executive and behavioural-emotional function and adaptive skills before the child starts primary school (earlier if problems appear), and again on entering high school if clinically indicated. [S2]
+- 🇦🇺 **Bone density (ASIEM):** measure it only for a specific clinical reason or known risk of metabolic bone disease, because the value of routine screening is unproven. [S2]
+- 🇦🇺 **Persistent non-adherence (ASIEM):** if almost every Phe result is out of range over roughly 6 months, and there are other signs of non-adherence or concerns for the child's safety, the team should consider consulting child protection services. [S2]
 
 ## Diet and protein substitutes
 
@@ -36,6 +46,10 @@
 - **Glycomacropeptide (cGMP) substitutes can be used from 4 years of age**, counting their Phe in the daily allowance. No extra tyrosine is needed, and LNAA are not recommended routinely (never in children or pregnancy). [S1]
 - **Encourage breastfeeding alongside a Phe-free infant amino acid formula.** Fruit and vegetables (not potatoes) with Phe up to 75 mg/100 g can be eaten freely; avoid aspartame. [S1]
 - **Annual nutritional review for anyone on a Phe-restricted diet:** growth, plasma amino acids, B12, blood count, ferritin and vitamin D. [S1]
+- 🇦🇺 **Total protein (natural protein plus substitute) by age, per ASIEM Table 1, in g/kg/day:** 2.0–3.0 from birth to 12 months; 2.0–2.5 at 1–3 years; 1.5–2.0 at 4–10 years; 1.0–1.5 at 10–18 years. From 19 years, and in pregnancy or breastfeeding, give 140% of the RDI for age and sex. In classical PKU the Phe-free formula usually supplies about 75–85% of daily protein. [S2]
+- 🇦🇺 **Spread natural protein and Phe-free formula across the day, at least 3–4 times,** and never eat over half the day's natural-protein allowance in one go. Outside most fruits and vegetables, one gram of food protein counts as roughly 50mg of Phe. [S2]
+- ⚠️ **Phe deficiency from over-restriction is uncommon but needs prompt treatment:** look for generalised amino aciduria, hair loss, a (perineal) rash, poor or erratic growth in preschoolers, loss of appetite and listlessness. [S2]
+- 🇦🇺 **Australian products and labels (ASIEM 2017):** glycomacropeptide-based substitutes are available in Australia; large neutral amino acid supplements are not subsidised in Australia or New Zealand. Aspartame and acesulphame-aspartame (additives 951 and 962; sold as NutraSweet, Equal, Canderal) are half phenylalanine and must be avoided; some medicines, such as antibiotics, contain aspartame. [S2]
 
 ## Drug therapy
 
@@ -69,15 +83,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Tables** (including Table 2, minimum follow-up and investigations, and the protein-intake tables under Recommendations 40 and 67) were not usable after extraction; the age-specific protein targets are not stated here. | `input_unavailable` |
-| 2 | **Australian guidance:** the ASIEM Australasian PKU lifespan (2017), maternal PKU (2015) and BH4 (2017) guidelines exist but HGSA's terms prohibit reproduction, so they were not used; Australian targets may differ from these European ones. | `observation` |
-| 3 | **Hyperphenylalaninaemia due to tetrahydrobiopterin deficiency** (PBS sapropterin listing) is outside this guideline, which only says to exclude BH4 defects. | `out_of_scope` |
-| 4 | **Licence:** CC BY 4.0, read in the publisher's PDF. Claims are quoted verbatim with attribution. | `observation` |
+| 1 | **Tables** in S1 (including Table 2, minimum follow-up and investigations, and the protein-intake tables under Recommendations 40 and 67) were not usable after extraction. Total protein by age is now given from S2's Table 1 (ASIEM 2017); S1's own age-specific protein figures are still not stated here. | `input_unavailable` |
+| 2 | **Australian guidance:** the ASIEM Australasian PKU lifespan guidelines (2017) are now S2, paraphrased and hash-anchored because HGSA's site terms allow personal, non-commercial use only. The ASIEM maternal PKU (2015) and BH4-in-PKU (2017) documents were not added; S2 defers maternal PKU and sapropterin to them. | `observation` |
+| 3 | **Phe targets after 12 years differ:** S1 (2025) sets 120–600 μmol/L from 12 years; S2 (2017) keeps 120–360 μmol/L to 12 and then allows an informed, individual decision to run higher. Both are shown. | `observation` |
+| 4 | **Tyrosine:** S1 advises no extra tyrosine for patients on diet; S2 targets plasma tyrosine of 50–100 µmol/L and considers supplements when it is repeatedly below 30 µmol/L. Both are shown. | `observation` |
+| 5 | **Bone density and neuropsychology timing differ:** S1 does a first DXA in early adolescence and neuropsychological testing around 5, 12 and 18 years; S2 scans bone only for a clinical reason and tests before primary school and, if indicated, at high-school entry. Both are shown. | `observation` |
+| 6 | **S2 predates the PBS sapropterin listing for PKU:** in 2017 it described sapropterin as subsidised only for BH4 deficiency disorders. The PBS table below is current. | `observation` |
+| 7 | **Hyperphenylalaninaemia due to tetrahydrobiopterin deficiency** (PBS sapropterin listing) is outside this guideline, which only says to exclude BH4 defects. | `out_of_scope` |
+| 8 | **Licences:** S1 is CC BY 4.0, read in the publisher's PDF, and quoted verbatim with attribution. S2 is © HGSA with personal, non-commercial use only, so it is paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier). *European guidelines on diagnosis and treatment of phenylketonuria: First revision*. vol. 145, article 109125, published 2025. https://doi.org/10.1016/j.ymgme.2025.109125 — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA). *Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan*. endorsed by ASIEM 5 October 2017. https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf — retrieved 2026-09-24. | © The Human Genetics Society of Australasia Limited (no licence statement in the PDF). Site terms: 'You may view this site and its contents ... solely for personal, non-commercial use. Any other use, including the reproduction ... is strictly prohibited.' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

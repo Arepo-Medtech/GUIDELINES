@@ -1,11 +1,13 @@
 # Ketogenic diet therapy for epilepsy in children: selection, diet choice, supplementation and monitoring
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** children with epilepsy treated with ketogenic diet therapies (classic, MCT, modified Atkins, low glycaemic index): who should be offered one, screening beforehand, choosing and starting a diet, antiseizure drugs, vitamin and mineral supplementation, monitoring, adverse effects and stopping. Epilepsy in general: see `epilepsy`. Glut1 deficiency: see `glut1-deficiency-syndrome`. Adults are outside the source's scope.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** children with epilepsy treated with ketogenic diet therapies (classic, MCT, modified Atkins, low glycaemic index): who should be offered one, screening beforehand, choosing and starting a diet, antiseizure drugs, vitamin and mineral supplementation, monitoring, adverse effects and stopping. Epilepsy in general: see `epilepsy`. Glut1 deficiency: see `glut1-deficiency-syndrome`. Adults are outside S1's scope; S2 adds transition and adults in outline.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open — *Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group*** (published 21 May 2018; origin: international). **37 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **59 fragments or anchors re-checkable by machine; 2 doses.** **S1** International Ketogenic Diet Study Group (Kossoff EH et al.) (published 21 May 2018; international): 24 claims, paraphrased, hash-anchored · **S2** Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G (published 10 July 2023; international): 9 claims, quoted
 
 > ⚠️ International guideline (International Ketogenic Diet Study Group, 2018). Australian practice follows the PBS listings below and may differ.
+
+> ⚠️ **S2 is a national society guideline (Italian League against Epilepsy, 2023)** built on S1. It adds MCT-diet and modified Atkins starting steps, potassium citrate prophylaxis, a follow-up and test schedule, blood ketone monitoring, adults and transition, and how to wean. Where S1 and S2 differ (drug reduction timing, citrate, urine vs blood ketones), both are shown.
 
 > The PBS condition covers **any** highly restrictive therapeutic diet; this source covers the ketogenic diet only. The PBS lists two vitamin, mineral and trace-element products here, one of them described as *with carbohydrate*. The source advises **carbohydrate-free** multivitamin and mineral products on a ketogenic diet, so check the product's carbohydrate content against the child's diet prescription.
 
@@ -27,6 +29,8 @@
 - **MCT diet:** the traditional version takes 60% of energy from MCT and can upset the gut. The modified version uses 30% MCT plus 30% long-chain fat. MCT should be spread across every meal. [S1]
 - **Modified Atkins diet:** start at roughly 10–15 g carbohydrate a day, rising to 20 g after 1–3 months. Protein, fluid and calories are not limited. [S1]
 - **Fasting at the start is optional,** and the classic diet can be begun as an outpatient. Modified Atkins and low glycaemic index diets usually start at home without a fast. [S1]
+- **Where to start (S2):** most children start the classic diet as outpatients; the LICE panel admits for status epilepticus and for infants (100% agreement), and when intensive caregiver training is needed or there are clinical or psychiatric comorbidities (80%−70%). Most raise the ratio gradually from 1:1 to 3: 1 or 4: 1 with full calories from the start. [S2]
+- **MCT diet start (S2):** at home, with small amounts of MCT at first (e.g., 8–10 g per day) split across meals, increasing to the target share of 10–25% in children < 2 years or 40–50% >2 years, which limits gut side effects. The modified Atkins diet starts at 10–20 g carbohydrate per day, usually as an outpatient. [S2]
 
 ## Antiseizure drugs and other medicines
 
@@ -34,6 +38,7 @@
 - ⚠️ **With acetazolamide, topiramate or zonisamide, watch bicarbonate closely**: the diet adds to their acidosis. Valproate can generally be used, but monitor for carnitine deficiency. [S1]
 - ⚠️ **Sugars in medicine formulations can break ketosis and bring seizures back.** Choose alternative forms or count the carbohydrate in the diet; tablets are better than liquids or chewables. [S1]
 - **If the diet works, antiseizure drugs can be reduced after 1 month;** withdraw phenobarbital and benzodiazepines slowly. [S1]
+- **Antiseizure drug levels on the diet (S2):** about 75% of the LICE panel saw no need to adjust doses when the diet started; in adults on the modified Atkins diet, mean drug concentrations fell by 10%, most for carbamazepine, clobazam and valproate. The panel starts tapering antiseizure drugs 6 months after starting the diet if it works. [S2]
 
 ## Supplementation
 
@@ -42,16 +47,22 @@
 - **Selenium and magnesium fall on the classic diet by 12 months,** and low selenium has been linked to cardiomyopathy. Check levels from time to time; whether extra selenium beyond a multivitamin is needed is unclear. [S1]
 - **Oral citrates help prevent kidney stones** (Class III): empiric use cut the rate from 6.7% to 0.9%. The group was split on giving them to everyone. [S1]
 - **Not recommended routinely:** antacids, laxatives, probiotics, exogenous ketones, extra selenium or carnitine. Most centres give oral carnitine only when levels are low or the child has symptoms. [S1]
+- **Potassium citrate prophylaxis (S2):** the LICE panel recommends 2 mEq/kg/day for everyone on the diet (studies used up to a maximum of 60 mEq/day), counting dietary potassium; carbonic anhydrase inhibitors add acidosis risk. Add calcium if the multivitamin is short, but avoid excess (hypercalciuria and stones), and keep vitamin D high. [S2]
+- **Carnitine (S2):** supplement only when deficiency is documented; consider testing for fatigue, difficulty keeping ketosis, or drugs that lower free carnitine. [S2]
 
 ## Monitoring and adverse effects
 
 - **In year one, schedule clinic reviews at months 1, 3, 6, 9 and 12, then 6-monthly,** by a neurologist and dietitian. Infants and children at high nutritional risk need closer contact. [S1]
 - **Bloods every 3 months in year one, then every 6–12 months:** FBC with platelets, liver and kidney function, fasting lipids, calcium, vitamin D and magnesium. Parents test urine ketones at home several times a week, at varying times of day. [S1]
 - **Expect side effects, but few force stopping:** gut symptoms affect up to 50%; raised lipids occur in 14–59% on the classic diet and often settle by 12 months; kidney stones in 3–7%. [S1]
+- **Follow-up (S2):** reviews at 1, 3, 6 and 12 months (outpatient or day hospital), with telemedicine at 1 month and, after the first year, 6-monthly telehealth alongside yearly on-site visits. Tests before starting and at least yearly: blood count, electrolytes including magnesium, zinc and selenium, bicarbonate, liver and kidney function, coagulation, lipids, vitamin D, GH, IGF1, TSH, drug levels and urinalysis; bone mineralometry every 2 years. [S2]
+- **Ketones (S2):** capillary blood ketones are more accurate than urine ketones. Check blood ketones and glucose twice a day (morning and evening before meals) in the first weeks, then at clinic visits and as needed. [S2]
+- **Adults and transition (S2):** plan the move to adult care; adults need an adult neurologist and dietitian who know the diets, and attention to autonomy, bone density and vitamin D, pregnancy and comorbidities. Evidence in adults with intractable epilepsy is still limited, and Glut1 deficiency is the main adult indication in Italian practice (60–80%). [S2]
 
 ## Stopping
 
 - **Consider stopping after 3 months if it has not helped, and at about 2 years if it has.** Glut1 deficiency and PDHD usually need longer. Wean gradually over 1–3 months unless stopping is urgent, and **keep the supplements going during the wean**. [S1]
+- **When and how to stop (S2):** the diet can run for years with seizure freedom or >90% seizure reduction and few side effects; with >50% reduction, consider stopping after ~2 years; there is no maximum, and in GLUT1DS it may be lifelong. Wean stepwise, lowering the ratio by 1:1 (e.g., from 4:1 to 3:1 to 2:1) with calories constant and supplements continued; if seizures return, go back to the last effective ratio. In higher relapse risk, wean over 4–6 months; if poor adherence is the reason, switch to the modified Atkins or low glycaemic index diet. [S2]
 
 ---
 
@@ -69,16 +80,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Supplement doses and products** (Table 5), pre-diet screening tests (Table 4) and the monitoring schedule detail (Table 6) are in tables that were stripped. | `input_unavailable` |
-| 2 | **Other restrictive therapeutic diets** under the same PBS condition (for example diets for inborn errors of metabolism) are not covered by this source. | `out_of_scope` |
-| 3 | **Adults:** the source is paediatric. The 2021 international recommendations for adults on ketogenic diet therapies were not read. | `out_of_scope` |
-| 4 | **Age of source:** 2018. No newer International Ketogenic Diet Study Group paediatric update was found on Europe PMC (September 2026). | `observation` |
-| 5 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Supplement doses and products** (S1 Table 5), pre-diet screening tests (Table 4) and the monitoring schedule detail (Table 6) are in tables that were stripped. S2's text now gives potassium citrate dosing and a yearly test list; S2's own supplement table (Table 1) was also stripped. | `input_unavailable` |
+| 2 | **Antiseizure drug reduction timing differs:** S1 allows reducing drugs after 1 month if the diet works; S2's panel starts tapering at 6 months. Both are shown. | `observation` |
+| 3 | **Citrate differs:** S1's group was split on empiric oral citrates (Class III evidence); S2 recommends potassium citrate 2 mEq/kg/day for everyone. Both are shown. | `observation` |
+| 4 | **Ketone monitoring differs:** S1 has parents test urine ketones several times a week; S2 prefers capillary blood ketones, twice daily in the first weeks. Both are shown. | `observation` |
+| 5 | **Other restrictive therapeutic diets** under the same PBS condition (for example diets for inborn errors of metabolism) are not covered by either source. | `out_of_scope` |
+| 6 | **Adults:** S1 is paediatric; S2 covers transition and adults in outline. The 2021 international recommendations for adults on ketogenic diet therapies (Neurol Clin Pract, © AAN) have only the abstract in PMC and were not read. | `observation` |
+| 7 | **Age of sources:** S1 is 2018 and S2 2023. No newer International Ketogenic Diet Study Group paediatric update, and no Australian guideline, was found (Europe PMC and PubMed, September 2026). | `observation` |
+| 8 | **Licences:** S1 is CC BY-NC-ND 4.0, so it is paraphrased and hash-anchored; S2 is CC BY 4.0 and quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open. *Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group*. published 21 May 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618). *Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group*. published 10 July 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/ — retrieved 2026-09-24. | CC BY 4.0 ('open-access article distributed under the terms of the Creative Commons Attribution License (CC BY)') | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/glut1-deficiency-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7469861/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7469861/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from International Glut1DS Study Group (Klepper J et al.), Epilepsia Open 'Glut1 Deficiency Syndrome (Glut1DS): State of the art in 2020 and recommendations of the international Glut1DS study group' (2020). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC7469861 (NCBI efetch; Europe PMC returned 503)). Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23); xref ref-type 'ref' normalised to 'bibr' so pmc_text.py strips citation markers as it does for Europe PMC XML.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from International Glut1DS Study Group (Klepper J et al.), Epilepsia Open 'Glut1 Deficiency Syndrome (Glut1DS): State of the art in 2020 and recommendations of the international Glut1DS study group' (2020), 24 claims; LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC7469861 (NCBI efetch; Europe PMC returned 503)). S2: QUOTED from Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5) 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome' (published 2 January 2025 (Chinese version 2022)), 7 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11885374). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23); xref ref-type 'ref' normalised to 'bibr' so pmc_text.py strips citation markers as it does for Europe PMC XML. Edition 2.0 adds S2, the Chinese Epilepsy Association Ketogenic Diet Professional Committee recommendations (World J Pediatr 2025), from Europe PMC fullTextXML via pmc_text.py. The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 24,
-  "pass": 24,
+  "total": 31,
+  "pass": 31,
   "fail": 0
  },
  "claims": [
@@ -52,6 +53,13 @@
    "locator": "International Glut1DS Study Group (Klepper J et al.), Epilepsia Open, 'Glut1 Deficiency Syndrome (Glut1DS): State of the art in 2020 and recommendations of the international Glut1DS study group', 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7469861/, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **How common:** a retrospective Australian analysis estimated a prevalence of 1 in 90,000 (Denmark 1 in 83,000), probably an underestimate. Seizures affect about 90% and usually start before 2 years, most often at 1 to 6 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Retrospective analyses in Denmark and Australia estimate the prevalence of Glut1DS to be 1 in 83,000 and 1 in 90,000, respectively. However, these figures are likely underestimates due to the potential for underdiagnosis … Seizures are often the inaugural symptom of Glut1DS, affecting about 90% of patients and typically emerging before the age of 2 years, most commonly between 1 and 6 months",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The hallmark is low CSF glucose with normal blood glucose (hypoglycorrhachia)**, with CSF lactate low-normal or low, which separates it from mitochondrial disease. Exclude other causes first: hypoglycaemia, meningitis, subarachnoid haemorrhage, or a VP shunt.",
    "source": "S1",
    "verdict": "pass",
@@ -85,6 +93,27 @@
    "verdict": "pass",
    "source_text": "All authors agreed that the definite diagnosis of Glut1DS requires the presence of characteristic clinical features, hypoglycorrhachia, and a pathogenic variant in SLC2A1 (13/13, 100%). Controversies arose when some of these diagnostic criteria were negative or of unclear significance (survey question 1). In the presence of characteristic clinical features, most experts felt that two of three criteria were sufficient for the diagnosis.",
    "locator": "International Glut1DS Study Group (Klepper J et al.), Epilepsia Open, 'Glut1 Deficiency Syndrome (Glut1DS): State of the art in 2020 and recommendations of the international Glut1DS study group', 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7469861/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**CSF glucose in Glut1DS (S2):** typically 0.9 to 2.9 mmol/L, always below 3.3 mmol/L; most patients are below 2.2 mmol/L with a CSF/blood glucose ratio below 0.4. The absolute CSF glucose is more reliable than the ratio. A low CSF lactate helps exclude mitochondrial disease and hexokinase 1 deficiency, in which lactate is usually raised.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "CSF glucose levels in Glut1DS patients typically range from 0.9 to 2.9 mmol/L (16.2-52.0 mg/dL), consistently below the threshold of 3.3 mmol/L (60 mg/dL). The CSF glucose/blood glucose ratio ranges from 0.19 to 0.59 []. Most patients exhibit CSF glucose levels below 2.2 mmol/L (40 mg/dL) and a CSF glucose/blood glucose ratio below 0.4. In terms of diagnostic value, a reduction in absolute CSF glucose levels is a more reliable indicator than the CSF glucose/blood glucose ratio and correlates with symptom severity … a normal or low CSF lactate supports the clinical diagnosis, while a low CSF lactate can rule out other diagnoses that might cause a low CSF glucose, such as mitochondrial disease and hexokinase 1 deficiency [], where lactate levels are typically elevated",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Blood tests of red-cell Glut1 (S2):** red-cell 3-O-methyl-D-glucose uptake is reduced in about 98.6% of genetically confirmed patients but needs a specialised radiotracer laboratory; flow cytometry of red-cell Glut1 (METAglut1) was 80% sensitive and > 99% specific in a prospective multicentre study.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "About 98.6% of Glut1DS patients diagnosed through genetic testing have reduced 3-OMG uptake, while around 1.4% of patients with missense mutations have normal uptake ability []. The uptake in Glut1DS patients ranges from 35 to 74% (with an average of 50%) compared to healthy individuals, offering diagnostic value [, ]. However, this assay requires prompt completion after blood collection and specialized laboratory facilities equipped for radiotracer experiments, limiting its clinical application … A prospective multicenter study showed that METAglut1 was 80% sensitive and > 99% specific for the diagnosis of Glut1DS",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Act on an incomplete picture (S2):** with classic symptoms and low CSF glucose but no SLC2A1 variant, or low CSF glucose and a variant without classic symptoms, Glut1DS is highly probable and the ketogenic diet should be started; a good response or a family history supports the diagnosis. With only one supporting finding, or normal CSF glucose, it is possible and the diet should be tried.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In cases where patients display classic symptoms and low CSF glucose but lack an SLC2A1 mutation, or have low CSF glucose and an SLC2A1 mutation without classic symptoms, Glut1DS remains a highly probable diagnosis. Such scenarios necessitate the commencement of KDT. If KDT proves effective or there is a family history of Glut1DS, the diagnosis is further supported. If the patient has the characteristic clinical manifestations of Glut1DS and a pathogenic SLC2A1 variant but has normal CSF glucose levels, or lacks typical symptoms but has either low CSF glucose or an SLC2A1 mutation, a possible Glut1DS diagnosis is considered, and KDT should be tried",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Ketogenic diet therapy (KDT) is the treatment of choice; start it as early as possible.** All 13 centres agreed.",
@@ -163,6 +192,27 @@
    "verdict": "pass",
    "source_text": "for women of childbearing age, a pregnancy test should be considered prior to a KDT given that the risks of teratogenicity are unknown. … In general, the modified Atkins diet (MAD) is considered a reasonable alternative for adolescents and adults, when treating poorly controlled seizures and paroxysmal movement disorders.",
    "locator": "International Glut1DS Study Group (Klepper J et al.), Epilepsia Open, 'Glut1 Deficiency Syndrome (Glut1DS): State of the art in 2020 and recommendations of the international Glut1DS study group', 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7469861/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Keep the diet going long term if tolerated (S2),** usually into adolescence or adulthood, although whether it is needed for life is uncertain. Start and supervise it by the International Ketogenic Diet Study Group recommendations (see `ketogenic-diet-therapy`).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "KDT initiation and supervision in children with Glut1DS should adhere to the latest International Ketogenic Diet Study Group recommendations and domestic epilepsy treatment guidelines … If tolerated, KDT should be maintained long-term, usually into adolescence or adulthood, although lifelong necessity remains uncertain",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Antiseizure drugs that have failed (S2):** ethosuximide, carbamazepine, oxcarbazepine and zonisamide have been ineffective; a minority with generalised epilepsy respond to conventional drugs, and late-onset generalised tonic–clonic seizures may predict a response. In vitro, phenytoin may enhance glucose transport by 30% to 60% (effect in patients unclear).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A minority of patients with generalized epilepsy respond to conventional ASMs, and late-onset generalized tonic-clonic seizures may predict responsiveness to these medications … Medications such as ethosuximide, carbamazepine, oxcarbazepine, and zonisamide have shown ineffectiveness in this context … Phenytoin and its metabolic derivative, 5-(4-hydroxyphenyl)-5-phenylhydantoin, may enhance glucose transport by 30% to 60%, although the in vivo effects of this are unclear",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other options when the diet fails or cannot be used (S2), all with limited evidence:** acetazolamide cut seizures in 76% in a small study (by more than half in 58%); diazoxide to raise blood glucose; triheptanoin may reduce absence seizures but not overall seizures or paroxysmal movement disorders off the diet.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Acetazolamide: A concise study of acetazolamide in Glut1DS epilepsy found that it decreased seizures in 76% of the patients, with 58% of all patients studied experiencing seizure reductions by more than half … Diazoxide: There is potential for using diazoxide to increase blood sugar levels as an alternative approach to enhance cerebral glucose when KDT is ineffective or cannot be implemented … Triheptanoin: Recent studies [, ] indicate that triheptanoin may reduce absence seizures in some Glut1DS patients; however, it does not significantly reduce overall seizure frequency and paroxysmal movement disorders in individuals who are not on a ketogenic diet",
+   "locator": "Ketogenic Diet Professional Committee of the Chinese Epilepsy Association (Zhang MJ, Wang JW, Liao JX, Bao XH et al.), World Journal of Pediatrics 21(2):149 (doi 10.1007/s12519-024-00864-5), 'Diagnosis and treatment recommendations for glucose transporter 1 deficiency syndrome', published 2 January 2025 (Chinese version 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC11885374/, retrieved 2026-09-24"
   },
   {
    "claim": "**Monitor long-term diet effects regularly:** kidney stones, growth, and cardiovascular risk (blood pressure, fasting lipids, and transcranial Doppler from age 10).",

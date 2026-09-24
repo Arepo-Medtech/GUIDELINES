@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/hereditary-tyrosinaemia-type-1.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations' (2017). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at PMC JATS XML <license> element for PMC5729346 (NCBI efetch; Europe PMC returned 503)). The source's words are NOT reproduced here. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23).",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations' (2017), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at PMC JATS XML <license> element for PMC5729346 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries' (2025 (published online December 2024)), 10 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11647197). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23). Edition 2.0 adds S2, the German-speaking countries' consensus recommendations (2025), from Europe PMC fullTextXML via pmc_text.py. No Australian HT-1 guideline was found (Europe PMC and PubMed searched); the ASIEM tyrosinaemia handbook (©HGSA 2007) is a family diet handbook and was not used. The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 25,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -216,6 +217,43 @@
    "locator": "US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine, 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/, retrieved 2026-09-23"
   },
   {
+   "claim": "**German-speaking consensus dosing (S2):** start nitisinone at 1–2 mg/kg per day, then titrate down while succinylacetone in blood and urine stays below the detection limit; weight-based increases are rarely needed. Give it twice daily, or once daily above 20 kg to help adherence, and never interrupt it, because stopping can trigger porphyria-like crises.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bca149435942b7ad",
+     "n": 342,
+     "p": "Recommen"
+    },
+    {
+     "h": "6609682a35e6ccdb",
+     "n": 233,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Use the lowest nitisinone dose that keeps succinylacetone undetectable (S2).** The presumed trough range is 20–60 μM, but lower levels are acceptable if succinylacetone stays suppressed. Dried blood spots can measure succinylacetone, tyrosine, phenylalanine and nitisinone together at home; use a laboratory-specific factor to compare them with plasma.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3379fa12f8d9ee32",
+     "n": 545,
+     "p": "Recommen"
+    },
+    {
+     "h": "44f3b46cb2266daa",
+     "n": 311,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Restrict both phenylalanine and tyrosine,** using a reduced intact-protein allowance plus amino-acid medical foods free of both, and low-protein foods, managed by a metabolic team with specialist dietitians.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -293,6 +331,52 @@
     }
    ],
    "locator": "US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine, 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Targets (S2):** plasma tyrosine 200–600 μM; phenylalanine in the low part of the reference range. If phenylalanine falls below 30 μM, give more natural protein, or a phenylalanine supplement when tyrosine is already high in its range. Sample fasting (before breakfast) or no sooner than 4 hours after eating.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3e710a10a9cf796d",
+     "n": 419,
+     "p": "Recommen"
+    },
+    {
+     "h": "e3d447483ed79609",
+     "n": 334,
+     "p": "If pheny"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The diet can be simplified (S2):** sorting foods into three groups (fine, occasionally, avoid) instead of counting protein kept metabolic control and may help adherence and quality of life; after school age larger amounts of natural food were tolerated. Glycomacropeptide-based substitutes are an alternative to amino acid mixtures. A specialist metabolic dietitian should be part of the team.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a634d90923d36d3d",
+     "n": 522,
+     "p": "For many"
+    },
+    {
+     "h": "a74151828a1201de",
+     "n": 518,
+     "p": "Recommen"
+    },
+    {
+     "h": "1c94781c5a529260",
+     "n": 181,
+     "p": "In the l"
+    },
+    {
+     "h": "94e367117a2ca962",
+     "n": 291,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Acute liver failure (clinically presenting child):** involve hepatology or intensive care; give IV 10% dextrose/normal saline at 1.5–2.0 times maintenance, consider fresh frozen plasma and vitamin K, and start nitisinone 1 mg/kg/day at once.",
@@ -504,6 +588,154 @@
     }
    ],
    "locator": "US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine, 'Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations', 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Visit and laboratory schedule (S2):** laboratory checks every week or two after starting, then every 3 months to age 1, every 6 months through childhood and adolescence, and every 6–12 months in adults, with dried blood spot home samples between visits. Tests: blood count, electrolytes with calcium and phosphate, liver function, total protein, AFP, urea, creatinine, cystatin C, coagulation, vitamin D, PTH, ferritin, plasma and urine amino acids, succinylacetone and nitisinone level.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce64f24b3869a126",
+     "n": 627,
+     "p": "After st"
+    },
+    {
+     "h": "60391cec42216a4a",
+     "n": 375,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Liver cancer surveillance (S2):** AFP and abdominal ultrasound every 6–12 months. AFP can stay raised for months after nitisinone starts; failure to normalise or a second rise needs imaging, and MRI (more sensitive and specific) when HCC is suspected. Do not biopsy the liver, because of the risk of seeding tumour cells.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e1936be1bb7bf7d",
+     "n": 163,
+     "p": "Alpha‐Fe"
+    },
+    {
+     "h": "ece7973a23acec56",
+     "n": 92,
+     "p": "Abdomina"
+    },
+    {
+     "h": "1e9d90cfc027d19d",
+     "n": 684,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Transplant (S2):** for acute liver failure not responding to nitisinone, suspected or localised HCC, chronic liver failure despite treatment, or cirrhosis; consider it individually for poor adherence. Not pre-emptively in screened, treated children. Stop nitisinone after transplant even though succinylacetone stays slightly raised (from the kidneys).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd945c9f487a15ac",
+     "n": 435,
+     "p": "Recommen"
+    },
+    {
+     "h": "edfc3e55b340df80",
+     "n": 159,
+     "p": "Preempti"
+    },
+    {
+     "h": "fe2f59a3c6f6884f",
+     "n": 133,
+     "p": "After li"
+    },
+    {
+     "h": "dfec5c4c09c219d2",
+     "n": 120,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No routine eye or heart checks (S2):** examine the eyes for symptoms (conjunctivitis, eye pain, corneal clouding, visual change) or poor dietary control, and the heart only if symptoms appear. Assess neurocognitive development at school entry and regularly afterwards; give all standard vaccinations.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8bce604644257c54",
+     "n": 265,
+     "p": "Recommen"
+    },
+    {
+     "h": "8fff5cf44cee0d01",
+     "n": 99,
+     "p": "In case "
+    },
+    {
+     "h": "32f242c5000610d0",
+     "n": 335,
+     "p": "Recommen"
+    },
+    {
+     "h": "0f051924621a8c6a",
+     "n": 945,
+     "p": "Recommen"
+    },
+    {
+     "h": "431391bb6a58988d",
+     "n": 158,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pregnancy (S2):** pregnancy is possible though experience is limited; continue nitisinone and aim for stable control before conception. Breastfeeding on nitisinone is not encouraged but can be discussed case by case (a few successful reports).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e301da2ee73371e",
+     "n": 208,
+     "p": "Recommen"
+    },
+    {
+     "h": "5f457759ed3be59a",
+     "n": 368,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Support through life (S2):** a multiprofessional team (metabolic paediatrician, dietitian, psychologist, social worker); structured education repeated before primary school, at puberty and in adolescence; psychological support and advice on social rights from diagnosis, with screening for psychosocial burden when adherence falters; transition to an adult metabolic centre where possible.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "60763737fd280a46",
+     "n": 288,
+     "p": "Recommen"
+    },
+    {
+     "h": "ccbdd41f6a1bae86",
+     "n": 240,
+     "p": "Recommen"
+    },
+    {
+     "h": "86e90e78dc69e37a",
+     "n": 193,
+     "p": "Recommen"
+    },
+    {
+     "h": "c711012a1c659c71",
+     "n": 123,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease, 'Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries', 2025 (published online December 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/, retrieved 2026-09-24"
   }
  ]
 }

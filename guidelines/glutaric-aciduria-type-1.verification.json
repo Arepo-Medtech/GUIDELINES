@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/glutaric-aciduria-type-1.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1002/jimd.12566"
+  "https://doi.org/10.1002/jimd.12566",
+  "https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Boy N, Mühlhausen C, Maier EM, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley) 'Recommendations for diagnosing and managing individuals with glutaric aciduria type 1: Third revision' (vol. 46, pp. 482–519, published 2023 (online November 2022)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at the article's own licence line ('open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License') in the publisher PDF, retrieved from the Leipzig University repository (ul.qucosa.de, found via Unpaywall); Unpaywall lists cc-by-nc-nd for the version of record). The source's words are NOT reproduced here. Text extracted with pdftotext in reading order (not -layout), because the two-column layout otherwise interleaves columns mid-sentence. The Zurich repository copy (ZORA) sat behind an Anubis bot challenge and was not used. Table text that pdftotext interleaves into the body (Tables 4 and 5, emergency regimens) was not anchored.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Boy N, Mühlhausen C, Maier EM, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley) 'Recommendations for diagnosing and managing individuals with glutaric aciduria type 1: Third revision' (vol. 46, pp. 482–519, published 2023 (online November 2022)), 20 claims; LICENCE: CC BY-NC-ND 4.0 (read at the article's own licence line ('open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License') in the publisher PDF, retrieved from the Leipzig University repository (ul.qucosa.de, found via Unpaywall); Unpaywall lists cc-by-nc-nd for the version of record). S2: PARAPHRASED AND HASH-ANCHORED from British Inherited Metabolic Diseases Group (BIMDG) 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol' (© BIMDG 2008/2016, last reviewed September 2016), 6 claims; LICENCE: © BIMDG 2008/2016 (no licence or reproduction permission in the PDF or on bimdg.org.uk) (read at the PDF footer and the bimdg.org.uk site footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Text extracted with pdftotext in reading order (not -layout), because the two-column layout otherwise interleaves columns mid-sentence. The Zurich repository copy (ZORA) sat behind an Anubis bot challenge and was not used. Table text that pdftotext interleaves into the body (Tables 4 and 5, emergency regimens) was not anchored. Edition 2.0 adds S2, the BIMDG paediatric emergency protocol for GA1 (PDF, pdftotext reading order), for the emergency fluid, carnitine and amino acid doses S1's tables hold. No Australian GA1 guideline was found. The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 20,
+  "total": 26,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
@@ -190,6 +191,123 @@
     }
    ],
    "locator": "Boy N, Mühlhausen C, Maier EM, et al., Journal of Inherited Metabolic Disease (SSIEM/Wiley), 'Recommendations for diagnosing and managing individuals with glutaric aciduria type 1: Third revision', vol. 46, pp. 482–519, published 2023 (online November 2022), https://doi.org/10.1002/jimd.12566, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **In hospital, treat with IV fluids unless you are very sure oral treatment will do (BIMDG);** enteral emergency feeds are for occasional, cautious use. Nearly every child who presents needs admission, even briefly for observation if in doubt.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c38f56bcbc33c59",
+     "n": 189,
+     "p": "Treatmen"
+    },
+    {
+     "h": "eda9871f3773e7a6",
+     "n": 67,
+     "p": "Almost a"
+    },
+    {
+     "h": "b576f72f76c2f5de",
+     "n": 115,
+     "p": "If there"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol', © BIMDG 2008/2016, last reviewed September 2016, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **IV start (BIMDG):** glucose 200 mg/kg straight away (2 ml/kg of 10% or 1ml/kg of 20%), then a 10 ml/kg normal saline bolus (20 ml/kg if poorly perfused or shocked). Run 10% glucose at 5 ml/kg/h only until 0.45% saline/10% glucose is ready, then give that at a rate that replaces the deficit plus maintenance (100ml/kg for the first 10kg, 50 ml/kg for the next 10kg, 20ml/kg after) over 24 hours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0c6be72b7d6f191",
+     "n": 1193,
+     "p": "Give Glu"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol', © BIMDG 2008/2016, last reviewed September 2016, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Carnitine (BIMDG):** 200 mg/kg/24h, either in 4 divided doses or IV as 100 mg/kg over 30 minutes followed by 4 mg/kg/h; by mouth, 200 mg/kg/24h in 4 doses.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "635dacb7daa884f0",
+     "n": 69,
+     "p": "Medicine"
+    },
+    {
+     "h": "678d84e5580ec69d",
+     "n": 182,
+     "p": "Carnitin"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol', © BIMDG 2008/2016, last reviewed September 2016, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Keep giving the lysine-free amino acid mixture by mouth or NG tube, even on IV fluids (BIMDG):** 1g/kg/d to start, 0.5 g/kg/d for as short a time as possible if not tolerated, rising to 2g/kg/d as feeds return. Do not hold other treatment while waiting for it; arginine is for research use only.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aa8db61c8b1842a0",
+     "n": 379,
+     "p": "Aminoaci"
+    },
+    {
+     "h": "7c48a6f27c052d06",
+     "n": 52,
+     "p": "Aminoaci"
+    },
+    {
+     "h": "16af1c5f40881e10",
+     "n": 166,
+     "p": "Arginine"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol', © BIMDG 2008/2016, last reviewed September 2016, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Control fever (BIMDG),** especially above 38.5 °C: ibuprofen 5-10 mg/kg a dose, at most 3 times daily, or paracetamol 15mg/kg, at most 4 times daily. Treat any infection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eb3512a360d34aca",
+     "n": 227,
+     "p": "Fever. I"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol', © BIMDG 2008/2016, last reviewed September 2016, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Monitor (BIMDG):** if glucose exceeds 8 mmol/l, add insulin by the local diabetes protocol rather than reducing glucose; reassess within 4-6 hours with Glasgow coma score and blood pressure, plus gases, glucose and electrolytes. Reintroduce enteral feeds early, starting with 10% glucose polymer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8cd3f5a41131c2b7",
+     "n": 209,
+     "p": "Hypergly"
+    },
+    {
+     "h": "f252a04de73316cf",
+     "n": 316,
+     "p": "Monitori"
+    },
+    {
+     "h": "b904e2c5b80076be",
+     "n": 258,
+     "p": "6. Re-in"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Glutaric aciduria type 1: acute decompensation (standard version), paediatric emergency protocol', © BIMDG 2008/2016, last reviewed September 2016, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-GA1-v4_549337_05042017.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Movement disorder, seizures and subdural collections are managed by a neuropaediatrician or neurologist and/or neurosurgeon working closely with the metabolic team.**",
