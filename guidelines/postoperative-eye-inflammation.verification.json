@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/postoperative-eye-inflammation.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/",
+  "https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Indian Journal of Ophthalmology 71(9) (narrative review) 'Management and prevention of corneal graft rejection' (published online 21 August 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-SA 4.0 (read at Europe PMC fullTextXML <license> element for PMC10565940). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Indian Journal of Ophthalmology 71(9) (narrative review) 'Management and prevention of corneal graft rejection' (published online 21 August 2023), 22 claims; LICENCE: CC BY-NC-SA 4.0 (read at Europe PMC fullTextXML <license> element for PMC10565940). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039) 'Corneal Edema and Opacification Preferred Practice Pattern®' (approved by the AAO Board of Trustees 22 September 2023; published 2024), 11 claims; LICENCE: © 2023 American Academy of Ophthalmology. All rights reserved (no open licence) (read at the PDF's front matter and the aao.org page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds the AAO Corneal Edema and Opacification PPP 2023 (S2). The aao.org guideline page, which returned a bot challenge in Wave 7, served normally on 2026-09-24 and links the full 59-page PDF (the Ophthalmology journal version), which was read with pdftotext. The aao.org footer carries this clause, recorded verbatim: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Per the owner's standing decision it is paraphrased and hash-anchored, not quoted.",
  "summary": {
-  "total": 22,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -60,6 +61,81 @@
     }
    ],
    "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For endothelial failure without corneal scarring, endothelial keratoplasty has replaced penetrating keratoplasty as the operation of choice** (AAO): vision recovers sooner, immune rejection is less likely and less astigmatism is induced.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "90bc5c11949d2795",
+     "n": 328,
+     "p": "Endothel"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Registry and series figures (AAO):** in the Swedish registry 13% of penetrating grafts for Fuchs dystrophy or pseudophakic bullous keratopathy had rejected by 1 year; one DSAEK series reported 6.0% by year 1, 14.0% by year 2 and 22.0% by year 3.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b26f611b2547dfd",
+     "n": 180,
+     "p": "Data fro"
+    },
+    {
+     "h": "cb473f0b242acfcc",
+     "n": 109,
+     "p": "group of"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Graft type and rejection, where the evidence is mixed:** two studies of PK against DSAEK for Fuchs dystrophy and bullous keratopathy found no significant difference, but large cohorts show significantly less rejection after DMEK than after either PK or DSAEK.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de958e711c02d10c",
+     "n": 315,
+     "p": "Two stud"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**At 5 years, graft survival for both PK and DSAEK is 95% for Fuchs dystrophy and 73% for pseudophakic bullous keratopathy;** loss of endothelial function, with or without an earlier rejection episode, is the main cause of failure for both.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cfccbdfcfd8282e4",
+     "n": 230,
+     "p": "Graft su"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Anterior lamellar keratoplasty (DALK) rejects far less often than PK (1.9% against 7.8%) and never has endothelial rejection;** stromal rejection occurs in 2% to 12% and usually reverses with topical corticosteroid.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "91b0e2bfd6f8d39b",
+     "n": 258,
+     "p": "Overall,"
+    },
+    {
+     "h": "5248dc775ce285b8",
+     "n": 44,
+     "p": "Endothel"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
   },
   {
    "claim": "**Recipient factors matter more than donor factors:** the original diagnosis (infective or traumatic scarring is worse), young age (under 40 in one large study), a repeat graft, glaucoma, corneal new vessels, recent eye surgery and anterior synechiae all raise risk.",
@@ -114,6 +190,45 @@
     }
    ],
    "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Sutures left in long term to hold a good, low-astigmatism result** carry a risk of late breakage, irritation, infection or rejection (AAO).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "742dcd47e9640aa3",
+     "n": 267,
+     "p": "It is co"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A history of recurrent eye inflammation (herpes simplex keratitis, herpes zoster ophthalmicus, uveitis) marks a high-risk graft:** after PK the usual regimen may need to be stepped up with more corticosteroid per day or an oral antiviral.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0b2e357473f17904",
+     "n": 315,
+     "p": "Identifi"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prepare the eye before grafting:** control IOP well; settle inflammation and infection of the lids, lacrimal sac and eye (such as dacryocystitis, blepharitis, keratitis); and repair lid problems. Deep stromal vessels and ocular surface disease reduce graft survival.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "03f4f990023511fd",
+     "n": 735,
+     "p": "Corneal "
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Most episodes come in the first six months but can occur at any time.** Symptoms are redness, blurred vision, light sensitivity or discomfort, yet almost 30% have no symptoms.",
@@ -181,6 +296,19 @@
     }
    ],
    "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Primary graft failure is not rejection:** the donor cornea never clears in the first 8 weeks, with no other cause of stromal oedema such as rejection, raised IOP or an epithelial defect. It reflects poor donor endothelium and usually needs a regraft.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9824dec50d7d9dd4",
+     "n": 630,
+     "p": "Primary "
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Outcome depends on catching it early and starting corticosteroids at once.** Topical steroids are the mainstay for every type of rejection.",
@@ -280,6 +408,19 @@
    "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Rejection is the most frequent cause of graft failure (AAO); prompt, aggressive corticosteroid, topical, periocular and systemic, may reverse endothelial rejection.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7e4410618243af07",
+     "n": 232,
+     "p": "Corneal "
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Topical corticosteroid for the first six months after keratoplasty is universal practice** and is the main reason rejection is uncommon then. Prednisolone is used most, whatever the risk or lens status; difluprednate, loteprednol and fluorometholone are alternatives.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -371,6 +512,24 @@
     }
    ],
    "locator": "Indian Journal of Ophthalmology 71(9) (narrative review), 'Management and prevention of corneal graft rejection', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10565940/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Tell patients that new or worsening pain, redness, light sensitivity or blurred vision needs to be seen at once,** as it can signal infection, inflammation or recurrence; at follow-up, recheck intraocular inflammation and IOP regularly (AAO).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33e7236cc0cd4b5a",
+     "n": 190,
+     "p": "New or w"
+    },
+    {
+     "h": "9ad67b457a20f005",
+     "n": 160,
+     "p": "Coexisti"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology Cornea/External Disease PPP Panel (Mian SI, Viriya ET, et al.), Ophthalmology (doi 10.1016/j.ophtha.2023.12.039), 'Corneal Edema and Opacification Preferred Practice Pattern®', approved by the AAO Board of Trustees 22 September 2023; published 2024, https://www.aao.org/education/preferred-practice-pattern/corneal-edema-opacification-ppp-2023, retrieved 2026-09-24"
   }
  ]
 }

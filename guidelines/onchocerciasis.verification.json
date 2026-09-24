@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/onchocerciasis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Current Opinion in Infectious Diseases (Wolters Kluwer); NIH author manuscript in PMC 'Imported onchocerciasis in migrants and travelers (Showler AJ, Nutman TB; Curr Opin Infect Dis 2018;31(5):393-398)' (published October 2018). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Wolters Kluwer (author manuscript; no open licence stated on the PMC page, which shows only the PMC copyright notice) (read at PMC article page 'Copyright and License information' (https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/)). The source's words are NOT reproduced here. No clinical guideline for individual onchocerciasis treatment was found: the WHO 2016 document covers only stopping mass drug administration, and the CDC clinical-care page returned an access-denied bot block (not bypassed). This is a narrative review, not a guideline.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Current Opinion in Infectious Diseases (Wolters Kluwer); NIH author manuscript in PMC 'Imported onchocerciasis in migrants and travelers (Showler AJ, Nutman TB; Curr Opin Infect Dis 2018;31(5):393-398)' (published October 2018), 13 claims; LICENCE: © Wolters Kluwer (author manuscript; no open licence stated on the PMC page, which shows only the PMC copyright notice) (read at PMC article page 'Copyright and License information' (https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/)). S2: QUOTED from Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973) 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)' (published 13 March 2026), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13021665). Verify each source separately: verify.py --source <file> --only-source S<n>. No clinical guideline for individual onchocerciasis treatment was found: the WHO 2016 document covers only stopping mass drug administration, and the CDC clinical-care page returned an access-denied bot block (not bypassed). This is a narrative review, not a guideline. Edition 2.0 retried on 2026-09-24: four CDC clinical-care URLs (old and new site paths) still returned HTTP 403 access-denied, and Europe PMC, PubMed and web searches found no WHO, society or Australian guideline for individual treatment. S2 is therefore a second, more recent narrative review (Frontiers in Parasitology 2026), added for diagnostics, doxycycline, moxidectin and ivermectin resistance.",
  "summary": {
-  "total": 13,
-  "pass": 0,
+  "total": 23,
+  "pass": 10,
   "fail": 0,
   "pass_paraphrase_anchored": 13
  },
@@ -75,6 +76,13 @@
     }
    ],
    "locator": "Current Opinion in Infectious Diseases (Wolters Kluwer); NIH author manuscript in PMC, 'Imported onchocerciasis in migrants and travelers (Showler AJ, Nutman TB; Curr Opin Infect Dis 2018;31(5):393-398)', published October 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Sowda (lichenified onchodermatitis) is a rare hyperreactive response with a low parasite burden:** intensely itchy, hyperpigmented plaques. The generalised form, by contrast, gives mild or intermittent skin symptoms despite heavy infection.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The generalized form is marked by mild or intermittent skin symptoms despite high parasite loads, whereas sowda is characterized by a rare hyperreactive immune response resulting in severe skin lesions with a low parasite burden (; ; ). Also referred to as lichenified onchodermatitis, sowda typically presents with intensely itchy, hyperpigmented plaques and a darkened skin appearance",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
   },
   {
    "claim": "**Eye disease is almost confined to migrants;** about two-thirds report eye symptoms and 20–80% have slit-lamp findings, mostly old corneal scarring, with about 10% having some functional vision loss.",
@@ -215,6 +223,27 @@
    "locator": "Current Opinion in Infectious Diseases (Wolters Kluwer); NIH author manuscript in PMC, 'Imported onchocerciasis in migrants and travelers (Showler AJ, Nutman TB; Curr Opin Infect Dis 2018;31(5):393-398)', published October 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Skin-snip microscopy is very specific but insensitive in early or light infection and after ivermectin,** and it is invasive and painful. Feeling for nodules is non-invasive but neither sensitive nor specific.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Although this method is very specific, its sensitivity remains low in early infection, hypo endemic areas or in individuals with low microfilarial density especially after treatment with ivermectin … Additionally, skin snip is invasive and painful … A non-invasive method of diagnosis is nodule palpation, which detects subcutaneous onchocercomas (). However, it lacks sensitivity and specificity",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**OV16 IgG4 serology (ELISA or rapid test) cannot separate past from current infection** and cross-reacts where several filarial infections coexist.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "However, they still pose a limitation in that they cannot distinguish between past and current infection … Additionally, cross reactivity presents a significant limitation in the serological diagnosis of onchocerciasis, particularly in regions where multiple filarial infections coexist",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PCR and LAMP on skin snips are more sensitive and specific than microscopy and tell filarial species apart,** so they avoid serological cross-reaction; cost limits routine use.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Molecular techniques such as polymerase chain reaction (PCR) and the loop-mediated isothermal amplification (LAMP) provide greater specificity and sensitivity in detecting the O. volvulus DNA in skin snip, compared to microscopy … These techniques distinguish between different filarial species, hence overcoming the problem of cross-reactivity in serological techniques … However, the high cost of PCR remains a barrier",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Standard care is ivermectin 150 microgram/kg as a single dose repeated every 3–6 months while symptoms persist,** with doxycycline added where there is no contraindication. Ivermectin clears microfilariae from skin and eye but does not kill adult worms, so it must be repeated.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -274,6 +303,49 @@
    ],
    "locator": "Current Opinion in Infectious Diseases (Wolters Kluwer); NIH author manuscript in PMC, 'Imported onchocerciasis in migrants and travelers (Showler AJ, Nutman TB; Curr Opin Infect Dis 2018;31(5):393-398)', published October 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC10986319/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Doxycycline works through Wolbachia: a six-week course blocks embryogenesis, sterilising female worms, and suppresses microfilariae for over a year without serious side effects.** It is contraindicated in pregnancy and in children under 8.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "By targeting Wolbachia it inhibits embryogenesis thereby sterilizing the female worms and indirectly resulting in microfilaricidal activity (). Clinical studies have demonstrated that six-week doxycycline course blocks embryogenesis and reduces microfilariae for over a year without serious side effects … contraindications seen in pregnant women and children <8 years old",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Adding ivermectin to doxycycline gave only a marginal gain in one randomised trial:** skin free of microfilariae at 21 months in 89% with the combination against 67% with doxycycline alone, not statistically significant.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "one randomized controlled trial assessed doxycycline plus ivermectin versus doxycycline alone and reported amicrofilaridermia in 89% and 67% of participants respectively at 21 months (). However, this difference was only marginal and not statistically significant.",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ivermectin is primarily microfilaricidal:** long repeated courses have only modest effects on adult worms and their fertility, repeated or high doses raise toxicity, and defects in the P-glycoprotein transporter can cause neurotoxicity. In endemic programmes it must be taken for about 10–15 years to clear infection.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Although ivermectin is primarily microfilaricidal, studies have shown that repeated doses for extended periods have macrofilaricidal effects and can reduce female worm fecundity (; ; ). However, the benefits are modest, and repeated or high dose of ivermectin increases the risk of toxicity … Defects in this transporter can result in neurological toxicity during ivermectin treatment. … Ivermectin must be taken for about 10-15 years for infection to be cleared",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Diethylcarbamazine (DEC) is contraindicated as treatment:** it provokes severe Mazzotti reactions, especially with heavy microfilarial loads. The DEC-based Mazzotti diagnostic test has largely fallen out of use for the same reason.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Unfortunately, its tendency to provoke severe adverse effects (Mazzotti reaction) especially in patients with high microfilariae load posed a major limitation to its use (; ). As a result, DEC is contraindicated and not used as a primary strategy for the treatment of onchocerciasis … While the Mazzotti test was historically valuable for identifying active onchocerciasis, its lack of specificity and the severity of potential side effects have led to a decline in its use.",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moxidectin (FDA-approved in 2018) has stronger, longer microfilaricidal action than ivermectin with similar safety,** but Mazzotti reactions are more common and approval for children under 12 is still pending.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Moxidectin is another semi synthetic macrocyclic lactone with superior microfilaricidal activity to ivermectin as it has a longer half-life (). Initially developed for veterinary use, moxidectin's potential for human onchocerciasis was recognized in the 1990s and approved by FDA in 2018 for onchocerciasis therapy (). Its safety profile is comparable to that of ivermectin, and no serious adverse effects have been reported, supporting its use for mass drug administration (). However, given its increase potency, the Mazzotti reaction is more common compared to those with ivermectin treatment (). Additionally, regulatory approval for children <12 years is still pending",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reduced response to ivermectin is emerging in endemic areas:** microfilariae return to the skin faster than expected, suppression weakens after repeated rounds, and phenotypic and genetic resistance have been described.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Researchers have identified several indicators suggestive of emerging resistance including: (1) faster-than-expected repopulation of microfilaria in the skin post-treatment; (2) reduced microfilaria suppression after multiple rounds of treatment; (3) observable phenotypic resistance and (4) genetic alterations within the parasite population.",
+   "locator": "Njeshi CN, Robertson AP, Martin RJ (Iowa State University), Frontiers in Parasitology 5:1690973 (doi 10.3389/fpara.2026.1690973), 'Onchocerciasis overview: pathogenesis, clinical spectrum, and therapeutic challenges of a neglected tropical disease (narrative review)', published 13 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13021665/, retrieved 2026-09-24"
   },
   {
    "claim": "**How long to treat is unknown.** Travellers may need ivermectin only while symptomatic; in one cohort, stopping after a median of 3.9 doses over 1.75 years left no long-term sequelae after more than 10 years.",

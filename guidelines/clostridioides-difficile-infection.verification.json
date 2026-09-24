@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/clostridioides-difficile-infection.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/",
+  "https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines' (published 28 November 2022 (J Antimicrob Chemother 78(1):21)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9780550). The source's words are NOT reproduced here. Chosen over ESCMID 2021 (CC BY-NC-ND, publisher page returned a bot challenge, HTTP 403, not bypassed) and the ASID 2025 update (closed access). WSES 2019 (CC BY) was readable but predates the 2021 IDSA/SHEA and ESCMID changes.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines' (published 28 November 2022 (J Antimicrob Chemother 78(1):21)), 20 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9780550). S2: PARAPHRASED AND HASH-ANCHORED from Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549) 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults' (published 14 June 2021), 9 claims; LICENCE: © 2021 Infectious Diseases Society of America. All rights reserved (no open licence) (read at the guideline's Notes section and page footer on idsociety.org). Verify each source separately: verify.py --source <file> --only-source S<n>. Chosen over ESCMID 2021 (CC BY-NC-ND, publisher page returned a bot challenge, HTTP 403, not bypassed) and the ASID 2025 update (closed access). WSES 2019 (CC BY) was readable but predates the 2021 IDSA/SHEA and ESCMID changes. Edition 2.0 adds the IDSA/SHEA 2021 focused update itself (S2), read in full from the IDSA website (the OUP journal page returned a bot challenge, not bypassed); it covers only fidaxomicin and bezlotoxumab. Its page carries this clause, recorded verbatim: 'No part of this publication may be reproduced, stored in a retrieval system, transmitted, used for text and data mining, or used for training artificial intelligence, in any form or by any means, without the prior permission in writing, or as expressly permitted by law, by license or under terms agreed with the appropriate reprographics rights organization.' Per the owner's standing decision it is paraphrased and hash-anchored, not quoted.",
  "summary": {
-  "total": 20,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -130,6 +131,59 @@
     }
    ],
    "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The IDSA/SHEA guideline grades its preference for fidaxomicin in a first episode as conditional, on moderate-certainty evidence;** it values fidaxomicin's benefit and safety, notes that uptake depends on resources, and keeps vancomycin as an acceptable alternative.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ad050d9cb7b84e3",
+     "n": 381,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pooling 4 trials, fidaxomicin gave more sustained responses 4 weeks after the end of treatment than vancomycin (risk ratio 1.16) and the same rate of initial cure (risk ratio 1.00).**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "975ff5cffec11de7",
+     "n": 366,
+     "p": "The pool"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The regimens compared for a first episode were oral fidaxomicin 200 mg 2 times a day and oral vancomycin 125 mg 4 times a day.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9875b06decfae68",
+     "n": 88,
+     "p": "compared"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Risk factors for recurrence include age 65 or over, weakened immunity, severe disease and infection with ribotype 027/078/244 strains;** whether fidaxomicin adds more benefit in these groups has not been tested in prospective trials.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d2fb1bc30629856",
+     "n": 272,
+     "p": "Risk fac"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24"
   },
   {
    "claim": "**Fidaxomicin's main barrier to wider use is its high cost.**",
@@ -256,6 +310,83 @@
     }
    ],
    "locator": "Bishop EJ, Tiruvoipati R (Peninsula Health and Monash University, Melbourne), Journal of Antimicrobial Chemotherapy, 'Management of Clostridioides difficile infection in adults and challenges in clinical practice: review and comparison of current IDSA/SHEA, ESCMID and ASID guidelines', published 28 November 2022 (J Antimicrob Chemother 78(1):21), https://pmc.ncbi.nlm.nih.gov/articles/PMC9780550/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**For any recurrence, IDSA/SHEA suggests fidaxomicin, standard or extended-pulsed, over a standard vancomycin course (conditional, low certainty).** After a first recurrence a standard or tapered-and-pulsed vancomycin course is acceptable; after several recurrences the choices are tapered-and-pulsed vancomycin, vancomycin followed by rifaximin, faecal microbiota transplant, or fidaxomicin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eccecb2dcf824903",
+     "n": 538,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Extended-pulsed fidaxomicin (EXTEND trial) had among the lowest recurrence rates ever reported, 2% against 17% with vancomycin at day 40,** but it was compared with a standard vancomycin course, and its initial 200 mg phase lasted just 5 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e892e6988def04de",
+     "n": 550,
+     "p": "The RCT "
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Bezlotoxumab is one infusion of 10 mg/kg over 60 minutes, given at some point while standard CDI antibiotics are still running;** its half-life is about 18 days, so antibody stays measurable for up to 3 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68dcc1eea12e0d81",
+     "n": 256,
+     "p": "Bezlotox"
+    },
+    {
+     "h": "35f23fc74b03aeb7",
+     "n": 212,
+     "p": "The infu"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Where access is not a problem, a first episode plus another recurrence risk factor (age 65 or over, immunocompromise, severe CDI at presentation) may also warrant bezlotoxumab;** evidence for it alongside fidaxomicin is limited.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ee5cb25e7136f67",
+     "n": 398,
+     "p": "In setti"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Benefit grows with the number of risk factors:** on placebo, 37.2% with any risk factor recurred against 20.9% with none, and a first episode with no risk factor gained nothing from bezlotoxumab.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f99c62320a3945d",
+     "n": 162,
+     "p": "Placebo "
+    },
+    {
+     "h": "5db95ebc522f6c2f",
+     "n": 89,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Johnson S, Lavergne V, Skinner AM, Gonzales-Luna AJ, Garey KW, Kelly CP, Wilcox MH; IDSA and SHEA, Clinical Infectious Diseases 73(5):e1029 (doi 10.1093/cid/ciab549), 'Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults', published 14 June 2021, https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/, retrieved 2026-09-24"
   },
   {
    "claim": "**Tapered-and-pulsed oral vancomycin** is an acceptable alternative to fidaxomicin (standard or extended-pulsed) for a first or later recurrence.",

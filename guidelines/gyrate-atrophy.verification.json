@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/gyrate-atrophy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1186/s13023-026-04265-x"
+  "https://doi.org/10.1186/s13023-026-04265-x",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104 'Gyrate atrophy of the choroid and retina: a tertiary center experience' (published 16 February 2026). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13011296). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104 'Gyrate atrophy of the choroid and retina: a tertiary center experience' (published 16 February 2026), 13 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13011296). S2: PARAPHRASED AND HASH-ANCHORED from Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842) 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study' (published 6 January 2025), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11703598). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds a larger cohort (S2: 27 patients, Amsterdam UMC registry, 2025). Searches of Europe PMC and PubMed (gyrate atrophy, ornithine aminotransferase, hyperornithinaemia with guideline, consensus, recommendations, review, cohort; 2012-2026) found no guideline, consensus statement or GeneReviews chapter; the reviews found (Eur J Ophthalmol 2022, Mol Genet Metab 2021 treatment review, Arch Soc Esp Oftalmol 2024) are not open access. S2 is licensed CC BY-NC-ND, so its claims are paraphrased and hash-anchored.",
  "summary": {
-  "total": 13,
+  "total": 25,
   "pass": 13,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -45,6 +47,24 @@
    "locator": "Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104, 'Gyrate atrophy of the choroid and retina: a tertiary center experience', published 16 February 2026, https://doi.org/10.1186/s13023-026-04265-x, retrieved 2026-09-23"
   },
   {
+   "claim": "**In the larger cohort, eye symptoms began at a mean age of 10 years,** most often as poor vision from myopia or as night blindness. Twelve patients were found by targeted testing once a sibling had been diagnosed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ab5bdd4e0be2aee",
+     "n": 193,
+     "p": "The mean"
+    },
+    {
+     "h": "530b5e77435e6dc7",
+     "n": 104,
+     "p": "Twelve p"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**High plasma ornithine is the biochemical hallmark:** every patient had it at diagnosis. Screen siblings; the youngest here (15 months) was found by family screening.",
    "source": "S1",
    "verdict": "pass",
@@ -57,6 +77,55 @@
    "verdict": "pass",
    "source_text": "ERG responses in patients with gyrate atrophy are typically markedly reduced or extinguished at diagnosis, reflecting severe dysfunction of both rod and cone photoreceptors … ERG primarily serves as a diagnostic and baseline functional assessment tool rather than a sensitive marker for short-term therapeutic efficacy in GACR.",
    "locator": "Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104, 'Gyrate atrophy of the choroid and retina: a tertiary center experience', published 16 February 2026, https://doi.org/10.1186/s13023-026-04265-x, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**At diagnosis, S2 patients averaged a plasma ornithine of 735.7 µmol/L (range 341–1207), against a laboratory reference of 27–98.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd5af5f46b800d89",
+     "n": 103,
+     "p": "Mean pla"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **In the newborn period ornithine can be normal or low,** because the enzyme runs in reverse, and babies can present with hyperammonaemia; a neonatal proline/citrulline ratio above 32 followed by persistently high ornithine counts as diagnostic.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d25caf1dfa94d941",
+     "n": 196,
+     "p": "Two pati"
+    },
+    {
+     "h": "399542a9b4781744",
+     "n": 157,
+     "p": "or (3) a"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Look for cerebral creatine deficiency with MR spectroscopy:** it was present in fifteen of the 20 patients with data. Plasma creatine can be normal or high on supplements while brain creatine stays low.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e94496a389650119",
+     "n": 184,
+     "p": "For 20 p"
+    },
+    {
+     "h": "1c87181b4f8f4cf8",
+     "n": 149,
+     "p": "All pati"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
   },
   {
    "claim": "**There is no satisfactory treatment and no consensus;** an arginine-restricted diet with pyridoxine, lysine, proline or creatine may help.",
@@ -87,6 +156,116 @@
    "locator": "Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104, 'Gyrate atrophy of the choroid and retina: a tertiary center experience', published 16 February 2026, https://doi.org/10.1186/s13023-026-04265-x, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Start the diet early:** the four patients who kept more than 10° of central visual field had all begun protein restriction before age 10, and the only patient free of atrophic lesions had started ornithine-lowering treatment in the first year of life.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf012d7c44c15af6",
+     "n": 152,
+     "p": "At inclu"
+    },
+    {
+     "h": "ca2a512effed9028",
+     "n": 158,
+     "p": "Only one"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Arginine-free essential amino acid supplements are added when natural protein intake is below dietary reference values** (the role of the PBS-listed formulas). Patients had kept to the diet for a median of 8 years, and nine reported struggling with it at some point.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "43e895a6a215f574",
+     "n": 110,
+     "p": "(EAA) su"
+    },
+    {
+     "h": "7d7ca264a2af66b0",
+     "n": 239,
+     "p": "The medi"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Plasma ornithine usually stays high on treatment:** below 100 µmol/L only in the newborn period and in one patient on an extremely strict diet. After treatment began it fell in 12 of 27 patients and rose in 10 of 27.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "08a4187b41891bec",
+     "n": 223,
+     "p": "Plasma o"
+    },
+    {
+     "h": "f4ce0ab012be7880",
+     "n": 204,
+     "p": "In 12/27"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ornithine climbs with age, by about 8.1 µmol/L a year, independent of protein intake,** so in adults a rising level is not on its own proof of poor adherence, even though intake and reported adherence both affect it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1665dd60f106ff51",
+     "n": 74,
+     "p": "There wa"
+    },
+    {
+     "h": "133ac62e04284db7",
+     "n": 126,
+     "p": "While pl"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pyridoxine was given at a mean of 260 mg a day (range 50–600 mg); three patients responded in vivo,** two with measured ornithine falls of 24% and 36%. Response probably depends on the OAT variants.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b091536e1d24e3e",
+     "n": 342,
+     "p": "The mean"
+    },
+    {
+     "h": "c4096eaca192a959",
+     "n": 83,
+     "p": "Pyridoxi"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**L-lysine at 2 to 15 g a day showed no clear effect on ornithine in this cohort, and gastrointestinal side effects made three patients stop;** loss of appetite from those effects risks catabolism and a rise in ornithine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3566bfeee9ecdda9",
+     "n": 247,
+     "p": "Three pa"
+    },
+    {
+     "h": "44d13372778bc4b0",
+     "n": 151,
+     "p": "led to g"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Cystoid macular oedema is treated with topical NSAIDs (e.g. nepafenac), often with a carbonic anhydrase inhibitor (acetazolamide, brinzolamide);** responses in GACR are inconsistent and were mostly unsatisfactory here.",
    "source": "S1",
    "verdict": "pass",
@@ -106,6 +285,42 @@
    "verdict": "pass",
    "source_text": "it is essential to diagnose GACR as early as possible to initiate an arginine-restricted diet and manage other metabolic parameters, in addition to ophthalmologic treatment. … Patients came in for check-ups every 3-6 months … It was observed that as the patients' ophthalmological symptoms worsened, their metabolic check-ups decreased, and two patients even discontinued follow-up.",
    "locator": "Aktaşoğlu EÖ, Özdemir HB, Özmen MC, İnci A, Okur İ, Ezgü FS, Tümer L (Gazi University, Ankara), Orphanet Journal of Rare Diseases 21:104, 'Gyrate atrophy of the choroid and retina: a tertiary center experience', published 16 February 2026, https://doi.org/10.1186/s13023-026-04265-x, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Watch muscle mass:** four patients aged 28 to 57 met criteria for sarcopenia, and 9 of 12 measured had a low fat-free mass index; creatine deficiency or reduced mobility from poor vision may contribute.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2276aeb9888a08b1",
+     "n": 121,
+     "p": "Four pat"
+    },
+    {
+     "h": "ee5e185c562fd4fd",
+     "n": 43,
+     "p": "In our s"
+    },
+    {
+     "h": "fd4ce5d567db42ed",
+     "n": 74,
+     "p": "The obse"
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The authors argue for newborn screening:** ornithine does not work as a newborn marker, but the citrulline/proline ratio could, and starting treatment in the first decade may pay off long term.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "61e30b5c0ac7f399",
+     "n": 517,
+     "p": "Newborn "
+    }
+   ],
+   "locator": "Balfoort BM, Van den Broeck F, Boon CJF, et al., GACR 'Bird's Eye View' Consortium (Amsterdam UMC), Journal of Inherited Metabolic Disease 48(1):e12842 (doi 10.1002/jimd.12842), 'Novel Insights Into Gyrate Atrophy of the Choroid and Retina (GACR): A Cohort Study', published 6 January 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11703598/, retrieved 2026-09-24"
   }
  ]
 }
