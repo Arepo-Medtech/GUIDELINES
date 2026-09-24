@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/osteomyelitis-adults.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement' (published 11 May 2022 (evidence to 1 March 2022)). Every pass claim is machine re-checkable. LICENCE: CC BY (open access; 'distributed under the terms of the CC-BY License') (read at Europe PMC fullTextXML <license> element for PMC9092201). The consensus statement's Tables 1–4 (diagnostic accuracy, empirical regimens, oral drug options and doses, durations) and Supplement 2 were not used: tables were stripped and the supplement was not retrieved.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement' (published 11 May 2022 (evidence to 1 March 2022)), 17 claims; LICENCE: CC BY (open access; 'distributed under the terms of the CC-BY License') (read at Europe PMC fullTextXML <license> element for PMC9092201). S2: QUOTED from Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society) 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease' (published 9 June 2022 (adapts the 2019 IWGDF infection guideline)), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9178854). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Australian diabetes-related foot infection guideline (Diabetes Feet Australia 2021, published 2022), for diabetic foot osteomyelitis; every S1 claim is unchanged. S2's Tables 1-3 and supplementary tables were stripped and not used. The consensus statement's Tables 1–4 (diagnostic accuracy, empirical regimens, oral drug options and doses, durations) and Supplement 2 were not used: tables were stripped and the supplement was not retrieved.",
  "summary": {
-  "total": 17,
-  "pass": 17,
+  "total": 27,
+  "pass": 27,
   "fail": 0
  },
  "claims": [
@@ -128,6 +129,76 @@
    "verdict": "pass",
    "source_text": "A reasonable strategy, without evidence for or against, may be to treat with antibiotics until the bone heals sufficiently enough that the implants can be removed, such as in cases of fracture. Finally, chronic oral suppressive therapy may be considered for patients for whom the risks and benefits of curative surgery is deemed unacceptable; however, available data have not defined the risks and benefits of this approach well to this point.",
    "locator": "WikiGuidelines Group (Spellberg B et al.), JAMA Network Open 5(5):e2211321, 'Use of Novel Strategies to Develop Guidelines for Management of Pyogenic Osteomyelitis in Adults: A WikiGuidelines Group Consensus Statement', published 11 May 2022 (evidence to 1 March 2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9092201/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Initial tests for suspected diabetic foot osteomyelitis: combine the probe-to-bone test, ESR (or CRP and/or procalcitonin) and plain x-rays** (strong; moderate). If the x-ray, clinical and laboratory findings are most compatible with osteomyelitis, no further foot imaging is needed to make the diagnosis (strong; low).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a person with diabetes and suspected osteomyelitis of the foot, we recommend using a combination of the probe-to-bone test, the erythrocyte sedimentation rate (or C-reactive protein and/or procalcitonin), and plain X-rays as the initial studies to diagnose osteomyelitis. (Strong; moderate). … if a plain X-ray and clinical and laboratory findings are most compatible with osteomyelitis, we recommend no further imaging of the foot to establish the diagnosis. (Strong; low).",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If the diagnosis remains in doubt, consider MRI, 18F-FDG-PET/CT or leukocyte scintigraphy (with or without CT)** (strong; moderate).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "If the diagnosis of osteomyelitis remains in doubt, consider ordering an advanced imaging study, such as magnetic resonance imaging (MRI) scan, 18F-FDG-positron emission tomography (PET)/computed tomography (CT) or leukocyte scintigraphy (with or without CT). (Strong; moderate).",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Take a bone sample (percutaneous or surgical) for culture and, if possible, histopathology when a definitive diagnosis or the causative pathogen is needed to choose treatment** (strong; low). The panel notes that expertise in percutaneous bone biopsy is low in many Australian locations.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "in whom making a definitive diagnosis or determining the causative pathogen is necessary for selecting treatment, collect a sample of bone (percutaneously or surgically) to culture clinically relevant bone microorganisms and for histopathology (if possible). (Strong; low). … although expertise for percutaneous biopsy was noted to be low in many Australian locations.",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Uncomplicated forefoot osteomyelitis with no other reason for surgery: consider antibiotics without surgical bone resection** (strong; moderate). 'Uncomplicated' means no severe (grade 4) infection, necrotising tissue infection, bone exposed in the base of the ulcer, kidney injury or peripheral artery disease.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a patient with diabetes and uncomplicated forefoot osteomyelitis, for whom there is no other indication for surgical treatment, consider treating with antibiotic therapy without surgical resection of bone. (Strong; moderate). … uncomplicated forefoot osteomyelitis should be defined as osteomyelitis without severe (grade 4) infection, and without any of the following: necrotising tissue infection, bone exposed in the base of the ulcer, kidney injury, or peripheral artery disease.",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Probable diabetic foot osteomyelitis with soft-tissue infection: urgently evaluate the need for surgery,** with intensive post-operative medical and surgical follow-up (strong; moderate).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a patient with probable diabetes-related foot osteomyelitis with concomitant soft tissue infection, urgently evaluate the need for surgery as well as intensive post-operative medical and surgical follow-up. (Strong; moderate).",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Choose antibiotics with demonstrated efficacy for osteomyelitis** (strong; low); the drugs used for non-diabetic osteomyelitis are reasonable, including beta-lactams, beta-lactam/beta-lactamase inhibitors, (fluoro)quinolones, glycopeptides and lipoglycopeptides, oxazolidinones, sulfonamides, lincosamides, rifamycins and fusidic acid.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Select antibiotic agents for treating diabetes-related foot osteomyelitis from among those that have demonstrated efficacy for osteomyelitis in clinical studies. (Strong; low). … it would be reasonable to use antibiotics that are used for osteomyelitis that is not associated with diabetes-related foot infections. Such antibiotics include beta-lactams, beta-lactam/beta-lactamase inhibitors, (fluoro) quinolones, glycopeptides and lipoglycopeptides, oxazolidinones, sulfonamides, lincosamides, rifamycins and fusidic acid",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If parenteral therapy was needed at first, consider switching to a highly bioavailable oral antibiotic after perhaps 5 to 7 days,** when the pathogens are susceptible to an available oral drug and nothing precludes oral therapy (weak; moderate).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For people with diabetes-related foot osteomyelitis that initially require parenteral therapy, consider switching to an oral antibiotic regimen that has high bioavailability after perhaps 5 to 7 days, if the likely or proven pathogens are susceptible to an available oral agent and the patient has no clinical condition precluding oral therapy. (Weak; moderate).",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Duration: the Australian panel did NOT adopt the international 'no longer than 6 weeks' recommendation for diabetic foot osteomyelitis,** judging the population too heterogeneous for it to be broadly applied. Its advice to reconsider bone culture, resection or a different regimen if there is no clinical improvement within 2 to 4 weeks was kept as a general principle.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Treat diabetes-related foot osteomyelitis with antibiotic therapy for no longer than 6 weeks. If the infection does not clinically improve within the first 2 to 4 weeks, reconsider the need for collecting a bone specimen for culture, undertaking surgical resection, or selecting an alternative antibiotic regimen. (Strong; moderate). Decision: Excluded. … The population addressed (person with diabetes and osteomyelitis of the foot) was considered to be too heterogeneous for the recommendation to treat with antibiotic therapy for no longer than 6 weeks to be broadly applied. The highly select subgroup for which there is some evidence to support a shorter duration of therapy is targeted in Recommendation 21(a). The second sentence of the recommendation was considered to reflect expert opinion of good practice supported by extensive experience and considered to be a general principle rather than remain as an evidence-based recommendation.",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After all infected bone has been surgically removed and there is no soft-tissue infection, give antibiotics for just a few days** (weak; low), defined by the panel as 2 to 5 days, which allows time for the histopathology and culture of the residual bone margin.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Treat diabetes-related foot osteomyelitis with antibiotic therapy for just a few days if there is no soft tissue infection and all the infected bone has been surgically removed. (Weak; low). … the panel believe that the duration that antibiotic therapy should be continued, described as 'just a few days' in the recommendation should be defined as 2 to 5 days. This is consistent with Australian infection guidelines and allows clinicians to await histopathology and culture results from tissue samples taken from the presumed uninfected residual bone margin to verify adequate surgical removal of infection.",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**At resection, consider sending bone from the stump for culture (and histopathology)** (weak; moderate). If that aseptic specimen grows pathogens or the histology shows osteomyelitis, give appropriate antibiotics for up to 6 weeks (strong; moderate). From remote sites, results take longer, so continue antibiotics until they are available.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "During surgery to resect bone for diabetes-related foot osteomyelitis, consider obtaining a specimen of bone for culture (and, if possible, histopathology) at the stump of the resected bone to identify if there is residual bone infection. (Weak; moderate). … If an aseptically collected culture specimen obtained during the surgery grows pathogen(s), or if the histology demonstrates osteomyelitis, administer appropriate antibiotic therapy for up to 6 weeks. (Strong; moderate). … The panel noted that there may be longer turn-around times for laboratory results from bone sampling (microbiology and anatomical pathology) when sent from remote sites and that this should be considered in the treatment algorithm. Antibiotics should be continued until the results are available.",
+   "locator": "Commons RJ, Charles J, Cheney J, Lynar SA, et al., Diabetes Feet Australia / Australian Diabetes-related Foot Disease Guidelines panel, Journal of Foot and Ankle Research 15:47 (endorsed by nine national bodies including ASID and the Australian Diabetes Society), 'Australian guideline on management of diabetes-related foot infection: part of the 2021 Australian evidence-based guidelines for diabetes-related foot disease', published 9 June 2022 (adapts the 2019 IWGDF infection guideline), https://pmc.ncbi.nlm.nih.gov/articles/PMC9178854/, retrieved 2026-09-24"
   },
   {
    "claim": "**Do not follow ESR, CRP or repeat imaging routinely;** neither predicts long-term cure for the individual patient. Repeat imaging when a patient is failing therapy, to guide source control, find complications such as pathological fracture, or rethink the diagnosis.",

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/herpes-labialis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://remotephcmanuals.com.au/document/35499.html"
+  "https://remotephcmanuals.com.au/document/35499.html",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11212212/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Central Australian Aboriginal Congress, CARPA, CRANAplus and Flinders University (Remote Primary Health Care Manuals) 'CARPA Standard Treatment Manual, 8th edition (e-version V1.03): Herpes simplex (cold sores) (p 456), Mouth ulcers (p 365), Table 7.29 Vesicular rash (p 466) and the HSV statements in Genital herpes (p 320)' (8th edition 2022, V1.03 reprinted with corrections May 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (non-commercial adaptation permitted with acknowledgement; commercial use not permitted) (read at the 'Permission to copy and share' statement in the front matter of https://remotephcmanuals.com.au/download/resources/manuals/CARPA_8th_ed_V1.03.pdf). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Central Australian Aboriginal Congress, CARPA, CRANAplus and Flinders University (Remote Primary Health Care Manuals) 'CARPA Standard Treatment Manual, 8th edition (e-version V1.03): Herpes simplex (cold sores) (p 456), Mouth ulcers (p 365), Table 7.29 Vesicular rash (p 466) and the HSV statements in Genital herpes (p 320)' (8th edition 2022, V1.03 reprinted with corrections May 2026), 14 claims; LICENCE: CC BY-NC 4.0 (non-commercial adaptation permitted with acknowledgement; commercial use not permitted) (read at the 'Permission to copy and share' statement in the front matter of https://remotephcmanuals.com.au/download/resources/manuals/CARPA_8th_ed_V1.03.pdf). S2: PARAPHRASED AND HASH-ANCHORED from Ocampo, de França, Santana, Lia et al., Acta Odontológica Latinoamericana 37(1):13-24 (doi 10.54589/aol.37/1/13) 'Clinical guidelines for herpes labialis: recommendations and quality evaluation according to AGREE II' (published 30 April 2024 (guideline search June 2022 to March 2023)), 5 claims; LICENCE: CC BY-NC 4.0 (© Sociedad Argentina de Investigación Odontológica) (read at Europe PMC fullTextXML <license> element for PMC11212212). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a 2024 systematic appraisal (AGREE II) of 12 herpes labialis guidelines from the USA, UK, Spain and Brazil; every S1 claim is unchanged. S2 is a review of guidelines, not a guideline. Its Tables 1-4 (guideline list, regimens and scores) were stripped. Searches run: Europe PMC for herpes labialis guidelines, consensus and recommendations, and for open-access reviews naming valaciclovir or famciclovir (2018-2026). NICE CKS 'Herpes simplex - oral' returned HTTP 403 and was not used; the NICE/UKHSA antimicrobial summary (April 2025) only refers to CKS for cold sores.",
  "summary": {
-  "total": 14,
+  "total": 19,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 14
+  "pass_paraphrase_anchored": 19
  },
  "claims": [
   {
@@ -165,6 +166,76 @@
     }
    ],
    "locator": "Central Australian Aboriginal Congress, CARPA, CRANAplus and Flinders University (Remote Primary Health Care Manuals), 'CARPA Standard Treatment Manual, 8th edition (e-version V1.03): Herpes simplex (cold sores) (p 456), Mouth ulcers (p 365), Table 7.29 Vesicular rash (p 466) and the HSV statements in Genital herpes (p 320)', 8th edition 2022, V1.03 reprinted with corrections May 2026, https://remotephcmanuals.com.au/document/35499.html, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Recurrences are set off by things that weaken local or general immunity:** long ultraviolet exposure, immunosuppressive medicines, HIV, stress, premenstrual tension and surgery. Most people with recurrent HSV-1 have fewer than two episodes a year; 5% to 10% have six or more.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "701cf0d4b3f3864c",
+     "n": 420,
+     "p": "Most peo"
+    }
+   ],
+   "locator": "Ocampo, de França, Santana, Lia et al., Acta Odontológica Latinoamericana 37(1):13-24 (doi 10.54589/aol.37/1/13), 'Clinical guidelines for herpes labialis: recommendations and quality evaluation according to AGREE II', published 30 April 2024 (guideline search June 2022 to March 2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC11212212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Guidelines from the USA, UK, Spain and Brazil agree that the nucleoside antivirals (aciclovir, valaciclovir and famciclovir) are the drugs of choice for herpes labialis.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d29fdcd1785cb945",
+     "n": 228,
+     "p": "Guidelin"
+    }
+   ],
+   "locator": "Ocampo, de França, Santana, Lia et al., Acta Odontológica Latinoamericana 37(1):13-24 (doi 10.54589/aol.37/1/13), 'Clinical guidelines for herpes labialis: recommendations and quality evaluation according to AGREE II', published 30 April 2024 (guideline search June 2022 to March 2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC11212212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Most guidelines favour oral over topical antivirals, and they do not agree on whether topical antiviral treatment should be recommended at all.** A few add oral pain relief and topical anaesthetic according to how severe the episode is and what the person needs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ddd56deaa6543b02",
+     "n": 354,
+     "p": "In most "
+    }
+   ],
+   "locator": "Ocampo, de França, Santana, Lia et al., Acta Odontológica Latinoamericana 37(1):13-24 (doi 10.54589/aol.37/1/13), 'Clinical guidelines for herpes labialis: recommendations and quality evaluation according to AGREE II', published 30 April 2024 (guideline search June 2022 to March 2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC11212212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The guidelines themselves are weak:** of the 12 appraised, only two ('Oral herpes simplex', and an infection management guide for primary care) were rated as recommended, one as recommended with modifications and nine as not recommended. Just eight of their 83 recommendations carried a strength grade.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e0076a1c288995e",
+     "n": 343,
+     "p": "Two of t"
+    },
+    {
+     "h": "11fcd84c16a0e3b7",
+     "n": 77,
+     "p": "Only eig"
+    }
+   ],
+   "locator": "Ocampo, de França, Santana, Lia et al., Acta Odontológica Latinoamericana 37(1):13-24 (doi 10.54589/aol.37/1/13), 'Clinical guidelines for herpes labialis: recommendations and quality evaluation according to AGREE II', published 30 April 2024 (guideline search June 2022 to March 2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC11212212/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Few guidelines give specific advice on diagnosing or screening for labial herpes;** most fold it into HSV infection generally, leaving gaps in differential diagnosis and risk stratification.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba7110ed1c6f8e90",
+     "n": 302,
+     "p": "It was a"
+    }
+   ],
+   "locator": "Ocampo, de França, Santana, Lia et al., Acta Odontológica Latinoamericana 37(1):13-24 (doi 10.54589/aol.37/1/13), 'Clinical guidelines for herpes labialis: recommendations and quality evaluation according to AGREE II', published 30 April 2024 (guideline search June 2022 to March 2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC11212212/, retrieved 2026-09-24"
   },
   {
    "claim": "**For sore mouth ulcers:** paracetamol and lidocaine gel for pain, plus a saltwater or 0.2% chlorhexidine mouthwash (10 mL held in the mouth for 1 minute, used 3 times daily) to keep the mouth clean.",

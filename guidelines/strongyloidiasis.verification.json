@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/strongyloidiasis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://remotephcmanuals.com.au/document/35499.html"
+  "https://remotephcmanuals.com.au/document/35499.html",
+  "https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Central Australian Aboriginal Congress, CARPA, CRANAplus and Flinders University (Remote Primary Health Care Manuals) 'CARPA Standard Treatment Manual, 8th edition (e-version V1.03): Worms, Strongyloides testing, treatment and follow-up (pp 494-498), with the HTLV-1 and COPD cross-references' (8th edition 2022, V1.03 reprinted with corrections May 2026 (Table 7.39 updated June 2024)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (non-commercial adaptation permitted with acknowledgement; commercial use not permitted) (read at the 'Permission to copy and share' statement in the front matter of https://remotephcmanuals.com.au/download/resources/manuals/CARPA_8th_ed_V1.03.pdf). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Central Australian Aboriginal Congress, CARPA, CRANAplus and Flinders University (Remote Primary Health Care Manuals) 'CARPA Standard Treatment Manual, 8th edition (e-version V1.03): Worms, Strongyloides testing, treatment and follow-up (pp 494-498), with the HTLV-1 and COPD cross-references' (8th edition 2022, V1.03 reprinted with corrections May 2026 (Table 7.39 updated June 2024)), 18 claims; LICENCE: CC BY-NC 4.0 (non-commercial adaptation permitted with acknowledgement; commercial use not permitted) (read at the 'Permission to copy and share' statement in the front matter of https://remotephcmanuals.com.au/download/resources/manuals/CARPA_8th_ed_V1.03.pdf). S2: PARAPHRASED AND HASH-ANCHORED from World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A) 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis' (February 2018), 10 claims; LICENCE: © World Gastroenterology Organisation, 2018 (copyright notice on every page; no reuse licence stated) (read at the page footers of the PDF). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the World Gastroenterology Organisation global guideline (2018), for hyperinfection, treatment failure and proof of cure; every S1 claim is unchanged. S2 is © WGO with no reuse licence, so it is paraphrased and hash-anchored. Searches run: Europe PMC for strongyloidiasis guidelines, consensus and recommendations, and for transplant or immunosuppression screening guidance (2019-2026). Rejected: CATMAT 2016 (Canada; canada.ca refused the connection and the Europe PMC PDF returned 403), Requena-Mendez 2017 AJTMH and the GEPI-SEIMC 2022 recommendations (full text not open in Europe PMC; only abstracts or published comments), and WHO 2024 (preventive chemotherapy only).",
  "summary": {
-  "total": 18,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -223,6 +224,162 @@
     }
    ],
    "locator": "Central Australian Aboriginal Congress, CARPA, CRANAplus and Flinders University (Remote Primary Health Care Manuals), 'CARPA Standard Treatment Manual, 8th edition (e-version V1.03): Worms, Strongyloides testing, treatment and follow-up (pp 494-498), with the HTLV-1 and COPD cross-references', 8th edition 2022, V1.03 reprinted with corrections May 2026 (Table 7.39 updated June 2024), https://remotephcmanuals.com.au/document/35499.html, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Treat every infection, even without symptoms:** the worm's autoinfection cycle means it will not clear on its own, and hyperinfection can kill.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2da0e67df9d11fad",
+     "n": 231,
+     "p": "Spontane"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **If immunosuppression has to start urgently in someone who may carry undiagnosed strongyloides, and tests cannot be turned around quickly, consider treating presumptively with ivermectin** (very few hospitals offer same-day serology).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d484a0f4442a8a52",
+     "n": 251,
+     "p": "If emerg"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WGO's drug of choice is ivermectin 200 µg/kg given once.** It rates albendazole markedly less effective and does not recommend it; albendazole (400 mg twice daily for 3 days) is for use only when nothing else is available.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74c197f967aae429",
+     "n": 156,
+     "p": "The trea"
+    },
+    {
+     "h": "0374b89d61e1b673",
+     "n": 362,
+     "p": "Albendaz"
+    },
+    {
+     "h": "59d86269e586fb78",
+     "n": 35,
+     "p": "used unl"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**If treatment fails, give the ivermectin course again, this time over 2 days.** Failure usually reflects poor host immunity, which is common with HTLV-I.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bde3a21f20afdbf1",
+     "n": 150,
+     "p": "In case "
+    },
+    {
+     "h": "372959ef9849011a",
+     "n": 133,
+     "p": "Failure "
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Best-resourced diagnosis: IgG anti-Strongyloides serology together with one faecal test (Baermann or PCR).**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ccc92a1eb04c0890",
+     "n": 82,
+     "p": "Gold sta"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A single negative stool does not prove cure:** one stool test misses up to 70% of known infections, so at least three suitable examinations are needed, and cure also requires the serology titre and the eosinophil count to fall. Follow up with sensitive stool tests and IgG serology for 1–2 years.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e2c604a02c756cde",
+     "n": 409,
+     "p": "A defini"
+    },
+    {
+     "h": "6c52f15c02dbdf11",
+     "n": 211,
+     "p": "Proper e"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Hyperinfection or dissemination** (a very high worm load spreading fast, usually with immunosuppression and often with corticosteroids) **carries a high risk of Gram-negative sepsis, so broad-spectrum antibiotics are usually added, particularly to guard against bacterial meningitis.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "899eb1049c2a14fc",
+     "n": 333,
+     "p": "In fact,"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **In critical illness, give ivermectin every day for at least 14 days, continuing until larvae are no longer seen in stool, urine or other body fluids.** When oral drugs cannot be taken, ivermectin has been given successfully under the skin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "16bdf86f0936c40b",
+     "n": 464,
+     "p": "In criti"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Rule out loiasis before ivermectin in people from Loa loa areas:** in a heavy Loa loa infection it can, very rarely, trigger encephalitis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e42ef644deb09e7d",
+     "n": 243,
+     "p": "Ivermect"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Household contacts are not at risk; in hospital, use standard precautions** with gloves, gowns and careful hand hygiene for anyone who may touch the patient's faeces.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f14755a705d77f1",
+     "n": 73,
+     "p": "Persons "
+    },
+    {
+     "h": "2ba09f9a01669dab",
+     "n": 216,
+     "p": "Standard"
+    }
+   ],
+   "locator": "World Gastroenterology Organisation (WGO) review team (Farthing M, Albonico M, Bisoffi Z, Bundy DAP, Buonfrate D, Chiodini P, Katelaris P, Kelly P, Savioli L, Le Mair A), 'World Gastroenterology Organisation Global Guidelines: Management of strongyloidiasis', February 2018, https://www.worldgastroenterology.org/UserFiles/file/guidelines/management-of-strongyloidiasis-english-2018.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Follow up everyone who has been treated.** A person from a high-prevalence area with past strongyloides who is on immune-weakening treatment gets single-dose ivermectin every 3 months. For everyone else, repeat the faeces test at 6 months if symptoms continue, and consult if it is still positive.",
