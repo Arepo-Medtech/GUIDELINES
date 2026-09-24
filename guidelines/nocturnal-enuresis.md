@@ -1,183 +1,105 @@
 # Nocturnal enuresis (bedwetting)
 
-**Edition:** 1.0 · 2026-09-22 · **Status:** drafted and source-verified; awaiting clinical attestation
-**Scope:** children. Monosymptomatic nocturnal enuresis — assessment, alarm therapy, desmopressin.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Scope:** children with monosymptomatic night-time wetting: what is normal, when to treat, history and examination, general advice, bedwetting alarms, desmopressin, what does not help, and referral. Daytime or combined wetting needs a different approach (see `daytime-wetting-children`). Related here: `constipation` (treat it before the wetting), `urinary-tract-infection-children` (recurrent UTI is a referral trigger), `type-1-diabetes` and `diabetes-new-presentation-children` (polyuria, polydipsia, diabetes as a comorbidity), `insomnia` (snoring, sleep apnoea), `adhd` (developmental and behavioural comorbidity), `psychotropic-medicines-cognitive-disability` (intellectual impairment is no bar to treatment).
 
-> **Australian primary source.** The Royal Children's Hospital Melbourne. ***Enuresis — Bed wetting and
-> Monosymptomatic Enuresis***, Clinical Practice Guideline, **last updated July 2019** [S1].
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 41 claims paraphrased from **The Royal Children's Hospital Melbourne — *Clinical Practice Guideline: Enuresis — Bed wetting and Monosymptomatic Enuresis*** (last updated July 2019; origin: AU). **67 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *© The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored*.
 
-**AMH topics closed by this guideline:** *Bedwetting*, *Nocturnal enuresis in children*.
+> ⏳ **Old source:** the RCH page was last updated in July 2019 and carries desmopressin doses; check them against current product information.
 
-## Continence is a developmental milestone, not a failure
+> ⚠️ **Two fluid rules that pull in opposite directions:** the general advice is not to restrict fluids, but desmopressin needs fluids restricted around each dose. Both are shown below; the page does not reconcile them.
 
-> **Attaining night time continence is a normal developmental process, with significant age variation. There
-> is a strong genetic tendency to bedwetting** [S1].
+---
 
-**Daytime bladder control and coordination usually occurs by 4 years of age, however night-time bladder
-control typically takes longer and is not expected until a child is 5–7 years old. At 4 years of age, nearly
-1 in 3 children wets the bed, but this falls to about 1 in 10 by age 6** [S1].
+## A developmental milestone
 
-> ⚠️ **Enuresis is common and generally causes no lasting problems. Typically treatment is not started before
-> age 6 years, as there is a high rate of spontaneous resolution** [S1].
+- **Becoming dry at night is part of normal development, and the age it happens varies widely.** Bedwetting runs strongly in families. [S1]
+- **Day control usually comes by 4 years; night control comes later and is not expected before 5-7 years.** Almost 1 in 3 four-year-olds still wet the bed, dropping to around 1 in 10 at 6 years. [S1]
+- **Bedwetting is common and rarely leaves lasting harm.** Because so many children grow out of it, treatment usually waits until age 6. [S1]
+- **Possible mechanisms:** producing a lot of urine overnight (nocturnal polyuria), an overactive detrusor, and being hard to rouse (a raised arousal threshold). [S1]
 
-**The pathogenesis involves several possible mechanisms including nocturnal polyuria, detrusor overactivity
-and an increased arousal threshold** [S1].
+## When to treat
 
-## ⚠️ The threshold for treating is social, not clinical
+- ⚠️ **The trigger for treatment is social:** for most children bedwetting only becomes a problem when it gets in the way of friendships (sleepovers, school camps). If wetting is occasional or not upsetting the child or parents, no treatment is needed. [S1]
+- **Most children who wet have no significant physical or emotional cause,** yet many feel ashamed or embarrassed and lose self-esteem, more so as they get older. [S1]
+- **Monosymptomatic enuresis (MSE):** night wetting with no other lower urinary tract symptom and no history of bladder dysfunction. [S1]
+- **Daytime lower urinary tract symptoms change the approach;** if they are the main problem, consider treating them before the bedwetting. [S1]
 
-> **For most children, enuresis is only seen as a problem when it interferes with their ability to socialise
-> with friends (for example overnight stays or school camps). If the enuresis is infrequent and/or not
-> distressing to the child or parents, treatment is not indicated** [S1].
+## History
 
-**Most children who wet the bed have no significant underlying physical or emotional problems. However, many
-will feel embarrassed or ashamed and suffer from decreased self-esteem, particularly as the child gets
-older** [S1].
+- **Voiding habits are the core of the history.** [S1]
+- ⚠️ **Recent onset (the last few days or weeks)?** Ask whether this could be how a systemic illness is presenting. [S1]
+- **Was the child dry at night, unaided, for 6 months before?** Secondary enuresis that persists without explanation despite good management should go to a specialist. [S1]
+- **Ask about daytime symptoms:** frequency, urgency, polyuria, dysuria or recurrent UTI, a weak stream or straining, and leakage. [S1]
+- **Also ask about** bowels (constipation, soiling); sleep set-up and routine (own bed or room, snoring, broken sleep); and comorbid conditions — diabetes mellitus, sleep apnoea, or developmental or behavioural problems. [S1]
+- **Social history:** how able and motivated the family is to take on treatment, and any social difficulty that makes the child or family vulnerable. [S1]
 
-## Assessment
+## Examination and investigations
 
-**Monosymptomatic enuresis (MSE) is defined as enuresis without any other lower urinary tract symptoms or
-history of bladder dysfunction** [S1]. ⚠️ **The presence of daytime, lower urinary tract symptoms requires a
-different approach** [S1] — and **if daytime symptoms predominate, consider treating before bedwetting** [S1].
+- **Examine:** height, weight and BP (poor growth, weight loss, hypertension); abdomen for a distended bladder or faecal mass; ⚠️ lower back and spine for occult spinal dysraphism or tethered cord (a deviated or asymmetric gluteal cleft); lower limb neurology. [S1]
+- **Primary enuresis needs no dipstick urinalysis** unless red flags are present, and imaging or blood tests are not routine. [S1]
 
-**Much of the history should focus on voiding habits** [S1], and covers:
+## General advice
 
-- **Onset of bedwetting (if acute — last few days to weeks — consider whether this is a presentation of systemic illness)**
-- ⚠️ **Has the child previously been dry at night without assistance for 6 months?** — if so, **consider possible medical, emotional, or physical triggers**. **The presence of unexplained persistent secondary enuresis despite adequate management should prompt specialist referral**
-- **Presence of day-time symptoms (frequency, urgency, polyuria, dysuria/recurrent UTI, poor urinary stream/straining, leakage)**
-- **Bowel habit (constipation/soiling)**
-- **Sleeping arrangements and routine (including own bed/bedroom, snoring and disturbed sleep)**
-- **Developmental or behavioural problems, diabetes mellitus or sleep apnoea**
-- **Family capacity and motivation to engage in treatment, social difficulties (vulnerable child/family)** [S1]
+- ⚠️ **Treat any constipation properly first, then tackle the wetting.** [S1]
+- **Drink and void regularly through the day** (for example at school breaks) and again right before bed. [S1]
+- **Do not restrict fluids, but cut out caffeinated drinks in the evening.** [S1]
+- **Explain** how the bladder normally works and why bedwetting happens, including that it runs in families; tell them it is common among the child's peers and nothing to be embarrassed about. [S1]
+- **Behavioural treatment needs a motivated parent and a motivated child** before it starts. [S1]
 
-**Examination**: **height, weight, BP — poor growth / loss of weight / hypertension**; **abdomen — distended
-bladder, faecal mass**; **inspection of external genitalia**; ⚠️ **lower back/spine – exclude occult spinal
-dysraphism or tethered cord (asymmetric/deviation of gluteal cleft)**; **assessment of lower limb
-neurology** [S1].
+## Bedwetting alarms
 
-**Dipstick urinalysis is not required in primary enuresis. Consider if red flags apparent. Further imaging or
-blood tests are not routinely recommended in enuresis** [S1].
+- **Over 6 years, an alarm is the most effective treatment there is** — provided child and parent are both motivated. [S1]
+- **Alarms are the best first-line option:** they work well long term and relapse less often than medication does. [S1]
+- **Tell families an alarm can take 6-8 weeks to work.** It is usually advised from 6-7 years, depending on the child's physical ability, maturity and motivation. [S1]
+- **Where to get one:** hire from some pharmacies, community continence services, tertiary centres or private practitioners; the Continence Foundation of Australia lists providers. [S1]
+- **Mild to moderate intellectual impairment is no bar to alarm treatment;** for a child with hearing impairment, consider a vibrating alarm. [S1]
+- ⚠️ **Do not use an alarm if the carer** is struggling emotionally, is angry with or blaming the child, or is unlikely to manage the extra load of the alarm and the broken sleep it brings to the household. [S1]
+- ⚠️ **The child owns the alarm** and at first may need waking to switch it off themselves. Success depends on the child being properly awake while getting up and going to the toilet. [S1]
+- **Reward the actions, not dry nights:** rewards can help for waking up, or for getting to the toilet, once the alarm sounds. [S1]
+- **Timeline:** early response by 4 weeks → keep going until 2 weeks of unbroken dry nights · no early response within 4 weeks → stop · still not fully dry at 3 months → rethink whether to continue, or try the alarm again in 3-6 months. [S1]
+- **Overlearning, after 2 weeks or more of dryness:** have the child drink extra fluid in the hour before bed. The harder challenge over-conditions the bladder and may cut relapse. [S1]
 
-## Treat the constipation first
+## Medicines
 
-> **Constipation, if present, should be adequately managed before addressing enuresis** [S1].
-
-That makes this guideline dependent on the **constipation** guideline in this compendium — which in turn
-lists **faecal (soiling) or urinary incontinence** in its own history.
-
-## General advice, including one counter-intuitive instruction
-
-**Encourage regular fluids and toileting throughout the day (eg during school break times) and just before
-bedtime** [S1].
-
-⚠️ **Advise against fluid restriction, but eliminate caffeinated beverages in the evening** [S1].
-
-**Advise on normal bladder function and the pathogenesis of enuresis, including the genetic tendency. Also,
-that this is a common problem effecting their peer group and they should not be embarrassed** [S1].
-
-⚠️ **Both parent and child must be motivated before starting behavioural interventions** [S1].
-
-## Alarm therapy
-
-> **Alarm therapy is the most effective treatment modality available in children older than 6 years of age,
-> but requires motivation of both child and parent** [S1].
-
-**Considered the most useful and successful initial way to treat bedwetting - good long-term success and
-fewer relapses than medication** [S1]. **It is important to communicate to families that it may take 6–8
-weeks to work** [S1]. **Generally recommended in children from 6–7 years of age, depending on their physical
-ability, maturity and motivation** [S1].
-
-**Access**: **bedwetting alarms are available for hire from selected pharmacies, community continence
-services, tertiary centres, and private practitioners. The Continence Foundation of Australia has a list of
-service providers** [S1].
-
-**Mild to moderate intellectual impairment does not preclude treatment and in hearing impaired children
-consider using a vibrating alarm** [S1].
-
-⚠️ **Not suitable if the carer is experiencing emotional difficulty, expressing anger or blame toward the
-child, or is unlikely to cope with the additional burden of a bedwetting alarm and sleep disruption in the
-household** [S1] — carer state is a stated contraindication to a device.
-
-**How it is run** [S1]:
-
-- **Children should be 'in charge' of their alarm and may need to be woken initially to turn the alarm off themselves.** ⚠️ **It is critical for success of alarm therapy that the child is fully awake during the process of going to the bathroom**
-- ⚠️ **Reward systems can be useful during alarm therapy to reward behaviours such as waking or going to the toilet when the alarm goes off (Not for dry nights per se)**
-- **If a child is showing early signs of response after 4 weeks, continue treatment until 2 weeks of uninterrupted dry nights are achieved**
-- **Discontinue treatment if no early signs of response within 4 weeks**
-- **If there is incomplete dryness after 3 months, reconsider if ongoing treatment is appropriate or a further trial of the alarm in 3–6 months**
-
-**Overlearning**: **once dryness is achieved for 2 weeks or more, consider introducing "overlearning" — to
-over condition the bladder. Encourage the child to drink extra fluids in the hour before bedtime, providing a
-greater challenge to remaining dry, which may reduce the rate of relapse** [S1].
-
-## Pharmacological therapy
-
-> ⚠️ **Tricyclic medications are no longer recommended. They are less effective than other therapies and have
-> a higher risk of adverse events** [S1].
-
-**Desmopressin** is **indicated when alarm therapy has failed or is not suitable**, or **if rapid onset/
-short-term improvement is a priority of treatment** [S1]. ⚠️ **Relapse rates are high when withdrawn, (60–70
-percent)** [S1]. **Evaluate maturational appropriateness of use for children <7 years of age** [S1].
-
-| Route | Dose [S1] |
-|---|---|
-| **Sublingual** | **>6 years, sublingual, initially 120 micrograms at bedtime; if needed, after 1–2 weeks increase to a maximum of 240 micrograms at bedtime** |
-| **Oral** | **>6 years, oral, initially 200 micrograms at bedtime; if needed, increase to 400 micrograms at bedtime** |
-| ⚠️ **Intranasal** | **not recommended due to higher risk of hyponatraemia** |
-
-**Practice points** [S1]:
-
-- ⚠️ **Restrict fluid from 1 hour before the dose until at least 8 hours after the dose. Desmopressin is contraindicated for children who can't control fluid restriction**
-- **Assess response after 4 weeks to determine continuation of treatment (if no response consider cessation)**
-- **Withdraw for at least 1 week every 3 months to assess for relapse and ongoing need for medication**
-
-⚠️ Note the tension the guideline sets up and does not resolve: general advice is to **advise against fluid
-restriction**, while desmopressin **requires** a nine-hour restriction window around the dose and is
-**contraindicated** without it.
+- ⚠️ **Tricyclics are no longer recommended:** they work less well than other treatments and carry more risk of adverse events. [S1]
+- **Desmopressin is for** children in whom an alarm has failed or is unsuitable, or when quick, short-term improvement is the goal. [S1]
+- ⚠️ **Most children relapse when desmopressin stops** (60-70 percent). [S1]
+- ⚠️ **Desmopressin doses, over 6 years, at bedtime:** sublingual melt — start 120 micrograms, and if needed raise after 1-2 weeks to at most 240 micrograms; oral tablet — start 200 micrograms, and if needed raise to 400 micrograms. [S1]
+- ⚠️ **Do not use the intranasal route:** it carries a higher risk of hyponatraemia. [S1]
+- ⚠️ **Limit fluids from 1 hour before each dose to at least 8 hours after it.** A child who cannot keep to the fluid limit must not have desmopressin. [S1]
+- **Review at 4 weeks and stop if there is no response. Every 3 months, stop for at least 1 week** to see whether wetting returns and the medicine is still needed. [S1]
 
 ## What does not work
 
-> **Neither lifting (carrying a child to the toilet with an effort not to wake them) nor waking and walking
-> the child to the toilet will promote long-term dryness** [S1].
-
-**Waking a child by parents or carers, either regularly or randomly, is only a short-term method of managing
-bedwetting. A young person who self-instigates waking (using a mobile phone alarm or an alarm clock) may be a
-useful strategy** [S1].
+- **Lifting a sleeping child to the toilet, or waking and walking them there, does not lead to lasting dryness.** [S1]
+- **Parent-led waking, scheduled or random, only helps in the short term.** A young person who wakes themselves (a phone alarm or alarm clock) may find it a useful strategy. [S1]
 
 ## Referral
 
-**Refer to a general paediatrician or continence service** when **red flags are present**; **persistent
-enuresis with failure of an enuresis alarm**; **day-time enuresis or combined day/night enuresis after
-exclusion or treatment of a UTI and constipation**; **history of recurrent urinary tract infections**;
-**comorbidities such as type 1 diabetes, physical or neurological problems**; or ⚠️ **substantial
-psychological or behavioural problems (consider mental health referral, paediatrician and/or child protection
-services if significant concern exists)** [S1].
+- ⚠️ **Consider a general paediatrician or continence service for:** wetting that persists after a failed alarm; daytime or combined day and night wetting once UTI and constipation are excluded or treated; recurrent UTIs; comorbidities such as type 1 diabetes or physical or neurological problems; major psychological or behavioural problems (with mental health, paediatric or child protection referral if the concern is significant). [S1]
 
-## Where this connects in the compendium
-
-| Guideline here | Connection |
-|---|---|
-| ⚠️ **Constipation** | **constipation, if present, should be adequately managed before addressing enuresis** — a hard prerequisite, and that guideline lists urinary incontinence in its own history |
-| **UTI — acute cystitis in women** | **recurrent UTI** is both a history item and a referral trigger; day/night enuresis is only referred **after exclusion or treatment of a UTI** |
-| **Type 2 diabetes** | **diabetes mellitus** as a comorbid cause; **type 1 diabetes** as a referral trigger; **polyuria and polydipsia** in the history |
-| **Insomnia** | **snoring and disturbed sleep**, and **sleep apnoea**, are assessed as contributors |
-| **ADHD** | **developmental or behavioural problems** as comorbid factors, mirroring the constipation guideline's ASD/ADHD association |
-| **Psychotropic medicines in cognitive disability or impairment** | **mild to moderate intellectual impairment does not preclude treatment** — an explicit statement against therapeutic exclusion |
+---
 
 ## Unresolved
 
-| Point | Kind | Detail |
+| # | Item | Class |
 |---|---|---|
-| ⚠️ **Currency** | **time_sensitive** | **last updated July 2019** — **seven years old at retrieval** and now the oldest source in this compendium, older than the March 2020 constipation guideline. It carries desmopressin doses |
-| ⚠️ **Fluid advice conflicts with the drug** | **observation** | general advice is to **advise against fluid restriction**; desmopressin requires restriction **from 1 hour before the dose until at least 8 hours after** and is **contraindicated** without it. The guideline states both and reconciles neither |
-| **Red flags are formatted, not listed** | **input_unavailable** | the page says **red flag features in Red** — a **colour-coded convention that does not survive text extraction**, so the red flag set could not be isolated. A reader must view the page |
-| **Desmopressin duration** | **input_unavailable** | withdrawal trials every 3 months are specified, but **no total treatment duration or stopping rule** |
-| **Secondary enuresis** | **input_unavailable** | **consider possible medical, emotional, or physical triggers** — **the triggers are not enumerated** |
-| **Daytime and combined enuresis** | **out_of_scope** | **requires a different approach** which **is not given**; the guideline covers monosymptomatic enuresis |
-| **Alarm cost and hire terms** | **observation** | treatment depends on **hiring a device** from pharmacies, continence services or private practitioners — **an access and cost barrier with no subsidy stated** |
-| **Adults** | **out_of_scope** | paediatric guideline; AMH's *Bedwetting* topic is not age-restricted |
+| 1 | **Currency:** the page dates from July 2019, making it one of the oldest sources in this set, and it gives desmopressin doses. | `time_sensitive` |
+| 2 | **Fluid advice conflict:** no fluid restriction in general, but restriction around every desmopressin dose (and desmopressin is contraindicated without it). The page states both without reconciling them. | `observation` |
+| 3 | **Red flags:** the page marks them in red type, which text extraction strips, so they could not be listed. View the live page for them. | `input_unavailable` |
+| 4 | **Desmopressin duration:** 3-monthly withdrawal trials are set out, but not a total length of treatment or a stopping rule. | `input_unavailable` |
+| 5 | **Secondary enuresis triggers** (medical, emotional, physical) are mentioned but not listed. | `input_unavailable` |
+| 6 | **Daytime or combined wetting** needs a different approach that this page does not give; see `daytime-wetting-children`. | `out_of_scope` |
+| 7 | **Alarm access:** treatment relies on hiring a device; no cost or subsidy is stated. | `observation` |
+| 8 | **Desmopressin under 7:** the page also asks prescribers to weigh whether use suits the maturity of a child younger than 7; edition 1.0 did not carry this and it is not a claim here. | `observation` |
+| 9 | **Adults** are outside this paediatric source. | `out_of_scope` |
+| 10 | **Licence:** RCH terms (clause 5.2) permit personal use only, so every claim is a paraphrase backed by hash anchors; the page's words are not reproduced. | `observation` |
 
 ## Sources
 
-| id | citation | type |
-|---|---|---|
-| S1 | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Enuresis — Bed wetting and Monosymptomatic Enuresis.* Last updated July 2019. https://www.rch.org.au/clinicalguide/guideline_index/Enuresis_-_Bed_wetting_and_Monosymptomatic_Enuresis/ (retrieved 2026-09-22) | clinical practice guideline (AU) |
+| id | Source | Licence | Treatment |
+|---|---|---|---|
+| **S1** | The Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Enuresis — Bed wetting and Monosymptomatic Enuresis*. last updated July 2019. https://www.rch.org.au/clinicalguide/guideline_index/Enuresis_-_Bed_wetting_and_Monosymptomatic_Enuresis/ — retrieved 2026-09-24. | © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored | **paraphrased, hash-anchored** |
+
+⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

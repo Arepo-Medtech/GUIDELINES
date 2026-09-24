@@ -1,199 +1,582 @@
 {
  "guideline": "guidelines/vomiting.md",
- "edition": "1.0",
- "verified_utc": "2026-09-22",
- "verifier": "claude-opus-5",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/"
  ],
- "retrieved_utc": "2026-09-22",
- "method": "Page fetched directly with curl and converted from HTML to text. Every claim is verbatim-checked against that file with scripts/verify.py. Prose paraphrases; source_text stays verbatim. The ondansetron weight-band table is a table rendered as text, quoted as one contiguous block; column alignment is a transcription risk and should be confirmed against the page before prescribing. Route, frequency and maximum for ondansetron are not stated on the page and are not reconstructed.",
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guideline: Vomiting' (last updated September 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at RCH Terms and Conditions, clause 5.2 (rch.org.au)). The source's words are NOT reproduced here. Edition 2.0 rebuilds the Wave 1 hand-written edition (verbatim quotes) as paraphrase against the page fetched 2026-09-24. Every clinical claim of edition 1.0 is carried over; the two bibliographic claims (last-updated date, AMH Children's Dosing Companion in the reference list) now sit in the source date and a banner.",
+ "summary": {
+  "total": 28,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 28
+ },
  "claims": [
   {
-   "claim": "Bilious vomiting is obstruction until proven otherwise and needs urgent surgical referral",
+   "claim": "⚠️ **Green (bilious) vomit means gut obstruction until shown otherwise** → refer to surgeons urgently.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bilious (green) vomiting is due to a gastrointestinal obstruction until proven otherwise, and requires urgent surgical referral"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4f3a712db17ebd5",
+     "n": 127,
+     "p": "Bilious "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Without diarrhoea consider causes other than gastroenteritis",
+   "claim": "**No diarrhoea? Look beyond gastroenteritis** for another cause of the vomiting.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "In a vomiting child without diarrhoea, always consider causes other than gastroenteritis"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5c504e4a2bc4c98",
+     "n": 88,
+     "p": "In a vom"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Always consider intracranial causes including inflicted injury",
+   "claim": "⚠️ **Always think intracranial:** raised intracranial pressure (ICP) and inflicted injury are both on the list.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Intracranial causes, including raised intracranial pressure (ICP) and inflicted injury, should always be considered"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3139af10c41e75a8",
+     "n": 115,
+     "p": "Intracra"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Cessation of vomiting does not exclude a serious cause",
+   "claim": "⚠️ **Ondansetron may be used to relieve symptoms, but a child who stops vomiting may still have a serious cause.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Ondansetron can be used for symptomatic relief; however, cessation of vomiting does not exclude a serious cause"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bee5112fad11e677",
+     "n": 111,
+     "p": "Ondanset"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Vomiting is a symptom not a diagnosis and infection is the commonest cause",
+   "claim": "**Vomiting is a symptom — common and non-specific — rather than a diagnosis.** Acute vomiting is most often caused by infection.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Vomiting is a common and non-specific symptom, not a diagnosis … Infection is the most common cause of acute vomiting"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "079ccbec00740760",
+     "n": 62,
+     "p": "Vomiting"
+    },
+    {
+     "h": "52fb2423b1366582",
+     "n": 52,
+     "p": "Infectio"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Bile is dark green not yellow and a visual aid helps families",
+   "claim": "⚠️ **Bile looks dark green, not yellow.** Showing families a colour chart or picture helps them describe the vomit accurately.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bile is dark green rather than yellow. Using a visual aid to clarify vomitus colour with families is helpful"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4480c6b2c91383d7",
+     "n": 108,
+     "p": "Bile is "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Early morning vomiting with headache may be raised ICP",
+   "claim": "**Headache with vomiting early in the morning can signal raised ICP.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Early morning vomiting and headache may be due to raised ICP"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4215b5952c329fb6",
+     "n": 60,
+     "p": "Early mo"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Differential by nature of vomitus",
+   "claim": "**What the vomit looks like:** dark green (bilious) → GIT obstruction · blood → swallowed blood (e.g. a nosebleed, or in a newborn maternal blood from delivery or nipple trauma) · projectile → pyloric stenosis · early in the morning → raised ICP.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bilious (dark green) … GIT obstruction … Swallowed blood eg epistaxis, or in neonate from maternal blood due to delivery or nipple trauma … Projectile … Pyloric stenosis … Early morning vomiting … Raised ICP"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d99e0fa29f3bdc6",
+     "n": 20,
+     "p": "Bilious "
+    },
+    {
+     "h": "de0fd2643adabf32",
+     "n": 15,
+     "p": "GIT obst"
+    },
+    {
+     "h": "b6d7539dcc9c450d",
+     "n": 96,
+     "p": "Swallowe"
+    },
+    {
+     "h": "98611a0b93d2d02e",
+     "n": 10,
+     "p": "Projecti"
+    },
+    {
+     "h": "0ae67c46c941b145",
+     "n": 16,
+     "p": "Pyloric "
+    },
+    {
+     "h": "1d0dcb637b5b354c",
+     "n": 22,
+     "p": "Early mo"
+    },
+    {
+     "h": "967c00d68e7c7999",
+     "n": 10,
+     "p": "Raised I"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Respiratory and abdominal associations",
+   "claim": "**Respiratory and abdominal clues:** wheeze, stridor, rash, cough or chest pain (think anaphylaxis, viral illness, pneumonia); a distended, tender abdomen with 'tinkling' or absent bowel sounds (think obstruction); a tender abdomen with fever (think appendicitis or UTI).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Wheeze, stridor, rash, cough, chest pain … Abdominal distension and tenderness, \"tinkling\"/absence of bowel sounds … Abdominal tenderness and fever"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b649a6bbb7d7557",
+     "n": 40,
+     "p": "Wheeze, "
+    },
+    {
+     "h": "6798a60ad858a5f5",
+     "n": 71,
+     "p": "Abdomina"
+    },
+    {
+     "h": "7c2cb8d90a4a37cf",
+     "n": 30,
+     "p": "Abdomina"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Torsion presentations",
+   "claim": "⚠️ **Pain in the lower abdomen, pelvis or testis → consider torsion** of the testis or ovary.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lower abdominal/pelvic pain or testicular pain … Testicular torsion"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d95cb7b253f4d1e1",
+     "n": 46,
+     "p": "Lower ab"
+    },
+    {
+     "h": "3c7e26d11b9055bf",
+     "n": 18,
+     "p": "Testicul"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Gastrointestinal associations",
+   "claim": "**Gut clues:** vomiting tied to particular foods suggests non-IgE-mediated food allergy; rectal bleeding widens the list to include intussusception.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Associated with certain food ingestion … Non-IgE mediated food allergy … Rectal bleeding … Intussusception"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e221a4f92ad34c69",
+     "n": 38,
+     "p": "Associat"
+    },
+    {
+     "h": "9c1f39e6a1224e74",
+     "n": 29,
+     "p": "Non-IgE "
+    },
+    {
+     "h": "e3dd40ed18a9f787",
+     "n": 15,
+     "p": "Rectal b"
+    },
+    {
+     "h": "902986b9864e6de9",
+     "n": 15,
+     "p": "Intussus"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Infective and neurological associations",
+   "claim": "⚠️ **Infective and neurological clues:** fever or a systemically unwell child raises meningitis among the causes; a head injury or concern about non-accidental injury raises intracranial bleeding.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Fever or systemic illness … Meningitis … History of head injury/concern for NAI … Intracranial bleed"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "84c324bd8f4c6704",
+     "n": 25,
+     "p": "Fever or"
+    },
+    {
+     "h": "cc9c2d3678aee85f",
+     "n": 10,
+     "p": "Meningit"
+    },
+    {
+     "h": "b0ba88f0e5519e16",
+     "n": 38,
+     "p": "History "
+    },
+    {
+     "h": "950a3186231a598f",
+     "n": 18,
+     "p": "Intracra"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Metabolic and toxic associations",
+   "claim": "**Metabolic and toxic clues:** abdominal pain with polyuria and polydipsia (DKA); a toxidrome, possible toxin ingestion or drug use (including cannabis hyperemesis); in a neonate or infant, think of inborn errors of metabolism.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abdominal pain, polyuria, polydipsia … Toxidromes, possible toxin ingestion, drug use … Cannabis hyperemesis … Consider inborn errors of metabolism"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "69fb692c15188dd5",
+     "n": 36,
+     "p": "Abdomina"
+    },
+    {
+     "h": "88e6281b5f7127b0",
+     "n": 46,
+     "p": "Toxidrom"
+    },
+    {
+     "h": "447150a2da5e4a73",
+     "n": 20,
+     "p": "Cannabis"
+    },
+    {
+     "h": "e3544e91290ad0db",
+     "n": 36,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Other associations including pregnancy and eating disorders",
+   "claim": "**Other patterns:** a recognisable recurring pattern (cyclical vomiting syndrome); urinary frequency, bodily changes or sexual activity (pregnancy); self-induced vomiting, purging or disordered eating (eating disorders).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Specific pattern of vomiting … Cyclical vomiting syndrome … Urinary frequency, body changes, sexually active … Induced vomiting/purging, signs of disordered eating"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d541eaa1a40193c6",
+     "n": 28,
+     "p": "Specific"
+    },
+    {
+     "h": "f00757d0ea782363",
+     "n": 26,
+     "p": "Cyclical"
+    },
+    {
+     "h": "a0901115cbe6e545",
+     "n": 48,
+     "p": "Urinary "
+    },
+    {
+     "h": "409138e658ea509f",
+     "n": 52,
+     "p": "Induced "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Abdominal examination findings",
+   "claim": "**Abdomen:** distension may point to an acute abdomen or bowel obstruction — ask the parent whether the belly looks different; high-pitched 'tinkling' or absent bowel sounds suggest obstruction. ⚠️ **Check the testes for torsion, above all in adolescent boys.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Abdominal distension could suggest acute abdomen or bowel obstruction (ask parent if abdomen changed in appearance) … 'Tinkling' high-pitched or absent of bowel sounds may suggest gastrointestinal obstruction … Examine testes for torsion, particularly in adolescent boys"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "693f853a789336a5",
+     "n": 115,
+     "p": "Abdomina"
+    },
+    {
+     "h": "86b40f0811a18447",
+     "n": 90,
+     "p": "'Tinklin"
+    },
+    {
+     "h": "dcbac71a3db490e0",
+     "n": 59,
+     "p": "Examine "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Neurological examination findings",
+   "claim": "⚠️ **Neurology:** an altered conscious state or abnormal neurological signs (such as Cushing's triad) may mean intracranial pathology; in infants a bulging fontanelle can indicate raised ICP.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Altered conscious state and/or abnormal neurology (eg Cushing's triad) may suggest intracranial pathology … Bulging fontanelle may be a sign of raised ICP"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c06cbc45b6d3fc6e",
+     "n": 105,
+     "p": "Altered "
+    },
+    {
+     "h": "02b72b8b51c7be85",
+     "n": 46,
+     "p": "Bulging "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Red flags",
+   "claim": "⚠️ **Red flags:** bilious vomit · lethargy or listlessness · an infant who cannot be settled, with or without a bulging fontanelle · fever with neck stiffness and photophobia in an older child · peritonism · ongoing vomiting with poor growth or abnormal development.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Bilious vomiting … Lethargy or listlessness … Inconsolable +/- bulging fontanelle in infant … Neck stiffness, photophobia and fever in older child … Signs of peritonitis … Persistent vomiting with poor growth or abnormal development"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2005ae50b55535a8",
+     "n": 16,
+     "p": "Bilious "
+    },
+    {
+     "h": "aa1e792e1c052ddf",
+     "n": 24,
+     "p": "Lethargy"
+    },
+    {
+     "h": "febf11c073262615",
+     "n": 45,
+     "p": "Inconsol"
+    },
+    {
+     "h": "cfac983bd138d9d7",
+     "n": 52,
+     "p": "Neck sti"
+    },
+    {
+     "h": "665f214a4373bb6d",
+     "n": 20,
+     "p": "Signs of"
+    },
+    {
+     "h": "1aca18dd099e9873",
+     "n": 60,
+     "p": "Persiste"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Most well children with isolated vomiting need no investigations",
+   "claim": "**A well child who is only vomiting usually needs no further tests;** when tests are done, pick them from the likely differentials.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most well children with isolated vomiting do not require any other investigations … Targeted investigation is directed by likely differential diagnoses"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "204cb252626f1eb9",
+     "n": 81,
+     "p": "Most wel"
+    },
+    {
+     "h": "17fd2d523be71cc2",
+     "n": 67,
+     "p": "Targeted"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "BGL and ketone thresholds",
+   "claim": "**Check ketones along with the BGL when the BGL is below 3 mmol/L or above 11 mmol/L.** Vomiting can lead to ketotic hypoglycaemia, especially in younger children.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consider BGL and ketones if BGL <3 mmol/L or >11 mmol/L. Ketotic hypoglycaemia can be a consequence of vomiting, more commonly in younger children"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc4339455b4c7d94",
+     "n": 146,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Shock bolus and hypoglycaemia treatment",
+   "claim": "⚠️ **Shock → sodium chloride 0.9% bolus, 10-20 mL/kg.** BGL under 2.6 mmol/L → manage as hypoglycaemia. Ketones present → think about giving carbohydrate to correct them (apple juice, for example).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Treat shock with a bolus of 10-20 mL/kg sodium chloride 0.9% … If BGL <2.6 mmol/L, treat as per hypoglycaemia … If ketones present, consider carbohydrate source to correct (eg apple juice)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "915fdaf086515f60",
+     "n": 60,
+     "p": "Treat sh"
+    },
+    {
+     "h": "fc8de5a52b865f2f",
+     "n": 46,
+     "p": "If BGL <"
+    },
+    {
+     "h": "a1316d77c18f2587",
+     "n": 76,
+     "p": "If keton"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Surgical consultation triggers",
+   "claim": "**Involve the local surgeons when a surgical cause appears likely** — bowel obstruction, torsion of the testis or ovary, or appendicitis.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Consult local surgical team if there is evidence of a surgical cause of vomiting eg bowel obstruction, testicular or ovarian torsion and appendicitis"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcf723eb55c39853",
+     "n": 149,
+     "p": "Consult "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Ondansetron indication above 6 months",
+   "claim": "**Purpose: helping children older than 6 months keep up their hydration.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "To assist with maintaining hydration in children >6 months of age"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6b3eb0fe44ba37a",
+     "n": 65,
+     "p": "To assis"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Ondansetron weight-band dosing",
+   "claim": "⚠️ **Suggested starting dose by weight:** 2 mg for 8-15 kg; 4 mg for 15-30 kg; 8 mg above 30 kg.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Weight Dose 8-15 kg 2 mg 15-30 kg 4 mg >30 kg 8 mg"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "162a264073700651",
+     "n": 50,
+     "p": "Weight D"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Ondansetron may be given after head injury with monitoring",
+   "claim": "⚠️ **Usable when vomiting follows a head injury,** as long as conscious state and the other signs are watched closely.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Can be given with vomiting due to head injury provided other signs such as conscious state are carefully monitored"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5fc2d3896da82a42",
+     "n": 114,
+     "p": "Can be g"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Senior advice before other antiemetics",
+   "claim": "⚠️ **If ondansetron does not work, get senior advice before any other antiemetic,** because of their side effects.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "If ondansetron is ineffective, consult senior advice before prescribing other anti-emetics due to side effects"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3aa38f3ebbb94e39",
+     "n": 110,
+     "p": "If ondan"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Oral rehydration first line including diluted apple juice",
+   "claim": "**Start with oral fluids:** oral rehydration solution, or apple juice diluted half-and-half with water (1:1).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Encourage oral fluids as a first line option eg oral rehydration solution or diluted apple juice (1:1 apple juice to water)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "23b8318f548c8579",
+     "n": 123,
+     "p": "Encourag"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Paediatric consultation triggers",
+   "claim": "**Consider calling the local paediatric team** for advice on escalating care, for an acutely sick child whom fluid resuscitation is not improving, for severe metabolic derangement, or when the diagnosis is uncertain.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Advice regarding escalation of care … Patient is acutely unwell and not responding to fluid resuscitation … Severe metabolic derangement … Diagnostic uncertainty"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a83fb27a3980b20c",
+     "n": 35,
+     "p": "Advice r"
+    },
+    {
+     "h": "f4a97dd3869fc339",
+     "n": 67,
+     "p": "Patient "
+    },
+    {
+     "h": "6692d7ddb645366b",
+     "n": 28,
+     "p": "Severe m"
+    },
+    {
+     "h": "6ba1660212424917",
+     "n": 22,
+     "p": "Diagnost"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   },
   {
-   "claim": "Discharge criteria",
+   "claim": "**Send home when** the child is alert, keeping down small amounts orally and has normal vital signs, **and either** the cause has been found and dealt with, **or** ⚠️ high-risk diagnoses have been thought through and a follow-up plan is in place with clear advice on when to come back sooner.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Alert and able to tolerate small amounts of oral intake … Normal vital signs … The cause of vomiting has been identified and adequately managed … High risk diagnoses have been considered and there is an adequate follow up plan in place with clear instructions on when to seek earlier review"
-  },
-  {
-   "claim": "Last updated September 2025",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Last updated September 2025"
-  },
-  {
-   "claim": "The guideline cites the AMH Children's Dosing Companion",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Australian Medicines Handbook Children's Dosing Companion"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "91b6f99f93481d7c",
+     "n": 55,
+     "p": "Alert an"
+    },
+    {
+     "h": "50c2cb7d9b2d0174",
+     "n": 18,
+     "p": "Normal v"
+    },
+    {
+     "h": "5976813ae47c2d53",
+     "n": 64,
+     "p": "The caus"
+    },
+    {
+     "h": "4b79fdd71cc7431e",
+     "n": 144,
+     "p": "High ris"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Vomiting', last updated September 2025, https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/, retrieved 2026-09-24"
   }
- ],
- "summary": {
-  "total": 30,
-  "pass": 30,
-  "fail": 0
- }
+ ]
 }

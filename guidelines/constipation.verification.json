@@ -1,307 +1,913 @@
 {
  "guideline": "guidelines/constipation.md",
- "edition": "1.0",
- "verified_utc": "2026-09-22",
- "verifier": "claude-opus-5",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
+ "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www.rch.org.au/clinicalguide/guideline_index/Constipation/"
  ],
- "retrieved_utc": "2026-09-22",
- "method": "Page fetched directly with curl and converted from HTML to text. Every claim is verbatim-checked against that file with scripts/verify.py. Prose paraphrases; source_text stays verbatim. THREE DOSE TABLES (maintenance appendix, macrogol sachet disimpaction schedule, OsmoLax scoop schedule) are tables rendered as text: the values are verbatim and the schedules are quoted as contiguous blocks, but COLUMN ALIGNMENT IS A TRANSCRIPTION RISK and a person must confirm the grid against the source page before prescribing. The source was last updated March 2020, six years before retrieval.",
+ "retrieved_utc": "2026-09-24",
+ "source_origin": "AU",
+ "method": "PARAPHRASED AND HASH-ANCHORED from The Royal Children's Hospital Melbourne 'Clinical Practice Guideline: Constipation' (last updated March 2020). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © The Royal Children's Hospital Melbourne; Terms clause 5.2, personal use only; paraphrased and hash-anchored (read at RCH Terms and Conditions, clause 5.2 (rch.org.au)). The source's words are NOT reproduced here. Edition 2.0 rebuilds the Wave 1 hand-written edition (verbatim quotes) as paraphrase against the page fetched 2026-09-24. Every clinical claim of edition 1.0 is carried over; the last-updated claim now sits in the source date and a banner. The maintenance appendix and both disimpaction schedules are tables rendered as text: each row's values are anchored, but column alignment is a transcription risk, so confirm the grid on the live page before prescribing.",
+ "summary": {
+  "total": 47,
+  "pass": 0,
+  "fail": 0,
+  "pass_paraphrase_anchored": 47
+ },
  "claims": [
   {
-   "claim": "Constipation affects a third of children and clusters around solids, toilet training and school",
+   "claim": "**About 1/3 of children get constipated,** often when solids are introduced, during toilet training, and on starting school.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Constipation affects 1/3 of children and frequently occurs during the introduction of solid foods, toilet training and school"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8689a57209fcb81",
+     "n": 125,
+     "p": "Constipa"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Symptoms are under reported",
+   "claim": "**Constipation symptoms tend to go unreported.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Symptoms of constipation are under reported"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2a90939cdeb52db5",
+     "n": 43,
+     "p": "Symptoms"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Increasing dietary fibre is not adequate treatment",
+   "claim": "**Most children open their bowels at least every 2-3 days;** a breastfed baby may go as seldom as once a week.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Increasing dietary fibre is not an adequate treatment for constipation"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f24252acd546514f",
+     "n": 119,
+     "p": "Most chi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "No need to increase fluid beyond maintenance",
+   "claim": "**Infant dyschezia is not constipation:** healthy babies under 6 months may strain and cry before passing a soft stool. Unless the stool is also hard, it settles on its own.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "There is no need to increase fluid intake beyond daily maintenance fluid requirements"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6d647e13e8ab3622",
+     "n": 166,
+     "p": "Healthy "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Suppositories and enemas should be avoided",
+   "claim": "**The withholding cycle:** a young child who ignores the urge builds up large, hard stools; if passing them hurts, fear follows, then more holding on and more hard stool.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Rectal treatment with suppositories or enemas should be avoided"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "982077310a8b67e2",
+     "n": 212,
+     "p": "Young ch"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Long term laxatives are safe and do not cause a lazy bowel",
+   "claim": "**Children with autism spectrum disorder or ADHD are at higher risk** of functional constipation.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Osmotic and lubricant laxatives are usually required on a long term basis (months to years). Reassure parents that this is safe and doesn't produce a 'lazy bowel'"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd28597bc3304168",
+     "n": 134,
+     "p": "children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Stopping laxatives too early causes recurrence",
+   "claim": "**Diagnose on clinical grounds.** An internal (rectal) examination and an X-ray are unnecessary.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "A common cause of recurrence is stopping laxatives too early … Treatment is usually required for several months and if stopped early, may lead to recurrence"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "48d7d8956dcb159c",
+     "n": 81,
+     "p": "The diag"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Titrate to one soft easy bowel action per day",
+   "claim": "⚠️ **Talk to a senior clinician before doing any internal examination.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Medications are often required and should be titrated to achieve one, soft, easy to pass bowel action per day"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9e212bdf0c75ce9",
+     "n": 88,
+     "p": "Internal"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Diagnosis is clinical; no internal examination or X-ray required",
+   "claim": "**Routine investigations are not needed.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "The diagnosis is made clinically. Internal examination and X-ray are not required"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d90304024c3bf415",
+     "n": 41,
+     "p": "Investig"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Internal examination needs senior consultation first",
+   "claim": "**Rome IV functional constipation — 2 or more of these, for at least 1 month (infants) or 2 months (older children):** 2 or fewer stools a week; retentive posturing or excessive deliberate holding (withholding, incomplete emptying); painful or hard stools; stools of large diameter; a large faecal mass in the rectum.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Internal examination should not be performed without first consulting a senior clinician"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c1f4c5a810dfad2",
+     "n": 86,
+     "p": "Must inc"
+    },
+    {
+     "h": "8f042cea2ce6c53d",
+     "n": 13,
+     "p": "2 stools"
+    },
+    {
+     "h": "4afda61701c64f33",
+     "n": 112,
+     "p": "History "
+    },
+    {
+     "h": "c4fb0bf37de4cabf",
+     "n": 42,
+     "p": "History "
+    },
+    {
+     "h": "3884c75726c92dad",
+     "n": 32,
+     "p": "History "
+    },
+    {
+     "h": "52b21fee1a6ba96d",
+     "n": 45,
+     "p": "Presence"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Investigations not routinely required",
+   "claim": "**Extra criterion once toilet-trained:** soiling or incontinence at least 1 time a week after toileting skills have been learned.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Investigations are not routinely required"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bccbfb361ee4f505",
+     "n": 93,
+     "p": "At least"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Rome IV criteria",
+   "claim": "**Examine** the lower back and spine for occult spinal dysraphism or tethered cord, and the lower limbs and gait neurologically.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Must include ≥2 criteria for at least 1 month in infants or 2 months in older children … 2 stools/week … History of retentive posturing or excessive volitional stool retention (ie withholding or incomplete evacuation) … History of painful or hard bowel movements … History of large-diameter stools … Presence of a large faecal mass in the rectum"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "069ea043c44b59b1",
+     "n": 66,
+     "p": "Lower ba"
+    },
+    {
+     "h": "f1f006779a1c11cb",
+     "n": 58,
+     "p": "Neurolog"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Additional criterion in toilet-trained children",
+   "claim": "⚠️ **Red flags:** an infant under 6 weeks (discuss with a senior doctor) · ribbon-like stools (anorectal malformation) · meconium not passed in the first 24 hours, as most babies do (think anorectal malformation or Hirschsprung disease) · weight loss or poor growth · persistent vomiting · an abdominal mass that does not fit with a faecal mass.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "At least 1 episode per week of soiling/incontinence after the acquisition of toileting skills"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "981c69d4f4a9a0cd",
+     "n": 77,
+     "p": "Infants "
+    },
+    {
+     "h": "16afe18e004e877b",
+     "n": 144,
+     "p": "Delayed "
+    },
+    {
+     "h": "1e1564de0bfce410",
+     "n": 52,
+     "p": "Ribbon l"
+    },
+    {
+     "h": "7f38279e92d9236a",
+     "n": 23,
+     "p": "Weight l"
+    },
+    {
+     "h": "c12389436f259c44",
+     "n": 19,
+     "p": "Persiste"
+    },
+    {
+     "h": "6cf0398128150aec",
+     "n": 54,
+     "p": "Abdomina"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Infant dyschezia is not constipation",
+   "claim": "**Organic causes to keep in mind.** Medical: coeliac disease, hypothyroidism, hypercalcaemia, slow-transit constipation. Surgical: Hirschsprung disease, meconium ileus, anal malformations, spinal cord abnormalities.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Healthy infants (<6 months) can strain and cry before passing soft stools (dyschezia). Unless the stools are also hard, this is not constipation and will self-resolve"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b416bef450645e4",
+     "n": 15,
+     "p": "Coeliac "
+    },
+    {
+     "h": "4f0d2fde68df923b",
+     "n": 14,
+     "p": "Hypothyr"
+    },
+    {
+     "h": "90d9743578c4df97",
+     "n": 14,
+     "p": "Hypercal"
+    },
+    {
+     "h": "05c7c40b33459c25",
+     "n": 25,
+     "p": "Slow-tra"
+    },
+    {
+     "h": "3a004432b10552eb",
+     "n": 20,
+     "p": "Hirschsp"
+    },
+    {
+     "h": "966ee1d37a91f468",
+     "n": 14,
+     "p": "Meconium"
+    },
+    {
+     "h": "4f5eaba4699cf512",
+     "n": 30,
+     "p": "Anatomic"
+    },
+    {
+     "h": "30a8fdb109839591",
+     "n": 25,
+     "p": "Spinal c"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Normal stool frequency including breastfed infants",
+   "claim": "**Sitting position:** a footstool so the knees sit above the hips; lean forward with elbows resting on knees.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Most children defaecate at least every 2-3 days however breastfed babies may defaecate as infrequently as once per week"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "829e26d1c93d1e6c",
+     "n": 95,
+     "p": "Position"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "The withholding cycle",
+   "claim": "**Toilet sits:** three times a day, ideally after meals, each up to 5 minutes. Get the child to push the tummy out, praise them for sitting, and keep toileting a positive experience.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Young children may ignore the urge to defaecate, causing a build-up of large hard bowel actions. When this leads to painful defaecation it may cause apprehension, stool retention and passage of further hard stool"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d167ad7729232567",
+     "n": 72,
+     "p": "Toilet s"
+    },
+    {
+     "h": "6e0417faebc22f1a",
+     "n": 126,
+     "p": "Encourag"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Red flags",
+   "claim": "**Hold off toilet training until the child passes soft stools without pain.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infants presenting <6 weeks of age - should be discussed with a senior doctor … Delayed passage of meconium - most infants pass meconium in the first 24 hours of life (consider Hirschsprung disease or anorectal malformation) … Ribbon like stools - consider anorectal malformation … Abdominal mass (not consistent with large faecal mass)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "563b347e8c054d9f",
+     "n": 75,
+     "p": "Delay to"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Organic causes medical and surgical",
+   "claim": "**Check access to toilets,** for example what stops the child using the toilets at school.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Coeliac disease … Hypothyroidism … Hypercalcaemia … Slow-transit constipation … Hirschsprung disease … Meconium ileus … Anatomic malformations of anus … Spinal cord abnormalities"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d91e3e5e8829de8",
+     "n": 68,
+     "p": "Review t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Examination includes spine and neurology",
+   "claim": "**Too much cow's milk can crowd out dietary fibre** and worsen constipation in some children.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lower back/spine - consider occult spinal dysraphism/tethered cord … Neurology - assessment of lower limbs, observation of gait"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6a11be403e7ba8cd",
+     "n": 115,
+     "p": "Excessiv"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "ASD and ADHD increase risk of functional constipation",
+   "claim": "⚠️ **More fibre alone does not treat constipation.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "children with autism spectrum disorders and attention deficit / hyperactive disorder have an increased risk of functional constipation"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3e05236bb5889189",
+     "n": 70,
+     "p": "Increasi"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Toileting position advice",
+   "claim": "⚠️ **Fluids above normal daily maintenance are not needed.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Position - footstool to ensure knees are higher than hips. Lean forward and put elbows on knees"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7b62dd0c5fc70bc4",
+     "n": 85,
+     "p": "There is"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Toilet sits regimen",
+   "claim": "**Aim for one soft, easily passed stool every day,** adjusting the dose to get there; medicines are often needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Toilet sits - up to 5 minutes, three times a day, preferably after meals … Encourage child to bulge out their abdomen. Praise child for sitting on toilet. Ensure toileting remains a positive experience"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f88167eb6e8e63e",
+     "n": 109,
+     "p": "Medicati"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Delay toilet training until painless soft stools",
+   "claim": "**Osmotic and lubricant laxatives usually go on for months to years.** Tell parents this is safe and will not make the bowel 'lazy'.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Delay toilet training attempts until child is painlessly passing soft stool"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f7d5dbb41180591f",
+     "n": 162,
+     "p": "Osmotic "
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Review barriers to school toilet access",
+   "claim": "⚠️ **Stopping laxatives too soon is a common reason constipation comes back;** treatment usually lasts several months.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Review toilet access eg investigate barriers to using school toilets"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "704e5181865304f9",
+     "n": 60,
+     "p": "A common"
+    },
+    {
+     "h": "6be43d116dc45cf8",
+     "n": 93,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Excessive cow milk may exacerbate constipation",
+   "claim": "⚠️ **Avoid rectal treatment** (suppositories, enemas).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Excessive cow milk intake may result in inadequate dietary fibre; this may exacerbate constipation in some children"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a42ca693d7dc48b",
+     "n": 63,
+     "p": "Rectal t"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "First line agents by age",
+   "claim": "**First-line choice by age:** under 1 month, Coloxyl drops · 1-12 months, an iso-osmotic laxative (macrogol 3350 with electrolytes) or lactulose · older children, an iso-osmotic laxative or a lubricant (paraffin oil).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Infants … 1 month: Coloxyl drops … Infants 1-12 months: Iso-osmotic laxative (Macrogol-3350 + electrolytes or Lactulose … Children: Iso-osmotic laxative or lubricant (paraffin oil)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "be7b3501b402d661",
+     "n": 7,
+     "p": "Infants"
+    },
+    {
+     "h": "e979b4108f2bcbd2",
+     "n": 22,
+     "p": "1 month:"
+    },
+    {
+     "h": "9956b41ba7a55582",
+     "n": 84,
+     "p": "Infants "
+    },
+    {
+     "h": "a15c95a83a94c8d4",
+     "n": 58,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Withholding or fissures may need inpatient disimpaction",
+   "claim": "**Inpatient disimpaction may help** children who withhold stool, have pain on defecation, or have rectal bleeding or fissures.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with stool withholding behaviours, pain while defecating or rectal bleeding or fissures may benefit from inpatient disimpaction management"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "621f89c7b41c53b3",
+     "n": 147,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Petroleum jelly for anal fissure pain",
+   "claim": "**For pain from an anal fissure, apply petroleum jelly.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Anal fissures can be treated with topical Petroleum Jelly to provide pain relief"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b952dffb87a4ecd9",
+     "n": 80,
+     "p": "Anal fis"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Lactulose maintenance dosing row",
+   "claim": "⚠️ **Lactulose (osmotic):** 3-5 mL/day at 1-12 mo; 5-10 mL/day at 1-5 yo; 10-40 mL/day at 5-14 yo. Give larger doses in two (bd).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Lactulose … Osmotic laxative … 1-12 mo 3-5 mL/day … 1-5 yo 5-10 mL/day … 5-14 yo 10-40 mL/day … Split larger doses bd"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9eeb87f9f87672c",
+     "n": 9,
+     "p": "Lactulos"
+    },
+    {
+     "h": "87b8d10c8f386aa5",
+     "n": 16,
+     "p": "Osmotic "
+    },
+    {
+     "h": "d282c45532a35043",
+     "n": 18,
+     "p": "1-12 mo "
+    },
+    {
+     "h": "6a859efca7f69707",
+     "n": 18,
+     "p": "1-5 yo 5"
+    },
+    {
+     "h": "6590378cc1cd9dba",
+     "n": 20,
+     "p": "5-14 yo "
+    },
+    {
+     "h": "b807ff6263b9dcc1",
+     "n": 21,
+     "p": "Split la"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Coloxyl drops dosing row and senna caution",
+   "claim": "⚠️ **Coloxyl drops (poloxamer), three times a day:** 0.3 mL under 6 mo; 0.5 mL at 6-18 mo; 0.8 mL from 18 mo-3 yo. With Coloxyl+Senna, the senna is a stimulant — avoid it unless stools are already soft, and only over 2 yo.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "0.3 mL tds … 6-18 mo 0.5 mL tds … 18 mo-3 yo 0.8 mL tds … Coloxyl+Senna: Senna is the stimulant component and should be avoided unless stools are soft, >2 yo"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bb1807c8ff1af37a",
+     "n": 10,
+     "p": "0.3 mL t"
+    },
+    {
+     "h": "3a744355fadff7de",
+     "n": 18,
+     "p": "6-18 mo "
+    },
+    {
+     "h": "00b130e310b6ea4c",
+     "n": 21,
+     "p": "18 mo-3 "
+    },
+    {
+     "h": "13c2f82bb5024f94",
+     "n": 99,
+     "p": "Coloxyl+"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Macrogol with electrolytes dosing row and PBS status",
+   "claim": "⚠️ **Macrogol 3350 + electrolytes sachets, daily:** ½ at 1-12 mo; 1 at 1-6 yo (up to 2/day); 1-2 at 6-12 yo (up to 2/day); 1-4 over 12 yo. PBS listed, no authority needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "1-12 mo ½ sachet daily … 1-6 yo 1 sachet daily (max 2/day) … 6-12 yo 1-2 sachets daily (max 2/day) … 12 yo 1-4 sachets/day … PBS listed (authority not required)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de30165ca75bec07",
+     "n": 28,
+     "p": "Macrogol"
+    },
+    {
+     "h": "6c0b8b6f0b63c14d",
+     "n": 22,
+     "p": "1-12 mo "
+    },
+    {
+     "h": "31b829964d80fdc7",
+     "n": 33,
+     "p": "1-6 yo 1"
+    },
+    {
+     "h": "3de628c89e970fc0",
+     "n": 37,
+     "p": "6-12 yo "
+    },
+    {
+     "h": "519ff64ba5896251",
+     "n": 21,
+     "p": "12 yo 1-"
+    },
+    {
+     "h": "f9a58bc9264fc215",
+     "n": 35,
+     "p": "PBS list"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Macrogol 3350 scoop dosing row",
+   "claim": "⚠️ **Macrogol 3350 powder (tin with a two-ended scoop, large 17 g, small 8.5 g), daily:** 1 small scoop at 2-6 yo; 1 large scoop at 6-12 yo; 1-2 large scoops over 12 yo.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "2-6 yo 1 small scoop/day … 6-12 yo 1 large scoop/day … 12 yo 1-2 large scoops/day … Tin with double ended scoop - large (17 g) and small (8.5 g)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dd5c5f0b50d89837",
+     "n": 13,
+     "p": "Macrogol"
+    },
+    {
+     "h": "70e5f2ad1e57f25c",
+     "n": 24,
+     "p": "2-6 yo 1"
+    },
+    {
+     "h": "1028eb4033b3561e",
+     "n": 25,
+     "p": "6-12 yo "
+    },
+    {
+     "h": "0cb80d8687bf21aa",
+     "n": 26,
+     "p": "12 yo 1-"
+    },
+    {
+     "h": "5a58086d6d13a664",
+     "n": 60,
+     "p": "Tin with"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Paraffin oil dosing row and cautions",
+   "claim": "⚠️ **Paraffin oil (lubricant), per day:** 10-15 mL at 1-6 yo; 15-20 mL at 6-12 yo; up to 40 mL over 12 yo. Orange oily leakage into underwear means the dose should come down. **Avoid with swallowing difficulty (aspiration risk), especially under 6 mo.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "1-6 yo 10-15 mL/day … 6-12 yo 15-20 mL/day … 12 yo up to 40 mL/day … Can cause orange oil seepage in underwear (reduce dosage) … Avoid in children with swallowing problems due to aspiration risk, particularly those <6 mo"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "527dc5a8457622b3",
+     "n": 19,
+     "p": "1-6 yo 1"
+    },
+    {
+     "h": "1f086a6d3422d013",
+     "n": 20,
+     "p": "6-12 yo "
+    },
+    {
+     "h": "c8b741fdfc0e8f59",
+     "n": 21,
+     "p": "12 yo up"
+    },
+    {
+     "h": "cd35cf7fd4071471",
+     "n": 57,
+     "p": "Can caus"
+    },
+    {
+     "h": "3f5814f74bde49da",
+     "n": 91,
+     "p": "Avoid in"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Stimulant dosing row and cautions",
+   "claim": "⚠️ **Stimulant (sodium picosulfate drops or bisacodyl), at night:** 6 mo-4 yo 0.25 mg/kg (up to 5 mg = 10 drops); 4-10 yo 5-10 drops; over 10 yo 10 drops or 1-2 tablets. Handy when a child cannot manage large liquid volumes. **Not if impacted; may cramp; not for long-term use.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "6 mo-4 yo, 0.25 mg/kg (max 5 mg = 10 drops) nocte … 4-10 yo 5-10 drops nocte … 10 yo 10 drops nocte or 1-2 tablets nocte … Useful for patients who cannot tolerate large volumes of liquid. Avoid if impacted … Can cause abdominal cramps. Do not use long term"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "96fa3e62db8ab965",
+     "n": 49,
+     "p": "6 mo-4 y"
+    },
+    {
+     "h": "a77ce029b21eb7e3",
+     "n": 24,
+     "p": "4-10 yo "
+    },
+    {
+     "h": "6e9589392f26480a",
+     "n": 41,
+     "p": "10 yo 10"
+    },
+    {
+     "h": "77b24446a2b2a914",
+     "n": 82,
+     "p": "Useful f"
+    },
+    {
+     "h": "f926275aecc715aa",
+     "n": 48,
+     "p": "Can caus"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Disimpaction precedes maintenance and oral outpatient is preferred",
+   "claim": "**Severe constipation: clear the impaction first, then start maintenance.** Oral outpatient treatment works and is preferred; move straight to maintenance once disimpaction is done.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children with severe constipation benefit from a disimpaction regimen before maintenance treatment begins … Oral medication as an outpatient is effective and preferred. Switch to maintenance therapy immediately post disimpaction"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d05fd9d942cee01",
+     "n": 105,
+     "p": "Children"
+    },
+    {
+     "h": "df10e5b9d3552f7b",
+     "n": 120,
+     "p": "Oral med"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Suppository or enema only as a one-off with sedation considered",
+   "claim": "⚠️ **A glycerine suppository or Microlax enema is a one-off option only,** and sedation deserves strong consideration.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Only consider the use of glycerine suppository or Microlax™ enema as a one off treatment. Sedation should be strongly considered"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "decb5b6d0a0af79f",
+     "n": 128,
+     "p": "Only con"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Review disimpaction need on day 4",
+   "claim": "**On day 4, review whether disimpaction still needs to continue.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "It is recommended to review ongoing need for disimpaction on day 4 of treatment"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d000ab6f4915e62e",
+     "n": 79,
+     "p": "It is re"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Macrogol sachet disimpaction schedule",
+   "claim": "⚠️ **Outpatient macrogol 3350 + electrolytes (adult sachets) per day, over days 1-7:** ages 1-6 years → 1, 2, 2, 3, 3, 4, 4 · ages 6-12 years → 2, 3, 4, 5, 6, 6, 6 · ages 12+ → 8 on each of days 1-3 only.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Number of Macrogol-3350 + electrolytes sachets (adult formulation) Age Day 1 2 3 4 5 6 7 1-6 yo 1 2 2 3 3 4 4 6-12 yo 2 3 4 5 6 6 6 12+ yo 8 8 8"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9640abc398ecad6a",
+     "n": 144,
+     "p": "Number o"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Movicol Junior equivalence",
+   "claim": "**Sachet equivalence:** one adult-strength macrogol 3350 with electrolytes sachet equals 2 Movicol Junior sachets.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "1 sachet Macrogol-3350 with electrolytes adult formulation = 2 sachets of \"Movicol Junior\" formulation"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc6e3417391e2c02",
+     "n": 102,
+     "p": "1 sachet"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "OsmoLax scoop disimpaction schedule",
+   "claim": "⚠️ **Outpatient OsmoLax small scoops (8.5 g) per day, over days 1-7:** ages 2-6 years → 2, 3, 3, 4, 5, 6, 6 · ages 6-12 years → 3, 4, 6, 8, 9, 9, 9.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Number of OsmoLax ™ small scoops (8.5 g) Age Day 1 2 3 4 5 6 7 2-6 yo 2 3 3 4 5 6 6 6-12 yo 3 4 6 8 9 9 9"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dcb8cef677d80da0",
+     "n": 103,
+     "p": "Number o"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Inpatient NGT washout rate",
+   "claim": "⚠️ **Nasogastric washout:** macrogol/electrolyte solution (Colonlytely, Glycoprep), 1-3 L/day at 25 mL/kg/hr, capped at 400 mL/hr (or lower, depending on the pump).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Macrogol/ electrolyte solutions (Colonlytely™, Glycoprep™) 1-3 L/day, via NGT at a rate of 25 mL/kg/hr (maximum rate 400 mL/hr, or less depending on pump used)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74a543f29e2c4a1b",
+     "n": 159,
+     "p": "Macrogol"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Washout solutions provide no net fluid input",
+   "claim": "⚠️ **Give usual maintenance oral fluids as well:** washout solutions add no net fluid, so dehydration is a risk.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Normal maintenance oral fluids should be given in addition to maintain hydration. These solutions provide no net fluid input and there is a risk of dehydration"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8c126b1d481758c1",
+     "n": 159,
+     "p": "Normal m"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Sodium picosulphate fixed dose regimens",
+   "claim": "⚠️ **Fixed-dose sodium picosulphate:** 4-9 yo, 1 sachet then ½ sachet as the second dose (15 mg/day); over 9 yo, 1 sachet twice daily (20 mg/day).",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Children 4-9 yo: 1 sachet - first dose / ½ sachet - second dose (=15 mg sodium picosulphate/day) … Children >9 yo: 1 sachet BD (= 20 mg sodium picosulphate/day)"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af9d264aae236c5c",
+     "n": 96,
+     "p": "Children"
+    },
+    {
+     "h": "33b716ef01d9b5db",
+     "n": 61,
+     "p": "Children"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24",
+   "dose": true
   },
   {
-   "claim": "Do not use in obstruction or renal impairment; cease on clear fluid PR",
+   "claim": "⚠️ **Not with signs of obstruction or with renal impairment.** Think about stopping once the child passes clear fluid rectally.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Do not use if signs of obstruction or in renal impairment … Consider ceasing if child begins passing clear fluid per rectum"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3412a6b135b93941",
+     "n": 57,
+     "p": "Do not u"
+    },
+    {
+     "h": "2ccb2e2bbb3f81d9",
+     "n": 63,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Oral medication may be flushed without absorption during washout",
+   "claim": "⚠️ **Oral medicines given during a washout, or in the hour before it, may be washed through unabsorbed.**",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Oral medication taken during or within the hour before administration of a bowel washout may be flushed from the gastrointestinal tract without absorption"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ea0a3bc1466df4b",
+     "n": 154,
+     "p": "Oral med"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Follow up within 4 weeks and continence service referral",
+   "claim": "**See the GP or paediatrician again within 4 weeks.** Complex or difficult cases, or faecal or urinary incontinence, may warrant a continence or encopresis service.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Arrange follow up with GP or paediatrician within 4 weeks. … Consider referral to a continence or encopresis service for faecal/urinary incontinence, complex or difficult cases"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4aaeb2c8a998d465",
+     "n": 58,
+     "p": "Arrange "
+    },
+    {
+     "h": "bad7a6ebd871278f",
+     "n": 115,
+     "p": "Consider"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   },
   {
-   "claim": "Paediatric consultation triggers",
+   "claim": "**Consider the local paediatric team when** red flags or suspected organic disease are present; constipation has not resolved after 6 months of optimised outpatient care; or outpatient disimpaction fails and inpatient care is needed.",
    "source": "S1",
-   "verdict": "pass",
-   "source_text": "Red flags present, or concerns of an underlying organic pathology … Non-resolution occurs despite optimising management over 6 months (outpatient) … Outpatient disimpaction fails, requiring inpatient management"
-  },
-  {
-   "claim": "Last updated March 2020",
-   "source": "S1",
-   "verdict": "pass",
-   "source_text": "Last updated March 2020"
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "96d2ad08838695f0",
+     "n": 65,
+     "p": "Red flag"
+    },
+    {
+     "h": "411405863287d92c",
+     "n": 78,
+     "p": "Non-reso"
+    },
+    {
+     "h": "d960146d5736e0ab",
+     "n": 61,
+     "p": "Outpatie"
+    }
+   ],
+   "locator": "The Royal Children's Hospital Melbourne, 'Clinical Practice Guideline: Constipation', last updated March 2020, https://www.rch.org.au/clinicalguide/guideline_index/Constipation/, retrieved 2026-09-24"
   }
- ],
- "summary": {
-  "total": 48,
-  "pass": 48,
-  "fail": 0
- }
+ ]
 }
