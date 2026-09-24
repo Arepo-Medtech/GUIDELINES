@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/peripheral-t-cell-lymphoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12059256/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12059256/",
+  "https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from ESMO and EHA Guidelines Committees (d'Amore F, Bouabdallah R, de Leval L, et al.), HemaSphere 'Peripheral T- and natural killer-cell lymphomas: ESMO-EHA Clinical Practice Guideline for diagnosis, treatment, and follow-up' (published 7 May 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12059256). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from ESMO and EHA Guidelines Committees (d'Amore F, Bouabdallah R, de Leval L, et al.), HemaSphere 'Peripheral T- and natural killer-cell lymphomas: ESMO-EHA Clinical Practice Guideline for diagnosis, treatment, and follow-up' (published 7 May 2025), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12059256). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)' (retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027)), 11 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every ESMO-EHA 2025 claim (S1) unchanged and adds S2, six Australian eviQ protocols (CC BY-NC 4.0, paraphrased), for the regimen doses S1 does not give, PBS status and supportive care. The S2 source file concatenates the protocol pages (https://www.eviq.org.au/p/4038, /p/69, /p/630, /p/1665, /p/3507 and /p/3455), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ asks that adaptations cite the eviQ ID, version and URL, as given in the S2 title and those URLs.",
  "summary": {
-  "total": 22,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -179,6 +180,87 @@
    "locator": "ESMO and EHA Guidelines Committees (d'Amore F, Bouabdallah R, de Leval L, et al.), HemaSphere, 'Peripheral T- and natural killer-cell lymphomas: ESMO-EHA Clinical Practice Guideline for diagnosis, treatment, and follow-up', published 7 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12059256/, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **CHOP21 as given in Australia (eviQ ID 69):** prednisolone 100 mg by mouth on days 1 to 5, with doxorubicin 50 mg/m², vincristine 1.4 mg/m² (capped at 2 mg) and cyclophosphamide 750 mg/m², all IV on day 1; repeat every 21 days for 6 to 8 cycles. Every drug is on the PBS general schedule, and eviQ suggests considering a 5 to 7 day prednisolone 100 mg prephase before cycle 1.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52220c87acfb3673",
+     "n": 10,
+     "p": "ID: 69 v"
+    },
+    {
+     "h": "4637a23de11a7b3b",
+     "n": 228,
+     "p": "| Predni"
+    },
+    {
+     "h": "876d8b35baa395c9",
+     "n": 58,
+     "p": "All drug"
+    },
+    {
+     "h": "4977bdccc8bd31d4",
+     "n": 161,
+     "p": "It is th"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **CHOEP21 (eviQ ID 630), for mature T-cell or NK-cell lymphoma, nodal or extranodal:** the same prednisolone, doxorubicin and cyclophosphamide doses, a flat vincristine 2 mg, and etoposide 100 mg/m² IV on days 1 to 3; every 21 days for 6 to 8 cycles, all on the PBS general schedule.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94bf4eded3b496e5",
+     "n": 11,
+     "p": "ID: 630 "
+    },
+    {
+     "h": "930a907bad73513a",
+     "n": 382,
+     "p": "| Predni"
+    },
+    {
+     "h": "c5e528c3ea6cb545",
+     "n": 65,
+     "p": "Mature n"
+    },
+    {
+     "h": "876d8b35baa395c9",
+     "n": 58,
+     "p": "All drug"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Anthracycline regimens (eviQ):** count every anthracycline the patient has ever had, do a baseline echocardiogram (or gated heart pool scan) and ECG, and repeat the echocardiogram within 12 months of finishing; tumour lysis risk is high, so give prophylaxis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f793f7786dc4f1a7",
+     "n": 181,
+     "p": "Cumulati"
+    },
+    {
+     "h": "ea60df4987aa818e",
+     "n": 602,
+     "p": "Baseline"
+    },
+    {
+     "h": "99fddeb6934bef34",
+     "n": 90,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Six cycles of brentuximab vedotin with CHP are recommended for chemotherapy-eligible ALCL, ALK-positive or ALK-negative** (I, A); CHO(E)P for six cycles is an alternative (III, B).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -229,6 +311,86 @@
     }
    ],
    "locator": "ESMO and EHA Guidelines Committees (d'Amore F, Bouabdallah R, de Leval L, et al.), HemaSphere, 'Peripheral T- and natural killer-cell lymphomas: ESMO-EHA Clinical Practice Guideline for diagnosis, treatment, and follow-up', published 7 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12059256/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **BV-CHP as given in Australia (eviQ ID 4038):** brentuximab vedotin 1.8 mg/kg (capped at 180 mg), cyclophosphamide 750 mg/m² and doxorubicin 50 mg/m², all IV on day 1, with prednisolone 100 mg by mouth on days 1 to 5; every 21 days for 6 to 8 cycles. Brentuximab is PBS Authority; G-CSF is at the clinician's discretion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "34687334446fd187",
+     "n": 12,
+     "p": "ID: 4038"
+    },
+    {
+     "h": "69a0ddf822e9d85d",
+     "n": 298,
+     "p": "| Predni"
+    },
+    {
+     "h": "1013fbe53d5aeb44",
+     "n": 61,
+     "p": "G-CSF ma"
+    },
+    {
+     "h": "32272fbb6c3627fa",
+     "n": 35,
+     "p": "Brentuxi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**eviQ's BV-CHP protocol is indicated for any previously untreated CD30-positive PTCL,** not only systemic ALCL (compare S1 above, and Unresolved).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41b21cff29c7fbb4",
+     "n": 53,
+     "p": "Previous"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Brentuximab vedotin safety (eviQ):** infusion reactions are a high risk (premedicate after any earlier reaction); assess neuropathy before every dose, since grade 2 or worse may call for a lower dose, a delay or omission; investigate unexplained abdominal pain with amylase and lipase; and watch for new cough or breathlessness, PML and severe skin reactions (SJS, TEN, DRESS).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e8c541f780e0237",
+     "n": 213,
+     "p": "High ris"
+    },
+    {
+     "h": "67eb3fe8972ce506",
+     "n": 220,
+     "p": "Assess p"
+    },
+    {
+     "h": "f6b4d515cfb57801",
+     "n": 158,
+     "p": "Pancreat"
+    },
+    {
+     "h": "b8c3ef8e846d6445",
+     "n": 140,
+     "p": "Brentuxi"
+    },
+    {
+     "h": "9814bc93d0df2937",
+     "n": 87,
+     "p": "Progress"
+    },
+    {
+     "h": "21d82b47c667c37d",
+     "n": 281,
+     "p": "Severe c"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Prognosis is poor** (median PFS 3.1 months and OS 5.5 months in one study), so enter a clinical trial whenever possible. (II, A)",
@@ -332,6 +494,156 @@
     }
    ],
    "locator": "ESMO and EHA Guidelines Committees (d'Amore F, Bouabdallah R, de Leval L, et al.), HemaSphere, 'Peripheral T- and natural killer-cell lymphomas: ESMO-EHA Clinical Practice Guideline for diagnosis, treatment, and follow-up', published 7 May 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12059256/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Brentuximab alone (eviQ ID 1665) for relapsed or refractory CD30-positive systemic ALCL after suitable front-line curative chemotherapy:** 1.8 mg/kg IV (capped at 180 mg) every 21 days for up to 16 cycles; PBS Authority.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1926a247e0a284b6",
+     "n": 12,
+     "p": "ID: 1665"
+    },
+    {
+     "h": "2f6cf1b4161f341c",
+     "n": 156,
+     "p": "| Brentu"
+    },
+    {
+     "h": "ddd3424bfc24d31d",
+     "n": 151,
+     "p": "Relapsed"
+    },
+    {
+     "h": "32272fbb6c3627fa",
+     "n": 35,
+     "p": "Brentuxi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Romidepsin (eviQ ID 3507), for PTCL after at least one earlier therapy:** 14 mg/m² IV on days 1, 8 and 15 of each 28-day cycle, until progression or unacceptable toxicity; PBS Authority.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "43c6df14f713ca87",
+     "n": 12,
+     "p": "ID: 3507"
+    },
+    {
+     "h": "2c0cd2b27fc77585",
+     "n": 137,
+     "p": "| Romide"
+    },
+    {
+     "h": "8df077a9a215575e",
+     "n": 25,
+     "p": "Romideps"
+    },
+    {
+     "h": "031857d244ada345",
+     "n": 86,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Romidepsin can lengthen the QT interval:** correct electrolyte problems before starting, avoid other QT-prolonging drugs, and consider baseline and periodic ECGs and potassium, magnesium and calcium in high-risk patients; check FBC, EUC, eGFR, calcium, magnesium and phosphate before every dose. eviQ recommends Pneumocystis prophylaxis (for example trimethoprim/sulfamethoxazole 160/800 mg twice a day on two days each week, or once a day on three days each week) and antifungal prophylaxis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02fd8fa59edbf3f6",
+     "n": 702,
+     "p": "This tre"
+    },
+    {
+     "h": "c1c2c4199c0b0a43",
+     "n": 90,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "2d0d48a2f3a049fc",
+     "n": 224,
+     "p": "PJP prop"
+    },
+    {
+     "h": "c0dcd00e3010c0e3",
+     "n": 38,
+     "p": "Antifung"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Pralatrexate (eviQ ID 3455), for relapsed or chemotherapy-refractory PTCL:** 30 mg/m² by IV bolus once a week for six weeks, then a one-week break (a 49-day cycle), until progression; leucovorin (calcium folinate) 30 mg by mouth, taken thrice daily on the 2 days after each dose, is added to reduce mucositis. PBS Authority.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd2786a60a1c122e",
+     "n": 12,
+     "p": "ID: 3455"
+    },
+    {
+     "h": "3252ee13608c88cb",
+     "n": 122,
+     "p": "| Pralat"
+    },
+    {
+     "h": "e5bebb887471e16c",
+     "n": 121,
+     "p": "Calcium "
+    },
+    {
+     "h": "8e11906f3aba594c",
+     "n": 72,
+     "p": "49 days "
+    },
+    {
+     "h": "d1a09131f91ad002",
+     "n": 29,
+     "p": "Pralatre"
+    },
+    {
+     "h": "9691a0e64e9f590a",
+     "n": 87,
+     "p": "Peripher"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Pralatrexate needs vitamin B12 and folate cover:** hydroxocobalamin 1000 micrograms IM, first given within 10 weeks before the first dose and then every 8-10 weeks, and folic acid 1 mg by mouth daily from within 10 days before the first dose until 30 days after the last. Check for mucositis weekly and omit or reduce the dose at grade 2 or worse; serious, sometimes fatal skin reactions tend to appear early, usually after the first dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab34f92518ca031f",
+     "n": 407,
+     "p": "Starting"
+    },
+    {
+     "h": "a6a29948013b1a3f",
+     "n": 86,
+     "p": "Monitor "
+    },
+    {
+     "h": "1a8cf43ccd682471",
+     "n": 182,
+     "p": "There ha"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ T-cell lymphoma protocols (not guidelines): 4038 BV-CHP (v.3, last reviewed 5 September 2025), 69 CHOP21 (v.5, 28 April 2023), 630 CHOEP21 (v.6, 30 May 2023), 1665 brentuximab vedotin (v.6, 28 April 2023), 3507 romidepsin (v.3, 5 September 2025) and 3455 pralatrexate (v.3, 28 April 2023)', retrieved 24 September 2026 (review due: 4038 30 June 2030; 69 and 630 as required; 1665 and 3455 30 June 2027; 3507 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Review with history and examination every 3 months for 1 year, then every 6 months for 2 more years** (4 more after autologous transplant) (IV, C). Routine surveillance scans in CR are not recommended (III, D).",

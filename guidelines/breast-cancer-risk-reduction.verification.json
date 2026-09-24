@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/breast-cancer-risk-reduction.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf"
+  "https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf",
+  "https://www.nice.org.uk/guidance/cg164/chapter/Recommendations"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Clinical Oncology Society of Australia (COSA) 'Medications to lower the risk of breast cancer: clinician guide' (Version 7, approved by COSA Council 22 March 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: COSA website terms: personal, non-commercial use only; 'Any other use is strictly prohibited.' (the PDF itself carries no licence statement) (read at https://www.cosa.org.au/common/Uploaded%20files/Policies/003_website-terms-and-conditions-of-use_v004_approved_5august2022.pdf). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Clinical Oncology Society of Australia (COSA) 'Medications to lower the risk of breast cancer: clinician guide' (Version 7, approved by COSA Council 22 March 2024), 23 claims; LICENCE: COSA website terms: personal, non-commercial use only; 'Any other use is strictly prohibited.' (the PDF itself carries no licence statement) (read at https://www.cosa.org.au/common/Uploaded%20files/Policies/003_website-terms-and-conditions-of-use_v004_approved_5august2022.pdf). S2: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE), UK 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations' (published 25 June 2013, last updated 14 November 2023), 7 claims; LICENCE: © NICE. NICE 'Notice of Rights': reuse under the NICE UK Open Content Licence in the UK only; outside the UK, no reproduction without NICE's prior written agreement (read at https://www.nice.org.uk/terms-and-conditions (section 18, Notice of Rights)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every COSA claim (S1) unchanged and adds S2, NICE CG164 (the UK national guideline, last updated 2023), for risk category thresholds and a ranked choice of medicine by menopausal status and risk level. S2 is paraphrased and hash-anchored; NICE's words are not reproduced. NICE's AI-use clause, recorded verbatim per the standing owner decision: 'Copyright content owned by the National Institute for Health and Care Excellence (NICE) may be made available to individuals and commercial/non-commercial organisations on a non-exclusive basis for artificial intelligence (AI) purposes. All requests, without exception, are subject to an approval process, licensing arrangement and a fee (for international use).' The ASCO 2019 risk-reduction guideline (J Clin Oncol) and the ESMO 2023 hereditary breast-ovarian guideline (Annals of Oncology) are not open on Europe PMC. Only the Recommendations chapter was used; the risk-category table under 'Terms used in this guideline' was not used.",
  "summary": {
-  "total": 23,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -282,6 +283,110 @@
     }
    ],
    "locator": "Clinical Oncology Society of Australia (COSA), 'Medications to lower the risk of breast cancer: clinician guide', Version 7, approved by COSA Council 22 March 2024, https://www.cosa.org.au/common/Uploaded%20files/Guidelines/breast-ca-risk-reducing-meds_clinician-guide_22032024.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**NICE risk categories (from its referral criteria):** moderate risk is a lifetime risk of 17% or more but under 30%, or a 10-year risk at age 40 of more than 3 to 8%; high risk is a lifetime risk of 30% or more, a 10-year risk above 8%, or a 10% or greater chance of a family gene mutation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8161ef3f0fee2c81",
+     "n": 259,
+     "p": "a formal"
+    },
+    {
+     "h": "260a0244d8efb8df",
+     "n": 316,
+     "p": "A formal"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Who discusses it and how:** clinicians in secondary care or specialist genetic clinics talk through absolute benefits and risks with women at high or moderate risk, using a decision aid: the fall in invasive breast cancer, no effect on mortality, side effects, and alternatives such as surveillance alone or, at high risk, risk-reducing surgery.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c210014f5d4c71ac",
+     "n": 556,
+     "p": "Healthca"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **High risk, premenopausal: offer tamoxifen for 5 years,** unless there is a past or raised risk of thromboembolic disease or endometrial cancer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ab7463e8178a664",
+     "n": 196,
+     "p": "Offer ta"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **High risk, postmenopausal: NICE puts anastrozole first,** for 5 years, unless osteoporosis is severe. With severe osteoporosis, or if she declines anastrozole: offer tamoxifen for 5 years (if no thromboembolic or endometrial risk), or consider raloxifene for 5 years for a woman with a uterus who has no thromboembolic risk and does not want tamoxifen.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac6e37a6adcecc85",
+     "n": 551,
+     "p": "Offer an"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Moderate risk: the same medicines are 'considered' rather than offered:** tamoxifen for 5 years before menopause; anastrozole for 5 years after menopause unless osteoporosis is severe, with tamoxifen or raloxifene as the alternatives.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9630b9ea662ce7e",
+     "n": 778,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**No chemoprevention after bilateral risk-reducing mastectomy, and none beyond 5 years** in women who have never had breast cancer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7228a7bb307738c7",
+     "n": 146,
+     "p": "Do not o"
+    },
+    {
+     "h": "078abef3df82deb6",
+     "n": 98,
+     "p": "Do not c"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Stopping tamoxifen (NICE):** a minimum of 2 months ahead of attempting pregnancy, and a minimum of 6 weeks ahead of planned surgery.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "09ebefe42bed7801",
+     "n": 122,
+     "p": "Inform w"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), UK, 'Familial breast cancer: classification, care and managing breast cancer and related risks in people with a family history of breast cancer (CG164), Recommendations', published 25 June 2013, last updated 14 November 2023, https://www.nice.org.uk/guidance/cg164/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Do not use tamoxifen** when lifetime risk is below 1.5 times population risk, after bilateral mastectomy, after DVT, PE or thrombotic stroke, after endometrial cancer, in smokers, in pregnancy or breastfeeding or when pregnancy is planned within 3 years, with anticoagulants, HRT or the combined pill, or with strong CYP2D6 inhibitors such as some antidepressants.",

@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/cervical-cancer-locally-advanced.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11466906/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11466906/",
+  "https://www.eviq.org.au/p/4590"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Spanish Society of Medical Oncology (SEOM) and Spanish Ovarian Cancer Research Group (GEICO), Clinical and Translational Oncology (doi 10.1007/s12094-024-03604-3) 'SEOM-GEICO Clinical Guidelines on cervical cancer (2023)' (published 31 August 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at NCBI PMC efetch JATS <license> element for PMC11466906 (Europe PMC returned HTTP 503 on 2026-09-23)). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Spanish Society of Medical Oncology (SEOM) and Spanish Ovarian Cancer Research Group (GEICO), Clinical and Translational Oncology (doi 10.1007/s12094-024-03604-3) 'SEOM-GEICO Clinical Guidelines on cervical cancer (2023)' (published 31 August 2024), 16 claims; LICENCE: CC BY 4.0 (read at NCBI PMC efetch JATS <license> element for PMC11466906 (Europe PMC returned HTTP 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee) '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]' (first approved 24 April 2026; review due 30 June 2027), 9 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every SEOM-GEICO 2023 claim (S1) unchanged and adds S2, the Australian eviQ protocol for weekly cisplatin chemoradiation with pembrolizumab (ID 4590, a treatment protocol, not a guideline), for the pembrolizumab dose and schedule, Australian funding, kidney dosing, monitoring and the updated KEYNOTE-A18 results. S2's text was taken from the protocol page from the ID line to the literature-search section.",
  "summary": {
-  "total": 16,
+  "total": 25,
   "pass": 16,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
   {
@@ -102,6 +104,176 @@
    "verdict": "pass",
    "source_text": "If positive pelvic LN, positive surgical margins, and/or positive parametrium are identified, postoperative pelvic EBRT with concurrent platinum-containing ChT is recommended.",
    "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Ovarian Cancer Research Group (GEICO), Clinical and Translational Oncology (doi 10.1007/s12094-024-03604-3), 'SEOM-GEICO Clinical Guidelines on cervical cancer (2023)', published 31 August 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11466906/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Who qualifies (eviQ):** high-risk locally advanced cancer of squamous, adenocarcinoma or adenosquamous type, with ECOG 0–1. 'High risk' follows KEYNOTE-A18 and FIGO 2014: stage IB2–IIB with nodes involved (at least 2 pelvic or 1 para-aortic), or stage III–IVA regardless of nodes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b0629367d8471299",
+     "n": 247,
+     "p": "Treatmen"
+    },
+    {
+     "h": "f97e30b16836cc89",
+     "n": 214,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Schedule:** cycles 1 and 2 last 21 days, with pembrolizumab 200 mg IV on day 1 and cisplatin 40 mg/m² IV on days 1, 8 and 15 alongside radiotherapy. Cycles 3 to 5 give pembrolizumab 200 mg alone every 3 weeks, then cycles 6 to 20 give pembrolizumab 400 mg every 42 days (15 maintenance cycles). A sixth weekly cisplatin is optional if radiotherapy runs longer than 5 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "98003013939d14e2",
+     "n": 772,
+     "p": "Cycle 1 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Give cisplatin on radiotherapy days, before the fraction; if radiotherapy is postponed, postpone cisplatin too, but keep pembrolizumab on schedule.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5c6af878c2971245",
+     "n": 281,
+     "p": "Cisplati"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **PBS status:** cisplatin is a general schedule item and pembrolizumab needs a PBS authority. Emetic risk is high, so an NK1 antagonist, palonosetron and dexamethasone are given with each cisplatin dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "01e1419ee2ba04cb",
+     "n": 71,
+     "p": "Cisplati"
+    },
+    {
+     "h": "2222582d99b24839",
+     "n": 18,
+     "p": "Emetogen"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Kidney function (ADDIKD):** at eGFR 60 or above, full-dose cisplatin; at 45–59, full dose, a 25% cut or a different protocol; below 45, avoid cisplatin. Prefer a measured GFR when eGFR is under 60. **If cisplatin is dropped, eviQ finds no robust prospective evidence for pembrolizumab with radiotherapy alone,** and the alternative may be radiotherapy only.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "530ff764346a3afa",
+     "n": 1229,
+     "p": "| eGFR ("
+    },
+    {
+     "h": "ab3cc4189ac4123a",
+     "n": 186,
+     "p": "Directly"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Blood tests:** at baseline, FBC, kidney function (EUC, eGFR), LFTs, glucose, calcium, magnesium, phosphate, cortisol and TFTs. The same panel, minus TFTs and cortisol, is repeated before each dose; TFTs (and, if considered, cortisol) every 4–6 weeks on treatment and every 12 weeks as indicated afterwards. Screen every patient for hepatitis before a checkpoint inhibitor.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a72e55f7d65d851",
+     "n": 290,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "1cde6a2e9f4e1378",
+     "n": 99,
+     "p": "Hepatiti"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Correct anaemia during chemoradiation:** a low haemoglobin is linked with worse outcomes, because poorly oxygenated tumour responds less to radiation. Check iron and treat deficiency.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "833e22e544ab5908",
+     "n": 413,
+     "p": "In cervi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cisplatin dose changes:** ANC 0.5 to under 1.0 or platelets 50 to under 75: delay until recovery; ANC under 0.5, platelets under 50 or febrile neutropenia: delay and consider 25% less cisplatin afterwards. Grade 2 neuropathy at the next dose: 25% less, then 50% less if it persists; grade 3 or 4: omit cisplatin. Pembrolizumab is never dose-reduced, and a grade 3 or 4 infusion reaction means stopping it for good.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a3baf66f980bf664",
+     "n": 725,
+     "p": "| Haemat"
+    },
+    {
+     "h": "4d33c7f1448a04a8",
+     "n": 192,
+     "p": "Peripher"
+    },
+    {
+     "h": "2350cfd946f1130b",
+     "n": 80,
+     "p": "Immune c"
+    },
+    {
+     "h": "cdcaee3cf08b7c09",
+     "n": 101,
+     "p": "Grade 3 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Updated KEYNOTE-A18 results (1060 patients, median follow-up 29.9 months):** 36-month progression-free survival 69.3% against 56.9% (HR 0.68) and 36-month overall survival 82.6% against 74.8% (HR 0.67). Grade 3 or worse adverse events: 78% against 70%; possibly immune-mediated events: 39% against 17%. The CALLA trial of durvalumab with chemoradiation improved neither PFS nor OS.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4f520719e415c61",
+     "n": 25,
+     "p": "n=1060, "
+    },
+    {
+     "h": "5745aa7dcc1cde80",
+     "n": 266,
+     "p": "Results "
+    },
+    {
+     "h": "e5e257b7a9f3687c",
+     "n": 262,
+     "p": "Grade ≥3"
+    },
+    {
+     "h": "753f4bfe1e5bc9ec",
+     "n": 137,
+     "p": "The phas"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Gynaecological Reference Committee), '4590 Cervical locally advanced ciSplatin (weekly) chemoradiation and pembrolizumab (eviQ ID 4590 v.1) [protocol]', first approved 24 April 2026; review due 30 June 2027, https://www.eviq.org.au/p/4590, retrieved 2026-09-24"
   },
   {
    "claim": "**Up to 70% of locally advanced cancers recur, mostly within two years.** Confirm recurrence histologically. Central pelvic recurrence without sidewall, extrapelvic nodal or peritoneal disease: pelvic exenteration in a specialised centre.",

@@ -1,11 +1,13 @@
 # Schistosomiasis
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** screening, praziquantel treatment, follow-up for end-organ disease, children and pregnancy for chronic schistosomiasis in people from endemic countries (written for refugee-background patients; the treatment applies to any chronic infection). Acute schistosomiasis (Katayama fever) in returned travellers is not covered: see `fever-in-returned-traveller-children`. Other worms: see `worm-infections` and `strongyloidiasis`; refugee children in the emergency department: `refugee-immigrant-health-acute-children`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 13 claims paraphrased from **Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide — *Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)*** (last updated November 2018; origin: AU). **23 anchors re-checkable by machine; 3 doses.** The source's words are not reproduced: its licence is *Non-commercial reuse only (site terms: use encouraged for research, study, education and care of people from refugee backgrounds; no reproduction for commercial purposes)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 18 claims; **35 fragments or anchors re-checkable by machine; 3 doses.** **S1** Foundation House (Victorian Foundation for Survivors of Torture) (last updated November 2018; AU): 13 claims, paraphrased, hash-anchored · **S2** World Health Organization (Global Neglected Tropical Diseases Programme) (2022; international): 5 claims, paraphrased, hash-anchored
 
-> ⚠️ **Source is more than five years old (November 2018).** It is the most recent Australian clinical guidance found; check doses against current specialist advice.
+> ⚠️ **Source is more than five years old (November 2018).** It is the most recent Australian clinical guidance found; check doses against current specialist advice. **S2 (WHO 2022)** adds the current international position on who should be treated, including pregnancy and children under 2 years.
+
+> ⚠️ International guideline (WHO, 2022) for S2. It is written mainly for endemic-country programmes; Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -21,12 +23,15 @@
 - **The same 40 mg/kg dose is advised whatever the region of origin;** the older 60 mg/kg regimen for Asian-acquired infection rested on weak evidence, and a randomised trial found 40 mg/kg equally effective. [S1]
 - **Praziquantel is PBS-listed for schistosomiasis as a streamlined authority** for doctors and nurse practitioners. The 600 mg tablet splits into quarters, so doses can be rounded to the nearest 150 mg. [S1]
 - **Mild side effects affect 5–30%** (nausea, dizziness, headache, diarrhoea, itch), possibly a reaction to dying worms. Routine brain imaging for neurocysticercosis is not needed, but a person with unexplained seizures needs fundoscopy and brain imaging, and suspected neurocysticercosis needs ID review before praziquantel. [S1]
+- ⚠️ **WHO: every infected person should have access to praziquantel, whatever their age** (strong recommendation, moderate certainty), because people of all ages gain from cure or a lower worm burden. [S2]
+- **WHO on safety:** adverse effects are usually brief and mild (abdominal pain, headache, dizziness, diarrhoea) and more frequent with heavy infection; persistent or severe effects are uncommon. Where *Taenia solium* is co-endemic, mass treatment leaves out anyone with seizures or other signs of neurocysticercosis. [S2]
 
 ## Assess for end-organ disease
 
 - **After positive serology, check stool for ova, and urine dipstick for blood; send end-urine for ova only if there is haematuria.** Ova in stool or urine mean further work-up with ultrasound and LFTs. [S1]
 - **S. mansoni with any feature of liver impairment:** liver ultrasound to exclude pipe-stem fibrosis, and refer to an ID physician. [S1]
 - **S. haematobium (ova in urine):** examine for genital disease and do a renal tract ultrasound; refer to urology for macroscopic haematuria, recurrent UTIs, abnormal imaging or genital disease. [S1]
+- **What untreated infection does (WHO):** overt harm includes blood in the urine, anaemia, egg lesions in the genital tract (female genital schistosomiasis), chronic pain and fatigue; slower harm includes liver damage leading to portal hypertension, kidney and bladder damage that can lead to cancer, and poor growth and cognition in children. [S2]
 
 ## Follow up
 
@@ -36,6 +41,8 @@
 
 - **Assess and treat children like adults, but keep a low threshold for paediatric ID referral** (persisting eosinophilia or ova after one course), and seek specialist advice under 4 years, where safety data are thinner. [S1]
 - **Pregnancy (category B1):** withhold praziquantel for asymptomatic infection in the first trimester, then offer it later in pregnancy after discussion, or give it after delivery. Breastfeeding mothers can be treated. [S1]
+- ⚠️ **WHO includes pregnant women after the first trimester and breastfeeding women in treatment.** It excludes the first trimester as a precaution, because few first-trimester women were studied, not because harm was shown. Ask about pregnancy discreetly and, if she is unsure, use a urine pregnancy test first. [S2]
+- **Children under 2 years: WHO leaves treatment to testing and clinical judgement,** because safety data are limited. A dispersible children's tablet is in development; until then praziquantel can be crushed into soft food for an individual child. From 2 years it is considered safe. [S2]
 
 ---
 
@@ -55,13 +62,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **The management flow chart (Figure 6.1) and endemic-country list (Table 6.1)** are images or tables and were not extracted. | `input_unavailable` |
 | 2 | **Acute schistosomiasis (Katayama syndrome)** in returned travellers, including the timing of praziquantel and use of steroids, is not covered by this source. | `out_of_scope` |
-| 3 | **Age thresholds differ inside the source:** the summary says seek paediatric advice under 5 years, the children section under 4 years. Both are shown as the source states them; the claim uses the children-section figure. | `observation` |
-| 4 | **Licence:** non-commercial reuse only. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 3 | **Young children, sources differ:** S1 asks for specialist advice under 4 years (5 in its summary); S2 (WHO) considers praziquantel safe from 2 years and treats younger infected children on clinical judgement. Both are shown; neither gives a dose for under-2s. | `observation` |
+| 4 | **S2 is programme-level:** most WHO 2022 recommendations (community preventive chemotherapy thresholds, snail control, WASH, verifying elimination) apply to endemic countries and are not stated here. S2 gives no individual praziquantel dose in its text. | `out_of_scope` |
+| 5 | **S2 licence:** CC BY-NC-SA 3.0 IGO (WHO). Its claims are paraphrased and hash-anchored. | `observation` |
+| 6 | **Age thresholds differ inside the source:** the summary says seek paediatric advice under 5 years, the children section under 4 years. Both are shown as the source states them; the claim uses the children-section figure. | `observation` |
+| 7 | **Licence:** non-commercial reuse only. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide. *Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)*. last updated November 2018. https://refugeehealthguide.org.au/schistosomiasis/ — retrieved 2026-09-23. | Non-commercial reuse only (site terms: use encouraged for research, study, education and care of people from refugee backgrounds; no reproduction for commercial purposes) | **paraphrased, hash-anchored** |
+| **S2** | World Health Organization (Global Neglected Tropical Diseases Programme). *WHO guideline on control and elimination of human schistosomiasis*. 2022. https://iris.who.int/handle/10665/351856 — retrieved 2026-09-24. | CC BY-NC-SA 3.0 IGO | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

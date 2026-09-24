@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/metastatic-colorectal-cancer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/",
+  "https://www.eviq.org.au/medical-oncology/colorectal/metastatic"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) with JSMO and Asian oncology societies (Yoshino et al.), ESMO Open 8(3):101558 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with metastatic colorectal cancer' (published 24 May 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10220270). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) with JSMO and Asian oncology societies (Yoshino et al.), ESMO Open 8(3):101558 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with metastatic colorectal cancer' (published 24 May 2023), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10220270). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)' (retrieved 24 September 2026), 10 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, five Australian eviQ treatment protocols (paraphrased and hash-anchored), for the regimen doses, eligibility, monitoring and pivotal-trial results that S1's stripped tables do not carry. The S2 source file concatenates https://www.eviq.org.au/p/1542, /p/5001, /p/4111, /p/4394 and /p/4552, each under a header line naming its URL. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 22,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -231,6 +232,126 @@
    "locator": "European Society for Medical Oncology (ESMO) with JSMO and Asian oncology societies (Yoshino et al.), ESMO Open 8(3):101558, 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with metastatic colorectal cancer', published 24 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **FOLFOX6 (modified) with panitumumab, first line for RAS wild-type disease (eviQ):** every 14 days, panitumumab 6 mg/kg, oxaliplatin 85 mg/m², calcium folinate 50 mg flat bolus and fluorouracil 400 mg/m² bolus then 2,400 mg/m² by pump over 46 hours, until progression or unacceptable toxicity. Consider stopping oxaliplatin after 6 cycles, and do not exceed 12; maintenance can continue if stable or responding.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a70443564fbb590c",
+     "n": 831,
+     "p": "pANITUMu"
+    },
+    {
+     "h": "35adbc74858cb1a4",
+     "n": 43,
+     "p": "respondi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Test RAS in everyone before an EGFR antibody:** mutant or unknown RAS status can be harmed by one. BRAF mutation signals poorer prognosis and likely resistance, a right-sided primary may gain nothing, and panitumumab is not for disease that progressed on cetuximab.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8a23b3cd19cb003",
+     "n": 537,
+     "p": "All pati"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PRIME evidence:** in tumours without RAS mutations, panitumumab with FOLFOX gave median overall survival of 26.0 versus 20.2 months with FOLFOX alone (HR 0.78).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da117cb8fc872c85",
+     "n": 189,
+     "p": "Among pa"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**EGFR antibody and FOLFOX safety:** acneiform rash usually peaks in weeks 2 to 4 (moisturiser, sunscreen, consider early doxycycline and 1% hydrocortisone); check magnesium and calcium before each cycle and for up to 8 weeks after stopping; expect cold-triggered oxaliplatin neuropathy within 48 hours of a dose. DPYD genotyping has been MBS-listed since 1 November 2025.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3ff3c0bfaa52c162",
+     "n": 332,
+     "p": "EGFR tar"
+    },
+    {
+     "h": "aa17a50b856dc91f",
+     "n": 273,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "842d281abdbadf82",
+     "n": 121,
+     "p": "Symptoms"
+    },
+    {
+     "h": "7a7879013b7cd8ad",
+     "n": 196,
+     "p": "As of 1 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **MSI-H or dMMR (validated test), ECOG 0 to 1: ipilimumab plus nivolumab (eviQ).** Nivolumab 240 mg with ipilimumab 1 mg/kg every 21 days for 4 cycles, then nivolumab 480 mg every 28 days until progression or unacceptable toxicity (the trial capped treatment at 2 years).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab07866109fe8330",
+     "n": 195,
+     "p": "Metastat"
+    },
+    {
+     "h": "39a71de4d71d1a55",
+     "n": 346,
+     "p": "Cycle 1 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**The phase 3 trial behind the eviQ protocol:** patients with no, one, or two or more earlier lines were enrolled. At a median 47 months, median PFS was not reached with the combination versus 39.3 months with nivolumab alone (HR 0.62); response 71% v 58%; grade 3–4 treatment-related events 22% v 14%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cbc215454b7470f0",
+     "n": 356,
+     "p": "At a med"
+    },
+    {
+     "h": "8f9279344fc75ce8",
+     "n": 129,
+     "p": "Median P"
+    },
+    {
+     "h": "76169c42d13af373",
+     "n": 160,
+     "p": "Grade 3 "
+    },
+    {
+     "h": "e71ddb0efdd22fa9",
+     "n": 296,
+     "p": "Patients"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Maintenance means stepping down treatment intensity to reduce side effects** in patients not suitable for surgery or local therapy. First-line FOLFIRI can simply continue to progression if tolerated. On progression during maintenance, re-introduce the induction regimen that worked.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -283,6 +404,58 @@
     }
    ],
    "locator": "European Society for Medical Oncology (ESMO) with JSMO and Asian oncology societies (Yoshino et al.), ESMO Open 8(3):101558, 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with metastatic colorectal cancer', published 24 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Encorafenib with cetuximab (eviQ):** BRAF V600E-mutant disease progressing after at least one line, ECOG 0 to 2, never given an EGFR antibody. Encorafenib 300 mg by mouth daily with cetuximab 400 mg/m² loading then 250 mg/m² weekly (500 mg/m² every 14 days is an alternative), continued until progression or unacceptable toxicity. In BEACON, median overall survival was 9.3 v 5.9 months (HR 0.61) and response 19.5% v 1.8%; adding binimetinib did not improve survival.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3240d95753f8f797",
+     "n": 213,
+     "p": "Metastat"
+    },
+    {
+     "h": "5d1dd1a4a42aed7f",
+     "n": 389,
+     "p": "Encorafe"
+    },
+    {
+     "h": "af059d1c8a047b37",
+     "n": 380,
+     "p": "The medi"
+    },
+    {
+     "h": "5a5651ece03b04cf",
+     "n": 181,
+     "p": "ORR resu"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Cetuximab anaphylaxis risk is higher with red-meat allergy, tick bites or alpha-gal IgE;** consider alpha-gal testing in people from tick-endemic areas. On encorafenib, do not start if QTc exceeds 500 ms, and send any visual disturbance promptly to an ophthalmologist (uveitis, serous retinopathy), withholding treatment until reviewed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dbdac880d01a11ad",
+     "n": 304,
+     "p": "For cetu"
+    },
+    {
+     "h": "983418346b1775ad",
+     "n": 66,
+     "p": "Patients"
+    },
+    {
+     "h": "2363a2a052ae62a2",
+     "n": 133,
+     "p": "Any visu"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Trifluridine–tipiracil, with or without bevacizumab,** is recommended after fluoropyrimidines, oxaliplatin, irinotecan and biologics, or earlier after oxaliplatin and irinotecan failure, subject to local approvals. Adding bevacizumab improved overall and progression-free survival and response in a phase III trial.",
@@ -350,6 +523,64 @@
     }
    ],
    "locator": "European Society for Medical Oncology (ESMO) with JSMO and Asian oncology societies (Yoshino et al.), ESMO Open 8(3):101558, 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with metastatic colorectal cancer', published 24 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10220270/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Trifluridine/tipiracil with bevacizumab (eviQ):** ECOG 0 to 1, once fluoropyrimidine, oxaliplatin and irinotecan regimens, a VEGF inhibitor and (for RAS wild-type tumours) an EGFR antibody have been used or are unsuitable. Trifluridine/tipiracil 35 mg/m² twice daily (maximum 80 mg a dose) on days 1–5 and 8–12, with bevacizumab 5 mg/kg on days 1 and 15, every 28 days. Median overall survival was 10.8 v 7.5 months with trifluridine/tipiracil alone (HR 0.61).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a1ae8148d1f2125",
+     "n": 280,
+     "p": "Metastat"
+    },
+    {
+     "h": "6cc46f050467dfe4",
+     "n": 669,
+     "p": "Trifluri"
+    },
+    {
+     "h": "e3ab24d680df461c",
+     "n": 99,
+     "p": "the medi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Fruquintinib (eviQ):** ECOG 0 to 1, once fluoropyrimidine, oxaliplatin and irinotecan regimens, a VEGF inhibitor and, where suitable, an EGFR antibody have been given. 5 mg by mouth once daily, 3 weeks on then 1 week off. Avoid with significant cardiovascular disease, uncontrolled hypertension or thromboembolism in the past 6 months; check blood pressure weekly for the first month then monthly, and LFTs every 2 weeks for 2 months. Median overall survival was 7.4 v 4.8 months with placebo (HR 0.66).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0183d1c0e6daeb8f",
+     "n": 385,
+     "p": "Metastat"
+    },
+    {
+     "h": "2b12ca94a9f9904e",
+     "n": 108,
+     "p": "Fruquint"
+    },
+    {
+     "h": "5df8fce375707ca7",
+     "n": 123,
+     "p": "blood pr"
+    },
+    {
+     "h": "23266e6952690f20",
+     "n": 98,
+     "p": "Monitor "
+    },
+    {
+     "h": "986127dbf66b14e5",
+     "n": 123,
+     "p": "median O"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ metastatic colorectal cancer protocols (protocols, not guidelines): 1542 'FOLFOX6 (modified) and panitumumab' (v.8, review as required), 5001 'ipilimumab and nivolumab' (v.1, first approved 15 June 2026, review due 30 June 2027), 4111 'cetuximab and encorafenib' (v.4, review due 31 December 2027), 4394 'trifluridine/tipiracil and bevacizumab' (v.1, review due 30 June 2026) and 4552 'fruquintinib' (v.2, first approved 1 October 2025, review due 31 December 2026)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/colorectal/metastatic, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**During active treatment, image at least every 12 weeks** (usually CT or MRI) and measure tumour markers. Assess toxicity from systemic treatment and surgery, including in long-term survivors.",

@@ -1,19 +1,22 @@
 {
  "guideline": "guidelines/familial-chylomicronaemia-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/",
+  "https://doi.org/10.31128/AJGP-01-25-7535",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome' (2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC12483350 (NCBI efetch; Europe PMC returned 503)). Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23).",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome' (2025), 16 claims; LICENCE: CC BY 4.0 (read at PMC JATS XML <license> element for PMC12483350 (NCBI efetch; Europe PMC returned 503)). S2: PARAPHRASED AND HASH-ANCHORED from Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535) 'Hypertriglyceridaemia: A practical approach for primary care' (November 2025), 7 claims; LICENCE: © The Royal Australian College of General Practitioners 2025 (free to read; no open licence stated) (read at the article PDF from racgp.org.au (copyright line on every page; Unpaywall lists it as free to read without a licence)). S3: QUOTED from Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352) 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide' (published 16 November 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12686656). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: NCBI efetch JATS XML (Europe PMC fullTextXML returned HTTP 503 on 2026-09-23).",
  "summary": {
-  "total": 16,
-  "pass": 16,
-  "fail": 0
+  "total": 34,
+  "pass": 27,
+  "fail": 0,
+  "pass_paraphrase_anchored": 7
  },
  "claims": [
   {
@@ -36,6 +39,63 @@
    "verdict": "pass",
    "source_text": "A poor response to conventional lipid-lowering therapies is common among these patients because of impaired lipid clearance. However, FCS remains largely underdiagnosed, which may lead to delayed initiation of adequate treatment",
    "locator": "Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism, 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Most chylomicronaemia is not FCS:** polygenic and secondary causes are 40 to 60 times more likely than monogenic ones such as FCS or familial partial lipodystrophy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc24e81ad378e2d1",
+     "n": 237,
+     "p": "Even so,"
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Suspect a monogenic cause when triglycerides are extremely high (for example above 10 mmol/L) with features in childhood or adolescence,** or when a sibling has severe hypertriglyceridaemia. Refer to a specialist, especially when no secondary cause is found.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "244a54040438e1de",
+     "n": 325,
+     "p": "Monogeni"
+    },
+    {
+     "h": "1f417245bf71a9b5",
+     "n": 188,
+     "p": "Speciali"
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Severe hypertriglyceridaemia is 5.6 mmol/L or more,** fasting or not. At that level the priority moves from cardiovascular risk to preventing acute pancreatitis, which can be fatal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "10096b586064db6f",
+     "n": 619,
+     "p": "Severe h"
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Look for and correct secondary causes:** poorly controlled diabetes, insulin resistance, central obesity, diets high in simple carbohydrate or saturated fat, heavy drinking and some medicines.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e73c575fe05254ef",
+     "n": 240,
+     "p": "Common s"
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
   },
   {
    "claim": "**Use a clinical score** to support the diagnosis and to separate FCS from multifactorial chylomicronaemia (MCS). (100% agreement)",
@@ -127,6 +187,143 @@
    "verdict": "pass",
    "source_text": "the diagnostic approach for FCS should not be changed under the following special circumstances: (a) patients hospitalized for acute pancreatitis; (b) pregnant patients; and (c) pediatric patients. … The diagnostic approach for patients aged under 10 years is comparable to that for adults",
    "locator": "Latin American lipid and endocrine societies (Delphi panel), Archives of Endocrinology and Metabolism, 'A multi-society Delphi consensus statement on the diagnosis of familial chylomicronemia syndrome', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12483350/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The FCS diet is strict and lifelong:** under 15–20 g of fat a day, with simple carbohydrates and alcohol restricted, whatever drug is added. Monitor fat-soluble vitamins (A, D, E, K) and supplement if needed.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Regardless of adjunct pharmacologic treatment, patients with FCS must adhere to a strict, very low-fat FCS diet (<15-20 g fat/day) and restrict simple carbohydrates and alcohol, which can increase TG levels and trigger acute pancreatitis … Fat-soluble vitamins (A, D, E, K) should be monitored and possibly supplemented in the FCS diet",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Medium-chain triglycerides (MCT) do not drive chylomicron production and can be a good fat source,** but MCT oils can be expensive.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Purified medium-chain triglycerides (MCTs) do not promote chylomicron synthesis and may be a good source of fat [,]; while MCT oils are commercially available, they are potentially costly",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ordinary 'low-fat' recipes and diabetes diets are often too fatty for FCS** (the aim is under 20 g/day). Work with a registered dietitian on a personalised plan.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Standard \"low-fat\" recipes for patients with hypercholesterolemia or other cardiometabolic conditions may still be too high in fat for a true FCS diet, in which limiting fat intake to <20 g/day is recommended. … Specialized dietary programs that are personalized for the patient and developed in collaboration with a registered dietician can help develop sustainable eating habits. … Many diabetes diets have unsuitably high fat content for patients with FCS.",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Australian primary-care advice for severe hypertriglyceridaemia:** a low-fat diet with few added sugars, a very-low-fat diet once triglycerides exceed 10 mmol/L, dietitian referral, and no alcohol at all.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee2eaccb96818d10",
+     "n": 215,
+     "p": "In patie"
+    },
+    {
+     "h": "5fb3407fe811bf43",
+     "n": 131,
+     "p": "Referral"
+    },
+    {
+     "h": "05b5cc0b9e93ed1f",
+     "n": 82,
+     "p": "whereas "
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Standard triglyceride-lowering drugs (statins, fibrates, omega-3 fatty acids) are unlikely to help in FCS.** Avoid medicines that raise triglycerides, and treat hypothyroidism and uncontrolled diabetes.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Common TG-lowering medications (eg, statins, fibrates, and omega-3 fatty acids) are unlikely to help patients with FCS … Medications that may increase TG levels (listed comprehensively in the NAFCS scoring system []) should be avoided. Comorbidities that raise TG levels, such as hypothyroidism and uncontrolled diabetes, should be investigated and treated",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **In severe hypertriglyceridaemia generally, Australian advice recommends fibrates** to lower triglycerides and pancreatitis risk; prescription omega-3 products may be considered. With a statin, fenofibrate is preferred to gemfibrozil.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c686ed7fe1aeca4",
+     "n": 155,
+     "p": "Converse"
+    },
+    {
+     "h": "69e149a33f560ffb",
+     "n": 211,
+     "p": "Combined"
+    },
+    {
+     "h": "901a0ef3220a68cb",
+     "n": 64,
+     "p": "If used "
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Olezarsen, an APOC3 antisense drug, is approved as an add-on to diet in adults with FCS** (US FDA 2024; European Medicines Agency 2025, for genetically confirmed FCS). In the phase 3 Balance trial (66 patients) olezarsen 80 mg subcutaneously every 4 weeks lowered triglycerides at 6 months.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Subsequent research enabled the development of olezarsen, a hepatocyte-targeted triantennary N-acetylgalactosamine (GalNAc)-conjugated ASO approved by the US Food and Drug Administration (FDA) in 2024 as an adjunct to diet to reduce TG levels in adult patients with FCS [,] and by the European Medicines Agency in 2025 as an adjunct to diet in adult patients for the treatment of genetically confirmed FCS … The phase 3 Balance trial assessed the efficacy and safety of olezarsen administered subcutaneously every 4 weeks for 53 weeks in 66 patients with genetically identified FCS (Table 1) []. The trial met the primary endpoint of reduction from baseline in TG levels following olezarsen 80 mg vs placebo after 6 months",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Olezarsen adverse effects in Balance:** injection-site reactions (19% vs 9% on placebo), lower platelet count (12% vs 4%) and joint pain (9% vs 0%). Hypersensitivity reactions were the commonest reason for stopping, per the US prescribing information.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "which included injection-site reactions (19% vs 9%), decreased platelet count (12% vs 4%), and arthralgia (9% vs 0%) … Per the prescribing information, the most common reason for treatment discontinuation was hypersensitivity reactions",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Olezarsen is not approved in pregnancy and children were excluded from its trial** and are ineligible. Triglycerides rise in the third trimester, raising pancreatitis risk in FCS.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Pregnancy is relevant because rising TG levels during the third trimester may be severely elevated in FCS and increase the risk for acute pancreatitis []. Olezarsen is not approved for use in pregnancy, and there are currently no data on olezarsen in pregnant women or its presence in the breast milk of lactating women, its effects on the breastfed infant, or its impact on milk production … Pediatric patients were excluded from Balance and are ineligible for olezarsen",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **The Australian review describes APOC3- and ANGPTL3-targeted RNA therapies as still in advanced clinical development;** they lower triglycerides substantially and can reduce acute pancreatitis, including in chylomicronaemia syndrome.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1796c33ab28310d3",
+     "n": 535,
+     "p": "Novel th"
+    }
+   ],
+   "locator": "Lan NSR, Nelson AJ, Brett T, Hespe CM, Watts GF, Nicholls SJ, Australian Journal of General Practice 54(11):800-804 (doi 10.31128/AJGP-01-25-7535), 'Hypertriglyceridaemia: A practical approach for primary care', November 2025, https://doi.org/10.31128/AJGP-01-25-7535, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Acute pancreatitis in FCS:** admit for IV fluids, bowel rest, pain control and watching for organ failure. Nothing by mouth for at least 48 hours, then clear fluids for another 48 hours, then food as tolerated with fat under 20 g/day. Enteral tube feeding is not advised in FCS.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "An episode of acute pancreatitis necessitates hospitalization with aggressive intravenous hydration, initial bowel rest, pain control, and careful monitoring for organ failure [,]. Patients should receive intravenous fluids while refraining from oral intake for ≥48 h, with gradual attempts to introduce clear liquids orally; after clear liquids for an additional 48 h, patients can gradually advance to soft and whole foods as tolerated while maintaining a total fat intake of <20 g/day. Although clinical guidelines recommend enteral tube feeding within 24 h over parenteral nutrition in patients experiencing acute pancreatitis [,], this may be more appropriate for non-HTG-induced pancreatitis and is not advised for patients with FCS.",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IV insulin and plasmapheresis are not generally recommended for hypertriglyceridaemic pancreatitis;** insulin does not work when LPL is completely absent and can cause hypoglycaemia.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Insulin infusions may stimulate LPL activity and lower TG levels in patients with insulin-deficient diabetes presenting with HTG due to insulin deficiency but are ineffective in those with complete LPL deficiency and can cause hypoglycemia … Both intravenous insulin and plasmapheresis are not generally recommended for HTG-induced acute pancreatitis",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **FCS pancreatitis can be misread as alcohol-related, or pain as drug-seeking.** Contact the patient's FCS specialist at presentation.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Patients with FCS presenting with acute pancreatitis may sometimes be misdiagnosed as HTG due to alcohol abuse or as drug-seeking behavior for reported chronic abdominal pain. Consultation with the patient's FCS specialist at the time of presentation may be helpful for making the correct diagnosis.",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check triglycerides at least 4 times a year after pancreatitis or when levels are unstable, and at least twice a year when stable** (European FCS Expert Panel, as cited in S3). If triglycerides do not fall on treatment, review the diet and cut fat further.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "The European FCS Expert Panel recommends TG testing at least 4 times/year following pancreatitis in patients with unstable TG levels and at least twice a year in those with stable TG levels and no history of HTG-induced pancreatitis. Clinicians may consider monitoring TG levels and lipids more frequently during olezarsen treatment. If TG levels remain unchanged or increase, the patient's diet should be investigated, and the fat content further reduced if warranted.",
+   "locator": "Bajaj A, Oral EA, Brown A, Gaudet D, Alexander VJ, Karwatowska-Prokopczuk E, Baum SJ, American Journal of Preventive Cardiology (doi 10.1016/j.ajpc.2025.101352), 'Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide', published 16 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/, retrieved 2026-09-24"
   }
  ]
 }

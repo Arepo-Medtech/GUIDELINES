@@ -1,9 +1,11 @@
-# Achondroplasia — vosoritide treatment in children
+# Achondroplasia — vosoritide treatment in children, and lifelong care
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** selecting, starting, monitoring, suspending and stopping vosoritide in children with achondroplasia, including babies under 24 months. The overall medical management of achondroplasia (spinal, airway, ENT and orthopaedic complications) is in the separate Australian achondroplasia management guideline, which is not covered here. PBS access is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** selecting, starting, monitoring, suspending and stopping vosoritide in children with achondroplasia, including babies under 24 months (S1); and key points of lifelong multidisciplinary care: infant surveillance for cervicomedullary compression and sleep apnoea, hearing, spine and limbs, pregnancy, anaesthesia and adult complications (S2). PBS access is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 20 claims quoted verbatim from **Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789 — *Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia*** (published 28 June 2024; origin: AU); **35 fragments re-checked by machine; 1 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **59 fragments or anchors re-checkable by machine; 1 doses.** **S1** Australian Vosoritide Working Group (published 28 June 2024; AU): 20 claims, quoted · **S2** Savarirayan R (published March 2022; international): 13 claims, paraphrased, hash-anchored
+
+> 🇦🇺 **S1 is Australian** (vosoritide use). **S2 is the International Consensus Statement (2022)** on lifelong care, an expert Delphi consensus (Australian-led, 16 countries). ⚠️ S2 is international; Australian services and the PBS may differ.
 
 > ⚠️ **Expert-opinion consensus.** No comparative trials existed, so recommendations were not graded by GRADE or NHMRC; each is marked essential (E) or recommended (R).
 
@@ -47,6 +49,25 @@
 - ⚠️ **Under 28 days old, the second dose is also supervised in a specialist clinic, with 4 hours' observation after each of the first two doses.** (E) [S1]
 - **Under 24 months, all monitoring visits happen in a specialist clinic, with a formal review 3 months after starting;** measure supine length in children who cannot stand. (R) [S1]
 
+## Lifelong care: infancy (international consensus)
+
+- **Refer every infant to a skeletal dysplasia centre or achondroplasia expert at diagnosis,** with ongoing multidisciplinary follow-up. In the first year, review every 2–4 months at first and then every 3–6 months. [S2]
+- ⚠️ **Check for cervicomedullary compression at every visit in infants and young children:** motor regression or delayed milestones, apnoea, swallowing difficulty, poor weight gain, clonus, abnormal reflexes, weakness. Concerning findings need urgent paediatric neurosurgical review. [S2]
+- **Consider an MRI of the cervicomedullary junction and foramen magnum in the first months of life, even without symptoms.** Symptomatic compression is an indication for foramen magnum decompression; MRI-proven compression without symptoms still needs a neurosurgical opinion. [S2]
+- **Do a sleep study (polysomnography) in the first year or at the first sign of sleep-disordered breathing, and by 2 years at the latest.** Adenotonsillectomy is first-line for obstructive sleep apnoea, with a repeat study 2–4 months afterwards. [S2]
+- **Teach positioning and handling:** avoid early unsupported sitting (fixed thoracolumbar kyphosis) and prolonged car-seat positioning (positional death). Refer to a paediatric spine surgeon if a kyphosis persists beyond a year or progresses once walking. [S2]
+- **Use achondroplasia-specific growth charts,** and plot head circumference monthly through the first year. [S2]
+
+## Lifelong care: childhood to adulthood (international consensus)
+
+- **Middle-ear effusions are common:** screen hearing at least yearly in early childhood and refer to ENT when concerned. Grommets can be recommended for effusions lasting 3 months or more with documented hearing loss. [S2]
+- **Bracing does not treat genu varum.** Limb lengthening needs multidisciplinary assessment before and after, with psychological input. [S2]
+- ⚠️ **Adults: back pain with neurological features** (claudication, spasticity, shorter walking distance, bladder or bowel change) suggests spinal stenosis: consider whole-spine MRI, and refer promptly to an experienced spine centre if the cord is compressed. [S2]
+- **Measure adult blood pressure regularly with a correctly sized cuff,** or on the forearm if elbow contractures or short upper arms prevent it. [S2]
+- **Pregnancy:** obstetrician-led care (not midwife-only) and an antenatal anaesthetic assessment; birth after 32 weeks should be by caesarean section because of pelvic shape and size. [S2]
+- ⚠️ **Anaesthesia:** minimise head and neck movement during bag-mask ventilation and intubation because of foramen magnum stenosis, and have difficult-airway equipment ready. [S2]
+- **Inheritance for counselling:** about 80% of cases are new (de novo) variants in unaffected parents; 20% are inherited. One affected parent gives a 50% chance per child; with two affected parents it is 25% average stature, 50% achondroplasia and 25% homozygous (usually lethal). [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -64,14 +85,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Weight–dose bands, the pre-treatment and monitoring assessment schedule (Table 2) and the developmental checklist (Table 3)** are in tables and supplementary material, which were stripped. | `input_unavailable` |
-| 2 | **General achondroplasia care** (craniocervical, spinal, airway, ENT, orthopaedic): the companion Australian management guideline (J Paediatr Child Health 2023, CC BY-NC) was not used. | `out_of_scope` |
-| 3 | **PBS initiation and continuation criteria** are summarised in the source's Table 1 and on the PBS; the restriction text is not reproduced here. | `observation` |
-| 4 | **Licence:** CC BY 4.0. Source text is quoted verbatim with attribution. | `observation` |
+| 2 | **General achondroplasia care** (craniocervical, spinal, airway, ENT, orthopaedic) now comes from the International Consensus Statement (S2). The companion Australian management guideline (J Paediatr Child Health 2023, CC BY-NC) was not used; add it for Australian service detail. | `observation` |
+| 3 | **S2's full recommendation set** (160 statements, including orthodontics, nutrition, psychosocial support and transition) is summarised selectively here; its supplementary voting data were not used. | `observation` |
+| 4 | **PBS initiation and continuation criteria** are summarised in the source's Table 1 and on the PBS; the restriction text is not reproduced here. | `observation` |
+| 5 | **Licence:** CC BY 4.0. Source text is quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Australian Vosoritide Working Group, Children (MDPI) 2024;11(7):789. *Consensus Guidelines for the Use of Vosoritide in Children with Achondroplasia in Australia*. published 28 June 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11274906/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Savarirayan R, Ireland P, Irving M et al. (International Achondroplasia Consensus Statement Group, 55 experts from 16 countries), Nature Reviews Endocrinology 18:173-189 (doi 10.1038/s41574-021-00595-x). *International Consensus Statement on the diagnosis, multidisciplinary management and lifelong care of individuals with achondroplasia*. published March 2022. https://www.nature.com/articles/s41574-021-00595-x — retrieved 2026-09-24. | © Springer Nature Limited 2021 (free to read at nature.com; no open licence) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/hypereosinophilic-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes' (published 30 April 2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10148979). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes' (published 30 April 2023), 22 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10148979). S2: QUOTED from Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334) '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]' (January 2024), 11 claims; LICENCE: CC BY 3.0 (read at Europe PMC fullTextXML <license> element for PMC10951113). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every CEREO 2023 claim (S1) unchanged and adds S2, the Chinese Society of Hematology 2024 national guideline (CC BY 3.0, quoted), for work-up steps, emergency steroid dosing, imatinib escalation and maintenance, targeted options for FGFR1, JAK2, ABL1 and FLT3 fusions, and second-line agents for idiopathic HES. S2 is written in Chinese: its fragments are stored in Chinese and the English claims are the verifier's own translation. The number guard cannot see a numeral written directly against Chinese characters (it counts them as part of a word), so where the source numeral is joined to Chinese text the claim spells the number out; those numbers were checked by hand. Searched and not usable: BSH 2017 eosinophilia guideline (Br J Haematol, subscription), ESC Heart Failure Association 2026 clinical consensus statement on heart involvement in eosinophilia (Eur J Heart Fail, subscription), NCCN 2021 M/LN-eo guideline (not open access). The ICOG-EO 2023 criteria paper (Allergy, CC BY) is readable but covers classification, not treatment. No Australian HES guideline or eviQ protocol was found.",
  "summary": {
-  "total": 22,
-  "pass": 22,
+  "total": 33,
+  "pass": 33,
   "fail": 0
  },
  "claims": [
@@ -36,6 +37,20 @@
    "verdict": "pass",
    "source_text": "These mainly include cardiac manifestations (e.g., eosinophilic myocarditis, intracavitary thrombosis with peripheral or cerebral embolic events, coronary artery spasm, acute heart failure), respiratory disorders (severe acute asthma or hypoxic lung disease), central nervous system manifestations (typically strokes of bilateral watershed distribution) and thrombotic (either arterial or venous) events … Contrariwise, in the absence of overt clinical manifestations, very high eosinophil counts (e.g., > 10 × 109/L) are not per se an indication for emergency initiation of treatment.",
    "locator": "French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases, 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes', published 30 April 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 definitions:** eosinophilia is a count above 0.5 per nL; hypereosinophilia needs a count above 1.5 per nL on 2 tests more than 1 month apart, and/or marrow eosinophils of 20% or more, and/or proven extensive tissue infiltration or marked eosinophil granule-protein deposition.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "1. 嗜酸性粒细胞增多症（Eosinophilia）：外周血嗜酸性粒细胞绝对计数>0.5×109/L。 … 2. 高嗜酸性粒细胞增多症（Hypereosinophilia, HE）：外周血2次检查（间隔时间>1个月）嗜酸性粒细胞绝对计数>1.5×109/L和（或）骨髓有核细胞计数嗜酸性粒细胞比例≥20％和（或）病理证实组织嗜酸性粒细胞广泛浸润和（或）发现嗜酸性粒细胞颗粒蛋白显著沉积（在有或没有较明显的组织嗜酸性粒细胞浸润情况下）。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 criteria for idiopathic HES:** exclude reactive eosinophilia, lymphocytic-variant disease, CEL-NOS, WHO-defined myeloid neoplasms with eosinophilia and tyrosine-kinase fusion neoplasms; the count must stay above 1.5 per nL for at least six months with tissue damage. Without tissue damage the diagnosis is idiopathic hypereosinophilia.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "3. 特发性高嗜酸性粒细胞增多综合征（iHES）诊断标准-：①除外以下情况：反应性嗜酸性粒细胞增多症；淋巴细胞变异型嗜酸性粒细胞增多症（产生细胞因子，免疫表型异常的T细胞亚群）；慢性嗜酸性粒细胞白血病-非特指（CEL-NOS）；WHO标准可确诊的髓系肿瘤（如MDS、MPN、MDS/MPN、AML）伴嗜酸性粒细胞增多；M/LN-eo-TK。②嗜酸性粒细胞绝对计数>1.5×109/L，必须至少持续6个月，且必须有组织受损。如果没有组织受损，则诊断特发性高嗜酸性粒细胞增多症。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
   },
   {
    "claim": "**The GP starts the work-up** (history, examination, first-line tests for drug and parasitic causes), but must refer to an organ specialist without delay for unusual symptoms or suspected cardiac, respiratory, thrombotic or neurological disease.",
@@ -73,6 +88,27 @@
    "locator": "French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases, 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes', published 30 April 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 baseline tests in every patient with eosinophilia:** blood count with film differential; liver and kidney function, electrolytes and LDH; ESR and/or CRP; and serum vitamin B12. With no symptoms and only mild to moderate eosinophilia (0.5-1.5 per nL), further tests can wait.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "2. 所有嗜酸性粒细胞增多症患者均应进行以下常规实验室检查：①全血细胞计数和外周血涂片分类计数；②常规生化检查，包括肝、肾功能，电解质和乳酸脱氢酶；③红细胞沉降率和（或）C反应蛋白；④血清VitB12。 … 3. 无症状且仅轻至中度嗜酸性粒细胞增多［嗜酸性粒细胞绝对计数在（0.5～1.5）×109/L］患者，可以暂不进行进一步检查。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 clonal work-up when no secondary cause is found and the count is above 1.5 per nL:** marrow aspirate and trephine; FISH or RT-PCR for FIP1L1::PDGFRA; karyotype; serum tryptase; T-cell immunophenotyping with or without TCR gene rearrangement; and RT-PCR or RNA sequencing to identify the fusion if the karyotype shows a translocation involving the PDGFRA, PDGFRB, FGFR1, JAK2, ABL1 or FLT3 locus or another tyrosine-kinase gene.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "5. 无明确继发原因且嗜酸性粒细胞增多（>1.5×109/L）患者，应考虑血液系统恶性肿瘤伴克隆性嗜酸性粒细胞增多，为确定或排除可能疾病，应进行以下检查：①骨髓穿刺涂片分类计数；②骨髓活检组织切片病理细胞学分析；③FISH或RT-PCR检测FIP1L1::PDGFRA融合基因；④染色体核型分析；⑤血清肥大细胞类胰蛋白酶；⑥T细胞免疫表型分析±TCR基因重排；⑦如果染色体核型分析显示累及4q12（PDGFRA）、5q31-33（PDGFRB）、8p11-12（FGFR1）、9p24（JAK2）、9q34（ABL1）、13q12（FLT3），或其他酪氨酸激酶基因位点的染色体易位，则应采取RT-PCR或RNA测序方法（RNA-seq）确定相关融合基因。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 cardiac assessment:** ECG, troponin and/or NT-proBNP and echocardiography, with cardiac MRI when troponin is raised or there are clinical signs of heart injury. Record any unexplained thrombosis as eosinophil-related tissue damage.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "（1）心脏评估：心电图、心肌肌钙蛋白和（或）N-末端原脑钠肽（NT-proBNP）测定与超声心动图和（或）心脏MRI（在心肌肌钙蛋白升高或有心脏损伤的临床特征情况下）有助于确定是否有心脏受累和（或）器官损伤。 … 不明原因的血栓事件应记录为一种嗜酸性粒细胞相关的组织损害。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Do not let the work-up delay treatment of life- or organ-threatening HES:** prednisone 1 mg/kg/day, preceded by IV methylprednisolone 15 mg/kg for 1-3 days depending on the picture, together with antiparasitic treatment.",
    "source": "S1",
    "verdict": "pass",
@@ -94,6 +130,14 @@
    "verdict": "pass",
    "source_text": "In case of steroid-resistant HES (defined as the absence of clinical and laboratory response after 3 days of corticosteroid therapy), the main etiologies to be investigated are as follow:",
    "locator": "French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases, 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes', published 30 April 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **S2 emergency treatment for severe or life-threatening involvement (especially heart or lung):** IV methylprednisolone 1 mg/kg/day, or oral prednisone one-half to 1.0 mg/kg/day, with allopurinol if eosinophilia is extreme; after 1-2 weeks taper slowly to the lowest maintenance dose by 2-3 months (see Unresolved for the different S1 dose).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "1. 紧急处理：当有严重的或致命性器官受累，特别是心脏和肺，应进行紧急处理。首选静脉输注甲泼尼龙1 mg·kg-1·d-1，或口服泼尼松0.5～1.0 mg·kg-1·d-1。如果极度的嗜酸性粒细胞增多，应同时给予别嘌呤醇。1～2周后逐渐缓慢减量，2～3个月减量至最少维持剂量。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "⚠️ **Treat every patient, with or without symptoms, and start promptly**: persistent HE risks irreversible (especially cardiac) damage and leukaemic transformation, and delay raises relapse risk after later stopping.",
@@ -134,6 +178,14 @@
    "dose": true
   },
   {
+   "claim": "**S2 for PDGFRA or PDGFRB rearrangement in chronic phase:** imatinib from 100 mg/day, raised to 400 mg/day if the response is poor, until complete clinical, haematological and molecular remission; assess cytogenetic and molecular response after three months. Maintenance has no consensus: keep the dose or give it every other day or weekly. In blast phase, imatinib 100-400 mg/day with the tumour's own regimen bridges to allogeneic transplant as soon as feasible. Resistance mutations (PDGFRA T674I, D842V; PDGFRB C843G) are reported.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "（1）PDGFRA和PDGFRB重排患者的治疗：慢性期患者首选伊马替尼，起始剂量为100 mg/d，如疗效不佳，可加大剂量至400 mg/d，直至达完全临床、血液学和分子生物学缓解,，-。检测外周血细胞计数和白细胞分类计数，如果有器官受损应同时评估靶器官功能，治疗3个月后进行细胞遗传和分子学疗效评估，如达到完全血液学、细胞遗传和分子学缓解，则进入维持治疗阶段。维持治疗方案尚无共识，可继续维持原剂量，或改为隔日1次或每周1次给药，以维持临床完全缓解及嗜酸性粒细胞计数在正常范围。急变期患者采用伊马替尼（100～400 mg/d）联合原发肿瘤治疗方案作为造血干细胞移植（HSCT）前桥接治疗，如果适合HSCT应尽快进行HSCT。已有PDGFRA基因突变（常见突变为T674I和D842V）和DGFRB基因突变（如C843G）导致伊马替尼耐药的报道",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Other PDGFRA fusions** (partners such as BCR, ETV6, KIF5B) respond, like FIP1L1::PDGFRA, to low-dose imatinib 100 mg daily.",
    "source": "S1",
    "verdict": "pass",
@@ -155,6 +207,13 @@
    "verdict": "pass",
    "source_text": "JAK2 rearrangements (including PCM1::JAK2 due to t(8;9)(p22;p24) and BCR::JAK2 due to t(9;22)(p24;q11)) are sensitive to JAK2 inhibitors, including ruxolitinib (off label). However, response to treatment may be transient and this therapeutic approach is usually a bridge to allogeneic bone marrow transplantation, which should be considered (depending on the patients' age and comorbidities) … FGFR1 rearrangements, including FGFR1::ZMYM2 due to t(8;13)(p11;q12), are associated with aggressive clinical phenotypes with, in the absence of treatment, constant and rapid progression (in one to two years) towards a high-grade hematological malignancy (acute myeloid leukemia, lymphoblastic lymphoma) resistant to standard TKIs (including ponatinib) … Patients with FLT3 rearrangements generally have an aggressive phenotype resistant to the main TKI.",
    "locator": "French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases, 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes', published 30 April 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 for other fusions (clinical trial first):** FGFR1, pemigatinib, midostaurin, ponatinib or olverembatinib; ABL1, dasatinib, nilotinib, asciminib, bosutinib, imatinib or ponatinib; FLT3, gilteritinib, midostaurin, sorafenib or sunitinib; JAK2, ruxolitinib or fedratinib. In blast phase these are combined with AML- or ALL-type chemotherapy as a bridge to transplant, done as soon as feasible.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "（2）FGFR1重排患者的治疗：首选参加临床试验，如无合适临床试验，慢性期患者可选择培米替尼（pemigatinib）或米哚妥林、普纳替尼、奥雷巴替尼，急变期采用培米替尼（pemigatinib）或米哚妥林、普纳替尼、奥雷巴替尼联合AML或ALL样化疗作为HSCT前桥接治疗，如果适合HSCT应尽快进行HSCT,-。 （3）ABL1和FLT3重排患者的治疗：首选参加临床试验，如无合适临床试验，ABL1重排慢性期患者可选择达沙替尼、尼洛替尼，或阿西米尼（asciminib）、博舒替尼、伊马替尼和普纳替尼，FLT3重排患者可选用吉瑞替尼、米哚妥林、索拉非尼和舒尼替尼，急变期采用上述药物联合AML或ALL样化疗作为HSCT前桥接治疗，如果适合HSCT应尽快进行HSCT,。 （4）JAK2重排患者的治疗：首选参加临床试验，如无合适临床试验，慢性期患者可选用芦可替尼或菲卓替尼治疗",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
   },
   {
    "claim": "**Corticosteroids are first line** and usually work quickly. Prefer local steroids where possible; when systemic treatment is needed use prednisone 0.5-1 mg/kg/day, then taper to the lowest effective dose. In chronic disease about 12 months of treatment is advised before trying to stop.",
@@ -179,6 +238,29 @@
    "source_text": "It is therefore standard practice to start with the lowest possible dosage (e.g., 45 µg pegylated interferon alfa-2a weekly by subcutaneous injection) and to increase it gradually monthly if necessary, depending on tolerability. … In practice, it is usually started at a low dosage (1 g/day in a single dose) and then increased if necessary (up to 2 g/day in a single dose) depending on effectiveness and tolerability … imatinib (400 mg/day) may also be used empirically (and off label) in patients with laboratory and clinical findings suggestive of underlying myeloid malignancies (although by definition, idiopathic HES does not show the cytogenetic or molecular abnormalities characteristic of clonal HES) e.g. splenomegaly, elevated vitamin B12 or tryptase, presence of other CBC abnormalities, nonresponse to corticosteroid therapy (or corticosteroid dependence on more than 10 mg/day prednisone) []. In the absence of response at 1 month after initiation of imatinib, the latter should be discontinued and replaced by another steroid-sparing drug.",
    "locator": "French Reference Center for Hypereosinophilic Syndromes (CEREO), Groh M, Rohmer J, Etienne N, et al., Orphanet Journal of Rare Diseases, 'French guidelines for the etiological workup of eosinophilia and the management of hypereosinophilic syndromes', published 30 April 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10148979/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**S2 first line for idiopathic disease: oral prednisone 1 mg/kg/day, tapered slowly from 1-2 weeks to the lowest maintenance dose by 2-3 months;** if it flares during the taper, return at least to the previous dose. Complete plus partial response is sixty-five to 85%. Switch to second line if after 1 month the count is still above 1.5 per nL or the lowest maintenance dose exceeds 10 mg/day.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "（1）一线治疗首选泼尼松1 mg·kg-1·d-1口服，1～2周后逐渐缓慢减量，2～3个月减量至最少维持剂量。若减量过程中病情反复，至少应恢复至减量前用药量。完全和部分缓解率为65％～85％。治疗1个月后如果嗜酸性粒细胞计数>1.5×109/L或最低维持剂量>10 mg/d，应改用二线治疗。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2 second-line options:** imatinib four hundred mg/day (stop if no effect after 4-6 weeks); interferon (no agreed dose; takes weeks to act); ciclosporin (one hundred and fifty to 500 mg/day reported); azathioprine from 1-3 mg/kg/day (lower in liver or kidney impairment); hydroxycarbamide one-half to 3.0 g/day, alone or with interferon; or monoclonal antibodies such as mepolizumab, reslizumab or alemtuzumab.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "二线治疗药物选择包括：①伊马替尼400 mg/d，4～6周后无效则停用；②干扰素,，剂量选择尚无共识，一般为100～500 IU·m-2·d-1，一般需数周后方可起效；③环孢素A，剂量文献报道150～500 mg/d不等；④硫唑嘌呤，推荐起始剂量为1～3 mg·kg-1·d-1，肝、肾功能不全患者应选用较低起始剂量，依患者临床和血液学反应调整剂量；⑤羟基脲0.5～3.0 g/d，可单用或与干扰素联合使用；⑥单克隆抗体，如Mepolizumab、reslizumab和Alemtuzumab等。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2 supportive care:** leukapheresis for very high white-cell and eosinophil counts; anticoagulant or antiplatelet treatment to prevent thrombosis; and valve replacement for damaged heart valves.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "（2）支持及手术治疗：对于白细胞和嗜酸性粒细胞计数较高患者，可进行细胞单采术，抗凝或抗血小板治疗具有预防血栓作用；换瓣手术可能使心脏瓣膜有损害的患者获益。",
+   "locator": "Leukemia and Lymphoma Group, Chinese Society of Hematology, Chinese Medical Association, Zhonghua Xue Ye Xue Za Zhi (Chinese Journal of Hematology) 45(1):1-7 (doi 10.3760/cma.j.cn121090-20231222-00334), '中国嗜酸性粒细胞增多症诊断和治疗指南（2024版） [Guideline of the diagnosis and treatment of eosinophilic disorders in China (2024)]', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10951113/, retrieved 2026-09-24"
   }
  ]
 }

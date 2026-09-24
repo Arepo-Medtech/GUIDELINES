@@ -1,19 +1,22 @@
 {
  "guideline": "guidelines/urea-cycle-disorders.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3488504/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3488504/",
+  "https://managementguidelines.net/guidelines.php/152/UCD",
+  "https://bimdg.org.uk/wp-content/uploads/2024/11/ER-UCD1-v4_972421_09092016.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Häberle J, Boddaert N, Burlina A, et al. (European UCD guideline group, E-IMD), Orphanet Journal of Rare Diseases 'Suggested guidelines for the diagnosis and management of urea cycle disorders' (vol. 7, article 32, published 29 May 2012). Every pass claim is machine re-checkable. LICENCE: CC BY 2.0 (read at Europe PMC fullTextXML <license> element for PMC3488504 ('distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0)')). The 2019 first revision (Häberle et al., J Inherit Metab Dis 42:1192–1230, doi:10.1002/jimd.12100) is closed access (Unpaywall: closed; Wiley returned 403) and could not be read, so this guideline uses the open 2012 original.",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Häberle J, Boddaert N, Burlina A, et al. (European UCD guideline group, E-IMD), Orphanet Journal of Rare Diseases 'Suggested guidelines for the diagnosis and management of urea cycle disorders' (vol. 7, article 32, published 29 May 2012), 20 claims; LICENCE: CC BY 2.0 (read at Europe PMC fullTextXML <license> element for PMC3488504 ('distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0)')). S2: PARAPHRASED AND HASH-ANCHORED from Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal 'UCD Nutrition Management Guidelines, First Edition (v1.3)' (first edition April 2026, v1.3, updated April 2026), 12 claims; LICENCE: No licence or reproduction permission stated on the portal (disclaimer page read); treated as all rights reserved (read at https://managementguidelines.net/guidelines.php/152/disclaim/0/0/UCD and the portal footer). S3: PARAPHRASED AND HASH-ANCHORED from British Inherited Metabolic Diseases Group (BIMDG) 'Hyperammonaemia: urea cycle disorders, OTC and CPS deficiencies (standard version), paediatric emergency protocol' (© BIMDG 2016, last reviewed May 2023), 4 claims; LICENCE: © BIMDG 2008/2016 (no licence or reproduction permission in the PDF or on bimdg.org.uk) (read at the PDF footer and the bimdg.org.uk site footer). Verify each source separately: verify.py --source <file> --only-source S<n>. The 2019 first revision (Häberle et al., J Inherit Metab Dis 42:1192–1230, doi:10.1002/jimd.12100) is closed access (Unpaywall: closed; Wiley returned 403) and could not be read, so this guideline uses the open 2012 original. Retried 2026-09-24: Unpaywall and OpenAlex still list it as closed, and the two repository copies (ZORA Zurich, Digital.CSIC) sit behind Anubis bot challenges, which were not bypassed. Edition 2.0 adds S2, the GMDI/SERN UCD Nutrition Management Guideline (first edition, April 2026; web pages fetched and tag-stripped, recommendation, detail and table pages concatenated), which draws on the 2019 revision, and S3, the BIMDG paediatric emergency protocol for OTC and CPS deficiency (PDF, pdftotext reading order; its dose table survived extraction). The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 20,
+  "total": 36,
   "pass": 20,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 16
  },
  "claims": [
   {
@@ -88,6 +91,155 @@
    "dose": true
   },
   {
+   "claim": "⚠️ **GMDI: take protein away for no longer than 24 hours,** because prolonged restriction drives catabolism and negative nitrogen balance. Meanwhile give 100–125% of estimated energy from carbohydrate and fat: IV dextrose (for example a glucose infusion rate of 10 mg/kg/min in neonates), IV lipid at 1–3 g/kg/day, and oral or enteral feeds as early as they can be started. If glucose climbs (above about 150-200 mg/dL), add insulin so the dextrose can continue, checking glucose hourly while it runs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c11cd32b9b67c21",
+     "n": 266,
+     "p": "Recommen"
+    },
+    {
+     "h": "39e1aff217ef42f9",
+     "n": 553,
+     "p": "Recommen"
+    },
+    {
+     "h": "41f8f746b3ea9257",
+     "n": 511,
+     "p": "insulin "
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Bring protein back in steps (GMDI):** restart after 24 hours without protein or once ammonia is below 100 μmol/L, whichever is first; begin at 25-50% of the target and add 25-50% a day as tolerated. An EAA-based medical food can be used first, alone or with intact protein, especially in severe neonatal presentations; in neonates, human milk can supply the protein. After dialysis, start higher, at 50-75% of the target.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "22ae6d86c64ef582",
+     "n": 177,
+     "p": "There wa"
+    },
+    {
+     "h": "1f459156ace8ba41",
+     "n": 661,
+     "p": "Recommen"
+    },
+    {
+     "h": "5e4ac34d175085a9",
+     "n": 440,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IV L-arginine hydrochloride (GMDI), except in arginase deficiency:** about 200-400 mg/kg in CIT-I (ASS deficiency) and ASA (ASL deficiency), then oral L-arginine; about 100-250 mg/kg in OTC and CPS deficiency, then oral L-citrulline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f98ab0cd4300f517",
+     "n": 566,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Laboratory monitoring in a crisis (GMDI):** ammonia every 2-4 hours while treating, then every 3-12 hours while protein is reintroduced; plasma amino acids up to daily but not within 24 hours of a diet change; glucose and electrolytes often, glucose up to hourly on insulin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b077e03d63ec78ff",
+     "n": 587,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Start IV fluids at once if the child is unwell or vomiting:** a 20 ml/kg 0.9% saline bolus if circulation is poor or the child is shocked, then 10% glucose with 0.45% saline at 5ml/kg/h only until the deficit plus 24-hour maintenance has been calculated. With full-dose sodium benzoate and phenylbutyrate use 10% glucose; if they are not at full dose use 10% glucose with 0.18% saline.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec2434ffa4e0690e",
+     "n": 257,
+     "p": "IMMEDIAT"
+    },
+    {
+     "h": "4d612f40000eb8ae",
+     "n": 561,
+     "p": "Run IV f"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Hyperammonaemia: urea cycle disorders, OTC and CPS deficiencies (standard version), paediatric emergency protocol', © BIMDG 2016, last reviewed May 2023, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-UCD1-v4_972421_09092016.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Do not delay the scavengers (BIMDG):** a loading dose over 90 minutes of sodium benzoate 250 mg/kg, sodium phenylbutyrate 250 mg/kg and arginine 150 mg/kg, then 250 mg/kg of each every 24 hours as a continuous infusion. The daily maximum is 500 mg/kg for benzoate and for phenylbutyrate, which carry 3.5 and 2.8 mmol/kg/d of sodium respectively. Discuss doses with the regional metabolic centre after the first treatment.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d8326c41c18b2418",
+     "n": 374,
+     "p": "MEDICATI"
+    },
+    {
+     "h": "3b9bf67af0e71f0f",
+     "n": 439,
+     "p": "Loading "
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Hyperammonaemia: urea cycle disorders, OTC and CPS deficiencies (standard version), paediatric emergency protocol', © BIMDG 2016, last reviewed May 2023, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-UCD1-v4_972421_09092016.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Mild cases treated by mouth (BIMDG):** 2-hourly glucose-polymer emergency feeds day and night, by tube if not tolerated, for up to 24-36hours; raise the usual oral scavengers (sodium benzoate and phenylbutyrate up to 500 mg/kg/day, arginine 150 mg/kg/day) and split them 2-hourly to limit vomiting.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a44959e620779de",
+     "n": 219,
+     "p": "Feed ora"
+    },
+    {
+     "h": "2f9796b94e508426",
+     "n": 457,
+     "p": "Give the"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Hyperammonaemia: urea cycle disorders, OTC and CPS deficiencies (standard version), paediatric emergency protocol', © BIMDG 2016, last reviewed May 2023, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-UCD1-v4_972421_09092016.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Watch closely (BIMDG):** start insulin if glucose exceeds 8 mmol/l rather than cutting glucose; add potassium once urine flows (hypokalaemia is common); at any hint of encephalopathy do neurological observations at least hourly and give concentrated fluids through a central line to limit cerebral oedema; reassess and repeat gases, ammonia and electrolytes every 4-6 hours.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "68fb83826ce679a0",
+     "n": 409,
+     "p": "Hypergly"
+    },
+    {
+     "h": "38f19e08d302f652",
+     "n": 592,
+     "p": "If there"
+    }
+   ],
+   "locator": "British Inherited Metabolic Diseases Group (BIMDG), 'Hyperammonaemia: urea cycle disorders, OTC and CPS deficiencies (standard version), paediatric emergency protocol', © BIMDG 2016, last reviewed May 2023, https://bimdg.org.uk/wp-content/uploads/2024/11/ER-UCD1-v4_972421_09092016.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Long-term care rests on:** low-protein diet, essential amino acid supplements, vitamins and minerals, nitrogen-scavenging drugs, an emergency regimen for illness, and liver transplantation for selected patients.",
    "source": "S1",
    "verdict": "pass",
@@ -153,11 +305,147 @@
    "locator": "Häberle J, Boddaert N, Burlina A, et al. (European UCD guideline group, E-IMD), Orphanet Journal of Rare Diseases, 'Suggested guidelines for the diagnosis and management of urea cycle disorders', vol. 7, article 32, published 29 May 2012, https://pmc.ncbi.nlm.nih.gov/articles/PMC3488504/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Total protein when well (GMDI Table 1, intact protein plus EAA food), g/kg/day:** 1.1-2.2 at 0-12 months, 1.0-1.5 at 1-8 years, 0.8-1.4 at 9-18 years and 0.7-1.0 over 18 years. Aim for the most protein each person tolerates; severe phenotypes start at the low end.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "013e8db1fd56dd2c",
+     "n": 446,
+     "p": "CPS, OTC"
+    },
+    {
+     "h": "8954d870876d5935",
+     "n": 90,
+     "p": "Prescrib"
+    },
+    {
+     "h": "b71395d4c30e9490",
+     "n": 196,
+     "p": "For indi"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Protein source (GMDI):** in severe UCD, an EAA-based medical food supplies about 50% of total protein, titrated to response; mild UCD usually needs none. In arginase deficiency, about 50% of protein comes as intact protein, adjusted to plasma arginine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "edea3dcf45465021",
+     "n": 594,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oral amino acid supplements (GMDI):** L-citrulline 100-200 mg/kg/day in CPS and OTC deficiency; L-arginine about 100-300 mg/kg/day below 20 kg, or 2.5-6 g/m2/day above 20 kg, in CIT-I and ASA; no arginine in arginase deficiency. Split doses through the day and adjust to plasma amino acids; use lower arginine doses with liver dysfunction or mild disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c1a25d91628678c6",
+     "n": 846,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Carglumic acid (GMDI):** consider it in CPS deficiency to raise protein tolerance. In NAGS deficiency on an effective carglumic acid dose, the diet can be unrestricted in protein.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cba6bc1c841d6891",
+     "n": 157,
+     "p": "Recommen"
+    },
+    {
+     "h": "88bf9c04f29fb3d1",
+     "n": 128,
+     "p": "1. Presc"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Home plan for mild illness (GMDI):** cut protein by up to 50% for 24-48 hours, raise non-protein energy by at least 10-20% and fluids by 10-20%, and keep giving amino acid supplements and scavengers. Give the family warning signs, when to call the metabolic team, and an emergency letter; avoid long fasts and drugs that can precipitate a crisis, such as corticosteroids and valproate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d2596e5ac107002",
+     "n": 455,
+     "p": "Recommen"
+    },
+    {
+     "h": "46e5080b0cd752c0",
+     "n": 172,
+     "p": "3. Avoid"
+    },
+    {
+     "h": "1bfb1eab9e5ef373",
+     "n": 155,
+     "p": "Provide "
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Planned procedures (GMDI):** book the patient first on the list and admit the day before; keep the fast as short as is safe with continuous IV dextrose throughout; avoid long religious or exercise-related fasts.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "715ccea7c8120b0b",
+     "n": 640,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Labour and delivery need a written plan** (IV dextrose, L-arginine hydrochloride, scavengers, monitoring): check ammonia 4-6 hourly and glucose 1-4 hourly, with IV support until eating well. Watch clinical state and ammonia closely for the first six weeks after birth (most closely in the first two), and give 100-120% of energy needs postpartum.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "91b2a3f128743470",
+     "n": 553,
+     "p": "Recommen"
+    },
+    {
+     "h": "49366c9916a80bf8",
+     "n": 518,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Targets:** ammonia below 80 μmol/L, glutamine below 1000 μmol/L, arginine high-normal, and essential and branched-chain amino acids normal. Test IQ and development regularly.",
    "source": "S1",
    "verdict": "pass",
    "source_text": "Venous ammonia and amino acid levels should be monitored, aiming at levels of ammonia <80 μmol/L, glutamine <1000 μmol/L, arginine in the high normal range and EAAs and BCAAs in the normal range. … Regular testing for IQ, development and specific abilities/weaknesses is recommended.",
    "locator": "Häberle J, Boddaert N, Burlina A, et al. (European UCD guideline group, E-IMD), Orphanet Journal of Rare Diseases, 'Suggested guidelines for the diagnosis and management of urea cycle disorders', vol. 7, article 32, published 29 May 2012, https://pmc.ncbi.nlm.nih.gov/articles/PMC3488504/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Well-state biochemistry (GMDI):** sample plasma amino acids at the same time of day, 3-4 hours post-meal, ideally a week or more after a diet change; keep glutamine below 1000 µmol/L, arginine in the normal range (below 200 µmol/L in arginase deficiency), and essential and branched-chain amino acids normal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9ced5bd077f128ae",
+     "n": 1341,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal, 'UCD Nutrition Management Guidelines, First Edition (v1.3)', first edition April 2026, v1.3, updated April 2026, https://managementguidelines.net/guidelines.php/152/UCD, retrieved 2026-09-24"
   }
  ]
 }

@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/phenylketonuria.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://doi.org/10.1016/j.ymgme.2025.109125"
+  "https://doi.org/10.1016/j.ymgme.2025.109125",
+  "https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier) 'European guidelines on diagnosis and treatment of phenylketonuria: First revision' (vol. 145, article 109125, published 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at the article's own licence line ('This is an open access article under the CC BY license') in the publisher PDF, retrieved from the Universidade NOVA de Lisboa repository (run.unl.pt); Crossref also lists CC BY 4.0 for the version of record). Text extracted with pdftotext in reading order (not -layout), because the two-column layout otherwise interleaves columns mid-sentence.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier) 'European guidelines on diagnosis and treatment of phenylketonuria: First revision' (vol. 145, article 109125, published 2025), 21 claims; LICENCE: CC BY 4.0 (read at the article's own licence line ('This is an open access article under the CC BY license') in the publisher PDF, retrieved from the Universidade NOVA de Lisboa repository (run.unl.pt); Crossref also lists CC BY 4.0 for the version of record). S2: PARAPHRASED AND HASH-ANCHORED from Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA) 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan' (endorsed by ASIEM 5 October 2017), 12 claims; LICENCE: © The Human Genetics Society of Australasia Limited (no licence statement in the PDF). Site terms: 'You may view this site and its contents ... solely for personal, non-commercial use. Any other use, including the reproduction ... is strictly prohibited.' (read at https://hgsa.org.au/Web/Terms-and-Conditions.aspx (read 2026-09-24)). Verify each source separately: verify.py --source <file> --only-source S<n>. Text extracted with pdftotext in reading order (not -layout), because the two-column layout otherwise interleaves columns mid-sentence. Edition 2.0 adds S2, the ASIEM Australasian PKU lifespan consensus guidelines (2017), read in the PDF on hgsa.org.au (pdftotext, reading order); its Table 1 (total protein by age) survived extraction and is anchored. The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 21,
+  "total": 33,
   "pass": 21,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -59,6 +61,55 @@
    "locator": "van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier), 'European guidelines on diagnosis and treatment of phenylketonuria: First revision', vol. 145, article 109125, published 2025, https://doi.org/10.1016/j.ymgme.2025.109125, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **Australasian targets (ASIEM):** keep Phe at 120–360 µmol/L until 12 years of age. Beyond 12, some patients may reasonably make an informed choice to run above 360 µmol/L, on an individual target, bearing in mind that lower levels tend to give better short- and long-term outcomes. ASIEM notes that the US guideline holds 120–360 µmol/L for life, while the European one (2017) accepts up to 600 µmol/L after 12.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62ff9fcf9cb43c13",
+     "n": 452,
+     "p": "Recommen"
+    },
+    {
+     "h": "6e38fc2eabd8b040",
+     "n": 265,
+     "p": "The US g"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Clinic review (ASIEM):** in a multidisciplinary metabolic clinic, in person or by teleconference, at least 3-monthly through the first year of life, 6-monthly through childhood and yearly in adulthood. For children, the team brings together a physician, nurse, dietitian, psychologist and psychosocial worker experienced in PKU.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "202c662b6f26285a",
+     "n": 282,
+     "p": "Recommen"
+    },
+    {
+     "h": "974fb60c360ccb47",
+     "n": 266,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Transition (ASIEM):** raise the move to adult care when the young person enters high school and revisit it every year; where no specialist adult service exists, the treating physician should find a suitable one before high school ends.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9ae9609b970dad1",
+     "n": 339,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Monitor with blood Phe** (dried blood spot and/or plasma); results should reach the family within 2 working days of the lab receiving the sample. Phe variation and the Phe/Tyr ratio are not for routine care.",
    "source": "S1",
    "verdict": "pass",
@@ -87,6 +138,81 @@
    "locator": "van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier), 'European guidelines on diagnosis and treatment of phenylketonuria: First revision', vol. 145, article 109125, published 2025, https://doi.org/10.1016/j.ymgme.2025.109125, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **ASIEM monitoring schedule for Phe and tyrosine:** in infancy twice a week until stable and within range, then weekly until one year of age; through childhood fortnightly to monthly; adolescents and adults at least monthly. Take the dried blood spot or plasma sample at the same time each day, either fasting in the morning or 3–4 hours after an ordinary low-protein meal with formula.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "71fcf3eb521d3647",
+     "n": 261,
+     "p": "Recommen"
+    },
+    {
+     "h": "7ad6fcace19e1b44",
+     "n": 319,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Tyrosine (ASIEM):** aim for plasma tyrosine of 50–100 µmol/L, and think about supplementing when it is repeatedly low, for example under 30 µmol/L.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2646dd29978cfeb",
+     "n": 150,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Neuropsychology (ASIEM):** a full assessment of development, intellect, executive and behavioural-emotional function and adaptive skills before the child starts primary school (earlier if problems appear), and again on entering high school if clinically indicated.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1533d5af4bc41f78",
+     "n": 345,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Bone density (ASIEM):** measure it only for a specific clinical reason or known risk of metabolic bone disease, because the value of routine screening is unproven.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b15eb738fd5cd9f4",
+     "n": 118,
+     "p": "While de"
+    },
+    {
+     "h": "377065d749103f5d",
+     "n": 197,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Persistent non-adherence (ASIEM):** if almost every Phe result is out of range over roughly 6 months, and there are other signs of non-adherence or concerns for the child's safety, the team should consider consulting child protection services.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "249780de765c24e5",
+     "n": 243,
+     "p": "When ~10"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Prescribe a Phe-free or low-Phe protein substitute to anyone on a Phe-restricted diet** below the FAO/WHO/UNU 2007 safe natural-protein intake, spread evenly over at least 3 doses a day. Titrate Phe intake to keep blood Phe in range, reassess it yearly, and avoid Phe deficiency.",
    "source": "S1",
    "verdict": "pass",
@@ -113,6 +239,79 @@
    "verdict": "pass",
    "source_text": "An annual nutritional review is required for any patient who is on a Phe-restricted diet or is self-restricting high protein foods. It is suggested to include: • a clinical examination including anthropometric parameters (weight, height, BMI). • plasma amino acids, vitamin B12 (homocysteine)#, hemogram, MCV and ferritin (iron status), and vitamin D.",
    "locator": "van Wegberg AMJ, MacDonald A, Ahring K, et al., Molecular Genetics and Metabolism (Elsevier), 'European guidelines on diagnosis and treatment of phenylketonuria: First revision', vol. 145, article 109125, published 2025, https://doi.org/10.1016/j.ymgme.2025.109125, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Total protein (natural protein plus substitute) by age, per ASIEM Table 1, in g/kg/day:** 2.0–3.0 from birth to 12 months; 2.0–2.5 at 1–3 years; 1.5–2.0 at 4–10 years; 1.0–1.5 at 10–18 years. From 19 years, and in pregnancy or breastfeeding, give 140% of the RDI for age and sex. In classical PKU the Phe-free formula usually supplies about 75–85% of daily protein.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "605a6bbf262231a3",
+     "n": 313,
+     "p": "Birth -1"
+    },
+    {
+     "h": "82fd99328c983274",
+     "n": 110,
+     "p": "In most "
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Spread natural protein and Phe-free formula across the day, at least 3–4 times,** and never eat over half the day's natural-protein allowance in one go. Outside most fruits and vegetables, one gram of food protein counts as roughly 50mg of Phe.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "019e5bc98a1081dc",
+     "n": 149,
+     "p": "Recommen"
+    },
+    {
+     "h": "8d1193915ebb5044",
+     "n": 220,
+     "p": "No more "
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Phe deficiency from over-restriction is uncommon but needs prompt treatment:** look for generalised amino aciduria, hair loss, a (perineal) rash, poor or erratic growth in preschoolers, loss of appetite and listlessness.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d1fa61abdf90c98",
+     "n": 283,
+     "p": "Phe defi"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Australian products and labels (ASIEM 2017):** glycomacropeptide-based substitutes are available in Australia; large neutral amino acid supplements are not subsidised in Australia or New Zealand. Aspartame and acesulphame-aspartame (additives 951 and 962; sold as NutraSweet, Equal, Canderal) are half phenylalanine and must be avoided; some medicines, such as antibiotics, contain aspartame.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "affbc45cc98d3e9e",
+     "n": 143,
+     "p": "New supp"
+    },
+    {
+     "h": "dbb673ce95fdda81",
+     "n": 157,
+     "p": "Large ne"
+    },
+    {
+     "h": "eb3dc6f692fac6b1",
+     "n": 420,
+     "p": "Aspartam"
+    }
+   ],
+   "locator": "Inwood AC, Lewis K, Balasubramaniam S, et al., for the Australasian Society for Inborn Errors of Metabolism (ASIEM), hosted by the Human Genetics Society of Australasia (HGSA), 'Australasian consensus guidelines for the management of phenylketonuria (PKU) throughout the lifespan', endorsed by ASIEM 5 October 2017, https://hgsa.org.au/common/Uploaded%20files/pdfs/asiem%20documents/Australasian%20PKU%20Lifespan%20Guidelines%20FINAL%20Endorsed%205.10.2017.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Consider sapropterin responsiveness in every PAH-deficient patient except those with 2 known null variants;** test with a single 20 mg/kg dose and a change in blood Phe. Prove long-term benefit in a trial (at least a 100% rise in natural protein, or 75% or more of Phe levels in range).",

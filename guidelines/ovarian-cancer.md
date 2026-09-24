@@ -1,11 +1,13 @@
 # Epithelial ovarian, fallopian tube and primary peritoneal cancer — olaparib maintenance
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** olaparib, a PARP inhibitor, as maintenance for adults with BRCA-mutated high-grade serous epithelial ovarian, fallopian tube or primary peritoneal cancer: after first-line platinum chemotherapy, and after platinum-sensitive relapse. It covers eligibility, dosing, monitoring, toxicity and the SOLO1 and SOLO2 evidence. It is authored from **one eviQ protocol page (ID 3737)**, which also lists breast and prostate indications that are not covered here. **Not covered:** first-line carboplatin and paclitaxel, niraparib (eviQ ID 4166), olaparib with bevacizumab for HRD-positive disease (ID 4158), and chemotherapy for recurrent disease. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** olaparib, a PARP inhibitor, as maintenance for adults with BRCA-mutated high-grade serous epithelial ovarian, fallopian tube or primary peritoneal cancer: after first-line platinum chemotherapy, and after platinum-sensitive relapse. It covers eligibility, dosing, monitoring, toxicity and the SOLO1 and SOLO2 evidence. It is authored from **one eviQ protocol page (ID 3737)**, which also lists breast and prostate indications that are not covered here. **Not covered:** first-line carboplatin and paclitaxel, niraparib (eviQ ID 4166), olaparib with bevacizumab for HRD-positive disease (ID 4158), and chemotherapy for recurrent disease. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. Edition 2.0 adds, from S2 (ESMO 2026), where olaparib sits among first-line maintenance options by BRCA and HRD status, maintenance after relapse and platinum-resistant options; their Australian doses are still not covered.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 18 claims paraphrased from **eviQ Cancer Treatments Online, Cancer Institute NSW — *Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)*** (ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026; origin: AU). **26 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0. eviQ also states that "eviQ content should not be hosted on external sites", and that commercial entities must contact eviQ to seek permission*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **39 fragments or anchors re-checkable by machine; 7 doses.** **S1** eviQ Cancer Treatments Online (ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026; AU): 18 claims, paraphrased, hash-anchored · **S2** European Society for Medical Oncology (ESMO); Gonzalez-Martin A (published online 28 January 2026; international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ **This guideline covers one drug, not the whole disease.** It is written from the eviQ olaparib protocol and is limited to **BRCA-mutated** disease. Niraparib, the other PBS-listed PARP inhibitor for these conditions, is not covered.
+
+> ⚠️ International guideline (ESMO 2026 Express Update) as S2. Australian practice follows the PBS listings below and may differ. S2 places olaparib among the other maintenance options (niraparib, rucaparib, olaparib with bevacizumab, bevacizumab alone) but gives no doses for them.
 
 ---
 
@@ -31,6 +33,21 @@
 - **Wound healing:** pause olaparib around major surgery and restart once healing is judged adequate. [S1]
 - **Fatigue** is common early and usually eases. Exclude other causes and advise graded exercise; if it stays severe despite breaks, consider a short interruption or a lower dose. [S1]
 - **Hepatitis B screening is not routinely needed** but can be considered in high-risk people. The safety of live vaccines during and after olaparib is not established. [S1]
+
+## Choosing first-line maintenance (S2, ESMO 2026)
+
+- ⚠️ **PARP inhibitor maintenance, with or without bevacizumab, is recommended for BRCA1/2-mutated or BRCA-wild-type HRD-positive cancer** that has no evidence of disease, or a complete or partial response, after first-line platinum and paclitaxel [I, A]. [S2]
+- **BRCA1/2-mutated, in ESMO's order:** olaparib for 2 years (ESMO-MCBS 4); olaparib for 2 years with bevacizumab for 15 months (3); rucaparib for 2 years (3); niraparib for 3 years (2). **BRCA-wild-type, HRD-positive:** rucaparib for 2 years (3), niraparib for 3 years (2), or olaparib 2 years with bevacizumab 15 months (1). [S2]
+- **HRD-negative tumours:** options are 15 months of bevacizumab [I, A], 2 years of rucaparib [I, B] or 3 years of niraparib [I, B], the last two only after a response or with no evidence of disease. Choose by disease distribution, response to chemotherapy and the patient's characteristics. [S2]
+- ⚠️ **No response to platinum means no PARP inhibitor:** use bevacizumab maintenance if appropriate (mainly for stable disease), or second-line treatment for progression. For frail patients, weekly paclitaxel 60 mg/m² with weekly carboplatin AUC 2 is an alternative [I, B]. [S2]
+- **New first-line evidence (ATHENA-MONO, rucaparib):** median PFS 28.7 against 11.3 months in HRD-positive disease (HR 0.47), 20.2 against 9.2 months overall (HR 0.52), and 12.1 against 9.1 months even in HRD-negative disease (HR 0.65); overall survival was immature. Grade 3 or worse anaemia occurred in 28.7% and neutropenia in 14.6%, and MDS or AML in 0.5%. [S2]
+
+## Relapsed disease (S2, ESMO 2026)
+
+- **Platinum-free interval guides treatment at relapse:** response and PFS are lower when it is under 6 months, and patients progressing on platinum, or soon after it, should get non-platinum treatment. **Maintenance after response to platinum at relapse** continues until progression or the next line [I, A]: olaparib for BRCA1/2-mutated disease, niraparib or rucaparib whatever the BRCA status. [S2]
+- **When platinum is not an option,** non-platinum chemotherapy (weekly paclitaxel, pegylated liposomal doxorubicin, topotecan) gives low response rates (30–35% for weekly paclitaxel) and no clear survival gain; adding bevacizumab improves PFS and response but not OS. [S2]
+- ⚠️ **Mirvetuximab soravtansine is recommended for high-grade serous cancer with a platinum-free interval under 6 months and high folate receptor alpha expression (at least 75% of tumour cells staining 2+ or 3+), after one to three prior lines** [I, A; ESMO-MCBS 3]. In MIRASOL (453 patients) it improved median OS to 16.46 from 12.75 months (HR 0.67) and response to 42.3% from 15.9%. [S2]
+- ⚠️ **Mirvetuximab eye toxicity:** ocular events affected 56.0% (blurred vision, keratopathy) but were mostly low-grade and reversible, and only 1.8% stopped because of them. Use lubricating artificial tears and regular eye examinations. [S2]
 
 ## Evidence
 
@@ -58,16 +75,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Niraparib** (eviQ ID 4166; PBS for the first-line advanced indication, not for recurrence) and **olaparib with bevacizumab** for BRCA-mutated or HRD-positive disease (ID 4158) have separate protocols and are not covered. | `out_of_scope` |
-| 2 | **Primary treatment** (surgery, first-line carboplatin and paclitaxel with or without bevacizumab) and **chemotherapy for recurrent disease** are not covered; eviQ has no treatment-sequence page for ovarian cancer. | `out_of_scope` |
-| 3 | **The same protocol covers BRCA-mutated HER2-negative metastatic breast cancer** (OlympiAD) and BRCA-mutated castration-resistant prostate cancer (PROfound). These indications are not included here. | `out_of_scope` |
-| 4 | **BRCA testing:** the protocol links to eviQ's BRCA1, BRCA2 and PALB2 genetic testing page, which was not read for this guideline. | `observation` |
-| 5 | **Licence:** CC BY-NC 4.0, and eviQ asks that its content not be hosted on external sites and that commercial users seek permission. The claims are paraphrased and hash-anchored; the source's words are not reproduced. Request eviQ permission before any commercial publication. | `observation` |
+| 1 | **Niraparib** (eviQ ID 4166; PBS for the first-line advanced indication, not for recurrence) and **olaparib with bevacizumab** for BRCA-mutated or HRD-positive disease (ID 4158) have separate eviQ protocols. S2 (ESMO 2026) now places them among the maintenance options, but their Australian doses are not covered. | `out_of_scope` |
+| 2 | **Maintenance after relapse: the sources and funding differ.** S2 offers niraparib or rucaparib after platinum-sensitive relapse whatever the BRCA status; S1 notes niraparib is PBS-listed for first line but not for recurrence. Rucaparib and mirvetuximab were not checked against the PBS here. | `observation` |
+| 3 | **Olaparib duration agrees:** S1 stops first-line olaparib at 2 years after a complete response (clinician may continue with residual stable disease); S2 recommends olaparib for 2 years. Both are shown. | `observation` |
+| 4 | **S2's treatment algorithms (Figures 1–2) and the ESMO-MCBS scorecards** are figures and supplements; only their caption text was used. | `input_unavailable` |
+| 5 | **Primary treatment** (surgery, first-line carboplatin and paclitaxel with or without bevacizumab) and **chemotherapy for recurrent disease** are not covered; eviQ has no treatment-sequence page for ovarian cancer. | `out_of_scope` |
+| 6 | **The same protocol covers BRCA-mutated HER2-negative metastatic breast cancer** (OlympiAD) and BRCA-mutated castration-resistant prostate cancer (PROfound). These indications are not included here. | `out_of_scope` |
+| 7 | **BRCA testing:** the protocol links to eviQ's BRCA1, BRCA2 and PALB2 genetic testing page, which was not read for this guideline. | `observation` |
+| 8 | **Licence:** CC BY-NC 4.0, and eviQ asks that its content not be hosted on external sites and that commercial users seek permission. The claims are paraphrased and hash-anchored; the source's words are not reproduced. Request eviQ permission before any commercial publication. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | eviQ Cancer Treatments Online, Cancer Institute NSW. *Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)*. ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026. https://www.eviq.org.au/p/3737 — retrieved 2026-09-23. | CC BY-NC 4.0. eviQ also states that "eviQ content should not be hosted on external sites", and that commercial entities must contact eviQ to seek permission | **paraphrased, hash-anchored** |
+| **S2** | European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032). *ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer*. published online 28 January 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

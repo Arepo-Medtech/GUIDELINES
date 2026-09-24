@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/nasopharyngeal-carcinoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13009139/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13009139/",
+  "https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC), Clinical and Translational Oncology (doi 10.1007/s12094-026-04252-5) 'SEOM-TTCC clinical guideline for nasopharyngeal carcinoma (update 2025)' (published 17 February 2026 (recommendations updated July 2025)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13009139 (Europe PMC returned HTTP 503 on 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC), Clinical and Translational Oncology (doi 10.1007/s12094-026-04252-5) 'SEOM-TTCC clinical guideline for nasopharyngeal carcinoma (update 2025)' (published 17 February 2026 (recommendations updated July 2025)), 17 claims; LICENCE: CC BY-NC-ND 4.0 (read at NCBI PMC efetch JATS <license> element for PMC13009139 (Europe PMC returned HTTP 503 on 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)' (retrieved 24 September 2026), 9 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, three Australian eviQ treatment protocols (paraphrased and hash-anchored), for the doses, eligibility, monitoring and trial results of induction gemcitabine–cisplatin, adjuvant metronomic capecitabine and first-line gemcitabine–cisplatin for recurrent or metastatic disease. The S2 source file concatenates https://www.eviq.org.au/p/3674, /p/4281 and /p/1384, each under a header line naming its URL. eviQ has no toripalimab protocol. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 17,
+  "total": 26,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
@@ -208,6 +209,179 @@
    "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC), Clinical and Translational Oncology (doi 10.1007/s12094-026-04252-5), 'SEOM-TTCC clinical guideline for nasopharyngeal carcinoma (update 2025)', published 17 February 2026 (recommendations updated July 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC13009139/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Induction gemcitabine–cisplatin (eviQ):** for stage III or IVA non-keratinising NPC with performance status 0 to 1, gemcitabine 1,000 mg/m² IV on days 1 and 8 plus cisplatin 80 mg/m² IV on day 1, every 21 days for 3 cycles; chemoradiation starts 21 to 28 days after day 1 of the final cycle. Carboplatin is an option if cisplatin is not tolerated. Avoid with grade 2 or worse neuropathy or significant hearing loss or tinnitus.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9658643917897f1c",
+     "n": 224,
+     "p": "Locally "
+    },
+    {
+     "h": "a10609f32908e7b1",
+     "n": 361,
+     "p": "Cycle 1 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Induction trial (480 patients):** 3-year recurrence-free survival 85.3% with induction versus 76.5% with chemoradiation alone (HR 0.51), and 3-year overall survival 94.6% versus 90.3% (HR 0.43). Grade 3–4 events over the whole course were 75.7% versus 55.7%, mostly neutropenia during induction.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e22c5632b54a918d",
+     "n": 72,
+     "p": "comes fr"
+    },
+    {
+     "h": "b82f70c39fa4a0b8",
+     "n": 475,
+     "p": "the 3 ye"
+    },
+    {
+     "h": "f9e7377aa891c75c",
+     "n": 270,
+     "p": "During i"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before starting treatment:** dental assessment, a dietitian review (nutrition risk is high) and a speech pathology review of communication and swallowing; screen for hepatitis B before induction chemotherapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "15726e28c76f70e2",
+     "n": 620,
+     "p": "Dental a"
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cisplatin–gemcitabine monitoring:** before the first and every later dose, check calcium, magnesium, phosphate, FBC, kidney function and LFTs; use measured GFR for the first cisplatin dose when eGFR is under 60; assess neuropathy each cycle; arrange audiometry if hearing symptoms develop. About 10% have breathlessness within hours of gemcitabine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3bad5bb6a01f296",
+     "n": 95,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "a61e6383107e1783",
+     "n": 246,
+     "p": "Directly"
+    },
+    {
+     "h": "d4b58ad1fd0d3fd2",
+     "n": 59,
+     "p": "An audio"
+    },
+    {
+     "h": "67eb3fe8972ce506",
+     "n": 220,
+     "p": "Assess p"
+    },
+    {
+     "h": "6ec5003262384f7d",
+     "n": 117,
+     "p": "Dyspnoea"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Adjuvant metronomic capecitabine (eviQ):** 650 mg/m² by mouth twice daily for 1 year, stopping for recurrence or unacceptable toxicity, after cisplatin chemoradiation (with or without induction) for high-risk non-keratinising NPC: stage III–IVA, except T3–4N0 and T3N1. Reserve it for very fit patients because toxicity accumulates.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca2b27166a1f248f",
+     "n": 215,
+     "p": "Capecita"
+    },
+    {
+     "h": "f6e36fa28bf43020",
+     "n": 359,
+     "p": "Adjuvant"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Adjuvant capecitabine trial (406 patients):** 3-year failure-free survival 85.3% versus 75.7% with observation (HR 0.50) and overall survival 93.3% versus 88.6% (HR 0.44), whether or not induction was given. Doses were interrupted in 26%, reduced in 14% and stopped in 5%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "834c06218fd55a17",
+     "n": 67,
+     "p": "Between "
+    },
+    {
+     "h": "b2727e000591ade8",
+     "n": 225,
+     "p": "FFS at 3"
+    },
+    {
+     "h": "bc416eb61ee33958",
+     "n": 107,
+     "p": "The bene"
+    },
+    {
+     "h": "5f75a36f1c8c1c1d",
+     "n": 160,
+     "p": "dose int"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Capecitabine safety:** DPYD genotyping has been MBS-listed since 1 November 2025, and severe unexplained toxicity needs investigating before going on. Cardiac events (angina, arrhythmia, infarction) can occur, especially with coronary disease. An antidote for overexposure works if given within 96 hours. Bloods 2-weekly at first, then monthly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a7879013b7cd8ad",
+     "n": 196,
+     "p": "As of 1 "
+    },
+    {
+     "h": "a750fe5e44061515",
+     "n": 87,
+     "p": "Severe u"
+    },
+    {
+     "h": "a75bb25cea4f3f8c",
+     "n": 205,
+     "p": "Angina-l"
+    },
+    {
+     "h": "b2014bb4b5fedc3f",
+     "n": 71,
+     "p": "An antid"
+    },
+    {
+     "h": "8d5ef1422ff83379",
+     "n": 113,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Locoregional recurrence may still be curable:** consider surgery (including endoscopic nasopharyngectomy for small rT1–2 recurrences) or carefully selected re-irradiation in a high-volume centre. Nasopharyngectomy is contraindicated with carotid or intracranial invasion.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -293,6 +467,53 @@
     }
    ],
    "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC), Clinical and Translational Oncology (doi 10.1007/s12094-026-04252-5), 'SEOM-TTCC clinical guideline for nasopharyngeal carcinoma (update 2025)', published 17 February 2026 (recommendations updated July 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC13009139/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Gemcitabine–cisplatin for recurrent or metastatic NPC (eviQ, chemotherapy only):** performance status 0 to 2; gemcitabine 1,000 mg/m² IV on days 1 and 8 with cisplatin 80 mg/m² IV on day 1 (or split as 40 mg/m² on days 1 and 8), every 21 days for 4 to 6 cycles.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b88c197973a66369",
+     "n": 100,
+     "p": "Recurren"
+    },
+    {
+     "h": "482a51ba237fccc4",
+     "n": 264,
+     "p": "Cycle 1 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Why gemcitabine–cisplatin over cisplatin–fluorouracil:** in a phase 3 trial of 362 patients, median PFS was 7.0 versus 5.6 months (HR 0.55), median overall survival 29.1 versus 20.9 months (HR 0.62) and response 64% versus 42%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "00769de7163226b0",
+     "n": 159,
+     "p": "comparin"
+    },
+    {
+     "h": "71e7b1079a74f7a4",
+     "n": 59,
+     "p": "phase 3 "
+    },
+    {
+     "h": "12e9d3df4e847385",
+     "n": 391,
+     "p": "the prog"
+    },
+    {
+     "h": "950fbb70283f4da6",
+     "n": 33,
+     "p": "Overall "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ nasopharyngeal carcinoma protocols (protocols, not guidelines): 3674 'Nasopharyngeal locally advanced cisplatin and gemcitabine (induction)' (v.4, first approved 30 July 2021, review due 30 June 2027), 4281 'Nasopharyngeal locally advanced adjuvant capecitabine metronomic' (v.2, first approved 12 May 2023, review due 30 June 2026) and 1384 'Nasopharyngeal recurrent or metastatic cisplatin and gemcitabine' (v.6, review as required)', retrieved 24 September 2026, https://www.eviq.org.au/medical-oncology/head-and-neck/nasopharyngeal, retrieved 2026-09-24"
   },
   {
    "claim": "**First response assessment 3 months after treatment** (PET is more specific than MRI after radiotherapy). Then review every 3 months in year one, every 6 months in years two and three, and yearly to year five, with nasopharyngoscopy, neck and cranial nerve checks.",

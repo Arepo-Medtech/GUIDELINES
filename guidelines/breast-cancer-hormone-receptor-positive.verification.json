@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/breast-cancer-hormone-receptor-positive.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3379"
+  "https://www.eviq.org.au/p/3379",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast metastatic ribociclib (eviQ ID 3379 v.6)' (ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Breast metastatic ribociclib (eviQ ID 3379 v.6)' (ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026), 20 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w) 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)' (published online 3 November 2025), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12790535). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ ribociclib claim (S1) unchanged and adds S2, the SEOM-GEICAM-SOLTI 2025 advanced breast cancer guideline (a national society guideline, CC BY-NC-ND 4.0, paraphrased), for biomarker testing and the sequence of lines of therapy that no eviQ page sets out, including drugs newer than the ribociclib protocol (inavolisib, capivasertib, elacestrant, antibody-drug conjugates). Its recommendation tables and algorithms were stripped; only running text is used. The ESO-ESMO ABC 6/7 consensus (PMC11231614, 2024) was also read and not used because the SEOM 2025 update is newer.",
  "summary": {
-  "total": 20,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -256,6 +257,181 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Breast metastatic ribociclib (eviQ ID 3379 v.6)', ID 3379 v.6; first approved 27 November 2018, last reviewed 24 October 2024, review due 31 December 2026, https://www.eviq.org.au/p/3379, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**At first diagnosis of advanced disease, biopsy to confirm ER, PR and HER2** [I, A], and rebiopsy new metastases where possible because receptor status can change [II, A]. For HR-positive, HER2-negative disease also test germline BRCA1/2 [I, A], PIK3CA [I, A], other PI3K–AKT pathway changes (AKT1, PTEN) [I, B] and ESR1 [I, A], and identify HER2-low tumours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7cf0d8e27a09c6af",
+     "n": 233,
+     "p": "At the t"
+    },
+    {
+     "h": "5e4c5b3e66e8fbf3",
+     "n": 213,
+     "p": "HER2-low"
+    },
+    {
+     "h": "76104eaa4790e257",
+     "n": 91,
+     "p": "In HER2-"
+    },
+    {
+     "h": "7bee8f4b7cdd9fd3",
+     "n": 693,
+     "p": "In ER- a"
+    },
+    {
+     "h": "8dafa3de45e86455",
+     "n": 202,
+     "p": "A biopsy"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Start with endocrine therapy, alone or with a targeted drug, and use it in sequence** [I, A]; chemotherapy first only for visceral crisis (life-threatening disease with imminent organ failure). Pre- and perimenopausal women have ovarian suppression or ablation and are then treated as postmenopausal [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "347be9e35ad40461",
+     "n": 532,
+     "p": "Sequenti"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Endocrine resistance defines the line.** First-line (endocrine-sensitive): no prior endocrine therapy, or relapse at least 12 months after finishing adjuvant therapy. Primary resistance: relapse in the first 2 years of adjuvant therapy, or progression within 6 months of endocrine therapy for advanced disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a8b6df6dc9234cbf",
+     "n": 561,
+     "p": "First-li"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **First line: endocrine therapy plus a CDK4/6 inhibitor is standard** [I, A], used as early as possible after diagnosis [II, C]. All three improve PFS; ribociclib improved overall survival in MONALEESA-2, 3 and 7, abemaciclib in endocrine-refractory disease (MONARCH-2), and palbociclib did not significantly. No trial compares them directly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2701418834ff01f",
+     "n": 1215,
+     "p": "ET in co"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Endocrine therapy alone (an aromatase inhibitor or fulvestrant) is for patients whose comorbidities rule out a CDK4/6 inhibitor** [I, A]. After chemotherapy, maintenance is usually endocrine therapy alone.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "696ac0aeedf61e20",
+     "n": 362,
+     "p": "ET monot"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Second line:** progression on an aromatase inhibitor, or within a year of finishing adjuvant endocrine therapy, calls for a CDK4/6 inhibitor with fulvestrant [I, A]. Test ESR1 [II, B] and the PI3K–AKT pathway [I, A] to choose the next endocrine partner: each is altered in roughly 40% of patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2b6c3ad4388e81d",
+     "n": 632,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Targeted endocrine combinations by mutation:** PIK3CA-mutated disease progressing during adjuvant therapy: add inavolisib to first-line palbociclib and fulvestrant (PFS and OS gains). PI3K–AKT-altered disease after an aromatase inhibitor with or without a CDK4/6 inhibitor: capivasertib with fulvestrant. Alpelisib with fulvestrant [I, B] and everolimus combinations [I, B] were tested before CDK4/6 inhibitors, so data after them are limited. ESR1-mutated disease after an aromatase inhibitor with a CDK4/6 inhibitor: elacestrant [I, A], more so after a first-line PFS over 12 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "377a9e232e886fca",
+     "n": 651,
+     "p": "For pati"
+    },
+    {
+     "h": "a2eb5dd162f60945",
+     "n": 704,
+     "p": "Alpelisi"
+    },
+    {
+     "h": "4bda081d6b61d48e",
+     "n": 432,
+     "p": "In cases"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**When endocrine options are exhausted:** trastuzumab deruxtecan is the most effective choice for HER2-low or HER2-ultralow disease [I, A]; sacituzumab govitecan improved PFS and OS in later lines. Otherwise use single-agent chemotherapy in sequence, combining only for high tumour burden or when a fast response is needed [II, A]. Check DPYD genotype before capecitabine to avoid severe or fatal toxicity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eb1ff5b56713f35f",
+     "n": 699,
+     "p": "Chemothe"
+    },
+    {
+     "h": "562bebaa0925ffe7",
+     "n": 214,
+     "p": "before s"
+    },
+    {
+     "h": "04bafb53fca0d5a8",
+     "n": 257,
+     "p": "Trastuzu"
+    },
+    {
+     "h": "09a591228815bd55",
+     "n": 223,
+     "p": "In addit"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Germline BRCA-mutated, HR-positive disease:** consider olaparib or talazoparib after first-line endocrine therapy with a CDK4/6 inhibitor [I, C]; both improved PFS over chemotherapy, though talazoparib did not improve OS.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7f21ef95a53aac7c",
+     "n": 545,
+     "p": "Both ola"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Staging and response:** CT of chest and abdomen plus a bone scan [II, A], or FDG PET-CT instead [II, B]. Rising tumour markers alone should not trigger a change of line [II, C], and routine brain imaging without symptoms is not advised [V, C].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "afd4cc8631988a55",
+     "n": 517,
+     "p": "Staging "
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEICAM and SOLTI; Garcia-Saenz et al., Clinical and Translational Oncology (doi 10.1007/s12094-025-04102-w), 'SEOM-GEICAM-SOLTI clinical guidelines in advanced breast cancer (UPDATE 2025)', published online 3 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12790535/, retrieved 2026-09-24"
   },
   {
    "claim": "**MONALEESA-2** (first line, postmenopausal, with letrozole; 668 women): median PFS 25.3 against 16.0 months, and median overall survival 63.9 against 51.4 months (HR 0.76).",

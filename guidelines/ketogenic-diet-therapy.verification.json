@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/ketogenic-diet-therapy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group' (published 21 May 2018). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC5983110). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group' (published 21 May 2018), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC5983110). S2: QUOTED from Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618) 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group' (published 10 July 2023), 9 claims; LICENCE: CC BY 4.0 ('open-access article distributed under the terms of the Creative Commons Attribution License (CC BY)') (read at Europe PMC fullTextXML <license> element for PMC10368245). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Italian League against Epilepsy (the ILAE Italian chapter) Dietary Therapy Study Group recommendations (2023), from Europe PMC fullTextXML via pmc_text.py (its three tables were stripped). It covers children and adults. No Australian ketogenic diet guideline was found (Europe PMC and PubMed searched); the 2021 international adult recommendations (Neurol Clin Pract, © AAN) have only the abstract in PMC and were not read. The S1 claims and fragments are unchanged.",
  "summary": {
-  "total": 24,
-  "pass": 0,
+  "total": 33,
+  "pass": 9,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -171,6 +172,21 @@
    "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Where to start (S2):** most children start the classic diet as outpatients; the LICE panel admits for status epilepticus and for infants (100% agreement), and when intensive caregiver training is needed or there are clinical or psychiatric comorbidities (80%−70%). Most raise the ratio gradually from 1:1 to 3: 1 or 4: 1 with full calories from the start.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Panel members agree to start cKD as an outpatient in most cases and to consider inpatient induction in specific conditions such as status epilepticus (100%), infants (100%), if there is a need for intensive caregiver training (80%), or in the presence of clinical or psychiatric comorbidities (80%-70%) … most of the panel members (62,5%) plan to gradually increase the ketogenic ratio from 1:1 up to the desired ratio (3: 1 or 4: 1), depending on the ketonemia, with full calories from the beginning",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**MCT diet start (S2):** at home, with small amounts of MCT at first (e.g., 8–10 g per day) split across meals, increasing to the target share of 10–25% in children < 2 years or 40–50% >2 years, which limits gut side effects. The modified Atkins diet starts at 10–20 g carbohydrate per day, usually as an outpatient.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The induction of the MCT-KD protocol is usually carried out at home without the need for hospitalization. Initially, small amounts of MCT are prescribed (e.g., 8-10 g per day), divided equally between the meals provided throughout the day, and/or partially substituted for the amount of fat already present in the diet. The proportion of MCT is then gradually increased until the desired percentage is reached (10-25% in children < 2 years, or 40-50% >2 years). This induction protocol limits the onset of gastrointestinal disorders, the typical side effects of this diet. However, MAD does not include a specific induction protocol, but a reduction of carbohydrate intake to 10-20 g per day is scheduled. MAD and LGIT are typically started in outpatient settings",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**No routine change to antiseizure drug doses is needed at the start.** If the child becomes drowsy or side effects increase, check levels and cut back sedating drugs (benzodiazepines, phenobarbital).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -236,6 +252,13 @@
     }
    ],
    "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Antiseizure drug levels on the diet (S2):** about 75% of the LICE panel saw no need to adjust doses when the diet started; in adults on the modified Atkins diet, mean drug concentrations fell by 10%, most for carbamazepine, clobazam and valproate. The panel starts tapering antiseizure drugs 6 months after starting the diet if it works.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Approximately 75% of panel members did not find a significant modification of the ASM dosage following the introduction of KDT and, therefore, the need for dosage adjustments (for details, see Supplementary Table 1). Regarding the management of concomitant therapy with ASMs, the panel members recommend initiating drug decalage 6 months from the beginning of KDT in cases of diet efficacy … where a drop of 10% in the mean concentrations of ASMs was observed on the MAD. After 4 and 12 weeks of MAD, drugs with higher serum concentration reductions were carbamazepine, clobazam (larger reduction), and valproate",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Supplements are essential** because the diet contains little fruit, vegetable, fortified grain or calcium-rich food, so B vitamins in particular run short. Use **carbohydrate-free** multivitamin and mineral products.",
@@ -318,6 +341,21 @@
    "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Potassium citrate prophylaxis (S2):** the LICE panel recommends 2 mEq/kg/day for everyone on the diet (studies used up to a maximum of 60 mEq/day), counting dietary potassium; carbonic anhydrase inhibitors add acidosis risk. Add calcium if the multivitamin is short, but avoid excess (hypercalciuria and stones), and keep vitamin D high.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients taking carbonic anhydrase inhibitors have an increased risk of developing metabolic acidosis. Some studies have reported the efficacy of potassium citrate in doses of 2 mEq/kg/day up to a maximum of 60 mEq/day in preventing nephrolithiasis and hypercalciuria in KD patients (-). Panel members recommend prescribing prophylaxis with potassium citrate at a dose of 2 mEq/kg/day. Importantly, the quantity of potassium to be considered is the estimated dietary intake with the prescribed diet … Given the variable content of calcium in multivitamins, it may be necessary to combine a calcium supplement while avoiding excessive supplementation, increasing hypercalciuria, and facilitating the formation of stones … Thus, vitamin D values should be maintained in an optimally high range.",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Carnitine (S2):** supplement only when deficiency is documented; consider testing for fatigue, difficulty keeping ketosis, or drugs that lower free carnitine.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "a total agreement was found on the supplementation of carnitine only in cases of documented deficiency. Eventually, clinical and lab investigations might be scheduled for possible supplementation in cases of fatigue, difficulties in maintaining adequate ketosis values, or the use of drugs that reduce the availability of free carnitine",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**In year one, schedule clinic reviews at months 1, 3, 6, 9 and 12, then 6-monthly,** by a neurologist and dietitian. Infants and children at high nutritional risk need closer contact.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -377,6 +415,27 @@
    "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Follow-up (S2):** reviews at 1, 3, 6 and 12 months (outpatient or day hospital), with telemedicine at 1 month and, after the first year, 6-monthly telehealth alongside yearly on-site visits. Tests before starting and at least yearly: blood count, electrolytes including magnesium, zinc and selenium, bicarbonate, liver and kidney function, coagulation, lipids, vitamin D, GH, IGF1, TSH, drug levels and urinalysis; bone mineralometry every 2 years.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Follow-up management provides serial evaluations that can be carried out on an outpatient basis or, better, as a day hospital at 1, 3, 6, and 12 months … A laboratory screening: complete blood count (CBC) with formula, electrolytes (sodium, potassium, chlorine, calcium, phosphorus, magnesium, zinc, and selenium), bicarbonate, total protein, liver function [alanine transaminase (ALT), aspartate aminotransferase (AST), gamma-glutamyl transferase (GGT), total and fractionated bilirubin], albumin, prothrombin time (PT), partial thromboplastin time (PTT), renal function (creatinine, urea, and uric acid), lipid profile (total cholesterol, HDL, LDL, triglycerides, and total lipids), Vitamin D, GH, IGF1, TSH, the pharmacological dosage of ASMs (if applicable), and complete urinalysis … Computerized bone mineralometry, however, is recommended every 2 years. … Our consensus group recommends considering telemedicine evaluation at 1 month to verify the correct management of KDT, and after the first year of KDT as an alternative option, with follow-up on a 6-month basis beyond yearly onsite follow-up",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ketones (S2):** capillary blood ketones are more accurate than urine ketones. Check blood ketones and glucose twice a day (morning and evening before meals) in the first weeks, then at clinic visits and as needed.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Capillary blood ketonemia levels are considered more accurate than urine measurements (ketonuria) to evaluate ketone levels. Consensus group members also recommend obtaining blood ketones levels and glycemia twice a day (morning and evening before meals) in the first weeks of diet implementation and then during routine KDT clinic visits and according to patients' needs, KDT efficacy, tolerability, and compliance during follow-up",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adults and transition (S2):** plan the move to adult care; adults need an adult neurologist and dietitian who know the diets, and attention to autonomy, bone density and vitamin D, pregnancy and comorbidities. Evidence in adults with intractable epilepsy is still limited, and Glut1 deficiency is the main adult indication in Italian practice (60–80%).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Dietary therapies are more challenging to continue in adulthood since an adult neurologist and dietitian familiar with the different types of KDT are required … Special considerations for adults should include supporting autonomy, giving attention to bone mineral density and vitamin D supplementation, managing treatment during pregnancy, and providing attention to possible comorbidities … Among the panel members, KDTs are proposed in the first instance in adulthood mainly to patients with GLUT1 deficiency (60-80%) … There is limited evidence yet for the effectiveness of the KDTs in managing seizures in adults with intractable epilepsy",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Consider stopping after 3 months if it has not helped, and at about 2 years if it has.** Glut1 deficiency and PDHD usually need longer. Wean gradually over 1–3 months unless stopping is urgent, and **keep the supplements going during the wean**.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -393,6 +452,13 @@
     }
    ],
    "locator": "International Ketogenic Diet Study Group (Kossoff EH et al.), Epilepsia Open, 'Optimal clinical management of children receiving dietary therapies for epilepsy: Updated recommendations of the International Ketogenic Diet Study Group', published 21 May 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC5983110/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When and how to stop (S2):** the diet can run for years with seizure freedom or >90% seizure reduction and few side effects; with >50% reduction, consider stopping after ~2 years; there is no maximum, and in GLUT1DS it may be lifelong. Wean stepwise, lowering the ratio by 1:1 (e.g., from 4:1 to 3:1 to 2:1) with calories constant and supplements continued; if seizures return, go back to the last effective ratio. In higher relapse risk, wean over 4–6 months; if poor adherence is the reason, switch to the modified Atkins or low glycaemic index diet.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "However, KDTs may be continued for several years in patients achieving seizure freedom or nearly complete seizure control (e.g., >90% seizure reduction) with low side effects. Overall, in responder patients with at least >50% seizure reduction, KD discontinuation may be considered after ~2 years. However, there is no maximum duration. In specific conditions, the duration of the KD may be extended and even become lifelong, as in GLUT1DS, or shortened, as in infantile spasms and refractory status epilepticus … Stepwise discontinuation is preferable, gradually changing ketogenic ratios over time and slowly adding carbohydrates. A slower weaning is preferred after a long time of KDT treatment, when KDTs show greater efficacy and when a higher number of ASMs are in use. The ratio can be reduced by 1:1 (e.g., from 4:1 to 3:1 to 2:1), associated with regular new carbohydrate food reintroduction while keeping calories constant and continuing nutrition supplementation over this period. If seizures relapse during or after discontinuation, KDTs can be increased to the previously effective ratio … Overall, in patients at higher risk of seizure relapse, KD may be discontinued cautiously over 4-6 months … For patients with low compliance as the main pivotal reason for discontinuation, transitioning from the ratios of classic KD to MAD or LGIT should be considered",
+   "locator": "Dietary Therapy Study Group of the Italian League against Epilepsy (LICE; Dini G, Tulli E, et al.), Frontiers in Neurology 14:1215618 (doi 10.3389/fneur.2023.1215618), 'Ketogenic dietary therapies in epilepsy: recommendations of the Italian League against Epilepsy Dietary Therapy Study Group', published 10 July 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10368245/, retrieved 2026-09-24"
   }
  ]
 }

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/preterm-birth-prevention.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://ranzcog.edu.au/wp-content/uploads/Progesterone-Use-Second-Third-Trimester.pdf"
+  "https://ranzcog.edu.au/wp-content/uploads/Progesterone-Use-Second-Third-Trimester.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG) 'Progesterone: Use in the second and third trimester (C-Obs 29b)' (current version July 2017, interim update November 2023; review due July 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © RANZCOG. Website disclaimer: 'All aspects of this website and any phone application, including data, documents, graphics and logos are copyright to RANZCOG and may not be reproduced in any shape or form. Unless otherwise agreed by RANZCOG in writing, you are provided with access for your personal use.' (read at https://ranzcog.edu.au/disclaimer/ (section 2, Copyright and Restricted Use; the PDF itself carries no licence statement)). The source's words are NOT reproduced here. PDF fetched 2026-09-24 and converted with pdftotext -layout. The two recommendations sit in a two-column table whose grade column interleaves with the text, so they are anchored in pieces.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG) 'Progesterone: Use in the second and third trimester (C-Obs 29b)' (current version July 2017, interim update November 2023; review due July 2024), 16 claims; LICENCE: © RANZCOG. Website disclaimer: 'All aspects of this website and any phone application, including data, documents, graphics and logos are copyright to RANZCOG and may not be reproduced in any shape or form. Unless otherwise agreed by RANZCOG in writing, you are provided with access for your personal use.' (read at https://ranzcog.edu.au/disclaimer/ (section 2, Copyright and Restricted Use; the PDF itself carries no licence statement)). S2: PARAPHRASED AND HASH-ANCHORED from International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852 'FIGO good practice recommendations on progestogens for prevention of preterm delivery' (published October 2021), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9291591). Verify each source separately: verify.py --source <file> --only-source S<n>. PDF fetched 2026-09-24 and converted with pdftotext -layout. The two recommendations sit in a two-column table whose grade column interleaves with the text, so they are anchored in pieces. Edition 2.0 adds S2, the FIGO 2021 good practice recommendations (based on the 2021 EPPPIC individual-participant meta-analysis), because the RANZCOG statement is past its review date; S1's claims and anchors are unchanged. S2 is CC BY-NC-ND and is paraphrased and hash-anchored.",
  "summary": {
-  "total": 16,
+  "total": 22,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 16
+  "pass_paraphrase_anchored": 22
  },
  "claims": [
   {
@@ -174,6 +175,94 @@
     }
    ],
    "locator": "Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG), 'Progesterone: Use in the second and third trimester (C-Obs 29b)', current version July 2017, interim update November 2023; review due July 2024, https://ranzcog.edu.au/wp-content/uploads/Progesterone-Use-Second-Third-Trimester.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **FIGO: offer progesterone to every woman with a singleton pregnancy at high risk,** meaning a previous spontaneous preterm birth, a short cervix on ultrasound, or both, as daily vaginal progesterone or weekly 17-OHPC. Whether it helps after a previous preterm birth when the mid-trimester cervix is longer than 30 mm is not known.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8a59106e52759ca5",
+     "n": 415,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852, 'FIGO good practice recommendations on progestogens for prevention of preterm delivery', published October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The evidence behind it is the EPPPIC individual-participant meta-analysis (31 trials, 11 644 women):** both vaginal progesterone and 17-OHPC reduced birth before 34 weeks in high-risk singletons. Among women who qualified only through a short cervix or a previous preterm birth, the relative risk was 0.78 with vaginal progesterone (9 trials) and 0.83 with 17-OHPC (5 trials).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cb3cc13b2f489022",
+     "n": 695,
+     "p": "The EPPP"
+    }
+   ],
+   "locator": "International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852, 'FIGO good practice recommendations on progestogens for prevention of preterm delivery', published October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No risk factor, no progesterone:** FIGO does not recommend it for women without a previous preterm birth, a mid-trimester loss or a short cervix, because so few of them were in the trials that any benefit is unknown.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5431e8e1143ad31a",
+     "n": 208,
+     "p": "few wome"
+    },
+    {
+     "h": "75bb3b79a0a5dbce",
+     "n": 215,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852, 'FIGO good practice recommendations on progestogens for prevention of preterm delivery', published October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Unselected twins or higher-order multiples: not recommended.** In EPPPIC (16 trials) neither vaginal progesterone (RR 1.01) nor 17-OHPC (RR 1.04) lowered birth before 34 weeks; for a multiple pregnancy with another risk factor, such as an earlier preterm birth, the effect is unknown.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "01101efbd688768d",
+     "n": 252,
+     "p": "The EPPP"
+    },
+    {
+     "h": "dc72db6a22cb8160",
+     "n": 283,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852, 'FIGO good practice recommendations on progestogens for prevention of preterm delivery', published October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Either progestogen can be used, and the woman chooses with her clinician:** the only two direct comparisons found no difference between vaginal progesterone and 17-OHPC for birth before 34 weeks (RR 1.18).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "28d56c9342020e3d",
+     "n": 449,
+     "p": "In the E"
+    }
+   ],
+   "locator": "International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852, 'FIGO good practice recommendations on progestogens for prevention of preterm delivery', published October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No neurological or developmental benefit or harm has been shown in children exposed before birth:** a systematic review of 5 trials (4222 measurements in children aged 6 months to 8 years) found neither.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9acbf21ac133b653",
+     "n": 492,
+     "p": "A recent"
+    }
+   ],
+   "locator": "International Federation of Gynecology and Obstetrics (FIGO) Working Group for Preterm Birth (Shennan A, Suff N, Simpson JL, Jacobsson B, Mol BW, Grobman WA), International Journal of Gynecology & Obstetrics 155(1):16-18, doi 10.1002/ijgo.13852, 'FIGO good practice recommendations on progestogens for prevention of preterm delivery', published October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9291591/, retrieved 2026-09-24"
   },
   {
    "claim": "**The weekly intramuscular 17-alpha-hydroxyprogesterone caproate used in the US trials is not available in Australia.**",

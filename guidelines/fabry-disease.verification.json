@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/fabry-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/",
+  "https://hdl.handle.net/11343/351398"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021' (published 2022). Every pass claim is machine re-checkable. LICENCE: CC BY (read at Europe PMC fullTextXML <license> element for PMC9269181). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021' (published 2022), 16 claims; LICENCE: CC BY (read at Europe PMC fullTextXML <license> element for PMC9269181). S2: PARAPHRASED AND HASH-ANCHORED from Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327) 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices' (published June 2024), 10 claims; LICENCE: CC BY-NC 4.0 (read at University of Melbourne Minerva Access record (dc.rights.license 'CC BY-NC') and the article's own statement: 'open access article under the terms of the Creative Commons Attribution-NonCommercial License'). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian modified-Delphi consensus (17 clinical statements, Fabry Australia medical advisory committee, IMJ 2024), read from the University of Melbourne repository copy of the published PDF. S2 is non-commercial, so it is paraphrased and hash-anchored; its tables survived PDF extraction and are anchored directly. The Wave 3 S1 claims are unchanged.",
  "summary": {
-  "total": 16,
+  "total": 26,
   "pass": 16,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 10
  },
  "claims": [
   {
@@ -31,6 +33,47 @@
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **Classify every confirmed patient by phenotype and sex** into four groups: classical male, classical female, non-classical male, non-classical female. If the criteria cannot be applied, the Fabry specialist makes the final call, and an expert in Fabry genetics should interpret any GLA variant of uncertain significance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1098d4837e5abbfb",
+     "n": 72,
+     "p": "Fabry di"
+    },
+    {
+     "h": "f20ba8bf84f132c1",
+     "n": 174,
+     "p": "they pro"
+    },
+    {
+     "h": "7fa073badbc8d0d2",
+     "n": 147,
+     "p": "For pati"
+    },
+    {
+     "h": "991d1c6571575936",
+     "n": 138,
+     "p": "The advi"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **A kidney biopsy is not needed to diagnose non-classical Fabry disease;** keep it for ruling out other treatable kidney disease or for a GLA variant of uncertain significance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2536e813420a84cc",
+     "n": 171,
+     "p": "In non-c"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Screen at-risk groups:** unexplained proteinuria or albuminuria, dialysis (CKD 5D), hypertrophic cardiomyopathy, or stroke/TIA without another cause. After an index case, build a pedigree of at least three generations and test every relative.",
    "source": "S1",
    "verdict": "pass",
@@ -43,6 +86,86 @@
    "verdict": "pass",
    "source_text": "Males and females with classic phenotype disease must be treated as soon as early signs of FD-related target organ involvement are present (CLASS I RECOMMENDATION). … we recommend that ERT should be offered to males with classic FD from the age of seven years, even in the absence of signs or symptoms (CLASS IIA RECOMMENDATION).",
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ 🇦🇺 **Australian consensus: consider Fabry-specific therapy for classical males at any age,** because all of them develop organ involvement; start early to avoid irreversible organ damage. (S1 sets age seven for asymptomatic classic males.)",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5e8e5ee54b22ab8",
+     "n": 151,
+     "p": "All clas"
+    },
+    {
+     "h": "482ecd160accb0b1",
+     "n": 75,
+     "p": "Timely t"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Classical females: treat when Fabry disease has injured the kidney, heart or central nervous system, or when its symptoms significantly reduce quality of life.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "976b8a0948e9d4d9",
+     "n": 300,
+     "p": "Classica"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Non-classical disease (male or female): treat when there is Fabry-attributable injury to the kidney, heart or brain.** Without tissue pathology or symptoms, therapy may not be appropriate; a multidisciplinary Fabry team should monitor instead.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "687dfbcce28dba6c",
+     "n": 439,
+     "p": "Non-clas"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Proposed signs of heart involvement** (for starting therapy): unexplained complete heart block, ventricular tachycardia or atrial fibrillation on ECG; LV mass index above normal for age, wall thickness over 12 mm or abnormal strain on echo; low T1, high T2 or late gadolinium enhancement on cardiac MRI; or a diagnostic biopsy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b6b46caea1b6a62a",
+     "n": 513,
+     "p": "Electroc"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Proposed kidney criteria:** in classical females, A3 proteinuria/albuminuria without another cause, reduced GFR from Fabry nephropathy, or a confirmatory biopsy; in non-classical disease, reduced GFR from Fabry nephropathy once other causes of CKD are firmly excluded. S2 argues that sex-based kidney definitions can no longer be justified.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9e7b37959443ff9",
+     "n": 470,
+     "p": "Proteinu"
+    },
+    {
+     "h": "221e06126348b250",
+     "n": 184,
+     "p": "Evidence"
+    },
+    {
+     "h": "14d7b099dc70b366",
+     "n": 137,
+     "p": "the LSDP"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
   },
   {
    "claim": "**Symptomatic females: always treat. Asymptomatic females: treat if there is kidney injury** (GFR below 90 mL/min/1.73m², albumin-to-creatinine ratio persistently above 30 mg/g, or biopsy changes).",
@@ -86,6 +209,55 @@
    "source_text": "The two drugs are administered intravenously every 15 days, since the enzymes in question are rapidly depleted in plasma. The recommended doses for agalsidase alfa and beta are 0.2 mg/kg/dose and 1 mg/kg/dose, respectively. Differently from agalsidase alfa, agalsidase beta always requires pre-medication. … One of the main adverse events is infusion reaction characterized by fever, rigors, edema, skin rash, nausea, dyspnea, and development of anti-agalsidase antibodies.",
    "locator": "Committee for Rare Diseases (Comdora), Brazilian Society of Nephrology, Jornal Brasileiro de Nefrologia, 'Brazilian consensus recommendations for the diagnosis, screening, and treatment of individuals with fabry disease: Committee for Rare Diseases - Brazilian Society of Nephrology/2021', published 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9269181/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "🇦🇺 **No Fabry therapy has been shown superior to another, and migalastat does not work better after 12 months of ERT** than in ERT-naive patients. S2 calls for dropping the LSDP rule that restricted migalastat to second line after a trial of at least 12 months of ERT.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "020695ceae7f491e",
+     "n": 254,
+     "p": "No compe"
+    },
+    {
+     "h": "dbc7c45234225fb3",
+     "n": 117,
+     "p": "the curr"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Choose therapy with the patient.** With an amenable variant, weigh organ involvement, adherence, the need for closer monitoring of response, and any plan for pregnancy within 12 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ce4f467f11150ae0",
+     "n": 395,
+     "p": "Choice o"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Why the Australian criteria were questioned:** LSDP access rules were first set in 2004; the committee rated them poorly on the AGREE II appraisal tool and judged them pragmatic but out of step with current evidence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "25fc53fee72a3388",
+     "n": 397,
+     "p": "In Austr"
+    },
+    {
+     "h": "aafa1e08c66e383e",
+     "n": 136,
+     "p": "The curr"
+    }
+   ],
+   "locator": "Nicholls K, Denaro C, Tchan M, Ellaway C, Bratkovic D, Campbell S, Fookes M, Thomas M (Fabry Australia Medical Advisory Committee), Internal Medicine Journal 54(6):882-890 (doi 10.1111/imj.16327), 'Fabry-specific treatment in Australia: time to align eligibility criteria with international best practices', published June 2024, https://hdl.handle.net/11343/351398, retrieved 2026-09-24"
   },
   {
    "claim": "**Do not start therapy** in CKD 4–5 not eligible for transplant with NYHA IV heart failure, or with advanced disease and life expectancy under a year. IgE antibodies to agalsidase are generally an absolute contraindication.",

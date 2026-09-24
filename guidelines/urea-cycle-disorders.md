@@ -1,13 +1,15 @@
 # Urea cycle disorders: recognition, acute hyperammonaemia and long-term care
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspecting a urea cycle disorder at any age, measuring ammonia, emergency management of hyperammonaemia (scavengers, arginine or citrulline, carglumic acid, dialysis), the baby at risk at birth, long-term low-protein diet with essential amino acids, nitrogen scavengers, arginine/citrulline, intercurrent illness and surgery, liver transplantation and monitoring. First steps for any suspected inborn error in an unwell child: `metabolic-disorders-children`. Hyperammonaemia in liver disease: `hepatic-encephalopathy`.
 
-> ✅ **OPEN AND QUOTED.** 20 claims quoted verbatim from **Häberle J, Boddaert N, Burlina A, et al. (European UCD guideline group, E-IMD), Orphanet Journal of Rare Diseases — *Suggested guidelines for the diagnosis and management of urea cycle disorders*** (vol. 7, article 32, published 29 May 2012; origin: international); **36 fragments re-checked by machine; 3 doses.** Licence: *CC BY 2.0*.
+> ✅ **COMPILED FROM 3 SOURCES.** 36 claims; **66 fragments or anchors re-checkable by machine; 10 doses.** **S1** Häberle J (vol. 7, article 32, published 29 May 2012; international): 20 claims, quoted · **S2** Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program (first edition April 2026, v1.3, updated April 2026; international): 12 claims, paraphrased, hash-anchored · **S3** British Inherited Metabolic Diseases Group (BIMDG) (© BIMDG 2016, last reviewed May 2023; international): 4 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (European UCD guideline group, 2012). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Older edition.** A 2019 first revision of this guideline exists but is not open access and was not read. Doses and details here may have been updated since.
+
+> ⚠️ International sources added (S2 GMDI/SERN, US, April 2026; S3 BIMDG, UK, reviewed May 2023). **S2** is a nutrition guideline that cites the 2019 European revision; it adds current protein-restriction limits, total protein by age, amino acid doses, sick-day, procedure and pregnancy advice. **S3** adds emergency IV fluids and scavenger loading doses for **OTC and CPS deficiency only**. Where sources differ, both are shown.
 
 > The PBS `Urea cycle disorders` row covers **sodium phenylbutyrate, arginine, citrulline and essential amino acid formulas**. Sodium benzoate, which this guideline's authors often prefer, is not on that PBS row.
 
@@ -28,6 +30,17 @@
 - **Keep the patient anabolic with high-dose glucose plus lipids** (once a fatty acid oxidation disorder is excluded). Reintroduce protein when ammonia is below 100 μmol/L, ideally within 24–48 hours. [S1]
 - **Prognosis is very poor** after more than 3 days of hyperammonaemic coma, clearly raised intracranial pressure, or a peak ammonia above 1000 μmol/L; weigh this before treatment. [S1]
 - **Baby at risk at birth (previous early-onset sibling):** within 30 min start 10% glucose at 4 ml/kg/h; after 4 symptom-free hours give protein-free feeds with oral sodium benzoate and L-arginine 50 mg/kg 6-hourly; check ammonia at 6 h. [S1]
+- ⚠️ **GMDI: take protein away for no longer than 24 hours,** because prolonged restriction drives catabolism and negative nitrogen balance. Meanwhile give 100–125% of estimated energy from carbohydrate and fat: IV dextrose (for example a glucose infusion rate of 10 mg/kg/min in neonates), IV lipid at 1–3 g/kg/day, and oral or enteral feeds as early as they can be started. If glucose climbs (above about 150-200 mg/dL), add insulin so the dextrose can continue, checking glucose hourly while it runs. [S2]
+- **Bring protein back in steps (GMDI):** restart after 24 hours without protein or once ammonia is below 100 μmol/L, whichever is first; begin at 25-50% of the target and add 25-50% a day as tolerated. An EAA-based medical food can be used first, alone or with intact protein, especially in severe neonatal presentations; in neonates, human milk can supply the protein. After dialysis, start higher, at 50-75% of the target. [S2]
+- **IV L-arginine hydrochloride (GMDI), except in arginase deficiency:** about 200-400 mg/kg in CIT-I (ASS deficiency) and ASA (ASL deficiency), then oral L-arginine; about 100-250 mg/kg in OTC and CPS deficiency, then oral L-citrulline. [S2]
+- **Laboratory monitoring in a crisis (GMDI):** ammonia every 2-4 hours while treating, then every 3-12 hours while protein is reintroduced; plasma amino acids up to daily but not within 24 hours of a diet change; glucose and electrolytes often, glucose up to hourly on insulin. [S2]
+
+## Acute hyperammonaemia: emergency doses (BIMDG, OTC and CPS deficiency)
+
+- ⚠️ **Start IV fluids at once if the child is unwell or vomiting:** a 20 ml/kg 0.9% saline bolus if circulation is poor or the child is shocked, then 10% glucose with 0.45% saline at 5ml/kg/h only until the deficit plus 24-hour maintenance has been calculated. With full-dose sodium benzoate and phenylbutyrate use 10% glucose; if they are not at full dose use 10% glucose with 0.18% saline. [S3]
+- ⚠️ **Do not delay the scavengers (BIMDG):** a loading dose over 90 minutes of sodium benzoate 250 mg/kg, sodium phenylbutyrate 250 mg/kg and arginine 150 mg/kg, then 250 mg/kg of each every 24 hours as a continuous infusion. The daily maximum is 500 mg/kg for benzoate and for phenylbutyrate, which carry 3.5 and 2.8 mmol/kg/d of sodium respectively. Discuss doses with the regional metabolic centre after the first treatment. [S3]
+- **Mild cases treated by mouth (BIMDG):** 2-hourly glucose-polymer emergency feeds day and night, by tube if not tolerated, for up to 24-36hours; raise the usual oral scavengers (sodium benzoate and phenylbutyrate up to 500 mg/kg/day, arginine 150 mg/kg/day) and split them 2-hourly to limit vomiting. [S3]
+- ⚠️ **Watch closely (BIMDG):** start insulin if glucose exceeds 8 mmol/l rather than cutting glucose; add potassium once urine flows (hypokalaemia is common); at any hint of encephalopathy do neurological observations at least hourly and give concentrated fluids through a central line to limit cerebral oedema; reassess and repeat gases, ammonia and electrolytes every 4-6 hours. [S3]
 
 ## Long-term management
 
@@ -40,10 +53,21 @@
 - ⚠️ **Start the emergency regimen without delay (even at home) when illness threatens hyperammonaemia;** call the metabolic unit if there is no prompt improvement. Vaccinate on the normal schedule; treat fever above 38°C. [S1]
 - **Elective surgery only when fully well, in a centre that can manage hyperammonaemia;** switch drugs to IV and infuse 10% glucose the day before. [S1]
 - **Liver transplantation is the only cure;** ideally before irreversible neurological damage, generally between 3 and 12 months of age, for severe neonatal onset (not NAGS deficiency), progressive liver disease, recurrent crises despite treatment, or poor quality of life. [S1]
+- **Total protein when well (GMDI Table 1, intact protein plus EAA food), g/kg/day:** 1.1-2.2 at 0-12 months, 1.0-1.5 at 1-8 years, 0.8-1.4 at 9-18 years and 0.7-1.0 over 18 years. Aim for the most protein each person tolerates; severe phenotypes start at the low end. [S2]
+- **Protein source (GMDI):** in severe UCD, an EAA-based medical food supplies about 50% of total protein, titrated to response; mild UCD usually needs none. In arginase deficiency, about 50% of protein comes as intact protein, adjusted to plasma arginine. [S2]
+- **Oral amino acid supplements (GMDI):** L-citrulline 100-200 mg/kg/day in CPS and OTC deficiency; L-arginine about 100-300 mg/kg/day below 20 kg, or 2.5-6 g/m2/day above 20 kg, in CIT-I and ASA; no arginine in arginase deficiency. Split doses through the day and adjust to plasma amino acids; use lower arginine doses with liver dysfunction or mild disease. [S2]
+- **Carglumic acid (GMDI):** consider it in CPS deficiency to raise protein tolerance. In NAGS deficiency on an effective carglumic acid dose, the diet can be unrestricted in protein. [S2]
+- **Home plan for mild illness (GMDI):** cut protein by up to 50% for 24-48 hours, raise non-protein energy by at least 10-20% and fluids by 10-20%, and keep giving amino acid supplements and scavengers. Give the family warning signs, when to call the metabolic team, and an emergency letter; avoid long fasts and drugs that can precipitate a crisis, such as corticosteroids and valproate. [S2]
+- **Planned procedures (GMDI):** book the patient first on the list and admit the day before; keep the fast as short as is safe with continuous IV dextrose throughout; avoid long religious or exercise-related fasts. [S2]
+
+## Pregnancy and the postpartum period (GMDI)
+
+- ⚠️ **Labour and delivery need a written plan** (IV dextrose, L-arginine hydrochloride, scavengers, monitoring): check ammonia 4-6 hourly and glucose 1-4 hourly, with IV support until eating well. Watch clinical state and ammonia closely for the first six weeks after birth (most closely in the first two), and give 100-120% of energy needs postpartum. [S2]
 
 ## Monitor
 
 - **Targets:** ammonia below 80 μmol/L, glutamine below 1000 μmol/L, arginine high-normal, and essential and branched-chain amino acids normal. Test IQ and development regularly. [S1]
+- **Well-state biochemistry (GMDI):** sample plasma amino acids at the same time of day, 3-4 hours post-meal, ideally a week or more after a diet change; keep glutamine below 1000 µmol/L, arginine in the normal range (below 200 µmol/L in arginase deficiency), and essential and branched-chain amino acids normal. [S2]
 
 ---
 
@@ -61,16 +85,22 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Acute and long-term drug doses** (scavenger, arginine and carglumic acid dosing tables, Tables 4, 5 and 8) and the emergency-regimen table (Table 6) were stripped; those doses are not stated here. | `input_unavailable` |
-| 2 | **Newer edition not read:** the 2019 first revision (J Inherit Metab Dis, doi:10.1002/jimd.12100) is closed access. Re-anchor to it if an open copy becomes available. | `observation` |
-| 3 | **Glycerol phenylbutyrate**, used internationally, is not on the PBS `Urea cycle disorders` row and is not covered by this 2012 source. | `observation` |
-| 4 | **Australian guidance:** the ASIEM low-protein handbook for urea cycle disorders (2007) exists but HGSA's terms prohibit reproduction, so it was not used. | `observation` |
-| 5 | **Licence:** CC BY 2.0, read in the Europe PMC XML. Claims are quoted verbatim with attribution. | `observation` |
+| 1 | **Drug doses:** S1's dosing tables (Tables 4, 5, 6 and 8) were stripped. Scavenger loading and maintenance doses now come from S3 (BIMDG, OTC and CPS deficiency only) and arginine and citrulline doses from S2. BIMDG's ASS/ASL and NAGS protocols, and carglumic acid doses, were not added. | `input_unavailable` |
+| 2 | **Newer edition not read:** the 2019 first revision (J Inherit Metab Dis, doi:10.1002/jimd.12100) is closed access; retried 2026-09-24 (Unpaywall and OpenAlex closed; ZORA and Digital.CSIC copies behind bot challenges). S2 (2026) cites it. Re-anchor to it if an open copy becomes available. | `observation` |
+| 3 | **Protein-free period differs:** S1 (2012) aims to reintroduce protein within 24–48 hours; S2 (2026) removes protein for no more than 24 hours. Both are shown; S2 is newer. | `observation` |
+| 4 | **Essential amino acid share differs:** S1 gives 20–30% of total protein as EAA (up to 50% in arginase deficiency); S2 gives about 50% as EAA in severe UCD and about 50% as intact protein in arginase deficiency. Both are shown. | `observation` |
+| 5 | **Scavenger ceilings differ within BIMDG:** the OTC/CPS protocol used here (S3) caps sodium phenylbutyrate at 500 mg/kg/day; BIMDG's separate medicines sheet (reviewed April 2017, not used) allows up to 600 mg/kg/day in an emergency. Follow the metabolic centre. | `observation` |
+| 6 | **Units:** S2 gives glucose in mg/dL (150-200); S3 uses mmol/L (insulin above 8 mmol/l). | `observation` |
+| 7 | **Glycerol phenylbutyrate**, used internationally, is not on the PBS `Urea cycle disorders` row and is not covered by this 2012 source. | `observation` |
+| 8 | **Australian guidance:** none current was found. The ASIEM low-protein handbook for urea cycle disorders (©HGSA 2007) is a family diet handbook, 19 years old, so it was not used as the second source. | `observation` |
+| 9 | **Licences:** S1 is CC BY 2.0, read in the Europe PMC XML, and quoted verbatim with attribution. S2 (no licence stated on the GMDI portal) and S3 (© BIMDG) are paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Häberle J, Boddaert N, Burlina A, et al. (European UCD guideline group, E-IMD), Orphanet Journal of Rare Diseases. *Suggested guidelines for the diagnosis and management of urea cycle disorders*. vol. 7, article 32, published 29 May 2012. https://pmc.ncbi.nlm.nih.gov/articles/PMC3488504/ — retrieved 2026-09-23. | CC BY 2.0 | **quoted, re-checkable** |
+| **S2** | Genetic Metabolic Dietitians International (GMDI) and Emory University MNT4P program, Southeast Regional Genetics Network (SERN) Management Guidelines Portal. *UCD Nutrition Management Guidelines, First Edition (v1.3)*. first edition April 2026, v1.3, updated April 2026. https://managementguidelines.net/guidelines.php/152/UCD — retrieved 2026-09-24. | No licence or reproduction permission stated on the portal (disclaimer page read); treated as all rights reserved | **paraphrased, hash-anchored** |
+| **S3** | British Inherited Metabolic Diseases Group (BIMDG). *Hyperammonaemia: urea cycle disorders, OTC and CPS deficiencies (standard version), paediatric emergency protocol*. © BIMDG 2016, last reviewed May 2023. https://bimdg.org.uk/wp-content/uploads/2024/11/ER-UCD1-v4_972421_09092016.pdf — retrieved 2026-09-24. | © BIMDG 2008/2016 (no licence or reproduction permission in the PDF or on bimdg.org.uk) | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

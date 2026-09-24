@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/systemic-mastocytosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel' (published online 26 May 2022). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9605912). The source's words are NOT reproduced here. The WHO criteria (Table 1), classification (Table 2) and cytoreductive agent table (Table 5, with doses) were stripped. The expert meeting was funded by Novartis (midostaurin manufacturer).",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel' (published online 26 May 2022), 19 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9605912). S2: QUOTED from French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7) 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)' (published 2 October 2025), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12492810). Verify each source separately: verify.py --source <file> --only-source S<n>. The WHO criteria (Table 1), classification (Table 2) and cytoreductive agent table (Table 5, with doses) were stripped. The expert meeting was funded by Novartis (midostaurin manufacturer). Edition 2.0 keeps every S1 claim unchanged and adds S2, the French national guideline for non-advanced mastocytosis (2025, CC BY 4.0, quoted), for KIT testing method, symptom-drug and omalizumab doses, adrenaline dosing, avapritinib, bone care and monitoring. It covers non-advanced disease only; no open guideline for advanced SM was found (NCCN 2024 and the EBMT 2024 transplant recommendations are not open access), and no Australian mastocytosis guideline was found.",
  "summary": {
-  "total": 19,
-  "pass": 0,
+  "total": 29,
+  "pass": 10,
   "fail": 0,
   "pass_paraphrase_anchored": 19
  },
@@ -129,6 +130,20 @@
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Test for KIT D816V by ASO-qPCR or droplet digital PCR on blood and marrow DNA** (detection threshold 0.01%; positive in more than 94% of SM). The allele burden also tracks cytoreductive treatment. If negative but suspicion stays high, sequence the whole KIT coding region from marrow RNA; other techniques are not advised.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Screening for the D816V mutation in the KIT gene, which is positive in more than 94% of cases of SM. This research must be carried out by ASO-qPCR or by droplet digital PCR using DNA extracted from blood and bone marrow cells (technical consensus in Europe, quantitative with a detection threshold of 0.01%). These techniques also enable quantification of the tumor mast cell mass (allelic load) by expressing the allelic fraction of the circulating or medullary KIT D816V mutation, in particularly to monitor possible cytoreductive treatments (cladribine, TKIs) [, ]. If this investigation yields a negative result but the suspicion of systemic mastocytosis remains high, analysis of the entire coding sequence of the KIT gene can be performed by sequencing RNA extracted from the bone marrow [, ]. The search for the KIT D816V mutation can be extended to include other organs, such as the liver, gastrointestinal tract or any other infiltrating internal organ. The utilization of alternative genetic techniques is not advised due to their limited sensitivity.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Basal tryptase above 20 ng/mL is a minor criterion, but hereditary alpha-tryptasaemia (TPSAB1 duplication, in 5% of people) raises basal tryptase,** so this criterion will need re-evaluation.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Basal serum tryptase measurement in the absence of an anaphylactic reaction; a level > 20 ng/mL is a minor diagnostic criterion for SM. This minor criterion will require re-evaluation in the future given the impact of duplication of the TPSAB1 alpha-tryptase gene (present in 5% of the general population) on the basal tryptase level [].",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Individualise treatment**, from watchful waiting and symptom control up to cytoreduction for aggressive, advanced or refractory disease. Trigger avoidance and antihistamines (H1 for general, H2 for gut symptoms) are the basis of symptom control. (GRADE 2)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -229,6 +244,30 @@
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Adrenaline autoinjector dose (S2):** 0.3 mg if under 60 kg, 0.5 mg if over 60 kg, repeated every 15 minutes if needed, up to two injections; carry two pens, which keep at room temperature. S2 suggests pens for patients with a history of severe anaphylaxis; S1 advises them for every SM patient (see Unresolved).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the event of confirmed previous anaphylactic shock, an intramuscular self-injectable adrenaline may be used in case of emergency up to a maximum of 2 times: patients must carry an epinephrine pen in duplicate and this can be stored at room temperature. The dose to be used is 0.3 mg if the weight is < 60 kg or 0.5 mg if it is > 60 kg, with 1 injection repeated every 15 min if necessary (up to a maximum of two injections). … The use of an adrenaline pen (self-injectable epinephrine that the patient must carry) is suggested for patients with a history of severe or very severe anaphylactic reactions with anaphylactic shock.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Symptomatic drugs (all off-label):** second-generation H1 antihistamines for flushing and itch, H2 blockers for gastroduodenal symptoms (a PPI if H2 blockers only partly work), montelukast, and oral sodium cromoglycate 100 or 200 mg 2 or 4 times a day, which helps gut symptoms after 2 to 3 weeks. Avoid medium- or long-term systemic steroids (rebound, bone harm); budesonide suits gut symptoms.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Second-generation anti-H1 antihistamines (off-label) (levocetirizine, desloratadine, ebastine, etc.) sometimes associated with H2 antihistamines (off-label) (famotidine, cimetidine, etc.) are the key agents used as first-line treatments to block receptors since various cells (endothelial, bronchial, neurological, digestive, etc.) are activated by histamine, which is released by mast cells. Second-generation H1 blockers (non-sedative) act mainly on flushing and pruritus; the effect of H2 blockers is more marked on gastroduodenal manifestations (ulcer type, gastritis, diarrhea). They can be combined to potentiate their effects, particularly on flushing and digestive disorders. … The use of a proton pump inhibitor (off-label) may be proposed when there is partial efficacy of H2 blockers. … A mast cell membrane stabilizer (disodium cromoglycate) (off-label) is available only as a compounded preparation. At a dose of 100 or 200 mg 2 or 4 times a day, after 2 to 3 weeks of use this drug allows a reduction in digestive symptoms and, in certain cases, alleviation of pruritus and other systemic symptoms. … General corticosteroid therapy only has a suspensive effect, sometimes with a risk of rebound on discontinuation and potential deleterious bone risk in this area. It should be avoided in the middle or long term. However, intestinal disintegration corticosteroid therapy, such as budesonide (off-label), can be offered for symptomatic digestive disorders with good efficacy while limiting the adverse effects of general corticosteroid therapy.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Omalizumab after first-line symptomatic failure:** 150 mg every 15 days, increasing to 300 mg every 2 weeks if needed; give the first two injections in hospital.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Omalizumab, which can be increased to 300 mg every 2 weeks depending on safety and efficacy, has been shown to be effective in retrospective studies for the management of symptoms of mast cell activation in individuals with indolent mastocytosis at a dose of 150 mg once every 15 days. The first two injections are generally given in a hospital setting []. … In the event of failure of the first line of symptomatic treatment, discuss treatment with omalizumab (see § 2 of the guide for treating physicians) or inclusion in a therapeutic protocol: masitinib, B263;",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Osteoporosis affects 8-41% of SM patients** and fragility fractures are common. Give a bisphosphonate with vitamin D and calcium for osteopenia or osteoporosis (GRADE 4), and consider cytoreduction after pathological fractures (GRADE 5).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -268,6 +307,28 @@
     }
    ],
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Calcium and vitamin D (S2):** supplement when dietary calcium is under 1000 mg/day or 25-OH vitamin D is 30 ng/mL (75 nmol/L) or less, in every form of mastocytosis. If denosumab is used, expect a rebound fracture risk when it stops; zoledronic acid with bone-resorption marker monitoring is the current approach.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the event of a deficiency in dietary calcium intake (less than 1000 mg/D) and/or in the event of vitamin D deficiency (measured by a level of 25OH D ≤ 30 ng/mL or 75 nmol/L), supplementation is necessary to avoid worsening bone loss. Correcting these deficiencies also makes it possible to improve the efficacy of anti-osteoporotic medications. It is necessary in all cases of mastocytosis. … If denosumab is prescribed, a rebound effect should be anticipated if the treatment is stopped. The current state of knowledge in the field of postmenopausal osteoporosis consists of prescribing one or more infusions of zoledronic acid with close monitoring of bone resorption markers (serum CTX) [];",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **No phototherapy (PUVA) in adults with mastocytosis:** melanoma is more common in mastocytosis, and phototherapy adds to that risk. Topical steroids have no place in adults.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "PUVA therapy is a classic treatment for cutaneous mastocytosis, especially in the maculopapular form, but this treatment should no longer be offered. Indeed, in a Danish case‒control study, increased prevalence of melanoma was demonstrated in patients with mastocytosis []. This intrinsic risk is added to that of phototherapy. … Topical corticosteroids have no place in adults, unlike in children.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monitoring (S2):** tryptase, albumin, blood count and liver tests at least yearly to catch progression; bone density every 24 to 36 months; review symptoms 3 to 6 months after starting treatment, since control often takes that long.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Cary out serum tryptase and albumin assay, complete blood count (CBC) and liver tests at least once a year to assess the absence of progression of the indolent form of mastocytosis toward a more advanced form; … Assess bone mineral density every 24 to 36 months … The course is generally slow and favorable, and it often takes 3-6 months to achieve partial or complete control of symptoms.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
   },
   {
    "claim": "**Cytoreduction is indicated for advanced SM, and for indolent or smouldering SM when symptom treatment fails.** Choose the agent by clinical picture and molecular results (KIT status, high-risk mutations); cladribine, interferon-alpha and midostaurin are suitable first choices. (GRADE 5)",
@@ -353,6 +414,20 @@
     }
    ],
    "locator": "Brazilian multidisciplinary expert panel (Velloso EDRP, Padulla GA, de Cerqueira AMM, et al.; meeting funded by Novartis), Hematology, Transfusion and Cell Therapy, 'Diagnosis and treatment of systemic mastocytosis in Brazil: Recommendations of a multidisciplinary expert panel', published online 26 May 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9605912/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Avapritinib (a KIT D816V inhibitor) for indolent SM with disabling symptoms:** in PIONEER, 54% of 141 patients versus 0 of 71 on placebo halved their serum tryptase by week 24. It is the first TKI for indolent mastocytosis refractory to symptomatic treatment (EU authorisation 2023).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Avapritinib (BLU-285) (marketing authorization), an inhibitor of the KIT D816V mutant, is currently being evaluated in the extension (phase II/III PIONEER trial []) in indolent systemic forms with disability. In this study, avapritinib reduced uncontrolled symptoms and mast-cell burden in patients with ISM. Moreover, from baseline to Week 24, 76 of 141 patients (54%; 45% to 62%) in the avapritinib group compared to 0/71 patients in the placebo group achieved a 50% reduction in serum tryptase level (P < 0.001) [].This new treatment is the firstTKIs for indolent forms of mastocytosis refractory to symptomatic treatments []. In fact, the treatment received marketing authorization in European Union in 2023 but is not yet available for prescription in France.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Non-advanced SM, cytoreduction (S2):** used empirically and only after a multidisciplinary meeting; interferon-alpha and cladribine work but are rarely used in non-advanced disease, discussed after omalizumab fails. Midostaurin is authorised for advanced SM; in indolent SM its gut toxicity is poor (nausea 80%, vomiting 35%). Imatinib does not work with KIT D816V.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "These treatments are associated with adverse effects and, for the most part, immunosuppression, leading to the prescription of these treatments with caution and in a personalized manner. This prescription must be made after discussion in a multidisciplinary consensus meeting (MCM). … To date, the main treatments that have shown some effectiveness are interferon-alpha [-] and 2-chlorodeoxyadenosine (cladribine or 2-CdA)[-], but these treatments are rarely prescribed in non-advanced forms of mastocytosis, even if a recent paper on cladribine in these forms of mastocytosis was published in 2024 []. … Midostaurin is a multikinase inhibitor with Marketing Authorization in France for advanced systemic mastocytosis. There is an open-label phase II study for ISM with interesting efficacy results. However, safety, particularly digestive, is often poor, with adverse effects that include nausea (80% of patients), vomiting (35%) and headaches (10.5%) []. … To date, imatinib is recognized as ineffective where patients carry the KIT D816V mutation in the marrow and/or skin, as was reported in vitro by Zermati et al. []. On the other hand, this treatment is proposed for SM associated with hypereosinophilic syndromes with the presence of the FIP1L1-PDGFRa fusion gene and SM without KIT mutation at exon 17.",
+   "locator": "French reference centre for mastocytosis (CEREMAST) working group (Bulai Livideanu C, Barete S, Damaj G, Arock M, et al.), Orphanet Journal of Rare Diseases 20:499 (doi 10.1186/s13023-025-03764-7), 'French guidelines for the management of nonadvanced mastocytosis in adults (national care and diagnosis protocol, PNDS)', published 2 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12492810/, retrieved 2026-09-24"
   }
  ]
 }

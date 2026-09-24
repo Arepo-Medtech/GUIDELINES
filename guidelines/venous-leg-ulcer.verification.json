@@ -1,20 +1,22 @@
 {
  "guideline": "guidelines/venous-leg-ulcer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://woundsaustralia.org/int/woundsaus/uploads/Publications/venous%20leg%20ulcer%20assessment%20section-2025.pdf"
+  "https://woundsaustralia.org/int/woundsaus/uploads/Publications/venous%20leg%20ulcer%20assessment%20section-2025.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11380361/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Venous Leg Ulcer Guideline Committee (Wounds Australia, New Zealand Wound Care Society, Hong Kong Enterostomal Therapists Association, Wound Healing Society of Singapore); E. Haesler (Ed.) 'Clinical Practice Guideline for Venous Leg Ulcers: Assessment (2nd edition)' (2025 (first edition 2011)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Hong Kong Enterostomal Therapists Association, New Zealand Wound Care Society, Wounds Australia and the Wound Healing Society of Singapore. All rights reserved (read at the copyright page of the PDF). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Venous Leg Ulcer Guideline Committee (Wounds Australia, New Zealand Wound Care Society, Hong Kong Enterostomal Therapists Association, Wound Healing Society of Singapore); E. Haesler (Ed.) 'Clinical Practice Guideline for Venous Leg Ulcers: Assessment (2nd edition)' (2025 (first edition 2011)), 21 claims; LICENCE: © Hong Kong Enterostomal Therapists Association, New Zealand Wound Care Society, Wounds Australia and the Wound Healing Society of Singapore. All rights reserved (read at the copyright page of the PDF). S2: PARAPHRASED AND HASH-ANCHORED from Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8) '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease' (published 30 June 2025), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12462076). S3: PARAPHRASED AND HASH-ANCHORED from International Union of Phlebology (UIP); Tan MKH, Lurie F, Bauza Moreno H, et al., Phlebology 39(7) 'Management of venous leg ulcers (International Union of Phlebology one-page guideline)' (published online 29 March 2024), 5 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC11380361). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and anchor (S1, the 2025 Australian/NZ assessment section) unchanged and adds treatment: S2, the SCAI 2025 GRADE guideline on chronic venous disease (compression, ablation, sclerotherapy, perforator and iliocaval treatment), and S3, the UIP 2024 one-page VLU guideline (wound care, duplex, follow-up of non-healing ulcers). The Wounds Australia 2025 management section is still unpublished; the ESVS 2022 chronic venous disease guideline (CC BY) was behind a bot challenge and was not read.",
  "summary": {
-  "total": 21,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -329,6 +331,224 @@
     }
    ],
    "locator": "Venous Leg Ulcer Guideline Committee (Wounds Australia, New Zealand Wound Care Society, Hong Kong Enterostomal Therapists Association, Wound Healing Society of Singapore); E. Haesler (Ed.), 'Clinical Practice Guideline for Venous Leg Ulcers: Assessment (2nd edition)', 2025 (first edition 2011), https://woundsaustralia.org/int/woundsaus/uploads/Publications/venous%20leg%20ulcer%20assessment%20section-2025.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**With appropriate treatment most venous ulcers heal within 6 months, but up to 70% recur within 5 years.** See the patient regularly to track healing; if it is acceptable, carry on.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bc802d8fcd12f1fc",
+     "n": 82,
+     "p": "With app"
+    },
+    {
+     "h": "442da339cc305da5",
+     "n": 57,
+     "p": "high rat"
+    },
+    {
+     "h": "2142feb6b634d8ae",
+     "n": 194,
+     "p": "It is re"
+    }
+   ],
+   "locator": "International Union of Phlebology (UIP); Tan MKH, Lurie F, Bauza Moreno H, et al., Phlebology 39(7), 'Management of venous leg ulcers (International Union of Phlebology one-page guideline)', published online 29 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11380361/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Every venous ulcer needs compression** (SCAI: strong recommendation, moderate certainty); stronger compression grades may work better. Compared with none, compression raised healing at 12 months (risk ratio 1.77; about 311 more healed per 1000) and shortened time to healing (hazard ratio 2.17).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ee69cb45ea9acd9d",
+     "n": 251,
+     "p": "For pati"
+    },
+    {
+     "h": "728e68b58e4eef75",
+     "n": 417,
+     "p": "Compress"
+    }
+   ],
+   "locator": "Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8), '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease', published 30 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Compression can be given by bandages, stockings, Velcro wraps or pneumatic pumps, alone or combined.** Conservative care also includes venotonic drugs, lifestyle change, weight loss when relevant and wound care; poor adherence is its main weakness.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59c9105daf934f89",
+     "n": 489,
+     "p": "The firs"
+    }
+   ],
+   "locator": "Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8), '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease', published 30 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Wound care (UIP):** good wound care, infection control and compression for every patient. Measure and photograph the ulcer; take a swab for culture only when pain, discharge, spreading redness or fever suggest infection.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8b0a6ff89d5a60fe",
+     "n": 240,
+     "p": "All pati"
+    },
+    {
+     "h": "a04908dbcbbef819",
+     "n": 379,
+     "p": "The size"
+    }
+   ],
+   "locator": "International Union of Phlebology (UIP); Tan MKH, Lurie F, Bauza Moreno H, et al., Phlebology 39(7), 'Management of venous leg ulcers (International Union of Phlebology one-page guideline)', published online 29 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11380361/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pentoxifylline** is described as a useful add-on for healing; among skin grafts, only bilayer artificial skin had evidence of better healing in a Cochrane review.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "782e87d58486503a",
+     "n": 100,
+     "p": "One such"
+    },
+    {
+     "h": "649345ca8840c5a8",
+     "n": 272,
+     "p": "Skin gra"
+    }
+   ],
+   "locator": "International Union of Phlebology (UIP); Tan MKH, Lurie F, Bauza Moreno H, et al., Phlebology 39(7), 'Management of venous leg ulcers (International Union of Phlebology one-page guideline)', published online 29 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11380361/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Duplex ultrasound is the gold-standard test for reflux and obstruction,** including the iliac veins. Truncal reflux (great, small or anterior accessory saphenous vein) should be removed with endovenous ablation such as radiofrequency or laser, and reflux at the ulcer site treated locally.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d35931ce02c4f4f5",
+     "n": 591,
+     "p": "Venous d"
+    }
+   ],
+   "locator": "International Union of Phlebology (UIP); Tan MKH, Lurie F, Bauza Moreno H, et al., Phlebology 39(7), 'Management of venous leg ulcers (International Union of Phlebology one-page guideline)', published online 29 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11380361/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Great (with or without small) saphenous reflux: ablation plus compression rather than compression alone** (SCAI: conditional, low certainty). People with ulcers gain most and should be offered ablation early: it shortened healing by a mean of 31.73 days and cut recurrence at 2 years (risk ratio 0.39).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36ef663da40019d1",
+     "n": 286,
+     "p": "For pati"
+    },
+    {
+     "h": "27cc155af056686c",
+     "n": 326,
+     "p": "Ablation"
+    },
+    {
+     "h": "bf50b7cec91a6133",
+     "n": 195,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8), '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease', published 30 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ulcer without truncal reflux: foam sclerotherapy plus conservative care** (conditional, low certainty), aimed at varicosities under the ulcer bed. **Perforator reflux feeding an ulcer: perforator ablation plus conservative care** (conditional, low certainty). SCAI makes no recommendation on phlebectomy for ulcers.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad31904cfbef62ed",
+     "n": 241,
+     "p": "For pati"
+    },
+    {
+     "h": "c9e03a2f5dea52e9",
+     "n": 101,
+     "p": "Scleroth"
+    },
+    {
+     "h": "cab563084314863c",
+     "n": 237,
+     "p": "For pati"
+    },
+    {
+     "h": "699fb05f06472b90",
+     "n": 210,
+     "p": "The SCAI"
+    }
+   ],
+   "locator": "Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8), '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease', published 30 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Symptomatic deep (iliocaval) obstruction: venoplasty or stenting plus conservative care** (conditional, low certainty), usually for at least 50% lumen narrowing on intravascular ultrasound with severe symptoms. In the one trial, of 207 patients who had failed conservative care, ulcer healing was 90% with stenting against 40% without. No recommendation is made for femoral vein stenting.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c21c7f5d8fe02078",
+     "n": 273,
+     "p": "For pati"
+    },
+    {
+     "h": "1cd0b3f81424623e",
+     "n": 281,
+     "p": "The sing"
+    },
+    {
+     "h": "0a7b733c75ea43e9",
+     "n": 213,
+     "p": "There is"
+    },
+    {
+     "h": "2ea19ec5e2ac7b2f",
+     "n": 237,
+     "p": "The SCAI"
+    }
+   ],
+   "locator": "Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8), '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease', published 30 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A non-healing ulcer with suspected mixed arterial disease may benefit from arterial revascularisation;** saphenous ablation may also use up a vein needed later for bypass, which matters with advanced coronary or peripheral arterial disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab8489b4872610df",
+     "n": 159,
+     "p": "Patients"
+    },
+    {
+     "h": "f617346f7684f867",
+     "n": 256,
+     "p": "Dependin"
+    }
+   ],
+   "locator": "Society for Cardiovascular Angiography & Interventions (SCAI); Attaran RR, Edwards JM, Arena FJ, et al., Journal of the Society for Cardiovascular Angiography & Interventions 4(8), '2025 SCAI Clinical Practice Guidelines for the Management of Chronic Venous Disease', published 30 June 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12462076/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **If the ulcer is not improving or is getting worse, investigate further:** consider a biopsy to rule out malignancy and blood tests for thrombophilia and connective tissue disease, and consider skin grafts or skin substitutes. Refer urgently to a vascular specialist.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "383c23a5956a6a2c",
+     "n": 451,
+     "p": "However,"
+    },
+    {
+     "h": "3f3566501afd98df",
+     "n": 123,
+     "p": "should b"
+    }
+   ],
+   "locator": "International Union of Phlebology (UIP); Tan MKH, Lurie F, Bauza Moreno H, et al., Phlebology 39(7), 'Management of venous leg ulcers (International Union of Phlebology one-page guideline)', published online 29 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11380361/, retrieved 2026-09-24"
   }
  ]
 }

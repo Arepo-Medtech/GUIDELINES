@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/idiopathic-multicentric-castleman-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://europepmc.org/article/PMC/PMC13409200"
+  "https://europepmc.org/article/PMC/PMC13409200",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australasian multidisciplinary working group, Internal Medicine Journal (RACP) 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease' (published 30 May 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409200). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian multidisciplinary working group, Internal Medicine Journal (RACP) 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease' (published 30 May 2026), 23 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409200). S2: PARAPHRASED AND HASH-ANCHORED from Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334) 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease' (published 4 September 2018), 12 claims; LICENCE: No open licence: free to read on PMC under the PMC Copyright Notice ('Articles from Blood are provided here courtesy of The American Society of Hematology'); treated as © American Society of Hematology (read at the PMC article page (Copyright and License information; PMC Copyright Notice)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Australian 2026 claim (S1) unchanged and adds S2, the CDCN 2018 international consensus treatment guideline (paraphrased, hash-anchored), for the severity markers, response criteria, rituximab as a first-line alternative, steroid doses and escalation timing that S1 keeps in stripped tables or does not state. Europe PMC and NCBI refuse XML download for this article, so S2 was read from the PMC HTML page (tables stripped; figure legends kept); the text after the reference list was discarded. S2 is older than S1, which already reflects it; where they differ, both are shown. The 2023 HemaSphere iMCD position paper (CC BY-NC-ND) was also readable but is an ad hoc expert panel, not a consensus guideline, so it was not used.",
  "summary": {
-  "total": 23,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
   {
@@ -78,6 +79,24 @@
     }
    ],
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Severe iMCD (CDCN), about 10% to 20% of patients:** organ failure such as renal failure, anasarca, severe anaemia or lung dysfunction with poor performance status, often needing critical care. Laboratory pointers are a very high CRP, albumin of 2.0 g/dL or less and platelets of 100 or less.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "754cf869a81075ab",
+     "n": 339,
+     "p": "Patients"
+    },
+    {
+     "h": "c3de233be697c999",
+     "n": 29,
+     "p": "is estim"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
   },
   {
    "claim": "**Major criteria:** lymphadenopathy in at least two nodal stations plus characteristic histology (regressed germinal centres and/or sheet-like polytypic plasmacytosis), best judged on an excisional biopsy.",
@@ -158,6 +177,32 @@
     }
    ],
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**On PET-CT, a high standardised uptake value (above 6) should prompt a search for another diagnosis such as lymphoma** (CDCN).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4a82c31ddc0a5581",
+     "n": 183,
+     "p": "CT-posit"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not use IL-6 levels to decide on treatment:** in the randomised siltuximab trial some patients with normal IL-6 responded and some with high IL-6 did not (CDCN).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8843d0be7037fd72",
+     "n": 210,
+     "p": "IL-6 lev"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
   },
   {
    "claim": "**Grade severity by the CDCN criteria:** meeting at least two of the five means severe disease.",
@@ -311,6 +356,99 @@
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
   },
   {
+   "claim": "**CDCN adjunct steroid doses:** for more indolent disease, prednisone 1 mg/kg or an equivalent steroid, given 4-8 weeks and then tapered; for more symptomatic disease, a higher start such as methylprednisolone 2 mg/kg with a slower taper. Stop steroids as early as possible once combined with other agents.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0effa4f84c970ed9",
+     "n": 354,
+     "p": "Patients"
+    },
+    {
+     "h": "bf7669b3998fcfe9",
+     "n": 120,
+     "p": "If used "
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Rituximab 375 mg/m² for 4-8 doses is a first-line alternative (category 2B) for non-severe iMCD without marked cytokine-driven symptoms**, when a limited course is preferred to indefinite anti-IL-6 treatment. Evidence is thinner: CR 20% and PR 48% in one series, shorter progression-free survival than siltuximab, and about half fail in others.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4bbec6b6c86f6b94",
+     "n": 367,
+     "p": "We recom"
+    },
+    {
+     "h": "a27dbda7818898be",
+     "n": 288,
+     "p": "In a rec"
+    },
+    {
+     "h": "ec6c6c8316c9fe8c",
+     "n": 362,
+     "p": "In 2 fur"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Commonest siltuximab and tocilizumab side effects:** mild thrombocytopenia, raised triglycerides and cholesterol, and itch (CDCN). No trial has compared the two directly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c54059a989949ecd",
+     "n": 395,
+     "p": "The most"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dose interval (CDCN):** stopping anti-IL-6 treatment tends to bring relapse, so continue it indefinitely in responders; in the long-term siltuximab safety study, intervals were safely stretched to 6 weeks in 40% of patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f085fcd56dadaa80",
+     "n": 336,
+     "p": "suggest "
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Severe iMCD: escalate early (CDCN).** Start high-dose steroid (for example methylprednisolone 500 mg daily) with siltuximab, which may be given weekly for the first month; consider combination chemotherapy as soon as the patient worsens, or once 1 week of siltuximab has brought no response, whichever is sooner. Regimens used include R-CHOP, CVAD, CVP, VDT-ACE-R and etoposide/cyclophosphamide-based (HLH-type) regimens.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "865e6152fccba2cf",
+     "n": 243,
+     "p": "These pa"
+    },
+    {
+     "h": "c7ed0aa30af661d1",
+     "n": 191,
+     "p": "aggressi"
+    },
+    {
+     "h": "ab2934b76b47cbb1",
+     "n": 481,
+     "p": "Chemothe"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Fever and thrombocytopenia settle first,** often within a month on siltuximab; haemoglobin, CRP and albumin improve within 3 months; nodes can take 6–12 months. Weigh symptoms and organ recovery above nodal response.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -340,6 +478,42 @@
     }
    ],
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**CDCN response criteria** combine three parts: biochemistry (haemoglobin, CRP, albumin, eGFR), lymph node size (modified Cheson) and four symptoms (fatigue, anorexia, fever, weight change, graded by CTCAE). Biochemical CR is normalisation of all values; PR is a 50% to 99% improvement in all; progression is a worsening of more than 25% in any. Overall CR needs CR in all three; any progression is overall progression.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c46d01cb1fbc8f3d",
+     "n": 406,
+     "p": "our expe"
+    },
+    {
+     "h": "6369961c7de4b3aa",
+     "n": 352,
+     "p": "A bioche"
+    },
+    {
+     "h": "bb2f215138c17bad",
+     "n": 329,
+     "p": "An overa"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Timing (CDCN):** symptoms should improve after 3 to 4 anti-IL-6 doses; follow haemoglobin, CRP, ESR and albumin weekly then fortnightly until normal. Nodes shrink slowly (median 5 months), so CT every 3 months until the best response, then every 6 and later 12 months. Siltuximab and tocilizumab falsely raise IL-6 for 18 to 24 months after the last dose, so IL-6 cannot measure response.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a919a3e4465933f9",
+     "n": 1136,
+     "p": "Response"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
   },
   {
    "claim": "**Poor response to steroids plus IL-6 blockade should prompt a diagnostic review.** Up to half of patients do not respond adequately to first-line therapy.",
@@ -394,6 +568,37 @@
     }
    ],
    "locator": "Australasian multidisciplinary working group, Internal Medicine Journal (RACP), 'Australian clinical practice guideline: diagnosis and treatment of idiopathic multicentric Castleman disease', published 30 May 2026, https://europepmc.org/article/PMC/PMC13409200, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**If anti-IL-6 treatment did not work first line, it need not be continued** (CDCN); after failure, re-check the diagnosis (for example lymphoma) before second-line rituximab-based therapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3952b1efc5eb3adc",
+     "n": 307,
+     "p": "Failure "
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why chemotherapy is held back (CDCN pooled data):** it had the highest response rate (78%) but relapses were common (42%) and toxicity significant, while immunomodulatory or immunosuppressive agents responded in 69%. Autologous or allogeneic transplant is a last resort with mixed results.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "11302fa0f287935c",
+     "n": 457,
+     "p": "Cytotoxi"
+    },
+    {
+     "h": "53862b883b3aee17",
+     "n": 142,
+     "p": "Autologo"
+    }
+   ],
+   "locator": "Castleman Disease Collaborative Network international working group (van Rhee F, Voorhees P, Dispenzieri A, et al.), Blood 132(20):2115-2124 (doi 10.1182/blood-2018-07-862334), 'International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease', published 4 September 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6238190/, retrieved 2026-09-24"
   }
  ]
 }

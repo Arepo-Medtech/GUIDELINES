@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/polycystic-ovary-syndrome.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/",
+  "https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447 'Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome' (published 15 August 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (the article also states the guideline recommendations are protected under copyright) (read at Europe PMC fullTextXML <license> element for PMC10505534). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447 'Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome' (published 15 August 2023), 17 claims; LICENCE: CC BY-NC 4.0 (the article also states the guideline recommendations are protected under copyright) (read at Europe PMC fullTextXML <license> element for PMC10505534). S2: QUOTED from Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective' (7 October 2024), 12 claims; LICENCE: CC BY 4.0 (figshare record licence; the article's own footer reads '© 2024 The Author(s). Medical Journal of Australia published by John Wiley & Sons Australia') (read at figshare API record 27199074 (license: CC BY 4.0) and the Unpaywall record for 10.5694/mja2.52432 (publisher licence cc-by)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the MJA 2024 Australian summary of the same 2023 guideline. It was blocked at Wiley (HTTP 403) in edition 1.0; this time the published PDF was read from the open figshare repository copy (CC BY 4.0) and converted with plain pdftotext (two-column). It adds the evidence grades (EBR, CR, PP), the Australian context (Medicare Better Access, PBS, off-label use) and treatment detail the JCEM summary lacks. S2 is CC BY and is quoted; S1 remains paraphrased. The full guideline on monash.edu is still behind a bot challenge and was not read. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 17,
-  "pass": 0,
+  "total": 29,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 17
  },
@@ -237,6 +238,91 @@
     }
    ],
    "locator": "Teede HJ et al. for the International PCOS Network (Monash University-led, NHMRC-funded), Journal of Clinical Endocrinology & Metabolism 2023;108(10):2447, 'Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome', published 15 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Ovulation induction drugs are used off-label in Australia, which is allowed;** discuss the evidence, concerns and side effects with the woman (PP).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Use of ovulation induction agents is off-label in Australia but allowed, and health care professionals need to inform women and discuss evidence, concerns and side effects (PP).",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Diagnosis in adults with only one of irregular cycles or hyperandrogenism:** use either pelvic ultrasound or AMH, not both (PP). Test androgens biochemically only when there is no clinical hyperandrogenism (PP).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For women who only have either irregular menstrual cycles or hyperandrogenism, pelvic ultrasound or the newly added AMH level testing (but not both), is needed for adult PCOS diagnosis (PP) … Biochemical testing for hyperandrogenism is only needed without clinical hyperandrogenism (PP).",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adolescents with only one criterion are 'at risk of PCOS' and need follow-up and reassessment (PP).** For adolescents at risk or diagnosed, the COCP alone or metformin alone is recommended (EBR).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Recognising the risk of underdiagnosis, the guideline also recommends identification of individuals with only one diagnostic criterion (hyperandrogenism or irregular cycles) as being \"at risk of PCOS\" and requiring follow-up (PP). … PCOS, the guideline recommends combined oral contraceptive pill (COCP) alone or metformin alone (EBR).",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Pregnancy risks are higher regardless of age and BMI:** early miscarriage, excess gestational weight gain, gestational diabetes, hypertension, pre-eclampsia, small-for-gestational-age babies, preterm birth and caesarean section. Identify PCOS before conception or early in antenatal care, and screen and monitor (EBR).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "New recommendations highlight significantly higher risks in pregnancy, independent of age and body mass index (BMI), including early miscarriage, excess gestational weight gain, gestational diabetes, hypertension in pregnancy, preeclampsia, small for gestational age babies, preterm delivery and increased incidence of caesarean delivery (EBR). Health professionals should ensure that PCOS status is identified preconception or early in antenatal care, and women with PCOS should be identified, screened and monitored before and during pregnancy for prevention and treatment (EBR).",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Cardiometabolic and other risks:** recognise raised cardiovascular risk factors and disease (EBR); high risk of early impaired fasting glucose, impaired glucose tolerance and type 2 diabetes (EBR); obstructive sleep apnoea; and endometrial hyperplasia and cancer. First-degree relatives may also carry more cardiometabolic risk.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Importantly, it is now recommended that individuals with PCOS be recognised as having increased cardiovascular disease risk factors, cardiovascular disease and potentially cardiovascular mortality (EBR).6 Potential increased cardiometabolic risk in first-­degree family members including diabetes, metabolic syndrome and hypertension were also recognised (EBR for male family members, PP for female family members). … High risks of early onset impaired fasting glucose, impaired glucose tolerance and type 2 diabetes in PCOS were reiterated (EBR), while high risks of obstructive sleep apnoea (EBR) and endometrial hyperplasia and cancer (EBR) were noted.",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Mental health in Australia:** screen routinely for depression and anxiety (EBR), for example with the DASS or K10; the Better Access Initiative gives up to ten individual and ten group Medicare-rebated sessions. Consider eating disorders whatever the weight; severe eating disorders may qualify for up to 40 psychological and 20 dietetic sessions a year. Psychological therapy should be considered first line (CR).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The guideline recommends that depression and anxiety are routinely screened for in PCOS (EBR), given the high prevalence.1-­4 Screening for depression and anxiety is common practice in Australia, particularly in the Better Access Initiative. Commonly used tools include the Depression, Anxiety Stress Scale31 and the Kessler Psychological Distress Scale.32 The Better Access Initiative facilitates up to ten individual and ten group Medicare-rebated sessions for mental health conditions. … Individuals with mild to moderate eating disorders may be eligible for ten Better Access sessions (up to ten individual and up to ten group sessions per year), individuals with severe eating disorders may be eligible for up to 40 evidence-­based psychological sessions, and up to 20 dietetic sessions annually. … The guideline recommends psychological therapy be considered first-line (CR)",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **COCP for irregular cycles or hirsutism (EBR), at low dose (30 μg or less of oestrogen) for hirsutism in adults. Cyproterone acetate-containing pills add little and are second line because of side effects (EBR).**",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "COCPs are recommended in adults with PCOS or adolescents with or at risk of PCOS, for irregular cycles or hirsutism (EBR).1-­4,50 Low-dose preparations are recommended (≤ 30 μg of oestradiol)50-­52 for treating hirsutism in adults, with limited additional benefit with cyproterone acetate containing agents, which are second-line treatments, due to side effects (EBR).",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Add an anti-androgen for hirsutism only with effective contraception and only after at least six months of COCP and/or cosmetic treatment has not worked well enough (EBR).** Laser and light therapies should be considered for hirsutism (EBR).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In combination with effective contraception, anti-­a ndrogens could be considered to treat hirsutism in women with PCOS, if there is a suboptimal response after a minimum of six months of COCP and/or cosmetic therapy (EBR). … Mechanical laser and light therapies should be considered for",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Metformin:** consider it in adults with a BMI of 25 kg/m2 or more for weight and metabolic outcomes (EBR), and for irregular cycles when the COCP is contraindicated (PP) or in adolescents (EBR). Prefer it to inositol for hirsutism and central adiposity, accepting more side effects (EBR).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Metformin should be considered in adults with PCOS and a BMI ≥ 25 kg/m2 for anthropometric and metabolic outcomes including insulin resistance, and glucose and lipid profiles (EBR).55 Metformin can be considered for irregular cycles where the COCP is contraindicated (PP) or in adolescents (EBR). … Metformin should be considered over inositol for hirsutism and central adiposity, noting increased side effects with metformin",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Anti-obesity medicines** can be used with lifestyle change as in general-population guidelines (CR), with effective contraception because pregnancy safety data are limited (PP). In Australia, PBS subsidy of the newer agents covers diabetes only, so access can be hard.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "There is limited research on anti-obesity medications in PCOS. However, there is evidence in the general population allowing use with active lifestyle for weight management in adults with PCOS, as per population guidelines (CR), ensuring effective contraception given limited pregnancy safety data (PP).1-­4 In Australia, regulatory status is evolving but currently Pharmaceutical Benefits Scheme reimbursement of newer agents is limited to diabetes management and access can be challenging.",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Most PCOS medicines are used off-label** despite evidence that they work, usually because no company has applied for the indication.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Medications for PCOS are generally off-­label, or prescribed for an indication or patient group not specified in approved product information by the regulatory body, despite evidence of efficacy.",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Few dedicated PCOS services exist in Australia;** the Victorian PCOS service is the exception and is expanding, while most other states and territories are underserved.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In Australia, there are few dedicated models of care, except for the Victorian PCOS service, which aligns with guidelines and improves patient experience.41 The Victorian Government has recognised the need and is expanding services, whereas most other states and territories remain underserved.",
+   "locator": "Teede HJ, Mousa A, Tay CT, Costello MF, Brennan L, Norman RJ, Pena AS, Boyle JA, Joham A, Berry L, Moran L, Medical Journal of Australia 221(7):389-395, doi 10.5694/mja2.52432, 'Summary of the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome: an Australian perspective', 7 October 2024, https://figshare.com/articles/journal_contribution/Summary_of_the_2023_international_evidence-based_guideline_for_the_assessment_and_management_of_polycystic_ovary_syndrome_an_Australian_perspective/27199074, retrieved 2026-09-24"
   }
  ]
 }

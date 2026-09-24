@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/non-small-cell-lung-cancer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/1996"
+  "https://www.eviq.org.au/p/1996",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Non small cell lung cancer locally advanced or metastatic osimertinib (eviQ ID 1996 v.5)' (ID 1996 v.5; first approved 19 December 2018, last reviewed 25 November 2024, review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Non small cell lung cancer locally advanced or metastatic osimertinib (eviQ ID 1996 v.5)' (ID 1996 v.5; first approved 19 December 2018, last reviewed 25 November 2024, review due 31 December 2026), 20 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996) 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer' (published 29 November 2024), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11648200). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Pan-Asian adaptation of the ESMO guideline for oncogene-addicted metastatic NSCLC (CC BY-NC-ND 4.0, paraphrased and hash-anchored), for the EGFR-mutant treatment sequence (first-line options beyond osimertinib alone, uncommon and exon 20 mutations, resistance and later lines), which the single eviQ protocol (S1) does not give. Only S2's EGFR section is used. S1 claims and anchors are unchanged. The two PBS amivantamab rows are added to the PBS table because S2 now covers amivantamab.",
  "summary": {
-  "total": 20,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -42,6 +43,139 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Non small cell lung cancer locally advanced or metastatic osimertinib (eviQ ID 1996 v.5)', ID 1996 v.5; first approved 19 December 2018, last reviewed 25 November 2024, review due 31 December 2026, https://www.eviq.org.au/p/1996, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Test EGFR in advanced non-squamous NSCLC with a method that covers exons 18 to 21,** including resistance mutations [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af00ea09362532ec",
+     "n": 219,
+     "p": "EGFR mut"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Classical EGFR mutations (exon 19 deletion or L858R): a third-generation TKI such as osimertinib is preferred first line, especially with brain metastases** [I, A]. First- or second-generation TKIs (erlotinib, gefitinib, afatinib, dacomitinib) remain single-agent alternatives.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7326b488678fc2d0",
+     "n": 345,
+     "p": "Third-ge"
+    },
+    {
+     "h": "24a0df8c949738ab",
+     "n": 335,
+     "p": "First- o"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Osimertinib plus carboplatin–pemetrexed is another first-line option** [I, A]. In FLAURA2 median PFS was 25.5 v 16.7 months with osimertinib alone (HR 0.62), at the cost of more grade 3 or worse events (64% v 27%), mostly anaemia and neutropenia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04b6ee7c6af4945f",
+     "n": 218,
+     "p": "Another "
+    },
+    {
+     "h": "ad06aedf2b5e7811",
+     "n": 185,
+     "p": "The medi"
+    },
+    {
+     "h": "66d21ff181b36c09",
+     "n": 311,
+     "p": "Both gra"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Lazertinib plus amivantamab is a further first-line option** [I, A]. In MARIPOSA median PFS was 23.7 v 16.6 months against osimertinib (HR 0.70) and overall survival HR 0.77, but grade 3 or worse events rose to 75% from 43%, with more rash, paronychia, hypoalbuminaemia, peripheral oedema and venous thromboembolism.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6dc479779311291a",
+     "n": 189,
+     "p": "3d-iii A"
+    },
+    {
+     "h": "34d5119d66001900",
+     "n": 184,
+     "p": "the medi"
+    },
+    {
+     "h": "46636a95358e2e66",
+     "n": 160,
+     "p": "the medi"
+    },
+    {
+     "h": "cfb7e877dc689157",
+     "n": 545,
+     "p": "A higher"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other first-line choices:** gefitinib with carboplatin–pemetrexed [I, B], or erlotinib with bevacizumab or ramucirumab [I, B], which lengthened PFS without a clear survival gain. For major uncommon (non-exon 20) sensitising mutations, use afatinib or osimertinib.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "827e76180095faac",
+     "n": 197,
+     "p": "3d-ii An"
+    },
+    {
+     "h": "0831c95006cdfa19",
+     "n": 288,
+     "p": "EGFR TKI"
+    },
+    {
+     "h": "745fca6f1097d946",
+     "n": 215,
+     "p": "there wa"
+    },
+    {
+     "h": "6d30187d9c93dcf3",
+     "n": 226,
+     "p": "Afatinib"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**EGFR exon 20 insertion: amivantamab with platinum chemotherapy first line** [I, A], or later [III, B]; in PAPILLON median PFS was 11.4 v 6.7 months (HR 0.40). Amivantamab alone is an option after platinum failure if not already used.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e1e62957bb81e51b",
+     "n": 269,
+     "p": "Amivanta"
+    },
+    {
+     "h": "10d4ecad90b34dd4",
+     "n": 180,
+     "p": "A signif"
+    },
+    {
+     "h": "1dc1fb1f8580ca7d",
+     "n": 162,
+     "p": "Amivanta"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
   },
   {
    "claim": "**Osimertinib 80 mg by mouth once daily**, continued until the disease progresses or toxicity becomes unacceptable. It is PBS authority-listed; 40 mg and 80 mg tablets exist.",
@@ -345,6 +479,60 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Non small cell lung cancer locally advanced or metastatic osimertinib (eviQ ID 1996 v.5)', ID 1996 v.5; first approved 19 December 2018, last reviewed 25 November 2024, review due 31 December 2026, https://www.eviq.org.au/p/1996, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Progression on a first- or second-generation TKI:** T790M-positive disease should get a third-generation TKI such as osimertinib second line [I, A]; T790M-negative disease may be treated with platinum chemotherapy [III, A]. A third-generation TKI can be considered for progression confined to the brain [III, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "51977646e49a6db0",
+     "n": 383,
+     "p": "Patients"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **After progression on osimertinib: platinum–pemetrexed with amivantamab is the standard** [I, A]; platinum-doublet chemotherapy alone remains an option [III, B], and trials are encouraged, especially with a targetable resistance mechanism. In the pivotal trial (MARIPOSA2) median PFS was 6.3 v 4.2 months (HR 0.48). Consider plasma or tissue NGS at resistance [III, C].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c7cb574d45eb087",
+     "n": 276,
+     "p": "Platinum"
+    },
+    {
+     "h": "e4f55cf5308fd98d",
+     "n": 200,
+     "p": "The medi"
+    },
+    {
+     "h": "c2d765a3815368ce",
+     "n": 175,
+     "p": "Genomic "
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After EGFR TKI failure, platinum with paclitaxel or pemetrexed plus an anti-PD-(L)1 antibody and bevacizumab may be considered** where neither drug class is contraindicated [III, B]. Checkpoint inhibitor monotherapy is only for after both TKIs and chemotherapy [IV, C].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aae339b4a4fcd632",
+     "n": 238,
+     "p": "The comb"
+    },
+    {
+     "h": "03f6be16843af940",
+     "n": 128,
+     "p": "Single-a"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO) with Asian oncology societies (Lee, Menis et al.), ESMO Open 9 (doi 10.1016/j.esmoop.2024.103996), 'Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with oncogene-addicted metastatic non-small-cell lung cancer', published 29 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11648200/, retrieved 2026-09-24"
   }
  ]
 }

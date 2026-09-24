@@ -1,9 +1,9 @@
 # Gastrointestinal stromal tumour (GIST)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, molecular testing, risk assessment, surgery, neoadjuvant and adjuvant imatinib, systemic therapy for advanced disease, response assessment and follow-up in adults with GIST. Paediatric, syndromic and SDH-deficient GIST are mentioned only where they change management. Other soft tissue sarcomas: see `soft-tissue-sarcoma`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 22 claims quoted verbatim from **British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02672-0) — *Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines*** (published 5 June 2024; origin: international); **42 fragments re-checked by machine; 5 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **61 fragments or anchors re-checkable by machine; 9 doses.** **S1** British Sarcoma Group (published 5 June 2024; international): 22 claims, quoted · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026; AU): 8 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (British Sarcoma Group, 2024). Australian practice follows the PBS listings below and may differ.
 
@@ -32,6 +32,7 @@
 - **Adjuvant imatinib for 3 years is standard for high-risk resected GIST** with a sensitive driver (e.g. KIT exon 11); 3 years beat 1 year for relapse-free and overall survival. [S1]
 - ⚠️ **No adjuvant imatinib for PDGFRA D842V or NF1-related GIST.** An R1 margin alone is not an indication if the tumour is otherwise not high risk; SDH-deficient GIST has no agreed approach. [S1]
 - **After tumour rupture, assume occult peritoneal disease** and give adjuvant imatinib for at least 3 years, probably for life. [S1]
+- **Australian adjuvant imatinib (eviQ):** 400 mg by mouth once daily for up to 3 years, started after recovery and within 3 months of surgery, for primary GIST at high risk of relapse, defined as over 5 cm with more than 5 mitoses per 50 HPF, over 10 cm at any mitotic rate, or more than 10 mitoses per 50 HPF. [S2]
 
 ## Advanced or metastatic disease
 
@@ -42,6 +43,13 @@
 - **PDGFRA D842V: avapritinib is the most active drug** (300 mg daily; 79% partial and 9% complete responses in the phase I study). [S1]
 - **Limited progression** (such as a 'nodule within a mass') may suit surgery, RFA or radiotherapy while continuing the TKI; surgery for generalised progression is not recommended. Offer trials to all with advanced disease. [S1]
 - ⚠️ **Judge response on size and density together.** A tumour can grow briefly yet be responding if CT density falls; new enhancement inside a responding low-density lesion may signal progression. Have an experienced team confirm early progression. [S1]
+- ⚠️ **Australian imatinib dose ceiling:** in metastatic or unresectable GIST, keep responders on 400 mg daily and reassess regularly; non-responders may go up to 600 mg daily. eviQ notes that PBS Authority applications for more than 600 mg a day will not be approved. [S2]
+- **Imatinib monitoring:** baseline TSH, FBC, EUC, eGFR and LFTs; FBC weekly in month one, fortnightly in month two, then every 2 to 3 months; LFTs monthly. Watch for fluid retention and periorbital oedema (withhold if severe), and check LVEF at baseline if there is heart disease. [S2]
+- **Sunitinib in Australia is second line** for KIT (CD117)-positive advanced GIST after imatinib failure or intolerance: 50 mg daily for 4 weeks then 2 weeks off (42-day cycle). With a strong CYP3A4 inhibitor, lower the dose in 12.5 mg steps to no less than 25 mg; with a CYP3A4 inducer, raise it in 12.5 mg steps to no more than 87.5 mg. [S2]
+- ⚠️ **Sunitinib safety:** control blood pressure before starting, then check it weekly for 6 weeks and regularly after; withhold for severe or uncontrolled hypertension. Arrange a dental review before treatment and every 6 months (jaw osteonecrosis risk). Bloods at baseline, week 2 and 4-weekly; thyroid function every 8 to 12 weeks. [S2]
+- ⚠️ **Ripretinib in Australia follows imatinib and sunitinib:** for metastatic or unresectable GIST after failure of, or intolerance to, both, with ECOG 0 to 2. Dose 150 mg (three 50 mg tablets) once daily until progression or unacceptable toxicity, reducing to 100 mg daily if needed; stop if 100 mg cannot be tolerated or a delay exceeds 4 weeks. [S2]
+- ⚠️ **Ripretinib raises the risk of new skin cancers** (squamous cell carcinoma, keratoacanthoma, melanoma): examine the skin at the start and routinely during treatment. Hand-foot syndrome and rash usually appear in the first 6 weeks. Bloods fortnightly in the first month, then 4-weekly. [S2]
+- **For any TKI, assess the heart at baseline** (ECG and biochemistry, especially with cardiovascular disease; echocardiogram if high risk), repeat when clinically indicated or when a QT-prolonging drug is started, and interrupt treatment around major surgery until the wound has healed. [S2]
 
 ## Follow-up
 
@@ -66,14 +74,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Evidence-grading table (Table 1) and the molecular-testing algorithm (Fig. 1)** are a table and an image and were not extracted. | `input_unavailable` |
-| 2 | **Australian later-line sequencing:** whether PBS ripretinib is used third or fourth line, and access to regorafenib or avapritinib, is not addressed by this UK source; confirm against the PBS restriction and eviQ protocol 4112. | `observation` |
+| 2 | **Australian later-line sequencing:** S2 (eviQ 4112) places ripretinib after imatinib and sunitinib (third line), whereas S1 (UK) uses regorafenib third line and ripretinib after 3 or more TKIs. eviQ's regorafenib protocol is superseded; avapritinib has no eviQ GIST protocol in S2 and is not among the PBS GIST drugs. Confirm against the current PBS restriction. | `observation` |
 | 3 | **NICE funding statements** (for imatinib 800 mg, avapritinib, ripretinib) describe UK access only and are not carried over. | `out_of_scope` |
 | 4 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
+| 5 | **Imatinib dose escalation differs:** S1 (UK) recommends 800 mg daily first line for KIT exon 9 mutations; S2 (eviQ) allows escalation only to 600 mg daily for non-response and states that PBS Authority applications above 600 mg a day will not be approved. Both are shown; the PBS limit governs subsidised Australian use. | `observation` |
+| 6 | **S2 licence:** eviQ CC BY-NC 4.0, with a request not to host content externally; S2 claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. eviQ dose-modification tables were not paraphrased. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | British Sarcoma Group, British Journal of Cancer (doi 10.1038/s41416-024-02672-0). *Gastrointestinal stromal tumour (GIST): British Sarcoma Group clinical practice guidelines*. published 5 June 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11723931/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW. *eviQ GIST protocols (protocols, not guidelines): 1222 'GIST adjuvant imatinib' (v.7, review as required), 330 'GIST metastatic imatinib' (v.7, review as required), 329 'GIST metastatic sunitinib' (v.7, review as required) and 4112 'GIST metastatic ripretinib' (v.3, first approved 13 May 2022, review due 31 December 2027)*. retrieved 24 September 2026. https://www.eviq.org.au/medical-oncology/upper-gastrointestinal/gastrointestinal-stromal-cell-tumours — retrieved 2026-09-24. | CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

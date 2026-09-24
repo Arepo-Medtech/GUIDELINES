@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/central-precocious-puberty.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/",
+  "https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents' (published 19 September 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10556443). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents' (published 19 September 2023), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC10556443). S2: PARAPHRASED AND HASH-ANCHORED from Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086) 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)' (published online 23 June 2020), 10 claims; LICENCE: No licence or reuse terms found on the article pages or in Crossref metadata (treated as all rights reserved); open access journal (DOAJ-listed) (read at the bmhim.com article pages and Crossref records for both DOIs). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, two chapters (puberty blockade; monitoring during treatment) of the Mexican Society of Pediatric Endocrinology 2020 clinical practice guideline, read in Spanish and paraphrased in English, chiefly for GnRH agonist depot doses and success rates (its Table 1 survived HTML extraction), biochemical monitoring and stopping. No Australian CPP guideline was found. The Endocrine Society 2026 guideline is paywalled and the 2019 international consortium update (Karger) is behind a bot challenge (retried 2026-09-24). S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 24,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -258,6 +259,37 @@
    "locator": "Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism, '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents', published 19 September 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2 (Mexico) treats by age at assessment:** a GnRH agonist is recommended for CPP before age 7 in girls or 8 in boys (strong); after those ages, consider it only for a poor adult-height outlook or marked psychosocial impact that counselling alone does not settle, weighing the endocrinologist's judgement and the family's view.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "37ceb7455629902c",
+     "n": 304,
+     "p": "Recomend"
+    },
+    {
+     "h": "579ed2d00ec2b1cf",
+     "n": 504,
+     "p": "Recomend"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Height evidence (S2):** in three trials of girls whose puberty began between 7 and 9, GnRH agonists did not change adult height; one high-bias trial in girls under 7 found 4.1 cm more with treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db7fe7de958c52b4",
+     "n": 377,
+     "p": "En tres "
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **A GnRH agonist is the standard treatment (strong): leuprolide or triptorelin at the approved dose (strong).** Choose the dosing interval to suit the family, because 4-week and 3-month formulations worked equally well (strong).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -335,6 +367,85 @@
    "locator": "Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism, '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents', published 19 September 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2: use a depot GnRH agonist, at the lowest dose that suppresses puberty, monthly or quarterly;** heavier children may need more. Follow the maker's preparation instructions (for example, do not shake the vial).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "72976f845a59d538",
+     "n": 239,
+     "p": "Recomend"
+    },
+    {
+     "h": "11e7eed059599867",
+     "n": 253,
+     "p": "Recomend"
+    },
+    {
+     "h": "9e8497d771c92c9f",
+     "n": 182,
+     "p": "Recomend"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Leuprorelin depot doses and suppression rates (S2 dose table):** monthly 3.75 mg succeeded in 75–78% and 7.5 mg in 97%; quarterly 11.25 mg in 67–86% (stimulated LH below 4 IU/L), 22.5 mg in 92% and 30 mg in 95–97% (the 30 mg product is not labelled for CPP). Success tends to rise with later doses.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5fc26e02693d243",
+     "n": 212,
+     "p": "Dosis de"
+    },
+    {
+     "h": "20065fbf5f248608",
+     "n": 479,
+     "p": "Dosis de"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Triptorelin depot doses and suppression rates (S2 dose table):** 3.75 mg every 28 days, 90–100% at 4 months; 11.25 mg every 84 days, 87.6% at 3 months, 92.8% at 6 and 89.1% at 12; 22.5 mg every 24 weeks, 93.2% at 6 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3af62e03baa24b85",
+     "n": 579,
+     "p": "Triptore"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**If suppression is inadequate (S2),** first confirm adherence and correct preparation and injection, then raise the dose or shorten the interval between injections. Medroxyprogesterone is not recommended for blockade, except as a fallback when no GnRH agonist is available.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d863c177b1dee048",
+     "n": 247,
+     "p": "Recomend"
+    },
+    {
+     "h": "2fb32c3363c26247",
+     "n": 273,
+     "p": "Recomend"
+    },
+    {
+     "h": "a60d8fa3b23b6633",
+     "n": 222,
+     "p": "Recomend"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Minor, passing effects do not require stopping (conditional):** headache and hot flushes usually settle. Local reactions such as sterile abscess are uncommon (four of 621, 0.6%, in one Korean study); if they persist, switch formulation. A withdrawal bleed after starting is expected, but bleeding lasting over 2 months needs another explanation.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -374,6 +485,20 @@
     }
    ],
    "locator": "Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism, '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents', published 19 September 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Suppression is not guaranteed (S2):** with leuprorelin, reported failure ranges from 33% (11.25 mg 3-monthly, judged at 3 months) to under 5% (7.5 mg monthly, or 22.5 mg and 30 mg 3-monthly), and failure becomes less common the longer treatment runs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "762d950642ca49d7",
+     "n": 420,
+     "p": "Con leup"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Review response every 3 to 6 months (strong), sooner if failure is suspected (conditional).** Effect shows within 2 to 6 months: breast or testicular stage stops advancing and growth slows to prepubertal rates, though pubic hair may still progress with adrenal maturation. Check bone age every 6 months to a year.",
@@ -438,6 +563,85 @@
     }
    ],
    "locator": "Korean Society of Pediatric Endocrinology (Kim SJ et al.), Annals of Pediatric Endocrinology & Metabolism, '2022 Clinical practice guidelines for central precocious puberty of Korean children and adolescents', published 19 September 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 monitoring schedule:** a clinical and hormonal review (LH, sex steroids) 3 months after the first dose; then clinical review at least every 6 months (Tanner stage, breast diameter or testicular volume, growth velocity, adverse effects, psychosocial impact); bone age at least yearly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d124590ebe79ea39",
+     "n": 272,
+     "p": "Recomend"
+    },
+    {
+     "h": "6c44c22619d6b446",
+     "n": 398,
+     "p": "Recomend"
+    },
+    {
+     "h": "5f25c6d9a4e49137",
+     "n": 321,
+     "p": "Recomend"
+    },
+    {
+     "h": "d005470a4e8a4387",
+     "n": 82,
+     "p": "Recomend"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 hormone checks in girls:** a basal LH below 0.3 IU/L with prepubertal oestradiol and no clinical progression means blockade is working; draw it in the week before the next dose. Do a stimulated LH if there are clinical signs of progression or basal LH is above 0.3 IU/L. **In boys, follow testicular volume;** routine LH stimulation is not recommended.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e9d9a13c8c5aab4d",
+     "n": 397,
+     "p": "Recomend"
+    },
+    {
+     "h": "0bb9f353dcc06c5a",
+     "n": 198,
+     "p": "Recomend"
+    },
+    {
+     "h": "7e839dae704b7030",
+     "n": 419,
+     "p": "Recomend"
+    },
+    {
+     "h": "040d53d140065656",
+     "n": 275,
+     "p": "Recomend"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 on stopping:** stop when the child is psychosocially ready for puberty and predicted height is near family target height; do not continue beyond age 12 in girls or 14 in boys; follow until puberty is clinically seen to restart.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2bdd96c7e98db3e4",
+     "n": 248,
+     "p": "Recomend"
+    },
+    {
+     "h": "658e4dfe8e4ec0de",
+     "n": 209,
+     "p": "Recomend"
+    },
+    {
+     "h": "9ae114f63064f33c",
+     "n": 171,
+     "p": "Recomend"
+    }
+   ],
+   "locator": "Sociedad Mexicana de Endocrinología Pediátrica (Torres-Tamayo M, Zurita-Cruz JN, Castilla-Peón MF, et al.), Boletín Médico del Hospital Infantil de México 2020;77(Supl 1):19-25 and 29-35 (doi 10.24875/BMHIM.20000085, 10.24875/BMHIM.20000086), 'Clinical guideline for the diagnosis and treatment of precocious puberty: Puberty blockade; Monitoring during the treatment of precocious puberty (Spanish full text)', published online 23 June 2020, https://www.bmhim.com/files/bmhim-77-19.html ; https://www.bmhim.com/files/bmhim-77-29.html, retrieved 2026-09-24"
   },
   {
    "claim": "**After stopping, follow the child until adult height is reached and gonadal function has returned** (menarche in girls).",

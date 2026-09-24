@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/early-medical-abortion.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://ranzcog.edu.au/wp-content/uploads/Clinical-Guideline-Abortion-Care.pdf"
+  "https://ranzcog.edu.au/wp-content/uploads/Clinical-Guideline-Abortion-Care.pdf",
+  "https://iris.who.int/handle/10665/382157"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG) 'Clinical Guideline for Abortion Care: An evidence-based guideline on abortion care in Australia and Aotearoa New Zealand (version 1.4)' (2026 (v1.4; first published 2023)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © RANZCOG, all rights reserved; parts may be reproduced by clinicians, hospitals and medical and allied health organisations without permission, with acknowledgement (read at copyright notice on page 2 of the retrieved PDF). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG) 'Clinical Guideline for Abortion Care: An evidence-based guideline on abortion care in Australia and Aotearoa New Zealand (version 1.4)' (2026 (v1.4; first published 2023)), 23 claims; LICENCE: © RANZCOG, all rights reserved; parts may be reproduced by clinicians, hospitals and medical and allied health organisations without permission, with acknowledgement (read at copyright notice on page 2 of the retrieved PDF). S2: PARAPHRASED AND HASH-ANCHORED from World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204 'Abortion care guideline, second edition' (2024 (IRIS record issued 31 December 2024)), 8 claims; LICENCE: CC BY-NC-SA 3.0 IGO ('Some rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence') (read at copyright page of the WHO IRIS PDF (9789240104204-eng.pdf) and the IRIS dc.rights field). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the WHO Abortion care guideline second edition (2024), fetched as the PDF from WHO IRIS (the NCBI Bookshelf copy, NBK617985, was behind a reCAPTCHA bot check and was not used) and converted with plain pdftotext; claims are anchored to the body text of each recommendation, not the executive-summary table. S1's claims and anchors are unchanged. S2 is CC BY-NC-SA (non-commercial), so it is paraphrased and hash-anchored.",
  "summary": {
-  "total": 23,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -371,6 +372,163 @@
     }
    ],
    "locator": "Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG), 'Clinical Guideline for Abortion Care: An evidence-based guideline on abortion care in Australia and Aotearoa New Zealand (version 1.4)', 2026 (v1.4; first published 2023), https://ranzcog.edu.au/wp-content/uploads/Clinical-Guideline-Abortion-Care.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **WHO regimen before 12 weeks:** mifepristone 200 mg by mouth, then misoprostol 800 μg vaginally, sublingually or buccally 1–2 days later, at least 24 hours apart. With misoprostol alone, 800 μg by any of those routes. Further misoprostol doses can be used if needed; WHO sets no maximum.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b4bf09c14633968",
+     "n": 286,
+     "p": "For medi"
+    },
+    {
+     "h": "164753fe0d4a2e38",
+     "n": 119,
+     "p": "When usi"
+    },
+    {
+     "h": "d1e0c5038ff14742",
+     "n": 179,
+     "p": "Repeat d"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**New WHO option: letrozole plus misoprostol** — letrozole 10 mg by mouth daily for 3 days, then misoprostol 800 μg under the tongue on the fourth day (conditional). It may work up to 14 weeks, but it has been compared only with misoprostol alone, not with mifepristone.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fe007404826b0127",
+     "n": 218,
+     "p": "c. (NEW)"
+    },
+    {
+     "h": "f51e7805f76edf39",
+     "n": 118,
+     "p": "The sugg"
+    },
+    {
+     "h": "6863db3ee3ea620f",
+     "n": 338,
+     "p": "Further "
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **WHO (new): no anti-D immunoglobulin for medical or surgical abortion before 12 weeks;** usual anti-D care applies from 12 weeks. Knowing the Rh status is not a prerequisite for early medical abortion. The evidence is very low certainty (two studies, both from 1972).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "757efa843b01d5c7",
+     "n": 307,
+     "p": "CLINICAL"
+    },
+    {
+     "h": "404cc711b6d5868d",
+     "n": 116,
+     "p": "Only two"
+    },
+    {
+     "h": "d257c85d4b4532ec",
+     "n": 159,
+     "p": "Determin"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WHO: ultrasound should not be a prerequisite for abortion** (strong), though it may be used case by case for clinical reasons; WHO notes that gestation limits in law often drive scanning that is not clinically needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa0ae03df2e214de",
+     "n": 805,
+     "p": "CLINICAL"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WHO: a routine follow-up visit is not medically needed after an uncomplicated medical abortion,** provided the woman knows when to return: symptoms of ongoing pregnancy, prolonged heavy bleeding, no bleeding at all, pain that medicines do not relieve, or fever. Low-quality evidence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f58fad2422eadf1c",
+     "n": 646,
+     "p": "Followin"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WHO recommends offering self-management before 12 weeks,** in whole or in part: judging her own eligibility, taking the medicines without direct supervision, and checking herself that the abortion is complete. The evidence is strongest before 10 weeks, and she must still have accurate information, quality medicines including pain relief, and access to health workers and a facility if wanted.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "300e410bece31e16",
+     "n": 577,
+     "p": "For medi"
+    },
+    {
+     "h": "0285f63f41b8787c",
+     "n": 139,
+     "p": "There wa"
+    },
+    {
+     "h": "eb33a641b3b8ec50",
+     "n": 294,
+     "p": "All indi"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WHO for incomplete abortion under 14 weeks:** vacuum aspiration or medical management; medically, misoprostol 600 μg by mouth or 400 μg under the tongue. Waiting can work as well as misoprostol if she accepts a longer time to expulsion and a higher chance of incomplete emptying.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3067ae84d6ea6cef",
+     "n": 369,
+     "p": "CLINICAL"
+    },
+    {
+     "h": "00c9b0d89c9f9194",
+     "n": 303,
+     "p": "Expectan"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**WHO on contraception timing:** hormonal methods (pill, patch, ring, implant or injection) can start straight after the first abortion pill; an IUD can go in when the abortion is confirmed complete. Starting DMPA immediately slightly reduces the abortion's success, but it should still be offered.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "77008ba4eccb6f6c",
+     "n": 504,
+     "p": "For indi"
+    },
+    {
+     "h": "95fc69ee807578b6",
+     "n": 284,
+     "p": "Immediat"
+    }
+   ],
+   "locator": "World Health Organization (WHO Guidelines Approved by the Guidelines Review Committee), ISBN 9789240104204, 'Abortion care guideline, second edition', 2024 (IRIS record issued 31 December 2024), https://iris.who.int/handle/10665/382157, retrieved 2026-09-24"
   }
  ]
 }

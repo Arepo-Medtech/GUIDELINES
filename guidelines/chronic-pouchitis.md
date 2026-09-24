@@ -1,11 +1,13 @@
 # Pouchitis and inflammatory pouch disorders after IPAA for ulcerative colitis
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults who have had restorative proctocolectomy with ileal pouch-anal anastomosis (IPAA) for ulcerative colitis: definitions, when to scope the pouch, prevention, intermittent, antibiotic-dependent and antibiotic-refractory pouchitis, Crohn's-like disease of the pouch and cuffitis. Dysplasia surveillance and pouches for Crohn's disease or familial adenomatous polyposis are out of scope. Ulcerative colitis before colectomy: see `inflammatory-bowel-disease`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 claims paraphrased from **American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85 — *AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders*** (January 2024; origin: international). **40 anchors re-checkable by machine; 2 doses.** The source's words are not reproduced: its licence is *NIH author manuscript in PMC: "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law." (© AGA Institute; not an open licence)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **51 fragments or anchors re-checkable by machine; 4 doses.** **S1** American Gastroenterological Association (Barnes EL (January 2024; international): 21 claims, paraphrased, hash-anchored · **S2** British Society of Gastroenterology (Moran GW (first published 23 June 2025; international): 6 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (AGA, 2024). Australian practice follows the PBS listings below and may differ.
+
+> 🌐 **S2 is a second international guideline (BSG, 2025).** Unlike AGA, it names **vedolizumab as first-line advanced therapy**, which matches the PBS listing, and it gives antibiotic and budesonide-enema doses.
 
 > ⚠️ **PBS vs AGA:** AGA suggests any advanced therapy approved for UC or Crohn's disease for chronic pouchitis and does not rank them. **On the PBS only vedolizumab is listed for chronic pouchitis** (authority required; see table below), matching the EMA approval the AGA notes.
 
@@ -22,6 +24,7 @@
 
 - **Scope the pouch (pouchoscopy)** for frequent recurrences, poor response to antibiotics before other therapy, atypical symptoms, or suspected Crohn's-like disease. It is not routinely needed before antibiotics for typical, infrequent episodes. [S1]
 - ⚠️ **Look for other causes when treatment fails:** anastomotic or stoma-site strictures and pelvic floor dysfunction impair emptying, and **C. difficile** and other infections should be checked in refractory pouchitis. [S1]
+- **BSG work-up for persistent symptoms after pouch surgery:** a pelvic MRI, stool culture and *C. difficile* test, and pouchoscopy that looks at the pouch, the pre-pouch ileum and the anal transition zone (rectal cuff). Faecal calprotectin and blood tests help grade severity; also consider pelvic sepsis, obstruction, stenoses and pelvic floor dysfunction. [S2]
 - **The treatment goal is symptom resolution**; endoscopic remission was not treated as a critical outcome. [S1]
 
 ## Prevention
@@ -33,6 +36,8 @@
 - **Treat infrequent episodes with antibiotics** (conditional). Ciprofloxacin and/or metronidazole are preferred, typically for 2–4 weeks; combine antibiotics if a single agent fails, and consider oral vancomycin when first-line drugs fail or are not tolerated. [S1]
 - **Panel's standard regimen:** ciprofloxacin 500 mg twice daily, or metronidazole 500 mg two or three times daily, for 2 weeks; ciprofloxacin is usually better tolerated. [S1]
 - **No recommendation on probiotics to treat an episode**; the panel's experience is that they have not worked well in practice and may delay effective antibiotics. [S1]
+- ⚠️ **BSG: first line for acute pouchitis is ciprofloxacin or metronidazole for 2 weeks** (ciprofloxacin is better tolerated and may work better). Warn about side effects and use the lowest dose for the shortest time that works. [S2]
+- **Doses from the BSG evidence:** ciprofloxacin 1 g/day and metronidazole 20 mg/kg/day both brought remission at 2 weeks in a small trial (7/7 vs 6/9); extend to 2–4 weeks if 2 weeks is not enough. A nightly budesonide enema (2 mg in 100 ml) matched metronidazole 500 mg twice daily over 6 weeks. A third (33%) had side effects on metronidazole (vomiting, taste change, transient neuropathy) and none on ciprofloxacin. [S2]
 
 ## Recurrent, antibiotic-responsive pouchitis
 
@@ -49,12 +54,15 @@
 - ⚠️ **Advanced immunosuppressive therapy is suggested** (conditional; low certainty for vedolizumab, very low for others). In the EARNEST trial 32/51 on vedolizumab responded at week 14 against 17/51 on placebo; pooled cohort response across drug classes was about 50%, with no significant difference between drugs. [S1]
 - **Refractory pouchitis is one of the commonest causes of pouch failure**, so delayed or inadequate treatment has consequences. Some patients keep getting partial benefit from antibiotics alongside advanced therapy. [S1]
 - **Corticosteroids are suggested for short-term control** (conditional, very low certainty): controlled ileal-release budesonide is preferred, for under 8–12 weeks, with a steroid-sparing plan. Steroids need not be tried before advanced therapy. [S1]
+- **BSG for chronic pouchitis:** combine antibiotics (for example ciprofloxacin with metronidazole, tinidazole or rifaximin), or use budesonide or beclometasone by mouth. If it still does not settle, reassess for other causes before moving to advanced therapy. [S2]
+- ⚠️ **BSG: vedolizumab is the suggested first-line advanced therapy** for chronic refractory pouchitis. In EARNEST (102 patients, all given ciprofloxacin 500 mg twice daily for 4 weeks), clinical remission was 31% vs 10% at week 14 and 35% vs 18% at week 34; a small adalimumab trial showed no benefit. Pooled cohort response rates were 54% for anti-TNF, 72.3% ustekinumab, 52.0% vedolizumab and 30.9% tofacitinib, with wide uncertainty. [S2]
 - **Mesalazine is not suggested** for refractory pouchitis (evidence gap); it may delay more effective therapy. [S1]
 
 ## Crohn's-like disease of the pouch and cuffitis
 
 - **Crohn's-like disease of the pouch:** corticosteroids (budesonide preferred) and advanced immunosuppressive therapy are both suggested (conditional, very low certainty), after pouchoscopy confirms the diagnosis. [S1]
 - **Cuffitis:** use ulcerative colitis therapies such as topical 5-aminosalicylates or topical corticosteroids (conditional, very low certainty). [S1]
+- ⚠️ **Primary sclerosing cholangitis raises pouch risk:** pouchitis in up to 64%, and chronic pouchitis in 68.1% vs 34.1% of matched patients without PSC, with more severe inflammation and pre-pouch ileitis. A pouch can still be offered after detailed counselling. [S2]
 
 ---
 
@@ -72,16 +80,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Doses of advanced therapies** (vedolizumab, anti-TNF, etc.) are not given in the guideline; use the UC/Crohn's regimens and the PBS vedolizumab listing. | `input_unavailable` |
-| 2 | **Tables 3–9 (recommendation summary, definitions, evidence profiles)** were stripped; the text recommendations were used. | `input_unavailable` |
-| 3 | **Probiotic availability:** the trial product (De Simone formulation) and other probiotics are not PBS-listed; see `probiotics` for the Australian position. | `observation` |
-| 4 | **Counterpart:** `inflammatory-bowel-disease` covers UC and notes pouch surgery outcomes (pelvic sepsis, pouch failure, incontinence) but not pouchitis treatment. | `observation` |
-| 5 | **Licence:** NIH author manuscript, fair use only. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Doses of advanced therapies** (vedolizumab, anti-TNF, etc.) are not given in either guideline (S2 says only 'standard induction and maintenance intervals'); use the UC/Crohn's regimens and the PBS vedolizumab listing. | `input_unavailable` |
+| 2 | **Choosing an advanced therapy: the sources differ.** S1 (AGA) suggests any therapy approved for UC or Crohn's and does not rank them; S2 (BSG) names vedolizumab first line. The PBS lists only vedolizumab for chronic pouchitis. Both are shown. | `observation` |
+| 3 | **EARNEST results are reported on different endpoints:** S1 gives clinical response (32/51 vs 17/51 at week 14); S2 gives clinical remission (16/51 vs 5/51). Both are correct for their endpoint. | `observation` |
+| 4 | **Tables 3–9 (recommendation summary, definitions, evidence profiles)** were stripped; the text recommendations were used. | `input_unavailable` |
+| 5 | **Probiotic availability:** the trial product (De Simone formulation) and other probiotics are not PBS-listed; see `probiotics` for the Australian position. | `observation` |
+| 6 | **Counterpart:** `inflammatory-bowel-disease` covers UC and notes pouch surgery outcomes (pelvic sepsis, pouch failure, incontinence) but not pouchitis treatment. | `observation` |
+| 7 | **Licence:** S1 NIH author manuscript, fair use only; S2 CC BY-NC 4.0 with a text-and-data-mining/AI clause in the PDF footer. All claims are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85. *AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders*. January 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/ — retrieved 2026-09-23. | NIH author manuscript in PMC: "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law." (© AGA Institute; not an open licence) | **paraphrased, hash-anchored** |
+| **S2** | British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395. *British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)*. first published 23 June 2025. https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf — retrieved 2026-09-24. | CC BY-NC 4.0 (publisher open-access licence per doi.org/Unpaywall record); every PDF page footer also states: 'Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

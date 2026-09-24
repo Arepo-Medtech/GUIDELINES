@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/growth-hormone-therapy-children.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://media.anzsped.org/2026/05/18111028/26_05-Growth-Hormone-Eligibility-and-Prescribing-Summary-Guidelines.pdf"
+  "https://media.anzsped.org/2026/05/18111028/26_05-Growth-Hormone-Eligibility-and-Prescribing-Summary-Guidelines.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australasian Paediatric Endocrine Group (ANZSPED), Child and Adolescent Growth Committee 'Growth Hormone and IGF-1 PBS Eligibility and Prescribing Summary Guidelines 2025' (last updated February 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: No licence or reuse terms stated in the PDF (treated as all rights reserved) (read at the PDF itself (44 pages; no copyright or licence statement found in its text or metadata)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Paediatric Endocrine Group (ANZSPED), Child and Adolescent Growth Committee 'Growth Hormone and IGF-1 PBS Eligibility and Prescribing Summary Guidelines 2025' (last updated February 2026), 25 claims; LICENCE: No licence or reuse terms stated in the PDF (treated as all rights reserved) (read at the PDF itself (44 pages; no copyright or licence statement found in its text or metadata)). S2: QUOTED from International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834) 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement' (published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text)), 9 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11913077). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an international consensus on long-acting (weekly) GH in paediatric GH deficiency (JCEM 2025, CC BY 4.0, quoted), for clinical use of somatrogon, somapacitan and lonapegsomatropin. S2 was funded by Pfizer (maker of somatrogon), which the article states had no editorial control. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 25,
-  "pass": 0,
+  "total": 34,
+  "pass": 9,
   "fail": 0,
   "pass_paraphrase_anchored": 25
  },
@@ -390,6 +391,70 @@
    ],
    "locator": "Australasian Paediatric Endocrine Group (ANZSPED), Child and Adolescent Growth Committee, 'Growth Hormone and IGF-1 PBS Eligibility and Prescribing Summary Guidelines 2025', last updated February 2026, https://media.anzsped.org/2026/05/18111028/26_05-Growth-Hormone-Eligibility-and-Prescribing-Summary-Guidelines.pdf, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Three weekly GH products are approved internationally for paediatric GH deficiency:** lonapegsomatropin, somapacitan and somatrogon. Each matched daily GH for 1-year height velocity in prepubertal children, but long-term and real-world data are still lacking.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The focus of this consensus is on 3 globally approved formulations of LAGH: lonapegsomatropin (Skytrofa), somapacitan (Sogroya), and somatrogon (NGENLA/Genryzon); listed in alphabetical order. … The efficacy of each formulation in terms of height velocity at 1 year was noninferior to that of daily GH in prepubertal children with GH deficiency in the respective phase III trials for each formulation () (Table 1). However, given the relatively recent approvals for LAGH in pediatric GH deficiency (2021-2023), long-term and real-world data are currently lacking.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Children who may gain most from weekly GH:** those at risk of poor adherence (such as teenagers), on multiple medicines, with neurodiversity or injection fear (theirs or a carer's), with more than one home or frequent travel, or from socioeconomically disadvantaged families.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Children at increased risk of poor adherence to daily GH, such as teenagers and those with previously documented poor adherence (). Children taking multiple medications. Caution may be necessary in patients taking multiple medications given the potential for drug-drug interactions (). Children with neurodiversity (including autism and attention-deficit/hyperactivity disorder) or other neurological or behavioral disorders who may have an increased tendency to be distressed by injections. Children with fear and anxiety associated with injections. Children with parents/caregivers who experience fear/anxiety associated with injections and the potential for \"hurting\" the child or affecting their relationship with the child. Children with more than 1 home because of the potential need for a supply of treatment in more than 1 location or to transport the treatment back and forth between residences. Children with frequent travel schedules outside of the home, such as sports competitions, extracurricular school activities (eg, musical groups), camping trips, and frequent sleepovers. Children whose families are socioeconomically disadvantaged and for whom GH treatment is an additional burden.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Not yet studied in trials:** survivors of cancer or intracranial tumours (take special care with dosing and IGF-1 monitoring), Prader–Willi syndrome, very young children, and non-GH-deficient states such as SGA, Turner syndrome, SHOX deficiency and chronic renal insufficiency. Use shared decision-making in these groups.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Although there is likely to be benefit in other growth disorders beyond GH deficiency, further trials of LAGH are needed in these disorders to demonstrate efficacy, safety, and appropriate dosing. Shared decision making between the treating endocrine practitioner, other health care practitioners involved in the patients' care, and the patients and their caregivers is particularly important in these populations, which include the following: … Survivors of cancer and intracranial tumors associated with GH deficiency. In survivors of cancer and intracranial tumors who may be considered for LAGH treatment, special consideration should be given to dosing and insulin-like growth factor (IGF)-1 monitoring. … Pediatric non-GH deficiency states such as SGA, idiopathic short stature, Turner syndrome, Noonan syndrome, SHOX deficiency, and chronic renal insufficiency. Phase II and III trials evaluating the use of LAGH in many of these conditions are ongoing, but results are still pending at the time of this publication.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dosing is weight based and product specific,** so milligram doses cannot be compared between molecules or with daily GH. Consider a lower start (using ideal body weight) in obesity or hyperglycaemia risk, and a lower initial dose with raised intracranial pressure risk, severe GH deficiency, genetic or chromosomal abnormalities, renal failure or oestrogen therapy.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "To minimize the risk of transient hyperglycemia with LAGH (as reported in ()), a lower initial starting dose may be considered based on ideal body weight rather than actual body weight for patients with obesity or who are otherwise already at risk for the development of hyperglycemia. A lower initial dose of LAGH may also be required for patients with increased risk of intracranial hypertension, severe GH deficiency, genetic or chromosomal abnormalities, or renal failure, as well as those receiving estrogen supplementation. … Prescribers should be aware that the per milligram calculation for weight-based dosing is different for each LAGH molecule and also differs from that of daily GH because of the unique pharmacokinetic/pharmacodynamic profile and molecular weight of each formulation. As such, direct milligram dose comparisons of the different molecules are not appropriate.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IGF-1 timing on weekly GH:** sample on day 4 after the dose (somapacitan, somatrogon) or day 4.5 (lonapegsomatropin) to estimate the average IGF-1; aim for an SDS between −2 and +2, preferably close to 0. Outside the 4- to 5-day window, apply product-specific correction factors. In the trials the dose was cut by 15–20% when average IGF-1 exceeded +2.0 SDS.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the European labels for LAGH, samples for IGF-1 are recommended to be drawn 4 days after the prior dose (, ) (4-5 days after dosing in the case of lonapegsomatropin ()) and dose adjustments should be targeted to achieve average IGF-1 SDS levels in the normal range (between -2 and +2; preferably close to 0 SDS) … If IGF-1 sampling is at day 4 (somapacitan and somatrogon) or day 4.5 (lonapegsomatropin), and levels are in the normal range, then no adjustment is needed to estimate the average IGF-1. … If IGF-1 sampling occurs outside the specified 4- to 5-day window, the IGF-1 level can be adjusted using product-specific correction factors to estimate the average IGF-I level, as shown in Table 2. … Dose reductions (15-20%) were performed in these trials based on elevated average IGF-1 levels greater than +2.0 standard deviation score (SDS)",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Switching without overlap:** from daily GH, give the first weekly dose the next day (at least 8 hours after the last daily dose); from one weekly product to another, give the new one 7 days after the last dose.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The recommendation when switching between any 2 formulations of GH is to avoid overlapping dosing. As a general rule for children switching from daily GH, the first LAGH dose should be given the next day (or at least 8 hours) after their last daily GH dose. For patients already receiving LAGH switching to another LAGH formulation, the dose of the new LAGH should be given 7 days after the last dose of the prior LAGH.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Missed doses:** pick a fixed injection day. A late dose can be given within ±2 days (lonapegsomatropin) or +3 days (somapacitan, somatrogon), then return to the usual day; missed doses matter for efficacy and for hypoglycaemia risk. If non-adherence persists, consider a school or community nurse giving the injection.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The general recommendation is to pick a specific day of the week as the injection day. If the injection cannot be given on that day, there is a ±2-day window (lonapegsomatropin) or a +3-day window (somapacitan and somatrogon) to give the dose as a \"make-up\" dose. The following week, injections should resume on the chosen specific day. … However, it is important to ensure timely dosing of LAGH, since this can have implications for not only efficacy but also safety in terms of hypoglycemia risk. … If there is persistent nonadherence to LAGH, consideration should be given to third-party administration such as school or community nurses.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**More than one injection a week is regularly needed** above about 45 kg (somatrogon), 50 kg (somapacitan) or 60.5 kg (lonapegsomatropin), when the dose exceeds one pen or cartridge. Record the time and site and rotate sites to avoid lipoatrophy.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "more than 1 injection may be needed regularly for individuals weighing over 45 kg (somatrogon), 50 kg (somapacitan), or 60.5 kg (lonapegsomatropin), exceeding the maximum dose per application for the respective devices. … LAGH can be given at any time of day, but time and injection site should be recorded, ensuring that injection sites are rotated to avoid lipoatrophy.",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Safety so far matches daily GH,** with no new signals over up to 5 years; somatrogon caused more injection-site reactions and pain than daily GH, and antidrug antibodies had no clinical effect. Only somapacitan is approved for adult GH deficiency, and oral oestrogen interactions in adolescents are unstudied.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The published safety profile of the LAGHs to date has been reassuring, with no new safety signals identified during follow-up periods of up to 5 years (, ). In the controlled phases of the pivotal phase III trials, LAGHs demonstrated comparable safety to daily GH, although 1 LAGH (somatrogon) was associated with more injection site reactions and pain than daily GH (). … Antidrug antibodies to the LAGH formulations were observed in clinical trials, although these were not associated with any clinical effects … Data on interaction of sex steroids (especially oral estrogens, which can reduce the biological effects of GH) and LAGH in adolescents are also needed. No data have been published on LAGH dosing requirements to optimize growth and bone health in adolescents with open epiphyses or on bone health and optimal dosing during the transition period from adolescence into adulthood. Only 1 LAGH (somapacitan) is currently approved for adult GH deficiency (defined as >18 years).",
+   "locator": "International expert group (Maniatis A, Cutfield W, Dattani M, Deal C, Collett-Solberg PF, Horikawa R, Maghnie M, Miller BS, Polak M, Savendahl L, Woelfle J), Journal of Clinical Endocrinology & Metabolism 110(4) (doi 10.1210/clinem/dgae834), 'Long-Acting Growth Hormone Therapy in Pediatric Growth Hormone Deficiency: A Consensus Statement', published 1 March 2025 (online December 2024; corrected 2025, PMC12012683, correction already in the retrieved text), https://pmc.ncbi.nlm.nih.gov/articles/PMC11913077/, retrieved 2026-09-24"
   },
   {
    "claim": "**Late-onset or mature-skeleton GH deficiency is managed by an endocrinologist and needs severe deficiency:** peak GH below 2.5 µg/L on insulin tolerance, below 0.4 on arginine, or below 3 on glucagon testing; or, without testing, age 18 or over with hypothalamic-pituitary disease, at least three pituitary hormone deficits and a subnormal IGF-1. Adults with Prader-Willi syndrome (18 or older) are not subsidised unless childhood-onset GH deficiency is documented.",

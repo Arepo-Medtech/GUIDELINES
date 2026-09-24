@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/urothelial-carcinoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/4427"
+  "https://www.eviq.org.au/p/4427",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4427 Bladder/Urothelial locally advanced or metastatic enfortumab vedotin and pembrolizumab (eviQ ID 4427, version 1)' (first approved 5 November 2025; review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4427 Bladder/Urothelial locally advanced or metastatic enfortumab vedotin and pembrolizumab (eviQ ID 4427, version 1)' (first approved 5 November 2025; review due 31 December 2026), 23 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2) 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)' (published 17 September 2025), 10 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12559142). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ 4427 claim (S1) unchanged and adds S2, the SEOM–SOGUG 2025 national society guideline (international, CC BY-NC-ND 4.0, paraphrased), for where enfortumab vedotin with pembrolizumab sits among the other first-line options (platinum chemotherapy, avelumab maintenance, nivolumab with cisplatin-gemcitabine, single-agent checkpoint inhibitors) and for later-line sequencing. S2's graded recommendation tables were stripped; claims come from its narrative. ESMO's 2024 interim first-line update (Annals of Oncology) has no open copy and SITC's 2021 urothelial guideline predates the EV-302 trial, so neither was used.",
  "summary": {
-  "total": 23,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -339,6 +340,166 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4427 Bladder/Urothelial locally advanced or metastatic enfortumab vedotin and pembrolizumab (eviQ ID 4427, version 1)', first approved 5 November 2025; review due 31 December 2026, https://www.eviq.org.au/p/4427, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**SEOM–SOGUG calls enfortumab vedotin with pembrolizumab the preferred first-line standard.** Its benefit held whatever the cisplatin eligibility, PD-L1 status, metastatic site or tumour location; 67.7% responded, 29.1% completely. It beat a control arm in which 30% had avelumab maintenance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83184aca4b40bb96",
+     "n": 234,
+     "p": "The bene"
+    },
+    {
+     "h": "dc4760903edbaac0",
+     "n": 136,
+     "p": "Thus, gi"
+    },
+    {
+     "h": "ae7bcdf72c041a61",
+     "n": 75,
+     "p": "since 30"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Longer follow-up (median 29.1 months):** at 24 months 37.1% against 12.6% were progression-free and 60.1% against 35.4% alive, and responses lasted a median of nearly 2 years.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c4b01530e2654df",
+     "n": 191,
+     "p": "subseque"
+    },
+    {
+     "h": "281278ce686ce7ca",
+     "n": 98,
+     "p": "The resp"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Platinum chemotherapy:** cisplatin regimens (MVAC, dose-dense MVAC, cisplatin-gemcitabine) give median survival of 12–15 months. About 50% of patients cannot have cisplatin; carboplatin with gemcitabine is safer but less effective (median survival 9–10 months).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7a7f3a0a7c347450",
+     "n": 160,
+     "p": "Several "
+    },
+    {
+     "h": "ce2c31825b8c45d8",
+     "n": 221,
+     "p": "Due to c"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Avelumab maintenance after platinum:** for patients free of progression after 4–6 cycles, switching to avelumab lengthened median survival to 21.4 from 14.3 months (HR 0.69), with benefit across subgroups whether cisplatin or carboplatin had been used.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd381374f1590137",
+     "n": 666,
+     "p": "The JAVE"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Nivolumab with cisplatin-gemcitabine (CheckMate 901):** for cisplatin-eligible patients, up to six cycles with nivolumab then nivolumab maintenance for at most 2 years raised median survival to 21.7 from 18.9 months (HR 0.78); 21.7% had a complete response. It is the only checkpoint inhibitor shown to add survival to first-line cisplatin chemotherapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "786af58b4e6f84b2",
+     "n": 835,
+     "p": "To date,"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A single checkpoint inhibitor** is an option only for frail, platinum-ineligible patients with PD-L1-positive, preferably low-volume disease; single-arm trials gave response rates of 23.5% (atezolizumab) and 28.6% (pembrolizumab).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "981f76c70e873d83",
+     "n": 456,
+     "p": "Single-a"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **After enfortumab vedotin with pembrolizumab there is no evidence for the next step.** The preferred choice is platinum chemotherapy, with no avelumab maintenance to follow; erdafitinib is reasonable when FGFR2/3 is altered.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2a57a848b1c7dd6f",
+     "n": 286,
+     "p": "Currentl"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After platinum chemotherapy alone:** pembrolizumab improved survival over second-line chemotherapy (median 10.1 against 7.2 months, HR 0.71).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ad06986589cec9b0",
+     "n": 201,
+     "p": "Pembroli"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After both platinum and a checkpoint inhibitor:** enfortumab vedotin alone (median survival 12.88 against 8.97 months, HR 0.70) or, for FGFR3/2 mutations or fusions, erdafitinib (12.1 against 7.8 months, HR 0.64). The best order of the two is unknown; taxanes or vinflunine later are for selected patients only.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c8db594d6754c3f5",
+     "n": 202,
+     "p": "The phas"
+    },
+    {
+     "h": "37878b84983ab6b9",
+     "n": 174,
+     "p": "in the p"
+    },
+    {
+     "h": "eaf890b3c98b751a",
+     "n": 327,
+     "p": "There is"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Upper tract urothelial carcinoma:** treat advanced disease as for bladder cancer; it carries FGFR mutations more often than bladder tumours do.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dc4e634241e7ac6a",
+     "n": 165,
+     "p": "For adva"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Genitourinary Oncology Group (SOGUG), Clinical and Translational Oncology 27(11):4142-4159 (doi 10.1007/s12094-025-04045-2), 'SEOM–SOGUG clinical guideline for urothelial cancer (2025)', published 17 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12559142/, retrieved 2026-09-24"
   }
  ]
 }

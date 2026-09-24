@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/ntrk-fusion-solid-tumours.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/4465"
+  "https://www.eviq.org.au/p/4465",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4465 Locally advanced or metastatic larotrectinib (eviQ ID 4465, version 1)' (first approved 20 November 2024; last reviewed 8 October 2025; review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4465 Locally advanced or metastatic larotrectinib (eviQ ID 4465, version 1)' (first approved 20 November 2024; last reviewed 8 October 2025; review due 31 December 2026), 16 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: QUOTED from Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053) 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults' (published 15 January 2021), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC7903287). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ 4465 claim (S1) unchanged and adds S2, the Canadian 2021 multidisciplinary consensus on biomarker testing and treatment of TRK fusion cancer in adults (international, CC BY 4.0, quoted), for how to test for NTRK fusions in each PBS tumour group, where a TRK inhibitor sits in the treatment sequence, entrectinib, the paediatric larotrectinib dose and resistance. The ESMO 2019 NTRK-testing recommendations and the JSCO-ESMO-ASCO-JSMO-TOS tumour-agnostic consensus (Annals of Oncology) have no open copy; a Chinese 2022 expert consensus (Thoracic Cancer, CC BY) was read and not used because the Canadian one maps more closely to the PBS tumour groups.",
  "summary": {
-  "total": 16,
-  "pass": 0,
+  "total": 27,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 16
  },
@@ -269,6 +270,85 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4465 Locally advanced or metastatic larotrectinib (eviQ ID 4465, version 1)', first approved 20 November 2024; last reviewed 8 October 2025; review due 31 December 2026, https://www.eviq.org.au/p/4465, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Adults in the pooled larotrectinib data (Canadian consensus):** 73% responded; most adverse events were grade 1-2, eight percent reduced the dose and 2% stopped.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the adults, ORR was 73% []. The majority of adverse events (AEs) were Grade 1-2 []. Eight percent of patients reduced their dose due to AEs, and 2% discontinued treatment",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Secretory carcinoma of the breast or salivary gland:** the ETV6-NTRK3 fusion is so common that a specific test (FISH, RT-PCR) is an option; if negative, use an RNA-based NGS panel.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For secretory carcinoma of the salivary gland and the breast, since the fusion partners are well known and highly prevalent, a specific test (e.g., FISH, RT-PCR) for the ETV6-NTRK3 gene fusion is an option []. Positive results would confirm the ETV6-NTRK3 gene fusion, and patients with negative results should have access to an RNA-based NGS panel for broader NTRK1-3 gene fusions.",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other tumours:** ideally an RNA-based NGS panel for all known drivers in every advanced patient; otherwise pan-TRK IHC alongside, or after, standard driver testing, since NTRK fusions rarely coexist with other drivers. IHC-positive or equivocal results need confirmation by NGS or another molecular test.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For tumour types with an intermediate or low probability of harbouring an NTRK gene fusion, ideally all metastatic/locally advanced patients would receive a comprehensive RNA-based NGS panel for all known oncogenic drivers, including NTRK1-3 gene fusions. As this is not currently standard practice in Canada, we recommend either pan-TRK IHC testing simultaneous with funded testing for common oncogenic drivers, or pan-TRK IHC testing sequentially in wildtype tumours, because NTRK gene fusions are generally mutually exclusive with other common oncogenic drivers []. Confirmatory NGS or other molecular test is required for IHC-positive or equivocal samples",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**NSCLC:** test routinely for NTRK1-3 fusions in stage III/IV disease; confirm a positive ROS1 or pan-TRK IHC screen, ideally by NGS, at minimum by FISH or another validated method.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "We recommend integration of routine testing for NTRK1-3 gene fusions in Stage III/IV patients with locally advanced or metastatic disease … Confirmation of gene fusions is required for ROS1- and pan-TRK-IHC positive cases, ideally with NGS, but minimally with FISH or another validated method.",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Sarcoma:** for KIT/PDGFRA-wildtype GIST, test by NGS for NTRK fusions and BRAF mutations without an IHC screen (staining is faint in GIST); test all other advanced sarcomas with pan-TRK IHC, confirming positive or inconclusive results by NGS.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For patients with KIT/PDGFRA wildtype GIST, we recommend testing for NTRK1-3 gene fusions and BRAF mutations using NGS. We suggest testing all patients with NGS without a pan-TRK IHC screen, because pan-TRK IHC screening is associated with faint staining in GIST and can be challenging to interpret, and the volume of patients in this category would be low … We recommend NTRK gene fusion testing of all other sarcoma subtypes in locally advanced or metastatic patients using pan-TRK IHC, with confirmatory NGS on IHC-positive or IHC-inconclusive cases",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Salivary gland:** for secretory carcinoma, NGS for NTRK1-3 and RET fusions; for other advanced salivary carcinomas, molecular profiling that includes NTRK1-3 fusions.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For secretory carcinoma of the salivary gland, we recommend NGS for NTRK1-3 and RET gene fusions. For RET fusions, they are actionable in the minority of secretory carcinoma cases that have them. For all other salivary gland carcinomas, we recommend molecular profiling in locally advanced, incurable, or recurrent metastatic patients, to determine eligibility for therapy or clinical trials, depending on histology. As part of this deep molecular tumour interrogation, we recommend simultaneous routine molecular testing for NTRK1-3 gene fusions.",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Tumour-agnostic default: use satisfactory standard options first, as the label requires;** where none is satisfactory (morbid surgery, heavy toxicity or poor response), a TRK inhibitor as the first systemic treatment is reasonable.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "If there are standard of care treatment options that are considered satisfactory, we recommend exhausting these before treating a patient known to harbour an NTRK gene fusion with a TRK inhibitor, in accordance with the Health Canada-approved label. In areas of high unmet need, where none of the available options are considered satisfactory (e.g., surgery with high morbidity, excessive toxicity, or low response rates), it is reasonable to consider a TRK inhibitor as the first systemic treatment in patients with TRK fusion cancer",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In NSCLC, sarcoma (including GIST) and salivary gland carcinoma, the panel recommends a selective TRK inhibitor first line** where accessible, citing high, durable response rates and better tolerance than standard care.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "we recommend a selective TRK inhibitor first-line, if accessible for TRK fusion-positive lung cancer. … We recommend a selective TRK inhibitor as the first-line systemic treatment in TRK fusion- positive GISTs and other TRK fusion-positive STS because of the impressive response rates, DOR, and better tolerance compared with standard of care options … We recommend first-line treatment with a selective TRK inhibitor for all patients with TRK fusion-positive salivary gland carcinoma",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Resistance comes from acquired NTRK kinase-domain mutations** that block first-generation drugs; second-generation inhibitors (selitrectinib, repotrectinib, taletrectinib) are in development. On resistance, consider a clinical trial, then chemotherapy if fit.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Resistance to the first generation TRK inhibitors entrectinib and larotrectinib has been demonstrated to be the result of acquired mutations in NTRK that lead to mutations in the kinase domain of TRK and interfere with the binding of first-generation TRK inhibitors [,]. Selitrectinib, repotrectinib, and taletrectinib are second-generation TRK inhibitors, which are being studied and may overcome known resistance mechanisms … Should patients develop resistance to larotrectinib or entrectinib, we recommend consideration of a clinical trial. Selitrectinib and repotrectinib are next generation TRK inhibitors, which are currently in development to overcome resistance []. Subsequently, standard cytotoxic chemotherapy can be offered to those of adequate performance status",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Entrectinib** (a TRK, ROS1 and ALK inhibitor) is given to adults at 600 mg once daily. In 54 pooled adults 57% responded, with median response duration 10.4 months, PFS 11.2 and survival 21 months; forty percent needed dose reductions and 4% stopped. Its extra targets may cause more off-target effects.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The multikinase TRK, ROS1, and ALK inhibitor entrectinib (ROZLYTREK, Hoffmann-La Roche Limited, Mississauga, ON, Canada) is approved for patients >18 years of age at 600 mg once daily … There were 54 evaluable adult patients with TRK fusion cancer with a median of one prior systemic therapy in the pooled analysis []. At a data cut-off, the ORR was 57%, median DOR was 10.4 months, median PFS was 11.2 months, and median OS was 21 months []. Most AEs were Grade 1-2 and reversible []. Forty percent of patients had dose reductions, and 4% discontinued due to AEs []. The most common entrectinib-related serious AE was nervous system disorders (three {4%} of 68 patients with TRK fusion cancer who received at least one dose of entrectinib) []. Hypothetically, entrectinib may have more \"off-target\" effects",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Larotrectinib in children (under 18):** 100 mg/m2 twice daily, to a maximum of 200 mg a day.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In pediatric patients (<18 years of age), the recommended dose is 100 mg/m2 BID up to a maximum of 200 mg/day",
+   "locator": "Bebb DG, Banerji S, Blais N, et al. (Canadian multidisciplinary expert consensus), Current Oncology 28(1):523 (doi 10.3390/curroncol28010053), 'Canadian Consensus for Biomarker Testing and Treatment of TRK Fusion Cancer in Adults', published 15 January 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC7903287/, retrieved 2026-09-24",
+   "dose": true
   }
  ]
 }

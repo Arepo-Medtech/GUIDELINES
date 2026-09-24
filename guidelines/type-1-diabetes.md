@@ -1,13 +1,15 @@
 # Type 1 diabetes in adults: glycaemic targets, insulin regimens, monitoring and hypoglycaemia
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** non-pregnant adults with type 1 diabetes: HbA1c, glucose and CGM targets, cardiovascular risk targets, glucose and ketone monitoring, choice of insulin regimen and delivery, injection technique, and recognising, treating and preventing hypoglycaemia, plus sick days and SGLT-inhibitor ketoacidosis risk. **Children and adolescents are not covered by this source:** see `diabetes-new-presentation-children`, `diabetes-sick-day-management-children`, `diabetes-unwell-in-hospital-children`, `diabetes-and-surgery-children`, `diabetic-ketoacidosis-children` and `hypoglycaemia-children`. Adult hypoglycaemia treatment across insulin and sulfonylurea users: `hypoglycaemia`. Type 2 diabetes: `type-2-diabetes`. Adult diabetic ketoacidosis: `diabetic-ketoacidosis-adults`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652 — *The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)*** (published 30 September 2021 (corrected 2021); origin: international). **46 anchors re-checkable by machine; 3 doses.** The source's words are not reproduced: its licence is *© European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence)*.
+> ✅ **COMPILED FROM 3 SOURCES.** 37 claims; **73 fragments or anchors re-checkable by machine; 3 doses.** **S1** American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.) (published 30 September 2021 (corrected 2021); international): 25 claims, paraphrased, hash-anchored · **S2** Australian Diabetes Society (published 15 November 2021; AU): 7 claims, paraphrased, hash-anchored · **S3** International Society for Pediatric and Adolescent Diabetes (ISPAD) (published 19 December 2024; international): 5 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (ADA/EASD, 2021). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **Adults only.** The ADA/EASD report does not cover children or adolescents; the RCH-based paediatric diabetes guidelines in this compendium do.
+> ⚠️ **S1 covers adults only.** **S3 (ISPAD 2024) now adds glycaemic targets for children and adolescents;** paediatric insulin therapy, sick days and DKA remain in the RCH-based paediatric guidelines in this compendium.
+
+> 🇦🇺 **S2 is the Australian consensus (ADS, ADEA, APEG, ADIPS; 2021) on diabetes technology** across the lifespan. Its funding details date from 2021 and some have since changed (see Unresolved).
 
 ---
 
@@ -19,6 +21,14 @@
 - **CGM targets for most adults: time in range (3.9–10 mmol/l) above 70%, time below 3.9 mmol/l under 4%, and time below 3.0 mmol/l under 1%.** For older people with long-standing diabetes the main target is time below range under 1%. A 70% time in range equates approximately to HbA1c 53 mmol/mol (7.0%). [S1]
 - **Blood pressure: aim for under 140/90 mmHg at lower cardiovascular risk (10-year risk under 15%), and under 130/80 mmHg at higher risk or with microvascular complications, especially kidney disease.** An ACE inhibitor or angiotensin receptor blocker is first-line. [S1]
 - **Consider a moderate-intensity statin from age 40, and at 20–39 years when there are other atherosclerotic risk factors or a 10-year cardiovascular risk above 10%** on a calculator suited to type 1 diabetes. Consider aspirin or another antiplatelet agent for everyone with established cardiovascular disease. [S1]
+
+## Children and adolescents: glycaemic targets (S3, ISPAD 2024)
+
+- **HbA1c target for children and adolescents: 48 mmol/mol (6.5%) or lower** when it can be reached safely with CGM and automated insulin delivery, without adding burden that harms quality of life (grade C); **53 mmol/mol (7%) or lower** otherwise (grade A). Measure HbA1c every 3 months. [S3]
+- **CGM targets for young people:** more than 70% of time at 3.9–10 mmol/L, under 4% below 3.9, under 1% below 3.0, under 25% above 10 and under 5% above 13.9 mmol/L (grade B). Reaching an HbA1c of 6.5% may need time in range above 80%; time in tight range (3.9–8 mmol/L) above 50% is an emerging metric. [S3]
+- **Without CGM:** finger-prick glucose of 4.0–8.0 mmol/L before meals and 4.0–10 mmol/L after meals, tested at least 6 times a day on insulin (grade B); fasting and bedtime 4.0–8 mmol/L, with 4.0–10 mmol/L at bedtime reasonable after hypoglycaemia or exercise. [S3]
+- **Why the lower target:** retinopathy is least common at transition to adult care when HbA1c has been 48 mmol/mol (6.5%) or lower. **But individualise it** where CGM and insulin-suspending technology are unavailable, because severe hypoglycaemia can harm cognition. [S3]
+- **Watch weight as glycaemia improves:** BMI SDS is rising in young people with diabetes, though automated insulin delivery improves glucose without changing BMI; dietetic education matters. [S3]
 
 ## Monitoring
 
@@ -34,6 +44,16 @@
 - **When analogues, pumps or CGM are unaffordable or unwanted,** regular human insulin with NPH, or premixed insulin, plus finger-prick checks as often as feasible, is an option, at the price of more glucose variability, more hypoglycaemia and less flexibility. [S1]
 - **Teach injection technique at the start and repeat it:** 4 mm needles at 90° reach the subcutaneous layer in most adults; rotate sites, because lipohypertrophy from reusing sites drives up doses and causes erratic glucose. Examine injection and pump sites at least once a year. [S1]
 - **Ask about weight worries:** insulin causes weight gain and some people cut their doses to avoid it. [S1]
+
+## Diabetes technology in Australia (S2)
+
+- 🇦🇺 **Start pumps, CGM or dose advisors on engagement, not strict glucose thresholds.** Essential: willingness with realistic expectations, regular contact with the diabetes team, individual goals set with a diabetes specialist, and carbohydrate counting for insulin-delivery devices. [S2]
+- 🇦🇺 **Technology is likely to help most with:** past severe hypoglycaemia needing help, impaired awareness or fear of hypoglycaemia, poor diabetes-related quality of life, glucose variability, repeated hospital visits for hypoglycaemia or DKA, pregnancy or planning it, jobs where finger pricks are impractical, transplant candidacy, a need for remote monitoring, needle phobia or insulin allergy. [S2]
+- 🇦🇺 **Continue technology while the person keeps using it, stays in contact with the team, is helped towards their goals, and a specialist reviews and signs off.** Avoid punitive cut-offs: address barriers, switch device, or allow a break. [S2]
+- 🇦🇺 **Pump access (when S2 was written):** mostly through Gold or Silver private hospital cover; the Insulin Pump Program (run by JDRF, means-tested) funds about 220 a year for under-18s; otherwise pumps cost $6994–$8574 each. [S2]
+- 🇦🇺 **CGM funding as S2 described it:** the NDSS CGM Initiative began in April 2017 for under-21s (fully subsidised under 10), later adding women planning pregnancy (within 12 months), pregnant or within 3 months after birth, and concession-card holders and Aboriginal and Torres Strait Islander adults; flash monitoring was added in March 2020. [S2]
+- 🇦🇺 **Insulin dose advisors may help anyone who titrates insulin;** NDSS registrants can get meters with a built-in dose advisor free, but many smartphone apps are not assessed or approved. [S2]
+- ⚠️ **Use only TGA-approved technology, as the maker intends;** the working group does not endorse do-it-yourself systems, though clinicians should understand them well enough to discuss the risks. At the time, commercial hybrid closed-loop systems were not recommended in pregnancy or for young children. [S2]
 
 ## Hypoglycaemia
 
@@ -67,17 +87,23 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Adolescents:** the ADA/EASD report covers adults only. Adolescent insulin therapy, targets and hypoglycaemia (ISPAD 2024; APEG/ADS) were not authored here; ISPAD 2024 chapters were not retrieved in this wave. | `out_of_scope` |
-| 2 | **Insulin regimen table and glycaemic target table** (Tables 1 and 5: starting doses, basal/bolus splits, targets for older adults) were stripped and are not stated. | `input_unavailable` |
-| 3 | **DKA treatment:** the source defers to local protocols. Adult DKA management is in `diabetic-ketoacidosis-adults`; children in `diabetic-ketoacidosis-children`. | `input_unavailable` |
-| 4 | **SGLT inhibitors, Australia:** the source's European approval of dapagliflozin 5 mg for type 1 diabetes was later withdrawn by the manufacturer (late 2021); no SGLT inhibitor is TGA-registered or PBS-listed for type 1 diabetes. Check current TGA status. | `observation` |
-| 5 | **Australian context:** subsidised CGM for all people with type 1 diabetes is supplied through the NDSS, not the PBS. The PBS row attached here lists only the long-acting analogues insulin detemir and insulin degludec. Australian (ADS) HbA1c targets broadly match the source's 53 mmol/mol (7.0%). | `observation` |
-| 6 | **Licence:** © EASD and ADA 2021, released to the PMC Open Access Subset under the COVID-19 research-reuse terms, not a CC licence. The claims are paraphrased and hash-anchored; the source's words are not reproduced. An ADA/EASD update is expected; re-check currency. | `observation` |
+| 1 | **Adolescents:** S1 covers adults only. S3 (ISPAD 2024 glycaemic targets) now covers targets for children and adolescents; ISPAD 2024 chapters on insulin delivery and hypoglycaemia were not added. | `out_of_scope` |
+| 2 | **Sources differ by age group on targets:** S1 sets HbA1c below 53 mmol/mol (7.0%) for most adults and pre-meal glucose of 4.4–7.2 mmol/L; S3 sets 48 mmol/mol (6.5%) or lower for children and adolescents with CGM and automated insulin delivery, and pre-meal 4.0–8.0 mmol/L. Both are shown; each applies to its own age group. | `observation` |
+| 3 | **S2's funding facts are from 2021:** the NDSS CGM Initiative has since widened to all people with type 1 diabetes (see the Australian context row), and newer hybrid closed-loop systems and indications have reached Australia. Check current NDSS, TGA and private-insurance rules. | `observation` |
+| 4 | **S2 is based on expert opinion** (very low certainty on GRADE, by its own statement) and is the summary published in the MJA; the full version is on the ADS website. | `observation` |
+| 5 | **Insulin regimen table and glycaemic target table** (Tables 1 and 5: starting doses, basal/bolus splits, targets for older adults) were stripped and are not stated. | `input_unavailable` |
+| 6 | **DKA treatment:** the source defers to local protocols. Adult DKA management is in `diabetic-ketoacidosis-adults`; children in `diabetic-ketoacidosis-children`. | `input_unavailable` |
+| 7 | **SGLT inhibitors, Australia:** the source's European approval of dapagliflozin 5 mg for type 1 diabetes was later withdrawn by the manufacturer (late 2021); no SGLT inhibitor is TGA-registered or PBS-listed for type 1 diabetes. Check current TGA status. | `observation` |
+| 8 | **Australian context:** subsidised CGM for all people with type 1 diabetes is supplied through the NDSS, not the PBS. The PBS row attached here lists only the long-acting analogues insulin detemir and insulin degludec. Australian (ADS) HbA1c targets broadly match the source's 53 mmol/mol (7.0%). | `observation` |
+| 9 | **Licences (S2, S3):** S2 is © 2021 AMPCo; S3 is CC BY-NC 4.0. Both are paraphrased and hash-anchored. | `observation` |
+| 10 | **Licence:** © EASD and ADA 2021, released to the PMC Open Access Subset under the COVID-19 research-reuse terms, not a CC licence. The claims are paraphrased and hash-anchored; the source's words are not reproduced. An ADA/EASD update is expected; re-check currency. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | American Diabetes Association and European Association for the Study of Diabetes (Holt RIG et al.), Diabetologia 64:2609-2652. *The management of type 1 diabetes in adults. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)*. published 30 September 2021 (corrected 2021). https://pmc.ncbi.nlm.nih.gov/articles/PMC8481000/ — retrieved 2026-09-23. | © European Association for the Study of Diabetes and American Diabetes Association 2021; made available via the PMC Open Access Subset for research re-use only for the duration of the WHO COVID-19 pandemic declaration (no CC licence) | **paraphrased, hash-anchored** |
+| **S2** | Australian Diabetes Society, Australian Diabetes Educators Association, Australasian Paediatric Endocrine Group and Australasian Diabetes in Pregnancy Society (Pease AJ, Andrikopoulos S, Abraham MB, et al.), Medical Journal of Australia 215(10):473-478 (doi 10.5694/mja2.51118). *Utilisation, access and recommendations regarding technologies for people living with type 1 diabetes: consensus statement of the ADS/ADEA/APEG/ADIPS Working Group*. published 15 November 2021. https://www.mja.com.au/journal/2021/215/10/utilisation-access-and-recommendations-regarding-technologies-people-living — retrieved 2026-09-24. | © 2021 AMPCo Pty Ltd (no open licence) | **paraphrased, hash-anchored** |
+| **S3** | International Society for Pediatric and Adolescent Diabetes (ISPAD), Hormone Research in Paediatrics 97(6):546-554 (doi 10.1159/000543266). *International Society for Pediatric and Adolescent Diabetes Clinical Practice Consensus Guidelines 2024: Glycemic Targets*. published 19 December 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11854972/ — retrieved 2026-09-24. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

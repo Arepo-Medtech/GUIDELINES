@@ -1,22 +1,58 @@
 {
  "guideline": "guidelines/acromegaly.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.nature.com/articles/s41574-025-01148-2"
+  "https://www.nature.com/articles/s41574-025-01148-2",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature) 'Consensus on acromegaly therapeutic outcomes: an update' (published online 13 August 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2025 Springer Nature Limited; exclusive rights held by Springer Nature or its licensor (no open licence) (read at the article's 'Rights and permissions' section and dc.rights metadata on nature.com). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature) 'Consensus on acromegaly therapeutic outcomes: an update' (published online 13 August 2025), 19 claims; LICENCE: © 2025 Springer Nature Limited; exclusive rights held by Springer Nature or its licensor (no open licence) (read at the article's 'Rights and permissions' section and dc.rights metadata on nature.com). S2: QUOTED from Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1) 'Consensus on criteria for acromegaly diagnosis and remission' (published 3 November 2023 (issue 2024; funding-statement correction PMC10837242)), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10837217). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 14th Acromegaly Consensus Conference statement on diagnosis and remission criteria (Pituitary 2024, CC BY 4.0, quoted), to fill the diagnosis gap. S1 claims and anchors are unchanged. No Australian acromegaly guideline or position statement was found (Europe PMC searches for acromegaly with Australia/Australian and consensus/guideline/position statement terms).",
  "summary": {
-  "total": 19,
-  "pass": 0,
+  "total": 30,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 19
  },
  "claims": [
+  {
+   "claim": "**Diagnosis: in someone with typical features, an IGF-I above 1.3 times the upper limit of normal for age confirms acromegaly.** A fasting GH is not needed for the diagnosis. If results are equivocal, repeat IGF-I on the same validated assay; an OGTT may help. (MQ / SR / DR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In a patient with typical clinical signs and symptoms of acromegaly, IGF-I > 1.3 times the upper limit of normal (ULN) for age confirms the diagnosis (MQ). GH measured after overnight fasting may be useful for informing prognosis or complications, but is not required for diagnosis (SR). However, as it is still often used as first line biochemical assessment [], a need for the use of validated GH assays worldwide is reinforced (SR). For patients with equivocal results, IGF-I measurements can be repeated using the same validated assay, and OGTT might additionally be useful (DR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reserve the OGTT for when baseline hormones leave the diagnosis unclear.** Give 75 g glucose after fasting and measure GH at 30, 60, 90 and 120 min. BMI-based nadir cut-offs can be considered: below 0.4 µg/L if BMI is under 25, below 0.2 µg/L if BMI is 25 or more (assay dependent). Stopping oral oestrogen 4 weeks before may avoid a falsely high nadir. (SR / DR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Thus, the consensus recommended that this test be reserved for patients in whom baseline hormone levels do not clarify the diagnosis (SR). … If OGTT is performed, 75 g glucose should be administered after fasting [], and GH nadir assessed after 30, 60, 90, and 120 min [] (SR). BMI-based GH nadir cutoffs can be considered for diagnosis, with < 0.4 µg/L for BMI < 25 kg/m2 and < 0.2 µg/L for BMI ≥ 25 kg/m2 [], although this may be assay dependent (DR). As healthy premenopausal females on estrogen-containing OC have higher GH nadirs [], cessation of oral estrogen therapy 4 weeks prior to OGTT may avoid its effects on the GH axis.",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Know the assay:** reference ranges differ between IGF-I immunoassays, and a high BMI lowers IGF-I for age. Use the same well-validated IGF-I assay for every assessment, and interpret new rises allowing for pregnancy, oestrogen, starvation and metabolic change. (MQ / SR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "normal reference ranges are specific to each immunoassay, with the greatest differences seen at the highest values … However, body mass index (BMI) might influence normal IGF-I ranges, such that patients with high BMI have lower IGF-I levels for their age group … For all patients, ideally, the same well-validated IGF-I assay should be used for all assessments (SR). New or persistent elevations in IGF-I levels should be interpreted within the context of the individual clinical scenario and account for factors that could affect results such as pregnancy, estrogen use, starvation, and metabolic changes (SR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Measure IGF-I in every newly found pituitary mass,** and consider it for people with classic features (acral enlargement, facial and bite changes), especially with unexplained sleep apnoea or ventricular hypertrophy. Diagnosis is typically delayed 5–10 years or more, which raises comorbidity and mortality and lets the adenoma invade. (SR / DR / HQ)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "there may be a delay of 5-10 years or more between first symptom onset and diagnosis [, ] (HQ) … All patients with a newly diagnosed pituitary mass should undergo IGF-I measurement (SR). Although widespread screening in the general population is not warranted, IGF-I screening could be considered in individuals with classical signs, symptoms, and comorbidities of acromegaly (DR), including acral enlargement and orofacial changes, particularly if these occur in conjunction with unexplained systemic manifestations such as sleep apnea or ventricular hypertrophy",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pituitary MRI at diagnosis for everyone:** gadolinium-enhanced, high resolution (1.5T or 3T), T1 and T2 sequences, 2–3 mm slices, reporting invasion by modified Knosp grade. Refer an equivocal microadenoma to an experienced neuroradiologist. (SR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Gadolinium-enhanced pituitary MRI should be performed in all patients at diagnosis using high-quality, high-resolution equipment, such as 1.5T or 3T scanners, where available, including T1- and T2-weighted fast spin echo sequences, with coronal and sagittal planes in 2-3 mm slice thickness with no or minimal spacing (SR). Reporting should be standardized, and include information on invasion into surrounding structures based on modified Knosp grade [] (SR). … equivocal diagnosis of acromegaly associated with pituitary microadenomas should be referred for review by an experienced neuroradiologist [] before considering further imaging studies (SR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
   {
    "claim": "**Surgery (transsphenoidal adenoma resection) is the preferred first-line treatment**, controlling the disease in roughly 50% of patients in referral centres; about half of those who then need medical therapy reach IGF1 control.",
    "source": "S1",
@@ -101,6 +137,13 @@
     }
    ],
    "locator": "Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature), 'Consensus on acromegaly therapeutic outcomes: an update', published online 13 August 2025, https://www.nature.com/articles/s41574-025-01148-2, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 defines surgical success as a normal IGF-I 12 weeks after surgery,** with early random GH (days 1–14) against the pre-operative level as a guide to how much adenoma was removed. If SRL was given before surgery, repeat at 3–6 months to confirm remission. In clinically controlled patients, an IGF-I in the mid to upper half of the age range may avoid inducing GH deficiency. (SR / DR / HQ)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "IGF-I levels should be measured 12 weeks after surgery to determine postoperative biochemical remission (SR). As the magnitude of GH decrease in the immediate postoperative period likely reflects the degree of success in adenoma removal, early random GH assessment on day 1-14 and comparison with preoperative GH levels can inform the degree of adenoma removal and subsequent longer-term remission (DR). OGTT assessment may provide further predictive value (DR). As preoperative SRL, used in patients with risk factors for more adverse surgical outcomes [], may have carryover effects that continue to influence postoperative IGF-I values [] (MQ), assessment should be repeated at 3-6 months to confirm remission (DR). … Maintaining serum IGF-I level in the mid to upper half of the age-related reference range could be considered in clinically controlled patients to avoid induction of GH deficiency [] (HQ).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
   },
   {
    "claim": "**Somatostatin receptor ligands (SRLs: octreotide, lanreotide) are the first-line medical option**, mostly as adjuvant treatment for active disease after surgery; primary SRL therapy suits selected patients who decline or cannot have surgery. (SR)",
@@ -199,6 +242,13 @@
     }
    ],
    "locator": "Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature), 'Consensus on acromegaly therapeutic outcomes: an update', published online 13 August 2025, https://www.nature.com/articles/s41574-025-01148-2, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When a single SRL is not enough, low-dose SRL plus weekly pegvisomant is both highly effective and more cost-effective** than higher doses or more frequent dosing of either drug (S2). Pasireotide may shrink residual adenoma more than octreotide or lanreotide. (MQ / DR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For patients demonstrating insufficient control on single-agent adenoma-targeting SRL, the addition of a peripherally targeting GH receptor antagonist could be beneficial; in such cases, the combination of low-dose SRL plus weekly pegvisomant is both highly effective and more cost-effective than higher doses or more frequent dosing of these agents [] (MQ). … Pasireotide might have a more effective shrinkage effect than octreotide and lanreotide [] and may be indicated in patients with clinically relevant residual adenoma mass (DR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
   },
   {
    "claim": "**Higher-dose SRL regimens (off label) can help SRL-sensitive patients:** lanreotide 180 mg every 28 days or 120 mg every 21 days, or octreotide LAR 60 mg every 28 days or 30 mg every 21 days.",
@@ -310,6 +360,20 @@
    "locator": "Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature), 'Consensus on acromegaly therapeutic outcomes: an update', published online 13 August 2025, https://www.nature.com/articles/s41574-025-01148-2, retrieved 2026-09-23"
   },
   {
+   "claim": "**Pegvisomant and cabergoline: check IGF-I every 1–3 months after starting or changing the dose, then every 6–12 months;** do not measure GH on either. Injectable SRL: IGF-I 3 months after a start or dose change, then every 6–12 months once controlled. (SR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For patients who did not achieve postoperative remission and who are treated with adjuvant SRL, IGF-I should be assessed 3 months after initiation/dose adjustment of injectable SRL and 2-4 weeks after initiation/dose adjustment of oral SRL to establish an optimal dosing regimen [], and then every 6-12 months thereafter once biochemical control is achieved (SR). Random GH might be helpful in select cases where evaluation of adenoma behavior is a concern (DR). As pegvisomant and cabergoline have a shorter half-life than injectable SRL, IGF-I should be assessed every 1-3 months after treatment initiation/dose adjustment to establish the dosing regimen, and then every 6-12 months thereafter. GH assessment is not informative in follow-up of pegvisomant and cabergoline and should not be performed (SR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**After radiotherapy, medical therapy bridges until the radiation works;** once IGF-I is stable in range, pause treatment at least once a year to test for radiation-induced remission. (SR / DR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In patients receiving radiotherapy to the residual/recurrent mass, medical therapy is used as a bridge until radiation effect is seen []. In these patients, IGF-I should be assessed at the intervals appropriate for the medical therapy used (SR). With sustained decline of IGF-I within the target range, treatment can be paused at least once each year depending on rapidity of the IGF-I decline to test for the onset of radiation-induced remission (DR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**MRI 6 months after starting or switching medical therapy;** otherwise routine MRI is not needed on an SRL with controlled hormones, but image promptly for visual or eye-movement symptoms. Rapid growth or a rising largest diameter means resistance and a change of strategy. (SR)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -333,6 +397,13 @@
    "locator": "Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature), 'Consensus on acromegaly therapeutic outcomes: an update', published online 13 August 2025, https://www.nature.com/articles/s41574-025-01148-2, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2's MRI schedule:** MRI 3–6 months after surgery as the baseline; then only for biochemical or clinical progression or when a change of modality is considered (such as before repeat surgery or radiotherapy). Regular MRI is not needed for everyone. (SR)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Therefore, regular MRI follow-up is not indicated for all patients with acromegaly (SR). … MRI should be performed at 3-6 months postoperatively and used as baseline for further assessments (SR). Thereafter, MRI should be performed upon signs of biochemical or clinical disease progression, and when a change in therapeutic modality is considered, such as prior to a second surgery or radiotherapy (SR).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**No routine gallbladder ultrasound or ECG is needed on SRLs,** but take care with other QT-prolonging drugs. (DR)",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -354,6 +425,13 @@
     }
    ],
    "locator": "Acromegaly Consensus Group (Melmed S, di Filippo L, Fleseriu M, et al.), Nature Reviews Endocrinology (Springer Nature), 'Consensus on acromegaly therapeutic outcomes: an update', published online 13 August 2025, https://www.nature.com/articles/s41574-025-01148-2, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Cancer screening:** there was no consensus on colonoscopy for everyone at diagnosis; UK gastroenterology guidance suggests regular screening from age 40. Screen for other cancers, including thyroid, as for the general population. (MQ)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Guidelines for screening high-risk patients from the British Society of Gastroenterology and Association of Coloproctology for Great Britain and Ireland suggest regular screening beginning at age 40, and individualized considerations for repeat colonoscopy according to evidence of acromegaly disease activity and prior colonoscopy findings []. Nevertheless, there was no consensus at this Workshop on whether colonoscopy should be performed in all patients at diagnosis of acromegaly regardless of age, despite the discretionary recommendation in previous consensus publications []. For all other cancers with reported increased frequency in acromegaly, including thyroid cancer, there was consensus that screening be performed according to national/regional guidelines for the general population []. … Although acromegaly patients are at increased risk for colon cancer, increased rates of cancer-specific mortality have not been shown [] (MQ).",
+   "locator": "Acromegaly Consensus Group (Giustina A, Biermasz N, Casanueva FF, Fleseriu M, Mortini P, Strasburger C, van der Lely AJ, Wass J, Melmed S), 14th Acromegaly Consensus Conference, Pituitary 27:7-22 (doi 10.1007/s11102-023-01360-1), 'Consensus on criteria for acromegaly diagnosis and remission', published 3 November 2023 (issue 2024; funding-statement correction PMC10837242), https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/, retrieved 2026-09-24"
   }
  ]
 }

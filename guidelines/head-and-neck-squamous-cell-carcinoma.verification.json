@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/head-and-neck-squamous-cell-carcinoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/medical-oncology/head-and-neck"
+  "https://www.eviq.org.au/medical-oncology/head-and-neck",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'eviQ head and neck SCC protocols: 3836 'Head and neck squamous cell carcinoma recurrent or metastatic cisplatin fluorouracil and pembrolizumab' (v.4, last reviewed 31 May 2024) and 291 'Head and neck squamous cell carcinoma locally advanced definitive cisplatin (three weekly) chemoradiation' (v.9, last reviewed 14 April 2023)' (retrieved 23 September 2026 (protocol 3836 review due 30 June 2026, now overdue; 291 reviewed as required)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. The source file concatenates two eviQ protocol pages (https://www.eviq.org.au/p/3836 and https://www.eviq.org.au/p/291), each under a header line naming its URL.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'eviQ head and neck SCC protocols: 3836 'Head and neck squamous cell carcinoma recurrent or metastatic cisplatin fluorouracil and pembrolizumab' (v.4, last reviewed 31 May 2024) and 291 'Head and neck squamous cell carcinoma locally advanced definitive cisplatin (three weekly) chemoradiation' (v.9, last reviewed 14 April 2023)' (retrieved 23 September 2026 (protocol 3836 review due 30 June 2026, now overdue; 291 reviewed as required)), 19 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: PARAPHRASED AND HASH-ANCHORED from Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9) 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)' (published 17 March 2026), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13186868). Verify each source separately: verify.py --source <file> --only-source S<n>. The S1 source file concatenates two eviQ protocol pages (https://www.eviq.org.au/p/3836 and https://www.eviq.org.au/p/291), each under a header line naming its URL. Edition 2.0 adds S2, the SEOM–TTCC 2025 head and neck cancer guideline (CC BY-NC-ND 4.0, paraphrased and hash-anchored), for radiotherapy dosing, cisplatin-ineligible options, induction, perioperative pembrolizumab, first-line choice by PD-L1 CPS, platinum-refractory and later lines, and follow-up. S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 19,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -150,6 +151,99 @@
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ head and neck SCC protocols: 3836 'Head and neck squamous cell carcinoma recurrent or metastatic cisplatin fluorouracil and pembrolizumab' (v.4, last reviewed 31 May 2024) and 291 'Head and neck squamous cell carcinoma locally advanced definitive cisplatin (three weekly) chemoradiation' (v.9, last reviewed 14 April 2023)', retrieved 23 September 2026 (protocol 3836 review due 30 June 2026, now overdue; 291 reviewed as required), https://www.eviq.org.au/medical-oncology/head-and-neck, retrieved 2026-09-23"
   },
   {
+   "claim": "**Radiotherapy (S2):** IMRT or VMAT, which cut xerostomia without losing control, at 70 Gy given as 35 fractions across 7 weeks, or 65–66 Gy as 30 fractions across 6 weeks [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53c78b37227353a3",
+     "n": 387,
+     "p": "Radiothe"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2 on concurrent cisplatin:** 100 mg/m² on days 1, 22 and 43 for a total above 200 mg/m² [I, A]; weekly schedules have not been shown non-inferior [II, B]. Benefit falls in patients older than 70, so select carefully and support throughout.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6acece4ff0c6d132",
+     "n": 494,
+     "p": "The CT r"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Cisplatin-ineligible (S2):** cetuximab bioradiotherapy (400 mg/m² on day −8, then 250 mg/m² weekly with radiotherapy) is an alternative [I, A], although it is inferior to concurrent cisplatin. Adding immunotherapy to chemoradiation has not improved outcomes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8409f38f5338c935",
+     "n": 371,
+     "p": "Cetuxima"
+    },
+    {
+     "h": "be0591eb72097332",
+     "n": 64,
+     "p": "Immunoth"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Induction chemotherapy (S2):** TPF (cisplatin 75 mg/m², docetaxel 75 mg/m² and fluorouracil 750 mg/m² a day by 96-hour infusion, given three-weekly) is the regimen of choice [I, A] for fit patients with good organ function; it lowers metastasis without a clear survival gain. Follow it with cisplatin chemoradiation where possible, as cetuximab is not non-inferior.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "42e396e5e3de2605",
+     "n": 549,
+     "p": "ICT enab"
+    },
+    {
+     "h": "31c581792a1e767e",
+     "n": 178,
+     "p": "Post-ICT"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Consider salvage neck dissection** when the primary has responded completely but PET–CT still shows nodal disease 12 weeks after treatment [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "941087dc628446c4",
+     "n": 180,
+     "p": "Salvage "
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Resectable locally advanced disease with PD-L1 CPS 1 or more: perioperative pembrolizumab** (2 cycles before surgery and 15 in total afterwards) improved event-free survival over surgery then (chemo)radiotherapy in a phase III trial; FDA approval came in June 2025 and EMA approval in October 2025 [I, A]. Induction chemotherapy before surgery is not supported [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6b530983c6133e4a",
+     "n": 721,
+     "p": "There is"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Kidneys and hearing:** use measured GFR for the first cisplatin dose when eGFR is under 60 (especially above 50 mg/m2), give pre-hydration, and arrange audiometry if hearing symptoms appear.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -275,6 +369,91 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'eviQ head and neck SCC protocols: 3836 'Head and neck squamous cell carcinoma recurrent or metastatic cisplatin fluorouracil and pembrolizumab' (v.4, last reviewed 31 May 2024) and 291 'Head and neck squamous cell carcinoma locally advanced definitive cisplatin (three weekly) chemoradiation' (v.9, last reviewed 14 April 2023)', retrieved 23 September 2026 (protocol 3836 review due 30 June 2026, now overdue; 291 reviewed as required), https://www.eviq.org.au/medical-oncology/head-and-neck, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **S2 first-line choice by PD-L1 CPS (platinum-naïve or recurrence more than 6 months after platinum, good performance status):** CPS 20 or more, pembrolizumab alone is preferred when symptoms and disease burden are low, or pembrolizumab with platinum–fluorouracil when a response is needed; CPS 1–19, pembrolizumab with platinum–fluorouracil is preferred, with pembrolizumab alone if chemotherapy is unsuitable; CPS under 1, EXTREME (platinum–fluorouracil with cetuximab), or TPEX (cisplatin–docetaxel–cetuximab) if fluorouracil cannot be used [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dfff070d0a569a0a",
+     "n": 128,
+     "p": "In cases"
+    },
+    {
+     "h": "6494da33c333e322",
+     "n": 875,
+     "p": "Tumors w"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Performance status 2:** paclitaxel with cetuximab (ERBITAX), a single chemotherapy drug or cetuximab alone [III, C]; evidence for pembrolizumab here is limited, so use it case by case. Performance status 3 or worse: supportive care only.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5fa0de83f8ce6801",
+     "n": 481,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Progression or recurrence within 6 months of cisplatin: do not rechallenge with a platinum doublet.** For good performance status, nivolumab is preferred whatever the PD-L1 result [I, A]; pembrolizumab alone may be considered when TPS exceeds 50%. If anti-PD-1 therapy is contraindicated or unsuitable (high, fast-moving disease), use ERBITAX or single-agent chemotherapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4ed67ebc6959e10",
+     "n": 731,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Second line depends on first line:** after pembrolizumab alone, EXTREME or TPEX if platinum-fit (ERBITAX if PS 2 or platinum-unfit); after pembrolizumab with platinum–fluorouracil, ERBITAX; after EXTREME or TPEX, nivolumab [I, A] or a single agent (taxane or capecitabine). Beyond that, single-agent taxanes or antimetabolites by fitness; offer trials.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6c48599290084954",
+     "n": 777,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Follow up for at least 5 years:** 40–60% of locally advanced cancers recur, mostly within 2 years, and second primaries (lung, urinary tract, head and neck) arise at 2–4% a year. Examine with flexible nasopharyngolaryngoscopy, investigate persistent pain or new neck lumps, offer smoking and alcohol cessation support, and do not use serum tumour markers.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d0fba2fee4ee9a9",
+     "n": 540,
+     "p": "Subjects"
+    },
+    {
+     "h": "bafed25edc2f920c",
+     "n": 77,
+     "p": "A proper"
+    },
+    {
+     "h": "084c6a9bd228c67f",
+     "n": 228,
+     "p": "Persiste"
+    },
+    {
+     "h": "5ae6b6273811d65a",
+     "n": 103,
+     "p": "There is"
+    }
+   ],
+   "locator": "Spanish Society of Medical Oncology (SEOM) and Spanish Head and Neck Cancer Group (TTCC) (Arrazubi, Iglesias et al.), Clinical and Translational Oncology 28(6) (doi 10.1007/s12094-026-04240-9), 'SEOM–TTCC clinical guidelines for the treatment of head and neck cancer (2025)', published 17 March 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13186868/, retrieved 2026-09-24"
   },
   {
    "claim": "**Pseudo-progression happens in about 5%:** if the patient seems to be benefiting, consider continuing and repeating the scan 4-6 weeks later before calling progression. Radiation recall can occur after a long radiotherapy course.",

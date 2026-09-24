@@ -1,13 +1,15 @@
 # Hereditary tyrosinaemia type 1 (HT-1): nitisinone and diet
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** confirming HT-1 after a positive newborn screen or a clinical presentation, starting and adjusting nitisinone (NTBC), the phenylalanine- and tyrosine-restricted diet with amino-acid medical foods (the PBS 'Tyrosinaemia' formula listings), acute liver failure and neurological crises, and lifelong surveillance for liver cancer, kidney, eye and neurodevelopmental problems. First steps for any suspected inborn error: `metabolic-disorders-children`. Other protein-restricted diets: `phenylketonuria`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine — *Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations*** (2017; origin: international). **56 anchors re-checkable by machine; 8 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **86 fragments or anchors re-checkable by machine; 9 doses.** **S1** US and Canadian HT-1 consensus group (Chinsky JM et al.) (2017; international): 25 claims, paraphrased, hash-anchored · **S2** Consensus group of the German-speaking countries (Germany (2025 (published online December 2024); international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (US and Canadian consensus group, 2017). Australian practice follows the PBS listings below and may differ.
 
 > The PBS `Tyrosinaemia` rows are the phenylalanine- and tyrosine-free amino-acid formulas used for the diet described here. Brand names in the source are North American.
+
+> ⚠️ **S2 is a newer European consensus (German-speaking countries, 2025),** built on longer experience with newborn screening. It agrees with S1 on screening, nitisinone plus diet and the tyrosine target, but starts nitisinone at 1–2 mg/kg, accepts lower nitisinone levels, relaxes the diet by food categories, spaces liver surveillance to 6–12 months and continues nitisinone in pregnancy. Where they differ, both are shown.
 
 ---
 
@@ -29,6 +31,8 @@
 - **Use the lowest dose that gives a blood level of 40–60 μmol/L and/or keeps SA normal.** Dosing by blood level is more reliable than by weight and may allow lower doses in older children. (Grade D) [S1]
 - **If SA rises, check adherence first, then increase the dose.** A sudden return of SA signals missed nitisinone, not cancer. [S1]
 - **Nitisinone has no known drug interactions,** so normal medicines and routine vaccination can be given. Check blood counts periodically (transient low platelets and white cells were seen in trials). [S1]
+- **German-speaking consensus dosing (S2):** start nitisinone at 1–2 mg/kg per day, then titrate down while succinylacetone in blood and urine stays below the detection limit; weight-based increases are rarely needed. Give it twice daily, or once daily above 20 kg to help adherence, and never interrupt it, because stopping can trigger porphyria-like crises. [S2]
+- **Use the lowest nitisinone dose that keeps succinylacetone undetectable (S2).** The presumed trough range is 20–60 μM, but lower levels are acceptable if succinylacetone stays suppressed. Dried blood spots can measure succinylacetone, tyrosine, phenylalanine and nitisinone together at home; use a laboratory-specific factor to compare them with plasma. [S2]
 
 ## Diet
 
@@ -36,6 +40,8 @@
 - **Targets:** plasma tyrosine 200–600 μmol/L (Grade C); phenylalanine in the laboratory's normal range, adding intact protein or a phenylalanine supplement if it falls below 20 μmol/L. [S1]
 - **Infants at diagnosis:** a phenylalanine- and tyrosine-free formula with no intact protein for up to 48 hours, with energy above 120 kcal/kg/day and 3.5 g/kg of protein from medical foods to prevent catabolism. [S1]
 - **Watch vitamin and mineral intake:** the low-protein diet can cause deficiencies, so supply age-appropriate requirements. (Grade C) [S1]
+- **Targets (S2):** plasma tyrosine 200–600 μM; phenylalanine in the low part of the reference range. If phenylalanine falls below 30 μM, give more natural protein, or a phenylalanine supplement when tyrosine is already high in its range. Sample fasting (before breakfast) or no sooner than 4 hours after eating. [S2]
+- **The diet can be simplified (S2):** sorting foods into three groups (fine, occasionally, avoid) instead of counting protein kept metabolic control and may help adherence and quality of life; after school age larger amounts of natural food were tolerated. Glycomacropeptide-based substitutes are an alternative to amino acid mixtures. A specialist metabolic dietitian should be part of the team. [S2]
 
 ## Acute presentations
 
@@ -53,6 +59,12 @@
 - **Include neuropsychological assessment in routine follow-up;** low IQ, attention and executive-function problems have been reported on nitisinone. [S1]
 - **Watch adherence:** brief lapses feel harmless but can cause corneal crystals, paralytic crises and higher cancer risk. [S1]
 - **Pregnancy:** there was no consensus on nitisinone in pregnancy. Follow up babies exposed in pregnancy, and do not breastfeed on nitisinone. (Grade D) [S1]
+- **Visit and laboratory schedule (S2):** laboratory checks every week or two after starting, then every 3 months to age 1, every 6 months through childhood and adolescence, and every 6–12 months in adults, with dried blood spot home samples between visits. Tests: blood count, electrolytes with calcium and phosphate, liver function, total protein, AFP, urea, creatinine, cystatin C, coagulation, vitamin D, PTH, ferritin, plasma and urine amino acids, succinylacetone and nitisinone level. [S2]
+- ⚠️ **Liver cancer surveillance (S2):** AFP and abdominal ultrasound every 6–12 months. AFP can stay raised for months after nitisinone starts; failure to normalise or a second rise needs imaging, and MRI (more sensitive and specific) when HCC is suspected. Do not biopsy the liver, because of the risk of seeding tumour cells. [S2]
+- **Transplant (S2):** for acute liver failure not responding to nitisinone, suspected or localised HCC, chronic liver failure despite treatment, or cirrhosis; consider it individually for poor adherence. Not pre-emptively in screened, treated children. Stop nitisinone after transplant even though succinylacetone stays slightly raised (from the kidneys). [S2]
+- **No routine eye or heart checks (S2):** examine the eyes for symptoms (conjunctivitis, eye pain, corneal clouding, visual change) or poor dietary control, and the heart only if symptoms appear. Assess neurocognitive development at school entry and regularly afterwards; give all standard vaccinations. [S2]
+- **Pregnancy (S2):** pregnancy is possible though experience is limited; continue nitisinone and aim for stable control before conception. Breastfeeding on nitisinone is not encouraged but can be discussed case by case (a few successful reports). [S2]
+- **Support through life (S2):** a multiprofessional team (metabolic paediatrician, dietitian, psychologist, social worker); structured education repeated before primary school, at puberty and in adolescence; psychological support and advice on social rights from diagnosis, with screening for psychosocial burden when adherence falters; transition to an adult metabolic centre where possible. [S2]
 
 ---
 
@@ -71,15 +83,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Monitoring schedules** (Tables 1 and 3: tests and intervals by age and presentation) are in tables that were not extracted into the source text used, so they are not stated here. | `input_unavailable` |
-| 2 | **Newborn screening in Australia:** the source describes US and Canadian programmes. The Australian program's HT-1 screening marker was not checked against this source. | `observation` |
-| 3 | **Source age:** 2017 consensus (9 years old). The 2013 European recommendations (de Laet, Orphanet J Rare Dis, CC BY) are older still. | `observation` |
-| 4 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Monitoring schedules:** S1's Tables 1 and 3 (tests and intervals by age and presentation) were not extracted. A visit and laboratory schedule is now given from S2's text. | `input_unavailable` |
+| 2 | **Nitisinone dosing differs:** S1 starts at 1.0 mg/kg/day (raised to 2 mg/kg without improvement or in severe liver failure), splits doses in the first year and targets a blood level of 40–60 μmol/L; S2 starts at 1–2 mg/kg/day, titrates down, allows once-daily dosing above 20 kg and accepts levels below 20–60 μM if succinylacetone stays undetectable. Both are shown. | `observation` |
+| 3 | **Liver surveillance interval differs:** S1 notes many centres image and check AFP every 3–6 months; S2 recommends AFP and ultrasound every 6–12 months, MRI when HCC is suspected and no liver biopsy. Both are shown. | `observation` |
+| 4 | **Pregnancy and breastfeeding differ:** S1's group reached no consensus on nitisinone in pregnancy and contraindicates breastfeeding on it; S2 (2025) continues nitisinone in pregnancy and discusses breastfeeding case by case. Both are shown; S2 is newer. | `observation` |
+| 5 | **Newborn screening in Australia:** both sources describe overseas programmes (S1 US and Canada; S2 Germany from 2018, Austria from 2022). The Australian program's HT-1 screening marker was not checked against them. | `observation` |
+| 6 | **Source age:** S1 is a 2017 consensus; S2 (2025) is the newer European one. The 2013 European recommendations (de Laet, Orphanet J Rare Dis, CC BY) are older still and were not added. | `observation` |
+| 7 | **Licences:** S1 is CC BY-NC-ND 4.0 and S2 is CC BY-NC 4.0; both are paraphrased and hash-anchored, and the sources' words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | US and Canadian HT-1 consensus group (Chinsky JM et al.), Genetics in Medicine. *Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations*. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5729346/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Consensus group of the German-speaking countries (Germany, Austria, Switzerland; AWMF methodology), Journal of Inherited Metabolic Disease. *Diagnosis, treatment, management and monitoring of patients with tyrosinaemia type 1: Consensus group recommendations from the German-speaking countries*. 2025 (published online December 2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11647197/ — retrieved 2026-09-24. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

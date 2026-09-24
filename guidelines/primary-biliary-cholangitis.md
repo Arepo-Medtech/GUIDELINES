@@ -1,13 +1,15 @@
 # Primary biliary cholangitis (PBC)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, first-line ursodeoxycholic acid (UDCA), assessing response, second-line therapy, pruritus, bone health, fatigue, portal hypertension and liver cancer surveillance, transplant referral, overlap with autoimmune hepatitis, and pregnancy in adults with PBC. Recommendation grades are shown as (evidence level, strength) as in the source. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 20 claims quoted verbatim from **Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6 — *APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis*** (published 4 February 2022; origin: international); **25 fragments re-checked by machine; 7 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 32 claims; **49 fragments or anchors re-checkable by machine; 9 doses.** **S1** Asian Pacific Association for the Study of the Liver (APASL) (published 4 February 2022; international): 20 claims, quoted · **S2** Strasser SI (published 9 August 2026; AU): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (APASL, 2022). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **The PBS list is newer than this guidance.** The PBS lists ursodeoxycholic acid, obeticholic acid and **elafibranor** for PBC. APASL (literature to January 2021) predates elafibranor, and its second-line options of fibrates and budesonide are not PBS drugs for this condition.
+> ⚠️ **The PBS list is newer than this guidance.** The PBS lists ursodeoxycholic acid, obeticholic acid and **elafibranor** for PBC. APASL (literature to January 2021) predates elafibranor, and its second-line options of fibrates and budesonide are not PBS drugs for this condition. **S2 (an Australian expert-opinion review, 2026)** now adds elafibranor, seladelpar, current OCA status and PBS access; it is expert opinion, not a guideline or consensus, and its writing support was industry-funded.
+
+> 🇦🇺 **Which source says what:** S1 (APASL 2022, international guideline, quoted) carries the graded recommendations; S2 (Australian expert opinion, paraphrased) carries the Australian drug-access and newer-drug claims. Where they differ, both are shown.
 
 ---
 
@@ -17,6 +19,8 @@
 - **Diagnose PBC when two of three criteria are met** (I, 1): cholestatic biochemistry (mainly raised ALP and GGT) with extrahepatic obstruction excluded on imaging; AMA or a PBC-specific ANA (anti-sp100 or anti-gp210); or histology showing non-suppurative destructive cholangitis of the interlobular bile ducts. [S1]
 - **Image everyone with cholestasis by ultrasound.** Dilated bile ducts make PBC very unlikely; look for another biliary cause with MRCP, ERCP or endoscopic ultrasound. [S1]
 - **AMA alone is not enough to diagnose PBC.** AMA-positive people with normal liver tests should have yearly biochemistry; biopsy can be considered in selected cases (III, 2). If cholestasis is unexplained and AMA, anti-gp210 and anti-sp100 are negative, biopsy to confirm the diagnosis (III, 2). [S1]
+- **Offer family screening, starting with liver function tests, to female first-degree relatives over 30,** since PBC is more common in first-degree relatives (S2, Australian expert opinion). [S2]
+- ⚠️ **Stratify risk at diagnosis:** progression is most likely in men, people aged 45 or under and those with advanced fibrosis; a liver stiffness above 9.6 kPa signals higher risk. Fast-track specialist review for severe itch, a bilirubin above 2 × ULN, or decompensated disease (Child-Pugh class B/C). [S2]
 
 ## First-line treatment
 
@@ -30,6 +34,13 @@
 - **Itch is the main OCA side effect:** pruritus occurred in 77% in the phase III trial and was dose-dependent, causing withdrawal in 15% (OCA 10 mg) to 38% (OCA 50 mg). [S1]
 - **Fibrates:** bezafibrate 400 mg/day or fenofibrate 200 mg/day can be added to UDCA after an inadequate response; watch closely for adverse events, especially with cirrhosis (I, 1). [S1]
 - **Budesonide 6–9 mg/day** might be added for patients **without cirrhosis** who respond poorly to UDCA (II, 2). Levels rise sharply in late-stage PBC, with severe side effects. [S1]
+- **Response to UDCA (Australian view):** the usual target is ALP below 1.67 × ULN and bilirubin below 2 × ULN after 12 months; about 60% reach it and around 40% are intolerant or do not respond and should be offered second-line therapy. Before calling it non-response, check the dose, adherence, absorption and other causes of a raised ALP such as MASLD. [S2]
+- ⚠️ **Second-line options in Australia:** fenofibrate (approved here for lipids, not PBC, so off-label), obeticholic acid, and the newer PPAR agonists elafibranor and seladelpar. **Budesonide is not recommended in Australian practice,** because a placebo-controlled trial found no histological benefit. [S2]
+- **PBS-subsidised add-on OCA or elafibranor needs an inadequate response after 52 weeks of UDCA at a therapeutic dose (or documented UDCA intolerance),** judged by ALP of 1.67 × ULN or more or bilirubin of one to two times the ULN. Severe liver disease excludes subsidy, and OCA and a PPAR agonist cannot be PBS-prescribed together. Because of the 12-month requirement, earlier escalation for high-risk patients is not funded. [S2]
+- **Elafibranor 80 mg once daily** (dual PPAR-alpha/delta agonist; ELATIVE trial, 161 patients) lowered ALP from week 4, sustained to week 52, but did not significantly improve the worst-itch score. Abdominal pain, diarrhoea, nausea and vomiting were more common. TGA-approved March 2025 and PBS-listed November 2025, for use with UDCA but not with OCA. [S2]
+- **Seladelpar 10 mg** (selective PPAR-delta agonist; RESPONSE trial): 61.7% reached the composite biochemical response against 20% on placebo, a quarter normalised ALP, and itch scores fell significantly. It is now approved in Australia. [S2]
+- ⚠️ **Obeticholic acid status now:** contraindicated in advanced cirrhosis (past or current decompensation or portal hypertension; boxed warning in the Australian product information). It was withdrawn in the US in November 2025 and deregistered in Europe after COBALT, but remains TGA-registered and PBS-listed. The Australian authors advise continuing it when tolerated with a good response, switching to a PPAR agonist for significant itch, and close monitoring in compensated cirrhosis. [S2]
+- **Fibrates in practice:** a low-cost add-on after inadequate UDCA response, usable even for ALP 1–1.67 × ULN after 12 months of UDCA; continue if ALP falls below 1.67 × ULN and switch to a PPAR agonist if high-risk features appear. Beware rising creatinine and kidney disease, avoid in decompensated disease, and never combine a fibrate with elafibranor or seladelpar. [S2]
 
 ## Symptoms and bone health
 
@@ -37,17 +48,20 @@
 - ⚠️ **Itch, second line: rifampicin 150–300 mg twice a day**, with close monitoring for side effects (II, 2), because it can cause severe liver injury. [S1]
 - **Fatigue has no specific drug treatment.** Treat coexisting anaemia, extrahepatic autoimmune disease, sleep disturbance and depression (III, 2). [S1]
 - **Bone:** check vitamin D in all patients (II, 2) and assess for osteoporosis, especially after menopause (III, 2). Ensure calcium 1000–1500 mg/day and vitamin D 1000 IU/day (III, 2). Bisphosphonates (alendronate 70 mg weekly or ibandronate 150 mg monthly) can be considered for osteoporosis, with caution if there are oesophageal varices (III, 2). [S1]
+- **Itch in Australian practice:** antihistamines rarely help; clinicians here favour rifampicin and fibrates, with close liver-enzyme monitoring on rifampicin. Naltrexone, sertraline and gabapentin are other off-label options. [S2]
 
 ## Complications and surveillance
 
 - **Screen for gastro-oesophageal varices** when there are features of portal hypertension such as splenomegaly or low platelets (II, 2). Varices can appear before cirrhosis. [S1]
 - ⚠️ **Closely monitor for hepatocellular carcinoma in high-risk patients:** men, advanced-stage disease and UDCA non-responders (II, 2). [S1]
 - ⚠️ **Consider liver transplantation** for decompensated cirrhosis, MELD 15 or more, Mayo Risk Score above 7.8, or severe intractable itch (II, 1). UDCA after transplant is safe and helps prevent recurrence (II, 1). [S1]
+- **Follow-up for life, at least yearly:** bilirubin, ALP, AST, albumin, platelets and elastography; 6-monthly ultrasound for liver cancer in everyone with cirrhosis; and, each year, thyroid tests, lipids, vitamin D and a bone-health (osteoporosis) check. Medicare funds bone density testing every 2 years for people with liver disease. [S2]
 
 ## Special situations
 
 - **PBC with autoimmune hepatitis features** needs two of three criteria, one of which must be moderate or severe interface hepatitis on histology; the others are ALT/AST above 5 times ULN, and IgG above 1.3 times ULN or ASMA (III, 2). Immunosuppression (a corticosteroid with or without azathioprine or mycophenolate) can be added to UDCA or started with it (III, 2). [S1]
 - **Pregnancy can be advised** for women with PBC of childbearing age; those with cirrhosis should be told the possible maternal and fetal complications (III, 2). Continuing UDCA in pregnancy and breastfeeding can be considered after counselling (III, 2). [S1]
+- **In pregnancy, expect itch to get worse as pregnancy advances (second and third trimesters) and check liver tests after the birth for a flare.** For new cholestasis in pregnancy, test AMA to separate PBC from intrahepatic cholestasis of pregnancy, and follow SOMANZ advice on bile acid monitoring. [S2]
 
 ---
 
@@ -65,15 +79,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Elafibranor** (PBS-listed for PBC) is not in this 2022 guidance. Newer sources (EASL 2025; AISF 2026, doi 10.1016/j.dld.2026.06.019) were named in research but not read. | `input_unavailable` |
-| 2 | **Biochemical response criteria** (Paris, Barcelona, Toronto, GLOBE, UK-PBC thresholds) and the differential diagnosis list are in tables, which were stripped. | `input_unavailable` |
-| 3 | **Fibrates and budesonide** are APASL second-line options but are not PBS drugs for this condition; the PBS second-line options are obeticholic acid and elafibranor. | `observation` |
-| 4 | **Paediatric cholestatic disease** (biliary atresia, PFIC) is out of scope. | `out_of_scope` |
+| 1 | **Elafibranor** (PBS-listed for PBC) is not in the 2022 APASL guidance (S1); S2 (Australian expert opinion, 2026) now covers it and seladelpar. The newer society guidelines (EASL 2025; AISF 2026, doi 10.1016/j.dld.2026.06.019) are not open access and were not read. | `input_unavailable` |
+| 2 | **Budesonide: the sources disagree.** S1 (APASL) says it might be added in non-cirrhotic patients with a poor UDCA response (II, 2); S2 says it is not recommended in Australian practice because a placebo-controlled trial showed no histological benefit. Both are shown. | `observation` |
+| 3 | **When to judge response:** S1 allows assessment at 6 or 12 months; S2 notes 6 months may be as informative (3 months for high-risk patients), but PBS-funded second-line therapy requires 12 months on UDCA. | `observation` |
+| 4 | **Biochemical response criteria** (Paris, Barcelona, Toronto, GLOBE, UK-PBC thresholds) and the differential diagnosis list are in tables, which were stripped. | `input_unavailable` |
+| 5 | **Fibrates and budesonide** are APASL second-line options but are not PBS drugs for this condition; the PBS second-line options are obeticholic acid and elafibranor. S2 notes fenofibrate is used off-label in Australia and bezafibrate only via the Special Access Scheme. | `observation` |
+| 6 | **S2 is industry-supported expert opinion:** medical writing was funded by Gilead Sciences (seladelpar's sponsor), and most authors declare advisory roles; the authors state Gilead had no influence on content. | `observation` |
+| 7 | **Paediatric cholestatic disease** (biliary atresia, PFIC) is out of scope. | `out_of_scope` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Asian Pacific Association for the Study of the Liver (APASL), Hepatology International 16(1):1-23, doi 10.1007/s12072-021-10276-6. *APASL clinical practice guidance: the diagnosis and management of patients with primary biliary cholangitis*. published 4 February 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8843914/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | Strasser SI, Thompson AJ, Gupta R, Lubel J, French J, Sacks B, Weltman M, Journal of Gastroenterology and Hepatology, doi 10.1111/jgh.70616. *Treatment Goals for Primary Biliary Cholangitis, an Australian Perspective*. published 9 August 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13534266/ — retrieved 2026-09-24. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

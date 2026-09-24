@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/hairy-cell-leukaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11201647/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11201647/",
+  "https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from French Innovative Leukemia Organization (FILO) and French-speaking experts (Troussard X, Maitre E, Paillassa J, et al.), Cancers (MDPI) 'Recommendations for the Management of Patients with Hairy-Cell Leukemia and Hairy-Cell Leukemia-like Disorders: A Work by French-Speaking Experts and French Innovative Leukemia Organization (FILO) Group' (published 10 June 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11201647). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from French Innovative Leukemia Organization (FILO) and French-speaking experts (Troussard X, Maitre E, Paillassa J, et al.), Cancers (MDPI) 'Recommendations for the Management of Patients with Hairy-Cell Leukemia and Hairy-Cell Leukemia-like Disorders: A Work by French-Speaking Experts and French Innovative Leukemia Organization (FILO) Group' (published 10 June 2024), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11201647). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)' (retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026)), 9 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every FILO 2024 claim (S1) unchanged and adds S2, two Australian eviQ protocols (CC BY-NC 4.0, paraphrased), for the local cladribine and cladribine-rituximab schedules, PBS status, premedication and supportive care. The S2 source file concatenates the two protocol pages (https://www.eviq.org.au/p/364 and /p/4383), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ asks that adaptations cite the eviQ ID, version and URL: 364 v.6 and 4383 v.1, at those URLs.",
  "summary": {
-  "total": 21,
+  "total": 30,
   "pass": 21,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
   {
@@ -117,6 +119,115 @@
    "locator": "French Innovative Leukemia Organization (FILO) and French-speaking experts (Troussard X, Maitre E, Paillassa J, et al.), Cancers (MDPI), 'Recommendations for the Management of Patients with Hairy-Cell Leukemia and Hairy-Cell Leukemia-like Disorders: A Work by French-Speaking Experts and French Innovative Leukemia Organization (FILO) Group', published 10 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11201647/, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **Australian protocol (eviQ ID 364): cladribine 0.14 mg/kg by IV infusion over 2 hours on days 1 to 5, as one course.** Most patients respond to that single course; if another is needed, wait until every blood-count toxicity has recovered. eviQ lists cladribine as PBS Authority.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9c09146aa03215a",
+     "n": 11,
+     "p": "ID: 364 "
+    },
+    {
+     "h": "eb4cc9272638a7a2",
+     "n": 228,
+     "p": "Cladribi"
+    },
+    {
+     "h": "5a75c79a5ea5f02e",
+     "n": 27,
+     "p": "Cladribi"
+    },
+    {
+     "h": "a668d75818af1990",
+     "n": 28,
+     "p": "via IV i"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**eviQ accepts four published cladribine schedules as reasonable:** 0.1 mg/kg/day by continuous IV infusion for seven days; 0.14 mg/kg/day IV over 2 hours for five days; 0.15 mg/kg IV over 2 hours weekly for six weeks; or 0.085 mg/kg/day subcutaneously for seven days. It picked the 5-day IV schedule because it fits outpatient care in a short, fixed window.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c8d3d302c962260a",
+     "n": 659,
+     "p": "Various "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "🇦🇺 **Australian cladribine-rituximab protocol (eviQ ID 4383; HCL and HCL variant): rituximab 375 mg/m² IV on days 1, 8, 15, 22, 29, 36, 43 and 50, with cladribine 0.14 mg/kg IV on days 1 to 5, as one cycle.** eviQ flags it as resting on limited evidence, notes that the cladribine schedule and number of rituximab doses differ between studies, and lists rituximab on the PBS general schedule.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9533d211f7d4bf05",
+     "n": 12,
+     "p": "ID: 4383"
+    },
+    {
+     "h": "477bd5597872e7de",
+     "n": 42,
+     "p": "This pro"
+    },
+    {
+     "h": "ea45e59b53ddcfe2",
+     "n": 322,
+     "p": "Rituxima"
+    },
+    {
+     "h": "789ad014f49c6535",
+     "n": 31,
+     "p": "Rituxima"
+    },
+    {
+     "h": "40e3b06403f60c9a",
+     "n": 53,
+     "p": "Hairy ce"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Rituximab carries a high risk of infusion reactions.** eviQ's default premedication, 60 minutes before each dose, is oral paracetamol 1,000 mg and loratadine 10 mg with IV hydrocortisone 100 mg; consider holding antihypertensives around the infusion because blood pressure can fall.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2a8ed9fccbbeebd",
+     "n": 246,
+     "p": "High ris"
+    },
+    {
+     "h": "b61d2247a6ba7b01",
+     "n": 176,
+     "p": "| Parace"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Kidney function (eviQ):** there are too few data to set a cladribine dose change for kidney impairment, so treat known or suspected impairment cautiously and monitor regularly for toxicity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f563566a60812de7",
+     "n": 228,
+     "p": "Insuffic"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24"
+  },
+  {
    "claim": "**At relapse, repeat the full work-up** (examination, blood count, trephine, flow cytometry) and retest BRAF, IGHV status, VH4-34 use and TP53, which carry prognostic weight.",
    "source": "S1",
    "verdict": "pass",
@@ -166,6 +277,95 @@
    "verdict": "pass",
    "source_text": "Prevention of second primary malignancies, especially cutaneous cancers, is recommended because of the high risk of second cancers in HCL patients, regardless of the treatment received [,]. We recommend a regular (at least once a year) complete physical examination with a dermatologist.",
    "locator": "French Innovative Leukemia Organization (FILO) and French-speaking experts (Troussard X, Maitre E, Paillassa J, et al.), Cancers (MDPI), 'Recommendations for the Management of Patients with Hairy-Cell Leukemia and Hairy-Cell Leukemia-like Disorders: A Work by French-Speaking Experts and French Innovative Leukemia Organization (FILO) Group', published 10 June 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11201647/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Cladribine depletes CD4 and CD8 T cells deeply and for a long time, so expect more opportunistic infections during treatment and for six months afterwards** (eviQ). It recommends antimicrobial prophylaxis; Pneumocystis prophylaxis is left to the treating clinician (for example trimethoprim/sulfamethoxazole 160/800 mg, one tablet twice a day on two days each week, or one tablet on three days each week), and antiviral prophylaxis should be considered, above all with lymphopenia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ca658c0f84500f0",
+     "n": 328,
+     "p": "Cladribi"
+    },
+    {
+     "h": "dfc82fa6bab375e5",
+     "n": 281,
+     "p": "Consider"
+    },
+    {
+     "h": "2e51d68b03476b53",
+     "n": 71,
+     "p": "Consider"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Tumour lysis (eviQ):** assess each patient's risk; allopurinol 100 mg by mouth once a day, from the first treatment day for 2 weeks, is recommended.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df4b5e04e9b26458",
+     "n": 183,
+     "p": "Assess p"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Blood tests (eviQ):** check FBC, EUC, eGFR and LFTs before starting, and the FBC every week during and after treatment; myelosuppression is severe, so watch counts closely for the first 4 to 8 weeks. Postpone further treatment while neutrophils are below 1.5 or platelets below 100 unless the leukaemia itself is the cause.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "34019d16a6a92ed9",
+     "n": 153,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "32d3e301f2af3d7c",
+     "n": 140,
+     "p": "Cladribi"
+    },
+    {
+     "h": "40fdcac00fa5f65c",
+     "n": 134,
+     "p": "ANC less"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Also before and during treatment (eviQ):** use irradiated blood components; screen for hepatitis B (HBsAg, anti-HBc and anti-HBs) first; avoid live vaccines; and watch for new neurological symptoms, since progressive multifocal leukoencephalopathy has been reported.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04911cc011a1193d",
+     "n": 92,
+     "p": "The use "
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    },
+    {
+     "h": "27a555ee85b79923",
+     "n": 145,
+     "p": "Live vac"
+    },
+    {
+     "h": "6a3bd6ae985cb252",
+     "n": 168,
+     "p": "Progress"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ hairy cell leukaemia protocols (not guidelines): 364 cladribine (v.6, last reviewed 24 February 2023) and 4383 rituximab and cladribine (v.1, last reviewed 8 March 2024)', retrieved 24 September 2026 (review due: 364 30 June 2027; 4383 30 June 2026), https://www.eviq.org.au/haematology/leukaemias/hairy-cell-leukaemia, retrieved 2026-09-24"
   }
  ]
 }

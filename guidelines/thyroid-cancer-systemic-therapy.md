@@ -1,11 +1,13 @@
 # Radioactive iodine-refractory differentiated thyroid cancer: local and systemic therapy
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising radioactive iodine-refractory (RAI-refractory) differentiated thyroid cancer, referral, molecular testing, re-operation, radiotherapy and ablation, and choice of multikinase inhibitor, genotype-directed drug, immunotherapy or chemotherapy. Initial thyroid cancer surgery, RAI dosing, TSH suppression, medullary and anaplastic thyroid cancer are out of scope. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **OPEN AND QUOTED.** 20 claims quoted verbatim from **Canadian multidisciplinary consensus panel, Frontiers in Oncology 14:1437360 (doi 10.3389/fonc.2024.1437360) — *Multidisciplinary Canadian consensus on the multimodal management of high-risk and radioactive iodine-refractory thyroid carcinoma*** (published 4 November 2024; origin: international); **34 fragments re-checked by machine; 0 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **67 fragments or anchors re-checkable by machine; 3 doses.** **S1** Canadian multidisciplinary consensus panel (published 4 November 2024; international): 20 claims, quoted · **S2** eviQ Cancer Treatments Online (current versions retrieved 24 September 2026; AU): 11 claims, paraphrased, hash-anchored
 
-> ⚠️ International guideline (Canadian multidisciplinary consensus, 2024). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International guideline (Canadian multidisciplinary consensus, 2024) for S1. Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is Australian: two eviQ treatment protocols (lenvatinib 1919, cabozantinib 4483).** They are regimen protocols, not guidelines, and supply the doses, dose reductions and monitoring that S1 leaves out.
 
 > ⚠️ **Source substitution.** The ESMO systemic-therapy update (Annals of Oncology, 2022) named in the research could not be read (publisher bot challenge, HTTP 403), so this CC BY consensus was used instead. It was funded by Bayer, which reviewed the manuscript for accuracy.
 
@@ -45,6 +47,23 @@
 - **Cytotoxic chemotherapy is a last resort:** doxorubicin-based regimens give responses of around 20%. [S1]
 - **RAI resensitisation (for example BRAF/MEK inhibition) only within a clinical trial**; adding selumetinib to adjuvant RAI did not improve complete remission in a phase 3 trial. [S1]
 
+## Lenvatinib: dose and monitoring (eviQ)
+
+- **Lenvatinib (PBS authority) is for progressive, locally advanced or metastatic RAI-refractory differentiated thyroid cancer.** [S2]
+- ⚠️ **Lenvatinib 24 mg by mouth once daily, with or without food, until progression or unacceptable toxicity.** eviQ's committee advises considering a 14 mg starting dose for older or significantly comorbid patients; 14 mg is also the start for eGFR below 30 or severe (Child-Pugh C) liver impairment, and it is not recommended in end-stage kidney disease. [S2]
+- **Dose reductions:** grade 1–2 effects usually do not need a break unless intolerable. For grade 3–4 toxicity, hold until grade 1 or less, then restart at 20 mg, then 14 mg, then 10 mg daily with each recurrence; go below 10 mg only case by case, as data are scant. [S2]
+- ⚠️ **Blood pressure:** control hypertension before starting, then check at 1 week, every 2 weeks for 2 months and monthly after that. Above 160 systolic or 100 diastolic despite optimal treatment, withhold; resume at a lower dose once below 150/95 after 48 hours or more of unchanged antihypertensive treatment. Stop for a hypertensive crisis or other life-threatening consequence. [S2]
+- **Proteinuria appears early:** dipstick urine at baseline and regularly, measure 24-hour protein if positive, hold and reduce for grade 2–3, and stop for nephrotic syndrome. [S2]
+- ⚠️ **Watch for the serious effects:** gastrointestinal perforation (care after surgery or radiotherapy), sometimes fatal bleeding, severe liver toxicity, QT prolongation, arterial and venous clots, and PRES (stop the drug). Hold it around surgery until wounds heal. [S2]
+- **Tests:** FBC, EUC, eGFR, calcium, magnesium, phosphate and thyroid function at baseline and then monthly; liver tests every 2 weeks for the first 2 months, then monthly. Dental review before starting and every 6 months, avoiding dental procedures on treatment (jaw osteonecrosis). [S2]
+- **SELECT (392 patients):** median PFS 18.3 months on lenvatinib against 3.6 on placebo (HR 0.21) and response 64.8% against 1.5%; overall survival did not differ significantly (HR 0.73). 82.4% needed a dose interruption and 67.8% a dose reduction, the first at a median of 3.0 months. [S2]
+
+## Cabozantinib after a VEGF TKI (eviQ)
+
+- **Cabozantinib is for RAI-refractory (or RAI-ineligible) DTC after progression on, or intolerance of, a VEGF-targeting TKI,** with ECOG 0 to 2. Take care after more than two previous TKIs; patients must be on thyroxine suppression with TSH below 0.5 mIU/L, and the trial excluded prior BRAF inhibitor treatment. [S2]
+- ⚠️ **Cabozantinib 60 mg by mouth once daily, continuously; start at 40 mg in mild to moderate liver impairment.** Reduce to 40 mg, then 20 mg, for recurrent toxicity. It is a PBS authority item. [S2]
+- **COSMIC-311 (258 previously treated patients):** median PFS 11.0 months against 1.9 on placebo (HR 0.22), whether the prior drug was lenvatinib, sorafenib or both; response 11% against 0%. 67% needed dose reductions; grade 3–4 hypertension (12%), hand-foot syndrome (10%) and fatigue (9%) were commonest. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -62,15 +81,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **The consensus recommendation tables and the management algorithm (Figure 2)** were stripped from the text; claims come from the narrative only. | `input_unavailable` |
-| 2 | **Drug doses** for lenvatinib, cabozantinib and targeted agents are not in the narrative; use eviQ protocols (e.g. 1919 lenvatinib, 4483 cabozantinib). | `input_unavailable` |
-| 3 | **Medullary thyroid cancer (selpercatinib), TSH suppression (liothyronine) and thyrotropin alfa for remnant ablation** are PBS 'no-guideline' conditions this source does not cover. | `out_of_scope` |
-| 4 | **ESMO Clinical Practice Guideline update on systemic therapy in advanced thyroid cancer (2022)** was not readable (Annals of Oncology returned HTTP 403, a bot challenge; no PMC copy) and was skipped. | `input_unavailable` |
-| 5 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
+| 2 | **Drug doses:** lenvatinib and cabozantinib doses now come from S2 (eviQ 1919 and 4483). Doses of the genotype-directed drugs (RET, NTRK and BRAF inhibitors) are in neither source. | `input_unavailable` |
+| 3 | **Sorafenib:** S1 lists it with lenvatinib and cabozantinib as a multikinase option; the eviQ lenvatinib protocol (S2) links its thyroid sorafenib protocol only as discontinued. Both are shown; see the PBS banner. | `observation` |
+| 4 | **Starting dose of lenvatinib:** the SELECT trial and S2 use 24 mg daily, but S2's committee advises considering 14 mg for older or comorbid patients, a consensus position rather than trial evidence. S1 gives no dose. | `observation` |
+| 5 | **Cabozantinib needs TSH below 0.5 mIU/L on thyroxine suppression (S2),** which ties it to TSH suppression, a topic S1 and this page leave out of scope. | `observation` |
+| 6 | **Medullary thyroid cancer (selpercatinib), TSH suppression (liothyronine) and thyrotropin alfa for remnant ablation** are PBS 'no-guideline' conditions this source does not cover. | `out_of_scope` |
+| 7 | **ESMO Clinical Practice Guideline update on systemic therapy in advanced thyroid cancer (2022)** was not readable (Annals of Oncology returned HTTP 403, a bot challenge; no PMC copy) and was skipped. | `input_unavailable` |
+| 8 | **Licence:** CC BY 4.0; fragments are quoted verbatim with attribution. | `observation` |
+| 9 | **S2 licence:** CC BY-NC 4.0 (eviQ). Its claims are paraphrased and hash-anchored; eviQ asks commercial users to seek permission and says its content should not be hosted on external sites. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Canadian multidisciplinary consensus panel, Frontiers in Oncology 14:1437360 (doi 10.3389/fonc.2024.1437360). *Multidisciplinary Canadian consensus on the multimodal management of high-risk and radioactive iodine-refractory thyroid carcinoma*. published 4 November 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11570806/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW (treatment protocols, not guidelines). *eviQ protocols 1919 Thyroid locally advanced or metastatic lenvatinib (v.6) and 4483 Advanced or metastatic cabozantinib (thyroid cancer indication)*. current versions retrieved 24 September 2026. https://www.eviq.org.au/p/1919 — retrieved 2026-09-24. | CC BY-NC 4.0 (eviQ 'Disclaimer and copyright' page). eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

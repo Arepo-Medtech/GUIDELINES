@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/chronic-pouchitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/",
+  "https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85 'AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders' (January 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: NIH author manuscript in PMC: \"This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.\" (© AGA Institute; not an open licence) (read at NCBI efetch JATS XML for PMC11163976 (Europe PMC fullTextXML returned HTTP 500), <license> element). The source's words are NOT reproduced here. Europe PMC returned HTTP 500 for this author manuscript, so the JATS XML came from NCBI efetch (db=pmc&id=11163976); citation markers relabelled ref-type=\"ref\" to \"bibr\" before pmc_text.py.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85 'AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders' (January 2024), 21 claims; LICENCE: NIH author manuscript in PMC: \"This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.\" (© AGA Institute; not an open licence) (read at NCBI efetch JATS XML for PMC11163976 (Europe PMC fullTextXML returned HTTP 500), <license> element). S2: PARAPHRASED AND HASH-ANCHORED from British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)' (first published 23 June 2025), 6 claims; LICENCE: CC BY-NC 4.0 (publisher open-access licence per doi.org/Unpaywall record); every PDF page footer also states: 'Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.' (read at Unpaywall record for 10.1136/gutjnl-2024-334395 (publisher licence cc-by-nc) and the page footer of the University of East Anglia repository copy of the publisher PDF). Verify each source separately: verify.py --source <file> --only-source S<n>. Europe PMC returned HTTP 500 for this author manuscript, so the JATS XML came from NCBI efetch (db=pmc&id=11163976); citation markers relabelled ref-type=\"ref\" to \"bibr\" before pmc_text.py. Edition 2.0 adds S2, the pouchitis section of the BSG 2025 adult IBD guideline, read from the publisher PDF in the UEA open repository and converted with plain pdftotext (two-column). Its footer clause on text and data mining and AI training is recorded verbatim in the licence field; per the owner's standing decision such clauses do not exclude a source, so S2 is paraphrased and hash-anchored. No Australian pouchitis guideline was found (Europe PMC: pouchitis guideline/consensus 2020-2026). The ECCO Topical Review on Pouch Disorders (2025) was readable but is an expert topical review, all rights reserved, so the BSG guideline was preferred. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 21,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -111,6 +112,24 @@
    "locator": "American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85, 'AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/, retrieved 2026-09-23"
   },
   {
+   "claim": "**BSG work-up for persistent symptoms after pouch surgery:** a pelvic MRI, stool culture and *C. difficile* test, and pouchoscopy that looks at the pouch, the pre-pouch ileum and the anal transition zone (rectal cuff). Faecal calprotectin and blood tests help grade severity; also consider pelvic sepsis, obstruction, stenoses and pelvic floor dysfunction.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2a814f465840c2eb",
+     "n": 6400,
+     "p": "Patients"
+    },
+    {
+     "h": "1629cb42dfd2f492",
+     "n": 500,
+     "p": "Consider"
+    }
+   ],
+   "locator": "British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395, 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)', first published 23 June 2025, https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf, retrieved 2026-09-24"
+  },
+  {
    "claim": "**The treatment goal is symptom resolution**; endoscopic remission was not treated as a critical outcome.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -190,6 +209,43 @@
     }
    ],
    "locator": "American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85, 'AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **BSG: first line for acute pouchitis is ciprofloxacin or metronidazole for 2 weeks** (ciprofloxacin is better tolerated and may work better). Warn about side effects and use the lowest dose for the shortest time that works.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4ef5bbae6a11707",
+     "n": 208,
+     "p": "We recom"
+    },
+    {
+     "h": "5862f387c1044a55",
+     "n": 329,
+     "p": "Acute tr"
+    }
+   ],
+   "locator": "British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395, 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)', first published 23 June 2025, https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Doses from the BSG evidence:** ciprofloxacin 1 g/day and metronidazole 20 mg/kg/day both brought remission at 2 weeks in a small trial (7/7 vs 6/9); extend to 2–4 weeks if 2 weeks is not enough. A nightly budesonide enema (2 mg in 100 ml) matched metronidazole 500 mg twice daily over 6 weeks. A third (33%) had side effects on metronidazole (vomiting, taste change, transient neuropathy) and none on ciprofloxacin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a55ad1ef31cffaea",
+     "n": 850,
+     "p": "Infreque"
+    },
+    {
+     "h": "6d468296229a06e9",
+     "n": 300,
+     "p": "In the s"
+    }
+   ],
+   "locator": "British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395, 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)', first published 23 June 2025, https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**After antibiotic-induced remission, probiotics (the De Simone multi-strain formulation used in trials) are suggested to prevent recurrence** (conditional, low certainty); trials showed 87% lower relapse over 12 months. Patients with infrequent recurrences may reasonably choose no preventive treatment.",
@@ -339,6 +395,43 @@
    "locator": "American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85, 'AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/, retrieved 2026-09-23"
   },
   {
+   "claim": "**BSG for chronic pouchitis:** combine antibiotics (for example ciprofloxacin with metronidazole, tinidazole or rifaximin), or use budesonide or beclometasone by mouth. If it still does not settle, reassess for other causes before moving to advanced therapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bdff802a3ed1f895",
+     "n": 176,
+     "p": "We sugge"
+    },
+    {
+     "h": "75f8ba543b12525c",
+     "n": 190,
+     "p": "Chronic "
+    }
+   ],
+   "locator": "British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395, 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)', first published 23 June 2025, https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **BSG: vedolizumab is the suggested first-line advanced therapy** for chronic refractory pouchitis. In EARNEST (102 patients, all given ciprofloxacin 500 mg twice daily for 4 weeks), clinical remission was 31% vs 10% at week 14 and 35% vs 18% at week 34; a small adalimumab trial showed no benefit. Pooled cohort response rates were 54% for anti-TNF, 72.3% ustekinumab, 52.0% vedolizumab and 30.9% tofacitinib, with wide uncertainty.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "656b4a8d4a9f8d05",
+     "n": 79,
+     "p": "offered "
+    },
+    {
+     "h": "6161247c39d406ac",
+     "n": 1111,
+     "p": "The adva"
+    }
+   ],
+   "locator": "British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395, 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)', first published 23 June 2025, https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Mesalazine is not suggested** for refractory pouchitis (evidence gap); it may delay more effective therapy.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -386,6 +479,19 @@
     }
    ],
    "locator": "American Gastroenterological Association (Barnes EL, Agrawal M et al.), Gastroenterology 166(1):59–85, 'AGA Clinical Practice Guideline on the Management of Pouchitis and Inflammatory Pouch Disorders', January 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11163976/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Primary sclerosing cholangitis raises pouch risk:** pouchitis in up to 64%, and chronic pouchitis in 68.1% vs 34.1% of matched patients without PSC, with more severe inflammation and pre-pouch ileitis. A pouch can still be offered after detailed counselling.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f4027d0f9bd4be10",
+     "n": 783,
+     "p": "The occu"
+    }
+   ],
+   "locator": "British Society of Gastroenterology (Moran GW, Gordon M, Sinopolou V, et al.), Gut 74(Suppl 2):s1-s101, doi 10.1136/gutjnl-2024-334395, 'British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025 (Pouchitis section, GPS 55-58)', first published 23 June 2025, https://ueaeprints.uea.ac.uk/id/eprint/103386/1/BSG_Guidelines_2025_Gut_s1.full.pdf, retrieved 2026-09-24"
   }
  ]
 }

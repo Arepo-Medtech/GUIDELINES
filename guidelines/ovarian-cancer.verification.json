@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/ovarian-cancer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3737"
+  "https://www.eviq.org.au/p/3737",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)' (ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)' (ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026), 18 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright, last updated 16 February 2022)). S2: PARAPHRASED AND HASH-ANCHORED from European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032) 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer' (published online 28 January 2026), 9 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12947637). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ olaparib claim (S1) unchanged and adds S2, the ESMO 2026 Express Update to the 2023 ESMO epithelial ovarian cancer guideline (CC BY-NC-ND 4.0, paraphrased), for first-line PARP inhibitor choice by BRCA and HRD status (including niraparib, rucaparib and olaparib with bevacizumab), maintenance after relapse, and mirvetuximab for platinum-resistant disease. The full ESMO 2023 guideline (Annals of Oncology) is not on Europe PMC; the Pan-Asia adapted ESMO 2025 guideline (PMC12180976) was read but not used because the 2026 Express Update is newer.",
  "summary": {
-  "total": 18,
+  "total": 27,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 27
  },
  "claims": [
   {
@@ -222,6 +223,146 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, 'Advanced, metastatic or recurrent olaparib (eviQ ID 3737 v.7)', ID 3737 v.7; first approved 15 December 2020, last reviewed 2 September 2024, review due 31 December 2026, https://www.eviq.org.au/p/3737, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **PARP inhibitor maintenance, with or without bevacizumab, is recommended for BRCA1/2-mutated or BRCA-wild-type HRD-positive cancer** that has no evidence of disease, or a complete or partial response, after first-line platinum and paclitaxel [I, A].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5d9fba2803631e73",
+     "n": 233,
+     "p": "Maintena"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**BRCA1/2-mutated, in ESMO's order:** olaparib for 2 years (ESMO-MCBS 4); olaparib for 2 years with bevacizumab for 15 months (3); rucaparib for 2 years (3); niraparib for 3 years (2). **BRCA-wild-type, HRD-positive:** rucaparib for 2 years (3), niraparib for 3 years (2), or olaparib 2 years with bevacizumab 15 months (1).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "084d8a3f72a2d05f",
+     "n": 589,
+     "p": "Options "
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**HRD-negative tumours:** options are 15 months of bevacizumab [I, A], 2 years of rucaparib [I, B] or 3 years of niraparib [I, B], the last two only after a response or with no evidence of disease. Choose by disease distribution, response to chemotherapy and the patient's characteristics.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "053fad87cc29812c",
+     "n": 435,
+     "p": "Maintena"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **No response to platinum means no PARP inhibitor:** use bevacizumab maintenance if appropriate (mainly for stable disease), or second-line treatment for progression. For frail patients, weekly paclitaxel 60 mg/m² with weekly carboplatin AUC 2 is an alternative [I, B].",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ff266970cf9b25ea",
+     "n": 428,
+     "p": "cWeekly "
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**New first-line evidence (ATHENA-MONO, rucaparib):** median PFS 28.7 against 11.3 months in HRD-positive disease (HR 0.47), 20.2 against 9.2 months overall (HR 0.52), and 12.1 against 9.1 months even in HRD-negative disease (HR 0.65); overall survival was immature. Grade 3 or worse anaemia occurred in 28.7% and neutropenia in 14.6%, and MDS or AML in 0.5%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af09610fcb0e3e96",
+     "n": 843,
+     "p": "In the H"
+    },
+    {
+     "h": "b8c2bab5804ce17b",
+     "n": 337,
+     "p": "The most"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Platinum-free interval guides treatment at relapse:** response and PFS are lower when it is under 6 months, and patients progressing on platinum, or soon after it, should get non-platinum treatment. **Maintenance after response to platinum at relapse** continues until progression or the next line [I, A]: olaparib for BRCA1/2-mutated disease, niraparib or rucaparib whatever the BRCA status.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "050ce8b2fc5023ab",
+     "n": 466,
+     "p": "Treatmen"
+    },
+    {
+     "h": "f466eb18a52a0f81",
+     "n": 337,
+     "p": "ePaclita"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**When platinum is not an option,** non-platinum chemotherapy (weekly paclitaxel, pegylated liposomal doxorubicin, topotecan) gives low response rates (30–35% for weekly paclitaxel) and no clear survival gain; adding bevacizumab improves PFS and response but not OS.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "33baa7780950665d",
+     "n": 684,
+     "p": "For pati"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mirvetuximab soravtansine is recommended for high-grade serous cancer with a platinum-free interval under 6 months and high folate receptor alpha expression (at least 75% of tumour cells staining 2+ or 3+), after one to three prior lines** [I, A; ESMO-MCBS 3]. In MIRASOL (453 patients) it improved median OS to 16.46 from 12.75 months (HR 0.67) and response to 42.3% from 15.9%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94d66e5d99a9d631",
+     "n": 318,
+     "p": "• For pa"
+    },
+    {
+     "h": "993fb04ebd8fd330",
+     "n": 836,
+     "p": "compared"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mirvetuximab eye toxicity:** ocular events affected 56.0% (blurred vision, keratopathy) but were mostly low-grade and reversible, and only 1.8% stopped because of them. Use lubricating artificial tears and regular eye examinations.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a690a8693b5444ca",
+     "n": 385,
+     "p": "Ocular A"
+    },
+    {
+     "h": "2cb57f2dcbbb6722",
+     "n": 99,
+     "p": "The most"
+    }
+   ],
+   "locator": "European Society for Medical Oncology (ESMO); Gonzalez-Martin A, Ledermann J, ESMO Open (doi 10.1016/j.esmoop.2025.106032), 'ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer', published online 28 January 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/, retrieved 2026-09-24"
   },
   {
    "claim": "**SOLO1 (first-line maintenance, 391 BRCA-mutated patients):** after 5 years' follow-up, median PFS was 56.0 months with olaparib against 13.8 months with placebo (HR 0.33), and 48.3% against 20.5% were free of progression at 5 years.",

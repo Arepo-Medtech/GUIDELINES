@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/gastric-and-gojunction-cancer.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions' (published 24 August 2022). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9425884). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions' (published 24 August 2022), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9425884). S2: QUOTED from Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7) 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)' (published 18 July 2024), 12 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11467061). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the SEOM-GEMCAD-TTD 2023 gastric cancer guideline (CC BY 4.0, quoted), for the first-line immunotherapy recommendations by PD-L1 CPS, KEYNOTE-811, zolbetuximab and later-line updates that post-date S1. S1 claims and anchors are unchanged. The Japanese Gastric Cancer Treatment Guidelines 2025 (PMC12956939, CC BY) were also read but not used: they are Japan-specific and do not cover tislelizumab or KEYNOTE-811.",
  "summary": {
-  "total": 24,
-  "pass": 0,
+  "total": 36,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -233,6 +234,62 @@
    "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Older or frail patients:** choosing oxaliplatin, and reduced doses of oxaliplatin-based combinations, has a better safety profile with at least comparable survival.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For older or frail patients, oxaliplatin choice as well as the use of reduced doses of oxaliplatin-based CT combinations have exhibited better safety profile and, at least, comparable survival outcomes versus cisplatin and standard dosing, respectively [, ].",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**HER2-positive means IHC 3+, or IHC 2+ with a positive FISH;** for these tumours trastuzumab plus a platinum and a fluoropyrimidine is the first-line standard. Adding pertuzumab did not improve overall survival (JACOB).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Thenceforth, trastuzumab plus a platinum-based drug and fluoropyrimidine have been regarded as the first-line standard of care treatment in patients with HER2 positive (IHC 3 + or IHC 2 + and FISH positive) advanced GC. … Further attempts to increase antiHER2 therapy efficacy by adding pertuzumab, a humanized monoclonal HER2-targeted antibody that binds to a different epitope on the HER2 receptor protein than trastuzumab, to trastuzumab plus a platinum-based drug and fluoropyrimidine failed to demonstrate significant improvement in OS in the phase III JACOB trial.",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Update on KEYNOTE-811: adding pembrolizumab to trastuzumab and chemotherapy improved survival outcomes when PD-L1 CPS is 1 or more** [I, A], and the EMA approved it for that group. (S1 had only the interim response data.)",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "the recently reported results of the phase III KEYNOTE-811 study revealed that the addition of pembrolizumab to the TOGA schema improved survival outcomes for those patients with PDL1 CPS ≥ 1. [I, A] This therapy strategy was approved by EMA for patients Her2 positive with PDL1 CPS ≥ 1",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **HER2-negative, S2's recommendations by PD-L1 CPS:** add nivolumab to an oxaliplatin–fluoropyrimidine doublet when CPS is 5 or more [I, A]; add pembrolizumab to a platinum–fluoropyrimidine doublet when CPS is 1 or more [II, A], with the greatest benefit at CPS 10 or more [I, A]. In KEYNOTE-859 the overall survival HR was 0.78 in all patients, 0.73 at CPS 1 or more and 0.64 at CPS 10 or more.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The addition of nivolumab to an oxaliplatin and fluorouracil-based CT doublet to treat gastric and GEJ Ac is recommended in patients with a CPS ≥ 5 [I, A]. Incorporating pembrolizumab to a platin and fluorouracil doublet is recommended in subjects with gastric and GEJ Ac and a CPS ≥ 1 [II, A], albeit the benefit is greatest in the CPS ≥ 10 subgroup [I, A]. … A second important study that supports the use of immunotherapy added to CT in the first line strategy for GC is the Keynote-859 trial which compared the addition of pembrolizumab to a platin + fluoropyrimidine-based CT doublet vs CT. The primary endpoint was the OS benefit, and secondary endpoints included the PFS, DOR, ORR and safety and with a significant improvement for the OS (HR 0.78, 95% CI 0.70-0.8, p < 0.0001) and PFS (HR 0.76, 95% CI 0.67-0.85, p < 0.0001) benefit with respect to both variables in the overall study population; the magnitude was greater in the CPS ≥ 1 subgroup (HR 0.73, 95% CI 0.64-0.83) and for PFS (HR 0.72, 95% CI 0.63-0.82), as well as in the CPS ≥ 10 group (OS: HR 0.64, 95% CI 0.52-0.77; PFS: HR 0.62, 95% CI 0.51-0.75)",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Other anti-PD-1 antibodies added to chemotherapy (sintilimab in ORIENT-16, tislelizumab in RATIONALE 305) were also positive in phase III,** but were not yet EMA-approved when S2 was written.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Similarly, positive phase III studies have been reported when other anti-PD-1 agents, such as sintilimab (ORIENT-16) or tislelizumab (RATIONAL 305), have been added, although they have yet to be approved by the EMA.",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**MSI-H/dMMR:** in CheckMate 649, adding nivolumab gave a median overall survival of 38.7 v 12.3 months (HR 0.38) in 44 patients. Pembrolizumab alone, or chemotherapy with nivolumab, can be considered [II, B].",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The participants with MSI-H or dMMR, displayed an OS benefit in the Checkmate 649 trial when nivolumab was added in 44 patients (median OS 38.7 months vs 12.3 months, HR 0.38, 95% CI 0.17-0.84) … The addition of pembrolizumab in monotherapy or the combination of CT and nivolumab can be contemplated in individuals with MSI-H or dMMR [II, B].",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Claudin 18.2-positive (moderate-to-strong staining in more than 75% of tumour cells): zolbetuximab with chemotherapy** [I, A]. With FOLFOX (SPOTLIGHT) median overall survival rose from 15.5 to 18.2 months (HR 0.75); with CAPOX (GLOW) from 12.1 to 14.3 months (HR 0.77).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Anti-Claudin 18.2 therapy is expected to be integrated into the therapeutic armamentarium before long. [I, A] The phase III Spotlight RCT compared FOLFOX plus zolbetuximab or placebo in tumors with moderate-to-strong claudin expression (in > 75% of tumor cells) … Moreover, median OS rose from 15.5 months to 18.2 months (HR 0.75, 95% CI 0.60-0.93, p = 0.0053). … except for the use of CAPOX as the CT backbone, in combination with either zolbetuximab or placebo []. The experimental group exhibited improved PFS with 8.2 months as compared to 6.8 months in the control arm (HR 0.68, 95% CI 0.54-0.86, p = 0.0007). Median OS also rose from 12.1 to 14.3 months (HR 0.77, 95% CI 0.61-0.96, p = 0.01).",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Surgery after chemotherapy for limited metastatic disease is not a standard:** the phase III RENAISSANCE trial missed its overall survival endpoint because of higher early mortality with surgery. Patients with retroperitoneal nodal metastases only seemed to benefit; those with no response to chemotherapy or with peritoneal disease did worse.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Recently the results of the phase III IKF-575/RENAISSANCE have been communicated, This trial randomized 139 pts with limited-metastatic adenocarcinoma of the stomach or esophagogastric junction to be treated with chemotherapy/targeted therapy alone vs. chemotherapy/targeted therapy followed by radical surgical resection. The primary endpoint was overall survival and was not met due to increased early mortality in the surgery arm Pts with RPLN metastases only seemed to benefit most from the surgical approach (mOS, 30 vs.17 months; 5y OS 38% vs. 19%; still having increased early mortality), while pts showing no response to chemo (mOS, 13 vs. 22 months) or pts with peritoneal disease (mOS, 12 vs. 19 months) derived a detrimental effect [].",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**For fit patients, second-line single-agent chemotherapy (docetaxel or irinotecan) beats supportive care alone** (pooled HR 0.63).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -283,6 +340,20 @@
     }
    ],
    "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Up to half of patients are fit for second-line treatment.** Paclitaxel, docetaxel and irinotecan are equally effective with different toxicities [I, B]; adding ramucirumab to paclitaxel improves effectiveness (RAINBOW) [I, A].",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Up to 50% of GC and GEJC patients are fit enough to receive a second line of treatment, fewer in the case of subsequent lines. The benefit of a second CT line has been widely demonstrated in terms of survival and quality of life. Standard options are paclitaxel, docetaxel, and irinotecan with equivalent efficacy, yet different toxicity profiles. [I, B] The addition of the anti-vascular endothelial growth factor receptor 2 antibody ramucirumab to paclitaxel improves effectiveness, according to the phase III RAINBOW trial [] [I, A].",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Previously treated dMMR/MSI-H disease: pembrolizumab is the preferred option** [II, A]; in KEYNOTE-158 the gastric response rate was 45.8% and median PFS 11 months.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "the phase II KEYNOTE-158 basket trial proved the efficacy of pembrolizumab in previously treated advanced patients with dMMR/MSI-H tumors. For GC patients, ORR was 45.8% and median PFS was 11 months, with median OS not yet reached []. Considering that such results have never been previously reported, pembrolizumab is the preferred treatment option in this setting. [II, A].",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Oral trifluridine/tipiracil is a standard refractory option** for reasonably fit patients (ECOG 0–1) after two or more chemotherapy regimens: in TAGS median survival improved from 3.6 to 5.7 months (HR 0.69).",
@@ -368,6 +439,20 @@
     }
    ],
    "locator": "Australasian Gastro-Intestinal Trials Group (AGITG) and invited international panel (Pavlakis et al.), Therapeutic Advances in Medical Oncology, 'European-Australasian consensus on the management of advanced gastric and gastro-oesophageal junction cancer: current practice and new directions', published 24 August 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9425884/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Trastuzumab deruxtecan in a Western population** (single-arm phase II, after first-line trastuzumab): response 42%, median PFS 5.6 months and median OS 12.1 months; this led to EMA approval after trastuzumab progression [II, B].",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "These results were confirmed in a Western population, in a single arm, phase II trial [] that evinced that T-Dxd yielded an ORR of 42%, median PFS of 5.6 months, and median OS of 12.1 months in HER2-positive GC and GEJC patients that had progressed to first-line trastuzumab-based treatment. [II, B]. The results of this last study made it possible for EMA approval for trastuzumab-deruxtecan following post-trastuzumab progression.",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Third line: trifluridine–tipiracil has the strongest evidence** (TAGS) [I, A]; otherwise a taxane or irinotecan, depending on what was used second line [II, A]. Monitor symptoms and nutrition closely through every line.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the third-line setting, oral treatment with trifluridine-tipiracil has the strongest evidence, with proven efficacy for survival and time to ECOG/PS deterioration based on the phase III TAGS trial. [] [I, A]. Nevertheless, this treatment is currently not reimbursed in Spain. Other options include a taxane or irinotecan, depending on the second line therapy [II, A]. … Special consideration must be paid to the need for close symptom monitoring and nutritional assessment during all GC and GEJC treatment lines.",
+   "locator": "Spanish Society of Medical Oncology (SEOM), GEMCAD and TTD groups (Rivera, Longo, Martín Richard et al.), Clinical and Translational Oncology 26(11):2826 (doi 10.1007/s12094-024-03600-7), 'SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of gastric cancer (2023)', published 18 July 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11467061/, retrieved 2026-09-24"
   },
   {
    "claim": "**Apart from HER2-positive and MSI-H disease, treatment is chosen empirically line by line**, weighing ethnicity (Asian versus other trial evidence), performance status, disease burden, age, comorbidity and what drugs the country funds.",
