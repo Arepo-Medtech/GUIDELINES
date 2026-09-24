@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/retinal-vein-occlusion.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp"
+  "https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp",
+  "https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology PPP Retina/Vitreous Committee (Kovach JL et al.), Ophthalmology 'Retinal Vein Occlusions Preferred Practice Pattern (2024, updated 2026)' (approved 13 September 2024; published Feb 2025; updated June 2026 (doi 10.1016/j.ophtha.2024.12.025)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2024 American Academy of Ophthalmology, all rights reserved. Site terms: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Used in paraphrase mode under the owner decision of 2026-09-23 not to exclude sources for AI-use clauses. (read at PDF front matter (© notice) and the aao.org page footer / https://www.aao.org/terms-of-service). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology PPP Retina/Vitreous Committee (Kovach JL et al.), Ophthalmology 'Retinal Vein Occlusions Preferred Practice Pattern (2024, updated 2026)' (approved 13 September 2024; published Feb 2025; updated June 2026 (doi 10.1016/j.ophtha.2024.12.025)), 22 claims; LICENCE: © 2024 American Academy of Ophthalmology, all rights reserved. Site terms: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Used in paraphrase mode under the owner decision of 2026-09-23 not to exclude sources for AI-use clauses. (read at PDF front matter (© notice) and the aao.org page footer / https://www.aao.org/terms-of-service). S2: PARAPHRASED AND HASH-ANCHORED from The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359 'Clinical Guidelines: Retinal Vein Occlusion (RVO)' (January 2022 (date of review January 2025; PDF re-posted June 2026)), 12 claims; LICENCE: © The Royal College of Ophthalmologists 2022. All rights reserved. For permission to reproduce any of the content contained herein please contact contact@rcophth.ac.uk (read at the PDF front matter (https://www.rcophth.ac.uk/wp-content/uploads/2026/06/Retinal-vein-occlusion-guideline.pdf)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Royal College of Ophthalmologists RVO guideline (2022), paraphrased and hash-anchored, for the systemic work-up, dosing and stopping rules, ischaemic CRVO surveillance, branch-occlusion laser criteria and service standards. S1 claims and anchors are unchanged. The preferred Australian source (Cornish et al., Clin Exp Ophthalmol 2023, CC BY) was retried on 2026-09-24: Wiley still served a bot challenge, Unpaywall lists only the publisher copy, and it is not in PMC, so it was not used.",
  "summary": {
-  "total": 22,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -137,6 +138,50 @@
     }
    ],
    "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee (Kovach JL et al.), Ophthalmology, 'Retinal Vein Occlusions Preferred Practice Pattern (2024, updated 2026)', approved 13 September 2024; published Feb 2025; updated June 2026 (doi 10.1016/j.ophtha.2024.12.025), https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Eye-clinic tests (RCOphth, S2):** history, blood pressure, blood glucose, full blood count and ESR; further tests and risk-factor care, such as help to stop smoking, sit best with the patient's own doctor. Diabetes is no commoner in RVO, but testing at diagnosis finds undiagnosed cases.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c9d127930b1584fc",
+     "n": 413,
+     "p": "Summary "
+    },
+    {
+     "h": "8affa46881395eb0",
+     "n": 175,
+     "p": "Diabetes"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**No antiphospholipid testing after an isolated RVO** without other features of antiphospholipid syndrome (S2). A thrombophilia result changes neither treatment nor outlook, and good evidence for anticoagulants or antiplatelet drugs in RVO is lacking.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "565de30623a2a340",
+     "n": 437,
+     "p": "The test"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**RVO under 50 is uncommon** (about 0.26% at ages 30–39 and 0.44% at 40–49). Young people with central occlusion need anti-VEGF less often, yet at least 20% end with poor vision from severe neovascular complications.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f3db1536bb659686",
+     "n": 390,
+     "p": "RVO in y"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Intravitreal anti-VEGF is first-line for macular oedema in both branch and central occlusion.** Intravitreal steroids work but are second-line because they cause glaucoma and cataract; laser has a limited role in branch occlusion.",
@@ -358,6 +403,90 @@
    "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee (Kovach JL et al.), Ophthalmology, 'Retinal Vein Occlusions Preferred Practice Pattern (2024, updated 2026)', approved 13 September 2024; published Feb 2025; updated June 2026 (doi 10.1016/j.ophtha.2024.12.025), https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp, retrieved 2026-09-23"
   },
   {
+   "claim": "**RCOphth (S2), central occlusion: licensed anti-VEGF or the dexamethasone implant are both recommended for the oedema,** chosen with the patient by injection frequency and the risks of pressure rise and cataract. Adding grid laser or PRP to injections gives no benefit.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "24e3cd42624889bf",
+     "n": 246,
+     "p": "Intravit"
+    },
+    {
+     "h": "ede3d834e9b05b20",
+     "n": 185,
+     "p": "There is"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Inject monthly until vision is at its best and stable:** a little over a third reach it after 3 injections and another third need 6. On an as-needed regimen, review every 4–8 weeks. Delaying the start by up to 6 months cost vision, so begin once the diagnosis is made unless a deferral is agreed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f54ce3bc9eb7a81",
+     "n": 298,
+     "p": "Just ove"
+    },
+    {
+     "h": "9ffb5795b306f805",
+     "n": 145,
+     "p": "In a PRN"
+    },
+    {
+     "h": "60922347a9c067ec",
+     "n": 343,
+     "p": "A delay "
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **When to stop in poor-vision eyes (S2):** with presenting vision below 6/96, reconsider if neither acuity nor OCT thickness improves after 3 monthly loading injections, and do not go on if there is no response after 6. In ischaemic central occlusion, stop after 3 injections if the oedema clears with no visual gain; but do not exclude eyes with more than 10 disc areas of non-perfusion, or vision of 6/96 or worse with significant oedema, from a trial.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36934c5226453655",
+     "n": 333,
+     "p": "For pati"
+    },
+    {
+     "h": "ef8af837be1629c4",
+     "n": 464,
+     "p": "Eyes wit"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Branch occlusion (S2): mild, recent loss can be watched for the first 3 months,** but with marked loss only 18–41% of eyes improve unaided, on average not to 6/12, so treat early. Licensed anti-VEGF or the dexamethasone implant are both recommended. Reserve grid laser for oedema of at least 3 months with vision of 6/12 or worse, no significant macular haemorrhage and a perfused fovea on angiography.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b03bfc866ef7fdd7",
+     "n": 466,
+     "p": "Patients"
+    },
+    {
+     "h": "1eee5d54a82042d8",
+     "n": 236,
+     "p": "Licensed"
+    },
+    {
+     "h": "b89eb1c5e1b987ce",
+     "n": 322,
+     "p": "If laser"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Neovascularisation:** in branch occlusion with retinal new vessels, laser the non-perfused area to cut the risk of vitreous haemorrhage. In central occlusion with retinal or iris new vessels, give dense peripheral panretinal laser. An anti-VEGF injection first gives short-term control and can make full laser easier.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -369,6 +498,75 @@
     }
    ],
    "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee (Kovach JL et al.), Ophthalmology, 'Retinal Vein Occlusions Preferred Practice Pattern (2024, updated 2026)', approved 13 September 2024; published Feb 2025; updated June 2026 (doi 10.1016/j.ophtha.2024.12.025), https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Ischaemic central occlusion (S2): check monthly for iris or angle new vessels,** and every 1–2 months in the first year after anti-VEGF stops. At the first sign of them give anti-VEGF, then enough PRP on the same day (before the injection) or within 1–2 weeks. With a dexamethasone implant, finding iris vessels early is vital.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d78092360267901d",
+     "n": 121,
+     "p": "Monitor "
+    },
+    {
+     "h": "97fcfac3dd52648c",
+     "n": 149,
+     "p": "1-2 mont"
+    },
+    {
+     "h": "0ac4c0025ca7ac35",
+     "n": 200,
+     "p": "Commence"
+    },
+    {
+     "h": "ea0d348949ac4035",
+     "n": 138,
+     "p": "In eyes "
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Established neovascular glaucoma:** if the eye has any visual potential, control the pressure with drops, surgery or cyclo-ablation; regression of the iris and angle vessels helps long-term comfort.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2df360bf19a628d4",
+     "n": 273,
+     "p": "If the e"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Branch occlusion new vessels (S2): sector laser to the ischaemic retina once disc or retinal new vessels appear;** evidence suggests waiting for a vitreous haemorrhage does not harm the outlook, and angiography is not usually needed first. Review every 3–4 months if a quadrant or more is ischaemic. A quadrant usually takes at least 500 burns of 500 µm, 1 burn-width apart, to a mild grey-white.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d4f0bcfa9aeb969",
+     "n": 278,
+     "p": "Disc or "
+    },
+    {
+     "h": "0fac83e5f59a28fe",
+     "n": 112,
+     "p": "Follow-u"
+    },
+    {
+     "h": "83f9d7ae3bd94170",
+     "n": 116,
+     "p": "Fluoresc"
+    },
+    {
+     "h": "51406519db1bfa56",
+     "n": 286,
+     "p": "An adequ"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Central occlusion: check the iris and angle (undilated slit lamp and gonioscopy) as often as monthly for 6 months,** and again in ischaemic central occlusion after anti-VEGF stops, to catch new vessels early.",
@@ -400,6 +598,42 @@
     }
    ],
    "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee (Kovach JL et al.), Ophthalmology, 'Retinal Vein Occlusions Preferred Practice Pattern (2024, updated 2026)', approved 13 September 2024; published Feb 2025; updated June 2026 (doi 10.1016/j.ophtha.2024.12.025), https://www.aao.org/education/preferred-practice-pattern/retinal-vein-occlusions-ppp, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Follow-up with significant ischaemia (S2): monthly for 6 months, then 3-monthly to 1 year.** Uncomplicated cases rarely need review beyond 3 years, and disc collaterals with spontaneous resolution of the oedema allow discharge after 6 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52afec89f43b7953",
+     "n": 473,
+     "p": "Monthly "
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Service standards (UK, S2):** see and treat within 2–4 weeks of presentation, starting treatment within 1–2 weeks of the specialist assessment. Offer low-vision support early, without waiting until every treatment has been tried.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1605569c1fbcf18f",
+     "n": 165,
+     "p": "Time fro"
+    },
+    {
+     "h": "93241a91ecfaa247",
+     "n": 84,
+     "p": "Treatmen"
+    },
+    {
+     "h": "15690a145719b85e",
+     "n": 393,
+     "p": "Patients"
+    }
+   ],
+   "locator": "The Royal College of Ophthalmologists (UK), RVO Guidelines 2022/SCI/359, 'Clinical Guidelines: Retinal Vein Occlusion (RVO)', January 2022 (date of review January 2025; PDF re-posted June 2026), https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/, retrieved 2026-09-24"
   }
  ]
 }

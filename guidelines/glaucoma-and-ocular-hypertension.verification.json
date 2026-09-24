@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/glaucoma-and-ocular-hypertension.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://ranzco.edu/wp-content/uploads/2018/11/Guidelines-for-the-Collaborative-Care-of-Glaucoma-Patients.pdf"
+  "https://ranzco.edu/wp-content/uploads/2018/11/Guidelines-for-the-Collaborative-Care-of-Glaucoma-Patients.pdf",
+  "https://bjo.bmj.com/content/109/Suppl_1/1"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from The Royal Australian and New Zealand College of Ophthalmologists (RANZCO) 'Clinical Practice Guidelines for the Collaborative Care of glaucoma patients and suspects by ophthalmologists and optometrists in Australia' (approved 17 August 2019 (next review 17 August 2022)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: No licence statement in the PDF; ranzco.edu site footer reads 'Copyright © RANZCO' with no permission to reproduce (read at the PDF itself (no statement) and https://ranzco.edu/ (site footer)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from The Royal Australian and New Zealand College of Ophthalmologists (RANZCO) 'Clinical Practice Guidelines for the Collaborative Care of glaucoma patients and suspects by ophthalmologists and optometrists in Australia' (approved 17 August 2019 (next review 17 August 2022)), 21 claims; LICENCE: No licence statement in the PDF; ranzco.edu site footer reads 'Copyright © RANZCO' with no permission to reproduce (read at the PDF itself (no statement) and https://ranzco.edu/ (site footer)). S2: PARAPHRASED AND HASH-ANCHORED from European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines) 'Terminology and Guidelines for Glaucoma, 6th Edition' (May 2025; first published online 8 September 2025), 11 claims; LICENCE: Copyright © 2025 European Glaucoma Society; no reproduction, copying, translation or storage without written permission; BMJ page stamp: 'Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.' Free to read (Open Access label on the BMJ page). (read at the PDF front matter and page stamps (bjo.bmj.com full-text PDF)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European Glaucoma Society guideline, 6th edition (2025), paraphrased and hash-anchored, for when to treat ocular hypertension, first treatment (drops or laser trabeculoplasty), drug choice, switching, fixed combinations, target IOP and follow-up. S1 claims and anchors are unchanged. S2's text was extracted with pdftotext and the repeated page stamp lines ('Protected by copyright...', 'Br J Ophthalmol: first published...', 'by guest.') were removed before anchoring. S2 terms, verbatim: 'No parts of this text, illustrations, tables or flowcharts can be reproduced, copied, translated or stored by any means including magnetic, electronic or multimedia formats without written permission of the European Glaucoma Society.' and 'Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.' Used in paraphrase mode under the owner decision that AI-use clauses do not exclude a source.",
  "summary": {
-  "total": 21,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -209,6 +210,176 @@
    "locator": "The Royal Australian and New Zealand College of Ophthalmologists (RANZCO), 'Clinical Practice Guidelines for the Collaborative Care of glaucoma patients and suspects by ophthalmologists and optometrists in Australia', approved 17 August 2019 (next review 17 August 2022), https://ranzco.edu/wp-content/uploads/2018/11/Guidelines-for-the-Collaborative-Care-of-Glaucoma-Patients.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**EGS definition of ocular hypertension:** untreated IOP above 21 mmHg with a normal field, disc and nerve fibre layer, an open angle on gonioscopy, and no other eye disease or steroid use. Older age, higher pressure and a thinner cornea predict conversion to glaucoma, and a free OHTS calculator estimates the 5-year risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2144fb66c2ff6ab0",
+     "n": 684,
+     "p": "IOP >21 "
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treat when the risk of conversion is high,** weighing life expectancy, general health and the chance of meaningful visual loss. Confirm the raised pressure before starting, unless it is very high. As a rule, offer treatment for pressures repeatedly in the high twenties even with no other risk factor; the principles then match those for open-angle glaucoma.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "05814a55887ec3f8",
+     "n": 516,
+     "p": "Treatmen"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Start with either drops or laser trabeculoplasty, review every 6–12 months at first,** and lengthen the interval if everything stays stable. Assess each person individually and involve them in the decision.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d690f77015d71dfc",
+     "n": 180,
+     "p": "approach"
+    },
+    {
+     "h": "ff5f433d03990b81",
+     "n": 121,
+     "p": "Assess e"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Treatment roughly halves conversion:** in OHTS (1636 patients; goal below 24 mmHg and at least 20% under baseline), 4.4% of treated versus 9.5% of untreated patients developed glaucoma by 5 years, and more than 90% of the untreated had not converted. Waiting to treat raised conversion only when the baseline conversion risk exceeded 13%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c64ba16b0c7d6171",
+     "n": 1274,
+     "p": "A total "
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Begin with a single drug,** unless pressure is very high or disease severe; **laser trabeculoplasty is also a good first choice** for mild to moderate open-angle glaucoma or OHT, and one high-quality trial found SLT at least as effective as drops. Pressures in the high 20s or more, or severe disease, may need combined drugs, laser or surgery from the outset.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6fa350ea325a1ad9",
+     "n": 363,
+     "p": "It is re"
+    },
+    {
+     "h": "4e6f864782b47280",
+     "n": 219,
+     "p": "One high"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**LiGHT (718 newly diagnosed, untreated OHT or open-angle glaucoma patients):** 74.2% of the SLT group were at target without drops at 3 years and 69.8% at 6 years; by 6 years fewer SLT eyes needed trabeculectomy (2.4% vs 5.8%) or progressed (19.6% vs 26.8%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8db525ce0c9637cd",
+     "n": 88,
+     "p": "A total "
+    },
+    {
+     "h": "19836f50a1161ef8",
+     "n": 123,
+     "p": "74.2% an"
+    },
+    {
+     "h": "dbf0508bb6acd123",
+     "n": 174,
+     "p": "After 6 "
+    },
+    {
+     "h": "cc63523b317a2484",
+     "n": 132,
+     "p": "At 6 yea"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prostaglandin analogues lower pressure most and are the usual first medical choice** (strong recommendation, high-quality evidence). Next come non-selective beta-blockers, then rho-kinase inhibitors, alpha-agonists, selective beta-blockers and topical carbonic anhydrase inhibitors. Preservative-free drops lower pressure no less and are probably easier on the ocular surface, but cost more.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2ca65509e33aa218",
+     "n": 155,
+     "p": "Prostagl"
+    },
+    {
+     "h": "58298da3b72ebd04",
+     "n": 178,
+     "p": "reductio"
+    },
+    {
+     "h": "24cbf6595b28995a",
+     "n": 220,
+     "p": "There is"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If the first drug does not work or is not tolerated, switch to another single drug** (same or another class) instead of adding a second.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "26f49425c6136812",
+     "n": 175,
+     "p": "If the i"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Add a drug of another class only when a tolerated, effective single drug has not reached target;** a fixed combination is then better than two separate drops (adherence, less preservative). Most contain a beta-blocker, so take care with its systemic contraindications; prostaglandin plus beta-blocker is the commonest pairing. **Do not start with a combination** unless one agent is unlikely to reach target, as in advanced glaucoma or very high pressure.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2362b27d17cf2344",
+     "n": 782,
+     "p": "If monot"
+    },
+    {
+     "h": "d1a3f9c73e20f142",
+     "n": 243,
+     "p": "Combinat"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Set a target IOP when the diagnosis is made and revisit it at each monitoring visit** as the glaucoma, or other eye or general disease, changes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e4659b30722fb3c8",
+     "n": 181,
+     "p": "A target"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Anyone an optometrist labels glaucoma or glaucoma suspect should see an ophthalmologist** to confirm the diagnosis and set a plan, with urgency matched to risk and stage. Both the diagnosis and any progression need an ophthalmologist to confirm them.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -344,6 +515,24 @@
     }
    ],
    "locator": "The Royal Australian and New Zealand College of Ophthalmologists (RANZCO), 'Clinical Practice Guidelines for the Collaborative Care of glaucoma patients and suspects by ophthalmologists and optometrists in Australia', approved 17 August 2019 (next review 17 August 2022), https://ranzco.edu/wp-content/uploads/2018/11/Guidelines-for-the-Collaborative-Care-of-Glaucoma-Patients.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**EGS on follow-up (S2):** reviewing ocular hypertension more often than yearly is unlikely to be cost-effective; see people more often for severe or fast-progressing glaucoma, pressure above target or other high-risk factors. Confirming probable progression generally needs at least five field tests (two baseline, three follow-up) over at least two years.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "495178318fda2f76",
+     "n": 389,
+     "p": "Follow-u"
+    },
+    {
+     "h": "9dbf5c66b13a6d3e",
+     "n": 180,
+     "p": "least fi"
+    }
+   ],
+   "locator": "European Glaucoma Society, British Journal of Ophthalmology 109(Suppl 1) (doi 10.1136/bjophthalmol-2025-egsguidelines), 'Terminology and Guidelines for Glaucoma, 6th Edition', May 2025; first published online 8 September 2025, https://bjo.bmj.com/content/109/Suppl_1/1, retrieved 2026-09-24"
   }
  ]
 }
