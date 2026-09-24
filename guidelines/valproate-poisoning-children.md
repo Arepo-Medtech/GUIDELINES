@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** dose–response, investigations, charcoal, haemodialysis and carnitine criteria, and disposition for acute sodium valproate poisoning in children. Therapeutic valproate (dosing, hepatotoxicity, interactions) is in `sodium-valproate`; general poisoning principles are in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Sodium valproate poisoning*** (Last updated December 2020); **27 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Sodium valproate poisoning*** (Last updated December 2020); **27 anchors re-checkable by machine; 11 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Serious toxicity is unlikely under 400 mg/kg; over 1 g/kg or a level over 6000 micromol/L is life-threatening — transfer to an ICU with dialysis.** Enteric-coated tablets: observe at least 12 hours.
 

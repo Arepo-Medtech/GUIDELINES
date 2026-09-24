@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, ECG, decontamination, sodium bicarbonate, seizure care and disposition for TCA poisoning in children and adolescents. General principles are in `poisoning-initial-management-children`; serotonergic co-ingestion is in `serotonin-toxicity-children`. The AMH counterparts are `gastrointestinal-decontamination` and `adverse-effects-of-antidepressants`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 of 21 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Tricyclic Antidepressant (TCA) Poisoning*** (Last updated June 2017); **25 anchors re-checkable by machine; 1 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 of 21 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Tricyclic Antidepressant (TCA) Poisoning*** (Last updated June 2017); **25 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **TCAs can be fatal in relatively low doses — single-tablet fatalities have been reported — and patients can deteriorate quickly.** Refer any child over 5 mg/kg. Seek senior advice and a toxicologist.
 

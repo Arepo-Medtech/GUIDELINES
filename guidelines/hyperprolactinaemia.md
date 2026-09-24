@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising and confirming hyperprolactinaemia, excluding secondary causes, and dopamine agonist therapy, surgery, withdrawal, pregnancy and special groups for adults and children with prolactinoma. Antipsychotic-related hyperprolactinaemia is also covered in `schizophrenia`; fertility work-up in `infertility`. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **61 fragments or anchors re-checkable by machine; 2 doses.** **S1** Pituitary Society (Petersenn S (published online 5 September 2023; international): 17 claims, paraphrased, hash-anchored · **S2** Australian Prescriber (Chen AX (published 1 December 2017; AU): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **61 fragments or anchors re-checkable by machine; 4 doses.** **S1** Pituitary Society (Petersenn S (published online 5 September 2023; international): 17 claims, paraphrased, hash-anchored · **S2** Australian Prescriber (Chen AX (published 1 December 2017; AU): 12 claims, paraphrased, hash-anchored
 
 > 🇦🇺 **S2 is an Australian Prescriber review (2017), not a guideline,** used for Australian units and laboratory practice, drug-induced hyperprolactinaemia and local drug options. **S1** (Pituitary Society 2023) is the newer and fuller source; where they differ, both are shown.
 

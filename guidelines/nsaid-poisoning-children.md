@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment by ibuprofen dose, investigations, supportive care and disposition for non-aspirin NSAID poisoning in children. Aspirin is covered separately in `salicylate-poisoning-children`; general principles are in `poisoning-initial-management-children`; seizure management is in `seizures-acute-management-children`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Nonsteroidal Anti-inflammatory Drug NSAID poisoning*** (Last Updated April 2019); **19 anchors re-checkable by machine; 0 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 15 of 15 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Nonsteroidal Anti-inflammatory Drug NSAID poisoning*** (Last Updated April 2019); **19 anchors re-checkable by machine; 3 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Mostly benign at lower doses; ibuprofen over 400 mg/kg risks multi-organ dysfunction, and mefenamic acid over 3.5 g can cause seizures.** Activated charcoal is not indicated.
 

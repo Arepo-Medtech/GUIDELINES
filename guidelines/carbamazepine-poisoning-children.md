@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment, serum concentrations, charcoal, seizure management and disposition for acute carbamazepine poisoning in children. General principles are in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`. (The RCH 'Anticonvulsant poisoning' page is now only an index to this and the phenytoin, phenobarbitone and valproate pages.)
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Carbamazepine poisoning*** (Last Updated July 2020); **29 anchors re-checkable by machine; 2 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Carbamazepine poisoning*** (Last Updated July 2020); **29 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Symptoms can be delayed beyond 48 hours** (anticholinergic ileus, ongoing absorption) — **observe at least 8 hours.** **Treat seizures with benzodiazepines; phenytoin is relatively contraindicated.**
 

@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** ingestion, skin and eye exposure to essential oils in children (PIC endorsed): dose thresholds, oil-specific toxicity (clove, pennyroyal, wintergreen and others), aspiration pneumonitis, decontamination and disposition. Eucalyptus oil has its own page, `eucalyptus-oil-poisoning-children`; related RCH pages are `hydrocarbon-poisoning-children`, `camphor-poisoning-children` and `salicylate-poisoning-children` (wintergreen). General principles: `poisoning-initial-management-children`; AMH decontamination counterpart: `gastrointestinal-decontamination`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Essential Oil Poisoning*** (Last Updated July 2021); **28 anchors re-checkable by machine; 3 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 of 22 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Essential Oil Poisoning*** (Last Updated July 2021); **28 anchors re-checkable by machine; 4 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **2–3 mL of some oils has been toxic in children. No charcoal** (aspiration risk, rapid absorption). **Clove and pennyroyal need urgent toxicologist discussion** (paracetamol-like hepatotoxicity).
 

@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** risk assessment by elemental iron dose, investigations, whole bowel irrigation, desferrioxamine and disposition for acute iron ingestion in children. General principles are in `poisoning-initial-management-children`; the AMH decontamination counterpart is `gastrointestinal-decontamination`. Therapeutic iron (not poisoning) is `iron-deficiency`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 of 24 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Iron poisoning*** (Last updated June 2020); **35 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 of 24 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Iron poisoning*** (Last updated June 2020); **35 anchors re-checkable by machine; 12 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Risk is set by ELEMENTAL iron per kg, not the salt.** **Activated charcoal does not bind iron.** A 6–24 hour latent phase can look like recovery before systemic toxicity.
 

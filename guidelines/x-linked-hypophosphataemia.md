@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, biochemical and genetic diagnosis, conventional therapy (oral phosphate with calcitriol or alfacalcidol), burosumab, multidisciplinary referral, monitoring and transition to adult care for children and adults with XLH. The source's numbered consensus statements live in tables and figures that were stripped; claims come from its narrative text. Tumour-induced osteomalacia (also a burosumab PBS condition) is not covered. Related: `hypophosphataemia-children` (acquired hypophosphataemia and phosphate replacement), `vitamin-d-deficiency-children` (nutritional rickets, the main differential). PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **COMPILED FROM 3 SOURCES.** 41 claims; **81 fragments or anchors re-checkable by machine; 7 doses.** **S1** APAC XLH Working Group (published 1 May 2023; international): 24 claims, quoted · **S2** Ali DS (published 17 February 2025; international): 11 claims, paraphrased, hash-anchored · **S3** Khan AA (published 17 April 2025; international): 6 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 3 SOURCES.** 41 claims; **81 fragments or anchors re-checkable by machine; 8 doses.** **S1** APAC XLH Working Group (published 1 May 2023; international): 24 claims, quoted · **S2** Ali DS (published 17 February 2025; international): 11 claims, paraphrased, hash-anchored · **S3** Khan AA (published 17 April 2025; international): 6 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Asia-Pacific XLH Working Group, 2023; Australian co-authors, endorsed by ANZSPED and ANZBMS). Australian practice follows the PBS listings below and may differ.
 

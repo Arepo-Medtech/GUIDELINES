@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** kidney-related care of lupus nephritis (including classes III–V) and ANCA-associated vasculitis in adults, from the CARI (Australia and New Zealand) commentary on the KDIGO 2021 glomerular disease guideline, plus the general glomerular-disease points that apply to both. Extra-renal SLE is not covered. Other glomerular diseases (IgA nephropathy, membranous, FSGS, children's nephrotic syndrome): see `nephrotic-syndrome-children`; general CKD care: see `chronic-kidney-disease`. Edition 2.0 adds S2 (EULAR 2023) for lupus nephritis and for its general SLE drug points (hydroxychloroquine, glucocorticoid limits, belimumab or anifrolumab); organ-specific extra-renal care stays out of scope.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **55 fragments or anchors re-checkable by machine; 4 doses.** **S1** CARI Guidelines (published 16 September 2025; AU): 27 claims, paraphrased, hash-anchored · **S2** EULAR task force (Fanouriakis A (published online 12 October 2023; international): 10 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **55 fragments or anchors re-checkable by machine; 6 doses.** **S1** CARI Guidelines (published 16 September 2025; AU): 27 claims, paraphrased, hash-anchored · **S2** EULAR task force (Fanouriakis A (published online 12 October 2023; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ **Several KDIGO lupus-nephritis options are not available in Australia or New Zealand:** belimumab (for lupus nephritis) and voclosporin. The commentary predates the PBS listing of obinutuzumab for lupus nephritis and does not discuss it.
 

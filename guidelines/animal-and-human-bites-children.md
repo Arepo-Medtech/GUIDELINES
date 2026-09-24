@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** assessment, washout, closure, antibiotic prophylaxis and treatment, and referral for mammalian bites in children. Counterparts: `tetanus` and `rabies-and-lyssaviruses` (Immunisation Handbook); snake bites are in `snakebite-antivenoms`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 of 25 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Animal and human bites*** (Last updated March 2023); **36 anchors re-checkable by machine; 5 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 of 25 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Animal and human bites*** (Last updated March 2023); **36 anchors re-checkable by machine; 6 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Every bite that breaks the skin is a contaminated wound:** prompt, thorough washout and exploration under adequate analgesia or sedation. **Leave most bite wounds open.**
 

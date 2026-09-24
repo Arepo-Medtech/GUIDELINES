@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with actinic (solar) keratoses on sun-exposed skin: choosing field or lesion treatment, UV protection, topical 5-fluorouracil, imiquimod and diclofenac, cryosurgery, photodynamic therapy and combinations. Actinic cheilitis is out of scope. Suspected keratinocyte cancer (including an AK that persists after cryotherapy): see `keratinocyte-cancer`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **52 fragments or anchors re-checkable by machine; 1 doses.** **S1** American Academy of Dermatology Work Group (Eisen DB et al.) (October 2021 (epub 7 June 2021); international): 18 claims, paraphrased, hash-anchored · **S2** O'Bryen J (August 2025; AU): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **52 fragments or anchors re-checkable by machine; 2 doses.** **S1** American Academy of Dermatology Work Group (Eisen DB et al.) (October 2021 (epub 7 June 2021); international): 18 claims, paraphrased, hash-anchored · **S2** O'Bryen J (August 2025; AU): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (American Academy of Dermatology, 2021). Australian practice follows the PBS listings below and may differ.
 

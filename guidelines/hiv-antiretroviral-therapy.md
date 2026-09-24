@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** when to start ART, the checks before starting, and the choice of first regimen for adults with HIV, including darunavir- and abacavir-containing regimens (the PBS rows). Diagnosis, first consultation, contact tracing and PEP: see `hiv`. PrEP: see `hiv-pre-exposure-prophylaxis`. Hepatitis B or C co-infection: `hepatitis-b`, `hepatitis-c`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **49 fragments or anchors re-checkable by machine; 2 doses.** **S1** ASHM Health (DHHS text last updated September 2024 (initiation section December 2019); Australian commentary last updated December 2024 (initiation and HLA-B*5701 July 2023); AU): 24 claims, paraphrased, hash-anchored · **S2** European AIDS Clinical Society (EACS) (version 13.0, 2025 (web pages read 2026-09-24); international): 12 claims, paraphrased, hash-anchored
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **49 fragments or anchors re-checkable by machine; 3 doses.** **S1** ASHM Health (DHHS text last updated September 2024 (initiation section December 2019); Australian commentary last updated December 2024 (initiation and HLA-B*5701 July 2023); AU): 24 claims, paraphrased, hash-anchored · **S2** European AIDS Clinical Society (EACS) (version 13.0, 2025 (web pages read 2026-09-24); international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ **Mostly US text with an Australian layer.** ASHM republishes the US DHHS Panel guidelines and adds 'AU Comment' boxes. Evidence ratings (AI, BII …) are the US Panel's. Where an AU comment exists it is marked **(AU)** below.
 

@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** sulfonylurea overdose (IV glucose, octreotide, observation and daylight-only discharge) and, briefly, metformin exposure in children and adolescents. General poisoning steps are in `poisoning-initial-management-children`; paediatric hypoglycaemia in general is `hypoglycaemia-children`; the adult counterpart is `hypoglycaemia`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 19 of 19 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Oral Hypoglycaemic Poisoning*** (Last Updated December 2020); **30 anchors re-checkable by machine; 7 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 19 of 19 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Oral Hypoglycaemic Poisoning*** (Last Updated December 2020); **30 anchors re-checkable by machine; 8 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **One sulfonylurea tablet can cause life-threatening hypoglycaemia in a toddler.** Observe every possible exposure for 24 hours; treat hypoglycaemia with IV glucose **and** octreotide; discharge in daylight only.
 

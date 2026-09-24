@@ -3,7 +3,7 @@
 **Edition:** 1.1 · 2026-09-24 · **Status:** drafted and source-anchored; awaiting clinical attestation
 **Scope:** resuscitation, maintenance fluid choice and volume, monitoring and weaning to enteral feeds for neonates born after 32 weeks (and over 1500 g) outside a NICU. The paediatric counterpart (1 month to 18 years) is `intravenous-fluids-children`. Related: `seriously-unwell-neonate`, `neonatal-empiric-antimicrobials`, `hypoglycaemia-children`, `nasogastric-rehydration-children` (beyond the newborn period).
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 23 of 23 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Neonatal intravenous fluids*** (Last updated March 2026); **41 anchors re-checkable by machine; 12 doses.** The RCH text is not reproduced: its terms licence personal use only.
+> ✅ **PARAPHRASED, HASH-ANCHORED.** 23 of 23 claims paraphrased from the **RCH Melbourne Clinical Practice Guideline *Neonatal intravenous fluids*** (Last updated March 2026); **41 anchors re-checkable by machine; 14 doses.** The RCH text is not reproduced: its terms licence personal use only.
 
 > ⚠️ **Shock: sodium chloride 0.9% 10 mL/kg as fast as possible, then reassess.** Maintenance starts as **glucose 10%** for the first 24–48 hours; **base all calculations on birth weight** (or highest weight).
 

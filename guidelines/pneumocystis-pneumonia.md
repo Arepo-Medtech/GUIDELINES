@@ -3,7 +3,7 @@
 **Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspecting, diagnosing, treating and following up PJP in people with and without HIV (haematological malignancy, transplant, other immunosuppression). Primary prophylaxis decisions sit with the underlying condition, e.g. `lupus-nephritis-and-anca-vasculitis`; HIV itself: `hiv`, `hiv-antiretroviral-therapy`. PBS access for co-trimoxazole and atovaquone is in the table below. Edition 2.0 adds primary prophylaxis for people with haematological malignancy and solid tumours (S2).
 
-> ✅ **COMPILED FROM 2 SOURCES.** 23 claims; **28 fragments or anchors re-checkable by machine; 5 doses.** **S1** European Confederation of Medical Mycology (ECMM) (published 29 September 2025; international): 17 claims, quoted · **S2** Classen AY (published 2021 (2020 update); international): 6 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 23 claims; **28 fragments or anchors re-checkable by machine; 6 doses.** **S1** European Confederation of Medical Mycology (ECMM) (published 29 September 2025; international): 17 claims, quoted · **S2** Classen AY (published 2021 (2020 update); international): 6 claims, quoted
 
 > ⚠️ International guideline summary (ECMM, 2025, summarising ECIL, AST-IDCOP and IDSA). Australian practice follows the PBS listings below and may differ. No freely readable Australian PJP treatment guideline was found.
 

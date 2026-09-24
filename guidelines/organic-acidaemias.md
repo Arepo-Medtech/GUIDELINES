@@ -3,7 +3,7 @@
 **Edition:** 2.1 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** isolated methylmalonic acidaemia (MMA) and propionic acidaemia (PA): when to suspect them, diagnosis, first treatment, avoiding catabolism, the low-natural-protein diet and precursor-free amino acid mixtures, levocarnitine, vitamin B12 responsiveness, metronidazole, liver and kidney transplantation, and surveillance for neurological, renal, cardiac, haematological, bone, growth and pancreatic complications. Isovaleric acidaemia is not covered by this source. First steps for any suspected inborn error in an unwell child: `metabolic-disorders-children`. Hyperammonaemia management detail: `urea-cycle-disorders`.
 
-> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **70 fragments or anchors re-checkable by machine; 6 doses.** **S1** Forny P (vol. 44, pp. 566–592, published 9 March 2021; international): 18 claims, paraphrased, hash-anchored · **S2** Servais A (published 6 September 2024; international): 13 claims, quoted
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **70 fragments or anchors re-checkable by machine; 7 doses.** **S1** Forny P (vol. 44, pp. 566–592, published 9 March 2021; international): 18 claims, paraphrased, hash-anchored · **S2** Servais A (published 6 September 2024; international): 13 claims, quoted
 
 > 🌐 **Two sources.** S1 (European MMA/PA guideline, 2021) covers both disorders. **S2** (ERKNet and MetabERN kidney consensus, 2024) covers **MMA only**: chronic kidney disease, dialysis and transplantation. Its points are graded B, C or X by the American Academy of Pediatrics scheme. Where they differ, both are shown.
 
