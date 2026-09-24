@@ -1,13 +1,15 @@
 # Heart transplant immunosuppression and rejection
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** adult heart transplant recipients: induction, maintenance with a calcineurin inhibitor plus mycophenolate or a proliferation signal inhibitor (everolimus, sirolimus), renal-sparing conversion, steroid weaning, infection prophylaxis, rejection surveillance, and treatment of rejection. Specialist transplant-unit care; primary care supports monitoring and adherence. Desensitisation protocols are summarised only in Unresolved. Kidney transplant: `kidney-transplant-immunosuppression-and-rejection`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** adult heart transplant recipients: induction, maintenance with a calcineurin inhibitor plus mycophenolate or a proliferation signal inhibitor (everolimus, sirolimus), renal-sparing conversion, steroid weaning, infection prophylaxis, rejection surveillance, and treatment of rejection, including antibody-mediated rejection (S2). Specialist transplant-unit care; primary care supports monitoring and adherence. Desensitisation protocols are summarised only in Unresolved. Kidney transplant: `kidney-transplant-immunosuppression-and-rejection`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure — *Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center*** (published 29 September 2020; origin: international). **30 anchors re-checkable by machine; 8 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **44 fragments or anchors re-checkable by machine; 11 doses.** **S1** Youn JC (published 29 September 2020; international): 25 claims, paraphrased, hash-anchored · **S2** Mehta A (published 22 August 2025; international): 10 claims, paraphrased, hash-anchored
 
 > ⚠️ International source (Cedars-Sinai, USA, 2020). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **This is a single-centre narrative review of one US programme's protocols, not a society guideline.** The ISHLT 2022 heart transplant guideline is not open access and was not used. Trough targets and schedules vary by transplant unit: follow the local unit's protocol.
+> ⚠️ International guideline (JACC: Heart Failure position statement on antibody-mediated rejection, 2025; S2). Australian practice follows the PBS listings below and may differ.
+
+> ⚠️ **S1 is a single-centre narrative review of one US programme's protocols, not a society guideline;** induction, maintenance, renal sparing, prophylaxis, surveillance and cellular-rejection claims rest on it. **S2 is an expert position statement (not a society guideline) on antibody-mediated rejection only;** the AMR claims marked S2 rest on it. The ISHLT 2022 guideline could not be read and was not used. Trough targets and schedules vary by transplant unit: follow the local unit's protocol.
 
 ---
 
@@ -54,6 +56,19 @@
 - **Cardiogenic shock from rejection** may need pulmonary artery catheter guidance, inotropes, an intra-aortic balloon pump, and early VA ECMO; ECMO started after cardiac arrest does poorly. [S1]
 - **Recurrent rejection:** photopheresis may be considered. Re-transplant is generally contraindicated within 6 months of treated rejection (hyperacute rejection risk). [S1]
 
+## Antibody-mediated rejection (S2)
+
+- **How AMR happens:** donor-specific antibodies (DSA) bind donor HLA on the graft's vascular endothelium and switch on complement. Preformed high-titre DSA can cause hyperacute rejection; de novo DSA, usually against HLA class II, form after transplant. S2 suggests treating HLA DSA plus graft dysfunction as equivalent to AMR. [S2]
+- **AMR risk factors:** pre-transplant sensitisation, a positive flow-cytometric crossmatch, de novo DSA (class II above all) and too little immunosuppression. **Screen for de novo DSA at 1, 3, 6 and 12 months, then every year;** whether to treat DSA without graft dysfunction or with a normal biopsy is not settled. [S2]
+- **Donor-derived cell-free DNA** has a negative predictive value above 98%, allowing fewer biopsies; levels run 5 to 11 times higher in AMR than in cellular rejection and can rise about 3 months before biopsy diagnosis, but the test cannot tell the two apart. [S2]
+- ⚠️ **Steroids first:** high-dose IV methylprednisolone and then a taper, used as part of a combination because steroids do not act on antibody production. During pulse and prolonged high-dose steroids, give prophylaxis for Pneumocystis, CMV and oral thrush. [S2]
+- ⚠️ **Plasmapheresis and IVIG:** plasmapheresis removes DSA quickly, often every other day for 5 sessions, but antibodies rebound, so B-cell or plasma-cell therapy is added. IVIG is typically 2 g/kg in total, split across the plasmapheresis sessions (split dosing matters when graft function is poor); it can cause infusion reactions, aseptic meningitis and thrombosis. [S2]
+- **Anti-thymocyte globulin for severe AMR or marked graft dysfunction:** usually 1.5 mg/kg IV once a day, 3–5 doses in all, with premedication; dosing can be guided by a CD3 count below 200–300 cells, and opportunistic-infection prophylaxis is advised. [S2]
+- ⚠️ **Eculizumab (C5 complement inhibitor)** for severe, complement-active (C4d-positive) AMR: typically 900 mg weekly for at most 8 weeks, supported only by case series. Meningococcal vaccination before treatment and penicillin VK prophylaxis are mandatory. [S2]
+- **Preventing antibody rebound:** rituximab clears circulating B cells for 6–12 months but leaves plasma cells producing DSA; bortezomib and carfilzomib deplete plasma cells. Bortezomib's main harm is peripheral neuropathy; carfilzomib has been linked to acute kidney injury and heart failure, reported in 67%. [S2]
+- **Strengthen maintenance after AMR:** move ciclosporin to tacrolimus and azathioprine to mycophenolate, raise doses or trough targets, restart low-dose prednisone if it was weaned, or switch mycophenolate to an mTOR inhibitor. [S2]
+- **About 1 in 3 have chronic or recurrent AMR,** with more allograft vasculopathy and lower survival. Through the first year after treatment, monitor at set intervals with dd-cfDNA (with or without biopsy), echocardiography, DSA testing and/or intragraft gene expression. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -72,13 +87,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **Trough-level table** (Table 1) and centre-volume table were stripped; the text's tacrolimus, sirolimus and everolimus targets are given above, but everolimus dosing itself is not stated in the source. | `input_unavailable` |
 | 2 | **Desensitisation protocols** (IVIG/rituximab, plasmapheresis/bortezomib, eculizumab) for sensitised candidates are specialist-only and are not summarised here. | `out_of_scope` |
-| 3 | **Society guideline:** ISHLT 2022 (Elsevier, not open access) and the ESC-HFA 2026 consensus (OUP, 403) could not be used. Australian units follow their own protocols. | `observation` |
+| 3 | **Society guideline:** ISHLT 2022 (free to read at the publisher but behind a Cloudflare challenge, retried 2026-09-24) and the ESC-HFA 2026 consensus (OUP, no open copy) could not be used. S2 covers antibody-mediated rejection only. Australian units follow their own protocols. | `observation` |
 | 4 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **DSA screening schedule differs:** S1 (Cedars-Sinai) tests at months 1, 3 and 6, then every 6 months; S2 recommends 1, 3, 6 and 12 months, then yearly. Both are shown. | `observation` |
+| 6 | **Rejection doses differ:** S1 gives IVIG 1 g/kg daily for 2 days (maximum 140 g) and rATG for 3 to 7 days; S2 gives IVIG 2 g/kg in total split across plasmapheresis sessions and ATG 1.5 mg/kg for 3–5 doses. Both are shown; follow the transplant unit's protocol. | `observation` |
+| 7 | **S2 Table 1 (AMR definitions) and Table 2 (full dosing, side effects, monitoring and contraindications)** were not in the machine-readable text; only doses stated in the prose are shown. | `input_unavailable` |
+| 8 | **S2 licence:** the PMC author manuscript is paraphrased and hash-anchored (NIH fair-use statement), although the publisher version is CC BY 4.0. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Youn JC, Chang DH, Dilibero D, Patel JK, Kobashigawa JA, International Journal of Heart Failure. *Heart Transplant Immunosuppression Strategies at Cedars-Sinai Medical Center*. published 29 September 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC9536714/ — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Mehta A, DeFilippis EM, Stehlik J, Jackson AM, Kobashigawa JA, Shah P, JACC: Heart Failure 13(10):102614 (doi 10.1016/j.jchf.2025.102614). *Contemporary Antibody-Mediated Rejection in Heart Transplantation: JACC: Heart Failure Position Statement*. published 22 August 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC13537435/ — retrieved 2026-09-24. | Publisher version CC BY 4.0 (Unpaywall); the PMC author manuscript read here carries the NIH statement 'available for text mining ... consistent with the principles of fair use' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
