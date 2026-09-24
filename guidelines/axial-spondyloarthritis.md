@@ -1,11 +1,13 @@
 # Axial spondyloarthritis (ankylosing spondylitis and non-radiographic axSpA)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with suspected or established axial spondyloarthritis: assessment, imaging, exercise, NSAIDs, conventional drugs, corticosteroids and biologics. The source is written for **non-radiographic** axSpA; where it draws on AS or whole-axSpA evidence it says so, and those claims carry over to ankylosing spondylitis. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **Australian expert panel, Rheumatology and Therapy (Springer) — *Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis*** (published 28 December 2021; origin: AU). **41 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 35 claims; **70 fragments or anchors re-checkable by machine; 0 doses.** **S1** Australian expert panel (published 28 December 2021; AU): 24 claims, paraphrased, hash-anchored · **S2** British Society for Rheumatology guideline working group (Zhao SS (published online 9 April 2025; international): 11 claims, quoted
 
-> ⚠️ **The source is from 2021.** It covers TNF and IL-17A inhibitors only. The PBS now also lists **upadacitinib** (JAK inhibitor) and **bimekizumab** (IL-17A/F) for nr-axSpA, which this source does not assess.
+> ⚠️ **S1 is from 2021.** It covers TNF and IL-17A inhibitors only. The PBS now also lists **upadacitinib** (JAK inhibitor) and **bimekizumab** (IL-17A/F) for nr-axSpA, which S1 does not assess; **S2 (BSR 2025)** covers both, plus response assessment, switching, uveitis, psoriasis, IBD and tapering.
+
+> ⚠️ International guideline (British Society for Rheumatology, 2025) for S2. It cites UK NICE and licensing rules; Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -45,6 +47,26 @@
 - ⚠️ **Avoid stopping a TNF inhibitor in stable patients:** 70–87% flared within 48–68 weeks of stopping, whereas doubling the interval raised flares only from 16.3 to 21%. [S1]
 - **Function, work and quality of life suffer as much as in AS** and improve in responders; fibromyalgia, depression and fatigue make them worse. [S1]
 
+## Targeted therapy: choice, response and switching (S2, BSR 2025)
+
+- ⚠️ **A TNF, IL-17 or JAK inhibitor is recommended for active axSpA not controlled by non-drug and conventional treatment** (strong, high-quality evidence). UK-licensed options: TNF inhibitors (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab), IL-17 inhibitors (secukinumab, ixekizumab, bimekizumab) and JAK inhibitors (tofacitinib, upadacitinib); infliximab and tofacitinib are not licensed for non-radiographic axSpA. No class is preferred for the musculoskeletal disease. [S2]
+- **Weigh the risk of structural progression:** men, smokers, and people with high baseline damage or high CRP progress more, and targeted therapy (specifically TNF inhibitors) is more likely than NSAIDs to reduce radiographic progression. [S2]
+- **Define active disease only after a verified diagnosis:** a consultant rheumatologist confirms it, and non-radiographic axSpA needs objective inflammation (raised CRP and/or MRI). High activity is ASDAS ≥ 2.1 or BASDAI ≥ 4; when they disagree, ASDAS better predicts response. [S2]
+- **Assess response 3–4 months after starting, then every 6–12 months,** using ASDAS, BASDAI and spinal pain; an ASDAS fall of ≥1.1 is a clinically important response. Follow-up should not usually exceed 24 months apart. [S2]
+- ⚠️ **No response: reassess the diagnosis and whether inflammation is really active.** Fibromyalgia can inflate BASDAI tenderness and fatigue, and obesity can raise the CRP used in ASDAS. [S2]
+- **Switch to another targeted therapy after intolerance, non-response or lost response** (strong). After primary non-response a different mechanism is more likely to work; do not switch to the biosimilar of a drug that failed. There is no set sequence and no limit on the number of sequential therapies. [S2]
+
+## Uveitis, psoriasis and IBD (S2, BSR 2025)
+
+- ⚠️ **Moderate-to-severe or recurrent uveitis: prefer a monoclonal TNF inhibitor.** New uveitis needs an ophthalmologist within 24 hours; past inactive uveitis does not absolutely rule out other classes, and new uveitis on well-controlled axSpA should prompt a treatment decision with ophthalmology rather than an automatic switch. Etanercept and IL-17A inhibitors may control uveitis less well. [S2]
+- **Extensive psoriasis (>10% body surface area) or severe psoriasis at high-impact sites: prefer an IL-17 inhibitor or monoclonal TNF inhibitor,** ideally with a dermatologist. For the skin, IL-17 inhibitors work best, then monoclonal TNF inhibitors, then etanercept. Ustekinumab and IL-23p19 inhibitors do not help axial symptoms. [S2]
+- ⚠️ **Unexplained lower gut symptoms: see a gastroenterologist before starting targeted therapy** (faecal calprotectin screens well but NSAIDs raise it). With active IBD prefer a monoclonal TNF inhibitor or a JAK inhibitor and do not start an IL-17 inhibitor; past inactive IBD does not absolutely rule out IL-17 inhibitors or etanercept. [S2]
+
+## Targets, tapering and stopping (S2, BSR 2025)
+
+- **Agree individual treatment targets with the patient;** evidence is insufficient to treat to an index-based target such as ASDAS < 2.1 (the TICOSPA trial missed its primary outcome). [S2]
+- ⚠️ **Sustained remission (low activity or remission for at least 6 months): offer tapering, usually by lengthening the dosing interval, but do not withdraw targeted therapy.** In trials, flares were much more common after withdrawal: 80% flared after stopping certolizumab pegol, and not all regained control. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -63,14 +85,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **The 22 statements with their agreement scores** are in Table 1, which was stripped; the claims above come from the statement headings and text. | `input_unavailable` |
-| 2 | **JAK inhibitors (upadacitinib, tofacitinib) and bimekizumab** are not covered by this 2021 source; an Australian source covering them was not found. The ASAS-EULAR 2022 update is not free to read (research: unusable). | `out_of_scope` |
+| 2 | **JAK inhibitors (upadacitinib, tofacitinib) and bimekizumab** are not covered by the 2021 Australian source (S1); they now come from BSR 2025 (S2). An Australian source covering them was not found. The ASAS-EULAR 2022 update is still not readable (Cloudflare challenge, HTTP 403, 2026-09-24). | `observation` |
 | 3 | **Ankylosing spondylitis-specific imaging** has a separate 2017 ANZ imaging consensus (licence not read), not used here. | `observation` |
 | 4 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **IL-17 inhibitors and uveitis:** S1 says there is no evidence for IL-17 blockade in anterior uveitis; S2 says trial data do not suggest harm, that IL-17A inhibitors may be less effective than monoclonal TNF inhibitors, and that post hoc data suggest bimekizumab may prevent flares. Both prefer a monoclonal TNF inhibitor when uveitis is recurrent. | `observation` |
+| 6 | **S2's tables** (drug choice by extra-musculoskeletal manifestation, ASDAS calculation) were stripped. S2 does not cover NSAIDs, glucocorticoids, conventional DMARDs or drug safety, and gives no doses. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Australian expert panel, Rheumatology and Therapy (Springer). *Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis*. published 28 December 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/ — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089). *The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs*. published online 9 April 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/ — retrieved 2026-09-24. | CC BY 4.0 (© The Author(s) 2025, published by Oxford University Press on behalf of the BSR) | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/endemic-mycoses.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/",
+  "https://iris.paho.org/handle/10665.2/52304"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC) 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)' (published 6 August 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Elsevier Ltd (author manuscript; no open licence stated on the PMC page, which shows only the PMC copyright notice) (read at PMC article page 'Copyright and License information' (https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/)). The source's words are NOT reproduced here. AI-USE CLAUSE (recorded per owner decision, not used to exclude): the Lancet site-wide footer reads \"All content on this site: Copyright © 2026 Elsevier Ltd., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies.\" (read at https://www.thelancet.com, as recorded in research/infectious.json). Text taken from the PMC author manuscript; figures and supplementary appendix not used.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC) 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)' (published 6 August 2021), 13 claims; LICENCE: © Elsevier Ltd (author manuscript; no open licence stated on the PMC page, which shows only the PMC copyright notice) (read at PMC article page 'Copyright and License information' (https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/)). S2: PARAPHRASED AND HASH-ANCHORED from Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5) 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV' (2020 (GRADE-based; issued April 2020)), 10 claims; LICENCE: CC BY-NC-SA 3.0 IGO (non-commercial; adaptations must carry the same licence and PAHO's adaptation disclaimer) (read at the licence statement on the PDF's copyright page and the dc.rights field of the PAHO IRIS record). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the PAHO/WHO 2020 guideline on disseminated histoplasmosis in people living with HIV, read from the PAHO IRIS PDF (the NCBI Bookshelf copy returned a reCAPTCHA challenge and was not used); every S1 claim is unchanged. No Australian guideline on these mycoses was found. S2 is an adaptation source under CC BY-NC-SA 3.0 IGO: this is an adaptation of an original work by PAHO/WHO; its views are not endorsed by PAHO or WHO. S2's annex tables were not used. S1: AI-USE CLAUSE (recorded per owner decision, not used to exclude): the Lancet site-wide footer reads \"All content on this site: Copyright © 2026 Elsevier Ltd., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies.\" (read at https://www.thelancet.com, as recorded in research/infectious.json). Text taken from the PMC author manuscript; figures and supplementary appendix not used.",
  "summary": {
-  "total": 13,
+  "total": 23,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 13
+  "pass_paraphrase_anchored": 23
  },
  "claims": [
   {
@@ -137,6 +138,169 @@
     }
    ],
    "locator": "European Confederation of Medical Mycology (ECMM) and ISHAM, The Lancet Infectious Diseases (NIH author manuscript in PMC), 'Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology (Thompson GR 3rd et al., Lancet Infect Dis 2021;21:e364-e374)', published 6 August 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9450022/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Diagnose disseminated histoplasmosis in people with HIV by testing for circulating Histoplasma antigen** (conditional; low certainty).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d5e0ba2b529a4c5b",
+     "n": 177,
+     "p": "Among pe"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Severity decides induction.** Severe or moderately severe means at least one vital-organ feature: respiratory or circulatory failure, neurological signs, kidney failure, clotting abnormalities, or WHO performance status above 2 (in a bed or chair for over half the waking day). Anything short of that counts as mild to moderate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7540f66ad296fc0e",
+     "n": 413,
+     "p": "Severe o"
+    },
+    {
+     "h": "2fc078fab52f31fd",
+     "n": 156,
+     "p": "Mild to "
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Severe or moderately severe disease: a two-week course of liposomal amphotericin B at 3.0 mg/kg** (conditional; very low certainty); where it is unavailable, deoxycholate amphotericin B at 0.7–1.0 mg/kg over the same two weeks. Compared with the deoxycholate form, the liposomal form gave better clinical success (82% vs 56%), fewer deaths (2% vs 13%) and less nephrotoxicity (9% vs 37%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "904809b8f734bab5",
+     "n": 310,
+     "p": "HIV: lip"
+    },
+    {
+     "h": "ceafb00a3bb2137d",
+     "n": 221,
+     "p": "Compared"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Induction may be cut short when kidney toxicity from amphotericin develops, judged on the clinical response; central nervous system disease may need a longer course or a higher dose.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d740d908b833f44d",
+     "n": 296,
+     "p": "Since de"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mild to moderate disease: a three-day itraconazole load of 200 mg three times a day, then 200 mg twice a day.** Maintenance is itraconazole 200 mg twice a day for 12 months, or less when the person is clinically stable on ART with a suppressed viral load and recovering immunity (both conditional; very low certainty).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c1451dd6b5eb105d",
+     "n": 225,
+     "p": "Treating"
+    },
+    {
+     "h": "17f48bdbf8f4a648",
+     "n": 386,
+     "p": "2.2 Main"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Start ART as soon as possible** when the central nervous system is not known or suspected to be involved; immune reconstitution syndrome with histoplasmosis is uncommon. If it happens, keep ART going and optimise antifungals; a short prednisone course (1–2 mg/kg a day for 1–2 weeks, then a two-week taper) is reserved for life-threatening complications.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d4971bc18d0efd18",
+     "n": 227,
+     "p": "3. Timin"
+    },
+    {
+     "h": "999fa0f8e15d9105",
+     "n": 303,
+     "p": "Short-co"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Rifampicin lowers itraconazole levels.** With TB co-infection, treat TB per WHO guidance, monitor itraconazole levels where possible, and if histoplasmosis is not controlled consider longer or weekly amphotericin, a higher itraconazole dose, another azole, or swapping rifampicin for rifabutin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fd3fbc582415d520",
+     "n": 145,
+     "p": "In parti"
+    },
+    {
+     "h": "bae06e94e2aad7d5",
+     "n": 483,
+     "p": "When his"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Itraconazole levels:** where available, check after two weeks of treatment; 1–2 μg/mL is regarded as effective and above 15 μg/mL has been linked to toxicity. Not being able to measure levels is no reason to withhold itraconazole.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a99acae12feb734a",
+     "n": 352,
+     "p": "Itracona"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monitor amphotericin toxicity:** kidney function, potassium and magnesium, infusion reactions and anaemia, with fluid and electrolyte replacement and a 4–6 hour infusion for the deoxycholate form.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82c98b4cf5c896bc",
+     "n": 364,
+     "p": "Renal fu"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About a quarter of patients have persistent or recurrent symptoms:** review adherence, itraconazole levels and interactions, look for other infections such as TB (especially with CD4 under 200 cells/mm³), and consider immune reconstitution after starting ART.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "25d35782861ae2e5",
+     "n": 95,
+     "p": "About 25"
+    },
+    {
+     "h": "7bd6dab51dd9c0a0",
+     "n": 392,
+     "p": "Adherenc"
+    }
+   ],
+   "locator": "Pan American Health Organization and World Health Organization (PAHO/WHO), Washington DC (ISBN 978-92-75-12249-5), 'Guidelines for Diagnosing and Managing Disseminated Histoplasmosis among People Living with HIV', 2020 (GRADE-based; issued April 2020), https://iris.paho.org/handle/10665.2/52304, retrieved 2026-09-24"
   },
   {
    "claim": "**Diagnose by culture and histopathology of skin or tissue aspirates or biopsies;** culture is the most sensitive test but can be negative, and histopathology is often negative. Imaging is rarely needed unless spread to bone or deeper tissue is suspected.",

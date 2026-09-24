@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/paroxysmal-nocturnal-haemoglobinuria.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/",
+  "https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI) 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus' (published 13 November 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11594386). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI) 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus' (published 13 November 2024), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11594386). S2: PARAPHRASED AND HASH-ANCHORED from Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475) 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore' (published 28 June 2024), 11 claims; LICENCE: CC BY-NC-SA 4.0 (the journal's licence for all its articles) (read at https://annals.edu.sg/open-access-and-copyright/ (the article page carries no licence line of its own)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the Singapore PNH consensus (Annals, Academy of Medicine, Singapore, 2024): article HTML fetched with curl, scripts, styles, tables and citation superscripts removed, tags stripped, abstract to references kept; paraphrased and hash-anchored. The S1 claims are unchanged from edition 1.0.",
  "summary": {
-  "total": 21,
+  "total": 32,
   "pass": 21,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -43,6 +45,34 @@
    "verdict": "pass",
    "source_text": "the development of myeloid neoplasia in patients with PNH/aAA is a risk and generally has a poor prognosis. It was calculated to occur in about 12% of PNH/aAA patients over 10 years",
    "locator": "Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI), 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus', published 13 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When to test for PNH (Singapore panel):** Coombs-negative haemolytic anaemia with haemoglobinuria, kidney dysfunction, LDH of 1.5 times the upper limit or more, raised reticulocytes, low haptoglobin or unexplained iron deficiency; unexplained or unusual-site thrombosis (such as cerebral, portal or hepatic veins), or clots despite adequate anticoagulation, especially under 45; and marrow failure (aplastic anaemia, MDS) with signs of haemolysis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b02eb9537896951d",
+     "n": 352,
+     "p": "The firs"
+    },
+    {
+     "h": "8a3894e34a6b6e71",
+     "n": 290,
+     "p": "The seco"
+    },
+    {
+     "h": "3b466134ac20e9b8",
+     "n": 160,
+     "p": "Some of "
+    },
+    {
+     "h": "7f71bfee4192340a",
+     "n": 144,
+     "p": "The thir"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
   },
   {
    "claim": "**Diagnosis is by peripheral-blood flow cytometry.** It needs deficiency of at least two different GPI-anchored proteins in two different cell lines (granulocytes, monocytes, red cells). White-cell (granulocyte and monocyte) results estimate clone size better than red-cell results, which haemolysis or transfusion can distort.",
@@ -87,6 +117,24 @@
    "locator": "Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI), 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus', published 13 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/, retrieved 2026-09-23"
   },
   {
+   "claim": "**After diagnosis (S2), confirm and stage the haemolysis:** full blood and reticulocyte counts, LDH, haptoglobin, bilirubin, urine haemosiderin, D-dimer and clotting times, creatinine and proteinuria; the direct antiglobulin test is negative in untreated PNH. Image for clots (CT or ultrasound), do echocardiography for pulmonary hypertension and brain MRI for headache or neurological symptoms, and examine the marrow if aplastic anaemia or MDS is suspected.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e5b86d47879e49df",
+     "n": 766,
+     "p": "Full blo"
+    },
+    {
+     "h": "6d06401230ef4c81",
+     "n": 349,
+     "p": "Imaging "
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Panel recommendation for AA:** screen for PNH at AA diagnosis. If no PNH cells are found, repeat flow cytometry at least every 2–3 years and check LDH and reticulocytes at every visit. Do on-demand flow cytometry for a high LDH or new significant symptoms such as thrombosis. Once PNH cells are detected, repeat flow cytometry at least yearly.",
    "source": "S1",
    "verdict": "pass",
@@ -113,6 +161,37 @@
    "verdict": "pass",
    "source_text": "the cutoff for a clinically meaningful PNH clone size varies between countries, often depending on national reimbursement requirements. For example, the cut-off in red blood cells is 1% in Japan, but 10% in many countries.",
    "locator": "Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI), 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus', published 13 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Subclinical PNH (S2): no treatment, but review every 6–12 months** (less often when stable), because the clone can expand into haemolytic or thrombotic disease; small clones in marrow failure are reviewed on the same 6–12-month cycle.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3f4d53c4972a6214",
+     "n": 219,
+     "p": "However,"
+    },
+    {
+     "h": "b4a519189b411700",
+     "n": 129,
+     "p": "The expe"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**On eculizumab (S2), check full blood and reticulocyte counts, LDH and bilirubin monthly for the first 3 months, then every 3 months,** and reassess the benefit every 6 months. Stopping may be considered for a non-adherent patient after a full assessment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2356e93e11d8892d",
+     "n": 490,
+     "p": "The expe"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
   },
   {
    "claim": "**C5 complement inhibitors (eculizumab, ravulizumab) are the main treatment for classical PNH.** They are generally indicated for symptomatic patients with haemolysis and high disease activity.",
@@ -162,6 +241,138 @@
    "verdict": "pass",
    "source_text": "Although it can be curative, HSCT is not a first-line therapy for PNH due to the risk of treatment-related morbidity and mortality … HSCT is an option for patients with severe AA in the absence of any other treatment options. The decision should be made after explanation and discussion with the patient and family. HSCT carries the risk of transplant-related mortality or morbidity; hence, it is generally reserved for cases in which there are no other treatment plans for a patient.",
    "locator": "Asia–Pacific expert panel (Wong RSM, Jang JH, Wong LLL, et al.), International Journal of Molecular Sciences (MDPI), 'Monitoring and Treatment of Paroxysmal Nocturnal Hemoglobinuria in Patients with Aplastic Anemia in Asia: An Expert Consensus', published 13 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11594386/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Vaccinate against meningococcus before a C5 inhibitor (S2):** quadrivalent ACWY plus serogroup B (where available) at least 2 weeks before the first eculizumab dose. Eculizumab raises the risk of life-threatening Neisseria infection, estimated at 0.5% a year (5% over 10 years).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d9e86733c6c8d353",
+     "n": 479,
+     "p": "Eculizum"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Ravulizumab** has about four times eculizumab's half-life, allowing 8-weekly dosing, and in trials it proved non-inferior to eculizumab in controlling haemolysis and avoiding transfusion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "53b3ce4a8aeadcd3",
+     "n": 175,
+     "p": "Ravulizu"
+    },
+    {
+     "h": "4a3ec9357b790371",
+     "n": 143,
+     "p": "Results "
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Breakthrough haemolysis affects 11–27% of patients on eculizumab.** Once confirmed, raise the dose (for example 1200 mg every 14 days), shorten the interval (for example every 12 days), or switch to ravulizumab, which keeps free C5 lower. Rare C5 variants (mainly in Japanese patients) stop both drugs binding, and C5 inhibitors can leave C3-mediated extravascular haemolysis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06b5813f018f7cd7",
+     "n": 507,
+     "p": "Possible"
+    },
+    {
+     "h": "ba68f743ae337706",
+     "n": 384,
+     "p": "BTH occu"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Proximal (C3) inhibition with pegcetacoplan targets extravascular haemolysis.** In the 16-week PEGASUS trial it raised haemoglobin by 3.84 g/dL more than eculizumab, and 85% versus 15% were transfusion-free, though 3 of 41 stopped because of breakthrough haemolysis. Oral iptacopan (a factor B inhibitor) was approved on phase II data. The panel's criteria for switching from C5 to C3 therapy are in a table not read.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "232a89650273876a",
+     "n": 176,
+     "p": "Agents t"
+    },
+    {
+     "h": "add8c140a73768d5",
+     "n": 326,
+     "p": "Approval"
+    },
+    {
+     "h": "5b67f57a3bc399ad",
+     "n": 254,
+     "p": "Moreover"
+    },
+    {
+     "h": "01250d346baa4016",
+     "n": 132,
+     "p": "Recently"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Anticoagulation (S2):** with a large clone and no complement inhibitor, consider primary prophylaxis unless thrombocytopenia or bleeding risk forbids it; it may be stopped once a complement inhibitor starts. After a clot, several guidelines advise long-term anticoagulation, but 3–6 months may be enough when disease is well controlled on a complement inhibitor; consider lifelong treatment with extra risk factors or after a life-threatening clot.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "65e568680c490ad0",
+     "n": 617,
+     "p": "In patie"
+    },
+    {
+     "h": "9e54f80a90dff295",
+     "n": 644,
+     "p": "In PNH p"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Supportive care (S2):** folic acid, vitamin B12 and red-cell transfusion for symptomatic anaemia; oral or IV iron for losses through haemoglobinuria; steroids only short-term, for haemolytic episodes; analgesia for smooth-muscle dystonia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ab6fa46b1f8b452e",
+     "n": 417,
+     "p": "Folic ac"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Pregnancy is high risk** (maternal mortality estimated at 12–21%, plus miscarriage and preterm birth). The panel supports eculizumab in pregnancy, with frequent monitoring because higher doses may be needed, and anticoagulation, which may be extended through at least 6 weeks after delivery at the clinician's discretion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ca90cdeb2f53b34b",
+     "n": 234,
+     "p": "Studies "
+    },
+    {
+     "h": "9d73675121daa3b6",
+     "n": 427,
+     "p": "the pane"
+    },
+    {
+     "h": "36e43bb71a2ac1a6",
+     "n": 174,
+     "p": "As the r"
+    }
+   ],
+   "locator": "Singapore haematology expert panel (Goh YT, Yap ES, Tan CW, et al.), Annals of the Academy of Medicine, Singapore 53(6):371-385 (doi 10.47102/annals-acadmedsg.202475), 'Consensus recommendations for optimising the diagnosis and treatment of paroxysmal nocturnal haemoglobinuria in Singapore', published 28 June 2024, https://annals.edu.sg/consensus-recommendations-for-optimising-the-diagnosis-and-treatment-of-paroxysmal-nocturnal-haemoglobinuria-in-singapore/, retrieved 2026-09-24"
   }
  ]
 }

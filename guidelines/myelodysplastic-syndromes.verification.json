@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/myelodysplastic-syndromes.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/myelodysplastic-neoplasms-mds"
+  "https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/myelodysplastic-neoplasms-mds",
+  "https://www.eviq.org.au/p/4284"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from DGHO / OeGHO / SGH+SSH / SGMO (Hofmann WK, Platzbecker U, Götze K, et al.), Onkopedia 'Myelodysplastic Neoplasms (MDS) — Onkopedia guideline (English edition)' (date of document February 2024). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © DGHO, all rights reserved (\"may not be used, copied and/or disseminated ... without DGHO's permission\") (read at https://www.onkopedia-guidelines.info/en/imprint). The source's words are NOT reproduced here. The English Onkopedia page is marked by DGHO as not the most recent version (a newer German edition exists); it is not in the page's 'Archived versions' list. Tables and figures were stripped.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from DGHO / OeGHO / SGH+SSH / SGMO (Hofmann WK, Platzbecker U, Götze K, et al.), Onkopedia 'Myelodysplastic Neoplasms (MDS) — Onkopedia guideline (English edition)' (date of document February 2024), 22 claims; LICENCE: © DGHO, all rights reserved (\"may not be used, copied and/or disseminated ... without DGHO's permission\") (read at https://www.onkopedia-guidelines.info/en/imprint). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)' (first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028), 11 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. The English Onkopedia page is marked by DGHO as not the most recent version (a newer German edition exists); it is not in the page's 'Archived versions' list. Tables and figures were stripped. Edition 2.0 adds S2, the eviQ oral decitabine and cedazuridine protocol (ID 4284, Cancer Institute NSW, reviewed February 2026), as the Australian source for the PBS-listed oral hypomethylating agent. The S1 claims are unchanged. No Australian or NZ society guideline for MDS was found; eviQ also has azacitidine (ID 1173) and lenalidomide (ID 4261) MDS protocols, not used here because S1 already covers those drugs.",
  "summary": {
-  "total": 22,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -431,6 +432,222 @@
     }
    ],
    "locator": "DGHO / OeGHO / SGH+SSH / SGMO (Hofmann WK, Platzbecker U, Götze K, et al.), Onkopedia, 'Myelodysplastic Neoplasms (MDS) — Onkopedia guideline (English edition)', date of document February 2024, https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/myelodysplastic-neoplasms-mds, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Who it is for:** MDS in the IPSS intermediate-1, intermediate-2 or high-risk groups (also CMML, and AML with up to 30% marrow blasts). On the PBS it is an Authority item for intermediate-2 and high-risk MDS only; for intermediate-1 it is TGA-registered but unlisted.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "126fd2a2b4f32aa9",
+     "n": 131,
+     "p": "Myelodys"
+    },
+    {
+     "h": "7bf418f3bc92db7e",
+     "n": 58,
+     "p": "Acute my"
+    },
+    {
+     "h": "b2cc46e50657942c",
+     "n": 172,
+     "p": "Decitabi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Dose: one fixed-dose tablet (decitabine 35 mg with cedazuridine 100 mg) once daily on days 1 to 5 of each 28-day cycle, continued until progression or unacceptable toxicity.** Take it fasting, with no food for two hours either side.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3d33e21dd60f0539",
+     "n": 169,
+     "p": "Decitabi"
+    },
+    {
+     "h": "b8037023b9b44147",
+     "n": 92,
+     "p": "Cedazuri"
+    },
+    {
+     "h": "662f37fd973dd869",
+     "n": 88,
+     "p": "Frequenc"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Why a fixed oral dose works:** it gives drug exposure equivalent to body-surface-area-dosed IV decitabine. In ASCERTAIN (138 patients), the MDS group had a 62% response rate, 25% complete responses and median survival of 31.8 months, and 52% of those previously transfusion-dependent no longer needed transfusions.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d2ab9a4c343fbd18",
+     "n": 157,
+     "p": "Oral dec"
+    },
+    {
+     "h": "21cad5e7d8fb9a55",
+     "n": 182,
+     "p": "The ASCE"
+    },
+    {
+     "h": "bfda98146372f65b",
+     "n": 175,
+     "p": "MDS (88%"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dose reductions for low counts:** none during the first 2 cycles. After that, step down to days 1 to 4, then days 1 to 3, then days 1, 3 and 5.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0953fbabc2d8e4df",
+     "n": 305,
+     "p": "Dose red"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Delaying a cycle:** if, without active disease, neutrophils are under 1 or platelets under 50, hold the next cycle. Recovery within two weeks means the same dose; if counts stay low beyond two weeks, delay up to two weeks more and restart one dose level down. G-CSF can be considered for neutropenia.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "788ecb062d3c80ed",
+     "n": 568,
+     "p": "Less tha"
+    },
+    {
+     "h": "c44e49d74ea1258f",
+     "n": 388,
+     "p": "Less tha"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Organ function:** with bilirubin or AST/ALT at 2 × ULN or more, or an active uncontrolled infection, delay the next cycle until it settles or another cause is found. Severe kidney impairment (eGFR under 30) has not been studied, so watch closely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c6eb4d1121dda073",
+     "n": 241,
+     "p": "Serum bi"
+    },
+    {
+     "h": "57520eae6d412d7b",
+     "n": 146,
+     "p": "Active o"
+    },
+    {
+     "h": "ba36e9f458211552",
+     "n": 107,
+     "p": "< 30 Thi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Warning signs from IV decitabine:** interstitial lung disease (investigate any new or worsening breathing symptoms) and potentially fatal differentiation syndrome (fever, breathlessness, effusions, hypotension, rapid weight gain, oedema, rash, kidney dysfunction). Assess tumour lysis risk too.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2158d5c2d82db36c",
+     "n": 338,
+     "p": "Intraven"
+    },
+    {
+     "h": "aa667ba3ae067b78",
+     "n": 346,
+     "p": "Intraven"
+    },
+    {
+     "h": "4ea125c145932a31",
+     "n": 60,
+     "p": "Assess p"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monitoring:** full blood count at baseline and before every cycle (more often while cytopenic), kidney and liver tests before each cycle, and hepatitis B serology before starting. For anyone who could become pregnant: a pregnancy test before starting and monthly, and two reliable contraceptive methods.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "434a17d9c4990cf2",
+     "n": 170,
+     "p": "FBC at b"
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    },
+    {
+     "h": "3da06e7ca1091882",
+     "n": 239,
+     "p": "A pregna"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Interactions:** keep antacids, H2 blockers and PPIs away from it (especially within 4 hours), as low gastric acid cuts absorption. Cedazuridine blocks cytidine deaminase, so azacitidine, capecitabine, cytarabine and gemcitabine may become more toxic.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "167c34a7ed4f298f",
+     "n": 436,
+     "p": "Gastric "
+    },
+    {
+     "h": "fd7b89b00a98f592",
+     "n": 283,
+     "p": "Drugs me"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Missed or vomited doses:** a vomited dose is not repeated. A missed dose can still be taken within 12 hours; after that, wait for the next scheduled dose, but still complete 5 treatment days per 28-day cycle.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f9d5bc389089dc7",
+     "n": 306,
+     "p": "Note: If"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Nausea:** emetogenic risk is low, though mild nausea is common. Metoclopramide 10 mg up to three times a day as needed (maximum 30 mg per 24 hours, no longer than 5 days) or, as an alternative, prochlorperazine 10 mg every 6 hours when required.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "14e6b1aad8b601b0",
+     "n": 315,
+     "p": "Antiemet"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '4284 Decitabine and cedazuridine oral (eviQ ID 4284, version 1)', first approved 7 April 2025; last reviewed 20 February 2026; review due 30 June 2028, https://www.eviq.org.au/p/4284, retrieved 2026-09-24",
+   "dose": true
   }
  ]
 }

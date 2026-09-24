@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/hidradenitis-suppurativa.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89 'Australasian hidradenitis suppurativa management guidelines' (published online 22 November 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11898165). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89 'Australasian hidradenitis suppurativa management guidelines' (published online 22 November 2024), 25 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11898165). S2: PARAPHRASED AND HASH-ANCHORED from Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472) 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment' (published online 19 December 2024 (corrected 21 January 2025)), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12023723). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European S2k treatment guideline (2024/2025, CC BY-NC-ND 4.0, so paraphrased and hash-anchored, not quoted), for the scoring formulas, antibiotic, steroid and spironolactone regimens, the approved biologic doses and adalimumab's stopping rule. S1 claims are unchanged.",
  "summary": {
-  "total": 25,
+  "total": 37,
   "pass": 25,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -50,6 +52,37 @@
    "verdict": "pass",
    "source_text": "Appropriate management of comorbidities contributing to disease activity is mandatory, and screening in the presence of suggestive signs and symptoms should be directed by the clinician. … Conditions such as inflammatory bowel disease are best assessed through gastroscopy/colonoscopy given the presence of elevated faecal calprotectin and ASCA antibodies may be present in HS, particularly in severe disease. … The strong association of HS with cardiovascular and metabolic comorbidities independent of BMI and smoking status is reflected in the recommendation to screen for metabolic syndrome",
    "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Scoring IHS4 (S2):** count nodules once, abscesses twice and draining tunnels four times; 3 or less is mild, 4–10 moderate and 11 or more severe.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9a74e60e0bfa1be5",
+     "n": 265,
+     "p": "IHS4 is "
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**HiSCR (S2)** counts a responder as a fall of at least 50% in abscesses plus nodules with no increase in abscesses or draining tunnels; it is unreliable when the starting count is under 3.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "19e8a2ae62c74759",
+     "n": 178,
+     "p": "The HiSC"
+    },
+    {
+     "h": "28324d53eb3b4845",
+     "n": 130,
+     "p": "This mea"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24"
   },
   {
    "claim": "**Treat on four fronts:** general measures, medical therapy, surgery and adjuvant therapy. Raise smoking cessation and weight loss sensitively; both improve response to systemic therapy.",
@@ -101,6 +134,96 @@
    "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Oral tetracyclines (S2) suit mild to severe disease and are given for 3 months;** HiSCR rates range from 23.5% to 64.0%. Low-dose modified-release doxycycline 40 mg daily did about as well as doxycycline 100 mg twice daily (64% and 60% at 12 weeks). Not in pregnancy or under age 9 (tooth staining).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83be2eb9344ffe15",
+     "n": 238,
+     "p": "Tetracyc"
+    },
+    {
+     "h": "476d6afdb41331a4",
+     "n": 73,
+     "p": "All tetr"
+    },
+    {
+     "h": "42c2f54d7e8c05e0",
+     "n": 73,
+     "p": "HiSCR ac"
+    },
+    {
+     "h": "7814334bcdb75e52",
+     "n": 267,
+     "p": "A small "
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Oral clindamycin with rifampicin (S2): 300 mg of each twice a day for 10–12 weeks,** considered for selected moderate-to-severe disease; it did no better than tetracyclines. Rifampicin strongly induces cytochrome P450, so it can weaken oral contraceptives, and it lowers clindamycin levels.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "da723d739af306dd",
+     "n": 142,
+     "p": "In combi"
+    },
+    {
+     "h": "18983887516f5334",
+     "n": 160,
+     "p": "Combinat"
+    },
+    {
+     "h": "c2e1c180f9cd4e1b",
+     "n": 132,
+     "p": "demonstr"
+    },
+    {
+     "h": "705e0494e52d1575",
+     "n": 172,
+     "p": "Rifampic"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Watch for resistance with long courses:** people on topical clindamycin grew clindamycin-resistant S. aureus more often (63% vs 17%), while tetracyclines and oral clindamycin showed no significant resistance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "567a7b8acb16adf7",
+     "n": 188,
+     "p": "They fou"
+    },
+    {
+     "h": "05715a25f9442d97",
+     "n": 126,
+     "p": "Surprisi"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Spironolactone (S2):** typically 100 mg a day (range 50–150), starting at 25 or 50 mg and increasing after a few weeks; response usually shows within 3 months, although the evidence is too thin for a firm recommendation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a5ebff669d156eb",
+     "n": 346,
+     "p": "100 mg/d"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Moderate–severe disease is Hurley 2B or above, or any tunnels.** Start a biologic and manage comorbidities such as PCOS and insulin resistance.",
    "source": "S1",
    "verdict": "pass",
@@ -144,6 +267,89 @@
    "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
   },
   {
+   "claim": "**In Europe only adalimumab (from age 12), secukinumab and bimekizumab are approved for HS** (S2); apart from antibiotic monotherapy, every other treatment is off-label.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7ef8472bb4fff4d6",
+     "n": 724,
+     "p": "Currentl"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adalimumab standard dosing (S2):** adults 160 mg at day 1, 80 mg at day 15, then from day 29 either 40 mg weekly or 80 mg fortnightly; adolescents aged 12 or more and at least 30 kg, 80 mg at day 1 then 40 mg every 2 weeks from day 8. No adjustment above 100 kg, and antibiotics can continue alongside.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "34479799828850e0",
+     "n": 572,
+     "p": "The appr"
+    },
+    {
+     "h": "aa3b95b860035c74",
+     "n": 57,
+     "p": "Antibiot"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **S2's stopping rule for adalimumab:** stop if the abscess-and-nodule count has improved by less than 25% at 12 weeks; with a partial (25%–50%) response, consider 3 more months, as 73% of partial responders later reached HiSCR. After stopping, disease tends to return at a median of 11–12 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "34ea5621a3fc910e",
+     "n": 467,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Secukinumab (S2): 300 mg at weeks 0, 1, 2, 3 and 4, then monthly,** rising to 300 mg every 2 weeks if the response calls for it. In SUNSHINE and SUNRISE (1084 patients), the 2-weekly dose reached HiSCR at 12 weeks in 45.0% and 42.3%, against 33.7% and 31.2% on placebo.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a623b1d79f26ac72",
+     "n": 220,
+     "p": "The appr"
+    },
+    {
+     "h": "db847ebea91822b4",
+     "n": 555,
+     "p": "Secukinu"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Bimekizumab (S2): 320 mg every 2 weeks for 16 weeks, then every 4 weeks.** In BE HEARD I and II (1014 patients), 48% and 52% on the 2-weekly dose reached HiSCR, against 29% and 32% on placebo.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "458977a933f21749",
+     "n": 89,
+     "p": "The appr"
+    },
+    {
+     "h": "6f6ef7d7e6bab699",
+     "n": 782,
+     "p": "Bimekizu"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Plan flare treatment in advance:** incision and drainage, deroofing, intralesional steroid, oral antibiotics or oral prednisolone. Flares becoming more frequent suggest the base therapy is failing; consider changing it.",
    "source": "S1",
    "verdict": "pass",
@@ -163,6 +369,35 @@
    "verdict": "pass",
    "source_text": "In pre‐existing moderate‐to‐severe patients, loss of response to first line biologic therapy should trigger an assessment for anti‐drug antibodies, as well as the development of any new comorbidities which may contribute to disease activity (insulin resistance, diabetes etc). Adjuvant therapies such as ILCS and targeted surgical intervention may rescue the existing therapy, however dose escalation in the absence of antidrug antibodies (and ideally low serum drug levels) may be required. A table of suggested approaches to management of anti‐drug antibodies is presented in Data S1. Unsuccessful management using these methods may necessitate transition to an alternative agent or escalation to second‐line or third‐line therapies.",
    "locator": "Frew J, Smith A, Penas PF, et al. (Australasian College of Dermatologists), Australasian Journal of Dermatology 2025;66:75–89, 'Australasian hidradenitis suppurativa management guidelines', published online 22 November 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11898165/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Steroid doses for flares (S2):** intralesional triamcinolone 10–40 mg/mL into individual lesions, repeatable after 1 week to 3 months, clears or clearly improves 44–70%, often easing pain within a day. Short high-dose oral prednisolone (0.5–0.7 mg/kg/day), tapered quickly, may settle an acute flare, though flares can follow the taper; ten milligrams a day can be an adjunct in refractory disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3cd4e4c1d13615a",
+     "n": 383,
+     "p": "Single t"
+    },
+    {
+     "h": "bcbf403a3b993113",
+     "n": 259,
+     "p": "Effectiv"
+    },
+    {
+     "h": "3fd8cec98e20436d",
+     "n": 149,
+     "p": "systemic"
+    },
+    {
+     "h": "d87c839d26a1b4dd",
+     "n": 254,
+     "p": "Ten mill"
+    }
+   ],
+   "locator": "Zouboulis CC, Bechara FG, Benhadou F, Bettoli V, et al. (European HS Foundation guideline group), Journal of the European Academy of Dermatology and Venereology 39:899-941 (doi 10.1111/jdv.20472), 'European S2k guidelines for hidradenitis suppurativa/acne inversa part 2: Treatment', published online 19 December 2024 (corrected 21 January 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12023723/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Optimise before conception.** In mild–moderate disease stop the OCP, metformin and spironolactone; erythromycin and cephalosporins can continue.",

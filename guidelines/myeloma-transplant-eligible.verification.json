@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/myeloma-transplant-eligible.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12515471/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12515471/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Medical and Scientific Advisory Group (MSAG) of Myeloma Australia, Internal Medicine Journal 'Management of patients with newly diagnosed multiple myeloma who are eligible for autologous stem cell transplantation: position statement of the Medical and Scientific Advisory Group of Myeloma Australia' (published 4 August 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12515471). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Medical and Scientific Advisory Group (MSAG) of Myeloma Australia, Internal Medicine Journal 'Management of patients with newly diagnosed multiple myeloma who are eligible for autologous stem cell transplantation: position statement of the Medical and Scientific Advisory Group of Myeloma Australia' (published 4 August 2025), 20 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12515471). S2: QUOTED from Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682) 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group' (published 11 April 2025), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12013828). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2025 Pan-Pacific Multiple Myeloma Working Group modified-Delphi consensus on CD38-antibody quadruplets (16 Asia-Pacific experts, GRADE-rated), as the international source showing the quadruplet standard that PBS funding does not yet support. The S1 claims are unchanged. Searched and not usable: EHA-EMN 2025 (Nat Rev Clin Oncol, paywalled), ASCO 2026 living guideline and ASCO-Ontario Health 2026 (bot challenge at ascopubs.org and cancercareontario.ca, not bypassed). EHA-ESMO 2021 (HemaSphere, CC BY) was not used: it predates the quadruplet trials and EHA-EMN 2025 supersedes it.",
  "summary": {
-  "total": 20,
-  "pass": 0,
+  "total": 30,
+  "pass": 10,
   "fail": 0,
   "pass_paraphrase_anchored": 20
  },
@@ -338,6 +339,76 @@
     }
    ],
    "locator": "Medical and Scientific Advisory Group (MSAG) of Myeloma Australia, Internal Medicine Journal, 'Management of patients with newly diagnosed multiple myeloma who are eligible for autologous stem cell transplantation: position statement of the Medical and Scientific Advisory Group of Myeloma Australia', published 4 August 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12515471/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **International consensus: a CD38 antibody added to VRd or KRd is suitable first-line treatment for transplant-eligible patients** (evidence A, strong; 92.9% of the panel agreed). NCCN v1.2025 now makes D-VRd its only preferred transplant-eligible regimen, with Isa-VRd as another option. In Australia a CD38 antibody is not PBS-funded upfront, so RVD stays the funded standard (S1).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "CD38 monoclonal antibodies plus VRd/KRd are suitable as a first-line treatment for transplantation-eligible NDMM patients (A1). … In the NCCN Guidelines Version 1.2025, the D-VRd regimen has been updated from an \"other recommended option\" to the only preferred regimen for NDMM patients eligible for transplant. … 92.9% (13) agree",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**PERSEUS (D-VRd v VRd, induction and consolidation around transplant):** complete response or better 87.9% v 70.1%, MRD negativity 75.2% v 47.5%, and 48-month PFS 84.3% v 67.7% (HR 0.42). Grade 3–4 adverse events were more frequent (91.5% v 85.6%), but fewer patients stopped for them (8.8% v 21.3%).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The D-VRd group demonstrated significantly higher rates of CR or better (87.9% vs. 70.1%, P < 0.001) and MRD negativity (75.2% vs. 47.5%, P < 0.001) compared to the VRd group. At a median follow-up of 47.5 months, the estimated 48-month PFS was 84.3% in the D-VRd group and 67.7% in the VRd group, with a statistically significant HR of 0.42. … grade 3-4 AEs was 91.5% in the D-VRd group, higher than the 85.6% observed in the VRd group. … However, the treatment discontinuation rate due to AEs was lower in the D-VRd group (8.8%) than in the VRd group (21.3%).",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Isatuximab quadruplets:** in GMMG-HD7, adding isatuximab to VRd raised post-induction MRD negativity (50% v 36%) with no new safety signals but more neutropenia; in IsKia, Isa-KRd beat KRd on MRD negativity after consolidation (77% v 67%).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "with 50% of patients in the Isa-VRd group achieving MRD negativity compared to 36% in the VRd group (OR 1.82 … From a safety perspective, addition of isatuximab to VRd did not lead to new safety signals. In both treatment groups, the rates of discontinuation due to AEs were low. On the other hand, neutropenia was more frequently seen in the Isa-VRd group … After consolidation, the MRD negativity rates at a sensitivity threshold of 10-5 were 77% in the Isa-KRd group compared to 67% in the KRd group",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**High-risk disease and stem-cell collection:** for high-risk patients on CD38-antibody quadruplet induction planned for tandem transplant, plan collection before the fourth cycle, with early plerixafor for poor mobilisers (evidence B, strong; 71.4% agreed).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For HRMM patients receiving anti-CD38-based quadruplet induction therapy combined with tandem ASCT, stem cell collection should ideally be planned before the fourth cycle, with early plerixafor administration for patients with poor stem cell mobilization. … 71.4% (10) agree",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Is a second transplant worth it after a quadruplet?** S2 calls the benefit debatable, because in IFM 2018-04 MRD negativity improved only slightly. S1 still suggests tandem transplant for young high-risk patients; both are shown.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "However, the substantial benefit of a second transplant after a quadruplet therapy incorporating anti-CD38 antibodies may still be debatable, considering the MRD negativity rate were improved only slightly in the IFM 2018-04 trial.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Maintenance:** lenalidomide stays the cornerstone after induction and transplant. S2 adds that lenalidomide plus a CD38 antibody may be considered for high-risk cytogenetics or MRD negativity after quadruplet induction (evidence B, strong; 85.7% agreed), citing AURIGA's higher MRD negativity with D-R; NCCN v1.2025 moved KR and D-R to 'other recommended'. In Australia dual maintenance is not funded (S1).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Additionally, lenalidomide remains the cornerstone of maintenance therapy following induction and ASCT, and a more aggressive maintenance strategy involving lenalidomide plus anti-CD38 isatuximab or daratumumab may be considered in patients with high-risk cytogenetic abnormalities or those who achieved MRD negativity with their initial quadruplet therapy (B1). … In the phase III AURIGA trial, anti-CD38 naïve post-transplant patients were randomized to receive either daratumumab plus lenalidomide (D-R) or lenalidomide (R) as maintenance treatment. In this study, a higher MRD negativity was achieved in the D-R maintenance group, suggesting that incorporating anti-CD38 in the maintenance therapy could be beneficial. … Additionally, the NCCN Guidelines Version 1.2025 have reclassified the KR and D-R maintenance regimens from \"useful in certain circumstances\" to \"other recommended regimens.\" … Level of Consensus on that lenalidomide remains the cornerstone of maintenance therapy following induction and ASCT, and a more aggressive maintenance strategy involving lenalidomide plus anti-CD38 may be considered in patients with high-risk cytogenetic abnormalities or those who achieved MRD negativity with their initial quadruplet therapy 85.7% (12) agree",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adverse events:** quadruplets raise grade 3 or higher infections (RR 1.34) and thrombocytopenia (RR 1.39), mostly mild overall, without more anaemia, neuropathy or pneumonia. Manage cytopenias with regular blood counts, dose changes and G-CSF (evidence A, strong). G-CSF prophylaxis fits a febrile-neutropenia risk of 20% or more, 10–20% with extra factors such as age over 65 or frailty, or regimens with neutropenia above 50% (lenalidomide combinations).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Grade ≥3 AEs that were more common with quadruplet regimens were infections (relative risk [RR] 1.34; 95% CI: 1.17- 1.54) and thrombocytopenia (RR 1.39; 95% CI: 1.12-1.74). Notably, the analysis did not show an increased risk for anemia, neuropathy, or pneumonia at any grade. … Management involving routine complete blood count (CBC) monitoring, dose adjustments, or granulocyte colony-stimulating factor (G-CSF) support are recommended (A1). … While G-CSF prophylaxis is not routinely used in multiple myeloma, it is advised for patients undergoing regimens with a high (≥ 20%) risk of febrile neutropenia, those with intermediate risk (10-20%) who have additional factors (e.g., age > 65 years, frailty), or those on treatments with a neutropenia rate over 50% (e.g., lenalidomide-based combinations).",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Before starting a quadruplet:** antiviral (aciclovir or valaciclovir) and antibacterial (trimethoprim-sulfamethoxazole) prophylaxis, plus influenza and pneumococcal vaccination (evidence A, strong), with vaccination of close contacts too. Consider immunoglobulin replacement if IgG is below 400 mg/dL or there is specific antibody failure; itraconazole raises lenalidomide exposure.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Quadruplet regimens may increase the infection susceptibility. Therefore, prophylactic antiviral (e.g., acyclovir or valacyclovir) and antibacterial agents (e.g., trimethoprim-sulfamethoxazole), and vaccination against influenza and pneumococcal infections are advised prior to initiating quadruplet therapy (A1). … In addition to vaccinating the patients themselves, community immunization is strongly advocated, where close contacts, including family members living with the patient, are also vaccinated. … Polyclonal immunoglobulin (Ig) replacement may be considered for patients with IgG less than 400 mg/dL or specific antibody failure. … particularly with lenalidomide, whose exposure increases when combined with itraconazole, heightening toxicity risk.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Carfilzomib quadruplets (Isa-KRd):** baseline echocardiography and cardiac biomarkers (troponin, NT-proBNP), regular blood pressure checks, and repeat echo if heart failure is suspected.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Management strategies for cardiovascular AEs include pre-treatment cardiac evaluation with echocardiography and cardiac biomarkers (e.g., troponin, NT-proBNP) to establish a baseline. During treatment, patients should be monitored for symptoms like dyspnea, chest pain, edema, or fatigue to detect potential cardiac dysfunction. Blood pressure should be assessed regularly, especially for patients on Isa-KRd. … If cardiac dysfunction is suspected, further echocardiography is recommended.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**CD38 antibodies and neuropathy:** infusion reactions are common but usually mild and at the first infusion (72.4% in GRIFFIN). If neuropathy threatens treatment, switching bortezomib from twice-weekly to once-weekly keeps Isa-VRd viable.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "For example, in the GRIFFIN trial, IRRs occurred in 72.4% patients and were generally mild, with most patients experiencing them during their first infusion. … adjusting the bortezomib dose from twice-weekly to once-weekly, with regular assessment for neuropathy can still make quadruplet therapy with Isa-VRd a viable option.",
+   "locator": "Pan-Pacific Multiple Myeloma Working Group (Chen W and others), Clinical Hematology International 7(1) (doi 10.46989/001c.133682), 'Consensus Guidelines and Recommendations for The CD38 Monoclonal Antibody-based Quadruplet Therapy and Management in Clinical Practice for Newly Diagnosed Multiple Myeloma: From the Pan-Pacific Multiple Myeloma Working Group', published 11 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12013828/, retrieved 2026-09-24"
   }
  ]
 }

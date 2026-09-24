@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/diabetic-macular-oedema.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9943607/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9943607/",
+  "https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley) 'Diabetic Macular Oedema Guidelines: An Australian Perspective' (2023 (doi 10.1155/2023/6329819)). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9943607). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley) 'Diabetic Macular Oedema Guidelines: An Australian Perspective' (2023 (doi 10.1155/2023/6329819)), 25 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC9943607). S2: PARAPHRASED AND HASH-ANCHORED from American Academy of Ophthalmology PPP Retina/Vitreous Committee 'Diabetic Retinopathy Preferred Practice Pattern (2024)' (approved 13 September 2024 (PDF revision dated 4 August 2025)), 12 claims; LICENCE: © 2024 American Academy of Ophthalmology, all rights reserved. Site terms: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Used in paraphrase mode under the owner decision of 2026-09-23 not to exclude sources for AI-use clauses. (read at PDF front matter (© notice) and the aao.org page footer / https://www.aao.org/terms-of-service). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the AAO Diabetic Retinopathy PPP (2024), paraphrased and hash-anchored, for the newer drugs S1 predates (faricimab, aflibercept 8 mg), treatment deferral, the DRCR retreatment rules and treatment of proliferative retinopathy. S1 claims are unchanged. AAO site terms, verbatim: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.'",
  "summary": {
-  "total": 25,
+  "total": 37,
   "pass": 25,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 12
  },
  "claims": [
   {
@@ -50,6 +52,19 @@
    "verdict": "pass",
    "source_text": "The guidelines do recommend that exams be increased in frequency (to as many as 4 times annually) if NPDR is detected and that referral to an ophthalmologist within 4 weeks be considered when DMO or PDR is suspected, or when unexplained changes in vision occur.",
    "locator": "Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley), 'Diabetic Macular Oedema Guidelines: An Australian Perspective', 2023 (doi 10.1155/2023/6329819), https://pmc.ncbi.nlm.nih.gov/articles/PMC9943607/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The AAO schedule (S2) is yearly rather than two-yearly:** in type 1 diabetes from 5 years after onset; in type 2 from diagnosis, then at least once a year.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8e299d88a3c7ba7d",
+     "n": 255,
+     "p": "People w"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
   },
   {
    "claim": "**OCT is the most effective test for diagnosing DMO.** RANZCO does not mandate it for screening, but the authors advise offering it wherever available to detect centre-involving DMO.",
@@ -138,6 +153,97 @@
    "locator": "Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley), 'Diabetic Macular Oedema Guidelines: An Australian Perspective', 2023 (doi 10.1155/2023/6329819), https://pmc.ncbi.nlm.nih.gov/articles/PMC9943607/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Good vision despite centre-involving DMO (S2):** in Protocol V, starting aflibercept 2 mg, laser, or observation (each with aflibercept rescue if vision fell) gave the same vision after 2 years, so treatment can reasonably wait until acuity drops to 20/30 or worse, with review every 2 to 4 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "160a164e0ccebef4",
+     "n": 923,
+     "p": "DRCR Pro"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**DRCR-style retreatment (S2):** give monthly injections for the first 4 to 6 months, then hold them if vision and thickness stop improving or once vision reaches 20/20 or the oedema clears; resume if either worsens, and double the gap between visits, up to 4 months, while consecutive visits need no injection. Treat-and-extend matched monthly dosing at 2 years with fewer injections.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "feed8c5376cfc82c",
+     "n": 976,
+     "p": "The DRCR"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Starting with bevacizumab and switching to aflibercept 2 mg when needed gave similar 2-year vision to starting with aflibercept** in eyes seeing 20/50 to 20/320 (Protocol AC), although 70% of the bevacizumab group were switched in the end.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ce0d16cdc415987",
+     "n": 447,
+     "p": "The DRCR"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Faricimab 6 mg (YOSEMITE and RHINE):** given 8-weekly after six monthly loading doses, or by treat-and-extend up to 16-weekly after four, it matched aflibercept 2 mg (8-weekly after five loading doses) for vision gain. By year 2, 60% and 64.5% of treat-and-extend eyes were on 16-weekly dosing. Intraocular inflammation (endophthalmitis aside) ran at 1.3% against 0.6% with aflibercept.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b27cb79b1aa85fc",
+     "n": 586,
+     "p": "YOSEMITE"
+    },
+    {
+     "h": "5bef5023d4480f9e",
+     "n": 147,
+     "p": "At year "
+    },
+    {
+     "h": "033f8f05627d3835",
+     "n": 143,
+     "p": "Faricima"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Aflibercept 8 mg (PHOTON; FDA-approved for DME in 2023):** after 3 monthly loading doses, 12- or 16-weekly dosing was noninferior for vision at week 48 to 2 mg every 8 weeks, and ninety-three percent of 8 mg patients kept intervals of 12 weeks or longer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d2c2b64c429d8a1",
+     "n": 697,
+     "p": "A high-d"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Prepare every injection with topical povidone-iodine; skip routine antibiotic drops before or after,** which do not cut endophthalmitis and add to resistance. Endophthalmitis runs at 0.019% to 0.09% of injections in trials.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "94f4caf7df3c2ad8",
+     "n": 83504,
+     "p": "The most"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **PBS: the dexamethasone implant is approved if the eye is pseudophakic or cataract surgery is scheduled.** The alternative is intravitreal triamcinolone 2 or 4 mg, which is off-label. Steroids suit especially patients with systemic contraindications to anti-VEGF, such as pregnancy or a recent stroke or myocardial infarction.",
    "source": "S1",
    "verdict": "pass",
@@ -194,6 +300,76 @@
    "verdict": "pass",
    "source_text": "PPV with or without separation of the hyaloid, epiretinal membrane (ERM) peeling or tractional band division, intravitreal corticosteroid delivery, and or panretinal photocoagulation is indicated in the setting of diabetic eye disease with persistent or recurrent vitreous haemorrhage which makes monitoring of DMO difficult … Tractional retinal detachment (TRD) involving the macula is also an important indication for vitrectomy in the context of DMO.",
    "locator": "Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley), 'Diabetic Macular Oedema Guidelines: An Australian Perspective', 2023 (doi 10.1155/2023/6329819), https://pmc.ncbi.nlm.nih.gov/articles/PMC9943607/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **High-risk proliferative retinopathy needs panretinal laser (PRP) without delay:** it substantially lowers the high risk of severe vision loss and usually makes the new vessels regress.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a9e76bb41f9a8348",
+     "n": 295,
+     "p": "The DRS "
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Anti-VEGF injections in place of PRP (Protocol S, ranibizumab) were noninferior at 2 years and caused less worsening of macular oedema,** but injected patients who drop out of follow-up fare worse than lasered ones, so use injections alone only when the patient will reliably return.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb9aa5894c555c77",
+     "n": 860,
+     "p": "The DRCR"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Give more PRP and/or anti-VEGF** when new vessels fail to regress, grow on the retina or iris, bleed again, or appear in new places.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "214c534a7d229352",
+     "n": 260,
+     "p": "Addition"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If laser is chosen, do full PRP** (ETDRS: 1200 to 1600 moderate burns of 0.1 second, half a burn width apart, from at least 2 disc diameters outside the fovea out to the equator); limited PRP is not advised. In type 2 diabetes, laser before high-risk disease appears halved severe vision loss or vitrectomy (2.5% vs 5%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7fa801ffb78cb4d",
+     "n": 327,
+     "p": "The ETDR"
+    },
+    {
+     "h": "2202773757dcee36",
+     "n": 209,
+     "p": "The risk"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **At the high-risk stage (extensive disc new vessels, or recent vitreous or preretinal bleeding) do not postpone PRP;** anti-VEGF can be given at the same time. With coexisting centre-involving DMO, consider anti-VEGF plus PRP at the first session.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "51a6f1b98a57a202",
+     "n": 356,
+     "p": "However,"
+    }
+   ],
+   "locator": "American Academy of Ophthalmology PPP Retina/Vitreous Committee, 'Diabetic Retinopathy Preferred Practice Pattern (2024)', approved 13 September 2024 (PDF revision dated 4 August 2025), https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp, retrieved 2026-09-24"
   }
  ]
 }

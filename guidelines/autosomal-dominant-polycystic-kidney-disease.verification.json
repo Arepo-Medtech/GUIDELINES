@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/autosomal-dominant-polycystic-kidney-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://europepmc.org/article/PMC/PMC13288312"
+  "https://europepmc.org/article/PMC/PMC13288312",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Internal Medicine Journal (RACP) 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease' (published 21 April 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13288312). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from CARI Guidelines, Internal Medicine Journal (RACP) 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease' (published 21 April 2026), 20 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13288312). S2: PARAPHRASED AND HASH-ANCHORED from ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312) 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International' (published online 19 November 2021), 9 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC9035348). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ERA/ERKNet/PKD International tolvaptan consensus update (Europe PMC JATS XML, tables stripped), paraphrased and hash-anchored; it is the ERA algorithm S1 refers to. The S1 claims and anchors are unchanged from edition 1.0.",
  "summary": {
-  "total": 20,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -246,6 +247,206 @@
    "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **ERA: tolvaptan can be started in adults aged 55 or under with eGFR of at least 25 mL/min/1.73 m2 who have, or are likely to have, rapidly progressive disease,** judged with a stepwise algorithm. Do not start it when eGFR is high for age: at 40–44 years, 90 or above; 45–49 years, 75 or above; 50–55 years, 60 or above (no eGFR limit under 40).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "118cb8bea2297923",
+     "n": 293,
+     "p": "Recommen"
+    },
+    {
+     "h": "fcd8105045c0c12e",
+     "n": 261,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why ERA uses 55:** a REPRISE subgroup showed no benefit over 55, and most rapid progressors reach kidney failure before then (average age at kidney replacement 58). The limit is not absolute. ERA does not advise starting before 18, and suggests stopping as kidney failure nears (for example eGFR below 15).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cad3eee4c0370b6d",
+     "n": 159,
+     "p": "However,"
+    },
+    {
+     "h": "2cf6a44d6274a7be",
+     "n": 202,
+     "p": "Most pat"
+    },
+    {
+     "h": "4df82d5dba315093",
+     "n": 303,
+     "p": "Since th"
+    },
+    {
+     "h": "3ffd9c94fcc025e3",
+     "n": 92,
+     "p": "Conseque"
+    },
+    {
+     "h": "03211328e0cf26f4",
+     "n": 126,
+     "p": "Thus it "
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Proving rapid progression (ERA):** a confirmed eGFR fall of 3 mL/min/1.73 m2 or more a year, based on at least five creatinine values over 4 years or more (CKD-EPI equation), with other causes excluded, especially with non-linear decline, older age or several comorbidities.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b7ada308c84864f9",
+     "n": 218,
+     "p": "Recommen"
+    },
+    {
+     "h": "11458443e5817305",
+     "n": 272,
+     "p": "Recommen"
+    },
+    {
+     "h": "d4c3ccb96fc16e42",
+     "n": 178,
+     "p": "GFR has "
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Predicting it (ERA): use the Mayo imaging class as the main tool,** with scans read by radiologists or nephrologists experienced in ADPKD. Classes 1D and 1E mean rapid progression. Class 1C overlaps with slow disease, so look for more evidence (a PROPKD score above 6, a truncating PKD1 variant, early hypertension or urological symptoms, or dialysis before 60 in two or more first-degree relatives). Atypical kidneys or classes 1A and 1B make rapid progression unlikely.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "89855dedd6f1d86c",
+     "n": 318,
+     "p": "Recommen"
+    },
+    {
+     "h": "d0eaee1e1767b124",
+     "n": 273,
+     "p": "Recommen"
+    },
+    {
+     "h": "244e90b76acb12c4",
+     "n": 194,
+     "p": "Recommen"
+    },
+    {
+     "h": "5bb8748f96e49a6b",
+     "n": 477,
+     "p": "Conseque"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Reconsider tolvaptan when something else could explain the eGFR loss:** proteinuria of 1 g/day or more, vascular disease such as coronary disease or stroke, uncontrolled severe hypertension, or diabetes. Gather more information, including MRI or CT if not yet done, to confirm ADPKD is the main cause.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6ea102f6093f220b",
+     "n": 581,
+     "p": "If alter"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Dosing:** start with 45 mg on waking and 15 mg 8 hours later, then titrate straight away, weekly or monthly, towards 90/30 mg a day unless it is not tolerated or drug interactions (CYP3A inhibitors or inducers) prevent it; benefit was proven only when aiming for 90/30 mg. Do not dose by urine osmolality, though it can help check adherence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "58a90d74a6532e9e",
+     "n": 240,
+     "p": "Tolvapta"
+    },
+    {
+     "h": "cec339cdfe751337",
+     "n": 510,
+     "p": "Recommen"
+    },
+    {
+     "h": "b99df647236a5025",
+     "n": 130,
+     "p": "Efficacy"
+    },
+    {
+     "h": "42c6b97c95e2b9f9",
+     "n": 163,
+     "p": "In case "
+    },
+    {
+     "h": "9807155bee6b5251",
+     "n": 149,
+     "p": "While we"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Liver and other checks:** transaminases rise above three times normal in about 5% of patients, usually reversibly once the drug stops. Do not re-expose someone after significant liver toxicity, and rule out other causes. Check sodium, creatinine or urea and body weight regularly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed025e72e4b87fc1",
+     "n": 232,
+     "p": "An incre"
+    },
+    {
+     "h": "7f793103996313b2",
+     "n": 178,
+     "p": "Recommen"
+    },
+    {
+     "h": "acd08d1c02ba7c02",
+     "n": 161,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Polyuria is expected in almost everyone:** urine output averages 5–8 L a day, which often means hourly daytime voiding and two to three times a night, most marked at higher GFR. Suggest less dietary sodium, starting on a weekend and not taking the second dose too late; pause tolvaptan whenever dehydration threatens (diarrhoea, vomiting, no access to water).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1d6dcc420e9afae9",
+     "n": 202,
+     "p": "Urine vo"
+    },
+    {
+     "h": "c44c1ae71f72b5cc",
+     "n": 198,
+     "p": "Simple m"
+    },
+    {
+     "h": "7200cf03e914d737",
+     "n": 122,
+     "p": "Lowering"
+    },
+    {
+     "h": "e6ca57a191bd68fc",
+     "n": 141,
+     "p": "tolvapta"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Keep sodium under 2 g a day (87 mmol) and protein at 0.8 g/kg** to reduce urine output modestly, particularly on tolvaptan. Refer to a kidney-specialised dietitian. Special diets, including ketogenic diets, have no evidence.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -276,6 +477,20 @@
     }
    ],
    "locator": "CARI Guidelines, Internal Medicine Journal (RACP), 'Caring for Australians and New ZealandeRs with kidney Impairment guideline commentary on kidney disease: improving global outcomes 2025 guidelines for diagnosis and management of autosomal polycystic kidney disease', published 21 April 2026, https://europepmc.org/article/PMC/PMC13288312, retrieved 2026-09-23",
+   "dose": true
+  },
+  {
+   "claim": "**ERA, for people not on tolvaptan:** extra water is not an equal substitute for the drug, but it seems prudent to advise a low-salt diet (3–5 g a day) and a high water intake (3–4 L a day).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "32c782fbe2a850f8",
+     "n": 372,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "ERA Working Group on Inherited Kidney Disorders, ERKNet and PKD International (Müller RU, Messchendorp AL, Birn H, et al.), Nephrology Dialysis Transplantation 37(5):825-839 (doi 10.1093/ndt/gfab312), 'An update on the use of tolvaptan for autosomal dominant polycystic kidney disease: consensus statement on behalf of the ERA Working Group on Inherited Kidney Disorders, the European Rare Kidney Disease Reference Network and Polycystic Kidney Disease International', published online 19 November 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC9035348/, retrieved 2026-09-24",
    "dose": true
   },
   {

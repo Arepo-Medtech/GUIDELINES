@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/hodgkin-lymphoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13288861/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13288861/",
+  "https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association, HemaSphere 'Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up' (published 23 June 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13288861). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association, HemaSphere 'Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up' (published 23 June 2026), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13288861). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)' (retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028)), 7 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every EHA 2026 claim (S1) unchanged and adds S2, four eviQ Hodgkin lymphoma protocols (Australian, CC BY-NC 4.0, paraphrased), for the regimen doses S1 keeps in stripped tables, Australian funding status, bleomycin limits and supportive care. The S2 source file concatenates the four protocol pages (https://www.eviq.org.au/p/57, /p/4598, /p/5035 and /p/4449), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The ALA classical HL statement (IMJ 2021) still has no open copy on Europe PMC.",
  "summary": {
-  "total": 24,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -159,6 +160,49 @@
    "locator": "European Hematology Association, HemaSphere, 'Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13288861/, retrieved 2026-09-23"
   },
   {
+   "claim": "**ABVD (early stage), 28-day cycles, 2 to 4 cycles (S2):** doxorubicin 25 mg/m2, vinblastine 6 mg/m2, dacarbazine 375 mg/m2 and bleomycin 10,000 IU/m2, each on days 1 and 15. Keep to schedule whatever the blood count, since dose intensity matters; G-CSF is not routine (it may add to bleomycin lung toxicity) unless delays occur. S2 also allows a switch to escalated BEACOPP after two ABVD cycles if the PET is positive.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "de67b1be62db6e4d",
+     "n": 267,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "4c50c9ade33702cc",
+     "n": 159,
+     "p": "Do not d"
+    },
+    {
+     "h": "8edc16a79bf55c3c",
+     "n": 177,
+     "p": "Growth f"
+    },
+    {
+     "h": "3ad227503553495b",
+     "n": 88,
+     "p": "Consider"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Bleomycin limits (S2):** never exceed a lifetime 400,000 IU (risk rises above 300,000 IU) and check the running total before each dose; do baseline lung function tests; stop bleomycin for clinical lung toxicity (cough, breathlessness, basal crackles) or a DLCO below 30 to 35% of baseline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e37407a8b09ed3a4",
+     "n": 668,
+     "p": "The tota"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Age 60 or under: BrECADD for four cycles if the PET after two cycles is negative, six if positive,** then PET-guided radiotherapy (1A). It beat escalated BEACOPP on 5-year PFS (93.6% vs 90.6%) with less toxicity, neuropathy and infertility.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -288,6 +332,120 @@
     }
    ],
    "locator": "European Hematology Association, HemaSphere, 'Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13288861/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **BrECADD, every 21 days for 4 to 6 cycles (S2):** brentuximab vedotin 1.8 mg/kg (maximum 180 mg) on day 1; dexamethasone 40 mg on days 2 to 5; doxorubicin 40 mg/m2 and cyclophosphamide 1,250 mg/m2 on day 2; etoposide 150 mg/m2 on days 2 to 4; dacarbazine 250 mg/m2 on days 3 and 4; filgrastim 5 micrograms/kg from day 5 until recovery (or pegfilgrastim). Dexamethasone 40 mg can be given for 4 days before cycle 1 in those over 40.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "62fb3daeb1d18572",
+     "n": 799,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "5a07b1aeef6d896e",
+     "n": 151,
+     "p": "Pretreat"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Where the sources differ, BrECADD eligibility and funding:** S2 lists BrECADD for patients aged 60 or under or fit patients aged 61-75 with advanced disease (stage 3 or 4, or 2B with a large mediastinal mass or extranodal lesions), whereas S1 recommends it for age 60 or under. ⚠️ S2 notes that, within BrECADD, brentuximab has TGA registration yet no PBS funding.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2b429e25502a9bd7",
+     "n": 201,
+     "p": "Patients"
+    },
+    {
+     "h": "0264076093d7622c",
+     "n": 151,
+     "p": "Brentuxi"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Nivolumab-AVD, every 28 days for 6 cycles (S2):** nivolumab 240 mg with doxorubicin 25 mg/m2, vinblastine 6 mg/m2 and dacarbazine 375 mg/m2, all on days 1 and 15, for untreated stage III or IV classic HL; nivolumab is a PBS authority item. Discuss with an expert first if there is significant autoimmune disease, an organ transplant, past viral hepatitis or previous lung radiotherapy. Immune-related adverse events can start early, escalate fast or appear after stopping; consider baseline troponin and urinalysis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb3c1448dfdee811",
+     "n": 352,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "452cc956e9f6d8d6",
+     "n": 24,
+     "p": "Nivoluma"
+    },
+    {
+     "h": "ba9bd2a7ee13ace4",
+     "n": 488,
+     "p": "Indicati"
+    },
+    {
+     "h": "64153869854dda4d",
+     "n": 183,
+     "p": "Immune-r"
+    },
+    {
+     "h": "f5a7a54df6f4cfe8",
+     "n": 197,
+     "p": "Consider"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Brentuximab-AVD, every 28 days for 6 cycles (S2):** brentuximab vedotin 1.2 mg/kg (maximum 120 mg) with doxorubicin 25 mg/m2, vinblastine 6 mg/m2 and dacarbazine 375 mg/m2 on days 1 and 15, for untreated CD30-positive stage III or IV HL, with primary G-CSF prophylaxis; brentuximab is a PBS authority item here. Never combine brentuximab with bleomycin (contraindicated: lung toxicity).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cac5d86cc14a4a75",
+     "n": 546,
+     "p": "DOXOrubi"
+    },
+    {
+     "h": "0a98b5c3a76c06d4",
+     "n": 66,
+     "p": "Previous"
+    },
+    {
+     "h": "06ddf43a7a6197c8",
+     "n": 136,
+     "p": "May have"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Supportive care with BrECADD (S2):** PJP prophylaxis, for example trimethoprim-sulfamethoxazole 160/800 mg one tablet twice daily on two days a week or once daily three days a week; irradiated blood products.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d0d48a2f3a049fc",
+     "n": 224,
+     "p": "PJP prop"
+    },
+    {
+     "h": "04911cc011a1193d",
+     "n": 92,
+     "p": "The use "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ Hodgkin lymphoma protocols: 57 ABVD early stage (v.6, last changed 20 March 2024), 4598 BrECADD (v.2, 31 August 2026), 5035 N-AVD (v.1, 20 March 2026) and 4449 BV-AVD (v.1, 24 September 2024)', retrieved 24 September 2026 (57 on as-required review; reviews due: 4598 and 5035 30 June 2027; 4449 30 June 2028), https://www.eviq.org.au/haematology/lymphoma/hodgkin-lymphoma, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Definitions:** refractory means progression on treatment or relapse within 3 months of finishing; early relapse is within 12 months; late relapse is 12 months or more. Confirm relapse by biopsy where possible (3A).",

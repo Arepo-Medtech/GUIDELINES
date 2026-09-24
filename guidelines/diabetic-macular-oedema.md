@@ -1,11 +1,15 @@
 # Diabetic macular oedema (and diabetic retinopathy screening)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** retinopathy screening and referral for people with diabetes, diagnosis of DMO, systemic risk-factor control, and ophthalmic treatment of DMO (anti-VEGF, laser, intravitreal steroids, vitrectomy) in adults. An authors' working-group review, not a society guideline. Treatment of proliferative retinopathy itself (panretinal laser) is not covered by the source. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. General diabetes care, including a retinopathy-screening line, is in `type-2-diabetes.md`.
 
-> ✅ **OPEN AND QUOTED.** 25 claims quoted verbatim from **Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley) — *Diabetic Macular Oedema Guidelines: An Australian Perspective*** (2023 (doi 10.1155/2023/6329819); origin: AU); **38 fragments re-checked by machine; 4 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 37 claims; **53 fragments or anchors re-checkable by machine; 7 doses.** **S1** Yuen YS et al. (2023 (doi 10.1155/2023/6329819); AU): 25 claims, quoted · **S2** American Academy of Ophthalmology PPP Retina/Vitreous Committee (approved 13 September 2024 (PDF revision dated 4 August 2025); international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ **Bevacizumab is used in Australia but is not PBS-listed for DMO.** The PBS lists aflibercept, faricimab, ranibizumab and the dexamethasone implant (see the table below). The source says the dexamethasone implant is PBS-approved only for pseudophakic eyes or eyes scheduled for cataract surgery.
+
+> 🇦🇺 **S1 is the Australian reference** (an authors' working-group review, not a society guideline) for screening, referral, steroids and surgery. **S2** (American Academy of Ophthalmology Preferred Practice Pattern, 2024) adds faricimab and aflibercept 8 mg trial dosing, deferral of treatment in good vision, and treatment of proliferative retinopathy.
+
+> ⚠️ International guideline (S2: American Academy of Ophthalmology, 2024). Australian practice follows the PBS listings below and may differ; S2's FDA approvals (such as aflibercept 8 mg) are not Australian approvals.
 
 ---
 
@@ -16,6 +20,7 @@
 - **Aboriginal and Torres Strait Islander people carry more eye disease and are under-screened:** blindness is six times higher, fewer than 20% receive retinopathy screening and more than 35% have never been screened. NHMRC advises annual screening for Indigenous Australians. [S1]
 - **Refer on visual acuity:** 6/12 or worse should be referred, and 6/9 to 6/12 considered for referral. Send results to the GP, endocrinologist and ophthalmologist within 2 weeks. [S1]
 - ⚠️ **Suspected DMO or proliferative retinopathy, or unexplained change in vision: consider ophthalmology referral within 4 weeks.** Once non-proliferative retinopathy is found, review up to 4 times a year (NHMRC). [S1]
+- **The AAO schedule (S2) is yearly rather than two-yearly:** in type 1 diabetes from 5 years after onset; in type 2 from diagnosis, then at least once a year. [S2]
 
 ## Diagnosis
 
@@ -37,6 +42,12 @@
 - **Suboptimal response after 3–6 injections: switch to another anti-VEGF agent or to an intravitreal steroid.** [S1]
 - **For centre-involving DMO, intravitreal therapy beats focal/grid laser.** Adding laser at the start of ranibizumab was no better than deferring it for at least 24 weeks. [S1]
 - **Do not routinely combine intravitreal steroid with anti-VEGF;** the evidence does not support it, though it can be judged case by case. [S1]
+- **Good vision despite centre-involving DMO (S2):** in Protocol V, starting aflibercept 2 mg, laser, or observation (each with aflibercept rescue if vision fell) gave the same vision after 2 years, so treatment can reasonably wait until acuity drops to 20/30 or worse, with review every 2 to 4 months. [S2]
+- **DRCR-style retreatment (S2):** give monthly injections for the first 4 to 6 months, then hold them if vision and thickness stop improving or once vision reaches 20/20 or the oedema clears; resume if either worsens, and double the gap between visits, up to 4 months, while consecutive visits need no injection. Treat-and-extend matched monthly dosing at 2 years with fewer injections. [S2]
+- **Starting with bevacizumab and switching to aflibercept 2 mg when needed gave similar 2-year vision to starting with aflibercept** in eyes seeing 20/50 to 20/320 (Protocol AC), although 70% of the bevacizumab group were switched in the end. [S2]
+- **Faricimab 6 mg (YOSEMITE and RHINE):** given 8-weekly after six monthly loading doses, or by treat-and-extend up to 16-weekly after four, it matched aflibercept 2 mg (8-weekly after five loading doses) for vision gain. By year 2, 60% and 64.5% of treat-and-extend eyes were on 16-weekly dosing. Intraocular inflammation (endophthalmitis aside) ran at 1.3% against 0.6% with aflibercept. [S2]
+- **Aflibercept 8 mg (PHOTON; FDA-approved for DME in 2023):** after 3 monthly loading doses, 12- or 16-weekly dosing was noninferior for vision at week 48 to 2 mg every 8 weeks, and ninety-three percent of 8 mg patients kept intervals of 12 weeks or longer. [S2]
+- ⚠️ **Prepare every injection with topical povidone-iodine; skip routine antibiotic drops before or after,** which do not cut endophthalmitis and add to resistance. Endophthalmitis runs at 0.019% to 0.09% of injections in trials. [S2]
 
 ## Intravitreal steroids
 
@@ -51,6 +62,14 @@
 
 - **Vitrectomy only after laser, anti-VEGF and steroids have failed, and only when an epiretinal membrane, a taut thickened posterior hyaloid or vitreomacular traction is thickening the macula.** [S1]
 - **Vitrectomy is also indicated for persistent or recurrent vitreous haemorrhage that hides the macula, and for tractional retinal detachment involving the macula.** [S1]
+
+## Proliferative retinopathy (S2)
+
+- ⚠️ **High-risk proliferative retinopathy needs panretinal laser (PRP) without delay:** it substantially lowers the high risk of severe vision loss and usually makes the new vessels regress. [S2]
+- **Anti-VEGF injections in place of PRP (Protocol S, ranibizumab) were noninferior at 2 years and caused less worsening of macular oedema,** but injected patients who drop out of follow-up fare worse than lasered ones, so use injections alone only when the patient will reliably return. [S2]
+- **Give more PRP and/or anti-VEGF** when new vessels fail to regress, grow on the retina or iris, bleed again, or appear in new places. [S2]
+- **If laser is chosen, do full PRP** (ETDRS: 1200 to 1600 moderate burns of 0.1 second, half a burn width apart, from at least 2 disc diameters outside the fovea out to the equator); limited PRP is not advised. In type 2 diabetes, laser before high-risk disease appears halved severe vision loss or vitrectomy (2.5% vs 5%). [S2]
+- ⚠️ **At the high-risk stage (extensive disc new vessels, or recent vitreous or preretinal bleeding) do not postpone PRP;** anti-VEGF can be given at the same time. With coexisting centre-involving DMO, consider anti-VEGF plus PRP at the first session. [S2]
 
 ---
 
@@ -69,16 +88,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Treatment of proliferative diabetic retinopathy itself** (panretinal laser, anti-VEGF for new vessels) is not covered by the source; it deals with PDR only for referral and vitrectomy. | `out_of_scope` |
-| 2 | **NHMRC recommendations for special groups** (Table 1) and **diabetes drug classes** (Table 3) are in tables, which were stripped. | `input_unavailable` |
-| 3 | **Currency:** the literature search ran to 2019 and the NHMRC retinopathy guideline has not been updated since 2008; faricimab is mentioned only as newly PBS-listed. | `observation` |
-| 4 | **The source also cites AAO and UK screening advice** (e.g. UK urgent referral within 2 weeks for PDR). Those international statements were not carried over. | `observation` |
-| 5 | **Licence:** CC BY 4.0. Claims are quoted verbatim. | `observation` |
+| 1 | **Treatment of proliferative diabetic retinopathy itself** (panretinal laser, anti-VEGF for new vessels) is not covered by S1, which deals with PDR only for referral and vitrectomy. S2 (AAO, US) now supplies it; no Australian source for PDR treatment was read. | `observation` |
+| 2 | **Screening interval differs:** S1 (RANZCO, following NHMRC 2008) screens every 2 years when no retinopathy is found, and yearly for higher-risk groups; S2 (AAO) screens everyone yearly. Both are shown. | `observation` |
+| 3 | **Aflibercept 8 mg and the faricimab regimens** are from S2's trial summaries (FDA context). The PBS table lists aflibercept and faricimab by name only; whether the 8 mg strength is TGA-registered and PBS-listed for DMO is not established here. | `input_unavailable` |
+| 4 | **NHMRC recommendations for special groups** (Table 1) and **diabetes drug classes** (Table 3) are in tables, which were stripped. | `input_unavailable` |
+| 5 | **Currency:** S1's literature search ran to 2019 and the NHMRC retinopathy guideline has not been updated since 2008; S1 mentions faricimab only as newly PBS-listed. S2 (2024) adds the faricimab and aflibercept 8 mg trial data. | `observation` |
+| 6 | **S1 also cites UK screening advice** (e.g. UK urgent referral within 2 weeks for PDR), which was not carried over. AAO advice now comes directly from S2. | `observation` |
+| 7 | **Licence:** S1 is CC BY 4.0 and its claims are quoted verbatim. S2 is © AAO, all rights reserved, with an AI-use clause; its claims are paraphrased and hash-anchored and its words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Yuen YS et al., Journal of Ophthalmology (Hindawi/Wiley). *Diabetic Macular Oedema Guidelines: An Australian Perspective*. 2023 (doi 10.1155/2023/6329819). https://pmc.ncbi.nlm.nih.gov/articles/PMC9943607/ — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | American Academy of Ophthalmology PPP Retina/Vitreous Committee. *Diabetic Retinopathy Preferred Practice Pattern (2024)*. approved 13 September 2024 (PDF revision dated 4 August 2025). https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp — retrieved 2026-09-24. | © 2024 American Academy of Ophthalmology, all rights reserved. Site terms: 'This content may not be reproduced, copied, or put into any artificial intelligence program, including large language and generative AI models, without permission from the Academy.' Used in paraphrase mode under the owner decision of 2026-09-23 not to exclude sources for AI-use clauses. | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

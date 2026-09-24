@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/axial-spondyloarthritis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australian expert panel, Rheumatology and Therapy (Springer) 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis' (published 28 December 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8814294). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australian expert panel, Rheumatology and Therapy (Springer) 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis' (published 28 December 2021), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8814294). S2: QUOTED from British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089) 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs' (published online 9 April 2025), 11 claims; LICENCE: CC BY 4.0 (© The Author(s) 2025, published by Oxford University Press on behalf of the BSR) (read at Europe PMC fullTextXML <license> element for PMC12107049). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the BSR 2025 guideline on biologic and targeted synthetic DMARDs in axSpA (CC BY 4.0, quoted), for JAK inhibitors, bimekizumab, response assessment, switching, extra-musculoskeletal disease and tapering. ASAS-EULAR 2022 was retried (Unpaywall PDF at ard.bmj.com) and returned a Cloudflare challenge (HTTP 403), which was not bypassed. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 24,
-  "pass": 0,
+  "total": 35,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 24
  },
@@ -413,6 +414,83 @@
     }
    ],
    "locator": "Australian expert panel, Rheumatology and Therapy (Springer), 'Australian Consensus Statements for the Assessment and Management of Non-radiographic Axial Spondyloarthritis', published 28 December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8814294/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **A TNF, IL-17 or JAK inhibitor is recommended for active axSpA not controlled by non-drug and conventional treatment** (strong, high-quality evidence). UK-licensed options: TNF inhibitors (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab), IL-17 inhibitors (secukinumab, ixekizumab, bimekizumab) and JAK inhibitors (tofacitinib, upadacitinib); infliximab and tofacitinib are not licensed for non-radiographic axSpA. No class is preferred for the musculoskeletal disease.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "TNF, IL-17 or JAK inhibitors are recommended for people with active axSpA who have not responded adequately despite non-pharmacological and conventional pharmacological management (1A, SoA 97%) … The currently licenced targeted therapies for axSpA in the UK include TNF inhibitors (TNFi: adalimumab, certolizumab pegol, etanercept, golimumab, infliximab and relevant biosimilars), IL-17 inhibitors (IL-17i: secukinumab, ixekizumab, bimekizumab) and JAK inhibitors (JAKi: tofacitinib, upadacitinib). Infliximab and tofacitinib are not licenced for non-radiographic axSpA. All targeted therapies have demonstrated an acceptable balance of efficacy and safety in axSpA RCTs (Supplementary Data S1, available at Rheumatology online). There is no evidence to support recommending one class or drug over another in terms of efficacy for musculoskeletal manifestations.",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Weigh the risk of structural progression:** men, smokers, and people with high baseline damage or high CRP progress more, and targeted therapy (specifically TNF inhibitors) is more likely than NSAIDs to reduce radiographic progression.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "However, observational studies have shown that certain groups (e.g. males, smokers, those with high baseline damage or high CRP []) have greater risk and rate of radiographic progression. These adverse prognostic factors should be considered as part of shared decision-making when initiating targeted therapies. Although generating RCT evidence for the effect of therapies on radiographic progression is challenging, current observational literature suggests that targeted therapies (specifically TNFi) are more likely to reduce radiographic progression compared with NSAIDs []",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Define active disease only after a verified diagnosis:** a consultant rheumatologist confirms it, and non-radiographic axSpA needs objective inflammation (raised CRP and/or MRI). High activity is ASDAS ≥ 2.1 or BASDAI ≥ 4; when they disagree, ASDAS better predicts response.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The diagnosis of axSpA should be verified by a consultant rheumatologist, and includes ankylosing spondylitis (radiographic axSpA) and non-radiographic axSpA with objective features of inflammation (elevated CRP and/or MRI findings). … Definitions of high disease activity using ASDAS ≥ 2.1 or BASDAI ≥ 4 usually coincide but, when discordant, the ASDAS definition better predicts treatment response",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Assess response 3–4 months after starting, then every 6–12 months,** using ASDAS, BASDAI and spinal pain; an ASDAS fall of ≥1.1 is a clinically important response. Follow-up should not usually exceed 24 months apart.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Response to targeted therapies should be assessed using validated indices (e.g. ASDAS, BASDAI, spinal pain) 3-4 months after initiation, and every 6-12 months if treatment is continued (1B, SoA 97%) … A reduction of ≥1.1 represents a clinically important response [] … Follow-up interval should not typically exceed 24 months.",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **No response: reassess the diagnosis and whether inflammation is really active.** Fibromyalgia can inflate BASDAI tenderness and fatigue, and obesity can raise the CRP used in ASDAS.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The absence of response to targeted therapies should prompt reassessment of the diagnosis and the extent of inflammatory disease activity (1B, SoA 100%) … e.g. fibromyalgia may contribute to high tenderness and fatigue domains of BASDAI, while obesity may contribute to elevated CRP for ASDAS []",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Switch to another targeted therapy after intolerance, non-response or lost response** (strong). After primary non-response a different mechanism is more likely to work; do not switch to the biosimilar of a drug that failed. There is no set sequence and no limit on the number of sequential therapies.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "An alternative targeted therapy is recommended for individuals with active disease who cannot tolerate, do not respond to, or lose response to the initial targeted therapy (1A, SoA 99%) … It is probable, as in other inflammatory arthritides, that people with axSpA who have primary non-response to one therapy are more likely to respond to a drug with a different mechanism of action. … Switching from a bio-original drug to its equivalent biosimilar is not recommended when there is insufficient response to the former. … the GWG suggests that there should not be a limit to the number of sequential therapies that any individual can have.",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Moderate-to-severe or recurrent uveitis: prefer a monoclonal TNF inhibitor.** New uveitis needs an ophthalmologist within 24 hours; past inactive uveitis does not absolutely rule out other classes, and new uveitis on well-controlled axSpA should prompt a treatment decision with ophthalmology rather than an automatic switch. Etanercept and IL-17A inhibitors may control uveitis less well.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In the presence of moderate-to-severe or recurrent uveitis, a monoclonal TNFi is preferred over therapies with other mechanisms of action (1A, SoA 98%) … A history of inactive uveitis is not an absolute contraindication to therapies with other mechanisms of action (2B, SoA 97%) … new presentations of uveitis should be assessed by an ophthalmologist within 24 hours [] … Observational evidence suggests that etanercept and IL-17A inhibitors may be less effective at controlling uveitis than monoclonal TNFi []",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Extensive psoriasis (>10% body surface area) or severe psoriasis at high-impact sites: prefer an IL-17 inhibitor or monoclonal TNF inhibitor,** ideally with a dermatologist. For the skin, IL-17 inhibitors work best, then monoclonal TNF inhibitors, then etanercept. Ustekinumab and IL-23p19 inhibitors do not help axial symptoms.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "IL-17 and monoclonal TNFi are preferred in the presence of extensive psoriasis (e.g. >10% body surface area) or severe localized psoriasis at sites associated with high functional impairment or impact (e.g. face, scalp, palms, soles, flexures, genital or nails), ideally in conjunction with a dermatologist (1A, SoA 96%) … control of cutaneous psoriasis can be achieved by, in order of efficacy, IL-17i (bimekizumab was superior to secukinumab for skin control but increased incidence of candidiasis []), monoclonal TNFi or etanercept [] … certain therapies used in psoriasis have no beneficial effect for axial symptoms (e.g. ustekinumab or IL-23p19 inhibitors)",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Unexplained lower gut symptoms: see a gastroenterologist before starting targeted therapy** (faecal calprotectin screens well but NSAIDs raise it). With active IBD prefer a monoclonal TNF inhibitor or a JAK inhibitor and do not start an IL-17 inhibitor; past inactive IBD does not absolutely rule out IL-17 inhibitors or etanercept.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Individuals with unexplained lower gastrointestinal symptoms should be assessed by a gastroenterologist, ideally before commencing targeted therapies (1B, SoA 97%) … In the presence of active IBD, monoclonal TNFi or JAKi are preferred; IL-17 inhibitors should not be commenced (1A, SoA 99%). A history of inactive IBD is not an absolute contraindication to IL-17 inhibitors or etanercept (2B, SoA 97%) … Faecal calprotectin can be a useful screening tool for gastrointestinal inflammation with high negative predictive value for IBD []. However, levels can be elevated due to NSAID use []",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Agree individual treatment targets with the patient;** evidence is insufficient to treat to an index-based target such as ASDAS < 2.1 (the TICOSPA trial missed its primary outcome).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Treatment should aim to achieve predefined targets agreed upon with the individual living with axSpA, using individualized therapy adjustments that consider comorbidities and inflammatory disease activity (1B, SoA 99%) … However, the TICOSPA trial of treating to target (ASDAS < 2.1) in axSpA did not achieve its primary outcome (≥30% improvement in ASAS Health Index) or the majority of secondary outcomes []. Although all outcomes were numerically better in the treat-to-target arm, these differences are difficult to interpret in the context of an open-label trial. While there may be credible explanations for not meeting the primary end point (e.g. usual care being better than expected in academic recruiting centres), there is insufficient evidence to recommend treating to an index-based target.",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Sustained remission (low activity or remission for at least 6 months): offer tapering, usually by lengthening the dosing interval, but do not withdraw targeted therapy.** In trials, flares were much more common after withdrawal: 80% flared after stopping certolizumab pegol, and not all regained control.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Tapering of targeted therapies should be considered for individuals who have achieved sustained remission (1A, SoA 98%). Withdrawal of targeted therapies in the context of sustained remission is not recommended (1A, SoA 99%) … 'Sustained remission' lacks formal definition but can be operationalized as low disease activity or remission for at least 6 months. Tapering is typically implemented by increasing dosing intervals, which (with the exception of certolizumab pegol) is an off-licence use of therapy. … For example, 80% of participants who discontinued certolizumab pegol flared during the trial period, and not all were able to regain control []",
+   "locator": "British Society for Rheumatology guideline working group (Zhao SS, Harrison SR, Thompson B, et al.), Rheumatology (Oxford) 64(6):3242-3254 (doi 10.1093/rheumatology/keaf089), 'The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs', published online 9 April 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12107049/, retrieved 2026-09-24"
   }
  ]
 }

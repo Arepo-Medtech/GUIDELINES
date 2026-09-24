@@ -1,11 +1,13 @@
 # Acute myeloid leukaemia in adults (including acute promyelocytic leukaemia)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** induction, consolidation and maintenance for newly diagnosed APML and AML (fit and unfit for intensive chemotherapy), relapsed/refractory AML, and antimicrobial prophylaxis, in adults. Allogeneic transplant indications are outside the source's scope. Drug doses are given where the source states them; administration detail is in the eviQ protocols. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 25 claims paraphrased from **Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ) — *Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)*** (v1.0, February 2025; origin: AU). **68 anchors re-checkable by machine; 10 doses.** The source's words are not reproduced: its licence is *© 2025 Haematology Society of Australia & New Zealand. All Rights Reserved. (site-wide footer; the PDF itself carries a disclaimer but no reuse statement)*.
+> ✅ **COMPILED FROM 2 SOURCES.** 36 claims; **91 fragments or anchors re-checkable by machine; 13 doses.** **S1** Blood Cancer Taskforce (v1.0, February 2025; AU): 25 claims, paraphrased, hash-anchored · **S2** Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL) (published 2026; international): 11 claims, quoted
 
 > ⚠️ **Australian practice differs from ELN here.** Double induction is less common in Australia, so this guideline treats a less-than-partial response to the *first* induction as refractory (ELN 2022 requires failure of two). Several recommended drugs are not PBS-funded (ivosidenib; venetoclax in relapsed AML), and GO and CPX-351 are PBS-listed but not funded for inpatient use.
+
+> ⚠️ International consensus (Canadian Leukemia Study Group, 2026) as S2, for older and unfit patients only. Australian practice follows S1 and the PBS listings below and may differ; S2's drug availability notes are Canadian.
 
 ---
 
@@ -38,11 +40,24 @@
 - **IDH1-mutated: azacitidine with ivosidenib is preferred when obtainable** (better tolerated and simpler; AGILE median survival 29.3 v 7.0 months), but ivosidenib is not PBS-funded, so AZA-VEN is the effective alternative. [S1]
 - **Too frail for AZA-VEN:** oral decitabine-cedazuridine, azacitidine alone or best supportive care. The PBS limits azacitidine and decitabine-cedazuridine to higher-risk MDS or AML with 20-30% marrow blasts. Very poor-risk disease (such as TP53-mutated) in patients not headed for transplant may also be spared myelosuppressive therapy. Refer early to palliative care. [S1]
 
+## Less-intensive therapy in older or unfit patients: practical management (S2)
+
+- **Choose intensive or less-intensive therapy on fitness plus disease biology, not age alone;** use a comprehensive geriatric assessment where available, and re-evaluate fitness during treatment because it often changes. [S2]
+- ⚠️ **TP53-mutated AML in older patients:** survival is dismal with any approach, so less-intensive therapy is generally preferred even in fitter patients. AZA-VEN may be used for induction, then switch responders to azacitidine alone unless prompt allograft is planned. [S2]
+- **Venetoclax ramp-up can usually be outpatient,** but admit for: proliferative disease (such as markedly raised LDH), tumour lysis before starting, significant renal dysfunction, WBC > 20 not controlled by hydroxyurea, inability to monitor as an outpatient, haemodynamic instability, coagulopathy (DIC, hyperfibrinolysis) or active infection. [S2]
+- ⚠️ **TLS prophylaxis for every patient:** allopurinol at least 48 h before venetoclax; normalise urate (rasburicase if needed, excluding G6PD deficiency first where possible); IV hydration during ramp-up; check potassium, creatinine, phosphate, calcium, uric acid and LDH every 6–8 h for proliferative inpatients, or daily for the first 3–4 days as outpatients. [S2]
+- ⚠️ **Venetoclax dosing with azacitidine: a rapid 3–4 day ramp-up of 100–200–400 mg daily in cycle 1,** modified when an azole antifungal is used. Most centres now give 21 days or less of venetoclax in cycle 1 if the day-21 marrow shows blast clearance; if leukaemia persists, continue venetoclax and start the second cycle by day 28–30. [S2]
+- **During induction:** check blood counts at least twice weekly; do a marrow before the end of cycle 1 (day 21–28) and then every cycle until blasts clear; stop venetoclax for that cycle once clearance is documented; give G-CSF only after documented blast clearance. [S2]
+- ⚠️ **Later cycles:** for recurrent severe cytopenias, shorten venetoclax to 14, 10 or 7 days per cycle; if that fails, reduce azacitidine (for example to 50 mg/m2 daily), then shorten it (for example to 5 days). Do not cut the daily venetoclax dose except for drug interactions. Delay cycles for count recovery; most patients need 35–42-day cycles. [S2]
+- **Duration and response:** continue less-intensive treatment until progression or intolerance, with dose changes as needed; with no objective response or benefit after two or more cycles of AZA-VEN, consider other options. S2 does not routinely advise stopping in MRD-negative remission, given no prospective data. [S2]
+- ⚠️ **Azacitidine with ivosidenib:** ivosidenib 500 mg daily continuously, with azacitidine 75 mg/m2 daily for 7 days per cycle. Watch for differentiation syndrome (14% in AGILE, usually in the first month: rising leucocytes, weight gain, effusions, rising creatinine, fever); treat with hydroxyurea, dexamethasone 10 mg twice daily for 3–5 days and diuretics. Do an ECG before and in the first 2 weeks; hold for QTcF > 500 msec and reduce to 250 mg daily if it recurs. [S2]
+
 ## Relapsed or refractory AML
 
 - ⚠️ **Re-test FLT3 in every relapsed or refractory patient, including after allograft; if FLT3-ITD or -TKD is present, use gilteritinib** (better survival and fewer adverse events than salvage chemotherapy in ADMIRAL and COMMODORE). In FLT3-mutated disease failing to reach partial response after induction, move to gilteritinib then, not after more chemotherapy. [S1]
 - **Fit, without FLT3: FLAG-Ida, or FLAG-Ida with venetoclax** (no evidence the addition is better; venetoclax is neither TGA-approved nor PBS-funded here). Both are highly myelosuppressive: use them only as a bridge to allograft and do not repeat them in remission without a planned transplant. [S1]
 - **Unfit for intensive salvage:** AZA-VEN (expert opinion; unfunded for relapse; poor responses with adverse cytogenetics). For IDH1-mutated relapse, ivosidenib 500 mg daily (CR/CRh 30%), TGA-approved but not PBS-funded. [S1]
+- **Relapse after AZA-VEN or another less-intensive combination (S2):** gilteritinib if FLT3-ITD or -TKD is found at an allelic ratio ≥ 5%; for NPM1 or KMT2A alterations, an oral menin inhibitor (revumenib, US-available; remissions in 25–40%), otherwise a clinical trial; else best supportive care with or without hydroxyurea, or palliative azacitidine or LDAC. [S2]
 - **After non-intensive salvage fails:** low-dose cytarabine with or without thioguanine, or best supportive care. Outcomes after AZA-VEN failure are dismal, so discuss goals of care early, involve palliative care, and state the toxicity risks plainly before any further chemotherapy. [S1]
 
 ## Infection prevention
@@ -50,6 +65,7 @@
 - **At diagnosis, screen for hepatitis B (HBsAg, anti-HBc, anti-HBs), hepatitis C and HIV;** tailor screening for fungal infection, TB and strongyloides to exposure and geography. [S1]
 - ⚠️ **Antifungal prophylaxis:** give routine mould-active prophylaxis during intensive induction or re-induction, and in intensive consolidation when fungal risk is high. With venetoclax-based non-intensive therapy, use it only when risk is high, and cut the venetoclax dose alongside an azole (posaconazole, itraconazole and voriconazole inhibit CYP3A4 and raise venetoclax exposure). [S1]
 - **No routine antibacterial prophylaxis while neutropenic after intensive chemotherapy,** and fluoroquinolones are not advised for everyone (C. difficile and resistance risk). Neutropenic outpatients should be in a comprehensive care programme with access to emergency antibiotics. [S1]
+- ⚠️ **Where the sources differ, prophylaxis on venetoclax-based less-intensive therapy (S2):** S2 advises antibacterial (such as levofloxacin, avoiding CYP3A inhibitors), antiviral and antifungal prophylaxis while the neutrophil count is < 0.5, with venetoclax dose adjustment for azoles, and reinstating it for recurrent severe neutropenia expected to last over 7 days. S1 reserves antifungal prophylaxis with venetoclax for high-risk patients and reached no consensus on antibacterial prophylaxis. [S2]
 - **PJP and herpes prophylaxis:** trimethoprim-sulfamethoxazole with fludarabine-based intensive regimens (and other T-cell-impairing therapy); valaciclovir against HSV/VZV for all patients on active treatment. [S1]
 
 ---
@@ -73,14 +89,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 1 | **The treatment overview table** (p. 13) and the per-recommendation GRADE certainty and Delphi scores sit in tables; extraction interleaves them with recommendation text. Doses are anchored only where the text run is clean. | `input_unavailable` |
 | 2 | **Allogeneic transplant** indications, selection and timing are explicitly outside the source's scope (it points to ELN 2022). | `out_of_scope` |
 | 3 | **Funding at the time of writing:** ivosidenib (TGA-approved, not PBS-listed) and venetoclax for relapsed AML (neither TGA nor PBS) may change; recheck PBS status. | `time_sensitive` |
-| 4 | **Antibacterial prophylaxis after AZA-VEN induction in outpatients** reached no consensus; the source defers to forthcoming Australian neutropenic-fever guidelines. | `evidence_unsettled` |
-| 5 | **Source text quirk:** the refractory definition on p. 12 reads 'achieving at least partial response to induction 1' where the sense (and p. 20) is *not* achieving it; the claim follows the unambiguous p. 20 and R/R preamble wording. | `observation` |
-| 6 | **Licence:** site-wide 'All Rights Reserved' footer; the PDF is reached after a health-professional click-through on hsanz.org.au (the file itself is served directly). The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 4 | **Antibacterial prophylaxis after AZA-VEN induction in outpatients** reached no consensus in S1, which defers to forthcoming Australian neutropenic-fever guidelines. | `evidence_unsettled` |
+| 5 | **Sources disagree on prophylaxis with venetoclax-based therapy:** S2 (Canada 2026) gives antibacterial, antiviral and azole antifungal prophylaxis to all neutropenic patients; S1 (HSANZ 2025) reserves antifungal prophylaxis for high risk and has no consensus on antibacterials. Both are shown. | `observation` |
+| 6 | **S2 azole dose-adjustment table (Table 4) and its trial-outcome tables** were stripped; venetoclax doses with azoles are not given here. | `input_unavailable` |
+| 7 | **Newer drugs in S2 that are not PBS-listed for AML:** menin inhibitors (revumenib) and oral decitabine-cedazuridine with venetoclax are cited as US-available or pending approval; check TGA and PBS status. | `time_sensitive` |
+| 8 | **PARADIGM** (AZA-VEN v intensive chemotherapy in fit patients) is cited by S2 from an abstract only; it may change the fit/unfit split and is not used for a recommendation here. | `evidence_unsettled` |
+| 9 | **Source text quirk:** the refractory definition on p. 12 reads 'achieving at least partial response to induction 1' where the sense (and p. 20) is *not* achieving it; the claim follows the unambiguous p. 20 and R/R preamble wording. | `observation` |
+| 10 | **Licence:** site-wide 'All Rights Reserved' footer; the PDF is reached after a health-professional click-through on hsanz.org.au (the file itself is served directly). The S1 claims are paraphrased and hash-anchored; the source's words are not reproduced. S2 is CC BY 4.0 and quoted with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ). *Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)*. v1.0, February 2025. https://www.hsanz.org.au/resources/Documents/LF%20Clinical%20Guidelines%20AML%202024_WEB_R.pdf — retrieved 2026-09-23. | © 2025 Haematology Society of Australia & New Zealand. All Rights Reserved. (site-wide footer; the PDF itself carries a disclaimer but no reuse statement) | **paraphrased, hash-anchored** |
+| **S2** | Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI). *Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus*. published 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

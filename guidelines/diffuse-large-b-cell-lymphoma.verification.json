@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/diffuse-large-b-cell-lymphoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/",
+  "https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association, HemaSphere 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up' (published 23 September 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12456099). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association, HemaSphere 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up' (published 23 September 2025), 25 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12456099). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)' (retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026)), 8 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every EHA 2025 claim (S1) unchanged and adds S2, four eviQ protocols (Australian, CC BY-NC 4.0, paraphrased), for the regimen doses S1 keeps in stripped tables, PBS status, cardiac and supportive monitoring, and bispecific step-up dosing. The S2 source file concatenates the four protocol pages (https://www.eviq.org.au/p/70, /p/4434, /p/4454 and /p/4554), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The Australasian Lymphoma Alliance DLBCL statement (IMJ 2021) was searched for again on Europe PMC and has no open copy.",
  "summary": {
-  "total": 25,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 25
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -191,6 +192,124 @@
     }
    ],
    "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**R-CHOP21, every 21 days for 6 to 8 cycles:** day 1 rituximab 375 mg/m2, doxorubicin 50 mg/m2, vincristine 1.4 mg/m2 (capped at 2 mg) and cyclophosphamide 750 mg/m2; prednisolone 100 mg by mouth on days 1 to 5. All drugs are on the PBS general schedule.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac439208f7ac71dd",
+     "n": 794,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "c50261fd95e510ef",
+     "n": 33,
+     "p": "Frequenc"
+    },
+    {
+     "h": "876d8b35baa395c9",
+     "n": 58,
+     "p": "All drug"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Where the sources differ, favourable early-stage disease:** S2 suggests considering 4 cycles of R-CHOP21 plus 2 further doses of rituximab for patients aged 60 or under with favourable DLBCL (age-adjusted IPI 0, no mass of 7.5 cm or more); S1 gives four cycles of R-CHOP21 alone, with an interim PET guiding the stop.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4eb0de18cb48e4db",
+     "n": 156,
+     "p": "Consider"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Pola-R-CHP, every 21 days:** cycles 1 to 6 give polatuzumab vedotin 1.8 mg/kg with rituximab 375 mg/m2, doxorubicin 50 mg/m2 and cyclophosphamide 750 mg/m2 on day 1 and prednisolone 100 mg on days 1 to 5, plus filgrastim 5 micrograms/kg daily from day 2 until neutrophil recovery; cycles 7 and 8 are rituximab alone. Polatuzumab is TGA-registered but not PBS-listed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a4005b795b7d8bb",
+     "n": 560,
+     "p": "Polatuzu"
+    },
+    {
+     "h": "2727f7775f5710e1",
+     "n": 333,
+     "p": "Cycle 7 "
+    },
+    {
+     "h": "9833506557b57430",
+     "n": 35,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "623399fbc1826912",
+     "n": 99,
+     "p": "Frequenc"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Anthracycline heart monitoring (S2):** count lifetime anthracycline dose; baseline echocardiogram (or gated heart pool scan) and ECG. With normal baseline LVEF (above 50%) and low risk, recheck LVEF once over 70% of the anthracycline threshold or if symptoms appear; in high-risk patients, echo every 6 weeks and within 3 months of finishing; in all adults, an echo within 12 months after anthracycline treatment ends.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7c9d98993108c77a",
+     "n": 1113,
+     "p": "Cumulati"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Supportive care with R-CHOP-type therapy (S2):** screen for hepatitis B (HBsAg, anti-HBc, anti-HBs) before starting; tumour lysis risk is high, so give prophylaxis; consider withholding antihypertensives for 12 hours before and during each rituximab infusion (hypotension risk); give laxatives with vincristine and assess neuropathy before each cycle; G-CSF is PBS-available by febrile neutropenia risk; no live vaccines.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    },
+    {
+     "h": "99fddeb6934bef34",
+     "n": 90,
+     "p": "Patients"
+    },
+    {
+     "h": "5960f2765d3a959e",
+     "n": 220,
+     "p": "Hypotens"
+    },
+    {
+     "h": "ca35cd996c628e88",
+     "n": 419,
+     "p": "Assess p"
+    },
+    {
+     "h": "87007c57e542e750",
+     "n": 155,
+     "p": "G-CSF (s"
+    },
+    {
+     "h": "8a7d09cdde117592",
+     "n": 104,
+     "p": "Live vac"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **High CNS relapse risk:** CNS-IPI 4–6 (10–12% risk), two or more extranodal sites, or testis, breast, epidural, orbit, kidney or adrenal involvement. Get MRI and CSF (cytology and flow cytometry) as early as possible, ideally before cycle 1. (III, A)",
@@ -473,6 +592,82 @@
     }
    ],
    "locator": "European Hematology Association, HemaSphere, 'Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up', published 23 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Glofitamab (PBS authority, relapsed or refractory DLBCL after two or more lines), every 21 days for 12 cycles:** obinutuzumab 1,000 mg on cycle 1 day 1 to deplete B cells, then glofitamab step-up 2.5 mg on day 8 and 10 mg on day 15, then 30 mg on day 1 of cycles 2 to 12; dexamethasone 20 mg IV before each of the first doses. Consider a 24-hour admission after the first glofitamab dose (or at least 10 hours' observation) and after grade 2 or higher CRS.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3733e1430a5d08dd",
+     "n": 2240,
+     "p": "| oBINUT"
+    },
+    {
+     "h": "8eceeb2310620168",
+     "n": 42,
+     "p": "Glofitam"
+    },
+    {
+     "h": "06c0d6a6c9fbe8a2",
+     "n": 95,
+     "p": "Relapsed"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Epcoritamab (PBS authority, after two or more lines), 28-day cycles until progression:** subcutaneous step-up 0.16 mg on day 1, 0.8 mg on day 8, then 48 mg on days 15 and 22; 48 mg weekly in cycles 2 and 3, fortnightly in cycles 4 to 9, then 4-weekly from cycle 10. Dexamethasone 16 mg on the dosing day and the 3 days after each cycle 1 dose. Consider a 24-hour admission after the first full dose (cycle 1 day 15), or keep the patient near a centre that can manage CRS and ICANS for 24 hours.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "41271fce163404c3",
+     "n": 2491,
+     "p": "| Dexame"
+    },
+    {
+     "h": "8db3dd90f67009ba",
+     "n": 26,
+     "p": "Epcorita"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Bispecific antibody toxicities (S2):** cytokine release syndrome (fever, chills, hypotension, tachycardia, hypoxia) can be fatal and may need interruption, steroids or tocilizumab, so confirm tocilizumab is on hand before starting; ICANS can come with, after or without CRS; tumour flare (pain, swelling) in early cycles can mimic progression and threaten airways when bulky; think of HLH when CRS is atypical or unresponsive.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cce2f47502c191cf",
+     "n": 538,
+     "p": "Cytokine"
+    },
+    {
+     "h": "c81e6be61dbbea2b",
+     "n": 179,
+     "p": "Confirm "
+    },
+    {
+     "h": "c78f97623f9b6b00",
+     "n": 101,
+     "p": "The onse"
+    },
+    {
+     "h": "c9ae55c443a5f321",
+     "n": 434,
+     "p": "Tumour f"
+    },
+    {
+     "h": "c789d7703c55e33a",
+     "n": 449,
+     "p": "Haemopha"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ lymphoma protocols: 70 R-CHOP21 (v.9, last changed 11 April 2024), 4434 Pola-R-CHP (v.1, 12 July 2024), 4454 glofitamab and obinutuzumab (v.1, 4 September 2024) and 4554 epcoritamab (v.1, 5 September 2025)', retrieved 24 September 2026 (70 on as-required review; 4434 review due 30 June 2028; 4454 review due 30 June 2026, now overdue; 4554 review due 31 December 2026), https://www.eviq.org.au/haematology/lymphoma/other-b-cell-lymphoma, retrieved 2026-09-24"
   },
   {
    "claim": "**Do not scan asymptomatic patients routinely** (3B). Review history, examination and blood count for at least 2 years. Being event-free at 2 years means survival matches the general population, and 5 relapse-free years means cure.",

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/hiv-antiretroviral-therapy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://hiv.guidelines.org.au/arv-adult/what-start/intro/"
+  "https://hiv.guidelines.org.au/arv-adult/what-start/intro/",
+  "https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from ASHM Health 'HIV Management Guidelines: Antiretroviral Guidelines (US DHHS Adult and Adolescent guidelines with Australian commentary): Initial Combination ARV Regimens; Initiation of Antiretroviral Therapy; HLA-B*5701 Screening; Protease Inhibitor-Based Regimens; INSTI-Based Regimens' (DHHS text last updated September 2024 (initiation section December 2019); Australian commentary last updated December 2024 (initiation and HLA-B*5701 July 2023)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © ASHM, Australia, 2026 (site footer only; no reuse terms: the footer's Copyright & Disclaimer link returned 404 on 2026-09-23) (read at site footer of https://hiv.guidelines.org.au/ (read 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from ASHM Health 'HIV Management Guidelines: Antiretroviral Guidelines (US DHHS Adult and Adolescent guidelines with Australian commentary): Initial Combination ARV Regimens; Initiation of Antiretroviral Therapy; HLA-B*5701 Screening; Protease Inhibitor-Based Regimens; INSTI-Based Regimens' (DHHS text last updated September 2024 (initiation section December 2019); Australian commentary last updated December 2024 (initiation and HLA-B*5701 July 2023)), 24 claims; LICENCE: © ASHM, Australia, 2026 (site footer only; no reuse terms: the footer's Copyright & Disclaimer link returned 404 on 2026-09-23) (read at site footer of https://hiv.guidelines.org.au/ (read 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons' (version 13.0, 2025 (web pages read 2026-09-24)), 12 claims; LICENCE: © EACS, 2026 - All Rights Reserved (page footer); EACS permits downloading the guidelines for own use and reproducing a portion for educational purposes with referencing (read at the page footers of the two eacs.sanfordguide.com pages and the EACS guidelines page (https://www.eacsociety.org/guidelines/eacs-guidelines/)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the European AIDS Clinical Society guidelines v13.0 (2025): the initial-regimens and switch-strategies pages of the web edition (https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults and https://eacs.sanfordguide.com/eacs-part1/art/eacs-switch-strategies), saved together as one text file; every S1 claim is unchanged. EACS v13.0 is published only on the web (no PDF). S2 is all-rights-reserved, so it is paraphrased and hash-anchored.",
  "summary": {
-  "total": 24,
+  "total": 36,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 36
  },
  "claims": [
   {
@@ -358,6 +359,199 @@
     }
    ],
    "locator": "ASHM Health, 'HIV Management Guidelines: Antiretroviral Guidelines (US DHHS Adult and Adolescent guidelines with Australian commentary): Initial Combination ARV Regimens; Initiation of Antiretroviral Therapy; HLA-B*5701 Screening; Protease Inhibitor-Based Regimens; INSTI-Based Regimens', DHHS text last updated September 2024 (initiation section December 2019); Australian commentary last updated December 2024 (initiation and HLA-B*5701 July 2023), https://hiv.guidelines.org.au/arv-adult/what-start/intro/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**EACS recommended first regimens:** bictegravir/TAF/emtricitabine; dolutegravir with TAF/emtricitabine or TDF with emtricitabine or lamivudine; dolutegravir/lamivudine when HBsAg-negative with viral load under 500,000 copies/mL (not after suspected PrEP failure); or doravirine with TAF/emtricitabine or TDF with emtricitabine or lamivudine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eafaebe3d8a5b325",
+     "n": 598,
+     "p": "Recommen"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**EACS alternatives:** abacavir/lamivudine/dolutegravir (HLA-B*57:01- and HBsAg-negative); raltegravir, efavirenz (at bedtime or 2 hours before dinner) or rilpivirine (only with CD4 over 200 cells/μL, viral load under 100,000 copies/mL, no acid-reducing drugs, and with food) with two NRTIs; or boosted darunavir with two NRTIs, taken with food.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcf40d2903943a27",
+     "n": 1161,
+     "p": "Alternat"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **HIV acquired while taking oral TDF/FTC PrEP: move straight to three drugs,** a high-barrier third agent (dolutegravir or bictegravir, or else boosted darunavir) with tenofovir and emtricitabine or lamivudine, without a gap in treatment. After any PrEP failure, avoid a two-drug start unless the genotype shows no resistance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "823d6ce1991acfd4",
+     "n": 284,
+     "p": "If the p"
+    },
+    {
+     "h": "1430a3f8d9e67986",
+     "n": 178,
+     "p": "Starting"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Doravirine cautions (EACS):** it has no activity against HIV-2, has been compared with efavirenz and darunavir but not with an INSTI, is unsuitable for a rapid start, and a resistance genotype is advisable before it is used.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1a3546e968d1f72a",
+     "n": 400,
+     "p": "DOR is n"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Doses from EACS:** TAF 10 mg alongside P-gp inhibitors and 25 mg otherwise; raltegravir 400 mg twice daily or 1200 mg (two 600 mg tablets) once daily, but twice daily with inducers such as TB drugs or antiepileptics, or with calcium, magnesium or iron; efavirenz 400 or 600 mg daily, and 600 mg with a rifampicin-based TB regimen.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1226754a6afcc912",
+     "n": 139,
+     "p": "TAF is u"
+    },
+    {
+     "h": "027c70548f2ce233",
+     "n": 256,
+     "p": "RAL can "
+    },
+    {
+     "h": "d76964a656f86caf",
+     "n": 115,
+     "p": "400 or 6"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Choose TAF first over TDF** in established chronic kidney disease or high CKD risk, with nephrotoxic co-medication or past TDF toxicity, and in osteoporosis, progressive osteopenia, a high FRAX score or a past fragility fracture. In some countries TDF 300 mg is labelled 245 mg (the prodrug content); the salts are interchangeable.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "684f69a1a98088f2",
+     "n": 377,
+     "p": "TAF *** "
+    },
+    {
+     "h": "e0233592a3293838",
+     "n": 335,
+     "p": "In certa"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**'Suppressed' in switch trials means a viral load under 50 copies/mL held for 6 months or longer.** Before any switch, review the whole ARV history, viral loads, tolerability and cumulative resistance; the aim is to keep suppression while fixing side effects, interactions or comorbidity problems.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ede16448da270abb",
+     "n": 131,
+     "p": "Clinical"
+    },
+    {
+     "h": "5897116255bb81ad",
+     "n": 234,
+     "p": "The comp"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Switches within a class, or between drugs with the same resistance barrier, are usually safe without resistance.** Dolutegravir- and bictegravir-based triple regimens can be used even when the two NRTIs are not fully active, but a boosted PI can go to an NNRTI or raltegravir only if both NRTIs are fully active.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "834ed0edd6a7dd66",
+     "n": 895,
+     "p": "Switches"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **If a switch stops TDF without starting TAF, check hepatitis B status and vaccination first;** in chronic hepatitis B, keep TDF or TAF unless another HBV drug such as entecavir is used. See the person about 4 weeks after any switch.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f9c99a71303cb4a",
+     "n": 253,
+     "p": "If the s"
+    },
+    {
+     "h": "d7233ebc760cd309",
+     "n": 205,
+     "p": "Persons "
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Oral two-drug maintenance** (dolutegravir/rilpivirine, lamivudine/dolutegravir, or emtricitabine or lamivudine with boosted darunavir) is only for people suppressed below 50 copies/mL for 6 months, with no past resistance and with hepatitis B immunity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "497e85f35b21a69d",
+     "n": 568,
+     "p": "In perso"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Long-acting cabotegravir + rilpivirine injections:** start on the day of the last oral pills (an oral lead-in month is optional) with CAB 600 mg/RPV 900 mg on day 0 and at month 1, then every 2 months. Failure and resistance are more likely when several of these coexist: archived rilpivirine mutations, HIV subtype A6, and a BMI of 30 or more (use a longer needle).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eec9bac723cef825",
+     "n": 668,
+     "p": "Long-act"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Not recommended:** monotherapy, NRTI-only combinations, other two-drug pairings, and planned or prolonged treatment interruptions. Four-days-a-week triple therapy looked non-inferior in one trial but is not yet for routine use. A well-tolerated older regimen does not need changing just because it is no longer preferred.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "80f2595513137b44",
+     "n": 728,
+     "p": "Strategi"
+    },
+    {
+     "h": "fb96dbe84bec3a97",
+     "n": 211,
+     "p": "If someo"
+    }
+   ],
+   "locator": "European AIDS Clinical Society (EACS), web edition hosted by Sanford Guide, 'EACS Guidelines version 13.0: Initial Regimens: ART-naive Adults; Switch Strategies for Virologically Suppressed Persons', version 13.0, 2025 (web pages read 2026-09-24), https://eacs.sanfordguide.com/eacs-part1/art/eacs-initial-regimens-arv-naive-adults, retrieved 2026-09-24"
   }
  ]
 }

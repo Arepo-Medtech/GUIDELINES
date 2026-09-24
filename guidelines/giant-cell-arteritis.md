@@ -1,13 +1,15 @@
 # Giant cell arteritis (GCA)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** suspected and confirmed giant cell arteritis in people over 50: history and examination, fast-track referral, imaging and biopsy, glucocorticoid dosing and taper, relapse and steroid-sparing treatment, bone protection and follow-up. Polymyalgia rheumatica alone is not covered.
 
-> ✅ **OPEN AND QUOTED.** 16 claims quoted verbatim from **Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine — *Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis*** (published 6 January 2023 (volume 2022); origin: international); **22 fragments re-checked by machine; 5 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **48 fragments or anchors re-checkable by machine; 5 doses.** **S1** Norwegian Society of Rheumatology GCA working group (Haaversen et al.) (published 6 January 2023 (volume 2022); international): 16 claims, quoted · **S2** American College of Rheumatology and Vasculitis Foundation (Maz M (published online 8 July 2021; international): 11 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Norwegian Society of Rheumatology, 2023). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Tocilizumab timing differs by funder.** This guideline deliberately reserves tocilizumab for patients intolerant of, or relapsing on, methotrexate, because Norway does not fund the early use that the ACR recommends. In Australia tocilizumab is PBS-listed (authority) for GCA; check the PBS criteria before assuming either sequence.
+
+> ⚠️ International guideline (American College of Rheumatology/Vasculitis Foundation, 2021) for S2. It is written for US practice (for example it prefers biopsy to ultrasound because US ultrasound expertise is limited). **S1 and S2 disagree on first-line tocilizumab and on biopsy versus ultrasound; both are shown.**
 
 ---
 
@@ -23,12 +25,17 @@
 - **Ultrasound at least the temporal and axillary arteries** (experienced operator, high-end equipment); adding the facial artery raises sensitivity. If ultrasound is unavailable or inconclusive, consider temporal artery biopsy of >1 cm after fixation; giant cells are not obligatory. [S1]
 - **Image the large vessels too** (ultrasound of carotid, vertebral and subclavian arteries, or CT, MRA or PET-CT): large-vessel involvement may mean difficult-to-treat disease, and temporal involvement carries more risk of visual loss. [S1]
 - **High suspicion plus a positive test confirms GCA; low suspicion plus a negative test makes it unlikely.** Anything else needs individual assessment. [S1]
+- **S2 (ACR, US) prefers temporal artery biopsy to ultrasound or cranial MRI for diagnosis,** because US ultrasound expertise is limited, results depend on the operator, and steroids quickly erase the signs; where the expertise exists, ultrasound is a useful complement. [S2]
+- **Biopsy technique:** start with one side (take the other if symptoms are not one-sided, or the first is negative and doubt remains), take a long segment (>1 cm), and biopsy within two weeks of starting oral steroids; a later biopsy can still help. [S2]
+- **Image the large vessels** after a negative biopsy, and at diagnosis in everyone (CT or MR angiography from neck to pelvis) as a baseline for aneurysm and stenosis follow-up. [S2]
 
 ## Glucocorticoids
 
 - ⚠️ **Start glucocorticoids immediately on suspicion.** Prednisolone 40 mg/day without visual manifestations; 60 mg/day with visual involvement (visual loss, diplopia, amaurosis fugax, blurred vision). A single IV methylprednisolone 500 mg dose before 60 mg/day may be considered, though evidence is sparse. [S1]
 - **Taper:** by 5 mg every 2nd week to 20 mg/day, then 2.5 mg every 3rd week to 10 mg/day, then 1.25 mg every 3rd week to 5 mg/day. From 60 mg/day, first reduce by 10 mg every week to 40 mg/day. [S1]
 - **Continue 5 mg/day for at least 1 year from the start;** taper further only individually, after at least 1 year in remission. [S1]
+- **S2 (ACR): start high-dose oral steroids daily** (not on alternate days, and not a moderate dose unless steroid toxicity risk is high and the risk of visual loss is low). Without cranial ischaemia, oral beats IV pulses; **with threatened visual loss, use IV pulse steroids.** [S2]
+- **S2: how long to continue steroids is not established;** it should follow the patient's values and preferences, the number of flares and steroid toxicity. [S2]
 
 ## Relapse and steroid-sparing treatment
 
@@ -36,11 +43,17 @@
 - **Refractory disease or major relapse: consider methotrexate 20 mg/week, preferably subcutaneous,** adjusted for age and kidney function. [S1]
 - ⚠️ **Tocilizumab 162 mg/week subcutaneously** if methotrexate is not tolerated or relapse occurs on it. Leflunomide or azathioprine have scarce evidence; there is no robust evidence for TNF inhibitors or other biologics. [S1]
 - **Relapsing or refractory disease: reconsider the diagnosis** (for example malignancy or an autoinflammatory syndrome). [S1]
+- ⚠️ **S2 (ACR) differs from S1: it suggests tocilizumab with steroids from diagnosis** rather than steroids alone, for its steroid-sparing effect (GiACTA); methotrexate with steroids, or steroids alone, remain options, and abatacept if these fail. Cost and limited long-term data may restrict tocilizumab. [S2]
+- **Active large-vessel (extracranial) disease: add a steroid-sparing drug,** preferably tocilizumab; methotrexate if tocilizumab is unsuitable (recurrent infections, past bowel perforation or diverticulitis, or cost). [S2]
+- **S2 on relapse:** relapse on moderate or high-dose steroids → add a steroid-sparing drug; relapse with cranial ischaemia → raise steroids and add one; cranial relapse → prefer tocilizumab to methotrexate. Polymyalgia-type relapses may need only a higher steroid dose. [S2]
+- **Worsening limb or organ ischaemia: escalate immunosuppression before surgery,** unless an aortic aneurysm is at high risk of rupture or tissue infarction is imminent. Plan vascular procedures jointly with the vascular surgeon, and cover them with high-dose steroids if the disease is active. [S2]
 
 ## Protect and follow up
 
 - **Check bone density in new-onset GCA** and treat osteoporosis risk. **Aspirin is not routine** unless there is a cardiovascular reason. [S1]
 - **Review monthly until remission, then at 3 months, 6 months, and yearly.** [S1]
+- **S2: no statin to treat GCA itself; add aspirin only for critical or flow-limiting vertebral or carotid disease.** Statins for cardiovascular risk are a separate decision. [S2]
+- ⚠️ **S2: keep monitoring long term in remission** (strong recommendation, because missed disease can be catastrophic). **A rise in ESR or CRP alone is not a reason to escalate;** watch more closely instead. [S2]
 
 ---
 
@@ -59,13 +72,17 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Tables** (history/exam checklist, ultrasound findings, biopsy criteria, taper schedule, relapse definitions, Kerr's criteria) were stripped; the taper stated here is from the text. | `input_unavailable` |
-| 2 | **No Australian GCA guideline was found.** The newer 2025 EULAR PMR/LVV recommendations (Ann Rheum Dis 2026, CC BY-NC-ND) were skipped: Europe PMC marks them subscription-only and the publisher site returned HTTP 403. The 2021 ACR/Vasculitis Foundation guideline recommends earlier tocilizumab. | `observation` |
-| 3 | **Licence:** CC BY 4.0 (© 2023 the authors). Claims are quoted with attribution to Haaversen et al., Front Med 2022. | `observation` |
+| 2 | **No Australian GCA guideline was found** (searched again 2026-09-24). The newer 2025 EULAR PMR/LVV recommendations (Ann Rheum Dis 2026, CC BY-NC-ND) were skipped: Europe PMC marks them subscription-only and the publisher site returned HTTP 403. The 2021 ACR/Vasculitis Foundation guideline, which recommends earlier tocilizumab, is now S2. | `observation` |
+| 3 | **Sources disagree on tocilizumab timing:** S1 (Norway) reserves it for methotrexate failure or intolerance; S2 (ACR 2021) suggests it with steroids from diagnosis. Both are shown; the PBS authority criteria decide Australian access. | `observation` |
+| 4 | **Sources disagree on the first diagnostic test:** S1 puts ultrasound (temporal and axillary) first with biopsy if ultrasound is unavailable or inconclusive; S2 prefers biopsy, citing limited US ultrasound expertise. Both are shown; choice depends on local ultrasound expertise. | `observation` |
+| 5 | **S2's glucocorticoid dose ranges** (what 'high' and 'moderate' dose mean) are in its definitions table, which was not in the text; S2 gives no tocilizumab or methotrexate doses. S2 is an NIH author manuscript (fair use and text mining only), so it is paraphrased and hash-anchored. | `input_unavailable` |
+| 6 | **Licence:** CC BY 4.0 (© 2023 the authors). Claims are quoted with attribution to Haaversen et al., Front Med 2022. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Norwegian Society of Rheumatology GCA working group (Haaversen et al.), Frontiers in Medicine. *Norwegian society of rheumatology recommendations on diagnosis and treatment of patients with giant cell arteritis*. published 6 January 2023 (volume 2022). https://europepmc.org/article/PMC/PMC9853546 — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | American College of Rheumatology and Vasculitis Foundation (Maz M, Chung SA, Abril A, et al.), Arthritis & Rheumatology 73(8):1349-1365 (doi 10.1002/art.41774), NIH author manuscript NIHMS2099608. *2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis*. published online 8 July 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/ — retrieved 2026-09-24. | NIH author manuscript, not open access: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

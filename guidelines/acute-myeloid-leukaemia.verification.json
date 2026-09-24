@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/acute-myeloid-leukaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.hsanz.org.au/resources/Documents/LF%20Clinical%20Guidelines%20AML%202024_WEB_R.pdf"
+  "https://www.hsanz.org.au/resources/Documents/LF%20Clinical%20Guidelines%20AML%202024_WEB_R.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ) 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)' (v1.0, February 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © 2025 Haematology Society of Australia & New Zealand. All Rights Reserved. (site-wide footer; the PDF itself carries a disclaimer but no reuse statement) (read at https://www.hsanz.org.au/AML-Guidelines (page footer)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ) 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)' (v1.0, February 2025), 25 claims; LICENCE: © 2025 Haematology Society of Australia & New Zealand. All Rights Reserved. (site-wide footer; the PDF itself carries a disclaimer but no reuse statement) (read at https://www.hsanz.org.au/AML-Guidelines (page footer)). S2: QUOTED from Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI) 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus' (published 2026), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13409292). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every HSANZ 2025 claim (S1) unchanged and adds S2, the 2026 Canadian Leukemia Study Group consensus on AML in older patients (CC BY 4.0, quoted), for the practical management of venetoclax- and ivosidenib-based less-intensive therapy and relapse after it, which S1 does not detail. S2 is a national expert consensus with no formal evidence grading (its own methods state this); ELN 2022 was not added because S1 already builds on it and it predates S1.",
  "summary": {
-  "total": 25,
-  "pass": 0,
+  "total": 36,
+  "pass": 11,
   "fail": 0,
   "pass_paraphrase_anchored": 25
  },
@@ -398,6 +399,72 @@
    "locator": "Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ), 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)', v1.0, February 2025, https://www.hsanz.org.au/resources/Documents/LF%20Clinical%20Guidelines%20AML%202024_WEB_R.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "**Choose intensive or less-intensive therapy on fitness plus disease biology, not age alone;** use a comprehensive geriatric assessment where available, and re-evaluate fitness during treatment because it often changes.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Treatment decisions regarding intensive vs. less-intensive therapy in older AML patients should be based on assessments of fitness as well as disease biology. Age alone should not be used as an indicator of suitability for different treatment options, although for most older patients, less-intensive combination treatment approaches are preferred. Comprehensive geriatric assessments (CGAs), if available, should be used to better assess overall fitness, identify potential areas of concern and assess for possible early interventions. There are insufficient data to recommend one set of CGA tools over another. Fitness for treatment often changes during the patients' treatment course and should be re-evaluated on a regular basis.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **TP53-mutated AML in older patients:** survival is dismal with any approach, so less-intensive therapy is generally preferred even in fitter patients. AZA-VEN may be used for induction, then switch responders to azacitidine alone unless prompt allograft is planned.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients with TP53-mutated AML have dismal overall survival rates whether they receive intensive chemotherapy, HMA + venetoclax, or HMA alone [,]. For such older patients, less-intensive therapies are generally preferred, even if they are more fit. … Patients with TP53 mutations may receive either HMA monotherapy or azacitidine + venetoclax. Patients who receive azacitidine + venetoclax and achieve a response may be switched to azacitidine monotherapy as post-remission therapy. … Discontinuation of venetoclax following marrow blast clearance should be considered in patients with TP53 mutations who are not earmarked for prompt alloSCT.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Venetoclax ramp-up can usually be outpatient,** but admit for: proliferative disease (such as markedly raised LDH), tumour lysis before starting, significant renal dysfunction, WBC > 20 not controlled by hydroxyurea, inability to monitor as an outpatient, haemodynamic instability, coagulopathy (DIC, hyperfibrinolysis) or active infection.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "in practice clinicians have generally been able to safely ramp-up venetoclax on an outpatient basis in the majority of cases []. However, some patients should be admitted during the ramp-up phase, including patients with the following: Proliferative disease (e.g., markedly elevated lactate dehydrogenase (LDH)); Evidence of tumor lysis prior to starting therapy (e.g., elevated urate, phosphate); Significant baseline renal dysfunction; White blood count (WBC) > 20 and unable to adequately cytoreduce with hydroxyurea; Inability to monitor adequately as outpatient; Hemodynamic instability; Coagulopathy (DIC, hyperfibrinolysis); Active infection.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **TLS prophylaxis for every patient:** allopurinol at least 48 h before venetoclax; normalise urate (rasburicase if needed, excluding G6PD deficiency first where possible); IV hydration during ramp-up; check potassium, creatinine, phosphate, calcium, uric acid and LDH every 6–8 h for proliferative inpatients, or daily for the first 3–4 days as outpatients.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Start allopurinol at least 48 h prior to start of venetoclax in all patients unless prior allergy. Normalize serum urate, using rasburicase if necessary. X-linked glucose-6-phosphate dehydrogenase (G6PD) deficiency should be ruled out, if possible, prior to giving rasburicase, especially in patients of African, Asian, Mediterranean, or Middle Eastern descent. If the patient has signs of acute kidney injury, optimize renal function with hydration prior to start. Use intravenous (IV) hydration during ramp-up of venetoclax dosing: ○ Inpatient: continuous IV infusion; ○ Outpatient: daily IV boluses. Closely monitor TLS parameters during ramp-up: ○ Inpatient: Monitor potassium, creatinine, phosphate, calcium, uric acid, LDH every 6-8 h in patients with proliferative disease; ○ Outpatient: Monitor daily for the first 3-4 days during the ramp-up period.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Venetoclax dosing with azacitidine: a rapid 3–4 day ramp-up of 100–200–400 mg daily in cycle 1,** modified when an azole antifungal is used. Most centres now give 21 days or less of venetoclax in cycle 1 if the day-21 marrow shows blast clearance; if leukaemia persists, continue venetoclax and start the second cycle by day 28–30.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Rapid 3-4 day ramp-up of venetoclax dosing should be used in cycle 1, to minimize the risk of TLS. The standard ramp-up with azacitidine + venetoclax is 100-200-400 mg daily. This should be modified when using azole antifungals … Most centers now use 21 days or less in cycle 1, provided blast clearance in the marrow has been documented by day 21. If there is morphologic evidence of leukemia persistence, venetoclax should be continued, and the second cycle started by day 28-30.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**During induction:** check blood counts at least twice weekly; do a marrow before the end of cycle 1 (day 21–28) and then every cycle until blasts clear; stop venetoclax for that cycle once clearance is documented; give G-CSF only after documented blast clearance.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Blood counts should be monitored at least twice weekly during induction cycles … A repeat bone marrow aspirate +/- biopsy should be performed prior to the end of cycle 1 (day 21-28, depending on number of days of venetoclax chosen), and then every cycle until clearance of blasts from the marrow. … G-CSF (filgrastim) may be used for neutrophil recovery (especially if recovery is delayed), but only after marrow blast clearance has been documented. Stop induction cycle venetoclax once marrow blast clearance has been documented.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Later cycles:** for recurrent severe cytopenias, shorten venetoclax to 14, 10 or 7 days per cycle; if that fails, reduce azacitidine (for example to 50 mg/m2 daily), then shorten it (for example to 5 days). Do not cut the daily venetoclax dose except for drug interactions. Delay cycles for count recovery; most patients need 35–42-day cycles.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Progressive reductions in the duration of venetoclax treatment to 14, 10 or 7 days per cycle may be needed in subsequent cycles for severe neutropenia and/or thrombocytopenia. If severe cytopenias recur despite these modifications, a reduction in the azacitidine dose (e.g., to 50 mg/m2 daily) may be warranted. If azacitidine dose reduction is ineffective, then shortening the duration (e.g., to 5 days) could be considered. The daily dose of venetoclax should generally not be reduced, except in the case of drug-drug interactions. Subsequent cycles should be delayed (e.g., 1-2 weeks) until adequate count recovery of both neutrophils and platelets. Most patients require 35-42-day cycle lengths",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Duration and response:** continue less-intensive treatment until progression or intolerance, with dose changes as needed; with no objective response or benefit after two or more cycles of AZA-VEN, consider other options. S2 does not routinely advise stopping in MRD-negative remission, given no prospective data.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In general, less-intensive treatment should be used continuously until disease progression or intolerance, with dose modifications as warranted. Patients with no objective response or evidence of benefit after two or more cycles of azacitidine + venetoclax should be considered for other treatment options, if available. … However, given the lack of prospective studies in this area, we would not routinely suggest treatment discontinuation, even if MRD negative.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Azacitidine with ivosidenib:** ivosidenib 500 mg daily continuously, with azacitidine 75 mg/m2 daily for 7 days per cycle. Watch for differentiation syndrome (14% in AGILE, usually in the first month: rising leucocytes, weight gain, effusions, rising creatinine, fever); treat with hydroxyurea, dexamethasone 10 mg twice daily for 3–5 days and diuretics. Do an ECG before and in the first 2 weeks; hold for QTcF > 500 msec and reduce to 250 mg daily if it recurs.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Ivosidenib is given at a dose of 500 mg daily, continuously, during induction and post-remission maintenance. Azacitidine is given at standard doses, i.e., 75 mg/m2 daily × 7 day per cycle. … In the AGILE study the incidence of DS was 14% in patients receiving azacitidine + ivosidenib and 8% in patients receiving azacitidine + placebo. DS usually occurred in the first month of therapy, but some cases occurred in the second month []. Early signs of DS may include any of the following: Rising leukocyte count; Weight gain and fluid retention; Pleural effusions and dyspnea; Rising creatinine; Fever. … If DS is suspected, therapeutic measures include the use of hydroxyurea for rising leukocyte count, corticosteroids (e.g., dexamethasone 10 mg BID for 3-5 days) and diuretics as needed … ECGs should be done prior to starting and in the first 2 weeks of treatment. If QTcF (QTc using the Fridericia formula) prolongation to >500 msec occurs, ivosidenib should be held temporarily and any electrolyte abnormalities corrected, until the QTcF improves to <500 msec. If this recurs or persists, the ivosidenib dose may need to be reduced to 250 mg daily.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "⚠️ **Re-test FLT3 in every relapsed or refractory patient, including after allograft; if FLT3-ITD or -TKD is present, use gilteritinib** (better survival and fewer adverse events than salvage chemotherapy in ADMIRAL and COMMODORE). In FLT3-mutated disease failing to reach partial response after induction, move to gilteritinib then, not after more chemotherapy.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -466,6 +533,13 @@
    ],
    "locator": "Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ), 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)', v1.0, February 2025, https://www.hsanz.org.au/resources/Documents/LF%20Clinical%20Guidelines%20AML%202024_WEB_R.pdf, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Relapse after AZA-VEN or another less-intensive combination (S2):** gilteritinib if FLT3-ITD or -TKD is found at an allelic ratio ≥ 5%; for NPM1 or KMT2A alterations, an oral menin inhibitor (revumenib, US-available; remissions in 25–40%), otherwise a clinical trial; else best supportive care with or without hydroxyurea, or palliative azacitidine or LDAC.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "If a FLT3-ITD or tyrosine kinase domain (TKD) mutation is identified at allelic ratio ≥ 5%, gilteritinib should be used … If an NPM1 or KMT2A mutation is identified, an oral menin inhibitor may be used. Revumenib is available in the U.S. Although no menin inhibitor is currently approved in Canada, many centers have clinical trials with these agents, and patients should be referred to a center offering such studies. Menin inhibitors have induced remission in 25-40% of patients with these mutations … If not eligible for any of these, best supportive care +/- hydroxyurea should be offered. Some patients may be maintained on palliative azacitidine or LDAC monotherapy, in an attempt to delay disease progression.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
   },
   {
    "claim": "**After non-intensive salvage fails:** low-dose cytarabine with or without thioguanine, or best supportive care. Outcomes after AZA-VEN failure are dismal, so discuss goals of care early, involve palliative care, and state the toxicity risks plainly before any further chemotherapy.",
@@ -548,6 +622,13 @@
     }
    ],
    "locator": "Blood Cancer Taskforce, Leukaemia Foundation and Haematology Society of Australia and New Zealand (HSANZ), 'Australian clinical guidelines: National treatment guidelines for adults with acute myeloid leukaemia (Version 1.0)', v1.0, February 2025, https://www.hsanz.org.au/resources/Documents/LF%20Clinical%20Guidelines%20AML%202024_WEB_R.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Where the sources differ, prophylaxis on venetoclax-based less-intensive therapy (S2):** S2 advises antibacterial (such as levofloxacin, avoiding CYP3A inhibitors), antiviral and antifungal prophylaxis while the neutrophil count is < 0.5, with venetoclax dose adjustment for azoles, and reinstating it for recurrent severe neutropenia expected to last over 7 days. S1 reserves antifungal prophylaxis with venetoclax for high-risk patients and reached no consensus on antibacterial prophylaxis.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Antimicrobial prophylaxis should be used during neutropenic phase (absolute neutrophil count (ANC) < 0.5): ○ Antibacterial: e.g., levofloxacin (avoid CYP3A inhibitors) ○ Antiviral: e.g., acyclovir or valacyclovir ○ Antifungal: Incorporate appropriate venetoclax dose adjustments for azoles … Consider reinstating antimicrobial prophylaxis, e.g., if the patient had prior infections or if the duration of severe neutropenia is expected to be longer than 7 days.",
+   "locator": "Canadian Leukemia Study Group/Groupe canadien d'étude sur la leucémie (CLSG/GCEL), Current Oncology (MDPI), 'Management of Acute Myeloid Leukemia in Older Patients: An Updated Canadian Consensus', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13409292/, retrieved 2026-09-24"
   },
   {
    "claim": "**PJP and herpes prophylaxis:** trimethoprim-sulfamethoxazole with fludarabine-based intensive regimens (and other T-cell-impairing therapy); valaciclovir against HSV/VZV for all patients on active treatment.",

@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/sialorrhoea.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10757066/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10757066/",
+  "https://www.nice.org.uk/guidance/ng62/chapter/Recommendations"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations' (published 13 December 2023). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10757066). The ranked source (PMC9113851, the 2022 German-language consensus, CC BY-NC-ND) was superseded by this English international update from the same expert group, which is CC BY; the update was used instead.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations' (published 13 December 2023), 18 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10757066). S2: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control' (published 25 January 2017; section 1.11 prescribing notes dated September 2024), 7 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the saliva-control section of NICE NG62 (cerebral palsy in under 25s), for the anticholinergic-first treatment sequence in children and young people. A fresh Europe PMC search (2026-09-24) again found no Australian sialorrhoea guideline; the other open candidates (an Italian paediatric Delphi consensus, 2022, and Parkinson's Europe recommendations, 2023) are industry-funded expert statements that add less. The S1 claims and fragments are unchanged. The ranked source (PMC9113851, the 2022 German-language consensus, CC BY-NC-ND) was superseded by this English international update from the same expert group, which is CC BY; the update was used instead.",
  "summary": {
-  "total": 18,
+  "total": 25,
   "pass": 18,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 7
  },
  "claims": [
   {
@@ -64,6 +66,99 @@
    "verdict": "pass",
    "source_text": "Patients on anticoagulant therapy with vitamin K antagonists, new oral anticoagulants or high-dose heparin treatment should, if possible, pause their anticoagulant therapy before receiving BoNT/A injections. If this is not possible, the patient must be monitored for approx. 30 min after the injections to rule out complications due to hematoma formation in the floor of the mouth. Before treatment with IncoBoNT/A the contraindications must be observed as per product labeling; patients with known hypersensitivity to any of the product components or with an infection at the proposed injection site cannot be treated. The effect of IncoBoNT/A injections can be increased when combined with irradiation treatment of head and neck area (including salivary glands) and/or with simultaneous use of anticholinergics, which should be avoided. Furthermore, due to lack of data, IncoBoNT/A should not be used during pregnancy and lactation.",
    "locator": "German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807, 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations', published 13 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10757066/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Before any drug, look at what drives the drooling:** positioning, current medicines, reflux and dental problems.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a0bc27c3f0bd236f",
+     "n": 186,
+     "p": "Assess f"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **First line in NICE: an anticholinergic,** either glycopyrronium bromide (by mouth or enteral tube) or a transdermal hyoscine hydrobromide patch; trihexyphenidyl is an option for dyskinetic cerebral palsy with specialist input. Choose with the family, allowing for licensed age ranges (in the UK, oral glycopyrronium is unlicensed under 3 years and the hyoscine patch under 10).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0bf7fc058b928bba",
+     "n": 559,
+     "p": "To reduc"
+    },
+    {
+     "h": "ccd2388389f4001a",
+     "n": 449,
+     "p": "For reco"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Review every saliva-control drug regularly** for benefit, tolerability and side effects.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bf78fa9a0e22fbe4",
+     "n": 113,
+     "p": "Regularl"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If anticholinergics are unsuitable, poorly tolerated or ineffective, refer to a specialist service** and consider ultrasound-guided botulinum toxin A injection of the salivary glands.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "288e99bf8fca2641",
+     "n": 242,
+     "p": "Refer th"
+    },
+    {
+     "h": "2d088b8f080bb85e",
+     "n": 292,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In the UK, incobotulinumtoxinA (Xeomin) is the only botulinum toxin A licensed for chronic neurological sialorrhoea** (adults, and ages 2 to 17 years at 12 kg or more); other preparations are off-label. NICE technology appraisal TA605 (2019) recommends it for people aged 18 and over.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ff3ff5c42a4558bc",
+     "n": 503,
+     "p": "For reco"
+    },
+    {
+     "h": "079e1418a71c3ca4",
+     "n": 252,
+     "p": "Xeomin ("
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider a surgical opinion** once a safe swallow is confirmed, if lifelong drug treatment may be needed, or if both anticholinergics and botulinum toxin A have failed or were not tolerated.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3fbc8d76422ebb69",
+     "n": 269,
+     "p": "Consider"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Adults: incobotulinumtoxinA 100 units in 2 mL saline 0.9%:** 30 units (0.6 mL) into each parotid and 20 units (0.4 mL) into each submandibular gland. Re-treat after 16 weeks.",
@@ -137,6 +232,19 @@
    "verdict": "pass",
    "source_text": "Patients may experience the occurrence or worsening of a swallowing disorder. In such cases, a potential progression of the underlying disease or newly emerging symptoms or diseases must be considered. Endoscopic swallowing diagnostics (FEES) are useful to determine such causes and to rule out the injection or diffusion of BoNT/A into the muscles of the floor of the mouth or pharynx as a causative factor. Changes in a dyskinetic movement disorder are also possible factors for changes in swallowing issues, particularly during child development phases, e.g., puberty. A decrease in BoNT/A dose should be considered if insufficient salivary flow is observed, leading to problems with food intake, due to potential over-treatment.",
    "locator": "German interdisciplinary expert group (Jost WH, Bäumer T, Bevot A, et al.), Frontiers in Neurology vol 14, doi 10.3389/fneur.2023.1275807, 'Botulinum neurotoxin type A in the interdisciplinary treatment of sialorrhea in adults and children—update and practice recommendations', published 13 December 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10757066/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Tell families that high-dose botulinum toxin A to the salivary glands can, rarely, impair swallowing:** return to hospital at once if breathing or swallowing becomes difficult.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0353bf12f0136442",
+     "n": 265,
+     "p": "Advise c"
+    }
+   ],
+   "locator": "National Institute for Health and Care Excellence (NICE), 'Cerebral palsy in under 25s: assessment and management (NG62), section 1.11 Managing saliva control', published 25 January 2017; section 1.11 prescribing notes dated September 2024, https://www.nice.org.uk/guidance/ng62/chapter/Recommendations, retrieved 2026-09-24"
   },
   {
    "claim": "**Alternatives:** anticholinergics (atropine, scopolamine, glycopyrrolate) carry systemic side-effect risks; surgery and radiotherapy are options with their own risks. BoNT/A's local action suits the elderly with cognitive impairment, people with hallucinations, children with intellectual disability and those with cardiovascular risk.",

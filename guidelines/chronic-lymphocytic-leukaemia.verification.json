@@ -1,22 +1,82 @@
 {
  "guideline": "guidelines/chronic-lymphocytic-leukaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13458224/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13458224/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update' (published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13458224). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update' (published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503)), 23 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC13458224). S2: PARAPHRASED AND HASH-ANCHORED from European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403) 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation' (published 2026), 12 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC13254007). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every Australasian 2026 claim (S1) unchanged and adds S2, the EHA 2026 CLL and Richter transformation guideline (the successor to the ESMO CLL guideline), paraphrased because it is CC BY-NC-ND 4.0. S2 adds the iwCLL treatment indications, vaccination and immunoglobulin replacement, autoimmune cytopenias, cardiovascular work-up before BTK inhibitors and Richter transformation, which S1 does not cover. A correction notice (PMC13449934, CC BY 4.0) changed only Figure 1 and a figure attribution; figures were not extracted, so no claim is affected.",
  "summary": {
-  "total": 23,
+  "total": 35,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 35
  },
  "claims": [
+  {
+   "claim": "**Diagnose CLL by flow cytometry:** at least 5 billion per litre clonal B cells expressing CD19, CD5 and CD23. SLL has fewer than 5 billion per litre circulating clonal cells with lymphoid tissue involvement and is managed as CLL.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c81ade14a8c0657",
+     "n": 178,
+     "p": "A diagno"
+    },
+    {
+     "h": "de8bc15289c76e04",
+     "n": 171,
+     "p": "SLL, whi"
+    },
+    {
+     "h": "29fcffc05a767082",
+     "n": 168,
+     "p": "Although"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Start treatment only for active disease by iwCLL 2018 criteria; a high-risk prognostic score alone is not a reason.** At least one of: marrow failure (haemoglobin under 100 g/L or platelets under 100, though stable low platelets may be watched); nodes over 10 cm or progressive/symptomatic nodes; spleen over 6 cm below the costal margin or progressive/symptomatic; lymphocytes rising over 50% in 2 months or doubling in under 6 months; autoimmune anaemia or thrombocytopenia not responding to steroids; symptomatic extranodal disease; or symptoms (weight loss over 10% in 6 months, ECOG 2 or worse fatigue, fever of 38.0°C for 2 weeks or more, or night sweats for over 1 month, without infection).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0f13bdcd6434d3cf",
+     "n": 350,
+     "p": "Classifi"
+    },
+    {
+     "h": "b997a1929fba3144",
+     "n": 1823,
+     "p": "Accordin"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before venetoclax, image the neck, chest, abdomen and pelvis by CT or MRI** to gauge tumour bulk and tumour lysis risk; routine CT or marrow biopsy is otherwise not needed for response assessment in practice.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bdda76a7fb1364af",
+     "n": 290,
+     "p": "radiogra"
+    },
+    {
+     "h": "286f551eea9eb23f",
+     "n": 132,
+     "p": "In clini"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
   {
    "claim": "**Before first-line treatment, test the blood for IGHV mutation status and run NGS plus FISH or microarray.** (II, A)",
    "source": "S1",
@@ -222,6 +282,65 @@
    "locator": "Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal, 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update', published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503), https://pmc.ncbi.nlm.nih.gov/articles/PMC13458224/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Where the sources differ, acalabrutinib plus obinutuzumab (S2):** S2 advises against preferring it over acalabrutinib alone because of the added toxicity and cost-benefit balance, while S1 sees a role in younger patients who tolerate infections better. S2 also favours time-limited over continuous therapy in both IGHV groups where kidney function and the venetoclax ramp-up allow; AV with or without obinutuzumab runs for 14 cycles (AMPLIFY).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "773a53abfabb0fce",
+     "n": 154,
+     "p": "Acalabru"
+    },
+    {
+     "h": "98af4f7abbc08f78",
+     "n": 99,
+     "p": "Because "
+    },
+    {
+     "h": "ee5754d833a0ad41",
+     "n": 156,
+     "p": "However-"
+    },
+    {
+     "h": "0fa8b8f070733d27",
+     "n": 66,
+     "p": "acalabru"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Heart check before any BTK inhibitor (S2):** do a thorough cardiovascular assessment first and optimise blood pressure treatment. Generally avoid BTK inhibitors after ventricular arrhythmia or with uncontrolled heart failure; with cardiovascular disease or a need for anticoagulation, a BCL-2 inhibitor is favoured.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a910c8a8c9647a52",
+     "n": 502,
+     "p": "It is re"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**TP53-disrupted disease (S2):** until longer data mature, a continuous second-generation BTK inhibitor may be the preferred choice (mind cardiac comorbidity). Triplets (acalabrutinib or ibrutinib with venetoclax and obinutuzumab) are an option for patients who can bear the extra infection risk; idelalisib with rituximab or continuous venetoclax alone remain for those unsuited to BTK inhibitors.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dfedfb44b3f19386",
+     "n": 473,
+     "p": "Until lo"
+    },
+    {
+     "h": "45f189453591e6f4",
+     "n": 188,
+     "p": "These da"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Venetoclax on its own is an acceptable first-line option** but is not preferred when other targeted drugs or combinations can be given, because supporting data are thin.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -333,6 +452,57 @@
    "locator": "Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal, 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update', published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503), https://pmc.ncbi.nlm.nih.gov/articles/PMC13458224/, retrieved 2026-09-23"
   },
   {
+   "claim": "**After progression on a covalent BTK inhibitor, do not give another covalent one (S2);** move to a venetoclax regimen or pirtobrutinib (69% response, median PFS 14 months after covalent BTK inhibitors). If the covalent drug was stopped for side effects and the disease later relapsed, the same class can be used again. After fixed-duration venetoclax, re-treatment works best when the treatment-free gap was over 2 years; an earlier relapse calls for a change of class.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "297c80476c2365e7",
+     "n": 218,
+     "p": "Patients"
+    },
+    {
+     "h": "39cab23c808b05b0",
+     "n": 156,
+     "p": "Patients"
+    },
+    {
+     "h": "dffd9480db9887af",
+     "n": 107,
+     "p": "Pirtobru"
+    },
+    {
+     "h": "33fd3ac5b6bcb1c4",
+     "n": 138,
+     "p": "Re‐treat"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Double-refractory disease (S2):** pirtobrutinib is preferred, with idelalisib plus rituximab where it cannot be obtained. Consider allograft, bridging with either to maximal response; about 50% of eligible patients with controlled disease gain long remissions, though data in this group are few. Trials of BTK degraders, bispecifics or CAR T-cells are strongly advised.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "84e2c75b6ca39793",
+     "n": 177,
+     "p": "represen"
+    },
+    {
+     "h": "683ddf915a7259f7",
+     "n": 458,
+     "p": "Allogene"
+    },
+    {
+     "h": "3424c98dba4fa7b3",
+     "n": 221,
+     "p": "Consider"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Allogeneic transplant is the only proven cure.** Consider it for young, fit patients once their second targeted regimen has started, especially with adverse genetics (II, B), and for young patients with Richter transformation.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -362,6 +532,118 @@
     }
    ],
    "locator": "Australasian Lymphoma Alliance, ALLG CLL Working Party and HSANZ, Internal Medicine Journal, 'Australasian chronic lymphocytic leukaemia consensus statement: 2026 update', published 7 July 2026 (Intern Med J 2026;56(8):1421-1428, doi 10.1111/imj.70503), https://pmc.ncbi.nlm.nih.gov/articles/PMC13458224/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Suspect Richter transformation (2–10% of patients) and confirm it by biopsy, ideally excisional,** guided by high FDG-PET uptake; tell it apart from accelerated CLL and from pseudo-Richter flare after stopping a BTK inhibitor. Test whether it is clonally related to the CLL (IGHV-IGHD-IGHJ sequencing) and check del(17p)/TP53.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c445bc34a0aaf31a",
+     "n": 77,
+     "p": "RT refer"
+    },
+    {
+     "h": "aa65f65726b8fee8",
+     "n": 540,
+     "p": "Patholog"
+    },
+    {
+     "h": "882068139e39fcf6",
+     "n": 160,
+     "p": "The eval"
+    },
+    {
+     "h": "2b4c45b2625bd13e",
+     "n": 117,
+     "p": "Assessme"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Treat clonally unrelated Richter DLBCL as de novo DLBCL and Hodgkin-type Richter as classical Hodgkin lymphoma;** clonally related disease has no standard, so a trial is preferred, with R-CHOP-type chemoimmunotherapy as the default otherwise (complete response 5–38%). Consider transplant for eligible patients with clonally related DLBCL who respond.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1ce8962e66143d3b",
+     "n": 241,
+     "p": "Patients"
+    },
+    {
+     "h": "ddce0ebbea62e06e",
+     "n": 210,
+     "p": "When the"
+    },
+    {
+     "h": "cf3a17908a9a77d5",
+     "n": 177,
+     "p": "Given th"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Infection prevention during watch-and-wait (S2):** pneumococcal conjugate vaccine 20-valent at diagnosis, then the polysaccharide vaccine (PPV23) at least 2 months later, repeated every 5 years; recombinant zoster vaccine (no live vaccines, including the old live zoster vaccine); influenza and SARS-CoV-2 per national schedules. Give immunoglobulin replacement for recurrent or acute infections with IgG below 4 g/L, preferably subcutaneous.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c5c3cb7e89901005",
+     "n": 346,
+     "p": "Vaccinat"
+    },
+    {
+     "h": "f015351eec533574",
+     "n": 216,
+     "p": "At diagn"
+    },
+    {
+     "h": "863aae064885ed9f",
+     "n": 119,
+     "p": "Live vac"
+    },
+    {
+     "h": "8112d16e9292fb50",
+     "n": 304,
+     "p": "Immunogl"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Autoimmune cytopenias (S2):** if CLL itself does not need treatment, treat warm autoimmune haemolysis with immunosuppression (steroids plus rituximab beat steroids alone) and cold agglutinin disease with warmth and rituximab alone; treat immune thrombocytopenia first with steroids or IV immunoglobulin (50–60% respond) or weekly rituximab for 4 weeks, and treat the CLL before second- or third-line ITP therapy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f81564607aa4905",
+     "n": 158,
+     "p": "For pati"
+    },
+    {
+     "h": "9992165397fb83b2",
+     "n": 174,
+     "p": "Two smal"
+    },
+    {
+     "h": "39b14f222a8a76cd",
+     "n": 239,
+     "p": "Cold agg"
+    },
+    {
+     "h": "dc69c184f3f14915",
+     "n": 132,
+     "p": "Response"
+    },
+    {
+     "h": "f1f89789a0eb8794",
+     "n": 98,
+     "p": "However,"
+    }
+   ],
+   "locator": "European Hematology Association (Eichhorst B, Ghia P, Bosch F, et al.), HemaSphere 2026;10(6):e70403 (doi 10.1002/hem3.70403), 'EHA Guidelines on management of chronic lymphocytic leukemia and Richter transformation', published 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13254007/, retrieved 2026-09-24"
   },
   {
    "claim": "**Plan supportive care around** immune suppression and infection, frequent cardiovascular disease, second cancers (in Australia notably skin cancer, and myeloid neoplasms after chemoimmunotherapy), osteoporosis and fragility fractures, frailty, and psychosocial harm, ideally within a person-centred survivorship model.",

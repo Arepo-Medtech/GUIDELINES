@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/fibrodysplasia-ossificans-progressiva.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150 'Medical guidelines for fibrodysplasia ossificans progressiva' (published November 2025 (online 19 September 2025)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12548730). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150 'Medical guidelines for fibrodysplasia ossificans progressiva' (published November 2025 (online 19 September 2025)), 21 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC12548730). S2: QUOTED from Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y) 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)' (published online 21 August 2023), 12 claims; LICENCE: CC BY 4.0 (© The Author(s) 2023) (read at Europe PMC fullTextXML <license> element for PMC10622346). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, a German expert recommendation on FOP care (Seefried et al. 2023, written in German, CC BY 4.0). Its fragments are stored verbatim in German; the claims are English renderings of them. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 21,
-  "pass": 0,
+  "total": 33,
+  "pass": 12,
   "fail": 0,
   "pass_paraphrase_anchored": 21
  },
@@ -83,6 +84,69 @@
     }
    ],
    "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Early diagnosis matters most for the course of the disease.** The curved or shortened great toes are visible at birth, so routine infant checks can raise the suspicion.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Die frühzeitige Diagnose stellt bei einer Erkrankung wie FOP, die progredient verläuft und zu schwersten körperlichen Einschränkungen sowie zu einer Verkürzung der Lebenszeit führen kann, den wichtigsten Einflussfaktor auf den Verlauf dar. … Bereits bei Säuglingen können auffällige Fehlstellungen der Großzehen im Rahmen der Vorsorgeuntersuchungen einen Hinweis auf das Vorliegen von FOP geben. Diese bilateralen Fehlstellungen in Form von verkrümmten oder verkürzten Großzehen sind bereits zur Geburt sichtbar []",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About 50% of patients are first given another diagnosis.** Common first suspicions are a cancer, juvenile fibromatosis, non-hereditary myositis ossificans, Klippel-Feil syndrome and hallux valgus.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "sodass nach wie vor bei einem recht hohen Anteil der Fälle (ca. 50 %) zunächst andere Diagnosen gestellt werden [] … Häufig initial gestellte Verdachtsdiagnosen umfassen unter anderem onkologische Erkrankungen, juvenile Fibromatose, nichthereditäre Myositis ossificans, Klippel-Feil-Syndrom und Hallux valgus []",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Care needs a multidisciplinary team experienced in FOP:** paediatrics, internal medicine, cardiology, neurology, surgery, dentistry, anaesthesia, ENT, physiotherapy, gynaecology, dermatology and psychology. Patients can have important cardiopulmonary and neurological problems, including thoracic insufficiency syndrome, pulmonary hypertension and neuropathic pain.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Hierzu zählen im Umgang mit FOP erfahrene und informierte Expert:innen aus den Bereichen Pädiatrie, Innere Medizin, Kardiologie, Neurologie, Chirurgie, Zahnmedizin, Anästhesie, Hals-Nasen-Ohren-Heilkunde, Physiotherapie, Gynäkologie, Dermatologie und Psychologie … darunter das Thoraxinsuffizienzsyndrom, pulmonale Hypertonie und neuropathische Schmerzen []",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**First visit:** record the history, earlier medical and surgical care, the course so far and flare-ups; examine, and consider vital signs and lung function testing (from age 6). Note the aids and adaptations in use.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Bei einer Erstvorstellung ist die Dokumentation der Vorgeschichte, sowie der bisher erfolgten medizinischen oder chirurgischen Versorgung zu empfehlen. Ebenso aufgenommen werden sollte der bisherige Krankheitsverlauf und das Auftreten von Schüben (Flare-ups). Neben einer allgemeinen körperlichen Untersuchung können eine Erfassung der Vitalparameter und Lungenfunktionsprüfung (ab 6 Jahren) sinnvoll sein. Möglich im Rahmen des Erstgesprächs ist auch die Erfassung von verwendeten Hilfsmitteln, unterstützenden Geräten und Anpassungen.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Track function over time** with the FOP Physical Function Questionnaire (FOP-PFQ, 36 items, a patient-reported measure) and regular joint status, for example with the FOP-specific CAJIS scale.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "eignet sich die Anwendung des FOP-Physical Function Questionnaire (FOP-PFQ) Fragebogens als „patient reported outcome measure\" (PROM), bestehend aus 36 Unterfragen, um die Auswirkungen der FOP-Erkrankung auf die körperlichen Funktionen und Aktivitäten des täglichen Lebens zu messen [] … Eine Empfehlung aus Sicht der Autor:innen ist zudem eine regelmäßige Erfassung des Gelenkstatus. Eine geeignete Möglichkeit stellt dafür der speziell für die Erkrankung entwickelte CAJIS(„cumulative analogue joint involvement scale\")-Erhebungsbogen dar []",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Limit imaging because of radiation:** outside studies, image only for acute symptoms with a clinical indication, localised where possible. Avoid whole-body imaging in routine care.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Außerhalb von Studien merken die Autor:innen an, dass aufgrund der Strahlenbelastung in der Routineversorgung Bildgebung nur bei akuten Beschwerden, wenn möglich lokalisiert und bei entsprechender klinischer Indikation angewendet werden sollte. Ganzkörperaufnahmen sollten in der klinischen Routine vermieden werden.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Review yearly;** closer checks at an experienced FOP centre may be needed when the disease is very active.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Die Autor:innen empfehlen jährliche Follow-Up-Termine im Rahmen der Routineversorgung, bei hoher Krankheitsintensität sind gegebenenfalls auch engmaschigere Kontrollen in einem der erfahrenen Zentren des FOP-Netzwerks sinnvoll.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Local doctors can give glucocorticoids in an acute flare-up,** with telehealth consultation to link them with FOP specialists at the centres.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "So könnten ambulante Ärzt:innen in Akutsituationen, z. B. bei einem akuten Flare-up, die Versorgung durch die Gabe von Glukokortikoid sicherstellen. Für den fachlichen Austausch mit FOP-Spezialist:innen in den Zentren sollten die Potenziale der Digitalisierung, z. B. Telekonsile, genutzt und weiter ausgebaut werden.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Starting a disease-modifying drug: monitor closely at a centre, especially at first,** at a frequency set by the disease course, the drug and its side effects. Once stable, repeat prescriptions can come from the centre or from local doctors on the centre's advice.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Bei Initiierung einer krankheitsmodifizierenden Therapie ist insbesondere zu Therapiebeginn eine engmaschige Kontrolle in einem Zentrum zu empfehlen. Die Frequenz der Kontrollen von Patient:innen unter Arzneimitteltherapie sollte sich dabei nach dem individuellen Krankheitsverlauf sowie dem Wirkstoff und seinem Nebenwirkungsprofil richten. Folgeverschreibungen bei gut eingestellten Patient:innen können sowohl durch die Zentren als auch durch wohnortnahe Ärzt:innen auf Grundlage einer Empfehlung des therapieinitiierenden Zentrums erfolgen.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Avoid the triggers:** contact sport, soft-tissue and blunt muscle injury, fatigue and stretching, IM injections, biopsies, removing heterotopic bone, non-urgent surgery, and viral illness.",
@@ -264,6 +328,29 @@
     }
    ],
    "locator": "International Clinical Council on FOP (Kaplan FS, Al Mukaddam M, Baujat G, et al.), JBMR Plus vol 9 issue 11, ziaf150, doi 10.1093/jbmrpl/ziaf150, 'Medical guidelines for fibrodysplasia ossificans progressiva', published November 2025 (online 19 September 2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12548730/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 (German experts, following the ICC):** trunk and back flare-ups get an NSAID, and a topical NSAID can be added; neck, jaw and large-joint (e.g. hip) flare-ups get prednisone 2 mg/kg/day orally, up to 100 mg, for 4 days, started as early as possible, with a 4-day supply kept at home.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Bei Flare-ups im Bereich des Stamms und Rückens ist eine Behandlung mit nichtsteroidalen Antiphlogistika (NSAID) empfehlenswert, da es zum jetzigen Zeitpunkt für FOP keine zugelassene gezielte Therapiemöglichkeit gibt. Auch eine zusätzliche lokale Anwendung nichtsteroidaler Antiphlogistika ist möglich, um die Flare-ups symptomatisch zu behandeln. … Bei Flare-ups im Hals‑/Kiefer- und Großgelenkbereich (z. B. Hüfte) sollte möglichst frühzeitig eine Glukokortikoidtherapie (Prednison 2 mg/kg/Tag oral bis zu 100 mg für 4 Tage) erfolgen. Betroffene haben idealerweise eine entsprechende Medikation für 4 Tage zu Hause vorrätig.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**S2 also allows an IV glucocorticoid pulse (for example prednisolone 20–30 mg/kg/day) for 3 days, as an inpatient,** and advises against long-term glucocorticoids.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Eventuell ist auch eine i.v. angewendete Glukokortikoid-Stoßtherapie (z. B. Prednisolon 20-30 mg/kg/Tag) über 3 Tage mit stationärer Aufnahme zu erwägen. Auf eine Glukokortikoid-Langzeittherapie sollte verzichtet werden.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Physiotherapy need not always stop during a flare-up;** gentle anti-inflammatory measures such as cold therapy are possible.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Physiotherapeutische Maßnahmen müssen bei einem Flare-up nicht grundsätzlich eingestellt werden. Vorsichtige, entzündungshemmende Maßnahmen (z. B. Kältetherapie) sind möglich.",
+   "locator": "Seefried L, Banholzer D, Fischer R, et al., Die Orthopädie 52(11):924-930 (doi 10.1007/s00132-023-04425-y), 'Empfehlungen zur Versorgung von Patient:innen mit FOP (Recommendations for the care of patients with FOP)', published online 21 August 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10622346/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **A submandibular flare-up is a medical emergency** (airway and swallowing): give IV methylprednisolone 80 mg or dexamethasone 15 mg at once, and monitor the airway.",

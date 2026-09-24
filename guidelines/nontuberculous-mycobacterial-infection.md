@@ -1,11 +1,13 @@
 # Nontuberculous mycobacterial infection — focus on *Mycobacterium avium* complex
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis and drug treatment of *M. avium* complex (MAC) pulmonary disease, cervical lymphadenitis in children, and disseminated MAC and MAC prophylaxis in people with HIV, with the general NTM treatment principles that apply to MAC. Other NTM (*M. abscessus*, *M. kansasii*, *M. marinum*, rapid growers) are mentioned only where they change a principle; *M. ulcerans* (Buruli ulcer) is not covered. Tuberculosis: see `tuberculosis-bcg`. Related: `bronchiectasis`, `cystic-fibrosis`, `hiv-antiretroviral-therapy`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **Centre for Disease Control, Department of Health, Northern Territory — *Nontuberculous mycobacteria (NTM): Guidelines for health professionals in the Northern Territory*** (second edition, August 2014; origin: AU). **77 anchors re-checkable by machine; 5 doses.** The source's words are not reproduced: its licence is *© Department of Health, Northern Territory 2014 — may be freely copied and distributed for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission*.
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **93 fragments or anchors re-checkable by machine; 5 doses.** **S1** Centre for Disease Control (second edition, August 2014; AU): 24 claims, paraphrased, hash-anchored · **S2** Daley CL (published 7 July 2020; international): 9 claims, paraphrased, hash-anchored
 
-> ⚠️ **Old, regional source.** This Northern Territory guideline dates from **August 2014** (12 years old) and drew on the 2007 ATS/IDSA statement and the 2010 *Therapeutic Guidelines*. The 2020 ATS/ERS/ESCMID/IDSA guideline for NTM pulmonary disease supersedes it internationally but could not be read (not open access; publisher pages returned 403). Check current specialist advice before using these regimens.
+> ⚠️ **Old, regional source.** This Northern Territory guideline dates from **August 2014** (12 years old) and drew on the 2007 ATS/IDSA statement and the 2010 *Therapeutic Guidelines*. The 2020 ATS/ERS/ESCMID/IDSA guideline for NTM pulmonary disease supersedes it internationally; it is now added as **S2** (read as the PMC author manuscript), and where the two differ both are shown. Check current specialist advice before using these regimens.
+
+> ⚠️ International guideline (ATS/ERS/ESCMID/IDSA, 2020) for S2. Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Specialist-initiated treatment.** The source requires NTM treatment to be started by a specialist experienced in NTM (e.g. infectious diseases) and co-managed with the TB/NTM unit.
 
@@ -40,6 +42,18 @@
 - **Treatment failure** means no clinical, radiological or microbiological response by 6 months, or sputum still growing the same organism after 12 months. Not everyone responds and relapse is common; induced sputum or bronchoscopy should not be used to prove culture conversion. [S1]
 - **Review monthly** (symptoms, side effects, adherence, weight, sputum, blood count and liver tests, and visual acuity with colour vision on ethambutol), with a chest X-ray every 3 months and follow-up at 6 and 18 months after treatment ends. [S1]
 
+## MAC lung disease: the 2020 international guideline
+
+- **When the diagnostic criteria are met, S2 suggests treating rather than watching,** above all with smear-positive sputum or cavities (conditional; very low certainty). Balance this against side effects, modest cure rates, uncertain effect on quality of life, cost and the chance of reinfection. [S2]
+- **Base MAC treatment on macrolide and amikacin susceptibility results rather than treating empirically** (conditional). [S2]
+- ⚠️ **Use at least three drugs, one a macrolide:** a macrolide-containing three-drug regimen is strongly recommended over one without a macrolide, and at least three drugs (including the macrolide and ethambutol) are suggested over macrolide plus ethambutol alone. [S2]
+- **S2 prefers azithromycin to clarithromycin** (conditional). Outcomes are similar, but azithromycin interacts less, especially with rifampicin or rifabutin (clarithromycin raises rifabutin levels, which has been linked to uveitis), and it is once daily with fewer tablets. [S2]
+- **Dosing rhythm follows the disease type:** three times weekly for noncavitary nodular/bronchiectatic disease, daily for cavitary disease (both conditional). [S2]
+- ⚠️ **Cavitary, advanced or severe bronchiectatic, or macrolide-resistant MAC: include IV amikacin or streptomycin from the start** (conditional; moderate certainty), usually for at least 2–3 months. [S2]
+- **Inhaled amikacin is not suggested in the first regimen;** if standard treatment has failed after six months or more, adding amikacin liposome inhalation suspension (ALIS) is strongly recommended over continuing oral drugs alone. [S2]
+- **Get expert advice when sputum is still positive after 6 months, disease is extensive, or the MAC is macrolide resistant.** On duration S2 agrees with S1: at least 12 months after culture conversion. [S2]
+- **Consider drug-level monitoring** when malabsorption, underdosing or important interactions are suspected, for example slow culture conversion not explained by adherence or resistance, amikacin or streptomycin use (ear and kidney toxicity), or reduced kidney function. [S2]
+
 ## Children: MAC lymphadenitis
 
 - **Cervical NTM lymphadenitis mostly affects children under 5:** a firm, non-tender, slowly enlarging node on one side, usually MAC. Excision without antibiotics is the treatment of choice. In the NT, TB lymphadenitis is more common than NTM in Aboriginal children. [S1]
@@ -72,16 +86,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **The 2020 ATS/ERS/ESCMID/IDSA guideline** (treatment of NTM pulmonary disease) is the current international standard; it could not be read (Europe PMC has no open full text; the CID and ERJ pages returned 403), so any differences from this 2014 source are not checked here. | `input_unavailable` |
-| 2 | **Drug side-effect and interaction table** (clarithromycin, azithromycin, rifampicin, ethambutol) is a multi-column table and was not anchored; rifampicin–macrolide and rifabutin interactions need specialist or pharmacist review. | `input_unavailable` |
-| 3 | **Child doses** for the pulmonary regimens are in the source table but were not carried into these claims. | `input_unavailable` |
-| 4 | **Other NTM** (*M. abscessus*, *M. kansasii*, *M. marinum*, rapid growers) and ***M. ulcerans*** are in the source but outside this guideline's MAC focus. | `out_of_scope` |
-| 5 | **Licence:** © NT Department of Health, non-profit copying permitted with acknowledgement. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **The 2020 ATS/ERS/ESCMID/IDSA guideline** is now S2, read as the NIH author manuscript (PMC8375621; Europe PMC has no open full text and the publisher pages returned 403). Its dose table (Table 4) and diagnostic-criteria table are not in the manuscript text, so the doses shown are S1's. | `input_unavailable` |
+| 2 | **Macrolide choice differs:** S1 (2014) offers clarithromycin or azithromycin as equal options for lung disease (and prefers clarithromycin for disseminated MAC in HIV); S2 (2020) suggests azithromycin for lung disease because of fewer interactions. Both are shown. | `observation` |
+| 3 | **Aminoglycoside timing differs:** S1 adds amikacin or streptomycin for severe disease or a poor response; S2 suggests including it from the start for cavitary, advanced bronchiectatic or macrolide-resistant disease, and adds inhaled liposomal amikacin (not in S1) after 6 months of failure. Australian availability and PBS status of ALIS were not checked. | `observation` |
+| 4 | **Drug side-effect and interaction table** (clarithromycin, azithromycin, rifampicin, ethambutol) is a multi-column table and was not anchored; rifampicin–macrolide and rifabutin interactions need specialist or pharmacist review. | `input_unavailable` |
+| 5 | **Child doses** for the pulmonary regimens are in the source table but were not carried into these claims. | `input_unavailable` |
+| 6 | **Other NTM** (*M. abscessus*, *M. kansasii*, *M. marinum*, rapid growers) and ***M. ulcerans*** are in the source but outside this guideline's MAC focus. | `out_of_scope` |
+| 7 | **Licence:** © NT Department of Health, non-profit copying permitted with acknowledgement. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 8 | **S2 licence:** © ERS 2020, author manuscript available for text mining and fair use. S2 claims are paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Centre for Disease Control, Department of Health, Northern Territory. *Nontuberculous mycobacteria (NTM): Guidelines for health professionals in the Northern Territory*. second edition, August 2014. https://hdl.handle.net/10137/701 — retrieved 2026-09-23. | © Department of Health, Northern Territory 2014 — may be freely copied and distributed for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission | **paraphrased, hash-anchored** |
+| **S2** | Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272. *Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline*. published 7 July 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/ — retrieved 2026-09-24. | © ERS 2020 (author manuscript). PMC statement: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

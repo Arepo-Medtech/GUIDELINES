@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/spasticity.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8862646/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8862646/",
+  "https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European expert advisory board (8 specialists, survey of 77 experts from 17 countries), Journal of Rehabilitation Medicine vol 54, doi 10.2340/16501977-2877 'European expert consensus on improving patient selection for the management of disabling spasticity with intrathecal baclofen and/or botulinum toxin type A' (published 5 October 2021). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8862646). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European expert advisory board (8 specialists, survey of 77 experts from 17 countries), Journal of Rehabilitation Medicine vol 54, doi 10.2340/16501977-2877 'European expert consensus on improving patient selection for the management of disabling spasticity with intrathecal baclofen and/or botulinum toxin type A' (published 5 October 2021), 24 claims; LICENCE: CC BY-NC 4.0 (read at Europe PMC fullTextXML <license> element for PMC8862646). S2: PARAPHRASED AND HASH-ANCHORED from Stroke Foundation (Australia), InformMe 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)' (recommendations as at June 2025 (living guideline)), 8 claims; LICENCE: © Stroke Foundation, all copyright reserved (InformMe terms: personal, non-commercial use; no reproduction or adaptation without permission) (read at https://informme.org.au/terms-of-use (read 2026-09-24)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, European consensus 2021) unchanged and adds S2, the Australian and New Zealand living stroke guideline's recommendations on post-stroke spasticity and contracture (June 2025). The Rehabilitation Medicine Society of Australia and New Zealand botulinum toxin statement (Intern Med J 2024, doi 10.1111/imj.16300) was tried first but could not be read: it is not in PMC and the Wiley PDF returned a bot challenge (2026-09-24), which was not bypassed. Europe PMC was also searched for spasticity guidelines or consensus statements 2020-2026.",
  "summary": {
-  "total": 24,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -353,6 +354,115 @@
     }
    ],
    "locator": "European expert advisory board (8 specialists, survey of 77 experts from 17 countries), Journal of Rehabilitation Medicine vol 54, doi 10.2340/16501977-2877, 'European expert consensus on improving patient selection for the management of disabling spasticity with intrathecal baclofen and/or botulinum toxin type A', published 5 October 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8862646/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Arm spasticity after stroke:** botulinum toxin A added to rehabilitation may be used (weak recommendation). It lowers tone but is not expected to make motor function or activity better.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "694c5a5a4d970da0",
+     "n": 193,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Leg spasticity after stroke:** the same weak recommendation applies. Botulinum toxin A with rehabilitation may lower tone, but walking and motor function are unlikely to improve.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "447cc7df57d674ae",
+     "n": 191,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Electrical stimulation, casting or taping may be added alongside botulinum toxin A** (weak recommendation).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "332ee5e6a2934f49",
+     "n": 142,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Shoulder pain with arm spasticity:** a botulinum toxin A injection is an option for easing the pain (weak recommendation).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83fca624943d7823",
+     "n": 112,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Acupuncture is advised against for spasticity** except within a research study (weak recommendation against).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e8c8b3c1b7a183f",
+     "n": 156,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Routine stretching to reduce post-stroke spasticity is not recommended** (weak against). For people at risk of contracture who are already in comprehensive active therapy, routine splinting or stretching of arm or leg muscles is recommended against (strong against).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "543842da401885c5",
+     "n": 89,
+     "p": "For stro"
+    },
+    {
+     "h": "f15d64bfe12903dc",
+     "n": 186,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hand and wrist splints should not be part of routine care after stroke** (strong against): they do not change function, pain or range of movement.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3df9b0cff7d5076d",
+     "n": 143,
+     "p": "Hand and"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**For established or threatened contracture (consensus practice statements):** serial casting can be tried for severe, persistent contracture once conventional therapy has failed, and active motor training or electrical stimulation should be given to make the muscles work.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0e7fc8e76fb73ec3",
+     "n": 317,
+     "p": "For stro"
+    }
+   ],
+   "locator": "Stroke Foundation (Australia), InformMe, 'Australian and New Zealand Living Clinical Guidelines for Stroke Management: summary of recommendations (Chapter 6, Managing complications: spasticity and contracture)', recommendations as at June 2025 (living guideline), https://informme.org.au/media/dugdhvzu/summary-of-recommendations-jun-2025.pdf, retrieved 2026-09-24"
   },
   {
    "claim": "**Measure outcomes:** the Ashworth or modified Ashworth scale for tone and spasms, the visual analogue scale or Numeric Pain Rating Scale for pain, the Barthel Index for function, and the Goal Attainment Scale for goals.",

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/actinic-keratosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12255291/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12255291/",
+  "https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from American Academy of Dermatology Work Group (Eisen DB et al.), Journal of the American Academy of Dermatology 'Guidelines of care for the management of actinic keratosis: Executive summary' (October 2021 (epub 7 June 2021)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © American Academy of Dermatology; PMC author manuscript, 'available for text mining' and otherwise fair use only (read at NCBI efetch JATS XML <license> element for PMC12255291 (Europe PMC fullTextXML returned HTTP 500)). The source's words are NOT reproduced here. Source text: the PMC author manuscript's abstract (tags stripped) followed by its body text from pmc_text.py (NCBI efetch JATS XML; citation tags renamed ref->bibr). The executive summary gives recommendation strengths but not regimens.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from American Academy of Dermatology Work Group (Eisen DB et al.), Journal of the American Academy of Dermatology 'Guidelines of care for the management of actinic keratosis: Executive summary' (October 2021 (epub 7 June 2021)), 18 claims; LICENCE: © American Academy of Dermatology; PMC author manuscript, 'available for text mining' and otherwise fair use only (read at NCBI efetch JATS XML <license> element for PMC12255291 (Europe PMC fullTextXML returned HTTP 500)). S2: PARAPHRASED AND HASH-ANCHORED from O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415) 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective' (August 2025), 12 claims; LICENCE: © 2025 The Royal Australian College of General Practitioners (RACGP) (site footer); no licence or reproduction permission on the article page (read at the article web page footer). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: the PMC author manuscript's abstract (tags stripped) followed by its body text from pmc_text.py (NCBI efetch JATS XML; citation tags renamed ref->bibr). The executive summary gives recommendation strengths but not regimens. Edition 2.0 adds S2, an Australian and New Zealand expert-opinion article (AJGP 2025, © RACGP, paraphrased and hash-anchored; web page text with tags, scripts and tables stripped) for Australian prevalence and recurrence, the field and lesion treatments used locally, pre- and post-treatment care, sun protection and relapse prevention. S1 claims and anchors are unchanged. S2 is not a guideline: its authors say their advice reflects their own practice, and all authors received honoraria from L'Oréal, which also funded medical writing.",
  "summary": {
-  "total": 18,
+  "total": 30,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 18
+  "pass_paraphrase_anchored": 30
  },
  "claims": [
   {
@@ -65,6 +66,50 @@
     }
    ],
    "locator": "American Academy of Dermatology Work Group (Eisen DB et al.), Journal of the American Academy of Dermatology, 'Guidelines of care for the management of actinic keratosis: Executive summary', October 2021 (epub 7 June 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC12255291/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**AKs are very common in Australia:** 40–60% of White Australians over 40 have them, and more than 80% arise on the head, neck and upper limbs.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "58a80fdbbee54d96",
+     "n": 98,
+     "p": "The prev"
+    },
+    {
+     "h": "4f95ef52d4f0227e",
+     "n": 79,
+     "p": "more tha"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Risk in Australian terms (S2):** reported progression to SCC ranges from 0.1% to 10%, but people with AKs carry five times the general population's risk of skin cancer, melanoma included, so they need regular skin checks; S2 considers treating every AK reasonable.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0370739d98d8f783",
+     "n": 424,
+     "p": "however,"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Expect recurrence:** long-term rates run from 39% to 85%, so most treated patients need ongoing surveillance and repeat treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "06373e6a504d5d4b",
+     "n": 229,
+     "p": "Long-ter"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
   },
   {
    "claim": "**Choose by lesion features (such as site), treatment factors (efficacy, tolerability, burden) and what the patient wants,** and decide together.",
@@ -227,6 +272,73 @@
    "locator": "American Academy of Dermatology Work Group (Eisen DB et al.), Journal of the American Academy of Dermatology, 'Guidelines of care for the management of actinic keratosis: Executive summary', October 2021 (epub 7 June 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC12255291/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Field treatments in local use (S2):** imiquimod, PDT, diclofenac in hyaluronic acid, and 5-fluorouracil alone or combined with calcipotriol or salicylic acid; tirbanibulin is approved in Australia but was not on the market at the time of writing. Lesion treatments: cryosurgery, curettage and laser.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36267aa0459597ae",
+     "n": 345,
+     "p": "Field-di"
+    },
+    {
+     "h": "29cb0af546e1815d",
+     "n": 115,
+     "p": "Lesion-d"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**What to expect from field treatment (S2):** in a large randomised trial, 74.7% of patients on 5-fluorouracil 5% cream had at least 75% clearance a year later. PDT is done in the clinic, which may help adherence; its reactions take about 10 days to heal.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "89ccec6db616247c",
+     "n": 155,
+     "p": "At one-y"
+    },
+    {
+     "h": "3fe3b0a93d804b13",
+     "n": 328,
+     "p": "This mod"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prepare the patient for field treatment:** explain what will happen, with photos of mild and strong reactions and written material; mention possible colour changes afterwards; offer progress reviews and make clear when to stop and come back.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f20230374295908a",
+     "n": 472,
+     "p": "Patients"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Before applying treatment:** remove make-up, wash and dry the skin. For hyperkeratotic AKs, reduce the scale first with curettage, cryotherapy or 2–4 weeks of a keratolytic such as urea, lactic acid or salicylic acid.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "108d7008eca058fb",
+     "n": 113,
+     "p": "Patients"
+    },
+    {
+     "h": "9a9af07ed69290ef",
+     "n": 228,
+     "p": "Consider"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Cryosurgery is strongly recommended for individual AKs:** quick, available and effective, clearing 57% to 98.8% of lesions in follow-up of 3 months to 8.5 years.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -274,6 +386,97 @@
     }
    ],
    "locator": "American Academy of Dermatology Work Group (Eisen DB et al.), Journal of the American Academy of Dermatology, 'Guidelines of care for the management of actinic keratosis: Executive summary', October 2021 (epub 7 June 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC12255291/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Cryotherapy (S2):** get informed consent that covers the cosmetic result; keep sunscreen and other products off blistered skin until it heals; if AKs come back, consider field treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "30f13df77b475cf9",
+     "n": 130,
+     "p": "Particul"
+    },
+    {
+     "h": "b32541e7cf9f3520",
+     "n": 146,
+     "p": "Cryother"
+    },
+    {
+     "h": "d19a8943f06d32e4",
+     "n": 55,
+     "p": "Field tr"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Follow up lesions that do not respond:** a tender AK, or one that persists after treatment, needs re-examination with malignancy in mind, and indurated or tender lesions are best removed surgically for histology. Ask for photos if a reaction is unexpected or the skin has not settled after a week.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "83034c9a4a9dbc6f",
+     "n": 600,
+     "p": "If the p"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Skin care while healing:** a gentle cleanser suitable for all skin types and a non-stinging barrier-repair cream or emollient; petroleum jelly is an alternative.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f60a7e5d7baf968",
+     "n": 375,
+     "p": "Instruct"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Sun protection every day:** broad-spectrum SPF 50+ sunscreen on all exposed skin except inflamed or broken areas (cover those with clothing), about 5 mL for each arm, leg, front, back and face-and-neck (30 mL for the whole body), reapplied every two hours after water, heavy sweating, rubbing or long exposure; plus high-UPF clothing, sunglasses and a broad-brimmed hat. Regular sunscreen both prevents new AKs and helps existing ones regress.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1e6c0f216016a8e2",
+     "n": 594,
+     "p": "A sunscr"
+    },
+    {
+     "h": "84f6a1929cf334bb",
+     "n": 193,
+     "p": "Sunscree"
+    },
+    {
+     "h": "dd5617dd9245fb5c",
+     "n": 161,
+     "p": "Advise p"
+    },
+    {
+     "h": "df1c5272dd97ba28",
+     "n": 203,
+     "p": "Sun prot"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Preventing relapse (S2):** consider oral nicotinamide 500 mg twice a day for people with a high keratinocyte-cancer burden, acitretin chemoprophylaxis for those with several SCCs a year, and topical retinoids for milder chronic sun damage.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0526f9dca3c47efd",
+     "n": 388,
+     "p": "Consider"
+    }
+   ],
+   "locator": "O'Bryen J, Green S, Seine AJ, Hudson J, De Cruz R, Reiche L, Boyce A, Tong PL, Siderov J, Guitera P, Australian Journal of General Practice (RACGP) (doi 10.31128/AJGP-09-24-7415), 'Pre- and post-treatment care for actinic keratoses: An Australian and New Zealand perspective', August 2025, https://www1.racgp.org.au/ajgp/2025/august/pre-and-post-treatment-care-for-actinic-keratoses, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "⚠️ **Immunocompromised patients (such as transplant recipients or those with CLL) often have more complex disease and higher squamous cell carcinoma risk,** but evidence was too thin for specific recommendations.",

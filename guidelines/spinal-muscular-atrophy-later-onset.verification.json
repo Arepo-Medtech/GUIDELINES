@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/spinal-muscular-atrophy-later-onset.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations' (published online 8 October 2024 (February 2025 issue)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11464225). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations' (published online 8 October 2024 (February 2025 issue)), 22 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC11464225). S2: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041 'Risdiplam for spinal muscular atrophy' (published 7 July 2022), 6 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9427635). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, Cure SMA panel 2024) unchanged and adds S2, the Australian Prescriber new drug comment on risdiplam, for the dose, pharmacology, reproductive safety and the older-patient trial result. No Australian later-onset SMA treatment guideline exists (the Australasian Neuromuscular Network signposts the international standards of care). Searches 2026-09-24: Europe PMC for SMA in adults or later-onset with consensus/guideline/recommendation/standards of care (2020-2026), and Australian Prescriber (ISSN 0312-8008) for spinal muscular atrophy; the nusinersen comment (2019) has no open full text in Europe PMC.",
  "summary": {
-  "total": 22,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -119,6 +120,51 @@
    ],
    "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "**Risdiplam is dosed by age and weight,** once a day as an oral solution given after a feed, never mixed into milk or formula. In the trial in older patients, those weighing 20 kg or more took 5 mg daily.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cf05a80685ce5fe4",
+     "n": 186,
+     "p": "The dose"
+    },
+    {
+     "h": "36999b5dfb1f7635",
+     "n": 73,
+     "p": "the dose"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041, 'Risdiplam for spinal muscular atrophy', published 7 July 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Risdiplam pharmacology:** it reaches the brain, has a half-life of roughly 50 hours, needs no dose change with CYP3A inhibitors such as itraconazole, and is unstudied in kidney impairment or severe liver impairment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "40821236529874a1",
+     "n": 405,
+     "p": "Risdipla"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041, 'Risdiplam for spinal muscular atrophy', published 7 July 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Risdiplam is simpler to give than nusinersen,** which needs a lumbar puncture for each dose.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f8cf3e960edc883d",
+     "n": 92,
+     "p": "While ri"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041, 'Risdiplam for spinal muscular atrophy', published 7 July 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/, retrieved 2026-09-24"
   },
   {
    "claim": "**Current clinical status drives the decision** once someone is past the initial diagnosis: comorbidities, complex spinal anatomy, and any decline in function on treatment. (100% agreement)",
@@ -251,6 +297,60 @@
     }
    ],
    "locator": "Cure SMA expert panel (Schroth M, Deans J, Bharucha Goebel DX, Burnette WB, et al.), Neurology: Clinical Practice vol 15, doi 10.1212/CPJ.0000000000200374, 'Spinal Muscular Atrophy Update in Best Practices: Recommendations for Treatment Considerations', published online 8 October 2024 (February 2025 issue), https://pmc.ncbi.nlm.nih.gov/articles/PMC11464225/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The benefit in older patients was small.** In SUNFISH (median age 9 years), the Motor Function Measure (0 to 96) rose by 1.36 points on risdiplam and fell by 0.19 on placebo; the youngest did best, and the 18 to 25 year group did not improve.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "26b19dcb5fd2ce88",
+     "n": 649,
+     "p": "The SUNF"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041, 'Risdiplam for spinal muscular atrophy', published 7 July 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Its clinical meaning is uncertain:** a 1.55-point gap on a 96-point scale is hard to interpret, and clinicians rated 48% of the risdiplam group as improved but also 40% of the placebo group. Because younger patients respond better, starting early may give the best chance of a meaningful gain.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6211ed79e73fe056",
+     "n": 227,
+     "p": "it is di"
+    },
+    {
+     "h": "90c5f61cb5c1f667",
+     "n": 123,
+     "p": "As young"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041, 'Risdiplam for spinal muscular atrophy', published 7 July 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Reproductive safety:** risdiplam harmed the embryo and fetus in animal studies and may lower male fertility. Side effects more common than placebo were mouth ulcers, rash, diarrhoea, fever, pneumonia and urinary tract infection; whether the retinal toxicity seen in animals occurs with long-term use is not yet known.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "50491e7ab5528076",
+     "n": 79,
+     "p": "Risdipla"
+    },
+    {
+     "h": "9948b8d995337e16",
+     "n": 179,
+     "p": "In the S"
+    },
+    {
+     "h": "a5d7ae0d24b271a4",
+     "n": 143,
+     "p": "It also "
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(4):142, doi 10.18773/austprescr.2022.041, 'Risdiplam for spinal muscular atrophy', published 7 July 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9427635/, retrieved 2026-09-24"
   },
   {
    "claim": "**Give a treatment 6 to 12 months before judging it, unless the reason to change is urgent.** (89% agreement)",

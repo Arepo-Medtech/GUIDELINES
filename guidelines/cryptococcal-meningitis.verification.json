@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/cryptococcal-meningitis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://iris.who.int/handle/10665/357088"
+  "https://iris.who.int/handle/10665/357088",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from World Health Organization 'Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV' (2022 (issued 23 June 2022; replaces the 2018 guidelines)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-SA 3.0 IGO (read at the copyright page of the PDF at https://iris.who.int/server/api/core/bitstreams/f5954a67-f604-4442-bb2f-5bb06894c791/content). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from World Health Organization 'Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV' (2022 (issued 23 June 2022; replaces the 2018 guidelines)), 22 claims; LICENCE: CC BY-NC-SA 3.0 IGO (read at the copyright page of the PDF at https://iris.who.int/server/api/core/bitstreams/f5954a67-f604-4442-bb2f-5bb06894c791/content). S2: PARAPHRASED AND HASH-ANCHORED from Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM' (2024 (online 9 February 2024)), 12 claims; LICENCE: © Elsevier (author manuscript). PMC statement: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (read at NCBI efetch JATS XML <permissions> element for PMC11526416 (Europe PMC returned HTTP 500 for the full text)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2024 ECMM/ISHAM/ASM global cryptococcosis guideline, read as the NIH author manuscript in PMC and paraphrased; the S1 claims are unchanged. The Australasian cryptococcosis consensus (Intern Med J 2021, doi 10.1111/imj.15590) was retried first and Wiley again returned HTTP 403. S2's regimen tables and figures (Table 2, Figures 1-2) are not in the manuscript text.",
  "summary": {
-  "total": 22,
+  "total": 34,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 34
  },
  "claims": [
   {
@@ -323,6 +324,221 @@
     }
    ],
    "locator": "World Health Organization, 'Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV', 2022 (issued 23 June 2022; replaces the 2018 guidelines), https://iris.who.int/handle/10665/357088, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Think of cryptococcosis in anyone with compatible symptoms or microbiology, whatever their immune status;** if there is no known predisposition, test for HIV and check a CD4 count.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f541c01f64924a8c",
+     "n": 389,
+     "p": "(AIII) C"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Look for spread in every case, including antigenaemia alone:** lumbar puncture with opening pressure, cell count, glucose, protein, microscopy, culture and CSF antigen titre; blood antigen titre and cultures of blood, sputum and other sites; ideally brain MRI and chest CT.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "db562544e90a522f",
+     "n": 607,
+     "p": "(AIIt) A"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Induction differs by setting.** In resource-rich settings the usual standard is liposomal amphotericin B 3–4 mg/kg daily plus flucytosine (25 mg/kg, given four times daily) for 2 weeks, not the single 10 mg/kg dose that S1 prefers. The African trials behind S1's regimen are disputed as a guide for well-resourced care and for people without HIV, where no data exist.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "525507a17d3a4658",
+     "n": 125,
+     "p": "In the A"
+    },
+    {
+     "h": "3bf63ba76aded128",
+     "n": 259,
+     "p": "The appl"
+    },
+    {
+     "h": "e19c28cb032dee12",
+     "n": 301,
+     "p": "While so"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Transplant recipients:** cryptococcosis is their third most common invasive fungal infection. Blood antigen can be negative, especially with a single lung nodule. Lipid amphotericin was linked to lower mortality than deoxycholate for CNS disease, and the AMBITION regimen is untested without HIV.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e769f0d67385f840",
+     "n": 83,
+     "p": "Cryptoco"
+    },
+    {
+     "h": "44d1d446199eb66c",
+     "n": 123,
+     "p": "Notably,"
+    },
+    {
+     "h": "5fd5e0a4af320fa4",
+     "n": 199,
+     "p": "The use "
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Outside HIV, S2 advises against routine blood antigen screening, and against primary prophylaxis or pre-emptive treatment.** In HIV, S2 screens below a CD4 of 200 and treats asymptomatic antigenaemia (after a lumbar puncture excludes meningitis) with fluconazole 1200 mg daily for 2 weeks, 800 mg daily for 8 weeks, then 200 mg for about 6 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dde11de734d569a8",
+     "n": 748,
+     "p": "For adul"
+    },
+    {
+     "h": "e8b31fe3ac8005cd",
+     "n": 134,
+     "p": "(DIIu) R"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Pulmonary disease:** treat as meningitis if there is fungaemia, CNS involvement, a blood antigen titre of 1:512 or more by latex agglutination (or about 10-fold higher by lateral flow), or severe lung disease. Mild isolated lung disease without a cryptococcoma has responded to fluconazole 400 mg daily.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8bd88fb6fe4f8c97",
+     "n": 395,
+     "p": "Case ser"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "***C. gattii*** (seen mostly in apparently immunocompetent people): treat as for *C. neoformans*, but consider 4–6 weeks of induction for CNS disease without HIV, and shunt early for obstructive hydrocephalus. Some lateral flow antigen tests miss it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9446e5d3e3cd023f",
+     "n": 346,
+     "p": "About 50"
+    },
+    {
+     "h": "9ce712734fef751c",
+     "n": 227,
+     "p": "C. gatti"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Raised pressure:** measure opening pressure at every lumbar puncture and image the brain to exclude obstructed CSF outflow; schedule a therapeutic tap at about 48–72 hours and/or day 7 whatever the first pressure. If symptomatic pressure persists despite taps, use a lumbar drain, shunt or ventriculostomy.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c374aecb3abed51",
+     "n": 174,
+     "p": "(AIIu) O"
+    },
+    {
+     "h": "d55d56c1b8abc7de",
+     "n": 115,
+     "p": "(BIIu) P"
+    },
+    {
+     "h": "87b8e54a18692d66",
+     "n": 206,
+     "p": "Persiste"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ART timing:** never immediate. With suboptimal antifungals, delay 4–6 weeks (as S1); in resource-rich settings with optimal treatment, individualise (usually 4–6 weeks) by clinical and pressure response, CSF sterility and co-infections, aiming for culture-negative CSF first. Isolated lung disease or antigenaemia alone may allow ART earlier, for example at 2 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "27f5fa0d8013c576",
+     "n": 606,
+     "p": "(DI) Imm"
+    },
+    {
+     "h": "87c681b0932ad0c9",
+     "n": 93,
+     "p": "(CIIt) W"
+    },
+    {
+     "h": "5c4c994b0669d5cc",
+     "n": 148,
+     "p": "(BIII) P"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Suspected C-IRIS:** first exclude relapse and other causes (MRI brain, lumbar puncture). Treat with therapeutic taps and symptom control, keep the antifungal, and do not stop ART. For persistent symptoms despite taps, prednisolone about 0.5–1.0 mg/kg daily or dexamethasone about 0.2–0.3 mg/kg daily, tapered over 4–6 weeks, may be considered.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed07e98ddbe30fc5",
+     "n": 791,
+     "p": "For pati"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Culture-positive relapse or persistence:** test antifungal susceptibility on the first and relapse isolates side by side; a rise in fluconazole MIC of more than 2 dilutions suggests emerging resistance. Do not escalate treatment for persistent antigen, visible yeasts without growth, or abnormal CSF chemistry alone.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "56d8f784ae949d19",
+     "n": 232,
+     "p": "(BIII) A"
+    },
+    {
+     "h": "dadc703de0d678d7",
+     "n": 274,
+     "p": "(Dllu) D"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Pregnancy (S2 is firmer than S1):** use amphotericin (liposomal or deoxycholate) through induction, consolidation and maintenance and for antigenaemia; avoid flucytosine and fluconazole, especially in the first trimester. Fluconazole can be used after delivery.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "71fbd29cf531e2c1",
+     "n": 422,
+     "p": "(AIII) U"
+    }
+   ],
+   "locator": "Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967, 'Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM', 2024 (online 9 February 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/, retrieved 2026-09-24"
   },
   {
    "claim": "**Pregnancy:** amphotericin B may be used when benefit outweighs harm. Fluconazole and flucytosine have been linked to birth defects in animal and some uncontrolled human studies, so weigh their use case by case.",

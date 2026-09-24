@@ -1,20 +1,22 @@
 {
  "guideline": "guidelines/neuromyelitis-optica-spectrum-disorder.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8882450/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab' (published 31 May 2023). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10231913). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 3 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab' (published 31 May 2023), 19 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC10231913). S2: QUOTED from Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471 '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children' (published 10 November 2025), 11 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12602111). S3: PARAPHRASED AND HASH-ANCHORED from Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(1):32, doi 10.18773/austprescr.2021.065 'Satralizumab for neuromyelitis optica spectrum disorder' (published 10 December 2021), 1 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC8882450). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, International Delphi consensus 2023) unchanged and adds two sources: S2, the 2025 Brazilian Academy of Neurology guideline (Delphi with GRADE, CC BY), which covers ravulizumab, rituximab and acute attacks; and S3, the Australian Prescriber comment on satralizumab (2021), the only Australian NMOSD source found, for the Australian approval and monitoring. Searches 2026-09-24: Europe PMC for neuromyelitis optica with guideline/consensus/recommendation/update in the title (2022-2026) and Australian Prescriber (ISSN 0312-8008) for neuromyelitis; the 2026 French, Malaysian, MENACTRIMS and Latin American statements are not open in PMC.",
  "summary": {
-  "total": 19,
-  "pass": 0,
+  "total": 31,
+  "pass": 11,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 20
  },
  "claims": [
   {
@@ -55,6 +57,42 @@
     }
    ],
    "locator": "International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124, 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab', published 31 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Treat NMOSD in specialised reference centres** (79.5% agreement), because diagnostic error and misinformation are common.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 2 reached consensus (level of agreement of 79.5%) in round 1 of voting, recommending that patients diagnosed with NMOSD receive treatment within specialized reference centers dedicated to this condition.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**AQP4-IgG-negative patients who meet the clinical and imaging criteria need re-evaluation for other diagnoses,** including MS and MOG-antibody disease (MOGAD), which is a separate entity outside this guidance.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients fulfilling clinical and neuroimaging criteria for NMOSD but testing negative for AQP4-IgG should be re-evaluated for differential diagnoses, including MS and MOGAD … These guidelines do not apply to MOG-IgG-positive individuals who are classified under MOGAD, a distinct clinical entity.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treat every attack as early as possible with high-dose IV methylprednisolone** (97.7% agreement), usually 1 g daily for 3 to 7 days; oral corticosteroid at 1 mg/kg/day with an individual taper often follows. Full recovery is uncommon.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 4 reached consensus (97.7% of agreement in round 1 of voting), recommending that NMOSD attacks must be treated with high doses of IVMP as early as possible. … particularly when administered early at a dose of 1 g for 3 to 7 consecutive days. … In the clinical practice, after completing corticosteroid pulse therapy, it is common to maintain 1 mg/kg/day of oral corticosteroids, followed by a gradual, individualized taper. … Although IVMP is standard for relapses, full recovery is uncommon, and many attacks show limited or no response to therapy.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Plasma exchange (at least 5 cycles), with or without methylprednisolone, as early as possible whatever the AQP4 status** (86.4%): first line in severe attacks, or on alternate days for 5 to 7 cycles when the steroid response is incomplete, ideally within 5 days of onset. Fewer than 5% improved when it was delayed 3 weeks.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 5 reached consensus (86.4% of agreement in round 1 of voting), recommending that NMOSD attacks must be treated with TPE (for ≥ 5 cycles) associated or not with high doses of IVMP and as early as possible (regardless of the AQP4-IgG serostatus). … When the response to pulse therapy is incomplete or absent, TPE is recommended for use on alternate days for 5 to 7 cycles, preferably within 5 days of the onset of NMOSD relapse. … with fewer than 5% of pwNMOSD presenting improvement when TPE was delayed for 3 weeks after the attack",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**IVIG is not indicated for NMOSD attacks** (75% agreement): it is less effective than steroids or plasma exchange.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 6 reached consensus (75% of agreement in round 1 of voting) on the assumption that IVIG is not indicated for acute exacerbations of NMOSD. This recommendation aligns with the absence of high-quality evidence per the GRADE to support IVIG use. Alone or in combination, IVIG has not shown sufficient benefit in treating NMOSD relapses, regardless of the AQP4-IgG status. The data available consistently demonstrate that IVIG is less effective than steroids or TPE.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
   },
   {
    "claim": "**Treatment has two parts:** managing acute attacks, and maintenance therapy to prevent relapse. Before 2019, all maintenance drugs were off-label: rituximab, azathioprine, mycophenolate, methotrexate, tocilizumab and oral corticosteroids.",
@@ -119,6 +157,22 @@
    "locator": "International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124, 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab', published 31 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Rituximab (S2):** recommended at diagnosis, after the first attack, or after other treatments fail, in adults and children regardless of AQP4 status (77.3%). In the RIN-1 trial (375 mg/m2 weekly for 4 weeks, then 2 g every 6 months), 37% on placebo relapsed and none on rituximab.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 7 reached the consensus (77.3% of agreement in round 1 of voting) that rituximab treatment is recommended at the moment the diagnosis is established, after the first attack, and after relapse due to the failure of previous treatments, for the prevention of attacks and disability in adult and children diagnosed with NMOSD, regardless of the AQP4-IgG serostatus. … randomized 1:1 to receive rituximab (375 mg/m 2 weekly for 4 weeks, followed by 2 g every 6 months) or placebo. While 37% of the placebo group experienced relapses, none in the rituximab group relapsed.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Ravulizumab (S2):** recommended with eculizumab, inebilizumab and satralizumab as monotherapy for AQP4-IgG-positive adults at diagnosis, after a first attack or after treatment failure (95.5%). In CHAMPION-NMOSD, 58 adults received IV loading doses of 2,400 to 3,000 mg and then 3,000 to 3,600 mg every 8 weeks, with no relapses, although the trial was single-arm with an external comparator.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 8 reached consensus (95.5% of agreement in round 1 of voting), recommending the treatment with eculizumab, inebilizumab, ravulizumab, or satralizumab, as a monotherapy in AQP4-IgG-seropositive pwNMOSD at the moment the diagnosis is established, after the first attack, and after relapse due to the failure of previous treatments, for the prevention of attacks and disability in adults (aged ≥ 18 years). … The recommendation of ravulizumab is supported by the open-label trial with an external comparator called \"A Phase 3, External Placebo-Controlled, Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of Ravulizumab in Adult Patients With Neuromyelitis Optica Spectrum Disorder (NMOSD)\" (CHAMPION-NMOSD). A total of 58 AQP4-IgG-positive NMOSD adults received IV loading doses of ravulizumab ranging from 2,400 to 3,000 mg, followed by 3,000 to 3,600 mg every 8 weeks. No relapses occurred during the follow-up, although the single-arm design and use of an external comparator are study limitations.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Choose on efficacy and safety from trials first**, then relapse severity, the patient's preference for how the drug is given, and comorbidities. How much safety risk the patient accepts also matters.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -135,6 +189,13 @@
     }
    ],
    "locator": "International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124, 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab', published 31 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Practical differences (S2):** ravulizumab is an infusion every 8 weeks instead of eculizumab's fortnightly (biweekly) dosing; 6-monthly inebilizumab suits people far from a centre; monthly subcutaneous satralizumab can be self-injected at home. Eculizumab, ravulizumab and inebilizumab are also approved for generalised myasthenia gravis, and IL-6 receptor blockers may suit coexisting rheumatoid arthritis, giant cell arteritis or systemic sclerosis.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Ravulizumab is administered intravenously every 8 weeks, offering a significant advantage over eculizumab, which requires biweekly dosing. … Inebilizumab, on the other hand, is administered intravenously every 6 months, a regimen that may be particularly appealing to patients residing in rural or remote areas, since it minimizes the need for frequent travel. … In contrast, satralizumab is administered monthly by SC injections, which enables self-injection at home and offers a significant advantage for patients with difficult venous access or those seeking to reduce hospital visits. … Of note, eculizumab, ravulizumab, and inebilizumab have also been also approved for the treatment of generalized myasthenia gravis (gMG), which can co-occur with NMOSD, and, in such cases, they may offer dual therapeutic benefits. … Moreover, IL-6 receptor-blocking mAbs (that is, satralizumab and tocilizumab) may be advantageous in patients with NMOSD and coexisting autoimmune diseases-such as rheumatoid arthritis, giant cell arteritis, or systemic sclerosis-in which IL-6 signaling plays a pivotal role in pathogenesis.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
   },
   {
    "claim": "**Dosing schedules differ, which shapes preference:** eculizumab is an IV infusion weekly at first then every 2 weeks; inebilizumab is two IV infusions 2 weeks apart, then one every 6 months; satralizumab is a subcutaneous injection every 2 weeks at first, then every 4 weeks.",
@@ -221,6 +282,13 @@
    "locator": "International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124, 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab', published 31 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Do not combine monoclonal antibodies** (95.5% agreement): there is not enough evidence on safety or efficacy, and the trials tested monotherapy.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 10 reached consensus (95.5% of agreement in round 1 of voting), not recommending the use of combined mAb therapy in patients diagnosed with NMOSD. Combining mAb therapy in NMOSD is not recommended due to insufficient evidence on its safety and efficacy. Most clinical trials were designed to evaluate monotherapy.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Before switching, allow enough time for the first drug to start working.** The commonest reasons to switch are severe relapse and adverse events. When switching, consider how the previous drug works and how long its effect lasts; trials used 24–48 weeks of follow-up.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -273,6 +341,38 @@
     }
    ],
    "locator": "International Delphi panel (23 voting experts), Neurology: Neuroimmunology & Neuroinflammation 10(4):e200124, doi 10.1212/NXI.0000000000200124, 'International Delphi Consensus on the Management of AQP4-IgG+ NMOSD: Recommendations for Eculizumab, Inebilizumab, and Satralizumab', published 31 May 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10231913/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Before lifelong preventive treatment (S2):** bring vaccines up to date (100% agreement) and screen for hepatitis B and tuberculosis. Before B-cell depletion give hepatitis B, pneumococcal, influenza and recombinant zoster vaccines. No live vaccines during immunosuppressive treatment.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Statement 3 reached consensus (level of agreement of 100% in round 1 of voting), recommending that vaccination status should be up to date before the initiation of preventive therapies. Before starting on a lifelong preventive treatment, the vaccination status must be reviewed and the patient should be screened for infections, including those by the hepatitis B virus (HBV) and tuberculosis. … For patients receiving B-cell-depleting therapies, it is recommended to vaccinate before the initiation of these therapies, particularly for HBV, pneumococcal, influenza, and recombinant adjuvanted zoster vaccines. … Live vaccines are contraindicated during IST.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Monitoring on preventive treatment (S2):** give infusions in centres able to manage reactions; watch for infections (especially respiratory and urinary) and check liver enzymes, full blood count with neutrophils and platelets, and immunoglobulin levels to catch cytopenia and hypogammaglobulinaemia; on IL-6 blockade also check lipids, and fibrinogen when needed.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is recommended that these agents be administered in specialized neuroimmunology infusion centers staffed by trained personnel capable of managing infusion-related reactions and monitoring for therapy-specific adverse effects. … The panel suggested that vigilant clinical monitoring of infections (such as respiratory and urinary infections) and routine laboratory evaluation, including assessment of liver enzymes, complete blood count (including neutrophil and platelet counts), and immunoglobulin levels, are essential to detect cytopenia and hypogammaglobulinemia early, thereby optimizing patient safety and treatment outcomes. … Specifically, lipid (such as cholesterol and triglyceride) levels influenced by the IL-6 blockade must be evaluated, and fibrinogen levels, when deemed necessary.",
+   "locator": "Brazilian Academy of Neurology (Academia Brasileira de Neurologia) consensus panel (Apóstolos-Pereira SL, Damasceno A, et al.), Arquivos de Neuro-Psiquiatria 83(11), doi 10.1055/s-0045-1812471, '2025 Brazilian guidelines for the management of neuromyelitis optica spectrum disorder in adults and children', published 10 November 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12602111/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Satralizumab in Australia (S3):** approval covers only adults who are AQP4-antibody positive; efficacy and safety under 18 years and in pregnancy are uncertain. Monitor the white cell count (neutrophils can fall) and liver enzymes, and withhold treatment if needed, especially during infection. Rotate injection sites between abdomen and thighs.",
+   "source": "S3",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8d2d4641d40e7c7e",
+     "n": 450,
+     "p": "Patients"
+    },
+    {
+     "h": "38dd84ee72f3b6af",
+     "n": 268,
+     "p": "There we"
+    }
+   ],
+   "locator": "Australian Prescriber (new drug comment, Therapeutic Guidelines Ltd) 45(1):32, doi 10.18773/austprescr.2021.065, 'Satralizumab for neuromyelitis optica spectrum disorder', published 10 December 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8882450/, retrieved 2026-09-24"
   },
   {
    "claim": "**Pregnancy:** involve a multidisciplinary team. Eculizumab data show no major safety concerns; evidence for inebilizumab and satralizumab is less clear, and inebilizumab in the second or third trimester may cause transient blood abnormalities in the baby.",

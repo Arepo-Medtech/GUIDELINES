@@ -1,11 +1,13 @@
 # Mantle cell lymphoma
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, staging, observation of indolent disease, limited-stage and advanced first-line treatment (younger fit, older/unfit, TP53/high-risk), relapsed/refractory disease (BTK inhibitors, CAR T-cells, pirtobrutinib, allograft) and follow-up including post-CAR-T care for adults with mantle cell lymphoma. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **European Hematology Association and European MCL Network, HemaSphere — *EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma*** (published 22 October 2025; origin: international). **59 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 31 claims; **84 fragments or anchors re-checkable by machine; 5 doses.** **S1** European Hematology Association and European MCL Network (published 22 October 2025; international): 24 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review); AU): 7 claims, paraphrased, hash-anchored
 
-> ⚠️ International guideline (EHA and European MCL Network, 2025). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International guideline (EHA and European MCL Network, 2025) as S1. Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is Australian (eviQ protocols, Cancer Institute NSW)** and gives Australian regimens, doses and PBS indications. ⚠️ Its ibrutinib and zanubrutinib protocols are for MCL **after at least one prior therapy**, whereas S1's preferred first line for fit younger patients adds ibrutinib to R-CHOP/R-DHAP. S2 is a set of protocols, not a guideline, so treatment choice rests on S1.
 
 > ⚠️ **Approvals differ.** The source's regulatory notes are European and US. The PBS row below lists ibrutinib, acalabrutinib, zanubrutinib and bendamustine; zanubrutinib, which the source calls not EMA-approved, is PBS-listed here. Pirtobrutinib and venetoclax combinations are not in this PBS row, and CAR T-cell products are not PBS items. The Australasian Lymphoma Alliance MCL statement (2024) is subscription-only and was not used.
 
@@ -33,6 +35,8 @@
 - **Fit younger patients (including fit people over 65): R-CHOP with ibrutinib alternating with R-DHAP or R-DHAOx, then ibrutinib for 2 years and rituximab maintenance for 3 years.** (I, A) [S1]
 - **Autograft is now optional:** in TRIANGLE, adding ibrutinib without transplant matched ibrutinib with transplant at far lower toxicity, and ibrutinib after autograft adds much infection. Discuss autograft only for selected high-risk patients (II, C). [S1]
 - **If no covalent BTK inhibitor is available first line:** rituximab with high-dose cytarabine induction, autograft, then 3 years of rituximab maintenance (I, B). Autograft can be left out after complete response with NGS-confirmed molecular remission (II, A). If ibrutinib specifically is unavailable, a second-generation BTK inhibitor is reasonable despite no phase III data. [S1]
+- **Intensive cytarabine-based induction in Australia (S2, Nordic MCL-2 protocol):** three cycles of R-maxi-CHOP alternating with three of R-HiDAC every 21 days, harvesting stem cells after the sixth cycle, then BEAM autograft; it needs a very fit patient. In MCL-2, 4-year event-free survival was 63% and overall survival 81%; at 15 years mean OS was 12.7 and PFS 8.5 years, but curves did not plateau and high-MIPI patients fared worse. Avoid chemo-immunotherapy beyond six cycles while awaiting transplant (more cardiotoxicity). [S2]
+- **Rituximab maintenance after autograft (S2):** in LyMA (four cycles of R-DHAP, then R-BEAM autograft), 2-monthly rituximab raised 4-year overall survival to 89% from 80% and PFS to 83% from 64%. eviQ begins it 3 months post-transplant: 375 mg/m2 once every 2 months, 18 doses over 3 years. [S2]
 
 ## Advanced disease: older or unfit
 
@@ -40,6 +44,9 @@
 - **Give rituximab maintenance for 2 years or longer** after first-line BR, VR-CAP or R-CHOP. [S1]
 - **VR-CAP spares the T-cell suppression of bendamustine,** keeping future CAR T-cell or T-cell-engager options open, so it may suit high-risk patients. [S1]
 - **For very frail patients, low-dose palliative radiotherapy (2 Gy × 2)** can relieve symptoms at diagnosis or relapse. [S1]
+- **Acalabrutinib-BR for untreated transplant-ineligible MCL (S2):** part 1 is bendamustine-rituximab with acalabrutinib every 28 days for 6 cycles; patients in partial or complete response then have acalabrutinib-rituximab every 56 days for 12 cycles (part 1a), and all continue acalabrutinib alone until progression or intolerance (part 2). [S2]
+- **ECHO trial behind it (S2):** in 598 patients aged 65 or over, adding acalabrutinib to BR lengthened median PFS to 66.4 from 49.6 months (HR 0.73) and raised complete response to 66.6% from 53.5%, without an overall survival difference (crossover allowed). ⚠️ Grade 3/4 adverse events were 64.3% v 55.9%, stopping for adverse events 43.1% v 31.4%, and COVID-19 deaths 9.4% v 6.7%. [S2]
+- **Rituximab maintenance without transplant (S2):** after R-CHOP or BR induction, 375 mg/m2 every 2 months; eviQ allows stopping after 12 cycles (2 years) at the clinician's discretion, while S1 advises 2 years or longer. [S2]
 
 ## High-risk (TP53) disease
 
@@ -53,6 +60,8 @@
 - **Brexucabtagene autoleucel** (ZUMA-2, 68 BTK inhibitor-exposed patients): 91% response, 68% complete, median PFS 25.8 months, but grade 3+ neurotoxicity in 31%, a real problem in older comorbid patients. Liso-cel gave similar responses (83%, CR 72%) with far less severe CRS (1%) and neurotoxicity (9%). [S1]
 - **Pirtobrutinib** (non-covalent BTK inhibitor) responds less often (49%, complete 16%) but is well tolerated apart from infection and neutropenia; it suits patients unfit for or relapsing after CAR T-cells, or as a bridge when disease moves fast. [S1]
 - ⚠️ **Avoid bendamustine before CAR T-cell collection.** Consider allogeneic transplant for younger fit patients when CAR T-cells are unavailable or have failed (IV, B). [S1]
+- ⚠️ **BTK inhibitor doses and PBS indication in Australia (S2):** ibrutinib 560 mg once daily, or zanubrutinib 160 mg twice daily (or 320 mg once daily), continuously, both as PBS authority items for MCL after at least one prior therapy. Cut zanubrutinib to 80 mg twice daily with a moderate CYP3A4 inhibitor and 80 mg once daily with a strong one, restoring the dose when the inhibitor stops. [S2]
+- ⚠️ **BTK inhibitor safety (S2):** bleeding (minor, or major such as GI or intracranial) with or without low platelets, worse with antiplatelets or anticoagulants, so weigh holding the drug 3 to 7 days either side of surgery; arrhythmia, hypertension and heart failure, so assess the heart at baseline and periodically by risk. Give PJP prophylaxis (such as trimethoprim-sulfamethoxazole 160/800 mg on two or three days a week) and antiviral prophylaxis, and consider antifungal cover if at risk; FBC, kidney and liver tests monthly; screen for hepatitis B first. [S2]
 
 ## Follow-up
 
@@ -75,16 +84,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **First-line and relapse regimen tables** (Tables 1 and 2: trial outcomes and drug schedules) were stripped; induction drug doses are not given here. | `input_unavailable` |
+| 1 | **First-line and relapse regimen tables** (S1 Tables 1 and 2) were stripped. S2 now gives the acalabrutinib-BR structure, BTK inhibitor doses and maintenance schedules; individual R-CHOP/R-DHAP(Ox), BR and TRIANGLE drug doses are not given here. | `input_unavailable` |
 | 2 | **Treatment algorithms (Figures 1 and 2)** are images; only their captions (including approval footnotes) were extracted. | `input_unavailable` |
 | 3 | **Regulatory status in the source is EMA/FDA,** not TGA/PBS. Australian access to R-ibrutinib chemo-free first line, venetoclax combinations, pirtobrutinib, glofitamab and CAR T-cells for MCL was not checked against the PBS beyond the row below. | `observation` |
-| 4 | **Australian source:** the Australasian Lymphoma Alliance MCL practice statement (IMJ 2024, © RACP) is subscription-only and was skipped. | `observation` |
-| 5 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 4 | **Australian source:** the Australasian Lymphoma Alliance MCL practice statement (IMJ 2025, © RACP; earlier noted as 2024) is still subscription-only (no open copy on Europe PMC, retried 2026-09-24), so the Australian source added is eviQ (S2). | `observation` |
+| 5 | **Australia vs S1, first-line BTK inhibitors:** eviQ's ibrutinib and zanubrutinib protocols are for MCL after at least one prior therapy, and no first-line ibrutinib (TRIANGLE-type) protocol appears in the eviQ MCL list retrieved on 2026-09-24; its intensive first-line option is Nordic MCL-2 (R-maxi-CHOP/R-HiDAC then autograft), which S1 now ranks below ibrutinib-containing induction. Check PBS criteria for first-line BTK inhibitors. | `observation` |
+| 6 | **Licences:** S1 is CC BY-NC-ND 4.0; S2 is CC BY-NC 4.0 with an eviQ request not to host its content elsewhere. All claims are paraphrased and hash-anchored; neither source's words are reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | European Hematology Association and European MCL Network, HemaSphere. *EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma*. published 22 October 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee). *eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)*. retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review). https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma — retrieved 2026-09-24. | CC BY-NC 4.0. eviQ also states that "eviQ content should not be hosted on external sites", and that commercial entities must contact eviQ to seek permission | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

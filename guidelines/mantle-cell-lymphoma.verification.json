@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/mantle-cell-lymphoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/",
+  "https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from European Hematology Association and European MCL Network, HemaSphere 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma' (published 22 October 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12541557). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from European Hematology Association and European MCL Network, HemaSphere 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma' (published 22 October 2025), 24 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC12541557). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)' (retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review)), 7 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every EHA 2025 claim (S1) unchanged and adds S2, five eviQ protocols (Australian, CC BY-NC 4.0, paraphrased), for Australian regimens, doses, PBS indications, maintenance schedules and BTK-inhibitor safety. The S2 source file concatenates the five protocol pages (https://www.eviq.org.au/p/4577, /p/4081, /p/1179, /p/4353 and /p/1846), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. The Australasian Lymphoma Alliance MCL statement is now a 2025 IMJ paper (not 2024 as the edition 1.0 notes said); it still has no open copy on Europe PMC.",
  "summary": {
-  "total": 24,
+  "total": 31,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 31
  },
  "claims": [
   {
@@ -246,6 +247,58 @@
    "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
   },
   {
+   "claim": "**Intensive cytarabine-based induction in Australia (S2, Nordic MCL-2 protocol):** three cycles of R-maxi-CHOP alternating with three of R-HiDAC every 21 days, harvesting stem cells after the sixth cycle, then BEAM autograft; it needs a very fit patient. In MCL-2, 4-year event-free survival was 63% and overall survival 81%; at 15 years mean OS was 12.7 and PFS 8.5 years, but curves did not plateau and high-MIPI patients fared worse. Avoid chemo-immunotherapy beyond six cycles while awaiting transplant (more cardiotoxicity).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b847324babfa29a8",
+     "n": 151,
+     "p": "This tre"
+    },
+    {
+     "h": "27a82f32fa205c5a",
+     "n": 75,
+     "p": "Note: St"
+    },
+    {
+     "h": "ab3c177f54229bbd",
+     "n": 110,
+     "p": "This is "
+    },
+    {
+     "h": "126974cce36266de",
+     "n": 704,
+     "p": "Neverthe"
+    },
+    {
+     "h": "bfbc32ec4396d8ab",
+     "n": 187,
+     "p": "Further "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rituximab maintenance after autograft (S2):** in LyMA (four cycles of R-DHAP, then R-BEAM autograft), 2-monthly rituximab raised 4-year overall survival to 89% from 80% and PFS to 83% from 64%. eviQ begins it 3 months post-transplant: 375 mg/m2 once every 2 months, 18 doses over 3 years.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b83f36f7161c7263",
+     "n": 313,
+     "p": "Followin"
+    },
+    {
+     "h": "2bc851d1c152997f",
+     "n": 519,
+     "p": "Cycle 1 "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "**Age 65–70 or over, or unfit for intensive therapy:** rituximab-chemotherapy (R-BAC, III, B; or BR, VR-CAP or R-CHOP, I, B), BR plus acalabrutinib (I, B), or rituximab with a continuous covalent BTK inhibitor (I, B; not EMA/FDA approved).",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -306,6 +359,71 @@
     }
    ],
    "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Acalabrutinib-BR for untreated transplant-ineligible MCL (S2):** part 1 is bendamustine-rituximab with acalabrutinib every 28 days for 6 cycles; patients in partial or complete response then have acalabrutinib-rituximab every 56 days for 12 cycles (part 1a), and all continue acalabrutinib alone until progression or intolerance (part 2).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4f7d92f20cf32187",
+     "n": 651,
+     "p": "Mantle c"
+    },
+    {
+     "h": "a0bb5b3d9a9e4c77",
+     "n": 64,
+     "p": "Previous"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**ECHO trial behind it (S2):** in 598 patients aged 65 or over, adding acalabrutinib to BR lengthened median PFS to 66.4 from 49.6 months (HR 0.73) and raised complete response to 66.6% from 53.5%, without an overall survival difference (crossover allowed). ⚠️ Grade 3/4 adverse events were 64.3% v 55.9%, stopping for adverse events 43.1% v 31.4%, and COVID-19 deaths 9.4% v 6.7%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d01d0cbd8b28ec4b",
+     "n": 499,
+     "p": "598 pati"
+    },
+    {
+     "h": "a9e414d127151553",
+     "n": 128,
+     "p": "Grade 3/"
+    },
+    {
+     "h": "52dfcccea2760d4e",
+     "n": 113,
+     "p": "a signif"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Rituximab maintenance without transplant (S2):** after R-CHOP or BR induction, 375 mg/m2 every 2 months; eviQ allows stopping after 12 cycles (2 years) at the clinician's discretion, while S1 advises 2 years or longer.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d1e09901c4c6afea",
+     "n": 147,
+     "p": "Previous"
+    },
+    {
+     "h": "7ac9dce138882210",
+     "n": 127,
+     "p": "Cycle 1 "
+    },
+    {
+     "h": "0056fa24bf650153",
+     "n": 120,
+     "p": "For tran"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "⚠️ **TP53-mutated MCL does badly with immunochemotherapy** (median PFS about 1 year). Consider a first-line anti-CD20 + BTK inhibitor + BCL2 inhibitor combination if available (III, B), and offer trials at every stage (IV, B). Fit patients up to 70 with p53 overexpression may get the ibrutinib-containing intensive schedule with or without autograft (II, C).",
@@ -452,6 +570,74 @@
     }
    ],
    "locator": "European Hematology Association and European MCL Network, HemaSphere, 'EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma', published 22 October 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12541557/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **BTK inhibitor doses and PBS indication in Australia (S2):** ibrutinib 560 mg once daily, or zanubrutinib 160 mg twice daily (or 320 mg once daily), continuously, both as PBS authority items for MCL after at least one prior therapy. Cut zanubrutinib to 80 mg twice daily with a moderate CYP3A4 inhibitor and 80 mg once daily with a strong one, restoring the dose when the inhibitor stops.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ed393a95d602a05d",
+     "n": 136,
+     "p": "Ibrutini"
+    },
+    {
+     "h": "0ca8b8df582a85b5",
+     "n": 77,
+     "p": "Mantle c"
+    },
+    {
+     "h": "7fd901a8cd9492d4",
+     "n": 121,
+     "p": "Zanubrut"
+    },
+    {
+     "h": "2780a11afe502bd7",
+     "n": 52,
+     "p": "Zanubrut"
+    },
+    {
+     "h": "4f3bad7c61aa67f8",
+     "n": 370,
+     "p": "Moderate"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **BTK inhibitor safety (S2):** bleeding (minor, or major such as GI or intracranial) with or without low platelets, worse with antiplatelets or anticoagulants, so weigh holding the drug 3 to 7 days either side of surgery; arrhythmia, hypertension and heart failure, so assess the heart at baseline and periodically by risk. Give PJP prophylaxis (such as trimethoprim-sulfamethoxazole 160/800 mg on two or three days a week) and antiviral prophylaxis, and consider antifungal cover if at risk; FBC, kidney and liver tests monthly; screen for hepatitis B first.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "baeaddd8870d2bf7",
+     "n": 576,
+     "p": "Haemorrh"
+    },
+    {
+     "h": "9c09848eaf072823",
+     "n": 262,
+     "p": "This tre"
+    },
+    {
+     "h": "4abf55813e2283ee",
+     "n": 563,
+     "p": "PJP prop"
+    },
+    {
+     "h": "b368a0994c78d824",
+     "n": 71,
+     "p": "FBC, EUC"
+    },
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ mantle cell lymphoma protocols: 4577 acalabrutinib, bendamustine and rituximab overview (v.2, last changed 17 June 2026), 4081 zanubrutinib (v.5, 15 April 2026), 1179 R-maxi-CHOP and R-HiDAC and BEAM overview (v.5, 5 February 2024), 4353 rituximab maintenance (v.2, 14 October 2024) and 1846 ibrutinib (v.5, 20 March 2024)', retrieved 24 September 2026 (reviews due: 4577 30 June 2027; 4081 31 December 2027; 4353 31 December 2026; 1846 30 June 2027; 1179 on as-required review), https://www.eviq.org.au/haematology/lymphoma/mantle-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Follow up for life, as MCL keeps relapsing** (V, D): history, examination, blood counts and chemistry with LDH every 3–4 months for 2 years, 6-monthly for 3 more years, then yearly. Do not use PET-CT for surveillance; check TSH yearly after neck radiotherapy.",

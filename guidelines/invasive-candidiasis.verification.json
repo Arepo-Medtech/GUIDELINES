@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/invasive-candidiasis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Pappas et al.), Oxford University Press 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)' (2016). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © The Author 2015. Published by Oxford University Press for the Infectious Diseases Society of America. All rights reserved. (read at permissions statement on the PMC article page PMC4725385 (read 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Pappas et al.), Oxford University Press 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)' (2016), 19 claims; LICENCE: © The Author 2015. Published by Oxford University Press for the Infectious Diseases Society of America. All rights reserved. (read at permissions statement on the PMC article page PMC4725385 (read 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST) 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline' (2025), 6 claims; LICENCE: Copyright © 2025 by the American Thoracic Society. 'You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.' (read at Europe PMC fullTextXML <permissions> element for PMC11755356). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS 2025 clinical practice guideline, paraphrased and hash-anchored; for candidiasis it answers one question (prophylactic or empiric antifungals in critically ill adults without neutropenia or transplant). The S1 claims are unchanged. The Australasian 2021 invasive candidiasis consensus (doi 10.1111/imj.15589) was retried on 2026-09-24 and Wiley again returned HTTP 403. The 2025 ECMM/ISHAM/ASM global candidiasis guideline (Lancet Infect Dis) has no open copy in Europe PMC.",
  "summary": {
-  "total": 19,
+  "total": 25,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 25
  },
  "claims": [
   {
@@ -318,6 +319,104 @@
     }
    ],
    "locator": "Infectious Diseases Society of America (Pappas et al.), Oxford University Press, 'Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 62(4):e1, published online 16 Dec 2015)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **S2 suggests against routine antifungal prophylaxis or empiric anti-*Candida* treatment in critically ill adults who are not neutropenic and have not had a transplant** (conditional; low-quality evidence).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "252d6bbcabad4da2",
+     "n": 247,
+     "p": "In criti"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why:** pooling eight randomised trials showed little or no survival gain from prophylactic or empiric antifungals, and harms (side effects, effects on the gut mycobiome, resistant fungi) could not be assessed, which tipped the advice to negative rather than neutral.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59cf359522d8fbd7",
+     "n": 161,
+     "p": "The pool"
+    },
+    {
+     "h": "1eded981b01e3418",
+     "n": 335,
+     "p": "Because "
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Where the guidelines split:** IDSA 2016 (S1), ESICM/ESCMID 2019 and the 2021 Australian guidelines all recommend empiric therapy for suspected invasive candidiasis in at-risk ICU patients; only IDSA also recommends prophylaxis for high-risk ICU patients, and only weakly. S2 excluded neutropenic and transplant patients, in whom prophylaxis has long been shown to help in some subgroups.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "108429a3979d74e5",
+     "n": 433,
+     "p": "The 2016"
+    },
+    {
+     "h": "b00dcf7f2ad99f15",
+     "n": 176,
+     "p": "We exclu"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Proven infection is different: starting antifungals early then lowers mortality,** but blood cultures catch under half of cases and take up to 3–4 days. Serum beta-D-glucan (low specificity, better when serially positive or above 80 pg/ml) and the T2Candida assay (high negative predictive value) can speed diagnosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cc1b1d4f4f1254c8",
+     "n": 381,
+     "p": "however,"
+    },
+    {
+     "h": "70a6a9d217a9a5c5",
+     "n": 161,
+     "p": "The use "
+    },
+    {
+     "h": "b588e4d449d31349",
+     "n": 346,
+     "p": "The T2Ca"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Scale of the problem:** candidaemia occurs in about 3.5 to 16.5 per 1,000 ICU admissions, with crude mortality of 40–55%. ICU risk factors include diabetes, immunosuppression, organ failure, parenteral nutrition, malignancy, *Candida* colonisation, surgery, bowel perforation, burns, central lines and haemodialysis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c7a17eb6d9c77124",
+     "n": 750,
+     "p": "In criti"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Changing ICU ecology:** non-*albicans* species now make up two-thirds of US *Candida* isolates, with more *C. glabrata* showing raised azole MICs; ***Candida auris***, often resistant to every antifungal and hard to clear from surfaces, needs close surveillance.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "18a8e961e201f971",
+     "n": 386,
+     "p": "In the U"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
   }
  ]
 }

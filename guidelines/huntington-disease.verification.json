@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/huntington-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618900/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618900/",
+  "https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from European Huntington's Disease Network guidelines task force (Bachoud-Lévi AC, Ferreira J, Massart R, et al.), Frontiers in Neurology vol 10, doi 10.3389/fneur.2019.00710 'International Guidelines for the Treatment of Huntington's Disease' (published 3 July 2019). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6618900). ",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from European Huntington's Disease Network guidelines task force (Bachoud-Lévi AC, Ferreira J, Massart R, et al.), Frontiers in Neurology vol 10, doi 10.3389/fneur.2019.00710 'International Guidelines for the Treatment of Huntington's Disease' (published 3 July 2019), 21 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC6618900). S2: PARAPHRASED AND HASH-ANCHORED from Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review) 'Drug-induced movement disorders' (published 1 April 2019), 9 claims; LICENCE: (c) NPS MedicineWise 2019 (no open licence; the article page states none) (read at NCBI PMC record PMC6478951 <permissions> element; australianprescriber.tg.org.au article page). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim (S1, EHDN task force 2019) unchanged and adds S2, an Australian Prescriber review of drug-induced movement disorders, for the wider PBS condition (tardive and other drug-induced hyperkinetic disorders) and for neuroleptic malignant syndrome, which tetrabenazine can cause. No Australian Huntington disease guideline was found (Europe PMC searches 2026-09-24: Huntington with guideline/consensus/recommendation in the title 2019-2026; Huntington with Australia and guideline/consensus/management; Australian Prescriber (ISSN 0312-8008) for Huntington, chorea or tetrabenazine).",
  "summary": {
-  "total": 21,
+  "total": 30,
   "pass": 21,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 9
  },
  "claims": [
   {
@@ -92,6 +94,163 @@
    "verdict": "pass",
    "source_text": "Pharmaceutical management of chorea may improve walking and balance as they can be affected by chorea (Grade C) (-). However, they should always be used cautiously and regularly reassessed as their adverse effects may also aggravate walking disorders. … However, side effects of treatments for chorea (e.g., sedation, attention, and parkinsonism) might also negatively impact swallowing capacities.",
    "locator": "European Huntington's Disease Network guidelines task force (Bachoud-Lévi AC, Ferreira J, Massart R, et al.), Frontiers in Neurology vol 10, doi 10.3389/fneur.2019.00710, 'International Guidelines for the Treatment of Huntington's Disease', published 3 July 2019, https://pmc.ncbi.nlm.nih.gov/articles/PMC6618900/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Akathisia usually eases once the causative drug is stopped.** Clonidine, mirtazapine, amantadine, benzodiazepines, beta blockers and anticholinergics have all been tried, with variable effect and little evidence.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cd10de44fc94efed",
+     "n": 224,
+     "p": "Akathisi"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Drug-induced parkinsonism** (from dopamine-blocking drugs) is usually symmetrical and akinetic-rigid, comes on over days to months, responds poorly to levodopa, dopamine agonists and anticholinergics, and normally resolves fully when the drug is stopped.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1534ab62cf1dfb5a",
+     "n": 397,
+     "p": "drug-ind"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Tetrabenazine, like antipsychotics, lithium and metoclopramide, can cause neuroleptic malignant syndrome.** Suspect it with dopamine-blocker exposure (or dopamine-agonist withdrawal) in the last 72 hours plus temperature over 38 °C on two or more readings, rigidity, altered mental state, raised creatine kinase and autonomic instability.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "35dc1408238e60bd",
+     "n": 234,
+     "p": "Neurolep"
+    },
+    {
+     "h": "37ce9a0628483afd",
+     "n": 217,
+     "p": "exposure"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Suspected neuroleptic malignant syndrome means hospital admission:** stop the causative drugs at once, give supportive care (intensive care if severe) and a dopaminergic drug, usually bromocriptine; benzodiazepines can ease rigidity. It usually settles within 2–3 weeks, so continue bromocriptine for several weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c73d42255e4d3b7a",
+     "n": 396,
+     "p": "If neuro"
+    },
+    {
+     "h": "83f734cc8a74cec4",
+     "n": 181,
+     "p": "The synd"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tardive disorders start during a drug or within weeks of stopping it and persist for at least one month,** after at least three months of exposure (one month in adults over 60). Antipsychotics, the antiemetics metoclopramide and prochlorperazine, and cinnarizine or flunarizine are the usual causes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87e9fcc9707967ba",
+     "n": 135,
+     "p": "Drug-ind"
+    },
+    {
+     "h": "e463e9c07b5959de",
+     "n": 324,
+     "p": "The mini"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Tardive forms include orobuccolingual dyskinesia, stereotypies, akathisia, dystonia, myoclonus, tremor, tics and parkinsonism.** Stopping long-term antipsychotics abruptly can trigger withdrawal dyskinesia, especially in children; it settles when the drug is restarted and then tapered slowly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ee5ca888779fda9",
+     "n": 438,
+     "p": "Tardive "
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**There is no good evidence on how to treat tardive disorders.** The usual approach is to withdraw the causative drug and trial a combination of drugs (clonazepam especially for myoclonus). Sometimes the drug has to be restarted or switched to an atypical antipsychotic, with clozapine preferred in chronic psychosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f396695a98f3e7fd",
+     "n": 92,
+     "p": "No good "
+    },
+    {
+     "h": "80f0ecf48cbefef9",
+     "n": 250,
+     "p": "Treatmen"
+    },
+    {
+     "h": "8fd97ae926f2f2c0",
+     "n": 69,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The VMAT2 inhibitors deutetrabenazine and valbenazine are the newest proposed options;** tetrabenazine, amantadine and propranolol have also been tried.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b8543ab944ae4a9a",
+     "n": 228,
+     "p": "Most rec"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Vitamin B6 and Ginkgo biloba are probably helpful** (vitamin E results conflict), but Ginkgo's antiplatelet effect needs care with antiplatelet or anticoagulant drugs. Preventive anticholinergics have no supporting evidence. Botulinum toxin can help focal tardive dystonia, and pallidal deep brain stimulation can work very well in severe cases.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "982e3cd72a39ea66",
+     "n": 280,
+     "p": "Vitamin "
+    },
+    {
+     "h": "912de6fc09533053",
+     "n": 159,
+     "p": "Antichol"
+    },
+    {
+     "h": "c3e61bb5139e60bc",
+     "n": 89,
+     "p": "Botulinu"
+    },
+    {
+     "h": "18713b82a6956bb0",
+     "n": 95,
+     "p": "Deep bra"
+    }
+   ],
+   "locator": "Duma SR, Fung VSC (Movement Disorders Unit, Westmead Hospital, Sydney), Australian Prescriber 42:56-61, doi 10.18773/austprescr.2019.014 (review), 'Drug-induced movement disorders', published 1 April 2019, https://australianprescriber.tg.org.au/articles/drug-induced-movement-disorders.html, retrieved 2026-09-24"
   },
   {
    "claim": "**Akinetic-rigid symptoms, especially in juvenile HD, may respond partially and temporarily to levodopa (Grade C);** start slowly, and the daily dose is usually lower than in Parkinson disease.",

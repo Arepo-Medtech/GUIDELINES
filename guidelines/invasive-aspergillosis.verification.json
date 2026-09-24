@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/invasive-aspergillosis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4967602/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4967602/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Patterson et al.), Oxford University Press 'Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)' (2016). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: 'This work is written by (a) US Government employee(s) and is in the public domain in the US.' Status outside the US not stated, so paraphrased. (read at permissions statement on the PMC article page PMC4967602 (read 2026-09-23)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Infectious Diseases Society of America (Patterson et al.), Oxford University Press 'Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)' (2016), 20 claims; LICENCE: 'This work is written by (a) US Government employee(s) and is in the public domain in the US.' Status outside the US not stated, so paraphrased. (read at permissions statement on the PMC article page PMC4967602 (read 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST) 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline' (2025), 6 claims; LICENCE: Copyright © 2025 by the American Thoracic Society. 'You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.' (read at Europe PMC fullTextXML <permissions> element for PMC11755356). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the ATS 2025 clinical practice guideline, paraphrased and hash-anchored; it answers one aspergillosis question (triazole monotherapy versus triazole plus echinocandin) and states no doses. The S1 claims are unchanged. The Australasian 2021 consensus (Intern Med J, doi 10.1111/imj.15591) was retried on 2026-09-24 and Wiley again returned HTTP 403; Unpaywall lists no open copy. A CC BY German ICU guideline (Infection 2025, PMC12316785) was read but gives no doses in its text and was not used.",
  "summary": {
-  "total": 20,
+  "total": 26,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 26
  },
  "claims": [
   {
@@ -233,6 +234,104 @@
     }
    ],
    "locator": "Infectious Diseases Society of America (Patterson et al.), Oxford University Press, 'Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)', 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC4967602/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **For proven or probable invasive pulmonary aspergillosis, S2 accepts either a mould-active triazole alone or a triazole plus an echinocandin as first treatment** (conditional; low-quality evidence); the evidence could not separate the two.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e46441783ef2234d",
+     "n": 197,
+     "p": "we sugge"
+    },
+    {
+     "h": "2079f05b22ee1d73",
+     "n": 108,
+     "p": "The avai"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Lean towards the combination in the critically ill, when triazole resistance is a worry, and when the diagnosis rests on a positive galactomannan** (serum or BAL). The data come only from haematological malignancy and stem cell transplant patients, so use in other groups is uncertain.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e7e0f7d48520f5d5",
+     "n": 539,
+     "p": "This rec"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Posaconazole and isavuconazole are now often used first line instead of voriconazole** (similar efficacy, steadier drug levels, fewer side effects), and S2 extends its advice to them although the trials used voriconazole. Rezafungin, with its very long half-life, is not interchangeable with micafungin or anidulafungin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "880eef054b478bcc",
+     "n": 1022,
+     "p": "In light"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Why combine:** voriconazole has resistance that may not extend to other azoles, very variable levels (often below target despite loading), and can miss mixed infections such as *Aspergillus* with Mucorales. All trial comparisons were voriconazole with or without micafungin or anidulafungin.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f2aa5d51c16fe731",
+     "n": 609,
+     "p": "The pote"
+    },
+    {
+     "h": "05e3f9008dd0bc3e",
+     "n": 167,
+     "p": "All of t"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Azole resistance in clinical *A. fumigatus*:** about 3.2% in Europe and 1.4% in the United States, above 10% in some countries; international and European guidance already favours starting a combination where environmental resistance exceeds 10%. Susceptibility testing of the patient's own isolate may then allow a step down to the triazole alone.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b48dfd9ce8d14f1e",
+     "n": 1021,
+     "p": "Overall,"
+    },
+    {
+     "h": "bdbd3322f7f4fc66",
+     "n": 179,
+     "p": "Subseque"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check the neutrophil count when choosing between one and two drugs.** How long to continue a combination, and when to step down to one drug, are not established.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d23a6c5f17143101",
+     "n": 195,
+     "p": "Nonethel"
+    },
+    {
+     "h": "e112947366f2ba4c",
+     "n": 136,
+     "p": "Once com"
+    }
+   ],
+   "locator": "Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST), 'Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline', 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **In prolonged neutropenia at high risk of IA, give prophylaxis with posaconazole (strong; high), voriconazole (strong; moderate) or micafungin (weak; low).** Itraconazole works but is limited by absorption and tolerability. Do not combine triazoles with drugs that become toxic alongside them, such as vinca alkaloids.",

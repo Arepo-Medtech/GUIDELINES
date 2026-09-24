@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/psoriatic-arthritis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://livingguidelines.org/adult/"
+  "https://livingguidelines.org/adult/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, the Australian Rheumatology Association and Cochrane Musculoskeletal 'An Australian Living Guideline for the Pharmacological Management of Inflammatory Arthritis (version 5.6)' (version 5.6 published 15 July 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © ANZMUSC; reproduction only unaltered, for personal or internal non-commercial use (PDF copyright notice) (read at copyright notice in https://s3.amazonaws.com/files.magicapp.org/guideline/e8baa263-0490-4726-bb20-4f0ba75a53c0/published_guideline_11208-5_6.pdf). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, the Australian Rheumatology Association and Cochrane Musculoskeletal 'An Australian Living Guideline for the Pharmacological Management of Inflammatory Arthritis (version 5.6)' (version 5.6 published 15 July 2026), 17 claims; LICENCE: © ANZMUSC; reproduction only unaltered, for personal or internal non-commercial use (PDF copyright notice) (read at copyright notice in https://s3.amazonaws.com/files.magicapp.org/guideline/e8baa263-0490-4726-bb20-4f0ba75a53c0/published_guideline_11208-5_6.pdf). S2: PARAPHRASED AND HASH-ANCHORED from EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531) 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update' (published 15 May 2024), 12 claims; LICENCE: CC BY-NC 4.0 per the <license> element; the copyright line reads 'Re-use permitted under CC BY-NC-ND. No commercial re-use. No derivatives.' (© EULAR 2024, published by BMJ) (read at Europe PMC fullTextXML <license> and <copyright-statement> elements for PMC11103320). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the EULAR 2023 PsA recommendations, for first-line and subsequent drug choice, which S1 does not address. S2's recommendation table (Table 2) and drug table were stripped; the claims come from the recommendation text as stated in the body. GRAPPA 2021 (PMC9244095) was the alternative and was not needed. S1's claims and anchors are unchanged.",
  "summary": {
-  "total": 17,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 17
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -34,6 +35,245 @@
     }
    ],
    "locator": "Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, the Australian Rheumatology Association and Cochrane Musculoskeletal, 'An Australian Living Guideline for the Pharmacological Management of Inflammatory Arthritis (version 5.6)', version 5.6 published 15 July 2026, https://livingguidelines.org/adult/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Rheumatologists should lead care of the joints and entheses;** where the skin disease matters clinically, a rheumatologist and a dermatologist should diagnose and manage together. Choose drugs on efficacy, safety, the patient's preferences and cost.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a1e97128339e92b",
+     "n": 216,
+     "p": "B. Treat"
+    },
+    {
+     "h": "6bb157e34a381241",
+     "n": 283,
+     "p": "C. Rheum"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**NSAIDs can ease joint symptoms and local steroid injections can be added,** but most patients should not stay on NSAIDs alone. Only very mild peripheral disease, or disease that is mainly entheseal or axial, may do well on NSAIDs by themselves, and then usually briefly (about 4 weeks).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "af5ba27354ee82b1",
+     "n": 173,
+     "p": "Non-ster"
+    },
+    {
+     "h": "c35794ac82cc3b7a",
+     "n": 478,
+     "p": "The task"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Start a conventional DMARD promptly in polyarthritis, or in oligoarthritis (up to four swollen joints) or monoarthritis with poor prognostic factors** such as structural damage, raised acute-phase reactants, dactylitis or nail disease. Methotrexate is preferred when the skin is clinically involved; leflunomide and sulfasalazine are the other first options.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "19f388bb3bd8988f",
+     "n": 309,
+     "p": "In patie"
+    },
+    {
+     "h": "df0caad80ad96e19",
+     "n": 96,
+     "p": "Oligoart"
+    },
+    {
+     "h": "afb8264a9d92c1b0",
+     "n": 80,
+     "p": "The firs"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Methotrexate dose: usually 20–25 mg a week (about 0.3 mg/kg) with folate.** Judge the response at 12 weeks: the aim is at least a 50% fall in activity by 3 months and the target by 6 months, otherwise change treatment. Do not combine methotrexate with leflunomide.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fb9e97cdb1f83136",
+     "n": 573,
+     "p": "Since th"
+    },
+    {
+     "h": "df3111cb47075920",
+     "n": 188,
+     "p": "The MTX "
+    },
+    {
+     "h": "3e2872326165389d",
+     "n": 142,
+     "p": "A recent"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Peripheral arthritis not controlled by at least one conventional DMARD: start a biologic.** No biologic is preferred for the joints, but abatacept (CTLA4 inhibition) is a weak option. With limited disease and no poor prognostic factors, a second conventional DMARD first is reasonable if agreed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f06ad2b0765959d",
+     "n": 132,
+     "p": "In patie"
+    },
+    {
+     "h": "8bb575b26eedd154",
+     "n": 241,
+     "p": "However,"
+    },
+    {
+     "h": "e1e8e29007878927",
+     "n": 443,
+     "p": "Regardin"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Keep a tolerated conventional DMARD going with the first biologic,** especially a TNF inhibitor; for other classes there are no data either way, though continuing is usual practice.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5a3b81e15a9273ec",
+     "n": 447,
+     "p": "Overall,"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **JAK inhibitors come after at least one biologic has failed, or when a biologic is unsuitable,** with safety weighed: the regulators' warning covers age, smoking and cardiovascular, venous clot and cancer risk, and shingles is more frequent than with biologics.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "59f763b7f4d25488",
+     "n": 194,
+     "p": "In patie"
+    },
+    {
+     "h": "44162a882b03e4e5",
+     "n": 121,
+     "p": "JAKis le"
+    },
+    {
+     "h": "6eda5e13fb1a3d10",
+     "n": 180,
+     "p": "we propo"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Apremilast (a PDE4 inhibitor) is for mild disease only** (oligoarticular or entheseal, no poor prognostic factors, limited skin) after a conventional DMARD, when neither a biologic nor a JAK inhibitor suits. It has no data on preventing joint damage, and should not be combined with a TNF inhibitor.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eced11b407e4e6e5",
+     "n": 169,
+     "p": "In patie"
+    },
+    {
+     "h": "80c12e089400252f",
+     "n": 126,
+     "p": "'Mild di"
+    },
+    {
+     "h": "77c25e0ff6c565c1",
+     "n": 149,
+     "p": "but also"
+    },
+    {
+     "h": "a4e23f96d9be2087",
+     "n": 149,
+     "p": "The use "
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Enthesitis or axial disease not settled by NSAIDs (and, for enthesitis, local injections): use a biologic.** Any class works for definite enthesitis. For axial disease use an IL-17A, TNF, IL-17A/F or JAK inhibitor; conventional DMARDs and IL-23 blockers are not recommended for the spine.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82cb766377a6ff9a",
+     "n": 158,
+     "p": "In patie"
+    },
+    {
+     "h": "84683a706db33217",
+     "n": 170,
+     "p": "In patie"
+    },
+    {
+     "h": "e01e01e5b45e66e9",
+     "n": 143,
+     "p": "For axia"
+    },
+    {
+     "h": "c64e5a1660bb1ab9",
+     "n": 98,
+     "p": "given ne"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Let the other organs guide the class:** significant psoriasis → an IL-17A, IL-17A/F, IL-23 or IL-12/23 inhibitor; uveitis → an anti-TNF monoclonal antibody (adalimumab, infliximab); IBD → an anti-TNF antibody, IL-23 or IL-12/23 inhibitor, or JAK inhibitor. Avoid IL-17 inhibitors in active IBD.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "afa2f42f11eff58e",
+     "n": 377,
+     "p": "The choi"
+    },
+    {
+     "h": "549545e8ced0b1a7",
+     "n": 156,
+     "p": "Currentl"
+    },
+    {
+     "h": "49a59ecddb617749",
+     "n": 117,
+     "p": "IL-17is "
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If a biologic or JAK inhibitor fails or is not tolerated, switch to another,** within the same class once if wanted; there is no cap on the number of switches.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f335fd937e1ec2da",
+     "n": 172,
+     "p": "In patie"
+    },
+    {
+     "h": "4c5fb0941d630178",
+     "n": 93,
+     "p": "Of note,"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
   },
   {
    "claim": "**Consider a trial of a lower csDMARD dose** once low disease activity or remission has lasted at least 6 months, with the skin also well controlled.",
@@ -163,6 +403,24 @@
     }
    ],
    "locator": "Australia & New Zealand Musculoskeletal (ANZMUSC) Clinical Trials Network, the Australian Rheumatology Association and Cochrane Musculoskeletal, 'An Australian Living Guideline for the Pharmacological Management of Inflammatory Arthritis (version 5.6)', version 5.6 published 15 July 2026, https://livingguidelines.org/adult/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**S2 (EULAR) is more permissive:** in sustained remission, tapering of DMARDs (lowering the dose, not stopping, which usually causes flares) may be considered, by shared decision; tapering is off-label and long-term data are missing.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e44f5533e65017ac",
+     "n": 73,
+     "p": "In patie"
+    },
+    {
+     "h": "8116181bec1561e8",
+     "n": 368,
+     "p": "By taper"
+    }
+   ],
+   "locator": "EULAR taskforce (Gossec L, Kerschbaumer A, Ferreira RJO, et al.), Annals of the Rheumatic Diseases 83(6):706-719 (doi 10.1136/ard-2024-225531), 'EULAR recommendations for the management of psoriatic arthritis with pharmacological therapies: 2023 update', published 15 May 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11103320/, retrieved 2026-09-24"
   },
   {
    "claim": "**Check bloods within a month** of starting or increasing a csDMARD, during acute illness, or when a relevant new drug is added.",

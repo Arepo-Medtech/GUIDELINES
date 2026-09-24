@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/obsessive-compulsive-disorder.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"
+  "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations",
+  "https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)' (published 29 November 2005, last reviewed 11 July 2024 (update in progress)). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from National Institute for Health and Care Excellence (NICE) 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)' (published 29 November 2005, last reviewed 11 July 2024 (update in progress)), 22 claims; LICENCE: © NICE. Terms of use 18.2: 'Except for personal use, study or personal research, copyright content owned by the National Institute for Health and Care Excellence (NICE) may not be used, reproduced, translated, distributed or transmitted in any form, in whole or in part ... without the prior written agreement of NICE.' (read at https://www.nice.org.uk/terms-and-conditions (section 18.2, use of NICE content outside the United Kingdom)). S2: PARAPHRASED AND HASH-ANCHORED from Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040) 'Managing obsessive compulsive disorder' (published 1 August 2015), 10 claims; LICENCE: © Australian Prescriber (free to read: 'Full text free online at www.australianprescriber.com'; no reuse licence stated on the article page or PDF) (read at the article web page and its PDF (australianprescriber.tg.org.au)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, an Australian Prescriber review (Brakoulias 2015), for Australian practice points and the trial dose ranges that NICE leaves to the product information. S2 is a narrative review, not a guideline. The S1 claims and anchors are unchanged.",
  "summary": {
-  "total": 22,
+  "total": 32,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 22
+  "pass_paraphrase_anchored": 32
  },
  "claims": [
   {
@@ -70,6 +71,37 @@
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
   },
   {
+   "claim": "**About 2% of people have OCD, and 6–8% have subclinical symptoms.** Many see their GP only after years of silent suffering, embarrassed or unaware that treatment works.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82ce5f42268436e4",
+     "n": 93,
+     "p": "It occur"
+    },
+    {
+     "h": "cd6118cb774305fc",
+     "n": 255,
+     "p": "Patients"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not confuse OCD with obsessive compulsive (anankastic) personality disorder,** where rigidity, perfectionism and a love of order feel natural to the person rather than distressing; the two often occur apart.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b3433946abea3000",
+     "n": 267,
+     "p": "It is of"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Mild impairment, or a preference for it: low-intensity CBT with ERP** (up to 10 therapist hours), by structured self-help materials, by telephone, or in a group.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -114,6 +146,37 @@
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
   },
   {
+   "claim": "**Internet-delivered CBT programs work, whether therapist-guided or self-guided,** and suit people in rural and remote Australia (examples named: STOP Therapy for OCD, This Way Up OCD Course).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1f2014691a0cadf9",
+     "n": 250,
+     "p": "Internet"
+    },
+    {
+     "h": "8bfc65853834c861",
+     "n": 92,
+     "p": "Examples"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Reach for medication when** the person cannot face the anxiety that ERP provokes, symptoms are severe, or no psychologist trained in OCD is available (waiting lists and cost are common barriers).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ae22140c3e23e185",
+     "n": 443,
+     "p": "Pharmaco"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**First drug: an SSRI,** namely fluoxetine, fluvoxamine, paroxetine, sertraline or citalopram.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -125,6 +188,39 @@
     }
    ],
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Dose ranges used in OCD trials (per day):** citalopram 20–80 mg (but recommended only up to 40 mg), escitalopram 10–40 mg, fluoxetine 40–80 mg, fluvoxamine 50–300 mg, paroxetine 20–60 mg, sertraline 50–200 mg, clomipramine 75–300 mg. The SSRIs respond at similar rates, so choose by familiarity and interaction risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ea0ef93acb894b60",
+     "n": 274,
+     "p": "Table - "
+    },
+    {
+     "h": "e33f3befa5d74e38",
+     "n": 201,
+     "p": "Response"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Most people need more than a standard dose.** Raise the SSRI every two weeks as response and tolerance allow; give it at least 12 weeks at its maximum dose before calling it a failure. Higher doses call for careful monitoring with a psychiatrist.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f48be4dbf7b62db8",
+     "n": 700,
+     "p": "Some pat"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Counsel before starting:** no craving or tolerance; withdrawal symptoms with missed, reduced or stopped doses; side effects that can include more anxiety, suicidal thoughts and self-harm, especially early; a lag of up to 12 weeks before benefit; and medication is not a weakness.",
@@ -199,6 +295,19 @@
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Stopping a successful SSRI carries a high relapse risk** (over 50% within 12 weeks in most studies). Weigh the person's circumstances, then withdraw slowly over several months, with a psychiatrist's guidance if the illness was severe.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b61df8a9b869a113",
+     "n": 404,
+     "p": "A decisi"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Avoid in OCD without comorbidity:** tricyclics other than clomipramine, tricyclic-related drugs, SNRIs (including venlafaxine), MAOIs, and anxiolytics except briefly to cover early SSRI activation. Do not use an antipsychotic on its own.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -248,6 +357,19 @@
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
   },
   {
+   "claim": "**S2's order: clomipramine usually follows two failed SSRI trials,** because it is harder to tolerate and trials have not clearly shown it is better. Benzodiazepines generally do not help OCD, unlike other anxiety disorders.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "25201d784fa246cb",
+     "n": 324,
+     "p": "Trials h"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "⚠️ **Clomipramine safety:** it is toxic in overdose, so supply small amounts when suicide risk is significant; check an ECG and blood pressure first if cardiovascular risk is significant.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -264,6 +386,24 @@
     }
    ],
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **High-dose SSRIs and clomipramine can prolong the QT interval,** so repeat the ECG after dose increases. Watch for serotonin syndrome and tell patients to avoid St John's wort and tramadol. Fluoxetine and paroxetine strongly inhibit CYP2D6, and clomipramine inhibits several CYP450 enzymes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b72df68b6146353a",
+     "n": 158,
+     "p": "Patients"
+    },
+    {
+     "h": "789735253591a3b6",
+     "n": 271,
+     "p": "High-dos"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
   },
   {
    "claim": "**Refractory OCD** (an SSRI, combined treatment and clomipramine have all failed): refer to a specialist OCD team. Options, in no proven order, are further CBT or cognitive therapy, antipsychotic augmentation of an SSRI or clomipramine, or clomipramine with citalopram. Primary care should not routinely start combinations or augmentation.",
@@ -295,6 +435,19 @@
     }
    ],
    "locator": "National Institute for Health and Care Excellence (NICE), 'Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31)', published 29 November 2005, last reviewed 11 July 2024 (update in progress), https://www.nice.org.uk/guidance/cg31/chapter/Recommendations, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Australian position (S2):** ERP plus an SSRI beats either alone, so add ERP when drugs alone fail and refer treatment-resistant patients to a psychiatrist. Deep brain stimulation is a last resort in Australia, and NSW mental health law (2007) bans it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c4dfbb6b03d8b776",
+     "n": 442,
+     "p": "Combinin"
+    }
+   ],
+   "locator": "Brakoulias V, Australian Prescriber 2015;38:121-3 (doi 10.18773/austprescr.2015.040), 'Managing obsessive compulsive disorder', published 1 August 2015, https://australianprescriber.tg.org.au/articles/managing-obsessive-compulsive-disorder.html, retrieved 2026-09-24"
   },
   {
    "claim": "**Psychological treatment first.** Mild impairment: guided self-help with family support may be tried. Moderate to severe impairment, or when self-help has failed: CBT with ERP, involving the family and adapted to the child's developmental age.",

@@ -1,9 +1,11 @@
 # Schizophrenia — assessment, antipsychotic treatment and physical health
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** adults with schizophrenia in Australia and Aotearoa New Zealand: physical-health workup, choice and sequence of antipsychotics, treatment resistance and clozapine, side-effect management, stopping medication, psychosocial and lifestyle care. Acute behavioural disturbance, mental health law and substance-induced psychosis are outside the guideline. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`. No schizophrenia counterpart exists in the corpus.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel) — *Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia*** (published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404); origin: AU). **42 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **63 fragments or anchors re-checkable by machine; 3 doses.** **S1** Suetani S (published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404); AU): 24 claims, paraphrased, hash-anchored · **S2** Wagner E (published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list); international): 10 claims, quoted
+
+> ⚠️ **S2 is an international expert consensus** (Delphi, 93 experts from six continents, 2025) on clozapine-associated myocarditis only. Australian practice follows local clozapine protocols, the product information and the PBS listings below, which may differ.
 
 > ℹ️ **All the recommended first-line agents are PBS-listed for schizophrenia** (aripiprazole, brexpiprazole, cariprazine, lurasidone), as are clozapine and the paliperidone and aripiprazole long-acting injections (see the table below). The guideline notes that VMAT-2 inhibitors for tardive dyskinesia are **not** subsidised in Australia or New Zealand.
 
@@ -34,6 +36,19 @@
 - **Only around 40% respond to clozapine.** Adding ECT to standard treatment may improve response, at least over 8–12 weeks. [S1]
 - **If augmenting clozapine, aripiprazole at a medium dose (9 to <16.5 mg/day) was the only combination linked to fewer admissions.** High-dose olanzapine, quetiapine or risperidone added to clozapine was linked to more psychosis admissions. [S1]
 - **Avoid doses above the therapeutic range and antipsychotic polypharmacy** unless clinically necessary. If used, monitor benefit and tolerability closely, and stop the extra drug or return to a therapeutic dose if nothing has improved by 3 months. [S1]
+
+## Clozapine: myocarditis prevention and monitoring
+
+- ⚠️ **Clozapine-associated myocarditis (CAM) usually appears in the first month.** Risk rises with sodium valproate, fast up-titration, slow clozapine metabolism (for example Asian or Indigenous American ancestry, or interacting drugs), recent infection, and a history of myocardial infarction, pericarditis, cardiomyopathy or heart failure. Early symptoms are vague: flu-like illness, fever, fatigue, chest pain or breathlessness. [S2]
+- **How common:** a meta-analysis found 0.7%, but 8.5% in part of Australia with mandatory screening; reported mortality after CAM is 21–50%. [S2]
+- ⚠️ **Titrate more slowly than the product information.** The week-1 target is 100 mg under Australian national and manufacturer guidance (150 mg in the EU). The consensus starts at 12.5 mg a day and prefers 50 mg by day 7 and 100–125 mg by day 14. [S2]
+- **Delay the start** for at least 4 weeks after an mRNA vaccine and 2–3 weeks after a viral or bacterial infection (once the fever has settled). [S2]
+- ⚠️ **Minimum monitoring:** before the first dose, hs-troponin, CRP, full blood count, vital signs and an ECG. For the first 4 weeks, hs-troponin, CRP and full blood count weekly; ECG every 2 weeks; oxygen saturation and postural blood pressure weekly; heart rate and temperature twice a week. A clozapine level at day 14 can flag slow metabolisers. Baseline echocardiography is only in the enhanced scheme. [S2]
+- **Australian, New Zealand and German guidelines require weekly CRP and troponin for the first 4–6 weeks.** The consensus core is 4–8 weeks; if monitoring continues past 4 weeks, vitals weekly, CRP, hs-troponin and full blood count every 2 weeks, and one ECG after 4 weeks. [S2]
+- ⚠️ **Get a cardiac MRI** if hs-troponin is above the 99th percentile, NT-proBNP is 125 pg/mL or more, or there is a significant new rise from baseline. Consider false-positive troponin (heterophile antibodies in glandular fever, fibrin clots, kidney dysfunction, pulmonary embolism, rheumatoid factor). [S2]
+- **Rechallenge after CAM is off-label** and needs informed consent and a joint psychiatry, cardiology and pharmacy decision with the patient and family. It is not recommended after cardiogenic shock or ventricular arrhythmia, or if the heart has not returned to its pre-CAM baseline. [S2]
+- ⚠️ **Before rechallenge:** normal hs-troponin, CRP, full blood count, vital signs and ECG, and an echocardiogram with LVEF of at least 50%; stop valproate if justified; wait at least 8 weeks after the myocarditis resolves (often 6 months or more after a severe episode). [S2]
+- ⚠️ **Rechallenge titration and monitoring:** 6.25 mg on day 1, 25 mg by day 7, 50 mg by day 14 and 100 mg by the end of week 4. Check hs-troponin and CRP twice a week, full blood count and ECG weekly, oxygen saturation and postural blood pressure twice a week, and heart rate and temperature daily; if uncomplicated, step down in weeks 5–8. [S2]
 
 ## Side effects
 
@@ -71,15 +86,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Strength and certainty of each recommendation** (Tables 6–11), the **pharmacology algorithm** (Table 13), the **side-effect table** (Table 14) and the **physical-health monitoring schedule** (Table 15) are in tables, which were stripped. | `input_unavailable` |
-| 2 | **Antipsychotic target doses and clozapine safety monitoring** (neutrophils, myocarditis, levels) are not in the text. | `input_unavailable` |
-| 3 | **Outside the guideline's scope:** acute behavioural disturbance, mental health law, adherence strategies, substance-induced psychosis. For evidence gaps the guideline points to the 2016 RANZCP guideline, which is archived and was not used. | `out_of_scope` |
-| 4 | **International alignment:** RANZCP's INTEGRATE summary (2025) also starts with aripiprazole and uses clozapine after two failed trials; it states it aligns with this guideline. | `observation` |
-| 5 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **Antipsychotic target doses and clozapine neutrophil monitoring** are in neither source. Myocarditis screening and the day-14 clozapine level now come from S2; neutrophil (ANC) monitoring is explicitly outside S2. | `input_unavailable` |
+| 3 | **Clozapine titration speed:** Australian national and manufacturer guidance targets 100 mg by the end of week 1; the S2 consensus prefers 50 mg by day 7. Both are shown; follow the local protocol and product information. | `observation` |
+| 4 | **Baseline echocardiography and rechallenge waiting time:** an earlier Australian protocol presumed baseline echocardiography; S2 makes it optional (enhanced scheme) before a first course but mandatory before rechallenge, and accepts 8 weeks after a mild episode where an earlier protocol advised 6 months. | `observation` |
+| 5 | **Outside the guideline's scope:** acute behavioural disturbance, mental health law, adherence strategies, substance-induced psychosis. For evidence gaps the guideline points to the 2016 RANZCP guideline, which is archived and was not used. | `out_of_scope` |
+| 6 | **International alignment:** RANZCP's INTEGRATE summary (2025) also starts with aripiprazole and uses clozapine after two failed trials; it states it aligns with this guideline. | `observation` |
+| 7 | **Licence:** CC BY-NC 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Suetani S, Siskind D et al., Australian & New Zealand Journal of Psychiatry (ANZJP-commissioned panel). *Australian and New Zealand Journal of Psychiatry Grading of Recommendations, Assessment, Development and Evaluations (GRADE) guidelines for the management of schizophrenia*. published 15 January 2026 (Aust N Z J Psychiatry 2026;60:367-404). https://doi.org/10.1177/00048674251406058 — retrieved 2026-09-23. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Wagner E, Korman N, Solmi M, et al., for the CAM Expert Group (international Delphi panel drawn from the Treatment Response and Resistance in Psychosis working group), British Journal of Psychiatry 228(4):348-356 (doi 10.1192/bjp.2025.89). *Multidisciplinary consensus on prevention, screening and monitoring of clozapine-associated myocarditis and clozapine rechallenge after myocarditis*. published online 2 June 2025; issue April 2026 (addendum 10.1192/bjp.2025.10372 adds only the expert-group list). https://pmc.ncbi.nlm.nih.gov/articles/PMC13051212/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
