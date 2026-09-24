@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/cutaneous-t-cell-lymphoma.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/",
+  "https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021' (published 21 April 2022). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9325452). The source's words are NOT reproduced here. The stage-by-stage treatment tables (Tables 7 and 8) and diagnostic/staging tables were stripped; claims rest on the narrative text.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021' (published 21 April 2022), 21 claims; LICENCE: CC BY-NC-ND 4.0 (read at Europe PMC fullTextXML <license> element for PMC9325452). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)' (retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027)), 7 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. The stage-by-stage treatment tables (Tables 7 and 8) and diagnostic/staging tables were stripped; claims rest on the narrative text. Edition 2.0 keeps every S2k 2021 claim (S1) unchanged and adds S2, three Australian eviQ protocols (CC BY-NC 4.0, paraphrased), for mogamulizumab, vorinostat and brentuximab vedotin doses, PBS status and safety monitoring. The S2 source file concatenates the protocol pages (https://www.eviq.org.au/p/4556, /p/1391 and /p/1665), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ asks that adaptations cite the eviQ ID, version and URL, as given in the S2 title and those URLs.",
  "summary": {
-  "total": 21,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 21
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -241,6 +242,205 @@
     }
    ],
    "locator": "German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft, 'S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021', published 21 April 2022, https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **Mogamulizumab (eviQ ID 4556), for relapsed or refractory MF or SS after at least one systemic therapy:** 1 mg/kg IV on days 1, 8, 15 and 22 of the first 28-day cycle, then on days 1 and 15 of later cycles, until progression or unacceptable toxicity. Give each dose within 2 days of its date; if more than 2 days late, give it as soon as possible and restart the schedule from then. PBS Authority; premedication is required.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82ef981c890b51b0",
+     "n": 12,
+     "p": "ID: 4556"
+    },
+    {
+     "h": "b34e3df890d935d1",
+     "n": 447,
+     "p": "| Mogamu"
+    },
+    {
+     "h": "78bf84c9a3ab28db",
+     "n": 28,
+     "p": "Mogamuli"
+    },
+    {
+     "h": "743c658dd8663220",
+     "n": 109,
+     "p": "Relapsed"
+    },
+    {
+     "h": "3651f3d6c9ac5894",
+     "n": 81,
+     "p": "The prod"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Mogamulizumab rash can mimic progression:** it takes many forms (papular, lichenoid, granulomatous, psoriasiform and others), so consider a skin biopsy to tell drug eruption from disease; SJS and TEN, some fatal, have occurred. Watch for immune-mediated harm (myositis, myocarditis, hepatitis, pneumonitis, Guillain-Barré, hypothyroidism; consider thyroid tests) and high blood sugar.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d400290511417391",
+     "n": 816,
+     "p": "Fatal an"
+    },
+    {
+     "h": "def4927d267a50f2",
+     "n": 251,
+     "p": "Fatal an"
+    },
+    {
+     "h": "6b1343b201913ba1",
+     "n": 78,
+     "p": "Consider"
+    },
+    {
+     "h": "72eef5e1d299872d",
+     "n": 108,
+     "p": "Hypergly"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Mogamulizumab before an allogeneic transplant raises the risk of severe and steroid-refractory GVHD and transplant death,** more so when given within about 50 days of the transplant; watch closely for early GVHD.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "449546b8da00b01e",
+     "n": 526,
+     "p": "Increase"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Vorinostat (eviQ ID 1391), for relapsed or chemotherapy-refractory CTCL:** 400 mg by mouth once a day until progression or unacceptable toxicity (100 mg capsules; PBS Authority). If it is not tolerated, drop to 300 mg once a day with or just after food, then if needed to 300 mg on 5 consecutive days each week.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e80edb39a5c0e189",
+     "n": 12,
+     "p": "ID: 1391"
+    },
+    {
+     "h": "d5a52046b3dab2b8",
+     "n": 337,
+     "p": "| Vorino"
+    },
+    {
+     "h": "0a6e7eb70c2598ca",
+     "n": 70,
+     "p": "Vorinost"
+    },
+    {
+     "h": "5674291e72148b0d",
+     "n": 86,
+     "p": "Cutaneou"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Vorinostat safety (eviQ):** it can prolong the QT interval (correct electrolytes, avoid other QT drugs, consider ECG and electrolyte checks), causes venous thromboembolism, and can dehydrate through diarrhoea and vomiting; patients should drink at least 2 L a day. Check blood count, kidney and liver tests, calcium, magnesium, phosphate and glucose at baseline, fortnightly over the first 2 months, and 4-weekly after that.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02fd8fa59edbf3f6",
+     "n": 702,
+     "p": "This tre"
+    },
+    {
+     "h": "0334bdabd3a4c3cf",
+     "n": 80,
+     "p": "Venous t"
+    },
+    {
+     "h": "e9edd475e4558970",
+     "n": 264,
+     "p": "Patients"
+    },
+    {
+     "h": "68f6f6f7d7eab2d9",
+     "n": 179,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Brentuximab vedotin (eviQ ID 1665) for relapsed or refractory CD30-positive CTCL** (MF, SS or primary cutaneous ALCL): 1.8 mg/kg IV (capped at 180 mg) every 21 days for up to 16 cycles; PBS Authority. Assess neuropathy before every dose (grade 2 or worse may need a lower dose, delay or omission) and watch for PML, pancreatitis and severe skin reactions.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1926a247e0a284b6",
+     "n": 12,
+     "p": "ID: 1665"
+    },
+    {
+     "h": "2f6cf1b4161f341c",
+     "n": 156,
+     "p": "| Brentu"
+    },
+    {
+     "h": "32272fbb6c3627fa",
+     "n": 35,
+     "p": "Brentuxi"
+    },
+    {
+     "h": "c9f155973ba85fd5",
+     "n": 154,
+     "p": "Relapsed"
+    },
+    {
+     "h": "67eb3fe8972ce506",
+     "n": 220,
+     "p": "Assess p"
+    },
+    {
+     "h": "9814bc93d0df2937",
+     "n": 87,
+     "p": "Progress"
+    },
+    {
+     "h": "d6177a4d00bf9c14",
+     "n": 47,
+     "p": "Pancreat"
+    },
+    {
+     "h": "750d4aeb0805c944",
+     "n": 104,
+     "p": "Severe c"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Before any of these protocols (eviQ):** screen for hepatitis B (HBsAg, anti-HBc and anti-HBs), and avoid live vaccines in moderately or severely immunocompromised patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "aaf977a01217d43b",
+     "n": 99,
+     "p": "Routine "
+    },
+    {
+     "h": "27a555ee85b79923",
+     "n": 145,
+     "p": "Live vac"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)', retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027), https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Prefer single-agent chemotherapy** (for example low-dose gemcitabine or doxorubicin) to combination regimens, which cause heavy immunosuppression without improving survival.",

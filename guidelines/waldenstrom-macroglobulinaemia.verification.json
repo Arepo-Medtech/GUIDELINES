@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/waldenstrom-macroglobulinaemia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://myeloma.org.au/wp-content/uploads/2026/01/MSAG-waldenstrom-guidelines-2022pdf.pdf"
+  "https://myeloma.org.au/wp-content/uploads/2026/01/MSAG-waldenstrom-guidelines-2022pdf.pdf",
+  "https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Talaulikar D et al.) 'Consensus clinical practice guidelines for the treatment of patients with Waldenström Macroglobulinaemia (MSAG Guidelines, version 2)' (June 2022). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: Copyright © 2026 Myeloma Foundation of Australia Inc. All Rights Reserved. (site-wide footer; the PDF itself carries no reuse statement) (read at https://myeloma.org.au/health-professionals/guidelines-education/clinical-practice-guidelines/ (page footer)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Talaulikar D et al.) 'Consensus clinical practice guidelines for the treatment of patients with Waldenström Macroglobulinaemia (MSAG Guidelines, version 2)' (June 2022), 20 claims; LICENCE: Copyright © 2026 Myeloma Foundation of Australia Inc. All Rights Reserved. (site-wide footer; the PDF itself carries no reuse statement) (read at https://myeloma.org.au/health-professionals/guidelines-education/clinical-practice-guidelines/ (page footer)). S2: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee) 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)' (retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027)), 8 claims; LICENCE: CC BY-NC 4.0. eviQ also states that \"eviQ content should not be hosted on external sites\", and that commercial entities must contact eviQ to seek permission (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every MSAG 2022 claim (S1) unchanged and adds S2, three Australian eviQ protocols (CC BY-NC 4.0, paraphrased), for regimen doses (S1's Table 5 was not machine-read), current PBS status of zanubrutinib, and supportive care. The owner allowed eviQ protocols as S2 because no open international WM guideline was readable. The S2 source file concatenates the protocol pages (https://www.eviq.org.au/p/1654, /p/3794 and /p/4081), each under a header line naming its URL; only protocol text from the ID line to the literature-search section was kept. eviQ asks that adaptations cite the eviQ ID, version and URL, as given in the S2 title and those URLs.",
  "summary": {
-  "total": 20,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -243,6 +244,191 @@
    "locator": "Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Talaulikar D et al.), 'Consensus clinical practice guidelines for the treatment of patients with Waldenström Macroglobulinaemia (MSAG Guidelines, version 2)', June 2022, https://myeloma.org.au/wp-content/uploads/2026/01/MSAG-waldenstrom-guidelines-2022pdf.pdf, retrieved 2026-09-23"
   },
   {
+   "claim": "🇦🇺 **DRC as given in Australia (eviQ ID 1654):** dexamethasone 20 mg IV and rituximab 375 mg/m² IV on day 1, with cyclophosphamide 100 mg/m² by mouth twice a day on days 1 to 5 (rounded to the 50 mg tablet); every 21 days for 6 cycles. All three drugs are on the PBS general schedule.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4aad44378061f31d",
+     "n": 12,
+     "p": "ID: 1654"
+    },
+    {
+     "h": "21b61e3cc9cd574c",
+     "n": 273,
+     "p": "| Dexame"
+    },
+    {
+     "h": "b24a23983eacf8f3",
+     "n": 105,
+     "p": "All drug"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**IgM flare with DRC was uncommon in its study:** 32% had an initial flare, only 11% of those a rise of 25% or more, and none developed hyperviscosity (possibly because of the cyclophosphamide). With a very high IgM paraprotein, still consider plasmapheresis before rituximab-based treatment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9a32b346926b2732",
+     "n": 597,
+     "p": "The inci"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Bendamustine-rituximab (eviQ ID 3794):** rituximab 375 mg/m² IV on day 1 and bendamustine 90 mg/m² IV on days 1 and 2, every 28 days for 6 cycles. eviQ lists it for untreated or relapsed indolent CD20-positive lymphoma; bendamustine is PBS Authority for previously untreated disease and not PBS-listed for relapsed or refractory disease.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4c0ea53e764c194e",
+     "n": 12,
+     "p": "ID: 3794"
+    },
+    {
+     "h": "ab07eb80fef9ea47",
+     "n": 255,
+     "p": "| Rituxi"
+    },
+    {
+     "h": "93d7e78bf2a41895",
+     "n": 170,
+     "p": "Bendamus"
+    },
+    {
+     "h": "a5c3784d87417c6b",
+     "n": 143,
+     "p": "Previous"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Bendamustine safety (eviQ):** use irradiated blood products; in heart disease monitor potassium and the ECG and replace potassium below 3.5 mmol/L; severe skin reactions can occur, with higher risk alongside allopurinol.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "04911cc011a1193d",
+     "n": 92,
+     "p": "The use "
+    },
+    {
+     "h": "05d2ad138ec864c0",
+     "n": 171,
+     "p": "In patie"
+    },
+    {
+     "h": "b172501f733079a5",
+     "n": 427,
+     "p": "Severe c"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "🇦🇺 **Zanubrutinib (eviQ ID 4081):** 160 mg by mouth twice a day, or 320 mg once a day at the clinician's discretion, continued until progression or unacceptable toxicity. For WM it is PBS Authority after at least one prior therapy, or as first treatment when chemoimmunotherapy is unsuitable (80 mg capsules, 160 mg tablets).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a81bd2241ab08bba",
+     "n": 12,
+     "p": "ID: 4081"
+    },
+    {
+     "h": "29f6b451a65053f3",
+     "n": 185,
+     "p": "| Zanubr"
+    },
+    {
+     "h": "375bcb2e4b5425b8",
+     "n": 247,
+     "p": "Zanubrut"
+    },
+    {
+     "h": "3b395c3325881936",
+     "n": 167,
+     "p": "Waldenst"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Zanubrutinib interactions and dose steps (eviQ):** with a moderate CYP3A4 inhibitor (for example fluconazole, diltiazem, grapefruit) use 80 mg twice a day; with a strong one (for example posaconazole, voriconazole, clarithromycin) 80 mg once a day, returning to the usual dose once it stops; avoid moderate or strong CYP3A4 inducers. For repeated grade 3 or worse toxicity: no cut the first time, then 160 mg once a day (or 80 mg twice a day), then 80 mg once a day, then stop. Stop for any intracranial bleed; severe liver impairment: 80 mg twice a day.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "6edffe7d81991d4e",
+     "n": 372,
+     "p": "| Modera"
+    },
+    {
+     "h": "b594433a4ea0b04b",
+     "n": 226,
+     "p": "Strong C"
+    },
+    {
+     "h": "8f87f88d53ea93d4",
+     "n": 64,
+     "p": "Avoid co"
+    },
+    {
+     "h": "64a4846fd6cf19f6",
+     "n": 401,
+     "p": "| Non-Ha"
+    },
+    {
+     "h": "fcecdaf22c82a6e3",
+     "n": 69,
+     "p": "| Severe"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Zanubrutinib safety (eviQ):** assess the heart at baseline and periodically (arrhythmia, hypertension, heart failure); bleeding risk rises with antiplatelets or anticoagulants, so consider holding it for 3 to 7 days before and after surgery. eviQ recommends Pneumocystis and antiviral prophylaxis, antifungal cover for those at risk, and blood tests (FBC, EUC, eGFR, LFTs) monthly.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9c09848eaf072823",
+     "n": 262,
+     "p": "This tre"
+    },
+    {
+     "h": "6cf03a4030031ac2",
+     "n": 315,
+     "p": "Zanubrut"
+    },
+    {
+     "h": "ab6510ccea5cbe35",
+     "n": 65,
+     "p": "PJP prop"
+    },
+    {
+     "h": "99c87a500f98193d",
+     "n": 234,
+     "p": "Antivira"
+    },
+    {
+     "h": "b368a0994c78d824",
+     "n": 71,
+     "p": "FBC, EUC"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Indolent, symptom-free relapse can be watched** (grade C). Offer trials, especially when earlier chemotherapy responses lasted under 12 months, and do not repeat a regimen whose response lasted less than 12 months (grade C). BTK inhibitor choices mirror frontline.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -316,6 +502,25 @@
     }
    ],
    "locator": "Medical and Scientific Advisory Group (MSAG) to Myeloma Australia (Talaulikar D et al.), 'Consensus clinical practice guidelines for the treatment of patients with Waldenström Macroglobulinaemia (MSAG Guidelines, version 2)', June 2022, https://myeloma.org.au/wp-content/uploads/2026/01/MSAG-waldenstrom-guidelines-2022pdf.pdf, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**With DRC, eviQ recommends Pneumocystis prophylaxis for everyone** (for example trimethoprim/sulfamethoxazole 160/800 mg, one tablet twice a day on two days each week or once a day on three days each week) **and antiviral prophylaxis;** antifungal prophylaxis is at the clinician's discretion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "2d0d48a2f3a049fc",
+     "n": 224,
+     "p": "PJP prop"
+    },
+    {
+     "h": "8175e522bfa8a348",
+     "n": 313,
+     "p": "Antivira"
+    }
+   ],
+   "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee), 'eviQ protocols (not guidelines) used for Waldenström macroglobulinaemia: 1654 DRC (v.7, last reviewed 28 April 2023), 3794 bendamustine and rituximab (v.9, 20 June 2023) and 4081 zanubrutinib (v.5, 15 April 2026)', retrieved 24 September 2026 (review due: 1654 as required; 3794 30 June 2027; 4081 31 December 2027), https://www.eviq.org.au/haematology/lymphoma/waldenstrom-macroglobulinaemia, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "⚠️ **Bing-Neel syndrome** (about 1%) is lymphoma infiltrating the central nervous system: headache, cognitive change, weakness or psychiatric features. Diagnose by finding the clonal cells in CSF or a biopsy, with MYD88 testing of CSF and brain/spine imaging. A BTK inhibitor is the recommended treatment.",

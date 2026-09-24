@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/graft-versus-host-disease-chronic.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/3829"
+  "https://www.eviq.org.au/p/3829",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '3829 Chronic graft versus host disease (cGVHD) (eviQ ID 3829, version 2)' (first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '3829 Chronic graft versus host disease (cGVHD) (eviQ ID 3829, version 2)' (first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026), 20 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: QUOTED from Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108) 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions' (published 8 March 2024), 10 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC10968999). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every eviQ claim (S1) unchanged and adds S2, the Cell Therapy Transplant Canada 2024 national consensus guideline (CC BY 4.0, quoted), for screening at diagnosis, indications for systemic treatment, NIH steroid-failure definitions, response-assessment timing and third-line options. Searched and not usable: the NIH 2025 cGVHD consensus update (Transplant Cell Ther, not open access) and the ANZTCT ruxolitinib position statement (Intern Med J, not open access). The 2025 Taiwan pulmonary cGVHD consensus covers the lung only.",
  "summary": {
-  "total": 20,
-  "pass": 0,
+  "total": 30,
+  "pass": 10,
   "fail": 0,
   "pass_paraphrase_anchored": 20
  },
@@ -132,6 +133,20 @@
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '3829 Chronic graft versus host disease (cGVHD) (eviQ ID 3829, version 2)', first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026, https://www.eviq.org.au/p/3829, retrieved 2026-09-23"
   },
   {
+   "claim": "**Whenever chronic GVHD is suspected, do lung function tests** (lung involvement is often silent; test bronchodilator response to exclude asthma). **Ask directly about genital symptoms, arrange a gynaecology review around day 100**, and measure immunoglobulins around day 100 (high levels suggest B-cell-driven disease; low levels raise infection risk).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Whenever cGvHD is suspected, pulmonary function tests (PFTs) are strongly recommended given the frequency of the asymptomatic involvement and the importance of the early recognition of lung GvHD. The bronchodilator response should be assessed to rule out asthma. … Genital manifestations of cGvHD are often overlooked. Accordingly, a directed questionnaire searching for gynecological manifestations is strongly suggested. Gynecology assessment around day 100 will aid in the detection of genital GvHD in female patients, particularly in post-menopausal women where features of atrophic vaginitis may mask early cGvHD symptoms. Immunoglobulin quantitation around day 100 will help detect hypergammaglobulinemia, which is evident when B cell deregulation is the main pathway for cGvHD development, or hypogammaglobulinemia, which can predispose the patient to opportunistic infection during cGvHD treatment.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Screen and monitor newly diagnosed patients for atypical chronic GVHD**, which can affect the central and peripheral nervous system, lungs, serous membranes, kidney and muscles or joints, or cause immune cytopenias, and can appear before or without NIH-defined features.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It frequently involves the central nervous system, peripheral nervous system, lungs, serositis, kidney, musculoskeletal system, and immune-mediated cytopenia. Atypical cGvHD affects a substantial number of patients, and it can manifest before or without NIH-defined cGvHD features. … we recommend that patients with newly diagnosed cGvHD should be screened and monitored for the features of atypical cGvHD.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Treatment depends on which organs are involved, how severe it is, the prophylaxis used and earlier acute GVHD treatment**, and must be weighed against the graft-versus-tumour effect. Care works best in a multidisciplinary team of transplant, organ-specialist, nursing and allied health staff.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -195,6 +210,43 @@
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '3829 Chronic graft versus host disease (cGVHD) (eviQ ID 3829, version 2)', first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026, https://www.eviq.org.au/p/3829, retrieved 2026-09-23"
   },
   {
+   "claim": "**Systemic treatment is also indicated in mild chronic GVHD with high-risk features:** thrombocytopenia (platelets below 100) or onset while already on corticosteroids. Moderate to severe disease includes three or more organs, any organ at moderate or severe grade, or any highly morbid form such as lung or sclerotic GVHD.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Systemic therapy is indicated for patients with moderate-to-severe grade cGvHD, which is defined according to the NIH 2014 criteria as the involvement of three or more organs, moderate or severe grade organ involvement in any organ, or any highly morbid form of GvHD, such as lung or sclerotic GvHD []. Systemic treatment is also indicated for patients with mild grade cGvHD but presenting in conjunction with high-risk features such as thrombocytopenia (less than 100 × 109/L) or the development of cGvHD while on corticosteroid treatment.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**CTTC first line: prednisone 0.5 to 1 mg/kg/day, aiming for at least a partial response within 2-4 weeks,** then a gradual taper over several months; adding a steroid-sparing agent (a calcineurin inhibitor or sirolimus) is generally recommended. Maximise topical or local steroids to spare systemic exposure.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "It is recommended that prednisone is to be started at the dose of 0.5 to 1 mg/kg/day, with the goal of achieving at least a partial response within 2-4 weeks. When the patient is responding to corticosteroids, the dose can be gradually tapered over several months, with careful monitoring for GvHD recurrence or steroid-related toxicity. … the combined therapy of corticosteroids with a steroid-sparing agent is generally recommended. … Diverse options for steroid-sparing agents exist including CNI and sirolimus … Local or topical therapy such as corticosteroid-containing cream, a steroid bronchodilator, or an enteric form of corticosteroids should be maximized to avoid systemic steroid-induced, long-term toxicities.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Do not use mycophenolate mofetil front line** (no benefit, more haematological malignancy and relapse), **and avoid azathioprine** (secondary cancers).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Mycophenolate mofetil has failed to demonstrate its efficacy as a front-line therapy for cGvHD treatment, with an increased risk of hematologic malignancies and relapse [], while azathioprine is also known to increase the risk of secondary malignancies []. Thus, several treatment guidelines, including the National Comprehensive Cancer Network (NCCN) guideline [], do not recommend the use of mycophenolate mofetil for front-line therapy and have advised against the use of azathioprine for cGvHD treatment []. … while azathioprine is also known to increase the risk of secondary malignancies []",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Assess response within 2-4 weeks of starting treatment, then every three months** (CTTC).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "we strongly recommend evaluating the response to cGvHD treatment within at least 2-4 weeks of therapy starting, with regular assessment every three months.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**NIH 2014 steroid-failure definitions (as used by CTTC):** refractory, no response or progression after at least 1 week of prednisone 1 mg/kg/day, or persistence despite more than 0.5 mg/kg/day (or 1 mg/kg every other day) for at least 4 weeks; steroid-dependent, needing more than 0.25 mg/kg/day after two failed tapers.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Per the NIH 2014 criteria, the following criteria were proposed for the diagnosis of steroid-refractory cGvHD [,]: (1) a lack of response or disease progression after the administration of minimum prednisone 1 mg/kg/day for at least 1 week (i.e., steroid refractoriness), (2) disease persistence without improvement despite continued treatment with prednisone at >0.5 mg/kg/day or 1 mg/kg/every other day for at least 4 weeks (i.e., steroid refractory cGvHD), and (3) an increase in the prednisone dose to >0.25 mg/kg/day after two unsuccessful attempts to taper prednisone (i.e., steroid-dependent cGvHD).",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
    "claim": "⚠️ **Ruxolitinib is PBS-funded second-line for moderate to severe chronic GVHD**, on the strength of the phase 3 REACH3 trial. Start at 10 mg twice daily; adjust for anaemia, thrombocytopenia or interactions (for example azole antifungals), and consider tapering once the patient has responded and is off steroids.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -220,6 +272,27 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '3829 Chronic graft versus host disease (cGVHD) (eviQ ID 3829, version 2)', first approved 27 April 2021; last reviewed 23 October 2024; review due 31 December 2026, https://www.eviq.org.au/p/3829, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Before switching treatment for progression or non-response in one organ, re-screen other organs for active GVHD** (repeat lung function tests and/or patient-reported scores). Beyond second line there is no standard; choose by organs involved, severity, side effects, interactions, logistics and funding.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "beyond second-line therapy, there is no standard and the treatment should be individualized based on the specific organ involvement, the severity and extent of cGvHD, the potential side effects of the medications, other comorbidities or medical issues, drug-drug interactions, logistics, and reimbursement. Before switching treatment due to progression or non-response in one organ, it is recommended that screening for other organ involvement by active cGvHD is undertaken by repeating PFTs and/or P-ROM score assessments.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Third line and beyond (CTTC):** belumosudil (a ROCK2 inhibitor; notably for sclerotic or mild-to-moderate lung GVHD), ibrutinib (a real-world study found only 9% failure-free survival at two years), extracorporeal photopheresis (steroid-sparing, useful in sclerotic GVHD, but may need several months), sirolimus, mycophenolate and rituximab.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "The following are variably available and effective cGvHD-active treatment options for third-line treatment or beyond: belumosudil [], ibrutinib [], ECP [,], sirolimus [,], mycophenolate mofetil, and rituximab. … Belumosudil has been shown to be effective in the treatment of cGvHD, particularly in the cases of sclerotic or mild-to-moderate lung GvHD [] … However, a real-world, experience-based study reported only a 9% failure-free survival (FFS) rate at two years with a median of 4.5 months of FFS []. … ECP has demonstrated efficacy in the management of steroid-resistant cGvHD, particularly in the setting of sclerotic GvHD and in Canadian practice [,]. Several studies have demonstrated its corticosteroid-sparing effect and potential role in combination with other drugs. Accessibility, tolerability, and appropriate blood counts are pre-requisites to the successful use of this modality. Several months of ECP may be needed before tangible improvement can be seen.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Match the drug to the organ:** ruxolitinib has little evidence in atypical manifestations (immune cytopenias, kidney or nerve involvement), where agents such as rituximab may be preferable; cyclophosphamide has been used for kidney GVHD presenting as nephrotic syndrome. ⚠️ CTTC notes a concern that azithromycin in the FAM regimen may raise relapse risk.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "cyclophosphamide has been adopted for renal GvHD manifesting as nephrotic syndrome [], while the FAM regimen (i.e., fluticasone-azithromycin-montelukast) has been used for pulmonary GvHD [,], although there is a concern for an increased risk of relapse associated with the use of azithromycin []. It is recognized that ruxolitinib has little evidence supporting its use in some of the atypical cGvHD manifestations (e.g., immune cytopenias and renal and neurologic manifestations) and that other immunosuppressive agents (e.g., rituximab) may be preferable in these settings.",
+   "locator": "Cell Therapy Transplant Canada (Kim DDH, Schultz KR, et al.), Current Oncology 31(3):1426-1457 (doi 10.3390/curroncol31030108), 'Cell Therapy Transplant Canada (CTTC) Consensus-Based Guideline 2024 for Management and Treatment of Chronic Graft-Versus-Host Disease and Future Directions', published 8 March 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10968999/, retrieved 2026-09-24"
   },
   {
    "claim": "**Skin:** emollients, SPF 50+ sunscreen and covering clothing. On intact body skin start with a mid-strength steroid such as triamcinolone 0.02%, stepping up to betamethasone dipropionate 0.05% if it fails; use hydrocortisone 0.5 - 1% on the face, armpits and groin. Topical tacrolimus helps dry, flaky skin.",

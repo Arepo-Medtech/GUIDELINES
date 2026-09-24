@@ -1,13 +1,15 @@
 # Cutaneous T-cell lymphoma (mycosis fungoides and Sézary syndrome)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, staging principles and stage-appropriate treatment of primary cutaneous T-cell lymphoma in adults, chiefly mycosis fungoides (MF) and Sézary syndrome (SS): skin-directed therapy, radiotherapy, systemic agents (bexarotene, interferon, brentuximab vedotin, mogamulizumab, HDAC inhibitors), extracorporeal photopheresis, maintenance and follow-up. Systemic (non-cutaneous) T-cell lymphoma: see `peripheral-t-cell-lymphoma`. Cutaneous B-cell lymphoma is only noted.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 claims paraphrased from **German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft — *S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021*** (published 21 April 2022; origin: international). **31 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **59 fragments or anchors re-checkable by machine; 7 doses.** **S1** German Dermatological Society / German Cancer Society guideline group (Dippel E (published 21 April 2022; international): 21 claims, paraphrased, hash-anchored · **S2** eviQ Cancer Treatments Online (retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027); AU): 7 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (German S2k, 2021 update). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Access differs.** The PBS lists vorinostat for CTCL; the source notes HDAC inhibitors are approved only outside Europe. The PBS also lists chlormethine gel (MF), methoxsalen for photopheresis (erythrodermic stage III-IVa), mogamulizumab and brentuximab vedotin (CD30-positive).
+
+> 🇦🇺 **S2 is Australian: three eviQ treatment protocols, not guidelines** (mogamulizumab, vorinostat, brentuximab vedotin). They add the doses, PBS status and safety monitoring S1 does not give. Where they differ from S1, both are shown.
 
 ---
 
@@ -33,6 +35,13 @@
 - **Brentuximab vedotin is an option for advanced CD30-positive MF** (tumour stage). [S1]
 - **Mogamulizumab (anti-CCR4, approved 2019) is a second-line systemic option** for refractory or advanced MF and for SS after at least one prior systemic therapy; it works especially well on blood involvement. [S1]
 - **HDAC inhibitors (vorinostat, romidepsin) and pralatrexate are alternatives** approved in the USA rather than Europe. [S1]
+- 🇦🇺 **Mogamulizumab (eviQ ID 4556), for relapsed or refractory MF or SS after at least one systemic therapy:** 1 mg/kg IV on days 1, 8, 15 and 22 of the first 28-day cycle, then on days 1 and 15 of later cycles, until progression or unacceptable toxicity. Give each dose within 2 days of its date; if more than 2 days late, give it as soon as possible and restart the schedule from then. PBS Authority; premedication is required. [S2]
+- ⚠️ **Mogamulizumab rash can mimic progression:** it takes many forms (papular, lichenoid, granulomatous, psoriasiform and others), so consider a skin biopsy to tell drug eruption from disease; SJS and TEN, some fatal, have occurred. Watch for immune-mediated harm (myositis, myocarditis, hepatitis, pneumonitis, Guillain-Barré, hypothyroidism; consider thyroid tests) and high blood sugar. [S2]
+- ⚠️ **Mogamulizumab before an allogeneic transplant raises the risk of severe and steroid-refractory GVHD and transplant death,** more so when given within about 50 days of the transplant; watch closely for early GVHD. [S2]
+- 🇦🇺 **Vorinostat (eviQ ID 1391), for relapsed or chemotherapy-refractory CTCL:** 400 mg by mouth once a day until progression or unacceptable toxicity (100 mg capsules; PBS Authority). If it is not tolerated, drop to 300 mg once a day with or just after food, then if needed to 300 mg on 5 consecutive days each week. [S2]
+- ⚠️ **Vorinostat safety (eviQ):** it can prolong the QT interval (correct electrolytes, avoid other QT drugs, consider ECG and electrolyte checks), causes venous thromboembolism, and can dehydrate through diarrhoea and vomiting; patients should drink at least 2 L a day. Check blood count, kidney and liver tests, calcium, magnesium, phosphate and glucose at baseline, fortnightly over the first 2 months, and 4-weekly after that. [S2]
+- 🇦🇺 **Brentuximab vedotin (eviQ ID 1665) for relapsed or refractory CD30-positive CTCL** (MF, SS or primary cutaneous ALCL): 1.8 mg/kg IV (capped at 180 mg) every 21 days for up to 16 cycles; PBS Authority. Assess neuropathy before every dose (grade 2 or worse may need a lower dose, delay or omission) and watch for PML, pancreatitis and severe skin reactions. [S2]
+- **Before any of these protocols (eviQ):** screen for hepatitis B (HBsAg, anti-HBc and anti-HBs), and avoid live vaccines in moderately or severely immunocompromised patients. [S2]
 - ⚠️ **Prefer single-agent chemotherapy** (for example low-dose gemcitabine or doxorubicin) to combination regimens, which cause heavy immunosuppression without improving survival. [S1]
 
 ## Sézary syndrome and late stages
@@ -67,15 +76,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Stage-specific treatment tables (Tables 7 and 8), staging tables and the follow-up schedule table were stripped;** first- versus second-line choices by stage are therefore only partly captured. | `input_unavailable` |
-| 2 | **No chlormethine gel, vorinostat, mogamulizumab or methoxsalen doses are given in the text.** | `input_unavailable` |
+| 2 | **No chlormethine gel or methoxsalen (photopheresis) doses are given in either source.** S1 gives no vorinostat, mogamulizumab or brentuximab doses; S2 (eviQ) now supplies them. | `input_unavailable` |
 | 3 | **Edition:** the 2021 update is close to 5 years old. EORTC 2023 MF/SS recommendations (Eur J Cancer) are not open access, and the Australasian Lymphoma Alliance MF/SS statement could not be retrieved. | `observation` |
 | 4 | **Cutaneous B-cell lymphoma and rare cutaneous lymphomas** (BPDCN, subcutaneous panniculitis-like TCL) are mentioned in the source but not summarised here. | `out_of_scope` |
-| 5 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **Vorinostat position differs:** S1 notes that HDAC inhibitors are approved only outside Europe and lists them as alternatives; S2 has a PBS Authority vorinostat protocol for relapsed or chemotherapy-refractory CTCL. Both are shown. | `observation` |
+| 6 | **Mogamulizumab and transplant:** S1 notes allogeneic transplant may suit selected patients; S2 warns that mogamulizumab within about 50 days before allogeneic transplant raises severe GVHD risk. Both are shown; plan the timing with the transplant team. | `observation` |
+| 7 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 8 | **Licence (S2):** eviQ is CC BY-NC 4.0; S2 claims are paraphrased and hash-anchored, and eviQ's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | German Dermatological Society / German Cancer Society guideline group (Dippel E, Assaf C, Becker JC, et al.), Journal der Deutschen Dermatologischen Gesellschaft. *S2k-Guidelines – Cutaneous lymphomas (ICD10 C82 - C86): Update 2021*. published 21 April 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9325452/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | eviQ Cancer Treatments Online, Cancer Institute NSW (Haematology Reference Committee). *eviQ cutaneous T-cell lymphoma protocols (not guidelines): 4556 mogamulizumab (v.1, first approved 22 October 2025), 1391 vorinostat (v.3, last reviewed 11 November 2022) and 1665 brentuximab vedotin (v.6, last reviewed 28 April 2023)*. retrieved 24 September 2026 (review due: 4556 and 1391 31 December 2026; 1665 30 June 2027). https://www.eviq.org.au/haematology/lymphoma/nk-cell-and-t-cell-lymphoma — retrieved 2026-09-24. | CC BY-NC 4.0. eviQ also states that "eviQ content should not be hosted on external sites", and that commercial entities must contact eviQ to seek permission | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**
