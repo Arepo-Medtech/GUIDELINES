@@ -168,6 +168,25 @@ INCLUDING INHALED CORTICOSTEROIDS** [C1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **2 match · 0 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Cough in adults (Respiratory); **T2** Cough in children (Respiratory).
+
+### Additional therapies in eTG
+
+- Honey may be trialled for cough in adults and in children over 12 months; bromhexine may reduce cough frequency; dextromethorphan and guaifenesin have conflicting evidence; antihistamines and codeine are no better than placebo. [T1]
+- ACE inhibitor cough: stop the ACE inhibitor if cough is bothersome and switch to an ARB if still indicated. [T1]
+- Chronic cough with asthma features: short-term inhaled corticosteroid trial reviewed at 2-4 weeks; with typical GORD symptoms: empirical PPI plus lifestyle measures, reviewed at 8-12 weeks and stopped if no response; PPIs and inhalers not recommended without those features. [T1]
+- Refractory chronic cough (specialist): neuromodulators such as amitriptyline, gabapentin or pregabalin, ideally with speech therapy; short-term low-dose morphine may help (limited evidence). [T1]
+- Antibiotics are not needed for cough in children unless there is bacterial pneumonia or a bacterial cause of chronic cough (protracted bacterial bronchitis, pertussis, lung abscess, TB). [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Cough in adults* (Respiratory). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Respiratory&topicfile=asthma-introduction-and-diagnosis&guidelinename=auto&sectionId=c_RSG_Cough-in-adults_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Cough in children* (Respiratory). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Respiratory&topicfile=cough-children — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

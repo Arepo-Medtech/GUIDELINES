@@ -339,6 +339,33 @@ flutter with an accessory pathway** [A10]. **Constipation is COMMON with verapam
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **9 match · 3 differ · 14 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Stable angina (Cardiovascular); **T2** Hypertension and blood pressure reduction (Beta blockers to reduce blood pressure) (Cardiovascular).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| ABRUPT WITHDRAWAL of a beta-blocker may cause increased myocardial ischaemia, risk of infarction and sudden death; if withdrawal is required, reduce the dose gradually over 2 weeks, or over 4 to 6 weeks if the patient has been treated for many years `angina#40` | Stopping a beta blocker suddenly risks rebound effects; halve the dose every 2 to 3 days down to atenolol 25 mg daily or metoprolol 25 mg twice daily, then stop. [T2] | eTG taper (stated in the BP topic) is faster than AMH's 2 weeks / 4-6 weeks for long-term users; the stable angina topic itself gives no taper. |
+| For acute angina, glyceryl trinitrate sublingual tablet 300 to 600 micrograms repeated every 3 to 4 minutes until pain resolves, to a maximum of 1800 micrograms `angina#53` | GTN tablet 300 to 600 micrograms sublingually, repeat every 5 minutes if pain persists, to a total of 3 doses (1800 micrograms); 300 micrograms for a first episode, 600 micrograms for established angina. [T1] | Repeat interval differs: eTG every 5 minutes vs AMH every 3-4 minutes 'until pain resolves'; eTG caps at 3 doses and adds the call-an-ambulance rule. |
+| Verapamil for ANGINA, conventional tablet, oral, initially 80 mg two or three times daily with a maintenance dose of 160 mg two or three times daily; controlled-release tablet initially 180 to 240 mg once daily, increased if necessary to a maximum of 240 mg twice daily, with daily doses above 240 mg given in 2 doses `angina#77` | Verapamil modified-release 120 mg orally daily, increasing if required up to 480 mg daily. [T1] | eTG MR starting dose 120 mg vs AMH 180-240 mg; maximum equal (480 mg). eTG gives no conventional-tablet regimen. |
+
+### Additional therapies in eTG
+
+- Beta blocker first-line to prevent angina: atenolol 25 mg orally daily, increasing if required to 100 mg daily (alternative to metoprolol tartrate). [T1]
+- Add a dihydropyridine CCB to a beta blocker if angina persists: amlodipine 2.5 mg orally daily up to 10 mg daily, or nifedipine modified-release 30 mg orally daily up to 90 mg daily; use alone with caution (reflex tachycardia). [T1]
+- Stepwise approach: start one antianginal; if inadequate combine two from different classes (beta blocker, DHP CCB, long-acting nitrate); add nicorandil/perhexiline only after two-drug failure, with specialist advice. [T1]
+- All patients need a written chest pain action plan; if pain persists more than 10 minutes after 2 GTN doses, take a third dose and call an ambulance. [T1]
+- Optimise underlying CAD with aspirin and a statin (secondary prevention) plus BP control; annual influenza vaccine and up-to-date pneumococcal vaccination; screen for depression. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Stable angina* (Cardiovascular). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Cardiovascular&topicfile=stable-angina&guidelinename=Cardiovascular — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Hypertension and blood pressure reduction (Beta blockers to reduce blood pressure)* (Cardiovascular). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Cardiovascular&topicfile=cardiovascular-disease-risk-stratification&guidelinename=auto&sectionId=c_CVG_Hypertension-and-blood-pressure-reductiontopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

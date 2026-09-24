@@ -341,6 +341,36 @@ symptom relief; uveitis and keratitis may be controlled with topical corticoster
 | **Otitis media** | the same paediatric pattern: **common, mostly self-limiting, antibiotics of limited benefit** |
 | **Eczema** | **atopy** underlies allergic conjunctivitis; **the same patient, the same trigger avoidance** |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 2 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Conjunctivitis (Antibiotic); **T2** Blepharitis (Antibiotic); **T3** Chalazion (meibomian cyst) and hordeolum (stye) (Antibiotic); **T4** Corneal abrasion and foreign bodies (Antibiotic); **T5** Infectious keratitis (Treatment of herpes zoster ophthalmicus) (Antibiotic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH gives the chloramphenicol dose for bacterial conjunctivitis in adults and children as 1 eye drop every 2 hours while awake for 1 to 2 days, then if there is improvement 1 drop 4 times daily for up to 5 days; eye ointment may be used at night if drops are used during the day, or as a single agent 3 or 4 times daily `conjunctivitis-and-eye-infections#92` | Most bacterial conjunctivitis resolves within 7 days untreated; treat neonates/young infants and consider for marked symptoms: chloramphenicol 0.5% 1 drop 4 times daily until improved or up to 7 days (ointment may replace drops); alternative framycetin 0.5% 1 drop 4 times daily. [T1] | eTG has no 2-hourly loading phase and allows up to 7 days (AMH 2-hourly for 1-2 days then 4 times daily up to 5 days); eTG discourages routine antibiotics and advises against aminoglycoside/quinolone drops empirically. |
+| AMH gives the chloramphenicol dose for bacterial blepharitis in adults and children as eye ointment massaged into the lid margin once or twice daily for 1 week, with up to 3 weeks of treatment needed in some cases `conjunctivitis-and-eye-infections#93` | Efficacy of topical antibiotics in anterior blepharitis is uncertain; consider a trial of chloramphenicol eye ointment only if uncontrolled despite adequate lid hygiene and secondary infection suspected; no dose/duration given. [T2] | eTG positions chloramphenicol as a conditional add-on rather than standard treatment; for posterior blepharitis eTG uses oral doxycycline (see additions). |
+
+### Additional therapies in eTG
+
+- Posterior blepharitis not improving after ~4 weeks of lid hygiene: doxycycline orally daily for at least 8 weeks - adult 100 mg reduced to 50 mg after improvement (2-4 weeks); children 8+ weight-banded (50/75/100 mg). Pregnancy/breastfeeding: erythromycin base 500 mg or ethyl succinate 800 mg daily for 8 weeks; child <8 y erythromycin ethyl succinate 20 mg/kg up to 800 mg daily. [T2]
+- Chlamydial conjunctivitis: adult doxycycline 100 mg orally 12-hourly for 7 days (pregnant: azithromycin 1 g single dose); neonate azithromycin 20 mg/kg daily for 3 days; child azithromycin 20 mg/kg up to 1 g single dose. [T1]
+- Gonococcal conjunctivitis (ophthalmic emergency): adult ceftriaxone 1 g IM/IV single dose plus azithromycin 1 g orally single dose; neonate/child ceftriaxone 50 mg/kg (child max 1 g) or cefotaxime single dose; saline irrigation. [T1]
+- Viral conjunctivitis: symptomatic care (cold compresses, lubricant drops), hygiene measures; no role for chloramphenicol; no topical corticosteroids without ophthalmologist advice. [T1]
+- Herpes simplex dendritic ulcer while awaiting ophthalmology: aciclovir 3% eye ointment 5 times daily for 10-14 days (or 3 days after healing, whichever shorter); if unavailable valaciclovir 500 mg 12-hourly or aciclovir 400 mg 5 times daily for 7-10 days. [T5]
+- Bacterial keratitis (ophthalmologist-managed): ofloxacin 0.3% or ciprofloxacin 0.3% drops hourly including overnight, or fortified cefazolin 5% + gentamicin 0.9% hourly, pending review; no systemic antibiotics unless scleral spread. [T5]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Conjunctivitis* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Conjunctivitis_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Blepharitis* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Blepharitis_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Chalazion (meibomian cyst) and hordeolum (stye)* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=chalazion-hordeolum — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T4** | Therapeutic Guidelines (eTG complete). *Corneal abrasion and foreign bodies* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=corneal-abrasion-foreign-bodies — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T5** | Therapeutic Guidelines (eTG complete). *Infectious keratitis (Treatment of herpes zoster ophthalmicus)* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Infectious-keratitis_topic_5 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

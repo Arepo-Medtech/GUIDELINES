@@ -177,6 +177,30 @@ outcomes to 200 micrograms twice daily** [S1] — **halving plastic waste, cost 
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **3 match · 3 differ · 4 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Inhalational drug delivery devices (Respiratory).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| pMDIs SHOULD BE USED WITH A SPACER BY MOST CHILDREN UNDER 8 YEARS and by people with poor dexterity, unless they are using the breath-activated Autohaler `inhalers-and-nebulisers#2` | A pMDI with spacer is usually preferred for all children; children older than 10 years can use a range of devices; add a face mask under 4 years or if no lip seal. Poor dexterity: breath-actuated pMDI or DPI, pMDI with spacer, or a Haleraid. [T1] | eTG age threshold for device flexibility is over 10 years (AMH: spacer for most under 8). |
+| SPACERS ARE RECOMMENDED FOR: children, using a SMALL-VOLUME spacer for children under 5 years with a face mask if necessary; adults with poor hand-breath coordination; ACUTE ASTHMA ATTACKS; patients using inhaled corticosteroids, particularly at higher doses; and to reduce oropharyngeal adverse effects -- candidiasis, dysphonia, frequent cough reflex `inhalers-and-nebulisers#9` | Spacers avoid the need to coordinate actuation, cut oropharyngeal deposition and local effects (eg with ICS), and in acute attacks deliver more drug than a nebuliser. Use a face mask for children under 4 or those unable to seal the mouthpiece; wash face after ICS via mask. [T1] | eTG's face-mask age cut-off is under 4 years (AMH: small-volume spacer with mask under 5). |
+| LARGE-VOLUME SPACERS of 650 to 850 mL are MORE EFFICIENT than small-volume spacers of 60 to 160 mL but less convenient, and are UNSUITABLE FOR CHILDREN UNDER 5 YEARS because of their insufficient tidal volume `inhalers-and-nebulisers#10` | Small-volume spacers are usually preferred because fewer tidal breaths are needed (adults: 2 breaths small-volume vs 3 large-volume for salbutamol; children 4-6 breaths); slow single-breath inhalation is best. [T1] | eTG favours small-volume spacers and does not describe large-volume spacers as more efficient or give a volume/age exclusion. |
+
+### Additional therapies in eTG
+
+- Check inhaler technique at every opportunity and always before stepping up therapy; minimise the number of device types; switch device if technique remains inadequate. [T1]
+- Nebuliser cautions: regular servicing to limit contamination, avoid in acute infection (spreads organisms), and risk of acute angle-closure glaucoma with ipratropium via face mask rather than mouthpiece. [T1]
+- Mist inhalers (Respimat) can be used with a spacer; breath-actuated pMDIs (Autohaler) cannot. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Inhalational drug delivery devices* (Respiratory). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Respiratory&topicfile=inhalational-drug-delivery-devices — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

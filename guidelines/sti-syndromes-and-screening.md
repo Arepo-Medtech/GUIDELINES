@@ -451,6 +451,26 @@ fidaxomicin and faecal-microbiota transplant"**; the previous Australasian guide
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 0 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Approach to Mycoplasma genitalium infection (Antibiotic); **T2** Approach to Neisseria gonorrhoeae infection (Antibiotic); **T3** Pelvic inflammatory disease (Antibiotic); **T4** Infective proctitis (Antibiotic).
+
+### Additional therapies in eTG
+
+- Persistent M. genitalium after doxycycline-azithromycin: use doxycycline-moxifloxacin; if still persistent after moxifloxacin, seek expert advice (pristinamycin, minocycline, sitafloxacin). PID with M. genitalium: moxifloxacin 400 mg daily for 14 days. [T1]
+- Nonsevere PID with severe penicillin allergy: metronidazole plus doxycycline or azithromycin (expert advice if gonorrhoea); if gonorrhoea excluded and other regimens unsuitable, moxifloxacin 400 mg daily for 14 days. Severe PID with severe penicillin allergy: gentamicin or tobramycin IV plus azithromycin 500 mg IV daily plus clindamycin 600 mg IV 8-hourly. [T3]
+- LGV: doxycycline 100 mg 12-hourly for 21 days; abstain 21 days; repeat chlamydia NAAT 3 weeks after treatment. [T4]
+- Gonorrhoea follow-up: abstain for 7 days after treatment; notify partners from the last 2 months; test of cure at least 14 days after treatment by NAAT (7 days if culture). [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Approach to Mycoplasma genitalium infection* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Approach-to-Mycoplasma-genitalium-infection_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Approach to Neisseria gonorrhoeae infection* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Approach-to-Neisseria-gonorrhoeae-infection_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Pelvic inflammatory disease* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Pelvic-inflammatory-disease_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T4** | Therapeutic Guidelines (eTG complete). *Infective proctitis* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=infective-proctitis&guidelinename=Antibiotic — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

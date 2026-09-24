@@ -70,6 +70,29 @@
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **3 match · 1 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Kidney and ureteric stones in adults (Kidney and Urinary).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| KIDNEY STONES ARE COMMON and RENAL COLIC DUE TO MOVEMENT OF A STONE INTO THE URETER IS THE MOST COMMON SYMPTOM. ⚠️ 70-80% CONSIST OF CALCIUM OXALATE AND/OR CALCIUM PHOSPHATE, WITH 5-10% CONTAINING URIC ACID `kidney-stones#1` | Renal colic is the most common symptom; calcium-based (oxalate or phosphate) stones make up about 90% and uric acid stones about 10% of stones. [T1] | eTG proportions (about 90% calcium, 10% uric acid) are higher than AMH's 70-80% and 5-10%. |
+
+### Additional therapies in eTG
+
+- Recurrent calcium stones with persistent hypercalciuria (specialist advice): chlortalidone 12.5 mg orally daily up to 50 mg, or hydrochlorothiazide 25 mg daily up to 50 mg twice daily, or indapamide 2.5 mg daily (all off-label); avoid in gout. [T1]
+- Hypocitraturia or uric acid/cystine stones: potassium citrate usually 4 to 8 g daily, titrated to urine pH and citrate (target pH 6-7 for uric acid, at least 7.5 for cystine); cystinuria also needs at least 3 L fluid daily. [T1]
+- Urgent ED transfer for fever, UTI, severe pain, pregnancy or single kidney; refer to urology if stone over 6 mm, eGFR 60 or less, colic over 2 weeks, or not passed by 4 weeks; UTI with obstruction needs urgent decompression. [T1]
+- Offer metabolic evaluation (24-hour urine, stone analysis, bloods) for recurrent, bilateral, non-calcium or single-kidney stones, family history, age under 18 or high-risk occupations. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Kidney and ureteric stones in adults* (Kidney and Urinary). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Kidney-and-ureteric-stones-in-adults_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

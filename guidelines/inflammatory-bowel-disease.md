@@ -374,6 +374,44 @@ These PBS conditions have no guideline of their own; the owner linked them to th
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **8 match · 6 differ · 7 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Crohn disease in adults (Gastrointestinal); **T2** Ulcerative colitis in adults (Gastrointestinal); **T3** Fertility, pregnancy and breastfeeding in patients with inflammatory bowel disease (Gastrointestinal); **T4** Inflammatory bowel disease in children (Gastrointestinal).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Oral prednisolone or IV hydrocortisone is used to induce remission in moderate-to-severe active Crohn's disease; RESPONSE TO IV CORTICOSTEROIDS USUALLY OCCURS WITHIN 3 TO 5 DAYS, then therapy is switched to oral prednisolone and tapered over a few weeks `inflammatory-bowel-disease#7` | Mild-moderate Crohn: prednisolone 40-50 mg orally each morning until response, then taper over 6 to 8 weeks; severe: IV hydrocortisone 100 mg 6-hourly or methylprednisolone 60 mg daily for 3 to 7 days depending on response, then oral. [T1] | eTG taper is 6 to 8 weeks (AMH: 'a few weeks'); IV course 3 to 7 days rather than response within 3-5 days. eTG also offers budesonide for ileocaecal disease and exclusive enteral nutrition as equally effective. |
+| Mesalazine rectal dosing for ulcerative colitis in adults: Pentasa enema or suppository, or Salofalk suppository, 1 g once daily; Salofalk enema or rectal foam, 2 to 4 g once daily `inflammatory-bowel-disease#37` | Rectal mesalazine induction 1 to 4 g daily in 1 or 2 doses: enema (Pentasa 1 g; Salofalk 2 g or 4 g), foam 1 g per applicator (1-4 applications daily), suppository 1 g once or twice daily (isolated proctitis only); maintenance 1-4 g 2 or 3 times weekly. [T2] | eTG allows suppositories twice daily and foam from 1 g up to 4 g daily; AMH gives 1 g once daily for suppositories and 2-4 g for Salofalk foam. |
+| Mesalazine ORAL doses for ACUTE ulcerative colitis in adults differ by brand: Asacol tablet 2.4 g once daily or up to 4.8 g daily in divided doses; Mesasal tablet 500 mg three times daily; Mezavant tablet or generic equivalents 2.4 to 4.8 g once daily; Pentasa tablet or granules up to 4 g daily in 1 to 4 doses; Salofalk tablet or granules 1.5 to 3 g daily in 1 to 3 doses `inflammatory-bowel-disease#38` | Oral mesalazine induction 2 to 4.8 g daily in 1 or 2 doses, not brand-differentiated; brands are not interchangeable. [T2] | eTG's lower bound (2 g/day) exceeds AMH's Mesasal (1.5 g/day) and Salofalk low end (1.5 g/day); eTG gives once or twice daily dosing rather than 3 times daily. |
+| Mesalazine ORAL MAINTENANCE doses for ulcerative colitis in adults, also brand-specific: Asacol 1.6 to 2.4 g once daily or divided; Mesasal 250 mg three times daily; Mezavant 2.4 g once daily; Pentasa initially 1.5 to 2 g daily in 2 or 3 doses or 2 g once daily; Salofalk 1.5 g daily in 1 to 3 doses `inflammatory-bowel-disease#39` | Oral mesalazine maintenance 1 to 3 g daily in 1 or 2 doses; if a higher dose was needed to induce remission, the same dose may be continued. [T2] | AMH's Mesasal 750 mg/day is below eTG's 1 g floor; eTG allows continuing the induction dose. |
+| Mesalazine for CROHN'S DISEASE in adults: acute, Mesasal 500 mg three times daily, Pentasa up to 4 g daily in divided doses, Salofalk 3 to 4.5 g daily in 1 to 3 doses; maintenance, Mesasal 250 mg three times daily, Pentasa up to 4 g daily in divided doses, Salofalk 1.5 to 3 g daily in 1 to 3 doses `inflammatory-bowel-disease#40` | eTG states 5-aminosalicylates (and rectal therapy) have no significant role in Crohn disease. [T1] | Clinically important: AMH lists mesalazine acute and maintenance doses for Crohn disease that eTG does not support. |
+| Sulfasalazine for mild active COLONIC Crohn's disease in adults, oral 3 to 6 g daily in divided doses `inflammatory-bowel-disease#51` | eTG states 5-aminosalicylates have no significant role in Crohn disease. [T1] | AMH's 3 to 6 g/day sulfasalazine for colonic Crohn is not supported by eTG. |
+
+### Additional therapies in eTG
+
+- Acute severe UC salvage: infliximab 5 mg/kg IV over 2 hours, or ciclosporin 2 mg/kg IV over 24 hours or in 2-3 divided doses (check magnesium and lipids first), then thiopurine maintenance. [T2]
+- Severe IBD in hospital: give VTE prophylaxis; avoid loperamide and anticholinergics and minimise opioids in severe UC (toxic megacolon risk). [T2]
+- UC not responding to 5-ASA: prednisolone 40-50 mg orally each morning until response, then taper over 5 to 8 weeks. [T2]
+- Distal UC add-on rectal corticosteroid: budesonide foam 2 mg once daily, hydrocortisone acetate 10% foam once or twice daily, prednisolone 20 mg/100 mL enema once or twice daily, or prednisolone 5 mg suppository (proctitis); refractory disease: rectal tacrolimus 2 mg each evening for at least 4 weeks. [T2]
+- Other oral 5-ASAs for UC: balsalazide 6.75 g daily induction, 3 g daily maintenance; olsalazine 1-3 g daily induction, 1-2 g daily maintenance. [T2]
+- Thiopurine shunting: cut azathioprine/mercaptopurine to one-third and add allopurinol 100 mg orally daily; tioguanine 20 mg once or twice daily if thiopurines not tolerated. [T1]
+- Crohn maintenance alternative: methotrexate 10 to 25 mg once weekly (SC, IM or oral) plus folic acid 5-10 mg once weekly on a different day. [T1]
+- Active perianal Crohn disease: metronidazole 400 mg orally 12-hourly or ciprofloxacin 500 mg orally 12-hourly for weeks to months; TNF inhibitor for complex fistula. [T1]
+- Post-resection Crohn: 3 months of metronidazole, plus long-term thiopurine and/or TNF inhibitor if risk factors (smoking, perforating disease, prior resection); colonoscopy at 6 months. [T1]
+- Bile salt diarrhoea after ileal disease/resection: colestyramine 2 to 4 g orally daily, separating other drugs. [T1]
+- Exclusive enteral nutrition (polymeric formula) is as effective as corticosteroids for inducing remission in Crohn disease. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Crohn disease in adults* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Crohn-disease-in-adultstopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Ulcerative colitis in adults* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Ulcerative-colitis-in-adultstopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Fertility, pregnancy and breastfeeding in patients with inflammatory bowel disease* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Fertility-pregnancy-and-breastfeeding-in-patients-with-inflammatory-bowel-diseasetopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T4** | Therapeutic Guidelines (eTG complete). *Inflammatory bowel disease in children* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Inflammatory-bowel-disease-in-childrentopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

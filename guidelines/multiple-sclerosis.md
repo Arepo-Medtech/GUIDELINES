@@ -176,6 +176,34 @@ MAJOR DEPRESSION OR ANXIETY CAN ALSO AFFECT PERFORMANCE** [S1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **8 match · 2 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Multiple sclerosis (Neurology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| ALEMTUZUMAB requires the most intensive monitoring in AMH's table: infection screening before starting; blood count, liver function, urea and electrolytes, creatinine and urinalysis at baseline THEN MONTHLY; THYROID FUNCTION at baseline then EVERY 3 MONTHS; and SKIN CANCER surveillance at baseline then periodically `multiple-sclerosis#23` | Alemtuzumab: urinalysis, thyroid function and antithyroid antibodies, FBC and kidney function; liver biochemistry at baseline and every 3 months for 48 months; risks include anti-GBM disease, thyroid autoimmunity, ITP, haemolytic anaemia, listeriosis (avoid high-risk foods from 2 weeks before to 1 month after). [T1] | eTG gives LFT 3-monthly for 48 months rather than monthly bloods, and does not specify skin-cancer surveillance for alemtuzumab (general skin checks every 6-12 months apply to all DMT). |
+| The FUMARATES require a blood count at baseline then every 3 to 6 months, liver function at baseline then every 6 to 12 months, and URINALYSIS at baseline then ANNUALLY; FLUSHING and GI UPSET are listed adverse effects `multiple-sclerosis#27` | Fumarates: urinalysis listed as the drug-specific surveillance; serious effects herpes zoster and (dimethyl fumarate) PML; lymphopenia raises PML risk. [T1] | eTG does not give FBC every 3-6 months or LFT every 6-12 months, and lists zoster/PML rather than flushing and GI upset. |
+
+### Additional therapies in eTG
+
+- Moderate to severe MS relapse (adult): methylprednisolone sodium succinate 1 g IV over at least 30 minutes daily for 3 days, or the same orally at home (reconstituted vial) in the morning with gastroprotection; mild sensory relapses usually need no steroid. [T1]
+- MS spasticity: baclofen 5 mg orally 3 times daily, increasing by 10-15 mg/day every 3 days to usually 10-25 mg 3 times daily (max 100 mg/day); taper over 2 weeks when stopping; night spasms add clonazepam 0.25-0.5 mg up to 2 mg or diazepam 2.5-5 mg at night; nabiximols if others fail. [T1]
+- MS walking impairment: fampridine MR 10 mg orally 12-hourly, stop if no objective gait benefit at 8 weeks; avoid with seizure risk. [T1]
+- MS tonic spasms: carbamazepine MR 100 mg once or twice daily, increasing weekly to max 600 mg twice daily (HLA-B*1502 testing in patients of Asian origin). [T1]
+- On any DMT: repeat brain and spine MRI within 3-6 months of starting; skin checks every 6-12 months; cervical screening may need to be more frequent (eg 3-yearly). [T1]
+- Switching DMT: no washout for interferon, glatiramer or fumarates (unless lymphopenic); teriflunomide needs colestyramine or charcoal washout; start next DMT within 1-2 months after stopping S1P modulators or natalizumab to avoid rebound. [T1]
+- Pregnancy: glatiramer is safe; natalizumab often continued to end of second trimester; teriflunomide (category X) needs washout; S1P modulators stopped before conception; ocrelizumab and ofatumumab avoided. [T1]
+- Check serum 25-hydroxyvitamin D at MS diagnosis and replace to normal (no disease-modifying effect shown). [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Multiple sclerosis* (Neurology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=multiple-sclerosis&guidelinename=Neurology — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

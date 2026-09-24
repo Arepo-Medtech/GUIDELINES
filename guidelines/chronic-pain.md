@@ -208,6 +208,39 @@ for control causes unacceptable adverse effects at rest. **When predictable (bat
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 4 differ · 3 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** The role of analgesics in chronic noncancer pain (Pain and Analgesia); **T2** Cancer pain (Pain and Analgesia); **T3** General principles of chronic pain management (Pain and Analgesia).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Consider involving a SPECIALIST PAIN TEAM, particularly for patients already taking opioids IN HIGH DOSES SUCH AS MORE THAN 50 mg MORPHINE EQUIVALENT DAILY, LONG TERM such as years, or DURING PREGNANCY `chronic-pain#7` | Do not exceed oral morphine 40 mg/day, oxycodone 30 mg/day, tapentadol 300 mg/day, tramadol 400 mg/day or buprenorphine 20 micrograms/hour without specialist support; opioids beyond 12 weeks only on specialist advice; seek specialist advice before any opioid trial in children/adolescents or in people at high risk of opioid-use disorder; refer to multidisciplinary pain services for complexity. [T1] | eTG's specialist threshold is lower than AMH's 50 mg morphine-equivalent (40 mg morphine, 30 mg oxycodone per day). eTG does not mention pregnancy in this topic. |
+| AMH's example opioid trial in chronic non-cancer pain: continue non-drug and non-opioid treatment; AGREE ON CRITERIA such as function and quality of life for success or failure; TRIAL THE OPIOID OVER 4 TO 8 WEEKS reviewing efficacy EVERY 1 TO 2 WEEKS; establish the LOWEST EFFECTIVE DOSE, ensuring the patient understands improvement may not occur or initial effects may not last `chronic-pain#9` | Agree trial parameters (function plus meaningful pain reduction) with self-management; efficacy should be apparent by about 4 weeks and the opioid stopped if no significant progress over 4 weeks; review 1 week after starting or dose change, then at 2 weeks, then every 4 weeks; start low, go slow; use modified-release formulation in adults under 70. [T1] | eTG trial length is 4 weeks (AMH 4 to 8 weeks); review cadence 1 week, 2 weeks, then 4-weekly (AMH every 1 to 2 weeks). eTG requires nonopioids to have been adequately tried and risk screening (opioid risk tool). |
+| If there is no benefit from an opioid trial, TAPER THE DOSE BEFORE STOPPING because of the risk of withdrawal symptoms; if continuing beyond the trial REVIEW WEEKLY, and TAPER AND STOP if no improvement is seen with escalating doses such as more than 50 mg morphine equivalent daily, or if adverse effects become unacceptable `chronic-pain#10` | If unsuccessful, deprescribe: reduce by 10-25% weekly if used under 3 months, or 10-25% every 4 weeks if over 3 months; switching opioid will not improve efficacy; stop for misuse, no progress at 4 weeks or intolerable effects. [T1] | eTG gives specific taper rates and uses 40 mg/day morphine (30 mg oxycodone) as the specialist-support ceiling rather than 50 mg MME; it does not advise weekly review once stable. |
+| For NEUROPATHIC pain, consider non-drug treatment such as exercise and use drugs as part of an integrated multidisciplinary strategy; AGREE ON CRITERIA for success or failure, ensure the patient understands improvement may not occur, START AT A LOW DOSE and gradually titrate to the lowest effective dose, and ASSESS BENEFIT AFTER 4 TO 8 WEEKS, ceasing or switching if there is no benefit or unacceptable adverse effects `chronic-pain#12` | Adjuvants for neuropathic pain are used with self-management, started at low doses and titrated slowly; review efficacy after 4 to 6 weeks and deprescribe if ineffective or not tolerated. [T1] | eTG review point 4 to 6 weeks (AMH 4 to 8 weeks). |
+
+### Additional therapies in eTG
+
+- Chronic noncancer nociceptive pain, adults: paracetamol IR 1 g orally 4- to 6-hourly (max 4 g/24 h) or MR 1.33 g 8-hourly; stop after 1 week if no relief, review at 4 weeks; trial deprescribing every 3-6 months. [T1]
+- Short NSAID trial if paracetamol fails (nociceptive pain only): celecoxib 100-200 mg twice daily, ibuprofen 200-400 mg 3 times daily, or naproxen 250-500 mg twice daily; stop at 1 week if no relief. [T1]
+- Localised neuropathic pain: lidocaine 5% patch, up to 3 patches for up to 12 hours then a patch-free interval. [T1]
+- Gabapentin 100-300 mg once daily, titrated every 3-7 days to 3 times daily, max 3600 mg/day (900 mg/day if frail or over 70); pregabalin 25-75 mg in early evening, twice daily after 3-7 days, max 600 mg/day (300 mg if frail or over 70). [T1]
+- Amitriptyline or nortriptyline 5-12.5 mg at night, increase weekly to 50 mg; continue to 150 mg only if some relief; duloxetine 30 mg each morning up to 120 mg; venlafaxine XR 37.5-75 mg up to 225 mg. [T1]
+- Opioid trial starting doses (adults): buprenorphine patch 5 micrograms/hour weekly (max 20 without specialist); morphine MR 5-10 mg once or twice daily (max 40 mg/day); oxycodone MR 5 mg once or twice daily (max 30 mg/day); tapentadol MR 50 mg once or twice daily (max 300 mg/day); tramadol MR 50 mg once or twice daily (max 400 mg/day); increase every 3 days (buprenorphine every 7 days). [T1]
+- Consider take-home naloxone for patients on opioids at risk of overdose; do not use the opioid for breakthrough pain or flares of chronic noncancer pain. [T1]
+- Adjuvant deprescribing: reduce 25-30% weekly if used under 3 months, or every 2 weeks if longer; benzodiazepines/Z-drugs reduce 25% every 1-4 weeks (no role in chronic noncancer pain). [T1]
+- Painful chemotherapy-induced peripheral neuropathy: duloxetine has the strongest supporting evidence. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *The role of analgesics in chronic noncancer pain* (Pain and Analgesia). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=role-analgesics-chronic-noncancer-pain — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Cancer pain* (Pain and Analgesia). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=cancer-pain — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *General principles of chronic pain management* (Pain and Analgesia). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=general-principles-chronic-pain-management — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

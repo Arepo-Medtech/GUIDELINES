@@ -8,10 +8,15 @@
   "https://www1.racgp.org.au/ajgp/2024/november/conjunctivitis",
   "https://amhonline.amh.net.au/chapters/eye-drugs/drugs-eye-infections/eye-infections",
   "https://amhonline.amh.net.au/chapters/eye-drugs/drugs-allergic-inflammatory-eye-conditions/allergic-conjunctivitis",
-  "https://amhonline.amh.net.au/chapters/eye-drugs/drugs-eye-infections/other-antibacterials-eye/chloramphenicol-eye"
+  "https://amhonline.amh.net.au/chapters/eye-drugs/drugs-eye-infections/other-antibacterials-eye/chloramphenicol-eye",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Conjunctivitis_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Blepharitis_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=chalazion-hordeolum",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=corneal-abrasion-foreign-bodies",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Infectious-keratitis_topic_5"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "S1 is the open RACGP AJGP 2024 review, fetched and checked verbatim (48 claims). A1 is AMH, read under subscription and PARAPHRASED across three pages: the 'Eye infections' and 'Allergic conjunctivitis' therapeutic topics and the chloramphenicol (eye) monograph; no passage reproduced, no source_text stored, each claim carries the locator for the page it came from. Doses flagged dose:true. THE TWO SOURCES GIVE DIFFERENT CHLORAMPHENICOL REGIMENS and different advice on swabbing and on the route of antiviral for HSV keratitis; each regimen is attributed to the source that gives it and NEITHER is presented as the answer. Claims recording what one source says are worded 'S1 gives ...' or 'AMH states ...' so the claim is true even where the underlying advice is contested.",
+ "method": "S1 is the open RACGP AJGP 2024 review, fetched and checked verbatim (48 claims). A1 is AMH, read under subscription and PARAPHRASED across three pages: the 'Eye infections' and 'Allergic conjunctivitis' therapeutic topics and the chloramphenicol (eye) monograph; no passage reproduced, no source_text stored, each claim carries the locator for the page it came from. Doses flagged dose:true. THE TWO SOURCES GIVE DIFFERENT CHLORAMPHENICOL REGIMENS and different advice on swabbing and on the route of antiviral for HSV keratitis; each regimen is attributed to the source that gives it and NEITHER is presented as the answer. Claims recording what one source says are worded 'S1 gives ...' or 'AMH states ...' so the claim is true even where the underlying advice is contested. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Conjunctivitis accounts for approximately 1% of all primary care presentations, affects all age groups, and in children 66.6% of eye-related problems presenting to the GP are conjunctivitis",
@@ -618,10 +623,58 @@
    "source": "A1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, drug monograph 'Chloramphenicol' (eye) at https://amhonline.amh.net.au/chapters/eye-drugs/drugs-eye-infections/other-antibacterials-eye/chloramphenicol-eye, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Posterior blepharitis not improving after ~4 weeks of lid hygiene: doxycycline orally daily for at least 8 weeks - adult 100 mg reduced to 50 mg after improvement (2-4 weeks); children 8+ weight-banded (50/75/100 mg). Pregnancy/breastfeeding: erythromycin base 500 mg or ethyl succinate 800 mg daily for 8 weeks; child <8 y erythromycin ethyl succinate 20 mg/kg up to 800 mg daily.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Blepharitis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Blepharitis_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of posterior blepharitis'"
+  },
+  {
+   "claim": "Chlamydial conjunctivitis: adult doxycycline 100 mg orally 12-hourly for 7 days (pregnant: azithromycin 1 g single dose); neonate azithromycin 20 mg/kg daily for 3 days; child azithromycin 20 mg/kg up to 1 g single dose.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Conjunctivitis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Conjunctivitis_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Treatment of chlamydial conjunctivitis'"
+  },
+  {
+   "claim": "Gonococcal conjunctivitis (ophthalmic emergency): adult ceftriaxone 1 g IM/IV single dose plus azithromycin 1 g orally single dose; neonate/child ceftriaxone 50 mg/kg (child max 1 g) or cefotaxime single dose; saline irrigation.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Conjunctivitis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Conjunctivitis_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Treatment of gonococcal conjunctivitis'"
+  },
+  {
+   "claim": "Viral conjunctivitis: symptomatic care (cold compresses, lubricant drops), hygiene measures; no role for chloramphenicol; no topical corticosteroids without ophthalmologist advice.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Conjunctivitis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Conjunctivitis_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Treatment of viral conjunctivitis'"
+  },
+  {
+   "claim": "Herpes simplex dendritic ulcer while awaiting ophthalmology: aciclovir 3% eye ointment 5 times daily for 10-14 days (or 3 days after healing, whichever shorter); if unavailable valaciclovir 500 mg 12-hourly or aciclovir 400 mg 5 times daily for 7-10 days.",
+   "source": "T5",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Infectious keratitis (Treatment of herpes zoster ophthalmicus)' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Infectious-keratitis_topic_5, accessed 2026-09-24 through the owner's subscription, section 'Treatment of herpes simplex keratitis'"
+  },
+  {
+   "claim": "Bacterial keratitis (ophthalmologist-managed): ofloxacin 0.3% or ciprofloxacin 0.3% drops hourly including overnight, or fortified cefazolin 5% + gentamicin 0.9% hourly, pending review; no systemic antibiotics unless scleral spread.",
+   "source": "T5",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Infectious keratitis (Treatment of herpes zoster ophthalmicus)' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Infectious-keratitis_topic_5, accessed 2026-09-24 through the owner's subscription, section 'Treatment of bacterial keratitis'"
   }
  ],
  "summary": {
-  "total": 100,
+  "total": 106,
   "pass": 48,
   "fail": 0
  }

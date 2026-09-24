@@ -181,6 +181,24 @@ survival, and whether subgroups respond differently** [P4].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 0 differ · 13 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Pulmonary hypertension (Cardiovascular).
+
+### Additional therapies in eTG
+
+- Do not combine riociguat with a PDE5 inhibitor (sildenafil, tadalafil); PDE5 inhibitors also contraindicated with nitrates and nicorandil. [T1]
+- Lifelong warfarin (target INR 2 to 3) for all patients with CTEPH; anticoagulation not generally recommended in PAH (warfarin sometimes in idiopathic PAH); no data for DOACs. [T1]
+- Other specific PAH therapies: tadalafil orally once daily; ambrisentan and macitentan orally once daily, bosentan twice daily (liver monitoring, CYP interactions); selexipag orally twice daily; inhaled iloprost 6 to 9 times daily; IV epoprostenol by continuous central infusion for severe refractory disease. Dual/triple combinations may be started at diagnosis. [T1]
+- Avoid interrupting PAH therapy (rebound PH); seek specialist advice before any interruption, retitration may be needed. [T1]
+- Nonspecific therapy: oxygen for hypoxaemia; diuretics for right heart failure with oedema; digoxin occasionally for right heart failure/low output. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Pulmonary hypertension* (Cardiovascular). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Cardiovascular&topicfile=cardiovascular-disease-risk-stratification&guidelinename=auto&sectionId=c_CVG_Pulmonary-hypertensiontopic_4 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

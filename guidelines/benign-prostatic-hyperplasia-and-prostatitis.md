@@ -276,6 +276,36 @@ specialist** [A1].
 | **Kidney stones** | ⚠️ **selective alpha-blockers are used off-label for up to 4 weeks to help stone passage** [A1] — still on the gap list |
 | **Depression and anxiety** | ⚠️ **chronic pelvic pain syndrome can cause insomnia and depression** [S1] |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 5 differ · 3 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Benign prostatic obstruction (Kidney and Urinary); **T2** Acute bacterial prostatitis (Antibiotic); **T3** Chronic bacterial prostatitis (Antibiotic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH advises considering combination treatment when the prostate is greater than 30 to 40 mL and rapid relief of troublesome symptoms is required, notes the optimal duration is uncertain, and states there is some evidence the selective alpha-blocker can be stopped after 6 to 12 months of combination treatment in most patients without worsening urinary symptoms although some patients especially those with severe baseline symptoms may benefit from continuing `benign-prostatic-hyperplasia-and-prostatitis#25` | Combination alpha blocker + 5ARI can be first-line when prostate >30 cm3 and PSA >1.4 ng/mL at diagnosis with no concern about sexual adverse effects; otherwise 5ARI added after alpha-blocker failure; combination gives greater relief and lower progression risk. [T1] | eTG criterion includes PSA >1.4 and absence of sexual-adverse-effect concerns rather than 'rapid relief'; eTG does not discuss stopping the alpha blocker after 6-12 months. |
+| AMH advises that for mild-to-moderate acute bacterial prostatitis, empirical treatment should begin with an oral antibacterial effective against most urinary pathogens such as trimethoprim or cefalexin, treating for 14 days, with ensured adequate hydration, rest and analgesia using paracetamol or an NSAID and consideration of bowel function `benign-prostatic-hyperplasia-and-prostatitis#51` | Empirical oral therapy: ciprofloxacin 500 mg 12-hourly for 14 days first-line; alternatives trimethoprim 300 mg daily or trimethoprim+sulfamethoxazole 160+800 mg 12-hourly for 14 days; paracetamol analgesia; review at 48-72 h; repeat urine culture 1 week after. [T2] | Clinically important: eTG makes ciprofloxacin first-line and says oral beta-lactams (cefalexin, amoxicillin) lose prostate penetration as inflammation settles; AMH lists cefalexin as an empirical option. Duration (14 days) matches. |
+| AMH states that severe acute bacterial prostatitis infections require IV antibacterials such as amoxicillin or ampicillin plus gentamicin, changing to oral therapy when possible, with a total treatment duration usually of 4 weeks `benign-prostatic-hyperplasia-and-prostatitis#52` | Empirical IV: gentamicin or tobramycin (dose calculator); ceftriaxone 1 g IV daily if IV likely beyond 72 h or aminoglycoside contraindicated; switch to oral when stable; total duration usually 2 weeks, extended to 4 weeks if not fully resolved. [T2] | Clinically important: eTG states IV amoxicillin/ampicillin plus aminoglycoside is no longer recommended (E. coli resistance >50%); total duration usually 2 weeks not 4 weeks. |
+| AMH advises treating chronic bacterial prostatitis for 4 weeks with an antibacterial that penetrates the prostate well such as ciprofloxacin, trimethoprim, or trimethoprim with sulfamethoxazole, noting that as inflammation is not intense penetration into prostate tissue may be poor, and that doxycycline may be used if intracellular bacteria such as Chlamydia are suspected or cultured `benign-prostatic-hyperplasia-and-prostatitis#54` | Culture-directed oral therapy for 4 weeks: ciprofloxacin 500 mg 12-hourly, or trimethoprim 300 mg daily, or trimethoprim+sulfamethoxazole 160+800 mg 12-hourly; doxycycline or azithromycin for sexually transmissible pathogens; seek urology advice if recurrence and do not repeat courses unless advised. [T3] | Drugs and 4-week duration match; eTG adds azithromycin, stresses culture-directed choice, and restricts repeat courses. |
+| For chronic prostatitis or chronic pelvic pain syndrome AMH suggests a trial of an antibacterial as for chronic bacterial prostatitis may be worthwhile especially in recently diagnosed patients as there may be undiagnosed bacterial infection, that adequate analgesia such as an NSAID and relief of constipation may help, that one of the selective alpha-blockers may ease pain and improve urinary symptoms, and that quercetin 500 mg twice daily may relieve symptoms particularly pain based on small placebo-controlled studies `benign-prostatic-hyperplasia-and-prostatitis#56` | Patients without microbiological evidence of bacterial prostatitis (chronic prostatitis/chronic pelvic pain syndrome) do not need antibiotics; treat symptomatically, ideally via a specialist multidisciplinary team. [T3] | Clinically important: eTG advises against an empirical antibiotic trial that AMH suggests; eTG does not mention quercetin or alpha blockers for CPPS. |
+
+### Additional therapies in eTG
+
+- First-line alpha blocker for bothersome uncomplicated LUTS from BPO: alfuzosin MR 10 mg, silodosin 8 mg or tamsulosin MR 400 micrograms orally daily; prazosin 0.5 mg twice daily up to 2 mg twice daily if also needing BP control. [T1]
+- Combination dutasteride+tamsulosin MR 500+400 micrograms orally daily when combination therapy is appropriate. [T1]
+- Tadalafil may be an alternative (or add-on) for LUTS in men who also have erectile dysfunction, using daily ED dosing. [T1]
+- Warn patients on alpha blockers (current or past) to tell the ophthalmologist before cataract surgery (floppy iris syndrome); consider delaying start if surgery planned. [T1]
+- Treat BPO before overactive bladder drugs when both present (antimuscarinics may precipitate retention). [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Benign prostatic obstruction* (Kidney and Urinary). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Benign-prostatic-obstruction_topic_6 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Acute bacterial prostatitis* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=prostatitis&guidelinename=Antibiotic — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Chronic bacterial prostatitis* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Chronic-bacterial-prostatitis_topic_3 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

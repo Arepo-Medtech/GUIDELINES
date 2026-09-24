@@ -239,6 +239,34 @@ reduce tooth decay in children even when fluoridated water and toothpaste are us
 | **Asthma / COPD** | ⚠️ **inhaled corticosteroids increase the risk of oral candidiasis** [A1] |
 | **Eczema / rosacea** | **angular cheilitis** overlaps with dermatitis and with candidal infection |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 1 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Dry mouth (Oral and Dental); **T2** Necrotising periodontal disease (Oral and Dental); **T3** Oral and oropharyngeal infection caused by Candida and related species (Antibiotic); **T4** Oral ulcers (Oral and Dental); **T5** Sore throat (Antibiotic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH states that in acute ulcerative gingivitis antibacterial treatment is also needed, for example amoxicillin with clavulanic acid or clindamycin for 5 days, and that more severe infections require combination antibacterial treatment `mouth-and-throat-conditions#28` | Necrotising gingivitis: dental debridement plus metronidazole 400 mg orally 12-hourly for 3 to 5 days (drug of choice); if unsuitable, amoxicillin 500 mg 8-hourly for 3 to 5 days; hydrogen peroxide or chlorhexidine rinses; refer if no response in 2 weeks. [T2] | Clinically relevant: eTG first line is metronidazole (not amoxicillin+clavulanate or clindamycin) and the course is 3-5 days (AMH 5 days); eTG stresses debridement as essential. |
+
+### Additional therapies in eTG
+
+- Streptococcal pharyngitis in patients at high risk of acute rheumatic fever (under 40 with specified risk factors): empirical antibiotics for all, even if viral features, after a throat swab if possible. [T5]
+- Severe penicillin allergy with streptococcal pharyngitis: azithromycin 500 mg (child 12 mg/kg) orally daily for 5 days. [T5]
+- Oral candidiasis in neonates: nystatin 100 000 units/mL 1 mL 4 times daily after feeds for about 7 days (continue 2 days after resolution), or miconazole 2% gel 1 mL 2-4 times daily for 7-14 days; children: miconazole gel 1.25 mL or nystatin 1 mL 4 times daily. [T3]
+- Oral ulcer pain: benzydamine 1% gel to the ulcer 2- to 3-hourly as needed (age 6 or older); lidocaine 2% viscous up to 15 mL rinse 3-hourly (max 8 doses/day) in adults; avoid salicylate gels. [T4]
+- Necrotising gingivitis mouthwashes: hydrogen peroxide 3% 5 mL diluted with 5 mL water (or 1.5% 10 mL) 12-hourly, or chlorhexidine 0.2% 10 mL 8- to 12-hourly, until pain eases. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Dry mouth* (Oral and Dental). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=dry-mouth&guidelinename=Oral%20and%20Dental — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Necrotising periodontal disease* (Oral and Dental). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=necrotising-periodontal-diseases&guidelinename=Oral%20and%20Dental — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Oral and oropharyngeal infection caused by Candida and related species* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Oral-and-oropharyngeal-infection-caused-by-Candida-and-related-species_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T4** | Therapeutic Guidelines (eTG complete). *Oral ulcers* (Oral and Dental). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Oral%20and%20Dental&topicfile=dental-caries&guidelinename=auto&sectionId=c_DTG_Oral-ulcers_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T5** | Therapeutic Guidelines (eTG complete). *Sore throat* (Antibiotic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=bartonella-infections&guidelinename=auto&sectionId=c_ABG_Sore_throat_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

@@ -5,12 +5,18 @@
  "verifier": "claude-opus-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://amhonline.amh.net.au/chapters/neurological-drugs/antiseizure-drugs/epilepsy"
+  "https://amhonline.amh.net.au/chapters/neurological-drugs/antiseizure-drugs/epilepsy",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Approach-to-management-of-epilepsy_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Advice-for-patients-with-epilepsy_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Acute-management-of-seizures-and-status-epilepticus_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=epilepsy-and-seizures&guidelinename=Neurology&sectionId=toc_d1e1094",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Management-of-uncontrolled-epilepsy_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Infantile-epileptic-spasms-syndrome-including-West-syndrome_topic_2"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "ENTIRELY from AMH's Epilepsy therapeutic topic and its Choice of antiseizure drug table, read under subscription and PARAPHRASED: no passage reproduced, no source_text stored, so NOTHING here is machine re-checkable. A targeted search of RACGP's open AJGP for epilepsy and antiseizure medication in general practice returned NO relevant article; that absence is recorded rather than filled. THIS GUIDELINE EXISTS BECAUSE OF A BOOKKEEPING ERROR FOUND ON 2026-09-22: AMH's Epilepsy page had been marked covered by this compendium's fitness-to-drive-seizures-and-epilepsy guideline, which is an Austroads LICENSING standard and covers none of this. See docs/coverage-audit-2026-09-22.md. NO ANTISEIZURE DRUG DOSE APPEARS HERE: no individual monograph was retrieved.",
+ "method": "ENTIRELY from AMH's Epilepsy therapeutic topic and its Choice of antiseizure drug table, read under subscription and PARAPHRASED: no passage reproduced, no source_text stored, so NOTHING here is machine re-checkable. A targeted search of RACGP's open AJGP for epilepsy and antiseizure medication in general practice returned NO relevant article; that absence is recorded rather than filled. THIS GUIDELINE EXISTS BECAUSE OF A BOOKKEEPING ERROR FOUND ON 2026-09-22: AMH's Epilepsy page had been marked covered by this compendium's fitness-to-drive-seizures-and-epilepsy guideline, which is an Austroads LICENSING standard and covers none of this. See docs/coverage-audit-2026-09-22.md. NO ANTISEIZURE DRUG DOSE APPEARS HERE: no individual monograph was retrieved. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "summary": {
-  "total": 51,
+  "total": 59,
   "pass": 0,
   "fail": 0
  },
@@ -341,6 +347,70 @@
    "source": "E1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, 'Epilepsy' at https://amhonline.amh.net.au/chapters/neurological-drugs/antiseizure-drugs/epilepsy, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Status epilepticus step 3 in adults: levetiracetam 60 mg/kg (max 4500 mg) IV over 5 minutes, or sodium valproate 40 mg/kg (max 3000 mg) IV over 5 to 10 minutes; phenytoin 20 mg/kg IV no faster than 50 mg/min (25 mg/min elderly) as a second choice with BP/ECG monitoring. Prefer levetiracetam in pregnancy or childbearing potential.",
+   "source": "T3",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Acute management of seizures and status epilepticus' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Acute-management-of-seizures-and-status-epilepticus_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Step 3: Give an antiseizure drug for status epilepticus'"
+  },
+  {
+   "claim": "Status epilepticus in children: midazolam 0.15 mg/kg IV/IM (max 10 mg) or 0.3 mg/kg buccal/intranasal (max 10 mg); then levetiracetam 40 mg/kg (max 3000 mg) IV over 5 minutes or phenytoin 20 mg/kg IV no faster than 25 mg/min; valproate 40 mg/kg only from age 3; phenobarbital 20 mg/kg (max 1000 mg) as last option.",
+   "source": "T3",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Acute management of seizures and status epilepticus' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Acute-management-of-seizures-and-status-epilepticus_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Drug management of status epilepticus'"
+  },
+  {
+   "claim": "Infantile spasms: prednisolone 10 mg orally 4 times daily for 2 weeks (increase to 20 mg 3 times daily after week 1 if spasms continue), then taper over 2 to 3 weeks; vigabatrin or tetracosactide as specialist second line.",
+   "source": "T6",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Infantile epileptic spasms syndrome (including West syndrome)' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Infantile-epileptic-spasms-syndrome-including-West-syndrome_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Infantile epileptic spasms syndrome'"
+  },
+  {
+   "claim": "First-line drug choice: focal epilepsy lamotrigine, levetiracetam or carbamazepine (start modified-release; lower dose in older people); generalised epilepsy levetiracetam, lamotrigine or valproate; ethosuximide for absence epilepsies; avoid starting valproate in females of childbearing potential.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Approach to management of epilepsy' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Approach-to-management-of-epilepsy_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Choice of antiseizure drug'"
+  },
+  {
+   "claim": "Phenytoin dose change guide: if serum level 5 mg/L (20 micromol/L) or less, increase the adult daily dose by 100 mg; if above 5 mg/L, increase by no more than 30 mg.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Approach to management of epilepsy' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Approach-to-management-of-epilepsy_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Serum concentration monitoring of antiseizure drugs'"
+  },
+  {
+   "claim": "Test for HLA-B*1502 before carbamazepine in patients of Asian (especially Han Chinese) ancestry; check vitamin D and bone risk in all patients starting antiseizure drugs.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Approach to management of epilepsy' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Approach-to-management-of-epilepsy_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Adverse effects of antiseizure drugs'"
+  },
+  {
+   "claim": "Valproate in males: counsel on possible neurodevelopmental risk to offspring, effective contraception during and for 3 months after stopping, no sperm donation for 3 months, annual specialist review.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Advice for patients with epilepsy' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Advice-for-patients-with-epilepsy_topic_2, accessed 2026-09-24 through the owner's subscription, section 'Antiseizure drug use in males of reproductive potential'"
+  },
+  {
+   "claim": "In older adults with new-onset epilepsy use lower starting doses and slow titration; levetiracetam and lamotrigine are better tolerated than carbamazepine or phenytoin.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Neurology guideline: 'Advice for patients with epilepsy' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Advice-for-patients-with-epilepsy_topic_2, accessed 2026-09-24 through the owner's subscription, section 'New-onset epilepsy in older patients'"
   }
  ]
 }

@@ -218,6 +218,31 @@ interest in endometriosis, or a gynaecologist comfortable treating adolescents**
 | **Osteoporosis** | ⚠️ **GnRH agonists reduce BMD and are capped at 6 months**; **bilateral oophorectomy carries a bone, dementia and cardiovascular cost** |
 | **Chronic pain** | ⚠️ **relapse in 40–45%, readmission for surgery in up to 30% within five years** — this is a long-term condition, not an operation |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 2 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Endometriosis (Sexual and Reproductive Health).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH states that the GnRH agonists goserelin and nafarelin are associated with hypo-estrogenic adverse effects such as hot flushes, vaginal dryness and decreased bone mineral density, that duration of treatment is limited to 6 months due to loss of bone mineral density, and that adding combined menopausal hormone therapy as add-back therapy reduces these adverse effects and protects against bone loss while maintaining efficacy, which may allow longer treatment `endometriosis#40` | eTG: goserelin 3.6 mg implant subcutaneously every 4 weeks (up to 6 months) or nafarelin 200 micrograms intranasally twice daily for 6 months (up to 400 micrograms twice daily); specialist use; hypoestrogenic effects limit use to 6 months; add-back estrogen+progestogen (MHT doses) allows use up to 2 years; contraception required; caution in adolescents (peak bone mass). [T1] | Agrees in substance; eTG quantifies add-back as permitting up to 2 years and adds the contraception requirement and adolescent caution. |
+| AMH states that danazol has androgenic adverse effects such as hirsutism and voice change that limit its use, that other treatments are preferred, that the maximum duration of treatment is 9 months, and that an effective non-hormonal method of contraception must be used during treatment `endometriosis#42` | eTG: danazol is reserved for specialists when other treatments are not tolerated; adverse effects include hirsutism, acne, voice change, liver toxicity, dyslipidaemia and a small increase in ovarian cancer risk; duration limited to 6 to 9 months; effective nonhormonal contraception required. [T1] | Consistent; eTG adds liver toxicity, dyslipidaemia and ovarian cancer risk and frames the limit as 6 to 9 months. |
+
+### Additional therapies in eTG
+
+- First-line analgesia: 3-month trial of an NSAID and/or paracetamol (primary dysmenorrhoea doses), reviewing at 3 months. [T1]
+- Combined hormonal contraception (COC once daily or ethinylestradiol+etonogestrel 2.7+11.7 mg ring), cyclic or extended/continuous, as first-line hormonal therapy. [T1]
+- Long-acting progestogens first line: etonogestrel 68 mg implant (replace every 3 years), 52 mg LNG-IUD (replace every 5 years), or medroxyprogesterone 150 mg deep IM every 12 weeks. [T1]
+- Oral progestogens if estrogen and long-acting progestogens unsuitable: norethisterone 5 to 10 mg daily (10 mg twice daily if spotting), dienogest 2 mg daily, or medroxyprogesterone 10 mg three times daily; usually 3 to 6 months; not reliable contraception. [T1]
+- Refer if symptoms persist after 3 months of first-line treatment, pelvic mass/nodule or suspected deep bowel/bladder disease; refer for fertility care if not conceiving after 6 months or over 35. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Endometriosis* (Sexual and Reproductive Health). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

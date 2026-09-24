@@ -7,10 +7,11 @@
  "retrieved_from": [
   "https://www1.racgp.org.au/ajgp/2024/december/approach-to-otitis-externa-in-australian-general-p",
   "https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-ear-infections/otitis-externa",
-  "https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-ear-wax/ear-wax"
+  "https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-ear-wax/ear-wax",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=otitis-externa&guidelinename=Antibiotic"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "S1 is the open RACGP AJGP review of December 2024, fetched and checked verbatim (16 claims, 6 of them a full ear-drop table with doses AND average prices). A1 is AMH across two topics, paraphrased, no passage reproduced and no source_text stored (24 claims, 6 doses). A PROVENANCE POINT WORTH RECORDING: S1's table states that its DOSING COLUMN IS ITSELF TAKEN FROM THE AUSTRALIAN MEDICINES HANDBOOK. The doses quoted here are therefore machine re-checkable against S1 and ultimately derive from the same licensed source as A1's -- the quote establishes what S1 published, not an independent second observation of the dose. That is stated in the guideline rather than left to be assumed. The prices are S1's own work and are dated December 2023. A PROCESS ERROR WAS CAUGHT BY THE SELF-CHECK during drafting: the table fragments were first written from a search-result snippet's markdown rendering rather than from the retrieved page, and eleven fragments failed the verbatim check until they were rewritten from the file actually fetched.",
+ "method": "S1 is the open RACGP AJGP review of December 2024, fetched and checked verbatim (16 claims, 6 of them a full ear-drop table with doses AND average prices). A1 is AMH across two topics, paraphrased, no passage reproduced and no source_text stored (24 claims, 6 doses). A PROVENANCE POINT WORTH RECORDING: S1's table states that its DOSING COLUMN IS ITSELF TAKEN FROM THE AUSTRALIAN MEDICINES HANDBOOK. The doses quoted here are therefore machine re-checkable against S1 and ultimately derive from the same licensed source as A1's -- the quote establishes what S1 published, not an independent second observation of the dose. That is stated in the guideline rather than left to be assumed. The prices are S1's own work and are dated December 2023. A PROCESS ERROR WAS CAUGHT BY THE SELF-CHECK during drafting: the table fragments were first written from a search-result snippet's markdown rendering rather than from the retrieved page, and eleven fragments failed the verbatim check until they were rewritten from the file actually fetched. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Acute otitis externa involves identifiable risk factors and three key features per the 2014 AAO-HNS guideline: symptoms of otalgia, pruritus and aural fullness, and signs of tenderness, oedema and erythema of the external auditory canal, with rapid onset within 48 hours, and acute tragal tenderness is widely accepted as a pathognomonic sign",
@@ -263,10 +264,34 @@
    "source": "A1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, therapeutic topic 'Ear wax' (Ear, nose and throat drugs > Drugs for ear wax) at https://amhonline.amh.net.au/chapters/ear-nose-throat-drugs/drugs-ear-wax/ear-wax, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Acute localised otitis externa (boil): dicloxacillin or flucloxacillin 500 mg (child 12.5 mg/kg) orally 6-hourly for 5 days; erysipelas of pinna: phenoxymethylpenicillin 500 mg 6-hourly 5 days; cefalexin 500 mg 6-hourly (child option); MRSA risk/severe penicillin allergy: trimethoprim+sulfamethoxazole 160+800 mg 12-hourly or clindamycin 450 mg 8-hourly for 5 days.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Otitis externa' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=otitis-externa&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Acute localised otitis externa'"
+  },
+  {
+   "claim": "Necrotising otitis externa (diabetes, elderly, immunocompromised; pain despite improved canal): urgent ED referral; piperacillin+tazobactam 4+0.5 g IV 6-hourly (continuous infusion if septic shock); cefepime 2 g IV 8-hourly if nonsevere penicillin allergy; prolonged therapy with ID/ENT input.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Otitis externa' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=otitis-externa&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Necrotising otitis externa'"
+  },
+  {
+   "claim": "Analgesia (paracetamol/NSAID) for acute diffuse otitis externa; no oral antibiotics; culture not routinely needed.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Antibiotic guideline: 'Otitis externa' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Antibiotic&topicfile=otitis-externa&guidelinename=Antibiotic, accessed 2026-09-24 through the owner's subscription, section 'Approach to managing acute diffuse otitis externa'"
   }
  ],
  "summary": {
-  "total": 40,
+  "total": 43,
   "pass": 16,
   "fail": 0
  }

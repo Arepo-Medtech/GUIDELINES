@@ -139,6 +139,31 @@ arthritis** [A1]. ⚠️ **They can cause immunosuppression and increase the ris
 | **Smoking cessation** | **smoking is both a trigger and a cardiovascular risk factor** in this population |
 | **Chronic kidney disease** | ⚠️ **ciclosporin nephrotoxicity** and **apremilast dose reduction below CrCl 30** |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 1 differ · 3 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Psoriasis (Dermatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Methotrexate for adults is oral, subcutaneous or intramuscular, initially 10 to 15 mg once a week adjusted to response, with usual maintenance 10 to 25 mg once a week and maximum oral 30 mg or parenteral 25 mg `psoriasis#29` | Specialist-initiated: methotrexate 5 to 10 mg orally once a week, increased slowly to a maximum of 20 mg weekly (average maintenance 10-20 mg weekly), plus folic acid 5-10 mg per week on a different day; lower doses in elderly/kidney impairment; monitor FBC, kidney and liver function. [T1] | eTG starting dose (5-10 mg) and maximum (20 mg/week) are lower than AMH (start 10-15 mg, max 30 mg oral); eTG gives oral route only and mandates folic acid. |
+
+### Additional therapies in eTG
+
+- Trunk/limb chronic plaque psoriasis: LPC (coal tar solution) 4-8% + salicylic acid 3% cream/ointment topically twice daily for 1 month first-line; add methylprednisolone aceponate 0.1% or mometasone 0.1% once daily until clear (2-6 weeks), stepping to betamethasone dipropionate 0.05% if inadequate after 3 weeks. [T1]
+- Scalp psoriasis: methylprednisolone aceponate 0.1% lotion or mometasone 0.1% lotion/hydrogel once daily (2-6 weeks); if inadequate after 2 weeks betamethasone dipropionate 0.05% lotion twice daily or clobetasol 0.05% shampoo daily for 6 weeks; then coal tar shampoo; calcipotriol+betamethasone foam daily if uncontrolled; LPC 4-8% + salicylic acid 3% pomade twice daily for thick scale. [T1]
+- Face: methylprednisolone aceponate 0.1% (centre face) or mometasone 0.1% (ears/hairline) once daily 2-6 weeks; child hydrocortisone 1%; maintenance LPC 2% + salicylic acid 2% at night; avoid calcipotriol on face. [T1]
+- Flexural/genital psoriasis: methylprednisolone aceponate 0.1% ointment once daily (max 2 weeks under nappies, add anticandidal), then LPC 2% in emulsifying ointment daily (no salicylic acid). [T1]
+- Palmoplantar: hyperkeratotic - LPC 4-8% + salicylic acid 6% twice daily for 1 month or calcipotriol+betamethasone once daily ~6 weeks; pustular - betamethasone dipropionate 0.05% or mometasone 0.1% ointment daily 2-6 weeks, escalate to betamethasone in optimised vehicle. Nails: calcipotriol+betamethasone ointment nightly up to 3 months. [T1]
+- Do not use oral corticosteroids for psoriasis (risk of generalised pustular flare); generalised pustular psoriasis is an emergency requiring hospital referral; offer HIV testing for severe/recalcitrant psoriasis. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Psoriasis* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Psoriasis_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

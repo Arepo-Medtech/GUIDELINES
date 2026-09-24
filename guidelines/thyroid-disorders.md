@@ -220,6 +220,43 @@ need higher antithyroid doses (limited data)** [A1].
 | **Delirium** · **Dementia** | **CNS dysfunction** in thyroid storm, and **reduced clearance of hypnotics and analgesics** in hypothyroidism |
 | **Sodium valproate** · **Fitness to drive** | **lithium** appears here twice — as a cause of hypothyroidism and as a thyroid storm treatment |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 8 differ · 2 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Thyrotoxicosis and hyperthyroidism (Bone and Metabolism); **T2** Hypothyroidism (Bone and Metabolism).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Antithyroid drugs given around radioactive iodine should be stopped at least 4 days before and restarted no sooner than 3 days after to allow iodine uptake, with effect assessed by tapering off 2 to 4 months after treatment `thyroid-disorders#33` | Stop antithyroid drug 3-7 days before radioiodine; restart about 1 week after the dose, then taper over 2-4 months. [T1] | eTG restart is about 1 week after (AMH: no sooner than 3 days); pre-dose stop window 3-7 days vs at least 4 days. |
+| The usual adult levothyroxine range is oral 50 to 200 micrograms once daily, adjusted every 6 to 8 weeks according to TSH `thyroid-disorders#40` | Measure TSH and adjust levothyroxine every 4-6 weeks to target; then TSH at 3 and 6 months and annually. [T2] | eTG adjustment interval is 4-6 weeks, not 6-8 weeks; no fixed 50-200 microgram range stated. |
+| In frail or elderly patients or those with ischaemic heart disease, levothyroxine starts at 25 to 50 micrograms once daily increasing by 25 micrograms every 6 to 8 weeks according to TSH `thyroid-disorders#41` | Partial replacement (mild/subclinical disease, cardiovascular disease, older people): levothyroxine 1 microgram/kg lean body weight daily, adjust every 4-6 weeks; TSH target 1-5 milliunits/L at 60+ and 2-7 at 80+; frail older people with severe disease should not aim to normalise TSH in the first 3 months. [T2] | eTG uses a weight-based partial dose rather than fixed 25-50 micrograms, a 4-6 week adjustment interval, and age-specific TSH targets. |
+| In children levothyroxine requires paediatric endocrinologist advice and is adjusted every 2 to 4 weeks by 25 micrograms daily to keep serum thyroxine upper normal and TSH normal `thyroid-disorders#43` | Children: specialist-guided; start levothyroxine 25 micrograms orally daily and adjust every 4-8 weeks, targeting TSH in the lower half and T4 in the upper half of the reference range. Congenital: 10-15 micrograms/kg daily started within 24-48 h of birth. [T2] | eTG adjustment interval is 4-8 weeks (not 2-4 weeks) and targets lower-half TSH rather than just normal TSH. |
+| Carbimazole starts at oral 10 to 45 mg daily, up to 60 mg daily in severe cases, in 2 or 3 doses for 3 to 4 weeks `thyroid-disorders#45` | Carbimazole dosed by severity: severe 30-45 mg daily in 2-3 doses (max 60 mg); mild-moderate 10-20 mg daily in 2-3 doses; subclinical/very mild 5-10 mg daily. Adjust every 4-6 weeks, halving the dose once free T4/T3 have halved. [T1] | eTG tiers the starting dose by severity and reviews at 4-6 weeks rather than giving one 10-45 mg range for 3-4 weeks. |
+| Propylthiouracil starts at oral 200 to 400 mg daily in 2 to 4 doses for 3 to 4 weeks, with maintenance 25 to 300 mg daily in divided doses `thyroid-disorders#47` | Propylthiouracil only if carbimazole not tolerated, preconception/first trimester, or thyroid storm: severe 300-450 mg daily in 2-3 doses (max 900 mg); mild-moderate 100-200 mg daily; very mild 50 mg once or twice daily; keep divided doses. Contraindicated in children (severe liver injury). [T1] | eTG restricts PTU to specific situations, uses different starting ranges and a 900 mg maximum, and contraindicates it in children. |
+| In the block-replace regimen the initial antithyroid dose continues and 100 to 150 micrograms of levothyroxine is added when T4 is in the normal range `thyroid-disorders#48` | Block-replace is reserved for rare groups under specialist supervision, does not improve remission, carries more adverse effects and is contraindicated in pregnancy; no levothyroxine dose given. [T1] | eTG discourages routine block-replace; the 100-150 microgram add-on dose is not stated. |
+| Propranolol for tachyarrhythmias including hyperthyroidism is oral 10 to 40 mg 3 or 4 times daily `thyroid-disorders#50` | Symptomatic thyrotoxicosis: propranolol 10 mg orally twice daily, titrated to heart rate up to 80 mg twice daily, or atenolol 25 mg daily up to 100 mg; thyroid storm propranolol 40-80 mg four times daily. [T1] | eTG outpatient propranolol regimen is twice daily with a 160 mg/day ceiling, versus 10-40 mg 3-4 times daily in AMH. |
+
+### Additional therapies in eTG
+
+- Atenolol 25 mg orally once daily, titrated to heart rate up to 100 mg daily, as an equal first-line beta blocker for symptomatic thyrotoxicosis; if beta blockers contraindicated, diltiazem 60 mg orally four times daily; child propranolol 0.5-1 mg/kg daily in 3-4 doses; continue only until euthyroid. [T1]
+- Children with thyrotoxicosis (specialist): carbimazole 0.2-0.3 mg/kg orally three times daily, titrated to maintenance 2.5-5 mg up to three times daily. [T1]
+- Thyroid storm adjuncts: esmolol 250-500 micrograms/kg IV load then 50-100 micrograms/kg/min, or metoprolol 5 mg IV repeated every 5 min to 15 mg (avoid beta blockers in acute decompensated heart failure); Lugol solution 0.5 mL orally or sublingually three times daily; dexamethasone 4 mg orally or IV 12-hourly; lithium carbonate 250 mg three times daily; colestyramine 8 g twice daily. [T1]
+- Preoperative Lugol solution 0.3-0.9 mL orally daily in 2-3 doses for 7 days before thyroidectomy; contraindicated in nodular disease; delays radioiodine for months. [T1]
+- Thyroid eye disease with dryness: hypromellose or polyvinyl alcohol eye drops 1-2 drops 2-4 times daily; selenium may help mild active disease; advise against smoking. [T1]
+- Poor adherence: once-weekly levothyroxine 11.2 micrograms/kg lean body weight (nearest 100 micrograms) orally, checking thyroid function before and 4-6 weeks after starting. [T2]
+- Oral levothyroxine can be withheld up to 7 days; if still nil by mouth, give IV levothyroxine at 75% of the usual oral dose daily (or 1.2 micrograms/kg lean body weight), or IV liothyronine 10 micrograms 2-3 times daily. [T2]
+- Myxoedema coma: levothyroxine 200-400 micrograms IV over 30 min loading then 1.2 micrograms/kg IV daily (or 400-600 micrograms oral load then 1.6 micrograms/kg daily); add liothyronine 10-20 micrograms IV twice daily if not improving; consider glucocorticoid cover. [T2]
+- Congenital hypothyroidism: levothyroxine 10-15 micrograms/kg orally daily started within 24-48 hours of diagnosis, with weekly thyroid function tests for the first month. [T2]
+- Levothyroxine in those planning pregnancy: aim TSH 0.5-2.5 milliunits/L and increase the dose when pregnancy occurs. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Thyrotoxicosis and hyperthyroidism* (Bone and Metabolism). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Bone%20and%20Metabolism&topicfile=thyrotoxicosis-and-hyperthyroidism — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Hypothyroidism* (Bone and Metabolism). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Bone%20and%20Metabolism&topicfile=hypothyroidism — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

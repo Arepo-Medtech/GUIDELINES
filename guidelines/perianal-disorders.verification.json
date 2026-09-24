@@ -8,10 +8,13 @@
   "https://www1.racgp.org.au/ajgp/2024/january-february/anal-fissures",
   "https://amhonline.amh.net.au/chapters/gastrointestinal-drugs/drugs-perianal-disorders/perianal-disorders",
   "https://amhonline.amh.net.au/chapters/gastrointestinal-drugs/drugs-perianal-disorders/glyceryl-trinitrate-rectal",
-  "https://amhonline.amh.net.au/chapters/gastrointestinal-drugs/drugs-perianal-disorders/anorectal-products"
+  "https://amhonline.amh.net.au/chapters/gastrointestinal-drugs/drugs-perianal-disorders/anorectal-products",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Pruritus-ani_topic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Haemorrhoidstopic_2",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Anal-fissuretopic_2"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "S1 is the open RACGP AJGP 2024 anal fissure review, fetched and checked verbatim (32 claims). A1 is AMH, read under subscription and PARAPHRASED across the 'Perianal disorders' topic and the 'Glyceryl trinitrate (rectal)' and 'Anorectal products' monographs; no passage reproduced, no source_text stored, each claim carries its page's locator. FIRST GUIDELINE IN THIS CORPUS WITH QUOTED DOSES: 2 of the 5 dose-flagged claims come from S1 and carry a verbatim quote, so they are machine re-checkable and are NOT in the attestation queue; 3 come from A1 and are. Until now every dose in the corpus was licensed, so dose:true and 'unverifiable' were the same set by accident; verify.py now reports the two counts separately. S1 covers treatments AMH does not mention at all (topical calcium channel blockers, botulinum toxin); that is recorded as a coverage gap in A1, not as a disagreement.",
+ "method": "S1 is the open RACGP AJGP 2024 anal fissure review, fetched and checked verbatim (32 claims). A1 is AMH, read under subscription and PARAPHRASED across the 'Perianal disorders' topic and the 'Glyceryl trinitrate (rectal)' and 'Anorectal products' monographs; no passage reproduced, no source_text stored, each claim carries its page's locator. FIRST GUIDELINE IN THIS CORPUS WITH QUOTED DOSES: 2 of the 5 dose-flagged claims come from S1 and carry a verbatim quote, so they are machine re-checkable and are NOT in the attestation queue; 3 come from A1 and are. Until now every dose in the corpus was licensed, so dose:true and 'unverifiable' were the same set by accident; verify.py now reports the two counts separately. S1 covers treatments AMH does not mention at all (topical calcium channel blockers, botulinum toxin); that is recorded as a coverage gap in A1, not as a disagreement. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Anal fissure is a superficial tear in the anoderm distal to the dentate line and is the second most common anorectal problem after haemorrhoids, affecting both genders equally",
@@ -317,10 +320,42 @@
    "source": "A1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, drug monograph 'Anorectal products' at https://amhonline.amh.net.au/chapters/gastrointestinal-drugs/drugs-perianal-disorders/anorectal-products, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Anal fissure alternative to GTN: compounded diltiazem 2% or nifedipine 0.5% topical; chronic fissure (over 8-12 weeks) needs specialist advice (botulinum toxin or lateral sphincterotomy) and exclusion of Crohn disease, infection or carcinoma.",
+   "source": "T3",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Gastrointestinal guideline: 'Anal fissure' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Anal-fissuretopic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of anal fissure'"
+  },
+  {
+   "claim": "Acute anal fissure first line: stool softeners or bulk-forming laxatives and warm salt baths after bowel actions.",
+   "source": "T3",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Gastrointestinal guideline: 'Anal fissure' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Anal-fissuretopic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of anal fissure'"
+  },
+  {
+   "claim": "Internal haemorrhoids: fibre and fluids, avoid straining; refer if lifestyle and OTC measures fail for rubber-band ligation (preferred), sclerotherapy or infrared coagulation.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Gastrointestinal guideline: 'Haemorrhoids' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Haemorrhoidstopic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of internal haemorrhoids'"
+  },
+  {
+   "claim": "Thrombosed external haemorrhoid presenting within 72 hours: complete excision under local anaesthetic (not simple incision); otherwise pain settles in 1-2 weeks.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Gastrointestinal guideline: 'Haemorrhoids' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Haemorrhoidstopic_2, accessed 2026-09-24 through the owner's subscription, section 'Management of thrombosed external haemorrhoids'"
   }
  ],
  "summary": {
-  "total": 50,
+  "total": 54,
   "pass": 32,
   "fail": 0
  }

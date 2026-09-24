@@ -9,10 +9,12 @@
   "https://amhonline.amh.net.au/chapters/psychotropic-drugs/antidepressants/ssris/fluoxetine",
   "https://amhonline.amh.net.au/chapters/psychotropic-drugs/drugs-attention-deficit-hyperactivity-disorder/psychostimulants/lisdexamfetamine",
   "https://nedc.com.au/eating-disorders/treatment-and-recovery/hospital-admission-guidelines",
-  "https://nedc.com.au/eating-disorders/treatment-and-recovery/treatment-approaches"
+  "https://nedc.com.au/eating-disorders/treatment-and-recovery/treatment-approaches",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=bulimia-nervosa&guidelinename=Psychotropic",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=binge-eating-disorder"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "MIXED SOURCES. S1 and S2 are open NEDC pages fetched with curl and every claim from them is verbatim-checked with scripts/verify.py. A1 is the AMH therapeutic topic and the fluoxetine and lisdexamfetamine monographs, read under subscription and PARAPHRASED, with no stored quote and verdict licensed_source_not_quoted; dose claims flagged dose:true. NEDC links to eight jurisdictional admission documents rather than stating criteria, and NONE was retrieved, so no weight, heart rate, electrolyte or ECG admission threshold appears in this guideline -- recorded as input_unavailable because that is the operational core of the topic.",
+ "method": "MIXED SOURCES. S1 and S2 are open NEDC pages fetched with curl and every claim from them is verbatim-checked with scripts/verify.py. A1 is the AMH therapeutic topic and the fluoxetine and lisdexamfetamine monographs, read under subscription and PARAPHRASED, with no stored quote and verdict licensed_source_not_quoted; dose claims flagged dose:true. NEDC links to eight jurisdictional admission documents rather than stating criteria, and NONE was retrieved, so no weight, heart rate, electrolyte or ECG admission threshold appears in this guideline -- recorded as input_unavailable because that is the operational core of the topic. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Psychological therapies have the greatest impact on symptom reduction and are first-line",
@@ -207,10 +209,34 @@
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, drug monograph 'Lisdexamfetamine' at https://amhonline.amh.net.au/chapters/psychotropic-drugs/drugs-attention-deficit-hyperactivity-disorder/psychostimulants/lisdexamfetamine, July 2026 release, read under subscription 2026-09-22",
    "dose": true
+  },
+  {
+   "claim": "Bulimia nervosa alternatives to fluoxetine (each continued at least 6 months): citalopram 10 mg daily up to 40 mg; fluvoxamine 50 mg in the evening up to 300 mg (split above 150 mg); sertraline 50 mg daily up to 200 mg; fluvoxamine/sertraline preferred if hypokalaemia/arrhythmia risk (less QT effect). Topiramate by specialists for refractory cases (avoid if underweight).",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Psychotropic guideline: 'Bulimia nervosa' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=bulimia-nervosa&guidelinename=Psychotropic, accessed 2026-09-24 through the owner's subscription, section 'Pharmacological treatment for bulimia nervosa in adults and young people'"
+  },
+  {
+   "claim": "Binge eating disorder: fluoxetine 20 mg each morning, increase by 20 mg no more than weekly up to 80 mg daily, especially with anxiety or mood disorder; topiramate by specialists after other failures.",
+   "source": "T2",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Psychotropic guideline: 'Binge eating disorder' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=binge-eating-disorder, accessed 2026-09-24 through the owner's subscription, section 'Pharmacological treatment for binge eating disorder in adults'"
+  },
+  {
+   "claim": "Psychological therapy (CBT-E/CBT-BN; family-based therapy for young people with bulimia) is first line for both disorders; monitor purging patients for hypokalaemia and dehydration.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Psychotropic guideline: 'Bulimia nervosa' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=bulimia-nervosa&guidelinename=Psychotropic, accessed 2026-09-24 through the owner's subscription, section 'Principles of managing bulimia nervosa / Psychological treatment'"
   }
  ],
  "summary": {
-  "total": 32,
+  "total": 35,
   "pass": 25,
   "fail": 0
  }

@@ -228,6 +228,33 @@ These PBS conditions have no guideline of their own; the owner linked them to th
 |---|---:|---|---|---:|
 | Detrusor overactivity | 4 | 0 / 0 / 4 | Oxybutynin, Propantheline | 6 |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 3 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Overactive bladder in adults (Kidney and Urinary).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH advises asking the patient to keep a bladder diary for three 24-hour periods which may help identify the type of incontinence and possible aetiology, and notes tests such as urinalysis and post-void residual volume may be necessary `urinary-incontinence#19` | eTG: bladder training uses a bladder diary to track voided volumes and intervals; exclude malignancy, recurrent UTI and stones; noninvasive tests include uroflowmetry and post-void residual; symptom questionnaires (ICIQ-OAB, OAB Symptom Score) help assess bother. [T1] | eTG does not specify three 24-hour diary periods; it adds symptom scores and exclusion of malignancy/UTI/stones. |
+| AMH advises monitoring after 4 weeks for adverse effects including changes in cognitive function and assessing for improvement in symptoms, stopping if there is no overall benefit, and notes an alternative anticholinergic could be tried `urinary-incontinence#25` | eTG: trial drug therapy for at least 4 to 8 weeks with regular follow-up; if response is inadequate or effects intolerable, try an alternative drug; consider specialist-supervised combination mirabegron 50 mg + solifenacin 5 mg. [T1] | eTG's trial window is 4 to 8 weeks (not 4) and it recommends trying a beta-3 agonist before an anticholinergic. |
+| AMH states that elderly people may be more sensitive to anticholinergic adverse effects such as urinary retention, blurred vision, dry mouth, constipation and confusion, that adverse effects are usually dose related, and advises starting with a low dosage and increasing cautiously to the lowest effective dose `urinary-incontinence#37` | eTG: regular anticholinergic use is not recommended in people over 65 years (association with dementia); use with caution under 65 and consider alternatives first; review total anticholinergic burden; prefer mirabegron. [T1] | eTG goes further than cautious low-dose use in the elderly: it advises against regular anticholinergics over 65. |
+
+### Additional therapies in eTG
+
+- Mirabegron modified-release 25 to 50 mg orally daily as preferred first drug for OAB (before anticholinergics); max 25 mg in moderate hepatic impairment or eGFR 15 to 29; avoid in severe uncontrolled hypertension; check BP at baseline and within the first week. [T1]
+- Anticholinergic options (under 65, with caution): darifenacin MR 7.5 mg daily (up to 15 mg), oxybutynin 2.5 mg 2 or 3 times daily (max 20 mg/day), oxybutynin 3.9 mg/24 h patch twice weekly, solifenacin 5 mg daily (up to 10 mg), tolterodine 1 to 2 mg twice daily. [T1]
+- Specialist combination for partial response: mirabegron 50 mg daily plus solifenacin 5 mg daily; do not combine anticholinergics. [T1]
+- Bladder rehabilitation (bladder training to 3 to 4 hourly voids, pelvic floor muscle training for at least 3 months, fluid/caffeine modification) is first line and continued with drug therapy. [T1]
+- Peri/postmenopausal females with OAB symptoms and vaginal atrophy: consider intravaginal estrogen. [T1]
+- Refractory OAB: intravesical botulinum toxin A, sacral neuromodulation or percutaneous tibial nerve stimulation via specialists. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Overactive bladder in adults* (Kidney and Urinary). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Kidney%20and%20Urinary&topicfile=kidney-overview&guidelinename=auto&sectionId=c_KUG_Overactive-bladder-in-adults_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

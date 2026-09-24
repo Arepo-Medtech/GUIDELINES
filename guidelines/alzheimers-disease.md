@@ -152,6 +152,34 @@ dementia.org.au** [Z1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **4 match · 5 differ · 5 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Dementia (Psychotropic).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| A beneficial effect, if any, is GENERALLY OBSERVED WITHIN 3 TO 6 MONTHS of starting treatment; the OPTIMAL DURATION IS UNCLEAR, and ongoing assessment of benefit and adverse effects should guide continuation; open-label studies suggest some patients may benefit from anticholinesterases for 3 YEARS OR MORE `alzheimers-disease#4` | eTG: assess adverse effects within 1 month; assess clinically meaningful response within 6 months (usually after 2 to 3 months at maximum tolerated dose) and then every 6 months; if tolerated and beneficial, continue as long as quality of life is maintained, until end-stage dementia. [T1] | Timing of response assessment is similar, but eTG supports continuing until end-stage dementia rather than calling optimal duration unclear; eTG also sets explicit stop/switch criteria (Table 8.8). |
+| Specialists may use COMBINATION treatment in some patients, although evidence of benefit is LIMITED AND CONFLICTING; a 2012 study in patients with moderate-to-severe disease living in the community on a stable dose of donepezil showed that ADDING MEMANTINE DID NOT IMPROVE COGNITIVE AND FUNCTIONAL OUTCOMES over 12 months compared with donepezil alone `alzheimers-disease#5` | eTG: if response to an acetylcholinesterase inhibitor is inadequate in moderate to severe Alzheimer dementia, consider adding memantine; memantine gives a small short-term benefit whether used alone or combined. [T1] | eTG is more supportive of adding memantine than AMH, which cites a trial showing no added benefit. |
+| If anticholinesterase adverse effects occur, OMIT ONE OR MORE DOSES and reduce to the previous well-tolerated dose if they persist `alzheimers-disease#24` | eTG: within 1 month assess adverse effects and adjust dose; most adverse effects are dose-related; if intolerable at the lowest dose, switch (within 12 months) or stop; when switching for intolerance, start the new drug only after the adverse effect resolves. [T1] | eTG does not describe omitting doses; it frames management as dose adjustment, switching or stopping. |
+| Deterioration of cognition is DELAYED BY 6 MONTHS IN 25 TO 50% of patients, and BY 1 YEAR IN 12 TO 20% of patients with mild-to-moderate Alzheimer's disease; AS THERE ARE NO RELIABLE PREDICTORS OF RESPONSE, carefully assess benefit AFTER 3 MONTHS at full or highest tolerated dose, and STOP TREATMENT if there are significant adverse effects, poor compliance, or lack of stabilisation or improvement `alzheimers-disease#26` | eTG: benefits are modest and short term; assess response within 6 months (usually after 2 to 3 months at maximum dose) and 6-monthly; stop or switch if no improvement or stabilisation after at least 6 months at maximum dose, or significant worsening, intolerable effects, inability to take, or end-stage disease. [T1] | eTG does not give the 25 to 50% / 12 to 20% delay figures; its lack-of-response threshold is 6 months at maximum tolerated dose rather than 3 months. eTG also warns stopping can cause irreversible decline and advises tapering. |
+| Donepezil is usually given IN THE EVENING, but consider the morning if more convenient or if INSOMNIA OR VIVID DREAMS occur with night-time dosing `alzheimers-disease#31` | eTG gives donepezil at night; vivid dreams are listed among adverse effects, but morning dosing is not discussed. [T1] | eTG does not mention switching to morning dosing. |
+
+### Additional therapies in eTG
+
+- Galantamine modified-release 8 mg orally each morning for 4 weeks, then 16 mg each morning if tolerated; may increase to 24 mg daily if deteriorating after initial response at 16 mg. [T1]
+- Rivastigmine patch 4.6 mg/24 h daily for 4 weeks, then 9.5 mg/24 h, then 13.3 mg/24 h after at least 4 more weeks if needed; or oral rivastigmine 1.5 mg twice daily increasing by 1.5 mg twice daily every 2 weeks to a maximum of 6 mg twice daily. [T1]
+- Before starting an acetylcholinesterase inhibitor, perform an ECG, record weight and assess falls risk. [T1]
+- When stopping an acetylcholinesterase inhibitor or memantine, halve the dose every 4 weeks until the lowest dose has been used for 4 weeks, then stop; if a severe withdrawal reaction occurs within a week, resume the previous minimum effective dose. [T1]
+- Do not use acetylcholinesterase inhibitors or memantine in frontotemporal dementia; avoid vitamin E (increased mortality). [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Dementia* (Psychotropic). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Psychotropic&topicfile=dementia — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

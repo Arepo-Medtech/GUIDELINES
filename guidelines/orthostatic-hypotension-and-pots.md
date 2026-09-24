@@ -190,6 +190,28 @@ POTS doses, not orthostatic hypotension doses.**
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 1 differ · 8 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Orthostatic hypotension (Cardiovascular).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Fludrocortisone for ORTHOSTATIC HYPOTENSION, adult, oral, initially 100 micrograms daily, increased if necessary to 200 micrograms daily `orthostatic-hypotension-and-pots#17` | Fludrocortisone expands plasma volume, is contraindicated in heart failure and hypertension, and evidence of benefit for OH is low certainty especially long term; no dose given; refer to a specialist if nondrug measures fail. [T1] | eTG gives no dose and casts doubt on its benefit; AMH presents a GP-level regimen (100-200 micrograms daily). |
+
+### Additional therapies in eTG
+
+- Nondrug measures are the mainstay: avoid heat and prolonged standing, rise slowly, reduce/stagger exacerbating drugs, leg-tensing and crossing, avoid alcohol early in the day, front-load fluids, drink 300-500 mL water before breakfast, abdominal binder (knee/thigh stockings ineffective), minimise daytime bed rest, exercise program. [T1]
+- For hypertension coexisting with OH prefer an ACEI, ARB or dihydropyridine CCB over alpha blockers, beta blockers or diuretics; consider afternoon/evening dosing if nocturnal supine hypertension; do not stop appropriate antihypertensives without trying nondrug measures first. [T1]
+- PoTS and vasovagal syncope in young adults: leg-tensing manoeuvres, morning hydration and exercise; refer to a specialist if drug therapy is needed. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Orthostatic hypotension* (Cardiovascular). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Cardiovascular&topicfile=cardiovascular-disease-risk-stratification&guidelinename=auto&sectionId=c_CVG_Orthostatic-hypotensiontopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

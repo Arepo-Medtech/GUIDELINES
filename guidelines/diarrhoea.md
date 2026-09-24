@@ -180,6 +180,34 @@ These PBS conditions have no guideline of their own; the owner linked them to th
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 1 differ · 5 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Acute gastroenteritis: Other supportive therapy and considerations for acute gastroenteritis (Gastrointestinal); **T2** Acute gastroenteritis: Rehydration for acute gastroenteritis in adults (Gastrointestinal); **T3** Acute gastroenteritis: Approach to managing acute gastroenteritis (Gastrointestinal); **T4** Functional diarrhoea in adults (Gastrointestinal).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Loperamide for CHRONIC diarrhoea or an intestinal stoma, adjust to response; usual maintenance 4 to 8 mg daily in 1 to 3 doses `diarrhoea#24` | Functional (chronic) diarrhoea: loperamide 2 mg orally 1 to 4 times daily if required. [T4] | eTG range 2-8 mg/day up to 4 times daily (AMH usual maintenance 4-8 mg/day in 1-3 doses). |
+
+### Additional therapies in eTG
+
+- Adult antiemetics for acute gastroenteritis: metoclopramide 10 mg orally 8-hourly as needed, ondansetron 4-8 mg orally 8- to 12-hourly as needed, or prochlorperazine 20 mg then 10 mg 2 hours later, then 5-10 mg 8-hourly as needed. [T1]
+- Children 6 months or older with gastroenteritis vomiting: ondansetron 0.15 mg/kg (max 8 mg) orally, repeat after 8-12 hours if needed. [T1]
+- Zinc 20 mg orally daily for 10-14 days only for malnourished children 6 months or older with gastroenteritis; probiotics may help children but insufficient evidence in adults. [T1]
+- Haemodynamically compromised adults: 10 to 20 mL/kg lactated Ringer or sodium chloride 0.9% rapid IV, repeated as needed; SC sodium chloride 0.9% up to 60 mL/hour per site if IV not possible. [T2]
+- Bile salt diarrhoea (post-cholecystectomy or ileal resection): colestyramine 4 to 8 g orally up to twice daily; avoid codeine preparations for chronic diarrhoea. [T4]
+- During gastroenteritis consider temporarily withholding NSAIDs, ACE inhibitors, ARBs, diuretics, metformin, lithium, digoxin; warn that absorption of drugs such as combined oral contraceptives may fall. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Acute gastroenteritis: Other supportive therapy and considerations for acute gastroenteritis* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Other-supportive-therapy-and-considerations-for-acute-gastroenteritistopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *Acute gastroenteritis: Rehydration for acute gastroenteritis in adults* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Rehydration-for-acute-acute-gastroenteritis-in-adultstopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T3** | Therapeutic Guidelines (eTG complete). *Acute gastroenteritis: Approach to managing acute gastroenteritis* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Approach-to-managing-acute-gastroenteritistopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T4** | Therapeutic Guidelines (eTG complete). *Functional diarrhoea in adults* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Functional-diarrhoea-in-adultstopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |

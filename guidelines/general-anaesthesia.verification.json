@@ -5,12 +5,13 @@
  "verifier": "claude-opus-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://amhonline.amh.net.au/chapters/anaesthetics/general-anaesthetics/general-anaesthesia"
+  "https://amhonline.amh.net.au/chapters/anaesthetics/general-anaesthetics/general-anaesthesia",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=procedural-sedation-analgesia"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "ENTIRELY from AMH's General anaesthesia topic, read under subscription and PARAPHRASED: no passage reproduced, no source_text stored, so NOTHING here is machine re-checkable. A targeted search of RACGP's open AJGP for perioperative medication management returned no article that covered this page's content; that absence is recorded rather than filled. ⚠️ GENERAL ANAESTHESIA IS NOT A GENERAL-PRACTICE PROCEDURE AND THIS GUIDELINE DOES NOT PRETEND OTHERWISE. It is scoped to the parts of AMH's page that a non-anaesthetist acts on: which regular medicines to continue, the fasting intervals, and aspiration prophylaxis. NO INDUCTION, MAINTENANCE, NEUROMUSCULAR BLOCKER OR REVERSAL AGENT IS NAMED OR DOSED, because AMH's page does not dose them and no monograph was retrieved.",
+ "method": "ENTIRELY from AMH's General anaesthesia topic, read under subscription and PARAPHRASED: no passage reproduced, no source_text stored, so NOTHING here is machine re-checkable. A targeted search of RACGP's open AJGP for perioperative medication management returned no article that covered this page's content; that absence is recorded rather than filled. ⚠️ GENERAL ANAESTHESIA IS NOT A GENERAL-PRACTICE PROCEDURE AND THIS GUIDELINE DOES NOT PRETEND OTHERWISE. It is scoped to the parts of AMH's page that a non-anaesthetist acts on: which regular medicines to continue, the fasting intervals, and aspiration prophylaxis. NO INDUCTION, MAINTENANCE, NEUROMUSCULAR BLOCKER OR REVERSAL AGENT IS NAMED OR DOSED, because AMH's page does not dose them and no monograph was retrieved. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "summary": {
-  "total": 15,
+  "total": 17,
   "pass": 0,
   "fail": 0
  },
@@ -109,6 +110,22 @@
    "source": "G1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, 'General anaesthesia' at https://amhonline.amh.net.au/chapters/anaesthetics/general-anaesthetics/general-anaesthesia, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "Manage aspiration risk specifically when fasting is impossible (emergencies), when gastric emptying is delayed (eg after opioids or severe pain) or for high-risk procedures such as upper GI endoscopy.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Pain and Analgesia guideline: 'Procedural sedation and analgesia' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=procedural-sedation-analgesia, accessed 2026-09-24 through the owner's subscription, section 'Fasting'"
+  },
+  {
+   "claim": "Procedural analgesia without deep sedation (adults): intranasal fentanyl up to 100 micrograms (repeat 50 micrograms once after 5 minutes) or IV fentanyl 50 micrograms (repeat 25 micrograms once), or IV morphine 5 mg (repeat 2.5 mg once); inhaled methoxyflurane max 6 mL/24 hours or nitrous oxide 50%.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Pain and Analgesia guideline: 'Procedural sedation and analgesia' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Pain%20and%20Analgesia&topicfile=procedural-sedation-analgesia, accessed 2026-09-24 through the owner's subscription, section 'Drug regimens for analgesia without a significantly depressed conscious state'"
   }
  ]
 }

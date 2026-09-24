@@ -265,6 +265,33 @@ multiple areas of involvement to prevent irregular pigmentation** [S2].
 | **Eczema** | the other dermatology guideline; both warn that **vigorous washing and irritant products worsen the disease** |
 | **Major depressive disorder** | **significant psychological distress** is a stated referral trigger, and reducing **depression and low self-esteem** is a stated aim of treatment |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **5 match · 3 differ · 3 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Acne (Dermatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Clindamycin with tretinoin is applied once a day at bedtime for up to 12 weeks `acne#50` | eTG: tretinoin+clindamycin 0.025%+1% gel once daily at night for 6 weeks then review; stop the antibiotic combination once inflammation is controlled and maintain with a single-ingredient retinoid or benzoyl peroxide. [T1] | eTG reviews at 6 weeks and stresses avoiding long-term topical antibiotic use rather than a fixed 12-week limit. |
+| Doxycycline for acne is oral 50 mg once daily for at least 6 weeks in adults and children over 8 years, increased to 100 mg once daily if necessary `acne#55` | eTG: doxycycline 50 mg orally once daily until inflammation resolves (usually weeks); increase to 100 mg once daily if response inadequate; avoid long-term use (eg 12 months), stop once controlled and maintain topically; photosensitivity advice. [T1] | Dose agrees; eTG gives no 'at least 6 weeks' minimum and emphasises stopping once inflammation is controlled. |
+| Minocycline for acne is oral 50 mg once or twice daily, or 100 mg once daily, in adults and children over 8 years `acne#56` | eTG: minocycline 50 mg orally once daily until inflammation resolves (second choice after doxycycline); check liver biochemistry yearly if used long term. [T1] | eTG gives only 50 mg once daily, not 50 mg twice daily or 100 mg daily, and ranks minocycline second line. |
+
+### Additional therapies in eTG
+
+- Spironolactone 25 to 50 mg orally once daily, increasing gradually to 50 to 100 mg once daily, for moderate to severe acne in females when a COCP is unsuitable or insufficient; review after 6 months; contraindicated in pregnancy. [T1]
+- COCP (antiandrogenic or less androgenic progestogen) as an alternative or addition to oral antibiotics in females with moderate to severe acne; trial for 6 months. [T1]
+- Erythromycin ethyl succinate 400 to 800 mg orally twice daily until inflammation resolves when tetracyclines are unsuitable. [T1]
+- Benzoyl peroxide+adapalene 2.5%+0.3% gel once daily for 6 weeks if the 0.1% combination is tolerated but insufficient. [T1]
+- Acne in pregnancy: benzoyl peroxide and topical clindamycin (including the combination); oral erythromycin for moderate to severe acne; avoid retinoids and spironolactone. [T1]
+- Infantile acne: benzoyl peroxide 5% (or 2.5%) once daily spot treatment; adapalene 0.1% or tretinoin 0.025% cream nightly for numerous comedones; benzoyl peroxide+adapalene 2.5%+0.1% gel nightly for mixed lesions. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Acne* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=acne&guidelinename=Dermatology — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

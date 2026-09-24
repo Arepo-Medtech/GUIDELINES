@@ -85,6 +85,32 @@ agents**.
 | **Fitness to drive** · **Sodium valproate** | isotretinoin's teratogenicity, covered fully in the acne guideline |
 | **Ectoparasites** | ⚠️ **ivermectin** appears in both — **topical daily for up to 4 months** here, **oral 200 mcg/kg on days 1 and 8–14** there |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **2 match · 4 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Rosacea (Dermatology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Topical metronidazole for rosacea is applied as a gel or cream rubbed as a thin film into affected areas twice a day `rosacea#14` | Metronidazole 0.75% gel or cream topically once or twice daily (second line after ivermectin), for 6-12 weeks for maximal response; preferred with azelaic acid in pregnancy/breastfeeding. [T1] | eTG allows once-daily use and ranks metronidazole after topical ivermectin; adds a 6-12 week course. |
+| Azelaic acid is applied morning and night `rosacea#15` | Azelaic acid 15% gel or 20% lotion topically once or twice daily (third line), for 6-12 weeks. [T1] | eTG permits once-daily use rather than fixed morning-and-night application. |
+| Topical brimonidine is used once a day or less often, starting with a small amount of gel and increasing gradually after 1 week to no more than a small pea-sized amount to each area of the face `rosacea#17` | Brimonidine gel (up to 1 g) topically once daily in the morning, for short-term episodic use only (eg before a social event) because long-term use risks rebound vascular rosacea; effect lasts about 12 hours. [T1] | eTG restricts brimonidine to episodic short-term use and caps at up to 1 g; AMH describes regular gradual escalation. |
+| Doxycycline for rosacea is adult oral 50 mg once daily `rosacea#18` | Doxycycline 50-100 mg orally once daily until response (usually 3-4 weeks, up to 8 weeks); for relapse within a month, 50 mg daily or every second day for 6-12 months. [T1] | eTG dose range extends to 100 mg daily and specifies treatment durations and a low-dose maintenance option. |
+
+### Additional therapies in eTG
+
+- Minocycline 50-100 mg orally once daily until response (up to 8 weeks) if first oral antibiotic not tolerated or inadequate after 4 weeks; for early relapse, minocycline 50 mg daily or every second day for 6-12 months. [T1]
+- Oral antibiotics (doxycycline/erythromycin/minocycline) can be used first instead of topical therapy when inflammation is more severe; stop once controlled and repeat if it recurs. [T1]
+- Ocular rosacea: lubricant, daily lid hygiene and lid massage first line; then oral antibiotics as for papulopustular rosacea; refer to ophthalmology if ineffective. [T1]
+- Avoid topical corticosteroids (ineffective, rebound flare); use soap-free cleanser, emollient and low-irritant sunscreen. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Rosacea* (Dermatology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Dermatology&topicfile=c_DMG_Considerations-in-the-use-of-topical-corticosteroids_topic_1&guidelinename=auto&sectionId=c_DMG_Rosacea_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

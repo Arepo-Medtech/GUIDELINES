@@ -438,6 +438,32 @@ held here. No dose is given and none has been supplied.**
 | **Antimicrobial stewardship** | the same shape of argument: ⚠️ **a widely prescribed drug class whose efficacy evidence is animal research and anecdote** |
 | **Menopausal symptoms** | ⚠️ the same structural finding — **the drug with the largest prescribing volume is not the drug with the best evidence** |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **1 match · 2 differ · 1 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Dizziness and vertigo (Neurology).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| Betahistine adult oral dose is 24 to 48 mg daily in 2 or 3 doses `vertigo#102` | eTG (Meniere disease prophylaxis only): betahistine 8 mg orally twice daily initially, reassessing every 2 to 4 weeks, increasing frequency to 2 or 3 times daily and up to 16 mg 3 times daily (max 48 mg/day); eTG notes clear benefit has not been shown in trials. [T1] | Upper dose agrees (48 mg/day), but eTG starts lower (16 mg/day) and titrates, restricts use to Meniere prophylaxis, and notes lack of proven benefit. |
+| The adult oral dose of prochlorperazine for vertigo is 5 to 10 mg 2 or 3 times daily `vertigo#115` | eTG: prochlorperazine 5 to 10 mg orally 6- to 8-hourly as needed for up to 2 days (maximum 30 mg daily), only while nausea/vomiting persists. [T1] | eTG allows 6- to 8-hourly (up to 3 to 4 times daily, max 30 mg) and limits use to 2 days to avoid neurological adverse effects. |
+
+### Additional therapies in eTG
+
+- Short-term vertigo-associated nausea/vomiting: ondansetron 4 to 8 mg orally, IM or IV 8- to 12-hourly as needed for up to 2 days (max 24 mg/day); preferred when a nonsedating option is wanted. [T1]
+- Promethazine 25 mg orally (or 12.5 to 25 mg IM) 4- to 6-hourly as needed for up to 2 days (max 100 mg/day) for vertigo-associated nausea/vomiting. [T1]
+- Meniere prophylaxis alternative: hydrochlorothiazide 25 mg daily (up to 50 mg) or hydrochlorothiazide+amiloride 50+5 mg daily; restrict salt to 3 g/day and avoid caffeine; consider withdrawal after 6 to 12 months of control. [T1]
+- BPPV: Epley or Semont particle repositioning (or Brandt-Daroff exercises); no drug effect on vertigo; consider vitamin D if 25-OH vitamin D below 50 nmol/L to reduce recurrence. [T1]
+- Vestibular migraine: migraine prophylaxis drugs (amitriptyline, candesartan, nortriptyline, pizotifen, propranolol, topiramate); triptans may help acute vertigo. [T1]
+- Vestibular neuritis: symptomatic treatment only; corticosteroids and antivirals not supported; vestibular rehabilitation for incomplete recovery; avoid vestibular suppressants in uncompensated vestibulopathy. [T1]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Dizziness and vertigo* (Neurology). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Neurology&topicfile=acute-management-of-seizures-and-status-epilepticus&guidelinename=auto&sectionId=c_NRG_Dizziness-and-vertigo_topic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

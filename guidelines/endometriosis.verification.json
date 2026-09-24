@@ -6,10 +6,11 @@
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
   "https://www1.racgp.org.au/ajgp/2024/january-february/endometriosis",
-  "https://amhonline.amh.net.au/chapters/obstetric-gynaecological-drugs/drugs-endometriosis/endometriosis"
+  "https://amhonline.amh.net.au/chapters/obstetric-gynaecological-drugs/drugs-endometriosis/endometriosis",
+  "https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health"
  ],
  "retrieved_utc": "2026-09-22",
- "method": "S1 is the open RACGP AJGP 2024 review, fetched and checked verbatim (32 claims). A1 is AMH, read under subscription and PARAPHRASED (13 claims); no passage reproduced, no source_text stored. THE DOSE TABLE COMES FROM THE OPEN SOURCE: 5 of the 7 dose claims are QUOTED and machine re-checkable, because S1 carries a full hormonal therapy table with doses and A1 does not. That is the reverse of the usual pattern in this corpus. The two sources take DIFFERENT POSITIONS on surgery for endometriosis-associated infertility -- A1 states flatly that surgery is the treatment of choice, S1 reports the three guidelines as agreeing only that surgery MIGHT improve fertility in stage 1 and 2 with data for stages 3 and 4 LESS CLEAR -- and both are stated with attribution rather than reconciled. S1 also disagrees with A1 on the levonorgestrel IUD interval (5 years vs A1's 5 or 8), the same conflict recorded in the contraception guideline from a different AJGP article.",
+ "method": "S1 is the open RACGP AJGP 2024 review, fetched and checked verbatim (32 claims). A1 is AMH, read under subscription and PARAPHRASED (13 claims); no passage reproduced, no source_text stored. THE DOSE TABLE COMES FROM THE OPEN SOURCE: 5 of the 7 dose claims are QUOTED and machine re-checkable, because S1 carries a full hormonal therapy table with doses and A1 does not. That is the reverse of the usual pattern in this corpus. The two sources take DIFFERENT POSITIONS on surgery for endometriosis-associated infertility -- A1 states flatly that surgery is the treatment of choice, S1 reports the three guidelines as agreeing only that surgery MIGHT improve fertility in stage 1 and 2 with data for stages 3 and 4 LESS CLEAR -- and both are stated with attribution rather than reconciled. S1 also disagrees with A1 on the levonorgestrel IUD interval (5 years vs A1's 5 or 8), the same conflict recorded in the contraception guideline from a different AJGP article. eTG CROSS-CHECK 2026-09-24: every licensed-source dose compared with Therapeutic Guidelines (paraphrased, no eTG text stored); results and additions in the page's eTG cross-check section.",
  "claims": [
   {
    "claim": "Endometriosis is a chronic inflammatory condition defined as endometrial-like tissue proliferating outside the uterus, affecting one in nine Australian women and up to 50% of women experiencing infertility",
@@ -287,10 +288,50 @@
    "source": "A1",
    "verdict": "licensed_source_not_quoted",
    "locator": "AMH Medicines, therapeutic topic 'Endometriosis' (Obstetric and gynaecological drugs > Drugs for endometriosis) at https://amhonline.amh.net.au/chapters/obstetric-gynaecological-drugs/drugs-endometriosis/endometriosis, July 2026 release, read under subscription 2026-09-22"
+  },
+  {
+   "claim": "First-line analgesia: 3-month trial of an NSAID and/or paracetamol (primary dysmenorrhoea doses), reviewing at 3 months.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Sexual and Reproductive Health guideline: 'Endometriosis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health, accessed 2026-09-24 through the owner's subscription, section 'Analgesia for endometriosis'"
+  },
+  {
+   "claim": "Combined hormonal contraception (COC once daily or ethinylestradiol+etonogestrel 2.7+11.7 mg ring), cyclic or extended/continuous, as first-line hormonal therapy.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Sexual and Reproductive Health guideline: 'Endometriosis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health, accessed 2026-09-24 through the owner's subscription, section 'Combined hormonal contraception for endometriosis'"
+  },
+  {
+   "claim": "Long-acting progestogens first line: etonogestrel 68 mg implant (replace every 3 years), 52 mg LNG-IUD (replace every 5 years), or medroxyprogesterone 150 mg deep IM every 12 weeks.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Sexual and Reproductive Health guideline: 'Endometriosis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health, accessed 2026-09-24 through the owner's subscription, section 'Progestogens for endometriosis'"
+  },
+  {
+   "claim": "Oral progestogens if estrogen and long-acting progestogens unsuitable: norethisterone 5 to 10 mg daily (10 mg twice daily if spotting), dienogest 2 mg daily, or medroxyprogesterone 10 mg three times daily; usually 3 to 6 months; not reliable contraception.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Sexual and Reproductive Health guideline: 'Endometriosis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health, accessed 2026-09-24 through the owner's subscription, section 'Progestogens for endometriosis'"
+  },
+  {
+   "claim": "Refer if symptoms persist after 3 months of first-line treatment, pelvic mass/nodule or suspected deep bowel/bladder disease; refer for fertility care if not conceiving after 6 months or over 35.",
+   "source": "T1",
+   "verdict": "licensed_source_not_quoted",
+   "dose": true,
+   "etg_crosscheck": "2026-09-24",
+   "locator": "Therapeutic Guidelines (eTG complete), Sexual and Reproductive Health guideline: 'Endometriosis' at https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Sexual%20and%20Reproductive%20Health&topicfile=endometriosis&guidelinename=Sexual%20and%20Reproductive%20Health, accessed 2026-09-24 through the owner's subscription, section 'Indications for referral in endometriosis'"
   }
  ],
  "summary": {
-  "total": 45,
+  "total": 50,
   "pass": 32,
   "fail": 0
  }

@@ -268,6 +268,34 @@ history of peptic ulcer disease and those on dual antiplatelet or anticoagulant 
 | **Vomiting** | ⚠️ **persistent vomiting is a red flag for urgent endoscopy** [S1] |
 | ⚠️ **Cultural safety** | ⚠️ **prevalence of 50–80% in Aboriginal and Torres Strait Islander peoples and Asian communities** [S1] against a 24.8% general adult figure |
 
+---
+
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 3 differ · 0 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Helicobacter pylori infection (Gastrointestinal); **T2** NSAID-induced ulcers (Gastrointestinal).
+
+### ⚠️ Where eTG differs
+
+| page claim | eTG | annotation |
+|---|---|---|
+| AMH gives the preferred first-line H. pylori eradication regimen as a PPI at standard dose twice daily with clarithromycin 500 mg twice daily and amoxicillin 1 g twice daily for 14 days, with metronidazole 400 mg twice daily replacing amoxicillin if amoxicillin is unsuitable `peptic-ulcer-disease#42` | eTG first line: esomeprazole 20 mg (or any PPI) twice daily + amoxicillin 1 g twice daily + clarithromycin 500 mg twice daily for 7 to 14 days (duration individualised by clarithromycin resistance risk; Cochrane favours 14 days). Penicillin hypersensitivity: replace amoxicillin with metronidazole 400 mg twice daily, or use bismuth quadruple therapy. [T1] | Regimen and doses agree; eTG gives 7 to 14 days (individualised) rather than a fixed 14 days. |
+| For NSAID-induced ulcers, stop the NSAID excluding low-dose aspirin if possible and substitute paracetamol and non-drug treatment, and treat with a PPI for at least 8 weeks, testing for H. pylori and treating if present, possibly delaying treatment until the ulcer has healed `peptic-ulcer-disease#53` | eTG: stop the NSAID if possible and give a standard-dose PPI (eg omeprazole 20 mg daily) for 8 to 12 weeks (still effective if the NSAID must continue); if H. pylori is present, usually treat both. For secondary prevention avoid NSAIDs; if needed, COX-2 selective NSAID plus PPI gives most protection. [T2] | eTG treatment duration is 8 to 12 weeks (AMH at least 8 weeks); eTG does not mention delaying eradication until healing. |
+| AMH recommends a full-dose PPI such as omeprazole 20 mg once daily for NSAID ulcer prevention, with misoprostol 800 micrograms daily as an alternative limited by GI adverse effects such as abdominal cramps and diarrhoea, noting 400 micrograms daily has fewer adverse effects but is less effective in preventing gastric ulcers `peptic-ulcer-disease#57` | eTG primary prophylaxis: daily standard-dose PPI (esomeprazole 20, lansoprazole 30, omeprazole 20, pantoprazole 40 or rabeprazole 20 mg) in higher-risk patients; COX-2 selective NSAID plus PPI may give best protection; misoprostol is rarely used (multiple daily doses, GI adverse effects). [T2] | PPI dose agrees; eTG gives no misoprostol dose and effectively sidelines it, and emphasises COX-2 selective NSAID, lowest dose/shortest course and H. pylori testing. |
+
+### Additional therapies in eTG
+
+- Salvage after failed first-line H. pylori therapy (never repeat clarithromycin): PPI twice daily + amoxicillin 1 g twice daily + levofloxacin 250 mg twice daily (or 500 mg daily) or moxifloxacin 400 mg daily, for 10 days. [T1]
+- Bismuth quadruple therapy (salvage or penicillin allergy): PPI twice daily + colloidal bismuth subcitrate 120 mg 4 times daily + tetracycline 500 mg 4 times daily + metronidazole 400 mg 3 times daily for 7 or 14 days. [T1]
+- Third-line salvage: PPI twice daily + amoxicillin 1 g twice daily + rifabutin 150 mg twice daily for 10 days. [T1]
+- Confirm eradication with urea breath test at least 4 weeks after antibiotics/bismuth and after withholding PPI for 1 to 2 weeks; serology unsuitable. [T1]
+- Complicated, gastric, high-risk or NSAID ulcers: continue PPI for about 8 weeks after eradication; long-term PPI if eradication fails or NSAID needed. [T1]
+- Low-dose aspirin: test and treat H. pylori in patients with prior ulcer before starting; after an aspirin-associated bleed, continue aspirin with PPI rather than switching to clopidogrel. [T2]
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Helicobacter pylori infection* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=c_GIG_Gastro-oesophageal-reflux-in-adultstopic_1&guidelinename=auto&sectionId=c_GIG_Helicobacter-pylori-infectiontopic_2 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+| **T2** | Therapeutic Guidelines (eTG complete). *NSAID-induced ulcers* (Gastrointestinal). https://app.tg.org.au/viewTopic?etgAccess=true&guidelinePage=Gastrointestinal&topicfile=gastric-disorders&guidelinename=Gastrointestinal&sectionId=toc_d1e874 — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
 ## Unresolved
 
 | Point | Kind | Detail |

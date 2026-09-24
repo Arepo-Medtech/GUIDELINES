@@ -72,6 +72,16 @@ cerebral palsy in the infant** [M1].
 
 ---
 
+## eTG cross-check (2026-09-24)
+
+Every dose on this page that came from a licensed source was compared with **Therapeutic Guidelines (eTG)**: **0 match · 0 differ · 6 not covered by eTG.** eTG figures are paraphrased; no eTG text is stored. eTG topics read: **T1** Search results for 'preterm labour' (no eTG tocolysis/antenatal corticosteroid topic; nearest is Antibiotic 'Prophylaxis for preterm prelabour rupture of membranes') (Multiple).
+
+| id | Source | Treatment |
+|---|---|---|
+| **T1** | Therapeutic Guidelines (eTG complete). *Search results for 'preterm labour' (no eTG tocolysis/antenatal corticosteroid topic; nearest is Antibiotic 'Prophylaxis for preterm prelabour rupture of membranes')* (Multiple). https://app.tg.org.au/searchAction/?appendedinputbuttons=preterm%20labour — accessed 2026-09-24. | licensed; **paraphrased, not quoted** |
+
+---
+
 ## Unresolved
 
 | # | Item | Class |
