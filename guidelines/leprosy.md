@@ -1,11 +1,13 @@
 # Leprosy (Hansen's disease)
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, multidrug therapy (MDT), monitoring, contact management and lepra reactions for leprosy in Australia, as practised by the NT Centre for Disease Control. BCG for leprosy contacts is also in `tuberculosis-bcg`. PBS access for rifampicin is in the table below.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 19 claims paraphrased from **Centre for Disease Control, Department of Health, Northern Territory Government — *Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)*** (28 May 2018; origin: AU). **41 anchors re-checkable by machine; 4 doses.** The source's words are not reproduced: its licence is *© NT Department of Health; free copying and distribution for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission*.
+> ✅ **COMPILED FROM 2 SOURCES.** 29 claims; **65 fragments or anchors re-checkable by machine; 7 doses.** **S1** Centre for Disease Control (28 May 2018; AU): 19 claims, paraphrased, hash-anchored · **S2** World Health Organization (2018; international): 10 claims, paraphrased, hash-anchored
 
-> ⚠️ **Regional guideline, more than five years old (May 2018).** It is the only Australian leprosy guideline found. It follows WHO multidrug therapy but keeps a longer, 24-month course for high-bacillary-index multibacillary disease.
+> ⚠️ **Regional guideline, more than five years old (May 2018).** It is the only Australian leprosy guideline found. It follows WHO multidrug therapy but keeps a longer, 24-month course for high-bacillary-index multibacillary disease. **S2 (WHO 2018)** adds the international regimen, adult MB doses, drug-resistant leprosy and prophylaxis; where the two differ, both are shown.
+
+> ⚠️ International guideline (WHO, 2018) for S2. Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -15,6 +17,7 @@
 - **Examine the whole skin in good (ideally natural) light and in private** for macules, papules, plaques, nodules and infiltration; on darker skin patches can look copper-coloured and on lighter skin pink, and sometimes the buttocks are the only site. Test for loss of sensation, hair, pigment and sweating. [S1]
 - **Palpate the commonly affected nerves** (ulnar, median, radial cutaneous, common peroneal, posterior tibial, sural, greater auricular, and cranial nerves 5 and 7), comparing both sides; inflamed nerves may be very tender. [S1]
 - **Examine the eyes at diagnosis and every year, with annual ophthalmology slit-lamp review for silent iritis,** continuing after treatment ends. Cataract is now the commonest cause of blindness in leprosy. [S1]
+- **WHO: diagnose on clinical examination, adding a slit-skin smear or biopsy histology where available.** Newer ELISA, lateral-flow and PCR tests offer no clear gain over this, and no test is advised to detect latent infection in well contacts (only 4% of test-positive contacts went on to develop leprosy). [S2]
 
 ## Before treatment
 
@@ -27,6 +30,9 @@
 - ⚠️ **Multibacillary leprosy: 12 months if the bacillary index is below 4+, but at least 24 months if it is 4+ or more.** This is longer than the WHO's 12 months for all MB disease, because a high bacillary index carries more relapse; the US National Hansen's Disease Program also advises 24 months. [S1]
 - **Monthly doses are directly observed** (4-weekly dosing on the same weekday is easier in practice). Dispense weekly at first until adherence is secure; a single missed 4-weekly visit needs immediate tracing. [S1]
 - **Completion means all doses within a window:** 24 monthly cycles within 36 months (MB, BI 4+ or more), 12 within 18 months (MB, BI below 4+) or 6 within 9 months (PB). Anyone who does not complete needs full re-evaluation. [S1]
+- ⚠️ **WHO gives every patient the same three drugs, rifampicin, dapsone and clofazimine: 6 months for PB and 12 months for MB.** Adult doses: rifampicin 600 mg once a month, clofazimine 300 mg once a month plus 50 mg daily, and dapsone 100 mg daily. This differs from S1, which gives PB disease two drugs and a longer MB course when the bacillary index is high. [S2]
+- **Why three drugs for PB:** about 10–14 more patients per 100 had a good outcome at 12 months, and 26 more per 100 at 24 months, and a third drug protects MB patients wrongly counted as PB. Where a PB patient is very worried about clofazimine skin darkening, the two-drug regimen can be considered. [S2]
+- **WHO does not shorten MB treatment to 6 months:** in the one randomised trial, relapse was 2.2% after 6 months against 0.3% after 12 (not statistically significant, but a signal). [S2]
 
 ## Special situations
 
@@ -34,6 +40,12 @@
 - **Pregnancy: continue standard MDT,** because leprosy worsens in pregnancy; the drugs pass into breast milk, but the only reported infant effect is mild temporary skin discolouration from clofazimine. [S1]
 - **Leprosy with active TB needs full treatment of both;** rifampicin is shared and should be given at the TB dose. With latent TB, a rifampicin-containing MDT given daily for at least 4 months also treats the LTBI. HIV co-infection needs no change to either regimen. [S1]
 - **Use alternative regimens only for severe side effects or contraindications, and only with a specialist leprosy service.** [S1]
+
+## Drug-resistant leprosy (WHO)
+
+- **Rifampicin resistance is uncommon but real:** about 1.4% of new and 8% of relapsed patients in the studies WHO reviewed. A patient found resistant after starting MDT restarts a full second-line course whatever the clinical response. [S2]
+- ⚠️ **Rifampicin-resistant leprosy: for 6 months give clofazimine 50 mg daily with at least two of ofloxacin 400 mg, minocycline 100 mg or clarithromycin 500 mg daily; then clofazimine with one of them for 18 more months.** If ofloxacin resistance is also present, leave out quinolones and use clarithromycin, minocycline and clofazimine. Levofloxacin 500 mg or moxifloxacin 400 mg can stand in for ofloxacin. This rests on expert opinion. [S2]
+- ⚠️ **Before a second-line regimen, look for TB,** because quinolones treat TB and a missed case risks drug-resistant TB. Monitor the ECG: clarithromycin, minocycline and quinolones can prolong the QT interval. [S2]
 
 ## Reactions and nerve damage
 
@@ -45,6 +57,9 @@
 
 - **Examine household, family and close social contacts;** shared-bedroom contacts and children in the household are at highest risk. Review contacts of multibacillary cases every year for 5 years; contacts of paucibacillary cases need one examination. [S1]
 - **Offer all household contacts a single dose of rifampicin as chemoprophylaxis unless contraindicated** (600 mg over 35 kg, 450 mg at 20–35 kg, 10–15 mg/kg under 20 kg). In a trial it cut contacts' risk by 57% over two years. [S1]
+- ⚠️ **WHO: single-dose rifampicin for contacts aged 2 years and over,** once leprosy and TB have been excluded and there is no other contraindication, and only where contacts can be managed and the index patient agrees to disclosure. WHO doses by age: 600 mg from 15 years, 450 mg at 10–14 years, 300 mg at 6–9 years (20 kg or more), 10–15 mg/kg under 20 kg. [S2]
+- **Expected benefit:** in the COLEP trial, risk fell by 57% over 2 years and 30% over 5–6 years (about four cases prevented per 1000 contacts treated at 1–2 years); BCG at birth appeared to raise protection to 80%. [S2]
+- **Respect the patient's choice about disclosure:** if they do not agree, WHO advises against tracing or screening their contacts, which rules out prophylaxis for them. [S2]
 
 ---
 
@@ -62,15 +77,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Multibacillary clofazimine dosing and the child dose tables (Tables 10–12)** are laid out as tables that did not extract as clean prose; only the prose PB regimen is stated. Check the source tables before prescribing MB MDT or child doses. | `input_unavailable` |
+| 1 | **Child dose tables (S1 Tables 10–12; S2 Table 3 child rows)** did not extract as clean prose and are not stated. Adult MB doses now come from S2 (WHO); S1's own MB clofazimine table was still not anchored. Check the source tables before prescribing child doses. | `input_unavailable` |
 | 2 | **Follow-up schedule on and after MDT (Table 13 and later sections)** is a table and was not anchored. | `input_unavailable` |
-| 3 | **International comparison:** WHO (2018) recommends 12 months of MDT for all multibacillary disease; the NT keeps 24 months for BI 4+ or more. WHO 2018 (CC BY-NC-SA 3.0 IGO) was not used as the anchored source. | `observation` |
-| 4 | **Licence:** © NT Department of Health, non-profit copying permitted with acknowledgement. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 3 | **Sources disagree on regimen:** WHO 2018 (S2) gives all patients three drugs (6 months PB, 12 months MB); NT CDC 2018 (S1) gives PB two drugs and keeps 24 months for MB with BI 4+ or more. Both are shown. | `observation` |
+| 4 | **Prophylaxis dose bands differ:** S1 doses single-dose rifampicin by weight (600 mg over 35 kg, 450 mg at 20–35 kg); S2 by age (600 mg from 15 years, 450 mg at 10–14, 300 mg at 6–9). Both give 10–15 mg/kg under 20 kg. | `observation` |
+| 5 | **S2 licence:** CC BY-NC-SA 3.0 IGO (WHO). Its claims are paraphrased and hash-anchored, like S1's. | `observation` |
+| 6 | **Licence:** © NT Department of Health, non-profit copying permitted with acknowledgement. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Centre for Disease Control, Department of Health, Northern Territory Government. *Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)*. 28 May 2018. https://hdl.handle.net/10137/526 — retrieved 2026-09-23. | © NT Department of Health; free copying and distribution for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission | **paraphrased, hash-anchored** |
+| **S2** | World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme). *Guidelines for the diagnosis, treatment and prevention of leprosy*. 2018. https://iris.who.int/handle/10665/274127 — retrieved 2026-09-24. | CC BY-NC-SA 3.0 IGO | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

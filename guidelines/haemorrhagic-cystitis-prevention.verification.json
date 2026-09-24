@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/haemorrhagic-cystitis-prevention.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/1297"
+  "https://www.eviq.org.au/p/1297",
+  "https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '1297 Haemorrhagic cystitis (eviQ ID 1297, version 6)' (first approved 5 March 2012; last reviewed 4 October 2023; review due 30 June 2027). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '1297 Haemorrhagic cystitis (eviQ ID 1297, version 6)' (first approved 5 March 2012; last reviewed 4 October 2023; review due 30 June 2027), 23 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: PARAPHRASED AND HASH-ANCHORED from European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)' (final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21)), 6 claims; LICENCE: No licence or reuse terms stated in the slide set or on ecil-leukaemia.com (treated as all rights reserved) (read at the slide set itself and https://www.ecil-leukaemia.com/en/resources/resources-ecil). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and anchor (S1, eviQ 1297) unchanged and adds S2, the ECIL-6 guideline on BK polyomavirus haemorrhagic cystitis after stem-cell transplant, for diagnosis, prophylaxis and treatment of the late viral form. The journal version (JAC 2018) and the 2024 AIEOP paediatric consensus were not openly readable (paywall or bot challenge); ECIL's own final slide set was used. Its summary tables extracted as interleaved columns; only rows whose text runs cleanly are anchored.",
  "summary": {
-  "total": 23,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 23
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -360,6 +361,105 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '1297 Haemorrhagic cystitis (eviQ ID 1297, version 6)', first approved 5 March 2012; last reviewed 4 October 2023; review due 30 June 2027, https://www.eviq.org.au/p/1297, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Diagnosis needs all three:** symptoms and signs of cystitis, haematuria of grade II or above, and BK virus replication (urine viral load above 7 log10 copies/mL). A negative blood viral load does not exclude it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "39164dab4db4bb1d",
+     "n": 327,
+     "p": "Diagnosi"
+    }
+   ],
+   "locator": "European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH, 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)', final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21), https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Haematuria grades (ECIL):** II visible blood; III visible blood with clots; IV clots with a rising creatinine or cystatin C, reflecting kidney or bladder dysfunction.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4583f4e6765aab6c",
+     "n": 186,
+     "p": "Grade II"
+    }
+   ],
+   "locator": "European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH, 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)', final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21), https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Look for, and treat where possible, other contributors:** bacterial, fungal, other viral (JC virus, CMV, adenovirus, HSV) or parasitic infection; urotoxic injury (onset within 1–2 weeks of conditioning with cyclophosphamide, busulfan or TBI, or inadequate diuresis or mesna); low platelets, bleeding disorders or GVHD; urothelial or other cancer; and catheters, stents or ureteric stenosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d627c3b84427d679",
+     "n": 496,
+     "p": "Evaluate"
+    }
+   ],
+   "locator": "European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH, 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)', final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21), https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not screen well transplant recipients for BK virus in urine or blood outside studies** (D II): BK is found in more than 80% after allogeneic transplant, and a qualitative urine PCR is not informative.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ba5595d5b8d90f6a",
+     "n": 190,
+     "p": "After al"
+    },
+    {
+     "h": "0b8b5c6c0188bde9",
+     "n": 30,
+     "p": "screenin"
+    }
+   ],
+   "locator": "European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH, 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)', final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21), https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Prophylaxis:** hyperhydration during conditioning is supported (B II) because it counters the urotoxic effect of cyclophosphamide or busulfan; in a randomised trial, 2 mL/kg/h with mesna and 4 mL/kg/h with forced diuresis gave similar HC rates (26.8% vs 23.7%). Bladder irrigation is graded C II (invasive, uncomfortable). **Ciprofloxacin is not recommended** (D II): little effect on the virus and none on HC.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "99bcad4c1ec652c9",
+     "n": 239,
+     "p": "Hyper‐hy"
+    },
+    {
+     "h": "bcfc06305d5f4441",
+     "n": 96,
+     "p": "147 (71 "
+    },
+    {
+     "h": "99612f8f7f90e029",
+     "n": 116,
+     "p": "The inci"
+    }
+   ],
+   "locator": "European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH, 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)', final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21), https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treatment:** best supportive care (analgesia, hydration, and platelet transfusion at a higher threshold) is graded A III; hyperbaric oxygen (where available) and fibrin glue by cystoscopy are C III. **IV cidofovir is graded C II with no set dose:** studies used 3–5 mg/kg when probenecid is given, or 0.5–1.5 mg/kg when it is not. Intravesical cidofovir has too little experience for a recommendation.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5b296da6f56bd77d",
+     "n": 370,
+     "p": "Best sup"
+    },
+    {
+     "h": "f621ecac7afbd64b",
+     "n": 60,
+     "p": "Cidofovi"
+    }
+   ],
+   "locator": "European Conference on Infections in Leukaemia (ECIL-6; EBMT, EORTC, ICHS, ELN), Cesaro S (chair), Dalianis T, Hanssen Rinaldo C, Koskenvuo M, Einsele H, Hirsch HH, 'ECIL 6 - Guidelines for the Prevention, Diagnosis, and Treatment of BK Polyomavirus Associated Hemorrhagic Cystitis in Stem Cell Transplant Patients (final slide set)', final slide set 8 December 2015 (published as J Antimicrob Chemother 2018;73:12-21), https://www.ecil-leukaemia.com/images/resources/2015/3_ECIL6-BK-virus-08-12-2015-Cesaro-S-et-al.pdf, retrieved 2026-09-24",
+   "dose": true
   }
  ]
 }

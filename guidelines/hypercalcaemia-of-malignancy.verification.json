@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/hypercalcaemia-of-malignancy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.eviq.org.au/p/486"
+  "https://www.eviq.org.au/p/486",
+  "https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '486 Hypercalcaemia of malignancy (HCM) (eviQ ID 486, version 5)' (first approved 1 July 2005; last reviewed 26 June 2026; review due 30 June 2030). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from eviQ Cancer Treatments Online, Cancer Institute NSW '486 Hypercalcaemia of malignancy (HCM) (eviQ ID 486, version 5)' (first approved 1 July 2005; last reviewed 26 June 2026; review due 30 June 2030), 20 claims; LICENCE: CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. (read at https://www.eviq.org.au/copyright (Disclaimer and copyright page)). S2: PARAPHRASED AND HASH-ANCHORED from Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621) 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)' (published online 21 December 2022 (March 2023 issue)), 8 claims; LICENCE: © Endocrine Society. All rights reserved (read at endocrine.org site footer and https://www.endocrine.org/terms-of-use). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and anchor (S1, eviQ 486) unchanged and adds S2, the Endocrine Society 2023 GRADE guideline, read from the society's own guideline page (its essential points and all eight recommendations). The full JCEM article was behind a bot challenge, so S2's rationale, doses and evidence tables were not read.",
  "summary": {
-  "total": 20,
+  "total": 28,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 20
+  "pass_paraphrase_anchored": 28
  },
  "claims": [
   {
@@ -312,6 +313,140 @@
     }
    ],
    "locator": "eviQ Cancer Treatments Online, Cancer Institute NSW, '486 Hypercalcaemia of malignancy (HCM) (eviQ ID 486, version 5)', first approved 1 July 2005; last reviewed 26 June 2026; review due 30 June 2030, https://www.eviq.org.au/p/486, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**HCM is the commonest metabolic complication of cancer, with high morbidity and mortality.** S2's aims are to control the calcium and to stop it coming back.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7bfc2cf5ea453ccf",
+     "n": 151,
+     "p": "Hypercal"
+    },
+    {
+     "h": "6e9c2c555909a754",
+     "n": 66,
+     "p": "Emphasiz"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treat every adult with HCM with denosumab or an IV bisphosphonate** rather than without either (recommendation; very low certainty).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "cfdfc7abc26b2c46",
+     "n": 188,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 suggests denosumab in preference to an IV bisphosphonate** (conditional; very low certainty), a different first choice from S1.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d87e059f0faefecf",
+     "n": 88,
+     "p": "we sugge"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Severe HCM (calcium above 3.5 mmol/L): start calcitonin together with the bisphosphonate or denosumab,** and stop calcitonin after 48–72 hours because it loses effect (conditional). This matches S1.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b2d6c1e44323e76b",
+     "n": 259,
+     "p": "In adult"
+    },
+    {
+     "h": "bee1161755da5ad8",
+     "n": 75,
+     "p": "Calciton"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Refractory or recurrent HCM despite an IV bisphosphonate: add denosumab** (conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "5fcb51e89e2582e2",
+     "n": 192,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Calcitriol-driven HCM (for example lymphoma): glucocorticoids first;** add an IV bisphosphonate or denosumab if calcium stays severe or symptomatic despite them (conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "e0f4f78cd3d33bf2",
+     "n": 162,
+     "p": "Adults w"
+    },
+    {
+     "h": "32765a2af900f7a4",
+     "n": 319,
+     "p": "from tum"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Hypercalcaemia from parathyroid carcinoma: a calcimimetic, an IV bisphosphonate or denosumab** (conditional). With mild hypercalcaemia and symptoms, start the calcimimetic; with moderate to severe hypercalcaemia, start the bisphosphonate or denosumab, which act faster and are better tolerated than rising calcimimetic doses.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "82499bf47a2c057f",
+     "n": 198,
+     "p": "In adult"
+    },
+    {
+     "h": "41a7fecfbb6e1a9c",
+     "n": 451,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**If one approach does not control it, add the other** (a bisphosphonate or denosumab to a calcimimetic, or a calcimimetic to them). Consider surgery once severe hypercalcaemia is controlled.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "52505681e33a171e",
+     "n": 231,
+     "p": "due to p"
+    },
+    {
+     "h": "d60eed57fdeee553",
+     "n": 196,
+     "p": "who are "
+    },
+    {
+     "h": "01adbc5951b811f5",
+     "n": 144,
+     "p": "In adult"
+    }
+   ],
+   "locator": "Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621), 'Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)', published online 21 December 2022 (March 2023 issue), https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia, retrieved 2026-09-24"
   }
  ]
 }

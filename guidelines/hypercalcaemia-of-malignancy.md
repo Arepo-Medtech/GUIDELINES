@@ -1,11 +1,13 @@
 # Hypercalcaemia of malignancy
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognition, grading, investigation and acute management of hypercalcaemia in adults with cancer: rehydration, IV bisphosphonates (zoledronic acid, pamidronate), denosumab, calcitonin and glucocorticoids. Bone-directed therapy to prevent skeletal events from bone metastases: see `bone-metastases`. The drug-by-drug HCM administration protocols (zoledronic acid, pamidronate) are separate eviQ pages. PBS access for each drug is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 claims paraphrased from **eviQ Cancer Treatments Online, Cancer Institute NSW — *486 Hypercalcaemia of malignancy (HCM) (eviQ ID 486, version 5)*** (first approved 1 July 2005; last reviewed 26 June 2026; review due 30 June 2030; origin: AU). **27 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL.*.
+> ✅ **COMPILED FROM 2 SOURCES.** 28 claims; **41 fragments or anchors re-checkable by machine; 1 doses.** **S1** eviQ Cancer Treatments Online (first approved 1 July 2005; last reviewed 26 June 2026; review due 30 June 2030; AU): 20 claims, paraphrased, hash-anchored · **S2** Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G (published online 21 December 2022 (March 2023 issue); international): 8 claims, paraphrased, hash-anchored
 
 > ⚠️ **Oncological emergency.** Corrected calcium above 3.4 mmol/L needs urgent treatment whether or not the patient has symptoms.
+
+> ⚠️ International guideline (Endocrine Society 2023, S2). Australian practice follows the PBS listings below and may differ. **S1 (eviQ) and S2 differ on first choice:** S1 leads with an IV bisphosphonate and keeps denosumab for resistant disease or severe renal impairment; S2 suggests denosumab over a bisphosphonate. Both are shown.
 
 ---
 
@@ -38,6 +40,20 @@
 - **Calcitonin works within hours, but tolerance sets in within 48 to 72 hours.** It is most useful, with fluids and a bisphosphonate, for symptomatic severe hypercalcaemia (calcium above 3.5 mmol/L): calcitonin gives the quick drop, the bisphosphonate the lasting one. No renal dose change is needed; the Australian product is calcitonin salmon (salcatonin). [S1]
 - **Glucocorticoids are the primary treatment when excess gut calcium absorption is the cause** (vitamin D toxicity, granulomatous disease, some lymphomas). They take roughly 2-4 days to work; taper them off to avoid adrenal insufficiency. [S1]
 
+## Endocrine Society recommendations (2023)
+
+- **HCM is the commonest metabolic complication of cancer, with high morbidity and mortality.** S2's aims are to control the calcium and to stop it coming back. [S2]
+- ⚠️ **Treat every adult with HCM with denosumab or an IV bisphosphonate** rather than without either (recommendation; very low certainty). [S2]
+- **S2 suggests denosumab in preference to an IV bisphosphonate** (conditional; very low certainty), a different first choice from S1. [S2]
+- ⚠️ **Severe HCM (calcium above 3.5 mmol/L): start calcitonin together with the bisphosphonate or denosumab,** and stop calcitonin after 48–72 hours because it loses effect (conditional). This matches S1. [S2]
+- **Refractory or recurrent HCM despite an IV bisphosphonate: add denosumab** (conditional). [S2]
+- ⚠️ **Calcitriol-driven HCM (for example lymphoma): glucocorticoids first;** add an IV bisphosphonate or denosumab if calcium stays severe or symptomatic despite them (conditional). [S2]
+
+## Parathyroid carcinoma
+
+- **Hypercalcaemia from parathyroid carcinoma: a calcimimetic, an IV bisphosphonate or denosumab** (conditional). With mild hypercalcaemia and symptoms, start the calcimimetic; with moderate to severe hypercalcaemia, start the bisphosphonate or denosumab, which act faster and are better tolerated than rising calcimimetic doses. [S2]
+- **If one approach does not control it, add the other** (a bisphosphonate or denosumab to a calcimimetic, or a calcimimetic to them). Consider surgery once severe hypercalcaemia is controlled. [S2]
+
 ---
 
 ## PBS listings (Australian access, schedule 4333)
@@ -56,13 +72,18 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 |---|---|---|
 | 1 | **Bisphosphonate and denosumab doses for HCM** are not on this page; they sit in the separate eviQ HCM zoledronic acid and HCM pamidronate protocols, which were not used as sources here. | `input_unavailable` |
 | 2 | **The PBS row 'Hypercalcaemia'** (sodium acid phosphate, calcitonin salmon, synthetic milk powder) is not linked here: this page mentions calcitonin but none of the other two items. | `out_of_scope` |
-| 3 | **Severity grades** are adapted by eviQ from UKONS Acute Oncology guidance (v.4) and CTCAE v.6; the mild/moderate/severe cut-offs are described as informal. | `observation` |
-| 4 | **Licence:** CC BY-NC 4.0 (eviQ). The claims are paraphrased and hash-anchored; eviQ's words are not reproduced. eviQ asks commercial entities to seek permission and says its content should not be hosted on external sites. | `observation` |
+| 3 | **First-line drug differs:** S1 (eviQ) prefers an IV bisphosphonate (often zoledronic acid) with denosumab for bisphosphonate-resistant disease or severe renal impairment; S2 (Endocrine Society) suggests denosumab over a bisphosphonate on limited indirect evidence. Both are shown; PBS listings decide Australian access. | `observation` |
+| 4 | **Severe threshold:** S2 uses calcium above 3.5 mmol/L for adding calcitonin; S1's grading calls above 3.4 mmol/L severe and uses 3.5 mmol/L for calcitonin. Consistent in practice. | `observation` |
+| 5 | **S2 doses and evidence** are in the JCEM article, which was behind a bot challenge; only the society's recommendation list was read, so no S2 dose is stated. | `input_unavailable` |
+| 6 | **S2 licence:** © Endocrine Society, all rights reserved. Its claims are paraphrased and hash-anchored. | `observation` |
+| 7 | **Severity grades** are adapted by eviQ from UKONS Acute Oncology guidance (v.4) and CTCAE v.6; the mild/moderate/severe cut-offs are described as informal. | `observation` |
+| 8 | **Licence:** CC BY-NC 4.0 (eviQ). The claims are paraphrased and hash-anchored; eviQ's words are not reproduced. eviQ asks commercial entities to seek permission and says its content should not be hosted on external sites. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | eviQ Cancer Treatments Online, Cancer Institute NSW. *486 Hypercalcaemia of malignancy (HCM) (eviQ ID 486, version 5)*. first approved 1 July 2005; last reviewed 26 June 2026; review due 30 June 2030. https://www.eviq.org.au/p/486 — retrieved 2026-09-23. | CC BY-NC 4.0. eviQ also states that its content should not be hosted on external sites, and that commercial entities must contact eviQ to seek permission (https://www.eviq.org.au/copyright). Adaptations must cite the eviQ ID, version and URL. | **paraphrased, hash-anchored** |
+| **S2** | Endocrine Society (co-sponsored by the American Society for Bone and Mineral Research and the European Society of Endocrinology); El-Hajj Fuleihan G, Clines GA, Hu MI, et al., J Clin Endocrinol Metab 108(3):507 (doi 10.1210/clinem/dgac621). *Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline (essential points and list of recommendations)*. published online 21 December 2022 (March 2023 issue). https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia — retrieved 2026-09-24. | © Endocrine Society. All rights reserved | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

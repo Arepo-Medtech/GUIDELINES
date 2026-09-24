@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/vitamin-b12-deficiency.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/",
+  "https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI) 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus' (published 10 April 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11050313). The Delphi consensus statements themselves are in Tables 1 and 2, which were stripped; claims are anchored to the Results and Discussion text. The study was funded by Wörwag Pharma (a B12 manufacturer).",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI) 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus' (published 10 April 2024), 19 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC11050313). S2: PARAPHRASED AND HASH-ANCHORED from Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012) 'Vitamin B12 deficiency: testing and treatment' (7 April 2026 (finalised 17 February 2026)), 11 claims; LICENCE: CC BY-NC-ND 4.0 (read at Creative Commons badge and link on the article page). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and quote (S1, the 2024 Delphi consensus) unchanged and adds S2, a 2026 Australian Prescriber review (peer reviewed, not a guideline), for Australian testing indications, test choice, MBS rules, lifelong intramuscular replacement and monitoring. S2's tables (risk factors, clinical features, test interpretation and the treatment and dose table) and Figure 1 were stripped. The Delphi consensus statements themselves are in Tables 1 and 2, which were stripped; claims are anchored to the Results and Discussion text. The study was funded by Wörwag Pharma (a B12 manufacturer).",
  "summary": {
-  "total": 19,
+  "total": 30,
   "pass": 19,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -52,6 +54,24 @@
    "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
   },
   {
+   "claim": "**In Australia, 5.2–6.3% of people over 50 are deficient,** and people of refugee background from Afghanistan, Bhutan, Iran, Iraq or Sudan are at particular risk (20–30%). In severe cases the spinal cord can be damaged (subacute combined degeneration), and this may be permanent even once B12 is restored.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f9cde458bc1e90b8",
+     "n": 209,
+     "p": "In Austr"
+    },
+    {
+     "h": "4458237f67cb1e53",
+     "n": 152,
+     "p": "Severe d"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Serum B12 below 148 pmol/L suggests frank deficiency; 148-220 (or 260) pmol/L suggests mild deficiency.** But 30-40% of people with B12-related symptoms have a normal serum B12.",
    "source": "S1",
    "verdict": "pass",
@@ -85,6 +105,104 @@
    "verdict": "pass",
    "source_text": "High concentrations of vitamin B12 may be due to underreporting supplement use, autoimmune disorders interfering with the B12 assay, or underlying renal or liver diseases. In addition, some malignancies cause high circulating levels of vitamin B12",
    "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When to test (Australia):** only with a reasonable clinical suspicion from risk factors or findings; to explain a blood count or film abnormality (macrocytic anaemia, pancytopenia, hypersegmented neutrophils); with unexplained neurological or psychiatric symptoms even without anaemia; and reasonably in older adults being worked up for cognitive decline.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "df939dafd4681323",
+     "n": 200,
+     "p": "Vitamin "
+    },
+    {
+     "h": "0504a25ef4924b34",
+     "n": 493,
+     "p": "Vitamin "
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not test** people without symptoms or risk factors, the general population, people already on B12 (unless checking adherence or suspected malabsorption), or anyone with a normal result in the past 12 months unless their condition has changed. Medicare rebates each B12, active B12, methylmalonic acid and homocysteine test only once every 11 months, with a separate item for patients needing more frequent tests.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "280eb500d8791d2d",
+     "n": 348,
+     "p": "Vitamin "
+    },
+    {
+     "h": "6b5ccb275c87a283",
+     "n": 273,
+     "p": "Total B1"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Which test:** total serum B12 first (cheapest); a low value confirms deficiency with no further testing. In pregnancy, and when haptocorrin is low (pregnancy, oestrogen-containing drugs), use active B12 (holotranscobalamin). Total B12 can be falsely normal or high with inflammation, myeloproliferative neoplasms, liver disease or anti-intrinsic factor antibody interference.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "99388b4e6bfc3d9a",
+     "n": 299,
+     "p": "As the m"
+    },
+    {
+     "h": "085bd9ac930748a5",
+     "n": 225,
+     "p": "Low hapt"
+    },
+    {
+     "h": "69f1e670a38cee83",
+     "n": 376,
+     "p": "High tot"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Normal methylmalonic acid and homocysteine exclude deficiency;** raised values are not specific: homocysteine rises with folate or B6 deficiency, CKD, hypothyroidism and MTHFR variants, and methylmalonic acid with CKD, though it is usually normal in folate deficiency.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "09ba56be12e3a855",
+     "n": 639,
+     "p": "Normal m"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Suspected nitrous oxide use: test homocysteine or methylmalonic acid first,** because nitrous oxide inactivates B12 and total and active B12 can look normal despite tissue deficiency.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fc0906a39ac3c410",
+     "n": 287,
+     "p": "If vitam"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Suspect autoimmune gastritis** in unexplained deficiency, especially with upper GI symptoms or other autoimmune disease: test anti-intrinsic factor antibodies; if negative, consider parietal cell antibodies, gastrin and gastroscopy. If the cause is still unknown, test for coeliac disease and *H. pylori*.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "982a3b778891e45c",
+     "n": 685,
+     "p": "A diagno"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **With suspected severe deficiency, start treatment without delay**, but draw blood for B12 markers first.",
@@ -124,6 +242,42 @@
    "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **Australian advice: lifelong intramuscular B12 when the cause is pernicious anaemia, autoimmune gastritis, a total gastrectomy or resection of the terminal ileum,** because absorption is permanently impaired and oral B12 is unreliable even at high doses. This is more cautious than S1, which treats high-dose oral B12 as likely equivalent in malabsorption; S2 notes a 2024 meta-analysis finding oral and sublingual B12 as effective as injections but calls for better trials.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3d94cd05fa80afa2",
+     "n": 340,
+     "p": "Lifelong"
+    },
+    {
+     "h": "4f2110bd0e832ed9",
+     "n": 378,
+     "p": "There is"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Indeterminate levels with risk factors:** a trial of B12 can be considered after careful assessment, with review and deprescribing where appropriate. Choose route, dose and duration by cause, severity, cost and preference.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "fa56a37dd4f8673a",
+     "n": 245,
+     "p": "A trial "
+    },
+    {
+     "h": "ba3739103678f893",
+     "n": 112,
+     "p": "The choi"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Judge response mainly on symptoms.** No improvement after 4-8 weeks for anaemia or 6-12 months for neurological signs suggests another cause or an inadequate dose or route. A slow early response should not by itself stop treatment.",
    "source": "S1",
    "verdict": "pass",
@@ -150,6 +304,32 @@
    "verdict": "pass",
    "source_text": "The prophylactic use of vitamin B12 was regarded as necessary for people diagnosed with atrophic gastritis, those with previous bariatric surgery, people at risk of B12 deficiency due to illnesses or medications, people with low or no consumption of animal source foods, and people ever diagnosed with vitamin B12 deficiency when they decided to become pregnant … prophylactic B12 supplementation should be used from prepregnancy until the end of the lactation period in women with previously diagnosed B12 deficiency or who are at risk of vitamin B12 deficiency due for instance to low dietary intake of B12.",
    "locator": "Obeid R, Andrès E, Češka R, et al. (international Delphi panel; funded by Wörwag Pharma), Journal of Clinical Medicine (MDPI), 'Diagnosis, Treatment and Long-Term Management of Vitamin B12 Deficiency in Adults: A Delphi Expert Consensus', published 10 April 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC11050313/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Expected recovery (S2):** symptoms usually start improving within 2 weeks; reticulocytes rise in 3–5 days, haemoglobin normalises in 4–8 weeks, and neurological symptoms improve gradually over 6–12 weeks.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4d82ddd745ae9887",
+     "n": 413,
+     "p": "Most peo"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**On oral B12, review at 2–3 months** for symptoms and adherence, and consider repeating B12, methylmalonic acid or homocysteine at 3–6 months, especially with malabsorption. Stop B12 only if a reversible cause has been found and corrected, and ask patients to return if symptoms recur.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b19bf5e6a5c7f5a",
+     "n": 670,
+     "p": "People o"
+    }
+   ],
+   "locator": "Bedz D, Forsyth C, Australian Prescriber 2026;49:55-60 (doi 10.18773/austprescr.2026.012), 'Vitamin B12 deficiency: testing and treatment', 7 April 2026 (finalised 17 February 2026), https://australianprescriber.tg.org.au/articles/vitamin-B12-deficiency-testing-and-treatment.html, retrieved 2026-09-24"
   }
  ]
 }

@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/schistosomiasis.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://refugeehealthguide.org.au/schistosomiasis/"
+  "https://refugeehealthguide.org.au/schistosomiasis/",
+  "https://iris.who.int/handle/10665/351856"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide 'Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)' (last updated November 2018). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: Non-commercial reuse only (site terms: use encouraged for research, study, education and care of people from refugee backgrounds; no reproduction for commercial purposes) (read at https://refugeehealthguide.org.au/copyright-and-terms-of-use/ (as recorded in research/infectious.json)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide 'Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)' (last updated November 2018), 13 claims; LICENCE: Non-commercial reuse only (site terms: use encouraged for research, study, education and care of people from refugee backgrounds; no reproduction for commercial purposes) (read at https://refugeehealthguide.org.au/copyright-and-terms-of-use/ (as recorded in research/infectious.json)). S2: PARAPHRASED AND HASH-ANCHORED from World Health Organization (Global Neglected Tropical Diseases Programme) 'WHO guideline on control and elimination of human schistosomiasis' (2022), 5 claims; LICENCE: CC BY-NC-SA 3.0 IGO (read at copyright page of the PDF (https://iris.who.int/bitstreams/9590fa16-6f3a-48aa-8dd6-4f40ac0b5fde/download)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and anchor (S1, Australian Refugee Health Practice Guide 2018) unchanged and adds S2, the WHO 2022 GRADE guideline, for treating infected individuals (recommendation 4), pregnancy, children under 2 years and praziquantel safety. Most of S2 concerns community preventive chemotherapy, which is not repeated here.",
  "summary": {
-  "total": 13,
+  "total": 18,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 13
+  "pass_paraphrase_anchored": 18
  },
  "claims": [
   {
@@ -147,6 +148,47 @@
    "locator": "Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide, 'Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)', last updated November 2018, https://refugeehealthguide.org.au/schistosomiasis/, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **WHO: every infected person should have access to praziquantel, whatever their age** (strong recommendation, moderate certainty), because people of all ages gain from cure or a lower worm burden.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a55aca620a3898a8",
+     "n": 173,
+     "p": "WHO reco"
+    },
+    {
+     "h": "1fa4310e9dafaf1f",
+     "n": 18972,
+     "p": "People a"
+    }
+   ],
+   "locator": "World Health Organization (Global Neglected Tropical Diseases Programme), 'WHO guideline on control and elimination of human schistosomiasis', 2022, https://iris.who.int/handle/10665/351856, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WHO on safety:** adverse effects are usually brief and mild (abdominal pain, headache, dizziness, diarrhoea) and more frequent with heavy infection; persistent or severe effects are uncommon. Where *Taenia solium* is co-endemic, mass treatment leaves out anyone with seizures or other signs of neurocysticercosis.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "54c3c31b392a225d",
+     "n": 254,
+     "p": "The evid"
+    },
+    {
+     "h": "2ed3f59596f4cb01",
+     "n": 150,
+     "p": "People w"
+    },
+    {
+     "h": "8b1aae4669008da6",
+     "n": 150,
+     "p": "in areas"
+    }
+   ],
+   "locator": "World Health Organization (Global Neglected Tropical Diseases Programme), 'WHO guideline on control and elimination of human schistosomiasis', 2022, https://iris.who.int/handle/10665/351856, retrieved 2026-09-24"
+  },
+  {
    "claim": "**After positive serology, check stool for ova, and urine dipstick for blood; send end-urine for ova only if there is haematuria.** Ova in stool or urine mean further work-up with ultrasound and LFTs.",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -189,6 +231,19 @@
     }
    ],
    "locator": "Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide, 'Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)', last updated November 2018, https://refugeehealthguide.org.au/schistosomiasis/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**What untreated infection does (WHO):** overt harm includes blood in the urine, anaemia, egg lesions in the genital tract (female genital schistosomiasis), chronic pain and fatigue; slower harm includes liver damage leading to portal hypertension, kidney and bladder damage that can lead to cancer, and poor growth and cognition in children.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "74aa72cb089ce187",
+     "n": 638,
+     "p": "Evidence"
+    }
+   ],
+   "locator": "World Health Organization (Global Neglected Tropical Diseases Programme), 'WHO guideline on control and elimination of human schistosomiasis', 2022, https://iris.who.int/handle/10665/351856, retrieved 2026-09-24"
   },
   {
    "claim": "**Recheck stool or urine for ova no sooner than 8 weeks after treatment; retreat if still positive, and refer to ID if ova persist beyond 8 weeks after a second course.** Do not repeat serology, which can stay positive for years; confirm the tablets were actually taken.",
@@ -238,6 +293,52 @@
     }
    ],
    "locator": "Foundation House (Victorian Foundation for Survivors of Torture), Australian Refugee Health Practice Guide, 'Australian Refugee Health Practice Guide: Schistosomiasis (Davis JS, Phillips C, Clifford V)', last updated November 2018, https://refugeehealthguide.org.au/schistosomiasis/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **WHO includes pregnant women after the first trimester and breastfeeding women in treatment.** It excludes the first trimester as a precaution, because few first-trimester women were studied, not because harm was shown. Ask about pregnancy discreetly and, if she is unsure, use a urine pregnancy test first.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4fe0b9a46aa73f3a",
+     "n": 121,
+     "p": "regardle"
+    },
+    {
+     "h": "036cf7943ce4f906",
+     "n": 341,
+     "p": "Given th"
+    },
+    {
+     "h": "5342964a60f83691",
+     "n": 199,
+     "p": "Pregnanc"
+    }
+   ],
+   "locator": "World Health Organization (Global Neglected Tropical Diseases Programme), 'WHO guideline on control and elimination of human schistosomiasis', 2022, https://iris.who.int/handle/10665/351856, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Children under 2 years: WHO leaves treatment to testing and clinical judgement,** because safety data are limited. A dispersible children's tablet is in development; until then praziquantel can be crushed into soft food for an individual child. From 2 years it is considered safe.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4ec9b7a86b7cdd18",
+     "n": 120,
+     "p": "The deci"
+    },
+    {
+     "h": "24523d6dce8ae3b1",
+     "n": 327,
+     "p": "The medi"
+    },
+    {
+     "h": "6679084351e527bb",
+     "n": 395,
+     "p": "The evid"
+    }
+   ],
+   "locator": "World Health Organization (Global Neglected Tropical Diseases Programme), 'WHO guideline on control and elimination of human schistosomiasis', 2022, https://iris.who.int/handle/10665/351856, retrieved 2026-09-24"
   }
  ]
 }

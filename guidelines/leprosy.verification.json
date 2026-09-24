@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/leprosy.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://hdl.handle.net/10137/526"
+  "https://hdl.handle.net/10137/526",
+  "https://iris.who.int/handle/10665/274127"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Centre for Disease Control, Department of Health, Northern Territory Government 'Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)' (28 May 2018). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © NT Department of Health; free copying and distribution for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission (read at copyright statement on p2 of the PDF (https://digitallibrary.health.nt.gov.au/nthealthserver/api/core/bitstreams/aa3c8d5e-b046-4a13-b67e-581a9c812609/content)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Centre for Disease Control, Department of Health, Northern Territory Government 'Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)' (28 May 2018), 19 claims; LICENCE: © NT Department of Health; free copying and distribution for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission (read at copyright statement on p2 of the PDF (https://digitallibrary.health.nt.gov.au/nthealthserver/api/core/bitstreams/aa3c8d5e-b046-4a13-b67e-581a9c812609/content)). S2: PARAPHRASED AND HASH-ANCHORED from World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme) 'Guidelines for the diagnosis, treatment and prevention of leprosy' (2018), 10 claims; LICENCE: CC BY-NC-SA 3.0 IGO (read at copyright page of the PDF (https://iris.who.int/bitstreams/bda1236a-7bde-4ff9-b6f6-86a016db8275/download)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and anchor (S1, NT CDC 2018) unchanged and adds S2, the WHO 2018 leprosy guideline (GRADE), for the three-drug regimen, adult MB doses, rifampicin-resistant leprosy and single-dose rifampicin prophylaxis. S2's dose tables (Tables 3-5) extracted as clean rows in the PDF text; only the adult rows are used.",
  "summary": {
-  "total": 19,
+  "total": 29,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 19
+  "pass_paraphrase_anchored": 29
  },
  "claims": [
   {
@@ -83,6 +84,34 @@
     }
    ],
    "locator": "Centre for Disease Control, Department of Health, Northern Territory Government, 'Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)', 28 May 2018, https://hdl.handle.net/10137/526, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**WHO: diagnose on clinical examination, adding a slit-skin smear or biopsy histology where available.** Newer ELISA, lateral-flow and PCR tests offer no clear gain over this, and no test is advised to detect latent infection in well contacts (only 4% of test-positive contacts went on to develop leprosy).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "17cab68836b79d25",
+     "n": 220,
+     "p": "It is re"
+    },
+    {
+     "h": "cd242b9854e3dd13",
+     "n": 256,
+     "p": "Therefor"
+    },
+    {
+     "h": "9c5d8ad5f019b996",
+     "n": 167,
+     "p": "There is"
+    },
+    {
+     "h": "d6cd19cb06e87b74",
+     "n": 22,
+     "p": "overall "
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
   },
   {
    "claim": "**Baseline tests before MDT:** FBE, electrolytes/renal function, LFTs, hepatitis B and C and HIV serology, G6PD, Mantoux and chest X-ray (to exclude TB or latent TB), and an ECG for prolonged QTc.",
@@ -194,6 +223,61 @@
    "locator": "Centre for Disease Control, Department of Health, Northern Territory Government, 'Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)', 28 May 2018, https://hdl.handle.net/10137/526, retrieved 2026-09-23"
   },
   {
+   "claim": "⚠️ **WHO gives every patient the same three drugs, rifampicin, dapsone and clofazimine: 6 months for PB and 12 months for MB.** Adult doses: rifampicin 600 mg once a month, clofazimine 300 mg once a month plus 50 mg daily, and dapsone 100 mg daily. This differs from S1, which gives PB disease two drugs and a longer MB course when the bacillary index is high.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "1c12dcc64c04b36a",
+     "n": 197,
+     "p": "The GDG "
+    },
+    {
+     "h": "3c7c28094002cb91",
+     "n": 124,
+     "p": "Adult Ri"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Why three drugs for PB:** about 10–14 more patients per 100 had a good outcome at 12 months, and 26 more per 100 at 24 months, and a third drug protects MB patients wrongly counted as PB. Where a PB patient is very worried about clofazimine skin darkening, the two-drug regimen can be considered.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "abf6e4f45399c4f5",
+     "n": 180,
+     "p": "10-14 mo"
+    },
+    {
+     "h": "ba022ea3014ef676",
+     "n": 114,
+     "p": "The 3-dr"
+    },
+    {
+     "h": "bdc847e61025a1c7",
+     "n": 174,
+     "p": "in perso"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**WHO does not shorten MB treatment to 6 months:** in the one randomised trial, relapse was 2.2% after 6 months against 0.3% after 12 (not statistically significant, but a signal).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "36e9e371bd26b8cc",
+     "n": 373,
+     "p": "6-month "
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
+  },
+  {
    "claim": "**Children 10–14 years get the WHO fixed child doses with specialist input; under 10 years, or under 40 kg, doses are reduced proportionately and should be discussed with a TB/ID physician or paediatrician.**",
    "source": "S1",
    "verdict": "pass_paraphrase_anchored",
@@ -259,6 +343,71 @@
     }
    ],
    "locator": "Centre for Disease Control, Department of Health, Northern Territory Government, 'Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)', 28 May 2018, https://hdl.handle.net/10137/526, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Rifampicin resistance is uncommon but real:** about 1.4% of new and 8% of relapsed patients in the studies WHO reviewed. A patient found resistant after starting MDT restarts a full second-line course whatever the clinical response.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d268711aac36cd2a",
+     "n": 117,
+     "p": "Five stu"
+    },
+    {
+     "h": "e60ea5442e2d7520",
+     "n": 218,
+     "p": "Patients"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Rifampicin-resistant leprosy: for 6 months give clofazimine 50 mg daily with at least two of ofloxacin 400 mg, minocycline 100 mg or clarithromycin 500 mg daily; then clofazimine with one of them for 18 more months.** If ofloxacin resistance is also present, leave out quinolones and use clarithromycin, minocycline and clofazimine. Levofloxacin 500 mg or moxifloxacin 400 mg can stand in for ofloxacin. This rests on expert opinion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "844122d7161f16d7",
+     "n": 352,
+     "p": "The GDG "
+    },
+    {
+     "h": "2da5728b1ba938b0",
+     "n": 158,
+     "p": "Rifampic"
+    },
+    {
+     "h": "2223bf56d82e603d",
+     "n": 79,
+     "p": "*Ofloxac"
+    },
+    {
+     "h": "8c8bdbc3abadb08d",
+     "n": 84,
+     "p": "months ("
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "⚠️ **Before a second-line regimen, look for TB,** because quinolones treat TB and a missed case risks drug-resistant TB. Monitor the ECG: clarithromycin, minocycline and quinolones can prolong the QT interval.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "9f9d13cdf6acca5a",
+     "n": 293,
+     "p": "Because "
+    },
+    {
+     "h": "79d51976b498ac0d",
+     "n": 216,
+     "p": "This inc"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Give prednisolone for:** nerve function impairment under 12 months old at diagnosis; new impairment during or after MDT; any type 1 reaction (start with MDT if present at diagnosis); moderate or severe ENL (type 2) or ENL with neuritis; or worsening nerve conduction.",
@@ -377,6 +526,61 @@
    ],
    "locator": "Centre for Disease Control, Department of Health, Northern Territory Government, 'Guidelines for the control of leprosy in the Northern Territory, Version 3.0 (fourth edition)', 28 May 2018, https://hdl.handle.net/10137/526, retrieved 2026-09-23",
    "dose": true
+  },
+  {
+   "claim": "⚠️ **WHO: single-dose rifampicin for contacts aged 2 years and over,** once leprosy and TB have been excluded and there is no other contraindication, and only where contacts can be managed and the index patient agrees to disclosure. WHO doses by age: 600 mg from 15 years, 450 mg at 10–14 years, 300 mg at 6–9 years (20 kg or more), 10–15 mg/kg under 20 kg.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "67b62b4567ef8202",
+     "n": 394,
+     "p": "The GDG "
+    },
+    {
+     "h": "1d69148de17ae443",
+     "n": 125,
+     "p": "15 years"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Expected benefit:** in the COLEP trial, risk fell by 57% over 2 years and 30% over 5–6 years (about four cases prevented per 1000 contacts treated at 1–2 years); BCG at birth appeared to raise protection to 80%.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "07753aaa6fefec07",
+     "n": 140,
+     "p": "For ever"
+    },
+    {
+     "h": "510cb20abbef67d2",
+     "n": 92,
+     "p": "associat"
+    },
+    {
+     "h": "6d26f17855f401c6",
+     "n": 91,
+     "p": "BCG at b"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Respect the patient's choice about disclosure:** if they do not agree, WHO advises against tracing or screening their contacts, which rules out prophylaxis for them.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f6c425c8a815e262",
+     "n": 262,
+     "p": "Programm"
+    }
+   ],
+   "locator": "World Health Organization, Regional Office for South-East Asia (Global Leprosy Programme), 'Guidelines for the diagnosis, treatment and prevention of leprosy', 2018, https://iris.who.int/handle/10665/274127, retrieved 2026-09-24"
   }
  ]
 }

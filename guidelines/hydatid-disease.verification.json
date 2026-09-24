@@ -1,22 +1,136 @@
 {
  "guideline": "guidelines/hydatid-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://iris.who.int/handle/10665/381674"
+  "https://iris.who.int/handle/10665/381674",
+  "https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from World Health Organization 'WHO guidelines for the treatment of patients with cystic echinococcosis' (16 June 2025). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: CC BY-NC-SA 3.0 IGO (read at copyright page of the PDF (https://iris.who.int/server/api/core/bitstreams/9f8adf1f-7f84-4d05-a13a-9c1adb503020/content)). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from World Health Organization 'WHO guidelines for the treatment of patients with cystic echinococcosis' (16 June 2025), 12 claims; LICENCE: CC BY-NC-SA 3.0 IGO (read at copyright page of the PDF (https://iris.who.int/server/api/core/bitstreams/9f8adf1f-7f84-4d05-a13a-9c1adb503020/content)). S2: PARAPHRASED AND HASH-ANCHORED from Department of Health, Victorian Government (health.vic.gov.au) 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice' (updated 4 March 2022), 9 claims; LICENCE: © State of Victoria; limited copying under the Copyright Act 1968 (Cth) for research, study, criticism or review; no publication, reproduction or adaptation (read at https://www.health.vic.gov.au/copyright). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 keeps every edition 1.0 claim and anchor (S1, WHO 2025) unchanged and adds S2, the Victorian Department of Health public-health guidance, for Australian transmission cycles, diagnosis, household and dog control. Queensland Health's equivalent page was behind a bot challenge and was not used.",
  "summary": {
-  "total": 12,
+  "total": 21,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 12
+  "pass_paraphrase_anchored": 21
  },
  "claims": [
+  {
+   "claim": "**In Australia hydatid disease is tied mainly to sheep farming, but dogs and dingoes also carry it.** The main cycle is dog–sheep–dog; a wild cycle runs between dingoes or wild dogs and wallabies, and a dog–feral pig cycle puts pig hunters at particular risk. Kangaroos, wallabies, cattle and camels are among the intermediate hosts.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bd441da478b8402a",
+     "n": 124,
+     "p": "Hydatid "
+    },
+    {
+     "h": "dda1607c27c0c48d",
+     "n": 148,
+     "p": "Intermed"
+    },
+    {
+     "h": "1b24c5e835e0a966",
+     "n": 200,
+     "p": "The impo"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**People are infected by swallowing tapeworm eggs from dog faeces, hand to mouth; it does not spread between people.** Young children are infected more often because of closer contact with dogs and poorer hygiene, not greater susceptibility.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "3737a01aa582563e",
+     "n": 237,
+     "p": "Human in"
+    },
+    {
+     "h": "0a60fdb4cc5fabd6",
+     "n": 57,
+     "p": "Hydatid "
+    },
+    {
+     "h": "aa43d4583e4ef889",
+     "n": 4715,
+     "p": "Young ch"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Victoria stopped notification in early 2001;** in the preceding decade there were about 16 notifications a year, mostly acquired overseas. Occasional local infections occur in visitors to rural areas with infected sheep or dingoes, and people who trap wild dogs are at risk. No school or childcare exclusion is needed.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "dacdafa7b9b9d714",
+     "n": 531,
+     "p": "Notifica"
+    },
+    {
+     "h": "4e9fada50c3f0cd6",
+     "n": 26,
+     "p": "Exclusio"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Symptoms come from the cyst pressing, leaking or rupturing.** The liver is the commonest site, then brain, lungs and kidneys; heart, thyroid and bone are uncommon. A calcified cyst on X-ray can still be active.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7d690ea1e7f31f27",
+     "n": 273,
+     "p": "Symptoms"
+    },
+    {
+     "h": "7652d90b0c8f7645",
+     "n": 83,
+     "p": "People w"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Sudden rupture can cause fatal anaphylaxis.**",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0948cda4148167b9",
+     "n": 133,
+     "p": "Sudden r"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Imaging (X-ray, ultrasound or CT) suggests the diagnosis and serology confirms it:** 80–100% sensitive and 88–96% specific for liver disease, less for lung and other sites. Eosinophilia is unreliable. After a rupture, examine sputum, vomitus, faeces or urine for protoscoleces, brood capsules and cyst wall.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "bcb00dd1f34cbb9c",
+     "n": 249,
+     "p": "Diagnosi"
+    },
+    {
+     "h": "822d5d00c32e38c9",
+     "n": 318,
+     "p": "Diagnosi"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
   {
    "claim": "**The guideline covers uncomplicated liver cysts and small (5 cm or less) lung cysts.** Complicated liver cysts usually go to open surgery where it can be done safely, and most lung hydatid is managed surgically. Recommendations are tied to cyst stage (CE1–CE5) and size, and to the facility tier available.",
    "source": "S1",
@@ -214,6 +328,65 @@
     }
    ],
    "locator": "World Health Organization, 'WHO guidelines for the treatment of patients with cystic echinococcosis', 16 June 2025, https://iris.who.int/handle/10665/381674, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**The Victorian guidance describes surgery as often the treatment of choice,** sometimes with prolonged high-dose albendazole; percutaneous drainage with albendazole for liver cysts; praziquantel then albendazole after spillage; and CT-guided PAIR with anthelmintic cover for inoperable cysts. It points to *Therapeutic Guidelines: Antibiotic* and asks for specialist infectious diseases advice. S1's stage- and size-based choices are more recent and more specific.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "60f5d75f84932e28",
+     "n": 655,
+     "p": "Surgery "
+    },
+    {
+     "h": "90af74ca9a4c839e",
+     "n": 123,
+     "p": "Consult "
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**The patient is not infectious;** encourage household contacts to keep good hygiene and report symptoms early. Dogs at the patient's home may need veterinary screening.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "363b84873813dfbf",
+     "n": 155,
+     "p": "People c"
+    },
+    {
+     "h": "561e59f09c7ba22a",
+     "n": 96,
+     "p": "Dogs kep"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Break the cycle:** treat dogs with a tapeworm drug such as praziquantel every 6 weeks, alternating with a broad-spectrum wormer; keep dogs away from raw offal of sheep or kangaroos; burn or bury infected organs deeply; wash hands after gardening or handling dogs, and wash vegetables.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7de1b7a8c1f6dc63",
+     "n": 229,
+     "p": "In gener"
+    },
+    {
+     "h": "f26e8430709e9384",
+     "n": 145,
+     "p": "restrict"
+    },
+    {
+     "h": "24a80b213fc95b0f",
+     "n": 198,
+     "p": "Basic hy"
+    }
+   ],
+   "locator": "Department of Health, Victorian Government (health.vic.gov.au), 'Hydatid disease (echinococcosis): infectious diseases guidelines and advice', updated 4 March 2022, https://www.health.vic.gov.au/infectious-diseases/hydatid-disease-echinococcosis, retrieved 2026-09-24"
   }
  ]
 }
