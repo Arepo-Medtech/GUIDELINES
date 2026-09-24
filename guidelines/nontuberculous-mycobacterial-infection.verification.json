@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/nontuberculous-mycobacterial-infection.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://hdl.handle.net/10137/701"
+  "https://hdl.handle.net/10137/701",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "PARAPHRASED AND HASH-ANCHORED from Centre for Disease Control, Department of Health, Northern Territory 'Nontuberculous mycobacteria (NTM): Guidelines for health professionals in the Northern Territory' (second edition, August 2014). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © Department of Health, Northern Territory 2014 — may be freely copied and distributed for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission (read at the copyright statement inside the front cover of the PDF at https://digitallibrary.health.nt.gov.au/nthealthserver/api/core/bitstreams/3975b640-8dde-4c9e-92c2-99fe5127fabf/content). The source's words are NOT reproduced here. ",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from Centre for Disease Control, Department of Health, Northern Territory 'Nontuberculous mycobacteria (NTM): Guidelines for health professionals in the Northern Territory' (second edition, August 2014), 24 claims; LICENCE: © Department of Health, Northern Territory 2014 — may be freely copied and distributed for non-profit purposes (study, research, health service management, public information) with acknowledgement; other reproduction needs written permission (read at the copyright statement inside the front cover of the PDF at https://digitallibrary.health.nt.gov.au/nthealthserver/api/core/bitstreams/3975b640-8dde-4c9e-92c2-99fe5127fabf/content). S2: PARAPHRASED AND HASH-ANCHORED from Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline' (published 7 July 2020), 9 claims; LICENCE: © ERS 2020 (author manuscript). PMC statement: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' (read at NCBI efetch JATS XML <permissions> element for PMC8375621 (Europe PMC holds no open full text)). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2, the 2020 ATS/ERS/ESCMID/IDSA guideline for NTM pulmonary disease, read as the NIH author manuscript in PMC and paraphrased; the S1 claims are unchanged. S2's drug-dose table (Table 4) and diagnostic-criteria table (Table 2) are not in the manuscript text.",
  "summary": {
-  "total": 24,
+  "total": 33,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 24
+  "pass_paraphrase_anchored": 33
  },
  "claims": [
   {
@@ -380,6 +381,158 @@
     }
    ],
    "locator": "Centre for Disease Control, Department of Health, Northern Territory, 'Nontuberculous mycobacteria (NTM): Guidelines for health professionals in the Northern Territory', second edition, August 2014, https://hdl.handle.net/10137/701, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**When the diagnostic criteria are met, S2 suggests treating rather than watching,** above all with smear-positive sputum or cavities (conditional; very low certainty). Balance this against side effects, modest cure rates, uncertain effect on quality of life, cost and the chance of reinfection.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "79b2337a5c39693f",
+     "n": 236,
+     "p": "we sugge"
+    },
+    {
+     "h": "3124bc2913ce51a6",
+     "n": 293,
+     "p": "However,"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Base MAC treatment on macrolide and amikacin susceptibility results rather than treating empirically** (conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ccd75e65d5c32679",
+     "n": 203,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Use at least three drugs, one a macrolide:** a macrolide-containing three-drug regimen is strongly recommended over one without a macrolide, and at least three drugs (including the macrolide and ethambutol) are suggested over macrolide plus ethambutol alone.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0dfc10d1a44bb6cd",
+     "n": 192,
+     "p": "pulmonar"
+    },
+    {
+     "h": "4b8759df06383f87",
+     "n": 161,
+     "p": "we sugge"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**S2 prefers azithromycin to clarithromycin** (conditional). Outcomes are similar, but azithromycin interacts less, especially with rifampicin or rifabutin (clarithromycin raises rifabutin levels, which has been linked to uveitis), and it is once daily with fewer tablets.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "eb00185645537bf1",
+     "n": 164,
+     "p": "we sugge"
+    },
+    {
+     "h": "9a71ddc22de28927",
+     "n": 668,
+     "p": "However,"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dosing rhythm follows the disease type:** three times weekly for noncavitary nodular/bronchiectatic disease, daily for cavitary disease (both conditional).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "d7d62d3bb62c851b",
+     "n": 444,
+     "p": "In patie"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Cavitary, advanced or severe bronchiectatic, or macrolide-resistant MAC: include IV amikacin or streptomycin from the start** (conditional; moderate certainty), usually for at least 2–3 months.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c106d50c32f39fd4",
+     "n": 169,
+     "p": "we sugge"
+    },
+    {
+     "h": "8d8ea52ce5e4fe1c",
+     "n": 71,
+     "p": "The pare"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Inhaled amikacin is not suggested in the first regimen;** if standard treatment has failed after six months or more, adding amikacin liposome inhalation suspension (ALIS) is strongly recommended over continuing oral drugs alone.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac62af6a5d2ab53f",
+     "n": 152,
+     "p": "we sugge"
+    },
+    {
+     "h": "47c7023e5b80b03c",
+     "n": 198,
+     "p": "failed t"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Get expert advice when sputum is still positive after 6 months, disease is extensive, or the MAC is macrolide resistant.** On duration S2 agrees with S1: at least 12 months after culture conversion.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0a971b7c93134a94",
+     "n": 158,
+     "p": "In patie"
+    },
+    {
+     "h": "522357e8c01a7fc7",
+     "n": 115,
+     "p": "In the s"
+    },
+    {
+     "h": "6fa4fa38e8020524",
+     "n": 72,
+     "p": "should r"
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Consider drug-level monitoring** when malabsorption, underdosing or important interactions are suspected, for example slow culture conversion not explained by adherence or resistance, amikacin or streptomycin use (ear and kidney toxicity), or reduced kidney function.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "8ed738798f683ceb",
+     "n": 513,
+     "p": "Experts "
+    }
+   ],
+   "locator": "Daley CL, Iaccarino JM, Lange C, et al., American Thoracic Society, European Respiratory Society, European Society of Clinical Microbiology and Infectious Diseases and Infectious Diseases Society of America, Eur Respir J 56(1):2000535 (doi 10.1183/13993003.00535-2020); author manuscript NIHMS1726272, 'Treatment of nontuberculous mycobacterial pulmonary disease: an official ATS/ERS/ESCMID/IDSA clinical practice guideline', published 7 July 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC8375621/, retrieved 2026-09-24"
   },
   {
    "claim": "**Cervical NTM lymphadenitis mostly affects children under 5:** a firm, non-tender, slowly enlarging node on one side, usually MAC. Excision without antibiotics is the treatment of choice. In the NT, TB lymphadenitis is more common than NTM in Aboriginal children.",

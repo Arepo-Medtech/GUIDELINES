@@ -1,13 +1,15 @@
-# Cytomegalovirus infection after solid organ transplantation
+# Cytomegalovirus infection after transplantation
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** CMV risk stratification, diagnostic testing, prevention (prophylaxis or pre-emptive therapy), treatment and drug resistance in adult solid organ transplant recipients. Haematopoietic stem cell transplant CMV, congenital CMV and HIV-associated CMV retinitis are not covered.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** CMV risk stratification, diagnostic testing, prevention (prophylaxis or pre-emptive therapy), treatment and drug resistance in adult solid organ transplant recipients. Haematopoietic stem cell transplant CMV was not covered by S1; edition 2.0 adds monitoring, letermovir prophylaxis, pre-emptive therapy and refractory infection after allogeneic stem cell transplant from S2. Congenital CMV and HIV-associated CMV retinitis are not covered.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 24 claims paraphrased from **The Transplantation Society International CMV Consensus Group (Kotton, Kumar, Humar et al.), Transplantation (Wolters Kluwer) — *The Fourth International Consensus Guidelines on the Management of Cytomegalovirus in Solid Organ Transplantation*** (2025; origin: international). **37 anchors re-checkable by machine; 1 doses.** The source's words are not reproduced: its licence is *CC BY-NC-ND 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 33 claims; **51 fragments or anchors re-checkable by machine; 3 doses.** **S1** The Transplantation Society International CMV Consensus Group (Kotton (2025; international): 24 claims, paraphrased, hash-anchored · **S2** Piñana JL (2024; international): 9 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (Transplantation Society International CMV Consensus Group, 2025). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **Solid organ transplant only.** The PBS CMV rows also cover other settings (for example stem cell transplant); no Australian transplant CMV guideline was found, and ECIL-7 (stem cell transplant) is paywalled.
+> ⚠️ **S1 is solid organ transplant only; S2 (GETH-TC, Spain, 2024) adds allogeneic stem cell transplant.** The PBS CMV rows cover both settings; no Australian transplant CMV guideline was found, ECIL-7 (stem cell transplant) is paywalled, and the ASTCT 2025 guideline could not be fetched.
+
+> ⚠️ International guideline (GETH-TC, 2024) for S2. Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -42,6 +44,18 @@
 - **Without concurrent rejection, consider reducing immunosuppression** in severe disease, poor response, high viral load or cytopenia (weak, very low). [S1]
 - **If valganciclovir or ganciclovir is not tolerated, use maribavir or foscarnet second-line** (strong, low), chosen on viral load, nephrotoxicity risk and severity. [S1]
 
+## Allogeneic stem cell transplant (S2)
+
+- **Monitor CMV DNA at least weekly in every allogeneic stem cell transplant recipient from within the first two weeks to day +100, whatever the serostatus** (AII). Continue at that frequency until immunosuppression stops in high-risk patients: cord blood grafts, pre-emptive therapy before day 100, letermovir beyond day 100, moderate to severe GVHD or high-dose steroids. [S2]
+- ⚠️ **Letermovir prophylaxis is the one agent shown to cut clinically significant CMV and all-cause mortality,** with top-grade (A-I) recommendations in guidelines. If it cannot be given to everyone, target higher-risk grafts (BII): seropositive recipient with a seronegative donor, HLA mismatch at A, B or DR, post-transplant cyclophosphamide, cord blood, or ex vivo T-cell depletion. [S2]
+- **Continue letermovir to day +100 in all eligible patients, and to at least day +200 during active GVHD treated with steroids above 0.5 mg/kg/day** (AI). [S2]
+- **DNAemia on letermovir is often abortive** (fragmented DNA that clears without treatment), so keep weekly monitoring but start pre-emptive therapy only at a higher level, for example 1,500 IU/mL in plasma or 10,000 IU/mL in whole blood (BII). Do not treat a single isolated positive result; confirm true replication before resistance testing. [S2]
+- **Without prophylaxis, pre-emptive thresholds of 2–3 log10 IU/mL gave similar protection from CMV disease** (BIIr); each centre should set its own threshold for its assay and sample type. Pre-emptive therapy stays the strategy where universal letermovir is not feasible and after letermovir failure. [S2]
+- **Pre-emptive drugs:** IV ganciclovir (AI) or oral valganciclovir, limited by marrow and kidney toxicity; foscarnet works as well (AI) and is preferred with neutropenia or thrombocytopenia. Maribavir 400 mg twice daily cleared viraemia comparably with fewer neutropenia stops, so it is an alternative when neutropenia develops (BI). [S2]
+- **Stop pre-emptive therapy once PCR is negative after at least 15 days,** as ECIL and ASTCT advise (the consensus agrees, AII). [S2]
+- **Recurrent DNAemia:** letermovir secondary prophylaxis may be the choice if there is no letermovir-resistance mutation and DNAemia is negative before starting (BII). [S2]
+- ⚠️ **Refractory or resistant infection after stem cell transplant:** foscarnet (AIIu), or cidofovir 5 mg/kg weekly if kidney function allows (BIIu); oral maribavir 400 mg every 12 hours is becoming standard, especially with blood or kidney toxicity (AI). Half-dose ganciclovir plus foscarnet is a second- or third-line option (CIIu); reduce immunosuppression, including steroids, if there is no active GVHD (BIII). Letermovir is not a rescue drug. [S2]
+
 ## Drug resistance
 
 - **Genotype for resistance after at least 4 weeks of antiviral exposure with a refractory viral-load response after at least 2 weeks of optimal dosing** (strong, high), on a sample whose viral load exceeds 1000 IU/mL (3 log10), so the mutation read-out is reliable. [S1]
@@ -64,17 +78,21 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **Prophylactic doses and renal dose adjustments** (valganciclovir, ganciclovir, letermovir, valaciclovir) are in tables, which were stripped. Only the treatment doses in the running text are given. | `input_unavailable` |
-| 2 | **Stem cell transplant CMV** (letermovir prophylaxis, pre-emptive thresholds) is outside this source. ECIL-7 is paywalled and no Australian guideline was found. | `input_unavailable` |
-| 3 | **PBS row 'Cytomegalovirus retinitis'** (valganciclovir, ganciclovir; historically HIV-associated) is not served: this source covers retinitis diagnosis only in transplant recipients. | `out_of_scope` |
-| 4 | **Congenital and perinatal CMV** is covered by the ASID *Management of Perinatal Infections* (2022), which was not used here. | `out_of_scope` |
-| 5 | **Paediatric CMV** has its own section in the source and was not included. | `out_of_scope` |
-| 6 | **Australian divergence:** the consensus recommends letermovir as a prophylaxis option in D+/R– kidney recipients, but letermovir is not among the PBS drugs listed under this condition (valganciclovir, maribavir, ganciclovir, valaciclovir). Check PBS access before choosing it. | `observation` |
-| 7 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 2 | **Stem cell transplant CMV** (letermovir prophylaxis, pre-emptive thresholds) is outside S1 and now comes from S2, a national (Spanish) consensus. ECIL-7 is paywalled, the ASTCT 2025 guideline was bot-blocked, and no Australian guideline was found. S2's risk-factor and drug tables are in supplementary files that were not read. | `input_unavailable` |
+| 3 | **Monitoring on prophylaxis differs by setting:** S1 (solid organ) advises against routine DNAemia monitoring on correctly dosed prophylaxis; S2 (stem cell transplant) monitors weekly on letermovir with a higher treatment threshold. Both are shown; they apply to different populations. | `observation` |
+| 4 | **Letermovir and PBS:** both S1 (D+/R– kidney) and S2 (allogeneic stem cell transplant) give letermovir a central prophylaxis role, but it is not among the PBS drugs listed under this page's CMV rows. Check PBS access before choosing it. | `observation` |
+| 5 | **PBS row 'Cytomegalovirus retinitis'** (valganciclovir, ganciclovir; historically HIV-associated) is not served: this source covers retinitis diagnosis only in transplant recipients. | `out_of_scope` |
+| 6 | **Congenital and perinatal CMV** is covered by the ASID *Management of Perinatal Infections* (2022), which was not used here. | `out_of_scope` |
+| 7 | **Paediatric CMV** has its own section in the source and was not included. | `out_of_scope` |
+| 8 | **Australian divergence:** the consensus recommends letermovir as a prophylaxis option in D+/R– kidney recipients, but letermovir is not among the PBS drugs listed under this condition (valganciclovir, maribavir, ganciclovir, valaciclovir). Check PBS access before choosing it. | `observation` |
+| 9 | **Licence:** CC BY-NC-ND 4.0. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 10 | **S2 licence:** CC BY-NC 4.0 (non-commercial). S2 claims are paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | The Transplantation Society International CMV Consensus Group (Kotton, Kumar, Humar et al.), Transplantation (Wolters Kluwer). *The Fourth International Consensus Guidelines on the Management of Cytomegalovirus in Solid Organ Transplantation*. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/ — retrieved 2026-09-23. | CC BY-NC-ND 4.0 | **paraphrased, hash-anchored** |
+| **S2** | Piñana JL, Giménez E, Vázquez L, Marcos MÁ, et al., Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC), Mediterr J Hematol Infect Dis 16(1):e2024065 (doi 10.4084/MJHID.2024.065). *Update on Cytomegalovirus Infection Management in Allogeneic Hematopoietic Stem Cell Transplant Recipients. A Consensus Document of the Spanish Group for Hematopoietic Transplantation and Cell Therapy (GETH-TC)*. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11385272/ — retrieved 2026-09-24. | CC BY-NC 4.0 | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

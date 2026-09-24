@@ -1,13 +1,15 @@
-# Cryptococcal meningitis (HIV-associated)
+# Cryptococcal meningitis
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** diagnosis, cryptococcal antigen screening and pre-emptive therapy, induction–consolidation–maintenance antifungal treatment, raised intracranial pressure, ART timing and relapse in adults, adolescents and children **living with HIV**. Cryptococcosis without HIV (transplant, haematology/oncology, *C. gattii* in immunocompetent hosts) is not covered. Related: `invasive-candidiasis`, `invasive-aspergillosis`, `hiv-antiretroviral-therapy`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** diagnosis, cryptococcal antigen screening and pre-emptive therapy, induction–consolidation–maintenance antifungal treatment, raised intracranial pressure, ART timing and relapse in adults, adolescents and children **living with HIV**. Cryptococcosis without HIV (transplant, haematology/oncology, *C. gattii* in immunocompetent hosts) was not covered by S1; edition 2.0 adds S2's principles for these hosts, for pulmonary disease, C-IRIS and resource-rich settings. Related: `invasive-candidiasis`, `invasive-aspergillosis`, `hiv-antiretroviral-therapy`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 22 claims paraphrased from **World Health Organization — *Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV*** (2022 (issued 23 June 2022; replaces the 2018 guidelines); origin: international). **32 anchors re-checkable by machine; 8 doses.** The source's words are not reproduced: its licence is *CC BY-NC-SA 3.0 IGO*.
+> ✅ **COMPILED FROM 2 SOURCES.** 34 claims; **55 fragments or anchors re-checkable by machine; 12 doses.** **S1** World Health Organization (2022 (issued 23 June 2022; replaces the 2018 guidelines); international): 22 claims, paraphrased, hash-anchored · **S2** Chang CC (2024 (online 9 February 2024); international): 12 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (WHO, 2022). Australian practice follows the PBS listings below and may differ.
 
 > ⚠️ **Written for HIV programmes worldwide, including low-resource settings.** Its fallback regimens (no liposomal amphotericin, no flucytosine) exist for drug shortages; Australian specialist centres would normally use the preferred regimen.
+
+> ⚠️ International guideline (ECMM/ISHAM/ASM, 2024) for S2. Australian practice follows the PBS listings below and may differ. **Where S1 (WHO, written around African trials) and S2 (global, split by resource-rich and resource-limited settings) differ, both are shown.**
 
 ---
 
@@ -46,6 +48,24 @@
 - **Review the clinical response every day for the first two weeks of induction.** Antigen titres in CSF, serum or plasma should not be used to monitor response in any setting. [S1]
 - **On relapse:** restart induction, relieve raised pressure by therapeutic lumbar puncture, reinforce adherence, begin ART after 4–6 weeks of effective antifungals if not already on it, and test fluconazole susceptibility where possible. [S1]
 
+## Resource-rich settings and hosts without HIV (S2)
+
+- **Think of cryptococcosis in anyone with compatible symptoms or microbiology, whatever their immune status;** if there is no known predisposition, test for HIV and check a CD4 count. [S2]
+- **Look for spread in every case, including antigenaemia alone:** lumbar puncture with opening pressure, cell count, glucose, protein, microscopy, culture and CSF antigen titre; blood antigen titre and cultures of blood, sputum and other sites; ideally brain MRI and chest CT. [S2]
+- ⚠️ **Induction differs by setting.** In resource-rich settings the usual standard is liposomal amphotericin B 3–4 mg/kg daily plus flucytosine (25 mg/kg, given four times daily) for 2 weeks, not the single 10 mg/kg dose that S1 prefers. The African trials behind S1's regimen are disputed as a guide for well-resourced care and for people without HIV, where no data exist. [S2]
+- **Transplant recipients:** cryptococcosis is their third most common invasive fungal infection. Blood antigen can be negative, especially with a single lung nodule. Lipid amphotericin was linked to lower mortality than deoxycholate for CNS disease, and the AMBITION regimen is untested without HIV. [S2]
+- **Outside HIV, S2 advises against routine blood antigen screening, and against primary prophylaxis or pre-emptive treatment.** In HIV, S2 screens below a CD4 of 200 and treats asymptomatic antigenaemia (after a lumbar puncture excludes meningitis) with fluconazole 1200 mg daily for 2 weeks, 800 mg daily for 8 weeks, then 200 mg for about 6 months. [S2]
+- **Pulmonary disease:** treat as meningitis if there is fungaemia, CNS involvement, a blood antigen titre of 1:512 or more by latex agglutination (or about 10-fold higher by lateral flow), or severe lung disease. Mild isolated lung disease without a cryptococcoma has responded to fluconazole 400 mg daily. [S2]
+- ***C. gattii*** (seen mostly in apparently immunocompetent people): treat as for *C. neoformans*, but consider 4–6 weeks of induction for CNS disease without HIV, and shunt early for obstructive hydrocephalus. Some lateral flow antigen tests miss it. [S2]
+
+## Raised pressure, ART timing and complications (S2)
+
+- **Raised pressure:** measure opening pressure at every lumbar puncture and image the brain to exclude obstructed CSF outflow; schedule a therapeutic tap at about 48–72 hours and/or day 7 whatever the first pressure. If symptomatic pressure persists despite taps, use a lumbar drain, shunt or ventriculostomy. [S2]
+- **ART timing:** never immediate. With suboptimal antifungals, delay 4–6 weeks (as S1); in resource-rich settings with optimal treatment, individualise (usually 4–6 weeks) by clinical and pressure response, CSF sterility and co-infections, aiming for culture-negative CSF first. Isolated lung disease or antigenaemia alone may allow ART earlier, for example at 2 weeks. [S2]
+- **Suspected C-IRIS:** first exclude relapse and other causes (MRI brain, lumbar puncture). Treat with therapeutic taps and symptom control, keep the antifungal, and do not stop ART. For persistent symptoms despite taps, prednisolone about 0.5–1.0 mg/kg daily or dexamethasone about 0.2–0.3 mg/kg daily, tapered over 4–6 weeks, may be considered. [S2]
+- **Culture-positive relapse or persistence:** test antifungal susceptibility on the first and relapse isolates side by side; a rise in fluconazole MIC of more than 2 dilutions suggests emerging resistance. Do not escalate treatment for persistent antigen, visible yeasts without growth, or abnormal CSF chemistry alone. [S2]
+- **Pregnancy (S2 is firmer than S1):** use amphotericin (liposomal or deoxycholate) through induction, consolidation and maintenance and for antigenaemia; avoid flucytosine and fluconazole, especially in the first trimester. Fluconazole can be used after delivery. [S2]
+
 ## Special situations
 
 - **Pregnancy:** amphotericin B may be used when benefit outweighs harm. Fluconazole and flucytosine have been linked to birth defects in animal and some uncontrolled human studies, so weigh their use case by case. [S1]
@@ -67,15 +87,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Cryptococcosis without HIV** (solid-organ transplant, haematology/oncology, *C. gattii* in immunocompetent hosts) is out of scope. The Australasian antifungal consensus (IMJ 2021) covers it but could not be used last wave (Wiley, not open access, AI-use reservation). | `out_of_scope` |
-| 2 | **Amphotericin toxicity package** (pre-hydration, potassium and magnesium supplementation, monitoring schedule) is set out in boxed tables that were not anchored here. | `input_unavailable` |
-| 3 | **The PBS row for this condition lists fluconazole only.** The induction drugs (liposomal amphotericin B, flucytosine) are not part of it. | `observation` |
-| 4 | **Licence:** CC BY-NC-SA 3.0 IGO (non-commercial, share-alike). The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 1 | **Cryptococcosis without HIV** (solid-organ transplant, haematology/oncology, *C. gattii* in immunocompetent hosts): S2 adds principles only; its host-specific regimens are in Table 2, which is not in the manuscript text. The Australasian antifungal consensus (IMJ 2021) covers these hosts but could not be read (Wiley HTTP 403 again on 2026-09-24). | `input_unavailable` |
+| 2 | **Induction regimen differs:** S1 (WHO) prefers one 10 mg/kg dose of liposomal amphotericin B with 14 days of flucytosine and fluconazole; S2 describes 2 weeks of liposomal amphotericin B 3–4 mg/kg daily with flucytosine as the resource-rich standard and calls the single-dose regimen's use there contested. Both are shown. | `observation` |
+| 3 | **Screening and pre-emptive therapy differ:** S1 screens strongly below CD4 100 (conditionally below 200) and gives fluconazole 800–1200 mg for 2 weeks then standard consolidation; S2 screens below 200 and gives 1200 mg for 2 weeks, 800 mg for 8 weeks, then 200 mg for about 6 months. | `observation` |
+| 4 | **Amphotericin toxicity package** (pre-hydration, potassium and magnesium supplementation, monitoring schedule) is set out in boxed tables that were not anchored here. | `input_unavailable` |
+| 5 | **The PBS row for this condition lists fluconazole only.** The induction drugs (liposomal amphotericin B, flucytosine) are not part of it. | `observation` |
+| 6 | **Licence:** CC BY-NC-SA 3.0 IGO (non-commercial, share-alike). The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 7 | **S2 licence:** © Elsevier author manuscript, available for text mining and fair use. S2 claims are paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | World Health Organization. *Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV*. 2022 (issued 23 June 2022; replaces the 2018 guidelines). https://iris.who.int/handle/10665/357088 — retrieved 2026-09-23. | CC BY-NC-SA 3.0 IGO | **paraphrased, hash-anchored** |
+| **S2** | Chang CC, Harrison TS, Bicanic TA, et al., European Confederation of Medical Mycology (ECMM), International Society for Human and Animal Mycology (ISHAM) and American Society for Microbiology (ASM), Lancet Infect Dis 24(8):e495-e512 (doi 10.1016/S1473-3099(23)00731-4); author manuscript NIHMS2026967. *Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM*. 2024 (online 9 February 2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/ — retrieved 2026-09-24. | © Elsevier (author manuscript). PMC statement: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

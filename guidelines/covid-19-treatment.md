@@ -1,11 +1,13 @@
 # COVID-19 (SARS-CoV-2 infection) — public health management and early access to treatment
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
-**Scope:** infectious period, testing, groups at increased risk of severe disease, early medical review for antiviral access, isolation, contacts and high-risk settings for SARS-CoV-2 infection in Australia. **Antiviral drug choice, eligibility and dosing are not covered** (see Unresolved). Vaccination: `covid-19-vaccination`. Children: `covid-19-management-children`.
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
+**Scope:** infectious period, testing, groups at increased risk of severe disease, early medical review for antiviral access, isolation, contacts and high-risk settings for SARS-CoV-2 infection in Australia. **Drug treatment by severity and risk of hospitalisation, with antiviral choice and doses, comes from the WHO living guideline (S2); Australian PBS eligibility for the oral antivirals is in neither source** (see Unresolved). Vaccination: `covid-19-vaccination`. Children: `covid-19-management-children`.
 
-> ✅ **OPEN AND QUOTED.** 19 claims quoted verbatim from **Communicable Diseases Network Australia (CDNA) / interim Australian Centre for Disease Control — *Coronavirus Disease 2019 (COVID-19): CDNA National Guidelines for Public Health Units, Version 8.0*** (Version 8.0, June 2024; origin: AU); **21 fragments re-checked by machine; 0 doses.** Licence: *CC BY 4.0*.
+> ✅ **COMPILED FROM 2 SOURCES.** 30 claims; **61 fragments or anchors re-checkable by machine; 4 doses.** **S1** Communicable Diseases Network Australia (CDNA) / interim Australian Centre for Disease Control (Version 8.0, June 2024; AU): 19 claims, quoted · **S2** World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540) (August 2025; international): 11 claims, paraphrased, hash-anchored
 
-> ⚠️ **This is a public-health guideline, not a treatment guideline.** CDNA mentions antivirals only to say early testing and early medical care help eligible people get them. It names no antiviral, dose or eligibility rule, so nothing here tells you whether to prescribe the PBS-listed drugs (molnupiravir, nirmatrelvir with ritonavir). No current, readable Australian COVID-19 treatment guideline was found: the National COVID-19 Clinical Evidence Taskforce guidelines are retired.
+> ⚠️ **S1 (CDNA) is a public-health guideline, not a treatment guideline.** It mentions antivirals only to say early testing and early medical care help eligible people get them. **S2 (WHO, August 2025) adds the drug recommendations and doses**, but uses WHO risk groups, not Australian PBS eligibility, so check the PBS criteria before prescribing molnupiravir or nirmatrelvir with ritonavir. No current, readable Australian COVID-19 treatment guideline was found: the National COVID-19 Clinical Evidence Taskforce guidelines are retired.
+
+> ⚠️ International guideline (WHO, 2025) for S2. Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -29,6 +31,29 @@
 - **Clinical care is the treating clinician's job, not the public health unit's;** high-risk cases should be encouraged to seek medical care early. [S1]
 - **NAAT (e.g. PCR) is the diagnostic gold standard;** a RAT is a faster, more accessible alternative but less sensitive, so false negatives are more common. [S1]
 - **No drug is approved in Australia for pre- or post-exposure prophylaxis.** [S1]
+
+## Severity and risk of hospitalisation (WHO)
+
+- **WHO grades severity before choosing drugs.** Critical: ARDS, sepsis, septic shock, or needing ventilation (invasive or non-invasive) or vasopressors. Severe: oxygen saturation under 90% breathing air, pneumonia signs, or marked respiratory distress (in adults, accessory muscles, broken sentences, breathing over 30 a minute). Non-severe: none of these. [S2]
+- **Non-severe illness is split by hospitalisation risk.** High (about 6%): immunodeficiency syndromes, or immunosuppressants after solid organ transplant or for autoimmune disease. Moderate (about 3%): age over 65, obesity, diabetes, chronic heart, lung, kidney or liver disease, active cancer, disability. Low (about 0.5%): everyone else, which is most patients. [S2]
+
+## Antivirals for non-severe COVID-19 (WHO)
+
+- ⚠️ **Nirmatrelvir with ritonavir is the first choice:** strongly recommended at high risk, suggested at moderate risk, and suggested against at low risk. WHO rates it above molnupiravir (larger fall in admissions, fewer safety worries) and above remdesivir (which needs IV infusion). Start it as early as possible, ideally within 5 days of symptoms. [S2]
+- ⚠️ **Nirmatrelvir with ritonavir dose: nirmatrelvir 300 mg (two 150 mg tablets) plus ritonavir 100 mg every 12 hours for 5 days;** with GFR 30–59 mL/min, drop nirmatrelvir to 150 mg (ritonavir unchanged). Ritonavir raises levels of CYP3A-dependent drugs (macrolides, immune modulators, warfarin and others), so review every medicine and avoid it where interactions are dangerous; use care in severe kidney or liver impairment. [S2]
+- **Remdesivir is suggested at high risk** (not at moderate risk; strongly not at low risk), especially when nirmatrelvir interacts with the patient's drugs or molnupiravir is unsuitable (pregnancy, children). Dose: 200 mg IV on day 1, then 100 mg IV on days 2 and 3, started within 7 days of onset. [S2]
+- **Molnupiravir is suggested only at high risk** (suggested against at moderate risk, strongly against at low risk), ranking behind both nirmatrelvir and remdesivir. Its long-term harms (mutagenesis, resistance, new variants) are unknown, so avoid it in younger adults, children and pregnancy. Dose: 800 mg every 12 hours for 5 days, started within 5 days. [S2]
+- **No systemic corticosteroids for non-severe illness** (conditional against), even beyond day 7 of symptoms. [S2]
+
+## Severe and critical COVID-19 (WHO)
+
+- ⚠️ **Give systemic corticosteroids in severe or critical disease** (strong for), usually dexamethasone 6 mg once daily for up to 10 days (trials ran 5 to 14 days, generally stopping at discharge). Equivalent doses: hydrocortisone 150 mg (50 mg every 8 hours), prednisone 40 mg, methylprednisolone 32 mg. Check blood glucose whether or not the patient has diabetes. [S2]
+- **Add an IL-6 receptor blocker (tocilizumab or sarilumab) and baricitinib** to corticosteroids in severe or critical disease (both strong for); the three can be combined. Weigh the extra immunosuppression where HIV, tuberculosis or fungal infections are common, or opportunistic-infection risk is high. [S2]
+- **Remdesivir is suggested in severe disease but not in critical disease.** New in this (August 2025) update: prophylactic-dose rather than therapeutic or intermediate-dose heparin in severe or critical disease (conditional), and no statins or SGLT-2 inhibitors for it (strong against). [S2]
+
+## Not recommended (WHO)
+
+- **Do not use** sotrovimab or casirivimab-imdevimab (spike-targeting antibodies have lost effect against circulating variants), colchicine, hydroxychloroquine or chloroquine, or lopinavir-ritonavir (all strong against). Metformin is suggested against in acute illness, and fluvoxamine belongs only in trials. [S2]
 
 ## Isolation and contacts
 
@@ -59,15 +84,19 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 
 | # | Item | Class |
 |---|---|---|
-| 1 | **Antiviral choice, eligibility and dosing** (nirmatrelvir with ritonavir, molnupiravir, remdesivir) are not in this source. The retired National COVID-19 Clinical Evidence Taskforce guidelines cannot be used; the WHO *Therapeutics and COVID-19* living guideline (August 2025, CC BY-NC-SA 3.0 IGO, paraphrase) is the readable candidate for a treatment page. | `input_unavailable` |
-| 2 | **Outbreak management in residential care and disability services** is in a separate CDNA guideline, not covered here. | `out_of_scope` |
-| 3 | **Vaccine recommendations** are summarised only; the detail is in `covid-19-vaccination` (Australian Immunisation Handbook). Children: `covid-19-management-children`. | `out_of_scope` |
-| 4 | **Licence:** CC BY 4.0. Passages are quoted unchanged; the claim wording is ours. Attribution requested by the licensor: "Based on Commonwealth of Australia (interim Australian Centre for Disease Control) material". | `observation` |
+| 1 | **Antiviral choice and dosing** (nirmatrelvir with ritonavir, molnupiravir, remdesivir) are not in S1; they now come from S2 (WHO *Therapeutics and COVID-19*, August 2025). **Australian PBS eligibility** for the oral antivirals is in neither source, and the retired National COVID-19 Clinical Evidence Taskforce guidelines cannot be used. | `input_unavailable` |
+| 2 | **Who counts as high risk differs:** CDNA (S1) names older age, especially over 70, as the strongest risk factor for severe disease; WHO (S2) puts age over 65 in its *moderate* hospitalisation-risk group and reserves *high* risk for immunodeficiency and immunosuppressed transplant or autoimmune patients. Both are shown; PBS eligibility follows neither exactly. | `observation` |
+| 3 | **WHO doses assume the trial regimens** and the WHO practical-issue summaries (not read). Remdesivir dosing in children and use in pregnancy are not settled in S2; the tocilizumab, sarilumab and baricitinib doses are not in the anchored text. | `input_unavailable` |
+| 4 | **Outbreak management in residential care and disability services** is in a separate CDNA guideline, not covered here. | `out_of_scope` |
+| 5 | **Vaccine recommendations** are summarised only; the detail is in `covid-19-vaccination` (Australian Immunisation Handbook). Children: `covid-19-management-children`. | `out_of_scope` |
+| 6 | **Licence:** CC BY 4.0. Passages are quoted unchanged; the claim wording is ours. Attribution requested by the licensor: "Based on Commonwealth of Australia (interim Australian Centre for Disease Control) material". | `observation` |
+| 7 | **S2 licence:** CC BY-NC-SA 3.0 IGO (non-commercial, share-alike). S2 claims are paraphrased and hash-anchored; WHO's words are not reproduced. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Communicable Diseases Network Australia (CDNA) / interim Australian Centre for Disease Control. *Coronavirus Disease 2019 (COVID-19): CDNA National Guidelines for Public Health Units, Version 8.0*. Version 8.0, June 2024. https://www.cdc.gov.au/resources/publications/cdna-national-guidelines-covid-19 — retrieved 2026-09-23. | CC BY 4.0 | **quoted, re-checkable** |
+| **S2** | World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540). *Therapeutics and COVID-19: living guideline, August 2025 (15th version)*. August 2025. https://iris.who.int/handle/10665/382888 — retrieved 2026-09-24. | CC BY-NC-SA 3.0 IGO | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,19 +1,21 @@
 {
  "guideline": "guidelines/covid-19-treatment.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://www.cdc.gov.au/resources/publications/cdna-national-guidelines-covid-19"
+  "https://www.cdc.gov.au/resources/publications/cdna-national-guidelines-covid-19",
+  "https://iris.who.int/handle/10665/382888"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "AU",
- "method": "OPEN AND QUOTED from Communicable Diseases Network Australia (CDNA) / interim Australian Centre for Disease Control 'Coronavirus Disease 2019 (COVID-19): CDNA National Guidelines for Public Health Units, Version 8.0' (Version 8.0, June 2024). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at the Creative Commons Licence statement on page 2 of https://www.cdc.gov.au/system/files/2025-09/coronavirus-covid-19-cdna-national-guidelines-for-public-health-units.pdf). Based on Commonwealth of Australia (interim Australian Centre for Disease Control) material, used under CC BY 4.0; claims are summarised in our words with the source passages quoted unchanged.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from Communicable Diseases Network Australia (CDNA) / interim Australian Centre for Disease Control 'Coronavirus Disease 2019 (COVID-19): CDNA National Guidelines for Public Health Units, Version 8.0' (Version 8.0, June 2024), 19 claims; LICENCE: CC BY 4.0 (read at the Creative Commons Licence statement on page 2 of https://www.cdc.gov.au/system/files/2025-09/coronavirus-covid-19-cdna-national-guidelines-for-public-health-units.pdf). S2: PARAPHRASED AND HASH-ANCHORED from World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540) 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)' (August 2025), 11 claims; LICENCE: CC BY-NC-SA 3.0 IGO (read at the copyright page of the PDF at https://iris.who.int/server/api/core/bitstreams/23655773-e9d2-4eba-96d9-296d10bb9c61/content). Verify each source separately: verify.py --source <file> --only-source S<n>. Based on Commonwealth of Australia (interim Australian Centre for Disease Control) material, used under CC BY 4.0; claims are summarised in our words with the source passages quoted unchanged. Edition 2.0 adds S2, the WHO *Therapeutics and COVID-19* living guideline (August 2025, CC BY-NC-SA 3.0 IGO), paraphrased and hash-anchored, for drug treatment; the S1 claims are unchanged.",
  "summary": {
-  "total": 19,
+  "total": 30,
   "pass": 19,
-  "fail": 0
+  "fail": 0,
+  "pass_paraphrase_anchored": 11
  },
  "claims": [
   {
@@ -99,6 +101,298 @@
    "verdict": "pass",
    "source_text": "However, there are presently no pharmaceutical agents approved for use in Australia for this purpose.",
    "locator": "Communicable Diseases Network Australia (CDNA) / interim Australian Centre for Disease Control, 'Coronavirus Disease 2019 (COVID-19): CDNA National Guidelines for Public Health Units, Version 8.0', Version 8.0, June 2024, https://www.cdc.gov.au/resources/publications/cdna-national-guidelines-covid-19, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**WHO grades severity before choosing drugs.** Critical: ARDS, sepsis, septic shock, or needing ventilation (invasive or non-invasive) or vasopressors. Severe: oxygen saturation under 90% breathing air, pneumonia signs, or marked respiratory distress (in adults, accessory muscles, broken sentences, breathing over 30 a minute). Non-severe: none of these.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0367c69976766ea3",
+     "n": 864,
+     "p": "Critical"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Non-severe illness is split by hospitalisation risk.** High (about 6%): immunodeficiency syndromes, or immunosuppressants after solid organ transplant or for autoimmune disease. Moderate (about 3%): age over 65, obesity, diabetes, chronic heart, lung, kidney or liver disease, active cancer, disability. Low (about 0.5%): everyone else, which is most patients.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "350f779b4809f587",
+     "n": 653,
+     "p": "Patients"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Nirmatrelvir with ritonavir is the first choice:** strongly recommended at high risk, suggested at moderate risk, and suggested against at low risk. WHO rates it above molnupiravir (larger fall in admissions, fewer safety worries) and above remdesivir (which needs IV infusion). Start it as early as possible, ideally within 5 days of symptoms.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "c1e93fecf71472d7",
+     "n": 79,
+     "p": "We recom"
+    },
+    {
+     "h": "9f5c22d29d4fca82",
+     "n": 428,
+     "p": "The GDG "
+    },
+    {
+     "h": "27d307a1591fdc92",
+     "n": 133,
+     "p": "Patients"
+    },
+    {
+     "h": "579ad386d1a31275",
+     "n": 89,
+     "p": "We sugge"
+    },
+    {
+     "h": "b5f3a91bc257ad2b",
+     "n": 82,
+     "p": "We sugge"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Nirmatrelvir with ritonavir dose: nirmatrelvir 300 mg (two 150 mg tablets) plus ritonavir 100 mg every 12 hours for 5 days;** with GFR 30–59 mL/min, drop nirmatrelvir to 150 mg (ritonavir unchanged). Ritonavir raises levels of CYP3A-dependent drugs (macrolides, immune modulators, warfarin and others), so review every medicine and avoid it where interactions are dangerous; use care in severe kidney or liver impairment.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "0479512474ffd4b8",
+     "n": 226,
+     "p": "The reco"
+    },
+    {
+     "h": "5a86402efa169e4b",
+     "n": 150,
+     "p": "In renal"
+    },
+    {
+     "h": "a9ff60d00bc692e2",
+     "n": 468,
+     "p": "Ritonavi"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Remdesivir is suggested at high risk** (not at moderate risk; strongly not at low risk), especially when nirmatrelvir interacts with the patient's drugs or molnupiravir is unsuitable (pregnancy, children). Dose: 200 mg IV on day 1, then 100 mg IV on days 2 and 3, started within 7 days of onset.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "4b91f427f537a505",
+     "n": 70,
+     "p": "We sugge"
+    },
+    {
+     "h": "bcf708b6eb8f9fd8",
+     "n": 594,
+     "p": "Remdesiv"
+    },
+    {
+     "h": "0d36ee2266745d0d",
+     "n": 103,
+     "p": "Remdesiv"
+    },
+    {
+     "h": "1d0689045743b76e",
+     "n": 70,
+     "p": "We sugge"
+    },
+    {
+     "h": "e878bc4c32fbd55e",
+     "n": 67,
+     "p": "We recom"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Molnupiravir is suggested only at high risk** (suggested against at moderate risk, strongly against at low risk), ranking behind both nirmatrelvir and remdesivir. Its long-term harms (mutagenesis, resistance, new variants) are unknown, so avoid it in younger adults, children and pregnancy. Dose: 800 mg every 12 hours for 5 days, started within 5 days.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a322337205e5d78f",
+     "n": 72,
+     "p": "We sugge"
+    },
+    {
+     "h": "7920b00d68779304",
+     "n": 895,
+     "p": "The long"
+    },
+    {
+     "h": "d02721cfba23a8d1",
+     "n": 332,
+     "p": "The reco"
+    },
+    {
+     "h": "541ee5fdd42e4c13",
+     "n": 84,
+     "p": "We sugge"
+    },
+    {
+     "h": "8f2f7eba7054f8a3",
+     "n": 81,
+     "p": "We recom"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**No systemic corticosteroids for non-severe illness** (conditional against), even beyond day 7 of symptoms.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ac197d14d99b6270",
+     "n": 84,
+     "p": "We sugge"
+    },
+    {
+     "h": "b21300de3e10acb7",
+     "n": 137,
+     "p": "to err o"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Give systemic corticosteroids in severe or critical disease** (strong for), usually dexamethasone 6 mg once daily for up to 10 days (trials ran 5 to 14 days, generally stopping at discharge). Equivalent doses: hydrocortisone 150 mg (50 mg every 8 hours), prednisone 40 mg, methylprednisolone 32 mg. Check blood glucose whether or not the patient has diabetes.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "940844da5fcdd8b1",
+     "n": 113,
+     "p": "We recom"
+    },
+    {
+     "h": "8cca41874b82f151",
+     "n": 351,
+     "p": "While mo"
+    },
+    {
+     "h": "69ca91575cfd31fd",
+     "n": 243,
+     "p": "A dose o"
+    },
+    {
+     "h": "843c6421184fda0d",
+     "n": 153,
+     "p": "It would"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Add an IL-6 receptor blocker (tocilizumab or sarilumab) and baricitinib** to corticosteroids in severe or critical disease (both strong for); the three can be combined. Weigh the extra immunosuppression where HIV, tuberculosis or fungal infections are common, or opportunistic-infection risk is high.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "92f3f1aa653fc7d9",
+     "n": 367,
+     "p": "We recom"
+    },
+    {
+     "h": "98cf205163d5c268",
+     "n": 661,
+     "p": "We recom"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Remdesivir is suggested in severe disease but not in critical disease.** New in this (August 2025) update: prophylactic-dose rather than therapeutic or intermediate-dose heparin in severe or critical disease (conditional), and no statins or SGLT-2 inhibitors for it (strong against).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "018b916e99e7c3ae",
+     "n": 90,
+     "p": "We sugge"
+    },
+    {
+     "h": "75a7ff6d20d24cca",
+     "n": 92,
+     "p": "We sugge"
+    },
+    {
+     "h": "9547db8731734b39",
+     "n": 32,
+     "p": "Heparins"
+    },
+    {
+     "h": "09fee99ba59f2a60",
+     "n": 438,
+     "p": "We sugge"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Do not use** sotrovimab or casirivimab-imdevimab (spike-targeting antibodies have lost effect against circulating variants), colchicine, hydroxychloroquine or chloroquine, or lopinavir-ritonavir (all strong against). Metformin is suggested against in acute illness, and fluvoxamine belongs only in trials.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "f8416567943e66fe",
+     "n": 79,
+     "p": "We recom"
+    },
+    {
+     "h": "bad0749c67ce8303",
+     "n": 90,
+     "p": "We recom"
+    },
+    {
+     "h": "47fce5bbdf665500",
+     "n": 96,
+     "p": "contrast"
+    },
+    {
+     "h": "e077571522147112",
+     "n": 79,
+     "p": "We recom"
+    },
+    {
+     "h": "48379f887f646c12",
+     "n": 90,
+     "p": "We recom"
+    },
+    {
+     "h": "65933729c3b18733",
+     "n": 76,
+     "p": "We recom"
+    },
+    {
+     "h": "4cfa9bf43ad8e725",
+     "n": 105,
+     "p": "We sugge"
+    },
+    {
+     "h": "58e10d784ad12494",
+     "n": 119,
+     "p": "We recom"
+    }
+   ],
+   "locator": "World Health Organization (WHO/2019-nCoV/therapeutics; doi 10.2471/B09540), 'Therapeutics and COVID-19: living guideline, August 2025 (15th version)', August 2025, https://iris.who.int/handle/10665/382888, retrieved 2026-09-24"
   },
   {
    "claim": "**Cases should stay home until acute symptoms resolve (usually 5 to 7 days);** they can infect others for up to 10 days after symptom onset.",

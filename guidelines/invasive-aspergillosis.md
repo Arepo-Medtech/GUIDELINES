@@ -1,13 +1,15 @@
 # Invasive and chronic aspergillosis
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** diagnosis, treatment, prophylaxis and empiric therapy for invasive aspergillosis in adults with haematological malignancy, stem cell or solid organ transplant, plus chronic cavitary pulmonary aspergillosis. Invasive candidiasis: see `invasive-candidiasis`. Antifungal prophylaxis in children with cancer: see `antifungal-prophylaxis-paediatric-oncology`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 20 claims paraphrased from **Infectious Diseases Society of America (Patterson et al.), Oxford University Press — *Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)*** (2016; origin: international). **30 anchors re-checkable by machine; 0 doses.** The source's words are not reproduced: its licence is *'This work is written by (a) US Government employee(s) and is in the public domain in the US.' Status outside the US not stated, so paraphrased.*.
+> ✅ **COMPILED FROM 2 SOURCES.** 26 claims; **40 fragments or anchors re-checkable by machine; 0 doses.** **S1** Infectious Diseases Society of America (Patterson et al.) (2016; international): 20 claims, paraphrased, hash-anchored · **S2** Epelbaum O (2025; international): 6 claims, paraphrased, hash-anchored
 
 > ⚠️ International guideline (IDSA, 2016). Australian practice follows the PBS listings below and may differ.
 
-> ⚠️ **Stand-in source, and over 5 years old.** The Australasian standard is the 2021 ASID/ANZMIG antifungal consensus (Intern Med J 51 Suppl 7), but its Wiley pages returned a bot challenge, which was not bypassed, and it is not in PMC. The IDSA 2016 guideline predates newer azole-resistance and isavuconazole data.
+> ⚠️ **Stand-in source, and over 5 years old.** The Australasian standard is the 2021 ASID/ANZMIG antifungal consensus (Intern Med J 51 Suppl 7), but its Wiley pages returned a bot challenge, which was not bypassed, and it is not in PMC. The IDSA 2016 guideline predates newer azole-resistance and isavuconazole data; **S2 (ATS 2025) updates first-line treatment choice** (triazole alone or with an echinocandin, including posaconazole and isavuconazole) and azole resistance, but covers only that question.
+
+> ⚠️ International guideline (ATS, 2025) for S2. Australian practice follows the PBS listings below and may differ.
 
 ---
 
@@ -30,6 +32,15 @@
 - **Aspergillosis does not absolutely rule out further chemotherapy or HSCT** (strong; moderate); the timing should be decided jointly by infectious diseases and haematology/oncology. [S1]
 - **Salvage options: lipid amphotericin B, micafungin, caspofungin, posaconazole or itraconazole,** choosing a triazole in the light of prior antifungals, host factors, pharmacokinetics and possible resistance (strong; moderate). [S1]
 - **CNS aspergillosis: voriconazole first,** with lipid amphotericin B only for those intolerant of or failing it (strong; moderate). [S1]
+
+## First-line choice: the 2025 update (ATS)
+
+- ⚠️ **For proven or probable invasive pulmonary aspergillosis, S2 accepts either a mould-active triazole alone or a triazole plus an echinocandin as first treatment** (conditional; low-quality evidence); the evidence could not separate the two. [S2]
+- **Lean towards the combination in the critically ill, when triazole resistance is a worry, and when the diagnosis rests on a positive galactomannan** (serum or BAL). The data come only from haematological malignancy and stem cell transplant patients, so use in other groups is uncertain. [S2]
+- **Posaconazole and isavuconazole are now often used first line instead of voriconazole** (similar efficacy, steadier drug levels, fewer side effects), and S2 extends its advice to them although the trials used voriconazole. Rezafungin, with its very long half-life, is not interchangeable with micafungin or anidulafungin. [S2]
+- **Why combine:** voriconazole has resistance that may not extend to other azoles, very variable levels (often below target despite loading), and can miss mixed infections such as *Aspergillus* with Mucorales. All trial comparisons were voriconazole with or without micafungin or anidulafungin. [S2]
+- **Azole resistance in clinical *A. fumigatus*:** about 3.2% in Europe and 1.4% in the United States, above 10% in some countries; international and European guidance already favours starting a combination where environmental resistance exceeds 10%. Susceptibility testing of the patient's own isolate may then allow a step down to the triazole alone. [S2]
+- **Check the neutrophil count when choosing between one and two drugs.** How long to continue a combination, and when to step down to one drug, are not established. [S2]
 
 ## Prophylaxis and empiric therapy
 
@@ -63,17 +74,20 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | # | Item | Class |
 |---|---|---|
 | 1 | **All drug doses** (voriconazole loading and maintenance, posaconazole, isavuconazole, amphotericin) are in the guideline's tables, which were stripped. No dose is stated here. | `input_unavailable` |
-| 2 | **The Australasian 2021 consensus (ASID/ANZMIG, Intern Med J 51 Suppl 7)** could not be read: Wiley returned a bot challenge and the article is not in PMC or any open repository (Unpaywall: closed). It should replace this source when it can be obtained. | `access` |
-| 3 | **Azole-resistant *A. fumigatus*, isavuconazole's place, and mucormycosis** have moved on since 2016 and are not reflected here. | `evidence_unsettled` |
-| 4 | **PBS row 'Fungal infection'** (fluconazole, posaconazole) is listed here for posaconazole prophylaxis and in `invasive-candidiasis` for fluconazole; the PBS restriction wording was not checked. | `observation` |
-| 5 | **Isavuconazole** is a recommended alternative in the source but is not among the PBS drugs under these aspergillosis rows (voriconazole, posaconazole, itraconazole). | `observation` |
-| 6 | **Cryptococcal meningitis** (PBS row, fluconazole) is not covered by this source. | `out_of_scope` |
-| 7 | **Licence:** US public domain only; the claims are paraphrased and hash-anchored and the source's words are not stored. | `observation` |
+| 2 | **The Australasian 2021 consensus (ASID/ANZMIG, Intern Med J 51 Suppl 7)** could not be read: Wiley returned a bot challenge (again HTTP 403 on 2026-09-24) and the article is not in PMC or any open repository (Unpaywall: closed). It should replace S1 when it can be obtained. | `access` |
+| 3 | **Azole-resistant *A. fumigatus* and isavuconazole's place** have moved on since 2016; S2 (2025) now covers resistance rates and posaconazole or isavuconazole as first-line triazoles, but no dosing. **Mucormycosis** is still not covered. | `evidence_unsettled` |
+| 4 | **First-line treatment differs:** S1 (IDSA 2016) makes voriconazole the primary therapy and allows voriconazole plus an echinocandin only in selected patients (weak); S2 (ATS 2025) holds equipoise between any mould-active triazole alone and a triazole plus echinocandin, and favours the combination in the ICU or where resistance is a concern. Both are shown. | `observation` |
+| 5 | **PBS row 'Fungal infection'** (fluconazole, posaconazole) is listed here for posaconazole prophylaxis and in `invasive-candidiasis` for fluconazole; the PBS restriction wording was not checked. | `observation` |
+| 6 | **Isavuconazole** is a recommended alternative in the source but is not among the PBS drugs under these aspergillosis rows (voriconazole, posaconazole, itraconazole). | `observation` |
+| 7 | **Cryptococcal meningitis** (PBS row, fluconazole) is not covered by this source. | `out_of_scope` |
+| 8 | **Licence:** US public domain only; the claims are paraphrased and hash-anchored and the source's words are not stored. | `observation` |
+| 9 | **S2 licence:** © American Thoracic Society 2025 (free to read, one printed copy); S2 claims are paraphrased and hash-anchored. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | Infectious Diseases Society of America (Patterson et al.), Oxford University Press. *Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the Infectious Diseases Society of America (Clin Infect Dis 63(4):e1, published online 29 Jun 2016)*. 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4967602/ — retrieved 2026-09-23. | 'This work is written by (a) US Government employee(s) and is in the public domain in the US.' Status outside the US not stated, so paraphrased. | **paraphrased, hash-anchored** |
+| **S2** | Epelbaum O, Marinelli T, Haydour QS, et al., American Thoracic Society, Am J Respir Crit Care Med 211(1):34 (doi 10.1164/rccm.202410-2045ST). *Treatment of Invasive Pulmonary Aspergillosis and Preventive and Empirical Therapy for Invasive Candidiasis in Adult Pulmonary and Critical Care Patients: An Official American Thoracic Society Clinical Practice Guideline*. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/ — retrieved 2026-09-24. | Copyright © 2025 by the American Thoracic Society. 'You may print one copy of this document at no charge. However, if you require more than one copy, you must place a reprint order.' | **paraphrased, hash-anchored** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

@@ -1,18 +1,19 @@
 {
  "guideline": "guidelines/pneumocystis-pneumonia.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)' (published 29 September 2025). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12477467). The source is a guideline-adherence score that summarises the ECIL (haematology), AST-IDCOP (solid organ transplant) and US IDSA/NIH (HIV) PJP guidelines; those guidelines themselves were paywalled (ECIL) or bot-blocked (NIH OI guidelines at clinicalinfo.hiv.gov, HTTP 403) and were not read. WikEM's PJP page (CC BY-SA) was read but held its drug regimens in an unexpanded template, so this open ECMM summary was used instead.",
+ "method": "COMPILED FROM 2 SOURCES. S1: QUOTED from European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)' (published 29 September 2025), 17 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC12477467). S2: QUOTED from Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9) 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)' (published 2021 (2020 update)), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC8116237). Verify each source separately: verify.py --source <file> --only-source S<n>. The source is a guideline-adherence score that summarises the ECIL (haematology), AST-IDCOP (solid organ transplant) and US IDSA/NIH (HIV) PJP guidelines; those guidelines themselves were paywalled (ECIL) or bot-blocked (NIH OI guidelines at clinicalinfo.hiv.gov, HTTP 403) and were not read. WikEM's PJP page (CC BY-SA) was read but held its drug regimens in an unexpanded template, so this open ECMM summary was used instead. Edition 2.0 adds S2, the AGIHO/DGHO 2020 prophylaxis guideline (CC BY 4.0, quoted), for primary prophylaxis in haematology and oncology; the S1 claims are unchanged. Australian candidates were tried first and could not be read: the 2014 Australasian PJP consensus (Intern Med J, doi 10.1111/imj.12599; Wiley returned HTTP 403), eviQ (the page served an empty script shell), and again the ECIL 2016 prevention guideline (OUP bot challenge) and the NIH OI guideline (HTTP 403).",
  "summary": {
-  "total": 17,
-  "pass": 17,
+  "total": 23,
+  "pass": 23,
   "fail": 0
  },
  "claims": [
@@ -115,6 +116,51 @@
    "verdict": "pass",
    "source_text": "newer studies revealed that early initiation of ART was non-inferior or superior to delayed initiation with regards to outcome. Therefore, ART should ideally be started within 2 weeks of diagnosing PCP.",
    "locator": "European Confederation of Medical Mycology (ECMM), JAC-Antimicrobial Resistance 7(5):dlaf165, 'The 2025 EQUAL Pneumocystis Score—an ECMM tool to measure QUALity in Pneumocystis pneumonia management (Haensel L et al.)', published 29 September 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12477467/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "⚠️ **Prophylaxis is strongly recommended for three groups:** acute lymphoblastic leukaemia, fludarabine–cyclophosphamide–rituximab, and allogeneic stem cell transplant, plus anyone on long-term steroids above 20 mg a day prednisone-equivalent for 4 weeks. It prevents PJP (A-I) and lowers mortality (A-IIr).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Oncologic patients at significant risk for PcP are those treated for acute lymphoblastic leukemia, those treated with a combination of fludarabine, cyclophosphamide, and rituximab [], and patients undergoing allogeneic HSCT [, ]. Moreover, long-term use of steroids (> 20 mg/day prednisone equivalent for 4 weeks) increases the risk of developing PcP [, ]. Patients with hematologic malignancies appear to have higher mortality rates once they develop PcP []. The administration of chemoprophylaxis in patients with one of these three risk factors is thus strongly recommended to prevent PcP (A-I) and reduce mortality (A-IIr).",
+   "locator": "Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9), 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)', published 2021 (2020 update), https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Moderate-risk patients may or may not be given prophylaxis (C-III):** for example R-CHOP14 or escalated BEACOPP, nucleoside analogues, long-term anti-CD20 antibodies, high-dose steroids with brain radiotherapy, or a CD4 count under 200 cells/μl. No study shows benefit in these groups.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Other hematologic and oncologic patients may occasionally develop PcP, such as lymphoma patients treated with R-CHOP14 or escalated BEACOPP protocol, patients treated with nucleoside analogs or long-term anti-CD20 antibody therapy, patients receiving high-dose steroids in addition to a radiotherapy for brain malignancies, and patients with CD4 count < 200 cells/μl [, ]. There are no studies demonstrating benefit of PcP chemoprophylaxis in these patient groups, though it is likely that the number needed to treat is considerably higher compared to the high-risk groups. Such patients at moderate risk may or may not receive chemoprophylaxis to prevent PcP (C-III) and to reduce mortality (C-III).",
+   "locator": "Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9), 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)', published 2021 (2020 update), https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Some drugs mandate prophylaxis:** give it with idelalisib (from the start, continuing 2–6 months after stopping), with temozolomide plus radiotherapy, and with alemtuzumab (A-IIu,t).",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Patients receiving idelalisib are at high risk for developing PcP and prophylaxis must be administered concurrently (drug label) [-]. Initiation of chemoprophylaxis at the beginning of therapy is recommended by the manufacturer and should be maintained for 2-6 months after stopping therapy. … Based on the documented high-risk situation, we strongly recommend chemoprophylaxis against PcP for patients receiving temozolomide (in combination with radiotherapy), idelalisib, or alemtuzumab (A-IIu,t)",
+   "locator": "Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9), 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)', published 2021 (2020 update), https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Co-trimoxazole is the first-choice prophylaxis (A-IIt,r)** and also covers toxoplasmosis and nocardiosis. Any of these schedules is acceptable (B-IIt): one single-strength tablet (80/400 mg) daily, or one double-strength tablet (160/800 mg) daily or three times a week; in HIV, thrice-weekly double strength cut stopping for side effects by 43%.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Based on the available evidence, the most effective prophylactic agent is TMP-SMX, which also offers protection for toxoplasmosis [], nocardiosis [], and actinomycosis. For these reasons, TMP-SMX is the first-choice agent for PcP prophylaxis (A-IIt,r). It is unknown whether the low doses of TMP-SMX used for PcP prophylaxis are also effective in preventing other infections. No relevant differences in efficacy of different dosing strategies for TMP-SMX, i.e., one single-strength tablet per day (80/400 mg) or one double-strength tablet (160/800 mg) daily or thrice a week, were shown in clinical studies [, ]. A study in HIV-infected patients observed a 43% lower risk of discontinuing TMP-SMX due to side effects if the double-strength tablet was given thrice a week instead of daily []. We recommend using any of these dosing regimens (B-IIt).",
+   "locator": "Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9), 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)', published 2021 (2020 update), https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**If co-trimoxazole is not tolerated, atovaquone 1500 mg once daily with a fatty meal is the first alternative** (A-IIt; lower doses work less well). Dapsone 100 mg a day is an option when blood toxicity is not a concern (A-IIt): test for G6PD deficiency first and watch for methaemoglobinaemia.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "In patients with intolerance or severe adverse events related to TMP-SMX administration, atovaquone, dapsone, or pentamidine (aerosolized) can be used as alternatives. Atovaquone has been studied in HIV-infected patients [-], while only few studies in non-HIV-infected immunocompromised patients exist [-]. The drug was highly effective, generally well tolerated and not associated with hematologic toxicity. We therefore recommend atovaquone as first alternative to TMP-SMX as PcP prophylaxis in patients with underlying hematologic or oncologic malignancies. Low-dose atovaquone has been described to be less effective in PcP prophylaxis []; thus, 1500 mg atovaquone should be administered once daily (off-label use) (A-IIt). To increase bioavailability of atovaquone, it should be taken during a fatty meal [, ]. If hematologic toxicity is not a major concern, dapsone (100 mg/day) can be used (A-IIt). Efficacy of daily dapsone was equivalent to the administration of TMP-SMX in comparative studies [-]. Testing for glucose-6-phosphat dehydrogenase deficiency is recommended prior to administration of dapsone. If prophylaxis of toxoplasmosis is indicated, dapsone should be combined with pyrimethamine. The risk of dapsone-induced methemoglobinemia must be carefully considered.",
+   "locator": "Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9), 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)', published 2021 (2020 update), https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Aerosolised pentamidine 300 mg once a month** is a moderate recommendation (B-IIt): no blood toxicity or interactions, but probably less effective, no cover for toxoplasmosis or bacteria, and staff exposure needs protecting against.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Aerosolized pentamidine is a popular option for PcP prophylaxis, considering the lack of hematologic toxicity or drug-drug interactions and the long dosing interval of 28 days. However, efficacy is probably lower compared to systemic prophylaxes. Pentamidine has no efficacy against toxoplasmosis and bacterial infections, which is of concern, especially after allogeneic HSCT [-]. Some authors have reported a mild to moderate decline in pulmonary function after long-term exposure [-], while others found no effect []. Pentamidine inhalation has been shown to cause considerable exposure and respiratory side effects in healthcare workers [, ], and adequate measures are recommended to protect staff. Our recommendation to use aerosolized pentamidine (300 mg once/month) is moderate (B-IIt)",
+   "locator": "Classen AY, Henze L, von Lilienfeld-Toal M, et al., AGIHO/DGHO, Annals of Hematology 100(6):1603 (doi 10.1007/s00277-021-04452-9), 'Primary prophylaxis of bacterial infections and Pneumocystis jirovecii pneumonia in patients with hematologic malignancies and solid tumors: 2020 updated guidelines of the Infectious Diseases Working Party of the German Society of Hematology and Medical Oncology (AGIHO/DGHO)', published 2021 (2020 update), https://pmc.ncbi.nlm.nih.gov/articles/PMC8116237/, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**Repeat imaging to follow response** (radiographic improvement at a median of 13 days). Do not use beta-D-glucan or BAL PCR to monitor treatment: both can stay positive after cure.",
