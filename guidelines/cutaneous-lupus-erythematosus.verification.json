@@ -1,20 +1,21 @@
 {
  "guideline": "guidelines/cutaneous-lupus-erythematosus.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://dermnetnz.org/topics/discoid-lupus-erythematosus"
+  "https://dermnetnz.org/topics/discoid-lupus-erythematosus",
+  "http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "PARAPHRASED AND HASH-ANCHORED from DermNet (Alani Z, Jarrett P; previous contributor Oakley A), New Zealand 'Discoid lupus erythematosus' (2022). Every claim is a paraphrase backed by anchors (scripts/anchor.py): verify.py --source re-finds each anchored span in a fresh copy of the source, checks the claim's numbers against it and rejects copying. LICENCE: © DermNet. Website terms cl. 11: all information on the site is protected by copyright; cl. 14: reproduction for other purposes needs DermNet's written permission (read at https://dermnetnz.org/terms (read 2026-09-23)). The source's words are NOT reproduced here. Source text: the DermNet topic page fetched with urllib/curl, scripts, styles and navigation removed, tags stripped.",
+ "method": "COMPILED FROM 2 SOURCES. S1: PARAPHRASED AND HASH-ANCHORED from DermNet (Alani Z, Jarrett P; previous contributor Oakley A), New Zealand 'Discoid lupus erythematosus' (2022), 16 claims; LICENCE: © DermNet. Website terms cl. 11: all information on the site is protected by copyright; cl. 14: reproduction for other purposes needs DermNet's written permission (read at https://dermnetnz.org/terms (read 2026-09-23)). S2: PARAPHRASED AND HASH-ANCHORED from EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762) 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update' (published online 12 October 2023), 9 claims; LICENCE: © Author(s) (or their employer(s)) 2024. No commercial re-use. See rights and permissions. Published by BMJ. (read at copyright line on page 1 of the published PDF (University of Szeged repository copy of the BMJ version)). Verify each source separately: verify.py --source <file> --only-source S<n>. Source text: the DermNet topic page fetched with urllib/curl, scripts, styles and navigation removed, tags stripped. Edition 2.0 adds S2, the EULAR 2023 SLE recommendations (published BMJ PDF from the University of Szeged repository, pdftotext, zero-width characters and soft hyphens removed), paraphrased; the S1 claims are unchanged.",
  "summary": {
-  "total": 16,
+  "total": 25,
   "pass": 0,
   "fail": 0,
-  "pass_paraphrase_anchored": 16
+  "pass_paraphrase_anchored": 25
  },
  "claims": [
   {
@@ -256,6 +257,141 @@
     }
    ],
    "locator": "DermNet (Alani Z, Jarrett P; previous contributor Oakley A), New Zealand, 'Discoid lupus erythematosus', 2022, https://dermnetnz.org/topics/discoid-lupus-erythematosus, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**Skin disease in SLE, first line:** a topical steroid or calcineurin inhibitor, an antimalarial, and a systemic steroid if needed. **Second line:** anifrolumab, belimumab, methotrexate or mycophenolate.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "b957515b63ca2224",
+     "n": 342,
+     "p": "5. Treat"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Hydroxychloroquine for every patient with SLE unless contraindicated, aiming at 5 mg/kg of real body weight a day,** with the dose tailored to that person's risks of flare and of retinal toxicity.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "87ed2d1a3f10180e",
+     "n": 210,
+     "p": "Hydroxyc"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Closer eye follow-up for those at higher retinal risk:** kidney disease, existing macular or retinal disease, or tamoxifen.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "a26ccdc5c41a740f",
+     "n": 175,
+     "p": "with pat"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**In moderate or severe disease a higher starting dose (above 5 mg/kg/day, never over 400 mg/day) is allowed,** coming back into range once the patient improves.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "353eb3a4ff98db07",
+     "n": 237,
+     "p": "In selec"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24",
+   "dose": true
+  },
+  {
+   "claim": "**Where it is available, a hydroxychloroquine blood level can guide the dose and show poor adherence;** testing everyone routinely is not practical.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "545b10c6d7754115",
+     "n": 443,
+     "p": "Task For"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Chloroquine can stand in where hydroxychloroquine is unavailable, but is likely more toxic to the retina.** Mepacrine (quinacrine) can be added after an inadequate response, or replace hydroxychloroquine after retinopathy, though intolerance and poor availability limit it.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "ec0c7969186dc750",
+     "n": 142,
+     "p": "In such "
+    },
+    {
+     "h": "28eea7bf95030c98",
+     "n": 235,
+     "p": "Quinacri"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**About 40% do not respond to first-line treatment.** In one small retrospective series of 73 refractory patients, methotrexate and mycophenolate did about equally well (around 65%).",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "02afd15d48d8f451",
+     "n": 123,
+     "p": "For the "
+    },
+    {
+     "h": "8d3eaf9cc9199fd3",
+     "n": 151,
+     "p": "A small "
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Dapsone, retinoids, calcineurin inhibitors, azathioprine, cyclophosphamide and rituximab remain later options,** best chosen with a dermatologist experienced in CLE. ⚠️ Keep thalidomide and lenalidomide for disease that has failed several agents, with the greatest care in women who could become pregnant; lenalidomide carries less polyneuropathy risk.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "103d5a1c64651193",
+     "n": 255,
+     "p": "the list"
+    },
+    {
+     "h": "3a41af6baf39e2cf",
+     "n": 336,
+     "p": "Finally,"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Systemic steroids:** dose by organ and severity, bring them down to no more than 5 mg/day of prednisone (or equivalent) for maintenance, and stop them when possible.",
+   "source": "S2",
+   "verdict": "pass_paraphrase_anchored",
+   "anchors": [
+    {
+     "h": "7eb7a798682d4135",
+     "n": 217,
+     "p": "2. Gluco"
+    }
+   ],
+   "locator": "EULAR task force (Fanouriakis A, Kostopoulou M, Andersen J, et al.), Annals of the Rheumatic Diseases 2024;83:15-29 (doi 10.1136/ard-2023-224762), 'EULAR recommendations for the management of systemic lupus erythematosus: 2023 update', published online 12 October 2023, http://publicatio.bibl.u-szeged.hu/28452/3/34193576_megjelent.pdf, retrieved 2026-09-24",
+   "dose": true
   },
   {
    "claim": "**DLE is chronic and can last for years; treatment is often difficult.** ⚠️ Squamous cell carcinoma can rarely develop in a long-standing plaque on skin or mucosa.",

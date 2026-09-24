@@ -1,11 +1,13 @@
 # Cryopyrin-associated periodic syndromes (CAPS) — diagnosis, IL-1 blockade and monitoring
 
-**Edition:** 1.0 · 2026-09-23 · **Status:** drafted and source-anchored; awaiting clinical attestation
+**Edition:** 2.0 · 2026-09-24 · **Status:** drafted and source-checked; awaiting clinical attestation
 **Scope:** recognising the CAPS spectrum (FCAS, Muckle-Wells, NOMID/CINCA), genetic and clinical work-up, IL-1 blocking treatment (anakinra, canakinumab, rilonacept), and long-term monitoring including amyloidosis, infection, vaccination, transition and pregnancy. TRAPS, MKD and DIRA, covered by the same source, are summarised only where the advice is shared. PBS access (anakinra) is in `docs/no-guideline-pbs-listings.md`.
 
-> ✅ **PARAPHRASED, HASH-ANCHORED.** 21 claims paraphrased from **EULAR / American College of Rheumatology task force, Arthritis & Rheumatology 2022;74(7):1102 (author manuscript in PMC) — *The 2021 EULAR/American College of Rheumatology Points to Consider for Diagnosis, Management and Monitoring of the Interleukin-1 Mediated Autoinflammatory Diseases: Cryopyrin-Associated Periodic Syndromes, Tumour Necrosis Factor Receptor-Associated Periodic Syndrome, Mevalonate Kinase Deficiency, and Deficiency of the Interleukin-1 Receptor Antagonist*** (published 27 May 2022; origin: international). **32 anchors re-checkable by machine; 2 doses.** The source's words are not reproduced: its licence is *Author manuscript: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.'*.
+> ✅ **COMPILED FROM 2 SOURCES.** 27 claims; **43 fragments or anchors re-checkable by machine; 2 doses.** **S1** EULAR / American College of Rheumatology task force (published 27 May 2022; international): 21 claims, paraphrased, hash-anchored · **S2** Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T (published 16 June 2026; AU): 6 claims, quoted
 
-> ⚠️ International guideline (EULAR/ACR, 2021). Australian practice follows the PBS listings below and may differ.
+> ⚠️ International guideline (EULAR/ACR, 2021) for S1, which carries recognition, treatment and monitoring. Australian practice follows the PBS listings below and may differ.
+
+> 🇦🇺 **S2 is Australasian (ASCIA consensus statement on molecular diagnosis of inborn errors of immunity, 2026)** and covers genetic testing only: who to test, funding in Australia, interpreting results and genetic counselling. It addresses autoinflammatory disease as a group, not CAPS specifically.
 
 > ⚠️ **Rare disease, low-level evidence:** the points to consider rest largely on expert opinion (retained only with more than 80% agreement).
 
@@ -24,6 +26,15 @@
 - **Suggestive features should prompt genetic testing, usually by next-generation sequencing.** Severe cases are often de novo and may be somatic mosaics missed at standard depth; if testing is unrevealing, refer to an expert centre. [S1]
 - **Every CAPS patient needs a baseline slit-lamp and retinal examination.** If neurological disease is suspected, add brain imaging and lumbar puncture (raised pressure, aseptic meningitis); dedicated MRI can show cochlear enhancement, atrophy and ventriculomegaly. [S1]
 - **CRP, ESR and (where available) serum amyloid A track disease activity and damage risk.** [S1]
+
+## Genetic testing in Australia (ASCIA)
+
+- **ASCIA: consider genomic testing in selected patients with autoinflammatory disease:** a classical phenotype suggesting a monogenic disorder, or atypical features, severe disease, treatment resistance or family history, above all with early onset. [S2]
+- **Expect a lower yield than in other inborn errors of immunity (7–20%)**, partly because of somatic mutations; treatment is often the same across genetic diagnoses, and isolated uncomplicated periodic fever in young children (e.g. PFAPA) is rarely monogenic. [S2]
+- ⚠️ **There is no federal Medicare funding for IEI genomic testing in Australia;** the patient pays privately or the state Hospital and Health Service covers it. [S2]
+- ⚠️ **Do not withhold treatment while genomic results are pending:** a genetic diagnosis is not a prerequisite for starting therapy, and treatment decisions should mostly rest on the phenotype. Decide on testing with an immunologist experienced in these disorders. [S2]
+- **Know which genes the panel covers** (curated lists such as PanelApp Australia help). A negative result does not exclude a genetic cause, reanalysis raises the yield, and a variant of uncertain significance must not drive treatment on its own. [S2]
+- **Give genetic counselling before and after testing,** ideally from an immunologist and a genetic counsellor with IEI expertise; Australian Genomics provides standard consent forms and information sheets. Cover at-risk relatives, reproductive decisions and cascade testing. [S2]
 
 ## Treat
 
@@ -64,12 +75,16 @@ Derived from PBS Public API data: counts of current restrictions, access type an
 | 2 | **Rilonacept and canakinumab:** the PBS row for CAPS lists anakinra only; availability of the others in Australia was not checked. | `observation` |
 | 3 | **TRAPS, MKD and DIRA** are in the same source but outside this PBS condition; familial Mediterranean fever has separate EULAR recommendations. | `out_of_scope` |
 | 4 | **Source copy:** the NIH author manuscript was used (the publisher and Annals of the Rheumatic Diseases versions returned errors or a bot challenge). | `observation` |
-| 5 | **Licence:** author manuscript, text-mining/fair-use terms. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 5 | **The sources differ on who to test:** S1 says suggestive clinical features should trigger genetic investigation; S2 (Australian) says to consider genomic testing in selected patients, noting a 7–20% yield in autoinflammatory disease and no Medicare funding. Both are shown. | `observation` |
+| 6 | **No Australian CAPS-specific guideline was found.** Searches of Europe PMC for Australian or New Zealand statements on CAPS, cryopyrin or autoinflammatory disease found only S2, which is general. | `observation` |
+| 7 | **Licence:** author manuscript, text-mining/fair-use terms. The claims are paraphrased and hash-anchored; the source's words are not reproduced. | `observation` |
+| 8 | **S2 licence:** CC BY 4.0; its claims are quoted verbatim with attribution. | `observation` |
 
 ## Sources
 
 | id | Source | Licence | Treatment |
 |---|---|---|---|
 | **S1** | EULAR / American College of Rheumatology task force, Arthritis & Rheumatology 2022;74(7):1102 (author manuscript in PMC). *The 2021 EULAR/American College of Rheumatology Points to Consider for Diagnosis, Management and Monitoring of the Interleukin-1 Mediated Autoinflammatory Diseases: Cryopyrin-Associated Periodic Syndromes, Tumour Necrosis Factor Receptor-Associated Periodic Syndrome, Mevalonate Kinase Deficiency, and Deficiency of the Interleukin-1 Receptor Antagonist*. published 27 May 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9531906/ — retrieved 2026-09-23. | Author manuscript: 'This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.' | **paraphrased, hash-anchored** |
+| **S2** | Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250). *Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis*. published 16 June 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/ — retrieved 2026-09-24. | CC BY 4.0 | **quoted, re-checkable** |
 
 ⚠️ **`verifier_class: single_verifier_uncalibrated` — written and checked by one model, reviewed by nobody.**

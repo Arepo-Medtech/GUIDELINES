@@ -1,18 +1,20 @@
 {
  "guideline": "guidelines/chronic-granulomatous-disease.md",
- "edition": "1.0",
- "verified_utc": "2026-09-23",
+ "edition": "2.0",
+ "verified_utc": "2026-09-24",
  "verifier": "claude-opus-5-5",
  "verifier_class": "single_verifier_uncalibrated",
  "retrieved_from": [
-  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/"
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/"
  ],
- "retrieved_utc": "2026-09-23",
+ "retrieved_utc": "2026-09-24",
  "source_origin": "international",
- "method": "OPEN AND QUOTED from Leiding JW et al., Journal of Human Immunity 'How I Treat: Chronic granulomatous disease' (published online 16 April 2026). Every pass claim is machine re-checkable. LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13177424). ",
+ "method": "COMPILED FROM 3 SOURCES. S1: QUOTED from Leiding JW et al., Journal of Human Immunity 'How I Treat: Chronic granulomatous disease' (published online 16 April 2026), 24 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13177424). S2: QUOTED from Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250) 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis' (published 16 June 2026), 6 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13271007). S3: QUOTED from Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0) 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism' (published 22 May 2026), 5 claims; LICENCE: CC BY 4.0 (read at Europe PMC fullTextXML <license> element for PMC13349871). Verify each source separately: verify.py --source <file> --only-source S<n>. Edition 2.0 adds S2 (ASCIA consensus on IEI molecular diagnosis) and S3 (EBMT/ESID 2026 HSCT guidelines), both from Europe PMC JATS XML through pmc_text.py with tables stripped, quoted under CC BY 4.0. The S1 claims are unchanged.",
  "summary": {
-  "total": 24,
-  "pass": 24,
+  "total": 35,
+  "pass": 35,
   "fail": 0
  },
  "claims": [
@@ -50,6 +52,48 @@
    "verdict": "pass",
    "source_text": "we recommend genetic testing in combination with functional testing to help confirm the diagnosis in all suspected cases of CGD … As a result, many CGD gene panels exclude NCF1 or only include analysis of a portion of exon 2 … If the C G D gene testing is negative, dedicated N C F 1 sequencing is considered.",
    "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "🇦🇺 **ASCIA recommends genomic testing for every patient with a suspected monogenic phagocytic defect, including CGD.** The gene and inheritance pattern matter for testing relatives, family planning and choosing a stem cell donor.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Recommendation: Genomic testing is recommended for all patients with suspected monogenic phagocytic defects, including chronic granulomatous disease and leukocyte adhesion deficiency. … Characterization of the genetic defect and inheritance pattern can have important implications for testing of family members, family planning, and selection of stem cell donors.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **There is no federal Medicare funding for IEI genomic testing in Australia;** the patient pays privately or the state Hospital and Health Service covers it.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Currently there is no federal-level Medicare funding for IEI genomic testing in Australia. Costs are covered privately by the patient or the state-level Hospital and Health Services.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Do not hold back supportive treatment while genomic results are pending:** a genetic diagnosis is not needed before supportive therapy starts.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A genetic diagnosis should not be a prerequisite confirmatory test to initiate supportive therapy, and therapy should not be withheld while genomic results are pending",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Check which genes the ordered panel contains** (curated lists such as PanelApp Australia help): laboratories' panels do not all contain the same genes.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Recommendation: Clinicians ordering genomic testing should be aware of the genes included in the panel they are requesting, including that the genes associated with the phenotype under investigation have been included and/or whether genes not associated with presentation have been tested. … Panels used by different genomic testing laboratories do not all contain the same gene lists. … There are curated gene panels for phenotypes associated with IEI, such as PanelApp Australia (https://panelapp-aus.org/), which aim to establish an up to date, robust evidence base for gene-disease relationships",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**A negative genomic result does not exclude an inborn error of immunity;** reanalysis raises the yield, and a variant of uncertain significance must not drive treatment on its own.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "A genomic test that does not reveal a genetic cause for a patient's presentation cannot be used to exclude an IEI or a genetic diagnosis. A genetic cause beyond the limits of testing technology or current knowledge remains possible, with a near exponential increase in gene discovery (). Reanalysis of genomic testing has been shown to increase diagnostic yield … VUS should not be used in isolation to make treatment decisions for a patient, as this can lead to inappropriate and harmful treatment",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Give genetic counselling before and after testing,** ideally from an immunologist and a genetic counsellor with IEI expertise, using the Australian Genomics consent forms and information sheets; cover at-risk relatives, reproductive decisions and cascade testing.",
+   "source": "S2",
+   "verdict": "pass",
+   "source_text": "Genetic counselling should be provided before and after genomic testing, ideally with both an immunologist and a genetic counsellor with expertise in IEI (). Standard consent forms and information sheets are now available via Australian Genomics to support pretest discussion with patients … There are also several important familial considerations, including identifying at-risk relatives, informing reproductive decision-making, and cascade testing.",
+   "locator": "Australasian Society of Clinical Immunology and Allergy (ASCIA) (Yanes T, Cole T, Kane A, King J, Pinzon-Charry A, Hsiao KC, McNaughton P), Journal of Human Immunity 2(5):e20250250 (doi 10.70962/jhi.20250250), 'Australasian Society of Clinical Immunology and Allergy consensus statement on IEI molecular diagnosis', published 16 June 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13271007/, retrieved 2026-09-24"
   },
   {
    "claim": "⚠️ **Co-trimoxazole is the core antibacterial prophylaxis: 5 mg/kg of the trimethoprim component, up to 160 mg (one double-strength tablet), daily.** The intermittent schedules used for *Pneumocystis* are not enough.",
@@ -179,6 +223,41 @@
    "verdict": "pass",
    "source_text": "we recommend against the use of granulocyte infusions in patients with CGD, as this has the potential to impact success of later HCT … GT for CGD is a promising but experimental approach to definitive treatment.",
    "locator": "Leiding JW et al., Journal of Human Immunity, 'How I Treat: Chronic granulomatous disease', published online 16 April 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13177424/, retrieved 2026-09-23"
+  },
+  {
+   "claim": "**EBMT/ESID: growing international experience supports HSCT as standard of care in CGD, often pre-emptively.**",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "In diseases such as Wiskott-Aldrich syndrome or chronic granulomatous disease (CGD), growing international experience and retrospective data have helped define the long-term natural history and HSCT outcomes [, -]. This supports HSCT as standard of care, even as a pre-emptive measure in many patients with these conditions and facilitates informed counselling and decision-making.",
+   "locator": "Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0), 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism', published 22 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Adolescents and adults (over 15 years) are increasingly transplanted;** patients with phagocyte disorders such as CGD do better than those with combined immunodeficiency or antibody deficiency, and ongoing complications argue for transplanting pre-emptively.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "HSCT for adolescent and adult patients ( > 15years and into the seventh decade of life) has become increasingly more common in recent years, likely due to advances in genetic diagnostics, improved survival into adulthood with conservative treatment and recent data demonstrating good outcomes following HSCT in older IEI patients [, ]. Complications tend to accumulate with age, which can result in end-organ damage, reduced quality of life and early death. However, identifying patients who may benefit from HSCT remains challenging, in part due to phenotypic heterogeneity and the absence of a genetic diagnosis in some []. Patients with higher HSCT-CI scores, active immune dysregulation or permanent organ damage have a worse outcome, while recipient age or donor type do not independently influence survival [, ], arguing for a more pre-emptive approach to HSCT in patients who have ongoing or recurrent IEI-related complications. Patients with phagocyte disorders (e.g. CGD) fare better than those with CID or primary antibody deficiencies",
+   "locator": "Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0), 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism', published 22 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "⚠️ **Treat all active infections before transplant where possible, and identify antimicrobial resistance:** active infection at transplant worsens outcomes.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Active infections at the time of transplantation are associated with inferior outcomes in multiple settings … It is strongly recommended to treat all active infections prior to HSCT when possible and identify any antimicrobial resistance.",
+   "locator": "Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0), 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism', published 22 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**With severe permanent lung or liver damage, treosulfan-based conditioning may be preferred** to lower the risk of veno-occlusive disease and lung toxicity.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "In patients with severe, permanent liver or lung injury, treosulfan-based regimens may be preferred to minimize the risk of veno-occlusive disease (VOD) and pulmonary toxicity",
+   "locator": "Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0), 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism', published 22 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/, retrieved 2026-09-24"
+  },
+  {
+   "claim": "**Donors:** matched unrelated donors now give survival similar to matched siblings, though an HLA-identical sibling is still first choice in most cases. Screen family donors for being affected by, or a carrier of, the same defect.",
+   "source": "S3",
+   "verdict": "pass",
+   "source_text": "Survival rates obtained with matched unrelated donors are now similar to those of matched sibling donors [, ]. The higher rates of HSCT complications and often higher donor age with matched unrelated donors still justify the position of HLA identical siblings as the first choice in most cases. That notwithstanding, family donor screening should check whether a candidate donor is affected by or a carrier of the same genetic defect, especially in diseases with a late or variable onset of clinical presentation",
+   "locator": "Inborn Errors Working Party of the European Society for Blood and Marrow Transplantation (EBMT) and the European Society for Immunodeficiencies (ESID) (Albert MH, Lankester AC, Wynn R, et al.), Bone Marrow Transplantation 61(7):791-804 (doi 10.1038/s41409-026-02906-0), 'Updated EBMT/ESID inborn errors working party guidelines for haematopoietic stem cell transplantation for inborn errors of immunity and metabolism', published 22 May 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/, retrieved 2026-09-24"
   },
   {
    "claim": "**Carriers with under 20% normal oxidase-producing neutrophils are at risk of CGD-type infections** and may need prophylaxis. Repeat the DHR periodically. Carriers should not donate marrow to affected male relatives.",
